@@ -57,19 +57,19 @@
         {
           "level": 5,
           "name": "9:2",
-          "abName": "Skin Prophet",
-          "desc": "<style=\"highlight\">Required Gluttony E.G.O resource to use this Skill is reduced by 1</style>\n[BeforeAttack] At 4+ (<style=\"highlight\">highest Reson.</style>), Atk Weight +1\nAt 6+ (<style=\"highlight\">highest Reson.</style>), additional Atk Weight +1\n\n<style=\"highlight\">[BeforeAttack] Deal +5% damage for every ([Combustion] on all targets + [Combustion] on self) (max 100%)</style>",
+          "abName": "Tiên tri Da",
+          "desc": "<style=\"highlight\">Tài nguyên E.G.O Phàm ăn cần thiết để dùng Kĩ năng này giảm 1</style>\n[BeforeAttack] Nếu (<style=\"highlight\">Số Cộng hưởng Hoàn toàn Sắc dục tối đa</style>) từ 4 trở lên, Chỉ số Mục tiêu Kĩ năng +1\nNếu (<style=\"highlight\">Số Cộng hưởng Hoàn toàn Sắc dục tối đa</style>) từ 6 trở lên, cộng thêm 1 Chỉ số Mục tiêu Kĩ năng\n\n<style=\"highlight\">[BeforeAttack] Gây +5% sát thương cho mỗi ([Combustion] trên tất cả mục tiêu + [Combustion] trên bản thân) (Tối đa 100%)</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Combustion]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Gây 3 [Combustion]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflict 5 [DefenseDown]</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Gây 5 [DefenseDown]</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Convert 2 [Combustion] on target into 1 [DefenseDown] (<style=\"highlight\">max 5; this effect cannot lower target's [Combustion] Potency below 1)\n- If target has fewer than 10 [Combustion] Potency, this unit may use excess [Combustion] Potency on self past 30 for the above effect</style>"
+                  "desc": "[OnSucceedAttack] Chuyển đổi 2 [Combustion] của mục tiêu thành 1 [DefenseDown] (<style=\"highlight\">Tối đa 5; hiệu ứng này không thể giảm Uy lực [Combustion] của mục tiêu xuống dưới 1)\n- Nếu Uy lực [Combustion] của mục tiêu dưới 10, đơn vị này có thể dùng Uy lực [Combustion] dư thừa vượt quá 30 trên bản thân cho hiệu ứng trên</style>"
                 }
               ]
             }
@@ -143,8 +143,8 @@
         {
           "level": 5,
           "name": "9:2",
-          "abName": "Skin Prophet",
-          "desc": "[CantIdentify]\nTargets randomly\n<style=\"highlight\">Required Gluttony E.G.O resource to use this Skill is reduced by 1</style>\n[BeforeAttack] At 4+ (<style=\"highlight\">highest Reson.</style>), Atk Weight +1\nAt 6+ (<style=\"highlight\">highest Reson.</style>), additional Atk Weight +1\n\n<style=\"highlight\">[BeforeAttack] Deal +6% damage for every ([Combustion] on all targets + [Combustion] on self) (max 120%)\n[DefeatDuel] Base Power -10</style>",
+          "abName": "Tiên tri Da",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\n<style=\"highlight\">Tài nguyên E.G.O Phàm ăn cần thiết để dùng Kĩ năng này giảm 1</style>\n[BeforeAttack] Nếu (<style=\"highlight\">Số Cộng hưởng Hoàn toàn Sắc dục tối đa</style>) từ 4 trở lên, Chỉ số Mục tiêu Kĩ năng +1\nNếu (<style=\"highlight\">Số Cộng hưởng Hoàn toàn Sắc dục tối đa</style>) từ 6 trở lên, cộng thêm 1 Chỉ số Mục tiêu Kĩ năng\n\n<style=\"highlight\">[BeforeAttack] Gây +6% sát thương cho mỗi ([Combustion] trên tất cả mục tiêu + [Combustion] trên bản thân) (Tối đa 120%)\n[DefeatDuel] Sức mạnh Cơ bản -10</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -152,16 +152,16 @@
                   "desc": "<style=\"highlight\">[SuperCoin]</style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Inflict 2 [Binding] next turn"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Gây 2 [Binding] ở lượt kế tiếp"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Combustion]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Gây 4 [Combustion]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflict 5 [DefenseDown]</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Gây 5 [DefenseDown]</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Convert 2 [Combustion] on target into 1 [DefenseDown] (<style=\"highlight\">max 5; this effect cannot lower target's [Combustion] Potency below 1)\n- If target has fewer than 10 [Combustion] Potency, this unit may use excess [Combustion] Potency on self past 30 for the above effect</style>"
+                  "desc": "[OnSucceedAttack] Chuyển đổi 2 [Combustion] của mục tiêu thành 1 [DefenseDown] (<style=\"highlight\">Tối đa 5; hiệu ứng này không thể giảm Uy lực [Combustion] của mục tiêu xuống dưới 1)\n- Nếu Uy lực [Combustion] của mục tiêu dưới 10, đơn vị này có thể dùng Uy lực [Combustion] dư thừa vượt quá 30 trên bản thân cho hiệu ứng trên</style>"
                 }
               ]
             }
@@ -1089,8 +1089,8 @@
         {
           "level": 1,
           "name": "Le Trou",
-          "abName": "Hollowed Man",
-          "desc": "[CantDuel]\nWhen used for the first time in an Encounter, consume 5 less SP, 2 fewer Gloom, 2 fewer Pride, and 2 fewer Envy E.G.O Resources\nAt 1+ [BulletHole], activate as \"Boucher un trou\" instead\nThis Skill does not hit an enemy, does not trigger Defense Skills, and external effects cannot trigger this Skill to be Reused\n[EndSkill] Gain 5 [BulletHole]\n[EndSkill] Gain 5 [Breath] Potency\n[EndSkill] Gain +3 [Breath] Count\n[EndSkill] Gain +5 [Charge] Count\n[EndSkill] Gain 4 [BlackWingHole]",
+          "abName": "Người Rỗng",
+          "desc": "[CantDuel]\nKhi sử dụng lần đầu trong trận chiến, tiêu hao ít hơn 5 Tinh thần và 2 tài nguyên E.G.O U sầu, 2 Ngạo mạn, 2 Đố kỵ\nNếu có từ 1 [BulletHole] trở lên, thay vào đó kích hoạt dưới dạng \"Boucher un trou\"\nKĩ năng này không đánh trúng kẻ địch, không kích hoạt kĩ năng phòng ngự và hiệu ứng bên ngoài không thể khiến Kĩ năng này được tái sử dụng\n[EndSkill] Nhận 5 [BulletHole]\n[EndSkill] Nhận 5 Uy lực [Breath]\n[EndSkill] Nhận +3 Số lượng [Breath]\n[EndSkill] Nhận +5 Số lượng [Charge]\n[EndSkill] Nhận 4 [BlackWingHole]",
           "coinlist": [
             {}
           ]
@@ -1098,8 +1098,8 @@
         {
           "level": 3,
           "name": "Le Trou",
-          "abName": "Hollowed Man",
-          "desc": "[CantDuel]\nWhen used for the first time in an Encounter, consume 5 less SP, 2 fewer Gloom, 2 fewer Pride, and 2 fewer Envy E.G.O Resources\nAt 1+ [BulletHole], activate as \"Boucher un trou\" instead\nThis Skill does not hit an enemy, does not trigger Defense Skills, and external effects cannot trigger this Skill to be Reused\n[EndSkill] Gain 5 [BulletHole]\n[EndSkill] Gain 5 [Breath] Potency\n[EndSkill] Gain +3 [Breath] Count\n[EndSkill] Gain +5 [Charge] Count\n[EndSkill] Gain 4 [BlackWingHole]",
+          "abName": "Người Rỗng",
+          "desc": "[CantDuel]\nKhi sử dụng lần đầu trong trận chiến, tiêu hao ít hơn 5 Tinh thần và 2 tài nguyên E.G.O U sầu, 2 Ngạo mạn, 2 Đố kỵ\nNếu có từ 1 [BulletHole] trở lên, thay vào đó kích hoạt dưới dạng \"Boucher un trou\"\nKĩ năng này không đánh trúng kẻ địch, không kích hoạt kĩ năng phòng ngự và hiệu ứng bên ngoài không thể khiến Kĩ năng này được tái sử dụng\n[EndSkill] Nhận 5 [BulletHole]\n[EndSkill] Nhận 5 Uy lực [Breath]\n[EndSkill] Nhận +3 Số lượng [Breath]\n[EndSkill] Nhận +5 Số lượng [Charge]\n[EndSkill] Nhận 4 [BlackWingHole]",
           "coinlist": [
             {}
           ]
@@ -1107,8 +1107,8 @@
         {
           "level": 4,
           "name": "Le Trou",
-          "abName": "Hollowed Man",
-          "desc": "[CantDuel]\nWhen used for the first time in an Encounter, consume 5 less SP, 2 fewer Gloom, 2 fewer Pride, and 2 fewer Envy E.G.O Resources\nAt 1+ [BulletHole], activate as \"Boucher un trou\" instead\nThis Skill does not hit an enemy, does not trigger Defense Skills, and external effects cannot trigger this Skill to be Reused\n[EndSkill] Gain 5 [BulletHole]\n[EndSkill] Gain 5 [Breath] Potency\n[EndSkill] Gain +3 [Breath] Count\n[EndSkill] Gain +5 [Charge] Count\n[EndSkill] Gain 4 [BlackWingHole]",
+          "abName": "Người Rỗng",
+          "desc": "[CantDuel]\nKhi sử dụng lần đầu trong trận chiến, tiêu hao ít hơn 5 Tinh thần và 2 tài nguyên E.G.O U sầu, 2 Ngạo mạn, 2 Đố kỵ\nNếu có từ 1 [BulletHole] trở lên, thay vào đó kích hoạt dưới dạng \"Boucher un trou\"\nKĩ năng này không đánh trúng kẻ địch, không kích hoạt kĩ năng phòng ngự và hiệu ứng bên ngoài không thể khiến Kĩ năng này được tái sử dụng\n[EndSkill] Nhận 5 [BulletHole]\n[EndSkill] Nhận 5 Uy lực [Breath]\n[EndSkill] Nhận +3 Số lượng [Breath]\n[EndSkill] Nhận +5 Số lượng [Charge]\n[EndSkill] Nhận 4 [BlackWingHole]",
           "coinlist": [
             {}
           ]
@@ -1121,8 +1121,8 @@
         {
           "level": 1,
           "name": "Boucher un trou",
-          "abName": "Hollowed Man",
-          "desc": "External effects cannot trigger this Skill to be reused\nClash Power +1 for every 4 ([Breath] Potency + [Charge] Count) on self (max 5)\nClash Power +2 for every [BulletHole]\n[BeforeAttack] Spend all [BulletHole] and apply the following effects:\n- Gain 2 [Breath] Potency, +1 [Breath] Count, and +2 [Charge] Count for every [BulletHole] spent\n- Deal +8% damage for every [BulletHole] spent\nIf this Skill spent 5 [BulletHole], heal 5 SP\n[EndSkill] Gain 1 [BulletHole]",
+          "abName": "Người Rỗng",
+          "desc": "Hiệu ứng bên ngoài không thể khiến Kĩ năng này được tái sử dụng\nSức mạnh Đối kháng +1 cho mỗi 4 (Uy lực [Breath] + Số lượng [Charge]) trên bản thân (Tối đa 5)\nSức mạnh Đối kháng +2 cho mỗi [BulletHole]\n[BeforeAttack] Tiêu hao toàn bộ [BulletHole] và áp dụng các hiệu ứng sau:\n- Nhận 2 Uy lực [Breath], +1 Số lượng [Breath] và +2 Số lượng [Charge] cho mỗi [BulletHole] đã tiêu hao\n- Gây +8% sát thương cho mỗi [BulletHole] đã tiêu hao\nNếu Kĩ năng này đã tiêu hao 5 [BulletHole], hồi 5 Tinh thần\n[EndSkill] Nhận 1 [BulletHole]",
           "coinlist": [
             {
               "coindescs": [
@@ -1130,10 +1130,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "Reuse this Coin ([BulletHole] spent - 1) times (max 4 times)"
+                  "desc": "Tái sử dụng đồng xu này ([BulletHole] đã tiêu hao - 1) lần (Tối đa 4 lần)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Gây 1 [Sinking]"
                 }
               ]
             }
@@ -1142,8 +1142,8 @@
         {
           "level": 3,
           "name": "Boucher un trou",
-          "abName": "Hollowed Man",
-          "desc": "External effects cannot trigger this Skill to be reused\n<style=\"highlight\">Deal +5% damage for every excess Atk Weight beyond the # of actual targets (in Focused Encounters, the Part)</style>\nClash Power +1 for every 4 ([Breath] Potency + [Charge] Count) on self (max <style=\"highlight\">7</style>)\nClash Power +2 for every [BulletHole]\n<style=\"highlight\">[BeforeAttack] When attacking just 1 target, deal +50% damage (in Focused Encounters, the Core and its connected Parts count as a single target)</style>\n[BeforeAttack] Spend all [BulletHole] and apply the following effects:\n- Gain 2 [Breath] Potency, +1 [Breath] Count, and +2 [Charge] Count for every [BulletHole] spent\n- Deal +8% damage for every [BulletHole] spent\nIf this Skill spent 5 [BulletHole], heal 5 SP\n[EndSkill] Gain 1 [BulletHole]",
+          "abName": "Người Rỗng",
+          "desc": "Hiệu ứng bên ngoài không thể khiến Kĩ năng này được tái sử dụng\n<style=\"highlight\">Gây +5% sát thương cho mỗi Trọng số tấn công dư thừa vượt quá số lượng mục tiêu thực tế (trong Trận chiến Tập trung, là Bộ phận)</style>\nSức mạnh Đối kháng +1 cho mỗi 4 (Uy lực [Breath] + Số lượng [Charge]) trên bản thân (Tối đa <style=\"highlight\">7</style>)\nSức mạnh Đối kháng +2 cho mỗi [BulletHole]\n<style=\"highlight\">[BeforeAttack] Khi chỉ tấn công 1 mục tiêu, gây +50% sát thương (trong Trận chiến Tập trung, Lõi và các Bộ phận kết nối với nó được tính là một mục tiêu)</style>\n[BeforeAttack] Tiêu hao toàn bộ [BulletHole] và áp dụng các hiệu ứng sau:\n- Nhận 2 Uy lực [Breath], +1 Số lượng [Breath] và +2 Số lượng [Charge] cho mỗi [BulletHole] đã tiêu hao\n- Gây +8% sát thương cho mỗi [BulletHole] đã tiêu hao\nNếu Kĩ năng này đã tiêu hao 5 [BulletHole], hồi 5 Tinh thần\n[EndSkill] Nhận 1 [BulletHole]",
           "coinlist": [
             {
               "coindescs": [
@@ -1151,10 +1151,10 @@
                   "desc": "[SuperCoin]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "(Reuse this Coin ([BulletHole] spent - 1) times (max 4 times)<style=\"highlight\"></style>"
+                  "desc": "(Tái sử dụng đồng xu này ([BulletHole] đã tiêu hao - 1) lần (Tối đa 4 lần)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Gây 1 [Sinking]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -1163,8 +1163,8 @@
         {
           "level": 4,
           "name": "Boucher un trou",
-          "abName": "Hollowed Man",
-          "desc": "External effects cannot trigger this Skill to be reused\nDeal <style=\"highlight\">+10%</style> damage for every excess Atk Weight beyond the # of actual targets (in Focused Encounters, the Part)\nClash Power +1 for every 4 ([Breath] Potency + [Charge] Count) on self (max <style=\"highlight\">10</style>)\nClash Power +2 for every [BulletHole]\n[BeforeAttack] When attacking just 1 target, deal <style=\"highlight\">+100%</style> damage (in Focused Encounters, the Core and its connected Parts count as a single target)</style>\n[BeforeAttack] Spend all [BulletHole] and apply the following effects:\n- Gain 2 [Breath] Potency, +1 [Breath] Count, and +2 [Charge] Count for every [BulletHole] spent\n- Deal +8% damage for every [BulletHole] spent\n<style=\"highlight\">[EndSkill] Apply 5 [Breath] Potency and +2 [Breath] Count on (2 + highest Reson.) allies (max 7 units)</style>\nIf this Skill spent 5 [BulletHole], heal 5 SP\n[EndSkill] Gain 1 [BulletHole]",
+          "abName": "Người Rỗng",
+          "desc": "Hiệu ứng bên ngoài không thể khiến Kĩ năng này được tái sử dụng\nGây <style=\"highlight\">+10%</style> sát thương cho mỗi Trọng số tấn công dư thừa vượt quá số lượng mục tiêu thực tế (trong Trận chiến Tập trung, là Bộ phận)\nSức mạnh Đối kháng +1 cho mỗi 4 (Uy lực [Breath] + Số lượng [Charge]) trên bản thân (Tối đa <style=\"highlight\">10</style>)\nSức mạnh Đối kháng +2 cho mỗi [BulletHole]\n[BeforeAttack] Khi chỉ tấn công 1 mục tiêu, gây <style=\"highlight\">+100%</style> sát thương (trong Trận chiến Tập trung, Lõi và các Bộ phận kết nối với nó được tính là một mục tiêu)</style>\n[BeforeAttack] Tiêu hao toàn bộ [BulletHole] và áp dụng các hiệu ứng sau:\n- Nhận 2 Uy lực [Breath], +1 Số lượng [Breath] và +2 Số lượng [Charge] cho mỗi [BulletHole] đã tiêu hao\n- Gây +8% sát thương cho mỗi [BulletHole] đã tiêu hao\n<style=\"highlight\">[EndSkill] Áp dụng 5 Uy lực [Breath] và +2 Số lượng [Breath] lên (2 + Số cộng hưởng tối đa) đồng minh (Tối đa 7 người)</style>\nNếu Kĩ năng này đã tiêu hao 5 [BulletHole], hồi 5 Tinh thần\n[EndSkill] Nhận 1 [BulletHole]",
           "coinlist": [
             {
               "coindescs": [
@@ -1172,10 +1172,10 @@
                   "desc": "[SuperCoin]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "(Reuse this Coin ([BulletHole] spent - 1) times (max 4 times)<style=\"highlight\"></style>"
+                  "desc": "(Tái sử dụng đồng xu này ([BulletHole] đã tiêu hao - 1) lần (Tối đa 4 lần)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Gây 1 [Sinking]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -1189,8 +1189,8 @@
         {
           "level": 1,
           "name": "Hollow",
-          "abName": "Hollowed Man",
-          "desc": "[CantIdentify]\nTargets randomly\nClash Power +1 for every 4 ([Breath] Potency + [Charge] Count) on self (max 5)\n\n[BeforeAttack] Gain +3 [Breath] Count and +5 [Charge] Count\n[BeforeAttack] Consume up to 15 excess [Charge] Count beyond 10 on self to deal +([Charge] Count consumed x 2)% damage\n[BeforeAttack] At max [BulletHole], spend all [BulletHole] to apply the following effects on all allies next turn:\n- 1 [AttackUp] \n- 1 [AttackDmgUp] (once per turn)\n- 1 [CriticalDamageUp] (once per turn)\n[BeforeAttack] Base Power -3 for every Cracked Coin (max -9)\n[EndSkill] Gain 1 [BulletHole] and 2 [BlackWingHole]",
+          "abName": "Người Rỗng",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\nSức mạnh Đối kháng +1 cho mỗi 4 (Uy lực [Breath] + Số lượng [Charge]) trên bản thân (Tối đa 5)\n\n[BeforeAttack] Nhận +3 Số lượng [Breath] và +5 Số lượng [Charge]\n[BeforeAttack] Tiêu hao tối đa 15 Số lượng [Charge] dư thừa vượt quá 10 trên bản thân để gây +(Số lượng [Charge] đã tiêu hao x 2)% sát thương\n[BeforeAttack] Khi đạt tối đa [BulletHole], tiêu hao toàn bộ [BulletHole] để áp dụng các hiệu ứng sau lên tất cả đồng minh vào lượt tiếp theo:\n- 1 [AttackUp]\n- 1 [AttackDmgUp] (1 lần mỗi lượt)\n- 1 [CriticalDamageUp] (1 lần mỗi lượt)\n[BeforeAttack] Sức mạnh Cơ bản -3 cho mỗi Đồng xu Nứt (Tối đa -9)\n[EndSkill] Nhận 1 [BulletHole] và 2 [BlackWingHole]",
           "coinlist": [
             {
               "coindescs": [
@@ -1198,7 +1198,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Gây +2 Số lượng [Sinking]"
                 }
               ]
             },
@@ -1208,7 +1208,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]"
+                  "desc": "[OnSucceedAttack] Gây 2 [Sinking]"
                 }
               ]
             },
@@ -1224,8 +1224,8 @@
         {
           "level": 3,
           "name": "Hollow",
-          "abName": "Hollowed Man",
-          "desc": "[CantIdentify]\nTargets randomly\nClash Power +1 for every 4 ([Breath] Potency + [Charge] Count) on self (max <style=\"highlight\">7</style>)\n\n[BeforeAttack] Gain +3 [Breath] Count and +5 [Charge] Count\n[BeforeAttack] Consume up to 15 excess [Charge] Count beyond 10 on self to deal +([Charge] Count consumed x <style=\"highlight\">3</style>)% damage\n[BeforeAttack] At max [BulletHole], spend all [BulletHole] to apply the following effects on all allies next turn:\n- 1 [AttackUp] \n- 1 [AttackDmgUp] (once per turn)\n- 1 [CriticalDamageUp] (once per turn)\n[BeforeAttack] Base Power -3 for every Cracked Coin (max -9)\n[EndSkill] Gain 1 [BulletHole] and 2 [BlackWingHole]\n<style=\"highlight\">[EndSkill] Apply 5 [Breath] Potency and +2 [Breath] Count on (2 + highest Reson.) random allies (max 7 units)</style>",
+          "abName": "Người Rỗng",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\nSức mạnh Đối kháng +1 cho mỗi 4 (Uy lực [Breath] + Số lượng [Charge]) trên bản thân (Tối đa <style=\"highlight\">7</style>)\n\n[BeforeAttack] Nhận +3 Số lượng [Breath] và +5 Số lượng [Charge]\n[BeforeAttack] Tiêu hao tối đa 15 Số lượng [Charge] dư thừa vượt quá 10 trên bản thân để gây +(Số lượng [Charge] đã tiêu hao x <style=\"highlight\">3</style>)% sát thương\n[BeforeAttack] Khi đạt tối đa [BulletHole], tiêu hao toàn bộ [BulletHole] để áp dụng các hiệu ứng sau lên tất cả đồng minh vào lượt tiếp theo:\n- 1 [AttackUp]\n- 1 [AttackDmgUp] (1 lần mỗi lượt)\n- 1 [CriticalDamageUp] (1 lần mỗi lượt)\n[BeforeAttack] Sức mạnh Cơ bản -3 cho mỗi Đồng xu Nứt (Tối đa -9)\n[EndSkill] Nhận 1 [BulletHole] và 2 [BlackWingHole]\n<style=\"highlight\">[EndSkill] Áp dụng 5 Uy lực [Breath] và +2 Số lượng [Breath] lên (2 + Số cộng hưởng tối đa) đồng minh ngẫu nhiên (Tối đa 7 người)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1233,7 +1233,7 @@
                   "desc": "[SuperCoin]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Sinking] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Gây +2 Số lượng [Sinking]<style=\"highlight\"></style>"
                 }
               ]
             },
@@ -1243,7 +1243,7 @@
                   "desc": "[SuperCoin]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Gây 2 [Sinking]<style=\"highlight\"></style>"
                 }
               ]
             },
@@ -1259,8 +1259,8 @@
         {
           "level": 4,
           "name": "Hollow",
-          "abName": "Hollowed Man",
-          "desc": "[CantIdentify]\nTargets randomly\nClash Power +1 for every 4 ([Breath] Potency + [Charge] Count) on self (max <style=\"highlight\">10</style>)\n\n[BeforeAttack] Gain +3 [Breath] Count and +5 [Charge] Count\n[BeforeAttack] Consume up to 15 excess [Charge] Count beyond 10 on self to deal +([Charge] Count consumed x <style=\"highlight\">5</style>)% damage\n[BeforeAttack] At max [BulletHole], spend all [BulletHole] to apply the following effects on all allies next turn:\n- 1 [AttackUp] \n- 1 [AttackDmgUp] (once per turn)\n- 1 [CriticalDamageUp] (once per turn)\n[BeforeAttack] Base Power -3 for every Cracked Coin (max -9)\n[EndSkill] Gain 1 [BulletHole] and 2 [BlackWingHole]\n[EndSkill] Apply 5 [Breath] Potency, +2 [Breath] Count, <style=\"highlight\">and 2 [BlackWingHole]</style> on (2 + highest Reson.) random allies (max 7 units)",
+          "abName": "Người Rỗng",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\nSức mạnh Đối kháng +1 cho mỗi 4 (Uy lực [Breath] + Số lượng [Charge]) trên bản thân (Tối đa <style=\"highlight\">10</style>)\n\n[BeforeAttack] Nhận +3 Số lượng [Breath] và +5 Số lượng [Charge]\n[BeforeAttack] Tiêu hao tối đa 15 Số lượng [Charge] dư thừa vượt quá 10 trên bản thân để gây +(Số lượng [Charge] đã tiêu hao x <style=\"highlight\">5</style>)% sát thương\n[BeforeAttack] Khi đạt tối đa [BulletHole], tiêu hao toàn bộ [BulletHole] để áp dụng các hiệu ứng sau lên tất cả đồng minh vào lượt tiếp theo:\n- 1 [AttackUp]\n- 1 [AttackDmgUp] (1 lần mỗi lượt)\n- 1 [CriticalDamageUp] (1 lần mỗi lượt)\n[BeforeAttack] Sức mạnh Cơ bản -3 cho mỗi Đồng xu Nứt (Tối đa -9)\n[EndSkill] Nhận 1 [BulletHole] và 2 [BlackWingHole]\n[EndSkill] Áp dụng 5 Uy lực [Breath], +2 Số lượng [Breath], <style=\"highlight\">và 2 [BlackWingHole]</style> lên (2 + Số cộng hưởng tối đa) đồng minh ngẫu nhiên (Tối đa 7 người)",
           "coinlist": [
             {
               "coindescs": [
@@ -1268,7 +1268,7 @@
                   "desc": "[SuperCoin]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Sinking] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Gây +2 Số lượng [Sinking]<style=\"highlight\"></style>"
                 }
               ]
             },
@@ -1278,7 +1278,7 @@
                   "desc": "[SuperCoin]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Gây 2 [Sinking]<style=\"highlight\"></style>"
                 }
               ]
             },

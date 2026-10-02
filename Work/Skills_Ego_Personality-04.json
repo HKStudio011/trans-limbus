@@ -61,18 +61,18 @@
           "level": 5,
           "name": "Soda",
           "abName": "Wellcheers",
-          "desc": "<style=\"highlight\">If target has less than 25% HP, deal +40% damage\n[BeforeAttack] At 4+ highest Reson., gain +1 Atk Weight\n\n[EndSkill] Apply 1 [GainSinStockAdder] next turn to (2 + highest Reson.) random allies, including this unit (max 7)\n[EndSkill] If there are Staggered or Panicked units among targets, gain 1 E.G.O resource for the least-owned Affinity; heal 3 SP</style>",
+          "desc": "<style=\"highlight\">Nếu mục tiêu có HP hiện tại dưới 25% HP tối đa, Sát thương +40%\n[BeforeAttack] Nếu Cộng hưởng tối đa từ 4 trở lên, Trọng số Tấn công +1\n\n[EndSkill] Gây 1 [GainSinStockAdder] vào lượt sau cho (2 + Cộng hưởng tối đa) đồng minh ngẫu nhiên, bao gồm bản thân (Tối đa 7)\n[EndSkill] Nếu trong số mục tiêu có đơn vị bị Choáng hoặc Hoảng loạn, nhận 1 tài nguyên E.G.O đang sở hữu ít nhất; hồi 3 Tinh thần cho bản thân</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflict 4 [Vibration]</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Gây 4 [Vibration]</style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflict 6 [Sinking]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[EnemyKill] Gain 3 E.G.O resources of a random Affinity currently owned; All allies heal 3 SP<style=\"highlight\"></style>"
+                  "desc": "[EnemyKill] Nhận 3 tài nguyên E.G.O thuộc 1 loại tài nguyên ngẫu nhiên trong số các tài nguyên E.G.O hiện có. Hồi 3 Tinh thần cho toàn bộ đồng minh<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -141,7 +141,7 @@
           "level": 5,
           "name": "Soda",
           "abName": "Wellcheers",
-          "desc": "[CantIdentify]\nTargets randomly\n\n<style=\"highlight\">If target has less than 25% HP, deal +40% damage\n[DefeatDuel] Base Power -12\n[BeforeAttack] At 4+ highest Reson., gain +1 Atk Weight\n[EndSkill] If there are Staggered or Panicked units among targets, gain 1 E.G.O resource for the least-owned Affinity; heal 3 SP</style>",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\n\n<style=\"highlight\">Nếu mục tiêu có HP hiện tại dưới 25% HP tối đa, Sát thương +40%\n[DefeatDuel] Sức mạnh cơ bản -12\n[BeforeAttack] Nếu Cộng hưởng tối đa từ 4 trở lên, Trọng số Tấn công +1\n[EndSkill] Nếu trong số mục tiêu có đơn vị bị Choáng hoặc Hoảng loạn, nhận 1 tài nguyên E.G.O đang sở hữu ít nhất; hồi 3 Tinh thần cho bản thân</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -149,7 +149,7 @@
                   "desc": "<style=\"highlight\">[SuperCoin]</style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflict 4 [Vibration]</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Gây 4 [Vibration]</style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflict 6 [Sinking]<style=\"highlight\"></style>"
@@ -158,7 +158,7 @@
                   "desc": "[EndSkill] All allies gain 1 [GainSinStockAdder], apply 1 [Agility] next turn<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[EndSkillTail] All allies gain 1 [GainSinStockAdder] next turn (once per turn)</style>"
+                  "desc": "<style=\"highlight\">[EndSkillTail] Toàn bộ đồng minh nhận 1 [GainSinStockAdder] vào lượt sau (1 lần mỗi lượt)</style>"
                 }
               ]
             }
