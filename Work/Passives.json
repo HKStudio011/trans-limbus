@@ -3087,14 +3087,14 @@
     {
       "id": 1071602,
       "name": "Duello Disperato",
-      "desc": "At Base Skill End against an enemy:\n- If the target is defeated while having [DuelEdgeAlly] (on any of its Parts), gain 1 [EvolvingManual]\n- If the main target isn't defeated, inflict 1 [DuelEdgeAlly] on the main target; if there was a Clash against the said main target using the said Base Skill, inflict 2 [DuelEdgeAlly] on the main target instead\n\nAt Clash Start against a target that has [DuelEdgeAlly], heal SP equal to [DuelEdgeAlly] Stack on target (max 5 per turn)",
+      "desc": "Khi kết thúc Kĩ năng Cơ bản nhắm vào kẻ địch:\n- Nếu mục tiêu bị tiêu diệt khi đang có [DuelEdgeAlly] (trên bất kỳ bộ phận nào của nó), nhận 1 [EvolvingManual]\n- Nếu mục tiêu chính không bị tiêu diệt, gây 1 [DuelEdgeAlly] lên mục tiêu chính; nếu đã Đối kháng với mục tiêu chính đó bằng Kĩ năng Cơ bản nói trên, thay vào đó gây 2 [DuelEdgeAlly] lên mục tiêu chính\n\nKhi bắt đầu Đối kháng với mục tiêu có [DuelEdgeAlly], hồi Tinh thần bằng số Tầng [DuelEdgeAlly] trên mục tiêu (Tối đa 5 mỗi lượt)",
       "summary": "",
       "flavor": ""
     },
     {
       "id": 1071603,
-      "name": "Desperate Struggle",
-      "desc": "If The House of Spiders: The Thumb Nursefather Rodion is on the field, activate the following:\n(Does not activate in turns where this unit is Panicked or Staggered)\n- When The Thumb Nursefather Rodion (that has [FutureEyeOnRodion]) hits an enemy with a Base Skill, at its Attack End, follow up with \"La Spada di Palermo\" as an Unopposed Attack against the target (once per turn)\n- Combat Start: When The Thumb Nursefather Rodion (that has [FutureEyeOffRodion]) is targeted by an enemy's Unopposed Skill, The Thumb Apprentice Heathcliff gains 1 [SupportProtect]\n(This [SupportProtect] activates only for The House of Spiders: The Thumb Nursefather Rodion)",
+      "name": "Phấn đấu quyết tử",
+      "desc": "Nếu Nhà Nhện: Cha nuôi Ngón Áp Út Rodion đang có mặt trên chiến trường, kích hoạt các hiệu ứng sau:\n(Không kích hoạt trong các lượt mà đơn vị này bị Hoảng loạn hoặc Choáng)\n- Khi Cha nuôi Ngón Áp Út Rodion (đang có [FutureEyeOnRodion]) đánh trúng kẻ địch bằng Kĩ năng Cơ bản, khi kết thúc tấn công đó, tiếp nối bằng \"La Spada di Palermo\" như một Tấn công Không đối kháng lên mục tiêu (1 lần mỗi lượt)\n- Khi bắt đầu trận chiến: Khi Cha nuôi Ngón Áp Út Rodion (đang có [FutureEyeOffRodion]) bị kẻ địch nhắm mục tiêu bằng Kĩ năng Không đối kháng, Đệ tử Ngón Áp Út Heathcliff nhận 1 [SupportProtect]\n([SupportProtect] này chỉ kích hoạt cho Nhà Nhện: Cha nuôi Ngón Áp Út Rodion)",
       "summary": "",
       "flavor": ""
     },
@@ -3107,37 +3107,37 @@
     },
     {
       "id": 1071601,
-      "name": "Palermitan Style",
-      "desc": "Gain the following effects based on ([EvolvingManual] on self + [DuelEdgeAlly] on the main target)\n- Base Skills deal +3% damage for every combined Stack (max 15%)\n- 1+ Stack: Clash Power +1\n- 2+ Stack: Base Skills gain Base Power +1\n- 3+ Stack: On Hit using a Base Skill, inflict 1 [SeveredTendonAlly] next turn\n- 4+ Stack: Base Skills gain Final Power +1\n- 5+ Stack: Base Skills deal +15% damage\n\nTake -3% damage for every ([EvolvingManual] on self + [DuelEdgeAlly] on the enemy attacking this unit) (max -15%)",
+      "name": "Phong cách Palermitan",
+      "desc": "Nhận các hiệu ứng sau dựa trên ([EvolvingManual] trên bản thân + [DuelEdgeAlly] trên mục tiêu chính)\n- Mỗi Tầng cộng dồn giúp Kĩ năng Cơ bản gây +3% sát thương (Tối đa 15%)\n- Từ 1+ Tầng: Sức mạnh Đối kháng +1\n- Từ 2+ Tầng: Kĩ năng Cơ bản nhận Sức mạnh Cơ bản +1\n- Từ 3+ Tầng: Khi đánh trúng bằng Kĩ năng Cơ bản, gây 1 [SeveredTendonAlly] vào lượt tiếp theo\n- Từ 4+ Tầng: Kĩ năng Cơ bản nhận Sức mạnh Cuối cùng +1\n- Từ 5+ Tầng: Kĩ năng Cơ bản gây +15% sát thương\n\nNhận -3% sát thương với mỗi ([EvolvingManual] trên bản thân + [DuelEdgeAlly] trên kẻ địch đang tấn công đơn vị này) (Tối đa -15%)",
       "summary": "",
       "flavor": ""
     },
     {
       "id": 1071621,
-      "name": "In One-on-one Duels...",
-      "desc": "1 ally with the fastest Speed: On Clash Win using Base Attack Skills, inflict +1 [Combustion] Count on target (once per turn)\n- Prioritizes \"The Thumb\" Identities\n- If the ally is \"The Thumb\" Identity, inflict +1 [Combustion] Count and [Vibration] Count instead\n- Combat Start: If there is only 1 enemy on the field, (for Abnormalities, a Core), this effect inflicts +1 more [Combustion] Count and [Vibration] Count",
+      "name": "Trong những trận quyết đấu một chọi một...",
+      "desc": "1 đồng minh có Tốc độ nhanh nhất: Khi thắng Đối kháng bằng Kĩ năng Tấn công Cơ bản, gây +1 Số lượng [Combustion] lên mục tiêu (1 lần mỗi lượt)\n- Ưu tiên Bản sắc \"Ngón Áp Út\"\n- Nếu đồng minh đó là Bản sắc \"Ngón Áp Út\", thay vào đó gây +1 Số lượng [Combustion] và [Vibration]\n- Khi bắt đầu trận chiến: Nếu trên chiến trường chỉ có 1 kẻ địch (với Thực thể dị thường là Lõi), hiệu ứng này gây thêm +1 Số lượng [Combustion] và [Vibration]",
       "summary": "",
       "flavor": ""
     },
     {
       "id": 1091601,
       "name": "La Spada di Palermo",
-      "desc": "If this unit has 1+ [AccelBullet], Skill 3 gains Coin Power +1 and deals +25% damage\n\nBase Skills deal +1% damage for every 2 [Combustion] on the main target (max 15%)\n- If the main target has Shield, Base Skills deal +3% damage instead (max 45%)"
+      "desc": "Nếu đơn vị này có từ 1 [AccelBullet] trở lên, Kĩ năng 3 nhận Sức mạnh Đồng xu +1 và gây +25% sát thương\n\nMỗi 2 [Combustion] trên mục tiêu chính giúp Kĩ năng Cơ bản gây +1% sát thương (Tối đa 15%)\n- Nếu mục tiêu chính có Khiên, thay vào đó Kĩ năng Cơ bản gây +3% sát thương (Tối đa 45%)"
     },
     {
       "id": 1091602,
-      "name": "The Eye of Precognition",
-      "desc": "Upon entering the Encounter for the first time, gain 30 [FutureEyeOnRodion]\nAt 0 [FutureEyeOnRodion] Stack, convert [FutureEyeOnRodion] into [FutureEyeOffRodion]\n\nWhile this unit has [FutureEyeOnRodion], activate the following effects:\n- In a Clash, gain 1 [LookingFutureRodion] with every Clash (5 times per Skill)\n- When attacked by an Unopposed Attack, [SuperCoin] Attack, or losing a Clash against an Attack Skill, activate the \"Precognition\" Skill (once per turn)\n\nThe following causes this unit to lose [FutureEyeOnRodion] Stack:\n- Lose 1 [FutureEyeOnRodion] with every Clash\n- When this unit activates the \"Precognition\" Skill via Passive effect due to being attacked by an Unopposed Attack or [SuperCoin] Attack, lose 3 [FutureEyeOnRodion]\n- When this unit activates the \"Precognition\" Skill via Passive effect due to losing a Clash, lose 5 [FutureEyeOnRodion]\n\nThe following causes this unit to gain [ObsessionAndGreedRodion] next turn:\n- If this unit's [FutureEyeOnRodion] Stack drops to 0\n- If this unit is Staggered\n- If The House of Spiders: The Thumb Apprentice Heathcliff is defeated (if the said Identity is already defeated when this unit Substitutes in, gain [ObsessionAndGreedRodion] at Turn Start)\n\nTurn End: When Staggered for the first time in this Encounter, recover from Stagger (excluding forced Staggers)"
+      "name": "Nhãn Dự tri",
+      "desc": "Khi lần đầu xuất hiện trong trận đấu, nhận 30 [FutureEyeOnRodion]\nKhi Tầng [FutureEyeOnRodion] về 0, chuyển [FutureEyeOnRodion] thành [FutureEyeOffRodion]\n\nKhi đơn vị này có [FutureEyeOnRodion], kích hoạt các hiệu ứng sau:\n- Khi Đối kháng, mỗi lần Đối kháng nhận 1 [LookingFutureRodion] (5 lần mỗi Kĩ năng)\n- Khi bị tấn công bằng Tấn công Không đối kháng, Tấn công [SuperCoin], hoặc thua Đối kháng với Kĩ năng Tấn công, kích hoạt Kĩ năng \"Dự tri\" (1 lần mỗi lượt)\n\nCác trường hợp sau khiến đơn vị này mất Tầng [FutureEyeOnRodion]:\n- Mất 1 [FutureEyeOnRodion] mỗi lần Đối kháng\n- Khi đơn vị này kích hoạt Kĩ năng \"Dự tri\" thông qua hiệu ứng Nội tại do bị tấn công bằng Tấn công Không đối kháng hoặc Tấn công [SuperCoin], mất 3 [FutureEyeOnRodion]\n- Khi đơn vị này kích hoạt Kĩ năng \"Dự tri\" thông qua hiệu ứng Nội tại do thua Đối kháng, mất 5 [FutureEyeOnRodion]\n\nCác trường hợp sau khiến đơn vị này nhận [ObsessionAndGreedRodion] vào lượt tiếp theo:\n- Nếu Tầng [FutureEyeOnRodion] của đơn vị này giảm xuống 0\n- Nếu đơn vị này bị Choáng\n- Nếu Nhà Nhện: Đệ tử Ngón Áp Út Heathcliff bị tiêu diệt (nếu Bản sắc đó đã bị tiêu diệt khi đơn vị này vào sân thay thế, nhận [ObsessionAndGreedRodion] khi bắt đầu lượt)\n\nKhi kết thúc lượt: Khi bị Choáng lần đầu trong trận đấu này, phục hồi khỏi Choáng (không tính Choáng cưỡng chế)"
     },
     {
       "id": 1091612,
-      "name": "The Eye of Precognition",
-      "desc": "Upon entering the Encounter for the first time, gain 30 [FutureEyeOnRodion]\nAt 0 [FutureEyeOnRodion] Stack, convert [FutureEyeOnRodion] into [FutureEyeOffRodion]\n\nWhile this unit has [FutureEyeOnRodion], activate the following effects:\n- In a Clash, gain 1 [LookingFutureRodion] with every Clash (5 times per Skill)\n- When attacked by an Unopposed Attack, [SuperCoin] Attack, or losing a Clash against an Attack Skill, activate the \"Precognition\" Skill (once per turn)\n\nThe following causes this unit to lose [FutureEyeOnRodion] Stack:\n- Lose 1 [FutureEyeOnRodion] with every Clash\n- When this unit activates the \"Precognition\" Skill via Passive effect due to being attacked by an Unopposed Attack or [SuperCoin] Attack, lose 3 [FutureEyeOnRodion]\n- When this unit activates the \"Precognition\" Skill via Passive effect due to losing a Clash, lose 5 [FutureEyeOnRodion]\n\n<style=\"highlight\">At the end of the turn this unit's [FutureEyeOnRodion] is converted into [FutureEyeOffRodion], activate the following effects:\n- [FullReload] (once per Encounter)\n- At the start of the next turn, if this unit has no \"Disposal\" on its Dashboard, replace a Base Skill with \"Disposal\" (prioritizes the Skill on the leftmost Slot's top row)</style>\n\nThe following causes this unit to gain [ObsessionAndGreedRodion] next turn:\n- If this unit's [FutureEyeOnRodion] Stack drops to 0\n- If this unit is Staggered\n- If The House of Spiders: The Thumb Apprentice Heathcliff is defeated (if the said Identity is already defeated when this unit Substitutes in, gain [ObsessionAndGreedRodion] at Turn Start)\n\nTurn End: When Staggered due to damage for the first time in this Encounter, recover from Stagger (excluding forced Staggers)"
+      "name": "Nhãn Dự tri",
+      "desc": "Khi lần đầu xuất hiện trong trận đấu, nhận 30 [FutureEyeOnRodion]\nKhi Tầng [FutureEyeOnRodion] về 0, chuyển [FutureEyeOnRodion] thành [FutureEyeOffRodion]\n\nKhi đơn vị này có [FutureEyeOnRodion], kích hoạt các hiệu ứng sau:\n- Khi Đối kháng, mỗi lần Đối kháng nhận 1 [LookingFutureRodion] (5 lần mỗi Kĩ năng)\n- Khi bị tấn công bằng Tấn công Không đối kháng, Tấn công [SuperCoin], hoặc thua Đối kháng với Kĩ năng Tấn công, kích hoạt Kĩ năng \"Dự tri\" (1 lần mỗi lượt)\n\nCác trường hợp sau khiến đơn vị này mất Tầng [FutureEyeOnRodion]:\n- Mất 1 [FutureEyeOnRodion] mỗi lần Đối kháng\n- Khi đơn vị này kích hoạt Kĩ năng \"Dự tri\" thông qua hiệu ứng Nội tại do bị tấn công bằng Tấn công Không đối kháng hoặc Tấn công [SuperCoin], mất 3 [FutureEyeOnRodion]\n- Khi đơn vị này kích hoạt Kĩ năng \"Dự tri\" thông qua hiệu ứng Nội tại do thua Đối kháng, mất 5 [FutureEyeOnRodion]\n\n<style=\"highlight\">Khi kết thúc lượt mà [FutureEyeOnRodion] của đơn vị này được chuyển thành [FutureEyeOffRodion], kích hoạt các hiệu ứng sau:\n- [FullReload] (1 lần mỗi trận đấu)\n- Khi bắt đầu lượt tiếp theo, nếu trên Bảng điều khiển của đơn vị này chưa có \"Xử lý\", thay thế 1 Kĩ năng Cơ bản bằng \"Xử lý\" (ưu tiên Kĩ năng ở hàng trên cùng của ô ngoài cùng bên trái)</style>\n\nCác trường hợp sau khiến đơn vị này nhận [ObsessionAndGreedRodion] vào lượt tiếp theo:\n- Nếu Tầng [FutureEyeOnRodion] của đơn vị này giảm xuống 0\n- Nếu đơn vị này bị Choáng\n- Nếu Nhà Nhện: Đệ tử Ngón Áp Út Heathcliff bị tiêu diệt (nếu Bản sắc đó đã bị tiêu diệt khi đơn vị này vào sân thay thế, nhận [ObsessionAndGreedRodion] khi bắt đầu lượt)\n\nKhi kết thúc lượt: Khi bị Choáng do sát thương lần đầu trong trận đấu này, phục hồi khỏi Choáng (không tính Choáng cưỡng chế)"
     },
     {
       "id": 1091603,
-      "name": "The Shame of Famiglia Bognatelli",
-      "desc": "Gain 2 [Breath] and +2 [Breath] Count for every [AccelBullet] spent\nWhen flipping a Coin that spends [AccelBullet], the attack does not get canceled even when this unit is out of [AccelBullet]\n\nThis Identity counts only as an \"Identity that inflicts [Combustion] and [Vibration]\"\n\nTurn Start: If this unit has \"Disposal\" on its Dashboard, inflict [TeachersPreyRodion] on the enemy this unit attacked last in the previous turn (in Focused Encounters, the Parts count for this purpose)\n- If there are no targets that satisfy the condition above, inflict [TeachersPreyRodion] on the enemy that has the lowest HP"
+      "name": "Nỗi nhục của gia tộc Bognatelli",
+      "desc": "Mỗi [AccelBullet] tiêu hao giúp nhận 2 [Breath] và +2 Số lượng [Breath]\nKhi tung Đồng xu tiêu hao [AccelBullet], đòn tấn công không bị hủy ngay cả khi đơn vị này đã hết [AccelBullet]\n\nBản sắc này chỉ được tính là \"Bản sắc gây [Combustion] và [Vibration]\"\n\nKhi bắt đầu lượt: Nếu trên Bảng điều khiển của đơn vị này có \"Xử lý\", gây [TeachersPreyRodion] lên kẻ địch mà đơn vị này đã tấn công sau cùng trong lượt trước (trong Trận chiến tập trung, Bộ phận cũng được tính cho mục đích này)\n- Nếu không có mục tiêu nào thỏa mãn điều kiện trên, gây [TeachersPreyRodion] lên kẻ địch có Máu thấp nhất"
     },
     {
       "id": 1091604,
@@ -3146,222 +3146,222 @@
     },
     {
       "id": 1091621,
-      "name": "Weaklings, Not Worth Shit",
-      "desc": "1 ally with the fastest Speed: When triggering [VibrationExplosion] on the enemy, gain 2 Offense Level Up next turn (once per turn)\n- If the said ally is \"The Thumb\" Identity, gain 1 [Agility] as well (once per turn)"
+      "name": "Lũ yếu ớt, chẳng đáng một xu",
+      "desc": "1 đồng minh có Tốc độ nhanh nhất: Khi kích hoạt [VibrationExplosion] lên kẻ địch, nhận 2 Tăng Cấp độ Tấn công vào lượt tiếp theo (1 lần mỗi lượt)\n- Nếu đồng minh đó là Bản sắc \"Ngón Áp Út\", nhận thêm 1 [Agility] (1 lần mỗi lượt)"
     },
     {
       "id": 1121601,
-      "name": "Morgenfeuer [Stigma Workshop]",
+      "name": "Morgenfeuer [Xưởng Stigma]",
       "desc": "When other Dawn Office[TabExplain] Identities meet the following conditions, Dawn Office[TabExplain] Rep Gregor uses the \"Flash of Sunup\" Skill against the targeted enemy (once per turn per Identity)\n- At Base Skill Attack End: If the enemy that was hit is Staggered, use \"Flash of Sunup\" against said enemy\n(Does not activate if the said enemy was already Staggered Before Attack of the said Skill)\n- At Attack End of the following Skills, use \"Flash of Sunup\" on the enemy they hit (prioritizes Staggered targets):\n  · Dawn Office[TabExplain] Fixer Faust's \"Eject\", \"Eject - High Noon[TabExplain]\", and \"Dismemberment at High Noon[TabExplain]\"\n  · Dawn Office[TabExplain] Fixer Sinclair's \"Stigmatize\" and \"Blazing[TabExplain] Strike\"\n\nIf Dawn Office[TabExplain] Fixer Sinclair is on the field: On Hit using Coins added to Dawn Office[TabExplain] Rep Gregor's Base Skills, deal additional Wrath damage equal to [Combustion] on targeted enemy (max 10; max 20 per turn)\n- Counts as activating [Combustion]",
-      "summary": "If conditions are met, deal Wrath damage based on Burn Potency",
-      "flavor": "An A+ class Workshop weapon that has remained a constant companion of its wielder, <i>the Fixer at the Crack of Dawn</i>, since his first days as a Fixer through the Smoke War and its fallout. Every contract successfully carried out by the Fixer added to Stigma Workshop's fame, and as a show of gratitude, they repeatedly upgraded and expanded the weapon's capabilities. Just as the Fixer's seasoned renown was built up over time, this blade, too, was forged, remade, and sharpened by the years. \nMorgenfeuer, once regarded as an S-class weapon, inevitably lost its fervor and edge in the twilight years of the Fixer at the Crack of Dawn as he withdrew from the front lines of the Fixer business in favor of teaching the next generation."
+      "summary": "Nếu thỏa mãn điều kiện, gây sát thương Phẫn nộ dựa trên Sức mạnh Bỏng",
+      "flavor": "Vũ khí Xưởng hạng A+ đã luôn đồng hành cùng chủ nhân của nó, <i>người Fixer lúc Rạng đông</i>, kể từ những ngày đầu làm Fixer, qua Chiến tranh Khói và những hệ lụy của nó. Mỗi hợp đồng mà người Fixer hoàn thành thành công đều góp phần làm rạng danh Xưởng Stigma, và để bày tỏ lòng biết ơn, họ đã không ngừng nâng cấp và mở rộng năng lực của vũ khí này. Cũng như danh tiếng lão luyện của người Fixer được gây dựng theo thời gian, thanh kiếm này cũng được rèn, đúc lại và mài sắc qua năm tháng. \nMorgenfeuer, từng được xem là vũ khí hạng S, rốt cuộc đã đánh mất ngọn lửa và độ sắc bén của mình trong những năm tháng hoàng hôn của người Fixer lúc Rạng đông, khi ông rời khỏi tiền tuyến của nghề Fixer để truyền dạy cho thế hệ sau."
     },
     {
       "id": 1121611,
-      "name": "Morgenfeuer [Stigma Workshop]",
+      "name": "Morgenfeuer [Xưởng Stigma]",
       "desc": "When this unit has [DawnLight], gain 2 [StigmaWorkshopHandStep1] On Hit using Base Attack Skills\n\nWhen other Dawn Office[TabExplain] Identities meet the following conditions, Dawn Office[TabExplain] Rep Gregor uses the \"Flash of Sunup\" Skill against the targeted enemy (once per turn per Identity)\n- At Base Skill Attack End: If the enemy that was hit is Staggered, use \"Flash of Sunup\" against said enemy\n(Does not activate if the said enemy was already Staggered Before Attack of the said Skill)\n- At Attack End of the following Skills, use \"Flash of Sunup\" on the enemy they hit (prioritizes Staggered targets):\n  · Dawn Office[TabExplain] Fixer Faust's \"Eject\", \"Eject - High Noon[TabExplain]\", and \"Dismemberment at High Noon[TabExplain]\"\n  · Dawn Office[TabExplain] Fixer Sinclair's \"Stigmatize\" and \"Blazing[TabExplain] Strike\"\n\nIf Dawn Office[TabExplain] Fixer Sinclair is on the field: On Hit using Coins added to Dawn Office[TabExplain] Rep Gregor's Base Skills, deal additional Wrath damage equal to [Combustion] on the targeted enemy (max 10; max 20 per turn)\n- Counts as activating [Combustion]",
-      "summary": "Gain [StigmaWorkshopHandStep1]\nIf conditions are met, deal Wrath damage based on Burn Potency",
-      "flavor": "An A+ class Workshop weapon that has remained a constant companion of its wielder, <i>the Fixer at the Crack of Dawn</i>, since his first days as a Fixer through the Smoke War and its fallout. Every contract successfully carried out by the Fixer added to Stigma Workshop's fame, and as a show of gratitude, they repeatedly upgraded and expanded the weapon's capabilities. Just as the Fixer's seasoned renown was built up over time, this blade, too, was forged, remade, and sharpened by the years. \nMorgenfeuer, once regarded as an S-class weapon, inevitably lost its fervor and edge in the twilight years of the Fixer at the Crack of Dawn as he withdrew from the front lines of the Fixer business in favor of teaching the next generation."
+      "summary": "Nhận [StigmaWorkshopHandStep1]\nNếu thỏa mãn điều kiện, gây sát thương Phẫn nộ dựa trên Sức mạnh Bỏng",
+      "flavor": "Vũ khí Xưởng hạng A+ đã luôn đồng hành cùng chủ nhân của nó, <i>người Fixer lúc Rạng đông</i>, kể từ những ngày đầu làm Fixer, qua Chiến tranh Khói và những hệ lụy của nó. Mỗi hợp đồng mà người Fixer hoàn thành thành công đều góp phần làm rạng danh Xưởng Stigma, và để bày tỏ lòng biết ơn, họ đã không ngừng nâng cấp và mở rộng năng lực của vũ khí này. Cũng như danh tiếng lão luyện của người Fixer được gây dựng theo thời gian, thanh kiếm này cũng được rèn, đúc lại và mài sắc qua năm tháng. \nMorgenfeuer, từng được xem là vũ khí hạng S, rốt cuộc đã đánh mất ngọn lửa và độ sắc bén của mình trong những năm tháng hoàng hôn của người Fixer lúc Rạng đông, khi ông rời khỏi tiền tuyến của nghề Fixer để truyền dạy cho thế hệ sau."
     },
     {
       "id": 1121602,
-      "name": "The Fixer at the Crack of Dawn",
-      "desc": "Upon entering the Encounter for the first time, gain 0 [StigmaWorkshopHandStep1]\n\nCannot be Staggered or fall below 1 HP due to [Combustion] damage\nTake -50% damage from [Combustion] effects (rounded down)\n- At less than 50% HP, take -75% damage from [Combustion] effects instead (rounded down)"
+      "name": "Người Fixer lúc Rạng đông",
+      "desc": "Khi lần đầu xuất hiện trong trận đấu, nhận 0 [StigmaWorkshopHandStep1]\n\nKhông thể bị Choáng hoặc giảm Máu xuống dưới 1 do sát thương [Combustion]\nNhận -50% sát thương từ hiệu ứng [Combustion] (bỏ phần thập phân)\n- Khi Máu dưới 50%, thay vào đó nhận -75% sát thương từ hiệu ứng [Combustion] (bỏ phần thập phân)"
     },
     {
       "id": 1121603,
-      "name": "Dawn Office",
-      "desc": "Upon entering the Encounter for the first time, if there are 2+ allied Dawn Office[TabExplain] Identities (including this unit) on the field, apply [DawnTeam] Stack on all Dawn Office[TabExplain] Identities equal to the number of Dawn Office[TabExplain] Identities on the field\n\nIf Dawn Office[TabExplain] Fixer Sinclair is on the field, activate the following effects:\n- Dawn Office[TabExplain] Fixer Sinclair gains [DawnGregor]\n- Turn Start: If Dawn Office[TabExplain] Rep Gregor is defeated, convert [DawnGregor] on Dawn Office[TabExplain] Fixer Sinclair into [DawnGregorDying]\n- Turn Start: If Dawn Office[TabExplain] Fixer Sinclair has less than 50% HP, apply [RunSinclair] on that unit (once per Encounter)"
+      "name": "Văn phòng Bình minh",
+      "desc": "Khi lần đầu xuất hiện trong trận đấu, nếu có từ 2+ Bản sắc Văn phòng Bình minh[TabExplain] (bao gồm cả đơn vị này) trên chiến trường, áp dụng Tầng [DawnTeam] lên tất cả Bản sắc Văn phòng Bình minh[TabExplain] bằng số lượng Bản sắc Văn phòng Bình minh[TabExplain] trên chiến trường\n\nNếu Fixer Văn phòng Bình minh[TabExplain] Sinclair đang có mặt trên chiến trường, kích hoạt các hiệu ứng sau:\n- Fixer Văn phòng Bình minh[TabExplain] Sinclair nhận [DawnGregor]\n- Khi bắt đầu lượt: Nếu Đại diện Văn phòng Bình minh[TabExplain] Gregor bị tiêu diệt, chuyển [DawnGregor] trên Fixer Văn phòng Bình minh[TabExplain] Sinclair thành [DawnGregorDying]\n- Khi bắt đầu lượt: Nếu Fixer Văn phòng Bình minh[TabExplain] Sinclair có Máu dưới 50%, áp dụng [RunSinclair] lên đơn vị đó (1 lần mỗi trận đấu)"
     },
     {
       "id": 1121621,
-      "name": "Stigma Workshop Prosthesis",
-      "desc": "The ally who has the highest current HP inflicts 2 [Vibration] On Hit against enemies that have [Combustion] (once per turn)\n- If said enemy has 10+ [Combustion], trigger [VibrationExplosion] On final Coin Hit; then, reduce target's [Vibration] Count by 1 (once per turn)",
+      "name": "Bộ phận giả Xưởng Stigma",
+      "desc": "Đồng minh có Máu hiện tại cao nhất gây 2 [Vibration] khi đánh trúng kẻ địch đang có [Combustion] (1 lần mỗi lượt)\n- Nếu kẻ địch đó có từ 10+ [Combustion] trở lên, kích hoạt [VibrationExplosion] khi đánh trúng bằng Đồng xu cuối; sau đó, giảm 1 Số lượng [Vibration] của mục tiêu (1 lần mỗi lượt)",
       "flavor": "A prosthetic gear produced by Stigma Workshop—a Workshop normally specializing in bladed weaponry—designed specifically for the Fixer at the Crack of Dawn to use. Attempting to use this fiery equipment without understanding Stigma Workshop's precise quirks will be met with swift consequences: painful, flesh-melting burn marks seared into the user's body."
     },
     {
       "id": 1021602,
-      "name": "Heatproof Coat",
-      "desc": "Upon entering the Encounter for the first time, gain 0 [StigmaWorkshopCelloCaseOne]\n\nCannot be Staggered or fall below 1 HP due to [Combustion] damage\nTake -50% damage from [Combustion] effects (rounded down)\n- At less than 50% HP, take -75% damage from [Combustion] effects instead (rounded down)",
-      "summary": "Take less damage from Burn effects",
+      "name": "Áo khoác Chống nhiệt",
+      "desc": "Khi lần đầu xuất hiện trong trận đấu, nhận 0 [StigmaWorkshopCelloCaseOne]\n\nKhông thể bị Choáng hoặc giảm Máu xuống dưới 1 do sát thương [Combustion]\nNhận -50% sát thương từ hiệu ứng [Combustion] (bỏ phần thập phân)\n- Khi Máu dưới 50%, thay vào đó nhận -75% sát thương từ hiệu ứng [Combustion] (bỏ phần thập phân)",
+      "summary": "Nhận ít sát thương hơn từ hiệu ứng Bỏng",
       "flavor": "If you have made up your mind to use Workshop gears that utilize heat, then you had best be prepared to pay a slew of hidden costs. Unlike conventional weapons, whose variables are in the more obviously observable territory, such as sharpness and durability, weapons that radiate heat require all manner of groundwork to ensure that the wielder is not consumed by that very heat. And that requires money.\n\nIt is, of course, a simple enough thing to procure weapons that set things ablaze outright or fabrics that do not catch fire easily. But to obtain a weapon whose heat output can be fine-tuned and controlled at any given moment according to the wielder's every need, or outlier fabrics that ward off heat <i>completely</i>—such exceptional gear costs not only a fortune but also the wielder's constant training to be as exceptional in handling them.\n\nNaturally, if you have invested that much money and time, the returns will come in the form of many more contracts requiring your services."
     },
     {
       "id": 1021603,
       "name": "Seonbae",
-      "desc": "If Dawn Office[TabExplain] Fixer Sinclair is on the field, activate the following effects:\n- Dawn Office[TabExplain] Fixer Sinclair gains [DawnFaust]\n- Turn Start: If Dawn Office[TabExplain] Fixer Faust is defeated, convert [DawnFaust] on Dawn Office[TabExplain] Fixer Sinclair into [DawnFaustDying]",
+      "desc": "Nếu Fixer Văn phòng Bình minh[TabExplain] Sinclair đang có mặt trên chiến trường, kích hoạt các hiệu ứng sau:\n- Fixer Văn phòng Bình minh[TabExplain] Sinclair nhận [DawnFaust]\n- Khi bắt đầu lượt: Nếu Fixer Văn phòng Bình minh[TabExplain] Faust bị tiêu diệt, chuyển [DawnFaust] trên Fixer Văn phòng Bình minh[TabExplain] Sinclair thành [DawnFaustDying]",
       "summary": "",
       "flavor": ""
     },
     {
       "id": 1021601,
-      "name": "Feuerfalter [Stigma Workshop]",
+      "name": "Feuerfalter [Xưởng Stigma]",
       "desc": "When other Dawn Office[TabExplain] Identities meet the following conditions, Dawn Office[TabExplain] Fixer Faust uses the \"Seconded Offensive\" Skill against the targeted enemy (once per turn per Identity)\n- At Base Skill Attack End: If the enemy that was hit is Staggered, use \"Seconded Offensive\" against said enemy\n(Does not activate if the said enemy was already Staggered Before Attack of the said Skill)\n- At Attack End of the following Skills, use \"Seconded Offensive\" on the enemy they hit (prioritizes Staggered targets):\n  · Dawn Office[TabExplain] Rep Gregor's \"Dawnsplitter\" and \"Crack of Dawn\"\n  · Dawn Office[TabExplain] Fixer Sinclair's \"Stigmatize\" and \"Blazing[TabExplain] Strike\"\n\nIf Dawn Office[TabExplain] Fixer Sinclair is on the field: On Hit using Reused Coins of Dawn Office[TabExplain] Fixer Faust's Base Skills, deal additional Wrath damage equal to [Combustion] on targeted enemy (max 10; max 20 per turn)\n- Counts as activating [Combustion]",
-      "summary": "Activate additional attack\nOn Hit using Reused Coins, deal Wrath damage based on Burn Potency",
+      "summary": "Kích hoạt thêm đòn tấn công\nKhi đánh trúng bằng Đồng xu Tái sử dụng, gây sát thương Phẫn nộ dựa trên Sức mạnh Bỏng",
       "flavor": "The appeal of a weapon shaped like a suitcase or a musical instrument case is clear enough.\n\nFirst, the user may blend into the cover of daily life without raising alarm. Though arms of this sort are unwieldy and complicated to make use of in battle, that perceived shortcoming makes them less likely to be recognized as tools of killing.\n\nSecondly, weapons fashioned into the form of a case afford storage capacity. Container-shaped arms, for example, are actively used by the Fixers of the Devyat' Association.\n\nSuch convenience, however, does not automatically win favors from those who elect Workshop gear as their weapon of choice. The common opinion is that anyone who invests so much time in mastering this sort of weaponry would be better served by training with something else—in fact, the user would often hear snide remarks from other combatants, ranging from \"Fixers these days\" to \"showy and pretentious.\"\n\nBut should one let this reputation for impracticality drop one's guard when facing an opponent armed with such a finicky piece of equipment, especially if they happen to be a high-ranking Fixer or a Syndicate officer, one will find that the laughable \"containers\" or \"cases\" carry quite a different weight—a weight grave enough for any Workshop worth its name to call them \"coffins.\" And coffins, as a matter of fact, have a way of inviting butterflies."
     },
     {
       "id": 1021611,
-      "name": "Feuerfalter [Stigma Workshop]",
+      "name": "Feuerfalter [Xưởng Stigma]",
       "desc": "<style=\"highlight\">Combat Start: When this unit has [Firstlight], gain (Stack x 3) [StigmaWorkshopCelloCaseOne]</style>\n\nWhen other Dawn Office[TabExplain] Identities meet the following conditions, Dawn Office[TabExplain] Fixer Faust uses the \"Seconded Offensive\" Skill against the targeted enemy (once per turn per Identity)\n- At Base Skill Attack End: If the enemy that was hit is Staggered, use \"Seconded Offensive\" against said enemy\n(Does not activate if the said enemy was already Staggered Before Attack of the said Skill)\n- At Attack End of the following Skills, use \"Seconded Offensive\" on the enemy they hit (prioritizes Staggered targets):\n  · Dawn Office[TabExplain] Rep Gregor's \"Dawnsplitter\" and \"Crack of Dawn\"\n  · Dawn Office[TabExplain] Fixer Sinclair's \"Stigmatize\" and \"Blazing[TabExplain] Strike\"\n\nIf Dawn Office[TabExplain] Fixer Sinclair is on the field: On Hit using Reused Coins of Dawn Office[TabExplain] Fixer Faust's Base Skills, deal additional Wrath damage equal to [Combustion] on the targeted enemy (max 10; max 20 per turn)\n- Counts as activating [Combustion]",
-      "summary": "If this unit has Battle Instinct, gain Fire Butterfly Coffin\nActivate additional attack\nOn Hit using Reused Coins, deal Wrath damage based on Burn Potency",
+      "summary": "Nếu đơn vị này có Bản năng chiến đấu, nhận Quan tài Bướm lửa\nKích hoạt thêm đòn tấn công\nKhi đánh trúng bằng Đồng xu Tái sử dụng, gây sát thương Phẫn nộ dựa trên Sức mạnh Bỏng",
       "flavor": "The appeal of a weapon shaped like a suitcase or a musical instrument case is clear enough.\n\nFirst, the user may blend into the cover of daily life without raising alarm. Though arms of this sort are unwieldy and complicated to make use of in battle, that perceived shortcoming makes them less likely to be recognized as tools of killing.\n\nSecondly, weapons fashioned into the form of a case afford storage capacity. Container-shaped arms, for example, are actively used by the Fixers of the Devyat' Association.\n\nSuch convenience, however, does not automatically win favors from those who elect Workshop gear as their weapon of choice. The common opinion is that anyone who invests so much time in mastering this sort of weaponry would be better served by training with something else—in fact, the user would often hear snide remarks from other combatants, ranging from \"Fixers these days\" to \"showy and pretentious.\"\n\nBut should one let this reputation for impracticality drop one's guard when facing an opponent armed with such a finicky piece of equipment, especially if they happen to be a high-ranking Fixer or a Syndicate officer, one will find that the laughable \"containers\" or \"cases\" carry quite a different weight—a weight grave enough for any Workshop worth its name to call them \"coffins.\" And coffins, as a matter of fact, have a way of inviting butterflies."
     },
     {
       "id": 1021621,
-      "name": "The Lone Fixer",
-      "desc": "Combat Start: If there is only 1 surviving Identity, including Backup units, the said Identity gains 3 [AttackUp] and 3 [DefenseUp]",
-      "summary": "Gain 3 Offense Level Up and 3 Defense Level Up",
+      "name": "Fixer Đơn độc",
+      "desc": "Khi bắt đầu trận chiến: Nếu chỉ còn 1 Bản sắc sống sót, bao gồm cả các đơn vị Dự bị, Bản sắc đó nhận 3 [AttackUp] và 3 [DefenseUp]",
+      "summary": "Nhận 3 Tăng Cấp độ Tấn công và 3 Tăng Cấp độ Phòng thủ",
       "flavor": ""
     },
     {
       "id": 1011601,
       "name": "VelocityAndCoordinatesAndVelocity",
-      "desc": "If this unit's Speed is faster than the target's, deal +(Speed difference x [Charge] Potency on self)% damage (max 20%)\n\nTurn End: Gain ([Charge] Potency on self / 2) [Agility] next turn (max 2; rounded down)",
+      "desc": "Nếu Tốc độ của đơn vị này nhanh hơn mục tiêu, gây +(Chênh lệch Tốc độ × Sức mạnh [Charge] trên bản thân)% sát thương (Tối đa 20%)\n\nKhi kết thúc lượt: Nhận (Sức mạnh [Charge] trên bản thân ÷ 2) [Agility] vào lượt tiếp theo (Tối đa 2; bỏ phần thập phân)",
       "summary": "",
       "flavor": ""
     },
     {
       "id": 1011602,
-      "name": "Open Alley",
-      "desc": "Gain 1 [Charge] Potency every time this unit consumes 10 cumulative [Charge] Count in this Encounter\n\nWhen another ally's Skill hits an enemy: At Attack End, consume 1 [DriftingDimensionYisang] to activate \"Dimensional Slice\" against the said target; then, gain 1 [FourDimensionYisang]",
+      "name": "Ngõ hẻm Rộng mở",
+      "desc": "Mỗi khi đơn vị này tiêu hao tổng cộng 10 Số lượng [Charge] trong trận đấu này, nhận 1 Sức mạnh [Charge]\n\nKhi Kĩ năng của đồng minh khác đánh trúng kẻ địch: Khi kết thúc tấn công, tiêu hao 1 [DriftingDimensionYisang] để kích hoạt \"Dimensional Slice\" lên mục tiêu đó; sau đó, nhận 1 [FourDimensionYisang]",
       "summary": "",
       "flavor": ""
     },
     {
       "id": 1011621,
       "name": "LetManOutrunEvenTheRayOfLight",
-      "desc": "When 1 ally with the fastest Speed uses a Skill that gains or consumes [Charge] Count, gain 1 [Agility] next turn (once per turn)",
+      "desc": "Khi 1 đồng minh có Tốc độ nhanh nhất sử dụng Kĩ năng nhận hoặc tiêu hao Số lượng [Charge], nhận 1 [Agility] vào lượt tiếp theo (1 lần mỗi lượt)",
       "summary": "",
       "flavor": ""
     },
     {
       "id": 1061601,
       "name": "Virescent Pyrojade",
-      "desc": "On Clash Win, if target has Nerve Strike, inflict 1 [DianxueHongLu] (once per turn)\n\nTurn End: Gain 1 [Agility] next turn for every 5 [Breath] Potency on self (max 2)\n\nDeal +([Combustion] Potency on target)% damage on Critical Hit (max 15%)"
+      "desc": "Khi thắng Đối kháng, nếu mục tiêu có Điểm huyệt, gây 1 [DianxueHongLu] (1 lần mỗi lượt)\n\nKhi kết thúc lượt: Mỗi 5 Sức mạnh [Breath] trên bản thân giúp nhận 1 [Agility] vào lượt tiếp theo (Tối đa 2)\n\nSát thương Chí mạng +(Sức mạnh [Combustion] trên mục tiêu)% (Tối đa 15%)"
     },
     {
       "id": 1061602,
-      "name": "A Duel Witnessed",
-      "desc": "Upon entering the Encounter for the first time, gain [DuelSousTemoinsEast] equal to the number of \"Cinq Association\" Identities set as Backup or Support Units (max 3, including defeated units)\n\nAgainst the target a Base Attack Skill hit last, inflict 1 [DianxueHongLu] next turn (once per turn; in Focused Encounters, the Part)"
+      "name": "Một trận quyết đấu có nhân chứng",
+      "desc": "Khi lần đầu xuất hiện trong trận đấu, nhận [DuelSousTemoinsEast] bằng số lượng Bản sắc \"Hiệp hội Cinq\" được đặt làm Đơn vị Dự bị hoặc Hỗ trợ (Tối đa 3, bao gồm cả đơn vị đã bị tiêu diệt)\n\nGây 1 [DianxueHongLu] lên mục tiêu mà Kĩ năng Tấn công Cơ bản đã đánh trúng sau cùng vào lượt tiếp theo (1 lần mỗi lượt; trong Trận chiến tập trung, áp dụng cho Bộ phận)"
     },
     {
       "id": 1061611,
       "name": "Virescent Pyrojade",
-      "desc": "On Clash Win, if target has Nerve Strike, inflict 1 [DianxueHongLu] (once per turn)\n\nTurn End: Gain 1 [Agility] next turn for every <style=\"highlight\">3</style> [Breath] Potency on self (max 2)\n\nDeal +([Combustion] Potency on target)% damage on Critical Hit (max 15%)\n<style=\"highlight\">- Increase max cap by 5% for every 1 [DianxueHongLu] on the target</style>"
+      "desc": "Khi thắng Đối kháng, nếu mục tiêu có Điểm huyệt, gây 1 [DianxueHongLu] (1 lần mỗi lượt)\n\nKhi kết thúc lượt: Mỗi <style=\"highlight\">3</style> Sức mạnh [Breath] trên bản thân giúp nhận 1 [Agility] vào lượt tiếp theo (Tối đa 2)\n\nSát thương Chí mạng +(Sức mạnh [Combustion] trên mục tiêu)% (Tối đa 15%)\n<style=\"highlight\">- Tăng giới hạn tối đa thêm 5% cho mỗi 1 [DianxueHongLu] trên mục tiêu</style>"
     },
     {
       "id": 1061621,
-      "name": "I'll Melt Open the Way Out",
-      "desc": "1 ally with the fastest Speed: On Clash Win against enemies that have [Combustion] or \"Unique Burn\", inflict 1 [Binding] next turn (once per turn)\n- If target has 4- [Combustion] Count, also inflict +1 [Combustion] Count to the said target this turn\n- If target has 5+ [Combustion] Count, also inflict 3 [Combustion] to the said target this turn"
+      "name": "Ta sẽ nấu chảy để mở lối ra",
+      "desc": "1 đồng minh có Tốc độ nhanh nhất: Khi thắng Đối kháng với kẻ địch đang có [Combustion] hoặc \"Bỏng đặc biệt\", gây 1 [Binding] vào lượt tiếp theo (1 lần mỗi lượt)\n- Nếu mục tiêu có 4- Số lượng [Combustion], đồng thời gây +1 Số lượng [Combustion] lên mục tiêu đó trong lượt này\n- Nếu mục tiêu có 5+ Số lượng [Combustion], đồng thời gây 3 [Combustion] lên mục tiêu đó trong lượt này"
     },
     {
       "id": 1041601,
       "name": "Feedback",
-      "desc": "When triggering [VibrationExplosion] on the enemy, increase the Stagger Threshold raise by +15%\n- At 12+ [ChargeNoirAlly] Count, consume 1 [ChargeNoirAlly] Count when triggering [VibrationExplosion] to increase the Stagger Threshold raise by +30% instead (effect applied per target)\n\nWhen hit, if this unit has Shield, inflict 2 [Vibration] Potency on the attacker (2 times per turn per enemy)",
-      "summary": "Increase Stagger Threshold raise",
+      "desc": "Khi kích hoạt [VibrationExplosion] lên kẻ địch, tăng lượng đẩy Ngưỡng Choáng thêm +15%\n- Khi có từ 12+ Số lượng [ChargeNoirAlly] trở lên, tiêu hao 1 Số lượng [ChargeNoirAlly] khi kích hoạt [VibrationExplosion] để thay vào đó tăng lượng đẩy Ngưỡng Choáng thêm +30% (hiệu ứng áp dụng theo từng mục tiêu)\n\nKhi bị đánh trúng, nếu đơn vị này có Khiên, gây 2 Sức mạnh [Vibration] lên kẻ tấn công (2 lần mỗi lượt mỗi kẻ địch)",
+      "summary": "Tăng lượng đẩy Ngưỡng Choáng",
       "flavor": "The Noirs believe they can collapse their opponents' worth by subjecting them to violent tremors—the more violently the target vibrates, the more changes it must undergo from moment to moment. The combat techniques of the Noirs were built upon that conviction.\n\nAnd though the Noirs neither remember nor have ever experienced it, beyond the Grand Magasin Sisyphe exist fighting techniques founded upon the very same principle and have since been refined far beyond."
     },
     {
       "id": 1041602,
-      "name": "Le Noir: Gabardine Fabric",
-      "desc": "Upon entering the field, gain 25 [NoirSuitAlly]\n\nTurn Start: Gain Shield equal to (([NoirSuitAlly] + [RealisationAlly]) / 5)% of this unit's max HP",
-      "summary": "Gain Shield"
+      "name": "Le Noir: Vải Gabardine",
+      "desc": "Khi xuất hiện trên chiến trường, nhận 25 [NoirSuitAlly]\n\nKhi bắt đầu lượt: Nhận Khiên bằng (([NoirSuitAlly] + [RealisationAlly]) ÷ 5)% Máu tối đa của đơn vị này",
+      "summary": "Nhận Khiên"
     },
     {
       "id": 1041603,
-      "name": "Le Noir: Gabardine Fabric",
-      "desc": "Upon entering the field, gain 25 [NoirSuitAlly]\n\nTurn Start:\n- Gain Shield equal to (([NoirSuitAlly] + [RealisationAlly]) / 5)% of this unit's max HP\n- If this unit has [RealisationAlly], convert \"Triple Stamped Stitching\" into \"Single Kick - Couture Multiple\"",
-      "summary": "Gain Shield"
+      "name": "Le Noir: Vải Gabardine",
+      "desc": "Khi xuất hiện trên chiến trường, nhận 25 [NoirSuitAlly]\n\nKhi bắt đầu lượt:\n- Nhận Khiên bằng (([NoirSuitAlly] + [RealisationAlly]) ÷ 5)% Máu tối đa của đơn vị này\n- Nếu đơn vị này có [RealisationAlly], chuyển \"Triple Stamped Stitching\" thành \"Single Kick - Couture Multiple\"",
+      "summary": "Nhận Khiên"
     },
     {
       "id": 1041604,
       "name": "Conservation",
       "desc": "Gain 1 [ChargeNoirAlly] Potency for every 10 cumulative [ChargeNoirAlly] Count this unit consumes in this Encounter\n\nTurn End: At fewer than 3 [ChargeNoirAlly] Potency, consume all [ChargeNoirAlly] Count to gain ([ChargeNoirAlly] Count consumed x 5) Shield next turn\n\nAt 3+ [ChargeNoirAlly] Potency, this unit's Base Skills gain +1 more [ChargeNoirAlly] Count when this unit has fewer than 12 [ChargeNoirAlly] Count\n\nOn Base Attack Skill Use,\n- If target has 6+ [Vibration] Potency, Coin Power +1\n- At 3+ [ChargeNoirAlly] Potency, Coin Power +1\n- Deal +([ChargeNoirAlly] Potency x 2)% damage (max 10%)\n· If the said Skill is \"Triple Stamped Stitching\" or \"Single Kick - Couture Multiple\", deal +([ChargeNoirAlly] Potency x 4)% damage instead (max 20%)",
-      "summary": "At fewer than a certain number of Preservation Count, gain more Preservation Count\nOn Base Attack Skill Use, gain Coin Power and deal more damage"
+      "summary": "Khi số lần Bảo tồn dưới một mức nhất định, nhận thêm số lần Bảo tồn\nKhi sử dụng Kĩ năng Tấn công Cơ bản, nhận Sức mạnh Đồng xu và gây thêm sát thương"
     },
     {
       "id": 1041621,
-      "name": "Le Noir's Virtue and Worth",
-      "desc": "Among allies that have [Charge] or Unique [Charge], when 1 ally with the earliest Deployment Order triggers [VibrationExplosion] using its Base Skills, increase the Stagger Threshold raise by +12.5%",
-      "summary": "Increase Stagger Threshold raised by Tremor Burst\nInflict Tremor Potency when hit"
+      "name": "Đức hạnh và Giá trị của Le Noir",
+      "desc": "Trong số các đồng minh có [Charge] hoặc [Charge] đặc biệt, khi 1 đồng minh có thứ tự triển khai sớm nhất kích hoạt [VibrationExplosion] bằng Kĩ năng Cơ bản của mình, tăng lượng đẩy Ngưỡng Choáng thêm +12.5%",
+      "summary": "Tăng Ngưỡng Choáng bị đẩy bởi Bộc phát Chấn động\nGây Sức mạnh Chấn động khi bị đánh trúng"
     },
     {
       "id": 1081601,
-      "name": "Cradle of Change",
-      "desc": "On Base Skill Use, at fewer than 10 [ChargeRougeAlly] Count, Clash Power +2\n\nIf this unit is in [RougeIshmaelEclose] state, heal 8% HP On Hit using Base Skills (5 times per turn)",
-      "flavor": "While some might call this a \"changing room,\" it would be more appropriate for those on the other side to call it a \"pupa\" or an \"egg.\"\nShe melts and tears herself apart, metamorphosing... Until, when the time is right, she will shatter the shells and emerge into the world outside.\nBut if someone from the outside rips into the shell before she is ready... sadly, they will end up breaking her.\nThis is her most vulnerable moment, and therefore must be nurtured and looked after."
+      "name": "Cái nôi của sự Biến đổi",
+      "desc": "Khi sử dụng Kĩ năng Cơ bản, nếu Số lượng [ChargeRougeAlly] dưới 10, Sức mạnh Đối kháng +2\n\nNếu đơn vị này đang ở trạng thái [RougeIshmaelEclose], hồi 8% Máu khi đánh trúng bằng Kĩ năng Cơ bản (5 lần mỗi lượt)",
+      "flavor": "Dù có người gọi đây là \"phòng thay đồ\", thì những người ở phía bên kia gọi nó là \"nhộng\" hay \"trứng\" mới đúng hơn.\nCô ấy tan chảy và xé toạc chính mình, biến thái... Cho đến khi thời khắc đến, cô phá vỡ lớp vỏ và bước ra thế giới bên ngoài.\nNhưng nếu có kẻ từ bên ngoài xé toạc lớp vỏ trước khi cô sẵn sàng... đáng buồn thay, họ sẽ làm cô vỡ vụn.\nĐây là thời khắc dễ tổn thương nhất của cô, vì vậy cần được nuôi dưỡng và chăm sóc."
     },
     {
       "id": 1081602,
-      "name": "Into the Changing Room...",
-      "desc": "Gain 1 [ChargeRougeAlly] for every 10 cumulative [ChargeRougeAlly] Count this unit consumes in this Encounter\n\nHP consumption effects from this unit's Base Skills do not Stagger or reduce this unit's HP below 1\n(At 1 HP, Base Skill effects that consume HP will be activated for free)\n\nIn this Encounter, when this unit takes damage that brings its HP down to 0, nullify that damage; then, immediately gain 2 [RougeIshmaelCocoon] and enter the [RougeIshmaelCocoon] state (once per Encounter)\n- If this unit entered [RougeIshmaelCocoon] state via its Defense Skill effects, the above effect will not trigger for the rest of the Encounter\n\nWhen entering [RougeIshmaelCocoon] state, gain Shield equal to this unit's max HP\n- Shield gained from this effect does not expire at Turn End\n- When [RougeIshmaelCocoon] state expires, Shield gained from the above effect expires\n\n- While in the [RougeIshmaelCocoon] state, aside from its exclusive Skill \"As the Voice Says, I Gladly Withdraw into Myself\", cannot equip Defense Skills or E.G.O Skills\n\nTurn End: At 0 [RougeIshmaelCocoon] Stack, leave [RougeIshmaelCocoon] state and enter [RougeIshmaelEclose] state; then, gain +5 [ChargeRougeAlly] Count",
-      "flavor": "I'm going to get myself a makeover! So I can get nearer to my true self!"
+      "name": "Bước vào Phòng thay đồ...",
+      "desc": "Mỗi khi đơn vị này tiêu hao tổng cộng 10 Số lượng [ChargeRougeAlly] trong trận đấu này, nhận 1 [ChargeRougeAlly]\n\nHiệu ứng tiêu hao Máu từ Kĩ năng Cơ bản của đơn vị này không gây Choáng và không làm Máu của đơn vị này giảm xuống dưới 1\n(Khi ở 1 Máu, hiệu ứng Kĩ năng Cơ bản tiêu hao Máu sẽ được kích hoạt miễn phí)\n\nTrong trận đấu này, khi đơn vị này nhận sát thương khiến Máu về 0, vô hiệu hóa sát thương đó; sau đó, lập tức nhận 2 [RougeIshmaelCocoon] và tiến vào trạng thái [RougeIshmaelCocoon] (1 lần mỗi trận đấu)\n- Nếu đơn vị này tiến vào trạng thái [RougeIshmaelCocoon] thông qua hiệu ứng Kĩ năng Phòng thủ của mình, hiệu ứng trên sẽ không kích hoạt trong phần còn lại của trận đấu\n\nKhi tiến vào trạng thái [RougeIshmaelCocoon], nhận Khiên bằng Máu tối đa của đơn vị này\n- Khiên nhận từ hiệu ứng này không hết hạn khi kết thúc lượt\n- Khi trạng thái [RougeIshmaelCocoon] kết thúc, Khiên nhận từ hiệu ứng trên cũng hết hạn\n\n- Khi ở trạng thái [RougeIshmaelCocoon], ngoài Kĩ năng độc quyền \"Như Giọng nói bảo, ta vui lòng rút lui vào chính mình\", không thể trang bị Kĩ năng Phòng thủ hoặc Kĩ năng E.G.O\n\nKhi kết thúc lượt: Khi Tầng [RougeIshmaelCocoon] về 0, rời trạng thái [RougeIshmaelCocoon] và tiến vào trạng thái [RougeIshmaelEclose]; sau đó, nhận +5 Số lượng [ChargeRougeAlly]",
+      "flavor": "Tôi sẽ tự làm mới bản thân! Để có thể đến gần hơn với con người thật của mình!"
     },
     {
       "id": 1081621,
       "name": "[Actrice Haute Couture du Rouge] - Robes",
-      "desc": "#1 and #2 Deployed allies heal +20% more HP from Passive, Skill, and Coin effects\n\nOn Lust A-Reson., #1 and #2 allies take -10% damage from Skills for the turn",
-      "flavor": "When it isn't feasible to overwrite the subject with the exact form of the Mirrored Identity, a \"costume\" fitted for each actor is designed and worn.\n\nHaute Couture is a form of cinematic reinterpretation; it replaces an existent being with an outfit, and the actor, now overwritten, dutifully performs the given role in full immersion. \n\nThis deception of reality is readily accepted by the audience at the theater while the actor, at least within the confines of the narrative, embodies the original existence in earnest recreation."
+      "desc": "Đồng minh có thứ tự triển khai #1 và #2 hồi thêm +20% Máu từ hiệu ứng Nội tại, Kĩ năng và Đồng xu\n\nKhi Cộng hưởng Hoàn toàn Sắc dục, đồng minh có thứ tự triển khai #1 và #2 nhận -10% sát thương từ Kĩ năng trong lượt",
+      "flavor": "Khi không thể ghi đè chủ thể bằng đúng hình dạng của Bản sắc được phản chiếu, người ta thiết kế và khoác lên một bộ \"trang phục\" vừa vặn cho từng diễn viên.\n\nHaute Couture là một hình thức tái diễn giải điện ảnh; nó thay thế một tồn tại bằng một bộ trang phục, và diễn viên, giờ đã bị ghi đè, tận tụy nhập vai trọn vẹn vào vai diễn được giao.\n\nSự lừa dối thực tại này được khán giả tại nhà hát dễ dàng chấp nhận, trong khi diễn viên, ít nhất là trong phạm vi câu chuyện, hóa thân thành tồn tại nguyên bản bằng sự tái tạo chân thành."
     },
     {
       "id": 1091701,
-      "name": "Snipping in the Alteration Shop are Blossom Scissors",
-      "desc": "Turn End: Gain Shield next turn equal to [ChargeKhaki] Count\nAt 2+/3+/5+ [ChargeKhaki] Potency, Base Skill Final Power +1/+2/+3",
-      "summary": "Gain Base Skill Final Power"
+      "name": "Nhát cắt ở Tiệm Sửa đồ là Kéo Hoa Cúc",
+      "desc": "Khi kết thúc lượt: Nhận Khiên vào lượt tiếp theo bằng Số lượng [ChargeKhaki]\nKhi Sức mạnh [ChargeKhaki] đạt 2+/3+/5+, Sức mạnh Cuối cùng của Kĩ năng Cơ bản +1/+2/+3",
+      "summary": "Nhận Sức mạnh Cuối cùng của Kĩ năng Cơ bản"
     },
     {
       "id": 1091702,
-      "name": "Inertia of Drifting",
-      "desc": "Gain 1 [ChargeKhaki] Potency for every 10 cumulative [ChargeKhaki] Count this unit consumes in this Encounter\n\nAt Attack End of another ally that has [NoirScissorShield], activate \"Patterning\" against the said ally's target (once per turn)\n- [BeforeUse] If the said target has 2+ [NoirScissorAlly], activate as \"Cutout\" instead (once per turn)",
-      "summary": "Activate additional attack"
+      "name": "Quán tính của việc trôi dạt",
+      "desc": "Mỗi khi đơn vị này tiêu hao tổng cộng 10 Số lượng [ChargeKhaki] trong trận đấu này, nhận 1 Sức mạnh [ChargeKhaki]\n\nKhi kết thúc tấn công của đồng minh khác đang có [NoirScissorShield], kích hoạt \"Patterning\" lên mục tiêu của đồng minh đó (1 lần mỗi lượt)\n- [BeforeUse] Nếu mục tiêu đó có từ 2+ [NoirScissorAlly] trở lên, thay vào đó kích hoạt dưới dạng \"Cutout\" (1 lần mỗi lượt)",
+      "summary": "Kích hoạt thêm đòn tấn công"
     },
     {
       "id": 1091721,
-      "name": "First is Thanks-snipping",
-      "desc": "1 ally with the fastest Speed deals +10% damage using Slash Base Skills",
-      "summary": "Bonus Slash damage",
-      "flavor": "The single pair dearest to me, above all the rest... will be yours as well."
+      "name": "Đầu tiên là Cắt lời cảm ơn",
+      "desc": "1 đồng minh có Tốc độ nhanh nhất gây +10% sát thương bằng Kĩ năng Cơ bản hệ Chém",
+      "summary": "Tăng sát thương Chém",
+      "flavor": "Đôi kéo thân thương nhất của ta, hơn cả mọi thứ... cũng sẽ thuộc về ngươi."
     },
     {
       "id": 1031501,
-      "name": "Obsidian Covenant",
-      "desc": "Combat End: If this unit has [OathFieldDonQuixote], gain 1 [Agility] next turn\n\nThis unit's Base Attack Skills deal +([ChargeNoirAlly] Potency on self x 3)% damage against the main target (max 15%)",
-      "summary": "If [OathFieldDonQuixote] is active, gain [Agility] next turn\nBase Attack Skills deal more damage against the main target",
-      "flavor": "I heard His voice, His promise: \"Everything that exists has meaning.\""
+      "name": "Giao ước Obsidian",
+      "desc": "Khi kết thúc trận chiến: Nếu đơn vị này có [OathFieldDonQuixote], nhận 1 [Agility] vào lượt tiếp theo\n\nKĩ năng Tấn công Cơ bản của đơn vị này gây +(Sức mạnh [ChargeNoirAlly] trên bản thân × 3)% sát thương lên mục tiêu chính (Tối đa 15%)",
+      "summary": "Nếu [OathFieldDonQuixote] đang kích hoạt, nhận [Agility] vào lượt tiếp theo\nKĩ năng Tấn công Cơ bản gây thêm sát thương lên mục tiêu chính",
+      "flavor": "Ta đã nghe thấy giọng nói của Người, lời hứa của Người: \"Mọi thứ tồn tại đều có ý nghĩa.\""
     },
     {
       "id": 1031502,
       "name": "Malleus Promissionis",
-      "desc": "Upon entering the Encounter for the first time, gain +10 [ChargeNoirAlly] Count and apply +2 [Charge] Count on other \"Le Noir\" allied Identities\n\nWhen inflicting [NoirNailDonQuixote] using Skill effects:\n- At 12+ [ChargeNoirAlly] Count, inflict +1 more [NoirNailDonQuixote] and consume 4 [ChargeNoirAlly] Count\n- At fewer than 12 [ChargeNoirAlly] Count, consume 2 [ChargeNoirAlly] Count\n- At insufficient [ChargeNoirAlly] Count, does not inflict [NoirNailDonQuixote]\n- Skills that inflict [NoirNailDonQuixote] due to this effect count as Skills that consume [Charge] Count\n\nGain 1 [ChargeNoirAlly] Potency every time this unit consumes 10 cumulative [ChargeNoirAlly] Count in this Encounter",
-      "summary": "Gain [ChargeNoirAlly] Count; \"Le Noir\" allies gain [Charge] Count\nConsume [ChargeNoirAlly] Count when inflicting [NoirNailDonQuixote]; inflict more [NoirNailDonQuixote] when at sufficient [ChargeNoirAlly] Count\nGain [ChargeNoirAlly] Potency by consuming [ChargeNoirAlly] Count",
-      "flavor": "A hammer drives nails. This hammer strikes nothing but nails. Whatever it strikes is a nail. That is what was agreed upon."
+      "desc": "Khi lần đầu xuất hiện trong trận đấu, nhận +10 Số lượng [ChargeNoirAlly] và áp dụng +2 Số lượng [Charge] lên các Bản sắc đồng minh \"Le Noir\" khác\n\nKhi gây [NoirNailDonQuixote] bằng hiệu ứng Kĩ năng:\n- Khi có từ 12+ Số lượng [ChargeNoirAlly] trở lên, gây thêm +1 [NoirNailDonQuixote] và tiêu hao 4 Số lượng [ChargeNoirAlly]\n- Khi Số lượng [ChargeNoirAlly] dưới 12, tiêu hao 2 Số lượng [ChargeNoirAlly]\n- Khi Số lượng [ChargeNoirAlly] không đủ, không gây [NoirNailDonQuixote]\n- Kĩ năng gây [NoirNailDonQuixote] nhờ hiệu ứng này được tính là Kĩ năng tiêu hao Số lượng [Charge]\n\nMỗi khi đơn vị này tiêu hao tổng cộng 10 Số lượng [ChargeNoirAlly] trong trận đấu này, nhận 1 Sức mạnh [ChargeNoirAlly]",
+      "summary": "Nhận Số lượng [ChargeNoirAlly]; đồng minh \"Le Noir\" nhận Số lượng [Charge]\nTiêu hao Số lượng [ChargeNoirAlly] khi gây [NoirNailDonQuixote]; gây thêm [NoirNailDonQuixote] khi có đủ Số lượng [ChargeNoirAlly]\nNhận Sức mạnh [ChargeNoirAlly] bằng việc tiêu hao Số lượng [ChargeNoirAlly]",
+      "flavor": "Một cây búa để đóng đinh. Cây búa này không đập gì ngoài đinh. Thứ gì bị nó đập trúng đều là đinh. Đó chính là điều đã được giao ước."
     },
     {
       "id": 1031503,
-      "name": "Mission of Conservation",
-      "desc": "Upon entering the Encounter for the first time, gain 25 [NoirShieldUpDonQuixote]\n\nWhen consuming [ChargeNoirAlly] Count, or when gaining [ChargeNoirAlly] Count past its max cap, gain ([ChargeNoirAlly] Count consumed or surplus [ChargeNoirAlly] Count x 5) [NoirShieldUpDonQuixote] (max 30 per turn)\n\nWhen an allied Identity that has Shield is hit, this unit gains 2 [NoirShieldUpDonQuixote] (max 10 per turn)\n- If the said allied Identity is a [PersonalityCharge], gain 5 [NoirShieldUpDonQuixote] instead",
-      "summary": "Gain [NoirShieldUpDonQuixote]"
+      "name": "Sứ mệnh Bảo tồn",
+      "desc": "Khi lần đầu xuất hiện trong trận đấu, nhận 25 [NoirShieldUpDonQuixote]\n\nKhi tiêu hao Số lượng [ChargeNoirAlly], hoặc khi nhận Số lượng [ChargeNoirAlly] vượt quá giới hạn tối đa, nhận ([ChargeNoirAlly] Số lượng đã tiêu hao hoặc Số lượng [ChargeNoirAlly] dư × 5) [NoirShieldUpDonQuixote] (Tối đa 30 mỗi lượt)\n\nKhi Bản sắc đồng minh có Khiên bị đánh trúng, đơn vị này nhận 2 [NoirShieldUpDonQuixote] (Tối đa 10 mỗi lượt)\n- Nếu Bản sắc đồng minh đó là [PersonalityCharge], thay vào đó nhận 5 [NoirShieldUpDonQuixote]",
+      "summary": "Nhận [NoirShieldUpDonQuixote]"
     },
     {
       "id": 1031504,
-      "name": "The Lord's Will and Values Be With Us...",
-      "desc": "Before Attack of another \"Le Noir\" allied Identity on an enemy, this unit uses \"Judgment!\" Skill as an Unopposed Attack against the main target (once per turn)\n\nOn the final Coin Start of a Base Skill, the said Coin gains Final Power +([ChargeNoirAlly] Potency on self + ([NoirNailDonQuixote] on target / 2)) (max 5)\n\nIf this unit has [OathFieldDonQuixote], Base Skill 1/2/3 gains Clash Power +1/+2/+3\n\nWhen [VibrationExplosion] triggers on a target that has [NoirNailDonQuixote], this unit and 1 other allied [PersonalityCharge] that has the lowest [Charge] Count gain +2 [Charge] Count (2 times per turn)",
-      "summary": "Use \"Judgment!\" Skill before a \"Le Noir\" ally attacks\nBase Skill final Coins gain Final Power\nIf [OathFieldDonQuixote] is active, Base Skills gain Clash Power\nGain [Charge] Count when triggering [VibrationExplosion] on targets that have [NoirNailDonQuixote]",
-      "flavor": "The Obsidian God's words be our guiding light, our armor and shield in this troubled world of uncertainties; becometh His Voice the shining beam of light upon us, thereby bestowing us with meaning so coveted."
+      "name": "Ý chí và Giá trị của Người ở cùng chúng ta...",
+      "desc": "Trước khi Bản sắc đồng minh \"Le Noir\" khác tấn công kẻ địch, đơn vị này sử dụng Kĩ năng \"Judgment!\" như một Tấn công Không đối kháng lên mục tiêu chính (1 lần mỗi lượt)\n\nKhi bắt đầu tung Đồng xu cuối cùng của Kĩ năng Cơ bản, Đồng xu đó nhận Sức mạnh Cuối cùng +(Sức mạnh [ChargeNoirAlly] trên bản thân + ([NoirNailDonQuixote] trên mục tiêu ÷ 2)) (Tối đa 5)\n\nNếu đơn vị này có [OathFieldDonQuixote], Kĩ năng Cơ bản 1/2/3 nhận Sức mạnh Đối kháng +1/+2/+3\n\nKhi [VibrationExplosion] kích hoạt lên mục tiêu có [NoirNailDonQuixote], đơn vị này và 1 Bản sắc đồng minh [PersonalityCharge] khác có Số lượng [Charge] thấp nhất nhận +2 Số lượng [Charge] (2 lần mỗi lượt)",
+      "summary": "Sử dụng Kĩ năng \"Judgment!\" trước khi đồng minh \"Le Noir\" tấn công\nĐồng xu cuối cùng của Kĩ năng Cơ bản nhận Sức mạnh Cuối cùng\nNếu [OathFieldDonQuixote] đang kích hoạt, Kĩ năng Cơ bản nhận Sức mạnh Đối kháng\nNhận Số lượng [Charge] khi kích hoạt [VibrationExplosion] lên mục tiêu có [NoirNailDonQuixote]",
+      "flavor": "Lời của Thần Obsidian nguyện là ánh sáng dẫn lối, là giáp và khiên của chúng ta trong thế giới đầy bất định và khổ đau này; nguyện Tiếng nói của Người trở thành tia sáng rực rỡ chiếu rọi lên chúng ta, ban cho chúng ta ý nghĩa hằng khao khát."
     },
     {
       "id": 1031511,
-      "name": "Obsidian Covenant",
-      "desc": "Combat End: If this unit has [OathFieldDonQuixote], gain 2 [Agility] next turn\n\nThis unit's Base Attack Skills deal +([ChargeNoirAlly] Potency on self x 6)% damage against the main target (max 30%)",
-      "summary": "If [OathFieldDonQuixote] is active, gain [Agility] next turn\nBase Attack Skills deal more damage against the main target",
-      "flavor": "I heard His voice, His promise: \"Everything that exists has meaning.\""
+      "name": "Giao ước Obsidian",
+      "desc": "Khi kết thúc trận chiến: Nếu đơn vị này có [OathFieldDonQuixote], nhận 2 [Agility] vào lượt tiếp theo\n\nKĩ năng Tấn công Cơ bản của đơn vị này gây +(Sức mạnh [ChargeNoirAlly] trên bản thân × 6)% sát thương lên mục tiêu chính (Tối đa 30%)",
+      "summary": "Nếu [OathFieldDonQuixote] đang kích hoạt, nhận [Agility] vào lượt tiếp theo\nKĩ năng Tấn công Cơ bản gây thêm sát thương lên mục tiêu chính",
+      "flavor": "Ta đã nghe thấy giọng nói của Người, lời hứa của Người: \"Mọi thứ tồn tại đều có ý nghĩa.\""
     },
     {
       "id": 1031521,
-      "name": "Formation Conservation",
-      "desc": "All allied [PersonalityCharge] take -2% damage this turn for every allied [PersonalityCharge] on the field at Combat Start (max -10%)",
-      "summary": "Allied [PersonalityCharge] take less damage"
+      "name": "Bảo tồn Đội hình",
+      "desc": "Tất cả Bản sắc đồng minh [PersonalityCharge] nhận -2% sát thương trong lượt này cho mỗi Bản sắc đồng minh [PersonalityCharge] trên chiến trường khi bắt đầu trận chiến (Tối đa -10%)",
+      "summary": "Bản sắc đồng minh [PersonalityCharge] nhận ít sát thương hơn"
     }
   ]
 }
