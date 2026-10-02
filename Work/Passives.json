@@ -3083,6 +3083,285 @@
       "id": 1081521,
       "name": "Chỉ có Chém và Giết",
       "desc": "1 đồng minh có tốc độ cao nhất, +10% lượng sát thương gây ra của kĩ năng hệ Chém\n- Nếu đồng minh đó có [Agility], thay vào đó +15% lượng sát thương kĩ năng hệ Chém"
+    },
+    {
+      "id": 1071602,
+      "name": "Duello Disperato",
+      "desc": "At Base Skill End against an enemy:\n- If the target is defeated while having [DuelEdgeAlly] (on any of its Parts), gain 1 [EvolvingManual]\n- If the main target isn't defeated, inflict 1 [DuelEdgeAlly] on the main target; if there was a Clash against the said main target using the said Base Skill, inflict 2 [DuelEdgeAlly] on the main target instead\n\nAt Clash Start against a target that has [DuelEdgeAlly], heal SP equal to [DuelEdgeAlly] Stack on target (max 5 per turn)",
+      "summary": "",
+      "flavor": ""
+    },
+    {
+      "id": 1071603,
+      "name": "Desperate Struggle",
+      "desc": "If The House of Spiders: The Thumb Nursefather Rodion is on the field, activate the following:\n(Does not activate in turns where this unit is Panicked or Staggered)\n- When The Thumb Nursefather Rodion (that has [FutureEyeOnRodion]) hits an enemy with a Base Skill, at its Attack End, follow up with \"La Spada di Palermo\" as an Unopposed Attack against the target (once per turn)\n- Combat Start: When The Thumb Nursefather Rodion (that has [FutureEyeOffRodion]) is targeted by an enemy's Unopposed Skill, The Thumb Apprentice Heathcliff gains 1 [SupportProtect]\n(This [SupportProtect] activates only for The House of Spiders: The Thumb Nursefather Rodion)",
+      "summary": "",
+      "flavor": ""
+    },
+    {
+      "id": 1071604,
+      "name": "Saikai [再会] - The Thumb",
+      "desc": "If this unit is defeated at Encounter Start, or if this unit is defeated during the Encounter, Blade of the House of Spiders Ryōshū gains the following effects:\n- Gain 1 [SojiRyoshuEchoPast]\n- On Clash Win using a Base Skill, inflict 2 [Vibration] and trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1 (2 times per turn)",
+      "summary": "",
+      "flavor": ""
+    },
+    {
+      "id": 1071601,
+      "name": "Palermitan Style",
+      "desc": "Gain the following effects based on ([EvolvingManual] on self + [DuelEdgeAlly] on the main target)\n- Base Skills deal +3% damage for every combined Stack (max 15%)\n- 1+ Stack: Clash Power +1\n- 2+ Stack: Base Skills gain Base Power +1\n- 3+ Stack: On Hit using a Base Skill, inflict 1 [SeveredTendonAlly] next turn\n- 4+ Stack: Base Skills gain Final Power +1\n- 5+ Stack: Base Skills deal +15% damage\n\nTake -3% damage for every ([EvolvingManual] on self + [DuelEdgeAlly] on the enemy attacking this unit) (max -15%)",
+      "summary": "",
+      "flavor": ""
+    },
+    {
+      "id": 1071621,
+      "name": "In One-on-one Duels...",
+      "desc": "1 ally with the fastest Speed: On Clash Win using Base Attack Skills, inflict +1 [Combustion] Count on target (once per turn)\n- Prioritizes \"The Thumb\" Identities\n- If the ally is \"The Thumb\" Identity, inflict +1 [Combustion] Count and [Vibration] Count instead\n- Combat Start: If there is only 1 enemy on the field, (for Abnormalities, a Core), this effect inflicts +1 more [Combustion] Count and [Vibration] Count",
+      "summary": "",
+      "flavor": ""
+    },
+    {
+      "id": 1091601,
+      "name": "La Spada di Palermo",
+      "desc": "If this unit has 1+ [AccelBullet], Skill 3 gains Coin Power +1 and deals +25% damage\n\nBase Skills deal +1% damage for every 2 [Combustion] on the main target (max 15%)\n- If the main target has Shield, Base Skills deal +3% damage instead (max 45%)"
+    },
+    {
+      "id": 1091602,
+      "name": "The Eye of Precognition",
+      "desc": "Upon entering the Encounter for the first time, gain 30 [FutureEyeOnRodion]\nAt 0 [FutureEyeOnRodion] Stack, convert [FutureEyeOnRodion] into [FutureEyeOffRodion]\n\nWhile this unit has [FutureEyeOnRodion], activate the following effects:\n- In a Clash, gain 1 [LookingFutureRodion] with every Clash (5 times per Skill)\n- When attacked by an Unopposed Attack, [SuperCoin] Attack, or losing a Clash against an Attack Skill, activate the \"Precognition\" Skill (once per turn)\n\nThe following causes this unit to lose [FutureEyeOnRodion] Stack:\n- Lose 1 [FutureEyeOnRodion] with every Clash\n- When this unit activates the \"Precognition\" Skill via Passive effect due to being attacked by an Unopposed Attack or [SuperCoin] Attack, lose 3 [FutureEyeOnRodion]\n- When this unit activates the \"Precognition\" Skill via Passive effect due to losing a Clash, lose 5 [FutureEyeOnRodion]\n\nThe following causes this unit to gain [ObsessionAndGreedRodion] next turn:\n- If this unit's [FutureEyeOnRodion] Stack drops to 0\n- If this unit is Staggered\n- If The House of Spiders: The Thumb Apprentice Heathcliff is defeated (if the said Identity is already defeated when this unit Substitutes in, gain [ObsessionAndGreedRodion] at Turn Start)\n\nTurn End: When Staggered for the first time in this Encounter, recover from Stagger (excluding forced Staggers)"
+    },
+    {
+      "id": 1091612,
+      "name": "The Eye of Precognition",
+      "desc": "Upon entering the Encounter for the first time, gain 30 [FutureEyeOnRodion]\nAt 0 [FutureEyeOnRodion] Stack, convert [FutureEyeOnRodion] into [FutureEyeOffRodion]\n\nWhile this unit has [FutureEyeOnRodion], activate the following effects:\n- In a Clash, gain 1 [LookingFutureRodion] with every Clash (5 times per Skill)\n- When attacked by an Unopposed Attack, [SuperCoin] Attack, or losing a Clash against an Attack Skill, activate the \"Precognition\" Skill (once per turn)\n\nThe following causes this unit to lose [FutureEyeOnRodion] Stack:\n- Lose 1 [FutureEyeOnRodion] with every Clash\n- When this unit activates the \"Precognition\" Skill via Passive effect due to being attacked by an Unopposed Attack or [SuperCoin] Attack, lose 3 [FutureEyeOnRodion]\n- When this unit activates the \"Precognition\" Skill via Passive effect due to losing a Clash, lose 5 [FutureEyeOnRodion]\n\n<style=\"highlight\">At the end of the turn this unit's [FutureEyeOnRodion] is converted into [FutureEyeOffRodion], activate the following effects:\n- [FullReload] (once per Encounter)\n- At the start of the next turn, if this unit has no \"Disposal\" on its Dashboard, replace a Base Skill with \"Disposal\" (prioritizes the Skill on the leftmost Slot's top row)</style>\n\nThe following causes this unit to gain [ObsessionAndGreedRodion] next turn:\n- If this unit's [FutureEyeOnRodion] Stack drops to 0\n- If this unit is Staggered\n- If The House of Spiders: The Thumb Apprentice Heathcliff is defeated (if the said Identity is already defeated when this unit Substitutes in, gain [ObsessionAndGreedRodion] at Turn Start)\n\nTurn End: When Staggered due to damage for the first time in this Encounter, recover from Stagger (excluding forced Staggers)"
+    },
+    {
+      "id": 1091603,
+      "name": "The Shame of Famiglia Bognatelli",
+      "desc": "Gain 2 [Breath] and +2 [Breath] Count for every [AccelBullet] spent\nWhen flipping a Coin that spends [AccelBullet], the attack does not get canceled even when this unit is out of [AccelBullet]\n\nThis Identity counts only as an \"Identity that inflicts [Combustion] and [Vibration]\"\n\nTurn Start: If this unit has \"Disposal\" on its Dashboard, inflict [TeachersPreyRodion] on the enemy this unit attacked last in the previous turn (in Focused Encounters, the Parts count for this purpose)\n- If there are no targets that satisfy the condition above, inflict [TeachersPreyRodion] on the enemy that has the lowest HP"
+    },
+    {
+      "id": 1091604,
+      "name": "Saikai [再会] - The Thumb",
+      "desc": "If this unit is defeated at Encounter Start, or if this unit is defeated during the Encounter, Blade of the House of Spiders Ryōshū gains the following effects:\n- Gain 1 [SojiRyoshuEchoPast]\n- Defense Skill Coin Power +1, Base Attack Skills deal +10% damage against targets that have Shield"
+    },
+    {
+      "id": 1091621,
+      "name": "Weaklings, Not Worth Shit",
+      "desc": "1 ally with the fastest Speed: When triggering [VibrationExplosion] on the enemy, gain 2 Offense Level Up next turn (once per turn)\n- If the said ally is \"The Thumb\" Identity, gain 1 [Agility] as well (once per turn)"
+    },
+    {
+      "id": 1121601,
+      "name": "Morgenfeuer [Stigma Workshop]",
+      "desc": "When other Dawn Office[TabExplain] Identities meet the following conditions, Dawn Office[TabExplain] Rep Gregor uses the \"Flash of Sunup\" Skill against the targeted enemy (once per turn per Identity)\n- At Base Skill Attack End: If the enemy that was hit is Staggered, use \"Flash of Sunup\" against said enemy\n(Does not activate if the said enemy was already Staggered Before Attack of the said Skill)\n- At Attack End of the following Skills, use \"Flash of Sunup\" on the enemy they hit (prioritizes Staggered targets):\n  · Dawn Office[TabExplain] Fixer Faust's \"Eject\", \"Eject - High Noon[TabExplain]\", and \"Dismemberment at High Noon[TabExplain]\"\n  · Dawn Office[TabExplain] Fixer Sinclair's \"Stigmatize\" and \"Blazing[TabExplain] Strike\"\n\nIf Dawn Office[TabExplain] Fixer Sinclair is on the field: On Hit using Coins added to Dawn Office[TabExplain] Rep Gregor's Base Skills, deal additional Wrath damage equal to [Combustion] on targeted enemy (max 10; max 20 per turn)\n- Counts as activating [Combustion]",
+      "summary": "If conditions are met, deal Wrath damage based on Burn Potency",
+      "flavor": "An A+ class Workshop weapon that has remained a constant companion of its wielder, <i>the Fixer at the Crack of Dawn</i>, since his first days as a Fixer through the Smoke War and its fallout. Every contract successfully carried out by the Fixer added to Stigma Workshop's fame, and as a show of gratitude, they repeatedly upgraded and expanded the weapon's capabilities. Just as the Fixer's seasoned renown was built up over time, this blade, too, was forged, remade, and sharpened by the years. \nMorgenfeuer, once regarded as an S-class weapon, inevitably lost its fervor and edge in the twilight years of the Fixer at the Crack of Dawn as he withdrew from the front lines of the Fixer business in favor of teaching the next generation."
+    },
+    {
+      "id": 1121611,
+      "name": "Morgenfeuer [Stigma Workshop]",
+      "desc": "When this unit has [DawnLight], gain 2 [StigmaWorkshopHandStep1] On Hit using Base Attack Skills\n\nWhen other Dawn Office[TabExplain] Identities meet the following conditions, Dawn Office[TabExplain] Rep Gregor uses the \"Flash of Sunup\" Skill against the targeted enemy (once per turn per Identity)\n- At Base Skill Attack End: If the enemy that was hit is Staggered, use \"Flash of Sunup\" against said enemy\n(Does not activate if the said enemy was already Staggered Before Attack of the said Skill)\n- At Attack End of the following Skills, use \"Flash of Sunup\" on the enemy they hit (prioritizes Staggered targets):\n  · Dawn Office[TabExplain] Fixer Faust's \"Eject\", \"Eject - High Noon[TabExplain]\", and \"Dismemberment at High Noon[TabExplain]\"\n  · Dawn Office[TabExplain] Fixer Sinclair's \"Stigmatize\" and \"Blazing[TabExplain] Strike\"\n\nIf Dawn Office[TabExplain] Fixer Sinclair is on the field: On Hit using Coins added to Dawn Office[TabExplain] Rep Gregor's Base Skills, deal additional Wrath damage equal to [Combustion] on the targeted enemy (max 10; max 20 per turn)\n- Counts as activating [Combustion]",
+      "summary": "Gain [StigmaWorkshopHandStep1]\nIf conditions are met, deal Wrath damage based on Burn Potency",
+      "flavor": "An A+ class Workshop weapon that has remained a constant companion of its wielder, <i>the Fixer at the Crack of Dawn</i>, since his first days as a Fixer through the Smoke War and its fallout. Every contract successfully carried out by the Fixer added to Stigma Workshop's fame, and as a show of gratitude, they repeatedly upgraded and expanded the weapon's capabilities. Just as the Fixer's seasoned renown was built up over time, this blade, too, was forged, remade, and sharpened by the years. \nMorgenfeuer, once regarded as an S-class weapon, inevitably lost its fervor and edge in the twilight years of the Fixer at the Crack of Dawn as he withdrew from the front lines of the Fixer business in favor of teaching the next generation."
+    },
+    {
+      "id": 1121602,
+      "name": "The Fixer at the Crack of Dawn",
+      "desc": "Upon entering the Encounter for the first time, gain 0 [StigmaWorkshopHandStep1]\n\nCannot be Staggered or fall below 1 HP due to [Combustion] damage\nTake -50% damage from [Combustion] effects (rounded down)\n- At less than 50% HP, take -75% damage from [Combustion] effects instead (rounded down)"
+    },
+    {
+      "id": 1121603,
+      "name": "Dawn Office",
+      "desc": "Upon entering the Encounter for the first time, if there are 2+ allied Dawn Office[TabExplain] Identities (including this unit) on the field, apply [DawnTeam] Stack on all Dawn Office[TabExplain] Identities equal to the number of Dawn Office[TabExplain] Identities on the field\n\nIf Dawn Office[TabExplain] Fixer Sinclair is on the field, activate the following effects:\n- Dawn Office[TabExplain] Fixer Sinclair gains [DawnGregor]\n- Turn Start: If Dawn Office[TabExplain] Rep Gregor is defeated, convert [DawnGregor] on Dawn Office[TabExplain] Fixer Sinclair into [DawnGregorDying]\n- Turn Start: If Dawn Office[TabExplain] Fixer Sinclair has less than 50% HP, apply [RunSinclair] on that unit (once per Encounter)"
+    },
+    {
+      "id": 1121621,
+      "name": "Stigma Workshop Prosthesis",
+      "desc": "The ally who has the highest current HP inflicts 2 [Vibration] On Hit against enemies that have [Combustion] (once per turn)\n- If said enemy has 10+ [Combustion], trigger [VibrationExplosion] On final Coin Hit; then, reduce target's [Vibration] Count by 1 (once per turn)",
+      "flavor": "A prosthetic gear produced by Stigma Workshop—a Workshop normally specializing in bladed weaponry—designed specifically for the Fixer at the Crack of Dawn to use. Attempting to use this fiery equipment without understanding Stigma Workshop's precise quirks will be met with swift consequences: painful, flesh-melting burn marks seared into the user's body."
+    },
+    {
+      "id": 1021602,
+      "name": "Heatproof Coat",
+      "desc": "Upon entering the Encounter for the first time, gain 0 [StigmaWorkshopCelloCaseOne]\n\nCannot be Staggered or fall below 1 HP due to [Combustion] damage\nTake -50% damage from [Combustion] effects (rounded down)\n- At less than 50% HP, take -75% damage from [Combustion] effects instead (rounded down)",
+      "summary": "Take less damage from Burn effects",
+      "flavor": "If you have made up your mind to use Workshop gears that utilize heat, then you had best be prepared to pay a slew of hidden costs. Unlike conventional weapons, whose variables are in the more obviously observable territory, such as sharpness and durability, weapons that radiate heat require all manner of groundwork to ensure that the wielder is not consumed by that very heat. And that requires money.\n\nIt is, of course, a simple enough thing to procure weapons that set things ablaze outright or fabrics that do not catch fire easily. But to obtain a weapon whose heat output can be fine-tuned and controlled at any given moment according to the wielder's every need, or outlier fabrics that ward off heat <i>completely</i>—such exceptional gear costs not only a fortune but also the wielder's constant training to be as exceptional in handling them.\n\nNaturally, if you have invested that much money and time, the returns will come in the form of many more contracts requiring your services."
+    },
+    {
+      "id": 1021603,
+      "name": "Seonbae",
+      "desc": "If Dawn Office[TabExplain] Fixer Sinclair is on the field, activate the following effects:\n- Dawn Office[TabExplain] Fixer Sinclair gains [DawnFaust]\n- Turn Start: If Dawn Office[TabExplain] Fixer Faust is defeated, convert [DawnFaust] on Dawn Office[TabExplain] Fixer Sinclair into [DawnFaustDying]",
+      "summary": "",
+      "flavor": ""
+    },
+    {
+      "id": 1021601,
+      "name": "Feuerfalter [Stigma Workshop]",
+      "desc": "When other Dawn Office[TabExplain] Identities meet the following conditions, Dawn Office[TabExplain] Fixer Faust uses the \"Seconded Offensive\" Skill against the targeted enemy (once per turn per Identity)\n- At Base Skill Attack End: If the enemy that was hit is Staggered, use \"Seconded Offensive\" against said enemy\n(Does not activate if the said enemy was already Staggered Before Attack of the said Skill)\n- At Attack End of the following Skills, use \"Seconded Offensive\" on the enemy they hit (prioritizes Staggered targets):\n  · Dawn Office[TabExplain] Rep Gregor's \"Dawnsplitter\" and \"Crack of Dawn\"\n  · Dawn Office[TabExplain] Fixer Sinclair's \"Stigmatize\" and \"Blazing[TabExplain] Strike\"\n\nIf Dawn Office[TabExplain] Fixer Sinclair is on the field: On Hit using Reused Coins of Dawn Office[TabExplain] Fixer Faust's Base Skills, deal additional Wrath damage equal to [Combustion] on targeted enemy (max 10; max 20 per turn)\n- Counts as activating [Combustion]",
+      "summary": "Activate additional attack\nOn Hit using Reused Coins, deal Wrath damage based on Burn Potency",
+      "flavor": "The appeal of a weapon shaped like a suitcase or a musical instrument case is clear enough.\n\nFirst, the user may blend into the cover of daily life without raising alarm. Though arms of this sort are unwieldy and complicated to make use of in battle, that perceived shortcoming makes them less likely to be recognized as tools of killing.\n\nSecondly, weapons fashioned into the form of a case afford storage capacity. Container-shaped arms, for example, are actively used by the Fixers of the Devyat' Association.\n\nSuch convenience, however, does not automatically win favors from those who elect Workshop gear as their weapon of choice. The common opinion is that anyone who invests so much time in mastering this sort of weaponry would be better served by training with something else—in fact, the user would often hear snide remarks from other combatants, ranging from \"Fixers these days\" to \"showy and pretentious.\"\n\nBut should one let this reputation for impracticality drop one's guard when facing an opponent armed with such a finicky piece of equipment, especially if they happen to be a high-ranking Fixer or a Syndicate officer, one will find that the laughable \"containers\" or \"cases\" carry quite a different weight—a weight grave enough for any Workshop worth its name to call them \"coffins.\" And coffins, as a matter of fact, have a way of inviting butterflies."
+    },
+    {
+      "id": 1021611,
+      "name": "Feuerfalter [Stigma Workshop]",
+      "desc": "<style=\"highlight\">Combat Start: When this unit has [Firstlight], gain (Stack x 3) [StigmaWorkshopCelloCaseOne]</style>\n\nWhen other Dawn Office[TabExplain] Identities meet the following conditions, Dawn Office[TabExplain] Fixer Faust uses the \"Seconded Offensive\" Skill against the targeted enemy (once per turn per Identity)\n- At Base Skill Attack End: If the enemy that was hit is Staggered, use \"Seconded Offensive\" against said enemy\n(Does not activate if the said enemy was already Staggered Before Attack of the said Skill)\n- At Attack End of the following Skills, use \"Seconded Offensive\" on the enemy they hit (prioritizes Staggered targets):\n  · Dawn Office[TabExplain] Rep Gregor's \"Dawnsplitter\" and \"Crack of Dawn\"\n  · Dawn Office[TabExplain] Fixer Sinclair's \"Stigmatize\" and \"Blazing[TabExplain] Strike\"\n\nIf Dawn Office[TabExplain] Fixer Sinclair is on the field: On Hit using Reused Coins of Dawn Office[TabExplain] Fixer Faust's Base Skills, deal additional Wrath damage equal to [Combustion] on the targeted enemy (max 10; max 20 per turn)\n- Counts as activating [Combustion]",
+      "summary": "If this unit has Battle Instinct, gain Fire Butterfly Coffin\nActivate additional attack\nOn Hit using Reused Coins, deal Wrath damage based on Burn Potency",
+      "flavor": "The appeal of a weapon shaped like a suitcase or a musical instrument case is clear enough.\n\nFirst, the user may blend into the cover of daily life without raising alarm. Though arms of this sort are unwieldy and complicated to make use of in battle, that perceived shortcoming makes them less likely to be recognized as tools of killing.\n\nSecondly, weapons fashioned into the form of a case afford storage capacity. Container-shaped arms, for example, are actively used by the Fixers of the Devyat' Association.\n\nSuch convenience, however, does not automatically win favors from those who elect Workshop gear as their weapon of choice. The common opinion is that anyone who invests so much time in mastering this sort of weaponry would be better served by training with something else—in fact, the user would often hear snide remarks from other combatants, ranging from \"Fixers these days\" to \"showy and pretentious.\"\n\nBut should one let this reputation for impracticality drop one's guard when facing an opponent armed with such a finicky piece of equipment, especially if they happen to be a high-ranking Fixer or a Syndicate officer, one will find that the laughable \"containers\" or \"cases\" carry quite a different weight—a weight grave enough for any Workshop worth its name to call them \"coffins.\" And coffins, as a matter of fact, have a way of inviting butterflies."
+    },
+    {
+      "id": 1021621,
+      "name": "The Lone Fixer",
+      "desc": "Combat Start: If there is only 1 surviving Identity, including Backup units, the said Identity gains 3 [AttackUp] and 3 [DefenseUp]",
+      "summary": "Gain 3 Offense Level Up and 3 Defense Level Up",
+      "flavor": ""
+    },
+    {
+      "id": 1011601,
+      "name": "VelocityAndCoordinatesAndVelocity",
+      "desc": "If this unit's Speed is faster than the target's, deal +(Speed difference x [Charge] Potency on self)% damage (max 20%)\n\nTurn End: Gain ([Charge] Potency on self / 2) [Agility] next turn (max 2; rounded down)",
+      "summary": "",
+      "flavor": ""
+    },
+    {
+      "id": 1011602,
+      "name": "Open Alley",
+      "desc": "Gain 1 [Charge] Potency every time this unit consumes 10 cumulative [Charge] Count in this Encounter\n\nWhen another ally's Skill hits an enemy: At Attack End, consume 1 [DriftingDimensionYisang] to activate \"Dimensional Slice\" against the said target; then, gain 1 [FourDimensionYisang]",
+      "summary": "",
+      "flavor": ""
+    },
+    {
+      "id": 1011621,
+      "name": "LetManOutrunEvenTheRayOfLight",
+      "desc": "When 1 ally with the fastest Speed uses a Skill that gains or consumes [Charge] Count, gain 1 [Agility] next turn (once per turn)",
+      "summary": "",
+      "flavor": ""
+    },
+    {
+      "id": 1061601,
+      "name": "Virescent Pyrojade",
+      "desc": "On Clash Win, if target has Nerve Strike, inflict 1 [DianxueHongLu] (once per turn)\n\nTurn End: Gain 1 [Agility] next turn for every 5 [Breath] Potency on self (max 2)\n\nDeal +([Combustion] Potency on target)% damage on Critical Hit (max 15%)"
+    },
+    {
+      "id": 1061602,
+      "name": "A Duel Witnessed",
+      "desc": "Upon entering the Encounter for the first time, gain [DuelSousTemoinsEast] equal to the number of \"Cinq Association\" Identities set as Backup or Support Units (max 3, including defeated units)\n\nAgainst the target a Base Attack Skill hit last, inflict 1 [DianxueHongLu] next turn (once per turn; in Focused Encounters, the Part)"
+    },
+    {
+      "id": 1061611,
+      "name": "Virescent Pyrojade",
+      "desc": "On Clash Win, if target has Nerve Strike, inflict 1 [DianxueHongLu] (once per turn)\n\nTurn End: Gain 1 [Agility] next turn for every <style=\"highlight\">3</style> [Breath] Potency on self (max 2)\n\nDeal +([Combustion] Potency on target)% damage on Critical Hit (max 15%)\n<style=\"highlight\">- Increase max cap by 5% for every 1 [DianxueHongLu] on the target</style>"
+    },
+    {
+      "id": 1061621,
+      "name": "I'll Melt Open the Way Out",
+      "desc": "1 ally with the fastest Speed: On Clash Win against enemies that have [Combustion] or \"Unique Burn\", inflict 1 [Binding] next turn (once per turn)\n- If target has 4- [Combustion] Count, also inflict +1 [Combustion] Count to the said target this turn\n- If target has 5+ [Combustion] Count, also inflict 3 [Combustion] to the said target this turn"
+    },
+    {
+      "id": 1041601,
+      "name": "Feedback",
+      "desc": "When triggering [VibrationExplosion] on the enemy, increase the Stagger Threshold raise by +15%\n- At 12+ [ChargeNoirAlly] Count, consume 1 [ChargeNoirAlly] Count when triggering [VibrationExplosion] to increase the Stagger Threshold raise by +30% instead (effect applied per target)\n\nWhen hit, if this unit has Shield, inflict 2 [Vibration] Potency on the attacker (2 times per turn per enemy)",
+      "summary": "Increase Stagger Threshold raise",
+      "flavor": "The Noirs believe they can collapse their opponents' worth by subjecting them to violent tremors—the more violently the target vibrates, the more changes it must undergo from moment to moment. The combat techniques of the Noirs were built upon that conviction.\n\nAnd though the Noirs neither remember nor have ever experienced it, beyond the Grand Magasin Sisyphe exist fighting techniques founded upon the very same principle and have since been refined far beyond."
+    },
+    {
+      "id": 1041602,
+      "name": "Le Noir: Gabardine Fabric",
+      "desc": "Upon entering the field, gain 25 [NoirSuitAlly]\n\nTurn Start: Gain Shield equal to (([NoirSuitAlly] + [RealisationAlly]) / 5)% of this unit's max HP",
+      "summary": "Gain Shield"
+    },
+    {
+      "id": 1041603,
+      "name": "Le Noir: Gabardine Fabric",
+      "desc": "Upon entering the field, gain 25 [NoirSuitAlly]\n\nTurn Start:\n- Gain Shield equal to (([NoirSuitAlly] + [RealisationAlly]) / 5)% of this unit's max HP\n- If this unit has [RealisationAlly], convert \"Triple Stamped Stitching\" into \"Single Kick - Couture Multiple\"",
+      "summary": "Gain Shield"
+    },
+    {
+      "id": 1041604,
+      "name": "Conservation",
+      "desc": "Gain 1 [ChargeNoirAlly] Potency for every 10 cumulative [ChargeNoirAlly] Count this unit consumes in this Encounter\n\nTurn End: At fewer than 3 [ChargeNoirAlly] Potency, consume all [ChargeNoirAlly] Count to gain ([ChargeNoirAlly] Count consumed x 5) Shield next turn\n\nAt 3+ [ChargeNoirAlly] Potency, this unit's Base Skills gain +1 more [ChargeNoirAlly] Count when this unit has fewer than 12 [ChargeNoirAlly] Count\n\nOn Base Attack Skill Use,\n- If target has 6+ [Vibration] Potency, Coin Power +1\n- At 3+ [ChargeNoirAlly] Potency, Coin Power +1\n- Deal +([ChargeNoirAlly] Potency x 2)% damage (max 10%)\n· If the said Skill is \"Triple Stamped Stitching\" or \"Single Kick - Couture Multiple\", deal +([ChargeNoirAlly] Potency x 4)% damage instead (max 20%)",
+      "summary": "At fewer than a certain number of Preservation Count, gain more Preservation Count\nOn Base Attack Skill Use, gain Coin Power and deal more damage"
+    },
+    {
+      "id": 1041621,
+      "name": "Le Noir's Virtue and Worth",
+      "desc": "Among allies that have [Charge] or Unique [Charge], when 1 ally with the earliest Deployment Order triggers [VibrationExplosion] using its Base Skills, increase the Stagger Threshold raise by +12.5%",
+      "summary": "Increase Stagger Threshold raised by Tremor Burst\nInflict Tremor Potency when hit"
+    },
+    {
+      "id": 1081601,
+      "name": "Cradle of Change",
+      "desc": "On Base Skill Use, at fewer than 10 [ChargeRougeAlly] Count, Clash Power +2\n\nIf this unit is in [RougeIshmaelEclose] state, heal 8% HP On Hit using Base Skills (5 times per turn)",
+      "flavor": "While some might call this a \"changing room,\" it would be more appropriate for those on the other side to call it a \"pupa\" or an \"egg.\"\nShe melts and tears herself apart, metamorphosing... Until, when the time is right, she will shatter the shells and emerge into the world outside.\nBut if someone from the outside rips into the shell before she is ready... sadly, they will end up breaking her.\nThis is her most vulnerable moment, and therefore must be nurtured and looked after."
+    },
+    {
+      "id": 1081602,
+      "name": "Into the Changing Room...",
+      "desc": "Gain 1 [ChargeRougeAlly] for every 10 cumulative [ChargeRougeAlly] Count this unit consumes in this Encounter\n\nHP consumption effects from this unit's Base Skills do not Stagger or reduce this unit's HP below 1\n(At 1 HP, Base Skill effects that consume HP will be activated for free)\n\nIn this Encounter, when this unit takes damage that brings its HP down to 0, nullify that damage; then, immediately gain 2 [RougeIshmaelCocoon] and enter the [RougeIshmaelCocoon] state (once per Encounter)\n- If this unit entered [RougeIshmaelCocoon] state via its Defense Skill effects, the above effect will not trigger for the rest of the Encounter\n\nWhen entering [RougeIshmaelCocoon] state, gain Shield equal to this unit's max HP\n- Shield gained from this effect does not expire at Turn End\n- When [RougeIshmaelCocoon] state expires, Shield gained from the above effect expires\n\n- While in the [RougeIshmaelCocoon] state, aside from its exclusive Skill \"As the Voice Says, I Gladly Withdraw into Myself\", cannot equip Defense Skills or E.G.O Skills\n\nTurn End: At 0 [RougeIshmaelCocoon] Stack, leave [RougeIshmaelCocoon] state and enter [RougeIshmaelEclose] state; then, gain +5 [ChargeRougeAlly] Count",
+      "flavor": "I'm going to get myself a makeover! So I can get nearer to my true self!"
+    },
+    {
+      "id": 1081621,
+      "name": "[Actrice Haute Couture du Rouge] - Robes",
+      "desc": "#1 and #2 Deployed allies heal +20% more HP from Passive, Skill, and Coin effects\n\nOn Lust A-Reson., #1 and #2 allies take -10% damage from Skills for the turn",
+      "flavor": "When it isn't feasible to overwrite the subject with the exact form of the Mirrored Identity, a \"costume\" fitted for each actor is designed and worn.\n\nHaute Couture is a form of cinematic reinterpretation; it replaces an existent being with an outfit, and the actor, now overwritten, dutifully performs the given role in full immersion. \n\nThis deception of reality is readily accepted by the audience at the theater while the actor, at least within the confines of the narrative, embodies the original existence in earnest recreation."
+    },
+    {
+      "id": 1091701,
+      "name": "Snipping in the Alteration Shop are Blossom Scissors",
+      "desc": "Turn End: Gain Shield next turn equal to [ChargeKhaki] Count\nAt 2+/3+/5+ [ChargeKhaki] Potency, Base Skill Final Power +1/+2/+3",
+      "summary": "Gain Base Skill Final Power"
+    },
+    {
+      "id": 1091702,
+      "name": "Inertia of Drifting",
+      "desc": "Gain 1 [ChargeKhaki] Potency for every 10 cumulative [ChargeKhaki] Count this unit consumes in this Encounter\n\nAt Attack End of another ally that has [NoirScissorShield], activate \"Patterning\" against the said ally's target (once per turn)\n- [BeforeUse] If the said target has 2+ [NoirScissorAlly], activate as \"Cutout\" instead (once per turn)",
+      "summary": "Activate additional attack"
+    },
+    {
+      "id": 1091721,
+      "name": "First is Thanks-snipping",
+      "desc": "1 ally with the fastest Speed deals +10% damage using Slash Base Skills",
+      "summary": "Bonus Slash damage",
+      "flavor": "The single pair dearest to me, above all the rest... will be yours as well."
+    },
+    {
+      "id": 1031501,
+      "name": "Obsidian Covenant",
+      "desc": "Combat End: If this unit has [OathFieldDonQuixote], gain 1 [Agility] next turn\n\nThis unit's Base Attack Skills deal +([ChargeNoirAlly] Potency on self x 3)% damage against the main target (max 15%)",
+      "summary": "If [OathFieldDonQuixote] is active, gain [Agility] next turn\nBase Attack Skills deal more damage against the main target",
+      "flavor": "I heard His voice, His promise: \"Everything that exists has meaning.\""
+    },
+    {
+      "id": 1031502,
+      "name": "Malleus Promissionis",
+      "desc": "Upon entering the Encounter for the first time, gain +10 [ChargeNoirAlly] Count and apply +2 [Charge] Count on other \"Le Noir\" allied Identities\n\nWhen inflicting [NoirNailDonQuixote] using Skill effects:\n- At 12+ [ChargeNoirAlly] Count, inflict +1 more [NoirNailDonQuixote] and consume 4 [ChargeNoirAlly] Count\n- At fewer than 12 [ChargeNoirAlly] Count, consume 2 [ChargeNoirAlly] Count\n- At insufficient [ChargeNoirAlly] Count, does not inflict [NoirNailDonQuixote]\n- Skills that inflict [NoirNailDonQuixote] due to this effect count as Skills that consume [Charge] Count\n\nGain 1 [ChargeNoirAlly] Potency every time this unit consumes 10 cumulative [ChargeNoirAlly] Count in this Encounter",
+      "summary": "Gain [ChargeNoirAlly] Count; \"Le Noir\" allies gain [Charge] Count\nConsume [ChargeNoirAlly] Count when inflicting [NoirNailDonQuixote]; inflict more [NoirNailDonQuixote] when at sufficient [ChargeNoirAlly] Count\nGain [ChargeNoirAlly] Potency by consuming [ChargeNoirAlly] Count",
+      "flavor": "A hammer drives nails. This hammer strikes nothing but nails. Whatever it strikes is a nail. That is what was agreed upon."
+    },
+    {
+      "id": 1031503,
+      "name": "Mission of Conservation",
+      "desc": "Upon entering the Encounter for the first time, gain 25 [NoirShieldUpDonQuixote]\n\nWhen consuming [ChargeNoirAlly] Count, or when gaining [ChargeNoirAlly] Count past its max cap, gain ([ChargeNoirAlly] Count consumed or surplus [ChargeNoirAlly] Count x 5) [NoirShieldUpDonQuixote] (max 30 per turn)\n\nWhen an allied Identity that has Shield is hit, this unit gains 2 [NoirShieldUpDonQuixote] (max 10 per turn)\n- If the said allied Identity is a [PersonalityCharge], gain 5 [NoirShieldUpDonQuixote] instead",
+      "summary": "Gain [NoirShieldUpDonQuixote]"
+    },
+    {
+      "id": 1031504,
+      "name": "The Lord's Will and Values Be With Us...",
+      "desc": "Before Attack of another \"Le Noir\" allied Identity on an enemy, this unit uses \"Judgment!\" Skill as an Unopposed Attack against the main target (once per turn)\n\nOn the final Coin Start of a Base Skill, the said Coin gains Final Power +([ChargeNoirAlly] Potency on self + ([NoirNailDonQuixote] on target / 2)) (max 5)\n\nIf this unit has [OathFieldDonQuixote], Base Skill 1/2/3 gains Clash Power +1/+2/+3\n\nWhen [VibrationExplosion] triggers on a target that has [NoirNailDonQuixote], this unit and 1 other allied [PersonalityCharge] that has the lowest [Charge] Count gain +2 [Charge] Count (2 times per turn)",
+      "summary": "Use \"Judgment!\" Skill before a \"Le Noir\" ally attacks\nBase Skill final Coins gain Final Power\nIf [OathFieldDonQuixote] is active, Base Skills gain Clash Power\nGain [Charge] Count when triggering [VibrationExplosion] on targets that have [NoirNailDonQuixote]",
+      "flavor": "The Obsidian God's words be our guiding light, our armor and shield in this troubled world of uncertainties; becometh His Voice the shining beam of light upon us, thereby bestowing us with meaning so coveted."
+    },
+    {
+      "id": 1031511,
+      "name": "Obsidian Covenant",
+      "desc": "Combat End: If this unit has [OathFieldDonQuixote], gain 2 [Agility] next turn\n\nThis unit's Base Attack Skills deal +([ChargeNoirAlly] Potency on self x 6)% damage against the main target (max 30%)",
+      "summary": "If [OathFieldDonQuixote] is active, gain [Agility] next turn\nBase Attack Skills deal more damage against the main target",
+      "flavor": "I heard His voice, His promise: \"Everything that exists has meaning.\""
+    },
+    {
+      "id": 1031521,
+      "name": "Formation Conservation",
+      "desc": "All allied [PersonalityCharge] take -2% damage this turn for every allied [PersonalityCharge] on the field at Combat Start (max -10%)",
+      "summary": "Allied [PersonalityCharge] take less damage"
     }
   ]
 }

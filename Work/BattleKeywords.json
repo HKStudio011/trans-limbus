@@ -3277,134 +3277,192 @@
       "undefined": "-"
     },
     {
-      "id": "StigmaWorkshopHandStep1",
-      "name": "Ánh sáng Bình minh",
-      "desc": "- Tầng tối đa: 30\n- Có thể tăng tối đa 20 Tầng mỗi lượt\n- Đầu lượt: Gây 1 Lửa cho mỗi 5 Tầng; sau đó, tăng +1 Số lần Lửa cho mỗi 10 Tầng\n- Khi Đánh trúng bằng Kĩ năng Tấn công Cơ bản, tăng (1 + (Lửa trên mục tiêu / 3)) Tầng (tối đa 3)\n- Ở 10+ Tầng, Kĩ năng Cơ bản gây +1 mức Lửa vào kẻ thù\n- Ở 20+ Tầng, Kĩ năng Cơ bản gây +1 số lần Lửa vào kẻ thù"
-    },
-    {
-      "id": "FourDimensionYisang",
-      "name": "Tứ kích duy",
-      "desc": "- Tầng tối đa: 4\n- Nhận các hiệu ứng sau dựa trên Tầng:\n· 1+: Cấp tấn công +1\n· 2+: Cấp phòng thủ +2\n· 3+: Tăng thêm +1 Số lần Sạc từ Kĩ năng của đơn vị này\n· 4+: Kĩ năng của đơn vị này gây +(Mức Sạc x 4)% sát thương (tối đa 20%)\n\n- Nếu đơn vị này nhận hiệu ứng này vượt quá giới hạn tối đa, đơn vị này sẽ nhận thêm Tầng vào lượt tiếp theo\n- Cuối lượt: Mất 1 Tầng"
-    },
-    {
-      "id": "DriftingDimensionYisang",
-      "name": "Lưu lạc đa kích",
-      "desc": "Tầng tối đa: 3\nTrước khi bị Đánh trúng, nhậnKhiên bằng với (Tầng)% HP (3 lần mỗi lượt)"
-    },
-    {
-      "id": "DawnFaust",
-      "name": "Trưa ca",
-      "desc": "- Tốc độ tối thiểu +2\n- Khi dùng Kĩ năng Tấn công Cơ bản: Tăng Sức mạnh Cơ bản +2 và gây +(45 / # Đồng xu)% sát thương\n\n- Áp dụng các hiệu ứng sau vào \"Lưỡi Blade hoàng hôn\":\n· Ở lần đánh Đồng xu cuối: Nếu mục tiêu có 15+ Lửa, kích hoạt Lửa lên mục tiêu; sau đó, giảm Số lần Lửa của mục tiêu đi 1\n\n- Áp dụng các hiệu ứng sau vào \"Cú đánh Cháy\":\n· Gây +100% sát thương\n· Khi dùng: Chuyển đổi tất cả Đồng xu thành Đồng xu Không vỡ\n· Khi Đánh trúng kẻ thù, kích hoạt Lửa lên mục tiêu; sau đó, giảm Số lần Lửa của mục tiêu đi 1\n· Khi dùng: Khi có 3+ Tình cảm Bạo loạn, tiêu hao tối đa 100 Cháy\n· Gây +1% sát thương cho mỗi Cháy tiêu hao (tối đa 100%)\n\n* Hiệu ứng Cháy\n- Lưu trữ toàn bộ sát thương Lửa gây ra trong vùng này\n- Đặt lại khi di chuyển sang vùng khác\n- Giá trị này được chia sẻ bởi tất cả nhân vật"
-    },
-    {
-      "id": "StigmaWorkshopHandStep3",
-      "name": "Ánh sáng Bình minh",
-      "desc": "- Tầng tối đa: 30\n- Có thể tăng tối đa 20 Tầng mỗi lượt\n- Đầu lượt: Gây 1 Lửa cho mỗi 5 Tầng; sau đó, tăng +1 Số lần Lửa cho mỗi 10 Tầng\n- Khi Đánh trúng bằng Kĩ năng Tấn công Cơ bản, tăng (1 + (Lửa trên mục tiêu / 3)) Tầng (tối đa 3)\n- Ở 10+ Tầng, Kĩ năng Cơ bản gây +1 mức Lửa vào kẻ thù\n- Ở 20+ Tầng, Kĩ năng Cơ bản gây +1 số lần Lửa vào kẻ thù"
-    },
-    {
-      "id": "StigmaWorkshopCelloCaseOne",
-      "name": "Hộp thiềnsa bướm lửa",
-      "desc": "- Tầng tối đa: 30\n- Có thể tăng tối đa 20 Tầng mỗi lượt\n- Khi Đánh trúng bằng Kĩ năng Cơ bản, tăng 2 Tầng\n- Cuối lượt: Ở 20+ Tầng, nhận Lửa vào lượt tiếp theo bằng một nửa số Tầng dư quá 20 (làm tròn xuống)\n· Ở 30 Tầng, nhận 5 Lửa và +2 Số lần Lửa thay vào đó"
-    },
-    {
-      "id": "StigmaWorkshopCelloCaseThree",
-      "name": "Hộp thiềnsa bướm lửa",
-      "desc": "- Tầng tối đa: 30\n- Có thể tăng tối đa 20 Tầng mỗi lượt\n- Khi Đánh trúng bằng Kĩ năng Cơ bản, tăng 2 Tầng\n- Cuối lượt: Ở 20+ Tầng, nhận Lửa vào lượt tiếp theo bằng một nửa số Tầng dư quá 20 (làm tròn xuống)\n· Ở 30 Tầng, nhận 5 Lửa và +2 Số lần Lửa thay vào đó"
-    },
-    {
-      "id": "FutureEyeOnRodion",
-      "name": "Con mắt Dự báo",
-      "desc": "- Tầng tối đa: 30\n- Có thể mất tối đa 10 Tầng mỗi lượt"
-    },
-    {
-      "id": "FutureEyeOffRodion",
-      "name": "Con mắt Dự báo - Quá tải nhiệt",
-      "desc": "- Tầng tối đa: 30\n- Cấp tấn công +3, Cấp phòng thủ -3\n- Đầu lượt: Nhận 10 Tầng\n- Ở 30 Tầng, chuyển thành \"Con mắt Dự báo\""
-    },
-    {
-      "id": "TeachersPreyRodion",
-      "name": "Mục tiêu trò chơi",
-      "desc": "- Nhận +15% sát thương từ Kĩ năng Cơ bản được dùng bởi Nhà Nhện: Cha nuôi Ngón Án Út Rodion"
-    },
-    {
-      "id": "DawnGregorDying",
-      "name": "Hoàng hôn Cháy",
-      "desc": "- Nếu đơn vị này có 3+ Ngưỡng Chấn động, xóa Ngưỡng Chấn động đầu tiên\n- Cuối lượt: Nếu đơn vị này bị Chấn động, phục hồi khỏi Chấn động; nếu đơn vị này ở Uptie 3 hoặc cao hơn, thay thế 1 Kĩ năng Cơ bản của đơn vị này bằng Kĩ năng 3\n(không tính Chấn động bắt buộc; mỗi lượt một lần; ưu tiên Kĩ năng có thứ hạng thấp nhất)\n\n- Đầu lượt: Hồi 8 SP\n- Hiệu ứng của \"Vỏ Ego Bất ổn\", hiệu ứng của Kĩ năng Tấn công Cơ bản, và hiệu ứng của Tình cảm Bạo loạn không thể giảm SP của đơn vị này xuống dưới 45\n\n- Đầu lượt: Vào trạng thái Volatile E.G.O::Vành Pin, hồi 50% HP, và hồi SP lên tối đa (mỗi lượt một lần)\n- Trạng thái Volatile E.G.O::Vành Pin được duy trì ngay cả khi đơn vị này có 0 hoặc ít hơn SP vào đầu lượt\n\n- Khi ở trạng thái Volatile E.G.O::Vành Pin, nhận các hiệu ứng sau:\n  · Đầu lượt: NhậnKhiên bằng với 20% HP tối đa\n  · Khi bị Đánh trúng trong khi đơn vị này cóKhiên, gây 2 Lửa lên kẻ tấn công (2 lần mỗi lượt)\n  · Kích hoạt Cháy trên chiến trường này\n\n※ Hiệu ứng Cháy\n- Lưu trữ toàn bộ sát thương Lửa gây ra trong vùng này\n- Đặt lại khi di chuyển sang vùng khác\n- Giá trị này được chia sẻ bởi tất cả nhân vật"
+      "id": "DuelEdgeAlly",
+      "name": "Đối đầu leo thang",
+      "desc": "- Ảnh hưởng đến Kĩ năng và hiệu ứng Passive của Nhà Nhện: Học trò Ngón Án Út Heathcliff\n- Có thể nhận tối đa 3 Tầng mỗi lượt\n- Tầng tối đa: 5",
+      "summary": "Affects The House of Spiders: The Thumb Apprentice Heathcliff's Skills and Passive effects"
     },
     {
       "id": "SeveredTendonAlly",
       "name": "Giằng dây",
-      "desc": "- Sức mạnh Cơ bản -1\n- Hết hiệu ứng vào cuối lượt\n- Tầng tối đa: 1"
-    },
-    {
-      "id": "DuelEdgeAlly",
-      "name": "Đối đầu leo thang",
-      "desc": "- Ảnh hưởng đến Kĩ năng và hiệu ứng Passive của Nhà Nhện: Học trò Ngón Án Út Heathcliff\n- Có thể nhận tối đa 3 Tầng mỗi lượt\n- Tầng tối đa: 5"
-    },
-    {
-      "id": "DawnTeam",
-      "name": "Văn phòng Hoàng hôn",
-      "desc": "- Tầng tối đa: 3\n- Nhận 1 Cấp tấn công cho mỗi Tầng\n- Đầu lượt: Ở 3 Tầng, hồi 5 SP\n- Đầu lượt: Nếu tất cả các Đồng minh khác có \"Văn phòng Hoàng hôn\" bị đánh bại, hết hiệu ứng"
-    },
-    {
-      "id": "RunSinclair",
-      "name": "Thiết bị tẩu thoát",
-      "desc": "- Khi đơn vị này nhận sát thương khiến HP giảm xuống 10, HP của đơn vị này không giảm dưới 10 trong lượt\n- Cuối lượt sau khi hiệu ứng trên kích hoạt: Phục hồi khỏi Chấn động và rút lui khỏi Trận chiến (trừ các Chấn động bắt buộc; không tính là chết; trong các Trận chiến mà việc rút lui bị vô hiệu hóa, hiệu ứng rút lui không kích hoạt và hết vào cuối lượt)\n  · Trong Chiến dịch Chuỗi, giao các ô của đơn vị này cho đơn vị thay thế và di chuyển đến vị trí cuối trong thứ tự bố trí của đơn vị dự bị (tẩu thoát hoàn toàn khỏi Trận chiến nếu không còn đơn vị dự bị khác để thay thế vào lượt tiếp theo. Khi quay lại trận đấu, quay lại theo thứ tự rút lui)\n  · Khi quay lại trận đấu, quay lại với cùng lượng HP và SP mà đơn vị này có khi rút lui, và loại bỏ tất cả hiệu ứng trên mình trừ một số hiệu ứng được chọn (nếu đơn vị này có ít hơn 0 SP khi rút lui, đặt lại SP thành 0 thay vào đó)"
-    },
-    {
-      "id": "LookingFutureRodion",
-      "name": "Tương lai gia tốc",
-      "desc": "- Tầng tối đa: 5\n- Kĩ năng Cơ bản gây +3% sát thương cho mỗi Tầng (tối đa 15%)\n- Kĩ năng Cơ bản Hợp kích +1 cho mỗi 2 Tầng\n- Ở 5 Tầng, Kĩ năng Cơ bản Đồng xu +1\n- Hết hiệu ứng vào cuối Kĩ năng"
-    },
-    {
-      "id": "DawnGregor",
-      "name": "Từ Bình minh đến Hoàng hôn",
-      "desc": "- Nếu đơn vị này có 3+ Ngưỡng Chấn động, xóa Ngưỡng Chấn động đầu tiên\n- Cuối lượt: Nếu đơn vị này bị Chấn động, phục hồi khỏi Chấn động; nếu đơn vị này ở Uptie 3 hoặc cao hơn, thay thế 1 Kĩ năng Cơ bản của đơn vị này bằng Kĩ năng 3\n(không tính Chấn động bắt buộc; mỗi lượt một lần; ưu tiên Kĩ năng có thứ hạng thấp nhất)\n\n- Đầu lượt: Hồi 5 SP\n- Hiệu ứng của \"Vỏ Ego Bất ổn\", hiệu ứng của Kĩ năng Tấn công Cơ bản, và hiệu ứng của Tình cảm Bạo loạn không thể giảm SP của đơn vị này xuống dưới 25\n\n- Khi ở trạng thái Volatile E.G.O::Vành Pin, nhận các hiệu ứng sau:\n  · Đầu lượt: NhậnKhiên bằng với 15% HP tối đa\n  · Khi bị Đánh trúng trong khi đơn vị này cóKhiên, gây 1 Lửa lên kẻ tấn công (2 lần mỗi lượt)\n  · Kích hoạt Cháy trên chiến trường này\n\n※ Hiệu ứng Cháy\n- Lưu trữ toàn bộ sát thương Lửa gây ra trong vùng này\n- Đặt lại khi di chuyển sang vùng khác\n- Giá trị này được chia sẻ bởi tất cả nhân vật"
-    },
-    {
-      "id": "ObsessionAndGreedRodion",
-      "name": "Tâm - Hẹn ước",
-      "desc": "- Tốc độ tối thiểu và tối đa +1\n- Kĩ năng Cơ bản gây +1 thêm mức Chấn động và Lửa Potency và Số lần\n- Gây +3% sát thương cho mỗi 3 Mức Kình trên mình (tối đa 15%)"
+      "desc": "- Sức mạnh Cơ bản -1\n- Hết hiệu ứng vào cuối lượt\n- Tầng tối đa: 1",
+      "summary": "Base Power -1"
     },
     {
       "id": "EvolvingManual",
       "name": "Sách giáo khoa trưởng thành",
-      "desc": "- Kĩ năng Cơ bản gây +(10 + (Tầng x 5))% sát thương\n- Có thể nhận tối đa 2 Tầng mỗi lượt\n- Tầng tối đa: 3"
+      "desc": "- Kĩ năng Cơ bản gây +(10 + (Tầng x 5))% sát thương\n- Có thể nhận tối đa 2 Tầng mỗi lượt\n- Tầng tối đa: 3",
+      "summary": "Base Skills deal more damage"
     },
     {
-      "id": "FireField",
-      "name": "Cháy",
-      "desc": "- Giá trị tối đa: 999\n- Lưu trữ toàn bộ sát thương Lửa gây ra trong vùng này\n- Đặt lại khi di chuyển sang vùng khác\n- Giá trị này được chia sẻ bởi tất cả nhân vật"
+      "id": "ObsessionAndGreedRodion",
+      "name": "Tâm - Hẹn ước",
+      "desc": "- Tốc độ tối thiểu và tối đa +1\n- Kĩ năng Cơ bản gây +1 thêm mức Chấn động và Lửa Potency và Số lần\n- Gây +3% sát thương cho mỗi 3 Mức Kình trên mình (tối đa 15%)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "FutureEyeOnRodion",
+      "name": "Con mắt Dự báo",
+      "desc": "- Tầng tối đa: 30\n- Có thể mất tối đa 10 Tầng mỗi lượt",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "FutureEyeOffRodion",
+      "name": "Con mắt Dự báo - Quá tải nhiệt",
+      "desc": "- Tầng tối đa: 30\n- Cấp tấn công +3, Cấp phòng thủ -3\n- Đầu lượt: Nhận 10 Tầng\n- Ở 30 Tầng, chuyển thành \"Con mắt Dự báo\"",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "LookingFutureRodion",
+      "name": "Tương lai gia tốc",
+      "desc": "- Tầng tối đa: 5\n- Kĩ năng Cơ bản gây +3% sát thương cho mỗi Tầng (tối đa 15%)\n- Kĩ năng Cơ bản Hợp kích +1 cho mỗi 2 Tầng\n- Ở 5 Tầng, Kĩ năng Cơ bản Đồng xu +1\n- Hết hiệu ứng vào cuối Kĩ năng",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "TeachersPreyRodion",
+      "name": "Mục tiêu trò chơi",
+      "desc": "- Nhận +15% sát thương từ Kĩ năng Cơ bản được dùng bởi Nhà Nhện: Cha nuôi Ngón Án Út Rodion",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "StigmaWorkshopHandStep1",
+      "name": "Ánh sáng Bình minh",
+      "desc": "- Tầng tối đa: 30\n- Có thể tăng tối đa 20 Tầng mỗi lượt\n- Đầu lượt: Gây 1 Lửa cho mỗi 5 Tầng; sau đó, tăng +1 Số lần Lửa cho mỗi 10 Tầng\n- Khi Đánh trúng bằng Kĩ năng Tấn công Cơ bản, tăng (1 + (Lửa trên mục tiêu / 3)) Tầng (tối đa 3)\n- Ở 10+ Tầng, Kĩ năng Cơ bản gây +1 mức Lửa vào kẻ thù\n- Ở 20+ Tầng, Kĩ năng Cơ bản gây +1 số lần Lửa vào kẻ thù",
+      "summary": "Gain Stack On Hit\nWhen conditions are met, inflict more Burn Potency and Count",
+      "undefined": "-",
+      "flavor": "The first flare of dawn is not a fire that scorches, but one that casts its glow on people."
     },
     {
       "id": "StigmaWorkshopHandStep2",
       "name": "Ánh sáng Bình minh",
-      "desc": "- Tầng tối đa: 30\n- Có thể tăng tối đa 20 Tầng mỗi lượt\n- Đầu lượt: Gây 1 Lửa cho mỗi 5 Tầng; sau đó, tăng +1 Số lần Lửa cho mỗi 10 Tầng\n- Khi Đánh trúng bằng Kĩ năng Tấn công Cơ bản, tăng (1 + (Lửa trên mục tiêu / 3)) Tầng (tối đa 3)\n- Ở 10+ Tầng, Kĩ năng Cơ bản gây +1 mức Lửa vào kẻ thù\n- Ở 20+ Tầng, Kĩ năng Cơ bản gây +1 số lần Lửa vào kẻ thù"
+      "desc": "- Tầng tối đa: 30\n- Có thể tăng tối đa 20 Tầng mỗi lượt\n- Đầu lượt: Gây 1 Lửa cho mỗi 5 Tầng; sau đó, tăng +1 Số lần Lửa cho mỗi 10 Tầng\n- Khi Đánh trúng bằng Kĩ năng Tấn công Cơ bản, tăng (1 + (Lửa trên mục tiêu / 3)) Tầng (tối đa 3)\n- Ở 10+ Tầng, Kĩ năng Cơ bản gây +1 mức Lửa vào kẻ thù\n- Ở 20+ Tầng, Kĩ năng Cơ bản gây +1 số lần Lửa vào kẻ thù",
+      "summary": "Gain Stack On Hit\nWhen conditions are met, inflict more Burn Potency and Count",
+      "undefined": "-",
+      "flavor": "The first flare of dawn is not a fire that scorches, but one that casts its glow on people."
+    },
+    {
+      "id": "StigmaWorkshopHandStep3",
+      "name": "Ánh sáng Bình minh",
+      "desc": "- Tầng tối đa: 30\n- Có thể tăng tối đa 20 Tầng mỗi lượt\n- Đầu lượt: Gây 1 Lửa cho mỗi 5 Tầng; sau đó, tăng +1 Số lần Lửa cho mỗi 10 Tầng\n- Khi Đánh trúng bằng Kĩ năng Tấn công Cơ bản, tăng (1 + (Lửa trên mục tiêu / 3)) Tầng (tối đa 3)\n- Ở 10+ Tầng, Kĩ năng Cơ bản gây +1 mức Lửa vào kẻ thù\n- Ở 20+ Tầng, Kĩ năng Cơ bản gây +1 số lần Lửa vào kẻ thù",
+      "summary": "Gain Stack On Hit\nWhen conditions are met, inflict more Burn Potency and Count",
+      "undefined": "-",
+      "flavor": "The first flare of dawn is not a fire that scorches, but one that casts its glow on people."
     },
     {
       "id": "DawnLight",
       "name": "Sứ giả Hoàng hôn",
-      "desc": "- Tầng tối đa: 3\n- Kĩ năng Cơ bản gây Lửa Potency, Số lần, hoặc 'Lửa Độc đáo' gây +10% sát thương\n· Nếu Kĩ năng đó là Kĩ năng Sân, gây +15% sát thương thay vào đó\n\n- Kĩ năng Cơ bản gây Lửa Potency, Số lần, hoặc 'Lửa Độc đáo', nhận Hợp kích +1\n· Nếu đơn vị này là Bản sắc Văn phòng Hoàng hôn, nhận Sức mạnh Cơ bản +1 thay vào đó\n- Cuối lượt: Mất 1 Tầng"
+      "desc": "- Tầng tối đa: 3\n- Kĩ năng Cơ bản gây Lửa Potency, Số lần, hoặc 'Lửa Độc đáo' gây +10% sát thương\n· Nếu Kĩ năng đó là Kĩ năng Sân, gây +15% sát thương thay vào đó\n\n- Kĩ năng Cơ bản gây Lửa Potency, Số lần, hoặc 'Lửa Độc đáo', nhận Hợp kích +1\n· Nếu đơn vị này là Bản sắc Văn phòng Hoàng hôn, nhận Sức mạnh Cơ bản +1 thay vào đó\n- Cuối lượt: Mất 1 Tầng",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "\"Burn, burn, burn—y'see, Kid, fire's not the be-all, end-all solution to every problem you've got. When it comes to using heat-modulating weapons like these, the deciding factors often come down to <i>when</i> to spark the flame, and <i>how hot</i> you let it burn.\n\"Yeah, that's why I'm always chewing your ear off about how important it is to feel the 'moment' that comes with the territory of using heat-modulating weapons. But on the other hand... when that 'moment' tells you to burn it all down, don't hold back and just let it rip. ... Hm? Oh, you want to know who's the best in the field?\"\n\"Hmm, let's see... Well, the best of the best's got to be the Vermilion Cross, I'd wager.\""
     },
     {
-      "id": "Firstlight",
-      "name": "Bản năng chiến đấu",
-      "desc": "- Tầng tối đa: 3\n- Tốc độ tối thiểu và tối đa +2\n- Kĩ năng Cơ bản gây +1 thêm mức Lửa và Số lần Lửa vào kẻ thù\n- Kĩ năng \"Tăng tốc\" gây +(Tầng x 5)% sát thương\n- Kĩ năng \"Tăng tốc - Trưa ca\" và \"Giây róc ở Trưa ca\" gây +(Tầng x 10)% sát thương"
+      "id": "RunSinclair",
+      "name": "Thiết bị tẩu thoát",
+      "desc": "- Khi đơn vị này nhận sát thương khiến HP giảm xuống 10, HP của đơn vị này không giảm dưới 10 trong lượt\n- Cuối lượt sau khi hiệu ứng trên kích hoạt: Phục hồi khỏi Chấn động và rút lui khỏi Trận chiến (trừ các Chấn động bắt buộc; không tính là chết; trong các Trận chiến mà việc rút lui bị vô hiệu hóa, hiệu ứng rút lui không kích hoạt và hết vào cuối lượt)\n  · Trong Chiến dịch Chuỗi, giao các ô của đơn vị này cho đơn vị thay thế và di chuyển đến vị trí cuối trong thứ tự bố trí của đơn vị dự bị (tẩu thoát hoàn toàn khỏi Trận chiến nếu không còn đơn vị dự bị khác để thay thế vào lượt tiếp theo. Khi quay lại trận đấu, quay lại theo thứ tự rút lui)\n  · Khi quay lại trận đấu, quay lại với cùng lượng HP và SP mà đơn vị này có khi rút lui, và loại bỏ tất cả hiệu ứng trên mình trừ một số hiệu ứng được chọn (nếu đơn vị này có ít hơn 0 SP khi rút lui, đặt lại SP thành 0 thay vào đó)",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "'... Live.'"
+    },
+    {
+      "id": "FireField",
+      "name": "Cháy",
+      "desc": "- Giá trị tối đa: 999\n- Lưu trữ toàn bộ sát thương Lửa gây ra trong vùng này\n- Đặt lại khi di chuyển sang vùng khác\n- Giá trị này được chia sẻ bởi tất cả nhân vật",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Heat turns air into a breeze, a gust, a firestorm, scorching the forest with abandon as men and beasts alike depart."
+    },
+    {
+      "id": "DawnGregor",
+      "name": "Từ Bình minh đến Hoàng hôn",
+      "desc": "- Nếu đơn vị này có 3+ Ngưỡng Chấn động, xóa Ngưỡng Chấn động đầu tiên\n- Cuối lượt: Nếu đơn vị này bị Chấn động, phục hồi khỏi Chấn động; nếu đơn vị này ở Uptie 3 hoặc cao hơn, thay thế 1 Kĩ năng Cơ bản của đơn vị này bằng Kĩ năng 3\n(không tính Chấn động bắt buộc; mỗi lượt một lần; ưu tiên Kĩ năng có thứ hạng thấp nhất)\n\n- Đầu lượt: Hồi 5 SP\n- Hiệu ứng của \"Vỏ Ego Bất ổn\", hiệu ứng của Kĩ năng Tấn công Cơ bản, và hiệu ứng của Tình cảm Bạo loạn không thể giảm SP của đơn vị này xuống dưới 25\n\n- Khi ở trạng thái Volatile E.G.O::Vành Pin, nhận các hiệu ứng sau:\n  · Đầu lượt: NhậnKhiên bằng với 15% HP tối đa\n  · Khi bị Đánh trúng trong khi đơn vị này cóKhiên, gây 1 Lửa lên kẻ tấn công (2 lần mỗi lượt)\n  · Kích hoạt Cháy trên chiến trường này\n\n※ Hiệu ứng Cháy\n- Lưu trữ toàn bộ sát thương Lửa gây ra trong vùng này\n- Đặt lại khi di chuyển sang vùng khác\n- Giá trị này được chia sẻ bởi tất cả nhân vật",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "\"Ah... What a pleasant aroma. You're practically a Color Fixer when it comes to brewing ssanghwa-cha, you know that? I hereby anoint you Color Fixer \"The Yellow Ssanghwa...\"\n\"That's settled, then. I'll be tutoring you myself, so you'd better keep up. I see real potential in you, Kid—your ssanghwa-cha brewing skills have this instinctive grasp of the 'moment'... And being able to recognize that 'moment' is the key to just about everything.\""
+    },
+    {
+      "id": "DawnFaust",
+      "name": "Trưa ca",
+      "desc": "- Tốc độ tối thiểu +2\n- Khi dùng Kĩ năng Tấn công Cơ bản: Tăng Sức mạnh Cơ bản +2 và gây +(45 / # Đồng xu)% sát thương\n\n- Áp dụng các hiệu ứng sau vào \"Lưỡi Blade hoàng hôn\":\n· Ở lần đánh Đồng xu cuối: Nếu mục tiêu có 15+ Lửa, kích hoạt Lửa lên mục tiêu; sau đó, giảm Số lần Lửa của mục tiêu đi 1\n\n- Áp dụng các hiệu ứng sau vào \"Cú đánh Cháy\":\n· Gây +100% sát thương\n· Khi dùng: Chuyển đổi tất cả Đồng xu thành Đồng xu Không vỡ\n· Khi Đánh trúng kẻ thù, kích hoạt Lửa lên mục tiêu; sau đó, giảm Số lần Lửa của mục tiêu đi 1\n· Khi dùng: Khi có 3+ Tình cảm Bạo loạn, tiêu hao tối đa 100 Cháy\n· Gây +1% sát thương cho mỗi Cháy tiêu hao (tối đa 100%)\n\n* Hiệu ứng Cháy\n- Lưu trữ toàn bộ sát thương Lửa gây ra trong vùng này\n- Đặt lại khi di chuyển sang vùng khác\n- Giá trị này được chia sẻ bởi tất cả nhân vật",
+      "summary": "Strengthen Base Attack Skills",
+      "undefined": "-",
+      "flavor": "\"The request has been resolved ahead of schedule, and the weather conditions are optimal today for a team lunch. Shall we all proceed?\""
+    },
+    {
+      "id": "DawnGregorDying",
+      "name": "Hoàng hôn Cháy",
+      "desc": "- Nếu đơn vị này có 3+ Ngưỡng Chấn động, xóa Ngưỡng Chấn động đầu tiên\n- Cuối lượt: Nếu đơn vị này bị Chấn động, phục hồi khỏi Chấn động; nếu đơn vị này ở Uptie 3 hoặc cao hơn, thay thế 1 Kĩ năng Cơ bản của đơn vị này bằng Kĩ năng 3\n(không tính Chấn động bắt buộc; mỗi lượt một lần; ưu tiên Kĩ năng có thứ hạng thấp nhất)\n\n- Đầu lượt: Hồi 8 SP\n- Hiệu ứng của \"Vỏ Ego Bất ổn\", hiệu ứng của Kĩ năng Tấn công Cơ bản, và hiệu ứng của Tình cảm Bạo loạn không thể giảm SP của đơn vị này xuống dưới 45\n\n- Đầu lượt: Vào trạng thái Volatile E.G.O::Vành Pin, hồi 50% HP, và hồi SP lên tối đa (mỗi lượt một lần)\n- Trạng thái Volatile E.G.O::Vành Pin được duy trì ngay cả khi đơn vị này có 0 hoặc ít hơn SP vào đầu lượt\n\n- Khi ở trạng thái Volatile E.G.O::Vành Pin, nhận các hiệu ứng sau:\n  · Đầu lượt: NhậnKhiên bằng với 20% HP tối đa\n  · Khi bị Đánh trúng trong khi đơn vị này cóKhiên, gây 2 Lửa lên kẻ tấn công (2 lần mỗi lượt)\n  · Kích hoạt Cháy trên chiến trường này\n\n※ Hiệu ứng Cháy\n- Lưu trữ toàn bộ sát thương Lửa gây ra trong vùng này\n- Đặt lại khi di chuyển sang vùng khác\n- Giá trị này được chia sẻ bởi tất cả nhân vật",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "\"Master, please... I still have so much to learn... You said it yourself...\"\nDawn is a fleeting thing; it soon gives way to morning and fades into daylight, with a promise of sunset that will bring about the evening."
     },
     {
       "id": "DawnFaustDying",
       "name": "Cô đơn vào Trưa ca",
-      "desc": "- Tốc độ tối thiểu +2\n- Khi dùng Kĩ năng Tấn công Cơ bản: Tăng Sức mạnh Cơ bản +3 và gây +(90 / # Đồng xu)% sát thương\n\n- Áp dụng các hiệu ứng sau vào \"Lưỡi Blade hoàng hôn\":\n· Ở lần đánh Đồng xu cuối: Nếu mục tiêu có 15+ Lửa, kích hoạt Lửa lên mục tiêu; sau đó, giảm Số lần Lửa của mục tiêu đi 1\n\n- Áp dụng các hiệu ứng sau vào \"Cú đánh Cháy\":\n· Gây +150% sát thương\n· Khi dùng: Chuyển đổi tất cả Đồng xu thành Đồng xu Không vỡ\n· Khi Đánh trúng kẻ thù, kích hoạt Lửa lên mục tiêu; sau đó, giảm Số lần Lửa của mục tiêu đi 1\n· Khi dùng: Tiêu hao tối đa 100 Cháy và gây +1.5% sát thương cho mỗi Cháy tiêu hao (tối đa 150%)\n\n- Khi đơn vị này nhận sát thương khiến HP giảm xuống 0 trong lượt này, HP của đơn vị này không thể giảm dưới 1 trong lượt, và phục hồi khỏi Chấn động khi bị Chấn động do sát thương (mỗi lượt một lần)\n\n* Hiệu ứng Cháy\n- Lưu trữ toàn bộ sát thương Lửa gây ra trong vùng này\n- Đặt lại khi di chuyển sang vùng khác\n- Giá trị này được chia sẻ bởi tất cả nhân vật"
+      "desc": "- Tốc độ tối thiểu +2\n- Khi dùng Kĩ năng Tấn công Cơ bản: Tăng Sức mạnh Cơ bản +3 và gây +(90 / # Đồng xu)% sát thương\n\n- Áp dụng các hiệu ứng sau vào \"Lưỡi Blade hoàng hôn\":\n· Ở lần đánh Đồng xu cuối: Nếu mục tiêu có 15+ Lửa, kích hoạt Lửa lên mục tiêu; sau đó, giảm Số lần Lửa của mục tiêu đi 1\n\n- Áp dụng các hiệu ứng sau vào \"Cú đánh Cháy\":\n· Gây +150% sát thương\n· Khi dùng: Chuyển đổi tất cả Đồng xu thành Đồng xu Không vỡ\n· Khi Đánh trúng kẻ thù, kích hoạt Lửa lên mục tiêu; sau đó, giảm Số lần Lửa của mục tiêu đi 1\n· Khi dùng: Tiêu hao tối đa 100 Cháy và gây +1.5% sát thương cho mỗi Cháy tiêu hao (tối đa 150%)\n\n- Khi đơn vị này nhận sát thương khiến HP giảm xuống 0 trong lượt này, HP của đơn vị này không thể giảm dưới 1 trong lượt, và phục hồi khỏi Chấn động khi bị Chấn động do sát thương (mỗi lượt một lần)\n\n* Hiệu ứng Cháy\n- Lưu trữ toàn bộ sát thương Lửa gây ra trong vùng này\n- Đặt lại khi di chuyển sang vùng khác\n- Giá trị này được chia sẻ bởi tất cả nhân vật",
+      "summary": "Strengthen Base Attack Skills",
+      "undefined": "-",
+      "flavor": "\"Do you understand what 'loneliness' means, Sinclair? Loneliness is being bathed in the light of the sun at high noon, only to realize that the ones you would have shared a luncheon with have departed you. That is how I would put into words the concept of 'loneliness'—for me, at least. I do hope, Sinclair, that you will never have cause to understand that concept.\""
     },
     {
-      "id": "CaseOverheating",
-      "name": "Hộp thiềnsa quá nóng",
-      "desc": "- Tầng tối đa: 1\n- Cuối lượt:\n· Nhận 3 Lửa vào lượt tiếp theo\n· Hiệu ứng này hết"
+      "id": "DawnTeam",
+      "name": "Văn phòng Hoàng hôn",
+      "desc": "- Tầng tối đa: 3\n- Nhận 1 Cấp tấn công cho mỗi Tầng\n- Đầu lượt: Ở 3 Tầng, hồi 5 SP\n- Đầu lượt: Nếu tất cả các Đồng minh khác có \"Văn phòng Hoàng hôn\" bị đánh bại, hết hiệu ứng",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "The Dawn Office of this Mirror World, unlike that of others, has yet to completely lose its fervor. One can reasonably conjecture that the two leading Fixers of this Office have sufficient competence to find work as Grade 1 of the vocation.\n\nHowever, it must be stated that the Office and its Fixers' grades do not vary from those of other observed Mirror Worlds, as combat capability is hardly the sole criterion by which the Grades are assigned. Failure to meet the conditions stipulated by the contract clauses to the client's satisfaction, eschewal of high-risk contracts that contribute to the advancement of Fixer Grades—these are all conditions that limit one's mobility along the ladder of Fixer Grades."
+    },
+    {
+      "id": "StigmaWorkshopCelloCaseOne",
+      "name": "Hộp thiềnsa bướm lửa",
+      "desc": "- Tầng tối đa: 30\n- Có thể tăng tối đa 20 Tầng mỗi lượt\n- Khi Đánh trúng bằng Kĩ năng Cơ bản, tăng 2 Tầng\n- Cuối lượt: Ở 20+ Tầng, nhận Lửa vào lượt tiếp theo bằng một nửa số Tầng dư quá 20 (làm tròn xuống)\n· Ở 30 Tầng, nhận 5 Lửa và +2 Số lần Lửa thay vào đó",
+      "summary": "Gain Stack On Hit, gain Burn next turn based on Stack",
+      "flavor": "Heated to a smoldering temperature within the coffin are butterflies, the kaleidoscope spilling forth to melt and tear the target apart.\n\n\"This type of weapon is still too premature for you to wield, Sinclair, but it is advisable that you familiarize yourself with its properties.\"\n\n\"The array of blades within the coffin affords considerable convenience in circumstances where time constraints prove solitary handling of requests impossible, or in combat against multiple adversaries.\""
     },
     {
       "id": "StigmaWorkshopCelloCaseTwo",
       "name": "Hộp thiềnsa bướm lửa",
-      "desc": "- Tầng tối đa: 30\n- Có thể tăng tối đa 20 Tầng mỗi lượt\n- Khi Đánh trúng bằng Kĩ năng Cơ bản, tăng 2 Tầng\n- Cuối lượt: Ở 20+ Tầng, nhận Lửa vào lượt tiếp theo bằng một nửa số Tầng dư quá 20 (làm tròn xuống)\n· Ở 30 Tầng, nhận 5 Lửa và +2 Số lần Lửa thay vào đó"
+      "desc": "- Tầng tối đa: 30\n- Có thể tăng tối đa 20 Tầng mỗi lượt\n- Khi Đánh trúng bằng Kĩ năng Cơ bản, tăng 2 Tầng\n- Cuối lượt: Ở 20+ Tầng, nhận Lửa vào lượt tiếp theo bằng một nửa số Tầng dư quá 20 (làm tròn xuống)\n· Ở 30 Tầng, nhận 5 Lửa và +2 Số lần Lửa thay vào đó",
+      "summary": "Gain Stack On Hit, gain Burn next turn based on Stack",
+      "flavor": "Heated to a smoldering temperature within the coffin are butterflies, the kaleidoscope spilling forth to melt and tear the target apart.\n\n\"This type of weapon is still too premature for you to wield, Sinclair, but it is advisable that you familiarize yourself with its properties.\"\n\n\"The array of blades within the coffin affords considerable convenience in circumstances where time constraints prove solitary handling of requests impossible, or in combat against multiple adversaries.\""
+    },
+    {
+      "id": "StigmaWorkshopCelloCaseThree",
+      "name": "Hộp thiềnsa bướm lửa",
+      "desc": "- Tầng tối đa: 30\n- Có thể tăng tối đa 20 Tầng mỗi lượt\n- Khi Đánh trúng bằng Kĩ năng Cơ bản, tăng 2 Tầng\n- Cuối lượt: Ở 20+ Tầng, nhận Lửa vào lượt tiếp theo bằng một nửa số Tầng dư quá 20 (làm tròn xuống)\n· Ở 30 Tầng, nhận 5 Lửa và +2 Số lần Lửa thay vào đó",
+      "summary": "Gain Stack On Hit, gain Burn next turn based on Stack",
+      "flavor": "Heated to a smoldering temperature within the coffin are butterflies, the kaleidoscope spilling forth to melt and tear the target apart.\n\n\"This type of weapon is still too premature for you to wield, Sinclair, but it is advisable that you familiarize yourself with its properties.\"\n\n\"The array of blades within the coffin affords considerable convenience in circumstances where time constraints prove solitary handling of requests impossible, or in combat against multiple adversaries.\""
+    },
+    {
+      "id": "Firstlight",
+      "name": "Bản năng chiến đấu",
+      "desc": "- Tầng tối đa: 3\n- Tốc độ tối thiểu và tối đa +2\n- Kĩ năng Cơ bản gây +1 thêm mức Lửa và Số lần Lửa vào kẻ thù\n- Kĩ năng \"Tăng tốc\" gây +(Tầng x 5)% sát thương\n- Kĩ năng \"Tăng tốc - Trưa ca\" và \"Giây róc ở Trưa ca\" gây +(Tầng x 10)% sát thương",
+      "summary": "Deal more damage using \"Eject\", \"Eject - High Noon\", \"Dismemberment at High Noon\"",
+      "flavor": "\"To resume the subject at hand: aside from Singularities, there exists a means of overcoming the penalties incurred by using this type of weaponry. Namely, effort.\"\n\n\"This may go without saying, but it is recommended that you focus on honing your body and battle instinct whenever time permits—both during downtime and when handling requests.\"\n\n\"Granted, battle instinct, in most cases, can only be properly demonstrated in the heat of battle. One might refer to this process as a \"warm up,\" although that term is perhaps <i>too</i> simple. In any case, a heightened natural battle instinct will help you offset the gear's structural and technical vulnerabilities. This is how you may raise the baseline of your performance threshold. Are you able to comprehend this explanation, Sinclair?\""
+    },
+    {
+      "id": "CaseOverheating",
+      "name": "Hộp thiềnsa quá nóng",
+      "desc": "- Tầng tối đa: 1\n- Cuối lượt:\n· Nhận 3 Lửa vào lượt tiếp theo\n· Hiệu ứng này hết",
+      "summary": "",
+      "flavor": "\"Keep in mind, however, that convenience is always accompanied by a trade-off. A weapon of this structure comes with drawbacks that standard Stigma Workshop weapons would not possess—inevitable penalties that can only be mitigated by Singularities, the pinnacle of the myriad technological innovations of the City.\"\n\n\"It would do justice to properly acknowledge the extraordinary qualities of Singulari—ahem. That was tangential to the subject. Let us return to the subject, Sinclair.\""
+    },
+    {
+      "id": "DriftingDimensionYisang",
+      "name": "Lưu lạc đa kích",
+      "desc": "Tầng tối đa: 3\nTrước khi bị Đánh trúng, nhậnKhiên bằng với (Tầng)% HP (3 lần mỗi lượt)",
+      "summary": ""
+    },
+    {
+      "id": "FourDimensionYisang",
+      "name": "Tứ kích duy",
+      "desc": "- Tầng tối đa: 4\n- Nhận các hiệu ứng sau dựa trên Tầng:\n· 1+: Cấp tấn công +1\n· 2+: Cấp phòng thủ +2\n· 3+: Tăng thêm +1 Số lần Sạc từ Kĩ năng của đơn vị này\n· 4+: Kĩ năng của đơn vị này gây +(Mức Sạc x 4)% sát thương (tối đa 20%)\n\n- Nếu đơn vị này nhận hiệu ứng này vượt quá giới hạn tối đa, đơn vị này sẽ nhận thêm Tầng vào lượt tiếp theo\n- Cuối lượt: Mất 1 Tầng",
+      "summary": ""
     },
     {
       "id": "DianxueHongLu",
@@ -3425,8 +3483,7 @@
       "name": "Le Noir: Áo khoác Gabardine",
       "desc": "- Tối đa: 100\n- Cấp phòng thủ +1 cho mỗi 25 giá trị\n- Nhận +5 Chỉ số Khiêu khích lên ô ngoài cùng bên trái\n- Khi nhận sát thương trong khi đơn vị này có Khiên, nhận 5 giá trị (10 mỗi lượt)\n- Kết thúc lượt: Nếu đơn vị này còn Khiên, nhận 10 giá trị\n- Áp dụng các hiệu ứng sau khi đơn vị này nhận hoặc tiêu hao Preservation Count do Kĩ năng hoặc hiệu ứng Passive của nó:\n · Nhận giá trị bằng với Preservation Count đã nhận (giá trị của hiệu ứng này được nhận bất kể Preservation Count tối đa)\n · Nhận giá trị bằng với (Preservation Count tiêu hao x 2)\n · Có thể nhận tới 30 giá trị mỗi lượt qua hiệu ứng này\n- Ở 100 giá trị, chuyển hiệu ứng này thành Armure Éveillée ở lượt kế tiếp",
       "summary": "Nhận Cấp phòng thủ và Chỉ số Khiêu khích",
-      "flavor": "Một chiếc áo khoác làm từ vải gabardine, một loại dệt được tạo ra bằng cách luồn nhiều sợi ngang qua ít sợi dọc hơn.\nKết cấu mật độ cao đặc trưng bảo vệ người mặc khỏi chấn thương bên ngoài.",
-      "undefined": "-"
+      "flavor": "Một chiếc áo khoác làm từ vải gabardine, một loại dệt được tạo ra bằng cách luồn nhiều sợi ngang qua ít sợi dọc hơn.\nKết cấu mật độ cao đặc trưng bảo vệ người mặc khỏi chấn thương bên ngoài."
     },
     {
       "id": "ChargeNoirAlly",
@@ -3440,8 +3497,7 @@
       "name": "Armure Éveillée",
       "desc": "- Tối đa: 100\n- Tốc độ tối thiểu & tối đa +2\n- Cấp độ Tấn công +1 và Cấp phòng thủ +1 cho mỗi 25 giá trị\n- Chuyển toàn bộ Coin của Kĩ năng tấn công cơ bản thành Đồng xu Không Thể Phá Hủy\n- Bắt đầu lượt: Hồi 8 Tinh thần\n- Ở 0 giá trị, chuyển hiệu ứng này thành \"Le Noir: Áo khoác Gabardine\"",
       "summary": "Nhận Cấp độ Tấn công, Cấp phòng thủ và Tốc độ\nChuyển Coin của Kĩ năng tấn công cơ bản thành Đồng xu Không Thể Phá Hủy",
-      "flavor": "Kết cấu vải của Le Noir ngăn lực lượng bên ngoài tiếp cận người mặc. Mục đích mà nó thức tỉnh là để loại bỏ sự thay đổi bị áp đặt từ bên ngoài.\nVải lưu trữ năng lượng từ các đòn tấn công nó hấp thụ, rồi phóng toàn bộ lực đó ra trong một đợt duy nhất để loại bỏ nguồn gây thay đổi bên ngoài.",
-      "undefined": "-"
+      "flavor": "Kết cấu vải của Le Noir ngăn lực lượng bên ngoài tiếp cận người mặc. Mục đích mà nó thức tỉnh là để loại bỏ sự thay đổi bị áp đặt từ bên ngoài.\nVải lưu trữ năng lượng từ các đòn tấn công nó hấp thụ, rồi phóng toàn bộ lực đó ra trong một đợt duy nhất để loại bỏ nguồn gây thay đổi bên ngoài."
     },
     {
       "id": "ChargeRougeAlly",
@@ -3540,6 +3596,96 @@
       "summary": "",
       "undefined": "-",
       "flavor": "Một đôi kéo trở thành một qua hai, và biến một thành hai."
+    },
+    {
+      "id": "BlackWingHoleFaust",
+      "name": "Black Umbrella",
+      "desc": "- Max Stack: 5",
+      "summary": ""
+    },
+    {
+      "id": "BulletWoundHole",
+      "name": "Gunshot Wound",
+      "desc": "",
+      "summary": ""
+    },
+    {
+      "id": "BulletHole",
+      "name": "Ashen Bullet",
+      "desc": "- Unique Ammo\n- Max Capacity: 5\n- This Ammo cannot be gained or raised due to external effects, excluding the \"Hollow\" E.G.O Skill",
+      "summary": ""
+    },
+    {
+      "id": "BlackWingHole",
+      "name": "Black Wings",
+      "desc": "- Max Stack: 12\n- Turn Start: Gain (Stack / 4) Charge Count (rounded down)\n- Turn Start: Gain 1 Offense Level Up for every 4 Stacks\n- This unit's Skills that gain or consume Charge or Poise deal +(Stack)% damage",
+      "summary": ""
+    },
+    {
+      "id": "OathFieldDonQuixote",
+      "name": "Sanctum of Conservation",
+      "desc": "- Max Stack: 5\n- Apply the following effect on all allied Identities:\n  · On Skill Use, each ally gains Shield equal to (Preservation Potency on Don Quixote x 2)% of their respective max HP (once per turn, max 10%)\n\n- Apply the following effects on all \"Le Noir\" allied Identities:\n  · Offense Level +(Preservation Potency on Don Quixote / 3) (rounded down; max 2)\n  · Defense Level +(Preservation Potency on Don Quixote / 2) (rounded down; max 3)\n\n- Apply the following effects on all enemies:\n  · Min & Max Speed -1 (this effect cannot reduce Min & Max Speed below 1)\n  · Stagger Threshold raised by Tremor Burst +10%\n  · Take +10% damage from Skills that consume Charge Count or Unique Charge (from \"Le Noir\" allied Identities' Skills, take +20% damage instead)\n\n- Turn End: Lose 1 Stack",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "A sanctuary in which the value of conservation pursued by Le Noir is preserved. Within it, the Noirs' preservative actions are retained to their benefit. It is a realm of eternal conservation—a place that stirs the drive to infinitely approach death."
+    },
+    {
+      "id": "NoirShieldUpDonQuixote",
+      "name": "Blessing of the Obsidian God",
+      "desc": "- Max Stack: 100\n- Turn Start: Gain Shield equal to (Stack / 5)% of this unit's max HP (rounded down)\n- At 25+ Stack, On Base Attack Skill Use, convert all Coins into Unbreakable Coins\n- At 40+ Stack, this unit cannot be Staggered (excluding forced Staggers)",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "The Obsidian God. The Obsidian Giant. The Chaplain of the Hammer. The Obsidian God of the Grand Magasin, whose domain is the power of preservation, grants his blessing through direct contact. The hammer is hard, and its black hue absorbs all things and brings them to a halt... much like death itself."
+    },
+    {
+      "id": "NoirNailDonQuixote",
+      "name": "Promised Nail",
+      "desc": "- Max Stack: 30\n- Upon Tremor Burst due to Skill effects, take 1 Sloth damage for every Stack (max 10; once per Skill)\n- Turn End: At 4+ Stack, gain 1 Bind next turn\n- Turn Start: If Haute Couture::Le Noir Brand Manager Don Quixote is not on the field, expires",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "The promised hammer is bound by promise to drive in a nail. Therefore, whenever the hammer falls, a nail must exist there... even if there is none."
+    },
+    {
+      "id": "PersonalityCombustion",
+      "name": "Burn Identity",
+      "desc": "",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "PersonalityLaceration",
+      "name": "Bleed Identity",
+      "desc": "",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "PersonalityBurst",
+      "name": "Rupture Identity",
+      "desc": "",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "PersonalitySinking",
+      "name": "Sinking Identity",
+      "desc": "",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "Tiphereth_Heads",
+      "name": "Tiphereth's Expectation",
+      "desc": "- All of this unit's Skill Coins have a 100% chance to flip Heads (this effect takes precedence over the Skills, Passives, and other effects of this unit)\n- Expires at Turn End",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "Tiphereth_Tails",
+      "name": "Tiphereth's Expectation [Mirrored]",
+      "desc": "- All of this unit's Skill Coins have a 100% chance to flip Tails (this effect takes precedence over the Skills, Passives, and other effects of this unit)\n- Expires at Turn End",
+      "summary": "",
+      "undefined": "-"
     }
   ]
 }
