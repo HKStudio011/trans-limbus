@@ -1,0 +1,417 @@
+{
+  "dataList": [
+    {
+      "id": 9013601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "…Khụ",
+          "desc": "[WhenUse] Nếu [Sinking] của mục tiêu từ 5 trở lên, gây [AttackDown] 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây [Sinking] 4"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây [Bind] 1 vào lượt tiếp theo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây [Sinking] 4"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây [Paralysis] 1 vào lượt tiếp theo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9013602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "…Thời gian",
+          "desc": "[WhenUse] Nếu điểm Tinh thần của mục tiêu từ 10 trở xuống, gây [AttackDown] 2\n[WinDuel] Gây [Vulnerable] 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây [PlusCoinValueDown] 1 vào lượt tiếp theo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Tăng số lượng [Sinking] thêm 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây [Vulnerable] 2 vào lượt tiếp theo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9013603,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Đúng như…!",
+          "desc": "[WhenUse] Với mỗi 3 [Sinking] của mục tiêu, Sức mạnh cơ bản +1 (Tối đa 3)\n[WinDuel] Hồi 5 điểm Tinh thần cho tất cả đồng minh",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây [Sinking] 8"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Tăng số lượng [Sinking] thêm 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây [Sinking] 8"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Tăng số lượng [Sinking] thêm 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây [Sinking] 8"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Tăng số lượng [Sinking] thêm 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9013604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Bụi…",
+          "desc": "[WhenUse] Với mỗi 6 [Sinking] của mục tiêu, Sức mạnh mặt đồng xu +1 (Tối đa 3)\n[WhenUse] Với mỗi 6 [Sinking] của mục tiêu, Sức mạnh So găng +10% (Tối đa 30%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây thêm sát thương thuộc tính Trầm mặc tương ứng với số [Sinking] của mục tiêu. Giảm số lượng [Sinking] đi 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây thêm sát thương thuộc tính Trầm mặc tương ứng với số [Sinking] của mục tiêu. Giảm số lượng [Sinking] đi 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây thêm sát thương thuộc tính Trầm mặc tương ứng với số [Sinking] của mục tiêu"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây [Sinking] 4"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Nếu số lượng [Sinking] của mục tiêu từ 3 trở lên, dùng lại mặt đồng xu này (Tối đa 2 lần)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9013605,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Lũ chuột…",
+          "desc": "Khi kết thúc lượt, nếu lá chắn còn tồn tại, đẩy lùi ngưỡng Choáng váng đi 50",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9013701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Lũ tạp nham…",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Nhận [AttackUp] 1 vào lượt tiếp theo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Nhận [AttackUp] 1 vào lượt tiếp theo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9013702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Dọn dẹp…",
+          "desc": "[WinDuel] Sức mạnh cơ bản +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Nếu mục tiêu có [AttackDown], gây sát thương Va chạm tương ứng với 20% lượng sát thương gây ra"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Nếu mục tiêu có [AttackDown], gây sát thương Va chạm tương ứng với 20% lượng sát thương gây ra"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9013703,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Nút bấm…",
+          "desc": "[WinDuel] Nếu [AttackDown] của mục tiêu từ 2 trở lên, Sức mạnh cơ bản +1\n[WhenUse] Nếu mục tiêu có [DefenseDown], gây sát thương Va chạm tương ứng với 30% lượng sát thương gây ra",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Hồi 4 điểm Tinh thần cho bản thân"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Hồi 4 điểm Tinh thần cho bản thân"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Hồi 4 điểm Tinh thần cho bản thân"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9013704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "…Sẽ xử đẹp",
+          "desc": "Ưu tiên tấn công mục tiêu có nhiều hiệu ứng bất lợi nhất\n[WinDuel] Với mỗi 3 [DefenseDown] của mục tiêu, Sức mạnh mặt đồng xu +1 (Tối đa 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây [Vulnerable] 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây [Vulnerable] 1 vào lượt tiếp theo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây [Paralysis] 2 vào lượt tiếp theo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Với mỗi 2 [AttackDown] của mục tiêu, lượng sát thương +30% (Tối đa 120%)"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Nếu mục tiêu có từ 3 loại hiệu ứng bất lợi trở lên, dùng lại mặt đồng xu này (1 lần)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9013705,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Phòng thủ",
+          "desc": "[StartBattle] Nhận thêm 20 lá chắn với mỗi đồng minh còn sống.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9013801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Mal…",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [DefenseDown] vào lượt tiếp theo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9013802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "...T. (Có thể hiểu là: Trinh Sát)",
+          "desc": "[WhenUse] Nếu mục tiêu có từ 2 loại hiệu ứng bất lợi trở lên, Sức mạnh cơ bản +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [DefenseDown] vào lượt tiếp theo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9013803,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "F...S. (Có thể hiểu là: Phẫu Sát)",
+          "desc": "[WhenUse] Nếu mục tiêu có từ 4 loại hiệu ứng bất lợi trở lên, Sức mạnh Đồng xu +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [Binding] vào lượt tiếp theo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [PenetrateTakeDamageUp] vào lượt tiếp theo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [Binding] vào lượt tiếp theo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9013804,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "K...W. (Có thể hiểu là: Khai Quật)",
+          "desc": "[WhenUse] Nếu mục tiêu có từ 5 loại hiệu ứng bất lợi trở lên, Sức mạnh cơ bản +2\n[WhenUse] Nếu mục tiêu có từ 5 loại hiệu ứng bất lợi trở lên, Sát thương +30%",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [Vulnerable]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [Vulnerable] vào lượt tiếp theo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Nếu mục tiêu có từ 5 loại hiệu ứng bất lợi trở lên, dùng lại Đồng xu này (2 lần)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Xóa ngẫu nhiên 1 hiệu ứng bất lợi có thể giải trừ trên mục tiêu"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9013805,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "…",
+          "desc": "[OnSucceedEvade] Hồi 5 Tinh thần (Tối đa 2 lần)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

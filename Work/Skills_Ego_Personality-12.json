@@ -1,0 +1,884 @@
+{
+  "dataList": [
+    {
+      "id": 2120511,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Vườn Hoa Gai",
+          "abName": "Bảng Chỉ Dẫn Hoa Hồng",
+          "desc": "[BeforeAttack] Nếu mức Cộng hưởng cao nhất từ 3 trở lên, Trọng số Tấn công +1\n[WhenUse] 1 đồng minh + (Số mức Cộng hưởng cao nhất) đồng minh nhận 1 Tăng Sát thương và 1 Tăng Sức mạnh của thuộc tính Cộng hưởng tương ứng\n- Nếu Cộng hưởng tương ứng từ 4 trở lên, nhận thêm 1 Tăng Sát thương của thuộc tính đó",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndSkill] Hồi phục 15% HP tối đa cho 1 đồng minh có tỉ lệ HP hiện tại thấp nhất\n- Số mục tiêu hồi phục tăng thêm (Số mức Cộng hưởng cao nhất - 2) (Tối đa 3)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Vườn Hoa Gai",
+          "abName": "Bảng Chỉ Dẫn Hoa Hồng",
+          "desc": "[BeforeAttack] Trọng số Tấn công tăng thêm (Số mức Cộng hưởng cao nhất - 2) (Tối đa 2)\n[WhenUse] 2 đồng minh + (Số mức Cộng hưởng cao nhất) đồng minh nhận 1 Tăng Sát thương và 1 Tăng Sức mạnh của thuộc tính Cộng hưởng tương ứng\n- Nếu Cộng hưởng tương ứng từ 4 trở lên, nhận thêm 1 Tăng Sát thương của thuộc tính đó\n- Nếu Cộng hưởng tương ứng từ 5 trở lên, nhận thêm 1 Tăng Sức mạnh của thuộc tính đó",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndSkill] Hồi phục 18% HP tối đa cho 2 đồng minh có tỉ lệ HP hiện tại thấp nhất\n- Số mục tiêu hồi phục tăng thêm (Số mức Cộng hưởng cao nhất - 2) (Tối đa 3)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Vườn Hoa Gai",
+          "abName": "Bảng Chỉ Dẫn Hoa Hồng",
+          "desc": "[BeforeAttack] Trọng số Tấn công tăng thêm (Số mức Cộng hưởng cao nhất - 2) (Tối đa 3)\n[WhenUse] 4 đồng minh + (Số mức Cộng hưởng cao nhất) đồng minh nhận 1 Tăng Sát thương và 1 Tăng Sức mạnh của thuộc tính Cộng hưởng tương ứng\n- Nếu Cộng hưởng tương ứng từ 4 trở lên, nhận thêm 1 Tăng Sát thương của thuộc tính đó\n- Nếu Cộng hưởng tương ứng từ 5 trở lên, nhận thêm 1 Tăng Sức mạnh của thuộc tính đó\n- Nếu Cộng hưởng tương ứng là Cộng hưởng Hoàn toàn từ 6 trở lên, nhận hiệu ứng tương tự vào lượt tiếp theo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndSkill] Hồi phục 22% HP tối đa cho 4 đồng minh có tỉ lệ HP hiện tại thấp nhất\n- Số mục tiêu hồi phục tăng thêm (Số mức Cộng hưởng cao nhất - 2) (Tối đa 3)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2120521,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Vườn Hoa Gai",
+          "abName": "Bảng Chỉ Dẫn Hoa Hồng",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\n[BeforeAttack] Nếu mức Cộng hưởng cao nhất từ 3 trở lên, Trọng số Tấn công +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [AttackDmgDown]. Lượt sau gây 2 [Binding]."
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 Mong manh thuộc tính và 1 Giảm Sức mạnh của thuộc tính Cộng hưởng cao nhất\n- Nếu Cộng hưởng tương ứng từ 4 trở lên, gây thêm 1 Mong manh thuộc tính đó"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Vườn Hoa Gai",
+          "abName": "Bảng Chỉ Dẫn Hoa Hồng",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\n[BeforeAttack] Trọng số Tấn công tăng thêm (Số mức Cộng hưởng cao nhất - 2) (Tối đa 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [AttackDmgDown]. Lượt sau gây 2 [Binding]."
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 Mong manh thuộc tính và 1 Giảm Sức mạnh của thuộc tính Cộng hưởng cao nhất\n- Nếu Cộng hưởng tương ứng từ 4 trở lên, gây thêm 1 Mong manh thuộc tính đó\n- Nếu Cộng hưởng tương ứng từ 5 trở lên, gây thêm 1 Giảm Sức mạnh của thuộc tính đó"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Vườn Hoa Gai",
+          "abName": "Bảng Chỉ Dẫn Hoa Hồng",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\n[BeforeAttack] Trọng số Tấn công tăng thêm (Số mức Cộng hưởng cao nhất - 2) (Tối đa 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [AttackDmgDown]. Lượt sau gây 2 [Binding]."
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 Mong manh thuộc tính và 1 Giảm Sức mạnh của thuộc tính Cộng hưởng cao nhất\n- Nếu Cộng hưởng tương ứng từ 4 trở lên, gây thêm 1 Mong manh thuộc tính đó\n- Nếu Cộng hưởng tương ứng từ 5 trở lên, gây thêm 1 Giảm Sức mạnh của thuộc tính đó\n- Nếu Cộng hưởng tương ứng là Cộng hưởng Hoàn toàn từ 6 trở lên, gây hiệu ứng tương tự vào lượt tiếp theo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2120611,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Những Ngày Đã Qua",
+          "abName": "Bức Chân Dung Của Những Ngày Cũ",
+          "desc": "[EndSkill] Hồi phục 10 Tinh thần cho bản thân và 2 đồng minh khác có Tinh thần thấp nhất\n- Nếu mục tiêu không chết, tiêu hao 5 số lần [Sinking] của mục tiêu, và hồi phục thêm một lượng Tinh thần bằng với Sức mạnh [Sinking] của mục tiêu (Hồi phục tối đa: 20)\n- Nếu mục tiêu chết, gây 3 [Sinking] cho 2 kẻ địch ngẫu nhiên (Trong chiến đấu tập trung, gây lên bộ phận ngẫu nhiên)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {}
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Những Ngày Đã Qua",
+          "abName": "Bức Chân Dung Của Những Ngày Cũ",
+          "desc": "[EndSkill] Hồi phục <style=\"highlight\">12</style> Tinh thần cho bản thân và 2 đồng minh khác có Tinh thần thấp nhất\n- Nếu mục tiêu không chết, tiêu hao 5 số lần [Sinking] của mục tiêu, và hồi phục thêm một lượng Tinh thần bằng với Sức mạnh [Sinking] của mục tiêu (Hồi phục tối đa: 20)\n- Nếu mục tiêu chết, gây 3 [Sinking], <style=\"highlight\">1 [Curse]</style> cho 2 kẻ địch ngẫu nhiên (Trong chiến đấu tập trung, gây lên bộ phận ngẫu nhiên)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {}
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Những Ngày Đã Qua",
+          "abName": "Bức Chân Dung Của Những Ngày Cũ",
+          "desc": "[EndSkill] Hồi phục <style=\"highlight\">15</style> Tinh thần cho bản thân và 2 đồng minh khác có Tinh thần thấp nhất\n- Nếu mục tiêu không chết, tiêu hao <style=\"highlight\">3</style> số lần [Sinking] của mục tiêu, và hồi phục thêm một lượng Tinh thần bằng với Sức mạnh [Sinking] của mục tiêu (Hồi phục tối đa: 20)\n- Nếu mục tiêu chết, gây 3 [Sinking], 1 [Curse] cho <style=\"highlight\">3</style> kẻ địch ngẫu nhiên (Trong chiến đấu tập trung, gây lên bộ phận ngẫu nhiên)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2120621,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Những Ngày Đã Qua",
+          "abName": "Bức Chân Dung Của Những Ngày Cũ",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [AzureTakeDamageUp]. Nếu Cộng hưởng U sầu từ 3 trở lên, gây thêm 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Tăng 3 số lần [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [Curse]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Những Ngày Đã Qua",
+          "abName": "Bức Chân Dung Của Những Ngày Cũ",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [AzureTakeDamageUp]. Với mỗi 3 Cộng hưởng U sầu, gây thêm 1 (Tối đa 2)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Tăng 3 số lần [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [Curse]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Những Ngày Đã Qua",
+          "abName": "Bức Chân Dung Của Những Ngày Cũ",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\nNếu mục tiêu có [Curse], lượng sát thương +50%",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây [AzureTakeDamageUp] 2. Với mỗi 2 Cộng hưởng U sầu, gây thêm 1 (Tối đa 2)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Số lần [Sinking] tăng thêm 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây [Curse] 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2120711,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Lời Chia Buồn Trang Trọng",
+          "abName": "Đám Tang Những Chú Bướm Đã Chết",
+          "desc": "Khi tung đồng xu của kĩ năng này, chọn ngẫu nhiên 1 trong các mục tiêu để tấn công.\n- Đồng xu thứ nhất luôn trúng mục tiêu tấn công chính.\n- Toàn bộ hiệu ứng khi trúng/sát thương của đồng xu tương ứng chỉ áp dụng lên mục tiêu tấn công được chọn bởi hiệu ứng trên.\nKhi gây [SinkingWhite] bằng hiệu ứng của kĩ năng này, gây Bướm Đã Chết theo tỉ lệ mặt ngửa. Nếu không, gây Bướm Còn Sống. (Xét riêng biệt với mỗi 1 [SinkingWhite])",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây ngẫu nhiên [SinkingWhite] 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây ngẫu nhiên [SinkingWhite] 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây ngẫu nhiên [SinkingWhite] 1~2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Điểm tinh thần giảm 2~6"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Nếu Điểm tinh thần của bản thân từ 0 trở lên, dùng lại đồng xu này (Tối đa 5 lần mỗi kĩ năng)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Lời Chia Buồn Trang Trọng",
+          "abName": "Đám Tang Những Chú Bướm Đã Chết",
+          "desc": "Khi tung đồng xu của kĩ năng này, chọn ngẫu nhiên 1 trong các mục tiêu để tấn công.\n- Đồng xu thứ nhất luôn trúng mục tiêu tấn công chính.\n- Toàn bộ hiệu ứng khi trúng/sát thương của đồng xu tương ứng chỉ áp dụng lên mục tiêu tấn công được chọn bởi hiệu ứng trên.\nKhi gây [SinkingWhite] bằng hiệu ứng của kĩ năng này, gây Bướm Đã Chết theo tỉ lệ mặt ngửa. Nếu không, gây Bướm Còn Sống. (Xét riêng biệt với mỗi 1 [SinkingWhite])\n<style=\"highlight\">[EndSkill] Hồi (Số lượng đồng xu 3 trúng đích × 2) Điểm tinh thần</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây ngẫu nhiên [SinkingWhite] 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây ngẫu nhiên [SinkingWhite] 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây ngẫu nhiên [SinkingWhite] 1~2<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Điểm tinh thần giảm 2~6<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Nếu Điểm tinh thần của bản thân từ 0 trở lên, dùng lại đồng xu này (Tối đa 5 lần mỗi kĩ năng)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Lời Chia Buồn Trang Trọng",
+          "abName": "Đám Tang Những Chú Bướm Đã Chết",
+          "desc": "Khi tung đồng xu của kĩ năng này, chọn ngẫu nhiên 1 trong các mục tiêu để tấn công.\n- Đồng xu thứ nhất luôn trúng mục tiêu tấn công chính.\n- Toàn bộ hiệu ứng khi trúng/sát thương của đồng xu tương ứng chỉ áp dụng lên mục tiêu tấn công được chọn bởi hiệu ứng trên.\nKhi gây [SinkingWhite] bằng hiệu ứng của kĩ năng này, gây Bướm Đã Chết theo tỉ lệ mặt ngửa. Nếu không, gây Bướm Còn Sống. (Xét riêng biệt với mỗi 1 [SinkingWhite])\n[EndSkill] <style=\"highlight\">Hồi (Số lượng đồng xu 3 trúng đích × 3)</style> Điểm tinh thần",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây ngẫu nhiên [SinkingWhite] 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây ngẫu nhiên [SinkingWhite] 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây ngẫu nhiên [SinkingWhite] 1~2<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Điểm tinh thần giảm 2~6<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Nếu Điểm tinh thần của bản thân từ 0 trở lên, dùng lại đồng xu này (Tối đa 5 lần mỗi kĩ năng)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2120721,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Lời Chia Buồn Trang Trọng",
+          "abName": "Đám Tang Những Chú Bướm Đã Chết",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\nNếu Điểm tinh thần của mục tiêu dưới 0, lượng sát thương tăng khi Điểm tinh thần càng thấp (Tối đa 45%)\nMục tiêu không có Điểm tinh thần, lượng sát thương tăng 1% với mỗi 2 [Sinking] (Tối đa 45%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây [SinkingWhite] (Bướm Còn Sống) 4"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây [SinkingWhite] (Bướm Đã Chết) 4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Lời Chia Buồn Trang Trọng",
+          "abName": "Đám Tang Những Chú Bướm Đã Chết",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\nNếu Điểm tinh thần của mục tiêu dưới 0, lượng sát thương tăng khi Điểm tinh thần càng thấp (Tối đa 45%)\nMục tiêu không có Điểm tinh thần, lượng sát thương tăng 1% với mỗi 2 [Sinking] (Tối đa 45%)\n<style=\"highlight\">[EnemyKill] Hồi 5 Điểm tinh thần</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây [SinkingWhite] (Bướm Còn Sống) 4<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây [SinkingWhite] (Bướm Đã Chết) 4<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Số lần [Sinking] tăng thêm 3</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Lời Chia Buồn Trang Trọng",
+          "abName": "Đám Tang Những Chú Bướm Đã Chết",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\nNếu Điểm tinh thần của mục tiêu dưới 0, lượng sát thương tăng khi Điểm tinh thần càng thấp (Tối đa 45%)\nMục tiêu không có Điểm tinh thần, lượng sát thương tăng 1% với mỗi 2 [Sinking] (Tối đa 45%)\n[EnemyKill] Hồi 5 Điểm tinh thần<style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây [SinkingWhite] (Bướm Còn Sống) 5<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây [SinkingWhite] (Bướm Đã Chết) 5<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Số lần [Sinking] tăng thêm 3<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Nếu Máu của mục tiêu từ 50% trở xuống, gây sát thương U sầu bằng tổng toàn bộ [SinkingWhite] trên mục tiêu\n- Tính theo tổng số lượng Bướm Còn Sống và Bướm Đã Chết</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2120811,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Cơn Ác Mộng Đêm Giáng Sinh",
+          "abName": "Chiếc Giường Êm Ái",
+          "desc": "[EndSkill] Nếu Máu của bản thân ở mức tối đa, hồi 10 Điểm tinh thần khi kết thúc lượt và nhận [Enhancement] 1 ở lượt tiếp theo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây [Tremor] 5"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion]. Số lượt [Vibration] của mục tiêu giảm 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 4 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Nếu mục tiêu đang trong trạng thái Chệnh choạng, Hạ chí khí hoặc Hoảng loạn, gây 1 [Reduction] vào lượt tiếp theo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Ác mộng Giáng sinh",
+          "abName": "Chiếc giường êm ái",
+          "desc": "<style=\"highlight\">Nếu Tinh thần của mục tiêu dưới 0, mỗi 1 điểm Tinh thần dưới 0 tăng +1% Lượng sát thương (Tối đa 45%)</style>\n[EndSkill] Nếu Máu của bản thân ở mức tối đa, hồi phục 10 Tinh thần khi kết thúc lượt và nhận 1 [Enhancement] vào lượt tiếp theo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 5 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion]. Số lượt [Vibration] của mục tiêu giảm 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Hồi phục một lượng Máu bằng (2 + Số cộng hưởng tối đa)% Lượng máu đã mất của bản thân (Tối đa 30% mỗi kĩ năng)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 4 [Sinking]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Nếu mục tiêu đang trong trạng thái Chệnh choạng, Hạ chí khí hoặc Hoảng loạn, gây 1 [Reduction] vào lượt tiếp theo<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Ác mộng Giáng sinh",
+          "abName": "Chiếc giường êm ái",
+          "desc": "Nếu Tinh thần của mục tiêu dưới 0, mỗi 1 điểm Tinh thần dưới 0 tăng +1% Lượng sát thương (Tối đa 45%)\n[EndSkill] Nếu Máu của bản thân ở mức tối đa, hồi phục <style=\"highlight\">15</style> Tinh thần khi kết thúc lượt và nhận 1 [Enhancement] vào lượt tiếp theo<style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 5 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion]. Số lượt [Vibration] của mục tiêu giảm 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Hồi phục một lượng Máu bằng (<style=\"highlight\">3</style> + Số cộng hưởng tối đa)% Lượng máu đã mất của bản thân (Tối đa 30% mỗi kĩ năng)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 4 [Sinking]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Nếu mục tiêu đang trong trạng thái Chệnh choạng, Hạ chí khí hoặc Hoảng loạn, gây 1 [Reduction] vào lượt tiếp theo, gây <style=\"highlight\">1 [Mong manh] của thuộc tính cộng hưởng cao nhất</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2120821,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ác mộng Giáng sinh",
+          "abName": "Chiếc giường êm ái",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\n[BeforeAttack] Hồi phục 10 Máu cho bản thân\n[EndSkill] Nếu Máu của bản thân ở mức tối đa, hồi phục 10 Tinh thần khi kết thúc lượt và nhận 1 [Enhancement] vào lượt tiếp theo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 5 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion]. Số lượt [Vibration] của mục tiêu giảm 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 4 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Nếu mục tiêu đang trong trạng thái Chệnh choạng, Hạ chí khí hoặc Hoảng loạn, gây 1 [Reduction] vào lượt tiếp theo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Ác mộng Giáng sinh",
+          "abName": "Chiếc giường êm ái",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\n<style=\"highlight\">Nếu Tinh thần của mục tiêu dưới 0, mỗi 1 điểm Tinh thần dưới 0 tăng +1% Lượng sát thương (Tối đa 45%)</style>\n[BeforeAttack] Hồi phục 10 Máu cho bản thân\n[EndSkill] Nếu Máu của bản thân ở mức tối đa, hồi phục <style=\"highlight\">15</style> Tinh thần khi kết thúc lượt và nhận 1 [Enhancement] vào lượt tiếp theo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 5 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion]. Số lượt [Vibration] của mục tiêu giảm 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Hồi phục một lượng Máu bằng (2 + Số cộng hưởng tối đa)% Lượng máu đã mất của bản thân (Tối đa 30% mỗi kĩ năng)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 4 [Sinking]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Nếu mục tiêu đang trong trạng thái Chệnh choạng, Hạ chí khí hoặc Hoảng loạn, gây 1 [Reduction] vào lượt tiếp theo<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Ác mộng Giáng sinh",
+          "abName": "Chiếc giường êm ái",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\nNếu Tinh thần của mục tiêu dưới 0, mỗi 1 điểm Tinh thần dưới 0 tăng +1% Lượng sát thương (Tối đa 45%)\n[BeforeAttack] Hồi phục 10 Máu cho bản thân\n[EndSkill] Nếu Máu của bản thân ở mức tối đa, hồi phục <style=\"highlight\">20</style> Tinh thần khi kết thúc lượt và nhận 1 [Enhancement] vào lượt tiếp theo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 5 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion]. Số lượt [Vibration] của mục tiêu giảm 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Hồi phục một lượng Máu bằng (<style=\"highlight\">3</style> + Số cộng hưởng tối đa)% Lượng máu đã mất của bản thân (Tối đa 30% mỗi kĩ năng)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 4 [Sinking]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Nếu mục tiêu đang trong trạng thái Chệnh choạng, Hạ chí khí hoặc Hoảng loạn, gây 1 [Reduction] vào lượt tiếp theo, gây <style=\"highlight\">2 [Mong manh] của thuộc tính cộng hưởng cao nhất</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2120911,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Vinh quang không chói lọi - Lưu thủy",
+          "abName": "Mlynar",
+          "desc": "[CantDuel]\nKhi sử dụng lần đầu trong trận chiến, tài nguyên E.G.O cần thiết giảm (Phẫn nộ 1, Lười biếng 2, Ngạo mạn 1)\nNếu có từ 1 [MlynarWaiting] trở lên, kích hoạt dưới dạng Vinh quang không chói lọi - Quang huy\nKĩ năng này không đánh trúng kẻ địch và không kích hoạt kĩ năng phòng ngự. Không thể tái sử dụng bằng hiệu ứng bên ngoài\n[EndSkill] Nhận 1 [MlynarWaiting]\n[EndSkill] Hồi phục 25 Tinh thần\n[EndSkill] Nhận 1 [AttackUp] vào lượt tiếp theo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Vinh quang không chói lọi - Lưu thủy",
+          "abName": "Mlynar",
+          "desc": "[CantDuel]\nKhi sử dụng lần đầu trong trận chiến, tài nguyên E.G.O cần thiết giảm (Phẫn nộ 1, Lười biếng 2, Ngạo mạn 1)\nNếu có từ 1 [MlynarWaiting] trở lên, kích hoạt dưới dạng Vinh quang không chói lọi - Quang huy\nKĩ năng này không đánh trúng kẻ địch và không kích hoạt kĩ năng phòng ngự. Không thể tái sử dụng bằng hiệu ứng bên ngoài\n[EndSkill] Nhận 1 [MlynarWaiting]\n[EndSkill] Hồi phục 25 Tinh thần\n[EndSkill] Nhận <style=\"highlight\">2</style> [AttackUp] vào lượt tiếp theo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Vinh quang không chói lọi - Lưu thủy",
+          "abName": "Mlynar",
+          "desc": "[CantDuel]\nKhi sử dụng lần đầu trong trận chiến, tài nguyên E.G.O tiêu tốn giảm đi 1 Phẫn nộ, 2 Lười biếng, 1 Ngạo mạn\nNếu [MlynarWaiting] từ 1 trở lên, phát động thành Vinh Quang Không Tỏa Sáng - Quang Huy\nKĩ năng này không trúng đích kẻ địch, không kích hoạt kĩ năng phòng thủ. Không thể tái sử dụng bởi hiệu ứng bên ngoài\n[EndSkill] Nhận 1 [MlynarWaiting]\n[EndSkill] Hồi 25 Tinh thần\n[EndSkill] Lượt sau nhận 2 [AttackUp], <style=\"highlight\">1 [AttackDmgUp]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2120912,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Vinh Quang Không Tỏa Sáng - Quang Huy",
+          "abName": "Mlynar",
+          "desc": "[CantDuel]\nKĩ năng này không thể tái sử dụng bởi hiệu ứng bên ngoài\nNếu [MlynarWaiting] là 40, chuyển thành có thể Đấu\n[WhenUse] Nếu [MlynarWaiting] là 40, không bị Hoảng loạn bởi sát thương cho đến khi kết thúc kĩ năng này và +20 Sức mạnh Đấu\n\n[BeforeAttack] Tiêu hao toàn bộ [MlynarWaiting], áp dụng các hiệu ứng sau (Làm tròn xuống hàng đơn vị)\n- Hoàn trả 1 tài nguyên E.G.O đã sử dụng cho mỗi (Giá trị tiêu hao ÷ 20) (Hoàn trả theo thứ tự Ngạo mạn, Phẫn nộ)\n- Tăng Trọng số cho mỗi (Giá trị tiêu hao ÷ 10) (Tối đa 4)\n- Nhận [DefenseUp] cho mỗi (Giá trị tiêu hao ÷ 10) (1 lần mỗi lượt)\n- Nếu tiêu hao 40, +50% Sát thương đồng xu thứ 4, nhận 2 [Protection] (1 lần mỗi lượt)\n\n[BeforeAttack] +5% Sát thương cho mỗi 8 tổng số [Combustion] và [Vibration] trên mục tiêu chính (Tối đa 25%)\n[EndSkill] Hồi 5 Tinh thần với mỗi đối tượng bị Hoảng loạn hoặc tử vong bởi sát thương của kĩ năng này (Tối đa 25)\n[EndSkill] Nhận 1 [MlynarWaiting]\n[EndBattle] Nếu không thể tiêu hao 40 [MlynarWaiting] bằng kĩ năng này, lượt sau tăng 4 [Aggro] cho slot kĩ năng nằm ngoài cùng bên trái trên bảng điều khiển (1 lần mỗi lượt)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Tái sử dụng đồng xu này (Giá trị [MlynarWaiting] đã tiêu hao ÷ 10) - 1 lần (Tối đa 3 lần)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [Vibration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Nếu là đồng xu cuối cùng và số lượng [Vibration] trên mục tiêu từ 15 trở lên, [VibrationExplosion]. Giảm 1 số lần [Vibration] của mục tiêu"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Nếu đã sử dụng đồng xu này 4 lần, gây Sát thương Lười biếng bằng với số lượng [Vibration] của mục tiêu (Tối đa 5)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Vinh Quang Không Tỏa Sáng - Quang Huy",
+          "abName": "Mlynar",
+          "desc": "[CantDuel]\nKĩ năng này không thể tái sử dụng bởi hiệu ứng bên ngoài\nNếu [MlynarWaiting] là 40, chuyển thành có thể Đấu\n[WhenUse] Nếu [MlynarWaiting] là 40, không bị Hoảng loạn bởi sát thương cho đến khi kết thúc kĩ năng này và +20 Sức mạnh Đấu\n\n[BeforeAttack] Tiêu hao toàn bộ [MlynarWaiting], áp dụng các hiệu ứng sau (Làm tròn xuống hàng đơn vị)\n- Hoàn trả 1 tài nguyên E.G.O đã sử dụng cho mỗi (Giá trị tiêu hao ÷ 20) (Hoàn trả theo thứ tự Ngạo mạn, Phẫn nộ)\n- Tăng Trọng số cho mỗi (Giá trị tiêu hao ÷ 10) (Tối đa 4)\n- Nhận [DefenseUp] cho mỗi (Giá trị tiêu hao ÷ 10) (1 lần mỗi lượt)\n- Nếu tiêu hao 40, +<style=\"highlight\">80</style>% Sát thương đồng xu thứ 4, nhận 2 [Protection] (1 lần mỗi lượt)\n\n[BeforeAttack] +5% Sát thương cho mỗi 8 tổng số [Combustion] và [Vibration] trên mục tiêu chính (Tối đa 25%)\n[EndSkill] Hồi 5 Tinh thần với mỗi đối tượng bị Hoảng loạn hoặc tử vong bởi sát thương của kĩ năng này (Tối đa 25)\n[EndSkill] Nhận 1 [MlynarWaiting]\n[EndBattle] Nếu không thể tiêu hao 40 [MlynarWaiting] bằng kĩ năng này, lượt sau tăng 4 [Aggro] cho slot kĩ năng nằm ngoài cùng bên trái trên bảng điều khiển (1 lần mỗi lượt)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Tái sử dụng đồng xu này (Giá trị [MlynarWaiting] đã tiêu hao ÷ 10) - 1 lần (Tối đa 3 lần)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnStartCoin] Nếu đồng xu này không bị phá hủy và mục tiêu tấn công từ 3 trở lên, +10% Sát thương cho đồng xu cuối cùng (Trong trận Chiến tập trung, mỗi bộ phận được tính là 1 mục tiêu)</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [Combustion]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [Vibration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Nếu là đồng xu cuối cùng và số lượng [Vibration] trên mục tiêu từ 15 trở lên, [VibrationExplosion]. Giảm 1 số lần [Vibration] của mục tiêu<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Nếu đã sử dụng đồng xu này 4 lần, gây Sát thương Lười biếng bằng với số lượng [Vibration] của mục tiêu (Tối đa 5)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Vinh Quang Không Tỏa Sáng - Quang Huy",
+          "abName": "Mlynar",
+          "desc": "[CantDuel]\nKĩ năng này không thể tái sử dụng bởi hiệu ứng bên ngoài\nNếu [MlynarWaiting] là 40, chuyển thành có thể Đấu\n[WhenUse] Nếu [MlynarWaiting] là 40, không bị Hoảng loạn bởi sát thương cho đến khi kết thúc kĩ năng này và +20 Sức mạnh Đấu\n\n[BeforeAttack] Tiêu hao toàn bộ [MlynarWaiting], áp dụng các hiệu ứng sau (Làm tròn xuống hàng đơn vị)\n- Hoàn trả 1 tài nguyên E.G.O đã sử dụng cho mỗi (Giá trị tiêu hao ÷ 20) (Hoàn trả theo thứ tự Ngạo mạn, Phẫn nộ)\n- Tăng Trọng số cho mỗi (Giá trị tiêu hao ÷ 10) (Tối đa 4)\n- Nhận [DefenseUp] cho mỗi (Giá trị tiêu hao ÷ 10) (1 lần mỗi lượt)\n- Nếu tiêu hao 40, +<style=\"highlight\">100</style>% Sát thương đồng xu thứ 4, nhận 2 [Protection] (1 lần mỗi lượt)\n\n[BeforeAttack] +5% Sát thương cho mỗi 8 tổng số [Combustion] và [Vibration] trên mục tiêu chính (Tối đa 25%)\n[EndSkill] Hồi 5 Tinh thần với mỗi đối tượng bị Hoảng loạn hoặc tử vong bởi sát thương của kĩ năng này (Tối đa 25)\n[EndSkill] Nhận 1 [MlynarWaiting]\n[EndBattle] Nếu không thể tiêu hao 40 [MlynarWaiting] bằng kĩ năng này, lượt sau tăng 4 [Aggro] cho slot kĩ năng nằm ngoài cùng bên trái trên bảng điều khiển (1 lần mỗi lượt)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Tái sử dụng đồng xu này (Giá trị [MlynarWaiting] đã tiêu hao ÷ 10) - 1 lần (Tối đa 3 lần)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnStartCoin] Nếu đồng xu này không bị phá hủy và mục tiêu tấn công từ 3 trở lên, +<style=\"highlight\">20</style>% Sát thương cho đồng xu cuối cùng (Trong trận Chiến tập trung, mỗi bộ phận được tính là 1 mục tiêu)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [Combustion]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [Vibration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Nếu là đồng xu cuối cùng và số lượng [Vibration] trên mục tiêu từ 15 trở lên, [VibrationExplosion]. Giảm 1 số lần [Vibration] của mục tiêu<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Nếu đã sử dụng đồng xu này 4 lần, gây Sát thương Lười biếng bằng với số lượng [Vibration] của mục tiêu (Tối đa <style=\"highlight\">10</style>)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2120921,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Vinh Quang Không Tỏa Sáng - Lưu Thủy",
+          "abName": "Mlynar",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\n[WhenUse] Nếu [MlynarWaiting] là 40, +1 Sức mạnh cơ bản\n\n[BeforeAttack] Tiêu hao toàn bộ [MlynarWaiting], áp dụng các hiệu ứng sau (Làm tròn xuống hàng đơn vị)\n- Nhận [DefenseUp] cho mỗi (Giá trị tiêu hao ÷ 10) (1 lần mỗi lượt)\n- Nếu tiêu hao 40, +110% Sát thương đồng xu cuối cùng, nhận 2 [Protection] (1 lần mỗi lượt)\n\n[BeforeAttack] +3% Sát thương cho mỗi 6 tổng số [Combustion] và [Vibration] trên mục tiêu chính (Tối đa 15%)\n[BeforeAttack] Mỗi đồng xu bị phá hủy giảm 4 Sức mạnh cơ bản (Tối đa -16)\n[EndSkill] Nhận 1 [MlynarWaiting]\n[EndBattle] Nếu tiêu hao 40 [MlynarWaiting] bằng kĩ năng này, lượt sau tăng 8 [Aggro] cho slot kĩ năng nằm ngoài cùng bên trái trên bảng điều khiển (1 lần mỗi lượt)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 5 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 5 [Vibration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Nếu số lượng [Vibration] trên mục tiêu từ 15 trở lên, [VibrationExplosion]. Giảm 1 số lần [Vibration] của mục tiêu"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Vinh Quang Không Tỏa Sáng - Lưu Thủy",
+          "abName": "Mlynar",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\n<style=\"highlight\">Nếu mục tiêu tấn công từ 3 trở lên, khi đồng xu 1~3 không bị phá hủy và trúng đích, +25% Sát thương cho đồng xu cuối cùng (Kích hoạt 1 lần cho mỗi đồng xu. Trong trận Chiến tập trung, mỗi bộ phận được tính là 1 mục tiêu)</style>\n[WhenUse] Nếu [MlynarWaiting] là 40, +1 Sức mạnh cơ bản\n\n[BeforeAttack] Tiêu hao toàn bộ [MlynarWaiting], áp dụng các hiệu ứng sau (Làm tròn xuống hàng đơn vị)\n- Nhận [DefenseUp] cho mỗi (Giá trị tiêu hao ÷ 10) (1 lần mỗi lượt)\n- Nếu tiêu hao 40, +<style=\"highlight\">130</style>% Sát thương đồng xu cuối cùng, nhận 2 [Protection] (1 lần mỗi lượt)\n\n[BeforeAttack] +3% Sát thương cho mỗi 6 tổng số [Combustion] và [Vibration] trên mục tiêu chính (Tối đa 15%)\n[BeforeAttack] Mỗi đồng xu bị phá hủy giảm 4 Sức mạnh cơ bản (Tối đa -16)\n[EndSkill] Nhận 1 [MlynarWaiting]\n[EndBattle] Nếu tiêu hao 40 [MlynarWaiting] bằng kĩ năng này, lượt sau tăng 8 [Aggro] cho slot kĩ năng nằm ngoài cùng bên trái trên bảng điều khiển (1 lần mỗi lượt)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 5 [Combustion]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 5 [Vibration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Nếu số lượng [Vibration] trên mục tiêu từ 15 trở lên, [VibrationExplosion]. Giảm 1 số lần [Vibration] của mục tiêu"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Vinh Quang Không Tỏa Sáng - Lưu Thủy",
+          "abName": "Mlynar",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\nNếu mục tiêu tấn công từ 3 trở lên, khi đồng xu 1~3 không bị phá hủy và trúng đích, +<style=\"highlight\">30</style>% Sát thương cho đồng xu cuối cùng (Kích hoạt 1 lần cho mỗi đồng xu. Trong trận Chiến tập trung, mỗi bộ phận được tính là 1 mục tiêu)\n[WhenUse] Nếu [MlynarWaiting] là 40, +1 Sức mạnh cơ bản\n\n[BeforeAttack] Tiêu hao toàn bộ [MlynarWaiting], áp dụng các hiệu ứng sau (Làm tròn xuống hàng đơn vị)\n- Nhận [DefenseUp] cho mỗi (Giá trị tiêu hao ÷ 10) (1 lần mỗi lượt)\n- Nếu tiêu hao 40, +<style=\"highlight\">160</style>% Sát thương đồng xu cuối cùng, nhận 2 [Protection] (1 lần mỗi lượt)\n\n[BeforeAttack] +3% Sát thương cho mỗi 6 tổng số [Combustion] và [Vibration] trên mục tiêu chính (Tối đa 15%)\n[BeforeAttack] Mỗi đồng xu bị phá hủy giảm 4 Sức mạnh cơ bản (Tối đa -16)\n[EndSkill] Nhận 1 [MlynarWaiting]\n[EndBattle] Nếu tiêu hao 40 [MlynarWaiting] bằng kĩ năng này, lượt sau tăng 8 [Aggro] cho slot kĩ năng nằm ngoài cùng bên trái trên bảng điều khiển (1 lần mỗi lượt)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 5 [Combustion]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 5 [Vibration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Nếu số lượng [Vibration] trên mục tiêu từ 15 trở lên, [VibrationExplosion]. Giảm 1 số lần [Vibration] của mục tiêu"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,747 @@
+{
+  "dataList": [
+    {
+      "id": 815901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Lòng bàn tay",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 5 [Vibration], số lần [Vibration] tăng 2"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Gây 2 [Binding] vào lượt tiếp theo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 815902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Xếp đá",
+          "desc": "[WhenUse] Nếu [Vibration] của mục tiêu từ 5 trở lên, Uy lực Đối kháng +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lần [Vibration] tăng 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [Paralysis] vào lượt tiếp theo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 8 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [AttackDown] vào lượt tiếp theo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 815903,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Nghiền nát lười biếng",
+          "desc": "[WhenUse] Nếu Tốc độ mục tiêu thấp hơn bản thân, Uy lực Đối kháng +1 với mỗi điểm chênh lệch (Tối đa 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [Binding] vào lượt tiếp theo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [AttackDown] vào lượt tiếp theo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 815904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Phòng ngự",
+          "desc": "[WhenUse] Nhận 3 [Protection]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 816001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Cắn xé",
+          "desc": "Khi Kĩ năng tấn công này trúng, nhận [TakeHpHealIncrease] vào lượt tiếp theo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 816002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Giờ ăn",
+          "desc": "[WhenUse] Nếu mục tiêu có Uy lực [Burst], Uy lực Cơ bản +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lần [Burst] tăng 2"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Hồi 3 HP cho cơ thể và bộ phận"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lần [Burst] tăng 2"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Hồi 3 HP cho cơ thể và bộ phận"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lần [Burst] tăng 2"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Hồi 3 HP cho cơ thể và bộ phận"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lần [Burst] tăng 2"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Hồi 3 HP cho cơ thể và bộ phận"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 816003,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Giờ ăn tham lam",
+          "desc": "[WhenUse] Nếu [Burst] của mục tiêu từ 5 trở lên, gây 2 [DefenseDown]\nUy lực Cơ bản +1 dựa theo trị số [TakeHpHealIncrease] của bản thân (Tối đa 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lần [Burst] tăng 2"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Hồi 5 HP cho cơ thể và bộ phận"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 5 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Hồi 5 HP cho cơ thể và bộ phận"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lần [Burst] tăng 2"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Hồi 5 HP cho cơ thể và bộ phận"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 5 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Hồi 5 HP cho cơ thể và bộ phận"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 816004,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Phản đòn",
+          "desc": "Nếu HP cơ thể của bản thân từ 50% trở xuống, hồi 10 HP cho cơ thể và bộ phận khi đồng xu của kĩ năng này trúng",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [Burst], số lần [Burst] tăng 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [Burst], số lần [Burst] tăng 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 816401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Đập bằng gậy bóng chày",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lần [Burst] tăng 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 816402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Đánh rớt",
+          "desc": "[WinDuel] Nhận [Enhancement], 1 [AttackDmgUp] vào lượt tiếp theo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lần [Burst] tăng 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây [Laceration]3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây [Laceration] tương ứng với [Burst] của mục tiêu"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 816403,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Trút giận",
+          "desc": "Nếu [Burst] của mục tiêu từ 5 trở lên, Sức mạnh Kháng cự +1\nNếu [Laceration] của mục tiêu từ 5 trở lên, Sức mạnh Kháng cự +1\n[WinDuel] Số lần [Burst] tăng 3",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Sức mạnh Coin tiếp theo +1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Sức mạnh Coin tiếp theo +2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây [Paralysis]3 vào lượt tiếp theo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây [Laceration]8"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 816404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Đã đến lúc chuộc tội",
+          "desc": "[CantChangeTarget]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây Số lần [Laceration] 3, Số lần [Burst] 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây [Laceration] 3, [Burst] 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây [Laceration] 3, [Burst] 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Nhận [Enhancement]1 vào lượt tiếp theo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 816405,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Hãy đau đớn hơn nữa đi!",
+          "desc": "[CantChangeTarget]\n[WinDuel] Số lần [Burst] tăng 3",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Sức mạnh Coin tiếp theo +1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Sức mạnh Coin tiếp theo +2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây [Laceration]8"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 816406,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Phòng thủ",
+          "desc": "[WhenUse] Nhận [Enhancement]1 vào lượt tiếp theo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 816407,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Phản công",
+          "desc": "[WhenUse] Nhận [Enhancement]1 vào lượt tiếp theo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây [Laceration]3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 816501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Để ta dọn dẹp cho",
+          "desc": "Hồi phục HP cho bản thân và bộ phận bằng 10% lượng sát thương kỹ năng tấn công này gây ra",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Nhận [AttackUp]1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Nhận [AttackUp]1"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Nhận [Agility]1 vào lượt tiếp theo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 816502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Tên khốn",
+          "desc": "Nếu Tốc độ cao hơn mục tiêu, Sức mạnh Kháng cự +2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây [Laceration]4, Số lần [Laceration] tăng 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây [Laceration]4, Số lần [Laceration] tăng 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Nếu Tốc độ cao hơn mục tiêu từ 3 trở lên, dùng lại Coin này (Tối đa 1 lần)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 816503,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Đây là nhà của ta!",
+          "desc": "Ưu tiên tấn công mục tiêu có HP thấp nhất\n[WhenUse] Nếu tỷ lệ HP hiện tại của mục tiêu dưới 70%, Sức mạnh Kháng cự +2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Nhận [Agility]1 vào lượt tiếp theo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây [Vulnerable]1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây [Laceration]5, Số lần [Laceration] tăng 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây [Laceration]5, Số lần [Laceration] tăng 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Nếu [Laceration] của mục tiêu từ 20 trở lên, Sát thương gây ra +100%"
+                },
+                {
+                  "desc": "[EnemyKill] Dùng lại kỹ năng này (Tối đa 1)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 816504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Riêng ngươi thì...",
+          "desc": "Ưu tiên tấn công Heathcliff\n[WhenUse] Nếu là kẻ địch có Tốc độ thấp nhất, Sức mạnh Cơ bản +3\n[WhenUse] Gây [AaCfPbBe], [Vulnerable] 2, [Paralysis] 3, [Binding] 5 vào lượt tiếp theo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Nhận [AttackUp]1 vào lượt tiếp theo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Nhận [AttackUp]1 vào lượt tiếp theo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 816505,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Trả lại đây...!!",
+          "desc": "[CantDuel]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Nhận [AttackUp]2 vào lượt tiếp theo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Nhận [AttackUp]2 vào lượt tiếp theo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Nhận [AttackUp]2 vào lượt tiếp theo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Nếu [Laceration] của mục tiêu từ 10 trở lên, gây thêm Sát thương Va đập bằng 30% lượng sát thương"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Nếu [Laceration] của mục tiêu từ 5 trở lên, hồi phục HP bằng 50% lượng sát thương"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 816506,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Tên khốn này...",
+          "desc": "Ưu tiên tấn công mục tiêu có [AaCfPbBe]\nNếu Tốc độ của mục tiêu thấp hơn bản thân từ 3 trở lên, dùng lại kĩ năng này (Tối đa 1)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Hồi phục HP bản thể và bộ phận bằng 50% lượng sát thương"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Hồi phục HP bản thể và bộ phận bằng 50% lượng sát thương"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 816507,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Phòng vệ",
+          "desc": "Khi kết thúc lượt, nếu vẫn còn Lớp bảo vệ, nhận 4 [Protection] vào lượt kế tiếp",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 816508,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Né tránh",
+          "desc": "[OnSucceedEvade] Đặt 1 [Binding] vào lượt kế tiếp (Tối đa 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 816509,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Đây là nơi ở của ta!",
+          "desc": "Nếu Tốc độ của bản thân cao hơn mục tiêu, Sức mạnh Coin +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Nếu [Laceration] của mục tiêu từ 10 trở lên, gây sát thương Đập bằng 30% lượng sát thương"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Nếu [Laceration] của mục tiêu từ 10 trở lên, gây sát thương Đập bằng 30% lượng sát thương"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Nếu [Laceration] của mục tiêu từ 10 trở lên, gây sát thương Đập bằng 30% lượng sát thương"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Nếu [Laceration] của mục tiêu từ 10 trở lên, gây sát thương Đập bằng 30% lượng sát thương"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Nếu [Laceration] của mục tiêu từ 10 trở lên, hồi phục HP bằng 70% lượng sát thương"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

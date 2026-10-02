@@ -1,0 +1,1804 @@
+{
+  "dataList": [
+    {
+      "id": 956301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Loạn Kích",
+          "desc": "[WhenUse] \n- Với mỗi 8 tổng số [Combustion] và [Laceration] của mục tiêu, Sức mạnh hòa kích +1 (Tối đa 3)\n- Với mỗi 6 [Breath] của bản thân, Lượng sát thương +5% (Tối đa 20%)\n- Nhận 2 [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lượt [Combustion] tăng thêm 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Số lượt [Laceration] tăng thêm 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Phấn Toái",
+          "desc": "[WhenUse] \n- Với mỗi 8 tổng số [Combustion] và [Laceration] của mục tiêu, Sức mạnh hòa kích +1 (Tối đa 3)\n- Với mỗi 6 [Breath] của bản thân, Lượng sát thương +5% (Tối đa 20%)\n- Số lượt [Breath] tăng thêm 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lượt [Combustion] tăng thêm 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Số lượt [Laceration] tăng thêm 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956303,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Thai Động Khai Thủy",
+          "desc": "[CantDuel]・[CantChangeTarget]\nLượng sát thương gây ra của Kĩ năng tấn công này trở thành 0\n[WhenUse] Trong lượt này, không nhận mọi sát thương\n[EndSkill] Kết thúc giai đoạn",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "La Sinh - Hồi Quy",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>Loại tấn công · Loại thuộc tính</u></b></mark></color> của Kĩ năng này và Kĩ năng đã tiến hành hòa kích sẽ gây ảnh hưởng đến Quá khứ đang ập đến\n- Kẻ địch ở Giai đoạn 2 nhận [HeatedWingScalesExplain]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956305,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "La Sinh - Hiển Hiện",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>Loại tấn công · Loại thuộc tính</u></b></mark></color> của Kĩ năng này và Kĩ năng đã tiến hành hòa kích sẽ gây ảnh hưởng đến Hiện tại đang ập đến\n- Kẻ địch ở Giai đoạn 3 nhận [TransparentWingScalesExplain]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956306,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "La Sinh - Đáo Lai",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>Loại tấn công · Loại thuộc tính</u></b></mark></color> của Kĩ năng này và Kĩ năng đã tiến hành hòa kích sẽ gây ảnh hưởng đến Tương lai đang ập đến\n- Kẻ địch ở Giai đoạn 4 nhận [RustedWingScalesExplain]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Vũ Hóa",
+          "desc": "[CantDuel] [CantChangeTarget]\nLượng sát thương gây ra của Kĩ năng tấn công này trở thành 0\n[EndSkill] Kết thúc giai đoạn\n- Nếu Hàng rào bị phá hủy, lượt tiếp theo sẽ bắt đầu và <color=#ff6000><mark=#ff000040><b><u>Lựa chọn đặc biệt</u></b></mark></color> xuất hiện thay thế, sau đó kết thúc giai đoạn",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Vũ Hóa",
+          "desc": "[CantDuel] [CantChangeTarget]\nLượng sát thương gây ra của Kĩ năng tấn công này trở thành 0\n[EndSkill] Kết thúc giai đoạn\n- Nếu Hàng rào bị phá hủy, lượt tiếp theo sẽ bắt đầu và <color=#ff6000><mark=#ff000040><b><u>Lựa chọn đặc biệt</u></b></mark></color> xuất hiện thay thế, sau đó kết thúc giai đoạn",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Vũ Hóa",
+          "desc": "[CantDuel] [CantChangeTarget]\nLượng sát thương gây ra của Kĩ năng tấn công này trở thành 0\n[EndSkill] Kết thúc giai đoạn\n- Nếu Hàng rào bị phá hủy, lượt tiếp theo sẽ bắt đầu và <color=#ff6000><mark=#ff000040><b><u>Lựa chọn đặc biệt</u></b></mark></color> xuất hiện thay thế, sau đó kết thúc giai đoạn",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Loạn Kích",
+          "desc": "[WhenUse] \n- Với mỗi 8 tổng số [Combustion] và [Laceration] của mục tiêu, Sức mạnh hòa kích +1 (Tối đa 3)\n- Với mỗi 8 [Breath] của bản thân, Lượng sát thương +10% (Tối đa 30%)\n- Nhận 2 [Breath]\n- Nếu HP thấp hơn 66%/33%, Đồng xu cuối cùng/Tất cả đồng xu sẽ được đổi thành [SuperCoin]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lượt [Combustion] tăng thêm 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Số lượt [Laceration] tăng thêm 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Phấn Toái",
+          "desc": "[WhenUse] \n- Với mỗi 8 tổng số [Combustion] và [Laceration] của mục tiêu, Sức mạnh hòa kích +1 (Tối đa 3)\n- Với mỗi 8 [Breath] của bản thân, Lượng sát thương +10% (Tối đa 30%)\n- Số lượt [Breath] tăng thêm 2\n- Nếu HP thấp hơn 66%/33%, Đồng xu cuối cùng/Tất cả đồng xu sẽ được đổi thành [SuperCoin]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lượt [Combustion] tăng thêm 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Số lượt [Laceration] tăng thêm 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956703,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Dao Loạn",
+          "desc": "[WhenUse]\n- Với mỗi 6 tổng số [Combustion] và [Laceration] của mục tiêu, Sức mạnh hòa kích +1 (Tối đa 6)\n- Với mỗi 6 [Breath] của bản thân, Sức mạnh hòa kích +1 (Tối đa 3)\n[DefeatDuel] Nhận <color=#ff6000><mark=#ff000040><b><u>[ResultReduction]2, [AttackDmgDown]2</u></b></mark></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Với mỗi 33% HP đã mất, sử dụng lại đồng xu này 1 lần (Tối đa 2 lần)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Nhận 1 [Breath]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Rèn",
+          "desc": "Bất kể tốc độ, có thể thực hiện hòa kích với Kĩ năng này\n[WhenUse]\n- Với mỗi 6 [Combustion] của mục tiêu, Sức mạnh hòa kích +1 (Tối đa 6)\n- Nếu HP thấp hơn 66%/33%, Đồng xu thứ hai/Tất cả đồng xu sẽ đổi thành [SuperCoin]\n[DefeatDuel] Cho đến khi kết thúc đòn tấn công của Kĩ năng này, mục tiêu không bị Hoảng loạn",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [Combustion], Số lượt [Combustion] tăng thêm 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Kích hoạt <color=#ff6000><mark=#ff000040><b><u>[Combustion] 1 lần</u></b></mark></color> lên mục tiêu và số lượt [Combustion] giảm 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956705,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Thiêu Hủy",
+          "desc": "Bất kể tốc độ, có thể thực hiện hòa kích với Kĩ năng này\n[WhenUse]\n- Với mỗi 6 [Combustion] của mục tiêu chính, Sức mạnh hòa kích +1 (Tối đa 6)\n- <color=#ff6000><mark=#ff000040><b><u>Lượng sát thương +([StackPastActivate] × 2)%</u></b></mark></color> (Tối đa 60%)\n- Nếu HP thấp hơn 66%/33%, Đồng xu thứ hai/Tất cả đồng xu sẽ đổi thành [SuperCoin]\n[DefeatDuel] Cho đến khi kết thúc đòn tấn công của Kĩ năng này, mục tiêu không bị Hoảng loạn",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số [Combustion] tăng 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Khiến mục tiêu <color=#ff6000><mark=#ff000040><b><u>kích hoạt [Combustion] 2 lần</u></b></mark></color>, số [Combustion] giảm 2"
+                },
+                {
+                  "desc": "[DefeatDuelAttack] Nếu <color=#ff6000><mark=#ff000040><b><u>Máu dưới 33%</u></b></mark></color>, khiến mục tiêu chính <color=#ff6000><mark=#ff000040><b><u>kích hoạt [Combustion] 1 lần</u></b></mark></color>, số [Combustion] giảm 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956706,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Kiếp Hỏa",
+          "desc": "Bất kể tốc độ, có thể đối đầu với Kĩ năng này\n\n[WhenUse]\n- Mỗi 6 [Combustion] trên mục tiêu chính, Sức mạnh Cuối cùng +1 (Tối đa 6)\n- <color=#ff6000><mark=#ff000040><b><u>Sát thương +([StackPastActivate] × 4)%</u></b></mark></color> (Tối đa 120%)\n[WinDuel] Nhận 5 [StackPastActivate]\n[DefeatDuel]\n- Giảm một nửa [StackPastActivate] (Làm tròn xuống)\n- Nhận 2 [AttackDmgDown], 4 [Paralysis]\n- Mục tiêu không bị Choáng cho đến khi kết thúc đòn tấn công của Kĩ năng này",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [Combustion], số [Combustion] tăng 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [Combustion], số [Combustion] tăng 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Khiến mục tiêu <color=#ff6000><mark=#ff000040><b><u>kích hoạt [Combustion] 1 lần</u></b></mark></color>, số [Combustion] giảm 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Khiến mục tiêu <color=#ff6000><mark=#ff000040><b><u>kích hoạt [Combustion] 2 lần</u></b></mark></color>, số [Combustion] giảm 2"
+                },
+                {
+                  "desc": "[DefeatDuelAttack] Nếu <color=#ff6000><mark=#ff000040><b><u>Máu dưới 33%</u></b></mark></color>, khiến mục tiêu <color=#ff6000><mark=#ff000040><b><u>kích hoạt [Combustion] 1 lần</u></b></mark></color>, số [Combustion] giảm 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956707,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Vô Thường",
+          "desc": "Bất kể tốc độ, có thể đối đầu với Kĩ năng này\n[WhenUse]\n- Mỗi 6 [Breath] của bản thân, Sức mạnh Đối đầu +1, Sát thương +10% (Lần lượt tối đa 6, 60%)\n- Nếu Máu dưới 66%/33%, đồng xu thứ 2/tất cả đồng xu đổi thành [SuperCoin]\n[BeforeAttack] Nhận 2 [Breath], số [Breath] tăng 2\n[DefeatDuel] Mục tiêu không bị Choáng cho đến khi kết thúc đòn tấn công của Kĩ năng này",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Nhận 1 [Breath], số [Breath] tăng 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây <color=#ff6000><mark=#ff000040><b><u>Sát thương Ngạo mạn bằng ([Breath] bản thân ÷ 2)</u></b></mark></color> cho mục tiêu, số [Breath] giảm 1 (Làm tròn xuống)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956708,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Xuyên Không",
+          "desc": "Bất kể tốc độ, có thể đối đầu với Kĩ năng này\n[WhenUse]\n- Mỗi 6 [Breath] của bản thân, Sức mạnh Đối đầu +1, Sát thương +10% (Lần lượt tối đa 6, 60%)\n- <color=#ff6000><mark=#ff000040><b><u>Sát thương +([StackPresentActivate] × 2)%</u></b></mark></color> (Tối đa 60%)\n- Nếu Máu dưới 66%/33%, đồng xu thứ 2/tất cả đồng xu đổi thành [SuperCoin]\n[BeforeAttack] Nhận 3 [Breath], số [Breath] tăng 2\n[DefeatDuel] Mục tiêu không bị Choáng cho đến khi kết thúc đòn tấn công của Kĩ năng này",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số [Breath] tăng 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Nhận 1 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Sát thương +(Số [Breath] của bản thân)%</u></b></mark></color> (Tối đa 50%)"
+                },
+                {
+                  "desc": "[DefeatDuelAttack] Nếu <color=#ff6000><mark=#ff000040><b><u>Máu dưới 33%</u></b></mark></color>, <color=#ff6000><mark=#ff000040><b><u>Sát thương +(Số [Breath] của bản thân)%</u></b></mark></color> (Tối đa 30%)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Sát thương +([Breath] bản thân × 2)%</u></b></mark></color> (Tối đa 100%)"
+                },
+                {
+                  "desc": "[DefeatDuelAttack] Nếu <color=#ff6000><mark=#ff000040><b><u>Máu dưới 33%</u></b></mark></color>, <color=#ff6000><mark=#ff000040><b><u>Sát thương +([Breath] bản thân)%</u></b></mark></color> (Tối đa 50%)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956709,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Phá Tà",
+          "desc": "Bất kể tốc độ, có thể đối đầu với Kĩ năng này\n[WhenUse]\n- Mỗi 6 [Breath] của bản thân, Sức mạnh Cuối cùng +1, Sát thương +20% (Lần lượt tối đa 6, 120%)\n- Nhận 4 [Breath], số [Breath] tăng 4\n- <color=#ff6000><mark=#ff000040><b><u>Sát thương +([StackPresentActivate] × 4)% (Tối đa 120%)</u></b></mark></color>\n[BeforeAttack] Nếu Sức mạnh [Breath] của bản thân vượt quá 20, tiêu hao tối đa 20 [Breath] vượt quá, Sát thương +(Giá trị tiêu hao × 5)% (Tối đa 100%)\n- Không kích hoạt khi Thua đối đầu\n[WinDuel] Nhận 5 [StackPresentActivate]\n[DefeatDuel]\n- Giảm một nửa [StackPresentActivate] (Làm tròn xuống)\n- Nhận 2 [AttackDmgDown], 1 [Paralysis]\n- Mục tiêu không bị Choáng cho đến khi kết thúc đòn tấn công của Kĩ năng này\n[EndSkill] Nếu mục tiêu tử trận, tái sử dụng Kĩ năng này lên mục tiêu có Máu cao nhất (1 lần mỗi lượt)\n- Không kích hoạt khi Thua đối đầu",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Nếu <color=#ff6000><mark=#ff000040><b><u>Kháng Đâm của mục tiêu thấp hơn Điểm yếu (1.5), coi như Điểm yếu (1.5)</u></b></mark></color>\n- Không kích hoạt khi Thua đối đầu"
+                },
+                {
+                  "desc": "[DefeatDuelAttack] Nếu <color=#ff6000><mark=#ff000040><b><u>Máu dưới 33%</u></b></mark></color>, gây thêm <color=#ff6000><mark=#ff000040><b><u>Sát thương Đâm bằng 50% sát thương của đồng xu này</u></b></mark></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956710,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Hủ Thực",
+          "desc": "Bất kể tốc độ, có thể đối đầu với Kĩ năng này\n[WhenUse]\n- Mỗi 6 [Laceration] trên mục tiêu, Sức mạnh Đối đầu +1 (Tối đa 6)\n- Nếu Máu dưới 66%/33%, đồng xu thứ 2/tất cả đồng xu đổi thành [SuperCoin]\n[DefeatDuel] Mục tiêu không bị Choáng cho đến khi kết thúc đòn tấn công của Kĩ năng này",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [Laceration], số [Laceration] tăng 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Khiến mục tiêu <color=#ff6000><mark=#ff000040><b><u>kích hoạt [Laceration] 1 lần</u></b></mark></color>, số [Laceration] giảm 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956711,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Hủ Diệt",
+          "desc": "Bất kể tốc độ, có thể đối đầu với Kĩ năng này\nTrong khi tiến hành đối đầu với Kĩ năng này, <color=#ff6000><mark=#ff000040><b><u>số [Laceration] của mục tiêu chính không giảm xuống dưới 1</u></b></mark></color>\n[WhenUse]\n- Mỗi 6 [Laceration] trên mục tiêu chính, Sức mạnh Đối đầu +1 (Tối đa 6)\n- Sát thương +([StackFutureActivate] × 2)% (Tối đa 60%)\n- Nếu Máu dưới 66%/33%, đồng xu thứ 2/tất cả đồng xu đổi thành [SuperCoin]\n[DefeatDuel] Mục tiêu không bị Choáng cho đến khi kết thúc đòn tấn công của Kĩ năng này",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [Laceration], số [Laceration] tăng 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Khiến mục tiêu <color=#ff6000><mark=#ff000040><b><u>kích hoạt [Laceration] 2 lần</u></b></mark></color>, số [Laceration] giảm 2"
+                },
+                {
+                  "desc": "[DefeatDuelAttack] Nếu <color=#ff6000><mark=#ff000040><b><u>Máu dưới 33%</u></b></mark></color>, khiến mục tiêu chính <color=#ff6000><mark=#ff000040><b><u>kích hoạt [Laceration] 1 lần</u></b></mark></color>, số [Laceration] giảm 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956712,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Huyết Hoa",
+          "desc": "Bất kể tốc độ, có thể đối đầu với Kĩ năng này\n\nTrong khi tiến hành đối đầu với Kĩ năng này, <color=#ff6000><mark=#ff000040><b><u>số [Laceration] của mục tiêu chính không giảm xuống dưới 1</u></b></mark></color>\n[WhenUse]\n- Mỗi 6 [Laceration] trên mục tiêu chính, Sức mạnh Cuối cùng +1 (Tối đa 6)\n- Sát thương +([StackFutureActivate] × 4)% (Tối đa 120%)\n[WinDuel] Nhận 5 [StackFutureActivate]\n[DefeatDuel]\n- Giảm một nửa [StackFutureActivate] (Làm tròn xuống)\n- Nhận 2 [AttackDmgDown], 2 [Paralysis]\n- Mục tiêu không bị Choáng cho đến khi kết thúc đòn tấn công của Kĩ năng này",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [Laceration], số [Laceration] tăng 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [Laceration], số [Laceration] tăng 3"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Khiến mục tiêu <color=#ff6000><mark=#ff000040><b><u>kích hoạt [Laceration] 2 lần</u></b></mark></color>, số [Laceration] giảm 2"
+                },
+                {
+                  "desc": "[DefeatDuelAttack] Nếu <color=#ff6000><mark=#ff000040><b><u>Máu dưới 33%</u></b></mark></color>, khiến mục tiêu <color=#ff6000><mark=#ff000040><b><u>kích hoạt [Laceration] 1 lần</u></b></mark></color>, số [Laceration] giảm 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Nghịch Lân Chi Họa",
+          "desc": "Kĩ năng này chỉ kích hoạt khi <color=#ff6000><mark=#ff000040><b><u>bị đánh với tư cách là mục tiêu chính</u></b></mark></color>\n[WhenUse] Tiêu hao toàn bộ <color=#ff6000><mark=#ff000040><b><u>[YesdragonSelfRefraction]</u></b></mark></color> của bản thân. Tái sử dụng đồng xu cuối cùng tương ứng với số lượng tiêu hao (Tối đa 5 lần)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 5 sát thương Tinh thần"
+                },
+                {
+                  "desc": "[EnemyKill] Khi tiêu diệt mục tiêu chính, Kĩ năng này đổi thành [WideAreaRampage]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Đồng xu này chỉ gây sát thương lên mục tiêu chính. Nếu trở thành [WideAreaRampage], hiệu quả này bị vô hiệu hóa"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Số Vết rách tăng 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Thiểm Lôi",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 Vết rách"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 Vết rách (Rupture)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956803,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Long Thanh",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lần [Burst] tăng thêm 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [Binding] vào lượt tiếp theo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956804,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Lạc Châm",
+          "desc": "[WhenUse] Với mỗi <color=#ff6000><mark=#ff000040><b><u>2 [YesdragonSelfRefraction]</u></b></mark></color> của bản thân, Sức mạnh Cơ bản +1\n[WhenUse] Nếu mục tiêu có [Binding] hoặc [Paralysis], Sức mạnh Cơ bản +2\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Triệu hồi <noparse>Mai Hoa Châm</noparse> vào lượt tiếp theo</u></b></mark></color>\n[DefeatDuel] Hồi 5 Tinh thần cho mục tiêu\n[DefeatDuel] <color=#ff6000><mark=#ff000040><b><u>Không triệu hồi <noparse>Mai Hoa Châm</noparse></u></b></mark></color>, phần đầu sẽ nhận <color=#ff6000><mark=#ff000040><b><u>Sát thương Cố định</u></b></mark></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [Burst], Số lần [Burst] tăng thêm 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956805,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Long Quyển",
+          "desc": "[WhenUse] Nếu mục tiêu chính có [Binding] hoặc [Paralysis], Sức mạnh Đồng xu +1\n[DefeatDuel] Gây <color=#ff6000><mark=#ff000040><b><u>[YesdragonWind]</u></b></mark></color> cho mục tiêu chính",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lần [Burst] tăng thêm 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956806,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Tích Vũ",
+          "desc": "[WhenUse] Với mỗi <color=#ff6000><mark=#ff000040><b><u>1 [YesdragonSelfRefraction]</u></b></mark></color> của bản thân, Sức mạnh Cơ bản +1\n[WhenUse] Nếu bản thân có <color=#ff6000><mark=#ff000040><b><u>từ 5 [YesdragonSelfRefraction] trở lên</u></b></mark></color>, Sức mạnh Đồng xu +1, Chỉ số Cộng hưởng +1\n[DefeatDuel] Sát thương gây ra giảm 80%, sát thương từ kỹ năng này không làm mục tiêu Hoảng loạn",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây 3 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Nếu bản thân có <color=#ff6000><mark=#ff000040><b><u>từ 5 [YesdragonSelfRefraction] trở lên, dùng lại đồng xu này</u></b></mark></color> (1 lần mỗi kỹ năng)"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Số lần [Burst] tăng thêm 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956807,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Lạc Lôi",
+          "desc": "[CantDuel][CantChangeTarget]\n<color=#ff6000><mark=#ff000040><b><u>Chỉ định <noparse>Mai Hoa Châm</noparse> làm mục tiêu</u></b></mark></color>\nNếu <noparse>Mai Hoa Châm</noparse> bị tiêu diệt, kỹ năng này sẽ bị hủy",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 5 [Burst], Số lần [Burst] tăng thêm 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 50% xác suất gây 1 [Paralysis] vào lượt tiếp theo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Long Chi Tiêm",
+          "desc": "[CanDuelGuard]\n[StartBattle] Nhận <color=#ff6000><mark=#ff000040><b><u>1 [DragonLanceRefraction]</u></b></mark></color> vào lượt tiếp theo\n[DefeatDuel] Hiệu ứng sẽ bị hủy khi bắt đầu trận chiến. Nhận 3 [Endurance] vào lượt tiếp theo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Nghịch Lân Chi Họa",
+          "desc": "[WhenUse] Tiêu thụ toàn bộ <color=#ff6000><mark=#ff000040><b><u>[YesdragonSelfRefraction]</u></b></mark></color> đang có. Dùng lại đồng xu cuối cùng tương ứng với số lượng tiêu thụ (Tối đa 5 lần)\n[DefeatDuel] Sát thương gây ra giảm 50%, sát thương từ kỹ năng này không làm mục tiêu Hoảng loạn",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 5 sát thương Tinh thần"
+                },
+                {
+                  "desc": "[EnemyKill] Khi tiêu diệt mục tiêu chính, kỹ năng này chuyển thành [WideAreaRampage]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Đồng xu này chỉ gây sát thương cho mục tiêu chính. Nếu trở thành [WideAreaRampage], hiệu ứng này bị vô hiệu hóa"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Số lần [Burst] tăng thêm 2"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây 1 [CondensedBloodRefraction]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956903,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Thiểm Lôi",
+          "desc": "[WhenUse] Nếu Tinh thần của mục tiêu chính dưới 35, Sức mạnh Cơ bản +1\n[DefeatDuel] Sát thương gây ra giảm 50%, sát thương từ kỹ năng này không làm mục tiêu Hoảng loạn",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [Burst]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Số lần [CondensedBloodRefraction] tăng thêm 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [Burst]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây 1 [Paralysis] vào lượt tiếp theo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Long Thanh",
+          "desc": "[WhenUse] Nếu Tinh thần của mục tiêu chính dưới 35, Sức mạnh Đồng xu +1\n[DefeatDuel] Sát thương gây ra giảm 50%, sát thương từ kỹ năng này không làm mục tiêu Hoảng loạn",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây 5 sát thương Tinh thần"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Số lần [Burst] tăng thêm 2"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Số lần [CondensedBloodRefraction] tăng thêm 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956905,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Lạc Châm",
+          "desc": "[WhenUse] Với mỗi <color=#ff6000><mark=#ff000040><b><u>2 [YesdragonSelfRefraction]</u></b></mark></color> của bản thân, Sức mạnh Cơ bản +1\n[WhenUse] Nếu mục tiêu có [Binding] hoặc [Paralysis], Sức mạnh Cơ bản +2\n[WhenUse] Nếu bản thân có <color=#ff6000><mark=#ff000040><b><u>từ 5 [YesdragonSelfRefraction] trở lên</u></b></mark></color>, Sức mạnh Đồng xu +1\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Triệu hồi <noparse>Mai Hoa Châm</noparse> vào lượt tiếp theo</u></b></mark></color>\n[DefeatDuel] <color=#ff6000><mark=#ff000040><b><u>Không triệu hồi <noparse>Mai Hoa Châm</noparse></u></b></mark></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 5 sát thương Tinh thần"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [Burst], Số lần [Burst] tăng thêm 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956906,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Long Quyển",
+          "desc": "[WhenUse] Nếu mục tiêu chính có [Binding] hoặc [Paralysis], Sức mạnh Đồng xu +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lần [Burst] tăng thêm 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] số lượt [CondensedBloodRefraction] tăng thêm 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] gây [Burst] 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] số lượt [CondensedBloodRefraction] tăng thêm 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] gây [Burst] 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] số lượt [CondensedBloodRefraction] tăng thêm 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956907,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Tích Vũ",
+          "desc": "[WhenUse] Mỗi 1 <color=#ff6000><mark=#ff000040><b><u>[YesdragonSelfRefraction] của bản thân</u></b></mark></color>, Sức mạnh cơ bản +1\n[WhenUse] Nếu <color=#ff6000><mark=#ff000040><b><u>[YesdragonSelfRefraction] của bản thân từ 5 trở lên</u></b></mark></color>, Sức mạnh Đồng xu +1, Chỉ số mục tiêu +1\n[DefeatDuel] Sát thương gây ra giảm 80%, đối tượng không bị Hoảng loạn bởi sát thương từ kĩ năng này",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 5 sát thương Tinh thần"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] gây [Burst] 3"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] số lượt [CondensedBloodRefraction] tăng thêm 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Nếu <color=#ff6000><mark=#ff000040><b><u>[YesdragonSelfRefraction] của bản thân từ 5 trở lên, sử dụng lại đồng xu này</u></b></mark></color> (1 lần mỗi kĩ năng)"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] số lượt [Burst] tăng thêm 2"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] gây [CondensedBloodRefraction] 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956908,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Lạc Lôi",
+          "desc": "[CantDuel][CantChangeTarget]\n<color=#ff6000><mark=#ff000040><b><u>Chỉ định <noparse>Mai Hoa Châm</noparse> làm mục tiêu</u></b></mark></color>\nNếu <noparse>Mai Hoa Châm</noparse> tử trận, kĩ năng này sẽ bị hủy",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] gây [Burst] 5, số lượt [Burst] tăng thêm 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 50% xác suất gây [Paralysis] 1 vào lượt tiếp theo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956909,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Long Lệ Thành Đào",
+          "desc": "Có thể Khớp với kĩ năng này bất kể Tốc độ\n[WhenUse] Cho đến khi kĩ năng này kết thúc, đối tượng không bị Hoảng loạn bởi sát thương\n[WhenUse] Mỗi 1 <color=#ff6000><mark=#ff000040><b><u>giá trị [DragonLanceRefraction] của bản thân</u></b></mark></color>, Sức mạnh Đồng xu +1, Chỉ số mục tiêu +1\n- Nếu [DragonLanceRefraction] đạt tối đa, sát thương gây ra tăng thêm +100%\n[DefeatDuel] Sát thương gây ra giảm 80%, đối tượng không bị Hoảng loạn bởi sát thương từ kĩ năng này\n[DefeatDuel] Nhận [Vulnerable] 3 vào lượt tiếp theo\n[EndSkillAll] giá trị [DragonLanceRefraction] giảm xuống còn 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] số lượt [CondensedBloodRefraction] tăng thêm 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] số lượt [CondensedBloodRefraction] tăng thêm 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] gây [CondensedBloodRefraction] 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] gây [CondensedBloodRefraction] 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] gây [CondensedBloodRefraction] 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 957001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Tự Xuyên Diệt Ô",
+          "desc": "[CantDuel] [CantIdentify]\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Nếu máu của Hồng Ngọc là 1, sát thương gây ra sẽ là 0</u></b></mark></color> và hiệu ứng Đồng xu không kích hoạt\n[EndSkill] Nhân vật này tử trận",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] số lượt [Burst] tăng thêm 5"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] gây [Burst] 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] gây [Burst] 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] gây [Burst] 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 957101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Cây kim mang theo Long Khí",
+          "desc": "[CanDuelGuard]\n[WinDuel] gây [Vulnerable] 1 cho đối tượng",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 955110,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Furioso-Replica",
+          "desc": "[WideAreaRampage]\n<color=#ff6000><mark=#ff000040><b><u>Kĩ năng này không làm kích hoạt kĩ năng Phòng thủ của đối tượng</u></b></mark></color>\nCó thể Khớp với kĩ năng này bất kể Tốc độ\n[WhenUse]\n- Nhận [Breath] 3, số lượt [Breath] của bản thân tăng thêm 3\n- Sức mạnh Khớp +5 (<color=#ff6000><mark=#ff000040><b><u>giảm 1 ứng với mỗi 8 [KarmaOfIndexRien], tối thiểu 0</u></b></mark></color>)\n[WhenUse] Nếu Tinh thần từ 0 trở lên, tạo 1 Vọng (Vọng)\n- Sát thương gây ra tăng 20%, Sức mạnh cuối cùng +3\n[WinDuel]\n- Nhận [Breath] 3, số lượt [Breath] của bản thân tăng thêm 3\n- Khi kết thúc tấn công, gây [Laceration] 3, [Binding] 1, [Vulnerable] 1 cho tất cả mục tiêu trúng đòn vào lượt tiếp theo\n[DefeatDuel]\n- Nhận [AttackDmgDown] 4, [Paralysis] 9\n- Không bị Hoảng loạn bởi sát thương từ kĩ năng này, và hiệu ứng [Sinking] của đối tượng không kích hoạt khi trúng đòn\n[EndSkill] Nếu đã tạo Vọng (Vọng), Tinh thần giảm 20\n[EndSkill] Kết thúc lượt này",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Sử dụng lại đồng xu này (Tối đa 7 lần)</u></b></mark></color>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] gây [Sinking] 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 955207,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Nghiền nát âm thanh, chà đạp phẳng mọi tư duy",
+          "desc": "Có thể Khớp với kĩ năng này bất kể Tốc độ\nNếu có [BlackNightmare],\n- Tất cả đồng xu đổi thành [SuperCoin]\n- <color=#ff6000><mark=#ff000040><b><u>Nếu đối tượng được chỉ định Khớp không phải kĩ năng Va chạm</u></b></mark></color> thì Sức mạnh Đồng xu +2, Sát thương gây ra +50%\n- Khi thua Khớp trước kĩ năng Va chạm, Sức mạnh Đồng xu -2, Sát thương gây ra -50%, đối tượng không bị Hoảng loạn bởi sát thương từ kĩ năng này và hiệu ứng [Sinking] của đối tượng không kích hoạt\n\nVũ khí Va chạm xuất hiện thường xuyên hơn\n- Nếu [KarmaOfIndexRien_2Phase] từ 75 trở lên, tỉ lệ xuất hiện giảm\n- Nếu [KarmaOfIndexRien_2Phase] từ 150 trở lên, tỉ lệ xuất hiện giảm thêm\nÁp dụng hiệu ứng dưới đây tùy theo loại tấn công của vũ khí sử dụng\n- Trường hợp là vũ khí Va chạm, Sát thương gây ra +60%\n- Trường hợp không phải vũ khí Va chạm, Sát thương gây ra -30%\n[WhenUse] Nhận [Breath] 3, số lượt [Breath] tăng thêm 2\n[WinDuel] vạch Hoảng loạn tiến thêm 25\n- Nếu [KarmaOfIndexRien_2Phase] từ 150 trở lên, không kích hoạt",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] gây [Sinking] 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] số lượt [Sinking] tăng thêm 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] nhận [Breath] 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] số lượt [Breath] của bản thân tăng thêm 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 955208,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Đâm vào tâm điểm tĩnh lặng, xuyên thủng kí ức",
+          "desc": "Có thể Khớp với kĩ năng này bất kể Tốc độ\nNếu có [BlackNightmare],\n- Tất cả đồng xu đổi thành [SuperCoin]\n- <color=#ff6000><mark=#ff000040><b><u>Nếu đối tượng được chỉ định Khớp không phải kĩ năng Đâm</u></b></mark></color> thì Sức mạnh Đồng xu +2, Sát thương gây ra +50%\n- Khi thua Khớp trước kĩ năng Đâm, Sức mạnh Đồng xu -2, Sát thương gây ra -50%, đối tượng không bị Hoảng loạn bởi sát thương từ kĩ năng này và hiệu ứng [Sinking] của đối tượng không kích hoạt\n\nVũ khí Đâm xuất hiện thường xuyên hơn\n- Nếu [KarmaOfIndexRien_2Phase] từ 75 trở lên, tỉ lệ xuất hiện giảm\n- Nếu [KarmaOfIndexRien_2Phase] từ 150 trở lên, tỉ lệ xuất hiện giảm thêm\nÁp dụng hiệu ứng dưới đây tùy theo loại tấn công của vũ khí sử dụng\n- Trường hợp là vũ khí Đâm, Sát thương gây ra +60%\n- Trường hợp không phải vũ khí Đâm, Sát thương gây ra -30%\n[WhenUse] Nhận [Breath] 3, số lượt [Breath] tăng thêm 2\n[WinDuel] Nhận [AttackDmgUp] 2 vào lượt tiếp theo\n- Nếu [KarmaOfIndexRien_2Phase] từ 150 trở lên, không kích hoạt",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] gây [Sinking] 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] nhận [Breath] 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] số lượt [Sinking] tăng thêm 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] số lượt [Breath] của bản thân tăng thêm 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 955209,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Chém đứt hình hài bằng bí mật mài sắc",
+          "desc": "Có thể Khớp với kĩ năng này bất kể Tốc độ\nNếu có [BlackNightmare],\n- Tất cả đồng xu đổi thành [SuperCoin]\n- <color=#ff6000><mark=#ff000040><b><u>Nếu đối tượng được chỉ định Khớp không phải kĩ năng Chém</u></b></mark></color> thì Sức mạnh Đồng xu +2, Sát thương gây ra +50%\n- Khi thua Khớp trước kĩ năng Chém, Sức mạnh Đồng xu -2, Sát thương gây ra -50%, đối tượng không bị Hoảng loạn bởi sát thương từ kĩ năng này và hiệu ứng [Sinking] của đối tượng không kích hoạt\n\nVũ khí Chém xuất hiện thường xuyên hơn\n- Nếu [KarmaOfIndexRien_2Phase] từ 75 trở lên, tỉ lệ xuất hiện giảm\n- Nếu [KarmaOfIndexRien_2Phase] từ 150 trở lên, tỉ lệ xuất hiện giảm thêm\nÁp dụng hiệu ứng dưới đây tùy theo loại tấn công của vũ khí sử dụng\n- Trường hợp là vũ khí Chém, Sát thương gây ra +60%\n- Trường hợp không phải vũ khí Chém, Sát thương gây ra -30%\n[WhenUse] Nhận [Breath] 3, số lượt [Breath] tăng thêm 2\n[WinDuel] Sức mạnh cuối cùng +3\n- Nếu [KarmaOfIndexRien_2Phase] từ 150 trở lên, không kích hoạt",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] nhận [Breath] 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Số lần [Breath] của bản thân tăng 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Số lần [Sinking] tăng 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 955210,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Furioso [Crescendo]",
+          "desc": "[WideAreaRampage]\n<color=#ff6000><mark=#ff000040><b><u>Kĩ năng này không cho phép kích hoạt kĩ năng Phòng thủ của mục tiêu</u></b></mark></color>\nCó thể Kháng cự với kĩ năng này bất kể Tốc độ\n[WhenUse]\n- Nhận 6 [Breath], số lần [Breath] của bản thân tăng 6\n- Sức mạnh Kháng cự +10 (<color=#ff6000><mark=#ff000040><b><u>Mỗi 8 [KarmaOfIndexRien_2Phase] của bản thân sẽ giảm đi 1</u></b></mark></color>)\n[WhenUse] Nếu Tinh thần từ 0 trở lên, tạo ra 2 Man (Vọng)\n- Lượng sát thương tăng 40%, Sức mạnh Cuối cùng +5\n[WinDuel]\n- Khi kết thúc đòn tấn công, gây 4 [Laceration], 2 [Binding], 2 [Vulnerable] cho tất cả mục tiêu trúng đòn vào lượt kế tiếp\n[DefeatDuel]\n- Nhận 6 [AttackDmgDown], 9 [Paralysis]\n- Không bị Choáng bởi sát thương từ kĩ năng này, và hiệu ứng [Sinking] của mục tiêu không kích hoạt khi trúng đòn\n[EndSkill] Nếu đã tạo Man (Vọng), Tinh thần giảm 25\n[EndSkill] Lượt này kết thúc",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Sử dụng lại đồng xu này (Tối đa 7 lần)</u></b></mark></color>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây 1 [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 955211,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Furioso [Lacrimosa-Crescendo]",
+          "desc": "[WideAreaRampage]\n<color=#ff6000><mark=#ff000040><b><u>Kĩ năng này không cho phép kích hoạt kĩ năng Phòng thủ của mục tiêu</u></b></mark></color>\nCó thể Kháng cự với kĩ năng này bất kể Tốc độ\n[WhenUse]\n- Nhận 9 [Breath], số lần [Breath] của bản thân tăng 9\n- Sức mạnh Kháng cự +15 (Mỗi 8 [KarmaOfIndexRien_2Phase] của bản thân sẽ giảm đi 1)\n[WhenUse] Nếu Tinh thần từ 0 trở lên, tạo ra 3 Man (Vọng)\n- Lượng sát thương tăng 60%, Sức mạnh Cuối cùng +8\n[WinDuel]\n- Khi kết thúc đòn tấn công, gây 5 [Laceration], 3 [Binding], 3 [Vulnerable] cho tất cả mục tiêu trúng đòn vào lượt kế tiếp\n[DefeatDuel]\n- Nhận 8 [AttackDmgDown], 9 [Paralysis]\n- Mục tiêu không bị Choáng bởi sát thương từ kĩ năng này, và hiệu ứng [Sinking] của mục tiêu không kích hoạt khi trúng đòn\n[EndSkill] Nếu đã tạo Man (Vọng), Tinh thần giảm 30\n[EndSkill] Lượt này kết thúc",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Sử dụng lại đồng xu này (Tối đa 7 lần)</u></b></mark></color>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây 1 [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 955601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Bảo vệ tớ với",
+          "desc": "[CanDuelGuard]\nMỗi đồng minh tử trận trong trận chiến này, Sức mạnh Cuối cùng -4",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 955602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Chơi với tớ đi!",
+          "desc": "Mỗi đồng minh tử trận trong trận chiến này, Sức mạnh Cuối cùng +1, Lượng sát thương +5%\n[DefeatDuel] Sức mạnh Cơ bản giảm 7\n[DefeatDuel] Mục tiêu không bị Choáng bởi sát thương từ kĩ năng này",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [ResultReduction] vào lượt kế tiếp"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 955603,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ya-a!",
+          "desc": "Mỗi đồng minh tử trận trong trận chiến này, Sức mạnh Cuối cùng +1, Lượng sát thương +10%\n[DefeatDuel] Sức mạnh Cơ bản giảm 8\n[DefeatDuel] Mục tiêu không bị Choáng bởi sát thương từ kĩ năng này",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [ResultReduction] vào lượt kế tiếp"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 955604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Cậu có thích búp bê không?",
+          "desc": "Mỗi đồng minh tử trận trong trận chiến này, Sức mạnh Cuối cùng +1, Lượng sát thương +5%\n[DefeatDuel] Sức mạnh Cơ bản giảm 10\n[DefeatDuel] Mục tiêu không bị Choáng bởi sát thương từ kĩ năng này",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [ResultReduction] vào lượt kế tiếp"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 955605,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Tớ sẽ ra kéo, còn cậu thì sao?",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>Khi Tấn công một chiều hoặc Thua Kháng cự, Lượng sát thương +300%</u></b></mark></color>\n[StartDuel] <color=#ff6000><mark=#ff000040><b><u>Nếu mục tiêu có [ResultReduction], Sức mạnh Kháng cự +20</u></b></mark></color>\n[WinDuel] Không cho phép mục tiêu kích hoạt kĩ năng Phòng thủ\n[WinDuel] Kết thúc kĩ năng này và sử dụng \"Cậu thắng rồi\" lên mục tiêu",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây 5 [Laceration], Số lần [Laceration] tăng 4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 955606,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Cậu thắng rồi",
+          "desc": "[CantDuel]\nKĩ năng này áp dụng các hiệu ứng sau:\n- Không cho phép kích hoạt kĩ năng Phòng thủ\n- Đòn tấn công không trúng đích\n[WhenUse] Gây 2 [AttackUp] cho mục tiêu vào lượt kế tiếp\n[EndSkill] Hồi (Sức mạnh Cuối cùng của đồng xu này × 5) Máu cho 2 Tù nhân có HP hiện tại thấp nhất",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 955607,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Mãi mãi chơi cùng nhau nhé~!",
+          "desc": "Kĩ năng này không cho phép kích hoạt kĩ năng Phòng thủ, và có thể Kháng cự bất kể Tốc độ\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Giảm 90% Lượng sát thương lên mục tiêu đã chuẩn bị kĩ năng Phòng thủ</u></b></mark></color>\n<color=#ff6000><mark=#ff000040><b><u>[StartDuel] Sức mạnh Cuối cùng +20</u></b></mark></color>\n[WinDuel] Lượng sát thương +100%\n[DefeatDuel] Lượng sát thương giảm 90%, và mục tiêu không bị Choáng bởi sát thương từ kĩ năng này\n[DefeatDuel] Tất cả bộ phận rơi vào trạng thái Choáng vào lượt kế tiếp\n[EndSkill] Lượt này kết thúc",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây 6 [Laceration], Số lần [Laceration] tăng 5"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 955401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Tác phẩm sắp đặt số 3: \"Xương sườn giản đơn\"",
+          "desc": "[CantDuel]\nƯu tiên chỉ định kẻ địch có cấp độ cao nhất\nKĩ năng này không cho phép kích hoạt kĩ năng Phòng thủ\n[WhenUse] Mỗi 8 [Laceration] trên mục tiêu, Sức mạnh Đồng xu +1 (Tối đa 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây sát thương Tinh thần thay vì sát thương Máu"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Hồi 15 Tinh thần cho bản thân"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Khiến mục tiêu bị Choáng và nhận [LivingSpecimenTheRings] vào lượt kế tiếp</u></b></mark></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 955404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Giai điệu của Tibia - Thứ bị tháo dỡ sẽ tháo dỡ thứ chưa bị tháo dỡ",
+          "desc": "Trong lượt chuẩn bị kĩ năng này, <color=#ff6000><mark=#ff000040><b><u>khi nhận sát thương từ kĩ năng Tấn công</u></b></mark></color>, nhận 1 [PlusCoinValueDown], 1 [ResultReduction] (1 lần mỗi kĩ năng, tối đa 3 lần mỗi lượt)\nKhông bị Choáng cho đến khi sử dụng kĩ năng này\nMỗi khi hạ gục 1 mục tiêu bằng kĩ năng này, hồi 15 Tinh thần\n[StartBattle] Nhận 4 [Protection]\n[WhenUse] Mỗi tổng số 6 [Laceration] trên Mục tiêu chính và Mục tiêu phụ, Lượng sát thương +3% (Tối đa 30%)\n[DefeatDuel] Lượng sát thương giảm 90%, và mục tiêu không bị Choáng bởi sát thương từ kĩ năng này\n[EndSkill] [MineTheRings] biến mất",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây 5 sát thương Tinh thần"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Hồi 5 Tinh thần cho bản thân (1 lần mỗi kĩ năng)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây 1 [Vulnerable] vào lượt kế tiếp"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Nhận 1 [Protection] vào lượt kế tiếp (1 lần mỗi kĩ năng)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây 1 [AttackDmgDown] vào lượt kế tiếp"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Nhận 1 [AttackDmgUp] vào lượt kế tiếp (1 lần mỗi kĩ năng)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Số lần [Laceration] tăng 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 955001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Tuyệt mệnh",
+          "desc": "Kĩ năng này không cho phép kích hoạt kĩ năng Phòng thủ của mục tiêu\nTấn công mục tiêu có tỉ lệ HP hiện tại thấp nhất",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Với mỗi 1% HP đã mất của mục tiêu, gây 1 [PhantomIncision]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Tiêu thụ tất cả [PhantomIncision] trên mục tiêu, gây sát thương Máu bằng (Giá trị tiêu thụ)% HP tối đa"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 955505,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Giải phóng thực thể bị ức chế",
+          "desc": "Trong lượt chuẩn bị kĩ năng này, <color=#ff6000><mark=#ff000040><b><u>khi nhận sát thương từ kĩ năng Tấn công</u></b></mark></color>, nhận 1 [PlusCoinValueDown], 1 [ResultReduction] (1 lần mỗi kĩ năng, tối đa 3 lần mỗi lượt)\nKhông bị Choáng cho đến khi sử dụng kĩ năng này\nMỗi khi hạ gục 1 mục tiêu bằng kĩ năng này, hồi 15 Tinh thần\n[StartBattle] Nhận 4 [Protection]\n[WhenUse] Mỗi tổng số 6 [Laceration] trên Mục tiêu chính và Mục tiêu phụ, Lượng sát thương +3% (Tối đa 30%)\n[DefeatDuel] Lượng sát thương giảm 90%, và mục tiêu không bị Choáng bởi sát thương từ kĩ năng này\n[EndSkill] [BoneBladeTheRings] biến mất",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây 5 sát thương Tinh thần"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Hồi 5 Tinh thần cho bản thân (1 lần mỗi kĩ năng)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Lượt kế tiếp gây 1 [Vulnerable]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Lượt kế tiếp nhận 1 [Protection] (1 lần mỗi Kĩ năng)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Lượt kế tiếp gây 1 [AttackDmgDown]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Lượt kế tiếp nhận 1 [AttackDmgUp] (1 lần mỗi Kĩ năng)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Tăng 3 số lượng [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

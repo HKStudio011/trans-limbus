@@ -1,0 +1,82 @@
+{
+  "dataList": [
+    {
+      "id": 128901,
+      "name": "Phân Tán Chú Ý",
+      "desc": "Khi kết thúc lượt, nếu bản thân không nhận sát thương trong lượt này, nhận [Agility] 2 vào lượt tiếp theo\nNếu Tốc độ bản thân cao hơn mục tiêu, mỗi 1 chênh lệch Tốc độ tăng +5% sát thương kĩ năng (Tối đa 50%)"
+    },
+    {
+      "id": 128902,
+      "name": "Thanh Kiếm Được Tẩm",
+      "desc": "Khi tấn công một chiều trúng đích, gây [NervousImpairment] 1"
+    },
+    {
+      "id": 128903,
+      "name": "Thờ Phụng Biển Sâu",
+      "desc": "Khi bắt đầu lượt, mỗi đồng minh còn sống hồi 3 Tinh thần"
+    },
+    {
+      "id": 9102701,
+      "name": "Nỗi Khiếp Sợ Biển Sâu",
+      "desc": "Khi tấn công trúng đích đối tượng không có [Sinking], giá trị gây cường độ [Sinking] +1"
+    },
+    {
+      "id": 9102801,
+      "name": "Nỗi Khiếp Sợ Biển Sâu",
+      "desc": "Khi tấn công trúng đích đối tượng không có [Sinking], giá trị gây cường độ [Sinking] +2"
+    },
+    {
+      "id": 9102802,
+      "name": "Thiên Đường Vết Tích Biển",
+      "desc": "Nếu đang ở trên [NetherseaBrandUnit], Sức mạnh khớp tăng thêm 2 và giá trị [NervousImpairment] gây ra khi tấn công trúng đích tăng gấp đôi"
+    },
+    {
+      "id": 9102901,
+      "name": "Trạng Thái Chờ",
+      "desc": "Trong trạng thái [WaitingforCommandMod], không sử dụng kĩ năng tấn công cho đến khi nhận sát thương\n\nKhi nhận sát thương trong trạng thái [WaitingforCommandMod], tiến vào trạng thái [ParticipationMod] và sử dụng kĩ năng tấn công từ lượt tiếp theo"
+    },
+    {
+      "id": 9102902,
+      "name": "Tư Thế Sẵn Sàng Chiến Đấu",
+      "desc": "Khi bắt đầu lượt trong trạng thái [ParticipationMod],\n- Gây [NervousImpairment] 3 cho tất cả kẻ địch có ít hơn 15 [NervousImpairment]\n- Giá trị tối thiểu và tối đa của Tốc độ tăng 3\n- Với mỗi 10% Máu đã mất, nhận [AttackUp] 1 (Tối đa 8)\n\nKhi kết thúc lượt trong trạng thái [ParticipationMod], nhận sát thương cố định bằng 10% Máu tối đa",
+      "summary": ""
+    },
+    {
+      "id": 9102903,
+      "name": "Phản Xạ Sinh Tồn",
+      "desc": "Khi tiến hành khớp với mục tiêu hoặc tấn công một chiều trúng đích, gây [NervousImpairment] 2 lên mục tiêu\n- Nếu bản thân đang ở trên [NetherseaBrandUnit], gây thêm 1 [NervousImpairment]"
+    },
+    {
+      "id": 9102904,
+      "name": "Thiên Đường Vết Tích Biển",
+      "desc": "Nếu đang ở trên [NetherseaBrandUnit], Sức mạnh cuối cùng và Sức mạnh Coin mỗi thứ tăng thêm 2, và giá trị [NervousImpairment] gây ra khi tấn công trúng đích tăng gấp đôi"
+    },
+    {
+      "id": 9103001,
+      "name": "Nhận Thức Độ Sâu",
+      "desc": "Kháng tất cả thuộc tính -0.5"
+    },
+    {
+      "id": 9103002,
+      "name": "Bản Năng Khuếch Tán",
+      "desc": "Khi chết, tạo ra [NetherseaBrandUnit] ở phe mình vào lượt tiếp theo"
+    },
+    {
+      "id": 9103003,
+      "name": "Thiên Đường Vết Tích Biển",
+      "desc": "Nếu đang ở trên [NetherseaBrandUnit], Sức mạnh cuối cùng và Sức mạnh Coin mỗi thứ tăng thêm 1, và giá trị [NervousImpairment] gây ra khi tấn công trúng đích tăng gấp đôi"
+    },
+    {
+      "id": 9103101,
+      "name": "Thiên Đường Vết Tích Biển",
+      "desc": "Kĩ năng tấn công chỉ định mục tiêu gần nhất làm mục tiêu chính, và lần lượt chỉ định mục tiêu phụ từ phía trước\n\nNếu đang ở trên [NetherseaBrandUnit],\n- Chỉ định mục tiêu xa nhất làm mục tiêu chính, và Coin của tất cả kĩ năng đổi thành [SuperCoin]\n- Sức mạnh cuối cùng và Sức mạnh Coin mỗi thứ tăng thêm 2, và giá trị [NervousImpairment] gây ra khi tấn công trúng đích tăng gấp đôi",
+      "summary": "Nếu đang ở trên [NetherseaBrandUnit], kĩ năng được cường hóa"
+    },
+    {
+      "id": 9103201,
+      "name": "Dọn Dẹp Mảnh Vụn",
+      "desc": "Tốc độ cố định ở 1, được bố trí trong trạng thái vô hiệu hóa tại trận chiến có [NetherseaBrandUnit] xuất hiện\n\nKhi [NetherseaBrandUnit] xuất hiện trên chiến trường, bản thân được kích hoạt và chuyển sang trạng thái có thể nhận sát thương\n- Khi nhận sát thương và Máu còn 1, Bàn tay Thánh đồ sẽ khởi động và loại bỏ tất cả [NetherseaBrandUnit] trên chiến trường. Khi hiệu ứng này kích hoạt, Bàn tay Thánh đồ sẽ bị vô hiệu hóa trong lượt tiếp theo\n- Chỉ nhận sát thương từ kĩ năng chỉ định bản thân làm mục tiêu chính, không nhận các loại sát thương khác\n- Khi ở trạng thái vô hiệu hóa, loại bỏ tất cả các hiệu ứng đang sở hữu và hồi đầy Máu",
+      "summary": "Loại bỏ tất cả [NetherseaBrandUnit] trên chiến trường"
+    }
+  ]
+}

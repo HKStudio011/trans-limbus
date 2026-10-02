@@ -1,0 +1,266 @@
+﻿{
+  "dataList": [
+    {
+      "id": 146501,
+      "name": "Le Noir: Vải vóc",
+      "desc": "Khi bắt đầu màn chơi: Nhận 5 [NoirBindArmor]\nKhi bắt đầu lượt: Nhận Lá chắn bằng ([NoirBindArmor] Giá trị)% HP tối đa của đơn vị này",
+      "flavor": "Worsted của Le Noir ôm lấy cơ thể như một bộ giáp, tôn lên vóc dáng bên dưới một hình bóng vững chãi và cố định."
+    },
+    {
+      "id": 146502,
+      "name": "Hướng dẫn Khách hàng",
+      "desc": "Gây +10% sát thương và nhận +10% sát thương từ mục tiêu cho mỗi [NoirNoComply] trên mục tiêu\nGây +200% sát thương lên các mục tiêu có 3 [NoirNoComply]",
+      "flavor": "Le Noir phục vụ khách hàng quý giá của mình theo đúng quy trình quản lý của Trụ sở chính."
+    },
+    {
+      "id": 146503,
+      "name": "Bảo tồn",
+      "desc": "Mỗi 3 [ChargeNoir] Count tích lũy mà đơn vị này tiêu thụ trong Màn chơi hiện tại, nhận thêm 1 [NoirBindArmor]\nMỗi 10 [ChargeNoir] Count tích lũy mà đơn vị này tiêu thụ trong Màn chơi hiện tại, nhận thêm 1 [ChargeNoir]",
+      "flavor": "Lực lượng bị nén lại, tập hợp và cố định tại chỗ. Đôi khi, cần nhiều lực hơn để ngăn chặn sự thay đổi so với việc gây ra nó."
+    },
+    {
+      "id": 146603,
+      "name": "Hành động và Phản ứng Chuyển hóa",
+      "desc": "Khi lần đầu tham gia Màn chơi, nhận thêm 10 [ChargeRouge] Count\n\nMỗi 10 [ChargeRouge] Count tích lũy mà đơn vị này tiêu thụ trong Màn chơi hiện tại, nhận thêm 1 [ChargeRouge]"
+    },
+    {
+      "id": 149401,
+      "name": "Le Rouge: Áo khoác",
+      "desc": "Khi kết thúc lượt: Nhận hoặc mất tối đa 10 [ChargeRouge] Count\n\nBị đánh trúng, nếu kẻ tấn công đã dùng Kĩ năng có thể nhận [Charge], chuyển 1 [ChargeRouge] Count thành [Charge] Count cho kẻ tấn công (mỗi Kĩ năng của kẻ tấn công chỉ kích hoạt một lần)\nMỗi khi hiệu ứng trên kích hoạt, nhận thêm 1 [AttackUp]\nKhi bắt đầu lượt: Tiêu thụ tối đa 5 phần vượt quá 15 [ChargeRouge] Count trên bản thân để hồi phục ([ChargeRouge] Count đã tiêu thụ)% HP"
+    },
+    {
+      "id": 149402,
+      "name": "Kaki Sợi cơ",
+      "desc": "Kĩ năng gây +1% sát thương cho mỗi [ChargeRouge] Potency trên bản thân (tối đa 10%)\n\nKhi dùng Kĩ năng, nếu đơn vị này có dưới 50% HP, Kĩ năng đó nhận thêm +2 [ChargeRouge] Count\nKĩ năng gây +1% sát thương cho mỗi 1% HP còn thiếu trên bản thân"
+    },
+    {
+      "id": 149301,
+      "name": "Le Rouge: Áo khoác",
+      "desc": "Khi kết thúc lượt: Nhận hoặc mất tối đa 10 [ChargeRouge] Count\n\nBị đánh trúng, nếu kẻ tấn công đã dùng Kĩ năng có thể nhận [Charge], chuyển 1 [ChargeRouge] Count thành [Charge] Count cho kẻ tấn công (mỗi Kĩ năng của kẻ tấn công chỉ kích hoạt một lần)\nMỗi khi hiệu ứng trên kích hoạt, nhận thêm 1 [AttackUp]"
+    },
+    {
+      "id": 149302,
+      "name": "Tuyệt Vọng",
+      "desc": "Khi bắt đầu lượt: Với 3+ [ChargeRouge] Potency và 10+ [ChargeRouge] Count, dùng Kĩ năng \"Aggressive Marketing\"\n\nKĩ năng gây +1% sát thương cho mỗi 1% HP còn thiếu trên bản thân"
+    },
+    {
+      "id": 149303,
+      "name": "Tôi nghe thấy... Giọng nói của một vị thần khác...!",
+      "desc": "Khi bắt đầu màn chơi: Nhận [RisingMadnessRouge]\n- Khi bắt đầu lượt: Khi HP của đơn vị này giảm xuống dưới 50% lần đầu tiên trong Màn chơi hiện tại, chuyển đổi [RisingMadnessRouge] thành [RisingMadnessRouge2nd]\n\nThua Đối kháng, nhận thêm +2 [ChargeRouge] Count",
+      "flavor": "Họ nghe thấy Giọng nói ấm áp, nhưng không thể thay đổi thêm nữa. Với tâm trí bị mắc kẹt trong xác thịt, cái tôi bị chia rẽ khỏi chính nó và rơi vào điên loạn."
+    },
+    {
+      "id": 146601,
+      "name": "Boutique du Rouge: Lookbook Hàng mới về",
+      "desc": "[RougeThreeNormal] Pattern\n\nGỡ bỏ [RougeThreeCocoon] và [RougeThreeCocoonShield] trên bản thân, và nhận [RougeThreeNormal]\n<color=#ff6000><mark=#ff000040><b><u>Bị đánh trúng, nhận thêm 1 [RougeThreeNormal]\nKhi kết thúc lượt: Với 20 [RougeThreeNormal], chuyển sang [RougeThreeCocoon] pattern ở lượt tiếp theo</u></b></mark></color>\n\nTrong khi ở trạng thái [RougeThreeNormal]:\nNếu đơn vị này chịu sát thương khiến HP giảm xuống dưới 10, vô hiệu hóa sát thương đó, hồi phục 30% HP và kết thúc lượt. Sau đó, đơn vị này chuyển sang trạng thái [RougeThreeCocoon] và nhận thêm 2 [Enhancement] cho đến hết Màn chơi hiện tại (mỗi Màn chơi chỉ kích hoạt một lần)"
+    },
+    {
+      "id": 146602,
+      "name": "Vào Phòng thay đồ",
+      "desc": "[RougeThreeCocoon] Mẫu thức\n\nGỡ bỏ [RougeThreeNormal] trên bản thân. Nhận 1 [RougeThreeCocoon] và 500 [RougeThreeCocoonShield]\n\n<color=#ff6000><mark=#ff000040><b><u>Bị đánh trúng, nhận [RougeThreeCocoonHit]</u></b></mark></color>\nKhi ở 0 [RougeThreeCocoonShield] hoặc 3 [RougeThreeCocoon], mất 20 Tinh thần và kết thúc lượt. Sau đó, chuyển sang mẫu thức [RougeThreeNormal] vào lượt kế tiếp và nhận 1 [AttackDmgUp] cho đến hết màn chơi này (nếu đơn vị này bị Chấn động, phục hồi khỏi Chấn động)"
+    },
+    {
+      "id": 147401,
+      "name": "Sous Chef",
+      "desc": "<color=#ff6000><mark=#ff000040><b><u>Khi hạ gục mục tiêu bằng Kĩ năng Tấn công, nhận thêm 1 [SapsareeCooking]</u></b></mark></color>\n- Khi dùng Kĩ năng, nhận thêm 1 [SapsareeCooking] cho mỗi 3 hiệu ứng trạng thái trên mục tiêu đó (tối đa 2)",
+      "flavor": "Cô ta có thể mang danh hiệu ấy, nhưng nhà hàng ở tầng 5 sẽ cười nhạo cô ta ra khỏi bếp."
+    },
+    {
+      "id": 147402,
+      "name": "Tôi nấu được những món ăn ngon tuyệt hảo đấy, nghe chưa?",
+      "desc": "<color=#ff6000><mark=#ff000040><b><u>Nếu đơn vị này có [SapsareeCooking], dùng Kĩ năng \"Aah! I'm on lunch break, you hear?\" vào cuối lượt</u></b></mark></color>\n(không kích hoạt nếu tất cả các mục tiêu khác đã bị hạ gục, hoặc nếu đơn vị này đang Chấn động)\nKhi kết thúc lượt: Nếu đơn vị này không dùng được Kĩ năng \"Aah! I'm on lunch break, you hear?\", nhận thêm 1 [SapsareeHungry]",
+      "flavor": "Nhà hàng ở tầng 5 sẽ không coi thường điều này bằng từ \"nấu ăn\"."
+    },
+    {
+      "id": 147403,
+      "name": "Ambition Ẩm Thực",
+      "desc": "Dùng một Kĩ năng Tham lam mạnh mẽ mỗi 4 lượt\n(Nếu hiệu ứng này không thể kích hoạt do Chấn động, kích hoạt nó ở lượt tiếp theo)\n- Khi kết thúc lượt: Với 5+ [SapsareeYammi], dùng một Kĩ năng Tham lam mạnh mẽ ở lượt tiếp theo\n\nKhi kết thúc lượt: Với 3+ [SapsareeHungry], dùng một Kĩ năng Giận dữ mạnh mẽ ở lượt tiếp theo",
+      "flavor": "Có sự khác biệt rất lớn giữa nghệ thuật ẩm thực và việc làm ra thứ gì đó có thể ăn được. Còn về phần ngươi... thì, ngươi chắc chắn thuộc loại sau."
+    },
+    {
+      "id": 147404,
+      "name": "Ngon ơi là ngon, nghe chưa?",
+      "desc": "Khi bắt đầu lượt: Hồi phục 3 Tinh thần cho mỗi [SapsareeYammi] trên bản thân",
+      "flavor": "Họ có xứng đáng tham gia vào cuộc thảo luận về hương vị không? Họ sống trong Khu ẩm thực, trời ơi."
+    },
+    {
+      "id": 147405,
+      "name": "Bay lượn và bỏ chạy, nghe chưa?",
+      "desc": "Kết thúc màn chơi khi HP của Sous Chef giảm xuống dưới 30%",
+      "flavor": "Không muốn chết vì chuyện này."
+    },
+    {
+      "id": 147501,
+      "name": "Nguyên liệu nấu ăn đậm đà hương vị.",
+      "desc": "Nếu đơn vị này có 5 hoặc nhiều hiệu ứng trạng thái, nhận 3 Cấp độ Tấn công và 3 Cấp độ Phòng thủ",
+      "flavor": "Cái này thậm chí không phải là nguyên liệu nấu ăn."
+    },
+    {
+      "id": 147502,
+      "name": "Làm mềm bằng Enzyme",
+      "desc": "Bị đánh trúng, nhận 1 Giảm Cấp độ Phòng thủ và 1 Tăng Cấp độ Tấn công vào lượt sau (3 lần mỗi lượt)",
+      "flavor": "Cái ví da cứng cáp có thể được làm mềm, nhưng điều đó sẽ không thay đổi gì đáng kể."
+    },
+    {
+      "id": 147503,
+      "name": "Đói...",
+      "desc": "Khi kết thúc lượt: Nếu Sous Chef không dùng Kĩ năng \"Aah! Tôi đang nghỉ trưa, nghe chưa?\", nhận 1 [SapsareeHungry]",
+      "flavor": "Đó là một <b>ví tiền</b> được nuôi như gia súc để tiêu thụ. Và giống như bò, nó khao khát được cho ăn."
+    },
+    {
+      "id": 148101,
+      "name": "Vải vá chằng chịt",
+      "desc": "Khi bắt đầu màn chơi: Nhận 30 [UnresolvedFeelings]\nKhi HP còn 50% trở xuống, chuyển đổi Kĩ năng được dùng theo một mẫu nhất định thành Kĩ năng mạnh mẽ",
+      "flavor": "Những mảnh vải thừa, nếu không sẽ bị vứt bỏ, được khâu lại và xếp chồng lên nhau thành từng lớp. Mỗi mảnh đều vô giá trị khi ở riêng lẻ, nhưng tính chất vật liệu của chúng vẫn còn đó. Đó là lý do Quản lý Sàn thu gom chúng."
+    },
+    {
+      "id": 148102,
+      "name": "Kiểm tra Cảnh giác",
+      "desc": "Khi bắt đầu lượt: Kích hoạt các hiệu ứng bên dưới\n<color=#ff6000><mark=#ff000040><b><u>-Nếu 1 hoặc nhiều tội đồ có 10 [Wariness], nhận thêm một ô Tấn công và trang bị Kĩ năng \"Warning Announcement\" vào ô đó</u></b></mark></color>\n- Áp dụng 1 [Wariness] lên tất cả tội đồ không có [ReliefSense]\n- Nhận 1 [HorribleEat] cho mỗi Bản sắc có [HorribleTerror]\n\n<color=#ff6000><mark=#ff000040><b><u>Bị đánh trúng bởi Kĩ năng của tội đồ:</u></b></mark></color>\nKhi kết thúc Tấn công của Kĩ năng đó, <color=#ff6000><mark=#ff000040><b><u>áp dụng [Wariness]</u></b></mark></color> lên tội đồ đó bằng số lần đơn vị này bị đánh trúng bởi Kĩ năng đó",
+      "flavor": "Để nghe được Giọng nói, ta phải mở lòng trước khi mở tai."
+    },
+    {
+      "id": 148103,
+      "name": "Biết ơn",
+      "desc": "Khi bắt đầu lượt: <color=#ff6000><mark=#ff000040><b><u>-Nếu có từ 1 Tù nhân trở lên sở hữu 3 [ReliefSense], nhận một Khe Tấn công và trang bị Kĩ năng \"Cảm ơn... đã lắng nghe...\" vào Khe đó</u></b></mark></color>",
+      "flavor": "Quá nhiều khách hàng khiến những thông báo đi vào tai này rồi ra tai kia... Cảm ơn vì đã lắng nghe..."
+    },
+    {
+      "id": 148104,
+      "name": "Xóa bỏ sự Hoảng loạn",
+      "desc": "Gây +200% Sát thương lên các mục tiêu đang trong trạng thái Hoảng loạn (Panic)",
+      "flavor": "Khi tâm trí sụp đổ, thể xác sẽ nhanh chóng theo sau. Có những phương pháp khiến quá trình này diễn ra còn nhanh hơn nữa."
+    },
+    {
+      "id": 149201,
+      "name": "Le Noir: Vải vóc",
+      "desc": "Khi bắt đầu màn chơi: Nhận 5 [NoirBindArmor]\n\nKhi bắt đầu lượt: Nhận Lá chắn bằng (([NoirBindArmor] Giá trị / 2))% HP tối đa của đơn vị này\n\nKhi bị Chấn động, mất toàn bộ [NoirBindArmor]\nKhi bắt đầu lượt: Khi đơn vị này hồi phục khỏi Chấn động, nhận 5 [NoirBindArmor]",
+      "flavor": "Worsted của Le Noir ôm lấy cơ thể như một bộ giáp, tôn lên vóc dáng bên dưới một hình bóng vững chãi và cố định."
+    },
+    {
+      "id": 149202,
+      "name": "Bảo tồn",
+      "desc": "Nhận 1 [NoirBindArmor] cho mỗi 5 tổng số lần Sạc [ChargeNoir] mà đơn vị này tiêu thụ trong màn chơi này\nNhận 1 [ChargeNoir] cho mỗi 10 tổng số lần Sạc [ChargeNoir] mà đơn vị này tiêu thụ trong màn chơi này",
+      "flavor": "Lực lượng bị nén lại, tập hợp và cố định tại chỗ. Đôi khi, cần nhiều lực hơn để ngăn chặn sự thay đổi so với việc gây ra nó."
+    },
+    {
+      "id": 149203,
+      "name": "Đổi lấy sự Trơ trẽn",
+      "desc": "Khi bắt đầu lượt: Ở mức 10+ Số lần Sạc [ChargeNoir], sử dụng một Kĩ năng mạnh\n\nKhi dùng Kĩ năng, ở mức 15+ Số lần Sạc [ChargeNoir], tiêu thụ 3 Số lần Sạc [ChargeNoir] để gây +20% Sát thương",
+      "flavor": "Giọng nói mới này bảo tôi rằng nó sẽ giúp thay đổi tôi... để tôi sẽ không bao giờ thay đổi nữa."
+    },
+    {
+      "id": 149204,
+      "name": "Tôi nghe thấy... Giọng nói của một vị thần khác...!",
+      "desc": "Khi bắt đầu màn chơi: Nhận 2 [RisingMadnessNoir]\n- Khi bắt đầu lượt: Khi HP của đơn vị này giảm xuống dưới 50% lần đầu tiên trong màn chơi này, chuyển đổi [RisingMadnessNoir] thành [RisingMadnessNoir2nd]\n\nKhi thua Đối kháng, nhận +2 Số lần Sạc [ChargeNoir]",
+      "flavor": "Họ nghe thấy Giọng nói ấm áp, nhưng không thể thay đổi thêm nữa. Với tâm trí bị mắc kẹt trong xác thịt, cái tôi bị chia rẽ khỏi chính nó và rơi vào điên loạn."
+    },
+    {
+      "id": 148201,
+      "name": "Le Noir: Vải vóc",
+      "desc": "Khi bắt đầu màn chơi: Nhận 3 [NoirBindArmor]\n\nKhi bắt đầu lượt: Nhận Lá chắn bằng (([NoirBindArmor] Giá trị))% HP tối đa của đơn vị này (trừ khi đang bị Chấn động)",
+      "flavor": "Worsted của Le Noir ôm lấy cơ thể như một bộ giáp, tôn lên vóc dáng bên dưới một hình bóng vững chãi và cố định."
+    },
+    {
+      "id": 148202,
+      "name": "Bảo tồn",
+      "desc": "Nhận 1 [NoirBindArmor] cho mỗi 3 tổng số lần Sạc [ChargeNoir] mà đơn vị này tiêu thụ trong màn chơi này\nNhận 1 [ChargeNoir] cho mỗi 10 tổng số lần Sạc [ChargeNoir] mà đơn vị này tiêu thụ trong màn chơi này\n\nỞ mức 3+ Độ mạnh [ChargeNoir], Số lần Sạc tối đa [ChargeNoir] +5",
+      "flavor": "Lực lượng bị nén lại, tập hợp và cố định tại chỗ. Đôi khi, cần nhiều lực hơn để ngăn chặn sự thay đổi so với việc gây ra nó."
+    },
+    {
+      "id": 148203,
+      "name": "Giải phóng sự Nén chặt",
+      "desc": "Khi bắt đầu lượt: Ở mức 3+ Độ mạnh [ChargeNoir] và 10+ Số lần Sạc [ChargeNoir], sử dụng một Kĩ năng mạnh",
+      "flavor": "Lực lượng được nén lại tại một điểm để áp đặt sự trơ trẽn sẽ có ngày bùng nổ tự do."
+    },
+    {
+      "id": 148204,
+      "name": "Nghịch lý Bảo toàn - Chuyển đổi",
+      "desc": "Nếu đơn vị này có Lá chắn, nhận +1 Số lần Sạc [ChargeNoir] khi bị đánh trúng bởi Tù nhân (một lần mỗi Kĩ năng, 3 lần mỗi lượt)\n- Ở mức 3+/5+ Độ mạnh [ChargeNoir], nhận +2/+3 Số lần Sạc [ChargeNoir] thay vào đó\n\nKhi kết thúc lượt: Nếu đơn vị này có Lá chắn,\nNhận +1 Số lần Sạc [ChargeNoir] và 1 [DefenseUp] cho lượt tiếp theo cho mỗi Độ mạnh [ChargeNoir] trên bản thân (tối đa 3 mỗi loại)",
+      "flavor": "Chuyển đổi một lực lượng thay đổi bên ngoài thành một lực lượng tự bảo tồn. Tuy nhiên, đây là một thế giới mà dù có khước từ sự thay đổi hay tìm kiếm sự trơ trẽn mãnh liệt đến đâu, điều gì đó vẫn phải thay đổi."
+    },
+    {
+      "id": 148301,
+      "name": "Le Noir: Vải Gabardine",
+      "desc": "Khi bắt đầu màn chơi: Nhận 30 [NoirSuit]\n\nKhi bắt đầu lượt: Nhận Lá chắn bằng (([NoirSuit] / 5))% HP tối đa của đơn vị này (trừ khi đang bị Chấn động)",
+      "flavor": "Loại vải gabardine chủ lực của Le Noir, được may đo hướng đến sự trang trọng mà không đánh đổi độ vững chãi."
+    },
+    {
+      "id": 148302,
+      "name": "Bảo tồn",
+      "desc": "Nhận 1 Độ mạnh [ChargeNoir] cho mỗi 10 tổng số lần Sạc [ChargeNoir] mà đơn vị này tiêu thụ trong màn chơi này\n\nỞ mức 3+ Độ mạnh [ChargeNoir], Số lần Sạc tối đa [ChargeNoir] +5",
+      "flavor": "Lực lượng bị nén lại, tập hợp và cố định tại chỗ. Đôi khi, cần nhiều lực hơn để ngăn chặn sự thay đổi so với việc gây ra nó."
+    },
+    {
+      "id": 148303,
+      "name": "Phản hồi",
+      "desc": "Khi bắt đầu lượt: Nếu đơn vị này có [Realisation], kích hoạt \"Đá Một Chân\" thành \"Đá Một Chân - Couture Multiple\"\n\nKhi kích hoạt [VibrationExplosion], áp dụng +20% lên Ngưỡng Chấn động được tăng bởi [VibrationExplosion]\n- Ở 12+ Số lần Sạc [ChargeNoir], khi kích hoạt [VibrationExplosion], tiêu thụ 1 Số lần Sạc [ChargeNoir] trên bản thân và thay vào đó áp dụng +40% lên Ngưỡng Chấn động được tăng bởi [VibrationExplosion] (cho mỗi mục tiêu)\n\nKhi kích hoạt [VibrationExplosion], nếu mục tiêu không có Ngưỡng Chấn động, gây sát thương cố định bằng Giá trị [DefenseUp] trên bản thân (tối đa 20)",
+      "flavor": "Những Le Noir tin rằng họ có thể sụp đổ giá trị của đối thủ bằng cách khiến họ rung chuyển dữ dội—mục tiêu rung lắc càng mạnh, nó càng phải trải qua nhiều thay đổi từ khoảnh khắc này sang khoảnh khắc khác.\n\nCác kỹ thuật chiến đấu của Le Noir được xây dựng dựa trên niềm tin đó."
+    },
+    {
+      "id": 148304,
+      "name": "Nghịch lý Bảo toàn-Chuyển hóa",
+      "desc": "Nếu đơn vị này có Lá chắn, khi bị đánh trúng bởi Tù nhân,\n- Gây 1 [Vibration] lên Tù nhân (một lần mỗi Kĩ năng)\n- Nhận +1 Số lần Sạc [ChargeNoir] (một lần mỗi Kĩ năng, 3 lần mỗi lượt)\n  · Ở 3+/5+ Độ mạnh [ChargeNoir], nhận +2/+3 Số lần Sạc [ChargeNoir] thay vào đó\n\nKhi kết thúc lượt: Nếu đơn vị này có Lá chắn,\nNhận +1 Số lần Sạc [ChargeNoir] và 2 [DefenseUp] vào lượt sau cho mỗi Độ mạnh [ChargeNoir] trên bản thân (tối đa 3, tối đa 6 tương ứng)",
+      "flavor": "Càng cố gắng giữ nguyên bản chất, sự tồn tại càng dễ thay đổi. Tồn tại luôn là một hành trình, và nơi nào có chuyển động, nơi đó sẽ có biến đổi."
+    },
+    {
+      "id": 149601,
+      "name": "Buộc may bắt đầu",
+      "desc": "Khi bắt đầu lượt: Gây [NiddleExpected] cho 2 kẻ địch ngẫu nhiên"
+    },
+    {
+      "id": 149602,
+      "name": "Thủ công",
+      "desc": "Sức mạnh Cuối cùng của Kĩ năng +1 cho mỗi Needlekin trên sân",
+      "flavor": "Không có đường may tay nào tồn tại chỉ với một đôi bàn tay. Cần cả một đội ngũ thợ lành nghề mới thổi được sự sống vào nó."
+    },
+    {
+      "id": 149603,
+      "name": "Dòng Lũy Khiếu Nại Của Khách Hàng Không Ngừng, Không Thể Tránh",
+      "desc": "\"Tiếng Gầm Của Kén\" vang lên mỗi \"bội số của 3\" lượt\nKhi chuyển sang Giai đoạn 2, \"Tiếng Gầm Của Kén\" tiếp tục vang lên mỗi lượt\n\nĐơn vị này không thể bị Không thể hành động trong lượt \"Tiếng Gầm Của Kén\" vang lên\n\nNếu HP của đơn vị này vượt Ngưỡng Chấn động, nhận 2 [Vulnerable] ở lượt kế tiếp",
+      "flavor": "Những giọng nói rỉ ra từ kén.\n\n\"Sợi hai lớp dưới 80 count? Không phải vải!\"\n\"Sao lỗ cài nút không nằm ngang?\"\n\"Vải dệt kim jersey trên máy? Thật sao?\"\n\"Sao mép vải không đỏ?\"\n\"Cái này thậm chí chưa được xử lý chống co rút.\"\n\"Dưới Super 150 là vải rẻ tiền, rõ ràng rồi.\"\n\"Ngươi nghĩ thang đo Super chỉ là độ dày sợi thôi à? Đường kính và số sợi không phải cùng một thứ. Ngươi không biết sao?\"\n\"Ngươi đang hoàn thiện gấu bằng Union Special đúng không? Tất nhiên là vậy!\"\n\"Cái này là Rigid? ... Ồ. Mép vải?\"\n\"Khoan... mật độ mũi may trên inch quá đều. Ngươi dùng máy, phải không?\"\n\"Không phải may tay thì không phải bespoke.\" \n\"... Cái đó thậm chí còn không phải lỗ cài nút kiểu Milanese.\"\n\"Vải áo sơ mi cần trên 200 count.\"\n\"Chà, tôi thấy đường chỉ ở mặt ngoài kìa.\"\n\"Kìa, tôi thấy hai hàng chỉ ở đó. Loại bỏ.\" \n\"Xử lý mối nối này là sao?\"\n\"Ba lớp, tối thiểu.\""
+    },
+    {
+      "id": 148401,
+      "name": "Thần Đỏ Sinh Non",
+      "desc": "Khi kết thúc lượt: Không mất số lần [ChargeRouge]\n<color=#ff6000><mark=#ff000040><b><u>Trong Đối kháng, nhận +1 số lần [ChargeRouge] mỗi khi [Laceration] của mục tiêu được kích hoạt</u></b></mark></color>\nKhi tiêu diệt, nhận số lần [ChargeRouge] bằng ([Laceration] Hiệu lực + số lần [Laceration]) trên mục tiêu\nKhi bắt đầu lượt: Hồi 3 Tinh thần cho mỗi số lần [ChargeRouge] trên bản thân",
+      "flavor": "Một vị thần được tạo ra từ khát vọng, xuất hiện trên thế giới trước thời điểm của nó. Ngay cả sự ra đời của nó cũng không trọn vẹn."
+    },
+    {
+      "id": 148402,
+      "name": "Nhịp Đập Đỏ của Cơ Bắp",
+      "desc": "Khi bắt đầu lượt: <color=#ff6000><mark=#ff000040><b><u>Khi có 15+ số lần [ChargeRouge], nếu đơn vị này không có [Gourmandise], tiêu thụ toàn bộ số lần [ChargeRouge] trên bản thân và nhận [Gourmandise]</u></b></mark></color>\n\nNhận các hiệu ứng sau khi đơn vị này có [Gourmandise]:\n- Khi dùng Kĩ năng, nhận +3 số lần [Laceration]\n- Khi đánh trúng, nhận 1 [Laceration]\n- Khi bị đánh trúng vào một phần cơ thể, nhận 1 [BuffetSick]\n- Khi thua Đối kháng, nhận 3 [BuffetSick]\n- Khi tiêu diệt, nếu mục tiêu có 3+ [BloodyMucus], tạo \"Ripped Flesh of the Crimson God\" vào lượt sau\n- Khi kết thúc trận chiến: Hồi 3 Tinh thần cho mỗi kẻ địch có [BloodyMucus]\n\nKhi kết thúc lượt: <color=#ff6000><mark=#ff000040><b><u>Nếu đơn vị này có 30+ [BuffetSick]</u></b></mark></color> khi [Gourmandise] hết hạn, lượt sau, làm suy yếu các mẫu hành động của đơn vị này và Chấn động các đơn vị \"Ripped Flesh of the Crimson God\" trên sân\n\n※ Giá trị [BloodyMucus] có thể giảm bằng các cách sau: <color=#ff6000><mark=#ff000040><b>Sử dụng Kĩ năng E.G.O và Kĩ năng Phòng thủ</u></b></mark></color>\n※ \"Ripped Flesh of the Crimson God\" nhận [DeterioratingBody] bằng [BloodyMucus] trên mục tiêu bị tiêu diệt\n※ \"Ripped Flesh of the Crimson God\" có [DeterioratingBody] không thể bị tiêu diệt\n※ Tối đa 3 \"Ripped Flesh of the Crimson God\" có thể được tạo trên sân",
+      "flavor": "Các chi của nó quẫy đạp và co giật điên cuồng như thể chúng chưa bao giờ thuộc về nó."
+    },
+    {
+      "id": 148403,
+      "name": "Chênh Lệch",
+      "desc": "Gây +50% sát thương lên mục tiêu chậm hơn",
+      "flavor": "Mọi thứ trong tầm mắt di chuyển với tốc độ khác nhau."
+    },
+    {
+      "id": 148404,
+      "name": "Bản Năng Sinh Tồn",
+      "desc": "Khi bắt đầu lượt: Nhận 1 [SavePlacenta] và áp dụng 5 [Protection] lên phần Lifecord\nNếu đơn vị này có [Gourmandise], hoặc nếu nó bị Chấn động, hiệu ứng Bị động này không kích hoạt",
+      "flavor": "Ý thức không hề can dự vào những nỗ lực sinh tồn và tự vệ của cơ thể, điều mà nó thực hiện mà thậm chí còn không biết đâu là điểm bắt đầu hay kết thúc."
+    },
+    {
+      "id": 148405,
+      "name": "Dây Sinh Mệnh Đứt Đoạn",
+      "desc": "Khi kết thúc lượt: Nếu phần Lifecord bị phá hủy, phần Cơ thể nhận 3 [Vulnerable] vào lượt sau",
+      "flavor": "Những thứ mềm nhũn, lủng lẳng này gắn vào cơ thể tôi là gì? Chúng có phải là một phần của \"tôi\" không? Thật khó để nhận biết."
+    },
+    {
+      "id": 148406,
+      "name": "Cuồng nộ của một sự ra đời bạo liệt và chấn thương",
+      "desc": "Khi kết thúc lượt: Nếu phần Lifecord không bị phá hủy, và có dưới 50% HP Lõi, nhận [Gourmandise]\nSau đó, không mất giá trị [Gourmandise] cho đến khi phần Lifecord bị phá hủy",
+      "flavor": "Cơ thể bị xé toạc từ sự ấm áp sang lạnh giá; tâm trí, từ sự bình tĩnh mát mẻ sang hỗn loạn rực lửa. Không gì trong số đó là tự nguyện."
+    },
+    {
+      "id": 149701,
+      "name": "Nhịp Đập Vô Hồn",
+      "desc": "- Khi được tạo ra, nhận [DeterioratingBody] bằng giá trị [BloodyMucus] trên mục tiêu bị tiêu diệt để tạo ra đơn vị này\n\nBị tiêu diệt khi [DeterioratingBody] hết hạn",
+      "flavor": "Nó sống, nhưng không có não. Liệu tâm trí có thể nảy sinh từ cơ bắp đang đập không?"
+    }
+  ]
+}

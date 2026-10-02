@@ -1,0 +1,106 @@
+{
+  "dataList": [
+    {
+      "id": 9243,
+      "name": "Chiết xuất Thử nghiệm: Hồng Viêm Sát",
+      "desc": "Sát thương của Kỹ năng Tấn công gây ra Cường độ [Combustion]·Số lượng [Combustion] hoặc Thiêu đốt đặc biệt +10%\n- Nếu là kỹ năng tăng Số lượng [Combustion] của bản thân, nhận thêm Uy lực Va chạm +1\n- Với mỗi 2% Máu đã mất của bản thân, nhận thêm Sát thương +1% (Tối đa 15%)",
+      "simpleDesc": [
+        {
+          "abilityID": 9243,
+          "simpleDesc": "Sát thương của Kỹ năng Tấn công tăng, tăng Uy lực Va chạm khi thỏa mãn điều kiện"
+        }
+      ]
+    },
+    {
+      "id": 9244,
+      "name": "Chiết xuất Thử nghiệm: Đèn Lồng",
+      "desc": "Sát thương của Kỹ năng Tấn công gây ra Cường độ [Burst] hoặc Số lượng [Burst] +10%\n- Nếu Máu đã mất của bản thân từ 20% trở lên, nhận thêm Uy lực Va chạm +1\n- Với mỗi 1 tổng [Aggro] trên tất cả các ô kỹ năng của bản thân, Sát thương của Kỹ năng Tấn công +1% (Tối đa 15%)",
+      "simpleDesc": [
+        {
+          "abilityID": 9244,
+          "simpleDesc": "Sát thương của Kỹ năng Tấn công tăng, tăng Uy lực Va chạm khi thỏa mãn điều kiện"
+        }
+      ]
+    },
+    {
+      "id": 9245,
+      "name": "Chiết xuất Biến dị: AEDD",
+      "desc": "Nếu trong lượt này nhận vượt mức Số lượng [Charge] hoặc Sạc đặc biệt, lượt tiếp theo nhận 1 [AttackUp] với mỗi 2 giá trị vượt mức (Tối đa 2 mỗi lượt cho mỗi Bản sắc)\n- Nếu là Bản sắc sở hữu Kỹ năng Cơ bản nhận·tiêu hao Số lượng [Charge] hoặc Sạc đặc biệt, có thể nhận tối đa đến 6 cho mỗi Bản sắc\n- Nếu bản thân có [HighVoltageExoshell], nhận thêm 1 Cường độ [Charge] (1 lần mỗi trận chiến)",
+      "simpleDesc": [
+        {
+          "abilityID": 9245,
+          "simpleDesc": "Nhận [AttackUp] tỷ lệ với Số lượng [Charge] vượt mức, nhận Cường độ [Charge] khi thỏa mãn điều kiện"
+        }
+      ]
+    },
+    {
+      "id": 9246,
+      "name": "Thẻ Nhân viên ai đó đã đánh rơi",
+      "desc": "Nếu là Bản sắc thuộc Limbus Company, áp dụng hiệu ứng dưới đây\n- Khi bắt đầu lượt, nhận [ParryingResultUp] bằng (Số lượng Bản sắc thuộc Limbus Company tham gia chiến đấu ÷ 3) (Tối đa 2, làm tròn xuống)\n\nNếu là Bản sắc thuộc LCE, áp dụng hiệu ứng dưới đây\n- Sát thương gây ra tăng thêm (Số lượng Bản sắc trang bị E.G.O tham gia chiến đấu × 10)% (Tối đa 30%)\n- Khi đồng đội cùng phe tử trận, nhận mỗi loại Tài nguyên E.G.O 1 cái, và trong suốt trận chiến này, nhận 1 [PlusCoinValueUp], 1 [MinusCoinValueUp] khi bắt đầu lượt (Tối đa 2 lần cho mỗi Bản sắc trong mỗi trận chiến)",
+      "simpleDesc": [
+        {
+          "abilityID": 9246,
+          "simpleDesc": "Nhận [ParryingResultUp] tỷ lệ với số lượng Bản sắc thuộc Limbus Company tham gia chiến đấu"
+        },
+        {
+          "abilityID": 92461,
+          "simpleDesc": "Sát thương gây ra tăng tỷ lệ với số lượng Bản sắc trang bị E.G.O tham gia chiến đấu"
+        },
+        {
+          "abilityID": 92462,
+          "simpleDesc": "Nhận Tài nguyên E.G.O khi đồng đội cùng phe tử trận, và nhận [PlusCoinValueUp], [MinusCoinValueUp] khi bắt đầu lượt trong suốt trận chiến này"
+        }
+      ]
+    },
+    {
+      "id": 9248,
+      "name": "Đàn Hương Mai, Mắt kính, và Bức thư đã gửi đến",
+      "desc": "[Hiệu ứng dành riêng cho Bản sắc vị trí 1·2·3]\n\nKhi thắng Va chạm bằng Kỹ năng Tấn công gây ra Cường độ [Burst] hoặc Số lượng [Burst], gây 5 Cường độ [Burst], 3 Số lượng [Burst] cho mục tiêu (1 lần mỗi lượt cho mỗi Bản sắc)\n\nKhi tiến hành Va chạm với kẻ địch có Tốc độ thấp hơn bản thân, Uy lực Cuối cùng +1, Sát thương +25%.\n\nNếu thắng Va chạm với kẻ địch đang sở hữu buff [AttackUp], bản thân nhận 3 [AttackUp] trong lượt tiếp theo, và gây 3 [AttackDown] cho kẻ địch thua Va chạm (Tối đa 3 lần mỗi lượt cho mỗi Bản sắc)\n\nMỗi khi sử dụng Kỹ năng 1, Kỹ năng 2, Kỹ năng 3, hiệu ứng dưới đây sẽ kích hoạt (1 lần cho mỗi loại kỹ năng)\n- Nhân vật sử dụng kỹ năng tương ứng sẽ nhận 1 [Agility], 1 [SkillPowerUp] khi bắt đầu lượt trong suốt trận chiến này (Cộng dồn tối đa 3 lần)",
+      "simpleDesc": [
+        {
+          "abilityID": 9248,
+          "simpleDesc": "Khi thắng Va chạm, gây [Burst] cho mục tiêu"
+        },
+        {
+          "abilityID": 92481,
+          "simpleDesc": "Khi tiến hành Va chạm với kẻ địch có Tốc độ thấp hơn bản thân, tăng Uy lực Va chạm và Sát thương"
+        },
+        {
+          "abilityID": 92482,
+          "simpleDesc": "Khi thỏa mãn điều kiện, bản thân nhận [AttackUp] và gây [AttackDown] cho kẻ địch"
+        },
+        {
+          "abilityID": 92483,
+          "simpleDesc": "Khi thỏa mãn điều kiện, nhận [Agility], [SkillPowerUp] khi bắt đầu lượt"
+        }
+      ]
+    },
+    {
+      "id": 9249,
+      "name": "Cây Vĩ cầm Nhỏ nhắn Tuyệt vời",
+      "desc": "[Hiệu ứng dành riêng cho Bản sắc vị trí 5·6]\n\nHồi phục Máu cho bản thân bằng 10% Sát thương gây ra từ kỹ năng (Hồi phục tối đa 20 mỗi kỹ năng)\n\nKhi thắng Va chạm, nhận 1 [AttackUp], 1 [TakeHpHealIncrease] (2 lần mỗi lượt cho mỗi Bản sắc)\n\nKhi sử dụng kỹ năng, nhận 1 [AttackUp], 1 [TakeHpHealIncrease] (2 lần mỗi lượt cho mỗi Bản sắc)\n\nSát thương Kỹ năng Đập +10%\n\nSát thương gây ra bởi kỹ năng thắng Va chạm +(Số lần Va chạm × 6)% (Tối đa 30%)",
+      "simpleDesc": [
+        {
+          "abilityID": 9249,
+          "simpleDesc": "Hồi phục Máu cho bản thân tỷ lệ với Sát thương gây ra từ kỹ năng"
+        },
+        {
+          "abilityID": 92491,
+          "simpleDesc": "Nhận [AttackUp], [TakeHpHealIncrease] khi thắng Va chạm"
+        },
+        {
+          "abilityID": 92492,
+          "simpleDesc": "Nhận [AttackUp], [TakeHpHealIncrease] khi sử dụng kỹ năng"
+        },
+        {
+          "abilityID": 92493,
+          "simpleDesc": "Sát thương Kỹ năng Đập tăng"
+        },
+        {
+          "abilityID": 92494,
+          "simpleDesc": "Sát thương gây ra bởi kỹ năng thắng Va chạm tăng"
+        }
+      ]
+    }
+  ]
+}

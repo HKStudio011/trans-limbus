@@ -1,0 +1,67 @@
+{
+  "dataList": [
+    {
+      "id": 40000501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Xích Trảm",
+          "desc": "[WhenUse] Với mỗi 3 số lần [Burst] của mục tiêu, Uy lực cơ bản +1 (Tối đa 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [DefenseDown]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Số lần [Breath] tăng 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Số lần [Laceration] tăng 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [DefenseDown]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Số lần [Breath] tăng 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40000502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Túy Thụy Lãng Lãng",
+          "desc": "Có thể thay đổi mục tiêu tấn công thành bản thân bất kể tốc độ\n[WhenUse] Với mỗi 3 [Breath], Uy lực cơ bản +1 (Tối đa 3)\n[WhenUse] Với mỗi loại hiệu ứng bất lợi trên mục tiêu, Uy lực cơ bản +3 (Tối đa 9)\n[WhenUse] Nhận 5 [Agility] vào lượt tiếp theo (1 lần mỗi lượt)\n[WhenUse] Nhận 10 [Breath], số lần [Breath] tăng 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 7 [Laceration], số lần [Laceration] tăng 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [Paralysis] vào lượt tiếp theo"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Sát thương +300%"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

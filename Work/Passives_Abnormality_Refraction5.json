@@ -1,0 +1,124 @@
+{
+  "dataList": [
+    {
+      "id": 863001,
+      "name": "Cận chiến",
+      "desc": "Nếu tốc độ thấp hơn bản thân, sát thương gây ra +10% dựa trên chênh lệch tốc độ (Tối đa 30%)\nNếu tốc độ cao hơn bản thân, sát thương gây ra -10% dựa trên chênh lệch tốc độ (Tối đa 30%)"
+    },
+    {
+      "id": 863002,
+      "name": "Tiến bước",
+      "desc": "Với mỗi 5 [Breath] của bản thân, Tốc độ tối thiểu/tối đa tăng 1 (Tối đa 4)"
+    },
+    {
+      "id": 863003,
+      "name": "Triệu hồi bia bắn",
+      "desc": "Khi HP còn lại dưới 75% HP tối đa, thay đổi trạng thái\nKhi thay đổi trạng thái, triệu hồi Cựu Trưởng phòng G Corp và Tàn binh Trở nên Cường đại, đồng thời đánh dấu đối tượng có HP hiện tại thấp nhất.\n- Tốc độ tối thiểu/tối đa của bản thân trở thành 1.\n- Nhận 300 HP Khiên."
+    },
+    {
+      "id": 863004,
+      "name": "Chỉ định mục tiêu",
+      "desc": "Khi sử dụng Bắn chỉ định mục tiêu · Bắn điều chỉnh mục tiêu, ban [FellBulletMark] cho đối tượng có HP hiện tại thấp nhất trong số các đối tượng có tốc độ thấp nhất."
+    },
+    {
+      "id": 863201,
+      "name": "Cung cấp Oxy",
+      "desc": "Khi bắt đầu lượt đầu tiên Túi ngủ của Ngày đã qua xuất hiện, nhận 10 Cường độ [Breath], 10 Số lượng [Breath]\n\nVào cuối lượt, nếu Cường độ [Breath] hoặc Số lượng [Breath] dưới 10, tiêu hao 2% HP tối đa của bản thân từ HP Phần Đầu để nhận 5 Cường độ [Breath] và tăng 5 Số lượng [Breath] (Hiệu ứng này không gây phá hủy hay tử vong)"
+    },
+    {
+      "id": 863202,
+      "name": "Hít sâu",
+      "desc": "Tỷ lệ bạo kích kích hoạt bởi [Breath] tăng gấp 1.5 lần\n\nKhi kích hoạt bạo kích,\n- Nếu Cường độ [Breath] từ 15 trở lên, tiêu hao (Cường độ [Breath] hiện có ÷ 5) và sát thương bạo kích tăng thêm (Cường độ [Breath] đã tiêu hao × 4)%\n- Nếu Số lượng [Breath] từ 15 trở lên, tiêu hao (Số lượng [Breath] hiện có ÷ 5) và sát thương bạo kích tăng thêm (Số lượng [Breath] đã tiêu hao × 8)%"
+    },
+    {
+      "id": 863203,
+      "name": "Trạng thái bão hòa Oxy",
+      "desc": "Trong lượt sử dụng \"Cái đó là... của ta!\", Tốc độ của bản thân cố định ở mức 1, và khi bắt đầu lượt, ban 6 Cường độ [Breath], 6 Số lượng [Breath] cho toàn bộ đối tượng trên sân\n\nVào cuối lượt đó, tiêu hao toàn bộ phần Cường độ [Breath] và Số lượng [Breath] vượt quá 5, sau đó ban Cường độ [Breath] và Số lượng [Breath] tương ứng cho Phần Đầu vào đầu lượt tiếp theo."
+    },
+    {
+      "id": 863204,
+      "name": "Phá vỡ xương sườn",
+      "desc": "Phần thân được mở ra, ở lượt tiếp theo bộ phận Thân sẽ biến mất và bộ phận Con người sẽ lộ diện"
+    },
+    {
+      "id": 863205,
+      "name": "Tái tạo xương sườn",
+      "desc": "Vào cuối lượt, Cường độ [Breath] và Số lượng [Breath] mà bộ phận Con người đang sở hữu bị giảm một nửa\nỞ lượt tiếp theo, bộ phận Con người biến mất, bộ phận Thân được hồi phục và tái sinh."
+    },
+    {
+      "id": 863206,
+      "name": "Nỗi đau bị cắt đứt",
+      "desc": "Mỗi khi thua khớp đấu và nhận sát thương, giảm 1 Cường độ [Breath]\n\nMỗi khi nhận sát thương từ Đòn đánh một chiều, giảm 1 Số lượng [Breath]\n\nBất kể bạo kích hay nội tại có kích hoạt hay không, Cường độ [Breath] và Số lượng [Breath] không bao giờ thấp hơn 5."
+    },
+    {
+      "id": 863207,
+      "name": "Tiếng thét",
+      "desc": "Nếu HP của bản thân dưới 40%, sử dụng \"Cùng chịu đựng nỗi đau\" vào lượt tiếp theo"
+    },
+    {
+      "id": 863208,
+      "name": "Di chứng",
+      "desc": "Khi bộ phận Con người chết, Kháng Trảm kích·Đâm·Đập của bộ phận Thân và Đầu tăng +0.2 cho đến hết lượt tiếp theo (1 lần mỗi trận)"
+    },
+    {
+      "id": 863301,
+      "name": "Cánh hoa đắm chìm",
+      "desc": "Vào cuối lượt, nếu [BloodDinner] từ 20 trở lên, tiêu hao tối đa 50 và hồi phục HP cho bản thân và Phần Đầu dựa trên lượng [BloodDinner] đã tiêu hao\n- Không kích hoạt nếu bộ phận Đầu đang bị Choáng hoặc bị phá hủy"
+    },
+    {
+      "id": 863302,
+      "name": "Một giọt dưỡng chất",
+      "desc": "Khi kết thúc đòn tấn công, hồi phục HP cho bản thân/bộ phận bằng một nửa sát thương đã gây ra từ Kĩ năng tấn công của bản thân\n- Không thể bị phá hủy nếu bộ phận Đầu đang bị Choáng hoặc bị phá hủy"
+    },
+    {
+      "id": 863303,
+      "name": "Khao khát",
+      "desc": "Vào cuối lượt, nếu bản thân đã hồi phục HP trong lượt này, với mỗi 10 HP đã hồi phục, nhận 1 [AttackUp] và 1 [DefenseDown] vào lượt tiếp theo (Tối đa 10)"
+    },
+    {
+      "id": 863304,
+      "name": "Hương máu tàn khốc",
+      "desc": "Nếu [BloodDinner] hiện tại từ 100 trở lên, sử dụng Kĩ năng đặc biệt\nVào cuối lượt, nếu [BloodDinner_Accumulation] của bản thân từ 500 trở lên, hoặc HP hiện tại của bản thân dưới 60% HP tối đa, thay đổi trạng thái."
+    },
+    {
+      "id": 863305,
+      "name": "Tội lỗi bị khúc xạ",
+      "desc": "Cường độ của [Combustion], [Laceration], [Vibration], [Burst], [Sinking] được cộng dồn lên đến 50 (Bao gồm Bỏng, Xuất huyết, Chấn động, Vết rách, Trầm luân đặc biệt)"
+    },
+    {
+      "id": 863306,
+      "name": "Gai nhọn",
+      "desc": "Khi nhận sát thương từ kĩ năng vào bộ phận Thân, tăng 1 Số lượng [Laceration] cho kẻ tấn công (1 lần mỗi lượt với mỗi Bản thể)"
+    },
+    {
+      "id": 863307,
+      "name": "Cơn khát vô tận",
+      "desc": "Khi bắt đầu lượt, với mỗi 100 [BloodDinner_Accumulation] của bản thân, nhận 1 [DefenseDown] (Tối đa 10)\nKhi bắt đầu lượt, với mỗi 200 [BloodDinner_Accumulation] của bản thân, nhận 1 [TakeHpHealIncrease] (Tối đa 5)"
+    },
+    {
+      "id": 863308,
+      "name": "Khao khát vô tận",
+      "desc": "Mỗi khi đến lượt là bội số của 3, một sự kiện lựa chọn sẽ xảy ra."
+    },
+    {
+      "id": 863309,
+      "name": "Tăng chỉ số khúc xạ",
+      "desc": "Sau khi nhân vật này xuất hiện được 9 lượt, kể từ lượt tiếp theo, mỗi lượt trôi qua kể từ lượt thứ 10 trở đi, nhận 1 [AttackUp] (Tối đa 10)"
+    },
+    {
+      "id": 863101,
+      "name": "Bắn hạ chỉ định",
+      "desc": "Khi bị tiêu diệt bởi Xạ thủ Đạn ác, ban 1 [Agility], 1 [Enhancement], và 2 [AttackDmgUp] cho Xạ thủ Đạn ác vào lượt tiếp theo"
+    },
+    {
+      "id": 863102,
+      "name": "Tiên thủ tất thắng",
+      "desc": "Khi bị tiêu diệt bởi Tù nhân, cung cấp 3 tài nguyên E.G.O thuộc hệ của đòn kết liễu"
+    },
+    {
+      "id": 863103,
+      "name": "Không phải ta",
+      "desc": "Khi bắt đầu trận chiến, nếu bản thân không có dấu ấn, nhận 300 HP Khiên."
+    }
+  ]
+}

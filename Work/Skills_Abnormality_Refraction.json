@@ -1,0 +1,827 @@
+{
+    "dataList": [
+        {
+            "id": 851001,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Khóc nức nở",
+                    "desc": "[WhenUse] Giảm 15 Tinh thần của mục tiêu",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackHead] Gây 5 Trầm luân, 5 Số lượng Trầm luân"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 851002,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Khóc sướt mướt",
+                    "desc": "[StartDuel] Tăng 5 Tinh thần của mục tiêu",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[AlwaysUse] Gây một nửa sát thương thành sát thương Tinh thần"
+                                },
+                                {
+                                    "desc": "[AlwaysUse] Sát thương trở thành 0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 851003,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Nhãn cầu tan chảy",
+                    "desc": "[WhenUse] Giảm 5 Tinh thần của mục tiêu\nKhi tấn công mục tiêu có Tinh thần dưới 0, Sát thương +10%",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackHead] Gây thêm sát thương dựa trên Trầm luân"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackHead] Gây thêm sát thương Tinh thần dựa trên Trầm luân"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 851004,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "U uất ùa về",
+                    "desc": "[WhenUse] Giảm 5 Tinh thần của mục tiêu\nƯu tiên tấn công mục tiêu có nhiều Trầm luân",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Gây 3 Số lượng Trầm luân"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackHead] Gây thêm sát thương dựa trên Trầm luân"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackHead] Gây thêm sát thương Tinh thần dựa trên Trầm luân"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 851005,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Trọng lượng nhãn cầu",
+                    "desc": "[DefeatDuel] Hủy bỏ tất cả Kĩ năng\n[DefeatDuel] Nhận 3 Mong manh\nKhi tấn công mục tiêu có Tinh thần dưới 0, Sát thương +10%",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackHead] Nhân đôi Trầm luân và Số lượng Trầm luân mục tiêu đang có"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 851006,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Nhãn cầu đã tan chảy",
+                    "desc": "[WhenUse] Giảm 5 Tinh thần của mục tiêu\nKhi tấn công mục tiêu có Tinh thần dưới 0, Sát thương +10%",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackHead] Gây thêm sát thương Tinh thần dựa trên Trầm luân"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 851007,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Nhãn cầu đã tan chảy",
+                    "desc": "[WhenUse] Giảm 5 Tinh thần của mục tiêu\nKhi tấn công mục tiêu có Tinh thần dưới 0, Sát thương +10%",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackHead] Gây thêm sát thương dựa trên Trầm luân"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 851008,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Hự",
+                    "desc": "[StartBattle] Nhận 2 Bảo vệ",
+                    "coinlist": []
+                }
+            ]
+        },
+        {
+            "id": 851901,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Chuẩn bị chiến dịch tham quan thị trấn",
+                    "desc": "[WhenUse] Tăng 4 Số lượng Sạc",
+                    "coinlist": [
+                        {}
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 851902,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Lời chào mừng tham quan",
+                    "desc": "",
+                    "coinlist": [
+                        {},
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackHead] Gây 1 Suy yếu đồng xu cộng vào ở lượt kế tiếp"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 851903,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Hãy hợp tác nào!",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Gây 3 Tê liệt ở lượt kế tiếp"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 851904,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Xử lý đơn chuyển đến",
+                    "desc": "[WhenUse] Tiêu thụ toàn bộ Số lượng Sạc",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Gây Trói buộc cho mục tiêu"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 851905,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Từ nay mong được giúp đỡ nhé, hàng xóm",
+                    "desc": "[CantDuel]\nTấn công mục tiêu đang bị tóm",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Gây 10 Bỏng"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 851906,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Phát hiện hệ thống bất thường",
+                    "desc": "Bị trạng thái Loạng choạng vào lượt kế tiếp",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Tiêu thụ 2 Số lượng Sạc, gây 5 Bỏng"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Tiêu thụ 2 Số lượng Sạc, gây 5 Bỏng"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 851907,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Đang trong quá trình xử lý điện toán",
+                    "desc": "[WhenUse] Nhận 5 Bảo vệ",
+                    "coinlist": []
+                }
+            ]
+        },
+        {
+            "id": 851908,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Đang khởi động lại...",
+                    "desc": "",
+                    "coinlist": []
+                }
+            ]
+        },
+        {
+            "id": 851909,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Xử lý đơn chuyển đến mới",
+                    "desc": "[CantDuel]\n[CantChangeTarget]\nTấn công mục tiêu có HP cao nhất\n[WhenUse] Tiêu thụ toàn bộ Sạc",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Gây Trói buộc cho mục tiêu"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 852101,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Cấm vào",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackHead] Gây 1 Vết rách (Rupture)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 852102,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Trấn áp",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackHead] Gây 3 Vết rách (Rupture)"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Số lần Vết rách (Rupture) tăng thêm 3"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 852103,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Ngăn chặn ra vào",
+                    "desc": "[DefeatDuel] Hồi 10 HP",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Số lần Vết rách (Rupture) tăng thêm 2"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackHead] Gây sát thương bằng với Sức mạnh (Power) Vết rách (Rupture)\nTiêu hao toàn bộ Vết rách (Rupture) của mục tiêu"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 852301,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Phát hiện kẻ khả nghi",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackHead] Gây 3 Vết rách (Rupture)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 852302,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Chế ngự",
+                    "desc": "",
+                    "coinlist": [
+                        {},
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackHead] Gây 3 Vết rách (Rupture)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 852303,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Ngăn chặn kẻ khả nghi",
+                    "desc": "Ưu tiên tấn công mục tiêu có HP cao nhất",
+                    "coinlist": [
+                        {},
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "Nếu đồng xu 1 là mặt Ngửa, sát thương +10%"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "Nếu đồng xu 2 là mặt Ngửa, sát thương +10%"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "Nếu đồng xu 2, 3 là mặt Ngửa, sát thương +30%"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 852701,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Bố thí",
+                    "desc": "[WhenUse] Gây 2 Bảo hộ cho 1 đồng minh khác",
+                    "coinlist": [
+                        {},
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Gây 3 Giảm sát thương vào lượt tiếp theo"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 852702,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Thuyết pháp",
+                    "desc": "[WhenUse] Gây 2 Tăng Sức mạnh (Power) Tấn công cho 1 đồng minh khác",
+                    "coinlist": [
+                        {},
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Lượt tiếp theo, gây 2 Tăng sát thương cho 1 đồng minh ngẫu nhiên"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 852703,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Ma-ha Tu-lợi",
+                    "desc": "[WhenUse] Nhận 3 Bảo hộ vào lượt tiếp theo",
+                    "coinlist": []
+                }
+            ]
+        },
+        {
+            "id": 852704,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Ta-bà-ha",
+                    "desc": "[WhenUse] Nhận 3 Tăng sát thương vào lượt tiếp theo",
+                    "coinlist": []
+                }
+            ]
+        },
+        {
+            "id": 852705,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Bát-nhã Ba-la-mật",
+                    "desc": "[CantIdentify] Sử dụng lên mục tiêu có Nghiệp báo cao nhất\nSát thương tăng tỉ lệ thuận với Nghiệp báo của mục tiêu (Mỗi Nghiệp báo +2%)\nNếu mục tiêu không có Nghiệp báo, sát thương -50%",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Nếu mục tiêu có Nghiệp báo, gây 50 Nghiệp báo"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 852706,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Thiền định",
+                    "desc": "[WinDuel] Giảm một nửa các hiệu ứng bất lợi đang nhận",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Gây 2 Giảm Sức mạnh (Power) Tấn công vào lượt tiếp theo"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 852707,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Cưỡng chế Cúng dường",
+                    "desc": "[DefeatDuel] Gây 20 Nghiệp báo cho 1 đồng minh ngẫu nhiên khác",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Gây 20 Nghiệp báo"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 852708,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Cảnh giác Sách lệ",
+                    "desc": "[DefeatDuel] Gây 20 Nghiệp báo cho 1 đồng minh ngẫu nhiên khác",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Gây 10 Nghiệp báo"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Gây 10 Nghiệp báo"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 852709,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Mạn-đà-la",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Loại bỏ 3 Tài nguyên E.G.O hệ ngẫu nhiên"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Loại bỏ 3 Tài nguyên E.G.O hệ ngẫu nhiên"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 852710,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Cảnh giác Sách lệ",
+                    "desc": "[CantDuel]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Gây 1 Tuần hoàn"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttackHead] Gây 3 Tê liệt (Paralysis) vào lượt tiếp theo"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "Gây 3 Mong manh (Fragile) vào lượt tiếp theo"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 852711,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Bồ-đề Tát-bà-ha",
+                    "desc": "[WhenUse] Nhận 10 Tăng sát thương\nƯu tiên tấn công mục tiêu đang trong trạng thái Choáng váng",
+                    "coinlist": []
+                }
+            ]
+        },
+        {
+            "id": 852801,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Đâm xuyên",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackHead] Lượt tiếp theo, gây Giảm Sát thương 1"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 852802,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "…Sẽ rửa sạch",
+                    "desc": "",
+                    "coinlist": [
+                        {},
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackHead] Lượt tiếp theo, gây Trói buộc 1"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 852803,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Kết Án Dị Giáo",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Lượt tiếp theo, gây Tê liệt 3"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 852901,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Thật nhanh chóng~",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackHead] Lượt tiếp theo, gây Suy yếu Đồng xu Cộng 1"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 852902,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Tiệc Piñata~!",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Lượt tiếp theo, gây Suy yếu Đồng xu Cộng 2"
+                                }
+                            ]
+                        },
+                        {},
+                        {},
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Lượt tiếp theo, gây Mong manh 1"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 853001,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Ba Động Xác Thịt",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackHead] Lượt tiếp theo, gây Tê liệt 2"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 853002,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Thâu Tóm Tinh Thần",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Lượt tiếp theo, gây Giảm Sát thương 1"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

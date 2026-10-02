@@ -1,0 +1,314 @@
+﻿{
+  "dataList": [
+    {
+      "id": 148511,
+      "name": "... Không thể nào!",
+      "desc": "Khi bắt đầu màn chơi: Meursault nhận [MeursaultBuffWarderFirstPhase]\n\nKhi bắt đầu lượt: Tù nhân ngẫu nhiên nhận [GoldenHideWarderFirstPhase] và [GoldenFabricWarderFirstPhase]",
+      "flavor": "\"Điều tượng trưng cho sự tĩnh lặng và thay đổi... chỉ dành riêng cho Chúa...!!\"",
+      "summary": "Meursault nhận [MeursaultBuffWarderFirstPhase]\nTù nhân ngẫu nhiên nhận [GoldenHideWarderFirstPhase] và [GoldenFabricWarderFirstPhase] mỗi lượt"
+    },
+    {
+      "id": 148501,
+      "name": "Vicarius Dei",
+      "desc": "Áp dụng hiệu ứng [PanicChangeLock]\nKhi kết thúc lượt: Nếu đơn vị này đang Hoảng loạn, đổi Tinh thần thành 30\n\nKhi bắt đầu màn chơi:\n- Bắt đầu với 50% HP\n- Nhận 2 [UnstableConnection]\n\nVào Lượt 3, sử dụng một Kĩ năng mạnh\n- Trong lượt đó, khi bị một Tù nhân đánh trúng, nhận 1 [ParryingResultDown] (mỗi Tù nhân một lần)\n\nKhi HP của đơn vị này giảm xuống 1 hoặc thấp hơn, hoặc khi kết thúc lượt 3, chuyển sang Giai đoạn mới",
+      "flavor": "Người đại diện của Thần Obsidian, kẻ giáng hình phạt lên những kẻ lầm đường lạc lối.",
+      "summary": "Sử dụng một Kĩ năng mạnh vào Lượt 3\nChuyển giai đoạn khi kết thúc Lượt 3"
+    },
+    {
+      "id": 148502,
+      "name": "Những ngọn nến Thánh của Sự Trừng Phạt",
+      "desc": "Khi bắt đầu lượt: <color=#ff6000><mark=#ff000040><b><u>Triệu hồi 2 Nến Trừng Phạt</u></b></mark></color>\n- Triệu hồi <color=#ff6000><mark=#ff000040><b><u>+1 Nến Trừng Phạt nữa</u></b></mark></color> vào mỗi lượt bắt đầu với mỗi lượt trôi qua\n- Tối đa 4 Nến Trừng Phạt có thể tồn tại đồng thời trên sân\n\nMỗi khi một Nến Trừng Phạt bị phá hủy, Người Giám Hộ nhận 1 [Vulnerable]\n\nKhi dùng Kĩ năng:\n- <color=#ff6000><mark=#ff000040><b><u>Nếu mục tiêu chính có 1 Tốc độ, chuyển tất cả Đồng xu trên Kĩ năng của đơn vị này thành [SuperCoin], nhận Sức mạnh Cuối cùng +2, và gây +100% sát thương</u></b></mark></color>\n- Nếu không có Nến Trừng Phạt nào trên sân, Sức mạnh Đối kháng -1",
+      "flavor": "Ngọn nến trừng phạt những kẻ tội lỗi dám chống lại số phận được định đoạt bởi cửa hàng bách hóa.",
+      "summary": "Triệu hồi Nến Báo Thù mỗi lượt, nhận [Vulnerable] khi Nến bị phá hủy\nNếu mục tiêu chính có 1 Tốc độ, cường hóa Kĩ năng"
+    },
+    {
+      "id": 148503,
+      "name": "Nước mắt sẽ thấm đẫm tấm vải",
+      "desc": "<color=#ff6000><mark=#ff000040><b><u>Đơn vị này không mất Tinh thần từ hiệu ứng [Sinking]</u></b></mark></color>; thay vào đó, khi hiệu ứng [Sinking] kích hoạt, đơn vị này nhận sát thương U Ám bằng với giá trị Lún chìm\n\nBị đánh trúng bởi một tội đồ, tội đồ đó nhận +1 số lần [Sinking] (tối đa 2 lần mỗi lượt mỗi tội đồ)",
+      "summary": "Nhận sát thương Lửa u ám từ [Sinking] thay vì mất Tinh thần\nKhi bị đánh trúng, kẻ tấn công nhận Giá trị [Sinking]"
+    },
+    {
+      "id": 148504,
+      "name": "Bảo tồn Hoàn hảo",
+      "desc": "Nhận 1 giá trị [ChargeNoir] cho mỗi 10 số lần [ChargeNoir] tích lũy mà đơn vị này tiêu thụ trong màn chơi này\n\nKhi bắt đầu lượt: Nếu có ít hơn 3 giá trị [ChargeNoir] và ít hơn 10 số lần [ChargeNoir], nhận +5 số lần [ChargeNoir]\n\nHiệu ứng \"khi kết thúc lượt: Mất 1 số lần\" trên [ChargeNoir] không kích hoạt",
+      "flavor": "Trong Hệ thống Sisyphe, chính sự bảo tồn được bảo tồn hoàn hảo.",
+      "summary": "Nhận [ChargeNoir] Giá trị khi tiêu thụ [ChargeNoir] Giá trị tích lũy\n[ChargeNoir] Giá trị không bị mất khi kết thúc lượt"
+    },
+    {
+      "id": 152001,
+      "name": "Xiềng Xích Trừng Phạt",
+      "desc": "Khi kết thúc lượt: Gây <color=#ff6000><mark=#ff000040><b><u>2 [Binding]</u></b></mark></color> vào lượt sau lên tất cả tội đồ\n- Hiệu ứng này không kích hoạt sau khi đổi Giai đoạn",
+      "flavor": "Hãy để kẻ tội lỗi bị trói buộc.",
+      "summary": "Gây [Binding] lên tất cả tội đồ vào lượt sau"
+    },
+    {
+      "id": 152002,
+      "name": "Tội Lỗi Cháy Rực",
+      "desc": "Khi đơn vị này bị nhắm làm mục tiêu phụ bởi Kĩ năng của tội đồ, nhận -50% sát thương từ Kĩ năng đó\n\nKhi bị đánh bại:\n- Cung cấp 1 tài nguyên E.G.O cho tất cả các hệ\n- Tội đồ cuối cùng tấn công đơn vị này hồi 5 Tinh thần\n  · Nếu tội đồ đó có [Binding], hồi 10 Tinh thần thay vào đó\n  · Nếu không thể xác định \"tội đồ cuối cùng\" tấn công đơn vị này, các hiệu ứng trên sẽ kích hoạt cho tội đồ có Tinh thần thấp nhất",
+      "summary": "Nhận ít sát thương hơn khi bị nhắm làm mục tiêu phụ\nKhi chết, cung cấp tài nguyên E.G.O; hồi Tinh thần cho kẻ tấn công"
+    },
+    {
+      "id": 148611,
+      "name": "... Không thể nào!",
+      "desc": "Khi bắt đầu lượt: Tội đồ ngẫu nhiên nhận [GoldenHideWarderSecondPhase] và [GoldenFabricWarderSecondPhase]",
+      "flavor": "\"Điều tượng trưng cho sự tĩnh lặng và thay đổi... chỉ dành riêng cho Chúa...!!\"",
+      "summary": "Tội đồ ngẫu nhiên nhận [GoldenHideWarderSecondPhase] và [GoldenFabricWarderSecondPhase] mỗi lượt"
+    },
+    {
+      "id": 148605,
+      "name": "Công Cụ Thú Tội",
+      "desc": "Khi Quản ngục gây [ConfessionSecondPhase] lên tội đồ bằng hiệu ứng Kĩ năng của nó, áp dụng các hiệu ứng sau:\n- Các hiệu ứng sau đây được <color=#ff6000><mark=#ff000040><b><u>gọi chung là [ConfessionSecondPhase]:</u></b></mark></color>\n  · [RestrainingNailSecondPhase]\n  · [ExecutionNailSecondPhase]\n  · [CeremonialNail]\n  · [MarkingNail]\n- Khi Quản ngục gây Đinh[TabExplain] hoặc Đinh Búa lên tội đồ, <color=#ff6000><mark=#ff000040><b><u>chỉ hiệu ứng được gây cuối cùng còn lại</u></b></mark></color>; tuy nhiên, giá trị giữa Đinh[TabExplain] và Đinh Búa cộng dồn\n- <color=#ff6000><mark=#ff000040><b><u>Đinh Búa không chuyển thành Đinh[TabExplain]</u></b></mark></color>\n\nKhi đánh trúng tội đồ, <color=#ff6000><mark=#ff000040><b><u>gây thêm +3% sát thương cho mỗi [ConfessionSecondPhase] trên mục tiêu</u></b></mark></color> (tối đa 27%, riêng biệt cho từng mục tiêu)\n\nKhi bắt đầu lượt: <color=#ff6000><mark=#ff000040><b><u>Nếu Quản ngục có 50% HP trở xuống</u></b></mark></color>, tất cả Kĩ năng gây <color=#ff6000><mark=#ff000040><b><u>+1 [ConfessionSecondPhase] nữa</u></b></mark></color>",
+      "summary": "Gây thêm sát thương dựa trên [ConfessionSecondPhase] trên mục tiêu\nỞ 50%- HP, gây thêm [ConfessionSecondPhase]"
+    },
+    {
+      "id": 148601,
+      "name": "Theo Quy Luật Bảo Tồn",
+      "desc": "Áp dụng hiệu ứng [PanicChangeLock]\nKhi kết thúc lượt: Nếu đơn vị này đang Hoảng loạn, đổi Tinh thần thành 30\n\nLượt đầu tiên sau khi vào trận:\n- Đổi Tinh thần thành 45\n- Nhận 0 [EncompassingVoiceSecondPhase] và 1 [LeaderVoiceSecondPhase]\n- Giá trị và số lần [ChargeNoir] được giữ nguyên từ Giai đoạn trước",
+      "summary": "[PanicChangeLock]\n[ChargeNoir] Hiệu lực và Giá trị được giữ nguyên từ Giai đoạn trước"
+    },
+    {
+      "id": 148602,
+      "name": "Dies Irae",
+      "desc": "Khi bắt đầu lượt: Nếu đơn vị này có [SpreadingVoiceSecondPhase], nhận một mẫu mới và <color=#ff6000><mark=#ff000040><b><u>sử dụng Kĩ năng mạnh, \"Phán xét... Kết án... Trừng phạt!\"</u></b></mark></color>\n- Tốc độ tối đa và tối thiểu +20 trong lượt\n- <color=#ff6000><mark=#ff000040><b><u>Nếu Quản ngục thua Đối kháng khi ở mẫu này</u></b></mark></color>, nhận một mẫu thay đổi vào lượt sau, và <color=#ff6000><mark=#ff000040><b><u>sử dụng Kĩ năng mạnh, \"Cái chết cho kẻ bị kết án\"</u></b></mark></color>\n\nMỗi lần [SpreadingVoiceSecondPhase] và [EncompassingVoiceSecondPhase] được chuyển đổi, <color=#ff6000><mark=#ff000040><b><u>hồi 45 Tinh thần</u></b></mark></color> và <color=#ff6000><mark=#ff000040><b><u>nhận 1 [LeaderVoiceSecondPhase]</u></b></mark></color>\n\nKhi HP dưới 50%, kết thúc lượt (trừ một số Kĩ năng nhất định); nếu bị Chấn động, hồi phục từ Chấn động\nKhi HP bằng hoặc dưới 1, chuyển sang Giai đoạn mới",
+      "flavor": "Những kẻ không chuộc lỗi qua hình phạt sẽ bị tiêu diệt vào Ngày Phán Xét.",
+      "summary": "Sử dụng Kĩ năng mạnh nếu đơn vị này có [SpreadingVoiceSecondPhase]\nKhi thua Đối kháng trong mẫu này, sử dụng \"Cái chết cho kẻ bị kết án\" vào lượt sau"
+    },
+    {
+      "id": 148603,
+      "name": "Nước mắt sẽ thấm ướt vải, vải sẽ siết chặt quanh cổ...",
+      "desc": "<color=#ff6000><mark=#ff000040><b><u>Đơn vị này không mất Tinh thần từ hiệu ứng [Sinking]</u></b></mark></color>; thay vào đó, đơn vị này nhận sát thương Lửa u ám bằng với Hiệu lực Lún chìm\n\nKhi bị tội đồ đánh trúng, tội đồ đó nhận +1 Giá trị [Sinking] (tối đa 2 lần mỗi lượt mỗi tội đồ)\n\nĐơn vị này không thể nhận Hiệu lực [Breath] vượt quá 20; <color=#ff6000><mark=#ff000040><b><u>thay vào đó, hồi Tinh thần bằng với Hiệu lực [Breath] dư thừa nhận được</u></b></mark></color>",
+      "summary": "Nhận sát thương Lửa u ám từ [Sinking] thay vì mất Tinh thần\nKhi bị đánh trúng, kẻ tấn công nhận Giá trị [Sinking]"
+    },
+    {
+      "id": 148604,
+      "name": "Bảo tồn Hoàn hảo",
+      "desc": "Nhận 1 Hiệu lực [ChargeNoir] cho mỗi 10 Giá trị [ChargeNoir] tích lũy mà đơn vị này tiêu thụ trong màn chơi này\n\nKhi bắt đầu lượt: Nếu có ít hơn 5 Hiệu lực [ChargeNoir] và ít hơn 10 Giá trị [ChargeNoir], nhận +5 Giá trị [ChargeNoir]\n\nHiệu ứng \"Khi kết thúc lượt: Mất 1 Giá trị\" trên [ChargeNoir] không kích hoạt\n\nKhi có 5+/10+ Hiệu lực [ChargeNoir], giới hạn tối đa Giá trị [ChargeNoir] tăng thêm +5/+10",
+      "flavor": "Trong Hệ thống Sisyphe, chính sự bảo tồn được bảo tồn hoàn hảo.",
+      "summary": "Nhận [ChargeNoir] Giá trị khi tiêu thụ [ChargeNoir] Giá trị tích lũy\n[ChargeNoir] Giá trị không bị mất khi kết thúc lượt"
+    },
+    {
+      "id": 148711,
+      "name": "Chết tiệt. Làm thế nào mà bạn tìm được lỗi như vậy chứ?",
+      "desc": "Khi bắt đầu lượt: Các tội đồ ngẫu nhiên nhận [GoldenHideWarderThirdPhase] và [GoldenFabricWarderThirdPhase]\n\n<color=#ff6000><mark=#ff000040><b><u>Khi \"Người Quản lý\" thực hiện một hành động nhất định, Cha xứ gây sát thương cho một tội đồ ngẫu nhiên dựa trên HP tối đa của tội đồ đó và áp dụng [GoldenNail] lên họ</u></b></mark></color>\n\n<color=#ff6000><mark=#ff000040><b><u>Khi HP dưới 50%, Cha xứ điều chỉnh trạng thái của mình ở cấp độ hệ thống</u></b></mark></color> để <color=#ff6000><mark=#ff000040><b><u>hồi cả HP và Tinh thần lên tối đa và loại bỏ tất cả hiệu ứng tiêu cực từ bản thân</u></b></mark></color>",
+      "flavor": "\"Không hệ thống nào không có lỗi mọi lúc, tất nhiên, nhưng một lỗi nghiêm trọng thế này...? Tsk. Có vẻ tôi phải gọi bảo trì rồi.\"",
+      "summary": "Các tội đồ ngẫu nhiên nhận [GoldenHideWarderThirdPhase] và [GoldenFabricWarderThirdPhase] mỗi lượt\nKhi HP dưới 50%, hồi phục hoàn toàn và loại bỏ hiệu ứng tiêu cực"
+    },
+    {
+      "id": 148705,
+      "name": "Công cụ Bảo trì Hệ thống Sisyphe",
+      "desc": "Khi Cha xứ áp dụng [ConfessionThirdPhase] lên các tội đồ bằng hiệu ứng Kĩ năng của mình, áp dụng các điều sau:\n- Các hiệu ứng sau đây <color=#ff6000><mark=#ff000040><b><u>được gọi chung là [ConfessionThirdPhase]</u></b></mark></color>:\n  · [RestrainingNailThirdPhase]\n  · [ExecutionNailThirdPhase]\n  · [GoldenNail]\n- Khi Cha xứ áp dụng Đinh[TabExplain] lên các tội đồ, <color=#ff6000><mark=#ff000040><b><u>chỉ hiệu ứng được áp dụng cuối cùng còn lại</u></b></mark></color>; tuy nhiên, Giá trị giữa các hiệu ứng được cộng dồn\n<color=#ff6000><mark=#ff000040><b><u>- [RestrainingNailThirdPhase] và [ExecutionNailThirdPhase] không chuyển đổi thành [GoldenNail]</u></b></mark></color>\n\nKhi đánh trúng tội đồ, <color=#ff6000><mark=#ff000040><b><u>gây thêm +5% sát thương cho mỗi [ConfessionThirdPhase]</u></b></mark></color> trên mục tiêu (tối đa 45%, riêng biệt cho mỗi mục tiêu)\n\nKhi bắt đầu lượt: <color=#ff6000><mark=#ff000040><b><u>Nếu Cha xứ có HP bằng hoặc dưới 50%</u></b></mark></color>, tất cả Kĩ năng áp dụng <color=#ff6000><mark=#ff000040><b><u>+1 [ConfessionThirdPhase]</u></b></mark></color>",
+      "flavor": "\"Theo hướng dẫn... khi điều này xảy ra, mọi thứ phải được điều chỉnh lại. Tất cả đã được quy định rõ trong quy tắc rồi. Bạn có thể thấy nó ngay đây trong hướng dẫn... à. Đúng rồi. Bạn không thể thấy điều này từ chỗ bạn đang đứng.\"",
+      "summary": "Gây thêm sát thương dựa trên [ConfessionThirdPhase] trên mục tiêu\nKhi HP dưới 50%, áp dụng thêm [ConfessionThirdPhase]"
+    },
+    {
+      "id": 148701,
+      "name": "\"Như được quy định bởi Quy tắc Bảo tồn\"",
+      "desc": "<color=#ff6000><mark=#ff000040><b><u>Khi có 10+ Đối kháng</u></b></mark></color>, Kĩ năng đó <color=#ff6000><mark=#ff000040><b><u>nhận Sức mạnh Đối kháng bằng (Số lần Đối kháng)</u></b></mark></color>\n\nĐối với [Combustion], [Laceration], [Vibration], [Burst], [Sinking]:\n- <color=#ff6000><mark=#ff000040><b><u>Giới hạn Hiệu lực tối đa: 50\n- Giới hạn Giá trị tối đa: 15</u></b></mark></color>\n- Nhận -50% sát thương từ các hiệu ứng trên\n\nÁp dụng hiệu ứng [PanicChangeLock], và <color=#ff6000><mark=#ff000040><b><u>Tinh thần của đơn vị này không giảm dưới 0</u></b></mark></color>\n\nKhi bắt đầu lượt đầu tiên sau khi vào trận:\n- Đặt Tinh thần thành 45\n- Nhận 0 [EncompassingVoiceThirdPhase] và 1 [LeaderVoiceThirdPhase]\n- [ChargeNoir] Hiệu lực và Giá trị được giữ nguyên từ Giai đoạn trước",
+      "summary": "Khi có 10+ Số lần Đối kháng, nhận Sức mạnh Đối kháng\nNhận ít sát thương hơn từ [Combustion], [Laceration], [Vibration], [Burst], và [Sinking]"
+    },
+    {
+      "id": 148702,
+      "name": "\"Dies Irae\"",
+      "desc": "Khi bắt đầu lượt: Nếu đơn vị này có [SpreadingVoiceThirdPhase], nhận một mẫu mới và sử dụng một Kĩ năng mạnh mẽ <color=#ff6000><mark=#ff000040><b><u> \"Bạn thực sự muốn phá hủy Hệ thống Sisyphe sao?\"</u></b></mark></color>\n- Tốc độ tối đa và Tốc độ tối thiểu +20 trong lượt này\n- <color=#ff6000><mark=#ff000040><b><u>Nếu Chaplain thua Đối kháng</u></b></mark></color> trong mẫu này, nhận một mẫu thay đổi vào lượt sau và <color=#ff6000><mark=#ff000040><b><u> sử dụng một Kĩ năng mạnh mẽ \"Cấm toàn hệ thống\"</u></b></mark></color>\n\nMỗi lần [SpreadingVoiceThirdPhase] và [EncompassingVoiceThirdPhase] được chuyển đổi, <color=#ff6000><mark=#ff000040><b><u> hồi 45 Tinh thần</u></b></mark></color> và <color=#ff6000><mark=#ff000040><b><u> nhận 1 [LeaderVoiceThirdPhase]</u></b></mark></color>",
+      "flavor": "Nếu bị trừng phạt vẫn chưa đủ để bạn suy ngẫm, thì tôi đoán đã đến lúc phán xét. Phán xét đủ để giết bạn.",
+      "summary": "Sử dụng một Kĩ năng mạnh mẽ nếu đơn vị này có [SpreadingVoiceThirdPhase]\nKhi thua Đối kháng trong mẫu này, sử dụng \"Cấm toàn hệ thống\" vào lượt sau"
+    },
+    {
+      "id": 148703,
+      "name": "Nước mắt sẽ thấm vào vải, vải sẽ siết quanh cổ... giờ tôi thậm chí không thể nhớ bước tiếp theo là gì.",
+      "desc": "<color=#ff6000><mark=#ff000040><b><u>Đơn vị này không mất Tinh thần từ các hiệu ứng [Sinking]</u></b></mark></color>; thay vào đó, khi các hiệu ứng [Sinking] kích hoạt, đơn vị này nhận sát thương Lửa u ám bằng với giá trị Lún chìm\n\nKhi bị đánh trúng bởi một Tù nhân, Tù nhân đó nhận +1 [Sinking] Giá trị (tối đa 2 mỗi lượt mỗi Tù nhân)\n\nĐơn vị này không thể nhận giá trị [Breath] vượt quá 20; <color=#ff6000><mark=#ff000040><b><u>thay vào đó, hồi Tinh thần bằng với giá trị [Breath] dư thừa nhận được</u></b></mark></color>\n\nKhi kích hoạt [VibrationExplosion] trên Tù nhân, <color=#ff6000><mark=#ff000040><b><u>nếu Tù nhân mục tiêu không có Ngưỡng Chấn động</u></b></mark></color>, <color=#ff6000><mark=#ff000040><b><u>gây sát thương Lười biếng ([Vibration] giá trị trên mục tiêu / 2)</u></b></mark></color> (trừ mục tiêu đã Chấn động; tính riêng cho từng mục tiêu)",
+      "flavor": "“Đến lúc bạn bắt đầu 'cầu nguyện,' bạn không nghĩ vậy sao?”",
+      "summary": "Bị đánh trúng, gây [Sinking] Giá trị lên kẻ tấn công\nKhi [VibrationExplosion], gây sát thương Lười biếng nếu mục tiêu không có Ngưỡng Chấn động"
+    },
+    {
+      "id": 148704,
+      "name": "Bảo tồn Hoàn hảo",
+      "desc": "Nhận 1 [ChargeNoir] Giá trị cho mỗi 10 [ChargeNoir] Giá trị tích lũy mà đơn vị này tiêu thụ trong màn chơi này\n\nKhi bắt đầu lượt: Nếu có ít hơn 10 [ChargeNoir] Giá trị và ít hơn 10 [ChargeNoir] Giá trị, nhận +5 [ChargeNoir] Giá trị\n\nHiệu ứng \"khi kết thúc lượt: mất 1 Giá trị\" trên [ChargeNoir] không kích hoạt\n\nỞ mức 5+/10+ [ChargeNoir] Giá trị, giới hạn tối đa [ChargeNoir] Giá trị +5/+10",
+      "flavor": "Trong Hệ thống Sisyphe, chính sự bảo tồn được bảo tồn hoàn hảo.",
+      "summary": "Nhận [ChargeNoir] Giá trị khi tiêu thụ [ChargeNoir] Giá trị tích lũy\n[ChargeNoir] Giá trị không bị mất khi kết thúc lượt"
+    },
+    {
+      "id": 148706,
+      "name": "Được rồi. Đến giờ nghỉ rồi.",
+      "desc": "Khi kết thúc lượt: Nếu có hơn 10 [ChargeNoir] Giá trị, tiêu thụ giá trị [ChargeNoir] dư thừa và nhận ([ChargeNoir] Giá trị đã tiêu thụ) [Dominion]\n- Hiệu ứng này không kích hoạt lại sau khi tất cả [Dominion] đã bị tiêu thụ bởi các hiệu ứng của Kĩ năng bị động này\n\nKhi HP của đơn vị này giảm xuống <color=#ff6000><mark=#ff000040><b><u>33% hoặc thấp hơn lần đầu tiên trong màn chơi này, nhận một mẫu mới</u></b></mark></color>\n- Tiêu thụ tất cả [Dominion] trên bản thân và <color=#ff6000><mark=#ff000040><b><u>nhận Lá chắn vĩnh viễn bằng (25 + [Dominion] Giá trị)% HP tối đa của đơn vị này</u></b></mark></color>\n- Mất vĩnh viễn Cấp độ Phòng thủ bằng với [Dominion] Giá trị đã tiêu thụ",
+      "flavor": "\"Nói gì thì nói, Hệ thống Sisyphe là thứ mà N Corp. tuyệt đối cần. Nếu hệ thống này sụp đổ... chúng ta sẽ quay lại thời kỳ man rợ.\"\n\n\"Vậy nên, như sách hướng dẫn nói, bạn không được rời khỏi cửa hàng này. Không có ngoại lệ.\"",
+      "summary": "Chuyển đổi 10 [ChargeNoir] Giá trị dư thừa thành [Dominion]\nỞ mức HP 33% hoặc thấp hơn, thay đổi mẫu và nhận Lá chắn"
+    },
+    {
+      "id": 152201,
+      "name": "Mauvaise Foi",
+      "desc": "Nhận 1 [ChargeKhaki] Giá trị cho mỗi 10 [ChargeKhaki] Giá trị tích lũy mà đơn vị này tiêu thụ trong màn chơi này\n- Hiệu ứng \"khi kết thúc lượt: mất 1 Giá trị\" trên [ChargeKhaki] không kích hoạt\n\nKhi kết thúc lượt: Nhận [Breath] Giá trị bằng với [ChargeKhaki] Giá trị trên bản thân (tối đa 10)\nKhi kết thúc lượt: Nhận [Breath] Giá trị bằng với [ChargeKhaki] Giá trị trên bản thân (tối đa 5)\n\nNhận -60% sát thương từ [Combustion], [Laceration], [Vibration], [Burst], và [Sinking]\n- Ngưỡng Chấn động tăng từ [Vibration] -60%\n\nỞ mức 10+ Đối kháng với cùng một mục tiêu, nhận Sức mạnh Đối kháng bằng (Số lần Đối kháng / 10)",
+      "flavor": "Niềm tin sai lầm.\n\nMột sự chạy trốn khỏi thế giới—khỏi một thế giới đầy sợ hãi và lo âu. Sự trốn chạy được tìm kiếm hết lần này đến lần khác.\n\nNgười ta trốn chạy lên sân khấu bằng cách đóng đinh bản thân vào vị trí. Như một diễn viên trên sân khấu, vai diễn được nhập vai hoàn toàn. Sự nhập vai hoàn toàn dẫn đến lừa dối, và lừa dối dẫn đến tự lừa dối."
+    },
+    {
+      "id": 152202,
+      "name": "Bạn còn nhớ nhịp điệu của điệu waltz không?",
+      "desc": "Ở mức 4+ Đối kháng trong cùng một Đối kháng:\n- Từ lần Đối kháng thứ 3, người thắng lần Đối kháng thứ 3 gây thêm +15% sát thương cho mỗi lần Đối kháng thứ 4 thắng (tối đa 3 lần)\n- Nếu Kĩ năng thắng Đối kháng thắng lần Đối kháng đầu tiên, Sức mạnh Cuối cùng +1",
+      "flavor": "Đó là một trải nghiệm chung, phải không?"
+    },
+    {
+      "id": 152203,
+      "name": "Sartre",
+      "desc": "<color=#ff6000><mark color=#ff000040><b><u>Triệu hồi 3 \"Bản thiết kế Grand Magasin Sisyphe\" mỗi 3 lượt</color></mark></b></u> và nhận Lá chắn bằng với HP tối đa của đơn vị này\n- Trong lượt đó, khi bị Chấn động, hồi phục khỏi Chấn động và không thể bị Chấn động lại trong phần còn lại của lượt\n\n<color=#ff6000><mark color=#ff000040><b><u>Sau khi giết một \"Bản thiết kế Grand Magasin Sisyphe\" bằng Kĩ năng \"Tập trung\", nhận [JeanneDesign]</color></mark></b></u>\n\n<color=#ff6000><mark color=#ff000040><b><u>Ở mức 3 [JeanneDesign], chuyển đổi [JeanneDesign] thành [JeanneManager]</color></mark></b></u>\n<color=#ff6000><mark color=#ff000040><b><u>Nếu đơn vị này không giết được một \"Bản thiết kế Grand Magasin Sisyphe\" nào bằng Kĩ năng \"Tập trung\"</color></mark></b></u>, nhận 1 [Vulnerable] vào lượt sau",
+      "flavor": "Một trong bốn Người khổng lồ của Tháp Sisyphe.\n\nTrong số họ, cô là kiến trúc sư của Hệ thống Sisyphe—một thợ may, một nhà thiết kế, người thực hiện vai trò, hoặc một công việc, hoặc một thứ gì đó... xây dựng thế giới theo quan điểm của riêng cô.\n\nCắt theo kích thước của cô, đóng đinh vào vị trí, ghép lại từng mảnh—đây là một thế giới may đo được hình thành để cô có thể nhìn vào nó mà không cảm thấy buồn nôn.\n\nĐây là Grand Magasin Sisyphe."
+    },
+    {
+      "id": 152204,
+      "name": "Bạn biết đấy, tôi...",
+      "desc": "Bắt đầu màn chơi này với 45 Tinh thần\n\nKhi Meursault bị đánh bại, các tội đồ sẽ thua màn chơi\n\n<color=#ff6000><mark color=#ff000040><b><u>Khi còn 50%- HP</color></mark></b></u>, ngừng nhận sát thương và chuyển sang Giai đoạn mới\n- Khi chuyển sang Giai đoạn mới, xóa tất cả các hiệu ứng tiêu cực có thể xóa trên bản thân",
+      "flavor": "Tôi không muốn bạn quay lại bên ngoài.\n\nHãy đi cùng tôi đến màn tiếp theo, ma puce."
+    },
+    {
+      "id": 152301,
+      "name": "Bạn còn nhớ trải nghiệm điệu waltz chứ?",
+      "desc": "Không nhận sát thương trong Giai đoạn này\n\nKhi bắt đầu lượt (một lần mỗi màn chơi): \n- Jeanne nhận 1 [JeannePartnerTwo] và 1 [JeannePathos]\n- Meursault nhận 1 [JeannePartner] và 1 [JeanneLogos]\n\nKhi bị tấn công bởi các Đòn tấn công không bị đối kháng, hoặc khi thua Đối kháng, kích hoạt Kĩ năng \"Chúng ta đã có những tranh cãi nhỏ, đúng không.\"\n<color=#ff6000><mark color=#ff000040><b><u>Tạo một Kĩ năng độc nhất trong ô Kĩ năng trên của Meursault</color></mark></b></u>",
+      "flavor": "Điệu waltz trong ký ức của bạn—hãy trải nghiệm lại nó."
+    },
+    {
+      "id": 152302,
+      "name": "La Nausée",
+      "desc": "Khi Meursault bị đánh bại, các tội đồ sẽ thua màn chơi\n\nKết thúc Kĩ năng hiện tại: <color=#ff6000><mark color=#ff000040><b><u>Khi đạt 100 [JeannePathos]</color></mark></b></u>, chuyển sang Giai đoạn mới\n- Khi chuyển sang Giai đoạn mới, xóa tất cả các hiệu ứng tiêu cực có thể xóa trên bản thân",
+      "flavor": "Cảm thấy chóng mặt à? Nhưng cao trào sắp đến."
+    },
+    {
+      "id": 152401,
+      "name": "L'enfer, c'est les autres",
+      "desc": "Khi HP của Jeanne giảm xuống 10% hoặc thấp hơn...",
+      "flavor": "Chúng ta sống trong một địa ngục nơi chúng ta mãi mãi bị đóng đinh dưới ánh nhìn của người khác. Vậy nên... hãy nói cho tôi tất cả những gì bạn đang cảm thấy, Meur. Bạn luôn có thể quyết định phải làm gì với nó sau, đúng không?"
+    },
+    {
+      "id": 152402,
+      "name": "Ánh nhìn: Grand Magasin Sisyphe",
+      "desc": "Tinh thần của đơn vị này cố định ở mức 45 \n\nKhi bắt đầu lượt: Triệu hồi \"Bản thiết kế Hệ thống Sisyphe - Le Rouge\" và \"Bản thiết kế Hệ thống Sisyphe - Le Noir\" cho đến khi có 2 bản mỗi loại trên sân\n\nLượt thứ 2 sau khi thay đổi Giai đoạn: Chuyển 1 đơn vị Bản thiết kế thành dạng \"Jeanne Sartre, thợ may Sartorial\"\n- Ưu tiên đơn vị Bản thiết kế không có [Vulnerable]\n- Loại trừ đơn vị Bản thiết kế đã vào trạng thái \"Jeanne Sartre, thợ may Sartorial\" ở lượt trước\n- Nếu bị Chấn động, hồi phục khỏi Chấn động\n\nKhi vào trạng thái \"Jeanne Sartre, thợ may Sartorial\", sử dụng Kĩ năng \"Ít nhất trên sân khấu này, mọi thứ đã được sắp xếp và cố định.\"\n- Nếu Kĩ năng của Meursault thắng Đối kháng với \"Ít nhất trên sân khấu này, mọi thứ đã được sắp xếp và cố định.\", đơn vị Bản thiết kế đó nhận 5 [Vulnerable] mỗi lượt bắt đầu từ lượt tiếp theo\n\nMỗi khi trạng thái \"Jeanne Sartre, thợ may Sartorial\" bị vô hiệu hóa, 1 đơn vị Bản thiết kế trang bị Kĩ năng \"Quyền: Cấm\" của Jeanne ở lượt tiếp theo\n- Số lượng đơn vị Bản thiết kế trang bị Kĩ năng của Jeanne tăng dần thêm 1\n\nKhi một đơn vị Bản thiết kế bị đánh bại,\n- Jeanne mất 5% HP\n- Tất cả các đơn vị Bản thiết kế khác nhận 1 [JeanneBlueprint]\n- 1 đơn vị Bản thiết kế trang bị Kĩ năng \"Quyền: Ánh nhìn\" của Jeanne thay vì \"Quyền: Cấm\" ở lượt tiếp theo",
+      "flavor": "Đối với Jeanne, cửa hàng bách hóa là thế giới mà cô ấy cảm thấy thoải mái nhất.\n\nCô ấy được giao chiếc ghế văn phòng của Người khổng lồ Le Kaki, một vai trò đáng lẽ phải giữ trung lập. Nhưng như bạn có thể thấy... Cô ấy muốn nở rộ trong tất cả những màu sắc rực rỡ đó hơn bất kỳ ai khác. Cô ấy muốn cháy bỏng với đam mê, Meur, muốn đứng trên sân khấu đó và nhảy cùng bạn.\n\nThật đáng tiếc khi cô ấy không thể cho phép bản thân làm điều đó. Có quá nhiều ánh nhìn phải để ý, quá nhiều kỳ vọng phải đáp ứng... cho đến khi chúng quấn lấy cô ấy như những sợi xích. Cô ấy không thể nở rộ rực rỡ như cô ấy muốn. Ngay cả mong ước chớm nở cũng phải giấu đi.\n\nTôi không thể làm Jeanne hết buồn nôn, nhưng tôi có thể cho cô ấy cơ hội để là chính mình, để nở rộ như chính cô ấy mà không phải lo lắng về ánh nhìn của bất kỳ ai trong thế giới mà cô ấy bị ném vào. Có lẽ, nếu cô ấy chìm sâu trong đam mê đó, cô ấy sẽ quên đi cảm giác buồn nôn trong một thời gian ngắn.\n\nVà... tôi không nghĩ Jeanne là người duy nhất cần điều đó. Mọi người trong Thành phố đều cần. Họ có thể từ chối, nhưng tôi thực sự tin rằng ai cũng xứng đáng có cơ hội như vậy."
+    },
+    {
+      "id": 152501,
+      "name": "Bản thiết kế Trang phục Tập hợp",
+      "desc": "Trong màn chơi, <color=#ff6000><mark color=#ff000040><b><u>ngay trước khi nhận đòn đánh lần đầu tiên</color></mark></b></u>, <color=#ff6000><mark color=#ff000040><b><u>sử dụng \"Bản thiết kế Cửa hàng Bách hóa\" được trang bị</color></mark></b></u> bất kể Kĩ năng của đơn vị này được xâu chuỗi như thế nào (một lần mỗi lượt)\n\nNhận -50% sát thương từ Kĩ năng Cơ bản\n\n<color=#ff6000><mark color=#ff000040><b><u>Nhận +100% sát thương từ Kĩ năng E.G.O</color></mark></b></u>\n\nĐơn vị này bị đánh bại khi bị trúng Kĩ năng \"Tập trung\" của \"Jeanne Sartre, thợ may Sartorial\"",
+      "flavor": "Đây là bản thiết kế của cửa hàng bách hóa."
+    },
+    {
+      "id": 152502,
+      "name": "Bản thiết kế của Bản thân",
+      "desc": "Khi bị giết bởi Kĩ năng của tội đồ, cung cấp 1 tài nguyên E.G.O từ 5 loại E.G.O có ít tài nguyên nhất (nếu 2 hoặc nhiều loại có cùng số lượng tài nguyên ít nhất, tài nguyên được phân phối ngẫu nhiên)",
+      "flavor": "Thiết kế chưa được định hình."
+    },
+    {
+      "id": 152601,
+      "name": "Mẫu: Grand Magasin Sisyphe",
+      "desc": "Khi Đối kháng với cùng một mục tiêu, Sức mạnh Đối kháng +1 cho mỗi 10 lần Đối kháng\n\nBắt đầu từ lượt sau khi đơn vị này vào sân, 1 đơn vị Bản thiết kế vào trạng thái <color=#ff6000><mark color=#ff000040><b><u>\"Jeanne Sartre, thợ may Sartorial\"</color></mark></b></u>\n- Ưu tiên đơn vị Bản thiết kế không có [Vulnerable]\n- Loại trừ đơn vị Bản thiết kế đã vào trạng thái \"Jeanne Sartre, thợ may Sartorial\" ở lượt trước\n- Nếu bị Chấn động, hồi phục khỏi Chấn động\n\nKhi vào trạng thái \"Jeanne Sartre, thợ may Sartorial\", sử dụng <color=#ff6000><mark color=#ff000040><b><u>Kĩ năng \"Ít nhất trên sân khấu này, mọi thứ đã được sắp xếp và cố định.\"</color></mark></b></u>\n- <color=#ff6000><mark color=#ff000040><b><u>Nếu Kĩ năng của Meursault thắng Đối kháng</color></mark></b></u> với \"Ít nhất trên sân khấu này, mọi thứ đã được sắp xếp và cố định.\", đơn vị Bản thiết kế đó <color=#ff6000><mark color=#ff000040><b><u>nhận 5 [Vulnerable] mỗi lượt</color></mark></b></u> bắt đầu từ lượt tiếp theo\n\nKhi một đơn vị Bản thiết kế bị đánh bại,\n- <color=#ff6000><mark color=#ff000040><b><u>Jeanne mất 5% HP</color></mark></b></u>\n- Tất cả các đơn vị Bản thiết kế khác nhận 1 [JeanneBlueprint]"
+    },
+    {
+      "id": 152602,
+      "name": "Hành động và Phản ứng Chuyển hóa",
+      "desc": "Nhận 1 [ChargeRouge] Hiệu lực cho mỗi 10 [ChargeRouge] Giá trị tích lũy mà đơn vị này tiêu thụ trong màn chơi này\n\nHiệu ứng Kĩ năng của đơn vị này không thể làm HP của đơn vị này giảm dưới 1",
+      "flavor": "Tiêu thụ, bổ sung, cạn kiệt, rồi lại tiêu thụ.\nNhững lặp lại đơn giản sinh ra từ khát khao."
+    },
+    {
+      "id": 152701,
+      "name": "Bảo tồn",
+      "desc": "Nhận 1 [ChargeNoir] Hiệu lực cho mỗi 10 [ChargeNoir] Giá trị tích lũy mà đơn vị này tiêu thụ trong màn chơi này",
+      "flavor": "Lực được nén, tập hợp và cố định tại chỗ. Đôi khi, cần nhiều lực hơn để ngăn chặn thay đổi hơn là gây ra nó."
+    },
+    {
+      "id": 151701,
+      "name": "La Jouissance Autre",
+      "desc": "Khi kết thúc lượt: Không mất [ChargeRouge] Giá trị\nNhận +1 [ChargeRouge] Giá trị mỗi khi hiệu ứng [Laceration] được kích hoạt trong màn chơi\nKhi bắt đầu lượt: Hồi 2 Tinh thần cho mỗi [ChargeRouge] Giá trị trên bản thân",
+      "flavor": "Một nhịp đập cảm nhận khắp cơ thể, nhưng vượt ngoài tầm với của lời nói—tổng thể của mọi nhịp đập sinh ra từ bản chất của chính mình.",
+      "summary": "Nhận Giá trị Nhịp đập"
+    },
+    {
+      "id": 151702,
+      "name": "L'Extimité",
+      "desc": "Bắt đầu màn chơi với 50% HP bị mất\nKhi bắt đầu màn chơi: Áp dụng [BuffetScruple] lên tất cả kẻ địch (bao gồm cả Đơn vị Dự bị)\n\nKhi dùng Kĩ năng, <color=#ff6000><mark=#ff000040><b><u>nếu mục tiêu có [BuffetScruple]</u></b></mark></color>, mất 10 Tinh thần",
+      "flavor": "... Bạn ở đó, ngay rìa cơ thể tôi, nhưng bằng cách nào đó, bạn cũng cắm rễ sâu nhất trong tôi.",
+      "summary": "Mất Tinh thần"
+    },
+    {
+      "id": 151703,
+      "name": "Le Moi",
+      "desc": "<color=#ff6000><mark=#ff000040><b><u>Tăng tối đa Hiệu lực và giới hạn Giá trị</u></b></mark></color> cho [Combustion], [Laceration], [Vibration], [Burst], và [Sinking] lên <color=#ff6000><mark=#ff000040><b><u>50 và 15</u></b></mark></color>, tương ứng\n\nNhận -50% sát thương HP và Tinh thần từ [Combustion], [Laceration], [Vibration], [Burst], và [Sinking]\n- Cố định Hoảng loạn\n- Khi kết thúc lượt: Nếu đơn vị này đang Hoảng loạn, Tinh thần trở về 0",
+      "flavor": "Tôi đã thấy hình ảnh phản chiếu của mình trong nước. Cơ thể tôi, nó đã... hoàn thiện..."
+    },
+    {
+      "id": 151704,
+      "name": "Pouvoirs de la vie",
+      "desc": "Nếu đồng minh bị Chấn động do sát thương, sử dụng Kĩ năng \"Le Manque-à-être\" lên đồng minh đó (một lần mỗi lượt)\n\nNếu đồng minh bị đánh bại, triệu hồi một Mảnh Thịt của Thần Đỏ có 3 [BuffetRevival] vào lúc bắt đầu lượt tiếp theo",
+      "flavor": "Bạo lực qua đó mọi thứ được sinh ra. Thần của những Kẻ Đỏ sở hữu quyền năng của sự sinh thành.\n\nÝ thức đi đâu khi chúng ta chết? Và trước khi chúng ta được sinh ra, nó xuất hiện từ đâu?\n\nĐưa nó trở lại nơi đó, hoặc xé nó ra từ đó... cả hai đều là công việc của cùng một sức mạnh bạo lực."
+    },
+    {
+      "id": 151705,
+      "name": "La Jouissance phallique",
+      "desc": "Khi bắt đầu lượt: Nếu đơn vị này không có [BuffetRouge] và đang ở 15+ [ChargeRouge] Giá trị, tiêu thụ toàn bộ [ChargeRouge] Giá trị và nhận 3 [BuffetRouge]; sau đó, hồi 2 Tinh thần cho mỗi [ChargeRouge] Giá trị đã tiêu thụ\n\nNếu đơn vị này không có [BuffetRouge] và đang ở 10+ [ChargeRouge] Giá trị, tiêu thụ 10 [ChargeRouge] Giá trị khi dùng Kĩ năng để nhận +2 Sức mạnh Đồng xu",
+      "flavor": "Có những điều kiện để nếm trải niềm vui của cuộc sống, và như với mọi thứ có điều kiện, niềm vui xác thịt này định sẵn sẽ thất bại.\n\nNhững giới hạn và kết thúc đã được quy định như vậy.",
+      "summary": "Tiêu thụ Giá trị Nhịp đập để nhận Sức mạnh Đồng xu"
+    },
+    {
+      "id": 151706,
+      "name": "La Moisson",
+      "desc": "Kết thúc Tấn công: Nếu mục tiêu chính có <color=#ff6000><mark=#ff000040><b><u>5+ [BoneNail]</u></b></mark></color>, sử dụng một Kĩ năng mạnh mẽ chống lại mục tiêu chính mà đơn vị này đã tấn công",
+      "flavor": "Chiếc xúc tu nhô ra đâm vào một thứ khác, gọi tôi từ bên ngoài rìa.\n\nLiệu sự thôi thúc trở về nơi tôi sinh ra là một xung động của cái chết, hay xung động của sự sống?"
+    },
+    {
+      "id": 151707,
+      "name": "Le Besoin",
+      "desc": "Nhận 1 Hiệu lực Nhịp đập cho mỗi 10 [ChargeRouge] Tích lũy mà đơn vị này tiêu thụ trong màn chơi này\n\nNhận tất cả các hiệu ứng sau dựa trên Hiệu lực [ChargeRouge] trên bản thân:\n- 1+: Gây thêm +([ChargeRouge] Hiệu lực x 20)% sát thương nếu Tốc độ của đơn vị này nhanh hơn mục tiêu\n- 2+: Sức mạnh Cuối cùng của Kĩ năng +1\n- 3+: Kĩ năng gây thêm +1 Hiệu lực [Laceration]\n- 4+: Sức mạnh Đồng xu của Kĩ năng +1\n- 5+: Không mất Giá trị [BuffetRouge] trên bản thân",
+      "flavor": "Khát vọng định mệnh và không thể tránh khỏi của những người sống, những người được sinh ra.\nMột nhu cầu như lời nguyền, sự không thể thoát khỏi được đan xen bởi số phận.",
+      "summary": "Cường hóa Kĩ năng dựa trên Hiệu lực Nhịp đập"
+    },
+    {
+      "id": 151708,
+      "name": "Thời điểm để Trả lời",
+      "desc": "Nếu bất kỳ điều kiện nào sau đây được đáp ứng, thay đổi mẫu hình\n- HP hiện tại giảm xuống dưới 25% HP tối đa\n- [BuffetDream] đạt 3 Giá trị",
+      "flavor": "Hãy tiếp tục dạy tôi nhiều điều... Tôi muốn đi cùng bạn..."
+    },
+    {
+      "id": 152101,
+      "name": "Trống rỗng Sinh ra No nê",
+      "desc": "Nhận 1 Hiệu lực [ChargeRouge] cho mỗi 10 [ChargeRouge] Tích lũy mà đơn vị này tiêu thụ trong màn chơi này\n\nKhi dùng Kĩ năng, ở 2+/4+ Hiệu lực [ChargeRouge], Sức mạnh Đồng xu +1/+2\n\nNhận 1 Cấp độ Tấn công (tối đa 5) và gây thêm +20% sát thương (tối đa 100%) cho mỗi 10% HP bị mất",
+      "summary": "Nhận Sức mạnh Đồng xu"
+    },
+    {
+      "id": 152102,
+      "name": "Lưỡi Liềm Tìm Kẻ Chậm",
+      "desc": "Ưu tiên mục tiêu có Tốc độ chậm hơn bản thân\n\nKhi dùng Kĩ năng, nếu Tốc độ của đơn vị này nhanh hơn mục tiêu, nhận Cấp độ Tấn công bằng với chênh lệch Tốc độ\n\nKhi bắt đầu lượt: Ở 2+ Hiệu lực [ChargeRouge], sử dụng một Kĩ năng mạnh mẽ",
+      "flavor": "Những kẻ săn mồi nhịp đập đuổi theo con mồi chậm chạp, tìm cách cắm răng vào cổ. Sự tử vong của chúng được quyết định bởi chênh lệch tốc độ."
+    },
+    {
+      "id": 152103,
+      "name": "Nhịp đập Kiên trì Bên Người Thương Yêu",
+      "desc": "Khi Thần Đỏ 【Trưởng thành】 có mặt trên sân, đơn vị này không mất [ChargeRouge] Tích lũy khi kết thúc lượt\n\nKhi bị Chấn động do bị đánh trúng: Khi đơn vị này hồi phục từ Chấn động nhờ Kĩ năng của Thần Đỏ 【Trưởng thành】, sử dụng \"Với lưỡi liềm của ta, ta đáp lại lời gọi của ngươi!\" như một Đòn Tấn công Không Đối kháng chống lại kẻ tấn công",
+      "flavor": "Trái với ý muốn của họ, cả hơi thở lẫn nhịp đập trong tim họ đều không ngừng lại."
+    },
+    {
+      "id": 152104,
+      "name": "Dấu vết của Sự sống",
+      "desc": "Khi chết, cấp 2 Tài nguyên E.G.O của một Loại tương hợp ngẫu nhiên trong số các Loại tương hợp ít sở hữu nhất",
+      "flavor": "Dấu vết để lại bởi những người sống, những người đã sống."
+    },
+    {
+      "id": 152105,
+      "name": "Phước lành Trên Thể xác",
+      "desc": "<color=#ff6000><mark=#ff000040><b><u>Nếu đơn vị này có [BuffetRouge]</u></b></mark></color>, áp dụng các hiệu ứng sau:\n- Nhận -50% sát thương từ Kĩ năng\n- Khi bắt đầu lượt: Hồi Tinh thần tối đa và nhận 1 [ChargeRouge]; nhận +5 [ChargeRouge] Tích lũy",
+      "flavor": "Để nhận lấy sự thần thánh đó trọn vẹn bằng cơ thể của mình."
+    },
+    {
+      "id": 151801,
+      "name": "Thân thể bị ép buộc sống lại",
+      "desc": "Khi [BuffetRevival] hết hạn, trở lại dạng Nhân viên cấp cao Le Rouge; hồi 5 Tinh thần (SP) cho mỗi 10 HP còn lại khi đơn vị này ở dạng Thịt bị xé của Thần Đỏ; nhận +2 [ChargeRouge] Giá trị\n- Nếu đơn vị này nhận được 10+ [ChargeRouge] Giá trị, tiêu thụ toàn bộ [ChargeRouge] Giá trị; sau đó, nhận 1 [BuffetRouge] lượt tiếp theo cho mỗi 5 giá trị đã tiêu thụ"
+    },
+    {
+      "id": 151802,
+      "name": "Thịt bị dính chặt xuống đất",
+      "desc": "Tù nhân không thể nhắm mục tiêu vào đơn vị này"
+    },
+    {
+      "id": 151709,
+      "name": "Bàn tay họ không thể đẩy ra cũng không thể nắm lấy",
+      "desc": "Khi bắt đầu lượt: Nhận 2 [Protection] cho mỗi Nhân viên cấp cao Le Rouge trên sân\n- Mất 2 [Protection] mỗi khi một Nhân viên cấp cao Le Rouge bị đánh bại\n\n<color=#ff6000><mark=#ff000040><b><u>Nếu tất cả Nhân viên cấp cao Le Rouge bị đánh bại</u></b></mark></color>, áp dụng các hiệu ứng sau:\n- Nhận 2 [Vulnerable]\n- Khi dùng Kĩ năng, nếu mục tiêu có [BuffetScruple], Sức mạnh Đồng xu -1",
+      "flavor": "Ngươi vẫn sẽ... nắm tay ta chứ?",
+      "summary": "Mất Sức mạnh Đồng xu"
+    }
+  ]
+}

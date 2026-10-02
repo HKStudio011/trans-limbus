@@ -1,0 +1,134 @@
+{
+  "dataList": [
+    {
+      "id": 139001,
+      "name": "Khai màn Đại lễ Máu",
+      "desc": "Chuyển giai đoạn khi tiêu diệt toàn bộ Thổ ngẫu Tận thế"
+    },
+    {
+      "id": 139003,
+      "name": "Khai màn Đại lễ Lửa",
+      "desc": "Chuyển giai đoạn khi toàn bộ cánh tay bị phá hủy hoặc HP cơ thể chính dưới 70%"
+    },
+    {
+      "id": 139004,
+      "name": "Hơi nóng",
+      "desc": "Trong giai đoạn 3, mỗi lượt gây 7 [Combustion] cho toàn bộ kẻ địch"
+    },
+    {
+      "id": 139006,
+      "name": "Khai màn Đại lễ Sao",
+      "desc": "Chuyển giai đoạn khi HP cơ thể chính dưới 25%"
+    },
+    {
+      "id": 139101,
+      "name": "Thờ phụng Ngẫu tượng",
+      "desc": "Khi HP bằng 0 sẽ không chết mà rơi vào trạng thái không thể hành động/không thể chỉ định mục tiêu\nBị áp chế cùng lúc khi áp chế Lịch Tận thế"
+    },
+    {
+      "id": 139301,
+      "name": "Quá khứ quay về",
+      "desc": "Nếu [AccumulatedPast] từ 50 trở lên, khi HP cơ thể chính dưới 80%, vào cuối lượt tiêu hao 50 [AccumulatedPast] để hồi 200 HP cho cơ thể chính"
+    },
+    {
+      "id": 139302,
+      "name": "Quá khứ tan biến",
+      "desc": "Khi phá hủy bộ phận Thân, tiêu hao toàn bộ [AccumulatedPast]\nKhi phá hủy bộ phận Thân, từ lượt tiếp theo cho đến hết trận chiến này, bộ phận Thân trở nên Kháng (0.5) với tất cả thuộc tính và loại tấn công"
+    },
+    {
+      "id": 139303,
+      "name": "Động cơ xả khói bị phá hủy",
+      "desc": "Khi phá hủy bộ phận Súng hơi, tiêu hao toàn bộ [Breath] của tất cả bộ phận.\nSau khi bộ phận Súng hơi bị phá hủy, về sau mỗi khi nhận [Breath] sẽ nhận [Vulnerable] bằng với số lượng [Breath].\nSau khi bộ phận Súng hơi bị phá hủy, về sau mỗi khi sử dụng Kĩ năng tấn công sẽ mất 1 [Breath]."
+    },
+    {
+      "id": 139304,
+      "name": "Hơi nước rò rỉ",
+      "desc": "Khi bộ phận Súng hơi nhận sát thương, giảm 1 [Breath] và số lần [Breath]"
+    },
+    {
+      "id": 139305,
+      "name": "Máy gõ nhịp",
+      "desc": "Nếu [AccumulatedPast] là số lẻ, nhận 3 [Vulnerable] và 3 [AttackDmgUp]\nNếu là số chẵn, nhận 3 [Protection] và 3 [AttackDmgDown]"
+    },
+    {
+      "id": 139401,
+      "name": "Con gà hạnh phúc",
+      "desc": "Cuối lượt, hồi HP bằng (Số lượng Gà sống tham chiến × 5)"
+    },
+    {
+      "id": 139402,
+      "name": "Con gà u sầu",
+      "desc": "Cuối lượt, gây sát thương Tinh thần cho toàn bộ kẻ địch bằng (Số lượng Gà sống tham chiến × 5)"
+    },
+    {
+      "id": 139403,
+      "name": "Con gà trở nên yếu ớt",
+      "desc": "Khi phá hủy bộ phận, mỗi lượt nhận [Vulnerable] bằng số lượng Gà sống đã chết cho đến lượt phá hủy bộ phận"
+    },
+    {
+      "id": 139404,
+      "name": "Con gà trở nên mạnh mẽ",
+      "desc": "Nếu không ở trạng thái phá hủy bộ phận, mỗi lượt nhận [AttackDmgUp] bằng số lượng Gà còn sống"
+    },
+    {
+      "id": 139501,
+      "name": "Gà Bong-chan đi dạo",
+      "desc": "Cuối lượt, gây 3 sát thương Tinh thần cho 1 kẻ địch ngẫu nhiên"
+    },
+    {
+      "id": 139701,
+      "name": "Gà Bong-chan tràn đầy năng lượng",
+      "desc": "Cuối lượt, vào lượt tiếp theo trao 2 [AttackDmgUp], 2 [Protection] cho bản thân và toàn bộ đồng minh"
+    },
+    {
+      "id": 141001,
+      "name": "Túi máu",
+      "desc": "Nếu có [BloodPocket], Kháng Phẫn nộ của Thân -50%, Kháng U sầu +50%"
+    },
+    {
+      "id": 141002,
+      "name": "Túi nước",
+      "desc": "Nếu có [WaterPocket], hồi HP cơ thể chính bằng (Giá trị × 20)"
+    },
+    {
+      "id": 141003,
+      "name": "Túi máu rách",
+      "desc": "Nếu bộ phận Thân bị phá hủy, về sau khi thắng Hòa kích sẽ kích hoạt [Laceration] của kẻ địch 1 lần và giảm số lần [Laceration] đi 1"
+    },
+    {
+      "id": 141004,
+      "name": "Nghịch nước",
+      "desc": "Trao 1 [PlayingWithWaterTogetherMirror] cho đối tượng thực hiện Hòa kích bằng Kĩ năng có cùng thuộc tính vật lý (Mỗi kĩ năng 1 lần, mỗi lượt tối đa 3 lần)\n- Nếu Kĩ năng đó thuộc loại Đập, trao 2 [PlayingWithWaterTogetherMirror] thay thế"
+    },
+    {
+      "id": 141101,
+      "name": "Túi nước",
+      "desc": "Nếu có [WaterPocket], hồi HP cơ thể chính bằng (Giá trị × 30)"
+    },
+    {
+      "id": 141102,
+      "name": "Túi máu rách",
+      "desc": "Nếu bộ phận Thân bị phá hủy, về sau khi thắng Hòa kích sẽ kích hoạt [Laceration] của kẻ địch 2 lần và giảm số lần [Laceration] đi 2"
+    },
+    {
+      "id": 141201,
+      "name": "Túi máu",
+      "desc": "Nếu có [BloodPocket], Kháng Phẫn nộ của Thân -35%, Kháng U sầu +35%"
+    },
+    {
+      "id": 141202,
+      "name": "Túi nước",
+      "desc": "Nếu có [WaterPocket], hồi HP cơ thể chính bằng (Giá trị × 35)"
+    },
+    {
+      "id": 141203,
+      "name": "Túi máu rách",
+      "desc": "Nếu bộ phận Thân bị phá hủy, về sau khi thắng Hòa kích sẽ kích hoạt [Laceration] của kẻ địch 3 lần và giảm số lần [Laceration] đi 3"
+    },
+    {
+      "id": 141204,
+      "name": "Tí tách tí tách tí tách",
+      "desc": "Nếu mục tiêu không có [PlayingWithWaterTogetherMirror], áp dụng các hiệu quả sau\n- Sát thương gây ra +80%\n- Trong các Kĩ năng của bản thân, khi đồng xu cuối trúng đích, [VibrationExplosion] 1 lần. Số lượt [Vibration] giảm 1\n\nNếu mục tiêu có [PlayingWithWaterTogetherMirror], áp dụng các hiệu quả sau\n- Sát thương gây ra -50%\n- Với mỗi 1 [PlayingWithWaterTogetherMirror] của mục tiêu, sát thương nhận vào +10% (Tối đa 100%)\n\nNếu không có mục tiêu nào sở hữu [PlayingWithWaterTogetherMirror], áp dụng các hiệu quả sau\n- Khi Kĩ năng của bản thân trúng đích, gây 5 [Laceration]\n- Trong các Kĩ năng của bản thân, khi đồng xu cuối trúng đích, kích hoạt [Laceration] của mục tiêu 1 lần. Số lượt [Laceration] giảm 1"
+    }
+  ]
+}

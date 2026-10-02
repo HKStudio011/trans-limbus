@@ -1,0 +1,469 @@
+﻿{
+  "dataList": [
+    {
+      "id": 9701,
+      "name": "Đùi Gà Mọng Nước Nóng Hổi",
+      "desc": "Khi kĩ năng gây [Combustion] cho kẻ thù, số lần [Combustion] tăng thêm 3 (Tối đa 3 lần mỗi lượt)",
+      "simpleDesc": [
+        {
+          "abilityID": 9701,
+          "simpleDesc": "Khi kĩ năng gây [Combustion], số lần [Combustion] tăng thêm 3"
+        }
+      ]
+    },
+    {
+      "id": 9702,
+      "name": "Lườn Gà Khô Khốc",
+      "desc": "Khi kĩ năng gây [Burst] cho kẻ thù, số lần [Burst] tăng thêm 3 (Tối đa 3 lần mỗi lượt)",
+      "simpleDesc": [
+        {
+          "abilityID": 9702,
+          "simpleDesc": "Khi kĩ năng gây [Burst], số lần [Burst] tăng thêm 3"
+        }
+      ]
+    },
+    {
+      "id": 9703,
+      "name": "Sốt Gà Tango",
+      "desc": "Nếu tốc độ cao hơn đối tượng, Sức mạnh khớp lệnh tăng thêm (Tốc độ ÷ 3) (Tối đa 3)",
+      "simpleDesc": [
+        {
+          "abilityID": 9703,
+          "simpleDesc": "Sức mạnh khớp lệnh tăng thêm (Tốc độ ÷ 3)"
+        }
+      ]
+    },
+    {
+      "id": 9704,
+      "name": "Chỉ và Kim Nhiễm Bẩn",
+      "desc": "Áp dụng cho kĩ năng đầu tiên gây sát thương lên kẻ thù mỗi lượt\n\nGây số lượng [Laceration] bằng (Sát thương ÷ 3).",
+      "simpleDesc": [
+        {
+          "abilityID": 9704,
+          "simpleDesc": "Gây số lượng [Laceration] bằng (Sát thương ÷ 3)"
+        }
+      ]
+    },
+    {
+      "id": 9705,
+      "name": "Chỉ và Kim Sắc Bén",
+      "desc": "Mỗi lượt, kĩ năng đầu tiên gây sát thương lên kẻ thù sẽ gây thêm sát thương cố định bằng (Sát thương ÷ 2)",
+      "simpleDesc": [
+        {
+          "abilityID": 9705,
+          "simpleDesc": "Gây thêm sát thương cố định bằng (Sát thương ÷ 2)"
+        }
+      ]
+    },
+    {
+      "id": 9706,
+      "name": "Cờ Lê Dính Dầu",
+      "desc": "Sát thương kĩ năng Va đập +10%\n\nNếu Coin cuối của kĩ năng Va đập trúng đích, gây 2 số lượng [Vibration] cho kẻ thù (1 lần mỗi lượt)",
+      "simpleDesc": [
+        {
+          "abilityID": 9706,
+          "simpleDesc": "Sát thương kĩ năng Va đập +10%"
+        },
+        {
+          "abilityID": 97061,
+          "simpleDesc": "Gây 2 số lượng [Vibration] cho kẻ thù"
+        }
+      ]
+    },
+    {
+      "id": 9707,
+      "name": "Phế Liệu Lấp Lánh",
+      "desc": "Khi đồng minh có Hàng rào bị kẻ thù đánh trúng, phản lại 3 sát thương cố định (Không phản lại nếu Hàng rào không nhận sát thương)",
+      "simpleDesc": [
+        {
+          "abilityID": 9707,
+          "simpleDesc": "Phản lại 3 sát thương cố định"
+        }
+      ]
+    },
+    {
+      "id": 9708,
+      "name": "Rượu Ngâm Não Cua Càng",
+      "desc": "Khi đồng minh tấn công kẻ thù có trạng thái [Burst] bằng kĩ năng gây số lượng hoặc số lần [Burst], sát thương gây ra tăng dựa trên số lần [Burst] của đối tượng +(Số lần [Burst] của đối tượng x 1.25, tối đa 50)%\n\nKhi đồng minh hồi phục từ trạng thái Loạng choạng, hồi phục máu bằng 20% Máu tối đa (2 lần mỗi trận)",
+      "simpleDesc": [
+        {
+          "abilityID": 9708,
+          "simpleDesc": "Sát thương gây ra tăng dựa trên số lần [Burst] của đối tượng +(Số lần [Burst] của đối tượng × 1.25, tối đa 50)%"
+        },
+        {
+          "abilityID": 97081,
+          "simpleDesc": "Hồi phục máu bằng 20% Máu tối đa"
+        }
+      ]
+    },
+    {
+      "id": 9709,
+      "name": "Mũ Len Chóp Bông",
+      "desc": "Khi kết thúc lượt, nhận 1 số lượng [Breath] vào lượt tiếp theo dựa trên số kĩ năng tấn công đã gây sát thương của đồng minh\n\nTrong các giai đoạn chiến đấu Tập trung, hiệu ứng được tăng cường, nhận 3 số lượng [Breath]",
+      "simpleDesc": [
+        {
+          "abilityID": 9709,
+          "simpleDesc": "Nhận 1 số lượng [Breath]"
+        },
+        {
+          "abilityID": 97091,
+          "simpleDesc": "Nhận 3 số lượng [Breath]"
+        }
+      ]
+    },
+    {
+      "id": 9710,
+      "name": "Túi Quà Khổng Lồ",
+      "desc": "Khi bắt đầu lượt, gây 2 [Breath], 2 số lần [Breath], 2 [Protection] cho đồng minh có Máu thấp nhất",
+      "simpleDesc": [
+        {
+          "abilityID": 9710,
+          "simpleDesc": "Gây 2 [Breath], 2 số lần [Breath], 2 [Protection]"
+        }
+      ]
+    },
+    {
+      "id": 9711,
+      "name": "Búp Bê May Vá U Sầu",
+      "desc": "Sát thương đồng minh gây ra tăng dựa trên Tinh thần của bản thân +(Giá trị tuyệt đối Tinh thần ÷ 1.5, tối thiểu 0)%\n\nKhi đồng minh có kĩ năng Coin cộng thoát khỏi trạng thái Loạng choạng, hồi phục hoàn toàn Tinh thần (Không kích hoạt nếu ở trạng thái Xâm thực)\n\nĐối với đồng minh có toàn bộ kĩ năng là Coin trừ, nhận 3 [Paralysis] khi bắt đầu lượt",
+      "simpleDesc": [
+        {
+          "abilityID": 9711,
+          "simpleDesc": "Sát thương gây ra +(Giá trị tuyệt đối Tinh thần ÷ 1.5, tối thiểu 0)%"
+        },
+        {
+          "abilityID": 97111,
+          "simpleDesc": "Hồi phục hoàn toàn Tinh thần khi thoát khỏi trạng thái Loạng choạng"
+        },
+        {
+          "abilityID": 97112,
+          "simpleDesc": "Nhận 3 [Paralysis] khi bắt đầu lượt"
+        }
+      ]
+    },
+    {
+      "id": 9712,
+      "name": "Sổ Cái Đen",
+      "desc": "Khi bắt đầu lượt 1 của giai đoạn, nhận số tài nguyên E.G.O ngẫu nhiên tương ứng với số kẻ thù xuất hiện\n\nNếu có từ 4 Danh tính thuộc Hội Kiếm Anh hoặc Hội Hắc Vân tham gia chiến đấu (tính dựa trên quân số xuất kích), hiệu ứng được tăng cường, nhận tài nguyên E.G.O có số lượng hiện có ít nhất thay vì ngẫu nhiên",
+      "simpleDesc": [
+        {
+          "abilityID": 9712,
+          "simpleDesc": "Nhận tài nguyên E.G.O ngẫu nhiên"
+        },
+        {
+          "abilityID": 97121,
+          "simpleDesc": "Nhận tài nguyên E.G.O có số lượng hiện có ít nhất"
+        }
+      ]
+    },
+    {
+      "id": 9713,
+      "name": "Chuôi Kiếm Rỉ Sét",
+      "desc": "Khi bắt đầu lượt, đồng minh nhận 1 Tăng Sức mạnh Trảm kích\n\nNếu thuộc Hội Kiếm Anh hoặc Hội Hắc Vân, hiệu ứng được tăng cường, nhận 2 Tăng Sức mạnh Trảm kích",
+      "simpleDesc": [
+        {
+          "abilityID": 9713,
+          "simpleDesc": "Nhận 1 Tăng Sức mạnh Trảm kích"
+        },
+        {
+          "abilityID": 97131,
+          "simpleDesc": "Nhận 2 Tăng Sức mạnh Trảm kích"
+        }
+      ]
+    },
+    {
+      "id": 9714,
+      "name": "Lưỡi Kiếm Gãy",
+      "desc": "Trong trận chiến này, lần đầu tiên kĩ năng tấn công gây số lượng [Laceration] hoặc Xuất huyết đặc biệt cho kẻ thù, gây thêm 2 số lần [Laceration] (1 lần mỗi trận)\n\nNếu thuộc Hội Hắc Vân, hiệu ứng được tăng cường, gây thêm 4 số lượng [Laceration] và 4 số lần [Laceration] khi gây sát thương lần đầu tiên cho kẻ thù",
+      "simpleDesc": [
+        {
+          "abilityID": 9714,
+          "simpleDesc": "Gây thêm 2 số lần [Laceration]"
+        },
+        {
+          "abilityID": 97141,
+          "simpleDesc": "Gây thêm 4 số lượng [Laceration] và 4 số lần [Laceration]"
+        }
+      ]
+    },
+    {
+      "id": 9715,
+      "name": "Lưỡi Kiếm Gãy",
+      "desc": "Khi đồng minh gây sát thương Chí mạng cho kẻ địch, gây thêm sát thương Ngạo mạn bằng ([Breath] Cấp độ ÷ 3) đang sở hữu.\n\nNếu thuộc Hội Kiếm, hiệu quả được cường hóa, gây thêm sát thương Ngạo mạn bằng ([Breath] Cấp độ ÷ 2) đang sở hữu.",
+      "simpleDesc": [
+        {
+          "abilityID": 9715,
+          "simpleDesc": "Gây thêm sát thương Ngạo mạn bằng ([Breath] Cấp độ ÷ 3)"
+        },
+        {
+          "abilityID": 97151,
+          "simpleDesc": "Gây thêm sát thương Ngạo mạn bằng ([Breath] Cấp độ ÷ 2)"
+        }
+      ]
+    },
+    {
+      "id": 9716,
+      "name": "Tua Rua Đỏ",
+      "desc": "Nếu kháng Trảm kích của kẻ địch từ 1.5 trở xuống, kháng Trảm kích +0.3",
+      "simpleDesc": [
+        {
+          "abilityID": 9716,
+          "simpleDesc": "Kháng Trảm kích +0.3"
+        }
+      ]
+    },
+    {
+      "id": 9717,
+      "name": "Tráng Lệ",
+      "desc": "Kích hoạt khi bắt đầu lượt nếu có từ 3 Danh tính thuộc Hội Hắc Vân trở lên. (Dựa trên quân số xuất trận)\n\nĐồng minh nhận Tăng Sức mạnh Trảm kích 2 khi bắt đầu lượt, Sát thương Trảm kích gây ra +35%.\n\nNếu Danh tính thuộc Hội Hắc Vân gây sát thương đầu tiên lên mục tiêu khi bắt đầu lượt, gây thêm [Laceration] Cấp độ 4, [Laceration] Số lượng 4 (1 lần mỗi lượt)",
+      "simpleDesc": [
+        {
+          "abilityID": 9717,
+          "simpleDesc": "Nhận Tăng Sức mạnh Trảm kích 2, Sát thương Trảm kích gây ra +35%"
+        },
+        {
+          "abilityID": 97171,
+          "simpleDesc": "Gây thêm [Laceration] Cấp độ 4, [Laceration] Số lượng 4"
+        }
+      ]
+    },
+    {
+      "id": 9718,
+      "name": "Bất Động",
+      "desc": "Kích hoạt khi bắt đầu lượt nếu có từ 3 Danh tính thuộc Hội Kiếm trở lên. (Dựa trên quân số xuất trận)\n\nĐồng minh nhận Tăng Sức mạnh Trảm kích 2 khi bắt đầu lượt, Sát thương Trảm kích gây ra +35%.\n\nNếu Danh tính thuộc Hội Kiếm gây sát thương Chí mạng cho kẻ địch, gây thêm sát thương Ngạo mạn bằng [Breath] Cấp độ đang sở hữu.",
+      "simpleDesc": [
+        {
+          "abilityID": 9718,
+          "simpleDesc": "Nhận Tăng Sức mạnh Trảm kích 2, Sát thương Trảm kích gây ra +35%"
+        },
+        {
+          "abilityID": 97181,
+          "simpleDesc": "Gây thêm sát thương Ngạo mạn bằng [Breath] Cấp độ"
+        }
+      ]
+    },
+    {
+      "id": 9719,
+      "name": "Nón Lá Rách",
+      "desc": "Kích hoạt khi bắt đầu lượt nếu có từ 3 Danh tính thuộc Hội Kiếm trở lên. (Dựa trên quân số xuất trận)\n\nSát thương Trảm kích đồng minh gây ra +50%\n\nNếu thuộc Hội Kiếm, tỉ lệ kích hoạt Chí mạng cố định ở 100% khi ở trạng thái [Breath].\n\nNếu thuộc Hội Kiếm, hiệu quả được cường hóa và sát thương Chí mạng gây ra tăng gấp 1.5 lần.",
+      "simpleDesc": [
+        {
+          "abilityID": 9719,
+          "simpleDesc": "Sát thương Trảm kích gây ra +50%"
+        },
+        {
+          "abilityID": 97191,
+          "simpleDesc": "Tỉ lệ kích hoạt Chí mạng cố định 100%"
+        },
+        {
+          "abilityID": 97192,
+          "simpleDesc": "Sát thương Chí mạng tăng 1.5 lần"
+        }
+      ]
+    },
+    {
+      "id": 9720,
+      "name": "Đạo Bào Cũ",
+      "desc": "Kích hoạt khi bắt đầu lượt nếu có từ 3 Danh tính thuộc Hội Kiếm trở lên. (Dựa trên quân số xuất trận)\n\nSát thương Trảm kích đồng minh gây ra +50%\n\nNếu thuộc Hội Kiếm, Sức mạnh Coin của Kĩ năng 1 +1, trường hợp kĩ năng đó chỉ có một Coin thì Sức mạnh Coin +3.\n\n[Hiệu quả dành riêng cho Meursault Thủ lĩnh Hội Kiếm] Trong lượt sử dụng kĩ năng 「Thịt Nát」, không bị Hoảng loạn. Sức mạnh Cuối cùng khi Đối kháng của kĩ năng 「Thịt Nát」 -36, Sát thương gây ra của kĩ năng 「Xương Tan」 +50%.",
+      "simpleDesc": [
+        {
+          "abilityID": 9720,
+          "simpleDesc": "Sát thương Trảm kích gây ra +50%"
+        },
+        {
+          "abilityID": 97201,
+          "simpleDesc": "Tăng Sức mạnh Coin của Kĩ năng 1"
+        },
+        {
+          "abilityID": 97202,
+          "simpleDesc": "Sức mạnh Cuối cùng khi Đối kháng của kĩ năng 「Thịt Nát」 -24, Sát thương gây ra của kĩ năng 「Xương Tan」 +50%"
+        }
+      ]
+    },
+    {
+      "id": 9721,
+      "name": "Vỏ Đồng Hồ Bạc",
+      "desc": "Khi gây sát thương cho kẻ địch bằng Kĩ năng tấn công (trừ kĩ năng E.G.O) có gây [Vibration] Cấp độ, [Vibration] Số lượng hoặc Chấn động Đặc biệt, Sát thương gây ra +10%\n\nNếu đã áp dụng [VibrationExplosion] lần đầu tiên lên kẻ địch bằng kĩ năng đó trong lượt này, gây [Vibration] Số lượng 2 vào lượt tiếp theo (1 lần mỗi lượt)",
+      "simpleDesc": [
+        {
+          "abilityID": 9721,
+          "simpleDesc": "Sát thương gây ra +10%"
+        },
+        {
+          "abilityID": 97211,
+          "simpleDesc": "Gây [Vibration] Số lượng 2 vào lượt tiếp theo"
+        }
+      ]
+    },
+    {
+      "id": 9722,
+      "name": "Vỏ Đồng Hồ Phai Màu",
+      "desc": "Khi Đối kháng với kẻ địch có Tốc độ cao hơn bản thân, Sức mạnh Đối kháng +1\n\nKhi gây sát thương cho kẻ địch có Tốc độ cao hơn bản thân, gây [Vibration] Cấp độ 3, [Vibration] Số lượng 2 cho mục tiêu vào lượt tiếp theo (1 lần mỗi lượt)",
+      "simpleDesc": [
+        {
+          "abilityID": 9722,
+          "simpleDesc": "Sức mạnh Đối kháng +1"
+        },
+        {
+          "abilityID": 97221,
+          "simpleDesc": "Gây [Vibration] Cấp độ 3, [Vibration] Số lượng 2 vào lượt tiếp theo"
+        }
+      ]
+    },
+    {
+      "id": 9723,
+      "name": "Thư Cảnh Cáo",
+      "desc": "Khi kết thúc lượt, gây 1 [Binding] vào lượt tiếp theo cho 1 kẻ địch có Tốc độ cao nhất (nếu là Dị thường thì là 1 bộ phận)\n\nNếu mục tiêu đang sở hữu [Vibration] hoặc Chấn động Đặc biệt, hiệu quả được cường hóa và gây 2 [Binding]\n\nKhi đồng minh tấn công mục tiêu đang sở hữu [Binding], Sát thương gây ra +(5 + Giá trị [Binding] × 2.5])% (Tối đa 15%)",
+      "simpleDesc": [
+        {
+          "abilityID": 9723,
+          "simpleDesc": "Gây 1 [Binding] vào lượt tiếp theo"
+        },
+        {
+          "abilityID": 97231,
+          "simpleDesc": "Sát thương gây ra +(5 + Giá trị [Binding] × 2.5])%"
+        }
+      ]
+    },
+    {
+      "id": 9724,
+      "name": "Kim Đồng Hồ Chạm Khắc",
+      "desc": "Khi bắt đầu lượt đầu tiên của Wave, gây [Vibration] Cấp độ bằng (9 - Tốc độ hiện tại) cho 3 kẻ địch có Tốc độ thấp nhất (Tối thiểu 3)\n\nKhi bắt đầu lượt, Sát thương gây ra lên kẻ địch sở hữu từ 12 [Vibration] Cấp độ hoặc Chấn động Đặc biệt trở lên +10%",
+      "simpleDesc": [
+        {
+          "abilityID": 9724,
+          "simpleDesc": "Gây [Vibration] Cấp độ bằng (9 - Tốc độ hiện tại)"
+        },
+        {
+          "abilityID": 97241,
+          "simpleDesc": "Sát thương gây ra +10%"
+        }
+      ]
+    },
+    {
+      "id": 9725,
+      "name": "Kim Đồng Hồ Gỉ Sét",
+      "desc": "Khi bắt đầu lượt đầu tiên của Wave, gây [Vibration] Cấp độ bằng (9 - Tốc độ hiện tại) (Tối thiểu 3) và gây [Vibration] Số lượng bằng một nửa giá trị đó cho 1 kẻ địch có Tốc độ cao nhất (Làm tròn lên, nếu là Dị thường thì là 1 bộ phận)\n\nKhi bắt đầu lượt, Sát thương nhận vào từ kẻ địch sở hữu từ 12 [Vibration] Cấp độ hoặc Chấn động Đặc biệt trở lên -10%",
+      "simpleDesc": [
+        {
+          "abilityID": 9725,
+          "simpleDesc": "Gây [Vibration] Cấp độ bằng (9 - Tốc độ hiện tại) và [Vibration] Số lượng bằng một nửa giá trị đó"
+        },
+        {
+          "abilityID": 97251,
+          "simpleDesc": "Sát thương nhận vào -10%"
+        }
+      ]
+    },
+    {
+      "id": 9726,
+      "name": "Ly Nước Rơi",
+      "desc": "Khi đồng minh sở hữu Kĩ năng tấn công (trừ kĩ năng E.G.O) gây [Vibration] Cấp độ, [Vibration] Số lượng hoặc Chấn động Đặc biệt thắng Đối kháng với kẻ địch, gây 2 [Vibration] Cấp độ, 2 [Vibration] Số lượng (2 lần mỗi lượt)\n\nNếu là Danh tính thuộc Yurodivye, hiệu quả được cường hóa, gây 3 [Vibration] Cấp độ, 3 [Vibration] Số lượng (3 lần mỗi lượt)\n\nKhi Danh tính đó Đối kháng với kẻ địch có Cấp độ Tấn công cao hơn bản thân, Sức mạnh Đối kháng +2, Sát thương gây ra khi thắng Đối kháng +20%",
+      "simpleDesc": [
+        {
+          "abilityID": 9726,
+          "simpleDesc": "Gây 2 [Vibration] Cấp độ, 2 [Vibration] Số lượng"
+        },
+        {
+          "abilityID": 97261,
+          "simpleDesc": "Gây 3 [Vibration] Cấp độ, 3 [Vibration] Số lượng"
+        },
+        {
+          "abilityID": 97262,
+          "simpleDesc": "Sức mạnh Đối kháng +2, Sát thương gây ra +20%"
+        }
+      ]
+    },
+    {
+      "id": 9727,
+      "name": "Biên lai thời gian trả trước",
+      "desc": "Sát thương gây ra lên kẻ địch có tốc độ cao hơn bản thân từ 2 trở lên +(5 + Chênh lệch tốc độ × 2.5)% (Tối đa 15%)\n\nKhi kết thúc lượt, nếu trong lượt này đã dùng kĩ năng tấn công (không bao gồm kĩ năng E.G.O) gây sát thương lên kẻ địch có tốc độ cao hơn bản thân từ 2 trở lên dù chỉ 1 lần, đặt [Binding]2, [ResultReduction]1 lên mục tiêu vào lượt tiếp theo (1 lần mỗi lượt)",
+      "simpleDesc": [
+        {
+          "abilityID": 9727,
+          "simpleDesc": "Sát thương gây ra +(5 + Chênh lệch tốc độ × 2.5)%"
+        },
+        {
+          "abilityID": 97271,
+          "simpleDesc": "Đặt [Binding]2, [ResultReduction]1 vào lượt tiếp theo"
+        }
+      ]
+    },
+    {
+      "id": 9728,
+      "name": "Đồng hồ bỏ túi : Loại L",
+      "desc": "Khi bắt đầu lượt, nếu có từ 5 Bản sắc trở lên sở hữu kĩ năng tấn công đặt [Vibration] Cường độ, [Vibration] Số lượng hoặc Chấn động đặc biệt, kích hoạt trong suốt trận chiến này (không bao gồm kĩ năng E.G.O, không bao gồm thành viên dự bị)\n\nĐồng minh sở hữu kĩ năng đặt [Vibration] Cường độ, [Vibration] Số lượng hoặc Chấn động đặc biệt khi sử dụng Kĩ năng 3 được +2 Sức mạnh cộng Coin, +25% Sát thương gây ra\n- Đối với kĩ năng tấn công cơ bản dùng Coin trừ, thay vì Sức mạnh Coin thì + (8 ÷ Số lượng Coin) Sức mạnh cơ bản (Tối thiểu 1, làm tròn xuống)\n\nKhi đồng minh sở hữu kĩ năng đặt [Vibration] Cường độ, [Vibration] Số lượng hoặc Chấn động đặc biệt sử dụng kĩ năng tấn công (bao gồm kĩ năng E.G.O) đưa kẻ địch vào trạng thái [Switch_Vibration] hoặc [FusionVibration], giá trị [Vibration] Cường độ và [Vibration] Số lượng được chuyển đổi sẽ được áp dụng gấp 1.5 lần (chỉ áp dụng khi chuyển đổi sang loại khác) và đặt [DefenseDown]5 vào lượt tiếp theo (1 lần mỗi lượt)\n\nKhi bắt đầu lượt, đặt (12 - Tốc độ hiện tại) [Vibration] Cường độ lên 3 kẻ địch có tốc độ thấp nhất (Tối thiểu 6, tối đa 1 lần mỗi đợt)",
+      "simpleDesc": [
+        {
+          "abilityID": 9728,
+          "simpleDesc": "Tăng Sức mạnh Coin/Sức mạnh cơ bản của Kĩ năng 3, +25% Sát thương gây ra"
+        },
+        {
+          "abilityID": 97281,
+          "simpleDesc": "Giá trị [Vibration] Cường độ và [Vibration] Số lượng được chuyển đổi áp dụng gấp 1.5 lần"
+        },
+        {
+          "abilityID": 97282,
+          "simpleDesc": "Đặt (12 - Tốc độ hiện tại) [Vibration] Cường độ"
+        }
+      ]
+    },
+    {
+      "id": 9729,
+      "name": "Đồng hồ bỏ túi : Loại E",
+      "desc": "Khi bắt đầu lượt, nếu có từ 5 Bản sắc trở lên sở hữu kĩ năng tấn công đặt [Vibration] Cường độ, [Vibration] Số lượng hoặc Chấn động đặc biệt, kích hoạt trong suốt trận chiến này (không bao gồm kĩ năng E.G.O, không bao gồm thành viên dự bị)\n\nĐồng minh sở hữu kĩ năng đặt [Vibration] Cường độ, [Vibration] Số lượng hoặc Chấn động đặc biệt khi sử dụng Kĩ năng 3 được +2 Sức mạnh cộng Coin, +25% Sát thương gây ra\n- Đối với kĩ năng tấn công cơ bản dùng Coin trừ, thay vì Sức mạnh Coin thì + (8 ÷ Số lượng Coin) Sức mạnh cơ bản (Tối thiểu 1, làm tròn xuống)\n\nĐồng minh sở hữu kĩ năng đặt [Vibration] Cường độ, [Vibration] Số lượng hoặc Chấn động đặc biệt khi gây sát thương lên kẻ địch có tốc độ thấp hơn bản thân từ 2 trở lên, Sát thương gây ra +(Cường độ [Vibration] mục tiêu đang sở hữu, tối đa 25)%, mỗi khi gây sát thương thì đặt [DefenseDown]2 (Tối đa 6)\n\nKhi bắt đầu lượt, đặt (12 - Tốc độ hiện tại) [Vibration] Cường độ (Tối thiểu 6) và một nửa giá trị đó vào [Vibration] Số lượng cho 1 kẻ địch có tốc độ cao nhất (làm tròn lên, đối với Vật Thể Huyền Ảo thì tính theo 1 bộ phận, tối đa 1 lần mỗi đợt)",
+      "simpleDesc": [
+        {
+          "abilityID": 9729,
+          "simpleDesc": "Tăng Sức mạnh Coin/Sức mạnh cơ bản của Kĩ năng 3, +25% Sát thương gây ra"
+        },
+        {
+          "abilityID": 97291,
+          "simpleDesc": "Sát thương gây ra +(Cường độ [Vibration] mục tiêu đang sở hữu)%, mỗi khi gây sát thương đặt [DefenseDown]2"
+        },
+        {
+          "abilityID": 97292,
+          "simpleDesc": "Đặt (12 - Tốc độ hiện tại) [Vibration] Cường độ và một nửa giá trị đó vào [Vibration] Số lượng"
+        }
+      ]
+    },
+    {
+      "id": 9730,
+      "name": "Đồng hồ bỏ túi : Loại Y",
+      "desc": "Khi bắt đầu lượt, nếu có từ 5 Bản sắc trở lên sở hữu kĩ năng tấn công đặt [Vibration] Cường độ, [Vibration] Số lượng hoặc Chấn động đặc biệt, kích hoạt trong suốt trận chiến này (không bao gồm kĩ năng E.G.O, không bao gồm thành viên dự bị)\n\nĐồng minh sở hữu kĩ năng đặt [Vibration] Cường độ, [Vibration] Số lượng hoặc Chấn động đặc biệt khi sử dụng Kĩ năng 3 được +2 Sức mạnh cộng Coin, +25% Sát thương gây ra\n- Đối với kĩ năng tấn công cơ bản dùng Coin trừ, thay vì Sức mạnh Coin thì + (8 ÷ Số lượng Coin) Sức mạnh cơ bản (Tối thiểu 1, làm tròn xuống)\n\nTrường hợp là Bản sắc thuộc Yurodivy thì hiệu quả được tăng cường, Kĩ năng 3 được +2 Sức mạnh Coin, Sát thương gây ra +(25 + Tổng [Vibration] Cường độ và [Vibration] Số lượng mục tiêu đang sở hữu, tối đa 100)%\n\nKhi bắt đầu lượt, Bản sắc thuộc Yurodivy được tăng 3 [Vibration] Số lượng",
+      "simpleDesc": [
+        {
+          "abilityID": 9730,
+          "simpleDesc": "Tăng Sức mạnh Coin/Sức mạnh cơ bản của Kĩ năng 3, +25% Sát thương gây ra"
+        },
+        {
+          "abilityID": 97301,
+          "simpleDesc": "Kĩ năng 3 được +2 Sức mạnh Coin, Sát thương gây ra +(25 + Tổng [Vibration] Cường độ và [Vibration] Số lượng của mục tiêu)%"
+        },
+        {
+          "abilityID": 97302,
+          "simpleDesc": "Tăng 3 [Vibration] Số lượng"
+        }
+      ]
+    },
+    {
+      "id": 9731,
+      "name": "Đồng hồ bỏ túi : Loại P",
+      "desc": "Khi bắt đầu lượt, nếu có từ 5 Bản sắc trở lên sở hữu kĩ năng tấn công đặt [Vibration] Cường độ, [Vibration] Số lượng hoặc Chấn động đặc biệt, kích hoạt trong suốt trận chiến này (không bao gồm kĩ năng E.G.O, không bao gồm thành viên dự bị)\n\nĐồng minh sở hữu kĩ năng đặt [Vibration] Cường độ, [Vibration] Số lượng hoặc Chấn động đặc biệt khi sử dụng Kĩ năng 3 được +2 Sức mạnh cộng Coin, +25% Sát thương gây ra\n- Đối với kĩ năng tấn công cơ bản dùng Coin trừ, thay vì Sức mạnh Coin thì + (8 ÷ Số lượng Coin) Sức mạnh cơ bản (Tối thiểu 1, làm tròn xuống)\n\nĐồng minh sở hữu kĩ năng đặt [Vibration] Cường độ, [Vibration] Số lượng hoặc Chấn động đặc biệt khi đấu văng, nếu tốc độ của kẻ địch cao hơn bản thân từ 2 trở lên thì +2 Sức mạnh đấu văng, Sát thương gây ra +(Cường độ [Vibration] mục tiêu đang sở hữu, tối đa 50)%\n\nKhi bắt đầu lượt, 3 đồng minh có tốc độ thấp nhất lần lượt nhận [AttackUp]5, [AttackUp]3, [AttackUp]2 theo thứ tự tốc độ từ chậm nhất",
+      "simpleDesc": [
+        {
+          "abilityID": 9731,
+          "simpleDesc": "Tăng Sức mạnh Coin/Sức mạnh cơ bản của Kĩ năng 3, +25% Sát thương gây ra"
+        },
+        {
+          "abilityID": 97311,
+          "simpleDesc": "+2 Sức mạnh đấu văng, Sát thương gây ra +(Cường độ [Vibration] mục tiêu đang sở hữu)%"
+        },
+        {
+          "abilityID": 97312,
+          "simpleDesc": "Nhận [AttackUp]"
+        }
+      ]
+    }
+  ]
+}

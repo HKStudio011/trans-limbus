@@ -1,0 +1,313 @@
+{
+  "dataList": [
+    {
+      "id": 136601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Vồ lấy",
+          "desc": "Ưu tiên tấn công kẻ địch có tỉ lệ máu cao nhất\n[WhenUse] Nếu mục tiêu có từ 4 [Laceration] trở lên, Sức mạnh Cơ bản +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 136602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Gặm nhấm",
+          "desc": "Ưu tiên tấn công kẻ địch có tỉ lệ máu cao nhất\n[WhenUse] Nếu mục tiêu có từ 4 [Laceration] trở lên, Sức mạnh Cơ bản +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Nếu mục tiêu có [Laceration], gây 2 [PenetrateResistDown] vào lượt kế tiếp"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Tăng số lượng [Laceration] thêm 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 136603,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Nạp thêm Bong bóng vị Cam",
+          "desc": "Ưu tiên tấn công kẻ địch có tỉ lệ máu cao nhất\n[WhenUse] Nếu mục tiêu có từ 4 [Laceration] trở lên, Sức mạnh Đồng xu +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Tăng số lượng [Laceration] thêm 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 136604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Thêm hương vị Bong bóng",
+          "desc": "[WhenUse] Mỗi 4 [Laceration] trên mục tiêu, Sức mạnh Đồng xu +1 (Tối đa 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Nếu mục tiêu có [Laceration], gây 2 [PenetrateResistDown] vào lượt kế tiếp"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Tăng số lượng [Laceration] thêm 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 136605,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Di chuyển theo bầy",
+          "desc": "[OnSucceedEvade] Gây 2 [Binding] vào lượt kế tiếp\n[EndBattle] Sau khi [RunHallway] của bản thân biến mất, kích hoạt [NextHallway]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 136901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Nhai ngấu nghiến",
+          "desc": "Ưu tiên tấn công mục tiêu có Tốc độ thấp nhất\n[WhenUse] Nếu mục tiêu có từ 4 [Laceration] trở lên, Sức mạnh Cơ bản +1\n[BeforeAttack] Mỗi đồng xu bị phá hủy, Sức mạnh Cơ bản -1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [Laceration], tăng số lượng [Laceration] thêm 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 136902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Làm đầy Bong bóng Cam cỡ trung",
+          "desc": "Ưu tiên tấn công mục tiêu có Tốc độ thấp nhất\n[WhenUse] Nếu mục tiêu có từ 4 [Laceration] trở lên, Sức mạnh Đồng xu +1\n[BeforeAttack] Mỗi đồng xu bị phá hủy, Sức mạnh Cơ bản -1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [Vulnerable] vào lượt kế tiếp"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 136903,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Đậm đà hơn, nhiều hơn nữa",
+          "desc": "Ưu tiên tấn công mục tiêu có Tốc độ thấp nhất\n[WhenUse] Mỗi 3 [Laceration] trên mục tiêu, Sức mạnh Đồng xu +1 (Tối đa 2)\n[BeforeAttack] Mỗi đồng xu bị phá hủy, Sức mạnh Cơ bản -1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Tăng số lượng [Laceration] thêm 4"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [PenetrateResistDown] vào lượt kế tiếp"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 136904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Săn mồi để sinh sản Punu-nyun",
+          "desc": "Ưu tiên tấn công mục tiêu có Tốc độ thấp nhất\n[WhenUse] Mỗi 3 [Laceration] trên mục tiêu, Sức mạnh Đồng xu +1 (Tối đa 2)\n[BeforeAttack] Mỗi đồng xu bị phá hủy, Sức mạnh Cơ bản -1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Tăng số lượng [Laceration] thêm 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Tăng số lượng [Laceration] thêm 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 136905,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Di chuyển theo bầy",
+          "desc": "[CanDuelGuard]\n[EndBattle] Sau khi [RunHallway] của bản thân biến mất, kích hoạt [NextHallway] cho \"Bản thân\" và \"Bữa ăn Hoàn chỉnh\" mà bản thân triệu hồi",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

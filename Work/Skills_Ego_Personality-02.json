@@ -1,0 +1,1039 @@
+{
+  "dataList": [
+    {
+      "id": 2020511,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Chương 9 Phần 2",
+          "abName": "Tiên tri Da",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Chuyển đổi 2 [Combustion] của mục tiêu thành 1 Giảm Cấp Phòng thủ (Tối đa 10)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Chương 9 Phần 2",
+          "abName": "Tiên tri Da",
+          "desc": "[BeforeAttack] Nếu (Số Cộng hưởng Hoàn toàn Sắc dục tối đa) từ 4 trở lên, Chỉ số Mục tiêu Kĩ năng +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Gây 3 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Chuyển đổi 2 [Combustion] của mục tiêu thành 1 Giảm Cấp Phòng thủ (Tối đa 10)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Chương 9 Phần 2",
+          "abName": "Tiên tri Da",
+          "desc": "[BeforeAttack] Nếu (Số Cộng hưởng Hoàn toàn Sắc dục tối đa) từ 4 trở lên, Chỉ số Mục tiêu Kĩ năng +1\nNếu (Số Cộng hưởng Hoàn toàn Sắc dục tối đa) từ 6 trở lên, cộng thêm 1 Chỉ số Mục tiêu Kĩ năng",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Chuyển đổi 2 [Combustion] của mục tiêu thành 1 Giảm Cấp Phòng thủ (Tối đa 10)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2020521,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Chương 9 Phần 2",
+          "abName": "Tiên tri Da",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackTail] Gây 4 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Chuyển đổi 2 [Combustion] của mục tiêu thành 1 Giảm Cấp Phòng thủ (Tối đa 10)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Chương 9 Phần 2",
+          "abName": "Tiên tri Da",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\n[BeforeAttack] Nếu (Số Cộng hưởng Hoàn toàn Sắc dục tối đa) từ 4 trở lên, Chỉ số Mục tiêu Kĩ năng +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackTail] Gây 2 Trói buộc ở lượt kế tiếp"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 4 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Chuyển đổi 2 [Combustion] của mục tiêu thành 1 Giảm Cấp Phòng thủ (Tối đa 10)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Chương 9 Phần 2",
+          "abName": "Tiên tri Da",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\n[BeforeAttack] Nếu (Số Cộng hưởng Hoàn toàn Sắc dục tối đa) từ 4 trở lên, Chỉ số Mục tiêu Kĩ năng +1\nNếu (Số Cộng hưởng Hoàn toàn Sắc dục tối đa) từ 6 trở lên, cộng thêm 1 Chỉ số Mục tiêu Kĩ năng",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackTail] Gây 2 Trói buộc ở lượt kế tiếp"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 4 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Chuyển đổi 2 [Combustion] của mục tiêu thành 1 Giảm Cấp Phòng thủ (Tối đa 10)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2020611,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Vĩnh cửu",
+          "abName": "Vịt Thời gian",
+          "desc": "Khi Tốc độ của mục tiêu thấp hơn bản thân, Sát thương +(Chênh lệch Tốc độ với mục tiêu × 2.5)% (Tối đa 25%)\n[BeforeAttack] Nếu Số Cộng hưởng tối đa từ 3 trở lên, gây Trị số [Vibration] bằng với Số Cộng hưởng tối đa (Tối đa 5)\n[EndSkill] Trong 3 lượt, Giảm 10 Tinh thần vào cuối lượt",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 5 [Vibration], 5 Số lượng [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [FusionVibration] thành [VibrationContinue]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion]. Giảm 1 Số lượng [Vibration] của mục tiêu"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion]. Giảm 1 Số lượng [Vibration] của mục tiêu"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion]. Giảm 1 Số lượng [Vibration] của mục tiêu"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ở lượt kế tiếp, giá trị Tốc độ tối đa của mục tiêu bị giảm một nửa"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Vĩnh cửu",
+          "abName": "Vịt Thời gian",
+          "desc": "Khi Tốc độ của mục tiêu thấp hơn bản thân, Sát thương +(Chênh lệch Tốc độ với mục tiêu × <style=\"highlight\">3.5</style>)% (Tối đa <style=\"highlight\">35%</style>)\n[BeforeAttack] Nếu Số Cộng hưởng tối đa từ 3 trở lên, gây Trị số [Vibration] bằng với Số Cộng hưởng tối đa (Tối đa 5)\n<style=\"highlight\">- Nếu Cộng hưởng tối đa là Cộng hưởng Hoàn toàn Lười biếng, gây Số lượng [Vibration] bằng với Trị số [Vibration] đã gây (Tối đa 5)</style>\n[EndSkill] Trong 3 lượt, Giảm 10 Tinh thần vào cuối lượt",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 5 [Vibration], 5 Số lượng [Vibration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [FusionVibration] thành [VibrationContinue]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion]. Giảm 1 Số lượng [Vibration] của mục tiêu<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion]. Giảm 1 Số lượng [Vibration] của mục tiêu<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion]. Giảm 1 Số lượng [Vibration] của mục tiêu<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ở lượt kế tiếp, giá trị Tốc độ tối đa của mục tiêu bị giảm một nửa<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Vĩnh cửu",
+          "abName": "Vịt Thời gian",
+          "desc": "Khi Tốc độ của đối tượng thấp hơn bản thân, Sát thương +(Hiệu số Tốc độ với đối tượng × <style=\"highlight\">5</style>)% (Tối đa <style=\"highlight\">50%</style>)\n[BeforeAttack] Nếu Số Cộng hưởng Tối đa từ 3 trở lên, gây (Số Cộng hưởng Tối đa <style=\"highlight\"> × 2</style>) Cường độ [Vibration] (Tối đa <style=\"highlight\">10</style>)\n<style=\"highlight\">- Nếu Cộng hưởng Tối đa là Cộng hưởng Hoàn toàn Hệ Lười nhác, gây Số lần [Vibration] bằng với giá trị Cường độ [Vibration] đã gây (Tối đa <style=\"highlight\">10</style>)</style>\n[EndSkill] Trong 3 lượt, giảm 10 Tinh thần khi kết thúc lượt",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây <style=\"highlight\">10</style> Cường độ [Vibration], <style=\"highlight\">10</style> Số lần [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Chuyển [VibrationContinue] thành [FusionVibration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] [VibrationExplosion]. Giảm 1 Số lần [Vibration] của đối tượng</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion]. Giảm 1 Số lần [Vibration] của đối tượng<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion]. Giảm 1 Số lần [Vibration] của đối tượng<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion]. Giảm 1 Số lần [Vibration] của đối tượng<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ở lượt tiếp theo, Tốc độ Tối đa của đối tượng bị giảm một nửa<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2020621,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Vĩnh viễn",
+          "abName": "Vịt Thời gian",
+          "desc": "[CantIdentify]\nTấn công đối tượng ngẫu nhiên\nKhi Tốc độ của đối tượng tấn công chính thấp hơn bản thân, Sát thương +(Hiệu số Tốc độ với đối tượng × 1.5)% (Tối đa 12%)\n[BeforeAttack] Nếu Số Cộng hưởng Tối đa từ 3 trở lên, gây 3 Cường độ [Vibration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 Cường độ [Vibration], 3 Số lần [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Chuyển [VibrationContinue] thành [FusionVibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion]. Giảm 1 Số lần [Vibration] của đối tượng"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion]. Giảm 1 Số lần [Vibration] của đối tượng"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ở lượt tiếp theo, Tốc độ Tối đa của đối tượng bị giảm một nửa"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Vĩnh viễn",
+          "abName": "Vịt Thời gian",
+          "desc": "[CantIdentify]\nTấn công đối tượng ngẫu nhiên\nKhi Tốc độ của đối tượng tấn công chính thấp hơn bản thân, Sát thương +(Hiệu số Tốc độ với đối tượng × <style=\"highlight\">2</style>)% (Tối đa <style=\"highlight\">16%</style>)\n[BeforeAttack] Nếu Số Cộng hưởng Tối đa từ 3 trở lên, gây (Số Cộng hưởng Tối đa) Cường độ [Vibration] (Tối đa 4)\n<style=\"highlight\">- [BeforeAttack] Nếu Cộng hưởng Tối đa là Cộng hưởng Hoàn toàn Hệ Lười nhác, gây 2 Số lần [Vibration]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 Cường độ [Vibration], 3 Số lần [Vibration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Chuyển [VibrationContinue] thành [FusionVibration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion]. Giảm 1 Số lần [Vibration] của đối tượng<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion]. Giảm 1 Số lần [Vibration] của đối tượng<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ở lượt tiếp theo, Tốc độ Tối đa của đối tượng bị giảm một nửa<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Vĩnh viễn",
+          "abName": "Vịt Thời gian",
+          "desc": "[CantIdentify]\nTấn công đối tượng ngẫu nhiên\nKhi Tốc độ của đối tượng tấn công chính thấp hơn bản thân, Sát thương +(Hiệu số Tốc độ với đối tượng × <style=\"highlight\">2.5</style>)% (Tối đa <style=\"highlight\">20%</style>)\n[BeforeAttack] Nếu Số Cộng hưởng Tối đa từ 3 trở lên, gây (Số Cộng hưởng Tối đa) Cường độ [Vibration] (Tối đa <style=\"highlight\">5</style>)\n- [BeforeAttack] Nếu Cộng hưởng Tối đa là Cộng hưởng Hoàn toàn Hệ Lười nhác, <style=\"highlight\">gây Số lần [Vibration] bằng với giá trị Cường độ [Vibration] đã gây (Tối đa 5)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây <style=\"highlight\">5</style> Cường độ [Vibration], <style=\"highlight\">5</style> Số lần [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Chuyển [VibrationContinue] thành [FusionVibration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion]. Giảm 1 Số lần [Vibration] của đối tượng<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion]. Giảm 1 Số lần [Vibration] của đối tượng<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] [VibrationExplosion]. Giảm 1 Số lần [Vibration] của đối tượng</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Ở lượt tiếp theo, Tốc độ Tối đa của đối tượng bị giảm một nửa<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2020711,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Thòng lọng",
+          "abName": "Thợ săn Hoa hồng",
+          "desc": "Với mỗi 7 [Burst] trên đối tượng, Uy lực Đồng xu +1 (Tối đa 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Tăng 1 Số lần [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Thòng lọng",
+          "abName": "Thợ săn Hoa hồng",
+          "desc": "<style=\"highlight\">Nếu tổng Tốc độ của bản thân và đối tượng từ 6 trở lên, Uy lực Đồng xu +1</style>\nVới mỗi 7 [Burst] trên đối tượng, Uy lực Đồng xu +1 (Tối đa 2)\n<style=\"highlight\">[BeforeAttack] Nhận 2 [Agility] ở lượt tiếp theo\n[BeforeAttack] Nếu Cộng hưởng Tối đa từ 4 trở lên, Chỉ số Mục tiêu +1</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Tăng 2 Số lần [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Thòng lọng",
+          "abName": "Thợ săn Hoa hồng",
+          "desc": "Nếu tổng Tốc độ của bản thân và đối tượng từ 6 trở lên, Uy lực Đồng xu +1\nVới mỗi 7 [Burst] trên đối tượng, Uy lực Đồng xu +1 (Tối đa 2)\n[BeforeAttack] Nhận 2 [Agility] ở lượt tiếp theo\n[BeforeAttack] Nếu Cộng hưởng Tối đa từ 4 trở lên, Chỉ số Mục tiêu +1\n<style=\"highlight\">- Nếu Cộng hưởng đó là Cộng hưởng Hệ Phàm ăn, Chỉ số Mục tiêu +1</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Tăng 2 Số lần [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2020721,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Thòng lọng",
+          "abName": "Thợ săn Hoa hồng",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\nVới mỗi 7 [Burst] trên mục tiêu, Sức mạnh Đồng xu +1 (Tối đa 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lần [Burst] tăng thêm 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [Snare]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Thòng lọng",
+          "abName": "Thợ săn Hoa hồng",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\n<style=\"highlight\">Nếu tổng Tốc độ của bản thân và mục tiêu từ 6 trở lên, Sức mạnh Đồng xu +1</style>\nVới mỗi 7 [Burst] trên mục tiêu, Sức mạnh Đồng xu +1 (Tối đa 2)\n<style=\"highlight\">[BeforeAttack] Nhận 2 [Agility] vào lượt kế tiếp</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lần [Burst] tăng thêm 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [Snare]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Với mỗi 1 [Burst] trên mục tiêu, Lượng sát thương +2% (Tối đa 30%)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Thòng lọng",
+          "abName": "Thợ săn Hoa hồng",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\nNếu tổng Tốc độ của bản thân và mục tiêu từ 6 trở lên, Sức mạnh Đồng xu +1\nVới mỗi 7 [Burst] trên mục tiêu, Sức mạnh Đồng xu +1 (Tối đa 2)\n[BeforeAttack] Nhận 2 [Agility] vào lượt kế tiếp\n<style=\"highlight\">[EndSkill] Nếu mục tiêu bị Choáng hoặc chết, nhận 1 [ShamrockResultUp] vào lượt kế tiếp</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lần [Burst] tăng thêm 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 4 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [Snare]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Với mỗi 1 [Burst] trên mục tiêu, Lượng sát thương +2% (Tối đa 60%)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2020811,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Đau ngực",
+          "abName": "Túi ngủ của ngày đã qua",
+          "desc": "[BeforeAttack] Gây Số lượng [Breath] cho toàn bộ đồng minh bằng (số Cộng hưởng tối đa) (Lượng gây tối đa: 4)\n- Nếu Cộng hưởng Ngạo mạn từ 3 trở lên, Số lần [Breath] của mục tiêu nhận hiệu ứng tăng thêm 1, gây 1 [ReleaseBreath] cho mục tiêu đó vào lượt kế tiếp",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Đau ngực",
+          "abName": "Túi ngủ của ngày đã qua",
+          "desc": "[BeforeAttack] Gây Số lượng [Breath] cho toàn bộ đồng minh bằng (số Cộng hưởng tối đa) (Lượng gây tối đa: <style=\"highlight\">6</style>)\n- Nếu Cộng hưởng Ngạo mạn từ 3 trở lên, Số lần [Breath] của mục tiêu nhận hiệu ứng tăng thêm 1, gây 1 [ReleaseBreath] cho mục tiêu đó vào lượt kế tiếp",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Số lần [Breath] của bản thân tăng thêm 1</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">Sát thương Chí mạng +(Tổng Số lượng [Breath] và Số lần [Breath])% (Tối đa 20%)</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Đau ngực",
+          "abName": "Túi ngủ của ngày đã qua",
+          "desc": "[BeforeAttack] Gây Số lượng [Breath] cho toàn bộ đồng minh bằng (số Cộng hưởng tối đa) (Lượng gây tối đa: 6)\n- Nếu Cộng hưởng Ngạo mạn từ 3 trở lên, Số lần [Breath] của mục tiêu nhận hiệu ứng tăng thêm 1, gây 1 [ReleaseBreath] cho mục tiêu đó vào lượt kế tiếp<style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lần [Breath] của bản thân tăng thêm 1<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Sát thương Chí mạng +(Tổng Số lượng [Breath] và Số lần [Breath])% (Tối đa <style=\"highlight\">40%</style>)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2020821,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Đau ngực",
+          "abName": "Túi ngủ của ngày đã qua",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\n[BeforeAttack] Nếu Số lượng [Breath] của bản thân dưới 20, nhận Số lượng [Breath] cho đến khi đạt 20 và tiêu hao (Số lượng [Breath] nhận được × 2)% Máu tối đa\n- Không bị Choáng hoặc chết bởi hiệu ứng này\n[BeforeAttack] Gây Số lượng [Breath] cho toàn bộ đồng minh bằng (số Cộng hưởng tối đa) (Lượng gây tối đa: 4)\n- Nếu Cộng hưởng Ngạo mạn từ 3 trở lên, Số lần [Breath] của mục tiêu nhận hiệu ứng tăng thêm 1, gây 1 [ReleaseBreath], 1 [IndigoDamageUp] cho mục tiêu đó vào lượt kế tiếp",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Đau ngực",
+          "abName": "Túi ngủ của ngày đã qua",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\n[BeforeAttack] Nếu Số lượng [Breath] của bản thân dưới 20, nhận Số lượng [Breath] cho đến khi đạt 20 và tiêu hao (Số lượng [Breath] nhận được × 2)% Máu tối đa\n- Không bị Choáng hoặc chết bởi hiệu ứng này\n[BeforeAttack] Gây Số lượng [Breath] cho toàn bộ đồng minh bằng (số Cộng hưởng tối đa) (Lượng gây tối đa: <style=\"highlight\">6</style>)\n- Nếu Cộng hưởng Ngạo mạn từ 3 trở lên, Số lần [Breath] của mục tiêu nhận hiệu ứng tăng thêm 1, gây 1 [ReleaseBreath], 1 [IndigoDamageUp] cho mục tiêu đó vào lượt kế tiếp",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Số lần [Breath] của bản thân tăng thêm 1</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">Sát thương Chí mạng +(Tổng Số lượng [Breath] và Số lần [Breath])% (Tối đa 20%)</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Đau ngực",
+          "abName": "Túi ngủ của ngày đã qua",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\n[BeforeAttack] Nếu Số lượng [Breath] của bản thân dưới 20, nhận Số lượng [Breath] cho đến khi đạt 20 và tiêu hao (Số lượng [Breath] nhận được × 2)% Máu tối đa\n- Không bị Choáng hoặc chết bởi hiệu ứng này\n[BeforeAttack] Gây Số lượng [Breath] cho toàn bộ đồng minh bằng (số Cộng hưởng tối đa) (Lượng gây tối đa: 6)\n- Nếu Cộng hưởng Ngạo mạn từ 3 trở lên, Số lần [Breath] của mục tiêu nhận hiệu ứng tăng thêm 1, gây 1 [ReleaseBreath], 1 [IndigoDamageUp] cho mục tiêu đó vào lượt kế tiếp<style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lần [Breath] của bản thân tăng thêm 1<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Sát thương Chí mạng +(Tổng Số lượng [Breath] và Số lần [Breath])% (Tối đa <style=\"highlight\">40%</style>)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2020911,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Chỉ thị: Tan chảy",
+          "abName": "Kelsey",
+          "desc": "Nếu mục tiêu chính có [Combustion] hoặc [Burst], Sức mạnh Cuối cùng +1\n[BeforeAttack] Với mỗi tổng 1 Số lượng [Burst] và Số lần [Burst] trên mục tiêu chính, Lượng sát thương +1% (Tối đa 15%)\n[EndSkill] Nhận 4 [CuredFilm]\n[EndSkill] Hồi phục cho bản thân và 1 đồng minh có tỉ lệ Máu hiện tại thấp nhất một lượng bằng 15% Máu tối đa của bản thân\n- Nếu Máu của bản thân đã tối đa, thay vào đó hồi phục cho 2 đồng minh\n[EndSkill] Hồi phục 10 Tinh thần cho 2 đồng minh (bao gồm bản thân) có Tinh thần thấp nhất hiện tại",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Chỉ thị: Meltdown",
+          "abName": "Kelsey",
+          "desc": "Nếu mục tiêu chính có [Combustion] hoặc [Burst], Sức mạnh cuối cùng +<style=\"highlight\">2</style>\n[BeforeAttack] Với mỗi 1 tổng số điểm và số lượt [Burst] của mục tiêu chính, sát thương +1% (Tối đa 15%)\n<style=\"highlight\">- Nếu có [CuredFilm], hiệu ứng này và giá trị tối đa tăng 1.5 lần</style>\n[EndSkill] Nhận <style=\"highlight\">7</style> [CuredFilm]\n[EndSkill] Hồi phục cho bản thân và 1 đồng minh có tỉ lệ HP hiện tại thấp nhất một lượng bằng <style=\"highlight\">20</style>% HP tối đa của bản thân\n- Nếu HP bản thân đầy, thay vào đó hồi phục HP cho 2 đồng minh\n[EndSkill] Hồi 10 Tinh thần cho 2 đồng minh có Tinh thần hiện tại thấp nhất bao gồm cả bản thân",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây <style=\"highlight\">2</style> [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây <style=\"highlight\">2</style> [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Chỉ thị: Meltdown",
+          "abName": "Kelsey",
+          "desc": "Nếu mục tiêu chính có [Combustion] hoặc [Burst], Sức mạnh cuối cùng +<style=\"highlight\">3</style>\n[BeforeAttack] Với mỗi 1 tổng số điểm và số lượt [Burst] của mục tiêu chính, sát thương +1% (Tối đa <style=\"highlight\">25</style>%)\n- Nếu có [CuredFilm], hiệu ứng này và giá trị tối đa tăng <style=\"highlight\">2</style> lần\n[EndSkill] Nhận <style=\"highlight\">10</style> [CuredFilm]\n[EndSkill] Hồi phục cho bản thân và 1 đồng minh có tỉ lệ HP hiện tại thấp nhất một lượng bằng <style=\"highlight\">30</style>% HP tối đa của bản thân\n- Nếu HP bản thân đầy, thay vào đó hồi phục HP cho 2 đồng minh\n[EndSkill] Hồi <style=\"highlight\">15</style> Tinh thần cho 2 đồng minh có Tinh thần hiện tại thấp nhất bao gồm cả bản thân",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây <style=\"highlight\">3</style> [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây <style=\"highlight\">3</style> [Combustion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2020921,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Chỉ thị: Meltdown",
+          "abName": "Kelsey",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\n[BeforeAttack] Nếu số cộng hưởng tối đa từ 4 trở lên, Chỉ số trọng yếu tấn công +1\n[EndSkill] Nhận 4 [CuredFilm]\n[EndSkill] Nếu không có mục tiêu nào bị Hoảng loạn hoặc chết bởi sát thương của kỹ năng này, tự nhận sát thương bằng 20% HP tối đa và nhận lượng Khiên tương ứng\n- Không chết bởi hiệu ứng này. Khi kết thúc lượt, [CuredFilm] đạt giá trị tối đa và nhận 2 [AttackDmgUp] ở lượt kế tiếp (1 lần mỗi lượt)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [Burst]"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Chỉ thị: Meltdown",
+          "abName": "Kelsey",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\n<style=\"highlight\">Nếu tổng số điểm và số lượt [Burst] của mục tiêu chính từ 6 trở lên, Sức mạnh cơ bản +1</style>\n[BeforeAttack] Nếu số cộng hưởng tối đa từ <style=\"highlight\">3</style> trở lên, Chỉ số trọng yếu tấn công +1\n[EndSkill] Nhận <style=\"highlight\">7</style> [CuredFilm]\n[EndSkill] Nếu không có mục tiêu nào bị Hoảng loạn hoặc chết bởi sát thương của kỹ năng này, tự nhận sát thương bằng 20% HP tối đa và nhận lượng Khiên tương ứng\n- Không chết bởi hiệu ứng này. Khi kết thúc lượt, [CuredFilm] đạt giá trị tối đa và nhận 2 [AttackDmgUp] ở lượt kế tiếp (1 lần mỗi lượt)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Số lượt [Burst] tăng thêm 1</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây <style=\"highlight\">2</style> [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Chỉ thị: Meltdown",
+          "abName": "Kelsey",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\nVới mỗi <style=\"highlight\">6 điểm tổng số điểm và số lượt [Burst] của mục tiêu chính, Sức mạnh cơ bản +1 (Tối đa 2)</style>\n<style=\"highlight\">[BeforeAttack] Với mỗi 3 cộng hưởng tối đa, Chỉ số trọng yếu tấn công +1 (Tối đa 2)</style>\n[EndSkill] Nhận <style=\"highlight\">10</style> [CuredFilm]\n[EndSkill] Nếu không có mục tiêu nào bị Hoảng loạn hoặc chết bởi sát thương của kỹ năng này, tự nhận sát thương bằng 20% HP tối đa và nhận lượng Khiên bằng <style=\"highlight\">(giá trị × 2)</style>\n- Không chết bởi hiệu ứng này. Khi kết thúc lượt, [CuredFilm] đạt giá trị tối đa và nhận 2 [AttackDmgUp] ở lượt kế tiếp (1 lần mỗi lượt)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Gây 1 [Burst]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Số lượt [Burst] tăng thêm <style=\"highlight\">2</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnStartCoin] Nếu không có mục tiêu nào bị Hoảng loạn hoặc chết bởi sát thương của kỹ năng này, sát thương +30%</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây <style=\"highlight\">3</style> [Combustion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2021011,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Hồng Viêm Sát",
+          "abName": "Hồng Viêm Nga",
+          "desc": "[BeforeAttack] Với mỗi 10 tổng số điểm [Combustion] của tất cả mục tiêu bị tấn công và bản thân, Sức mạnh cuối cùng +1 (Tối đa 2)\n[EndSkill] Nhận 10 [Combustion], số lượt [Combustion] của bản thân tăng thêm 1\n[EndSkill] Nếu [Combustion] của bản thân từ 15 trở lên, nhận 1 [CrimsonDamageUp] ở lượt kế tiếp (1 lần mỗi lượt)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] Nếu [Combustion] của bản thân từ 15 trở lên, gây 1 [FaustFlameMothEmber] cho tất cả mục tiêu bị tấn công (1 lần mỗi lượt, trong Chiến đấu tập trung được tính là một bộ phận)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Hồng Viêm Sát",
+          "abName": "Hồng Viêm Nga",
+          "desc": "[BeforeAttack] Với mỗi 10 tổng số điểm [Combustion] của tất cả mục tiêu bị tấn công và bản thân, Sức mạnh cuối cùng +1 (Tối đa 2)\n[EndSkill] Nhận 10 [Combustion], số lượt [Combustion] của bản thân tăng thêm 1\n[EndSkill] Nếu [Combustion] của bản thân từ 15 trở lên, nhận 1 [CrimsonDamageUp] ở lượt kế tiếp (1 lần mỗi lượt)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [Combustion]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Gây [Combustion] bằng (Số cộng hưởng Phẫn nộ ÷ 2) (Tối đa 3, làm tròn xuống)</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] Nếu [Combustion] của bản thân từ 15 trở lên, gây 1 [FaustFlameMothEmber] cho tất cả mục tiêu bị tấn công (1 lần mỗi lượt, trong Chiến đấu tập trung được tính là một bộ phận)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Hồng Viêm Sát",
+          "abName": "Hồng Viêm Nga",
+          "desc": "[BeforeAttack] Với mỗi 10 tổng số điểm [Combustion] của tất cả mục tiêu bị tấn công và bản thân, Sức mạnh cuối cùng +1 (Tối đa 2)\n[EndSkill] Nhận 10 [Combustion], số lượt [Combustion] của bản thân tăng thêm 1\n[EndSkill] Nếu [Combustion] của bản thân từ 15 trở lên, nhận 1 [CrimsonDamageUp] ở lượt kế tiếp (1 lần mỗi lượt)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây [Combustion] bằng (Số cộng hưởng Phẫn nộ ÷ 2) (Tối đa 3, làm tròn xuống)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Số lượt [Combustion] tăng thêm bằng (Số cộng hưởng Phẫn nộ ÷ 3) (Tối đa 2, làm tròn xuống)</style>"
+                },
+                {
+                  "desc": "[EndCoin] Nếu [Combustion] của bản thân từ 15 trở lên, gây 1 [FaustFlameMothEmber] cho tất cả mục tiêu bị tấn công (1 lần mỗi lượt, trong Chiến đấu tập trung được tính là một bộ phận)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2021021,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Hồng Viêm Sát",
+          "abName": "Hồng Viêm Ngạ",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\n[BeforeAttack] Với mỗi 10 tổng số lượng [Combustion] của bản thân và tất cả mục tiêu bị tấn công, Sức mạnh Cuối +1 (Tối đa 2)\n[EndSkill] Nhận 10 [Combustion], số lượt [Combustion] của bản thân tăng thêm 1\n[EndSkill] Nếu [Combustion] của bản thân từ 25 trở lên, nhận 2 [CrimsonDamageUp] ở lượt tiếp theo (1 lần mỗi lượt)\n[EndSkill] Nếu HP đã mất của bản thân từ 50% trở lên, hồi 5 Tinh thần với mỗi 10 [Combustion] của bản thân (Tối đa 10)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lượt [Combustion] tăng thêm 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] Gây tổng cộng 3 [FaustFlameMothEmber] chia cho các mục tiêu ngẫu nhiên (1 lần mỗi lượt. Ngoại trừ mục tiêu có giá trị cao nhất, trong Trận chiến Tập trung được tính là một bộ phận)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Hồng Viêm Sát",
+          "abName": "Hồng Viêm Ngạ",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\n[BeforeAttack] Với mỗi 10 tổng số lượng [Combustion] của bản thân và tất cả mục tiêu bị tấn công, Sức mạnh Cuối +1 (Tối đa 2)\n[EndSkill] Nhận 10 [Combustion], số lượt [Combustion] của bản thân tăng thêm 1\n[EndSkill] Nếu [Combustion] của bản thân từ 25 trở lên, nhận 2 [CrimsonDamageUp] ở lượt tiếp theo (1 lần mỗi lượt)\n[EndSkill] Nếu HP đã mất của bản thân từ 50% trở lên, hồi 5 Tinh thần với mỗi 10 [Combustion] của bản thân (Tối đa 10)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lượt [Combustion] tăng thêm 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [Combustion]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Gây [Combustion] bằng (Số cộng hưởng Phẫn nộ ÷ 2) (Tối đa 3, làm tròn xuống)</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] Gây tổng cộng 3 [FaustFlameMothEmber] chia cho các mục tiêu ngẫu nhiên (1 lần mỗi lượt, ngoại trừ mục tiêu có giá trị cao nhất. Trong Trận chiến Tập trung được tính là một bộ phận)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Hồng Viêm Sát",
+          "abName": "Hồng Viêm Ngạ",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\n[BeforeAttack] Với mỗi 10 tổng số lượng [Combustion] của bản thân và tất cả mục tiêu bị tấn công, Sức mạnh Cuối +1 (Tối đa 2)\n[EndSkill] Nhận 10 [Combustion], số lượt [Combustion] của bản thân tăng thêm 1\n[EndSkill] Nếu [Combustion] của bản thân từ 25 trở lên, nhận 2 [CrimsonDamageUp] ở lượt tiếp theo (1 lần mỗi lượt)\n[EndSkill] Nếu HP đã mất của bản thân từ 50% trở lên, hồi 5 Tinh thần với mỗi 10 [Combustion] của bản thân (<style=\"highlight\">Tối đa 15</style>)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lượt [Combustion] tăng thêm 1"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Số lượt [Combustion] tăng thêm bằng (Số cộng hưởng Phẫn nộ ÷ 3) (Tối đa 2, làm tròn xuống)</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây [Combustion] bằng (Số cộng hưởng Phẫn nộ ÷ 2) (Tối đa 3, làm tròn xuống)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] Gây tổng cộng <style=\"highlight\">6</style> [FaustFlameMothEmber] chia cho các mục tiêu ngẫu nhiên (1 lần mỗi lượt, ngoại trừ mục tiêu có giá trị cao nhất. Trong Trận chiến Tập trung được tính là một bộ phận)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

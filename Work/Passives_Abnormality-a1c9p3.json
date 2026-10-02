@@ -1,0 +1,563 @@
+﻿{
+  "dataList": [
+    {
+      "id": 133303,
+      "name": "Iron Maiden - Khử rung tim",
+      "desc": "Khi rơi vào trạng thái Choáng, giải trừ trạng thái Choáng và kết thúc lượt này (1 lần mỗi trận)"
+    },
+    {
+      "id": 133101,
+      "name": "Toàn bộ yếu tố cơ thể của ta vốn đã nằm ở Tibia",
+      "desc": "Sát thương Máu/Tinh thần từ [Combustion], [Vibration], [Burst], [Sinking] -30%\nSát thương nhận từ [Laceration] -50%\n\nBắt đầu lượt, nếu ở trạng thái Choáng thì giải trừ Choáng. Sau đó, nhận [CrimsonTakeDamageUp] 2 và không thể sử dụng \"Nghệ thuật Sắp đặt số 3 『Xương sườn Tạm bợ』\" cho đến lượt sau (1 lần mỗi trận)"
+    },
+    {
+      "id": 133102,
+      "name": "Nghệ thuật Trung tâm Cơ thể",
+      "desc": "Khi xuất hiện, hồi 30 Tinh thần\n\nKhi Kĩ năng Tấn công trúng đích, nếu gây hiệu ứng bất lợi đồng thời nhận hiệu ứng có lợi, hồi 4 Tinh thần khi kết thúc tấn công\n- Khi hồi Tinh thần bằng hiệu ứng này, nếu Tinh thần bản thân đạt tối đa, nhận [ResultEnhancement] 1 vào lượt sau (1 lần mỗi lượt)",
+      "flavor": "Nghệ thuật tạo hình trận chiến bằng cách sử dụng xương và cơ bắp của đối phương tại hiện trường làm vật liệu, và theo tiến trình đó, ngay cả những mảnh xương nhỏ nhất cũng dần biến thành những vũ khí tinh xảo."
+    },
+    {
+      "id": 133103,
+      "name": "Mỹ học là vật liệu luôn phải được cung ứng và gia công ngay tại hiện trường",
+      "desc": "Khi kết thúc Kĩ năng, nếu đã gây sát thương bằng kĩ năng của bản thân, nhận [HumanBoneTheRings] 30, [HumanBloodTheRings] 1 với mỗi mục tiêu"
+    },
+    {
+      "id": 133104,
+      "name": "Tác phẩm cả đời, Tibia",
+      "desc": "Kết thúc lượt, nếu [HumanBoneTheRings] là 206 và [HumanBloodTheRings] là 5, giảm mỗi loại theo đúng giá trị đó và nhận [MineTheRings] 1\n\nBắt đầu lượt, nếu có [MineTheRings], sử dụng đòn tấn công mạnh trong lượt này\n\nTrước khi sử dụng đòn tấn công mạnh <color=#ff6000><mark=#ff000040><b><u>khi bị gây sát thương bởi Kĩ năng Tấn công, nhận [PlusCoinValueDown] 1, [ResultReduction] 1</u></b></mark></color> (1 lần mỗi kĩ năng, tối đa 3 lần mỗi lượt)",
+      "flavor": "Tibia, một kiệt tác được hoàn thành bằng cách dốc hết và mài giũa toàn bộ cơ thể của bản thân"
+    },
+    {
+      "id": 133105,
+      "name": "Nghệ thuật thỏa mãn",
+      "desc": "Khi [MineTheRings] biến mất, hồi 30 Tinh thần cho các mục tiêu dưới đây, và vào lượt sau các mục tiêu dưới đây nhận [AttackUp] 2, [DefenseUp] 2\n- Trưởng ngón Ngón Áp út - Callisto\n- Đồ đệ Ngón Áp út - Alvina\n- Kịch quan Cơ thể [TabExplain]"
+    },
+    {
+      "id": 133106,
+      "name": "Hãy thử quan sát buổi triển lãm của Đồ đệ một chút nhé",
+      "desc": "Nếu bản thân có [SupportProtect], <color=#ff6000><mark=#ff000040><b><u>khi bắt đầu Khớp lệnh giảm [SupportProtect] đi 1</u></b></mark></color> (1 lần mỗi kĩ năng)"
+    },
+    {
+      "id": 133107,
+      "name": "Khắc phục Cơ thể",
+      "desc": "Nếu Máu bản thân dưới 50%, giải trừ trạng thái Choáng và kết thúc lượt này\n- Bắt đầu lượt tiếp theo sau khi hiệu ứng này kích hoạt, lắp vào ô cuối cùng \"Bế mạc - Nghệ thuật Sắp đặt số 1 『Thịt và xương các ngươi vương vãi trở thành ghế khán giả』\""
+    },
+    {
+      "id": 133109,
+      "name": "Những vị khách đang chạy nhảy lung tung hãy ngồi vào ghế mà thưởng thức nhé",
+      "desc": "Kết thúc lượt, gây [RedemptionTheRings] cho Tù nhân và Người hỗ trợ có Tốc độ cao nhất vào lượt sau"
+    },
+    {
+      "id": 133201,
+      "name": "Giam cầm",
+      "desc": "Áp dụng hiệu ứng sau lên nhân vật kết nối với Kịch quan Cơ thể\n- Rơi vào trạng thái không thể hành động\n- Buff, Máu, Tinh thần không cập nhật"
+    },
+    {
+      "id": 133202,
+      "name": "Thu hoạch Vật liệu",
+      "desc": "Nếu Kịch quan Cơ thể bị tiêu diệt bởi Trưởng ngón Ngón Áp út, nhân vật kết nối sẽ rơi vào trạng thái mất khả năng chiến đấu"
+    },
+    {
+      "id": 133203,
+      "name": "Sống sót từ Nghệ thuật",
+      "desc": "Nếu Kịch quan Cơ thể bị tiêu diệt bởi nhân vật khác ngoài Trưởng ngón Ngón Áp út, kích hoạt các hiệu ứng sau\n- Lượt sau nhân vật kết nối quay trở lại chiến đấu, nếu Tinh thần dưới 10 thì Tinh thần trở thành 10\n- Trưởng ngón Ngón Áp út và Đồ đệ Ngón Áp út giảm 10 Tinh thần\n- Nhận thêm mỗi loại tài nguyên E.G.O 2 cái"
+    },
+    {
+      "id": 133204,
+      "name": "Vật liệu dễ cháy",
+      "desc": "Sát thương nhận từ [Combustion] tăng gấp 2 lần"
+    },
+    {
+      "id": 133601,
+      "name": "Mạch đập của cơ thể đã trở thành vật liệu",
+      "desc": "Mức độ tiến tới Ngưỡng Choáng, sát thương Máu/Tinh thần từ [Combustion], [Vibration], [Burst], [Sinking] -30%\nSát thương nhận từ [Laceration] -50%\n\nKết thúc lượt, với mỗi 4 [Combustion] của bản thân, nhận [DefenseDown] 1 vào lượt sau (Tối đa 15)",
+      "flavor": "Fascia được tạo ra từ máu và thịt của Alvina.\nMột Alvina chỉ còn bộ não, và một Fascia chỉ không có bộ não.\nĐặt ra câu hỏi rằng sự tồn tại nào mới sở hữu cơ thể thực sự."
+    },
+    {
+      "id": 133602,
+      "name": "Phái Cơ thể",
+      "desc": "Khi Kĩ năng Tấn công trúng đích, nếu gây hiệu ứng bất lợi đồng thời nhận hiệu ứng có lợi, hồi 4 Tinh thần\n- Khi hồi Tinh thần bằng hiệu ứng này, nếu Tinh thần bản thân đạt tối đa, nhận [Agility] 1 vào lượt sau (2 lần mỗi lượt)"
+    },
+    {
+      "id": 133603,
+      "name": "Tác phẩm trân quý, Fascia",
+      "desc": "Kết thúc lượt, nếu [HumanFleshTheRings] là 2, vào lượt sau sau khi [HumanFleshTheRings] biến mất, nhận [BoneBladeTheRings]\n\nBắt đầu lượt, nếu có [BoneBladeTheRings], sử dụng đòn tấn công mạnh trong lượt này\n\nTrước khi sử dụng đòn tấn công mạnh <color=#ff6000><mark=#ff000040><b><u>khi bị gây sát thương bởi Kĩ năng Tấn công, nhận [PlusCoinValueDown] 1, [ResultReduction] 1</u></b></mark></color> (1 lần mỗi kĩ năng, tối đa 3 lần mỗi lượt)"
+    },
+    {
+      "id": 133604,
+      "name": "Phòng trưng bày thì có những quy tắc thưởng thức riêng của nó",
+      "desc": "Nếu bản thân có [SupportProtect], <color=#ff6000><mark=#ff000040><b><u>khi bắt đầu Khớp lệnh giảm [SupportProtect] đi 1</u></b></mark></color> (1 lần mỗi kĩ năng)"
+    },
+    {
+      "id": 133606,
+      "name": "Trước mặt Maestro, ta sẽ chứng minh bằng tác phẩm",
+      "desc": "Khi Trưởng ngón Ngón Áp út xuất hiện, nếu Tinh thần bản thân dưới 20 thì Tinh thần trở thành 20"
+    },
+    {
+      "id": 132701,
+      "name": "Hình xăm Oán hận [<s>Đại ca</s>]",
+      "desc": "Sát thương nhận từ [Combustion], [Laceration], [Vibration], [Burst] -30% (Làm tròn xuống)\nMức độ tiến tới Ngưỡng Choáng nhận vào -50% (Làm tròn xuống)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": 132702,
+      "name": "Sổ tay Trả thù",
+      "desc": "Khi bắt đầu giai đoạn, gây [VengeanceBookSpider] cho toàn bộ Tù nhân và nhân vật LCD\n\nNếu số lượng kĩ năng trúng đích trong lượt này vượt quá 3, nhận [ReinforcedTattooSpider] vào lượt sau bằng với số lượng kĩ năng vượt quá",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": 132703,
+      "name": "Giáo dục con gái",
+      "desc": "Khi thắng Khớp lệnh, nhận [DaughterEducationSpider] 1\n\nKhi Kĩ năng trúng đích, nhận [DaughterEducationSpider] 1 (1 lần mỗi kĩ năng, không nhận nếu là đồng xu đã bị phá hủy)\n\nNếu kĩ năng sử dụng đầu tiên trong lượt thắng Khớp lệnh, nhận thêm [DaughterEducationSpider] 1, Sức mạnh Đồng xu của kĩ năng đó +1",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": 132704,
+      "name": "Oán hận",
+      "desc": "Khi bị gây sát thương bởi kĩ năng 2 lần, nhận [ResentmentSpider] 1, [DaughterEducationSpider] giảm 1 (Số lần bị gây sát thương được cộng dồn)\n\nNếu [ResentmentSpider] của bản thân đạt tối đa, sử dụng đòn tấn công mạnh\n\nKhi kết thúc lượt nếu Máu của bản thân dưới 80%, 60%, 40%, nhận [ResentmentSpider] ở mức tối đa",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": 132706,
+      "name": "???",
+      "desc": "???",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": 134101,
+      "name": "Công suất tối đa của Hình xăm Oán hận... Giải ấn Laevateinn!",
+      "desc": "Khi giải phóng [MiddleFatherSwordFour], nhận [MiddleFatherGuts]\n\nChỉ định mục tiêu là nhân vật đang sở hữu [MosesRedBreathCharge]",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": 132801,
+      "name": "Làm như thế này là được đúng không, ba!",
+      "desc": "Khi bắt đầu màn chơi, bắt đầu với [HeatingWireOffSpider]\n\nKhi bắt đầu lượt, nếu [GotACompliment] bản thân đang sở hữu từ 3 trở lên, trong lượt tương ứng sẽ thay cho [HeatingWireOnSpider], kĩ năng gây [Laceration] sẽ gây thêm [Combustion]\n\nKhi kết thúc lượt, nếu [GotACompliment] bản thân đang sở hữu ít hơn 3 thì [HeatingWireOnSpider] sẽ chuyển thành [HeatingWireOffSpider]",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "“Ba luôn khen ngợi con, còn mua cả truyện tranh cho con nữa, tuyệt nhất luôn.”"
+    },
+    {
+      "id": 132802,
+      "name": "Hình xăm kiểu Ngón Giữa",
+      "desc": "Trong lượt này nếu số kĩ năng đánh trúng vượt quá 2, nhận [ReinforcedTattooSpiderDaughter] vào lượt tiếp theo bằng với số kĩ năng vượt quá",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "“Liệu một ngày nào đó em cũng sẽ được Ngón Giữa công nhận là gia đình, và có thể sống mãi mãi cùng các chị và các anh không?”"
+    },
+    {
+      "id": 132803,
+      "name": "Đến cả Kira nếu được nịnh cũng biết leo cây",
+      "desc": "Khi thắng Thắng lợi đối đầu, nhận 1 [GotACompliment]\n\nKhi kĩ năng đánh trúng, nhận 1 [GotACompliment] (1 lần mỗi kĩ năng, không nhận nếu là Xu phá hủy)\n\nNếu kĩ năng sử dụng đầu tiên trong lượt thắng Thắng lợi đối đầu, nhận thêm 1 [GotACompliment], và kĩ năng đó được +1 Sức mạnh đồng xu",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": 132804,
+      "name": "Đã bảo là Ngón Giữa nhất định sẽ trả lễ mà",
+      "desc": "Khi nhận sát thương từ kĩ năng 2 lần, nhận 1 [ResentmentSpiderDaughter], giảm 1 [GotACompliment] (Số lần nhận sát thương được cộng dồn)\n\nNếu [ResentmentSpiderDaughter] của bản thân đạt tối đa, sử dụng đòn tấn công mạnh mẽ\n\nKhi kết thúc lượt nếu Máu của bản thân thấp hơn 80%, 60%, 40%, nhận [ResentmentSpiderDaughter] ở mức tối đa",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": 134201,
+      "name": "Làm như này là được đúng không, ba!",
+      "desc": "Khi bắt đầu màn chơi, bắt đầu với [HeatingWireOffSpider]\n\nKhi bắt đầu lượt, nếu [GotACompliment] bản thân đang sở hữu từ 3 trở lên, trong lượt tương ứng sẽ thay cho [HeatingWireOnSpider], kĩ năng gây [Laceration] sẽ gây thêm [Combustion]\n\nKhi kết thúc lượt, nếu [GotACompliment] bản thân đang sở hữu ít hơn 3 thì [HeatingWireOnSpider] sẽ chuyển thành [HeatingWireOffSpider]",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": 134202,
+      "name": "Cái đó... trông có vẻ thực sự nguy hiểm đúng không?",
+      "desc": "Khi Đại huynh Ngón Giữa sở hữu [MiddleFatherSwordFour], không rơi vào trạng thái [HeatingWireOffSpider]\n\nChỉ định mục tiêu là nhân vật sở hữu [MosesRedBreathCharge]",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Trực giác thú tính và thiên phú chiến đấu bẩm sinh của cô ta đang mách bảo theo bản năng.\nDù không biết cái đó là gì, nhưng nếu bị trúng đòn chắc chắn sẽ chết."
+    },
+    {
+      "id": 132601,
+      "name": "Cuộc chiến khổ cực",
+      "desc": "Bắt đầu trận chiến với trạng thái 20% Máu tối đa bị giảm [TabExplain]\nKhi bắt đầu màn chơi, nhận 2 [ResultReduction] trong 3 lượt",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Cuộc chiến với Đặc sắc chắc chắn đã làm hắn mạnh lên.\nChỉ cần có thể sống sót và biến trải nghiệm đó thành chất dinh dưỡng cho bản thân."
+    },
+    {
+      "id": 132602,
+      "name": "Tư thế đang sụp đổ",
+      "desc": "Nhận các hiệu ứng dưới đây tùy theo trị số [DuelEdge] (Áp dụng cộng dồn)\n- Mỗi 1 trị số, +10% Sát thương gây ra, +10% Sát thương nhận vào đối với mục tiêu bị chỉ định\n- Nếu từ 3 trở lên, khi đối đầu với mục tiêu bị chỉ định, +1 Sức mạnh đối đầu\n- Nếu từ 5 trở lên, khi đối đầu với mục tiêu bị chỉ định, +1 Sức mạnh cơ bản\n- Nếu từ 7 trở lên, khi đối đầu với mục tiêu bị chỉ định, +1 Sức mạnh đồng xu\n- Nếu từ 10 trở lên, khi đối đầu với mục tiêu bị chỉ định, +1 Sức mạnh cuối cùng",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": 132603,
+      "name": "Phấn đấu liều mình",
+      "desc": "Sau khi Cha Ngón Cái xuất hiện, không sử dụng nội tại 「Dấu ấn Săn đuổi」, và thêm các hiệu ứng dưới đây\n- Nếu Tinh thần thấp hơn 30, hồi phục Tinh thần đến 30\n- Khi bắt đầu lượt, nhận 3 [SupportProtect]\n<color=#ff6000><mark=#ff000040><b><u>- Có thể đối đầu bất kể tốc độ\n- Ưu tiên đối đầu với Vergilius</u></b></mark></color>\n- Khi Cha Ngón Cái thắng đối đầu, thực hiện đòn tấn công một chiều bằng 「Colpi Sottani」 khi kết thúc đòn tấn công tương ứng (2 lần mỗi lượt)",
+      "summary": "",
+      "undefined": "",
+      "flavor": "“Bây giờ, chẳng phải có thể giết được sao.”\n\nNhìn vị sư phụ đã chìm vào giấc ngủ, Lucio luôn bị mắc kẹt trong cùng một suy nghĩ.\nViệc không biến suy nghĩ đó thành hành động là do nỗi sợ hãi đã in hằn sâu sắc, và ơn nghĩa đã đưa mình ra khỏi ngõ sau.\nTuy nhiên, hận thù tích tụ lại quá sâu đậm. Dù nói rằng sẽ hết lòng tuân lệnh, nhưng Lucio đã thề.\nSau khi trận chiến này kết thúc, nhất định sẽ giết lão. Sẽ chém và đâm chết con mắt còn lại của lão.\nTrong đôi mắt của cậu thiếu niên đầy những vết bầm tím khắp người, lần đầu tiên sự sống bắt đầu trú ngụ."
+    },
+    {
+      "id": 132604,
+      "name": "Dấu ấn Săn đuổi",
+      "desc": "Chỉ định 1 kẻ địch ngẫu nhiên, đưa Tốc độ về 1 và chỉ định làm mục tiêu cho toàn bộ kĩ năng\nSau đó, kích hoạt mỗi 4 lượt",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": 132606,
+      "name": "Duello Disperato",
+      "desc": "Khi kết thúc đối đầu, gây 1 [DuelEdge] cho mục tiêu đã đối đầu\nKhi đối đầu với mục tiêu có [DuelEdge], mỗi 1 trị số [DuelEdge] của mục tiêu giúp tăng 2 Tinh thần (Tối đa 10)"
+    },
+    {
+      "id": 131401,
+      "name": "Nhãn Dự tri",
+      "desc": "Khi xuất hiện trên màn chơi, nhận 30 [FutureEyeOn]\nKhi trị số [FutureEyeOn] về 0, [FutureEyeOn] chuyển thành [FutureEyeOff]",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Di vật được gọi là Con mắt của Odin này, thực chất là một trong những mảnh vỡ của một di vật bị chia làm ba."
+    },
+    {
+      "id": 131402,
+      "name": "Tương lai gia tốc",
+      "desc": "Khi đối đầu, <color=#ff6000><mark=#ff000040><b><u>nhận 1 [LookingFuture] mỗi lần đối đầu</u></b></mark></color>\n[LookingFuture] có thể nhận được mỗi lượt lên đến ([FutureEyeOn] sở hữu khi bắt đầu lượt ÷ 3)\nKhi có [FutureEyeOn], <color=#ff6000><mark=#ff000040><b><u>kích hoạt kĩ năng 「Dự tri」 khi bị tấn công một chiều hoặc khi thua đối đầu</u></b></mark></color>",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "“Thanh kiếm này càng giao đấu sẽ càng tích nhiệt, và sẽ tiếp tục gia tốc cho đến khi đạt tới tương lai mà ta đã thấy.”"
+    },
+    {
+      "id": 131408,
+      "name": "Quá tải",
+      "desc": "Giảm [FutureEyeOn] theo các điều kiện dưới đây\n- Nếu không nhận được [LookingFuture], mỗi đòn đối đầu giảm 1 [FutureEyeOn]\n- Khi bị tấn công một chiều, giảm 1 [FutureEyeOn]\n- Khi thua đối đầu, giảm 3 [FutureEyeOn]",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "“Đôi mắt đau nhức, nóng ran, và tầm nhìn nhuộm một màu đỏ rực.”"
+    },
+    {
+      "id": 131405,
+      "name": "Palermo Spada",
+      "desc": "Mỗi 1 Bỏng trên mục tiêu chính, +15% Sát thương gây ra lên lớp bảo vệ (Tối đa 300%)\nKhi sử dụng kĩ năng, nếu kĩ năng tấn công của đối phương thuộc thuộc tính Chém hoặc Đâm, +1 Sức mạnh đối đầu\nNếu [VibrationExplosion] kích hoạt bởi hiệu ứng kĩ năng của bản thân, nhận 2 [AttackDmgUp] vào lượt tiếp theo (3 lần mỗi lượt)\nNếu kĩ năng của bản thân kích hoạt Chí mạng, hồi 5 Tinh thần",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": 131404,
+      "name": "Nỗi nhục của nhà Bognatelli",
+      "desc": "-30% lượng giảm Máu, Tinh thần và tiến trình vùng Hoảng loạn do [Combustion]·[Laceration]·[Vibration]·[Burst]·[Sinking] gây ra\nNếu [AccelBullet] từ 1 trở lên, +30% Sát thương của kĩ năng tiêu hao [AccelBullet], +150% Sát thương gây ra lên lớp bảo vệ\nMỗi 1 trị số [AccelBullet] tiêu hao, nhận 4 [Breath]\nKhi tung đồng xu tiêu hao [AccelBullet], không hủy bỏ tấn công ngay cả khi không có Đạn gia tốc",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "“Đã được truyền dạy Palermo, kế thừa cả bảo vật gia đình, vậy mà lại phô ra bộ dạng thảm hại như thế này sao.”\n“Di vật và thanh kiếm ngươi kế thừa đã ám mùi hôi thối từ sự ô nhục của ngươi, nên ta sẽ không thu hồi chúng.”\n“Kẻ bị bãi nhiệm chỉ sau ba ngày thăng chức lên Underboss, chắc chỉ có mỗi ngươi thôi, Valentina.”\n“Ngươi là nỗi nhục của gia tộc. Bognatelli sẽ tước đoạt tình thương khỏi ngươi.”"
+    },
+    {
+      "id": 131409,
+      "name": "Sin (Tâm) - Valentina",
+      "desc": "Khi nhận sát thương, hoặc nếu 「Chân tay Ngón Cái - Lucio」 bị tiêu diệt, nhận [ObsessionAndGreed] vào lượt tiếp theo",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "“Phù... rốt cuộc là cứ đột nhập vào rồi quậy phá một trận theo đúng kế hoạch mà gã cuồng tín kia đã lập ra là được chứ gì... Làm thế này thì vé sẽ thực sự quay lại chứ?”"
+    },
+    {
+      "id": 131406,
+      "name": "Lucio, đồ vô dụng",
+      "desc": "Nếu 「Chân tay Ngón Cái - Lucio」 bị tiêu diệt, kích hoạt nội tại 「Giờ Săn bắn」",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": 131410,
+      "name": "Giờ Săn bắn",
+      "desc": "Khi bắt đầu lượt, nếu đang ở trạng thái Hoảng loạn thì giải trừ Hoảng loạn\n\nChỉ định 1 tù nhân ngẫu nhiên, gây [TeachersPrey]\n- Sau đó, kích hoạt 1 lần mỗi 4 lượt\n- Khi tiêu diệt mục tiêu bằng kĩ năng 「Xử lý」, kích hoạt lại vào lượt tiếp theo",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Palermo là kiếm thuật thể hiện nguyên vẹn khí chất của nhà Bognatelli.\nChỉ nhắm vào một con mồi duy nhất một cách ngoan cố, săn lùng và xẻ thịt. Sự lén lút bị loại bỏ. Với danh dự và sự đường hoàng, giết chết đối phương trước mắt mọi người.\nKiếm thuật hoa lệ đó đã tạo ra vô số vinh quang, đưa nhà Bognatelli lên hàng ngũ bảy đại danh môn của Ngõ Sau.\nValentina, người đã hoàn toàn làm chủ Palermo, đã lấy đầu của vô số sĩ quan và binh lính kỳ cựu trong Chiến tranh Khói lửa, trở thành một trong những anh hùng của cuộc chiến này.\nNhưng, ai có thể ngờ được. Rằng danh tiếng đó lại trở thành xiềng xích của cô ta."
+    },
+    {
+      "id": 134501,
+      "name": "Mọi yếu tố cơ thể của tôi đã hướng về Tibia",
+      "desc": "-30% lượng giảm Máu, Tinh thần và tiến trình vùng Hoảng loạn do [Combustion]·[Vibration]·[Burst]·[Sinking] gây ra\n-50% Sát thương nhận vào từ [Laceration]\n\nKhi bắt đầu lượt, nếu đang ở trạng thái Hoảng loạn thì giải trừ Hoảng loạn. Sau đó, nhận 2 [CrimsonTakeDamageUp] (1 lần mỗi trận chiến)\n\nKhi kết thúc lượt, với mỗi 4 [Combustion] của bản thân, nhận 1 [DefenseDown] vào lượt tiếp theo (Tối đa 15)",
+      "flavor": "「Kiệt tác mà những Ngón Tay hằng mong đợi, cũng là lý do tồn tại của Mạng Nhện, có vẻ như sắp hoàn thành rồi.\nCành Vàng tuy là một vật phẩm thú vị, nhưng thực tế nó không phải là nguyên liệu cần thiết để hoàn thiện tác phẩm.\nLý do tại sao hắn lại mang nó đi cho đến mức biến Limbus Company thành kẻ thù thì tôi vẫn chưa rõ...\nNhưng vì kết quả đã chắc chắn, nên tôi đành phải chấp nhận quá trình hỗn loạn này thôi.\nChuỗi tình huống này là điều mà Lian... không, là vị Thần mà gã đó sùng bái mong muốn.\nViệc nhận được toàn bộ tình yêu của một tồn tại được gọi là Thần, rốt cuộc là phước lành hay là lời nguyền đây. Hư hư.」"
+    },
+    {
+      "id": 134502,
+      "name": "Phái Thể Xác",
+      "desc": "Khi Kĩ năng tấn công trúng đích, nếu gây hiệu ứng giảm đồng thời nhận hiệu ứng tăng, hồi 4 Tinh thần khi kết thúc tấn công\n- Khi hồi Tinh thần bằng hiệu ứng này, nếu Tinh thần của bản thân đang ở mức tối đa, nhận 1 [ResultEnhancement] vào lượt tiếp theo (1 lần mỗi lượt)"
+    },
+    {
+      "id": 134506,
+      "name": "Cùng quan sát cuộc triển lãm của đàn em một lát nào",
+      "desc": "Nếu bản thân có [SupportProtect], <color=#ff6000><mark=#ff000040><b><u>giảm 1 [SupportProtect] khi bắt đầu Đối kháng</u></b></mark></color> (1 lần mỗi kĩ năng)"
+    },
+    {
+      "id": 134509,
+      "name": "Nguyên liệu tốt đến từ thân xác tốt",
+      "desc": "Nhân vật này gây thêm 150% sát thương lên Nhà tù và Người hỗ trợ có cấp độ cao nhất, đồng thời ưu tiên tấn công đối tượng đó",
+      "flavor": "「Nhưng mà, nếu cảm quan nghệ thuật đã trưởng thành ở một mức độ nào đó, thì tốt nhất là nên nhắm vào những thân xác ưu tú nhất trước.」\n「Vì dựa trên những mảnh thịt và mẩu xương được gọt ra từ một thân xác chất lượng, chúng ta có thể nắm bắt được quy mô của tác phẩm một cách to lớn hơn.」\n「Cô có thấy phấn khích không, Albina?」"
+    },
+    {
+      "id": 134510,
+      "name": "Tác phẩm để đời, Tibia",
+      "desc": "Khi kết thúc lượt, nếu [HumanBoneTheRings] là 206 và [HumanBloodTheRings] là 5, mỗi loại giảm đi theo giá trị tương ứng và nhận 1 [MineTheRings]\n\nKhi bắt đầu lượt, nếu có [MineTheRings], sử dụng đòn tấn công mạnh trong lượt này\n\nTrước khi sử dụng đòn tấn công mạnh, <color=#ff6000><mark=#ff000040><b><u>khi nhận sát thương bằng Kĩ năng tấn công, nhận 1 [PlusCoinValueDown], 1 [ResultReduction]</u></b></mark></color> (1 lần mỗi kĩ năng, tối đa 3 lần mỗi lượt)",
+      "flavor": "Lực tác Tibia được hoàn thành bằng cách dồn hết thể xác của bản thân để gọt giũa"
+    },
+    {
+      "id": 134604,
+      "name": "Trong triển lãm thì phải có quy tắc thưởng thức riêng của triển lãm chứ",
+      "desc": "Nếu bản thân có [SupportProtect], <color=#ff6000><mark=#ff000040><b><u>giảm 1 [SupportProtect] khi bắt đầu Đối kháng</u></b></mark></color> (1 lần mỗi kĩ năng)"
+    },
+    {
+      "id": 134605,
+      "name": "Tuyển chọn nguyên liệu",
+      "desc": "Nhân vật này ưu tiên tấn công Nhà tù và Người hỗ trợ có cấp độ thấp nhất",
+      "flavor": "「Phải lấy từ cơ bắp và xương của người yếu nhất mới được.」\n「Tuy đó là những nguyên liệu tầm thường, nhưng nếu cứ tạo ra và trưng bày từng tác phẩm như vậy, chúng ta chắc chắn sẽ có được những nguyên liệu tốt hơn.」\n「Cô không thấy phấn khích sao, Fascia?」"
+    },
+    {
+      "id": 132218,
+      "name": "132218",
+      "desc": "(Nội tại không sử dụng)",
+      "flavor": ""
+    },
+    {
+      "id": 132214,
+      "name": "Dư ảnh tương lai",
+      "desc": "Sử dụng kĩ năng 「Đối phương xác định」 vào các lượt nhất định\n<color=#ff6000><mark=#ff000040><b><u>Chỉ mục tiêu được chỉ định làm đối tượng tấn công mới có thể Đối kháng với kĩ năng tương ứng</u></b></mark></color>\n\nNếu kĩ năng 「Đối phương xác định」 của bản thân thua Đối kháng, nhận 36-60 sát thương cố định\n\nKhi kết thúc lượt, nếu <color=#ff6000><mark=#ff000040><b><u>toàn bộ kĩ năng 「Đối phương xác định」 đã sử dụng trong lượt này đều thua Đối kháng</u></b></mark></color>, nhận 1 [Vulnerable] vào lượt tiếp theo"
+    },
+    {
+      "id": 132217,
+      "name": "132217",
+      "desc": "(Nội tại không sử dụng)"
+    },
+    {
+      "id": 132219,
+      "name": "Thiên Sát Tinh Thương",
+      "desc": "Khi bắt đầu giai đoạn, nhận [LvDownLittleFingerBossTwo], 4 [TimeEntangleUnstable]"
+    },
+    {
+      "id": 132222,
+      "name": "Từ bình minh đến hoàng hôn",
+      "desc": "Khi bắt đầu lượt, nếu Tinh thần từ 0 trở lên, nhận 1 [SojiAbiAgeFuture]\nMỗi 2 điểm Tinh thần cao hơn 0, nhận 1 [SojiAbiAgeFuture]\n\nKhi bắt đầu lượt, nếu Tinh thần thấp hơn 0, nhận 1 [SojiAbiAgePast]\nMỗi 2 điểm Tinh thần thấp hơn 0, nhận 1 [SojiAbiAgePast]",
+      "flavor": "Khi quá khứ, hiện tại và tương lai chồng lấp lên nhau, sự phân biệt thời gian mất đi ý nghĩa, dù là lúc còn thơ ấu hay bất kỳ thời điểm nào đã trải qua, mọi khoảnh khắc đều được triệu gọi về một nơi."
+    },
+    {
+      "id": 132223,
+      "name": "Phân tách dư ảnh thời không",
+      "desc": "Khi kết thúc lượt, mỗi 5 điểm chênh lệch so với Tinh thần lúc bắt đầu lượt này, tăng 1 [TimeEntangleUnstable] (Tăng tối đa 5 mỗi lượt)\nMỗi khi nhận tổng cộng 100 sát thương, giảm 1 [TimeEntangleUnstable] (Tính cả sát thương lên Khiên)",
+      "flavor": "「Mỗi khi từng lớp dư ảnh bao quanh tôi bong tróc ra, cảm giác mất mát và giải phóng đồng thời ập đến.」"
+    },
+    {
+      "id": 133701,
+      "name": "Ý nghĩa của Chỉ thị",
+      "desc": "Khi bắt đầu giai đoạn, nhận Khiên bằng 20% Máu tối đa (duy trì trong suốt trận chiến này)\n\nKhi bắt đầu lượt\n- Nhận [IndexPrescript_Base_2nd] tùy theo cấp độ [UnlockBuff_Base]\n- Gây [IndexPrescriptTargetToPersonality] lên một kẻ địch ngẫu nhiên và ưu tiên tấn công (ngoại trừ một số mô thức nhất định)\n\nMỗi 1 [BlessingOfIndexPrescriptEnemy], Sát thương gây ra lên mục tiêu có [IndexPrescriptTargetToPersonality] +2.5% (Tối đa 20%)\n- Nếu [BlessingOfIndexPrescriptEnemy] là 9, thay vào đó Sát thương gây ra lên toàn bộ mục tiêu +30%",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": 133702,
+      "name": "Thực thi Chỉ thị",
+      "desc": "Nếu đã thực hiện [IndexPrescript_Base_2nd] trong lượt này,\n\nKhi kết thúc lượt, hồi 15 Tinh thần, nhận (cấp độ [UnlockBuff_Base] + 1) [BlessingOfIndexPrescriptEnemy] (1 lần mỗi lượt)\n\nNếu không thể thực hiện [IndexPrescript_Base_2nd] trong lượt này,\nKhi kết thúc lượt, nhận 1 [PressureOfPrescript], 10 [KarmaOfIndexStudent]\n- Nếu cấp độ [UnlockBuff_Base] thấp hơn 2, nhận 1 [BlessingOfIndexPrescriptEnemy] khi kết thúc lượt\n- Nếu [BlessingOfIndexPrescriptEnemy] là 9, không nhận [KarmaOfIndexStudent]\n\n- Mỗi khi nhận [PressureOfPrescript], nhận một lượng [EsteemNeeds] bằng với giá trị đó",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": 133703,
+      "name": "Giải Khai",
+      "desc": "Khi kết thúc lượt, nếu [BlessingOfIndexPrescriptEnemy] là 6/9 hoặc Máu dưới 80%/60%,\n- Nhận [UnlockBuff_2]/[UnlockBuff_3]\n- Tinh thần tăng lên 45\n- Tiêu thụ toàn bộ [PressureOfPrescript] đang có, giải trừ Choáng\n\nKhi nhận [UnlockBuff_Base] bằng điều kiện Máu,\n- Nhận một lượng [KarmaOfIndexStudent] bằng (Tinh thần đã tăng ÷ 15)\n- Nếu [BlessingOfIndexPrescriptEnemy] thấp hơn 6/9, thay đổi thành 6/9\nMỗi 1 đơn vị giá trị tăng thêm, nhận 1 [DefenseDown], 2 [KarmaOfIndexStudent] vào đầu lượt tiếp theo\n\nTốc độ tối đa và tối thiểu +10 vào lượt sử dụng đòn tấn công mạnh",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": 133704,
+      "name": "Khai hoa E.G.O::Đại diện",
+      "desc": "Tiến hành trận chiến trong trạng thái Khai hoa [TabExplain] E.G.O::Đại diện trong suốt trận chiến này\n- Khi bắt đầu giai đoạn, nhận [UnlockBuff_1], 3 [BlessingOfIndexPrescriptEnemy]\n- Thay đổi kháng tính trong suốt trạng thái tương ứng, nhận [Blandishment_Enemy]\n- Tinh thần không giảm xuống dưới 0",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": 133705,
+      "name": "Đắm mình",
+      "desc": "Nếu nhận [UnlockBuff_3], áp dụng các hiệu ứng sau\n- Nhận [Blandishment_Shin_Enemy] và Khiên bằng 50% Máu tối đa (duy trì trong suốt trận chiến này)\n- [PressureOfPrescript] thay đổi thành [PressureOfPrescript_2nd] và tăng đến tối đa\n- Khi bắt đầu lượt, nhận 1 [PressureOfPrescript_2nd]",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": 133801,
+      "name": "Chỉnh Kiếm",
+      "desc": "Khi bắt đầu giai đoạn, nhận 50 [DicipleLittleFinger]"
+    },
+    {
+      "id": 133802,
+      "name": "Tu hành để được ban danh hiệu Sao",
+      "desc": "Khi kết thúc Kĩ năng tấn công, gây sát thương Trảm kích lên mỗi mục tiêu bằng (Số lượng đồng xu Trảm kích trúng Chí mạng × 10) (Sát thương này không gây Choáng)"
+    },
+    {
+      "id": 133803,
+      "name": "Tinh Thần Nhất Đáo",
+      "desc": "Số lượng [Breath] bị giới hạn tối đa là 25\nLượng [Breath] nhận vượt quá 25 sẽ được chuyển đổi thành [DicipleLittleFinger]\n\nMỗi khi [DicipleLittleFinger] giảm đi, nhận một lượng [Fugacious] bằng với giá trị đó"
+    },
+    {
+      "id": 133804,
+      "name": "Tĩnh Niệm",
+      "desc": "Nếu bản thân có [DicipleLittleFinger], áp dụng các hiệu ứng sau:\n- Tinh thần không giảm xuống dưới 0. Nếu thấp hơn 0 thì trở thành 0\n- Sát thương Tinh thần nhận vào chuyển thành sát thương hệ U sầu (Ngoại trừ các điều kiện tăng giảm Tinh thần cơ bản)"
+    },
+    {
+      "id": 133805,
+      "name": "Ơn nghĩa",
+      "desc": "Khi tiến hành Đối kháng với đối tượng không phải Ryoshu, Sức mạnh Đối kháng -2\nSát thương nhận vào từ đối tượng không phải Ryoshu -20%"
+    },
+    {
+      "id": 133901,
+      "name": "Thần dân của Hoàng đế",
+      "desc": "Khi bắt đầu lượt, nhận 50 [DefenseBug] (Giá trị nhận mỗi lượt giảm 3, giảm tối đa 20)\n- Nếu bản thân có [Bỏng] · [Xuất huyết] · [Chấn động] · [Bộc phát] · [Trầm luân],\n<color=#ff6000><mark=#ff000040><b><u>giảm Sức mạnh một cách ngẫu nhiên, và [DefenseBug] giảm đi một lượng bằng với giá trị đã giảm đó</u></b></mark></color>\n- Nếu Sức mạnh của hiệu ứng tương ứng là 1 và Số lượng từ 2 trở lên, Số lượng sẽ giảm thay vì Sức mạnh\n\nTrong trận chiến, <color=#ff6000><mark=#ff000040><b><u>nếu [DefenseBug] đã giảm hết,</u></b></mark></color> áp dụng hiệu ứng sau vào lượt tiếp theo\n- Nhận 10 [DefenseDown] thay vì [DefenseBug]\n- Tạo mỗi loại 2 tài nguyên E.G.O thuộc 3 hệ mà kẻ địch có ít nhất\n- Khi kết thúc lượt, loại bỏ toàn bộ hiệu ứng giảm của bản thân. Nhận [DefenseBug]",
+      "flavor": "Cho dù ở bất cứ đâu, bất kỳ lúc nào, chúng đều bò ra từ những đường thẳng nơi các mặt giao nhau."
+    },
+    {
+      "id": 133902,
+      "name": "Áo Choàng Hoàng Đế",
+      "desc": "Khi bắt đầu lượt, nhận Lá chắn bằng ([DefenseBug] × 40)",
+      "flavor": "Đàn gián chỉ di chuyển vì một vị hoàng đế duy nhất."
+    },
+    {
+      "id": 133903,
+      "name": "Quân Đội Hoàng Đế",
+      "desc": "- Khi thắng đấu kiếm, gây [OffenseBug] 3 cho mục tiêu\n- Khi kĩ năng trúng đích, gây [OffenseBug] 1 cho mục tiêu",
+      "flavor": "Chui vào, thấm vào, thẩm thấu, gặm nhấm, xé toạc, ngấu nghiến."
+    },
+    {
+      "id": 133904,
+      "name": "Máu Của Hoàng Đế",
+      "desc": "Lượng đẩy mốc Choáng, Sát thương Máu và Tinh thần gây ra bởi [Combustion]・[Laceration]・[Vibration]・[Burst]・[Sinking] -50%\nSát thương tương ứng không gây Choáng\nVới mỗi 25% Máu đã mất của bản thân, nhận [ResultReduction] 2 khi bắt đầu lượt",
+      "flavor": "「Thích nghi với mọi thứ, và trở nên lì lợm.」"
+    },
+    {
+      "id": 133905,
+      "name": "Vỏ Bọc Đã Bị Xé",
+      "desc": "Tỉ lệ mặt ngửa đồng xu cố định ở 50% bất kể Tinh thần\n\n<color=#ff6000><mark=#ff000040><b><u>Khi thắng đấu kiếm với Tù nhân,</u></b></mark></color> Tinh thần giảm 5, Sát thương gây ra cho Tù nhân -40%\n\n<color=#ff6000><mark=#ff000040><b><u>Khi rơi vào trạng thái Suy giảm chí khí hoặc Hoảng loạn,</u></b></mark></color> nhận [ParryingResultDown], [ResultReduction]\nNhận [ResultReduction] 2 khi giải trừ trạng thái Hoảng loạn",
+      "flavor": "「Nhưng, liệu thế này đã thực sự xé toạc được tất cả chưa?」"
+    },
+    {
+      "id": 133906,
+      "name": "Cơn Thịnh Nộ Của Hoàng Đế",
+      "desc": "Khi Máu còn 50% hoặc rơi vào trạng thái Choáng, giải trừ trạng thái Choáng và các hiệu ứng bất lợi đang chịu rồi thay đổi kịch bản chiến đấu\nSau đó áp dụng các hiệu ứng dưới đây\n- Tinh thần trở về 0\n- Nhận [DefenseBug] 50\n- Lượng [OffenseBug] gây ra từ Nội tại 「Quản Đội Hoàng Đế」 tăng gấp đôi"
+    },
+    {
+      "id": 134701,
+      "name": "Quản Đốc Ngón Trỏ Lien",
+      "desc": "<color=#ff6000><mark=#ff000040><b><u>Sát thương nhận vào từ Đòn đánh một chiều -50%</u></b></mark></color>\nSát thương nhận vào từ [Vibration]・[Burst]・[Sinking] -50%\nKhi hồi phục Tinh thần bằng [UnlockBuff_Base], nếu Tinh thần dưới 0 thì hồi phục Tinh thần về 0\n\nKhi bắt đầu giai đoạn, nhận [BurningWoundRien_Mask]\n\nNếu Máu dưới 55%, chuyển giai đoạn\n- Mọi hiệu ứng ngoại trừ hiệu ứng đặc hữu của bản thân biến mất\n- Số lượng [StackRienSpecialSkill] khởi tạo về 0",
+      "flavor": "Đúng như Chỉ thị đã nói, ta đã chờ đợi thời khắc đó.\nNgay cả sau khi con gái rời đi, ta vẫn chờ, vẫn tiếp tục chờ đợi.\n\nRồi một ngày, liên lạc từ Công ty Limbus truyền đến, và cửa sau đã mở.\nKể từ đó thiết bị đầu cuối vang lên, ta biết đã đến lúc đi đón con gái mình."
+    },
+    {
+      "id": 134702,
+      "name": "Thiết Bị Đầu Cuối Thần Truyền [Caduceus]",
+      "desc": "<color=#ff6000><mark=#ff000040><b><u>Vũ khí được quyết định ngẫu nhiên theo mỗi đồng xu, áp dụng hiệu ứng đặc biệt</u></b></mark></color>\n- [RienWeapon01Hatchet]\n- [RienWeapon02Stiletto]\n- [RienWeapon03Greatsword]\n- [RienWeapon04Rapier]\n- [RienWeapon05Sledgehammer]\n- [RienWeapon06Ultragreatsword]\n- [RienWeapon07Lance]\n- [RienWeapon08Chain]\n- [RienWeapon09Scythe]\n\nKhi sử dụng kĩ năng Tấn công, nhận [StackRienSpecialSkill] 1 (Tối đa 9)\n- Có thể nhận 1 lần mỗi kĩ năng (Không thể nhận quá 2 với cùng một kĩ năng)\n\n<color=#ff6000><mark=#ff000040><b><u>Khi bắt đầu lượt, nếu [StackRienSpecialSkill] là 9, sử dụng kĩ năng mạnh mẽ</u></b></mark></color>\n- Khi kết thúc tấn công sau lần đầu sử dụng, nhận [Shin_Rien]\n- Tình trạng tích lũy [StackRienSpecialSkill] khởi tạo theo loại kĩ năng\n- Giá trị Tốc độ tối thiểu/tối đa +25\n- Khi kết thúc lượt, lượt kế tiếp nhận [Vulnerable] 1, [ResultReduction] 2\n\nKhi bắt đầu lượt 5, nếu [StackRienSpecialSkill] dưới 9 thì tăng lên 9, nhận [KarmaOfIndexRien] bằng (lượng tăng × 5)\n- Kể từ đó, hiệu ứng này kích hoạt mỗi 4 lượt",
+      "flavor": "Bên trong thiết bị đầu cuối chứa một loại chất lỏng giống như kim loại, có thể thay đổi hình dạng và khối lượng bằng cách sử dụng công nghệ tương tự như Đặc dị điểm.\nChất lỏng này thay đổi hình dạng theo Chỉ thị mà thiết bị nhận được, và chuyển đổi thành vũ khí phù hợp với thông tin của đối tượng cần ám sát hoặc giới hạn thời gian được đưa ra.\nMột ngày nọ, vì được giao một con dao găm quá nhỏ nên đã đợi nó đổi thành vũ khí khác, nhưng cho đến khi giới hạn thời gian ám sát cận kề, vẫn không có vũ khí nào khả quan xuất hiện. Cuối cùng, thứ hiện ra sau khi chờ đợi đến cùng lại là một chiếc nĩa, vì vậy đã phải giết mục tiêu bằng chiếc nĩa đó."
+    },
+    {
+      "id": 134703,
+      "name": "Ý Nghĩa Của Chỉ Thị",
+      "desc": "Khi bắt đầu lượt,\n- Nhận [IndexPrescript_Base_2nd] tùy theo Cấp của [UnlockBuff_Base]\n- Gây [IndexPrescriptTargetToPersonality] cho một Tù nhân ngẫu nhiên trừ Ryoshu, và ưu tiên tấn công\n<color=#ff6000><mark=#ff000040><b><u>- Mọi đồng xu của kĩ năng sử dụng lên [IndexPrescriptTargetToPersonality] đều được đổi thành [SuperCoin]</u></b></mark></color>\n・Trường hợp [IndexPrescriptTargetToPersonality] tử vong hoặc không thể tấn công mục tiêu,\n<color=#ff6000><mark=#ff000040><b><u>sử dụng những kĩ năng còn lại lên 1 Tù nhân ngẫu nhiên trừ Ryoshu\n(Ưu tiên đối tượng có Máu hiện tại thấp nhất)</u></b></mark></color>\n・Khi toàn bộ Tù nhân khác tử vong, gây cho Ryoshu\n\nVới mỗi 1 Số lượng [BlessingOfIndexPrescriptEnemy], Sát thương gây ra cho [IndexPrescriptTargetToPersonality] +2.5% (Tối đa 20%)\n- Nếu Số lượng [BlessingOfIndexPrescriptEnemy] là 9, thay vào đó Sát thương gây ra cho mọi mục tiêu +30%",
+      "flavor": "Người mong muốn tôi xây dựng một gia đình sao.\n\n\"Tại sao em lại có thể gặp được một người chồng định mệnh như anh nhỉ.\""
+    },
+    {
+      "id": 134704,
+      "name": "Chấp Hành Chỉ Thị",
+      "desc": "Nếu đã chấp hành [IndexPrescript_Base_2nd] trong lượt này,\nhồi phục 10 Tinh thần khi kết thúc lượt, nhận [BlessingOfIndexPrescriptEnemy] 3 (1 lần mỗi lượt)\n\nNếu <color=#ff6000><mark=#ff000040><b><u>không thể chấp hành [IndexPrescript_Base_2nd] trong lượt này,\nkhi kết thúc lượt nhận [KarmaOfIndexRien] 8, và\nTù nhân từng chịu [IndexPrescriptTargetToPersonality] nhận [ParryingResultUp] 1 vào lượt kế tiếp</u></b></mark></color>\n- Nếu không có [UnlockBuff_Base], nhận [BlessingOfIndexPrescriptEnemy] 1 khi kết thúc lượt\n- Nếu [BlessingOfIndexPrescriptEnemy] là 9, không thể nhận [KarmaOfIndexRien]",
+      "flavor": "Người mong muốn tôi mất đi gia đình sao.\n\n\"Em yêu. Anh đi lên phía Bắc một chút đây.\"\n\"Vâng. Chiều nay sẽ có hàng giao đến, con nhận thay bố được không? Con gái yêu của bố.\""
+    },
+    {
+      "id": 134705,
+      "name": "Giải Ấn",
+      "desc": "Khi kết thúc lượt, nếu [BlessingOfIndexPrescriptEnemy] đạt 3/6/9 hoặc Máu dưới 95%/85%/75% dưới đây, nhận [UnlockBuff_Rien1]/[UnlockBuff_Rien2]/[UnlockBuff_Rien3]\n\nKhi lượt 1 kết thúc, nếu cấp độ [UnlockBuff_Base] dưới 1 thì nhận [UnlockBuff_Rien1]\nKhi lượt 4 kết thúc, nếu cấp độ [UnlockBuff_Base] dưới 2 thì nhận [UnlockBuff_Rien2]\n\nKhi [UnlockBuff_Base] do điều kiện Máu hoặc lượt,\n- Nếu [BlessingOfIndexPrescriptEnemy] dưới 3/6/9, đổi thành 3/6/9\nVới mỗi 1 giá trị tăng lên, nhận [KarmaOfIndexRien] 10 khi bắt đầu lượt kế tiếp",
+      "flavor": "「Nếu cứ tiến bước theo Chỉ thị, những thứ đang bị phong tỏa rồi sẽ được hóa giải.」"
+    },
+    {
+      "id": 134801,
+      "name": "Quản Đốc Lien [Bản Sao]",
+      "desc": "<color=#ff6000><mark=#ff000040><b><u>Sát thương nhận vào từ Đòn đánh một chiều -75%</u></b></mark></color>\nSát thương nhận vào từ [Vibration]・[Burst]・[Sinking] -75%\nKhi hồi phục Tinh thần bằng [UnlockBuff_Base], nếu Tinh thần dưới 15 thì hồi phục Tinh thần về 15\n\nKhi Máu dưới 55% và chuyển giai đoạn, áp dụng các hiệu ứng dưới đây\n- Mọi hiệu ứng ngoại trừ hiệu ứng đặc hữu của bản thân biến mất\n- Số lượng [StackRienSpecialSkill] khởi tạo về 0\n- Nhận [IndexPrescript_RienSecondPhase]\n- [BurningWoundRien_Mask] đổi thành [BurningWoundRien]\n- [KarmaOfIndexRien] đổi thành [KarmaOfIndexRien_2Phase] và nhận 10\n- Nếu chưa có [Shin_Rien] thì nhận ngay lập tức\n\nNếu Máu dưới 25%, thay đổi kịch bản chiến đấu và một số kĩ năng nhất định trở nên mạnh mẽ hơn",
+      "flavor": "Cảm thấy bản thân phải bắt chước một ai đó, nhưng không biết là ai nên đã nghi ngờ Chỉ thị, thậm chí suýt nữa đã phản bội Chỉ thị, nhưng muộn màng nhận ra mình sẽ trở nên giống ai, chấp nhận ý chí của Chỉ thị và hoàn thiện thành một Quản đốc giả tạo."
+    },
+    {
+      "id": 134802,
+      "name": "Thiết Bị Đầu Cuối Thần Truyền [Caduceus] - Giải Ấn Hoàn Toàn",
+      "desc": "<color=#ff6000><mark=#ff000040><b><u>Vũ khí được quyết định ngẫu nhiên theo mỗi đồng xu, áp dụng hiệu ứng đặc biệt</u></b></mark></color>\n- [RienWeapon01Hatchet2phase]\n- [RienWeapon02Stiletto2phase]\n- [RienWeapon03Greatsword2phase]\n- [RienWeapon04Rapier2phase]\n- [RienWeapon05Sledgehammer2phase]\n- [RienWeapon06Ultragreatsword2phase]\n- [RienWeapon07Lance2phase]\n- [RienWeapon08Chain2phase]\n- [RienWeapon09Scythe2phase]\n\nKhi sử dụng kĩ năng Tấn công, nhận [StackRienSpecialSkill] 1 (Tối đa 9)\n- Có thể nhận 1 lần mỗi kĩ năng (Không thể nhận từ 2 trở lên với cùng một kĩ năng)\n- Không thể nhận từ kĩ năng chỉ sử dụng trong kịch bản đặc biệt\n\nKhi bắt đầu lượt, nếu [StackRienSpecialSkill] là 9, sử dụng kĩ năng mạnh mẽ\n- Tình trạng tích lũy [StackRienSpecialSkill] khởi tạo theo loại kĩ năng\n- Giá trị Tốc độ tối thiểu/tối đa +25\n- Khi kết thúc lượt, lượt kế tiếp nhận [Vulnerable] 2, [ResultReduction] 3\n\nHiệu ứng kích hoạt từ lượt chuyển giai đoạn\n- Mỗi 4 lượt, nếu [StackRienSpecialSkill] dưới 9 thì tăng lên 9 và nhận [KarmaOfIndexRien_2Phase] bằng (lượng tăng × 5)",
+      "flavor": "Vũ khí tối thượng đồng thời cũng là lời nguyền được ban tặng bởi Hermes, vị thần của Thành Phố, người gửi đi các Chỉ thị qua sóng điện đài."
+    },
+    {
+      "id": 134803,
+      "name": "Ý Nghĩa Của Chỉ Thị",
+      "desc": "Khi bắt đầu lượt,\n- Gây [IndexPrescriptTargetToPersonality] cho một Tù nhân ngẫu nhiên trừ Ryoshu, và ưu tiên tấn công\n<color=#ff6000><mark=#ff000040><b><u>- Mọi đồng xu của kĩ năng sử dụng lên [IndexPrescriptTargetToPersonality] đều được đổi thành [SuperCoin]</u></b></mark></color>\n・Trường hợp [IndexPrescriptTargetToPersonality] tử vong hoặc không thể tấn công mục tiêu,\n<color=#ff6000><mark=#ff000040><b><u>sử dụng những kĩ năng còn lại lên 1 Tù nhân ngẫu nhiên trừ Ryoshu\n(Ưu tiên đối tượng có Máu hiện tại thấp nhất, ngoại trừ trường hợp Máu là 1)</u></b></mark></color>\n・Khi toàn bộ Tù nhân khác tử vong, gây cho Ryoshu\n- Nhận [Protection] bằng Số lượng [BlessingOfIndexPrescriptEnemy] (Tối đa 9)\n<color=#ff6000><mark=#ff000040><b><u>・Giảm 1 với mỗi 20 Số lượng [KarmaOfIndexRien_2Phase]</u></b></mark></color>\n\nVới mỗi 1 Số lượng [BlessingOfIndexPrescriptEnemy], Sát thương gây ra cho [IndexPrescriptTargetToPersonality] +5% (Tối đa 40%)\n- Nếu Số lượng [BlessingOfIndexPrescriptEnemy] là 9, thay vào đó Sát thương gây ra cho mọi mục tiêu +50%\n\nHiệu ứng kích hoạt từ lượt chuyển giai đoạn\n- Mỗi 2 lượt, nhận [BlackNightmare]\n- Khi nhận [BlackNightmare], nếu Số lượng [StackRienSpecialSkill] dưới 9 thì kích hoạt kịch bản đặc biệt",
+      "flavor": "\"Tôi đã lập gia đình rồi\"\n\n\"Ngươi lẽ ra không nên ở đây lúc này mới đúng\"\n\"Vẫn đang trong quá trình thực hiện. Tôi đang trang trí nó một cách tinh tế và đẹp đẽ hơn bất cứ thứ gì\"\n\"...Tên kia, lẽ nào ngươi định chống lại Chỉ thị sao\""
+    },
+    {
+      "id": 134804,
+      "name": "Chấp Hành Chỉ Thị",
+      "desc": "Nếu đã chấp hành [IndexPrescript_Base_2nd] trong lượt này,\nhồi phục 15 Tinh thần khi kết thúc lượt, nhận [BlessingOfIndexPrescriptEnemy] 1 (1 lần mỗi lượt)\n\nNếu <color=#ff6000><mark=#ff000040><b><u>không thể chấp hành [IndexPrescript_Base_2nd] trong lượt này,\nkhi kết thúc lượt nhận [KarmaOfIndexRien_2Phase] 10 và mất [BlessingOfIndexPrescriptEnemy] 1,\nTù nhân từng chịu [IndexPrescriptTargetToPersonality] nhận [ParryingResultUp] 2 vào lượt kế tiếp</u></b></mark></color>\n- Nếu là lượt đã sử dụng kĩ năng mạnh mẽ, thay vào đó nhận [KarmaOfIndexRien_2Phase] 15 và mất [BlessingOfIndexPrescriptEnemy] 3",
+      "flavor": "Gia đình... đã mất rồi.\n\n\"Đừng đi mà...\"\n\"Đừng đi như thế này... Ba ơi... cứu... chúng con với...\""
+    },
+    {
+      "id": 132224,
+      "name": "Trận Chiến Cuối Cùng",
+      "desc": "Trong trận chiến này, khi nhận sát thương khiến Máu trở về 0, không nhận sát thương đó mà áp dụng các hiệu ứng dưới đây (1 lần mỗi trận chiến)\n- Hồi phục hoàn toàn Máu, giải trừ mọi hiệu ứng bất lợi có thể giải trừ của bản thân\n- Trong trận chiến này nhận [Vulnerable] 1, [TimeEntangleUnstable] cố định ở 1\n- Kết thúc mỗi lượt, nhận sát thương cố định bằng (số lượt hiện tại × 10)\n- Sau đó, kết thúc lượt và kịch bản chiến đấu được cường hóa",
+      "flavor": "「Ngươi sẽ quên lãng, còn ta sẽ ghi nhớ tất cả.」"
+    },
+    {
+      "id": 137801,
+      "name": "Quan Sát",
+      "desc": "Khi bắt đầu giai đoạn, gây [ObservedPerson] 1 cho mọi kẻ địch và\nnhận số lượng [Breath] Cường hóa và [Breath] Số lần tăng thêm tương ứng với số người bị áp dụng [ObservedPerson]\n\nKhi bắt đầu lượt, gây [ObservedPerson] 1 cho mục tiêu không sở hữu [ObservedPerson]\n\nVới mỗi 10 [ObservedPerson] của mục tiêu, lượng [Vibration] Cường hóa và [Vibration] Số lần gây ra từ kĩ năng +1 (Tối đa 3)"
+    },
+    {
+      "id": 137802,
+      "name": "Thích Nghi",
+      "desc": "Mỗi khi gây sát thương bằng hiệu ứng kĩ năng Tấn công của bản thân, nhận [Breath] Cường hóa 1 (Tối đa 15 mỗi lượt)\n- Nếu [ObservedPerson] của mục tiêu từ 15 trở lên, nhận thêm [Breath] Cường hóa 1\n\nMỗi khi nhận sát thương từ hiệu ứng kĩ năng Tấn công của kẻ địch, [Breath] Số lần tăng thêm 1 (Tối đa 15 mỗi lượt)\n- Nếu [ObservedPerson] của mục tiêu từ 15 trở lên, [Breath] Số lần tăng thêm 1\n\n<color=#ff6000><mark=#ff000040><b><u>Khi bắt đầu lượt, gây [ResultReduction] 3, [ObservedPerson] 5 cho Tù nhân đã gây nhiều sát thương nhất cho bản thân ở lượt trước\n- Nếu [ObservedPerson] của mục tiêu là 30, thay vào đó gây [ResultReduction] 5</u></b></mark></color>"
+    },
+    {
+      "id": 137803,
+      "name": "Cơ Chế Phòng Ngự",
+      "desc": "Khi bắt đầu lượt, <color=#ff6000><mark=#ff000040><b><u>nhận Lớp bảo vệ bằng 30% Máu đã mất (không vượt quá 25% Máu tối đa)</u></b></mark></color>\n- Nếu ở trạng thái [Combustion], giá trị Lớp bảo vệ giảm mạnh đi (Số lượng [Combustion] × 1.5)%\n- Lớp bảo vệ nhận thêm 100% sát thương từ hiệu ứng [Burst]\n\nKhi kết thúc lượt, nếu Lớp bảo vệ nhận được từ hiệu ứng này bị phá hủy, trong suốt trận chiến này, nhận [DefenseDown] 1 khi bắt đầu lượt (Tối đa 5) tỉ lệ thuận với số lần bị phá hủy."
+    },
+    {
+      "id": 137804,
+      "name": "Định kiến xác nhận",
+      "desc": "Khi kết thúc lượt, <color=#ff6000><mark=#ff000040><b><u>cướp 10 Tinh thần của Tù nhân</u></b></mark></color> (Tối đa 3 người. Áp dụng theo thứ tự Tinh thần từ cao đến thấp, không áp dụng trùng lặp lên cùng một đối tượng)\n(Không kích hoạt khi Hohenheim đang ở trạng thái Hoảng loạn)\n\n<color=#ff6000><mark=#ff000040><b><u>Tinh thần của bản thân không giảm xuống dưới 15</u></b></mark></color>"
+    },
+    {
+      "id": 137805,
+      "name": "Thiết lập giả thuyết",
+      "desc": "Đến lượt thứ 3, mô thức thay đổi và bắt đầu chuẩn bị sử dụng kĩ năng mạnh mẽ.\nSau đó, khi kết thúc lượt nếu Số lượng [Breath] đạt từ 30 trở lên, hiệu ứng trên sẽ kích hoạt\n\nTrong khi chuẩn bị kĩ năng mạnh mẽ, nếu không nhận sát thương Máu, sức phá hoại của kĩ năng đó sẽ tăng mạnh (Không tính sát thương lên Lớp bảo vệ)"
+    },
+    {
+      "id": 137806,
+      "name": "Không thích nghi",
+      "desc": "Nếu bị suy yếu bởi lựa chọn, bị động 「Thích nghi」 sẽ được thay đổi thành hiệu ứng sau và áp dụng\n\nMỗi khi gây sát thương bằng hiệu ứng Kĩ năng tấn công của bản thân, nhận 1 Uy lực [Breath] (Tối đa 15 mỗi lượt)\n- Nếu [ObservedPerson] của mục tiêu từ 15 trở lên, giảm 3 [ObservedPerson] của mục tiêu để nhận thêm 1 Uy lực [Breath]\n\nMỗi khi nhận sát thương từ hiệu ứng Kĩ năng tấn công của Tù nhân, Số lượng [Breath] tăng 1 (Tối đa 15 mỗi lượt)\n- Nếu [ObservedPerson] của mục tiêu từ 15 trở lên, giảm 3 [ObservedPerson] của mục tiêu để nhận thêm 1 Số lượng [Breath]\n\nLượng sát thương Chí mạng không tăng giảm"
+    },
+    {
+      "id": 137807,
+      "name": "Cơ chế phòng vệ thô sơ",
+      "desc": "Nếu bị suy yếu bởi lựa chọn, bị động 「Cơ chế phòng vệ」 sẽ được thay đổi thành hiệu ứng sau và áp dụng\n\nKhi bắt đầu lượt, nhận Lớp bảo vệ bằng 15% Máu đã mất (không vượt quá 5% Máu tối đa)\n- Nếu ở trạng thái [Combustion], giá trị Lớp bảo vệ giảm mạnh đi (Số lượng [Combustion] × 2)%\n- Lớp bảo vệ nhận thêm 150% sát thương từ hiệu ứng [Burst]\n\nKhi kết thúc lượt, nếu Lớp bảo vệ nhận được từ hiệu ứng này bị phá hủy, trong suốt trận chiến này, nhận [DefenseDown] 2 khi bắt đầu lượt (Tối đa 10) tỉ lệ thuận với số lần bị phá hủy."
+    },
+    {
+      "id": 137808,
+      "name": "Tự nghi ngờ bản thân",
+      "desc": "Nếu bị suy yếu bởi lựa chọn, bị động 「Định kiến xác nhận」 sẽ được thay đổi thành hiệu ứng sau và áp dụng\n\nKhi bắt đầu lượt, <color=#ff6000><mark=#ff000040><b><u>nhận [Vulnerable] 3</u></b></mark></color> và Tinh thần của bản thân giảm 15\nKhi kết thúc lượt, cướp 5 Tinh thần của đối tượng có Tinh thần cao hơn bản thân (Tối đa 3 người. Áp dụng theo thứ tự Tinh thần từ cao đến thấp, không áp dụng trùng lặp lên cùng một đối tượng)\n(Không kích hoạt khi Hohenheim đang ở trạng thái Hoảng loạn)"
+    },
+    {
+      "id": 137809,
+      "name": "Thích nghi",
+      "desc": "Mỗi khi gây sát thương bằng hiệu ứng Kĩ năng tấn công của bản thân, nhận 1 Uy lực [Breath] (Tối đa 15 mỗi lượt)\n- Nếu [ObservedPerson] của mục tiêu từ 15 trở lên, nhận thêm 1 Uy lực [Breath]\n\nMỗi khi nhận sát thương từ hiệu ứng Kĩ năng tấn công của kẻ thù, Số lượng [Breath] tăng 1 (Tối đa 15 mỗi lượt)\n- Nếu [ObservedPerson] của mục tiêu từ 15 trở lên, nhận thêm 1 Số lượng [Breath]\n\n<color=#ff6000><mark=#ff000040><b><u>Khi bắt đầu lượt, đặt [ResultReduction] 3, [ObservedPerson] 5 lên Tù nhân đã gây nhiều sát thương nhất cho bản thân ở lượt trước\n- Nếu [ObservedPerson] của mục tiêu là 30, thay vào đó đặt [ResultReduction] 5</u></b></mark></color>"
+    },
+    {
+      "id": 137810,
+      "name": "Cơ chế phòng vệ",
+      "desc": "Khi bắt đầu lượt, <color=#ff6000><mark=#ff000040><b><u>nhận Lớp bảo vệ bằng 30% Máu đã mất (không vượt quá 25% Máu tối đa)</u></b></mark></color>\n- Nếu ở trạng thái [Combustion], giá trị Lớp bảo vệ giảm mạnh đi (Số lượng [Combustion] × 1.5)%\n- Lớp bảo vệ nhận thêm 100% sát thương từ hiệu ứng [Burst]\n\nKhi kết thúc lượt, nếu Lớp bảo vệ nhận được từ hiệu ứng này bị phá hủy, trong suốt trận chiến này, nhận [DefenseDown] 1 khi bắt đầu lượt (Tối đa 5) tỉ lệ thuận với số lần bị phá hủy."
+    },
+    {
+      "id": 137811,
+      "name": "Không thích nghi",
+      "desc": "Nếu bị suy yếu bởi lựa chọn, bị động 「Thích nghi」 sẽ được thay đổi thành hiệu ứng sau và áp dụng\n\nMỗi khi gây sát thương bằng hiệu ứng Kĩ năng tấn công của bản thân, nhận 1 Uy lực [Breath] (Tối đa 15 mỗi lượt)\n- Nếu [ObservedPerson] của mục tiêu từ 15 trở lên, giảm 3 [ObservedPerson] của mục tiêu để nhận thêm 1 Uy lực [Breath]\n\nMỗi khi nhận sát thương từ hiệu ứng Kĩ năng tấn công của Tù nhân, Số lượng [Breath] tăng 1 (Tối đa 15 mỗi lượt)\n- Nếu [ObservedPerson] của mục tiêu từ 15 trở lên, giảm 3 [ObservedPerson] của mục tiêu để nhận thêm 1 Số lượng [Breath]\n\nLượng sát thương Chí mạng không tăng giảm"
+    }
+  ]
+}

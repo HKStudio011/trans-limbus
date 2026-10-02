@@ -1,0 +1,652 @@
+﻿{
+  "dataList": [
+    {
+      "id": 9209,
+      "name": "Dành cho bạn, người yêu thành phố",
+      "desc": "Nếu Máu của đồng minh bị sát thương thấp hơn 30%, ở lượt kế tiếp đồng minh đó sẽ hồi phục 80% Máu tối đa, các đồng minh còn lại hồi phục 40% Máu tối đa (1 lần mỗi trận chiến)\n- Phần hồi phục vượt quá Máu tối đa sẽ được chuyển thành Lá chắn\n- Nếu hồi phục từ 50 Máu trở lên bằng hiệu ứng này, nhận [AttackUp] 3, [DefenseDown] 3",
+      "simpleDesc": [
+        {
+          "abilityID": 9209,
+          "simpleDesc": "Hồi phục Máu"
+        }
+      ]
+    },
+    {
+      "id": 9210,
+      "name": "Búa Đập Thịt",
+      "desc": "[Hiệu ứng dành riêng cho Bản thể ở vị trí thứ 4]\n\nNếu sở hữu từ 2 kỹ năng tấn công hệ Đập trở lên, nhận [ParryingResultUp] 1 khi bắt đầu lượt",
+      "simpleDesc": [
+        {
+          "abilityID": 9210,
+          "simpleDesc": "Nhận [ParryingResultUp]"
+        }
+      ]
+    },
+    {
+      "id": 19210,
+      "name": "Búa Đập Thịt+",
+      "desc": "[Hiệu ứng dành riêng cho Bản thể ở vị trí thứ 4]\n\nNếu sở hữu từ 2 kỹ năng tấn công hệ Đập trở lên, nhận [ParryingResultUp] <style=\"upgradeHighlight\">2</style> khi bắt đầu lượt",
+      "simpleDesc": [
+        {
+          "abilityID": 19210,
+          "simpleDesc": "Nhận [ParryingResultUp]"
+        }
+      ]
+    },
+    {
+      "id": 29210,
+      "name": "Búa Đập Thịt++",
+      "desc": "[Hiệu ứng dành riêng cho Bản thể ở vị trí thứ 4・<style=\"upgradeHighlight\">5</style>]\n\nNếu sở hữu từ 2 kỹ năng tấn công hệ Đập trở lên, Nhận [ParryingResultUp] 2 khi bắt đầu lượt",
+      "simpleDesc": [
+        {
+          "abilityID": 29210,
+          "simpleDesc": "Nhận [ParryingResultUp]"
+        }
+      ]
+    },
+    {
+      "id": 9207,
+      "name": "Xác suất và Lựa chọn",
+      "desc": "Lượng sát thương của kỹ năng E.G.O được đăng ký ở ô ngoài cùng bên trái sẽ được áp dụng ngẫu nhiên giữa -50% hoặc +150% (1 lần mỗi lượt)",
+      "simpleDesc": [
+        {
+          "abilityID": 9207,
+          "simpleDesc": "Tăng hoặc giảm Sát thương kỹ năng E.G.O"
+        }
+      ]
+    },
+    {
+      "id": 9208,
+      "name": "Nhân duyên Ràng buộc",
+      "desc": "Khi bắt đầu trận chiến, nếu Cộng hưởng Tuyệt đối từ 7 trở lên, tất cả đồng minh nhận +5 Uy lực Cuối trong lượt này (1 lần mỗi trận chiến)",
+      "simpleDesc": [
+        {
+          "abilityID": 9208,
+          "simpleDesc": "Tăng Uy lực Cuối"
+        }
+      ]
+    },
+    {
+      "id": 9211,
+      "name": "Mây Mù",
+      "desc": "Khi bắt đầu lượt, nếu tổng Uy lực và Số lượng [Sinking] của toàn bộ kẻ địch từ 30 trở lên, áp dụng các hiệu ứng dưới đây:\n\n- Tăng +1 Uy lực Cuối cho các kỹ năng Gây Uy lực hoặc Số lượng [Sinking] (Bao gồm [Sinking] đặc biệt, ngoại trừ kỹ năng E.G.O)\n\n- Nếu có từ 6 Bản thể trở lên sở hữu kỹ năng tấn công Gây Uy lực, Số lượng [Sinking] hoặc [Sinking] đặc biệt, tăng thêm +20% Sát thương cho các kỹ năng Gây Uy lực hoặc Số lượng [Sinking] (Bao gồm [Sinking] đặc biệt, ngoại trừ kỹ năng E.G.O. Bao gồm cả nhân sự dự bị)\n・Nếu Tinh thần của mục tiêu là -45, tăng thêm +10% Sát thương\n\n- Nếu có từ 10 Bản thể trở lên sở hữu kỹ năng tấn công Gây Uy lực, Số lượng [Sinking] hoặc [Sinking] đặc biệt, tăng thêm +1 Uy lực Xu cho các kỹ năng Cộng Xu Gây Uy lực hoặc Số lượng [Sinking] (Bao gồm [Sinking] đặc biệt, ngoại trừ kỹ năng E.G.O. Bao gồm cả nhân sự dự bị)\n・Trường hợp kỹ năng Trừ Xu, tăng +(4 ÷ Số lượng Xu) Uy lực cơ bản thay cho Uy lực Xu (Tối thiểu 1, làm tròn xuống)",
+      "simpleDesc": [
+        {
+          "abilityID": 9211,
+          "simpleDesc": "Tăng Uy lực Cuối kỹ năng [Sinking]"
+        },
+        {
+          "abilityID": 92111,
+          "simpleDesc": "Tăng Sát thương kỹ năng [Sinking]"
+        },
+        {
+          "abilityID": 92112,
+          "simpleDesc": "Tăng Uy lực Xu/Cơ bản kỹ năng [Sinking]"
+        }
+      ]
+    },
+    {
+      "id": 9212,
+      "name": "Kết thúc của Mọi cái Ác",
+      "desc": "Kích hoạt khi có từ 3 Bản thể thuộc tàu Pequod trở lên trong đội hình (Bao gồm nhân sự dự bị)\n\nKhi kỹ năng tấn công trúng kẻ địch đang chịu [Bleed] hoặc [Bleed] đặc biệt, tăng 2 số lượng [Breath] hoặc nhận [Breath] 3 (Kích hoạt 3 lần mỗi lượt cho mỗi Bản thể)\n\nNếu gây chí mạng khi kỹ năng trúng đích, có 80% xác suất nhận [PenetrateResultUp] 1 vào lượt tiếp theo (Kích hoạt 2 lần mỗi lượt cho mỗi Bản thể. Bao gồm kỹ năng E.G.O và Phản kích)\n- Nếu là Bản thể thuộc tàu Pequod, nhận thêm [PlusCoinValueUp] 1 vào lượt tiếp theo (Kích hoạt 1 lần mỗi lượt cho mỗi Bản thể)\n\nKhi gây chí mạng bằng mặt trước của kỹ năng cơ bản, giá trị hiệu ứng xấu gây ra bởi đồng xu đó tăng thêm 1. (Kích hoạt 1 lần mỗi lượt cho mỗi Bản thể. Ngoại trừ kỹ năng E.G.O, bao gồm Phản kích)\n\nKhi kẻ địch hoặc đồng minh tử trận, các Bản thể thuộc tàu Pequod nhận [PenetrateResultUp] 1, [Protection] 1, [CriticalDamageUp] 1 mỗi lượt cho đến hết trận chiến (Kích hoạt tối đa 3 lần mỗi trận chiến)\n\nNếu Bản thể thuộc tàu Pequod tấn công trúng đích, hồi phục 7 Tinh thần cho Bản thể thuộc tàu Pequod có thứ tự sắp xếp sớm nhất (1 lần cho mỗi kỹ năng)\n\nKhi đồng minh tiêu diệt kẻ địch, nếu Tinh thần của Bản thể thuộc tàu Pequod có thứ tự sắp xếp sớm nhất bị giảm, hồi phục 15 Tinh thần.",
+      "simpleDesc": [
+        {
+          "abilityID": 9212,
+          "simpleDesc": "Nhận [Breath]"
+        },
+        {
+          "abilityID": 92121,
+          "simpleDesc": "Khi trúng chí mạng, có xác suất nhất định nhận [PenetrateResultUp] vào lượt tiếp theo, nếu thỏa mãn điều kiện sẽ nhận [PlusCoinValueUp] vào lượt tiếp theo, tăng giá trị hiệu ứng xấu gây ra"
+        },
+        {
+          "abilityID": 92122,
+          "simpleDesc": "Nhận [PenetrateResultUp], [Protection], [CriticalDamageUp]"
+        },
+        {
+          "abilityID": 92123,
+          "simpleDesc": "Hồi phục Tinh thần"
+        }
+      ]
+    },
+    {
+      "id": 9213,
+      "name": "Vòng quay Mặt trời Thu nhỏ",
+      "desc": "Tăng +1 Uy lực Xu cho kỹ năng cơ bản của tất cả đồng minh Huyết Quỷ, tăng <noparse>Sát thương kỹ năng</noparse> thêm ([BloodDinner_Accumulation] ÷ 10)%\n\nKhi kết thúc lượt, 2 Bản thể có Máu thấp nhất trong số các đồng minh đang chịu [Bleed] sẽ hồi phục 5% Máu tối đa và nhận [SwirlingBloodPersonality] 10 khi bắt đầu lượt tiếp theo\n\nKhi tiêu diệt kẻ địch, tạo ra [BloodDinner] bằng (Máu tối đa của cơ thể chính ÷ 10) (Tối đa 50)\n\nKhi kết thúc lượt, nếu có đồng minh tử trận trong lượt này, tất cả đồng minh nhận [Enhancement] 2 vào lượt tiếp theo\n\nTrong trận chiến có viện binh địch, khi kẻ địch mới xuất hiện, gây cho kẻ địch đó [Bleed] 5 và 3 số lượng [Bleed] khi bắt đầu trận chiến.\nNếu có <Huyết Quỷ> trong đội hình đồng minh, khi kẻ địch tăng thêm, kích hoạt [Bleed] của tất cả kẻ địch 2 lần, sau đó giảm 2 số lượng [Bleed] của tất cả kẻ địch",
+      "simpleDesc": [
+        {
+          "abilityID": 9213,
+          "simpleDesc": "Tăng Uy lực Xu kỹ năng cơ bản"
+        },
+        {
+          "abilityID": 92131,
+          "simpleDesc": "Hồi phục Máu và nhận [SwirlingBloodPersonality]"
+        },
+        {
+          "abilityID": 92132,
+          "simpleDesc": "Nhận Tăng Uy lực Tấn công"
+        },
+        {
+          "abilityID": 92133,
+          "simpleDesc": "Gây Uy lực và số lượng [Bleed]"
+        }
+      ]
+    },
+    {
+      "id": 9214,
+      "name": "Búa Nung Nóng",
+      "desc": "Nếu kẻ địch đang chịu [VibrationIgnition], áp dụng các hiệu ứng sau:\n- Khi trúng kỹ năng cơ bản, gây 1 Uy lực [Combustion] (Tối đa 3 lần cho mỗi kỹ năng)\n- Khi trúng kỹ năng cơ bản, nếu [VibrationIgnition] từ 15 trở lên, tăng thêm 1 số lượng [Combustion] (Tối đa 2 lần cho mỗi kỹ năng)\n- Với mỗi 3 [Combustion], tăng +1% lượng đẩy ngưỡng choáng bằng Bộc phát [Tremor] (Tối đa 15%)",
+      "simpleDesc": [
+        {
+          "abilityID": 9214,
+          "simpleDesc": "Gây Hỏa thiêu"
+        },
+        {
+          "abilityID": 92141,
+          "simpleDesc": "Tăng sát thương Bộc phát [Tremor]"
+        }
+      ]
+    },
+    {
+      "id": 9215,
+      "name": "Cà vạt màu đỏ",
+      "desc": "Uy lực đối đầu của Kỹ năng 3 gây [Combustion] Số lượng, [Combustion] Số lần hoặc Hỏa thiêu đặc biệt +2, Sát thương +30%",
+      "simpleDesc": [
+        {
+          "abilityID": 9215,
+          "simpleDesc": "Tăng Uy lực đối đầu, Sát thương"
+        }
+      ]
+    },
+    {
+      "id": 9216,
+      "name": "Đồng phục chính quy - Hiệp hội Liu",
+      "desc": "Khi bắt đầu lượt, nếu có từ 5 Danh tính sở hữu kỹ năng tấn công gây [Combustion] Số lượng, [Combustion] Số lần hoặc Hỏa thiêu đặc biệt trở lên, kích hoạt trong suốt trận chiến này (Ngoại trừ kỹ năng E.G.O, không tính nhân viên dự bị)\n\nDanh tính thuộc Hiệp hội Liu có Uy lực Đồng xu cộng của kỹ năng tấn công cơ bản +2 (Trường hợp kỹ năng Đồng xu trừ, Uy lực cơ bản +(8÷Số lượng Đồng xu) (Tối thiểu 1, làm tròn xuống))\n\nSát thương của các kỹ năng không phải Kỹ năng 3 gây [Combustion] Số lượng, [Combustion] Số lần hoặc Hỏa thiêu đặc biệt +20% (Bao gồm kỹ năng E.G.O)\n\nUy lực Đồng xu cộng của Kỹ năng 3 gây [Combustion] Số lượng, [Combustion] Số lần hoặc Hỏa thiêu đặc biệt +1 (Trường hợp kỹ năng Đồng xu trừ, Uy lực cơ bản +(4÷Số lượng Đồng xu) (Tối thiểu 1, làm tròn xuống)), Sát thương +30%\n- Tăng 5% sát thương kỹ năng đó cho mỗi Danh tính cùng hội được xếp vào đội hình (Tối đa 20%, tính cả nhân viên dự bị)\n\nKhi kết thúc lượt, hồi 8 Tinh thần cho 2 đồng minh có Tinh thần thấp nhất\n- Nếu Tinh thần của mục tiêu từ 0 trở xuống, hồi thêm 5",
+      "simpleDesc": [
+        {
+          "abilityID": 9216,
+          "simpleDesc": "Tăng Uy lực kỹ năng, Sát thương"
+        }
+      ]
+    },
+    {
+      "id": 9217,
+      "name": "Thiết bị đầu cuối của ai đó",
+      "desc": "Khi kết thúc tấn công, nếu [IndexPrescriptTargetToEnemy] đã chết, đồng minh tiêu diệt [IndexPrescriptTargetToEnemy] nhận 1 [AzureResultUp] vào lượt kế tiếp và [Sinking] Số lần của 1 kẻ địch ngẫu nhiên còn sống tăng 3 (1 lần mỗi lượt)\n- Nếu đồng minh tiêu diệt [IndexPrescriptTargetToEnemy] thuộc Ngón Trỏ, nhận 1 [Enhancement] thay vì [AzureResultUp] vào lượt kế tiếp (1 lần mỗi lượt)\n\nKhi kết thúc lượt, nếu thuộc Ngón Trỏ, nhận sát thương bằng (Số lượng [KarmaOfIndexAlly] đang sở hữu)% Máu tối đa\n(Hiệu ứng này không gây ra trạng thái choáng, và Máu không giảm xuống dưới 20% Máu tối đa)\nSau đó, Danh tính nhận sát thương từ hiệu ứng này sẽ nhận [ResultEnhancement] bằng (Số lượng [KarmaOfIndexAlly] đang sở hữu ÷ 5) vào lượt kế tiếp (Tối đa 2)",
+      "simpleDesc": [
+        {
+          "abilityID": 9217,
+          "simpleDesc": "Nhận tăng uy lực Gloom, nếu thuộc Ngón Trỏ nhận tăng uy lực tấn công"
+        },
+        {
+          "abilityID": 92171,
+          "simpleDesc": "Nếu thuộc Ngón Trỏ thì nhận sát thương, lượt tiếp theo nhận tăng uy lực"
+        }
+      ]
+    },
+    {
+      "id": 9218,
+      "name": "Sự che chở của Chỉ thị",
+      "desc": "Ở lượt trước, nếu đã gây [Sinking], [Sinking] Số lần hoặc Trầm luân đặc biệt bằng hiệu ứng kỹ năng, khi bắt đầu lượt nhận 3 [Breath] Số lượng hoặc 2 [Breath] Số lần (1 lần mỗi lượt cho mỗi Danh tính)\n\nTrong trận chiến này, nếu tích lũy nhận [Breath] từ hiệu ứng này từ 3 lần trở lên, từ lượt kế tiếp Sát thương chí mạng của Tù nhân đó +30%",
+      "simpleDesc": [
+        {
+          "abilityID": 9218,
+          "simpleDesc": "Nhận uy lực, số lần Hơi thở"
+        },
+        {
+          "abilityID": 92181,
+          "simpleDesc": "Tăng sát thương chí mạng"
+        }
+      ]
+    },
+    {
+      "id": 9219,
+      "name": "Công cụ vạn năng",
+      "desc": "Khi kỹ năng có cùng loại tấn công trúng kẻ địch 12 lần, Kháng vật lý của loại tấn công đó +0.1 (Trường hợp Dị thể áp dụng cho tất cả bộ phận, mỗi kẻ địch áp dụng 3 lần mỗi trận. Kháng không vượt quá 2.0 do hiệu ứng này)",
+      "simpleDesc": [
+        {
+          "abilityID": 9219,
+          "simpleDesc": "Yếu hóa kháng vật lý"
+        }
+      ]
+    },
+    {
+      "id": 19219,
+      "name": "Công cụ vạn năng+",
+      "desc": "Khi kỹ năng có cùng loại tấn công trúng kẻ địch <style=\"upgradeHighlight\">9 lần</style>, Kháng vật lý của loại tấn công đó +0.1 (Trường hợp Dị thể áp dụng cho tất cả bộ phận, mỗi kẻ địch áp dụng 3 lần mỗi trận. Kháng không vượt quá 2.0 do hiệu ứng này)",
+      "simpleDesc": [
+        {
+          "abilityID": 19219,
+          "simpleDesc": "Yếu hóa kháng vật lý"
+        }
+      ]
+    },
+    {
+      "id": 29219,
+      "name": "Công cụ vạn năng++",
+      "desc": "Khi kỹ năng có cùng loại tấn công trúng kẻ địch <style=\"upgradeHighlight\">6 lần</style>, Kháng vật lý của loại tấn công đó +0.1 (Trường hợp Dị thể áp dụng cho tất cả bộ phận, mỗi kẻ địch áp dụng 3 lần mỗi trận. Kháng không vượt quá 2.0 do hiệu ứng này)",
+      "simpleDesc": [
+        {
+          "abilityID": 29219,
+          "simpleDesc": "Yếu hóa kháng vật lý"
+        }
+      ]
+    },
+    {
+      "id": 9220,
+      "name": "Tạp chí Fixer bị đánh cắp",
+      "desc": "Khi bắt đầu lượt, nhận 1 [HitResultUp]\n\nNếu kích hoạt Cộng hưởng hoàn toàn Envy, nhận 1 [HitDamageUp] khi bắt đầu trận chiến\n\nNếu có từ 4 Danh tính thuộc Ngón Giữa trở lên, gây [RetaliationBook] cho 1 kẻ địch ngẫu nhiên khi bắt đầu giai đoạn",
+      "simpleDesc": [
+        {
+          "abilityID": 9220,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9221,
+      "name": "Vũ khí tia nhiệt",
+      "desc": "Khi kỹ năng thuộc tính Envy hoặc kỹ năng Phản đòn trúng đích, tăng 1 [Laceration] Số lần hoặc [Combustion] Số lần (3 lần mỗi lượt)\n\nTrong trận chiến, khi [Laceration] Số lần của kẻ địch thấp hơn 1, nếu [Combustion] Số lần kẻ địch đang sở hữu từ 2 trở lên, [Combustion] Số lần sẽ bị giảm thay cho [Laceration] Số lần (3 lần mỗi lượt)",
+      "simpleDesc": [
+        {
+          "abilityID": 9221,
+          "simpleDesc": "Tăng số lần Xuất huyết, Hỏa thiêu"
+        },
+        {
+          "abilityID": 92211,
+          "simpleDesc": "Giảm số lần Hỏa thiêu"
+        }
+      ]
+    },
+    {
+      "id": 9222,
+      "name": "Tấm toan trắng muốt",
+      "desc": "Khi kỹ năng tấn công Đồng xu cộng trúng kẻ địch có từ 15 [Laceration] trở lên, hồi 3 Tinh thần (1 lần mỗi lượt cho mỗi Danh tính)\n- Nếu bản thân hoặc mục tiêu có từ 3 loại hiệu ứng bất lợi trở lên, hồi 6 Tinh thần thay thế",
+      "simpleDesc": [
+        {
+          "abilityID": 9222,
+          "simpleDesc": "Hồi phục Tinh thần"
+        }
+      ]
+    },
+    {
+      "id": 9223,
+      "name": "Tác phẩm tầm thường",
+      "desc": "Danh tính thuộc Ngón Áp Út nhận [Inspire]\n\nGây [ObjectOfExploration] vào lượt kế tiếp cho kẻ địch bị trúng kỹ năng thuộc tính Lust hoặc thuộc tính Chém của Danh tính thuộc Ngón Áp Út đang sở hữu [Inspire]\n- Khi kẻ địch đã sở hữu [ObjectOfExploration], [ObjectOfExploration] sẽ được thay thế bằng [PaintingMaterial]\n\nNếu Danh tính thuộc Ngón Áp Út sở hữu [Inspire] tiêu diệt mục tiêu có [PaintingMaterial], nhận 1 [PlusCoinValueUp] vào lượt kế tiếp (1 lần mỗi lượt)",
+      "simpleDesc": [
+        {
+          "abilityID": 9223,
+          "simpleDesc": "Gây [ObjectOfExploration]"
+        },
+        {
+          "abilityID": 92231,
+          "simpleDesc": "Nhận [PlusCoinValueUp]"
+        }
+      ]
+    },
+    {
+      "id": 9224,
+      "name": "Tác phẩm ưu tú",
+      "desc": "Danh tính thuộc Ngón Áp Út nhận [Inspire]\n\nGây [ObjectOfExploration] cho kẻ địch bị trúng kỹ năng tấn công của Danh tính thuộc Ngón Áp Út đang sở hữu [Inspire]\n- Khi kẻ địch đã sở hữu [ObjectOfExploration], [ObjectOfExploration] sẽ được thay thế bằng [PaintingMaterial]\n\nNếu Danh tính thuộc Ngón Áp Út sở hữu [Inspire] tiêu diệt mục tiêu có [PaintingMaterial],\nDanh tính Ngón Áp Út đó mất [Inspire] và nhận [GreatAesthetics]\n\nKhi kỹ năng tấn công Đồng xu cộng trúng kẻ địch có từ 15 [Laceration] trở lên, hồi 3 Tinh thần (1 lần mỗi lượt cho mỗi Danh tính)\n- Nếu bản thân hoặc mục tiêu có từ 3 loại hiệu ứng bất lợi trở lên, hồi 6 Tinh thần thay thế",
+      "simpleDesc": [
+        {
+          "abilityID": 9224,
+          "simpleDesc": "Nhận [Inspire]"
+        },
+        {
+          "abilityID": 92241,
+          "simpleDesc": "Gây [ObjectOfExploration]"
+        },
+        {
+          "abilityID": 92242,
+          "simpleDesc": "Nhận [GreatAesthetics]"
+        }
+      ]
+    },
+    {
+      "id": 9225,
+      "name": "Tơ Nhện",
+      "desc": "Khi sử dụng kỹ năng Phòng thủ, sát thương kỹ năng 3 ở lượt tiếp theo +10% (1 lần mỗi lượt)",
+      "simpleDesc": [
+        {
+          "abilityID": 9225,
+          "simpleDesc": "Tăng sát thương kỹ năng 3"
+        }
+      ]
+    },
+    {
+      "id": 19225,
+      "name": "Tơ Nhện+",
+      "desc": "Khi sử dụng kỹ năng Phòng thủ, sát thương kỹ năng 3 ở lượt tiếp theo <style=\"upgradeHighlight\">+15%</style> (1 lần mỗi lượt)",
+      "simpleDesc": [
+        {
+          "abilityID": 19225,
+          "simpleDesc": "Tăng sát thương kỹ năng 3"
+        }
+      ]
+    },
+    {
+      "id": 29225,
+      "name": "Tơ Nhện++",
+      "desc": "Khi sử dụng kỹ năng Phòng thủ, sát thương kỹ năng 3 ở lượt tiếp theo <style=\"upgradeHighlight\">+20%</style> (1 lần mỗi lượt)",
+      "simpleDesc": [
+        {
+          "abilityID": 29225,
+          "simpleDesc": "Tăng sát thương kỹ năng 3"
+        }
+      ]
+    },
+    {
+      "id": 9226,
+      "name": "Thanh Đao Xanh Của Ai Đó",
+      "desc": "Khi bắt đầu trận đấu, nếu có lá chắn, nhận [CriticalDamageUp] 1\nKhi kỹ năng của đồng minh trúng Chí mạng, ở lượt tiếp theo đồng minh đó nhận lá chắn bằng ([Breath] ÷ 5) (Tối đa 15)",
+      "simpleDesc": [
+        {
+          "abilityID": 9226,
+          "simpleDesc": "Nhận [CriticalDamageUp]"
+        },
+        {
+          "abilityID": 92261,
+          "simpleDesc": "Nhận lá chắn"
+        }
+      ]
+    },
+    {
+      "id": 9227,
+      "name": "Hoàn Đao Quỷ Ám",
+      "desc": "Khi thắng trận 6 lần, E.G.O Gift tương ứng sẽ thay đổi\n{0}\n\nSát thương nhận vào của tất cả đồng minh tăng 20%, Uy lực Kháng cự -1",
+      "simpleDesc": [
+        {
+          "abilityID": 9227,
+          "simpleDesc": "Tăng sát thương nhận vào, giảm Uy lực Kháng cự"
+        }
+      ]
+    },
+    {
+      "id": 9228,
+      "name": "Thân Kiếm Hợp Nhất",
+      "desc": "Sát thương gây ra của tất cả đồng minh tăng 25%",
+      "simpleDesc": [
+        {
+          "abilityID": 9228,
+          "simpleDesc": "Tăng sát thương gây ra"
+        }
+      ]
+    },
+    {
+      "id": 9229,
+      "name": "Găng Tay Phai Màu",
+      "desc": "Khi thắng trận 6 lần, E.G.O Gift tương ứng sẽ thay đổi\n{0}\n\nGiá trị Tốc độ tối thiểu và tối đa của tất cả đồng minh giảm 5 (Không giảm xuống dưới 1)",
+      "simpleDesc": [
+        {
+          "abilityID": 9229,
+          "simpleDesc": "Giảm Tốc độ"
+        }
+      ]
+    },
+    {
+      "id": 9230,
+      "name": "Giờ Vàng",
+      "desc": "Giá trị Tốc độ tối thiểu và tối đa của tất cả đồng minh tăng 3\nUy lực cuối cùng của kỹ năng đối với mục tiêu có Tốc độ thấp hơn bản thân từ 4 trở lên +2\nKhi tấn công trúng kẻ địch, gây 1 Trói buộc ở lượt tiếp theo (4 lần mỗi lượt)",
+      "simpleDesc": [
+        {
+          "abilityID": 9230,
+          "simpleDesc": "Tăng Tốc độ, tăng Uy lực cuối cùng"
+        }
+      ]
+    },
+    {
+      "id": 9231,
+      "name": "Nhật Ký Ngày Hôm Đó",
+      "desc": "Khi thắng trận 6 lần, E.G.O Gift tương ứng sẽ thay đổi\n{0}\n\nKhi bắt đầu lượt, 1 đồng minh ngẫu nhiên không ở trạng thái Hoảng loạn sẽ bị cưỡng chế Hoảng loạn",
+      "simpleDesc": [
+        {
+          "abilityID": 9231,
+          "simpleDesc": "Hoảng loạn"
+        }
+      ]
+    },
+    {
+      "id": 9232,
+      "name": "Khả Năng",
+      "desc": "Khi rơi vào trạng thái Hoảng loạn do nhận sát thương, giải trừ trạng thái Hoảng loạn. Nhận lá chắn bằng 50% Máu tối đa, và loại bỏ ngẫu nhiên 1 hiệu ứng bất lợi có thể giải trừ đang áp dụng lên bản thân\n(Ngoại trừ Hoảng loạn cưỡng chế, kích hoạt 2 lần mỗi trận đấu)\nSau khi hiệu ứng trên kích hoạt, nhận 20 [Breath] khi bắt đầu lượt tiếp theo (1 lần mỗi lượt)",
+      "simpleDesc": [
+        {
+          "abilityID": 9232,
+          "simpleDesc": "Giải trừ trạng thái Hoảng loạn, loại bỏ hiệu ứng bất lợi"
+        }
+      ]
+    },
+    {
+      "id": 9242,
+      "name": "Búp Bê Bon-chan",
+      "desc": "Khi hoàn thành tầng, số Cost sở hữu tăng lên 1.5 lần\n\n- Với mỗi Gift sở hữu, sát thương gây ra tăng 0.5% (Hiện tại {0}%, tối đa 100%)\n- Với mỗi 20 Gift sở hữu, nhận [Enhancement] 1 khi bắt đầu lượt (Hiện tại nhận {1}, tối đa 10)",
+      "simpleDesc": [
+        {
+          "abilityID": 9242,
+          "simpleDesc": "Tăng sát thương"
+        },
+        {
+          "abilityID": 92421,
+          "simpleDesc": "Nhận [Enhancement]"
+        }
+      ]
+    },
+    {
+      "id": 9256,
+      "name": "Dự Tri Nhãn Bất Toàn",
+      "desc": "Uy lực Đồng xu của kỹ năng đồng minh sử dụng +(8 ÷ số lượng Đồng xu) (Trường hợp Đồng xu cộng), Uy lực cuối cùng +(8 ÷ số lượng Đồng xu) (Trường hợp Đồng xu trừ) (Giá trị tăng tối thiểu 1, làm tròn xuống, bao gồm cả kỹ năng E.G.O)\n\n[Hiệu ứng dành riêng cho Bản sắc ở vị trí số 1 trong đội hình]\n- Khi diễn ra Kháng cự, với mỗi nhịp Kháng cự, bản thân nhận [LookingFutureMirror] 1. Gây 2 [Vibration] và [Combustion] cho mục tiêu (Tối đa 10 lần mỗi kỹ năng)\n- Khi thắng Kháng cự, [Switch_Vibration] mục tiêu chính thành [VibrationIgnition], sau đó [VibrationExplosion]. Giảm số lượt [Vibration] của mục tiêu đi 1\n- Khi kỹ năng trúng đích, nếu mục tiêu ở trạng thái Hoảng loạn, sát thương gây ra +30%\n- Khi trúng Chí mạng, [VibrationExplosion]. Giảm số lượt [Vibration] của mục tiêu đi 1 (2 lần mỗi kỹ năng)",
+      "simpleDesc": [
+        {}
+      ]
+    },
+    {
+      "id": 9257,
+      "name": "Thần Ngôn Để Lại",
+      "desc": "Uy lực Đồng Xu của kỹ năng đồng minh sử dụng +(8 ÷ Số lượng Đồng Xu) (Trường hợp Đồng Xu cộng), Uy lực Cuối +(8 ÷ Số lượng Đồng Xu) (Trường hợp Đồng Xu trừ) (Giá trị tăng tối thiểu 1, làm tròn xuống, bao gồm cả kỹ năng E.G.O)\n\nKhi diễn ra Kháng cự, với mỗi 30 tổng Số lượng [Sinking] của mục tiêu và [Breath] của bản thân, Uy lực Kháng cự +1 (Tối đa 5)\n\nSát thương Gây ra của [SuperCoin] +25%\nSát thương Nhận vào từ [SuperCoin] -25%\n\n[Hiệu ứng dành riêng cho Bản sắc thuộc Chỉ Số]\n- Khi xuất hiện lần đầu trên chiến trường, Nhận [BlessingOfIndexPrescriptAlly] 6\n・Đối với Bản sắc có thể Nhận [UnlockBuff_Base], Nhận thêm [UnlockBuffAlly_2]\n- Sát thương Gây ra lên kẻ địch sở hữu [IndexPrescriptTargetToEnemy] +50%",
+      "simpleDesc": [
+        {
+          "abilityID": 98270,
+          "simpleDesc": "Uy lực Đồng xu hoặc Uy lực cuối cùng của đồng minh tăng mạnh"
+        },
+        {
+          "abilityID": 9257,
+          "simpleDesc": "Uy lực đấu thắng tăng lên tỉ lệ thuận với tổng [Sinking] của mục tiêu và [Hô hấp] của bản thân"
+        },
+        {
+          "abilityID": 92571,
+          "simpleDesc": "Sát thương của đồng xu không thể bị phá hủy +25%"
+        },
+        {
+          "abilityID": 92572,
+          "simpleDesc": "Sát thương gây ra +50% lên kẻ địch sở hữu đối tượng chỉ thị"
+        }
+      ]
+    },
+    {
+      "id": 9258,
+      "name": "Sổ Tay Báo Thù: Ngoại Truyện",
+      "desc": "Uy lực đồng xu của kỹ năng mà đồng minh sử dụng +(8 ÷ số lượng đồng xu) (Trường hợp đồng xu cộng), Uy lực cuối cùng +(8 ÷ số lượng đồng xu) (Trường hợp đồng xu trừ) (Giá trị tăng tối thiểu là 1, làm tròn xuống, bao gồm cả kỹ năng E.G.O)\n\nKhi bắt đầu giai đoạn, với mỗi đồng minh thuộc Chung Chỉ có mặt trên chiến trường, tất cả đồng minh nhận thêm 50 Lớp bảo vệ (Không bao gồm nhân viên dự bị, Lớp bảo vệ nhận được từ hiệu ứng này không biến mất khi kết thúc lượt)\n\nKhi đồng minh thuộc Chung Chỉ kết thúc đòn tấn công bằng kỹ năng cơ bản hệ Đố kị hoặc hệ Đập, hồi phục máu bằng 10% lượng sát thương kỹ năng đã gây ra\n- Nếu kích hoạt bằng kỹ năng phản kích, thay vào đó hồi phục máu bằng 20% lượng sát thương kỹ năng đã gây ra\n- Lượng máu hồi phục vượt mức sẽ nhận dưới dạng Lớp bảo vệ (Lớp bảo vệ nhận được từ hiệu ứng này không biến mất khi kết thúc lượt)\n\nKhi bắt đầu chiến đấu, cấp công kích của đồng minh thuộc Chung Chỉ tăng lên trong lượt này dựa trên số lượng kỹ năng phòng ngự đã thiết lập (Tối đa 12)\n- Nếu số lượng kỹ năng phòng ngự thiết lập từ 6 trở lên, sát thương kỹ năng cơ bản hệ Đố kị +30%, tăng thêm +10% cho mỗi kỹ năng phòng ngự vượt mức (Tối đa tăng thêm 60%)",
+      "simpleDesc": [
+        {}
+      ]
+    },
+    {
+      "id": 9259,
+      "name": "Maestro Ring Đã Trở Thành Tác Phẩm",
+      "desc": "Uy lực đồng xu của kỹ năng mà đồng minh sử dụng +(8 ÷ số lượng đồng xu) (Trường hợp đồng xu cộng), Uy lực cuối cùng +(8 ÷ số lượng đồng xu) (Trường hợp đồng xu trừ) (Giá trị tăng tối thiểu là 1, làm tròn xuống, bao gồm cả kỹ năng E.G.O)\n\nKhi bản sắc thuộc Dược Chỉ sử dụng kỹ năng tấn công cơ bản, áp dụng các hiệu ứng sau vào kỹ năng đó tùy theo số lượng loại hiệu ứng bất lợi mà mục tiêu đang chịu\n- 2~ : Uy lực đấu thắng +2\n- 4~ : Sát thương gây ra +15%\n- 6~ : Uy lực và số lượng hiệu ứng bất lợi gây ra bởi hiệu ứng đồng xu +1\n- 7~ : Uy lực cơ bản +2\n- 8~ : Sát thương gây ra +35%",
+      "simpleDesc": [
+        {}
+      ]
+    },
+    {
+      "id": 9250,
+      "name": "Ống Tiêm K Corp Phiên Bản Giá Rẻ",
+      "desc": "[Hiệu ứng dành riêng cho bản sắc ở vị trí số 1]\nKhi bắt đầu giai đoạn, nhận [KAmpouleMirror] 1",
+      "simpleDesc": [
+        {}
+      ]
+    },
+    {
+      "id": 9251,
+      "name": "Vận Mệnh Rực Cháy",
+      "desc": "Giá trị tối đa của uy lực [Combustion] +30\n\nKhi đấu thắng mục tiêu sở hữu [Combustion], kích hoạt [Combustion] của mục tiêu 1 lần, và số lượng [Combustion] của mục tiêu giảm đi 1 (1 lần mỗi bản sắc)\n\nKhi sử dụng kỹ năng lên kẻ địch sở hữu [Combustion], cấp công kích của kỹ năng đó tăng thêm ([Combustion] uy lực ÷ 10) dựa trên mục tiêu chính (Tối đa 8)",
+      "simpleDesc": [
+        {}
+      ]
+    },
+    {
+      "id": 9252,
+      "name": "Đinh và Búa",
+      "desc": "Nếu thuộc Hội Cuồng Tín N Corp, uy lực cơ bản của kỹ năng cơ bản +3\n\nKhi bản sắc thuộc Hội Cuồng Tín N Corp nhận [AssemblePersonality], tất cả bản sắc thuộc Hội Cuồng Tín N Corp cũng nhận [AssemblePersonality] bằng với giá trị đó (1 lần mỗi lượt, bao gồm cả bản thân)\n- Nếu có Cộng hưởng hoàn toàn hệ Sắc dục, lượng nhận được tăng gấp 3 lần\n\nKhi bắt đầu giai đoạn, gây [NailPersonality] 2 cho tất cả kẻ địch\n\nKhi bản sắc thuộc Hội Cuồng Tín N Corp tiến hành đấu thắng bằng kỹ năng cơ bản với mục tiêu có [NailPersonality], gây [Laceration] 3 (1 lần mỗi kỹ năng)\n\nSát thương kỹ năng cơ bản mà bản sắc thuộc Hội Cuồng Tín N Corp gây ra lên mục tiêu có [NailPersonality] +100%",
+      "simpleDesc": [
+        {}
+      ]
+    },
+    {
+      "id": 9253,
+      "name": "Mô Hình Vòng Quay Ngựa Gỗ",
+      "desc": "Khi bắt đầu lượt đầu tiên, nhận [BloodDinner] 300\nKhi [BloodDinner] được tạo ra bởi hiệu ứng [Laceration], lượng nhận được sẽ tăng gấp đôi\nKhi sử dụng kỹ năng tiêu tốn [BloodDinner], tiêu tốn thêm một lượng [BloodDinner] tương đương với giá trị đã tiêu tốn ở kỹ năng đó khi kết thúc đòn tấn công\n\n[Hiệu ứng dành riêng cho bản sắc La Mancha Land]\nKhi bản sắc thuộc La Mancha Land tham gia chiến đấu, áp dụng các hiệu ứng sau tùy theo bản sắc\n- Quản lý La Mancha Land Don Quixote: Nhận [BloodArmorPersonalityFirst] 15\n- Công chúa La Mancha Land Rodion: Nhận [BloomingThornsRodionFirst] 15\n- Linh mục La Mancha Land Gregor: Nhận [BloodyHandGregFirst] 15\n- Thợ cắt tóc La Mancha Land Outis: Nhận [BloodScissorPersonalityFirst] 15\n- Hoàng tử La Mancha Land Meursault: Nhận [BloodArmorMeursault] 3\n\n[Hiệu ứng dành riêng cho Quản lý La Mancha Land Don Quixote]\n- Với mỗi đồng minh thuộc La Mancha Land không tính bản thân, uy lực cuối cùng kỹ năng cơ bản của Quản lý La Mancha Land Don Quixote +1, sát thương gây ra +30% (Tối đa 4, 120%, tính cả nhân viên dự bị và đã tử trận, ngoại trừ bản sắc chưa được thiết lập đội hình)",
+      "simpleDesc": [
+        {}
+      ]
+    },
+    {
+      "id": 9254,
+      "name": "Thêm Một Ly Nữa!",
+      "desc": "Sát thương của kỹ năng cơ bản tiêu tốn số lượng [Vibration] hoặc số lượng [Charge] +20% (Bao gồm <noparse>Sạc</noparse> đặc biệt, ngoại trừ <noparse>Sạc</noparse> đặc biệt có uy lực cố định)\n\nNếu đã tiêu tốn số lượng [Vibration] hoặc số lượng [Charge] bằng kỹ năng cơ bản, khi kết thúc kỹ năng sẽ được hoàn lại một nửa số lượng đã tiêu tốn (Tối thiểu 1, làm tròn xuống, bao gồm cả <noparse>Sạc</noparse> đặc biệt, ngoại trừ <noparse>Sạc</noparse> đặc biệt có uy lực cố định)",
+      "simpleDesc": [
+        {}
+      ]
+    },
+    {
+      "id": 9255,
+      "name": "Vỗ Tay Bép Bép!",
+      "desc": "Khi đấu thắng bằng kỹ năng cơ bản có gây uy lực [Vibration], số lượng [Vibration] hoặc Chấn động đặc biệt cho kẻ địch, thực hiện [FusionVibration] thành một Chấn động đặc biệt ngẫu nhiên trong số các Chấn động đặc biệt dưới đây (Tối đa 1 lần mỗi lượt)\n- [VibrationIgnition]\n- [VibrationBleeding]\n- [VibrationEcho]\n- [VibrationCollapse]\n- [VibrationChainPersonality]",
+      "simpleDesc": [
+        {}
+      ]
+    },
+    {
+      "id": 9273,
+      "name": "Mạng Nhện Đỏ Rối Rắm",
+      "desc": "Với mỗi bản sắc đồng minh đã tử trận, cấp công kích và cấp phòng ngự của toàn bộ đồng minh tăng lên 1 (Tối đa 10)\n\nNếu Thanh Kiếm Mạng Nhện Ryoshu có trong đội hình, trường hợp bản sắc khác ngoài Thanh Kiếm Mạng Nhện Ryoshu tử trận, hiệu ứng hồi sinh sẽ không kích hoạt sau khi kết thúc chiến đấu (Ngoại trừ tầng Boss và hoàn thành nút ẩn)\n\n[Hiệu ứng dành riêng cho bản sắc ở vị trí số 1]\n\nKhi bắt đầu lượt, nếu toàn bộ đồng minh ngoại trừ bản thân đã tử trận, nhận [RedButterfly]\n\n[Hiệu ứng dành riêng cho Thanh Kiếm Mạng Nhện Ryoshu]\n\nKhi xuất hiện lần đầu trong giai đoạn, với mỗi bản sắc đồng minh thuộc Mạng Nhện đã tử trận, nhận [PhantomIncisionTotalID] 5\nCứ mỗi 2 bản sắc đồng minh thuộc Mạng Nhện đã tử trận, Uy lực cuối cùng +1, Uy lực đồng xu +1, Sát thương gây ra +10% (Tối đa mỗi loại 3, 30%)\nNếu không còn đồng minh nào khác sống sót ngoài Thanh Kiếm Mạng Nhện Ryoshu, hiệu chỉnh trong tất cả các lựa chọn +12",
+      "simpleDesc": [
+        {
+          "abilityID": 9273,
+          "simpleDesc": "Tăng cấp công kích, cấp phòng ngự"
+        },
+        {
+          "abilityID": 92731,
+          "simpleDesc": "Nhận [RedButterfly]"
+        },
+        {
+          "abilityID": 92732,
+          "simpleDesc": "Nhận [PhantomIncisionTotalID]"
+        },
+        {
+          "abilityID": 92733,
+          "simpleDesc": "Tăng uy lực cuối cùng, uy lực đồng xu, sát thương gây ra"
+        }
+      ]
+    },
+    {
+      "id": 9274,
+      "name": "Thòng Lọng",
+      "desc": "Khi đánh chí mạng kẻ địch, gây [Binding] 1 vào lượt kế tiếp (2 lần mỗi lượt)\nKhi đánh trúng kỹ năng lên kẻ địch có [Binding], nhận [Breath] 1 (2 lần mỗi lượt cho mỗi bản sắc)\n\nKhi bắt đầu lượt, tất cả kẻ địch đang có [Laceration] sẽ nhận [AttackDown] bằng với giá trị [Binding] của bản thân (Tối đa 5)\n\nKhi bắt đầu lượt, nếu tất cả kẻ địch (xét theo bộ phận trong trận đấu tập trung) đều đang bị gây [Binding], tất cả đồng minh nhận [Breath] 3",
+      "simpleDesc": [
+        {
+          "abilityID": 9274,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9275,
+      "name": "Túi Của Đội Cố Định N Corp",
+      "desc": "Khi đánh trúng kẻ địch bằng kỹ năng có gây uy lực/số lượng [Laceration] hoặc Xuất huyết đặc biệt, gây [NailPersonality] 1 (1 lần mỗi kỹ năng)\nNếu đã áp dụng [VibrationExplosion] lên kẻ địch sở hữu [NailPersonality], gây [Binding] 1 vào lượt kế tiếp (3 lần mỗi lượt)",
+      "simpleDesc": [
+        {
+          "abilityID": 9275,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9276,
+      "name": "Nghiên Sứ Trắng",
+      "desc": "Khi bản sắc đồng minh nhận [SupportProtect], nhận thêm [AttackDmgUp] 2 và [Protection] 2\n\n[Hiệu ứng dành riêng cho bản sắc ở vị trí số 1]\nKhi kết thúc lượt, nhận [Agility] 2 vào lượt kế tiếp\nNếu tốc độ của bản sắc nhanh hơn kẻ địch, sát thương +3% với mỗi chênh lệch tốc độ (Tối đa 30%)",
+      "simpleDesc": [
+        {
+          "abilityID": 9276,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9277,
+      "name": "Xương Bồ Kiếm",
+      "desc": "Nếu đồng minh không nhận đòn tấn công nào từ kẻ địch trong lượt này, nhận [SlashDamageUp] 1 vào lượt kế tiếp\nNếu đồng minh nhận đòn tấn công từ kẻ địch, nhận 4 [Breath] và nhận [CriticalDamageUp] 1 trong lượt này và lượt kế tiếp (1 lần mỗi lượt cho mỗi bản sắc)\n- Nếu là bản sắc thuộc Kiếm Khế, hiệu ứng của món quà này được áp dụng gấp đôi",
+      "simpleDesc": [
+        {
+          "abilityID": 9277,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9278,
+      "name": "Dụng Cụ Hình Phạt Bằng Gỗ Vụn",
+      "desc": "Khi đánh trúng kẻ địch bằng kỹ năng Trảm kích, gây [DefenseDown] 1 vào lượt kế tiếp (2 lần mỗi kỹ năng)\nNếu tốc độ của đồng minh nhanh hơn kẻ địch bị tấn công, sát thương kỹ năng tấn công cơ bản +3% với mỗi chênh lệch tốc độ (Tối đa 12%)\n- Nếu kẻ địch trong trạng thái [Binding], lượng tăng sát thương và giá trị tối đa được áp dụng gấp đôi",
+      "simpleDesc": [
+        {
+          "abilityID": 9278,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9279,
+      "name": "Kiếm Cách Không Hoa Văn",
+      "desc": "Sát thương của kỹ năng Trảm kích +1% ứng với mỗi 1 [Breath] (Tối đa 15%)",
+      "simpleDesc": [
+        {
+          "abilityID": 9279,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9280,
+      "name": "Bản Quốc Kiếm Phổ",
+      "desc": "Nếu kháng Trảm kích của kẻ địch từ 1.5 trở xuống, kháng Trảm kích +0.3\nCấp công kích của kỹ năng Trảm kích +2\nKhi tấn công kẻ địch có kháng Trảm kích là điểm yếu (kháng trên 1.0, không tính trạng thái Hoảng loạn), sát thương Trảm kích +(5 + Kháng Trảm kích của mục tiêu × 10)% (Tối đa 25%)\n\nSát thương của kỹ năng Trảm kích +1.5% ứng với mỗi 1 [Breath] (Tối đa 30%)\n\nKích hoạt khi có từ 3 bản sắc thuộc Kiếm Khế trở lên khi bắt đầu lượt (Dựa trên nhân lực xuất trận)\nKhi bắt đầu chiến đấu, gây [BongukGiftEnhance] 1 cho các bản sắc đồng minh thuộc Kiếm Khế có thiết lập kỹ năng hệ Phẫn nộ/Ngạo mạn\n\nNgoại trừ các bản sắc thuộc Kiếm Khế, 1 bản sắc thuộc S Corp có thứ tự thiết lập đội hình sớm nhất sẽ được coi là thuộc Kiếm Khế và nhận [BongukGiftEnhance] mỗi lượt",
+      "simpleDesc": [
+        {
+          "abilityID": 9280,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9282,
+      "name": "Nến Sáp Hình Cánh",
+      "desc": "Bắt đầu lượt: Kích hoạt khi có 3 hoặc nhiều hơn <noparse>Dawn Office</noparse> Bản sắc (tính cả Bản sắc Dự bị)\n\nLượt 1: Áp dụng 2 [DawnLight] lên tất cả đồng minh\nBắt đầu trận chiến: <noparse>Dawn Office</noparse> Fixer Sinclair hồi 10 Tinh thần, và Bản sắc nói trên có thể tiến vào trạng thái \"Volatile E.G.O::Waxen Pinion\" qua hiệu ứng Passive của \"Vỏ Bên ngoài Bất ổn của Ego\" ở 25+ SP thay vì 40+ SP\n\n[Hiệu ứng dành riêng cho <noparse>Dawn Office</noparse> Bản sắc]\nKhi trúng đòn bằng Kĩ năng cơ bản, gây 2 [Combustion] và 2 [Vibration] lên mục tiêu (1 lần mỗi Kĩ năng)\n<noparse>Dawn Office</noparse> Bản sắc được tính là \"Bản sắc gây [Combustion] và [Vibration]\"\n- Kĩ năng cơ bản của <noparse>Dawn Office</noparse> Bản sắc được tính là \"Kĩ năng gây [Combustion] và [Vibration]\"\nBắt đầu màn chơi: Nếu <noparse>Dawn Office</noparse> Faust đang trên chiến trường, áp dụng 1 [Firstlight] lên Bản sắc nói trên",
+      "simpleDesc": [
+        {
+          "abilityID": 9281,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9283,
+      "name": "Thuốc lá Chi lưu",
+      "desc": "Bắt đầu lượt: Kích hoạt khi có 3 hoặc nhiều hơn \"The Thumb\" Bản sắc (chỉ tính Bản sắc trên chiến trường)\nBắt đầu lượt: \"The Thumb\" Bản sắc nhận 1 [PlusCoinValueUp] và 2 [AttackDmgUp]\n\"The Thumb\" Bản sắc nhận 1 [AttackUp] cho mỗi \"The Thumb\" Bản sắc trên chiến trường (tối đa 4)\nGây +1% sát thương cho mỗi [VibrationIgnition] trên mục tiêu (tối đa 20%)\n- Kĩ năng tiêu hao [Bullet] gây thêm +1% sát thương (tối đa 20%)\n- \"The Thumb\" Bản sắc gây thêm +1% sát thương (tối đa 20%)\n\nĐơn vị kích hoạt [VibrationExplosion] bằng hiệu ứng Kĩ năng của mình nhận 2 [AttackUp] ở lượt kế tiếp (3 lần mỗi lượt)\n\nỞ cuối tấn công của Kĩ năng 3 của Nhà Nhện: Cha nuôi Ngón Áp Út Rodion, áp dụng 1 [EvolvingManual] lên Nhà Nhện: Đệ tử Ngón Áp Út Heathcliff",
+      "simpleDesc": [
+        {
+          "abilityID": 9282,
+          "simpleDesc": ""
+        }
+      ]
+    }
+  ]
+}

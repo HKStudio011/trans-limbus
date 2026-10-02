@@ -1,0 +1,407 @@
+{
+  "dataList": [
+    {
+      "id": 837101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Nó",
+          "desc": "[WhenUse] Gây [DuelDeclaration_Camille]\n[WhenUse] Nhận [Breath] 5\n[WinDuel] Số lượt [Breath] của bản thân tăng 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 837102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Coup de Droit",
+          "desc": "[WhenUse] Nhận [Breath] 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lượt [Breath] của bản thân tăng 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Nếu tốc độ của bản thân từ 7 trở lên, gây [Burst] 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Nhận [Breath] 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Nếu tốc độ của bản thân từ 7 trở lên, gây [Burst] 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 837103,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Fente",
+          "desc": "[WhenUse] Nếu [Breath] của bản thân từ 7 trở lên, Sức mạnh đồng xu +2\n[WinDuel] Số lượt [Breath] của bản thân tăng 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Nhận [Breath] 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Nếu tốc độ của bản thân từ 7 trở lên, số lượt [Burst] tăng 3"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Sát thương chí mạng +50%"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 837104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Salut",
+          "desc": "[WhenUse] Tốc độ của bản thân càng cao hơn kẻ tấn công, Sức mạnh đồng xu +1 (Mỗi 2 chênh lệch tốc độ, Sức mạnh đồng xu +1. Tối đa 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lượt [Breath] của bản thân tăng 4"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Nếu tốc độ của bản thân từ 7 trở lên, gây [Burst] 3, số lượt [Burst] tăng 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Nhận [Breath] 5"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Nếu tốc độ của bản thân từ 7 trở lên, gây [Burst] 3, số lượt [Burst] tăng 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Nhận [Breath] 5"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Nếu tốc độ của bản thân từ 7 trở lên, gây [Burst] 3, số lượt [Burst] tăng 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] Sát thương chí mạng +100%"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Mỗi 1 [Burst] trên mục tiêu, Sát thương +5% (Tối đa 50%)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 837105,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Trả đòn",
+          "desc": "[WinDuel] Sát thương tăng tỉ lệ thuận với số lần Đối đầu (Mỗi lần Đối đầu +10%. Tối đa 50%)\n[WinDuel] Nhận [Agility] 2 vào lượt sau\n[DefeatDuel] Nhận [Binding] 2 vào lượt sau",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây [Vulnerable] 1 vào lượt sau"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 837106,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Défensive",
+          "desc": "[OnSucceedEvade] Nhận [Agility] 1 vào lượt sau",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 837201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Chị sẽ cắt cưng thật đẹp đẽ nhé!",
+          "desc": "[WhenUse] Nếu [Laceration] của mục tiêu từ 6 trở lên, Sức mạnh Đối đầu +1\n[WhenUse] Mỗi 5 lượt [Laceration] của bản thân, Sức mạnh đồng xu +1 (Tối đa 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây [Laceration] 4"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Tái sử dụng đồng xu tỉ lệ thuận với (Cấp độ [BloodScissor] - 1) (Tối đa 2 lần)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 837202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Sắc lẹm hơn nữa",
+          "desc": "[WhenUse] Tiêu hao tối đa 20 [BloodDinner], mỗi 10 [BloodDinner] tiêu hao nhận 1 [BloodScissor] và hồi 3 Tinh thần.\n- Nếu không thể tiêu hao [BloodDinner] bằng kĩ năng này, nhận [Laceration] 30\n[WhenUse] Nếu [Laceration] của mục tiêu từ 6 trở lên, Sức mạnh Đối đầu +1\n[WhenUse] Mỗi 5 [Laceration] của bản thân, Sức mạnh đồng xu +1 (Tối đa 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lượt [Laceration] tăng 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lượt [Laceration] tăng 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 837203,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Xoẹt!",
+          "desc": "[WhenUse] Tiêu hao tối đa 30 [BloodDinner], mỗi 10 [BloodDinner] tiêu hao nhận 1 [BloodScissor] và hồi 3 Tinh thần\n[WhenUse] Nếu mục tiêu có [LineCutting], Sức mạnh Đối đầu +5\nMỗi khi đánh trúng mục tiêu có [LineCutting], hồi 5 Tinh thần",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây [Laceration] 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây [Laceration] 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 lượt [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 837204,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Chị sẽ cắt cưng luôn thể!",
+          "desc": "[BeforeAttack] Trọng số tấn công +1 tỉ lệ thuận với cấp độ [BloodScissor] (Tối đa 2)\n[WhenUse] Tiêu hao tối đa 30 [BloodDinner], mỗi 10 [BloodDinner] tiêu hao nhận 1 [BloodScissor] và hồi 3 Tinh thần\n[WhenUse] Nếu [Laceration] của mục tiêu từ 6 trở lên, Sức mạnh Đối đầu +2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây [BloodScissorScars] 1 vào lượt sau"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Gây [Laceration] 5, số lượt [Laceration] tăng 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 837205,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Đến lượt cưng rồi đấy",
+          "desc": "[WhenUse] Nếu [Laceration] của mục tiêu từ 6 trở lên, Sức mạnh đồng xu +1",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây [BloodScissorScars] 1 vào lượt sau"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Trở thành [LineCutting] vào lượt sau"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 837206,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Chị sẽ cắt các cưng thật thân thương!",
+          "desc": "[BeforeAttack] Chỉ số mục tiêu đòn tấn công +1 tỉ lệ thuận với cấp độ [BloodScissor]\n[WhenUse] Tiêu hao tối đa 100 [BloodDinner], mỗi 10 [BloodDinner] tiêu hao nhận 1 [BloodScissor] và hồi phục 3 Tinh thần\n[EndSkill] Tiêu hao 10 [BloodScissor]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 số lần [Laceration]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Kích hoạt [Laceration] của mục tiêu (Tối đa 10). Số lần [Laceration] của mục tiêu giảm 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 5 [Laceration]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Kích hoạt [Laceration] của mục tiêu (Tối đa 10). Số lần [Laceration] của mục tiêu giảm 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 5 [Laceration]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Kích hoạt [Laceration] của mục tiêu (Tối đa 10). Số lần [Laceration] của mục tiêu giảm 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Lượng sát thương +40% tỉ lệ thuận với cấp độ [BloodScissor] (Tối đa 120%)"
+                },
+                {
+                  "desc": "[EnemyKill] Nếu hạ gục kẻ địch bằng hiệu ứng đồng xu này, hồi phục 50% lượng sát thương đã gây ra cho mục tiêu bị hạ gục"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 837207,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Thật là bất lịch sự quá đi mà!",
+          "desc": "[DuelCounter]\n[WhenUse] Sức mạnh Thắng đấu +1 tỉ lệ thuận với cấp độ [BloodScissor] (Tối đa 3)\n[WhenUse] Với mỗi 5 [Laceration] của bản thân, Đồng xu +1 (Tối đa 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 4 [Laceration], số lần [Laceration] tăng 4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 837208,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ta không cần những thứ không xinh đẹp đâu!!",
+          "desc": "[CantChangeTarget]\nƯu tiên tấn công mục tiêu có tỉ lệ Thể lực hiện tại thấp nhất",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Nếu Thể lực của mục tiêu từ 30% trở xuống, Tử vong tức thì"
+                },
+                {
+                  "desc": "[EnemyKill] [BloodDinner] tăng thêm 30% Thể lực tối đa của mục tiêu bị hạ gục"
+                },
+                {
+                  "desc": "[EnemyKill] Nhận 4 [Vulnerable] vào lượt tiếp theo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+﻿{
+  "dataList": [
+    {
+      "id": 40004101,
+      "name": "Vị Thần Hồng Hào Sơ Sinh",
+      "desc": "Khi đơn vị này nhận [Charge], thay vào đó nhận [ChargeRouge]\n\nKhi bắt đầu trận chiến: Nhận 1 [ChargeRouge] Potency\n\nKhi bắt đầu lượt: Ở 2+ [ChargeRouge] Potency, nhận +([ChargeRouge] Potency x 2) Số lần [ChargeRouge]",
+      "summary": "Nhận [ChargeRouge]",
+      "flavor": "Một vị thần trẻ, nhưng vẫn là một vị thần."
+    },
+    {
+      "id": 40004102,
+      "name": "Bản Năng Đập Nhịp",
+      "desc": "Nhận +1 Số lần [ChargeRouge] mỗi khi hiệu ứng [Laceration] được kích hoạt trong một trận",
+      "summary": "Nhận Số lần [ChargeRouge]",
+      "flavor": "Tại sao... mỗi khi thấy máu, trái tim tôi lại đập rộn ràng đến vậy?"
+    },
+    {
+      "id": 40004103,
+      "name": "Cuộc Phiêu Lưu",
+      "desc": "Nhận các hiệu ứng sau dựa trên Uy lực [ChargeRouge] trên bản thân\n- 1+: Cho mỗi Số lần [ChargeRouge], gây +2% sát thương và hồi +10% HP cho mục tiêu (tối đa 20%, 100% tương ứng; làm tròn xuống)\n- 2+: Sức mạnh Cơ bản +1 cho mỗi 2 Uy lực [ChargeRouge] trên bản thân\n- 3+: Khi bắt đầu lượt: Nếu đơn vị này không có [GourmandiseAlly], và nếu đơn vị này có 15+ Số lần [ChargeRouge], tiêu hao toàn bộ Số lần [ChargeRouge] và nhận 3 [GourmandiseAlly]\n- 4+: Ô Kĩ năng +1\n- 5+: Khi bắt đầu trận chiến: Nhận 3 [GourmandiseAlly] và gây 3 [BloodyMucusAlly] lên tất cả kẻ địch",
+      "summary": "Hiệu ứng được tăng cường dựa trên Uy lực [ChargeRouge] trên bản thân",
+      "flavor": "Với từng bước chân, lẫm chẫm rời khỏi sau những người bảo hộ đầu tiên của mình, đứa trẻ học về thế giới, về cửa hàng bách hóa... và về chính nó, bởi đôi mắt là phần sáng rõ nhất và tự nhiên nhất trên cơ thể nó."
+    },
+    {
+      "id": 40004104,
+      "name": "Bàn Tay Giúp Đỡ",
+      "desc": "Khi một đồng minh bị Chấn động trong trận, dùng \"Nắm Tay Tôi\" lên đồng minh đó (2 lần mỗi lượt)"
+    },
+    {
+      "id": 40004105,
+      "name": "Cơ Thể Vượt Khống Chế",
+      "desc": "Nếu đơn vị này có [GourmandiseAlly], nhận các hiệu ứng sau:\n- Hồi HP bằng 20% sát thương đã gây\n- Khi dùng Kĩ năng, nhận +3 Số lần [Laceration]\n- Khi đánh trúng bằng một Kĩ năng, nhận 1 [Laceration]",
+      "summary": "Nhận 1 [Laceration]",
+      "flavor": "Dù tay chân và mọi thứ khác trên cơ thể nó đều xa lạ với đứa trẻ, nhịp đập mờ nhạt từ lõi bên trong sớm sẽ bắt đầu sự đập nhồi điên loạn của nó."
+    },
+    {
+      "id": 40004107,
+      "name": "Đinh May Da",
+      "desc": "Khi đơn vị này không hạ được một kẻ địch nào bằng các Kĩ năng Tấn công của nó, dùng \"Để Ta Kết Thúc Cho Ngươi...\" lên kẻ địch đó (một lần mỗi lượt)",
+      "flavor": "Họ nói rằng tôi cần một chiếc đinh dày, chắc chắn để xuyên qua da khi may. Nếu điều đó không hiệu quả, tôi chỉ cần thử lại...!"
+    },
+    {
+      "id": 40004108,
+      "name": "Vận Mệnh Lạc Lối",
+      "desc": "Thua trận này nếu đơn vị này bị hạ gục",
+      "flavor": "Một người có thể lạc lối và đi nhầm đường, nhưng sự phản kháng cố ý hay sự lệch khỏi dòng chảy đều bị \"nó\" cấm đoán."
+    },
+    {
+      "id": 40004202,
+      "name": "Vận Mệnh Lạc Lối",
+      "desc": "Thua trận này nếu đơn vị này bị hạ gục",
+      "flavor": "Một người có thể lạc lối và đi nhầm đường, nhưng sự phản kháng cố ý hay sự lệch khỏi dòng chảy đều bị \"nó\" cấm đoán."
+    },
+    {
+      "id": 40004203,
+      "name": "Le Visqueux-Abject",
+      "desc": "Đơn vị này chỉ nhận sát thương từ các Kĩ năng nhắm chủ yếu vào đơn vị này, và không nhận bất kỳ sát thương nào khác\n\nLần đầu tiên vào trận, tạo [BuffetField] trên chiến trường\n\nKhi bắt đầu lượt: Các mục tiêu trong phạm vi [BuffetField] nhận các hiệu ứng sau:\n- Đồng minh (bao gồm cả đơn vị này)\n  · Hồi 5% HP\n  · Nhận +4 Số lần [Charge]\n  · Nhận 1 [Protection]\n  · Nếu đồng minh bị ảnh hưởng là một đơn vị \"Le Rouge\", nhận 2 [Enhancement]\n  · Kĩ năng E.G.O gây +50% sát thương\n\n- Kẻ địch\n  · Nhận 3 [AttackDown]\n  · Nhận 3 [DefenseDown]\n  · Nhận 2 [BloodyMucusAlly]",
+      "flavor": "Trong một bữa tiệc không có hồi kết, Vị Thần Hồng Hào tiêu thụ và tiêu thụ; những gì bị nuốt chửng rồi được tiêu hóa và bài tiết thành một vùng nhầy quanh họ.\nĐây là kết quả của sự tiêu thụ, nơi ranh giới giữa cái tôi và kẻ khác trở nên mờ nhạt. Chất nhày bài tiết này là một phần của tôi, hay là của kẻ khác? Trong ranh giới này, mọi thứ thuộc về tôi đều đập nhịp, trong khi mọi thứ không thuộc về tôi thì rã rời.\n\nBởi vì tôi sợ những gì nằm bên ngoài rìa."
+    },
+    {
+      "id": 40004204,
+      "name": "La Fin de l'Enfance",
+      "desc": "Khi bắt đầu trận chiến: Nhận 5 Uy lực [ChargeRouge]\n\nKết thúc lượt: Ở 15+ Số lần [ChargeRouge], trang bị Kĩ năng \"La Nausée\"\nMỗi Khi bắt đầu lượt: Nhận +20 [Aggro]",
+      "flavor": "Ai là người quyết định tuổi thơ kết thúc?\n\nĐứa trẻ hồng hào trưởng thành trong suốt cuộc phiêu lưu, được định hình bởi những trải nghiệm của nó và phác thảo tương lai của riêng mình ở cuối hành trình—hay ít nhất nó nghĩ vậy. Tuổi thơ của nó đột ngột dừng lại, và cuộc phiêu lưu cũng vậy; đó chưa bao giờ là thứ mà nó có thể kết thúc theo cách của chính nó.\n\nSự kết thúc của tuổi thơ là một sự xâm nhập đột ngột, bạo lực của thực tại từ thế giới bên ngoài — nó là một thông báo cưỡng bức hơn là một nghi lễ được hứa hẹn: \"Ngươi không còn là trẻ con nữa.\""
+    }
+  ]
+}

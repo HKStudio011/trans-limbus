@@ -1,0 +1,109 @@
+{
+  "dataList": [
+    {
+      "id": 9020301,
+      "name": "Nhiệm vụ dễ dàng",
+      "desc": "Kết thúc lượt, nếu đòn tấn công đã trúng đích trong lượt này, nhận 1 [Enhancement] vào lượt kế tiếp\nNếu mục tiêu là Hong Lu, nhận thêm 1 [ParryingResultUp], 1 [AttackDmgUp] vào lượt kế tiếp"
+    },
+    {
+      "id": 9020302,
+      "name": "Không nên như thế này",
+      "desc": "Khi thua đấu kỹ, Sức mạnh tinh thần giảm 5\nKhi bị Hoảng loạn, nhận 2 [Vulnerable] vào lượt kế tiếp (1 lần mỗi lượt)"
+    },
+    {
+      "id": 9020101,
+      "name": "Mộc nhân luyện tập",
+      "desc": "Vô hiệu hóa sát thương dưới 10."
+    },
+    {
+      "id": 9020102,
+      "name": "Mộc nhân luyện tập đang trưởng thành",
+      "desc": "Kết thúc lượt, nếu kĩ năng không trúng đích, nhận [ParryingResultUp] vào lượt kế tiếp tương ứng với số lần không trúng\nKhi kĩ năng trúng đích kẻ địch, giá trị tích lũy sẽ được khởi tạo lại"
+    },
+    {
+      "id": 9020103,
+      "name": "Củng cố kĩ năng cơ bản",
+      "desc": "Kết thúc lượt, nếu nhận sát thương từ 4 kĩ năng tấn công trở lên, cấp 1 [AttackDmgUp] vào lượt kế tiếp cho tất cả kẻ địch đã tấn công bản thân tương ứng với số lần nhận sát thương\nNếu bị tấn công bởi 3 kĩ năng tấn công trở xuống, giá trị tích lũy sẽ được khởi tạo lại."
+    },
+    {
+      "id": 9019501,
+      "name": "Lời nguyền bị chệch hướng",
+      "desc": "Khi rơi vào trạng thái Hoảng loạn, số lượng [Burst] và số lần [Burst] của mục tiêu bị tấn công cuối cùng giảm một nửa"
+    },
+    {
+      "id": 9019502,
+      "name": "Lời nguyền trú ngụ trong bình",
+      "desc": "Kết thúc lượt, nếu kĩ năng đã trúng đích trong lượt này, nhận 1 [Enhancement] vào lượt kế tiếp\nNếu tự hủy, cấp 1 [Enhancement] cho toàn bộ đồng minh vào lượt kế tiếp"
+    },
+    {
+      "id": 9019601,
+      "name": "Lời nguyền trú ngụ trong bình",
+      "desc": "Khi kĩ năng trúng đích, nếu số lần [Burst] còn lại của mục tiêu là 1, số lần [Burst] tăng 1 (2 lần mỗi lượt)\nKhi đòn tấn công trúng đích, nếu [Burst] còn lại của mục tiêu là 1, cấp 2 [Burst] (2 lần mỗi lượt)\nNếu tự hủy, cấp 2 [Burst] cho toàn bộ kẻ địch, số lần [Burst] tăng 1"
+    },
+    {
+      "id": 9019701,
+      "name": "Lời nguyền trú ngụ trong bình",
+      "desc": "Khi kĩ năng trúng đích, nếu mục tiêu có từ 4 [Burst] trở lên, cấp 1 [DefenseDown] vào lượt kế tiếp (3 lần mỗi lượt)\nNếu tự hủy, cấp 3 [DefenseDown] cho toàn bộ kẻ địch vào lượt kế tiếp"
+    },
+    {
+      "id": 9102201,
+      "name": "Lời nguyền bị chệch hướng",
+      "desc": "Khi rơi vào trạng thái Hoảng loạn, số lượng [Burst] và số lần [Burst] của mục tiêu bị tấn công cuối cùng trở về 0"
+    },
+    {
+      "id": 9102202,
+      "name": "Bình của Quỷ Nguyền",
+      "desc": "Khi trúng đích, nếu (Số lượng [Burst] + Số lần [Burst]) của mục tiêu từ 5 trở lên, cấp 1 [DefenseDown] (Tối đa 5 lần mỗi lượt)"
+    },
+    {
+      "id": 9102203,
+      "name": "Lời nguyền trú ngụ trong bình",
+      "desc": "Kết thúc lượt, cấp [Poison] cho tất cả kẻ địch dựa trên số lượt đã ra trận (Tối đa 5)\nNếu tự hủy, cấp (số lượt đã trôi qua × 5) [Poison] cho tất cả kẻ địch vào lượt kế tiếp (Tối đa 25), số lần [Burst] tăng 2"
+    },
+    {
+      "id": 9019801,
+      "name": "Thiệt hại trong thời gian đó",
+      "desc": "Khi nhận sát thương trong trận chiến, Lượng sát thương gây ra +10% trong lượt đó\nKhi nhận sát thương trong trận chiến, khi thắng đấu kỹ, Lượng sát thương gây ra +20%"
+    },
+    {
+      "id": 9019802,
+      "name": "Mục tiêu - Jia Baoyu",
+      "desc": "Ưu tiên tấn công Hong Lu"
+    },
+    {
+      "id": 9019803,
+      "name": "Mục tiêu đang dần trở nên rõ ràng",
+      "desc": "Khi máu của bản thân từ 70% trở lên, kết thúc lượt nếu kĩ năng không trúng đích Hong Lu, nhận 1 [Reduction] vào lượt kế tiếp\nKhi máu của bản thân dưới 70%, kết thúc lượt nếu kĩ năng không trúng đích Hong Lu, [Laceration] và số lần [Laceration] cấp trong lượt kế tiếp +1"
+    },
+    {
+      "id": 9020001,
+      "name": "Thực hiện nhiệm vụ",
+      "desc": "Với mỗi 1% máu đã mất của bản thân, Lượng sát thương gây ra +0.5% (Tối đa 50%)"
+    },
+    {
+      "id": 9020002,
+      "name": "Mục tiêu đang dần trở nên rõ ràng",
+      "desc": "Khi máu của bản thân từ 70% trở lên, kết thúc lượt nếu kĩ năng không trúng đích Hong Lu, nhận 1 [Reduction] vào lượt kế tiếp\nKhi máu của bản thân dưới 70%, kết thúc lượt nếu kĩ năng không trúng đích Hong Lu, nhận 1 [Enhancement] vào lượt kế tiếp\n- [Laceration] và số lần [Laceration] cấp trong lượt kế tiếp +1"
+    },
+    {
+      "id": 9102101,
+      "name": "Thiệt hại trong thời gian đó",
+      "desc": "Khi nhận sát thương trong trận chiến, Lượng sát thương gây ra +20% trong lượt đó\nKhi thua đấu kỹ trong trận chiến, Lượng sát thương nhận vào từ kĩ năng tương ứng +15%"
+    },
+    {
+      "id": 9102102,
+      "name": "Tu hành say xỉn",
+      "desc": "Với mỗi 1% máu đã mất của bản thân, Lượng sát thương gây ra +2% (Tối đa 100%)"
+    },
+    {
+      "id": 9102103,
+      "name": "Ôi chao... hức, thế này không được rồi",
+      "desc": "Khi máu của bản thân dưới 50%, giải trừ trạng thái Hoảng loạn và kết thúc lượt này.\nVào lượt kế tiếp, Tốc độ được cố định ở mức 10"
+    },
+    {
+      "id": 9102104,
+      "name": "Mục tiêu không lay chuyển",
+      "desc": "Khi máu của bản thân từ 70% trở lên, kết thúc lượt nếu kĩ năng không trúng đích Hong Lu, nhận 3 [AttackDown] vào lượt kế tiếp\nKhi máu của bản thân dưới 70%, kết thúc lượt nếu kĩ năng không trúng đích Hong Lu, nhận 6 [AttackUp] vào lượt kế tiếp"
+    }
+  ]
+}

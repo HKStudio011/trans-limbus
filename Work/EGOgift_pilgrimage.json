@@ -1,0 +1,151 @@
+﻿{
+  "dataList": [
+    {
+      "id": 9831,
+      "name": "Bản nghiên cứu Khủng ngư",
+      "desc": "Sát thương gây lên kẻ địch +10%\n- Trong suốt trận chiến này, với mỗi kẻ địch bị tiêu diệt hoặc mỗi bộ phận bị phá hủy, lượng sát thương sẽ tăng thêm +1% (Tăng thêm tối đa 20%)\n- Áp dụng ngay cả khi phá hủy lặp lại cùng một bộ phận\n- Nếu trong số kẻ địch xuất hiện có Khủng ngư, hiệu ứng trên sẽ được kích hoạt ở mức tối đa một cách vô điều kiện",
+      "simpleDesc": [
+        {
+          "abilityID": 9831,
+          "simpleDesc": "Tăng sát thương gây ra"
+        }
+      ]
+    },
+    {
+      "id": 9832,
+      "name": "La bàn Vàng",
+      "desc": "Khi sử dụng kỹ năng Cộng Coin, hồi 5 Tinh thần; khi sử dụng kỹ năng Trừ Coin, giảm 5 Tinh thần (Hiệu ứng này không làm Tinh thần giảm xuống dưới -40, áp dụng mỗi lượt một lần cho mỗi Identity).\n\nKhi bắt đầu lượt, nếu Tinh thần ở mức tối đa hoặc từ -30 trở xuống, nhận 1 [ResultEnhancement] và 2 [Protection].",
+      "simpleDesc": [
+        {
+          "abilityID": 9832,
+          "simpleDesc": "Khi sử dụng kỹ năng, hồi hoặc giảm Tinh thần tùy theo loại Coin"
+        },
+        {
+          "abilityID": 98321,
+          "simpleDesc": "Tăng Uy lực và nhận Bảo vệ nếu Tinh thần ở mức tối đa hoặc từ -30 trở xuống"
+        }
+      ]
+    },
+    {
+      "id": 9833,
+      "name": "Chùm chìa khóa Bạc",
+      "desc": "Trong trận đấu Boss, khi bắt đầu lượt, nhận +1 cho 3 loại Tài nguyên E.G.O có số lượng hiện có ít nhất.\n\nKhi kết thúc lượt, nếu đã sử dụng kỹ năng E.G.O trong lượt này, nhận +1 cho 3 loại Tài nguyên E.G.O có số lượng hiện có ít nhất (1 lần mỗi lượt).",
+      "simpleDesc": [
+        {
+          "abilityID": 9833,
+          "simpleDesc": "Nhận +1 cho 3 loại Tài nguyên E.G.O có số lượng ít nhất"
+        },
+        {
+          "abilityID": 98331,
+          "simpleDesc": "Tài nguyên E.G.O có số lượng ít nhất +3"
+        }
+      ]
+    },
+    {
+      "id": 9834,
+      "name": "Khô Khủng ngư",
+      "desc": "Khi bắt đầu lượt, gây 3 [DefenseDown] cho tất cả kẻ địch (bộ phận nếu là Thực thể ảo giác)\n- Nếu trong số kẻ địch xuất hiện có Khủng ngư, hiệu ứng được tăng cường: gây 7 [DefenseDown] thay thế",
+      "simpleDesc": [
+        {
+          "abilityID": 9834,
+          "simpleDesc": "Gây Giảm Cấp Phòng thủ"
+        }
+      ]
+    },
+    {
+      "id": 9835,
+      "name": "Ánh đèn Chói lọi",
+      "desc": "[Áp dụng hiệu ứng cho Identity có thứ tự sắp xếp sớm nhất]\n\nMỗi lượt, kỹ năng tấn công sử dụng đầu tiên có Uy lực cuối cùng +3.\nNếu kỹ năng tấn công đã sử dụng là kỹ năng E.G.O, hiệu ứng được tăng cường: Uy lực cuối cùng +4, Sát thương +25% thay thế.\n\nKhi bắt đầu trận đấu, nếu bản thân có [NervousImpairment], tiêu thụ tối đa 4 và nhận [Combustion] tương ứng với (Số lượng tiêu thụ × 2).",
+      "simpleDesc": [
+        {
+          "abilityID": 9835,
+          "simpleDesc": "Tăng Uy lực cuối cùng của kỹ năng tấn công sử dụng đầu tiên trong lượt này"
+        },
+        {
+          "abilityID": 98351,
+          "simpleDesc": "Tăng Uy lực cuối cùng và sát thương của kỹ năng tấn công sử dụng đầu tiên trong lượt này"
+        },
+        {
+          "abilityID": 98352,
+          "simpleDesc": "Tiêu thụ Tổn thương Thần kinh nếu có, thay vào đó nhận Hỏa thiêu tỷ lệ thuận với giá trị tiêu thụ"
+        }
+      ]
+    },
+    {
+      "id": 9836,
+      "name": "Bản nhạc Cổ xưa",
+      "desc": "Khi đánh trúng một mục tiêu duy nhất (bộ phận nếu là Thực thể ảo giác) bằng kỹ năng tấn công bao gồm cả kỹ năng E.G.O, Sát thương +10%.\nNếu là kỹ năng gây Uy lực [Sinking], Số lượng [Sinking] hoặc Trầm luân đặc biệt, hiệu ứng được tăng cường: Sát thương +25% thay thế.\n\n[Hiệu ứng dành riêng cho E.G.O Ishmael - Ngày cũ]\nNếu mục tiêu bị tấn công bởi kỹ năng E.G.O này chỉ có 1, Uy lực Coin cuối cùng +4, Sát thương +20%.",
+      "simpleDesc": [
+        {
+          "abilityID": 9836,
+          "simpleDesc": "Tăng sát thương khi đánh trúng bằng kỹ năng có Số mục tiêu là 1"
+        },
+        {
+          "abilityID": 98361,
+          "simpleDesc": "Tăng sát thương khi đánh trúng bằng kỹ năng gây Trầm luân có Số mục tiêu là 1"
+        },
+        {
+          "abilityID": 98362,
+          "simpleDesc": "Tăng cường hiệu ứng E.G.O Ishmael - Ngày cũ"
+        }
+      ]
+    },
+    {
+      "id": 9837,
+      "name": "Cấu trúc Kim loại",
+      "desc": "Khi bắt đầu lượt, tất cả đồng minh nhận 2 [TakeHpHealIncrease].\nNếu là Identity sở hữu kỹ năng tấn công gây Uy lực [Burst] hoặc Số lượng [Burst], hiệu ứng được tăng cường: nhận 4 [TakeHpHealIncrease] thay thế.\n\n[Hiệu ứng dành riêng cho E.G.O Faust - Lệnh: Tan chảy]\nLượng hồi phục HP vượt mức từ hiệu ứng của kỹ năng E.G.O này hoặc từ Nội tại sẽ được chuyển hóa thành Khiên.",
+      "simpleDesc": [
+        {
+          "abilityID": 9837,
+          "simpleDesc": "Nhận Tăng Hồi máu"
+        },
+        {
+          "abilityID": 98371,
+          "simpleDesc": "Nhận Tăng Hồi máu"
+        },
+        {
+          "abilityID": 98372,
+          "simpleDesc": "Tăng cường hiệu ứng E.G.O Faust - Lệnh: Tan chảy"
+        }
+      ]
+    },
+    {
+      "id": 9838,
+      "name": "Chén rượu Chứa trăng",
+      "desc": "Khi bắt đầu lượt, hồi 5 Tinh thần cho tất cả đồng minh. Nếu Tinh thần đã ở mức tối đa, nhận [Breath] tương ứng với lượng Tinh thần dư thừa (Tối đa 5).\nKhi sử dụng kỹ năng tấn công Gây/Nhận Uy lực [Breath] hoặc Số lượng [Breath], nhận 2 Số lượng [Breath] (Mỗi Identity áp dụng 1 lần mỗi lượt).\n\n[Hiệu ứng dành riêng cho E.G.O Hong Lu - Hà bất vi ngã]\n- Thức tỉnh: Khi sử dụng kỹ năng E.G.O này, hồi Tinh thần thay vì tiêu hao.\n- Thối rữa: Khi sử dụng kỹ năng E.G.O này, lượng Tinh thần tiêu hao -50%.",
+      "simpleDesc": [
+        {
+          "abilityID": 9838,
+          "simpleDesc": "Hồi Tinh thần. Nếu Tinh thần đã ở mức tối đa, nhận Hơi thở thay thế"
+        },
+        {
+          "abilityID": 98381,
+          "simpleDesc": "Nhận Số lượng Hơi thở khi sử dụng kỹ năng Gây/Nhận Hơi thở"
+        },
+        {
+          "abilityID": 98382,
+          "simpleDesc": "Tăng cường hiệu ứng E.G.O Hong Lu - Hà bất vi ngã"
+        }
+      ]
+    },
+    {
+      "id": 9839,
+      "name": "Dao rọc giấy Cổ điển",
+      "desc": "Sát thương của kỹ năng có Số mục tiêu từ 2 trở lên +15%.\nNếu là kỹ năng gây Uy lực [Vibration], Số lượng [Vibration] hoặc Chấn động đặc biệt, hiệu ứng được tăng cường: Sát thương +(15 + Số mục tiêu × 5)% (Tối đa 50%).\n\n[Hiệu ứng dành riêng cho E.G.O Gregor - Vinh quang không rực rỡ]\n- Thức tỉnh: Mỗi khi dùng lại Coin của kỹ năng E.G.O này, Sát thương +20% (Tối đa 60%).\n- Thối rữa: Trước khi bắt đầu tấn công, nhận 1 [AttackDmgUp] với mỗi 10 [MlynarWaiting] tiêu thụ (Tối đa 4).",
+      "simpleDesc": [
+        {
+          "abilityID": 9839,
+          "simpleDesc": "Tăng sát thương khi sử dụng kỹ năng có Số mục tiêu từ 2 trở lên"
+        },
+        {
+          "abilityID": 98391,
+          "simpleDesc": "Tăng sát thương khi sử dụng kỹ năng Chấn động có Số mục tiêu từ 2 trở lên"
+        },
+        {
+          "abilityID": 98392,
+          "simpleDesc": "Tăng cường hiệu ứng E.G.O Gregor - Vinh quang không rực rỡ"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+    "dataList": [
+        {
+            "id": 811301,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Hãy trở thành niềm vui",
+                    "desc": "[WhenUse] Bản thân nhận 2 số lượng [Charge]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Gây 3 [Binding] cho mục tiêu vào lượt tiếp theo"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Nhận 2 [Breath]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 811302,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Hãy trở thành sự an lành",
+                    "desc": "[WhenUse] Bản thân nhận 2 số lượng [Charge]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Bản thân nhận 3 số lượng [Breath]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttackHead] Nhận 3 [Breath]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[CriticalOnSucceedAttack] Nhận thêm lượng [Breath] tương ứng với số [Breath] đang sở hữu"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Bản thân nhận 3 số lượng [Breath]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 811303,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Là quà đấy",
+                    "desc": "Nếu mục tiêu có [Binding], nếu tốc độ của bản thân cao hơn đối phương, Sức mạnh Hòa đấu tăng thêm dựa trên chênh lệch tốc độ giữa bản thân và đối phương.",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Giảm 5 Điểm tinh thần"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Nhận 2 [Breath], bản thân nhận 3 số lượng [Breath]"
+                                },
+                                {
+                                    "desc": "[CriticalOnSucceedAttack] Gây 3 [Paralysis] vào lượt tiếp theo"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 811304,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Gói quà đây",
+                    "desc": "Nếu mục tiêu có [AaCeSeBa], thêm hiệu ứng \"Gây 1 [Paralysis] vào lượt tiếp theo\" vào hiệu ứng mặt đồng xu\nƯu tiên tấn công mục tiêu chậm nhất\n[EndBattle] Tiêu thụ mọi số lượng [Charge]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Nhận 3 [Breath]."
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Gây thêm sát thương dựa trên số [Breath] của bản thân"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Nhận 1 [Breath], bản thân nhận 3 số lượng [Breath]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Gây ngẫu nhiên 1 hiệu ứng với giá trị là 3 trong số [Protection], [Enhancement], [Vulnerable], [Paralysis]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Giảm Điểm tinh thần của mục tiêu dựa trên số lượng [Charge] của bản thân"
+                                },
+                                {
+                                    "desc": "[EnemyKill] Giảm 10 Điểm tinh thần của tất cả kẻ địch."
+                                },
+                                {
+                                    "desc": "[EnemyKillFail] Nhận 2 [Paralysis] vào lượt tiếp theo"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 811305,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Đến lúc chuẩn bị quà rồi",
+                    "desc": "Nếu lá chắn bị tiêu thụ hết, bị Choáng vào lượt tiếp theo.\nNếu lá chắn còn lại, nhận 2 [Enhancement] vào lượt tiếp theo.",
+                    "coinlist": [
+                        {}
+                    ]
+                }
+            ]
+        }
+    ]
+}

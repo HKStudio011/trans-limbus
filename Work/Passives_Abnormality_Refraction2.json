@@ -1,0 +1,494 @@
+{
+  "dataList": [
+    {
+      "id": 853901,
+      "name": "Chiếc ô hỏng",
+      "desc": "Khi phá hủy bộ phận Thân, mỗi lượt bộ phận Thân nhận Giảm Sát thương 1"
+    },
+    {
+      "id": 853902,
+      "name": "Chiếc ô rách nát",
+      "desc": "Khi phá hủy bộ phận Đầu, mỗi lượt nhận Giảm Sát thương 1"
+    },
+    {
+      "id": 853903,
+      "name": "Nỗ lực cuối cùng",
+      "desc": "Khi Máu còn lại là 15%, mỗi lượt nhận Trói buộc 10, Giảm Sức mạnh Tấn công 1\nMáu của Ô Cũ mới được triệu hồi tăng 30%. Mỗi lượt sử dụng Tiếng kêu tìm kiếm thứ gì đó"
+    },
+    {
+      "id": 853904,
+      "name": "Trái tim Phù hoa",
+      "desc": "Bắt đầu lượt 1, nhận 2 <sprite name=\"WaveFoxUmbrella\"><color=#f8c200><u><link=\"WaveFoxUmbrella\">Ô Bảo vệ</color></link></u>. (Tối đa 6)\nKhi nhận <sprite name=\"WaveFoxUmbrella\"><color=#f8c200><u><link=\"WaveFoxUmbrella\">Ô Bảo vệ</color></link></u>, nhận thêm một lượng bằng 「Số vòng lặp」.\nNhận <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Bảo vệ</color></link></u> tương đương số lượng <sprite name=\"WaveFoxUmbrella\"><color=#f8c200><u><link=\"WaveFoxUmbrella\">Ô Bảo vệ</color></link></u> đang sở hữu\nNếu Kĩ năng 「Đợi chờ」 có trong khe kĩ năng, triệu hồi Ô Cũ tương đương số lượng <sprite name=\"WaveFoxUmbrella\"><color=#f8c200><u><link=\"WaveFoxUmbrella\">Ô Bảo vệ</color></link></u>"
+    },
+    {
+      "id": 853905,
+      "name": "Vết rách và Trầm luân Khúc xạ",
+      "desc": "Số trị <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Vết rách</color></link></u> và <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Trầm luân</color></link></u> được tích lũy lên đến 30.\nSố lượt <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Vết rách</color></link></u> và <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Trầm luân</color></link></u> được tích lũy lên đến 5."
+    },
+    {
+      "id": 853906,
+      "name": "Gánh nặng Xuất huyết Khúc xạ",
+      "desc": "Khi nhận <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Xuất huyết</color></link></u>, nhận thêm 1 Số trị và 1 Số lượt."
+    },
+    {
+      "id": 854001,
+      "name": "Ô Cũ bị bỏ rơi",
+      "desc": "Khi đơn vị này bị tiêu diệt bởi Bản sắc, nhân vật đã tiêu diệt nhận Nhanh nhẹn 2 vào lượt sau.\nGây Trói buộc 2 cho tất cả bộ phận của Cáo Lang thang.\nGây 1 Mảnh vỡ Ô cho Cáo Lang thang."
+    },
+    {
+      "id": 854101,
+      "name": "Sinh lực Suy tàn",
+      "desc": "Sau khi sử dụng Kĩ năng Phòng thủ, nếu tất cả Lá chắn bị tiêu hao, nhận Giảm Cấp độ Tấn công 3, Mong manh 3 vào lượt sau."
+    },
+    {
+      "id": 854102,
+      "name": "Lớp vỏ cứng cáp",
+      "desc": "Nếu bộ phận Đầu không ở trạng thái phá hủy\nMỗi lượt bộ phận Thân nhận Bảo vệ 3."
+    },
+    {
+      "id": 854104,
+      "name": "Sạc Khúc xạ",
+      "desc": "Nếu mục tiêu có [Charge], khi tấn công trúng, giảm 1 Số lượt [Charge] của mục tiêu và nhận Tự phát điện 1 (3 lần mỗi lượt)"
+    },
+    {
+      "id": 854103,
+      "name": "Xuất huyết và Chấn động Khúc xạ",
+      "desc": "Số trị <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Xuất huyết</color></link></u> và <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Chấn động</color></link></u> được tích lũy lên đến 30.\nSố lượt <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Xuất huyết</color></link></u> và <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Chấn động</color></link></u> được tích lũy lên đến 5."
+    },
+    {
+      "id": 854105,
+      "name": "Tự phát điện",
+      "desc": "Bắt đầu lượt 1, nhận Tự phát điện 3\nKhi số vòng lặp tăng lên, lượng Tự phát điện nhận được tăng thêm 1 (Tối đa 8)"
+    },
+    {
+      "id": 854201,
+      "name": "Phân chia tế bào",
+      "desc": "Khi phá hủy bộ phận Tay, tất cả bộ phận nhận Giảm Sức mạnh Tấn công 1 mỗi lượt"
+    },
+    {
+      "id": 854202,
+      "name": "Rượu Tiên tửu bị nhắm đến",
+      "desc": "Khi có Tiên tửu, tất cả bộ phận nhận 5 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Trói buộc</color></link></u>."
+    },
+    {
+      "id": 854203,
+      "name": "Xuất huyết và Chấn động Khúc xạ",
+      "desc": "Số trị <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Xuất huyết</color></link></u> và <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Chấn động</color></link></u> được tích lũy lên đến 30.\nSố lượt <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Xuất huyết</color></link></u> và <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Chấn động</color></link></u> được tích lũy lên đến 5."
+    },
+    {
+      "id": 854204,
+      "name": "Gánh nặng Vết rách Khúc xạ",
+      "desc": "Khi nhận <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Vết rách</color></link></u>, nhận thêm 1 Số trị và 1 Số lượt."
+    },
+    {
+      "id": 854301,
+      "name": "Tiên tửu",
+      "desc": "Khi bị tiêu diệt bởi Bản sắc, gây Say 5 cho tất cả Bản sắc vào lượt sau.\nNếu không bị tiêu diệt, gây Hồi 10% Máu, Tăng Sức mạnh Tấn công 2, Nhanh nhẹn 2, Bảo vệ 2 cho Tiên tửu Quý ông vào lượt sau.\nBiến mất khi kết thúc lượt"
+    },
+    {
+      "id": 854401,
+      "name": "Phương tiện hỏng",
+      "desc": "Khi phá hủy bộ phận Tay, mỗi lượt bộ phận Tay nhận Giảm Sức mạnh Tấn công 1"
+    },
+    {
+      "id": 854402,
+      "name": "Gánh nặng Trầm luân Khúc xạ",
+      "desc": "Khi nhận <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Trầm luân</color></link></u>, nhận thêm 1 Số trị và 1 Số lượt."
+    },
+    {
+      "id": 854501,
+      "name": "Phương tiện đánh mất",
+      "desc": "Khi phá hủy bộ phận Tay, mỗi lượt nhận Giảm Sức mạnh Tấn công 1"
+    },
+    {
+      "id": 854502,
+      "name": "Bóng tối bị phá vỡ",
+      "desc": "Khi phá hủy bộ phận Đầu, mỗi lượt nhận Giảm Cấp độ Phòng thủ 2"
+    },
+    {
+      "id": 854503,
+      "name": "Xuất huyết và Chấn động Khúc xạ",
+      "desc": "Số trị <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Xuất huyết</color></link></u> và <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Chấn động</color></link></u> được tích lũy lên đến 30.\nSố lượt <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Xuất huyết</color></link></u> và <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Chấn động</color></link></u> được tích lũy lên đến 5."
+    },
+    {
+      "id": 854504,
+      "name": "Gánh nặng Vết rách Khúc xạ",
+      "desc": "Khi nhận <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Vết rách</color></link></u>, nhận thêm 1 Số trị và 1 Số lượt."
+    },
+    {
+      "id": 854601,
+      "name": "Lá cây ô nhiễm",
+      "desc": "Mỗi khi bắt đầu lượt, Tiên tửu Chân dài và Tiên tửu Quý ông nhận Tăng Hồi phục Máu 3, Tăng Sức mạnh Tấn công 1.\nNếu Cỏ ba lá còn sống từ 4 lượt trở lên, nhận thêm Tăng Sức mạnh Tấn công 1, Tăng Sát thương 2."
+    },
+    {
+      "id": 854701,
+      "name": "Phân chia tế bào",
+      "desc": "Khi phá hủy bộ phận Tay, mỗi lượt nhận Giảm Sức mạnh Tấn công 1"
+    },
+    {
+      "id": 854702,
+      "name": "Rượu Tiên Được Để Mắt",
+      "desc": "Khi có Rượu Tiên, tất cả bộ phận nhận 5 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Trói buộc</color></link></u>."
+    },
+    {
+      "id": 854703,
+      "name": "Xuất huyết và Chấn động Bẻ cong",
+      "desc": "Số trị của <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Xuất huyết</color></link></u> và <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Chấn động</color></link></u> tích lũy tối đa đến 30.\nSố lượt của <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Xuất huyết</color></link></u> và <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Chấn động</color></link></u> tích lũy tối đa đến 5."
+    },
+    {
+      "id": 854704,
+      "name": "Tải Vết rách Bẻ cong",
+      "desc": "Khi nhận <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Vết rách</color></link></u>, nhận thêm 1 Số trị và Số lượt."
+    },
+    {
+      "id": 854801,
+      "name": "Rượu Tiên",
+      "desc": "Khi bị Identity tiêu diệt, gây 5 Say cho toàn bộ Identity vào lượt kế tiếp.\nKhi không bị tiêu diệt, hồi 10% HP cho Tiên Quý Tộc, gây 2 Tăng Sức mạnh Tấn công, 2 Nhanh nhẹn, 2 Bảo vệ vào lượt kế tiếp.\nBiến mất khi kết thúc lượt."
+    },
+    {
+      "id": 854901,
+      "name": "Mê hoặc",
+      "desc": "Gây Mê hoặc cho kẻ địch có Tốc độ thấp nhất.\nSố người bị Mê hoặc tăng theo số vòng tuần hoàn.\nSố người bị Mê hoặc tăng khi bộ phận của Tiên tái sinh."
+    },
+    {
+      "id": 854902,
+      "name": "Vực thẳm lộ diện",
+      "desc": "Khi bộ phận của Tiên bị phá hủy, phần thân sẽ lộ diện.\nKhi phần thân ẩn đi lần nữa, toàn bộ hiệu ứng có lợi và bất lợi đang sở hữu sẽ biến mất."
+    },
+    {
+      "id": 854903,
+      "name": "Mồi nhử tiên phong",
+      "desc": "HP của bản thể không bị tiêu hao dù bộ phận của Tiên bị tấn công.\nSố ô kỹ năng tấn công tăng theo số người bị <sprite name=\"FairyCharm\"><color=#a16a3b><u><link=\"FairyCharm\">Mê hoặc</color></link></u>."
+    },
+    {
+      "id": 854904,
+      "name": "Cội rễ bị phá hủy",
+      "desc": "Khi phần thân bị phá hủy, HP khi Tiên tái sinh sẽ là 60%.\nKhi phần thân bị phá hủy, hồi HP bản thể thông qua kỹ năng +20."
+    },
+    {
+      "id": 854905,
+      "name": "Mồi nhử tiến hóa",
+      "desc": "Khi bộ phận của Tiên tái sinh, HP tối đa tăng 20%."
+    },
+    {
+      "id": 854906,
+      "name": "Vết rách và Trầm luân Bẻ cong",
+      "desc": "Số trị của <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Vết rách</color></link></u> và <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Trầm luân</color></link></u> tích lũy tối đa đến 30.\nSố lượt của <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Vết rách</color></link></u> và <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Trầm luân</color></link></u> tích lũy tối đa đến 5."
+    },
+    {
+      "id": 854907,
+      "name": "Phấn Tiên",
+      "desc": "Khi Tiên bị tiêu diệt, toàn bộ Identity nhận 5 Nhịp thở, 2 Số lượt Nhịp thở vào lượt kế tiếp."
+    },
+    {
+      "id": 855001,
+      "name": "Đào thoát chiều không gian",
+      "desc": "Ẩn vào chiều không gian sau mỗi số lượt nhất định kể từ lượt thứ 2.\nNếu tất cả bộ phận đều trong trạng thái Hoảng loạn, sẽ ẩn vào lượt kế tiếp.\nKhi ẩn vào chiều không gian, sẽ không rơi vào trạng thái Hoảng loạn.\nNếu HP bản thể từ 30% trở xuống, sẽ không ẩn vào chiều không gian."
+    },
+    {
+      "id": 855002,
+      "name": "Thoát khỏi chiều không gian bị giam cầm",
+      "desc": "Nếu tất cả các chiều không gian bị phá hủy ngay trong lượt chúng được tạo ra, bản thể sẽ tự xé rách chiều không gian để xuất hiện vào lượt kế tiếp.\nSau đó, mất 5 Số lượt Sạc và ngưỡng Hoảng loạn của tất cả bộ phận tiến thêm 30."
+    },
+    {
+      "id": 855003,
+      "name": "Tu sửa Lưỡi đao Bẻ cong Không gian",
+      "desc": "Khi bộ phận Lưỡi đao bị phá hủy, mất 5 Số lượt Sạc,\nvào cuối lượt kế tiếp tiêu hao 2 Số lượt Sạc để hồi phục bộ phận Lưỡi đao.\nNếu bộ phận Lưỡi đao đang bị phá hủy, nhận 2 Giảm Cấp độ Tấn công vào đầu mỗi lượt."
+    },
+    {
+      "id": 855004,
+      "name": "Bỏng và Vết rách Bẻ cong",
+      "desc": "Số trị của <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Bỏng</color></link></u> và <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Vết rách</color></link></u> tích lũy tối đa đến 30.\nSố lượt của <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Bỏng</color></link></u> và <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Vết rách</color></link></u> tích lũy tối đa đến 5."
+    },
+    {
+      "id": 855005,
+      "name": "Tải Chấn động Bẻ cong",
+      "desc": "Khi nhận <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Chấn động</color></link></u>, nhận thêm 1 Số trị và Số lượt."
+    },
+    {
+      "id": 856001,
+      "name": "Chiều không gian máu chảy",
+      "desc": "Nếu đi qua Chiều không gian máu chảy, Sát thương +10%."
+    },
+    {
+      "id": 856101,
+      "name": "Chiều không gian độc tố sục sôi",
+      "desc": "Nếu đi qua Chiều không gian độc tố sục sôi, HP tối đa cơ bản của bản thể +20%."
+    },
+    {
+      "id": 856201,
+      "name": "Chiều không gian chấn động không ngừng",
+      "desc": "Nếu đi qua Chiều không gian chấn động không ngừng, Tốc độ tăng 1."
+    },
+    {
+      "id": 856301,
+      "name": "Chiều không gian phóng điện",
+      "desc": "Nếu đi qua Chiều không gian phóng điện, Sức mạnh Đồng xu +1."
+    },
+    {
+      "id": 855101,
+      "name": "Giờ Vàng",
+      "desc": "Vào cuối lượt, nếu HP còn lại từ 6~24%, lập tức hồi HP cho bản thể và bộ phận đến 80% giá trị tối đa. Giải trừ trạng thái Hoảng loạn. (Tối đa 1 lần)"
+    },
+    {
+      "id": 855102,
+      "name": "Phản phệ Ngược dòng Thời gian",
+      "desc": "Sau khi kích hoạt Giờ Vàng, nhận 2 Mong manh vào đầu lượt."
+    },
+    {
+      "id": 855103,
+      "name": "Quá tải Sạc",
+      "desc": "Vào cuối lượt, nếu Số lượt Sạc từ 5 trở lên, nhận 3 Tăng Sát thương vào lượt kế tiếp."
+    },
+    {
+      "id": 855104,
+      "name": "Vết rách và Trầm luân Bẻ cong",
+      "desc": "Số trị của <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Vết rách</color></link></u> và <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Trầm luân</color></link></u> tích lũy tối đa đến 30.\nSố lượt của <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Vết rách</color></link></u> và <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Trầm luân</color></link></u> tích lũy tối đa đến 5."
+    },
+    {
+      "id": 855105,
+      "name": "Tải Bỏng Bẻ cong",
+      "desc": "Khi nhận <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Bỏng</color></link></u>, nhận thêm 1 Số trị và Số lượt."
+    },
+    {
+      "id": 855501,
+      "name": "Quá khứ trở lại",
+      "desc": "Nếu <sprite name=\"AccumulatedPast\"><color=#a16a3b><u><link=\"AccumulatedPastMirror\">Quá khứ được tích lũy</color></link></u> từ 50 trở lên, khi kết thúc lượt nếu HP bản thể từ 80% trở xuống, tiêu hao 50 <sprite name=\"AccumulatedPast\"><color=#a16a3b><u><link=\"AccumulatedPastMirror\">Quá khứ được tích lũy</color></link></u> để hồi phục 200 HP cho bản thể."
+    },
+    {
+      "id": 855502,
+      "name": "Quá khứ biến mất",
+      "desc": "Khi phá hủy bộ phận Thân, tiêu hao toàn bộ <sprite name=\"AccumulatedPast\"><color=#a16a3b><u><link=\"AccumulatedPastMirror\">Quá khứ được tích lũy</color></link></u>.\nKhi phá hủy bộ phận Thân, từ lượt tiếp theo cho đến hết trận chiến này, bộ phận Thân sẽ trở nên Kháng (0.5) với mọi thuộc tính và loại tấn công."
+    },
+    {
+      "id": 855503,
+      "name": "Cơ quan xả khói bị phá hủy",
+      "desc": "Khi phá hủy bộ phận Súng hơi nước, tiêu hao toàn bộ Hô hấp của mọi bộ phận.\nSau khi bộ phận Súng hơi nước bị phá hủy, mỗi khi nhận <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Hô hấp</color></link></u> sẽ nhận <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Mong manh</color></link></u> tương ứng với số <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Hô hấp</color></link></u>.\nSau khi bộ phận Súng hơi nước bị phá hủy, mỗi khi sử dụng Kĩ năng tấn công sẽ mất 1 Hô hấp."
+    },
+    {
+      "id": 855504,
+      "name": "Bỏng và Xuất huyết bị khúc xạ",
+      "desc": "Số cấp <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Bỏng</color></link></u> và <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Xuất huyết</color></link></u> được tích lũy lên đến 30.\nSố lượt <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Bỏng</color></link></u> và <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Xuất huyết</color></link></u> được tích lũy lên đến 5."
+    },
+    {
+      "id": 855505,
+      "name": "Gánh nặng Trầm luân bị khúc xạ",
+      "desc": "Khi nhận <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Trầm luân</color></link></u>, nhận thêm 1 số cấp và 1 số lượt."
+    },
+    {
+      "id": 855506,
+      "name": "Hơi nước rò rỉ",
+      "desc": "Khi phá hủy bộ phận Súng hơi nước, số cấp <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Hô hấp</color></link></u> và số lượt Hô hấp giảm đi 1"
+    },
+    {
+      "id": 855507,
+      "name": "Quá khứ chồng chất",
+      "desc": "Mỗi lượt, nhận 1 Tăng Uy lực Tấn công với mỗi 80 Quá khứ được tích lũy.\nKhi <sprite name=\"AccumulatedPast\"><color=#a16a3b><u><link=\"AccumulatedPast\">Quá khứ được tích lũy</color></link></u> vượt quá 80, nhận thêm 1 slot kỹ năng."
+    },
+    {
+      "id": 855508,
+      "name": "Máy gõ nhịp",
+      "desc": "Nếu <sprite name=\"AccumulatedPast\"><color=#a16a3b><u><link=\"AccumulatedPastMirror\">Quá khứ được tích lũy</color></link></u> là số lẻ, nhận 3 [Vulnerable] và 3 [AttackDmgUp]\nNếu là số chẵn, nhận 3 [Protection] và 3 [AttackDmgDown]"
+    },
+    {
+      "id": 855601,
+      "name": "Cái ách vĩnh cửu",
+      "desc": "HP tối đa tăng thêm (Số vòng tuần hoàn × 5)%.\nLượng sát thương gây ra giảm đi (Số vòng tuần hoàn × 5)%."
+    },
+    {
+      "id": 855602,
+      "name": "Bảng hiển thị bị hỏng",
+      "desc": "Khi bộ phận Bảng hiển thị bị phá hủy, HP tối đa của Hoa hồng giảm xuống"
+    },
+    {
+      "id": 855603,
+      "name": "Những mảnh thịt vương vãi",
+      "desc": "Khi bộ phận Thịt bị phá hủy, HP tối đa của bản thể giảm xuống"
+    },
+    {
+      "id": 855604,
+      "name": "Một sợi dây leo",
+      "desc": "Khi tiêu diệt Hoa hồng, HP của bản thể và bộ phận Thịt giảm đi 30.\nSau đó, trong suốt trận chiến này, kháng của Thuộc tính Tội lỗi tương ứng giảm đi 0.1 (Có thể cộng dồn)"
+    },
+    {
+      "id": 856401,
+      "name": "Căm hận",
+      "desc": "Mỗi khi nhận sát thương, nhận 1 Tăng Cấp độ Tấn công và 1 Giảm Cấp độ Phòng thủ vào lượt tiếp theo"
+    },
+    {
+      "id": 856402,
+      "name": "Tàn lửa",
+      "desc": "Khi chết do nhận sát thương, gây sát thương tương đương lượng sát thương đã nhận cho mục tiêu và gây 5 Bỏng"
+    },
+    {
+      "id": 856403,
+      "name": "Tội lỗi nở rộ",
+      "desc": "Khi Tội lỗi chớm nở đạt 4, chuyển sang trạng thái cường hóa cho đến hết trận chiến này"
+    },
+    {
+      "id": 856404,
+      "name": "Phẫn nộ sục sôi",
+      "desc": "Trong trạng thái cường hóa, số cấp Bỏng gây ra bởi hiệu ứng kĩ năng +1\nKhi chết trong trạng thái cường hóa, gây 4 lượt Bỏng cho tất cả đồng minh"
+    },
+    {
+      "id": 856405,
+      "name": "Hoa hồng nở trên dây leo",
+      "desc": "Khi tiêu diệt bản thể Bảng hiển thị Hoa hồng, đối tượng sẽ chết"
+    },
+    {
+      "id": 856501,
+      "name": "Ham muốn đơn phương",
+      "desc": "Uy lực Sau cùng khi Đối kháng -2, Uy lực Sau cùng khi Tấn công một chiều +2"
+    },
+    {
+      "id": 856502,
+      "name": "Tội lỗi nở rộ",
+      "desc": "Khi Tội lỗi chớm nở đạt 4, chuyển sang trạng thái cường hóa cho đến hết trận chiến này"
+    },
+    {
+      "id": 856503,
+      "name": "Sắc dục lung linh",
+      "desc": "Trong trạng thái cường hóa, số cấp Xuất huyết gây ra bởi hiệu ứng kĩ năng +1\nKhi chết trong trạng thái cường hóa, gây 4 lượt Xuất huyết cho tất cả đồng minh"
+    },
+    {
+      "id": 856504,
+      "name": "Hoa hồng nở trên dây leo",
+      "desc": "Khi tiêu diệt bản thể Bảng hiển thị Hoa hồng, đối tượng sẽ chết"
+    },
+    {
+      "id": 856601,
+      "name": "Vô lực",
+      "desc": "Khi nhận sát thương, nếu lượt tiếp theo không ở trạng thái Choáng thì nhận 5 Bảo hộ"
+    },
+    {
+      "id": 856602,
+      "name": "Hoa hồng vàng 2",
+      "desc": "Khi Tội lỗi chớm nở đạt 4, chuyển sang trạng thái cường hóa cho đến hết trận chiến này"
+    },
+    {
+      "id": 856603,
+      "name": "Lười biếng đè nén",
+      "desc": "Trong trạng thái cường hóa, số cấp Chấn động gây ra bởi hiệu ứng kĩ năng +1\nKhi chết trong trạng thái cường hóa, gây 4 lượt Chấn động cho tất cả đồng minh"
+    },
+    {
+      "id": 856604,
+      "name": "Hoa hồng vàng 4",
+      "desc": "Khi tiêu diệt bản thể Bảng hiển thị Hoa hồng, đối tượng sẽ chết"
+    },
+    {
+      "id": 856701,
+      "name": "Đói khát",
+      "desc": "Kết thúc lượt, nếu không gây sát thương trong lượt này, nhận 2 Mong manh (Fragile) Vết rách (Rupture)"
+    },
+    {
+      "id": 856702,
+      "name": "Hoa hồng Xanh lá 2",
+      "desc": "Khi Tội lỗi Nở rộ đạt 4, chuyển sang trạng thái cường hóa trong suốt trận chiến này"
+    },
+    {
+      "id": 856703,
+      "name": "Phàm ăn Lớn dần",
+      "desc": "Khi ở trạng thái cường hóa, Vết rách (Rupture) gây ra từ hiệu ứng Kĩ năng (Skill) +1\nKhi chết ở trạng thái cường hóa, nhận 4 Số lượng Vết rách (Rupture) cho toàn bộ đồng minh"
+    },
+    {
+      "id": 856704,
+      "name": "Hoa hồng Xanh lá 4",
+      "desc": "Chết khi bản thể của Bảng hiệu Hoa hồng bị tiêu diệt"
+    },
+    {
+      "id": 856801,
+      "name": "Bất an",
+      "desc": "Uy lực Cuối cùng +2 khi đang đối đầu, Uy lực Cuối cùng -2 khi tấn công một chiều"
+    },
+    {
+      "id": 856802,
+      "name": "Tự hủy hoại",
+      "desc": "Khi nhận sát thương, kháng U sầu chuyển thành Điểm yếu (1.5) ở lượt tiếp theo và nhận 5 Bảo hộ"
+    },
+    {
+      "id": 856803,
+      "name": "Hoa hồng Xanh dương 3",
+      "desc": "Khi Tội lỗi Nở rộ đạt 4, chuyển sang trạng thái cường hóa trong suốt trận chiến này"
+    },
+    {
+      "id": 856804,
+      "name": "U sầu Lay lắt",
+      "desc": "Khi ở trạng thái cường hóa, Trầm luân (Sinking) gây ra từ hiệu ứng Kĩ năng (Skill) +1\nKhi chết ở trạng thái cường hóa, nhận 4 Số lượng Trầm luân (Sinking) cho toàn bộ đồng minh"
+    },
+    {
+      "id": 856805,
+      "name": "Hoa hồng Xanh dương 5",
+      "desc": "Chết khi bản thể của Bảng hiệu Hoa hồng bị tiêu diệt"
+    },
+    {
+      "id": 856901,
+      "name": "Chỉ trích",
+      "desc": "Mỗi khi bắt đầu lượt, nhận 1 Nhịp thở (Poise), 1 Số lượng Nhịp thở (Poise) cho đồng minh"
+    },
+    {
+      "id": 856902,
+      "name": "Cảm giác Thượng đẳng",
+      "desc": "Nếu đơn vị này còn sống, mỗi đồng minh tăng +5% Sát thương Chí mạng với mỗi 1 Nhịp thở (Poise) bản thân sở hữu"
+    },
+    {
+      "id": 856903,
+      "name": "Hoa hồng Xanh chàm 3",
+      "desc": "Khi Tội lỗi Nở rộ đạt 4, chuyển sang trạng thái cường hóa trong suốt trận chiến này"
+    },
+    {
+      "id": 856904,
+      "name": "Ngạo mạn Phồng rộp",
+      "desc": "Khi ở trạng thái cường hóa vào đầu lượt, Nhịp thở (Poise) gây ra từ hiệu ứng Kĩ năng (Skill) +1\nKhi chết ở trạng thái cường hóa, nhận 4 Số lượng Nhịp thở (Poise) cho toàn bộ đồng minh"
+    },
+    {
+      "id": 856905,
+      "name": "Hoa hồng Xanh chàm 5",
+      "desc": "Chết khi bản thể của Bảng hiệu Hoa hồng bị tiêu diệt"
+    },
+    {
+      "id": 857001,
+      "name": "Ghen ghét",
+      "desc": "Mỗi khi bắt đầu lượt, nhận 1 Số lượng Sạc (Charge) cho 2 đồng minh ngẫu nhiên"
+    },
+    {
+      "id": 857002,
+      "name": "Cảm giác Tự ti",
+      "desc": "Nếu đơn vị này còn sống, mỗi đồng minh tăng +5% Sát thương với mỗi 1 Số lượng Sạc (Charge) bản thân sở hữu"
+    },
+    {
+      "id": 857003,
+      "name": "Hoa hồng Tím 3",
+      "desc": "Khi Tội lỗi Nở rộ đạt 4, chuyển sang trạng thái cường hóa trong suốt trận chiến này"
+    },
+    {
+      "id": 857004,
+      "name": "Đố kị Chói mắt",
+      "desc": "Khi ở trạng thái cường hóa vào đầu lượt, Số lượng Sạc (Charge) gây ra từ hiệu ứng Kĩ năng (Skill) +1\nKhi chết ở trạng thái cường hóa, nhận 4 Số lượng Sạc (Charge) cho toàn bộ đồng minh"
+    },
+    {
+      "id": 857005,
+      "name": "Hoa hồng Tím 5",
+      "desc": "Chết khi bản thể của Bảng hiệu Hoa hồng bị tiêu diệt"
+    },
+    {
+      "id": 855605,
+      "name": "Tội lỗi Nở rộ",
+      "desc": "Khi Tội lỗi Nở rộ đạt 4, chuyển sang trạng thái cường hóa trong suốt trận chiến này"
+    },
+    {
+      "id": 855606,
+      "name": "Hoa hồng nở trên Dây leo",
+      "desc": "Khi Bảng hiệu Hoa hồng bị khuất phục, đơn vị này cũng bị khuất phục theo"
+    },
+    {
+      "id": 854403,
+      "name": "Mồi lửa Lan rộng",
+      "desc": "Kết thúc lượt, nếu bản thân có <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Bỏng (Burn)</color></link></u> thì gây <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Bỏng (Burn)</color></link></u> vào lượt sau cho tất cả mục tiêu có <sprite name=\"WrappedCurseTagRe\"><color=#a16a3b><u><link=\"WrappedCurseTagRe\">Lá bùa Nguyền rủa Quấn quýt</color></link></u> với số lượng bằng lượng <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Bỏng (Burn)</color></link></u> đang sở hữu"
+    },
+    {
+      "id": 855607,
+      "name": "Gai nhọn mang Tội lỗi",
+      "desc": "Mỗi lượt, tất cả bộ phận nhận Bảo hộ tương ứng với số lượng Tội nhân có hiệu ứng Vương miện"
+    }
+  ]
+}

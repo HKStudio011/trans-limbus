@@ -1,0 +1,92 @@
+{
+  "dataList": [
+    {
+      "id": 128801,
+      "name": "Khổ Chiến",
+      "desc": "Khi bắt đầu trận chiến, nhận 8 [Protection]\n- Khi bắt đầu trận chiến, nếu đang trong trạng thái Suy giảm Tinh thần, lượng [Protection] nhận được giảm một nửa\n- Khi bắt đầu trận chiến, nếu đang trong trạng thái Choáng hoặc Hoảng loạn, không nhận [Protection]"
+    },
+    {
+      "id": 128802,
+      "name": "Tiếng Gầm Của Sóng Dữ",
+      "desc": "Khi nhận sát thương, gây cho mục tiêu 1 [ColdAirDOQ] (1 lần mỗi Kĩ năng)"
+    },
+    {
+      "id": 128803,
+      "name": "Chúng Sinh Dưới Tầm Mắt",
+      "desc": "Nếu Nội tại 「Đứa Con Cưng Của Vận Mệnh」 kích hoạt, kích hoạt các hiệu ứng dưới đây\n- Khi kết thúc lượt, nhận 1 [Binding] vào lượt kế tiếp\n- Khi nhận sát thương, gây cho mục tiêu 1 [ColdAirDOQ] (1 lần mỗi Kĩ năng)"
+    },
+    {
+      "id": 128804,
+      "name": "Kẻ Đối Đầu Với Đại Sóng",
+      "desc": "Khi tấn công kẻ địch có [FreezingDOQ], lượng sát thương +175%"
+    },
+    {
+      "id": 128805,
+      "name": "Đứa Con Cưng Của Vận Mệnh",
+      "desc": "Khi nhận sát thương khiến Máu giảm về 0, không nhận sát thương đó, hồi phục hoàn toàn Máu và Tinh thần đồng thời thay đổi hình thái (1 lần mỗi trận chiến)"
+    },
+    {
+      "id": 128806,
+      "name": "Phẫn Nộ Với Đại Sóng",
+      "desc": "Khi bắt đầu lượt, với mỗi kẻ địch có [ColdAirDOQ], nhận 1 [AttackUp]"
+    },
+    {
+      "id": 128807,
+      "name": "Rocinante Phi Nước Đại",
+      "desc": "Khi bắt đầu lượt, nếu có từ 6 kẻ địch trở lên có [ColdAirDOQ], nhận 2 [ParryingResultUp]"
+    },
+    {
+      "id": 128808,
+      "name": "Vọng Tưởng Của Hiệp Sĩ",
+      "desc": "Khi bắt đầu giai đoạn, nhận [WeakenDOQ]"
+    },
+    {
+      "id": 129101,
+      "name": "Tổn Thương Thần Kinh",
+      "desc": "Với mỗi 1 [NervousImpairment] của mục tiêu, lượng sát thương Kĩ năng của bản thân +1%"
+    },
+    {
+      "id": 129102,
+      "name": "Sinh Ra Từ Biển",
+      "desc": "Khi bắt đầu giai đoạn, nhận 5 [SeaTerrorCell]\nThay vì nhận [AttackDown], [DefenseDown] từ hiệu ứng [SeaTerrorCell], nhận [AttackUp], [DefenseUp]"
+    },
+    {
+      "id": 129104,
+      "name": "Tiếng Gọi Đồng Bào",
+      "desc": "Khi kết thúc lượt, nếu số lượng đồng minh còn sống từ 2 trở xuống, tiêu hao 10 Tinh thần của bản thân để triệu hồi 2 「Kẻ Chạy Bộ Của Vỏ Biển」 ra chiến trường\n\nKhi kết thúc lượt, nếu [NetherseaBrandUnit] đang tồn tại trong giai đoạn hiện tại, lượt kế tiếp gây cho tất cả cá thể Khủng Ngư 2 [Enhancement]\n- Với mỗi cấp độ 1 của [NetherseaBrandUnit], gây thêm 1 [AttackUp]",
+      "summary": "Nếu [NetherseaBrandUnit] tồn tại, lượt kế tiếp gây bùa tăng tấn công cho tất cả cá thể Khủng Ngư"
+    },
+    {
+      "id": 129701,
+      "name": "Đoàn Diễu Hành Hướng Sáng",
+      "desc": "Sát thương nhận vào từ [Combustion], [Laceration], [Vibration], [Burst], [Sinking] -90%\nKhi bắt đầu lượt, nhận 10 [Protection]\n\nKhi kết thúc lượt, tiêu hao [AbyssalVitality] để triệu hồi đàn Khủng Ngư\n- Nếu số lượng Kẻ Chạy Bộ Của Vỏ Biển hoặc Kẻ Trượt Của Vực Biển trên chiến trường ít hơn 3, lượt kế tiếp triệu hồi ngẫu nhiên cho đến khi tổng số là 3 và tiêu hao (số lượng triệu hồi × 4)\n- Nếu Kẻ Sáng Lập Của Biển Sâu không có trên chiến trường, lượt kế tiếp triệu hồi và tiêu hao 8\n- Nếu Kẻ Phun Của Biển Sâu không có trên chiến trường, lượt kế tiếp triệu hồi và tiêu hao 12\n- Nếu Kẻ Gặt Của Biển Bát không có trên chiến trường, lượt kế tiếp triệu hồi và tiêu hao 20",
+      "summary": "Giảm lượng sát thương nhận vào từ [Combustion], [Laceration], [Vibration], [Burst], [Sinking]"
+    },
+    {
+      "id": 129702,
+      "name": "Cái Tôi Trách Nhiệm",
+      "desc": "Mỗi khi Khủng Ngư do bản thân triệu hồi chết đi, nhận sát thương cố định bằng 100% Máu tối đa của cá thể vừa chết"
+    },
+    {
+      "id": 129703,
+      "name": "Thiện Ý Trôi Dạt",
+      "desc": "Khi Máu còn từ 50% trở xuống, trận chiến kết thúc ngay lập tức và thay đổi hình thái\n- Vô hiệu hóa Nội tại 「Đoàn Diễu Hành Hướng Sáng」\n- Nhận 100 [AbyssalVitality]\n- Khi nhận Nội tại này, hoặc khi thoát khỏi trạng thái Choáng, nhận một Lớp Bảo Vệ bằng lượng Máu đã mất (Tối đa 1 lần mỗi lượt)\n- Khi bản thân nhận Lớp Bảo Vệ, áp dụng hiệu ứng [IndelibleGoodwill]\n\nKhi bắt đầu lượt,\n- Gây 5 [NervousImpairment] cho tất cả kẻ địch có ít hơn 15 [NervousImpairment]\n- Nhận (số lần đã sử dụng 「Trước Khi Thiện Ý Mà Chúng Tin Tưởng Mất Đi Giá Trị」 trong suốt trận chiến này × 2) [Vulnerable] (Tối đa 6)\n\nSau khi thay đổi hình thái, mỗi lượt, số lượng ô Kĩ năng của bản thân giảm bằng số lượng kẻ địch đang bị Choáng (Tối đa 6, không áp dụng vào lượt sử dụng Kĩ năng mạnh)",
+      "summary": "Khi tiêu hao [AbyssalVitality], hồi phục Tinh thần"
+    },
+    {
+      "id": 129704,
+      "name": "Lạc Viên Dấu Vết Biển",
+      "desc": "Khi đứng trên [NetherseaBrandUnit], Sức mạnh Cuối cùng và Sức mạnh Đồng xu tăng thêm 3, đồng thời lượng [NervousImpairment] gây ra khi đòn tấn công trúng đích tăng gấp đôi"
+    },
+    {
+      "id": 129705,
+      "name": "Vỗ Về Đồng Loại",
+      "desc": "Khi đòn tấn công trúng đích Kẻ Gặt Của Biển Bát, Kẻ Gặt Của Biển Bát chuyển từ [WaitingforCommandMod] sang [ParticipationMod]"
+    },
+    {
+      "id": 129103,
+      "name": "Màng Tế Bào",
+      "desc": "Sau khi bản thân nhận sát thương, nếu bản thân vẫn còn Lớp Bảo Vệ, gây cho mục tiêu 2 [Sinking]"
+    }
+  ]
+}

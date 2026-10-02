@@ -1,0 +1,256 @@
+﻿{
+  "dataList": [
+    {
+      "id": 150301,
+      "name": "Tiếng Than Khóc Không Ngừng",
+      "desc": "Khi bắt đầu màn chơi: Vào trạng thái Hoảng loạn\n\nNếu đơn vị này ở trạng thái Hoảng loạn, áp dụng các hiệu ứng sau:\n- <color=#ff6000><mark color=#ff000040><b><u>Tất cả các đòn Tấn công nhắm vào Pwie</color></mark></b></u>\n- Khi dùng Kĩ năng, nếu Pwie là mục tiêu chính, nhận Sức mạnh Đối kháng và Sức mạnh Cơ bản\n- Khi bắt đầu trận chiến: Chuyển đổi tất cả Đồng xu thành [SuperCoin]",
+      "flavor": "Những đứa con của thứ cổ xưa đó không còn nữa."
+    },
+    {
+      "id": 150302,
+      "name": "Sợi Chỉ Đen Rối Rắm",
+      "desc": "Hiệu ứng của các Kĩ năng, Suy giảm nhuệ khí và Hoảng loạn của đơn vị này gây [TangleBlackYarn] lên kẻ địch\n※ [TangleBlackYarn] có thể được giảm bằng cách <color=#ff6000><mark color=#ff000040><b><u>sử dụng Kĩ năng Phòng thủ hoặc thông qua một số Kĩ năng nhất định của đơn vị này</color></mark></b></u>\nBị đánh trúng, kích hoạt các hiệu ứng sau:\n- Nhận 1 [SickBlackYarn]\n- Nếu Kĩ năng đánh trúng đơn vị này là <color=#ff6000><mark color=#ff000040><b><u>Kĩ năng Chém</color></mark></b></u>, nhận thêm 1 [SickBlackYarn]\n- Nếu Kĩ năng đánh trúng đơn vị này có <color=#ff6000><mark color=#ff000040><b><u>Trọng lượng Tấn công 5+</color></mark></b></u>, nhận [HeavyBlackYarn] vào lượt sau (một lần mỗi lượt)",
+      "flavor": "Sợi chỉ đen quấn quanh cơ thể nó không tồn tại trước đây. Nhờ may mắn, khi thời đại trước nhường chỗ cho thời đại tiếp theo, những sợi chỉ đó đã quấn quanh cơ thể của thứ cổ xưa. Được bao bọc trong sợi chỉ, nó sống sót qua Thời đại Cửa hàng Bách hóa. Giờ đây, những sợi chỉ đen đó bắt đầu bung ra.\n\nTrước Thời đại Thủy cung, là Thời đại Quảng trường, Thời đại Hầm trú ẩn, Thời đại Phòng xử án, và nhiều thời đại khác. Tên gọi và hình thức của chúng có thể khác nhau, nhưng bản chất vận hành của Hệ thống Sisyphe vẫn luôn như cũ.\n\nQua mỗi Thời đại, con người thích nghi với thế giới biến đổi, chịu đựng từng thời kỳ trong hình dạng con người.\n\nNhững gì rối rắm trong sợi chỉ của Thời đại hiện tại không chỉ là hai Thời đại trước đó, mà còn là mọi Thời đại đã định cư ở đây, lớp này chồng lên lớp khác."
+    },
+    {
+      "id": 150303,
+      "name": "Vào Làn Nước Cổ Xưa",
+      "desc": "Nếu một Phần bị <color=#ff6000><mark color=#ff000040><b><u>Chấn động</color></mark></b></u>, loại bỏ <color=#ff6000><mark color=#ff000040><b><u>1 Ngưỡng Chấn động từ các Phần khác và kết thúc lượt</color></mark></b></u>; sau đó, tất cả các Phần nhận [HideBlackYarn] vào lượt sau\n\n<color=#ff6000><mark color=#ff000040><b><u>Nếu [HideBlackYarn] hết hạn do bị đánh trúng</color></mark></b></u>,\n- Nhận 10 [SickBlackYarn]\n- Nếu [SickBlackYarn] vượt quá giới hạn tối đa, nhận 3 Mong manh trong lượt này và lượt sau\n\nKết thúc lượt: Nếu [HideBlackYarn] hết hạn,\n- Nhận (7 - Hiệu lực còn lại) [SickBlackYarn]\n- Nhận 1 [AngryBlackYarn] vào lượt sau",
+      "flavor": "Vào vòng tay của biển từ thời đại đã qua, nơi nó từng bơi lội tự nhiên và tự do nhất có thể."
+    },
+    {
+      "id": 150304,
+      "name": "Ẩm Ướt Lưu Luyến",
+      "desc": "Nhận ít sát thương HP và Tinh thần hơn từ [Combustion], [Laceration], [Vibration], [Burst], và [Sinking]; -50% Ngưỡng Chấn động tăng bởi [Vibration]\n\nLoại Hoảng loạn của đơn vị này không thay đổi khi bị ảnh hưởng bởi hiệu ứng thay đổi Loại Hoảng loạn\nKết thúc lượt: Nếu đơn vị này đang Hoảng loạn, Tinh thần trở về 0",
+      "flavor": "Thủy cung Sisyphe đã biến mất, nhưng cơ thể này vẫn giữ một dấu vết mờ nhạt của nước từ những ngày đó—độ ẩm chưa biến thành sợi chỉ."
+    },
+    {
+      "id": 150101,
+      "name": "Con Búp Bê Được Nặn Từ Đất Sét",
+      "desc": "Bắt đầu màn chơi: Hồi phục tối đa HP\n\nLõi và Phần không nhận sát thương từ [Combustion] và [Laceration]",
+      "flavor": "Làn da như sứ đó được tạo ra từ đất sét."
+    },
+    {
+      "id": 150102,
+      "name": "Hoa Không Nở Tàn",
+      "desc": "Bắt đầu trận chiến: Nhận 1 [AlriunePetal]\n\nNếu đơn vị này bị Chấn động,\n- Nhận 2 [Vulnerable] vào lượt sau\n- Hồi phục 20 Tinh thần cho các Tù nhân và Đơn vị Hỗ trợ\n- Bắt đầu lượt: Nếu đơn vị này hồi phục từ Chấn động, đặt lại [AlriunePetal] về 1\n\nBắt đầu lượt: Nếu không có kẻ địch nào có [FlowerLaurelWreath], <color=#ff6000><mark color=#ff000040><b><u>trang bị Kĩ năng \"Vòng Nguyệt Quế Thơm Ngát\"</color></mark></b></u>\n- Trang bị Kĩ năng này vào lượt sau nếu đơn vị này đã trang bị \"Mang hy vọng trở về cát bụi...\" trong lượt này\n\n<color=#ff6000><mark color=#ff000040><b><u>Nhận -50% sát thương từ các Kĩ năng của kẻ địch không có [FlowerLaurelWreath]</color></mark></b></u>\n<color=#ff6000><mark color=#ff000040><b><u>Nhận +150% sát thương từ kẻ địch có [FlowerLaurelWreath]</color></mark></b></u>",
+      "flavor": "Hoa tàn. Rồi lại nở."
+    },
+    {
+      "id": 150103,
+      "name": "Xuân Đến",
+      "desc": "Gây 20 sát thương Tinh thần lên kẻ địch bị Chấn động\n\nBắt đầu lượt: <color=#ff6000><mark color=#ff000040><b><u>Nếu có mục tiêu đang Hoảng loạn hoặc bị Ăn mòn, sử dụng \"... Nó sẽ trở về mộ cùng tất cả những gì khao khát sống\" lên mục tiêu đó</color></mark></b></u> (tối đa 2 lần mỗi lượt, ưu tiên kẻ địch chậm nhất theo thứ tự tăng dần của Tốc độ, không bao gồm Đơn vị Hỗ trợ)\n\nNếu Kĩ năng này giết mục tiêu, triệu hồi 1 \"Kẻ Đã Trồi Lên Từ Đất\" vào lượt sau\n- Hiệu ứng này không kích hoạt khi có 4 \"Kẻ Đã Trồi Lên Từ Đất\" trên sân",
+      "flavor": "Khi xuân đến, nó sẽ nở hoa."
+    },
+    {
+      "id": 150201,
+      "name": "Từ Đất",
+      "desc": "Đơn vị này không nhận sát thương từ [Combustion] và [Laceration]\n\n<color=#ff6000><mark color=#ff000040><b><u>+100% Ngưỡng Chấn động tăng bởi [Vibration]</color></mark></b></u>\n\n<color=#ff6000><mark color=#ff000040><b><u>Đơn vị này bị đánh bại khi bị Chấn động</color></mark></b></u>",
+      "flavor": "Trở về đất."
+    },
+    {
+      "id": 151901,
+      "name": "SPM Siêu Tốc Độ",
+      "desc": "Nếu Tốc độ của mục tiêu <color=#ff6000><mark color=#ff000040><b><u>chậm hơn đơn vị này, Sức mạnh Đối kháng +3</color></mark></b></u>\n\n<color=#ff6000><mark color=#ff000040><b><u>Nếu đơn vị này có 11+ [ChargeKhaki] Số lần vào cuối lượt mà đơn vị này sử dụng Kĩ năng tiêu thụ [ChargeKhaki] Số lần</color></mark></b></u>, sử dụng một Kĩ năng mạnh mẽ\n\nỞ 50% HP hoặc thấp hơn, sử dụng một Kĩ năng mạnh mẽ (một lần mỗi màn chơi)",
+      "summary": "Nếu Tốc độ của mục tiêu chậm hơn đơn vị này, nhận Sức mạnh Đối kháng",
+      "flavor": "Chị Cả có thể đạt 10,000 SPM."
+    },
+    {
+      "id": 151902,
+      "name": "Khâu Đinh",
+      "desc": "Gây +40% sát thương lên mục tiêu bị Chấn động hoặc không thể hành động",
+      "flavor": "Không gì dễ hơn việc khâu lại thứ không thể cử động."
+    },
+    {
+      "id": 151903,
+      "name": "Khâu Màu",
+      "desc": "Nếu đơn vị này có [SpreadingDye], gây 1 [StickyDye] lên mục tiêu bị Kĩ năng của đơn vị này đánh trúng\n\nÁp dụng các hiệu ứng sau lên mục tiêu có [ThreadDye]:\n- Kĩ năng gây thêm +([ThreadDye] Hiệu lực) [Laceration] Hiệu lực và Số lần\n- Khi gây [StickyDye] thông qua hiệu ứng trên, gây 1 [StickyDye] lên một kẻ địch ngẫu nhiên có [ThreadDye], ngoại trừ mục tiêu đã bị ảnh hưởng\n\nKhông gây [ThreadDye] lên mục tiêu Kĩ năng có [Inactible]",
+      "flavor": "Chị khâu vải, chị lớn. Em sẽ nhuộm cùng chị."
+    },
+    {
+      "id": 151904,
+      "name": "Điều chỉnh Bộ điều chỉnh Số lần Khâu",
+      "desc": "Khi bắt đầu màn chơi: Hồi phục tối đa HP và 45 Tinh thần\n\nNhận 1 [ChargeKhaki] cho mỗi 10 [ChargeKhaki] Số lần tích lũy mà đơn vị này tiêu thụ trong màn chơi này"
+    },
+    {
+      "id": 149501,
+      "name": "Thay đổi",
+      "desc": "Khi bắt đầu lượt: <color=#ff6000><mark=#ff000040><b><u>Gây 1 [TailoringTarget] lên Tù nhân gây sát thương nhiều nhất</u></b></mark></color> lên đơn vị này lượt trước và sử dụng Kĩ năng \"Patterning\"\n- Nếu Tù nhân [TailoringTarget]<color=#ff6000><mark=#ff000040><b><u>có 9 [ScissorsMark]</u></b></mark></color>, kích hoạt \"Patterning\" như <color=#ff6000><mark=#ff000040><b><u>\"Surfile à la Chaîne\"</u></b></mark></color> thay thế\n\nMỗi lần đơn vị này bị Tù nhân đánh trúng,\n- Gây 1 [ScissorsMark] lên Tù nhân đó (tối đa 5 lần mỗi lượt mỗi Tù nhân)\n- Nhận +1 [ChargeKhaki] Số lần (tối đa 5 lần mỗi lượt mỗi Tù nhân)\n\n<color=#ff6000><mark=#ff000040><b><u>Nhận 3 [ResultEnhancement] mỗi lần đơn vị này bị Tù nhân có [TailoringTarget] đánh trúng (tối đa 9 lần mỗi lượt)</u></b></mark></color>",
+      "flavor": "Người ta nói rằng một bộ trang phục chỉ thực sự hoàn thiện qua việc thay đổi. Trừ khi nó được may đo riêng, nó phải được điều chỉnh cho vừa với người mặc.\n\nVà điều đó không chỉ đúng với quần áo. Bất cứ thứ gì lấy từ bên ngoài cũng phải được thay đổi để phù hợp với bản thân trước khi có thể mặc, sống trong đó, và làm cho phù hợp với trái tim."
+    },
+    {
+      "id": 149503,
+      "name": "May đo",
+      "desc": "Khi bắt đầu màn chơi hoặc khi bắt đầu lượt mà đơn vị này thoát khỏi Chấn động, nhận 30 [FinishedFabric]\n\nÁp dụng hiệu ứng [PanicChangeLock]\nkhi kết thúc lượt: Nếu đơn vị này đang Hoảng loạn (Panic), đổi Tinh thần thành 30\n\nKhi bắt đầu lượt:\n- <color=#ff6000><mark=#ff000040><b><u>Nhận Lá chắn bằng ([FinishedFabric] Giá trị)% Máu</u></b></mark></color> (tối đa 30%)\n- Hồi phục Tinh thần bằng [FinishedFabric] Giá trị",
+      "flavor": "Cắt nghĩa là định hình vải theo mẫu. Cắt tạo hình dạng cho trang phục, trong khi thay đổi làm cho nó có thể mặc được.\n\nVới vải, thì việc cắt chính là một hình thức thay đổi. Một khi đã cắt, vải sẽ mang hình dạng phản ánh đặc tính của chính nó, trở thành trang phục mà người cắt mong muốn."
+    },
+    {
+      "id": 149504,
+      "name": "Cái Kéo Không Ngừng Nghỉ",
+      "desc": "Mỗi lần Annette the Alterationist bị Tù nhân đánh trúng, <color=#ff6000><mark=#ff000040><b><u>tăng Ngưỡng Chấn động bằng 0.8% HP</u></b></mark></color>\n\n<color=#ff6000><mark=#ff000040><b><u>Nếu đơn vị này bị Chấn động, mất toàn bộ Lá chắn, [FinishedFabric], và [LargeTailoringShears]; sau đó, nhận 3 [Vulnerable]</u></b></mark></color>\n\nKhi bắt đầu lượt: Khi HP ở mức 60% hoặc thấp hơn,\n- Nhận 1 [ResultEnhancement] và 1 [SlashDamageUp] cho mỗi 20% HP bị mất (tối đa 3 lần mỗi loại)\n- Chuyển đổi Đồng xu cuối cùng của \"Trimming\" và Đồng xu 2 của \"Cutting\" thành [SuperCoin]",
+      "flavor": "Một cơ thể mà giá trị của nó được định hình bởi công việc thay đổi tiếp tục cắt mà không ngừng, bị thúc đẩy để thay đổi và may đo mãi mãi.\n\nNgay cả khi cơ thể tan rã, cô không thể ngừng thay đổi và cắt. Cô được tạo ra để cắt bỏ mọi thứ, nhưng không thể tự cắt mình thoát khỏi."
+    },
+    {
+      "id": 149505,
+      "name": "Quán Tính Trôi Dạt",
+      "desc": "Nhận 1 [ChargeKhaki] Hiệu lực cho mỗi 10 [ChargeKhaki] Số lần tích lũy mà đơn vị này tiêu thụ trong màn chơi này\n\nỞ mức 3+/5+ [ChargeKhaki] Hiệu lực, giới hạn tối đa [ChargeKhaki] Số lần +5/+10",
+      "flavor": "Họ trôi dạt theo các giá trị được định hình bởi Thời đại Cửa hàng Bách hóa, bị cuốn đi bởi quán tính của mình; và quán tính đó càng mạnh, họ càng ít có khả năng dừng lại."
+    },
+    {
+      "id": 150601,
+      "name": "Bảo quản",
+      "desc": "Nhận 1 [ChargeNoir] Hiệu lực cho mỗi 10 [ChargeNoir] Số lần tích lũy mà đơn vị này tiêu thụ trong màn chơi này\nGiới hạn tối đa [ChargeNoir] Số lần +10"
+    },
+    {
+      "id": 150602,
+      "name": "Malleus Promissionis",
+      "desc": "Khi đánh trúng, hoặc bị đánh trúng, nhận +1 [ChargeNoir] Số lần",
+      "flavor": "Một chiếc búa đóng đinh. Chiếc búa này chỉ đánh vào đinh. Bất cứ thứ gì nó đánh vào đều là đinh. Đó là điều đã được đồng ý."
+    },
+    {
+      "id": 150603,
+      "name": "Bảo toàn Đội hình",
+      "desc": "Tăng cấp độ của đồng minh \"Le Noir\"\n\nTất cả đồng minh \"Le Noir\" chịu -5% sát thương cho mỗi đồng minh \"Le Noir\" còn sống trên sân\nKhi một đồng minh \"Le Noir\" chết, tất cả đồng minh \"Le Noir\" nhận 1 [NoirSquareCollapse] trong phần còn lại của màn chơi này (bao gồm cả các đơn vị mới được triệu hồi)",
+      "flavor": "Mỗi người giữ vị trí của mình và thực hiện trung thành nhiệm vụ được giao. Cùng nhau, họ tạo thành một đội hình, và đội hình đó trở thành một hình ảnh bảo tồn toàn bộ. Hãy thực hiện nhiệm vụ của mình một cách trung thành, mỗi người ở vị trí được chỉ định."
+    },
+    {
+      "id": 150401,
+      "name": "Le Noir: Vải vóc",
+      "desc": "Khi vào màn chơi lần đầu, nhận 5 [NoirBindArmor]\n\nKhi bắt đầu lượt: Nhận Lá chắn bằng ([NoirBindArmor] Giá trị)% HP tối đa của đơn vị này\n\nKhi bị Chấn động, mất toàn bộ [NoirBindArmor]\nKhi bắt đầu lượt: Khi đơn vị này hồi phục khỏi Chấn động, nhận 5 [NoirBindArmor]",
+      "flavor": "Worsted của Le Noir ôm lấy cơ thể như một bộ giáp, tôn lên vóc dáng bên dưới một hình bóng vững chãi và cố định."
+    },
+    {
+      "id": 150402,
+      "name": "Bảo quản",
+      "desc": "Áp dụng các hiệu ứng sau dựa trên [ChargeNoir] Số lần tích lũy mà đơn vị này tiêu thụ trong màn chơi này:\n- Nhận 1 [NoirBindArmor] cho mỗi 3 [ChargeNoir] Số lần tích lũy tiêu thụ\n- Nhận 1 [ChargeNoir] cho mỗi 10 [ChargeNoir] Số lần tích lũy tiêu thụ\n\nỞ mức 3+ [ChargeNoir] Hiệu lực, giới hạn tối đa [ChargeNoir] Số lần +5",
+      "flavor": "Lực lượng bị nén lại, tập hợp và cố định tại chỗ. Đôi khi, cần nhiều lực hơn để ngăn chặn sự thay đổi so với việc gây ra nó."
+    },
+    {
+      "id": 150403,
+      "name": "Bảo toàn Chất lượng",
+      "desc": "Khi bị đánh trúng trong khi đơn vị này có Lá chắn, nhận +1 [ChargeNoir] Count\n\nỞ 10+ [ChargeNoir] Count, sử dụng một Kĩ năng mạnh mẽ",
+      "flavor": "Chất lượng của hàng hóa phải được quản lý và bảo tồn nghiêm ngặt."
+    },
+    {
+      "id": 150404,
+      "name": "Chênh lệch Mật độ Vải",
+      "desc": "Ở 3+/5+ [ChargeNoir] Độ mạnh, gây thêm +1/+2 [Vibration] Độ mạnh\n\nKhi dùng Kĩ năng, nếu Cấp độ Phòng thủ của đơn vị này cao hơn mục tiêu, gây thêm +3% sát thương cho mỗi chênh lệch Cấp độ Phòng thủ (tối đa 30%)\n- Nếu Cấp độ Phòng thủ của đơn vị này cao hơn từ 5 cấp trở lên, Sức mạnh Cơ bản +1",
+      "flavor": "Le Noir nghiền nát bất cứ thứ gì mềm hơn vải vóc của chúng."
+    },
+    {
+      "id": 150501,
+      "name": "Le Noir: Vải vóc",
+      "desc": "Khi vào màn chơi lần đầu, nhận 5 [NoirBindArmor]\n\nKhi bắt đầu lượt: Nhận Lá chắn bằng ([NoirBindArmor] Giá trị)% HP tối đa của đơn vị này\n\nKhi bị Chấn động, mất toàn bộ [NoirBindArmor]\nKhi bắt đầu lượt: Khi đơn vị này hồi phục khỏi Chấn động, nhận 5 [NoirBindArmor]",
+      "flavor": "Worsted của Le Noir ôm lấy cơ thể như một bộ giáp, tôn lên vóc dáng bên dưới một hình bóng vững chãi và cố định."
+    },
+    {
+      "id": 150502,
+      "name": "Bảo quản",
+      "desc": "Áp dụng các hiệu ứng sau dựa trên tổng số [ChargeNoir] Count mà đơn vị này tiêu thụ trong màn chơi này:\n- Nhận 1 [NoirBindArmor] cho mỗi 3 tổng số [ChargeNoir] Count đã tiêu thụ\n- Nhận 1 [ChargeNoir] cho mỗi 10 tổng số [ChargeNoir] Count đã tiêu thụ\n\nỞ 3+ [ChargeNoir] Độ mạnh, giới hạn tối đa [ChargeNoir] Count +5",
+      "flavor": "Lực lượng bị nén lại, tập hợp và cố định tại chỗ. Đôi khi, cần nhiều lực hơn để ngăn chặn sự thay đổi so với việc gây ra nó."
+    },
+    {
+      "id": 150503,
+      "name": "Kiểm tra Bảo quản",
+      "desc": "Ở 10+ [ChargeNoir] Count, sử dụng một Kĩ năng mạnh mẽ",
+      "flavor": "Chất lượng phải vượt qua kiểm tra, và quá trình bảo quản không được phép bị ảnh hưởng."
+    },
+    {
+      "id": 150504,
+      "name": "Chênh lệch Mật độ Vải",
+      "desc": "Ở 3+/5+ [ChargeNoir] Độ mạnh, gây thêm +1/+2 [Vibration] Độ mạnh\n\nKhi dùng Kĩ năng Tấn công, nếu Cấp độ Phòng thủ của đơn vị này cao hơn mục tiêu, gây thêm +3% sát thương cho mỗi chênh lệch Cấp độ Phòng thủ (tối đa 30%)\n- Nếu Cấp độ Phòng thủ của đơn vị này cao hơn từ 5 cấp trở lên, Sức mạnh Cơ bản +1",
+      "flavor": "Le Noir nghiền nát bất cứ thứ gì mềm hơn vải vóc của chúng."
+    },
+    {
+      "id": 148801,
+      "name": "Thu hoạch Da Thô: Phong cách Tội Nguyên thủy",
+      "desc": "Khi bắt đầu lượt: Khi có 2 hoặc ít hơn Tù nhân Đã thuộc trên sân, nhận thêm Ô\nkhi kết thúc lượt: Nhận thêm 1 [AttackDmgUp] cho lượt tiếp theo cho mỗi Tù nhân Đã thuộc <color=#ff6000><mark=#ff000040><b><u> trên sân</u></b></mark></color>",
+      "flavor": "Da của kẻ phạm tội bị xé ra, và tội lỗi bám trên đó bị cạo sạch, chỉ còn lại lớp da để thu hoạch."
+    },
+    {
+      "id": 148802,
+      "name": "Chuẩn bị Thuộc lại",
+      "desc": "Nhận thêm Ô khi có đồng minh (ngoại trừ đơn vị này) có HP dưới 80% trên sân",
+      "flavor": "Một khi tội lỗi ngấm trở lại vào da, Nhà thuộc da sẽ tiếp nhận và làm sạch nó một lần nữa."
+    },
+    {
+      "id": 148803,
+      "name": "Nhà thuộc da của Tội Nguyên thủy: Vận hành toàn lực",
+      "desc": "Khi HP Lõi dưới 50%, kết thúc lượt và chuyển sang mẫu hình mới; tất cả đồng minh, bao gồm đơn vị này, nhận [RestrictFailed] cho phần còn lại của màn chơi này",
+      "flavor": "Nhu cầu đã tăng vọt, trong khi da thô ngày càng khó tìm. Da của những tội đồ nguyên thủy từng là thứ không ai thèm liếc nhìn. Rồi một mùa thay đổi tất cả: nhu cầu bùng nổ, giá cả leo thang, và thứ từng được bán rẻ hoặc vứt đi giờ trở thành vật liệu được săn đón.\n\nGiờ đây, ngay cả những vết sẹo trên bề mặt cũng được tô điểm như nét đặc trưng và bán như một phần sức hấp dẫn."
+    },
+    {
+      "id": 148804,
+      "name": "Quy tắc của Nhà thuộc da",
+      "desc": "Bắt đầu từ lượt 2, gây ngẫu nhiên 1 trong các hiệu ứng sau lên 3 kẻ địch ngẫu nhiên vào đầu mỗi lượt\n- [RestrictMob]\n- [RestrictBoss]\n- [RestrictTier1]\n- [RestrictDef]\n\nKhi một Quy tắc bị vi phạm, gây 1 [RestrictDenied]",
+      "flavor": "Điều phân biệt một tảng thịt với lớp da là một quy trình thuộc da nghiêm ngặt, được điều hành bởi những quy tắc khắt khe."
+    },
+    {
+      "id": 149101,
+      "name": "Tù nhân Thuộc da",
+      "desc": "Khi chết, Người Giám sát mất vĩnh viễn 1 Cấp độ Phòng thủ trong suốt màn chơi này"
+    },
+    {
+      "id": 150604,
+      "name": "Trận Chiến Tiếp Tục",
+      "desc": "Bắt đầu màn chơi này với 80% HP và 45 Tinh thần"
+    },
+    {
+      "id": 151001,
+      "name": "Buộc may bắt đầu",
+      "desc": "Khi bắt đầu lượt: Gây [NiddleExpected] cho 2 kẻ địch ngẫu nhiên"
+    },
+    {
+      "id": 151002,
+      "name": "Thủ công",
+      "desc": "Sức mạnh Cuối cùng của Kĩ năng +1 cho mỗi Needlekin trên sân",
+      "flavor": "Không có đường may tay nào tồn tại chỉ với một đôi bàn tay. Cần cả một đội ngũ thợ lành nghề mới thổi được sự sống vào nó."
+    },
+    {
+      "id": 151003,
+      "name": "Dòng Lũy Khiếu Nại Của Khách Hàng Không Ngừng, Không Thể Tránh",
+      "desc": "\"Tiếng Gầm Của Kén\" vang lên mỗi \"bội số của 3\" lượt\nKhi chuyển sang Giai đoạn 2, \"Tiếng Gầm Của Kén\" tiếp tục vang lên mỗi lượt\n\nĐơn vị này không thể bị Không thể hành động trong lượt \"Tiếng Gầm Của Kén\" vang lên\n\nNếu HP của đơn vị này vượt Ngưỡng Chấn động, nhận 2 [Vulnerable] ở lượt kế tiếp",
+      "flavor": "Những giọng nói rỉ ra từ kén.\n\n\"Sợi hai lớp dưới 80 count? Không phải vải!\"\n\"Sao lỗ cài nút không nằm ngang?\"\n\"Vải dệt kim jersey trên máy? Thật sao?\"\n\"Sao mép vải không đỏ?\"\n\"Cái này thậm chí chưa được xử lý chống co rút.\"\n\"Dưới Super 150 là vải rẻ tiền, rõ ràng rồi.\"\n\"Ngươi nghĩ thang đo Super chỉ là độ dày sợi thôi à? Đường kính và số sợi không phải cùng một thứ. Ngươi không biết sao?\"\n\"Ngươi đang hoàn thiện gấu bằng Union Special đúng không? Tất nhiên là vậy!\"\n\"Cái này là Rigid? ... Ồ. Mép vải?\"\n\"Khoan... mật độ mũi may trên inch quá đều. Ngươi dùng máy, phải không?\"\n\"Không phải may tay thì không phải bespoke.\" \n\"... Cái đó thậm chí còn không phải lỗ cài nút kiểu Milanese.\"\n\"Vải áo sơ mi cần trên 200 count.\"\n\"Chà, tôi thấy đường chỉ ở mặt ngoài kìa.\"\n\"Kìa, tôi thấy hai hàng chỉ ở đó. Loại bỏ.\" \n\"Xử lý mối nối này là sao?\"\n\"Ba lớp, tối thiểu.\""
+    },
+    {
+      "id": 149604,
+      "name": "Mưa Nắng Chói Buốt",
+      "desc": "Cấp độ của đơn vị này được nâng cao do ảnh hưởng của ánh nắng\n\nKhi bắt đầu màn chơi: Nhận [GoldenLeatherEnhance]",
+      "flavor": "Với những ai lắng nghe hơi ấm của ánh nắng, vầng hào quang ấy càng trở nên thiêu đốt, chói lòa và mãnh liệt hơn."
+    },
+    {
+      "id": 148805,
+      "name": "Trận Chiến Tiếp Tục",
+      "desc": "Bắt đầu màn chơi này với 90% HP và 45 Tinh thần"
+    },
+    {
+      "id": 148305,
+      "name": "Mưa Nắng Chói Buốt",
+      "desc": "Cấp độ của đơn vị này được nâng cao do ảnh hưởng của mưa nắng chói buốt\n\nKhi bắt đầu màn chơi: Nhận 2 [ChargeNoir] Độ mạnh và +15 [ChargeNoir] Giá trị\n\nBắt đầu màn chơi với 30 Tinh thần và 1000 Lá chắn bền vững",
+      "flavor": "Với những ai lắng nghe hơi ấm của ánh nắng, vầng hào quang ấy càng trở nên thiêu đốt, chói lòa và mãnh liệt hơn."
+    },
+    {
+      "id": 1590001,
+      "name": "Mưa Nắng Chói Buốt",
+      "desc": "Cấp độ của đơn vị này được nâng cao do ảnh hưởng của ánh nắng",
+      "flavor": "Với những ai lắng nghe hơi ấm của ánh nắng, vầng hào quang ấy càng trở nên thiêu đốt, chói lòa và mãnh liệt hơn."
+    },
+    {
+      "id": 149608,
+      "name": "Dòng Lũy Khiếu Nại Của Khách Hàng Không Ngừng, Không Thể Tránh",
+      "desc": "\"Tiếng Gầm Của Kén\" tiếp tục vang lên mỗi lượt\nKhông thể bị Không thể hành động[TabExplain]"
+    },
+    {
+      "id": 151101,
+      "name": "Mưa Nắng Chói Buốt",
+      "desc": "Cấp độ của đơn vị này được nâng cao do ảnh hưởng của mưa nắng chói buốt\n\nKhi bắt đầu màn chơi: Nhận [SapsareeGold]",
+      "flavor": "Với những ai lắng nghe hơi ấm của ánh nắng, vầng hào quang ấy càng trở nên thiêu đốt, chói lòa và mãnh liệt hơn."
+    },
+    {
+      "id": 151201,
+      "name": "Mưa Nắng Chói Buốt",
+      "desc": "Cấp độ của đơn vị này được nâng cao do ảnh hưởng của mưa nắng chói buốt\n\nKhi bắt đầu màn chơi: Hồi phục toàn bộ HP và nhận [GoldenManager]",
+      "flavor": "Với những ai lắng nghe hơi ấm của ánh nắng, vầng hào quang ấy càng trở nên thiêu đốt, chói lòa và mãnh liệt hơn."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+    "dataList": [
+        {
+            "id": 837101,
+            "name": "Cơ Hội Thong Dong",
+            "desc": "Khi bắt đầu lượt, nếu Tốc độ của bản thân cao hơn kẻ địch, nhận 1 [PenetrateDamageUp]"
+        },
+        {
+            "id": 837102,
+            "name": "Hít thở thư thái",
+            "desc": "Hồi phục 7 Tinh thần khi kết thúc lượt\nKhi kết thúc lượt, nhận [Agility] vào lượt tiếp theo bằng với (Số [Breath] của bản thân ÷ 4) (Tối đa 3)"
+        },
+        {
+            "id": 837103,
+            "name": "Đơn đả độc đấu",
+            "desc": "Khi mục tiêu đang bị Choáng, sử dụng 「Salut」"
+        },
+        {
+            "id": 837104,
+            "name": "Tấn công tập trung",
+            "desc": "Khi sử dụng Kĩ năng vào ô đã tấn công thành công ở lượt trước, nhận các hiệu ứng dưới đây dựa trên số lượt tấn công tích lũy.\nNếu không thể tấn công ở lượt trước, số lượt tích lũy sẽ bị đặt lại.\n- Tích lũy tấn công thành công 1 lượt: Sức mạnh Kháng cự +1\n- Tích lũy tấn công thành công 2 lượt: Sức mạnh Cơ bản +1\n- Tích lũy tấn công thành công 3 lượt: Sức mạnh Cơ bản +1, Sức mạnh Đồng xu +1"
+        },
+        {
+            "id": 837201,
+            "name": "Ta sẽ cắt ngươi trước!",
+            "desc": "Ưu tiên tấn công [LineCutting]."
+        },
+        {
+            "id": 837202,
+            "name": "Kéo Huyết Cương",
+            "desc": "Khi Thắng Kháng cự, nếu mục tiêu có [Laceration], hồi phục Máu cho bộ phận và bản thân bằng 40% lượng sát thương gây ra\nKhi kết thúc đòn tấn công, nếu đã hồi phục 100 Máu, hồi phục 10 Tinh thần\nHiệu ứng này không kích hoạt khi đánh trúng sau khi Thua Kháng cự bằng Kĩ năng [SuperCoin].",
+            "summary": "Hồi phục Máu khi tấn công kẻ địch trong trạng thái Xuất huyết (Bleed). Nếu hồi phục 100 Máu thì cũng sẽ hồi phục cả Tinh thần."
+        },
+        {
+            "id": 837203,
+            "name": "Ta không cần những thứ không đẹp đẽ!!",
+            "desc": "Nếu trong số kẻ địch có kẻ chỉ còn lại 30% tổng lượng Máu, sử dụng Kĩ năng 「Ta không cần những thứ không đẹp đẽ!!」."
+        },
+        {
+            "id": 837204,
+            "name": "Vẫn chưa kết thúc đâu",
+            "desc": "Khi Máu của bản thân còn 40%, thay đổi quy luật hành động\nKhi thay đổi quy luật hành động, nhận 10 [Laceration], 2 [BloodScissor] mỗi lượt."
+        },
+        {
+            "id": 837205,
+            "name": "Huyết Yến",
+            "desc": "Nếu nhân vật này xuất hiện trong trận chiến hoặc nằm trong danh sách kẻ địch xuất hiện, từ lượt thứ 1, số [BloodDinner] sẽ tăng thêm bằng lượng sát thương [Laceration] mà tất cả nhân vật phải nhận. Mỗi khi nhân vật này xuất hiện trong trận chiến, những vết máu ẩn giấu rải rác trên chiến trường sẽ càng hiện rõ hơn."
+        },
+        {
+            "id": 837206,
+            "name": "Cặp Kéo Chứa Máu",
+            "desc": "Khi bắt đầu trận chiến, nhận 10 [BloodScissor]\n- [BloodScissor] không giảm xuống dưới 1\n- Nếu [BloodScissor] từ 10 trở lên, chuyển hóa thành [BloodScissorTwo]\n- Nếu [BloodScissor] từ 20 trở lên, chuyển hóa thành [BloodScissorThree]\nNếu [BloodScissor] bị tiêu hao và không đủ thì sẽ trở về giai đoạn trước đó"
+        },
+        {
+            "id": 837207,
+            "name": "Đói Khát và Lão Suy",
+            "desc": "Khi bắt đầu trận chiến, nhận [StarvingBarberTwo]"
+        },
+        {
+            "id": 837208,
+            "name": "Máu... Máu... Máu...!",
+            "desc": "Nếu đang trong trạng thái Hoảng loạn khi kết thúc lượt, giải trừ trạng thái Hoảng loạn khi bắt đầu lượt tiếp theo và Tinh thần được đặt lại về 0.\nKhi trạng thái Hoảng loạn được giải trừ\n- Tiêu hao 30 [BloodDinner], nhận 2 [Enhancement], 1 [BloodScissor] vào lượt tiếp theo, và hồi phục 20 Tinh thần.\n- Nếu không thể tiêu hao [BloodDinner], nhận 30 [Laceration], kích hoạt ngay lập tức sát thương từ [Laceration], sau đó số lượt [Laceration] giảm đi 3. Tiếp theo, nhận 2 [Enhancement], 2 [AttackDmgUp] vào lượt tiếp theo, và hồi phục 20 Tinh thần."
+        },
+        {
+            "id": 9999997,
+            "name": "Hồi phục Hoảng loạn",
+            "desc": "Nếu đang trong trạng thái Hoảng loạn khi kết thúc lượt, Tinh thần trở thành 0."
+        },
+        {
+            "id": 9999996,
+            "name": "Không thể thay đổi Hoảng loạn",
+            "desc": "Khi nhận Buff thay đổi loại Hoảng loạn, loại Hoảng loạn sẽ không bị thay đổi. Thay vào đó, áp dụng các hiệu ứng được ban cho các đối tượng không có Tinh thần"
+        }
+    ]
+}

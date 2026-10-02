@@ -1,0 +1,1038 @@
+{
+  "dataList": [
+    {
+      "id": 2050511,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Hối Hận",
+          "abName": "Kẻ Sát Nhân Bị Ruồng Bỏ",
+          "desc": "[BeforeAttack] Xóa ngẫu nhiên 1 hiệu ứng bất lợi có thể giải trừ đang áp dụng trên bản thân",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lần Chấn động tăng 2, tăng thêm (Số Cộng hưởng Hoàn toàn Phẫn nộ)÷3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Bộc phát Chấn động"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Hối Hận",
+          "abName": "Kẻ Sát Nhân Bị Ruồng Bỏ",
+          "desc": "[BeforeAttack] Xóa ngẫu nhiên 1 hiệu ứng bất lợi có thể giải trừ đang áp dụng trên bản thân",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lần Chấn động tăng 2, tăng thêm (Số Cộng hưởng Hoàn toàn Phẫn nộ)÷3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Bộc phát Chấn động\nKhi Bộc phát Chấn động, nếu mục tiêu không có Thanh Đoạn trường, gây Sát thương Phẫn nộ bằng (6 + 2×(Số Cộng hưởng Hoàn toàn Phẫn nộ))% giá trị tiến tới Thanh Đoạn trường cuối cùng."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Hối Hận",
+          "abName": "Kẻ Sát Nhân Bị Ruồng Bỏ",
+          "desc": "[BeforeAttack] Xóa ngẫu nhiên 2 hiệu ứng bất lợi có thể giải trừ đang áp dụng trên bản thân",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lần Chấn động tăng 3, tăng thêm (Số Cộng hưởng Hoàn toàn Phẫn nộ)÷3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Bộc phát Chấn động\nKhi Bộc phát Chấn động, nếu mục tiêu không có Thanh Đoạn trường, gây Sát thương Phẫn nộ bằng (12 + 3×(Số Cộng hưởng Hoàn toàn Phẫn nộ))% giá trị tiến tới Thanh Đoạn trường cuối cùng."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2050521,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Hối Hận",
+          "abName": "Kẻ Sát Nhân Bị Ruồng Bỏ",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\n[BeforeAttack] Nếu bản thân đang có hiệu ứng bất lợi, Trọng lượng Tấn công +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Bộc phát Chấn động.\nKhi Bộc phát Chấn động, tăng giá trị tiến tới Thanh Đoạn trường bằng 30% Cấp độ Chấn động.\nSố lần Chấn động giảm 1"
+                },
+                {
+                  "desc": "[EndSkill] Nhận [Bind] 3, Tăng Uy lực Đập 1 vào lượt tiếp theo."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Hối Hận",
+          "abName": "Kẻ Sát Nhân Bị Ruồng Bỏ",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\n[BeforeAttack] Nếu bản thân đang có hiệu ứng bất lợi, Trọng lượng Tấn công +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Bộc phát Chấn động\nKhi Bộc phát Chấn động, tăng giá trị tiến tới Thanh Đoạn trường bằng 40% Cấp độ Chấn động.\nKhi Bộc phát Chấn động, nếu mục tiêu không có Thanh Đoạn trường, gây Sát thương Phẫn nộ bằng (6 + 2×(Số Cộng hưởng Hoàn toàn Phẫn nộ))% giá trị tiến tới Thanh Đoạn trường cuối cùng.\nSố lần Chấn động giảm 1"
+                },
+                {
+                  "desc": "[EndSkill] Nhận [Bind] 3, Tăng Uy lực Đập 1 vào lượt tiếp theo."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Hối Hận",
+          "abName": "Kẻ Sát Nhân Bị Ruồng Bỏ",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\n[BeforeAttack] Nếu bản thân đang có hiệu ứng bất lợi, Trọng lượng Tấn công +2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Bộc phát Chấn động\nKhi Bộc phát Chấn động, tăng giá trị tiến tới Thanh Đoạn trường bằng 50% Cấp độ Chấn động.\nKhi Bộc phát Chấn động, nếu mục tiêu không có Thanh Đoạn trường, gây Sát thương Phẫn nộ bằng (12 + 3×(Số Cộng hưởng Hoàn toàn Phẫn nộ))% giá trị tiến tới Thanh Đoạn trường cuối cùng.\nSố lần Chấn động giảm 1"
+                },
+                {
+                  "desc": "[EndSkill] Nhận [Bind] 3, Tăng Uy lực Đập 1 vào lượt tiếp theo."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2050611,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Tiếng Gào Điện",
+          "abName": "Cừu Điện Mơ Mộng",
+          "desc": "[BeforeAttack] Số lần [Charge] của bản thân tăng 8\n[EndSkill] 1 đồng minh ngoại trừ bản thân có số lần [Charge] thấp nhất được tăng 8 số lần [Charge]\n- Tăng số lượng đối tượng nhận (Số Cộng hưởng Đố kỵ tối đa - 2) (Tối đa 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Áp dụng [Burst] 3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Tiếng Gào Điện",
+          "abName": "Cừu Điện Mơ Mộng",
+          "desc": "[BeforeAttack] Số lần [Charge] của bản thân tăng 8\n[EndSkill] 1 đồng minh ngoại trừ bản thân có số lần [Charge] thấp nhất được tăng 8 số lần [Charge]\n- Tăng số lượng đối tượng nhận (Số Cộng hưởng Đố kỵ tối đa - 2) (Tối đa 4)\n- Nếu số Cộng hưởng Đố kỵ tối đa từ 4 trở lên, áp dụng [VioletDamageUp] 1 cho bản thân và đối tượng nhận",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Áp dụng [Burst] 3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Tiếng Gào Điện",
+          "abName": "Cừu Điện Mơ Mộng",
+          "desc": "[BeforeAttack] Số lần [Charge] của bản thân tăng 12\n[EndSkill] 1 đồng minh ngoại trừ bản thân có số lần [Charge] thấp nhất được tăng 8 số lần [Charge]\n- Tăng số lượng đối tượng nhận (Số Cộng hưởng Đố kỵ tối đa - 2) (Tối đa <style=\"highlight\">5</style>)\n- Nếu số Cộng hưởng Đố kỵ tối đa từ 4 trở lên, áp dụng [VioletDamageUp] 1 cho bản thân và đối tượng nhận\n<style=\"highlight\">- Nếu số Cộng hưởng Đố kỵ tối đa từ 6 trở lên, áp dụng [VioletDamageUp] 1 cho bản thân và đối tượng nhận</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Áp dụng [Burst] 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2050621,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Tiếng Gào Điện",
+          "abName": "Cừu Điện Mơ Mộng",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\n[BeforeAttack] Trọng lượng Tấn công tăng (Số Cộng hưởng Đố kỵ tối đa - 2) (Tối đa 2)\n[BeforeAttack] Nếu số lần [Charge] của bản thân từ 10 trở lên, tiêu hao tối đa 20 số lần [Charge], mỗi số lần [Charge] tiêu hao tăng +2% lượng sát thương (Tối đa 40%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Áp dụng [Paralysis] 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Áp dụng [Burst] 3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Tiếng Gào Điện",
+          "abName": "Cừu Điện Mơ Mộng",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\n[BeforeAttack] Trọng lượng Tấn công tăng (Số Cộng hưởng Đố kỵ tối đa - 2) (Tối đa <style=\"highlight\">3</style>)\n[BeforeAttack] Nếu số lần [Charge] của bản thân từ 10 trở lên, tiêu hao tối đa 20 số lần [Charge], mỗi số lần [Charge] tiêu hao tăng +<style=\"highlight\">2.5</style>% lượng sát thương (Tối đa <style=\"highlight\">50</style>%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây [Paralysis] 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây [Burst] 3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Tiếng Than Điện",
+          "abName": "Cừu Điện Mộng Mơ",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\n[BeforeAttack] Trọng số Tấn công tăng thêm (Số Cộng hưởng Ghen tị tối đa - 2) (Tối đa 3)\n<style=\"highlight\">[BeforeAttack] Nếu số lần [Charge] của bản thân từ 10 trở lên, hiệu ứng áp dụng khi Trúng sẽ được kích hoạt 2 lần</style>\n[BeforeAttack] Nếu số lần [Charge] của bản thân từ 10 trở lên, tiêu hao tối đa 20 số lần [Charge], mỗi số lần [Charge] tiêu hao tăng +<style=\"highlight\">3</style>% lượng sát thương (Tối đa <style=\"highlight\">60</style>%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây [Paralysis] 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây [Burst] 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2050711,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Khát Vọng - Milcara",
+          "abName": "Bốn Trăm Đóa Hồng",
+          "desc": "[EndSkill] Trong 3 lượt, giảm 10 Tinh thần khi kết thúc lượt",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây [Laceration] 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây [Laceration] 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Tăng số lần [RoseWedge] thêm 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Tăng số lần [RoseWedge] thêm 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Kích hoạt [Laceration] trên mục tiêu 1 lần (Số lần [Laceration] giảm 1)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Khát Vọng - Milcara",
+          "abName": "Bốn Trăm Đóa Hồng",
+          "desc": "<style=\"highlight\">Nếu [Laceration] trên mục tiêu từ 6 trở lên, Sức mạnh Xu +1</style>\n[EndSkill] Trong 3 lượt, giảm 10 Tinh thần khi kết thúc lượt",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây [Laceration] 2<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Nếu Cộng hưởng tối đa từ 4 trở lên, kích hoạt [Laceration] của mục tiêu 1 lần (Số lần [Laceration] giảm 1)</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây [Laceration] 2<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Nếu Cộng hưởng tối đa từ 4 trở lên, kích hoạt [Laceration] của mục tiêu 1 lần (Số lần [Laceration] giảm 1)</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Tăng số lần [RoseWedge] thêm 2<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Tăng số lần [RoseWedge] thêm 1<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Kích hoạt [Laceration] của mục tiêu <style=\"highlight\">1 + (Số Cộng hưởng tối đa ÷ 2) lần. (Tối đa 3 lần. Số lần [Laceration] giảm theo số lần kích hoạt)</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Khát Vọng - Milcara",
+          "abName": "Bốn Trăm Đóa Hồng",
+          "desc": "Mỗi <style=\"highlight\">6 [Laceration] trên mục tiêu, Sức mạnh Xu +1 (Tối đa 2)</style>\n[EndSkill] Trong 3 lượt, giảm 10 Tinh thần khi kết thúc lượt",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây [Laceration] 2<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Nếu Cộng hưởng tối đa từ 4 trở lên, kích hoạt [Laceration] của mục tiêu 1 lần (Số lần [Laceration] giảm 1)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây [Laceration] 2<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Nếu Cộng hưởng tối đa từ 4 trở lên, kích hoạt [Laceration] của mục tiêu 1 lần (Số lần [Laceration] giảm 1)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Tăng số lần [RoseWedge] thêm 2<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Tăng số lần [RoseWedge] thêm <style=\"highlight\">2</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Kích hoạt [Laceration] của mục tiêu 1 + (Số Cộng hưởng tối đa ÷ 2) lần. (Tối đa 3 lần. Số lần [Laceration] giảm theo số lần kích hoạt)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[EnemyKill] Nếu gây sát thương vượt quá HP còn lại của kẻ địch, chia phần sát thương dư đó thành sát thương cố định cho toàn bộ kẻ địch. (Tối thiểu 1)</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2050721,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Khát Vọng - Milcara",
+          "abName": "Bốn Trăm Đóa Hồng",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\n[WhenUse] Tiêu hao 10% HP tối đa của bản thân, tất cả kẻ địch và đồng minh nhận (HP đã tiêu hao ÷ 2) sát thương\n- Nếu HP bản thân dưới 50% HP tối đa, thay vào đó gây [Laceration] 5 cho toàn bộ đồng minh và kích hoạt 1 lần (Số lần [Laceration] giảm 1). Hồi phục HP cho bản thân bằng lượng sát thương [Laceration] mà đồng minh đã nhận",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây [Laceration] 2 cho bản thân và mục tiêu"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây [Laceration] 2 cho bản thân và mục tiêu"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Tăng số lần [RoseWedge] thêm 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Tăng số lần [RoseWedge] thêm 1"
+                },
+                {
+                  "desc": "- Nếu mục tiêu không có [RoseWedge], tăng thêm 4 Sức mạnh [RoseWedge]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Kích hoạt [Laceration] của mục tiêu 1 lần (Số lần [Laceration] giảm 1)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Khát Vọng - Milcara",
+          "abName": "Bốn Trăm Đóa Hồng",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\n<style=\"highlight\">Nếu tổng [Laceration] của bản thân và mục tiêu từ 6 trở lên, Sức mạnh Xu +1</style>\n[WhenUse] Tiêu hao 10% HP tối đa của bản thân, tất cả kẻ địch và đồng minh nhận (HP đã tiêu hao ÷ 2) sát thương\n- Nếu HP bản thân dưới 50% HP tối đa, thay vào đó gây [Laceration] 5 cho toàn bộ đồng minh và kích hoạt 1 lần (Số lần [Laceration] giảm 1). Hồi phục HP cho bản thân bằng lượng sát thương [Laceration] mà đồng minh đã nhận",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây [Laceration] <style=\"highlight\">3</style> cho bản thân và mục tiêu"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây [Laceration] <style=\"highlight\">3</style> cho bản thân và mục tiêu"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Số lượng [RoseWedge] tăng 2<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Số lượng [RoseWedge] tăng 1<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "- Nếu mục tiêu không có [RoseWedge], Sức mạnh [RoseWedge] tăng thêm 4<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] [Laceration] của mục tiêu <style=\"highlight\">kích hoạt 1 + (Số lượng Cộng hưởng tối đa ÷ 2) lần. (Tối đa 3 lần. Số lượng [Laceration] giảm theo số lần kích hoạt)</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Khát Vọng - Milkala",
+          "abName": "Tứ Bách Đóa Hồng",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\nVới mỗi 6 tổng [Laceration] của bản thân và mục tiêu, Sức mạnh Coin +1<style=\"highlight\">(Tối đa 3)</style>\n[WhenUse] Tiêu hao 10% Máu tối đa của bản thân, tất cả kẻ địch và đồng minh chịu (Máu đã tiêu hao của bản thân ÷ 2) sát thương\n- Nếu Máu của bản thân thấp hơn 50% Máu tối đa, thay vào đó gây 5 [Laceration] cho toàn bộ đồng minh và kích hoạt 1 lần (Số lượng [Laceration] giảm 1). Hồi phục Máu cho bản thân bằng lượng sát thương [Laceration] đồng minh đã nhận",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [Laceration] cho bản thân và mục tiêu<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] [Laceration] của bản thân và mục tiêu kích hoạt 1 lần (Số lượng [Laceration] giảm 1)</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [Laceration] cho bản thân và mục tiêu<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] [Laceration] của bản thân và mục tiêu kích hoạt 1 lần (Số lượng [Laceration] giảm 1)</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Số lượng [RoseWedge] tăng 2<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Số lượng [RoseWedge] tăng <style=\"highlight\">2</style>"
+                },
+                {
+                  "desc": "- Nếu mục tiêu không có [RoseWedge], Sức mạnh [RoseWedge] tăng thêm 4<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Kích hoạt [Laceration] của mục tiêu 1 + (Số lượng Cộng hưởng tối đa ÷ 2) lần. (Tối đa 3 lần. Số lượng [Laceration] giảm theo số lần kích hoạt)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[EnemyKill] Nếu gây sát thương vượt quá Máu còn lại của kẻ địch, chia đều lượng sát thương vượt mức thành sát thương cố định cho toàn bộ kẻ địch. (Tối thiểu 1)</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2050811,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Quá khứ tan vỡ",
+          "abName": "Máy vận chuyển hơi nước",
+          "desc": "[EndSkill] Trong 3 lượt, giảm 10 Tinh thần khi kết thúc lượt\n[EndSkill] Nếu (Số lượng Cộng hưởng Phế nhác) là số lẻ ở lượt lẻ, hoặc (Số lượng Cộng hưởng Phế nhác) là số chẵn ở lượt chẵn, hồi phục 10 Tinh thần",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lượng [Vibration] tăng 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Với mỗi (Số lượng Cộng hưởng Phế nhác ÷ 2), số lượng [Vibration] tăng (Tối đa 3)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Nếu là mục tiêu chính, chuyển [Vibration] hiện tại của mục tiêu thành [FusionVibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 4 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnStartCoin] Với mỗi 1 [Vibration] của mục tiêu chính, lượng sát thương của Coin này +1% (Tối đa 50%)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnStartCoin] Với mỗi 1 (Sức mạnh [Vibration] + Số lượng [Vibration]) của mục tiêu chính, lượng sát thương của Coin này +1% (Tối đa 100%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion]. Số lượng [Vibration] của mục tiêu giảm 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Nếu lượng sát thương tăng thêm từ hiệu ứng Coin này đạt từ 100% trở lên, [VibrationExplosion] 2 lần. Số lượng [Vibration] giảm 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Quá khứ tan vỡ",
+          "abName": "Máy vận chuyển hơi nước",
+          "desc": "<style=\"highlight\">[BeforeAttack] Nếu (Sức mạnh [Vibration] + Số lượng [Vibration]) của mục tiêu chính từ 30 trở lên, Trọng số +1</style>\n[EndSkill] Trong 3 lượt, giảm 10 Tinh thần khi kết thúc lượt\n[EndSkill] Nếu (Số lượng Cộng hưởng Phế nhác) là số lẻ ở lượt lẻ, hoặc (Số lượng Cộng hưởng Phế nhác) là số chẵn ở lượt chẵn, hồi phục 10 Tinh thần",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lượng [Vibration] tăng 2<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Với mỗi (Số lượng Cộng hưởng Phế nhác ÷ 2), số lượng [Vibration] tăng (Tối đa 3)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Nếu là mục tiêu chính, chuyển [Vibration] hiện tại của mục tiêu thành [FusionVibration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 4 [Vibration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnStartCoin] Với mỗi 1 [Vibration] của mục tiêu chính, lượng sát thương của Coin này +1% (Tối đa 50%)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnStartCoin] Với mỗi 1 (Sức mạnh [Vibration] + Số lượng [Vibration]) của mục tiêu chính, lượng sát thương của Coin này +1% (Tối đa 100%)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion]. Số lượng [Vibration] của mục tiêu giảm 1<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Nếu lượng sát thương tăng thêm từ hiệu ứng Coin này đạt từ 100% trở lên, [VibrationExplosion] 2 lần. Số lượng [Vibration] giảm 2<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Quá khứ tan vỡ",
+          "abName": "Máy vận chuyển hơi nước",
+          "desc": "[BeforeAttack] Nếu (Sức mạnh [Vibration] + Số lượng [Vibration]) của mục tiêu chính từ 30 trở lên, Trọng số +1\n<style=\"highlight\">- Nếu từ 100 trở lên, thay vào đó Trọng số +3</style>\n<style=\"highlight\">[BeforeAttack] Với mỗi 2 Cộng hưởng tối đa, gây 1 Chấn động cho toàn bộ mục tiêu tấn công (Tối đa 3)</style>\n[EndSkill] Trong 3 lượt, giảm 10 Tinh thần khi kết thúc lượt\n<style=\"highlight\">[EndSkill] Hồi phục ([AccumulatedPastSinner] × 2)% Máu tối đa của bản thân</style>\n[EndSkill] Nếu (Số lượng Cộng hưởng Phế nhác) là số lẻ ở lượt lẻ, hoặc (Số lượng Cộng hưởng Phế nhác) là số chẵn ở lượt chẵn, hồi phục 10 Tinh thần",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lượng [Vibration] tăng 2<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Với mỗi (Số lượng Cộng hưởng Phế nhác ÷ 2), số lượng [Vibration] tăng (Tối đa 3)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Nếu là mục tiêu chính, chuyển [Vibration] hiện tại của mục tiêu thành [FusionVibration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 4 [Vibration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnStartCoin] Với mỗi 1 [Vibration] của mục tiêu chính, lượng sát thương của Coin này +1% (Tối đa 50%)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnStartCoin] Với mỗi 1 (Sức mạnh [Vibration] + Số lượng [Vibration]) của mục tiêu chính, lượng sát thương của Coin này +1% (Tối đa 100%)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion]. Số lượng [Vibration] của mục tiêu giảm 1<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Nếu lượng sát thương tăng thêm từ hiệu ứng Coin này đạt từ 50% trở lên, [VibrationExplosion] 1 lần.</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Nếu lượng sát thương tăng thêm từ hiệu ứng Coin này đạt từ 100% trở lên, [VibrationExplosion] 2 lần. Số lượng [Vibration] giảm 2<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2050821,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Quá khứ bị nghiền nát",
+          "abName": "Máy vận chuyển hơi nước",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\nMỗi 1 số Cộng hưởng tối đa, Sát thương +10% (Tối đa 100%)\n- Nếu Cộng hưởng tối đa là Cộng hưởng Lười biếng, Sát thương +20% thay thế (Tối đa 100%)\n[BeforeAttack] Nếu (Số Cộng hưởng Lười biếng) là số chẵn ở lượt lẻ, hoặc (Số Cộng hưởng Lười biếng) là số lẻ ở lượt chẵn, Sát thương +12%",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnStartCoin] Mỗi 1 ([Vibration] Số lượng + [Vibration] Số lần) của mục tiêu chính, Sát thương của đồng xu này +1% (Tối đa 100%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 5 [Vibration], 2 [Vibration] Số lần "
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Vibration] Số lần tăng bằng (Số Cộng hưởng Lười biếng) (Tối đa 6)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Nếu là mục tiêu chính, [FusionVibration] vào [Vibration] hiện tại của mục tiêu"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion] 2 lần. [Vibration] Số lần giảm 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Nếu sát thương tăng từ hiệu ứng đồng xu này đạt từ 100% trở lên, [VibrationExplosion] 2 lần. [Vibration] Số lần giảm 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Quá khứ bị nghiền nát",
+          "abName": "Máy vận chuyển hơi nước",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\nMỗi 1 số Cộng hưởng tối đa, Sát thương +10% (Tối đa 100%)\n- Nếu Cộng hưởng tối đa là Cộng hưởng Lười biếng, Sát thương +20% thay thế (Tối đa 100%)\n<style=\"highlight\">[BeforeAttack] Nếu ([Vibration] Số lượng + [Vibration] Số lần) của mục tiêu chính từ 30 trở lên, Chỉ số cộng thêm +2</style>\n[BeforeAttack] Nếu (Số Cộng hưởng Lười biếng) là số chẵn ở lượt lẻ, hoặc (Số Cộng hưởng Lười biếng) là số lẻ ở lượt chẵn, Sát thương +12%",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnStartCoin] Mỗi 1 ([Vibration] Số lượng + [Vibration] Số lần) của mục tiêu chính, Sát thương của đồng xu này +1% (Tối đa 100%)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 5 [Vibration], 2 [Vibration] Số lần<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Vibration] Số lần tăng bằng (Số Cộng hưởng Lười biếng) (Tối đa 6)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Nếu là mục tiêu chính, [FusionVibration] vào [Vibration] hiện tại của mục tiêu<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion] 2 lần. [Vibration] Số lần giảm 2<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Nếu sát thương tăng từ hiệu ứng đồng xu này đạt từ 100% trở lên, [VibrationExplosion] 2 lần. [Vibration] Số lần giảm 2<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Quá khứ bị nghiền nát",
+          "abName": "Máy vận chuyển hơi nước",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\nMỗi 1 số Cộng hưởng tối đa, Sát thương +10% (Tối đa 100%)\n- Nếu Cộng hưởng tối đa là Cộng hưởng Lười biếng, Sát thương +20% thay thế (Tối đa 100%)\n[BeforeAttack] Nếu ([Vibration] Số lượng + [Vibration] Số lần) của mục tiêu chính từ 30 trở lên, Chỉ số cộng thêm +2\n[BeforeAttack] Nếu (Số Cộng hưởng Lười biếng) là số chẵn ở lượt lẻ, hoặc (Số Cộng hưởng Lười biếng) là số lẻ ở lượt chẵn, Sát thương +12%\n<style=\"highlight\">[EndSkill] Hồi phục một lượng Máu bằng ([AccumulatedPastSinner] × 3)% Máu tối đa của bản thân</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnStartCoin] Mỗi 1 ([Vibration] Số lượng + [Vibration] Số lần) của mục tiêu chính, Sát thương của đồng xu này <style=\"highlight\">+2%</style> (Tối đa 100%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 5 [Vibration], 2 [Vibration] Số lần<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Vibration] Số lần tăng bằng (Số Cộng hưởng Lười biếng) (Tối đa 6)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Nếu là mục tiêu chính, [FusionVibration] vào [Vibration] hiện tại của mục tiêu<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion] 2 lần. [Vibration] Số lần giảm 2<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Nếu sát thương tăng từ hiệu ứng đồng xu này đạt từ 100% trở lên, [VibrationExplosion] 2 lần. [Vibration] Số lần giảm 2<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2050911,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Trứ Ảnh Huy Đao",
+          "abName": "Gusunde",
+          "desc": "Khi sử dụng lần đầu trong trận chiến, Lượng tiêu hao Tinh thần giảm 15\n- Nếu là Cán sự Kiếm Khế Meursault, Tài nguyên E.G.O cần thiết giảm 1 Phẫn nộ, 1 Ngạo mạn, 1 Đố kỵ\nMỗi 4 [Breath] của bản thân, Sức mạnh Kháng cự +1, Sát thương +6% (Tối đa 4 và Tối đa 12% tương ứng)\nNếu đã nhận [AlcoholKimPersonal] trong trận chiến này, Sát thương gây ra cho mục tiêu chính +60%\n- Nếu là Cán sự Kiếm Khế Meursault, áp dụng hiệu ứng này thành Sát thương +120%\n[BeforeAttack] Tăng Chỉ số cộng thêm tấn công thêm (Số Cộng hưởng tối đa ÷ 2) (Tối đa 2, làm tròn xuống)\n[BeforeAttack] 4 đồng minh có thứ tự sắp xếp sớm nhất (3 + Số Cộng hưởng tối đa) nhận 4 [Breath] Số lần\n[EndSkill] Hồi 10 Tinh thần cho 4 đồng minh thuộc Kiếm Khế có Tinh thần thấp nhất ngoại trừ bản thân\n[EndSkill] Lượt tiếp theo nhận 4 [AlcoholKimPersonal]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 4 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 2 [Laceration] Số lần tăng"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Trứ Ảnh Huy Đao",
+          "abName": "Gusunde",
+          "desc": "Khi sử dụng lần đầu trong trận chiến, Lượng tiêu hao Tinh thần giảm 15\n- Nếu là Cán sự Kiếm Khế Meursault, Tài nguyên E.G.O cần thiết giảm 1 Phẫn nộ, 1 Ngạo mạn, 1 Đố kỵ\nMỗi 4 [Breath] của bản thân, Sức mạnh Kháng cự +1, Sát thương +6% (Tối đa <style=\"highlight\">6</style> và Tối đa <style=\"highlight\">24</style>% tương ứng)\nNếu đã nhận [AlcoholKimPersonal] trong trận chiến này, Sát thương gây ra cho mục tiêu chính +<style=\"highlight\">80</style>%\n- Nếu là Cán sự Kiếm Khế Meursault, áp dụng hiệu ứng này thành Sát thương +<style=\"highlight\">160</style>%\n[BeforeAttack] Tăng Chỉ số cộng thêm tấn công thêm (Số Cộng hưởng tối đa ÷ 2) (Tối đa 2, làm tròn xuống)\n[BeforeAttack] 4 đồng minh có thứ tự sắp xếp sớm nhất (3 + Số Cộng hưởng tối đa) nhận 4 [Breath] Số lần\n[EndSkill] Hồi 10 Tinh thần cho 4 đồng minh thuộc Kiếm Khế có Tinh thần thấp nhất ngoại trừ bản thân\n[EndSkill] Lượt tiếp theo nhận 4 [AlcoholKimPersonal]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 4 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 2 [Laceration] Số lần tăng"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Trứ Ảnh Huy Đao",
+          "abName": "Gusunde",
+          "desc": "Khi sử dụng lần đầu trong trận chiến, Lượng tiêu hao Tinh thần giảm 15\n- Nếu là Cán sự Kiếm Khế Meursault, Tài nguyên E.G.O cần thiết giảm 1 Phẫn nộ, 1 Ngạo mạn, 1 Đố kỵ\nMỗi 4 [Breath] của bản thân, Sức mạnh Kháng cự +1, Sát thương +6% (Tối đa <style=\"highlight\">8</style> và Tối đa <style=\"highlight\">30</style>% tương ứng)\nNếu đã nhận [AlcoholKimPersonal] trong trận chiến này, Sát thương gây ra cho mục tiêu chính +<style=\"highlight\">100</style>%\n- Nếu là Cán sự Kiếm Khế Meursault, áp dụng hiệu ứng này thành Sát thương +<style=\"highlight\">200</style>%\n[BeforeAttack] Tăng Chỉ số cộng thêm tấn công thêm (Số Cộng hưởng tối đa ÷ 2) (Tối đa 2, làm tròn xuống)\n[BeforeAttack] 4 đồng minh có thứ tự sắp xếp sớm nhất (3 + Số Cộng hưởng tối đa) nhận 4 [Breath] Số lần\n[EndSkill] Hồi 10 Tinh thần cho 4 đồng minh thuộc Kiếm Khế có Tinh thần thấp nhất ngoại trừ bản thân\n[EndSkill] Lượt tiếp theo nhận 4 [AlcoholKimPersonal]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 4 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 2 [Laceration] Số lần tăng"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2050921,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Trứ Ảnh Huy Đao",
+          "abName": "Gusunde",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\nMỗi 4 [Breath] của bản thân, Sức mạnh Kháng cự +2, Sát thương +6% (Tối đa 8 và Tối đa 12% tương ứng)\nNếu đã nhận [AlcoholKimPersonal] trong trận chiến này, Sát thương gây ra cho mục tiêu chính +60%\n- Nếu là Cán sự Kiếm Khế Meursault, áp dụng hiệu ứng này thành Sát thương +120%\n[BeforeAttack] Mỗi 1 đồng xu bị phá hủy, Sức mạnh cơ bản -2 (Tối đa -8)\n[BeforeAttack] Tất cả kẻ địch và đồng minh nhận 4 [Breath] Số lần, 1 [SlashDamageUp], 1 [SlashTakeDamageUp]\n[EndSkill] Hồi 10 Tinh thần cho 4 đồng minh thuộc Kiếm Khế có Tinh thần thấp nhất ngoại trừ bản thân\n[EndSkill] Lượt tiếp theo nhận 4 [AlcoholKimPersonal]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Sức mạnh cuối cùng của đồng xu cuối +2 (1 lần mỗi đồng xu)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Sức mạnh cuối cùng của đồng xu cuối +2 (1 lần mỗi đồng xu)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Sức mạnh cuối cùng của đồng xu cuối +2 (1 lần mỗi đồng xu)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Tăng 2 số lượng [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Trứ Ảnh Huy Đao",
+          "abName": "Gusunde",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\nVới mỗi 4 [Breath] của bản thân, Sức mạnh khớp +2, Sát thương +6% (Tối đa lần lượt là <style=\"highlight\">12</style>, tối đa <style=\"highlight\">24</style>%)\nNếu đã nhận [AlcoholKimPersonal] trong trận chiến này, Sát thương gây ra cho mục tiêu chính +<style=\"highlight\">80</style>%\n- Nếu là Meursault Đầu mục Kiếm Khế, áp dụng hiệu ứng trên thành Sát thương +<style=\"highlight\">160</style>%\n[BeforeAttack] Với mỗi đồng xu bị phá hủy, Sức mạnh cơ bản -2 (Tối đa -8)\n[BeforeAttack] Tất cả kẻ địch và đồng minh nhận 4 số lượng [Breath], 1 [SlashDamageUp], 1 [SlashTakeDamageUp]\n[EndSkill] Hồi 10 Tinh thần cho 4 đồng minh thuộc Kiếm Khế có Tinh thần thấp nhất (ngoại trừ bản thân)\n[EndSkill] Nhận 4 [AlcoholKimPersonal] vào lượt tiếp theo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Sức mạnh cuối cùng của đồng xu cuối +2 (Mỗi đồng xu 1 lần)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Sức mạnh cuối cùng của đồng xu cuối +2 (Mỗi đồng xu 1 lần)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Sức mạnh cuối cùng của đồng xu cuối +2 (Mỗi đồng xu 1 lần)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Tăng 2 số lượng [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Trứ Ảnh Huy Đao",
+          "abName": "Gusunde",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\nVới mỗi 4 [Breath] của bản thân, Sức mạnh khớp +2, Sát thương +6% (Tối đa lần lượt là <style=\"highlight\">16</style>, tối đa <style=\"highlight\">30</style>%)\nNếu đã nhận [AlcoholKimPersonal] trong trận chiến này, Sát thương gây ra cho mục tiêu chính +<style=\"highlight\">100</style>%\n- Nếu là Meursault Đầu mục Kiếm Khế, áp dụng hiệu ứng trên thành Sát thương +<style=\"highlight\">200</style>%\n[BeforeAttack] Với mỗi đồng xu bị phá hủy, Sức mạnh cơ bản -2 (Tối đa -8)\n[BeforeAttack] Tất cả kẻ địch và đồng minh nhận 4 số lượng [Breath], 1 [SlashDamageUp], 1 [SlashTakeDamageUp]\n[EndSkill] Hồi 10 Tinh thần cho 4 đồng minh thuộc Kiếm Khế có Tinh thần thấp nhất (ngoại trừ bản thân)\n[EndSkill] Nhận 4 [AlcoholKimPersonal] vào lượt tiếp theo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Sức mạnh cuối cùng của đồng xu cuối +2 (Mỗi đồng xu 1 lần)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Sức mạnh cuối cùng của đồng xu cuối +2 (Mỗi đồng xu 1 lần)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Sức mạnh cuối cùng của đồng xu cuối +2 (Mỗi đồng xu 1 lần)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Tăng 2 số lượng [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

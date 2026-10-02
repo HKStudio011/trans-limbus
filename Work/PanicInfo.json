@@ -1,0 +1,154 @@
+{
+  "dataList": [
+    {
+      "id": 1001,
+      "panicName": "Tự hại",
+      "lowMoraleDescription": "Khi bắt đầu lượt, nhận 2 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Cấp tốc</color></link></u>, 2 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Mong manh</color></link></u>",
+      "panicDescription": "Khi bắt đầu lượt, HP bản thân -10"
+    },
+    {
+      "id": 1002,
+      "panicName": "Chỉ trích",
+      "lowMoraleDescription": "Khi bắt đầu lượt, nhận 2 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Tăng Uy lực Tấn công</color></link></u>, 2 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Mong manh</color></link></u>",
+      "panicDescription": "Khi bắt đầu lượt, Tinh thần (SP) của đồng minh ngẫu nhiên -20"
+    },
+    {
+      "id": 1003,
+      "panicName": "Áp đảo",
+      "lowMoraleDescription": "Khi bắt đầu lượt, nhận 2 <sprite name=\"Reduction\"><color=#e30000><u><link=\"Reduction\">Giảm Uy lực Tấn công</color></link></u>",
+      "panicDescription": "Không hành động trong 1 lượt"
+    },
+    {
+      "id": 1004,
+      "panicName": "Ủy mị",
+      "lowMoraleDescription": "Khi bắt đầu lượt, nhận 2 <sprite name=\"Reduction\"><color=#e30000><u><link=\"Reduction\">Giảm Uy lực Tấn công</color></link></u>",
+      "panicDescription": "Khi bắt đầu lượt, nhận 4 <sprite name=\"Reduction\"><color=#e30000><u><link=\"Reduction\">Giảm Uy lực Tấn công</color></link></u>"
+    },
+    {
+      "id": 1005,
+      "panicName": "Hối tiếc",
+      "lowMoraleDescription": "Khi bắt đầu lượt, nhận 1 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Tăng Sát thương</color></link></u>, 2 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Mong manh</color></link></u>",
+      "panicDescription": "Khi bắt đầu lượt, nhận 2 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Tăng Sát thương</color></link></u>, 5 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Mong manh</color></link></u>"
+    },
+    {
+      "id": 1006,
+      "panicName": "Đào tẩu",
+      "lowMoraleDescription": "Không hành động. Khi nhận sát thương, chết sau khi kỹ năng đó kết thúc",
+      "panicDescription": ""
+    },
+    {
+      "id": 1007,
+      "panicName": "Bi ai",
+      "lowMoraleDescription": "Mỗi lượt nhận 2 <sprite name=\"AttackDmgDown\"><color=#e30000><u><link=\"AttackDmgDown\">Giảm Sát thương</color></link></u>",
+      "panicDescription": "Mỗi lượt nhận 5 <sprite name=\"AttackDmgDown\"><color=#e30000><u><link=\"AttackDmgDown\">Giảm Sát thương</color></link></u>, 2 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Mong manh</color></link></u>"
+    },
+    {
+      "id": 1008,
+      "panicName": "Cuồng nhân",
+      "lowMoraleDescription": "Nếu nhận trạng thái Giảm Nhuệ khí này lần đầu, rơi vào trạng thái không phân biệt được địch ta",
+      "panicDescription": "Trạng thái không phân biệt được địch ta, Uy lực Va chạm +1, nhận 2 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Tăng Sát thương</color></link></u>"
+    },
+    {
+      "id": 1009,
+      "panicName": "Tự sát",
+      "lowMoraleDescription": "Nếu nhận trạng thái Giảm Nhuệ khí này lần đầu, rơi vào trạng thái không thể hành động",
+      "panicDescription": "Trong 3 lượt, rơi vào trạng thái không thể hành động. Sau khi hết 3 lượt, chết khi bắt đầu lượt. Khi chết, nếu thỏa mãn điều kiện giảm Tinh thần (SP) của tất cả đồng minh, giảm thêm 10"
+    },
+    {
+      "id": 1010,
+      "panicName": "Lang thang",
+      "lowMoraleDescription": "Khi kết thúc lượt, gây 2 sát thương Tinh thần (SP) cho đồng minh",
+      "panicDescription": "Trong 3 lượt, gây 5 sát thương Tinh thần (SP) cho đồng minh khi kết thúc lượt\nĐào tẩu sau khi kết thúc 3 lượt"
+    },
+    {
+      "id": 1011,
+      "panicName": "Bất ổn",
+      "lowMoraleDescription": "Khi bắt đầu lượt, nhận 2 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Tăng Uy lực Tấn công</color></link></u>, 3 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Trói buộc</color></link></u>",
+      "panicDescription": "Choáng váng khi bắt đầu lượt"
+    },
+    {
+      "id": 1012,
+      "panicName": "Bi ai",
+      "lowMoraleDescription": "Nhận 1 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Mong manh</color></link></u>. Trong khi Va chạm, nếu mặt sấp xuất hiện dù chỉ 1 lần, Uy lực Va chạm -1 trong suốt lượt Va chạm đó",
+      "panicDescription": "Nhận 3 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Mong manh</color></link></u>. Trong khi Va chạm, nếu mặt sấp xuất hiện dù chỉ 1 lần, Uy lực Va chạm -3 trong suốt lượt Va chạm đó"
+    },
+    {
+      "id": 9999,
+      "panicName": "Hoảng loạn",
+      "lowMoraleDescription": "",
+      "panicDescription": "Không hành động trong 1 lượt"
+    },
+    {
+      "id": 1013,
+      "panicName": "Bất thuận",
+      "lowMoraleDescription": "Nhận 1 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Mong manh</color></link></u>. Khi thua Va chạm, Tinh thần (SP) của mục tiêu -2",
+      "panicDescription": "Nhận 2 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Mong manh</color></link></u>. Khi thua Va chạm, Tinh thần (SP) của mục tiêu -5"
+    },
+    {
+      "id": 1014,
+      "panicName": "Báo thù",
+      "lowMoraleDescription": "Khi bắt đầu lượt, nhận 1 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Tăng Uy lực Tấn công</color></link></u>, 3 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Giảm Cấp Phòng ngự</color></link></u>, và nhận <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Tăng Sát thương</color></link></u> tỷ lệ với tổng sát thương đã nhận ở lượt trước\n(Mỗi 3% HP tối đa nhận 1 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Tăng Sát thương</color></link></u>)",
+      "panicDescription": "Khi bắt đầu lượt, nhận 2 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Tăng Uy lực Tấn công</color></link></u>, 6 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Giảm Cấp Phòng ngự</color></link></u>, và nhận <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Tăng Sát thương</color></link></u> tỷ lệ với tổng sát thương đã nhận ở lượt trước\n(Mỗi 3% HP tối đa nhận 1 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Tăng Sát thương</color></link></u>)"
+    },
+    {
+      "id": 1015,
+      "panicName": "Khủng hoảng trắng",
+      "lowMoraleDescription": "[MentalSystemResultDecrease_Typo] +2",
+      "panicDescription": "Khi kết thúc mỗi lượt, nhận 2 <sprite name=\"Binding\"><color=#f8c200><u><link=\"Binding\">Trói buộc</color></link></u> vào lượt tiếp theo.\nTất cả đồng xu bản thân sử dụng đều trở thành mặt sấp."
+    },
+    {
+      "id": 1016,
+      "panicName": "Oán hận",
+      "lowMoraleDescription": "Khi bắt đầu lượt, nhận [AttackDmgUp]2, [DefenseDown]3",
+      "panicDescription": "Khi bắt đầu lượt, nhận [Enhancement]1, [DefenseDown]5"
+    },
+    {
+      "id": 1026,
+      "panicName": "Phá sản",
+      "lowMoraleDescription": "Khi kết thúc mỗi lượt, nhận [Sinking]3. Uy lực Va chạm bản thân -1",
+      "panicDescription": "Khi kết thúc mỗi lượt, nhận [Sinking]5. Số lượt [Sinking] tăng thêm 3, Uy lực Va chạm bản thân -2"
+    },
+    {
+      "id": 9994,
+      "panicName": "Yêu và Ghét",
+      "lowMoraleDescription": "",
+      "panicDescription": "Không hành động trong 1 lượt"
+    },
+    {
+      "id": 1065,
+      "panicName": "Vết nghiền nát",
+      "lowMoraleDescription": "Uy lực Va chạm bản thân -1, Cấp Phòng ngự -2",
+      "panicDescription": "Uy lực Va chạm bản thân -2, Cấp Phòng ngự -3"
+    },
+    {
+      "id": 1085,
+      "panicName": "Cát xanh",
+      "lowMoraleDescription": "Uy lực Va chạm bản thân -1\nGiá trị Tốc độ tối đa/tối thiểu -1",
+      "panicDescription": "Uy lực Va chạm bản thân -2\nGiá trị Tốc độ tối đa/tối thiểu -1"
+    },
+    {
+      "id": 1086,
+      "panicName": "Huyễn hoặc",
+      "lowMoraleDescription": "Khi kết thúc lượt, nhận [Binding]1, [AttackDown]2 vào lượt tiếp theo",
+      "panicDescription": "Khi kết thúc lượt, nhận [Binding]1, [AttackDown]4 vào lượt tiếp theo"
+    },
+    {
+      "id": 1087,
+      "panicName": "Cô độc",
+      "lowMoraleDescription": "Số lượt [Sinking] tăng thêm 2 khi kết thúc lượt",
+      "panicDescription": "Số lượt [Sinking] tăng thêm 3 khi kết thúc lượt"
+    },
+    {
+      "id": 1091,
+      "panicName": "Ái ố khúc xạ",
+      "lowMoraleDescription": "Sát thương gây ra/nhận vào +10%",
+      "panicDescription": "Sát thương gây ra/nhận vào +20%"
+    },
+    {
+      "id": 1097,
+      "panicName": "Thợ cả mô phỏng",
+      "lowMoraleDescription": "- Khi bắt đầu lượt, nhận [Combustion]5, [Laceration]5",
+      "panicDescription": "- Khi bắt đầu lượt, nhận [Combustion]5, số lượt [Combustion] 3, [Laceration]5, số lượt [Laceration] 3"
+    }
+  ]
+}

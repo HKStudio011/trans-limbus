@@ -1,0 +1,62 @@
+{
+  "dataList": [
+    {
+      "id": 9101905,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Khoái Đao Loạn Ma",
+          "desc": "[StartBattle] Nếu [Laceration] của mục tiêu chính từ 5 trở lên, Chỉ số mục tiêu kỹ năng +1\n[StartBattle] Nếu số kỹ năng tấn công sử dụng trong lượt này từ 4 trở lên, Sức mạnh cuối cùng +5\n[WinDuel] Toàn bộ đồng minh hồi 15 Tinh thần\nNếu [Laceration] của mục tiêu từ 7 trở lên, Sát thương +30%",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Gây 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Gây 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Nếu [Laceration] của mục tiêu từ 7 trở lên, Sát thương +50%"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 10 Số lần [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9101906,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Luật lệ của Hẻm Sau",
+          "desc": "[WhenUse] Thêm 1 đồng xu cho mỗi đồng minh còn sống ngoại trừ bản thân (Tối đa 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [Laceration], Số lần [Laceration] tăng thêm 2"
+                },
+                {
+                  "desc": "[EnemyKill] Toàn bộ đồng minh hồi 20 Tinh thần"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

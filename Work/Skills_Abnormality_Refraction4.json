@@ -1,0 +1,604 @@
+{
+  "dataList": [
+    {
+      "id": 860501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Hãy rời khỏi đây",
+          "desc": "[WhenUse] Nếu [Sinking] của mục tiêu từ 4 trở lên, Uy lực Khớp +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lần [Sinking] tăng thêm 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 860502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Xin đừng mang vẻ mặt đó",
+          "desc": "[WhenUse] Nếu số lần [Sinking] của mục tiêu từ 3 trở lên, Uy lực Khớp +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 860503,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Bạn là ai?",
+          "desc": "[UninvitedGuest] Ưu tiên tấn công mục tiêu\nNếu mục tiêu có [UninvitedGuest], [Sinking] và số lần [Sinking] gây ra bởi kĩ năng này +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lần [Sinking] tăng thêm 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lần [Sinking] tăng thêm 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Nếu mục tiêu có [UninvitedGuest], gây 2 [Paralysis] vào lượt kế tiếp"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 860504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Là khách không mời sao?",
+          "desc": "[UninvitedGuest] Ưu tiên tấn công mục tiêu\nNếu mục tiêu có [UninvitedGuest], [Sinking] và số lần [Sinking] gây ra bởi kĩ năng này +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 5 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Số lần [Sinking] tăng thêm 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 5 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Nếu mục tiêu có [UninvitedGuest], gây 2 [Paralysis] vào lượt kế tiếp"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Số lần [Sinking] tăng thêm 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 860505,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Khách không mời hãy rời khỏi đây",
+          "desc": "[UninvitedGuest] Ưu tiên tấn công mục tiêu\nTăng Mục tiêu Chỉ định chỉ đối với kẻ địch có [UninvitedGuest]\n[WhenUse] Uy lực Khớp chỉ tăng đối với kẻ địch có [UninvitedGuest]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 5 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Số lần [Sinking] tăng thêm 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [SinkingSurge]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 860506,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Chủ nhân của tôi",
+          "desc": "[DefeatDuel] Cho thấy hình ảnh của bức chân dung được kết nối",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lần [Sinking] tăng thêm 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 860507,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Chủ nhân sầu muộn",
+          "desc": "[DefeatDuel] Cho thấy hình ảnh của bức chân dung được kết nối",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 860601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Chủ nhân...?",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 860701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Né tránh",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 860801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Húc sừng",
+          "desc": "[WhenUse] Số lần [Charge] của bản thân tăng thêm 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [DefenseDown] vào lượt kế tiếp"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 860802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Húc sừng cừu",
+          "desc": "[WhenUse] Số lần [Charge] của bản thân tăng thêm 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [AttackDown] vào lượt kế tiếp"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [AttackDown] vào lượt kế tiếp"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 860803,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Cừu kêu",
+          "desc": "[WhenUse] Số lần [Charge] của bản thân tăng thêm 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [Paralysis] vào lượt kế tiếp"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 860804,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Thao túng sấm sét",
+          "desc": "[WhenUse] Số lần [Charge] của bản thân tăng thêm 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [Paralysis] vào lượt kế tiếp"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [AttackDown] vào lượt kế tiếp"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 860805,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Điện Ai Minh",
+          "desc": "[WhenUse] Với mỗi 4 số lần [Charge] của bản thân, Mục tiêu Chỉ định +1 (Tối đa 5)\n[WhenUse] Với mỗi 5 số lần [Charge] của bản thân, Uy lực Khớp +3 (Tối đa 4)\n[WhenUse] Với mỗi 6 số lần [Charge] của bản thân, nhận 1 [VioletDamageUp] (Tối đa 3)\n[EndBattle] Tiêu thụ toàn bộ số lần [Charge]. Loại bỏ [ConnectedPlug]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 4 [DefenseDown] vào lượt kế tiếp"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Cấp [AttackDown] 4 vào lượt kế tiếp"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Cấp [Paralysis] 3 vào lượt kế tiếp"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 860806,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Tiếng Khóc Điện",
+          "desc": "[CantDuel]\n[WhenUse] Nhận [Protection] 10\n[WhenUse] Với mỗi 4 số lần [Charge] của bản thân, Số mục tiêu +1 (Tối đa 5)\n[WhenUse] Với mỗi 5 số lần [Charge] của bản thân, Sức mạnh khớp +3 (Tối đa 4)\n[WhenUse] Với mỗi 6 số lần [Charge] của bản thân, nhận [VioletDamageUp] 1 (Tối đa 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 860807,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Từ Chối Tiếp Đất",
+          "desc": "Ưu tiên tấn công Identity có [AntiSheepGround]\nVới mỗi [ConnectedPlug] 1, Sức mạnh khớp +1\n[StartBattle] Nhận (3 - Số lượng [ConnectedPlug]) × 2 [Protection]\n[WhenUse] Số lần [Charge] của bản thân tăng thêm 1\n[DefeatDuel] Nếu mục tiêu có [AntiSheepGround], nhận [ConnectedPlug] 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Cấp [Paralysis] 1 vào lượt kế tiếp"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Cấp [DefenseDown] 2 vào lượt kế tiếp"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 862801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Phóng Quá Tải Sạc",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Cấp [Paralysis] 2 vào lượt kế tiếp"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 862901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Sự Từ Bỏ Ràng Buộc",
+          "desc": "Nếu [Sinking] của mục tiêu từ 6 trở lên, Sức mạnh mặt xu +1\n[WinDuel] Số lần [Sinking] tăng thêm 3",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Cấp [Sinking] 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Cấp [Sinking] 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 862902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Tuyệt Vọng Thắt Chặt",
+          "desc": "Với mỗi 6 [Sinking] của mục tiêu, Sức mạnh mặt xu +1 (Tối đa 2)\n[WinDuel] Số lần [Sinking] tăng thêm 3\n[DefeatDuel] Số lần [Sinking] giảm đi 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lần [Sinking] tăng thêm 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Cấp [Sinking] 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Cấp [Sinking] 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 862903,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Chặt Đứt Xích",
+          "desc": "Nếu mục tiêu có [Binding], Sức mạnh khớp +1\n[WinDuel] Số lần [Sinking] tăng thêm 4\n[DefeatDuel] Sức mạnh [Sinking] giảm đi 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Cấp [Sinking] 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Cấp [Sinking] 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Cấp [Sinking] 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Cấp [Sinking] 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 862904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Dây Xích Giam Cầm",
+          "desc": "Với mỗi 6 [Sinking] của mục tiêu, Sức mạnh mặt xu +1 (Tối đa 2)\n[DefeatDuel] Số lần [Sinking] giảm đi 2\n[DefeatDuel] Cấp [BandageOfTheBoundKing]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Cấp [Binding] 3 vào lượt kế tiếp\n[OnSucceedAttack] Cấp [Vibration] bằng với số [Sinking] của mục tiêu"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 862905,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Hãy Chìm Đi",
+          "desc": "Nếu mục tiêu có [Binding], Sức mạnh khớp +1\n[WinDuel] Số lần [Sinking] tăng thêm 2\n[DefeatDuel] Sức mạnh [Sinking] giảm đi 4",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [SinkingSurge]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 862906,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Hãy Diện Kiến Nhà Vua",
+          "desc": "[CantDuel]\n[StartBattle] Vào lượt kế tiếp, nhận [Binding] 5, [ComeForwardToTheKing] 1, [Enhancement] 2.\n[WhenUse] Cấp 300 Khiên cho mục tiêu đang có [BandageOfTheBoundKing]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Nếu gây sát thương cho mục tiêu, cấp [Vibration] bằng với số [Sinking] của mục tiêu"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 860602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Chân Dung Của Chủ Nhân",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

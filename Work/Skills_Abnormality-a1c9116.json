@@ -1,0 +1,249 @@
+{
+    "dataList": [
+        {
+            "id": 112701,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Bài kiểm tra kết thúc.",
+                    "desc": "[WhenUse] Nhận [HitDamageUp] 3 vào lượt tới\n[WhenUse] Nếu trị số [MiddleFingerBook] của mục tiêu chính từ 3 trở lên, tất cả Coin của kỹ năng này chuyển thành [SuperCoin]",
+                    "coinlist": [
+                        {},
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Gây [Binding] 1 vào lượt tới"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 112702,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Khắc sâu đau đớn",
+                    "desc": "Ưu tiên chỉ định mục tiêu có trị số [MiddleFingerBook] cao nhất\n[WhenUse] Nếu trị số [MiddleFingerBook] của mục tiêu từ 3 trở lên, tất cả Coin của kỹ năng này chuyển thành [SuperCoin]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Gây [Vulnerable] 1 trong lượt này và lượt tới"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Gây [Vulnerable] 1 trong lượt này và lượt tới"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Gây thêm (trị số [MiddleFingerBook] của mục tiêu × 3) sát thương Đập"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Xóa bỏ mọi [MiddleFingerBook] của mục tiêu"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 112703,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Cuộc vui kết thúc tại đây",
+                    "desc": "[StartBattle] Hồi 10 Tinh thần cho mọi đồng minh\n[EndBattle] Nếu có đồng minh ở trạng thái Hoảng loạn, giải trừ trạng thái Hoảng loạn và thiết lập lại Tinh thần về 0 vào đầu lượt tới\n[EndBattle] Gây [HitResultUp] 1 cho mọi đồng minh bao gồm bản thân vào lượt tới",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 112704,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Tất cả, xử tử!!!",
+                    "desc": "Có thể Đối đầu với kỹ năng này bất kể Tốc độ\nNếu trị số [MiddleFingerBook] của mục tiêu chính từ 5 trở lên, Sức mạnh Cuối cùng +5\n[DefeatDuel] Lượng sát thương cuối cùng giảm 80%, sát thương từ kỹ năng này không khiến mục tiêu bị Hỗn loạn\n[EndSkill] Xóa bỏ [MiddleFingerBook] của mọi mục tiêu bị tấn công",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Gây thêm (trị số [MiddleFingerBook] của mục tiêu × 10) sát thương Đập"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 112601,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Đòn đầu",
+                    "desc": "[WhenUse] Nếu [Burst] của mục tiêu từ 5 trở lên, Sức mạnh Đối đầu +1",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Gây [Burst] 2"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 112602,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Thích sát",
+                    "desc": "[WhenUse] Nếu [Burst] của mục tiêu từ 5 trở lên, Sức mạnh Đối đầu +1\n[WhenUse] Nhận [LegStrength] 3",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Số lần [Burst] tăng thêm 2"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Nếu mục tiêu có [BurstAgility], nhận [Agility] 1 vào lượt tới"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 112603,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Tiêu khắc",
+                    "desc": "[WhenUse] Nếu [Burst] của mục tiêu từ 5 trở lên, Sức mạnh Coin +1",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Gây [Burst] 2"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Gây [Burst] 2"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Gây [BurstAgility]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 112604,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Khắc Chú Sát Kiếm - Thuấn Bộ",
+                    "desc": "Ưu tiên tấn công mục tiêu có [BurstAgility]\nMỗi 2 chênh lệch Tốc độ giữa bản thân và mục tiêu, lượng sát thương +15% (Tối đa 60%)\n[WhenUse] Mỗi 5 [Burst] của mục tiêu, Sức mạnh Coin +1 (Tối đa 2)\n[WhenUse] Mỗi 2 số lần [Burst] của mục tiêu, Sức mạnh Cơ bản +1 (Tối đa 3)\n[EndSkill] Nếu Tốc độ của bản thân từ 10 trở lên và mục tiêu tử vong, sử dụng lại kỹ năng này lên 1 mục tiêu ngẫu nhiên (1 lần mỗi lượt)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Số lần [Burst] tăng thêm 3"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Gây [Burst] 5"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "Nếu mục tiêu có [BurstAgility], lượng sát thương +50%"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Gây [Burst] 5"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 112605,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Khắc Chú",
+                    "desc": "[DuelCounter]\n[WhenUse] Nếu mục tiêu có [BurstAgility], số lần [Burst] gây ra bởi kỹ năng này tăng thêm 1",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Số lần [Burst] tăng thêm 2"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Số lần [Burst] tăng thêm 1"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Số lần [Burst] tăng thêm 1"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

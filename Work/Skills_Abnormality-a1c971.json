@@ -1,0 +1,689 @@
+{
+  "dataList": [
+    {
+      "id": 108001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Rửa tội bằng Đá",
+          "desc": "[WhenUse] Nếu [Vibration] của mục tiêu từ 5 trở lên, Sức mạnh Cơ bản +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây [Vibration] 8"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lượt [Vibration] tăng thêm 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 108002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Thu thập Đá",
+          "desc": "[WinDuel] Nếu mục tiêu có [Vibration], Sức mạnh Cơ bản +2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây [Vibration] 8"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion]. Số lượt [Vibration] giảm 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 108003,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Lười biếng Trào dâng",
+          "desc": "[WhenUse] Mỗi 3 [Vibration] trên mục tiêu, Sức mạnh Đồng xu +1 (Tối đa 3)\n[WinDuel] Mỗi 5 [Vibration] trên mục tiêu, Chỉ số Mục tiêu của Kĩ năng này +1 (Tối đa 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Switch_Vibration] sang [VibrationEcho]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Mỗi 2 lượt [Vibration] trên mục tiêu, thực hiện 1 lần [VibrationExplosion] (Tối đa 2 lần). Số lượt [Vibration] giảm 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Số lượt [Vibration] tăng thêm 4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 108004,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Thủ",
+          "desc": "Khi nhận sát thương trong lúc có lá chắn, gây [Vibration] 2 cho kẻ tấn công\n[WhenUse] Nhận 3 Bảo vệ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 108101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Xung đột Ăn mòn",
+          "desc": "[WhenUse] Nếu [Sinking] của mục tiêu từ 5 trở lên, Sức mạnh Đồng xu +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây [Sinking] 2, số lượt [Sinking] tăng thêm 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 108102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Nước bắn tung tóe",
+          "desc": "[WhenUse] Nếu [Sinking] của mục tiêu có [Sinking], Sức mạnh Cơ bản +2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây [Sinking] 8, số lượt [Sinking] tăng thêm 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây [Sinking] 4 lên 2 mục tiêu ngẫu nhiên, số lượt [Sinking] tăng thêm 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 108103,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "U sầu Trào dâng",
+          "desc": "[WhenUse] Mỗi 3 [Sinking] trên mục tiêu, Sức mạnh Đồng xu +1 (Tối đa 3)\n[WinDuel] Mỗi 5 [Sinking] trên mục tiêu, Chỉ số Mục tiêu của Kĩ năng này +1 (Tối đa 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây [Sinking] 5, số lượt [Sinking] tăng thêm 4"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Mỗi 3 lượt [Sinking] trên mục tiêu, Sức mạnh Đồng xu tiếp theo +1 (Tối đa 3)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] [SinkingSurge]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 108104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Né tránh",
+          "desc": "[OnSucceedEvade] Giảm 5 Tinh thần của mục tiêu",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 107901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Đập vỡ",
+          "desc": "[WhenUse] Tiêu hao 20 [BloodDinner], mỗi 10 [BloodDinner] nhận 1 [BloodArmor]\n[WhenUse] Mỗi 10 [BloodArmor], Sức mạnh Đồng xu +1 (Tối đa 2)\n[WhenUse] Mỗi 10 [Laceration] của bản thân, Sức mạnh Đồng xu +1 (Tối đa 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây [Laceration] 5"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây [Laceration] 5"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 107902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Gây thương tích",
+          "desc": "[WhenUse] Tiêu hao 20 [BloodDinner], mỗi 10 [BloodDinner] nhận 1 [BloodArmor]\n[WhenUse] Mỗi 10 [BloodArmor], Sức mạnh Đồng xu +1 (Tối đa 2)\n[WhenUse] Mỗi 10 [Laceration] của bản thân, Sức mạnh Đồng xu +1 (Tối đa 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lượt [Laceration] tăng thêm 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lượt [Laceration] tăng thêm 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 107903,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Don Quixote Lưu Hard Blood Thức 4 - Khoét rỗng",
+          "desc": "[WhenUse] Nếu [Laceration] của mục tiêu từ 6 trở lên, Sức mạnh Đồng xu +1\n[WinDuel] Tùy theo cấp độ [BloodArmor], sát thương của Kĩ năng này +20% (Tối đa 60%)\n[DefeatDuel] Tiêu hao 4 [BloodArmor]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây [Laceration] 5"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây [Laceration] 5"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 107904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Don Quixote Lưu Hard Blood Thức 11 - Xuyên thủng",
+          "desc": "[WhenUse] Mỗi 3 [Laceration] trên mục tiêu, Sức mạnh Cơ bản +1 (Tối đa 3)\n[WinDuel] Tùy theo cấp độ [BloodArmor], sát thương của Kĩ năng này +20% (Tối đa 60%)\n[DefeatDuel] Tiêu hao 4 [BloodArmor]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lượt [Laceration] tăng thêm 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lượt [Laceration] tăng thêm 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Kích hoạt [Laceration] của mục tiêu theo số lượt. Tiêu hao số lượt [Laceration] của mục tiêu cho đến khi còn 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 107905,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Don Quixote Á lưu Sancho Thức 4 - Truy đuổi",
+          "desc": "Ưu tiên tấn công mục tiêu có [Laceration] nhiều nhất\n[BeforeAttack] Mỗi 10 [BloodArmor] của bản thân, Chỉ số Mục tiêu tấn công +1 (Tối đa 3)\n[WhenUse] Mỗi 5 [Laceration] trên mục tiêu, Sức mạnh Đối kháng +1 (Tối đa 3)\n[WhenUse] Tiêu hao tối đa 30 [BloodDinner], mỗi 15 [BloodDinner] tiêu hao nhận 1 [BloodArmor]. Sức mạnh Đồng xu +1 (Tối đa 2)\n- Nếu không thể tiêu hao [BloodDinner], nhận 10 [Laceration] để kích hoạt.\nSố lượt [Laceration] giảm 1\n[EndSkill] Tăng [BloodDinner] dựa theo lượng sát thương mà Kĩ năng này gây ra",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây [Laceration] 8"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [Binding] vào lượt kế tiếp\n- Nếu tiêu hao 30 [BloodDinner] bằng Kĩ năng này, gây thêm 2 [Binding]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 107906,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Don Quixote Á lưu Sancho Thức 3 - Kích tập",
+          "desc": "Ưu tiên tấn công mục tiêu có nhiều [Laceration] nhất\n[BeforeAttack] Mỗi 5 [Laceration] của mục tiêu, Trọng kích +1 (Tối đa 2)\n[WhenUse] Mỗi 5 [Laceration] của mục tiêu, Uy lực Hòa kích +1 (Tối đa 3)\n[WhenUse] Tiêu hao tối đa 30 [BloodDinner], mỗi 15 [BloodDinner] tiêu hao Nhận 1 [BloodArmor]. Uy lực Đồng xu +1 (Tối đa 2)\n- Nếu không thể tiêu hao [BloodDinner], Nhận 10 [Laceration] rồi kích hoạt.\n[Laceration] Số lượng giảm 1\n[EndSkill] [BloodDinner] tăng bằng lượng Sát thương gây ra bởi kỹ năng này",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration] Số lượng tăng 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration] Số lượng tăng 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [Paralysis] vào lượt tiếp theo\n- Nếu đã tiêu hao 50 [BloodDinner] bằng kỹ năng này, Gây thêm 2 [Paralysis]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 107907,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Kinh huyệt thức thứ 2 hệ Don Quixote - Kinh huyệt",
+          "desc": "Có thể Hòa kích với kỹ năng này bất kể tốc độ\n[StartBattle] Nhận 1 [SwirlingBlood]\n[StartBattle] Tiêu hao 100 [BloodDinner], mỗi 10 [BloodDinner] tiêu hao Nhận 1 [BloodArmor] và 20 Khiên.\n- Nếu thiếu [BloodDinner], Nhận 50 [Laceration] rồi kích hoạt. [Laceration] Số lượng giảm 2. Nhận 200 giá trị Khiên (Sát thương này không khiến Máu thấp hơn 1)\n[DefeatDuel] Trong khi có Khiên nhận từ kỹ năng này, Nhận 3 [Vulnerable]\n[DefeatDuel] Sát thương gây ra bởi kỹ năng này -50%\n[EndSkill] Kết thúc chiến đấu",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 5 [Laceration], [Laceration] Số lượng tăng 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 107908,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "La Aventura ha Terminado",
+          "desc": "Mỗi 1 [Laceration] của mục tiêu, Sát thương +10% (Tối đa 200%)\nMỗi 3 [BloodArmor], Sát thương +10% (Tối đa 100%)\n[StartBattle] Tiêu hao (45 - Tỉnh táo hiện tại) [BloodDinner] để hồi phục Tỉnh táo đến 45\n- Nếu thiếu [BloodDinner], Nhận 20 [Laceration] và hồi phục Tỉnh táo đến 45\n- Nhận Khiên bằng lượng [BloodDinner] còn lại (Tối đa 100)\n[WinDuel] Gây 10 [Laceration] cho mục tiêu\n[EndSkill] [BloodDinner] tăng bằng lượng Sát thương gây ra cho mục tiêu\n[EndSkill] Nếu mục tiêu tử vong, [BloodDinner] tăng bằng Máu tối đa của mục tiêu",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây 10 [Laceration], [Laceration] Số lượng tăng 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 5 [Laceration] cho tất cả kẻ địch ngoại trừ mục tiêu, [Laceration] Số lượng tăng 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 107909,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "La Aventura ha Terminado...",
+          "desc": "Mỗi 10 tổng [Laceration] của tất cả mục tiêu, Sát thương +40% (Tối đa 200%)\nMỗi 1 [BloodDinner] bản thân đã tiêu hao tích lũy, Sát thương +10% (Tối đa 100%)\n[StartBattle] Tiêu hao (45 - Tỉnh táo hiện tại) [BloodDinner] để hồi phục Tỉnh táo đến 45\n- Nếu thiếu [BloodDinner], Nhận 20 [Laceration] và hồi phục Tỉnh táo đến 45\n- Nhận Khiên bằng lượng [BloodDinner] còn lại (Tối đa 100)\n[WinDuel] Gây 10 [Laceration] cho mục tiêu\n[EndSkill] [BloodDinner] tăng bằng lượng Sát thương gây ra cho mục tiêu\n[EndSkill] Nếu mục tiêu tử vong, [BloodDinner] tăng bằng Máu tối đa của mục tiêu",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Gây 10 [Laceration], [Laceration] Số lượng tăng 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 108201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Nén",
+          "desc": "[WhenUse] Mỗi 5 Cấp [Breath] của bản thân, Uy lực Cuối cùng +1 (Tối đa 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [Vibration]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Gây 3 Cấp [Vibration], [Vibration] Số lượng tăng 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 108202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Phân giải",
+          "desc": "[WhenUse] Mỗi 3 Cấp [Breath] của bản thân, Uy lực Cuối cùng +1 (Tối đa 5)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [Vibration]"
+                },
+                {
+                  "desc": "[WinDuelAttack] [Vibration] Số lượng tăng 3"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] 1 lần [VibrationExplosion]. Khi mục tiêu bị [VibrationExplosion], [Vibration] Số lượng của mục tiêu giảm 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 108203,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Tiến hành phân tích",
+          "desc": "[WhenUse] Nếu Cấp [Breath] của bản thân từ 10 trở lên, tiêu hao Cấp [Breath], mỗi 3 Cấp [Breath] tiêu hao Uy lực Cuối cùng +2 (Tối đa 4). Khi tăng Uy lực, tiêu hao thêm 3 [Breath] cho mỗi 1 Uy lực tăng thêm",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Nếu [Vibration] Số lượng của mục tiêu từ 5 trở lên, [VibrationExplosion]. Khi mục tiêu bị [VibrationExplosion], [Vibration] Số lượng của mục tiêu giảm 1"
+                },
+                {
+                  "desc": "[WinDuelAttack] Gây 5 Cấp [Vibration], [Vibration] Số lượng tăng 3"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] 2 lần [VibrationExplosion]. Khi mục tiêu bị [VibrationExplosion], [Vibration] Số lượng của mục tiêu giảm 1 (Nếu thắng Hòa kích, vô hiệu hóa hiệu ứng giảm 1 lần)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 108204,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Khởi động Trình tự tiêu biến",
+          "desc": "[WhenUse] Tiêu hao một nửa Cấp [Breath] và [Breath] Số lượng\n- Uy lực Cuối cùng tăng bằng (Tổng Cấp [Breath] và [Breath] Số lượng tiêu hao ÷ 2) (Tối đa 20)\n- Sát thương tăng bằng (Cấp [Breath] tiêu hao × 2)% (Tối đa 50%)\n- Sát thương Chí mạng tăng bằng ([Breath] Số lượng tiêu hao × 4)% (Tối đa 100%)\n[DefeatDuel] [Breath] Số lượng còn lại giảm một nửa",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Nếu không nhận Sát thương máu ở lượt trước, đánh Chí mạng"
+                },
+                {
+                  "desc": "Nếu đã nhận Sát thương máu ở lượt trước, không kích hoạt đánh Chí mạng và Sát thương gây ra giảm 80%"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] 3 lần [VibrationExplosion]. Khi mục tiêu bị [VibrationExplosion], mỗi lần [VibrationExplosion] [Vibration] Số lượng của mục tiêu giảm 3 (Giảm tối đa 9)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 108205,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Cân nhắc",
+          "desc": "[WhenUse] Mỗi 3 Cấp [Breath] của bản thân, Uy lực Cuối cùng +1 (Tối đa 5)\n[WhenUse] Nhận 4 Cấp [Breath]\n- Nếu có Khiên, [Breath] Số lượng tăng thêm 2",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 137801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Nén",
+          "desc": "[WhenUse] Mỗi 5 Cấp [Breath] của bản thân, Uy lực Cuối cùng +1 (Tối đa 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [Vibration]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Gây 3 Cấp [Vibration], [Vibration] Số lượng tăng 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 137802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Phân giải",
+          "desc": "[WhenUse] Mỗi 3 Cấp [Breath] của bản thân, Uy lực Cuối cùng +1 (Tối đa 5)\n<color=#ff6000><mark=#ff000040><b><u>[WhenUse] Nếu chỉ số [ObservedPerson] của mục tiêu từ 20 trở lên, tất cả Đồng xu của kỹ năng này đổi thành [SuperCoin]</u></b></mark></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [Vibration]"
+                },
+                {
+                  "desc": "[WinDuelAttack] [Vibration] Số lượng tăng 3"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] 1 lần [VibrationExplosion]. [Vibration] Số lượng của mục tiêu giảm 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 137803,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Tiến hành phân tích",
+          "desc": "[WhenUse] Nếu Cấp [Breath] của bản thân từ 10 trở lên, tiêu hao Cấp [Breath], mỗi 3 Cấp [Breath] tiêu hao Uy lực Cuối cùng +2 (Tối đa 4)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Nếu [Vibration] Số lượng của mục tiêu từ 5 trở lên, [VibrationExplosion]. [Vibration] Số lượng của mục tiêu giảm 1"
+                },
+                {
+                  "desc": "[WinDuelAttack] Gây 5 Cấp [Vibration], [Vibration] Số lượng tăng 3"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] 2 lần [VibrationExplosion]. [Vibration] Số lượng của mục tiêu giảm 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 137804,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Khởi động Trình tự tiêu biến",
+          "desc": "[WhenUse] Tiêu hao một nửa Cấp độ và Số lượng [Breath]\n- Sức mạnh Cuối cùng tăng thêm (Tổng Cấp độ và Số lượng [Breath] đã tiêu hao ÷ 2) (Tối đa 20)\n- Sát thương tăng thêm (Cấp độ [Breath] đã tiêu hao × 2)% (Tối đa 50%)\n- Sát thương Chí mạng tăng thêm (Số lượng [Breath] đã tiêu hao × 4)% (Tối đa 100%)\n[DefeatDuel] Số lượng [Breath] còn lại giảm một nửa",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Nếu không nhận sát thương máu ở lượt trước, đánh Chí mạng"
+                },
+                {
+                  "desc": "Nếu nhận sát thương máu ở lượt trước, không đánh Chí mạng và sát thương gây ra giảm 80%"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] 3 lần [VibrationExplosion]. Số lượng [Vibration] của mục tiêu giảm 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 137805,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Quan sát",
+          "desc": "[CanDuelGuard]\n[WhenUse] Với mỗi 3 Cấp độ [Breath] của bản thân, Sức mạnh Cuối cùng +1 (Tối đa 5)\n[WhenUse] Nhận 4 Cấp độ [Breath]\n- Nếu có Khiên, Số lượng [Breath] tăng thêm 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

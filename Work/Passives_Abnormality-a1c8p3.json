@@ -1,0 +1,219 @@
+{
+    "dataList": [
+        {
+            "id": 114501,
+            "name": "Cán bộ Ngón Cái Capo IIII",
+            "desc": "Sát thương nhận vào từ [Combustion]·[Laceration]·[Vibration]·[Burst]·[Sinking] -30%\n\nKhi tung đồng xu tiêu tốn [BulletPropellant], cho dù không có [BulletPropellant] cũng sẽ không hủy đòn tấn công, bù lại khi đồng xu tương ứng Trúng đích, sẽ không áp dụng gây [Combustion] và tăng số lượt [Combustion]\n\nKhi diễn ra Đối đầu, số lượt [Vibration] của mục tiêu tăng thêm (1 + Số lần Đối đầu ÷ 3)\n(Tối đa 3, áp dụng tối đa 3 lần mỗi lượt cho một mục tiêu)"
+        },
+        {
+            "id": 114502,
+            "name": "Đông Bộ Thập Kiếm",
+            "desc": "Khi bắt đầu màn chơi và bắt đầu lượt thay đổi mô thức,\n- Nhận 1 [Bothersome]\n- Hồi 5 Tinh thần cho mỗi 10% Máu đã mất của bản thân (Tối đa 40)"
+        },
+        {
+            "id": 114503,
+            "name": "Chọn con mồi",
+            "desc": "Khi bắt đầu lượt, gây 1 [Prey] lên mục tiêu gây nhiều sát thương nhất cho bản thân ở lượt trước\n\nSau khi Lôi Hoành tấn công mục tiêu đang có [Prey], nếu mục tiêu:\n- Bị Choáng, tất cả kẻ địch giảm 10 Tinh thần và nhận 1 [ParryingResultDown] trong lượt này và lượt tiếp theo (1 lần mỗi lượt)\n- Bị Tiêu diệt, hiệu ứng trên được kích hoạt thêm một lần nữa"
+        },
+        {
+            "id": 114504,
+            "name": "Thiên Thoái Tinh Đao",
+            "desc": "Khi Trúng đích trong Tấn công một phía, sát thương tăng 30%, lượt sau gây 1 [Vulnerable]\n\nKhi tiêu tốn [BulletPropellant], sát thương của đồng xu Kĩ năng Trúng đích tăng thêm 20%, lượt sau gây 2 [DefenseDown]\n\nNếu mục tiêu trang bị Kĩ năng Phòng thủ, hiệu ứng trên không áp dụng"
+        },
+        {
+            "id": 114505,
+            "name": "Nạp Đạn Hổ Ấn",
+            "desc": "Khi kết thúc lượt nếu Máu dưới 90% hoặc kết thúc lượt thứ 2, nạp [BulletPropellant] và thay đổi mô thức vào lượt sau\n- Nếu đang trong trạng thái Choáng, giải trừ Choáng"
+        },
+        {
+            "id": 114506,
+            "name": "Lôi Hoành",
+            "desc": "Khi kết thúc lượt nếu Máu dưới 80% hoặc kết thúc lượt thứ 4, thay đổi mô thức vào lượt sau\n- Sử dụng đòn tấn công mạnh mẽ (\"Khoái Đao Loạn Ma\") và lặp lại mỗi 3 lượt. Vào lượt sử dụng kĩ năng này, Giá trị Tốc độ Tối thiểu/Tối đa +10\n- Khi bắt đầu lượt tương ứng, nhận 25 [BattleSense]\n- Nếu đang trong trạng thái Choáng, giải trừ Choáng"
+        },
+        {
+            "id": 114507,
+            "name": "Thiên Thoái Tinh",
+            "desc": "Khi kết thúc lượt nếu Máu dưới 60% hoặc lượt sau sẽ là lần thứ 2 sử dụng đòn tấn công mạnh mẽ (\"Khoái Đao Loạn Ma\") trong trận này, thay đổi mô thức vào lượt sau\n- Khi bắt đầu lượt tương ứng, nhận 1 [Irritation]\n- Khi bắt đầu lượt tương ứng, nhận 18 [BulletPropellantSpecial] và nạp ngay lập tức\n· Nếu tiêu tốn hết [BulletPropellantSpecial], hiệu ứng này chuyển thành [BulletPropellant], lượt sau triệu hồi 2 Soldato Ngón Cái Nghiêm Khắc và bổ sung [BulletPropellantSpecial]\n- Nếu đang trong trạng thái Choáng, giải trừ Choáng"
+        },
+        {
+            "id": 114508,
+            "name": "Ngón Út Thiên Thoái Tinh Lôi Hoành",
+            "desc": "Khi kết thúc lượt nếu Máu dưới 40% hoặc lượt sau sẽ là lần thứ 3 sử dụng đòn tấn công mạnh mẽ (\"Khoái Đao Loạn Ma\") trong trận này, thay đổi mô thức vào lượt sau\n- Đòn tấn công mạnh mẽ \"Khoái Đao Loạn Ma\" chuyển thành \"Siêu Tuyệt Mãnh Hổ Sát Kích Loạn Trảm\". Vào lượt sử dụng kĩ năng này, Giá trị Tốc độ Tối thiểu/Tối đa +15\n- [BattleSense] chuyển thành [RestoredBattleSense]\n- [Irritation] chuyển thành [HugeIrritation]\n- Nếu đang trong trạng thái Choáng, giải trừ Choáng"
+        },
+        {
+            "id": 114510,
+            "name": "Sáp Sí Hổ",
+            "desc": "Khi bắt đầu trận đấu, tỉ lệ với Tốc độ của bản thân:\n- Hồi Tinh thần theo giá trị đó. Nếu Tinh thần dưới 0, lượng hồi phục tăng gấp đôi\n- Nhận (Giá trị ÷ 3) [SlashDamageUp] (Tối đa 5)\n\nKhi bắt đầu trận đấu, nếu bản thân đang có từ 3 [Binding] trở lên, hiệu ứng trên không kích hoạt, thay vào đó nhận [DefenseDown] bằng số lượng [Binding] đang có (Tối đa 9)"
+        },
+        {
+            "id": 114512,
+            "name": "Thiên Thoái Tinh Đao Quá Nhiệt",
+            "desc": "Nếu đã sử dụng đòn tấn công mạnh mẽ (\"Khoái Đao Loạn Ma\" · \"Siêu Tuyệt Mãnh Hổ Sát Kích Loạn Trảm\"), lượt sau nhận [Complacency] bằng số lần đã sử dụng đòn tấn công mạnh mẽ trong trận đấu này (Tối đa 5)"
+        },
+        {
+            "id": 117101,
+            "name": "Mãnh Hổ Ấn Đạn Chi Viện",
+            "desc": "Kết thúc lượt, nhận 5 [Vulnerable]\nKết thúc lượt, cung cấp [BulletPropellantSpecial] cho Lôi Hoành\n\nKhi bị tiêu diệt, không thể cung cấp [BulletPropellantSpecial] cho Lôi Hoành, lượt sau Lôi Hoành nhận 1 [Vulnerable], 1 [ParryingResultDown]"
+        },
+        {
+            "id": 113501,
+            "name": "Bàn tay của người em trai đã đánh mất",
+            "desc": "Khi đòn tấn công của bản thân Trúng đích kẻ địch, gây 1 [GazeReplica] (1 lần mỗi lượt cho mỗi Bản ngã)\nKhi bị kẻ địch tấn công, gây 1 [GazeReplica] cho kẻ tấn công (1 lần mỗi lượt cho mỗi Bản ngã)\nNếu Hong Lu đang tham chiến khi bắt đầu lượt, gây 1 [GazeReplica] cho Hong Lu"
+        },
+        {
+            "id": 113502,
+            "name": "Lòng bàn tay",
+            "desc": "Ưu tiên tấn công mục tiêu bị gây [GraspReplica]\nNếu có mục tiêu bị gây [GraspReplica], thay đổi mô thức và tăng +0.1 mọi Kháng tính"
+        },
+        {
+            "id": 113503,
+            "name": "Ăn mòn E.G.O - Hội N",
+            "desc": "Mỗi khi trôi qua 1 lượt kể từ khi nhân vật này xuất hiện, nhận 1 [EgoErodeReplica] khi kết thúc lượt\n- Khi kết thúc lượt, nếu Máu dưới 50% hoặc Tinh thần từ -20 trở xuống, nhận thêm 1 [EgoErodeReplica]"
+        },
+        {
+            "id": 113504,
+            "name": "Tối đa hóa Độ nhạy E.G.O Tức thời",
+            "desc": "Nếu có từ 4 Tù nhân trở lên có từ 4 [GazeReplica] trở lên, sử dụng kĩ năng \"Uy Kính [TabExplain], Khinh Miệt [TabExplain] 【Giải phóng Tiềm năng】\""
+        },
+        {
+            "id": 113505,
+            "name": "Đừng chỉ nhắm vào mỗi mình tôi chứ",
+            "desc": "Khi có đồng đội, nếu có từ 5 kẻ địch trở lên chỉ định bản thân là mục tiêu chính, Máu và Tinh thần của kẻ địch tương ứng giảm 10"
+        },
+        {
+            "id": 113601,
+            "name": "Cái giá của viên đạn hung ác",
+            "desc": "Khi tấn công Trúng đích, hồi 5 Tinh thần\nKhi Thua đối đầu, giảm 5 Tinh thần"
+        },
+        {
+            "id": 113602,
+            "name": "Bước tiến vượt bậc",
+            "desc": "Khi tiêu diệt kẻ địch, số lượt [Breath] tăng 3"
+        },
+        {
+            "id": 113603,
+            "name": "Bạn ơi, một thời đại mới đang đến đấy.",
+            "desc": "Nếu Tinh thần là -20, sử dụng mô thức đặc biệt"
+        },
+        {
+            "id": 113604,
+            "name": "Hãy tận hiến vì Lý tưởng (Yi Sang) mới nhé.",
+            "desc": "Nếu Máu của các nhân viên Hội N ngoại trừ Gia Hân dưới 50%, sử dụng mô thức đặc biệt"
+        },
+        {
+            "id": 114601,
+            "name": "-",
+            "desc": "Máu không giảm xuống dưới 50% giá trị tối đa"
+        },
+        {
+            "id": 114602,
+            "name": "Bảo Ngọc à, dòng dõi chủ nhà không thể bị tuyệt diệt ở đây được...",
+            "desc": "Thất bại trận đấu khi Hong Lu chết. Tất cả kĩ năng ưu tiên mục tiêu là Hong Lu."
+        },
+        {
+            "id": 114603,
+            "name": "Ai sẽ là người chăm sóc các bậc trưởng bối và truyền bá ý chí của Tiên Hoàng Trùng tới Hồng Viên đây!!!",
+            "desc": "Sau khi thắng Đối đầu với Hong Lu, khi Trúng đích gây 1 [PileObedient] (1 lần mỗi kĩ năng)"
+        },
+        {
+            "id": 114604,
+            "name": "Đồng hóa Nhánh Cây Vàng - Vô cảm",
+            "desc": "Khi bắt đầu trận đấu, nhận [GoldenBoughSync]"
+        },
+        {
+            "id": 114605,
+            "name": "Hồng Viên Cấm Đoạn - Toàn Hắc Tiên Hoàn",
+            "desc": "Mỗi khi sử dụng các loại kĩ năng khác nhau, nhận 1 [AttackUp] và 1 [DefenseDown] (3 lần mỗi lượt)"
+        },
+        {
+            "id": 114606,
+            "name": "Từ xưa đến nay Hồng Viên luôn được dẫn dắt theo ý chí của các vị tiên nhân",
+            "desc": "Khi kết thúc lượt nếu đang ở trạng thái Hoảng loạn, hóa giải trạng thái Hoảng loạn và đặt lại Tinh thần về 0 vào lượt kế tiếp.\n\nKhi hóa giải trạng thái Hoảng loạn, nhận [Enhancement] 2, [Endurance] 2 vào đầu lượt kế tiếp, và nếu Hong Lu có [Obedient] thì hồi 15 Tinh thần"
+        },
+        {
+            "id": 115201,
+            "name": "Xin hãy dõi theo đứa trẻ này...!",
+            "desc": "Thất bại trận đấu khi Hong Lu tử trận. Khi bắt đầu lượt, nếu có đơn vị do bản thân triệu hồi thì hồi 10 Tinh thần"
+        },
+        {
+            "id": 115202,
+            "name": "Đồng hóa Nhánh Cây Vàng - Méo mó",
+            "desc": "Khi bắt đầu Giai đoạn 2, nhận [GoldenBoughSyncDistorted]"
+        },
+        {
+            "id": 115203,
+            "name": "Dẫu cho mọi gia chủ đều đã hiến thân cho Tiên Hoàng Trùng đại nhân và kế thừa ý chí đó...",
+            "desc": "Khi kết thúc lượt nếu đang ở trạng thái Hoảng loạn, hóa giải trạng thái Hoảng loạn và đặt lại Tinh thần về 0 vào lượt kế tiếp.\n\nKhi hóa giải trạng thái Hoảng loạn\n- Nhận [Enhancement] 2, [Endurance] 2, [Agility] 1 vào đầu lượt kế tiếp\n- Nếu có đơn vị do bản thân triệu hồi thì hồi 15 Tinh thần\n- Nếu Hong Lu có [Obedient] thì hồi 15 Tinh thần"
+        },
+        {
+            "id": 115204,
+            "name": "-",
+            "desc": "Máu không giảm xuống dưới 85% giá trị tối đa"
+        },
+        {
+            "id": 115205,
+            "name": "-",
+            "desc": "Máu không giảm xuống dưới 65% giá trị tối đa"
+        },
+        {
+            "id": 115206,
+            "name": "-",
+            "desc": "Máu không giảm xuống dưới 50% giá trị tối đa"
+        },
+        {
+            "id": 115207,
+            "name": "Kim Ngọc Kỳ Ngoại, Bại Nhứ Kỳ Trung",
+            "desc": "Khi có từ 10 [Burst] trở lên, Sát thương nhận vào +10%\nNếu có từ 5 loại hiệu ứng bất lợi trở lên, Sát thương nhận vào +10%"
+        },
+        {
+            "id": 115208,
+            "name": "Gia chủ không có Tiên Hoàng Trùng ngự trị thì không thể hành động vì Hồng Viên được",
+            "desc": "Khi Máu chạm mức 0, bộ phận Thân mình sẽ rơi vào trạng thái Choáng váng ở lượt kế tiếp\nSau đó sẽ trở thành trạng thái bị phơi bày, bộ phận Thân mình nhận [Vulnerable] 2"
+        },
+        {
+            "id": 115209,
+            "name": "-",
+            "desc": "Máu không giảm xuống dưới 20% giá trị tối đa"
+        },
+        {
+            "id": 115301,
+            "name": "Tiên nhân ơi, xin hãy chứng giám!",
+            "desc": "Trong khi đơn vị này còn sống, vào đầu lượt, cơ thể chính và tất cả bộ phận của Giả Mẫu nhận 200 Lớp bảo vệ"
+        },
+        {
+            "id": 115302,
+            "name": "Bổn phận Bảo Ngọc",
+            "desc": "Trong khi đơn vị này còn sống, áp dụng các hiệu ứng sau lên nhân vật đang bị giam cầm\n- Rơi vào trạng thái không thể hành động\n- Các hiệu ứng có lợi, Máu, Tinh thần không được cập nhật"
+        },
+        {
+            "id": 115303,
+            "name": "Xuất gia",
+            "desc": "Khi đơn vị này bị tiêu diệt, nhân vật đang bị giam cầm sẽ quay trở lại chiến đấu vào lượt kế tiếp."
+        },
+        {
+            "id": 115304,
+            "name": "Phá Tà Hiển Chính",
+            "desc": "Khi đơn vị này bị các Tội đồ tiêu diệt, kích hoạt các hiệu ứng dưới đây\n- Hồi 10 Tinh thần cho toàn bộ đồng minh, nhận [AttackDmgUp] 2 vào lượt kế tiếp\n- Áp dụng [Binding] 5, [AttackDown] 3, [Vulnerable] 5 cho Giả Mẫu trong 2 lượt tính từ lượt kế tiếp\n- Tinh thần của nhân vật bị giam cầm trong đơn vị này hồi phục đến 45. Nhận [Enhancement] 2 khi quay trở lại\n- Nhận mỗi loại tài nguyên E.G.O 3 đơn vị"
+        },
+        {
+            "id": 115401,
+            "name": "Hỡi vị Tiên nhân bất tử tối cao",
+            "desc": "Đang sở hữu hiệu ứng [SupremeEternalLife]"
+        },
+        {
+            "id": 115402,
+            "name": "Trường sinh bất tử không kéo dài mãi mãi",
+            "desc": "Máu không giảm xuống dưới 1\nKhi Máu chạm mức 1, hiệu ứng [SupremeEternalLife] thay đổi thành [ImperfectEternalLife]"
+        },
+        {
+            "id": 115403,
+            "name": "Kiến thức Trường sinh Bất tử",
+            "desc": "Khi nhận sát thương khiến Máu chạm mức 1, hồi 10 Tinh thần cho Tội đồ đã tấn công bản thân, và nhận ngẫu nhiên 3 tài nguyên thuộc tính E.G.O từ các loại tài nguyên có số lượng ít (Kích hoạt 1 lần duy nhất trong khi đơn vị này còn sống)"
+        },
+        {
+            "id": 114513,
+            "name": "Hồi phục Hoảng loạn",
+            "desc": "Khi kết thúc lượt nếu đang ở trạng thái Hoảng loạn, Tinh thần trở về 0\n\nKhi hóa giải trạng thái Hoảng loạn, hồi Tinh thần tương ứng với tỉ lệ Máu đã mất vào đầu lượt kế tiếp (Tối đa 30)"
+        }
+    ]
+}

@@ -1,0 +1,577 @@
+{
+  "dataList": [
+    {
+      "id": 2010111,
+      "name": "Trầm Mặc",
+      "desc": "Khi nhận sát thương, nhận 3 Trói buộc ở lượt kế tiếp; khi tấn công mục tiêu bằng thuộc tính Điểm yếu/Mong manh, Sát thương gây ra +20%\n(Kích hoạt 1 lần mỗi lượt)"
+    },
+    {
+      "id": 2010211,
+      "name": "Tàn Lửa",
+      "desc": "Khi thắng Đối kháng, gây (Số Cộng hưởng Tuyệt đối Phẫn nộ ÷ 2) Bỏng cho mục tiêu (1 lần mỗi Kĩ năng)"
+    },
+    {
+      "id": 2010311,
+      "name": "Dol Hareubang",
+      "desc": "Mỗi lượt nhận 3 Bảo vệ Kháng Đập, Bảo vệ Kháng Lười biếng"
+    },
+    {
+      "id": 2020111,
+      "name": "Quyện Đãi",
+      "desc": "Nếu kẻ địch rơi vào trạng thái Choáng trong khi bản thân đang tấn công, Hiệu suất hồi Tinh thần của 1 đồng minh có Tinh thần thấp nhất ở lượt kế tiếp +2 (Tối đa 3 lần mỗi lượt)"
+    },
+    {
+      "id": 2020211,
+      "name": "Chất Lỏng Bao Phủ",
+      "desc": "Khi bắt đầu lượt, cấp cho 1 đồng minh có HP thấp nhất (bao gồm cả bản thân) 2 Bảo vệ"
+    },
+    {
+      "id": 2020311,
+      "name": "Đau quá!",
+      "desc": "Mỗi 1 loại hiệu ứng bất lợi trên bản thân, Sát thương gây ra +10% (Tối đa 50%)"
+    },
+    {
+      "id": 2030111,
+      "name": "Nhiệt Huyết Quá Độ",
+      "desc": "Khi tấn công trúng, nếu mục tiêu có [Laceration], hồi 3 HP"
+    },
+    {
+      "id": 2030211,
+      "name": "U Uất Trào Dâng",
+      "desc": "Khi kết thúc tấn công, gây (Số Cộng hưởng Tuyệt đối U uất × 2) sát thương Tinh thần lên mục tiêu bị tấn công bởi Kĩ năng nằm ngoài cùng bên phải trên bảng điều khiển\n(Với mục tiêu không có Tinh thần, áp dụng thành sát thương thuộc tính U uất)"
+    },
+    {
+      "id": 2040111,
+      "name": "Nghệ Thuật",
+      "desc": "Mỗi kẻ địch bản thân đã tiêu diệt ở lượt trước, Sát thương nhận và gây ra tăng 5%"
+    },
+    {
+      "id": 2040211,
+      "name": "Ngọn Lửa từ Que Diêm Thứ 4",
+      "desc": "Uy lực cuối cùng của Kĩ năng thứ 4 được sử dụng +4, gây 4 Bỏng mỗi khi tấn công trúng"
+    },
+    {
+      "id": 2040212,
+      "name": "Ngọn Lửa từ Que Diêm Thứ 4",
+      "desc": "Uy lực cuối cùng của Kĩ năng thứ 4 được sử dụng +4, gây 4 [Combustion] mỗi khi tấn công trúng\n- Nếu Kĩ năng đó thuộc tính Phẫn nộ, Sát thương gây ra thêm +(Tổng Uy lực [Combustion] của tất cả mục tiêu bị tấn công ÷ 2)% (Tối đa 20%)\n- Nếu Kĩ năng đó là kĩ năng E.G.O, khi bắt đầu tung đồng xu đầu tiên\n・Nếu là Coin cộng: hồi 10 Tinh thần\n・Nếu là Coin trừ: giảm 15 Tinh thần (Hiệu ứng này không làm Tinh thần xuống dưới -40)",
+      "summary": "Kĩ năng thứ 4 được sử dụng sẽ được cường hóa"
+    },
+    {
+      "id": 2050111,
+      "name": "Từ Chối Phán Xét",
+      "desc": "Khi bắt đầu trận chiến, nếu bản thân đang là mục tiêu của từ 3 Kĩ năng trở lên, nhận 3 Bảo vệ."
+    },
+    {
+      "id": 2050211,
+      "name": "Cải Tiến Cuối Cùng",
+      "desc": "Khi HP dưới 25%, khi sử dụng kĩ năng E.G.O <Cú Đòn Tuột Vít>, mỗi lượt nhận Tăng Uy lực Tấn công, Tăng Uy lực Phòng thủ, 3 Nhanh nhẹn và tử vong sau 3 lượt."
+    },
+    {
+      "id": 2050311,
+      "name": "Khải Huyền Thiên Thượng",
+      "desc": "Khi thắng Đối kháng bằng Kĩ năng nằm ngoài cùng bên trái bảng điều khiển, ở lượt kế tiếp, cấp cho 1 đồng minh ngẫu nhiên 1 Tăng Uy lực Tấn công hoặc Tăng Uy lực Phòng thủ"
+    },
+    {
+      "id": 2060111,
+      "name": "Gợn Sóng",
+      "desc": "Khi bắt đầu trận chiến, hồi Tinh thần cho đồng minh có Tinh thần thấp nhất dựa trên số lượng Cộng hưởng Tuyệt đối cao nhất của bản thân trên bảng điều khiển\nNgoại trừ đồng minh đang trong trạng thái Hoảng loạn"
+    },
+    {
+      "id": 2060211,
+      "name": "Ruy Băng Ràng Buộc",
+      "desc": "Khi kết thúc tấn công lên mục tiêu bị tấn công bởi Kĩ năng nằm ngoài cùng bên trái bảng điều khiển,\nở lượt kế tiếp, gây (Số Cộng hưởng Tuyệt đối Sắc dục ÷ 4) Mong manh Sắc dục"
+    },
+    {
+      "id": 2070111,
+      "name": "Ngạo Khí",
+      "desc": "Khi đồng minh khác tiêu diệt kẻ địch, nhận 1 Tăng Uy lực Tấn công, 1 Nhanh nhẹn vào đầu lượt kế tiếp (Tối đa 3)"
+    },
+    {
+      "id": 2070211,
+      "name": "Tiếng Gầm",
+      "desc": "Khi tiêu diệt kẻ địch, tăng số tầng Sạc bằng (Số Cộng hưởng Tuyệt đối Đố kị ÷ 2) trong lượt đó"
+    },
+    {
+      "id": 2080111,
+      "name": "Cưỡng Chế",
+      "desc": "Khi tiến hành Đối kháng có tỉ lệ thắng Ưu thế, Uy lực Đối kháng +2. Khi tiến hành Đối kháng có tỉ lệ thắng Bất lợi, Uy lực Đối kháng -2"
+    },
+    {
+      "id": 2080211,
+      "name": "Ruy Băng Hồng",
+      "desc": "Khi thắng Đối kháng, gây 1 Ruy Băng Hồng"
+    },
+    {
+      "id": 2080311,
+      "name": "Lửa Bay Lả Tả",
+      "desc": "Khi tấn công trúng kẻ địch có [Combustion], gây 1 Bỏng cho 3 kẻ địch ngẫu nhiên"
+    },
+    {
+      "id": 2090111,
+      "name": "Đoạn Tuyệt",
+      "desc": "Hiệu suất hồi Tinh thần +1, Hiệu suất giảm Tinh thần -1"
+    },
+    {
+      "id": 2090211,
+      "name": "Mồi Lửa",
+      "desc": "Khi tiêu diệt kẻ địch có [Combustion], hồi (Số Cộng hưởng Tuyệt đối Phẫn nộ)% HP tối đa"
+    },
+    {
+      "id": 2090311,
+      "name": "Hàn Khí",
+      "desc": "Khi tấn công trúng kẻ địch có từ 5 [Sinking] trở lên, ở lượt kế tiếp gây 1 Trói buộc và Giảm Uy lực Tấn công\n(Tối đa 3 trên mỗi kẻ địch)"
+    },
+    {
+      "id": 2100111,
+      "name": "Bất Ổn",
+      "desc": "Trong một Kĩ năng, khi tấn công Trúng, nếu tung ra mặt Đồng xu khác với mặt của Đồng xu đã tung trước đó thì bản thân bị -5 Tinh thần, đồng thời nhận 1 Tăng Sát thương trong lượt này (Tối đa 3 lần mỗi lượt)"
+    },
+    {
+      "id": 2100211,
+      "name": "Nghi Lễ Tế Thần",
+      "desc": "Khi tiêu diệt kẻ địch bằng Kĩ năng Tấn công hoặc Phản công, nhận 5 tài nguyên E.G.O tương ứng với hệ của Kĩ năng đó"
+    },
+    {
+      "id": 2110111,
+      "name": "Chiến Thuật Hoàn Hảo",
+      "desc": "Mỗi lượt, nếu không bị trúng đòn lần nào thì nhận 1 Tăng Sát thương vào lượt kế tiếp. (Cộng dồn tối đa 3 lần)"
+    },
+    {
+      "id": 2110211,
+      "name": "Nhánh Cây Bất Tín",
+      "desc": "Nhận 1 [PenetrateDamageUp] mỗi lượt\nKhi mặt Trước Trúng, gây 1 Trói buộc (Bind) vào lượt kế tiếp, Số lần Vết rách (Rupture) tăng thêm 1."
+    },
+    {
+      "id": 2110311,
+      "name": "Lòng Trống Rỗng",
+      "desc": "Mỗi lượt, nhận 1 Tăng Sát thương hệ Sắc dục. Nếu Tinh thần bản thân dưới 0, nhận thêm 1."
+    },
+    {
+      "id": 2120111,
+      "name": "Cơn Co Giật Dị Hình",
+      "desc": "Khi bắt đầu lượt, nếu Máu dưới 25% thì hồi 15 Máu và nhận 2 Bảo vệ.\nKhi hiệu ứng kích hoạt, một đồng minh ngẫu nhiên khác bản thân và 1 kẻ địch nhận +2 Hiệu suất Giảm Tinh thần"
+    },
+    {
+      "id": 2120211,
+      "name": "Giòi Bọ",
+      "desc": "Khi tấn công Trúng, có (Số Cộng hưởng Tuyệt đối hệ Phàm ăn × 8)% xác suất gây 5 Giòi Bọ"
+    },
+    {
+      "id": 2120311,
+      "name": "Hấp Thụ Dưỡng Chất",
+      "desc": "Khi tiêu diệt kẻ địch đang bị Vết rách (Rupture), hồi (Số Cộng hưởng Tuyệt đối hệ Phàm ăn)% Máu dựa trên Máu tối đa"
+    },
+    {
+      "id": 2030311,
+      "name": "Phóng Điện Ngẫu Nhiên",
+      "desc": "Khi bắt đầu trận chiến, tăng (Số Cộng hưởng Tuyệt đối hệ Đố kỵ ÷ 2) Số lần Sạc (Charge) của các đồng minh ngẫu nhiên đang sở hữu [Charge]"
+    },
+    {
+      "id": 2020411,
+      "name": "Phóng Điện Thích Nghi",
+      "desc": "Khi bản thân có [Charge], mỗi Số lần Sạc (Charge) tăng +2% Sát thương\nGiảm -2 giá trị Số lần Sạc (Charge) tiêu hao bởi hiệu ứng Kĩ năng"
+    },
+    {
+      "id": 2030411,
+      "name": "Vạc Phàm Ăn",
+      "desc": "Khi bắt đầu lượt, chuyển đổi 2 tài nguyên E.G.O thuộc hệ ngẫu nhiên khác Sắc dục thành 1 tài nguyên E.G.O hệ Sắc dục"
+    },
+    {
+      "id": 2100311,
+      "name": "Phun Trào Súp",
+      "desc": "Khi mặt Sau Trúng, nếu mục tiêu là kẻ địch thì gây 1 Bỏng (Burn)"
+    },
+    {
+      "id": 2010411,
+      "name": "Kẻ Lang Thang",
+      "desc": "Khi bắt đầu lượt, nếu không nhận sát thương vào lượt trước thì Số lần Sạc (Charge) của bản thân tăng 4\nKhi tấn công Trúng kẻ địch có Tốc độ thấp hơn bản thân, tăng Số lần Vết rách (Rupture) của mục tiêu thêm 1 (Tối đa 3 lần mỗi lượt)"
+    },
+    {
+      "id": 2060311,
+      "name": "Khôi Phục Hiện Trạng Rối Ren",
+      "desc": "Khi tấn công Trúng kẻ địch có hiệu ứng bất lợi, tăng Số lần Sạc (Charge) của bản thân thêm 1 (Tối đa 4 lần mỗi lượt)\nKhi Máu chạm mốc 0, tiêu hao toàn bộ Số lần Sạc (Charge) và hồi Máu tỉ lệ thuận với giá trị đã tiêu hao (Kích hoạt 1 lần mỗi trận chiến. Lượng hồi tối đa: 25% Máu tối đa)"
+    },
+    {
+      "id": 2050411,
+      "name": "Sự Hào Hứng Không Thể Dập Tắt",
+      "desc": "Khi bắt đầu trận chiến, nếu bản thân đang là mục tiêu của từ 2 Kĩ năng trở lên, Sức mạnh Cơ bản của Kĩ năng tăng 1, đồng thời khi nhận sát thương sẽ gây 1 Bỏng (Burn) cho kẻ tấn công (Tối đa 5 lần mỗi lượt)"
+    },
+    {
+      "id": 2080411,
+      "name": "Kết Liễu Trong Tiếng Vỗ Tay",
+      "desc": "Khi tấn công mục tiêu có Máu dưới 30%, Sát thương của Kĩ năng hệ Phẫn nộ +20%"
+    },
+    {
+      "id": 2110411,
+      "name": "Nhịp Thở Săn Bắn",
+      "desc": "Khi kết thúc Đối đầu, nhận 2 Hơi thở (Poise)\nKhi rơi vào trạng thái Hoảng loạn, nhận 2 Bảo vệ, khi hồi phục từ trạng thái Hoảng loạn nhận 5 Hơi thở (Poise)"
+    },
+    {
+      "id": 2070311,
+      "name": "Phóng Điện Bồn Chồn",
+      "desc": "Khi nhận sát thương, tiêu hao 1 Số lần Sạc (Charge) để hồi 2.5% Máu tối đa\nTrường hợp Máu khi nhận sát thương dưới 40%, Số lần Sạc (Charge) tăng 1 và kích hoạt hiệu ứng hồi Máu (Số lần Sạc (Charge) có thể tăng tối đa lên đến 10 trong 1 lượt)"
+    },
+    {
+      "id": 2120411,
+      "name": "Phóng Điện Xoay Chiều",
+      "desc": "Khi mặt Trước Trúng, tiêu hao 2 Số lần Sạc (Charge) của bản thân để tăng 1 Số lần Sạc (Charge) cho 1 đồng minh đang có [Charge] và có Số lần Sạc (Charge) thấp nhất"
+    },
+    {
+      "id": 2010511,
+      "name": "Nắng Sau Cơn Mưa",
+      "desc": "Khi bắt đầu lượt, hồi 3 Tinh thần cho toàn bộ đồng minh"
+    },
+    {
+      "id": 2040311,
+      "name": "Tơ Nhện",
+      "desc": "Khi thắng Đối đầu, gây 1 Trói buộc (Bind) vào lượt kế tiếp (Tối đa 3 lần mỗi lượt)"
+    },
+    {
+      "id": 2040411,
+      "name": "Săn Mồi",
+      "desc": "Trong lượt này, nếu hồi nhiều hơn 10% Máu tối đa, nhận 1 Tăng Sức mạnh Tấn công vào lượt kế tiếp"
+    },
+    {
+      "id": 2040511,
+      "name": "Thức Uống Đã Mở Nắp",
+      "desc": "Khi tấn công Trúng kẻ địch đang bị gây ít nhất 5 [Sinking], gây 1 Giảm Sức mạnh Phòng thủ (Tối đa 5 lần mỗi lượt)"
+    },
+    {
+      "id": 2060411,
+      "name": "Tiếng Hải Âu Nơi Biển Xa",
+      "desc": "Khi kẻ địch tử trận, hồi 1 Tinh thần cho 1 đồng minh có Tinh thần thấp nhất\nMỗi khi có kẻ địch tử trận, lượng hồi tăng thêm 2 (Tối đa 9)\nKhi bắt đầu wave, giá trị đã tăng sẽ bị đặt lại"
+    },
+    {
+      "id": 2100411,
+      "name": "Tiên Mồi Nhử",
+      "desc": "Khi bắt đầu trận chiến, nếu tiêu diệt được đối tượng đang chọn bản thân làm mục tiêu chính để tấn công, bản thân hồi ( 3 + (Số Cộng hưởng Tuyệt đối hệ Phàm ăn))% Máu dựa trên Máu tối đa"
+    },
+    {
+      "id": 2070411,
+      "name": "Thiền Định",
+      "desc": "Khi hồi phục từ trạng thái Hoảng loạn, Máu tối đa tăng 15% so với Máu tối đa cơ bản của Nhận dạng. Sau đó, hồi phục 15% Máu so với Máu tối đa hiện tại. Nếu Máu hiện tại thấp hơn 30% Máu tối đa hiện tại, hồi phục 25%. (Kích hoạt 3 lần mỗi màn. Khi kết thúc màn, hiệu ứng tăng Máu tối đa sẽ bị giải trừ, Máu hiện tại được điều chỉnh theo tỉ lệ Máu tại thời điểm giải trừ.)"
+    },
+    {
+      "id": 2050511,
+      "name": "Cơn Giận Bị Xiềng Xích",
+      "desc": "Kĩ năng của bản thân nằm ở ngoài cùng bên trái trên bảng điều khiển bị giảm 1 Sức mạnh Cơ bản. Tăng 2 Sức mạnh Đồng xu.\nĐầu lượt, nếu Tốc độ từ 4 trở xuống, nhận 1 Tăng Sức mạnh Đập."
+    },
+    {
+      "id": 2020511,
+      "name": "Thanh Kiếm Rực Lửa",
+      "desc": "Khi Kĩ năng hệ Sắc dục đánh trúng mặt trước, gây 1 Bỏng cho mục tiêu (Tối đa 6 lần mỗi lượt)"
+    },
+    {
+      "id": 2060511,
+      "name": "Tinh Chất Màu Xanh Lá",
+      "desc": "Khi nhận sát thương, nếu Máu hiện tại thấp hơn 50% Máu tối đa, gây 1 Vết rách cho kẻ tấn công. (Kích hoạt số lần bằng số Cộng hưởng Hoàn toàn hệ Phàm ăn lớn nhất trong 1 lượt)"
+    },
+    {
+      "id": 2040611,
+      "name": "Ngấu Nghiến Giấc Mơ",
+      "desc": "Khi Kĩ năng hệ Ngạo mạn đánh Chí mạng, tăng 1 Số lượng Hơi thở (Tối đa 3 lần mỗi lượt)"
+    },
+    {
+      "id": 2080511,
+      "name": "Chuyến Hải Trình Liều Lĩnh",
+      "desc": "Khi kết thúc lượt, gây 5 Trầm luân cho 1 đồng minh có tỉ lệ Máu thấp nhất ngoại trừ bản thân, lượt kế tiếp nhận 1 Nhanh nhẹn, 3 Tăng Cấp độ Tấn công."
+    },
+    {
+      "id": 2090411,
+      "name": "Chất Bẩn Bết Dính",
+      "desc": "Khi Kĩ năng hệ Đâm đánh trúng mặt trước, gây 1 Trói buộc (Tối đa 2 lần mỗi lượt)"
+    },
+    {
+      "id": 2100511,
+      "name": "Lời Tiên Tri Diệt Vong",
+      "desc": "Khi Kĩ năng hệ Sắc dục đánh trúng mặt trước, gây 4 sát thương Tinh thần cho bản thân và mục tiêu.\n(Sát thương Tinh thần không áp dụng cho mục tiêu không có Tinh thần)\nNếu tiêu diệt kẻ địch bằng Kĩ năng hệ Sắc dục, nhận 5 tài nguyên E.G.O Sắc dục"
+    },
+    {
+      "id": 2090511,
+      "name": "Lời Tuyên Án Từ Trời",
+      "desc": "Mỗi khi kẻ địch bị Hoảng loạn, 1 đồng minh có tỉ lệ Máu hiện tại thấp nhất sẽ hồi phục một lượng Máu bằng 4% Máu tối đa của nhân vật đó (Kích hoạt 1 lần mỗi lượt)"
+    },
+    {
+      "id": 2070511,
+      "name": "Sự Căm Ghét Vô Tận",
+      "desc": "Khi bản thân đang có hiệu ứng bất lợi hoặc trạng thái bất thường, nếu mục tiêu chính hoặc kẻ tấn công bản thân đang có hiệu ứng có lợi, thì các hiệu ứng Kĩ năng/Đồng xu gây ra Bỏng, Xuất huyết, Chấn động, Vết rách, Trầm luân cho bản thân và kẻ địch được +1 Sức mạnh, các hiệu ứng Kĩ năng/Đồng xu giúp bản thân nhận Hơi thở, Sạc được +1 Số lượng."
+    },
+    {
+      "id": 2110511,
+      "name": "Món Quà Công Bằng",
+      "desc": "Khi gây hiệu ứng có lợi cho đồng minh khác bằng hiệu ứng Kĩ năng/Đồng xu, gây ngẫu nhiên 1 trong các hiệu ứng Bỏng, Xuất huyết, Chấn động, Vết rách, Trầm luân với 1 Sức mạnh lên 1 kẻ địch ngẫu nhiên (Kích hoạt tối đa 5 lần mỗi lượt. Có thể gây tối đa 5 lần lên mỗi kẻ địch, đối với Thực thể không xác định thì gây lên bộ phận ngẫu nhiên.)"
+    },
+    {
+      "id": 2030511,
+      "name": "Tòa Tháp Đá Sụp Đổ",
+      "desc": "Khi tiêu diệt kẻ địch bị [Laceration], nhận 2 Hơi thở, 2 Số lượng Hơi thở (3 lần mỗi lượt)"
+    },
+    {
+      "id": 2120511,
+      "name": "Vương Miện Hoa Hồng",
+      "desc": "Đầu lượt, gây 2 Sức mạnh Vết rách cho 1 kẻ địch ngẫu nhiên. (Trong Trận chiến tập trung, gây lên tất cả bộ phận)\nNếu kích hoạt Cộng hưởng Hoàn toàn, khi bắt đầu chiến đấu, gây 2 Sức mạnh Vết rách cho tất cả kẻ địch."
+    },
+    {
+      "id": 2120611,
+      "name": "Nếu Có Thể Trở Lại...",
+      "desc": "Khi kết thúc đòn tấn công của bản thân, nếu mục tiêu tử trận, nhận 1 tài nguyên E.G.O mà bạn đang có ít nhất.\nMỗi khi tổng ([Sinking] Sức mạnh + Số lượng) của mục tiêu đạt 5, nhận thêm 1 (Tối đa 3)\n(Nếu có từ 2 loại tài nguyên E.G.O ít nhất trở lên, nhận ngẫu nhiên)"
+    },
+    {
+      "id": 2010611,
+      "name": "Ngày Hôm Qua Đã Tan Vỡ",
+      "desc": "Nếu Sức mạnh [Sinking] của mục tiêu từ 6 trở lên, Sức mạnh Đối đầu +1\nNếu Số lượng [Sinking] của mục tiêu từ 4 trở lên, Sức mạnh Đối đầu +1"
+    },
+    {
+      "id": 2030611,
+      "name": "Tiếng Hét Như Cuồng Phong",
+      "desc": "Sau khi kết thúc Kĩ năng hệ Chém hoặc Kĩ năng hệ Đố kị của bản thân, nếu mục tiêu tử trận, nhận 1 [Enhancement] vào lượt kế tiếp (1 lần mỗi lượt)"
+    },
+    {
+      "id": 2050611,
+      "name": "Cáp Quá Tải",
+      "desc": "Khi bắt đầu chiến đấu, nếu kích hoạt Cộng hưởng từ 4 trở lên, nhận 2 [AttackUp], 2 [DefenseUp].\nNếu Cộng hưởng đó là Cộng hưởng hệ Đố kị, cũng gây cho các đồng minh nằm cạnh trên bảng điều khiển của bản thân."
+    },
+    {
+      "id": 2070611,
+      "name": "Xiềng Xích Ràng Buộc",
+      "desc": "- Khi bắt đầu chiến đấu, nếu Cộng hưởng cao nhất có chứa kĩ năng của bản thân đạt từ 4 trở lên, gây 3 [AttackUp], 3 [DefenseUp] cho bản thân và tất cả đồng minh trong Cộng hưởng đó\n- Nếu Cộng hưởng đó là Cộng hưởng Hoàn toàn, gây thêm 2"
+    },
+    {
+      "id": 2110611,
+      "name": "Sự Đón Tiếp Nồng Hậu",
+      "desc": "Khi kết thúc đòn tấn công của bản thân, nếu mục tiêu rơi vào trạng thái Hoảng loạn hoặc tử trận, nhận +1 tài nguyên E.G.O hệ Ngạo mạn, và nhận thêm +1 cho 1 loại tài nguyên E.G.O ngẫu nhiên trong các hệ còn lại (Kích hoạt tối đa 3 lần mỗi lượt)"
+    },
+    {
+      "id": 2080611,
+      "name": "Tham Ăn",
+      "desc": "Khi sử dụng kĩ năng, nếu mục tiêu chính đã nhận sát thương và bị giảm Máu trong lượt này, khi đánh trúng, nếu Máu của bản thân đang đầy thì lượng sát thương tăng 5~10%, nếu Máu của bản thân bị giảm thì hồi 2~5 Máu. (Kích hoạt 7 lần mỗi lượt)",
+      "summary": "Nếu Máu của mục tiêu giảm, khi đánh trúng sẽ tăng lượng sát thương hoặc hồi phục Máu"
+    },
+    {
+      "id": 2090611,
+      "name": "Chấp Niệm",
+      "desc": "Trên bảng kĩ năng của bản thân, lượng Sức mạnh [Laceration] gây ra bởi kĩ năng nằm ở ngoài cùng bên trái được nhân đôi (Áp dụng 1 lần mỗi lượt)",
+      "summary": "Lượng Sức mạnh [Laceration] gây ra của kĩ năng tăng gấp đôi"
+    },
+    {
+      "id": 2060611,
+      "name": "Cảm Giác U Sầu",
+      "desc": "Khi bản thân sử dụng kĩ năng lên kẻ địch và gây [VibrationExplosion], lượt kế tiếp gây 1 [AttackDown], 2 [DefenseDown]. (Tối đa 3 lần mỗi lượt, bao gồm cả kĩ năng E.G.O)",
+      "summary": "Khi gây [VibrationExplosion], lượt kế tiếp gây 1 [AttackDown], 2 [DefenseDown]"
+    },
+    {
+      "id": 2100611,
+      "name": "Màng Nước Mắt",
+      "desc": "Đầu lượt, nếu bản thân có Khiên, nhận 1 [Protection]\nNếu bản thân có [ShieldManagerCryingToad], nhận thêm 1 [Protection]",
+      "summary": "Nếu có Khiên, nhận 1 [Protection]\nNếu có [ShieldManagerCryingToad], nhận thêm 1 [Protection]"
+    },
+    {
+      "id": 2020611,
+      "name": "Thời Gian Đang Chạy",
+      "desc": "Khi bản thân sử dụng kĩ năng lên kẻ địch và gây [VibrationExplosion], nhận 1 [Agility] vào lượt tiếp theo. (Tối đa 4 lần mỗi lượt, bao gồm kĩ năng E.G.O)",
+      "summary": "Khi gây [VibrationExplosion], nhận 1 [Agility] vào lượt tiếp theo (Tối đa 4 lần mỗi lượt, bao gồm kĩ năng E.G.O)"
+    },
+    {
+      "id": 2040711,
+      "name": "Dấu vết của Ánh nhìn",
+      "desc": "Mỗi khi bản thân sử dụng kĩ năng tấn công cơ bản lên kẻ địch, nhận thêm 1 tài nguyên E.G.O thuộc tính ngẫu nhiên có số lượng thấp nhất khác với thuộc tính kĩ năng đã sử dụng (2 lần mỗi lượt)"
+    },
+    {
+      "id": 2070711,
+      "name": "Mặt dây chuyền bị nghiền nát",
+      "desc": "Khi bắt đầu trận đấu, nếu Cộng hưởng tối đa từ 3 trở lên, nhận 3 [Breath]."
+    },
+    {
+      "id": 2110711,
+      "name": "Kẻ lang thang",
+      "desc": "[Charge] hồi số lượng tối đa +5\nVới mỗi ([Charge] - 1), sát thương của kĩ năng tiêu hao số lượt [Charge] +2% (Tối đa 10%)",
+      "summary": "Tăng sát thương của kĩ năng tiêu hao số lượt [Charge]"
+    },
+    {
+      "id": 2120711,
+      "name": "Lời chia buồn",
+      "desc": "Khi kết thúc lượt, nếu bản thân đang có hiệu ứng xấu, nhận 1 [Enhancement] vào lượt tiếp theo\nKhi tấn công mục tiêu ở trạng thái Hoảng loạn hoặc trạng thái E.G.O Xâm thực, sát thương + 15%",
+      "summary": ""
+    },
+    {
+      "id": 2080711,
+      "name": "Đón tiếp khách không mời",
+      "desc": "Nếu mục tiêu có [UninvitedGuestPersonality] hoặc hiệu ứng thay đổi loại Hoảng loạn, Sức mạnh Kháng cự +1\nKhi tấn công trúng mục tiêu đó, hồi 5 Tinh thần cho 1 đồng minh có Tinh thần thấp nhất. (1 lần mỗi lượt)"
+    },
+    {
+      "id": 2020711,
+      "name": "Thòng lọng lan rộng",
+      "desc": "Khi kết thúc đòn tấn công, nếu mục tiêu bị Choáng hoặc Chết, số lượt [Burst] của 2 kẻ địch ngẫu nhiên tăng thêm 1 (1 lần mỗi lượt, không cộng dồn, trong Trận chiến tập trung sẽ tính theo bộ phận)",
+      "summary": "Khi kết thúc đòn tấn công, nếu mục tiêu bị Choáng hoặc Chết, số lượt [Burst] của 2 kẻ địch ngẫu nhiên tăng thêm 1"
+    },
+    {
+      "id": 2060711,
+      "name": "Thời gian săn bắn",
+      "desc": "Khi kẻ địch hoặc đồng minh chết do sát thương [Burst] hoặc [Laceration], gây 2 [Snare] lên 1 kẻ địch ngẫu nhiên và nhận 1 [Agility] vào lượt tiếp theo (1 lần mỗi lượt)"
+    },
+    {
+      "id": 2030711,
+      "name": "Đóa hoa đỏ cao vút",
+      "desc": "Mỗi khi gây ra sát thương từ [Laceration] từ 10 trở lên, bản thân hồi 1 Tinh thần (Tối đa 10 mỗi lượt)"
+    },
+    {
+      "id": 2090711,
+      "name": "Đinh sắt đâm xuyên ngực",
+      "desc": "Khi sử dụng kĩ năng tấn công cơ bản và gây [Laceration] hoặc Xuất huyết đặc biệt lên kẻ địch, gây 1 [DefenseDown] (1 lần mỗi lượt)\n- Nếu kẻ địch mục tiêu đang có [Laceration] hoặc Xuất huyết đặc biệt, gây thêm 2 [Laceration] (1 lần mỗi lượt)\n\nKhi đồng minh bao gồm cả bản thân nhận sát thương máu trực tiếp từ kĩ năng của kẻ địch, gây 1 [Curse] lên kẻ địch đó (2 lần mỗi lượt)",
+      "summary": ""
+    },
+    {
+      "id": 2100711,
+      "name": "Lớp da bẩn thỉu",
+      "desc": "Khi bắt đầu trận đấu, nếu bản thân đang bị hiệu ứng xấu, nhận 1 [ParryingResultUp], 1 [Endurance]\n- Với mỗi 3 loại hiệu ứng xấu đang có trên bản thân, nhận 1 [Protection] (Tối đa 2)"
+    },
+    {
+      "id": 2050711,
+      "name": "Bữa tối tàn khốc",
+      "desc": "Khi bản thân gây ra hoặc nhận sát thương [Laceration], hồi máu cho bản thân bằng đúng lượng sát thương [Laceration] (Tối đa 10 mỗi lượt)\n- Khi kích hoạt hiệu ứng kĩ năng/đồng xu gây [Laceration], nếu mục tiêu có [RoseWedge], gây thêm 1 [Laceration] cho mục tiêu. (2 lần mỗi lượt)"
+    },
+    {
+      "id": 2010711,
+      "name": "Tiếp theo",
+      "desc": "Khi kết thúc đòn tấn công, nếu mục tiêu chết, số lượt [Breath] tăng thêm 2 (Tối đa 2 lần mỗi lượt)"
+    },
+    {
+      "id": 2070811,
+      "name": "Chiếc chuông vỡ",
+      "desc": "Gây 1 [Vulnerable] trong lượt này lên kẻ địch bị [VibrationExplosion] do hiệu ứng kĩ năng, đồng xu hoặc bị động (Mỗi kẻ địch kích hoạt 1 lần mỗi lượt)\n- Khi xảy ra [VibrationExplosion], không kích hoạt cộng dồn với quà E.G.O gây [Vulnerable]. (Nếu quà đó đang ở trạng thái cường hóa, hiệu ứng này sẽ được trừ đi giá trị của quà đó trước khi gây ra)",
+      "summary": "[VibrationExplosion] khi xảy ra, gây 1 [Vulnerable] "
+    },
+    {
+      "id": 2080811,
+      "name": "Ánh nhìn trong bóng tối",
+      "desc": "Số lượt [Vibration] mà đồng minh nhận được từ hiệu ứng kĩ năng/đồng xu +1 (Kích hoạt 2 lần mỗi lượt)\n- Nếu mục tiêu tấn công của đồng minh đang ở trạng thái Choáng, Suy giảm ý chí hoặc Hoảng loạn, tăng +2 thay thế\n- Không kích hoạt trùng lặp với quà E.G.O có cùng hiệu ứng"
+    },
+    {
+      "id": 2120811,
+      "name": "Đêm không ngủ",
+      "desc": "Khi bắt đầu trận đấu, gây 1 [AttackDown] hoặc 1 [DefenseDown] tương ứng với số lượng kẻ địch đang ở trạng thái Choáng, Suy giảm ý chí hoặc Hoảng loạn lên toàn bộ kẻ địch. (Tối đa 2 lần mỗi lượt)\n- Không kích hoạt trùng lặp với quà E.G.O có cùng hiệu ứng."
+    },
+    {
+      "id": 2110811,
+      "name": "7 viên đạn",
+      "desc": "- Khi kĩ năng tấn công cơ bản trúng đích, gây [Combustion] bằng ([FreischutzShotCount] ÷ 3) của bản thân (Tối đa 3 lần mỗi lượt)\n- Với Lobotomy E.G.O::Ma Đạn [TabExplain] Outis, gây [Combustion] bằng số [FreischutzShotCount] của bản thân thay thế (Tối đa 3 lần mỗi lượt)\n- Nếu Cường độ [Combustion] của mục tiêu từ 30 trở lên, gây 1 [DarkFlame] thay cho hiệu ứng trên (Tối đa 2 lần mỗi lượt)"
+    },
+    {
+      "id": 2040811,
+      "name": "Hơi thở",
+      "desc": "Khi bắt đầu lượt tiếp theo sau khi sử dụng kĩ năng này, nhận 1 [NebulizerInhale] (1 lần mỗi lượt)\n- Nếu tiêu diệt kẻ địch bằng kĩ năng này, nhận thêm [NebulizerInhale] bằng số lượng mục tiêu đã tiêu diệt\n- Nếu tiêu diệt đồng minh bằng kĩ năng này, nhận thêm [NebulizerInhale] bằng (Số lượng mục tiêu đã tiêu diệt × 2)\n- Giá trị này sẽ được tích lũy trong suốt trận chiến này"
+    },
+    {
+      "id": 2020811,
+      "name": "Hơi thở",
+      "desc": "Khi bắt đầu lượt tiếp theo sau khi sử dụng kĩ năng E.G.O này, nhận 1 [NebulizerExhale] (1 lần mỗi lượt)\n- Giá trị này sẽ được tích lũy trong suốt trận chiến này\n\nKhi bắt đầu trận đấu, mỗi khi gây 10 số lượt [Breath] cho đồng minh nhờ hiệu ứng [NebulizerExhale], nhận 1 [NebulizerExhale]\n\nKhi kết thúc lượt, hồi máu cho (Số lượng Cộng hưởng tối đa) đồng minh theo thứ tự tỉ lệ máu hiện tại thấp nhất, lượng hồi phục bằng ([NebulizerExhale] giá trị)% Máu tối đa (Tối đa 6 người)\n- Nếu Cường độ [Breath] của mục tiêu được hồi phục từ 20 trở lên, kích hoạt hồi phục thêm 1 lần nữa"
+    },
+    {
+      "id": 2090811,
+      "name": "Trò chơi thiêu đốt",
+      "desc": "Khi mục tiêu có số lượt [Combustion] từ 10 trở lên chết, chia đều số lượt [Combustion] của mục tiêu đó để gây lên toàn bộ kẻ địch, đồng thời hồi 8 Tinh thần cho bản thân (Trong Trận chiến tập trung sẽ chia đều cho tất cả bộ phận. Lượng gây ra tối đa trên mỗi mục tiêu: 3, kích hoạt 2 lần mỗi lượt)\n- Nếu Tinh thần bản thân đã ở mức tối đa, hồi 5 Tinh thần cho 1 đồng minh có Tinh thần thấp nhất thay thế"
+    },
+    {
+      "id": 2030811,
+      "name": "Bùa suy nhược",
+      "desc": "Khi kĩ năng bản thân trúng đích, nếu mục tiêu có [Burst] từ 15 trở lên hoặc gây ra sát thương bạo kích, gây 1 [DefenseDown] (Tối đa 6)\n- Khi hiệu ứng bị động này được áp dụng, sẽ không kích hoạt trùng lặp với quà E.G.O Búp bê gỗ cũ."
+    },
+    {
+      "id": 2080911,
+      "name": "Cổ độc phản sát",
+      "desc": "Mỗi khi kĩ năng tấn công của bản thân gây Cường độ [Sinking], số lượt [Sinking] hoặc Trầm luân đặc biệt, nhận 1 [AttackUp] vào lượt tiếp theo (Tối đa 2)\n- Nếu số Cộng hưởng hoàn toàn từ 3 trở lên, nhận 1 [AttackUp] vào lượt tiếp theo thay cho hiệu ứng trên (Tối đa 3)"
+    },
+    {
+      "id": 2060811,
+      "name": "Khóc lệ",
+      "desc": "Khi kết thúc kĩ năng tấn công, phản đòn của bản thân, nếu mục tiêu chết\n- Nhận 2 [Agility] vào lượt tiếp theo (1 lần mỗi lượt)\n- Gây 1 tăng sát thương thuộc tính vật lý/tội lỗi của kĩ năng đó cho toàn bộ đồng minh bao gồm cả bản thân vào lượt tiếp theo (1 lần mỗi lượt)\n- Gây 1 [Reduction] lên toàn bộ kẻ địch vào lượt tiếp theo (1 lần mỗi lượt)\n\nKhi bản thân chết\n- Gây 1 [ShamrockDamageUp], [PenetrateDamageUp] cho toàn bộ đồng minh vào lượt tiếp theo (1 lần mỗi lượt)\n- Gây 1 [Reduction] lên toàn bộ kẻ địch vào lượt tiếp theo (1 lần mỗi lượt)"
+    },
+    {
+      "id": 2100811,
+      "name": "Khóc lệ",
+      "desc": "- Kết thúc lượt, nếu lượt này bản thân đang có hiệu ứng bất lợi hoặc HP hay Tinh thần bị giảm, hồi phục 5 Tinh thần.\n- Nếu đồng minh hoặc bản thân chết, lượt sau cấp 1 [Vulnerable] cho tất cả kẻ địch (Tối đa 1 lần mỗi lượt)"
+    },
+    {
+      "id": 2030911,
+      "name": "Mạch Thích ứng Arcana",
+      "desc": "Trong trận chiến, mỗi khi tiêu hao tổng cộng 10 số lần [Charge], nhận 1 [Charge]\n- Nếu đã nhận [Charge] từ việc tiêu hao số lần [Charge] của bản thân thì không cộng dồn\n- Với mỗi 1 [Charge] của bản thân, lượng sát thương của Kĩ năng tấn công cơ bản tiêu hao số lần [Charge] của bản thân +5% (Tối đa 25%)\n\nNếu là Lobotomy E.G.O::Nhân danh Tình yêu và Thù hận Don Quixote, thêm 1 Kĩ năng 3"
+    },
+    {
+      "id": 2050811,
+      "name": "Máy gõ nhịp",
+      "desc": "Bắt đầu lượt, nhận 1 [AttackDmgUp] nếu là lượt lẻ, nhận 1 [Protection] nếu là lượt chẵn\n- Không kích hoạt cộng dồn với E.G.O Gift Máy gõ nhịp (Nếu Gift tương ứng đang ở trạng thái cường hóa thì nhận giá trị sau khi trừ đi giá trị của hiệu ứng này)\n- Không gây ảnh hưởng lên hiệu ứng cấp cho đồng minh khác\n\nKhi sử dụng Kĩ năng E.G.O, lượt sau nhận 1 [AccumulatedPastSinner] (1 lần mỗi trận chiến)\n- Sau đó, mỗi khi kết thúc lượt nhận 1 [AccumulatedPastSinner]"
+    },
+    {
+      "id": 2020911,
+      "name": "Bác sĩ",
+      "desc": "Bắt đầu lượt, hồi phục HP cho bản thân và 1 đồng minh có tỉ lệ HP hiện tại thấp nhất một lượng bằng ([CuredFilm] số lượng)% HP tối đa của bản thân\n- Nếu HP của bản thân đang tối đa, hồi phục HP cho 2 đồng minh khác có tỉ lệ HP hiện tại thấp nhất thay thế\n- Nếu đối tượng được hồi phục có HP từ 25% trở xuống hoặc đang trong trạng thái Hỗn loạn, lượng hồi phục từ hiệu ứng này tăng 1.5 lần\n\nKết thúc lượt, nếu Kĩ năng E.G.O cuối cùng Faust sử dụng trong trận chiến này là Mệnh lệnh: Tan chảy, lượng giảm khi kết thúc lượt của hiệu ứng [CuredFilm] đổi thành 1\n- Hiệu ứng này áp dụng ngay lập tức từ lượt sử dụng Kĩ năng E.G.O",
+      "summary": "Bắt đầu lượt, hồi phục HP cho bản thân và đồng minh có tỉ lệ HP hiện tại thấp nhất"
+    },
+    {
+      "id": 2060911,
+      "name": "Hứng thú túy tửu, đạt đến cực hạn tại đây",
+      "desc": "Kết thúc lượt, nhận 1 tài nguyên E.G.O có lượng dự trữ thấp nhất trong số các tài nguyên E.G.O (Lười biếng, U sầu, Kiêu ngạo) bị tiêu hao khi sử dụng Thà Rằng Ta Làm Hong Lu\n\nTrong trận chiến này, với mỗi 1 giá trị [Cianjing] · [SeniorCianjing] bị giảm hoặc tiêu hao, lượng sát thương +1% (Tối đa 15%)",
+      "summary": "Nhận tài nguyên E.G.O khi kết thúc lượt\nLượng sát thương tăng theo giá trị giảm hoặc tiêu hao của Huyền Kinh · Đại Long"
+    },
+    {
+      "id": 2081011,
+      "name": "Vũ điệu Biển sâu",
+      "desc": "- Bắt đầu trận chiến, nếu chỉ có 1 kẻ địch, Sức mạnh Đối đầu của Kĩ năng tấn công nằm ngoài cùng bên trái trên bảng điều khiển của bản thân +1, lượng sát thương khi trúng đích sau khi thắng Đối đầu +11.5% (Bao gồm cả Kĩ năng E.G.O)\n- Trong lượt quay lại hoặc hủy trạng thái chờ, giá trị Tốc độ tối thiểu/tối đa của bản thân +1, Sức mạnh Đối đầu +1"
+    },
+    {
+      "id": 2120911,
+      "name": "Du Hiệp",
+      "desc": "Khi thỏa mãn các điều kiện dưới đây, nhận [MlynarWaiting]\n- Nhận 1 với mỗi 3 sát thương HP của bản thân\n- Nhận 1 với mỗi 5 sát thương Khiên của bản thân\n- Nếu đồng minh khác bị Hỗn loạn, nhận 10 mỗi người\n- Nếu đồng minh khác chết, nhận 20 mỗi người\n\nBắt đầu lượt, nếu đang trong trạng thái Hỗn loạn do sát thương và có 40 [MlynarWaiting], cố định tất cả kháng tính thành 2 và giải trừ trạng thái Hỗn loạn của bản thân trong lượt này (1 lần mỗi trận chiến, ngoại trừ Hỗn loạn cưỡng chế)"
+    },
+    {
+      "id": 2110911,
+      "name": "Trò chơi trừng phạt nguyền rủa",
+      "desc": "Khi thắng Đối đầu, gây 4 sát thương Đố kỵ lên mục tiêu\n- Nếu HP của mục tiêu dưới 33% hoặc HP của bản thân dưới 33%, lượt sau cấp 1 [ResultReduction] (1 lần mỗi lượt)\n- Trong lượt E.G.O Gift <noparse>Búp bê Nguyền rủa</noparse> kích hoạt, không cấp [ResultReduction] bằng hiệu ứng bị động này",
+      "summary": "Khi thắng Đối đầu, gây sát thương Đố kỵ\nKhi thỏa mãn điều kiện, lượt sau cấp [ResultReduction]"
+    },
+    {
+      "id": 2070911,
+      "name": "Kết nối Mạch",
+      "desc": "Khi kĩ năng cấp số lượng [Combustion] hoặc Bỏng đặc biệt hoặc kĩ năng thuộc tính Đố kỵ của bản thân trúng đích kẻ địch, cấp thêm số lượng [Combustion] cho mục tiêu một lượng bằng một nửa số lượng đồng xu của kĩ năng đó\n(Làm tròn lên, 3 lần mỗi lượt)"
+    },
+    {
+      "id": 2010811,
+      "name": "Đan dệt bầu trời",
+      "desc": "Nếu mục tiêu đang có [ThreeMirrorpartYiSang], lượng số lượng [Combustion] và [Sinking] cấp bằng Kĩ năng tấn công cơ bản của bản thân +1 (Cấp thêm tối đa 8 mỗi lượt)\nVới mỗi kẻ địch chết bởi sát thương [Combustion], lượt sau nhận 1 <noparse>Tăng lượng sát thương</noparse> thuộc tính vật lý ngẫu nhiên (Tối đa 3 lần mỗi lượt, nhận ngẫu nhiên mỗi khi nhận)",
+      "summary": "Tăng lượng số lượng [Combustion] · [Sinking] cấp cho kẻ địch đang có [ThreeMirrorpartYiSang]\nVới mỗi kẻ địch chết bởi sát thương [Combustion], nhận <noparse>Tăng lượng sát thương</noparse> thuộc tính vật lý ngẫu nhiên"
+    },
+    {
+      "id": 2040911,
+      "name": "Tam Đồ",
+      "desc": "Kết thúc kĩ năng tấn công, nếu kẻ địch bị Hỗn loạn hoặc chết, lượt sau nhận 1 [CriticalDamageUp] (3 lần mỗi lượt)",
+      "summary": ""
+    },
+    {
+      "id": 2100911,
+      "name": "Đó là, nhịp điệu",
+      "desc": "Bắt đầu lượt, nhận 2 [ThatIsRhythm]\n\nKhi tiêu diệt mục tiêu, hồi phục HP cho bản thân một lượng bằng 5% HP tối đa, và hồi phục 5 Tinh thần (1 lần mỗi lượt)\n- Nếu tiêu diệt bằng Kĩ năng E.G.O - Hòa âm, hiệu ứng trên được áp dụng gấp đôi\n\nNếu Tinh thần của bản thân bị giảm trong lượt này, khi kết thúc lượt hồi phục Tinh thần của bản thân một lượng bằng (4 + Tổng số lượng [Combustion] và [Laceration] của toàn bộ kẻ địch ÷ 10) (Tối đa 10, làm tròn xuống)"
+    },
+    {
+      "id": 2021011,
+      "name": "Mồi lửa không tắt",
+      "desc": "Hiệu ứng này áp dụng ngay lập tức sau khi kết thúc Kĩ năng E.G.O\n\nVới mỗi 10 [Combustion] của bản thân, lượng [Combustion] cấp cho kẻ địch bằng hiệu ứng Kĩ năng tấn công cơ bản · hiệu ứng Đồng xu +1 (Tối đa 2, ngoại trừ Bỏng đặc biệt)\n\nNếu sử dụng kĩ năng 「Hồng Viêm Sát Cảm Ứng Tối Đa 【Xói Mòn Suy Thoái】」, khi kết thúc đòn tấn công đó sẽ không chết mà hồi phục HP một lượng bằng 40% HP tối đa, lượt sau nhận 2 [HitDamageUp], 1 [CrimsonDamageUp] (Kích hoạt 1 lần mỗi trận chiến)"
+    },
+    {
+      "id": 2090911,
+      "name": "Sự khác biệt giữa Ngài và Bướm",
+      "desc": "Nếu Kĩ năng tấn công cơ bản của bản thân đặt ở phía ngoài cùng bên trái trên bảng điều khiển là kĩ năng thuộc tính Phẫn nộ hoặc Sắc dục,\nkhi kết thúc tấn công, gây một lượng sát thương thuộc tính tội lỗi của kĩ năng đó lên 1 kẻ địch ngẫu nhiên bằng 30% lượng sát thương gây ra cho mục tiêu chính bởi kĩ năng đó (Sát thương tối đa 30, trường hợp Trận chiến tập trung sẽ tính theo bộ phận)\n\nNếu đã gây sát thương tối đa bằng hiệu ứng trên, lượt sau nhận 1 <noparse>Tăng lượng sát thương</noparse> thuộc tính tội lỗi tương ứng, và hiệu ứng trên sẽ không kích hoạt trong 2 lượt."
+    },
+    {
+      "id": 2010212,
+      "name": "Tàn lửa",
+      "desc": "<style=\"highlight\">Khi sử dụng kĩ năng thuộc tính Phẫn nộ hoặc kĩ năng cấp số lượng · số lần [Combustion], nếu tổng [Combustion] của tất cả đối tượng bị tấn công từ 6 trở lên, Sức mạnh Đối đầu +1</style>\n\nKhi thắng Đối đầu, cấp (Số lượng <style=\"highlight\">Cộng hưởng Phẫn nộ × 2</style>) [Combustion] cho <style=\"highlight\">mục tiêu chính</style> (<style=\"highlight\">Tối đa 8</style> mỗi kĩ năng)",
+      "summary": "Tăng Sức mạnh Đối đầu\nCấp [Combustion] khi thỏa mãn điều kiện"
+    },
+    {
+      "id": 2050911,
+      "name": "Giọt rượu đọng trên mũi kiếm",
+      "desc": "[AlwaysUseEGOPassive2050911]\n\nKhi Kĩ năng cơ bản tấn công trúng đích, cấp 2 [Laceration] cho mục tiêu (1 lần mỗi kĩ năng)\n\nBản sắc này được tính là Bản sắc cấp [Laceration] · [Breath]\n- Do hiệu ứng này, Kĩ năng cơ bản được tính là kĩ năng cấp [Laceration] · [Breath]\n\n[WhenUseEGOPassive]\n\nKhi đồng minh chết, lượt sau nhận 1 [AlcoholKimPersonal]\n- Nếu đồng minh chết thuộc Kiếm Khế, nhận 2 [AlcoholKimPersonal] thay thế\n\nBắt đầu lượt, nếu bản thân có [AlcoholKimPersonal], tiến vào trạng thái [GhostKimPersonal]\n- Nếu là Thủ lĩnh Kiếm Khế Meursault, nhận thêm [RootSoupKimPersonal]\n\nBắt đầu lượt, nếu bản thân không có [AlcoholKimPersonal], các hiệu ứng [GhostKimPersonal] · [GrudgePersonal] · [RootSoupKimPersonal] của bản thân sẽ biến mất\n\nKhi nhận sát thương khiến HP về 0 trong lúc đang có [AlcoholKimPersonal], hồi phục HP một lượng bằng ([AlcoholKimPersonal] số lượng × 25)% HP tối đa và [AlcoholKimPersonal] biến mất (1 lần mỗi trận chiến, Kĩ năng bị động của Bản sắc được ưu tiên kích hoạt)\n- Nếu đang trong trạng thái Hỗn loạn, giải trừ trạng thái Hỗn loạn (ngoại trừ Hỗn loạn cưỡng chế)",
+      "summary": "Nhận [AlcoholKimPersonal]"
+    }
+  ]
+}

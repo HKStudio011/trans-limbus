@@ -1,0 +1,203 @@
+{
+  "dataList": [
+    {
+      "id": "ExaminationOfQiu",
+      "name": "Một tia hy vọng",
+      "desc": "Không chiến đấu hết sức.\n- Cấp độ Tấn công và Phòng thủ cơ bản giảm 35\n- Khi Tấn công một chiều vào mục tiêu, Sát thương +30%",
+      "summary": ""
+    },
+    {
+      "id": "BurstStop",
+      "name": "Chú Sát 【Vật Động】",
+      "desc": "- Giá trị cơ bản: 4\n- Chú Sát\n- Khi Vết rách kích hoạt trong trạng thái có Thúc phược từ 3 trở lên, giảm 1\n- Khi giá trị giảm, đẩy mốc Đoạn trường thêm 10\n- Khi giá trị chạm 0, đẩy mốc Đoạn trường theo Uy lực Vết rách rồi biến mất\n- ※ Hiệu ứng này không được làm mới",
+      "summary": ""
+    },
+    {
+      "id": "BurstSuppress",
+      "name": "Chú Sát 【Chế Trữu】",
+      "desc": "Giá trị cơ bản: 10\n- Chú Sát\n- Khi các Chú Sát khác giảm theo điều kiện, giá trị giảm 1 (Tối đa 4 mỗi lượt)\n- Khi giá trị chạm 0, nhận Giảm cấp độ tấn công 6 ở lượt kế tiếp rồi biến mất\n- ※ Hiệu ứng này không được làm mới",
+      "summary": ""
+    },
+    {
+      "id": "BurstWave",
+      "name": "Chú Sát 【Tức Giảm】",
+      "desc": "Giá trị cơ bản: 10\n- Chú Sát\nKhi Vết rách kích hoạt bởi người đặt, giảm 1.\n- Một Chú Sát ngẫu nhiên khác bản thân đang sở hữu sẽ giảm giá trị đi 1.\n- Khi giá trị chạm 0, biến mất\n- ※ Hiệu ứng này không được làm mới",
+      "summary": ""
+    },
+    {
+      "id": "Teaching",
+      "name": "Vấn Đáp",
+      "desc": "Giá trị tối đa: 3\n- Khi kết thúc lượt, hồi 5 Tinh thần\n- Khi Máu chạm 0 trong trận chiến, hồi đầy Máu (Kích hoạt theo số lần tương ứng)\n- Số lần kích hoạt: {0}",
+      "summary": ""
+    },
+    {
+      "id": "BurstWeakness",
+      "name": "Chú Sát 【Nhược Hóa】",
+      "desc": "Giá trị cơ bản: 5\n- Chú Sát\n- Khi tốc độ của mục tiêu cao hơn và chênh lệch tốc độ từ 5 trở lên, giảm 1 khi Vết rách kích hoạt lúc nhận sát thương.\n- Khi giá trị giảm, nhận Giảm cấp độ phòng thủ 1 vào lượt kế tiếp (Tối đa 1 mỗi lượt)\n- Khi giá trị chạm 0, nhận Giảm cấp độ phòng thủ 3, Thúc phược 1 vào lượt kế tiếp rồi biến mất\n- ※ Hiệu ứng này không được làm mới",
+      "summary": ""
+    },
+    {
+      "id": "Qiu_LowMorale",
+      "name": "Jia Chiou",
+      "desc": "- Giảm sút ý chí\n- Sát thương gây ra cho các mục tiêu trừ Hong Lu +10%",
+      "summary": ""
+    },
+    {
+      "id": "Qiu_Panic",
+      "name": "Jia Chiou",
+      "desc": "- Hoảng loạn\n- Sát thương gây ra cho các mục tiêu trừ Hong Lu +20%",
+      "summary": ""
+    },
+    {
+      "id": "QiuAndHonglu",
+      "name": "Trái tim chân thành của tôi...",
+      "desc": "- Uy lực cuối cùng của tất cả kỹ năng của Hong Lu +1\n- Khi thắng Đối kháng, hồi 5 Tinh thần cho đồng minh có Tinh thần thấp nhất (bao gồm cả bản thân)\n- Nếu đồng minh tử trận, các đồng minh còn lại nhận Tăng uy lực tấn công 1 vào lượt kế tiếp khi kết thúc lượt (1 lần mỗi lượt)",
+      "summary": ""
+    },
+    {
+      "id": "ProtectStance",
+      "name": "Tư thế phòng thủ",
+      "desc": "Giá trị tối đa: 2\nHiệu ứng này không cộng dồn, chỉ làm mới\nGiảm 1 khi kết thúc lượt\nNếu nhận được hiệu ứng này, áp dụng các hiệu ứng sau vào lượt kế tiếp\n- Nhận Bảo vệ 2\n- Chỉ số Khiêu khích ở mỗi ô kỹ năng của bản thân tăng 5",
+      "summary": ""
+    },
+    {
+      "id": "ZiluDebuff",
+      "name": "Ức chế Sát khí",
+      "desc": "- Cấp độ Tấn công và Phòng thủ cơ bản giảm 20",
+      "summary": ""
+    },
+    {
+      "id": "WitheredWood_LowMorale",
+      "name": "Cổ Mộc Hóa",
+      "desc": "- Giảm sút ý chí\n- Nhận Tăng sát thương 1, Mong manh 1, Vết rách Mong manh 1",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "WitheredWood_Panic",
+      "name": "Cổ Mộc Hóa",
+      "desc": "- Hoảng loạn\n- Nhận Tăng sát thương 2, Mong manh 2, Vết rách Mong manh 2",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "EvilHeart_LowMorale",
+      "name": "Tà Tâm",
+      "desc": "- Giảm sút ý chí\nKhi Đối kháng với mục tiêu đang sở hữu Bùa chú điềm gở, Uy lực Đối kháng +2\nKhi bắt đầu lượt, nhận Tăng sát thương 2, Mong manh 1",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "EvilHeart_Panic",
+      "name": "Tà Tâm",
+      "desc": "- Hoảng loạn\nKhi Đối kháng với mục tiêu đang sở hữu Bùa chú điềm gở, Uy lực Đối kháng +3\nKhi bắt đầu lượt, nhận Tăng sát thương 3, Mong manh 2",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "DeepEvilHeart_LowMorale",
+      "name": "Tà Tâm Sâu Thẳm",
+      "desc": "- Giảm sút ý chí\nKhi Đối kháng với mục tiêu đang sở hữu Bùa chú điềm gở, Uy lực Đối kháng +2\nKhi bắt đầu lượt, nhận Tăng sát thương 3, Mong manh 1",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "DeepEvilHeart_Panic",
+      "name": "Tà Tâm Sâu Thẳm",
+      "desc": "- Hoảng loạn\nKhi Đối kháng với mục tiêu đang sở hữu Bùa chú điềm gở, Uy lực Đối kháng +3\nKhi bắt đầu lượt, nhận Tăng sát thương 4, Mong manh 2",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "OminousTalisman",
+      "name": "Lá Bùa Xui Xẻo",
+      "desc": "- Giá trị cơ bản: 10\n- Khi giá trị trở thành 0, nhận sát thương hệ Phàm ăn và sát thương Tinh thần bằng Uy lực Vết rách rồi biến mất (Sát thương Tinh thần: Tối đa 20)\n- Khi Lá Bùa Xui Xẻo giảm đi, nhận Uy lực Vết rách bằng giá trị đã giảm, và Số lần Vết rách tăng thêm một nửa giá trị đó (Làm tròn xuống)\n※ Hiệu ứng này không được làm mới",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "RepressedMurderousIntendTwo",
+      "name": "Sát Khí Bị Đè Nén",
+      "desc": "Cấp độ Tấn công và Phòng thủ cơ bản giảm 5",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "UncontrolledChargeAxe_LowMorale",
+      "name": "Nghịch Lưu Mạch Sạc",
+      "desc": "- Suy giảm nhuệ khí\nKhi tiến hành đối đầu với đối tượng có Vết rách, nhận Số lần Sạc 3, Mong manh 1 (2 lần mỗi lượt)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "UncontrolledChargeAxe_Panic",
+      "name": "Nghịch Lưu Mạch Sạc",
+      "desc": "- Hoảng loạn\nKhi tiến hành đối đầu với đối tượng có Vết rách, nhận Số lần Sạc 5, Tăng lượng sát thương 1, Mong manh 2 (2 lần mỗi lượt)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MadFeather",
+      "name": "Lông Vũ Mắt",
+      "desc": "- Giá trị tối đa: 10\n- Khi kết thúc lượt, nhận Số lần Vết rách, Số lần Xuất huyết bằng (Giá trị ÷ 2) (Làm tròn xuống)\n- Khi kết thúc lượt, giá trị giảm 1",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MadFeather_LowMorale",
+      "name": "Lông Vũ Hai Lưỡi",
+      "desc": "- Suy giảm nhuệ khí\nKhi bắt đầu lượt, nhận Mong manh 1, Tăng hồi phục thể lực 1. Khi đòn tấn công của bản thân trúng đích, gây Vết rách 1, Xuất huyết 1",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MadFeather_Panic",
+      "name": "Lông Vũ Hai Lưỡi",
+      "desc": "- Hoảng loạn\nKhi bắt đầu lượt, nhận Mong manh 2, Tăng hồi phục thể lực 2. Khi đòn tấn công của bản thân trúng đích, gây Vết rách 1, Xuất huyết 1",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "JarMaster_LowMorale",
+      "name": "Chỉ Thị Đột Kích",
+      "desc": "- Suy giảm nhuệ khí\nKhi bắt đầu lượt, nhận Mong manh 1 và gây Tăng lượng sát thương 1 cho toàn bộ đồng minh",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "JarMaster_Panic",
+      "name": "Chỉ Thị Đột Kích",
+      "desc": "- Hoảng loạn\nKhi bắt đầu lượt, nhận Mong manh 2 và gây Tăng lượng sát thương 2 cho toàn bộ đồng minh",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "DeepAngry_LowMorale",
+      "name": "Uất Hận",
+      "desc": "- Suy giảm nhuệ khí\nKhi tiến hành đối đầu với đối tượng có Lá Bùa Xui Xẻo, Uy lực đối đầu +2\nKhi bắt đầu lượt, nhận Tăng lượng sát thương 2, Mong manh 1",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "DeepAngry_Panic",
+      "name": "Uất Hận",
+      "desc": "- Hoảng loạn\nKhi tiến hành đối đầu với đối tượng có Lá Bùa Xui Xẻo, Uy lực đối đầu +3\nKhi bắt đầu lượt, nhận Tăng lượng sát thương 3, Mong manh 2",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "TakeBreath_LowMorale",
+      "name": "Nghỉ Một Lát",
+      "desc": "- Suy giảm nhuệ khí\nKhi bắt đầu lượt, nhận Tăng cấp độ phòng thủ 2 và Uy lực Hơi thở giảm 2",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "TakeBreath_Panic",
+      "name": "Nghỉ Một Lát",
+      "desc": "- Hoảng loạn\nKhi bắt đầu lượt, nhận Tăng cấp độ phòng thủ 5 và Uy lực Hơi thở giảm 5",
+      "summary": "",
+      "undefined": "-"
+    }
+  ]
+}

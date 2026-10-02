@@ -1,0 +1,54 @@
+{
+    "dataList": [
+        {
+            "id": 838101,
+            "name": "Lễ hội Ảo ảnh",
+            "desc": "Mỗi lần ban hiệu ứng buff có lợi cho đồng minh khác thông qua hiệu ứng kĩ năng, nhận 1 [FestivalFever] (Mỗi loại 1 lần)\n\nKhi bắt đầu lượt, nhận [FestivalFever] bằng số lượng đồng minh khác ngoại trừ bản thân (Tối đa 3)\nKhi kết thúc lượt, hồi phục Tinh thần bằng số lượng [FestivalFever] của bản thân (Không kích hoạt khi Tinh thần ở mức -45)\n\nKhi kết thúc lượt, nếu [FestivalFever] là 10, sử dụng kĩ năng mạnh mẽ vào lượt tiếp theo (Tuy nhiên, không kích hoạt nếu hiệu ứng \"Cuộc diễu hành sẽ lặp lại mãi mãi\" đang được kích hoạt)"
+        },
+        {
+            "id": 838102,
+            "name": "Nhân vật chính của Cuộc diễu hành",
+            "desc": "Khi bắt đầu lượt, nhận 8 [Protection]\n- Mỗi khi đồng minh tử trận, giá trị nhận được khi bắt đầu lượt giảm đi 1\nKhi kết thúc lượt, nếu không nhận sát thương vào máu trong lượt này, nhận 2 [Agility] vào lượt tiếp theo."
+        },
+        {
+            "id": 838103,
+            "name": "Cuộc diễu hành sẽ lặp lại mãi mãi",
+            "desc": "Khi kết thúc lượt, nếu giá trị [IncompleteParade] từ 5 trở lên, sử dụng kĩ năng mạnh mẽ vào lượt tiếp theo"
+        },
+        {
+            "id": 838104,
+            "name": "Cuộc diễu hành Hạnh phúc",
+            "desc": "Cường hóa quy luật hành động khi HP của bản thân lần đầu tiên xuống dưới 66% giá trị tối đa\n\nKhi thay đổi quy luật\n- Tốc độ tối thiểu/tối đa tăng 1\n- Hiệu ứng [BloomingThorns] của bản thân đổi thành [BloomingThorns_2nd]\n- Mỗi lượt, toàn bộ đồng minh nhận 3 [FestivalFever], 3 [BloomingThorns]"
+        },
+        {
+            "id": 838105,
+            "name": "Cuộc diễu hành Hạnh phúc Vĩnh cửu",
+            "desc": "Cường hóa quy luật hành động khi HP của bản thân lần đầu tiên xuống dưới 33% giá trị tối đa\n\nKhi thay đổi quy luật\n- Tốc độ tối thiểu/tối đa tăng 2\n- Sử dụng kĩ năng mạnh mẽ, sau đó các kháng Trảm, Đâm, Đập bị yếu đi (+0.5)\n- Hiệu ứng [BloomingThorns], [BloomingThorns_2nd] của bản thân đổi thành [BloomingThorns_3rd]\n- Mỗi lượt, toàn bộ đồng minh nhận 5 [FestivalFever], 5 [BloomingThorns]"
+        },
+        {
+            "id": 838106,
+            "name": "Không được kết thúc như thế này",
+            "desc": "Khi kết thúc lượt, nếu không còn đồng minh nào còn sống và không còn đồng minh nào có thể xuất hiện thêm, tiêu thụ toàn bộ [FestivalFever] và [IncompleteParade] để rơi vào trạng thái Hoảng loạn vào lượt tiếp theo (Nếu không có đồng minh nào còn sống khi bắt đầu lượt, kích hoạt ngay lập tức)\n\nLượt tiếp theo sau khi Hoảng loạn, triệu hồi 2 Huyết quỷ quyến thuộc."
+        },
+        {
+            "id": 838107,
+            "name": "Huyết tiệc",
+            "desc": "Nếu nhân vật này xuất hiện trong trận chiến hoặc nằm trong danh sách kẻ địch xuất hiện, kể từ lượt 1, [BloodDinner] sẽ tăng thêm bằng lượng sát thương [Laceration] mà toàn bộ nhân vật phải nhận. Mỗi khi nhân vật này xuất hiện trong trận chiến, làm hiển lộ rõ hơn những vết máu ẩn giấu rải rác trên chiến trường."
+        },
+        {
+            "id": 838108,
+            "name": "Cơn đói và Sự lão hóa",
+            "desc": "Khi bắt đầu trận chiến, nhận [StarvingDolcineaOne]"
+        },
+        {
+            "id": 838901,
+            "name": "Kỵ sĩ Mặt trăng trắng",
+            "desc": "Sát thương nhận vào -20%\nKhi thua Kháng cự, nhận 3 [Enhancement]"
+        },
+        {
+            "id": 838902,
+            "name": "Trận đấu nghẹt thở",
+            "desc": "Nếu số lần phân định Kháng cự với cùng một mục tiêu từ 10 lần trở lên, Sức mạnh Kháng cự khi phân định sẽ tăng hoặc giảm ngẫu nhiên một lượng bằng (Tổng số lần phân định Kháng cự ÷ 10). (Làm tròn xuống)"
+        }
+    ]
+}

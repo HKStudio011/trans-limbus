@@ -1,0 +1,53 @@
+{
+  "dataList": [
+    {
+      "id": 971108,
+      "name": "Hậu Lựa Chọn Hắc Thú",
+      "desc": "Những Hắc Thú vừa hoàn thành nhiệm vụ đang chia nhau những viên Mão Hoàn nhận được từ Hắc Thú Tiên Nhân.\n\n「Các ngươi là ai? Những kẻ chưa từng thấy qua...」\n\n「Chẳng lẽ là những con Thỏ mới gia nhập sao?」\n\n「...Khai mau danh tính.」",
+      "options": [
+        {
+          "message": "Nói rằng mình là lính mới và cho chúng xem Chân Thỏ.\n<size=75%><color=#a16a3b>Có thể chọn khi sở hữu Quà tặng E.G.O 「Chân Thỏ」</color></size>",
+          "messageDesc": "Khi chọn, nhận Quà tặng E.G.O Vết rách",
+          "result": [
+            "Khi cho xem Chân Thỏ, lũ Hắc Thú ngoan ngoãn đưa ra Mão Hoàn rồi rời khỏi đó."
+          ]
+        },
+        {
+          "message": "Nói rằng mình là những con Thỏ đã thực hiện nhiệm vụ ở nơi khác.",
+          "messageDesc": "Khi thành công kiểm tra ưu thế Phàm Ăn · Ngạo Mạn, nhận Quà tặng E.G.O Vết rách",
+          "result": [
+            ""
+          ]
+        },
+        {
+          "message": "Nói rằng mình chỉ là người qua đường.",
+          "messageDesc": "Không có hiệu ứng riêng biệt",
+          "result": [
+            "Thản nhiên đi ngang qua lũ Hắc Thú và rời khỏi đó."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 971109,
+      "name": "Chiếc Boombox đã thấy ở đâu đó",
+      "desc": "Các thành viên của Ngón Giữa mặc trang phục giống như đã thấy ở Đại Hồ dường như đang tìm kiếm ai đó và đang chặn đường.\n\nNếu cứ thế đi qua, có thể sẽ bị bắt.\n\nNhìn quanh, có thể thấy một chiếc boombox nằm trơ trọi ở một nơi hơi xa bọn chúng.\n\nLiệu nguồn gốc của âm nhạc luôn vang lên mỗi khi những kẻ đó xuất hiện có phải là từ chiếc boombox kia không.\n\nNếu vậy, nếu di chuyển nó sang chỗ khác và cho phát nhạc, có lẽ có thể dụ được các thành viên Ngón Giữa đang canh giữ con hẻm.",
+      "options": [
+        {
+          "message": "Mang chiếc boombox đi.",
+          "messageDesc": "Khi thành công kiểm tra ưu thế Phàm Ăn, nhận Quà tặng E.G.O Đập",
+          "result": [
+            ""
+          ]
+        },
+        {
+          "message": "Tìm đường khác để đi vòng.",
+          "messageDesc": "Không có hiệu ứng riêng biệt",
+          "result": [
+            "Chẳng có lý do gì để cố tình đi qua con đường mà bọn chúng đang chặn.\n\nCẩn thận rời khỏi đó và vòng sang đường khác."
+          ]
+        }
+      ]
+    }
+  ]
+}

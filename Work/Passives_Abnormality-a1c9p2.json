@@ -1,0 +1,147 @@
+{
+  "dataList": [
+    {
+      "id": 132203,
+      "name": "Tàn ảnh Chồng lấp",
+      "desc": "Khi bắt đầu màn chơi, nhận [TimeEntangleFour]\nKhi bắt đầu lượt đầu tiên của mỗi khuôn mẫu, nhận [TimeGapAb] bằng ([TimeEntangleDesc] giai đoạn × 400).\n(Mỗi giai đoạn [TimeEntangleDesc] thực hiện 1 lần)\n\nỞ giai đoạn [TimeEntangleDesc] 3, 4, <color=#ff6000><mark=#ff000040><b><u>nếu mất toàn bộ [TimeGapAb], khuôn mẫu sẽ thay đổi và bị Hoảng loạn trong lượt tiếp theo</u></b></mark></color>\n\nLượng máu, tinh thần, và lượng tiến tới mốc hoảng loạn mất đi do [Combustion], [Laceration], [Vibration], [Burst], [Sinking] -30%",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": 132204,
+      "name": "Vang vọng Tàn ảnh",
+      "desc": "Khi đồng xu của bản thân trúng đích, gây thêm sát thương Chém bằng (Sát thương cuối cùng của đồng xu đó ÷ 10) (Kích hoạt số lần bằng cấp độ [TimeEntangleDesc] của bản thân, sát thương này không gây Hoảng loạn)",
+      "summary": "Sát thương Chém bổ sung",
+      "undefined": "-"
+    },
+    {
+      "id": 132205,
+      "name": "Tàn ảnh Chém xuống từ Đa tầng Thời gian",
+      "desc": "Khi kết thúc kỹ năng tấn công, gây sát thương Chém bằng (Số lượng đồng xu Chém trúng chí mạng × 10) lên mỗi mục tiêu (Sát thương này không gây Hoảng loạn)\n\nKhi kết thúc kỹ năng tấn công, tiêu hao toàn bộ [Breath] vượt quá 20 mà bản thân đang sở hữu, áp dụng [PhantomIncision] lên mục tiêu tương đương với giá trị đã tiêu hao",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": 132208,
+      "name": "Địa Tuệ Tinh Đao: Bạt Đao",
+      "desc": "Sử dụng kỹ năng mạnh mẽ mỗi 4 lượt\n- Nếu chỉ số [PhantomIncisionTotal] của bản thân từ 50 trở lên, kỹ năng sử dụng sẽ được cường hóa",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "「...Thật đáng ghê tởm, một thanh kiếm tựa như dấu ấn tội lỗi.」"
+    },
+    {
+      "id": 132216,
+      "name": "「Ta sẽ tiếp chiêu ngươi vừa đủ thôi.」",
+      "desc": "Lượng sát thương cuối cùng gây ra cho mục tiêu sử dụng kỹ năng phòng thủ -50%\n\nSau mỗi 4 lượt, khi kết thúc lượt, nhận [Vulnerable] 2, [AttackDmgUp] 2 trong suốt trận chiến này (Tích lũy tối đa 2 lần mỗi trận)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": 132101,
+      "name": "Dây thần kinh sống - Giải trừ một phần lực ức chế",
+      "desc": "Khi tử trận, hủy bỏ toàn bộ kỹ năng trong lượt đó\nKhi hiệu ứng trên kích hoạt, nhận [SelfCharge] 10",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": 132102,
+      "name": "Sức sống ngoan cường",
+      "desc": "Mỗi 5 lượt, nhận Lá chắn tương đương với HP của bộ phận Đầu",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": 132103,
+      "name": "Sức sống lụi tàn",
+      "desc": "Sau khi sử dụng Cuộn Mình, nếu tiêu hao hết Lá chắn, tiêu hao toàn bộ [SelfCharge]\nTất cả bộ phận sẽ rơi vào trạng thái Hoảng loạn vào lượt tiếp theo",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": 132001,
+      "name": "Đốm lửa cuối cùng",
+      "desc": "Khi HP dưới 30%, số lượng [MRcAiBa] nhận được +1",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": 132002,
+      "name": "Thổi bùng đốm lửa",
+      "desc": "Khi phá hủy bộ phận Cánh, ban [MRcAiBb] cho kẻ tấn công cuối cùng tương ứng với số lượng [MRcAiBa] của bản thân, sau đó xóa [MRcAiBa] của mình.\n\nKhi sử dụng 「Hồng Viêm Sát」, nếu số lượng [MRcAiBa] bằng 0, sử dụng thêm 「Nhóm Lửa Mồi[TabExplain]」.",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": 132003,
+      "name": "Lửa Mồi Rực Cháy",
+      "desc": "Thay đổi các kỹ năng thuộc hệ khác thành hệ Phẫn nộ dựa trên số lượng [MRcAiBa].",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": 132004,
+      "name": "Hồng Viêm Đan Xen",
+      "desc": "Nếu bản thân có [MRcAiBa], các kỹ năng không phải hệ Phẫn nộ sẽ chuyển thành hệ Phẫn nộ tương ứng với giá trị đó.\n\nKhi kỹ năng trúng đích, ban [Combustion] tương ứng với số lượng kỹ năng hệ Phẫn nộ mà Ngài Bướm Hồng Viêm sử dụng trong lượt này.\n\nKhi kỹ năng trúng đích, hồi phục Máu bằng (Số lượng kỹ năng hệ Phẫn nộ Ngài Bướm Hồng Viêm sử dụng trong lượt này × 2).",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": 132005,
+      "name": "Tiếp tế Hỗ trợ",
+      "desc": "Khi phá hủy bộ phận Cánh, nhận +2 Tài nguyên E.G.O tất cả các hệ, hồi phục 15 Tinh thần cho toàn bộ Tội nhân.",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": 132006,
+      "name": "Cánh Rực Lửa - Giải trừ Một phần Lực Ức chế",
+      "desc": "Không nhận sát thương từ [Combustion].\n\nKhi kết thúc lượt, hồi phục Máu cho bản thể bằng (Số lượng [Combustion] bản thân đang sở hữu × 5).",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": 132501,
+      "name": "Chỉ thị được truyền qua thiết bị đầu cuối",
+      "desc": "Khi bắt đầu trận đấu, nhận lá chắn tương đương 20% Máu tối đa (duy trì trong suốt trận chiến này)\n\nKhi bắt đầu lượt\n- Nhận [IndexPrescript_Base_2nd] tùy theo cấp độ [UnlockBuff_Base]\n- <color=#ff6000><mark=#ff000040><b><u>Gán [IndexPrescriptTargetToPersonality] cho một kẻ địch ngẫu nhiên và ưu tiên tấn công kẻ đó</u></b></mark></color> (ngoại trừ một số mô thức nhất định)\n\nVới mỗi [BlessingOfIndexPrescriptEnemy], Sát thương gây ra lên mục tiêu có [IndexPrescriptTargetToPersonality] +2.5% (Tối đa 20%)\n- Nếu [BlessingOfIndexPrescriptEnemy] đạt 9, thay vào đó Sát thương gây ra lên tất cả mục tiêu +30%",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": 132502,
+      "name": "Ý nghĩa của Chỉ thị",
+      "desc": "Trong lượt này nếu <color=#ff6000><mark=#ff000040><b><u>đã thực thi [IndexPrescript_Base_2nd],</u></b></mark></color>\nKhi kết thúc lượt, hồi 15 Tinh thần, nhận thêm ([UnlockBuff_Base] cấp độ + 1) [BlessingOfIndexPrescriptEnemy] (1 lần mỗi lượt)\n\nTrong lượt này nếu <color=#ff6000><mark=#ff000040><b><u>không thể thực thi [IndexPrescript_Base_2nd],</u></b></mark></color>\nKhi kết thúc lượt, nhận 1 [PressureOfPrescript], 5 [KarmaOfIndexStudent]\n- Nếu không có [UnlockBuff_Base], nhận 1 [BlessingOfIndexPrescriptEnemy] khi kết thúc lượt\n- Nếu [BlessingOfIndexPrescriptEnemy] đạt 9, không nhận [KarmaOfIndexStudent]\n- Nếu ở trạng thái Khai hoa [TabExplain] E.G.O::Đại diện, lượng [KarmaOfIndexStudent] nhận được tăng gấp đôi",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": 132503,
+      "name": "Giải phóng",
+      "desc": "Khi kết thúc lượt, nếu [BlessingOfIndexPrescriptEnemy] đạt 3/6/9 hoặc Máu dưới 90%/75%/60%,\n- Nhận [UnlockBuff_1]/[UnlockBuff_2]/[UnlockBuff_3]\n- Tinh thần tăng lên 45\n- <color=#ff6000><mark=#ff000040><b><u>Tiêu hao toàn bộ [PressureOfPrescript] đang có, giải trừ Hoảng loạn</u></b></mark></color>\n- Vào lượt tiếp theo sau khi lần đầu nhận được [UnlockBuff_Base], nhận 1 [BlessingOfIndexPrescriptEnemy]\n\nKhi nhận được [UnlockBuff_Base] dựa trên điều kiện Máu,\n- Nhận (Lượng Tinh thần tăng thêm ÷ 15) [KarmaOfIndexStudent]\n- Nếu [BlessingOfIndexPrescriptEnemy] ít hơn 3/6/9, thay đổi thành 3/6/9\nVới mỗi 1 giá trị tăng thêm, nhận 1 [DefenseDown], 2 [KarmaOfIndexStudent] vào đầu lượt tiếp theo\n\nTrong lượt sử dụng đòn tấn công mạnh, Tốc độ tối đa và tối thiểu +10",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "“Người ta nói rằng thanh kiếm và dải lụa mà Chỉ thị ban tặng, chỉ khi Chỉ thị được thực thi thì sức mạnh của chúng mới được giải phóng và hiện rõ.”"
+    },
+    {
+      "id": 132504,
+      "name": "Khai hoa E.G.O::Đại diện",
+      "desc": "Khi bắt đầu lượt, nếu có [UnlockBuff_Base] và Tinh thần từ 25 trở lên\nTiêu hao 15 Tinh thần để tiến vào trạng thái Khai hoa [TabExplain] E.G.O::Đại diện, đồng thời giải trừ Hoảng loạn\n- Trong trạng thái này, kháng tính thay đổi. Nhận [Blandishment_Enemy]\n- Khi bắt đầu lượt nếu Tinh thần từ 0 trở xuống, trạng thái Khai hoa [TabExplain] E.G.O::Đại diện bị giải trừ",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": 132505,
+      "name": "Thế Trận Xóa Sổ",
+      "desc": "Khi Vespa xuất hiện trên chiến trường,\n- Nếu xuất hiện tại lượt nhất định và cấp độ [UnlockBuff_Base] thấp hơn 2, nhận [UnlockBuff_3], hồi Tinh thần lên 45 và giải trừ Hoảng loạn\n- Nhận [Blandishment_Shin_Enemy] và lá chắn tương đương 50% Máu tối đa (duy trì trong suốt trận chiến này)\n- Hiệu ứng tiêu hao [PressureOfPrescript] của nội tại 「Giải phóng [TabExplain]」 bị vô hiệu hóa\n- [PressureOfPrescript] chuyển thành [PressureOfPrescript_2nd] và tăng đến giá trị tối đa\n- Khi bắt đầu lượt, nhận 1 [PressureOfPrescript_2nd]\n- Kể từ đó, Tinh thần sẽ không giảm xuống dưới 0\n\nKhi Máu xuống dưới 20%, [PressureOfPrescript_2nd] tăng đến giá trị tối đa",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "「N-người nguy hiểm quá... Có l-lẽ tôi sẽ không thể thực hiện được Chỉ thị mất.」"
+    },
+    {
+      "id": 132230,
+      "name": "Hồi phục Hoảng loạn",
+      "desc": "Khi kết thúc lượt, nếu đang ở trạng thái Hoảng loạn, Điểm tinh thần trở thành 30.",
+      "summary": "",
+      "undefined": "-"
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "dataList": [
+    {
+      "id": 860501,
+      "name": "Nhìn rõ tàn ảnh chân dung",
+      "desc": "Nếu ô kỹ năng kết nối với Bức chân dung của Chủ nhân, tạo ra bước sóng cùng màu với Bức chân dung"
+    },
+    {
+      "id": 860502,
+      "name": "Loại bỏ Khách không mời",
+      "desc": "Khi có Bức chân dung\n- Khi kết thúc lượt, nếu đã trôi qua 3 lượt kể từ khi Bức chân dung xuất hiện\n- Gây [UninvitedGuest] cho kẻ địch có thứ tự thiết lập nhanh nhất mà chưa có [UninvitedGuest]\n- Đốt cháy mọi Bức chân dung. Gây [Sinking] và tăng số lần [Sinking] cho mọi kẻ địch bằng 2 lần số Bức chân dung giả đã đốt. Nhận [AttackUp], [Protection] vào lượt kế tiếp"
+    },
+    {
+      "id": 860503,
+      "name": "Săn đuổi Khách không mời",
+      "desc": "Nếu mục tiêu có [UninvitedGuest], Sức mạnh đối đầu +1, Sát thương gây ra +20%"
+    },
+    {
+      "id": 860507,
+      "name": "Ôi, thưa Chủ nhân...",
+      "desc": "Khi có Bức chân dung, kháng Thuộc tính và kháng Kiểu tấn công giảm 0.5 và nhận [Protection] 8.\nNếu kẻ địch tiêu diệt Bức chân dung của Chủ nhân, gây [UninvitedGuest], trong lượt kế tiếp, kháng vật lý của bản thân tăng 0.5 và nhận 5 Mong manh."
+    },
+    {
+      "id": 860505,
+      "name": "Ngươi cũng là một trong lũ Khách không mời đúng chứ?",
+      "desc": "Nếu xuất hiện kẻ địch sở hữu [UninvitedGuest], mỗi khi bản thân mất 10% Máu, gây 1 [UninvitedGuest] cho kẻ địch chưa có [UninvitedGuest] (Tối đa 4 người)"
+    },
+    {
+      "id": 860601,
+      "name": "Ánh nhìn đuổi theo",
+      "desc": "Khi còn tồn tại, gây 1 [Sinking] cho mọi kẻ địch, số lần [Sinking] tăng thêm 1"
+    },
+    {
+      "id": 860602,
+      "name": "Khách không mời",
+      "desc": "Khi bản thân chết, gây [UninvitedGuest] cho kẻ cuối cùng đã tấn công mình\n- Nếu có từ 4 kẻ địch trở lên đang sở hữu [UninvitedGuest] thì không gây thêm"
+    },
+    {
+      "id": 860701,
+      "name": "Ánh nhìn đuổi theo",
+      "desc": "Khi còn tồn tại, gây 1 [Sinking] cho mọi kẻ địch, số lần [Sinking] tăng thêm 1"
+    },
+    {
+      "id": 860702,
+      "name": "Khách không mời",
+      "desc": "Khi bản thân chết, gây [UninvitedGuest] cho kẻ cuối cùng đã tấn công mình\n- Nếu có từ 4 kẻ địch trở lên đang sở hữu [UninvitedGuest] thì không gây thêm"
+    },
+    {
+      "id": 860801,
+      "name": "Phích cắm quen thuộc",
+      "desc": "Với mỗi 1 [ConnectedPlug], giá trị Tốc độ tối thiểu tăng 1, nhận 1 [Vulnerable] và 1 [AttackDmgUp]\nVào lượt tiếp theo sau khi [ConnectedPlug] đạt mức 3, nếu bị trạng thái Hoảng loạn thì nhận 4 [Vulnerable]"
+    },
+    {
+      "id": 860802,
+      "name": "Quá tải điện",
+      "desc": "Khi kết thúc lượt, với mỗi 10 số lần [Charge] đang có, nhận 1 [VioletDamageUp] vào lượt kế tiếp (Tối đa 2)"
+    },
+    {
+      "id": 860803,
+      "name": "Muốn trốn thoát",
+      "desc": "Khi chỉ còn 25% Máu, kể từ lượt kế tiếp, sau mỗi lượt trôi qua\n- Nhận thêm 1 [ParryingResultUp]\n- Nhận thêm 1 [AttackDmgUp]\n- Nhận thêm 1 [Vulnerable]"
+    },
+    {
+      "id": 860804,
+      "name": "Máy phát điện",
+      "desc": "Khi kết thúc lượt, nếu bản thân không có [ConnectedPlug] và [ThundercloudFormation], triệu hồi 1 Máy phát điện vào lượt kế tiếp."
+    },
+    {
+      "id": 862801,
+      "name": "Tụ vân điện",
+      "desc": "Khi kết thúc lượt, gây 4 [ThundercloudFormation] cho Cừu Điện vào lượt kế tiếp.\nNếu đã có thì không gây thêm."
+    },
+    {
+      "id": 862802,
+      "name": "Phích cắm tiếp địa chống cừu đã tháo",
+      "desc": "Khi nhận sát thương, gây 1 [AntiSheepGround] cho kẻ tấn công vào lượt kế tiếp (1 lần mỗi lượt)"
+    },
+    {
+      "id": 862803,
+      "name": "Phích cắm an toàn là trên hết",
+      "desc": "Mọi sát thương nhận vào bằng 0"
+    },
+    {
+      "id": 862901,
+      "name": "Khai màn yến tiệc",
+      "desc": "Triệu hồi Tay sai của Vị vua bị trói vào đầu lượt 2.\nKhi một Tay sai của Vị vua bị trói chết, một tay sai khác sẽ thay thế, tổng cộng triệu hồi 12 tay sai."
+    },
+    {
+      "id": 862902,
+      "name": "Kết thúc yến tiệc",
+      "desc": "Nếu tất cả tay sai đã chết, bản thân sẽ trực tiếp tham chiến."
+    },
+    {
+      "id": 862903,
+      "name": "Văn bản không được hiển thị",
+      "desc": "Văn bản không được hiển thị"
+    },
+    {
+      "id": 862904,
+      "name": "Băng vải bị đứt",
+      "desc": "Khi phá hủy bộ phận Thân, gây [BandageOfTheBoundKing] cho mọi kẻ địch."
+    },
+    {
+      "id": 828001,
+      "name": "Tay sai của Vị vua bị trói",
+      "desc": "Trong trận chiến này, nhận [BandageOfTheBoundKing], [BigWelcome].\nĐầu mỗi lượt, Vị vua bị trói ban phước cho nhân vật này.\nPhước lành của Vị vua bị trói thay đổi mỗi lượt theo thứ tự: gây [Enhancement], hồi Tinh thần, và hồi Máu. Nếu số lượng Tay sai của Vị vua bị trói (Đại tội Đố kị) còn sống ít hơn 6, phước lành được ban sẽ mạnh hơn."
+    },
+    {
+      "id": 828002,
+      "name": "Văn bản không được hiển thị",
+      "desc": "Văn bản không được hiển thị"
+    },
+    {
+      "id": 828003,
+      "name": "Văn bản không được hiển thị",
+      "desc": "Văn bản không được hiển thị"
+    },
+    {
+      "id": 860506,
+      "name": "So tài sức mạnh bị khúc xạ",
+      "desc": "Nếu số lần phân định đối đầu với cùng một mục tiêu từ 10 trở lên, Sức mạnh đối đầu khi phân định sẽ tăng hoặc giảm ngẫu nhiên một lượng bằng (Tổng số lần phân định ÷ 10). (Làm tròn xuống)"
+    },
+    {
+      "id": 828004,
+      "name": "Đại tội Đố kị loại 2",
+      "desc": "Sát thương gây ra +15%, Sát thương nhận vào -15%"
+    },
+    {
+      "id": 828005,
+      "name": "Tinh thần Khúc xạ",
+      "desc": "Tinh thần khởi đầu +30"
+    },
+    {
+      "id": 828006,
+      "name": "Tinh thần Khúc xạ",
+      "desc": "Tinh thần khởi đầu -20"
+    },
+    {
+      "id": 828007,
+      "name": "Tinh thần Khúc xạ",
+      "desc": "Tinh thần khởi đầu +45"
+    },
+    {
+      "id": 828008,
+      "name": "Tinh thần Khúc xạ",
+      "desc": "Tinh thần khởi đầu +20"
+    }
+  ]
+}

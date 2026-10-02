@@ -1,0 +1,184 @@
+{
+  "dataList": [
+    {
+      "id": 9840,
+      "name": "Mũ cấp bởi công ty W",
+      "desc": "Khi kết thúc sử dụng kỹ năng nhận số lượng [Charge] hoặc Sạc đặc biệt, nhận [EmergencyChargeForceField] bằng với trị số đã nhận (Tối đa 7 mỗi Bản sắc)",
+      "simpleDesc": [
+        {
+          "abilityID": 9840,
+          "simpleDesc": "Nhận Pin Trường Lực Khẩn Cấp"
+        }
+      ]
+    },
+    {
+      "id": 9841,
+      "name": "Bộ trang bị nhân viên dọn dẹp loại C",
+      "desc": "Khi kết thúc sử dụng kỹ năng nhận số lượng [Charge] hoặc Sạc đặc biệt, nhận [EmergencyChargeForceField] bằng với trị số đã nhận (Tối đa 7 mỗi Bản sắc)\n\nSát thương của kỹ năng tiêu hao số lượng [Charge] hoặc Sạc đặc biệt + (Số lượng Bản sắc sở hữu kỹ năng nhận/tiêu hao số lượng [Charge] hoặc Sạc đặc biệt trong đội hình)% (Bao gồm cả thành viên dự bị)\n\nKỹ năng 1 nhận/tiêu hao số lượng [Charge] hoặc Sạc đặc biệt: Uy lực Hòa +3, Sát thương +15%\n- Khi sử dụng kỹ năng tương ứng, nhận 4 số lượng [Charge], 1 [ChargeForceField] (1 lần mỗi lượt cho mỗi Bản sắc)\n\nNếu là Bản sắc thuộc Công ty W, áp dụng các hiệu quả sau:\n- Nếu gây sát thương lên kẻ địch bằng kỹ năng (Bao gồm kỹ năng E.G.O), gây 2 [TakeHpHealReduce] (Không cộng dồn)\n- Trong chiến đấu, nếu nhận sát thương HP bởi các hiệu quả trừ sát thương trực tiếp từ kỹ năng, nhận 5 [ChargeForceField] (1 lần mỗi lượt cho mỗi Bản sắc)\n- Kỹ năng 2: Uy lực Hòa +3, Sát thương +15%\n- Khi bắt đầu lượt, trong lượt này sát thương kỹ năng 3 + (Số lượng Bản sắc thuộc Công ty W tham gia chiến đấu × 6.25)%\n- Khi bắt đầu lượt, gây 1 [PlusCoinValueUp] cho Nhân viên cấp 2 Công ty W\n- Khi bắt đầu lượt, nhận (Số lượng Bản sắc thuộc Công ty W tham gia chiến đấu ÷ 3) [ChargeLoad] (Tối đa 2, làm tròn xuống)",
+      "simpleDesc": [
+        {
+          "abilityID": 9841,
+          "simpleDesc": "Nhận Pin Trường Lực Khẩn Cấp"
+        },
+        {
+          "abilityID": 98411,
+          "simpleDesc": "Tăng sát thương kỹ năng tiêu hao Sạc"
+        },
+        {
+          "abilityID": 98412,
+          "simpleDesc": "Tăng Uy lực Hòa và Sát thương kỹ năng 1, nhận số lượng Sạc và Trường Lực Sạc"
+        },
+        {
+          "abilityID": 98413,
+          "simpleDesc": "Gây Giảm hồi phục HP"
+        },
+        {
+          "abilityID": 98414,
+          "simpleDesc": "Nhận Trường Lực Sạc"
+        },
+        {
+          "abilityID": 98415,
+          "simpleDesc": "Tăng Uy lực Hòa và Sát thương kỹ năng 2"
+        },
+        {
+          "abilityID": 98416,
+          "simpleDesc": "Tăng sát thương kỹ năng 3"
+        },
+        {
+          "abilityID": 98417,
+          "simpleDesc": "Gây Tăng Uy lực Đồng xu cộng"
+        },
+        {
+          "abilityID": 98418,
+          "simpleDesc": "Nhận Quá tải"
+        }
+      ]
+    },
+    {
+      "id": 9842,
+      "name": "Thịt tạo từ máu, Máu tạo từ thịt",
+      "desc": "Hiệu quả Quà lưu niệm được tăng cường dựa trên số lượng Bản sắc sở hữu kỹ năng tấn công tiêu hao [BloodDinner] trong đội hình (Ngoại trừ kỹ năng E.G.O, bao gồm cả thành viên dự bị)\n\nKhi bắt đầu lượt đầu tiên của đợt, tạo (Số lượng trong đội hình × 20) [BloodDinner], gây 3 [Laceration] và số lượng [Laceration] cho tất cả mục tiêu (Lượng [BloodDinner] tạo ra mỗi lượt đầu tiên của đợt: Tối đa 100)\n\nSát thương [Laceration] đồng minh nhận giảm (Số lượng trong đội hình × 10)% (Sát thương [Laceration] tối thiểu 1, tối đa 40%)\n- Lượng sát thương giảm không ảnh hưởng đến lượng [BloodDinner] tích trữ\n\nSát thương [Laceration] kẻ địch nhận tăng (Số lượng trong đội hình × 5)% (Tối đa 20%)",
+      "simpleDesc": [
+        {
+          "abilityID": 9842,
+          "simpleDesc": "Tạo Huyết Yến, gây Xuất huyết và số lượng Xuất huyết"
+        },
+        {
+          "abilityID": 98421,
+          "simpleDesc": "Giảm sát thương Xuất huyết"
+        },
+        {
+          "abilityID": 98422,
+          "simpleDesc": "Tăng sát thương Xuất huyết"
+        }
+      ]
+    },
+    {
+      "id": 9843,
+      "name": "Trường kiếm Huyết cứng",
+      "desc": "Hiệu quả Quà lưu niệm được tăng cường dựa trên số lượng Bản sắc sở hữu kỹ năng tấn công tiêu hao [BloodDinner] trong đội hình (Ngoại trừ kỹ năng E.G.O, bao gồm cả thành viên dự bị)\n\nKhi bắt đầu giai đoạn, tất cả đồng minh nhận (Số lượng trong đội hình - 2) [BloodArmorCasting] (Tối đa 3)",
+      "simpleDesc": [
+        {
+          "abilityID": 9843,
+          "simpleDesc": "Nhận Huyết Cứng Đúc"
+        }
+      ]
+    },
+    {
+      "id": 9205,
+      "name": "Bình máu toàn phần",
+      "desc": "Khi tiêu diệt kẻ địch, tạo (HP tối đa của kẻ đó ÷ 10) [BloodDinner] (Tối đa 50)\nKhi kết thúc lượt, nếu có đồng minh tử trận trong lượt này, tất cả đồng minh nhận 2 [Enhancement] vào lượt tiếp theo",
+      "simpleDesc": [
+        {
+          "abilityID": 9205,
+          "simpleDesc": "Tạo Huyết Yến"
+        },
+        {
+          "abilityID": 92051,
+          "simpleDesc": "Nhận Tăng Uy lực Tấn công"
+        }
+      ]
+    },
+    {
+      "id": 9206,
+      "name": "Hương máu tìm đến",
+      "desc": "Trước khi bắt đầu chiến đấu, khi đồng minh có HP thấp nhất đánh trúng bằng kỹ năng tấn công gây [Laceration] hoặc Xuất huyết đặc biệt, hồi 3% HP tối đa (2 lần mỗi lượt)\n\nKhi thực hiện Hòa bằng kỹ năng gây [Laceration] hoặc Xuất huyết đặc biệt với kẻ địch đang có [Laceration] hoặc Xuất huyết đặc biệt, Uy lực Hòa +1\n- Nếu có từ 5 Bản sắc trở lên sở hữu kỹ năng tấn công gây [Laceration] hoặc Xuất huyết đặc biệt trong đội hình, thay vào đó Uy lực Hòa +1, Sát thương +10% (Bao gồm cả thành viên dự bị)\n- Nếu có từ 10 Bản sắc trở lên, thay vào đó Uy lực Hòa +2, Sát thương +15%",
+      "simpleDesc": [
+        {
+          "abilityID": 9206,
+          "simpleDesc": "Hồi phục HP"
+        },
+        {
+          "abilityID": 92061,
+          "simpleDesc": "Tăng Uy lực Hòa hoặc Sát thương"
+        }
+      ]
+    },
+    {
+      "id": 9818,
+      "name": "Găng tay không gian còn sót lại",
+      "desc": "Nếu gây sát thương lên kẻ địch bằng kỹ năng tiêu hao số lượng [Charge] hoặc Sạc đặc biệt, trong lượt này, tăng giá trị thấp nhất trong số các kháng vật lý của kẻ đó thêm +0.1 (1 lần mỗi lượt)",
+      "simpleDesc": [
+        {
+          "abilityID": 9818,
+          "simpleDesc": "Tăng giá trị thấp nhất trong số các kháng vật lý"
+        }
+      ]
+    },
+    {
+      "id": 19818,
+      "name": "Găng tay không gian còn sót lại+",
+      "desc": "Nếu gây sát thương lên kẻ địch bằng kỹ năng tiêu hao số lượng [Charge] hoặc Sạc đặc biệt, trong lượt này, tăng giá trị thấp nhất trong số các kháng vật lý của kẻ đó thêm +0.1 (1 lần mỗi lượt)\n<style=\"upgradeHighlight\">- Gây thêm 1 [VioletResistDown]</style>",
+      "simpleDesc": [
+        {
+          "abilityID": 19818,
+          "simpleDesc": "Tăng giá trị thấp nhất trong số các kháng vật lý"
+        }
+      ]
+    },
+    {
+      "id": 29818,
+      "name": "Găng tay không gian còn sót lại++",
+      "desc": "Nếu gây sát thương lên kẻ địch bằng kỹ năng tiêu hao số lượng [Charge] hoặc Sạc đặc biệt, trong lượt này, tăng giá trị thấp nhất trong số các kháng vật lý của kẻ đó thêm +0.1 (2 lần mỗi lượt)\n- Gây thêm 1 [VioletResistDown], <style=\"upgradeHighlight\">1 [AzureResistDown]</style>",
+      "simpleDesc": [
+        {
+          "abilityID": 29818,
+          "simpleDesc": "Tăng giá trị thấp nhất trong số các kháng vật lý"
+        }
+      ]
+    },
+    {
+      "id": 9817,
+      "name": "Mảnh sao xanh",
+      "desc": "Sức mạnh kỹ năng cuối cùng của kẻ địch trong trạng thái Giảm Ý Chí hoặc Hoảng Loạn -1 (Với kẻ địch không có Tinh thần, kích hoạt khi số lượng [Sinking] từ 25 trở lên)\n- Khi gây sát thương lên kẻ địch đó bằng kỹ năng gây [Sinking] số lượng, [Sinking] số lần hoặc Trầm luân đặc biệt, gây [DefenseDown] 2 (Tối đa 2 lần mỗi lượt)",
+      "simpleDesc": [
+        {
+          "abilityID": 9817,
+          "simpleDesc": "Sau khi gây giảm sức mạnh kỹ năng cuối cùng, gây Giảm Cấp Phòng Thủ khi trúng đích"
+        }
+      ]
+    },
+    {
+      "id": 19817,
+      "name": "Mảnh Sao Xanh+",
+      "desc": "Sức mạnh kỹ năng cuối cùng của kẻ địch trong trạng thái Giảm Ý Chí hoặc Hoảng Loạn <style=\"upgradeHighlight\">-2</style> (Với kẻ địch không có Tinh thần, kích hoạt khi số lượng [Sinking] từ <style=\"upgradeHighlight\">15</style> trở lên)\n- Khi gây sát thương lên kẻ địch đó bằng kỹ năng gây [Sinking] số lượng, [Sinking] số lần hoặc Trầm luân đặc biệt, gây [DefenseDown] <style=\"upgradeHighlight\">3</style> (Tối đa 2 lần mỗi lượt)",
+      "simpleDesc": [
+        {
+          "abilityID": 19817,
+          "simpleDesc": "Sau khi gây giảm sức mạnh kỹ năng cuối cùng, gây Giảm Cấp Phòng Thủ khi trúng đích"
+        }
+      ]
+    },
+    {
+      "id": 29817,
+      "name": "Mảnh Sao Xanh++",
+      "desc": "Sức mạnh kỹ năng cuối cùng của kẻ địch trong trạng thái Giảm Ý Chí hoặc Hoảng Loạn <style=\"upgradeHighlight\">-3</style> (Với kẻ địch không có Tinh thần, kích hoạt khi số lượng [Sinking] từ <style=\"upgradeHighlight\">10</style> trở lên)\n- Khi gây sát thương lên kẻ địch đó bằng kỹ năng gây [Sinking] số lượng, [Sinking] số lần hoặc Trầm luân đặc biệt, gây [DefenseDown] 3 (Tối đa <style=\"upgradeHighlight\">3</style> lần mỗi lượt)",
+      "simpleDesc": [
+        {
+          "abilityID": 29817,
+          "simpleDesc": "Sau khi gây giảm sức mạnh kỹ năng cuối cùng, gây Giảm Cấp Phòng Thủ khi trúng đích"
+        }
+      ]
+    }
+  ]
+}

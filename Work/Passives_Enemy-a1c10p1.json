@@ -1,0 +1,90 @@
+﻿{
+  "dataList": [
+    {
+      "id": 9105901,
+      "name": "Bình thủy tinh cần được xử lý cẩn thận...!",
+      "desc": "Khi bị trúng một Kĩ năng, nhận 3 [Laceration] (một lần mỗi Kĩ năng)\n\nKhi hiệu ứng trên kích hoạt, nhận 1 [ResultEnhancement] vào lượt tiếp theo (tối đa 2)"
+    },
+    {
+      "id": 9105902,
+      "name": "Phù, bình của ta an toàn",
+      "desc": "Kết thúc lượt: Nếu đơn vị này không có [Laceration], hồi 5 Tinh thần"
+    },
+    {
+      "id": 9105903,
+      "name": "Ta phải đổ đầy bình",
+      "desc": "Nếu mục tiêu bị trúng Kĩ năng của đơn vị này có [Laceration], và nếu đơn vị này không ở Máu tối đa, hồi 2% HP (2 lần mỗi lượt; làm tròn xuống)"
+    },
+    {
+      "id": 9106601,
+      "name": "Le Noir: Vải",
+      "desc": "Lần đầu tiên vào trận, nhận 5 [NoirBindArmor]\n\nKhi bắt đầu lượt: Nhận Lá chắn bằng (10 + [NoirBindArmor] giá trị)% Máu tối đa của đơn vị này",
+      "flavor": "Vải Worsted của Le Noir ôm lấy cơ thể như một bộ giáp, tôn lên bên dưới một đường nét vững chãi, cố định."
+    },
+    {
+      "id": 9106602,
+      "name": "Bảo Tồn",
+      "desc": "Nhận 1 [NoirBindArmor] cho mỗi 5 Số lần [ChargeNoir] tích lũy mà đơn vị này tiêu hao trong trận này\nNhận 1 [ChargeNoir] cho mỗi 10 Số lần [ChargeNoir] tích lũy mà đơn vị này tiêu hao trong trận này",
+      "flavor": "Sức mạnh được nén lại, gom về và cố định tại chỗ. Đôi khi, cần nhiều sức mạnh hơn để ngăn sự thay đổi so với việc gây ra nó."
+    },
+    {
+      "id": 9106603,
+      "name": "Thay Đổi Vì Sự Trơ Tru",
+      "desc": "Khi bắt đầu lượt: Ở 10+ Số lần [ChargeNoir], dùng một Kĩ năng mạnh\n\nKhi dùng Kĩ năng, ở 15+ Số lần [ChargeNoir], tiêu hao 3 Số lần [ChargeNoir] để gây +20% sát thương",
+      "flavor": "Giọng nói mới này bảo tôi rằng nó sẽ giúp thay đổi tôi... để tôi sẽ không bao giờ thay đổi nữa."
+    },
+    {
+      "id": 9106604,
+      "name": "Tôi nghe thấy... giọng nói của một vị thần khác...!",
+      "desc": "Lần đầu tiên vào trận, nhận 2 [RisingMadnessNoir]\n- Khi bắt đầu lượt: Khi HP của đơn vị này giảm xuống dưới 50% lần đầu tiên trong trận này, chuyển [RisingMadnessNoir] thành [RisingMadnessNoir2nd]\n\nKhi thua đối đầu, nhận +2 Số lần [ChargeNoir]",
+      "flavor": "Họ nghe thấy giọng nói ấm áp, nhưng không thể thay đổi thêm được nữa. Với tâm trí bị mắc kẹt trong xác thịt, cái tôi phân liệt khỏi chính mình và rơi vào điên loạn."
+    },
+    {
+      "id": 9106001,
+      "name": "Đào Bới",
+      "desc": "Khi bắt đầu đối đầu: Nhận 2 Uy lực [Breath] vào lượt tiếp theo cho mỗi loại hiệu ứng trên mục tiêu (tối đa 10)\n- Nếu mục tiêu có 3+ loại hiệu ứng, nhận +3 Số lần [Breath] vào lượt tiếp theo",
+      "flavor": "Không thể tạo ra giá trị hay giá trị của riêng mình, những con Kaki đào bới túi áo của những thứ được coi trọng trong cửa hàng bách hóa, tìm kiếm những thứ có giá trị."
+    },
+    {
+      "id": 9106002,
+      "name": "Chờ Xu hướng Mùa vụ",
+      "desc": "Ở 6+ Uy lực [Breath], Uy lực Đồng xu +1",
+      "flavor": "Vậy xu hướng cốt lõi của mùa này là gì? Nói cho tôi biết trước khi mọi người khác có được một chiếc!"
+    },
+    {
+      "id": 9106003,
+      "name": "Gồng Giữ Những Gì Còn Lại",
+      "desc": "Khi bắt đầu lượt: Hồi 3 Tinh thần cho mỗi 10% HP còn thiếu trên bản thân (tối đa 15)"
+    },
+    {
+      "id": 9106004,
+      "name": "Tôi nghe thấy... giọng nói của một vị thần khác...!",
+      "desc": "Lần đầu tiên vào trận, nhận 2 [RisingMadnessSisyphe]\n- Khi bắt đầu lượt: Khi HP của đơn vị này giảm xuống dưới 50% lần đầu tiên trong trận này, chuyển [RisingMadnessSisyphe] thành [RisingMadnessSisyphe2nd]",
+      "flavor": "Họ nghe thấy giọng nói ấm áp, nhưng không thể thay đổi thêm được nữa. Với tâm trí bị mắc kẹt trong xác thịt, cái tôi phân liệt khỏi chính mình và rơi vào điên loạn."
+    },
+    {
+      "id": 9106301,
+      "name": "May Mặc",
+      "desc": "Gây +1 giá trị [NiddlePin] nhiều hơn lên các mục tiêu có Kháng Xuyên thấu hoặc Kháng Đố kỵ từ 1.5 trở lên.",
+      "flavor": "Số mũi kim mỗi inch, số mũi vá mỗi inch, đường chỉ mỗi inch. Quan trọng!"
+    },
+    {
+      "id": 9106302,
+      "name": "Một Chiếc Kim Nhỏ Gọn Sắc Bén",
+      "desc": "Khi dùng Kĩ năng để gây Uy lực [Laceration] lên các kẻ địch có [NiddlePin], gây thêm +([NiddlePin] giá trị trên mục tiêu) Uy lực [Laceration] (tối đa 3)",
+      "flavor": "Một chiếc kim chẳng khác gì một chiếc đinh."
+    },
+    {
+      "id": 9106701,
+      "name": "Tuyệt Vọng",
+      "desc": "Khi bắt đầu lượt: Ở 3+ Uy lực [ChargeRouge] và 10+ Số lần [ChargeRouge], dùng một Kĩ năng mạnh\n\nCác Kĩ năng gây +1% sát thương cho mỗi 1% HP còn thiếu trên bản thân",
+      "flavor": "Để tôi có thể là chính mình... Bản thân thật của tôi, được bộc lộ vượt ra ngoài những gì chỉ quần áo có thể diễn tả!"
+    },
+    {
+      "id": 9106702,
+      "name": "Tôi nghe thấy... giọng nói của một vị thần khác...!",
+      "desc": "Khi bắt đầu trận chiến: Nhận [RisingMadnessRouge]\n- Khi bắt đầu lượt: Khi HP của đơn vị này giảm xuống dưới 50% lần đầu tiên trong trận này, chuyển [RisingMadnessRouge] thành [RisingMadnessRouge2nd]\n\nKhi thua đối đầu, nhận +2 Số lần [ChargeRouge]",
+      "flavor": "Họ nghe thấy giọng nói ấm áp, nhưng không thể thay đổi thêm được nữa. Với tâm trí bị mắc kẹt trong xác thịt, cái tôi phân liệt khỏi chính mình và rơi vào điên loạn."
+    }
+  ]
+}

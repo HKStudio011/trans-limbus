@@ -1,0 +1,74 @@
+{
+  "dataList": [
+    {
+      "id": 9021001,
+      "name": "Kiềm Chế Ứng Cử Viên Gia Chủ",
+      "desc": "Nếu mục tiêu là Hong Lu, Lượng sát thương +10%"
+    },
+    {
+      "id": 9021002,
+      "name": "Mạch Sạc Chế Tạo Bởi Shi",
+      "desc": "Trong trận chiến, mỗi khi tiêu hao tổng cộng 10 số lần [Charge] của bản thân, nhận 1 [Charge]\nKết thúc lượt nếu [Charge] từ 2 trở lên, nhận 1 [ParryingResultUp] vào lượt tiếp theo"
+    },
+    {
+      "id": 9021003,
+      "name": "Kích Hoạt Mạch Sạc",
+      "desc": "Với mỗi 6 [Burst] của mục tiêu, Lượng sát thương +5% (Tối đa 10%)"
+    },
+    {
+      "id": 9021004,
+      "name": "Quá Tải",
+      "desc": "Kết thúc lượt, nếu [Charge] của bản thân từ 3 trở lên, nhận 3 [DefenseDown], 1 [AttackDmgUp] vào lượt tiếp theo"
+    },
+    {
+      "id": 9021201,
+      "name": "Quá Tải Trầm Trọng",
+      "desc": "Kết thúc lượt, nếu [Charge] của bản thân từ 5 trở lên, nhận 4 [DefenseDown], 3 [AttackDmgUp] vào lượt tiếp theo"
+    },
+    {
+      "id": 9020501,
+      "name": "Mục Tiêu Thí Nghiệm - Trưởng Thành",
+      "desc": "Đầu lượt, nhận [DefenseUp] tương ứng với (Số lần nhận sát thương bởi kĩ năng của kẻ địch trong lượt này ÷ 2) (Tối đa 10)\n\nHiệu ứng này sẽ biến mất sau khi bị Hoảng loạn lần đầu, và nhận 10 [DefenseDown] vào đầu mỗi lượt kể từ lượt kế tiếp"
+    },
+    {
+      "id": 9020601,
+      "name": "Mục Tiêu Thí Nghiệm - Nảy Mầm",
+      "desc": "Nếu máu không ở mức tối đa, vào đầu lượt, hồi phục lượng máu tương ứng với 80% lượng máu đã mất\n- Mỗi lần hồi phục, hiệu ứng bị động này bị giảm một nửa (Giảm xuống tối thiểu 10%, chỉ áp dụng khi hồi phục từ 1 máu trở lên)\n- Hiệu ứng này không kích hoạt khi ở trạng thái Hoảng loạn\n\nSau khi bị Hoảng loạn lần đầu hoặc khi hiệu ứng hồi phục đạt mức tối thiểu, nhận 3 [Vulnerable] vào đầu mỗi lượt"
+    },
+    {
+      "id": 9020701,
+      "name": "Mục Tiêu Thí Nghiệm - Nở Rộ",
+      "desc": "Trong trận chiến này, khi nhận sát thương khiến máu về 0, máu sẽ duy trì ở mức 1 cho đến lượt tiếp theo và Lượng sát thương +50% (1 lần mỗi trận)\n\nHiệu ứng này không kích hoạt khi ở trạng thái Hoảng loạn"
+    },
+    {
+      "id": 9020801,
+      "name": "Phù Thuật Sư",
+      "desc": "Mỗi khi gây [OminousTalisman] cho kẻ địch, tiêu hao 10 Tinh thần của bản thân\n\nLượng sát thương gây ra lên mục tiêu đang có [OminousTalisman] tăng thêm (0 - Tinh thần của bản thân)% (Tối đa 30%, Tối thiểu 0%)"
+    },
+    {
+      "id": 9020802,
+      "name": "Chuyển Giao Điềm Gở",
+      "desc": "Khi chết, gây 10 [OminousTalisman] cho một kẻ địch ngẫu nhiên không có [OminousTalisman]\n- Nếu tất cả kẻ địch đều đang có [OminousTalisman], giảm 1 [OminousTalisman] của tất cả kẻ địch thay thế"
+    },
+    {
+      "id": 9020803,
+      "name": "Ác Khí",
+      "desc": "Khi gây [OminousTalisman] cho kẻ địch, nếu mục tiêu đã có [OminousTalisman], tiêu hao 1~2 [OminousTalisman] mà mục tiêu đang sở hữu, sau đó gây [DefenseDown] tương ứng với trị số đó trong lượt này và lượt tiếp theo"
+    },
+    {
+      "id": 9020901,
+      "name": "Phù Thuật Sư Ưu Tú",
+      "desc": "Mỗi khi gây [OminousTalisman] cho kẻ địch, tiêu hao 10 Tinh thần của bản thân\n\nLượng sát thương gây ra lên mục tiêu đang có [OminousTalisman] tăng thêm (10 - Tinh thần của bản thân)% (Tối đa 50%, Tối thiểu 0%)"
+    },
+    {
+      "id": 9020902,
+      "name": "Hấp Hồn Liệu Pháp",
+      "desc": "Đầu lượt, nếu máu của bản thân từ 50% trở xuống, hi sinh 1 Ác Chú Sát Tăng ngẫu nhiên, hồi phục máu bằng (10% Máu tối đa của bản thân + 50% Máu tối đa của đối tượng bị hi sinh), hồi 25 Tinh thần, giải trừ trạng thái Hoảng loạn (1 lần mỗi lượt)"
+    },
+    {
+      "id": 9020903,
+      "name": "Ác Khí",
+      "desc": "Khi gây [OminousTalisman] cho kẻ địch, nếu mục tiêu đã có [OminousTalisman], tiêu hao tối đa 3 [OminousTalisman] mà mục tiêu đang sở hữu, sau đó gây [DefenseDown] tương ứng với trị số đó trong lượt này và lượt tiếp theo"
+    }
+  ]
+}

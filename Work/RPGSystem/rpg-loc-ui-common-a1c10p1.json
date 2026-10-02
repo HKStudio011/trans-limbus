@@ -1,0 +1,552 @@
+﻿{
+  "dataList": [
+    {
+      "key": "ReturnToMainUiScene",
+      "text": "Quay lại Cửa sổ?\n<color=#ff0000>Tiến độ gần đây có thể bị mất.</color>\n\n※ Trò chơi tự lưu tại các điểm sau: Hoàn thành nhiệm vụ / Chuyển tầng hoặc khu vực.\nVui lòng kiểm tra điểm lưu cuối cùng trước khi thoát ra Cửa sổ."
+    },
+    {
+      "key": "AskToMoveFloor",
+      "text": "Di chuyển đến tầng {0}?"
+    },
+    {
+      "key": "MoveFloorUiDesc",
+      "text": "Chúng ta nên đi đến tầng nào?"
+    },
+    {
+      "key": "FloorMoveUnboughtConfirmDesc",
+      "text": "Bạn chưa mua hết tất cả vật phẩm có sẵn ở tầng này.\nVẫn tiếp tục di chuyển sang tầng khác?"
+    },
+    {
+      "key": "FloorMoveUnboughtDontShowAgain",
+      "text": "Không hiển thị thông báo này nữa"
+    },
+    {
+      "key": "DialogueSkipConfirmDesc",
+      "text": "Bỏ qua cảnh truyện này?"
+    },
+    {
+      "key": "DialogueSkipDontShowAgain",
+      "text": "Không hiển thị thông báo này nữa"
+    },
+    {
+      "key": "AccumulatedExp",
+      "text": "Tổng hợp chi tiêu mắt"
+    },
+    {
+      "key": "RemainExpToNextLevel",
+      "text": "Lên cấp tiếp theo"
+    },
+    {
+      "key": "ItemFilterAll",
+      "text": "Tất cả"
+    },
+    {
+      "key": "ItemFilterKeyItem",
+      "text": "Nhiệm vụ"
+    },
+    {
+      "key": "ItemFilterSurvival",
+      "text": "Sinh tồn"
+    },
+    {
+      "key": "ItemFilterBasicAttack",
+      "text": "Tấn công cơ bản"
+    },
+    {
+      "key": "ItemFilterAdditionalAttack",
+      "text": "Tấn công bổ sung"
+    },
+    {
+      "key": "ItemFilterPrisonerEffect",
+      "text": "Hiệu ứng Tù nhân"
+    },
+    {
+      "key": "ItemFilterEtc",
+      "text": "Khác"
+    },
+    {
+      "key": "Item_QuestMark",
+      "text": "Vật phẩm chính"
+    },
+    {
+      "key": "Item_Suffix_Disabled",
+      "text": "{0} (không hoạt động)"
+    },
+    {
+      "key": "rpg_quest_tag_dialogue",
+      "text": "Đối thoại"
+    },
+    {
+      "key": "rpg_quest_tag_battle",
+      "text": "Trận chiến"
+    },
+    {
+      "key": "rpg_quest_tag_hunt",
+      "text": "Xóa sổ"
+    },
+    {
+      "key": "rpg_quest_tag_gather",
+      "text": "Thu thập"
+    },
+    {
+      "key": "rpg_quest_tag_shop",
+      "text": "Cửa hàng"
+    },
+    {
+      "key": "rpg_quest_tag_move",
+      "text": "Di chuyển"
+    },
+    {
+      "key": "Common_Ok",
+      "text": "Xác nhận"
+    },
+    {
+      "key": "Quest_Tag_Progress",
+      "text": "Tiến độ"
+    },
+    {
+      "key": "Quest_Tag_Reward",
+      "text": "Phần thưởng"
+    },
+    {
+      "key": "Shop_Title",
+      "text": "Cửa hàng"
+    },
+    {
+      "key": "Shop_Category_All",
+      "text": "Tất cả"
+    },
+    {
+      "key": "Shop_Category_Artifact",
+      "text": "Hiện vật"
+    },
+    {
+      "key": "Shop_Category_Etc",
+      "text": "Khác"
+    },
+    {
+      "key": "Shop_Button_Buy",
+      "text": "Mua"
+    },
+    {
+      "key": "Shop_SelectedItem_None",
+      "text": "Chọn vật phẩm để mua."
+    },
+    {
+      "key": "Shop_Item_Stock",
+      "text": "Kho hàng"
+    },
+    {
+      "key": "Shop_Item_Owned",
+      "text": "Đã sở hữu"
+    },
+    {
+      "key": "Shop_Item_NotForSale",
+      "text": "Không thể mua"
+    },
+    {
+      "key": "Shop_Empty_Item_List",
+      "text": "Không có vật phẩm nào để hiển thị."
+    },
+    {
+      "key": "Log_ItemAcquired",
+      "text": "Nhận được vật phẩm: {0} x{1}"
+    },
+    {
+      "key": "Log_ItemAcquiredKeyItem",
+      "text": "Nhận được vật phẩm: <color=#{2}>{0} x{1}</color>"
+    },
+    {
+      "key": "Log_CurrencyEarned",
+      "text": "Nhận được: {0} con mắt"
+    },
+    {
+      "key": "Log_Purchased",
+      "text": "Đã mua: {0} x{1} (đã chi tiêu {2})"
+    },
+    {
+      "key": "Log_PurchasedKeyItem",
+      "text": "Đã mua: <color=#{3}>{0} x{1}</color> ({2} đã chi)"
+    },
+    {
+      "key": "Log_NpcInteracted",
+      "text": "Kết thúc cuộc trò chuyện."
+    },
+    {
+      "key": "Log_ProjectileRemoved",
+      "text": "Đã loại bỏ vật thể bay: {0}"
+    },
+    {
+      "key": "Log_ChoiceSelected",
+      "text": "Lựa chọn đã thực hiện: {0}"
+    },
+    {
+      "key": "Log_QuestAcquired",
+      "text": "<color=#{1}>Bắt đầu nhiệm vụ: {0}</color>"
+    },
+    {
+      "key": "Log_QuestCompleted",
+      "text": "Hoàn thành nhiệm vụ: {0}"
+    },
+    {
+      "key": "Log_QuestGoalProgress",
+      "text": "Tiến độ nhiệm vụ: {0}"
+    },
+    {
+      "key": "Log_BattleResultSync",
+      "text": "Kết quả trận chiến đã được phản ánh: ({0}): HP {1}/{2}, MP{3}/{4}"
+    },
+    {
+      "key": "Log_BattleDefeatHp",
+      "text": "Thua trận: HP {0}"
+    },
+    {
+      "key": "Log_CheatVitals",
+      "text": "Cheat: {0}"
+    },
+    {
+      "key": "Log_EventEffectVitals",
+      "text": "Hiệu ứng sự kiện :{0}"
+    },
+    {
+      "key": "Log_RecruitFullRecover",
+      "text": "Nhận đồng minh ({0}): Hồi phục hoàn toàn HP/SP"
+    },
+    {
+      "key": "Log_VitalsNoChange",
+      "text": "Không có thay đổi"
+    },
+    {
+      "key": "Log_NpcDefeated",
+      "text": "Đã đánh bại {0}"
+    },
+    {
+      "key": "Log_PlayerDead",
+      "text": "Người chơi đã chết"
+    },
+    {
+      "key": "Log_BattleEntered",
+      "text": "Bắt đầu trận chiến"
+    },
+    {
+      "key": "Log_BattleWin",
+      "text": "Chiến thắng"
+    },
+    {
+      "key": "Log_BattleLose",
+      "text": "Thua trận"
+    },
+    {
+      "key": "Log_RestSpotHealed",
+      "text": "HP đã được hồi phục hoàn toàn"
+    },
+    {
+      "key": "Log_EscapeBlocked",
+      "text": "Không thể rời khỏi căn phòng này vào lúc này."
+    },
+    {
+      "key": "Log_WardenAppeared",
+      "text": "Một điềm báo bất an đang len lỏi đến."
+    },
+    {
+      "key": "Log_SuicideBlocked",
+      "text": "Đây không phải lối ra."
+    },
+    {
+      "key": "ProgressPopup_Title",
+      "text": "Grand Magasin Sisyphe"
+    },
+    {
+      "key": "ProgressPopup_Suicide",
+      "text": "Quay lại\nFount"
+    },
+    {
+      "key": "ProgressPopup_EnemyAttackIndication",
+      "text": "Hiển thị phạm vi tấn công chính xác của kẻ địch"
+    },
+    {
+      "key": "ProgressPopup_MyAttackIndication",
+      "text": "Hiển thị phạm vi tấn công chính xác của đồng minh"
+    },
+    {
+      "key": "ProgressPopup_Restore",
+      "text": "Khôi phục điểm lưu"
+    },
+    {
+      "key": "RestorePopup_Title",
+      "text": "Khôi phục điểm lưu"
+    },
+    {
+      "key": "RestorePopup_Checking",
+      "text": "Đang kiểm tra..."
+    },
+    {
+      "key": "RestorePopup_FoundNoQuest",
+      "text": "Tìm thấy bản lưu tự động có thể khôi phục."
+    },
+    {
+      "key": "RestoreCompare_ColCurrent",
+      "text": "Điểm lưu cuối cùng"
+    },
+    {
+      "key": "RestoreCompare_ColBackup",
+      "text": "Khôi phục"
+    },
+    {
+      "key": "RestoreCompare_NoQuest",
+      "text": "Không có"
+    },
+    {
+      "key": "RestoreCompare_Unknown",
+      "text": "Không tìm thấy"
+    },
+    {
+      "key": "RestoreCompare_SavedAt",
+      "text": "Lưu tại: {0}"
+    },
+    {
+      "key": "RestorePopup_None",
+      "text": "Không tìm thấy bản lưu tự động nào để khôi phục."
+    },
+    {
+      "key": "RestorePopup_LoadFailed",
+      "text": "Không thể xác minh thông tin bản lưu tự động."
+    },
+    {
+      "key": "RestorePopup_Confirm",
+      "text": "Bất kỳ tiến độ nào bạn đã đạt được kể từ điểm lưu đó sẽ bị xóa. Quá trình này không thể hoàn tác. Vẫn khôi phục bản lưu?"
+    },
+    {
+      "key": "RestorePopup_Running",
+      "text": "Đang khôi phục..."
+    },
+    {
+      "key": "RestorePopup_NeedRestart",
+      "text": "Đã khôi phục. Mọi tiến độ sau thời điểm này sẽ không được lưu. Vui lòng khởi động lại trò chơi."
+    },
+    {
+      "key": "RestorePopup_Close",
+      "text": "Đóng"
+    },
+    {
+      "key": "Inventory_Empty",
+      "text": "Không có vật phẩm trong túi đồ."
+    },
+    {
+      "key": "Inventory_NotSelected",
+      "text": "Chưa chọn vật phẩm nào."
+    },
+    {
+      "key": "LogPopup_Title",
+      "text": "Lịch sử Nhật ký"
+    },
+    {
+      "key": "LogPopup_Tab_Story",
+      "text": "Nhật ký Cốt truyện"
+    },
+    {
+      "key": "LogPopup_Tab_System",
+      "text": "Nhật ký Hệ thống"
+    },
+    {
+      "key": "Setting_Tab_Sisyphus",
+      "text": "Sisyphe"
+    },
+    {
+      "key": "Setting_Sisyphus_UiSetting",
+      "text": "Cài đặt Giao diện"
+    },
+    {
+      "key": "Setting_Sisyphus_KeyManual",
+      "text": "Hướng dẫn phím tắt"
+    },
+    {
+      "key": "Setting_Sisyphus_CensorDeadscene",
+      "text": "Che cảnh chết chóc"
+    },
+    {
+      "key": "Setting_Sisyphus_LightMode",
+      "text": "Chế độ Ánh sáng"
+    },
+    {
+      "key": "Setting_Sisyphus_Brightness",
+      "text": "Điều chỉnh Độ sáng"
+    },
+    {
+      "key": "Setting_Sisyphus_BrightnessCeiling",
+      "text": "Giới hạn Độ sáng Tối đa"
+    },
+    {
+      "key": "Setting_Sisyphus_MoveAssist",
+      "text": "Hiệu chỉnh Di chuyển Theo hướng"
+    },
+    {
+      "key": "Setting_Sisyphus_RunStartDelay",
+      "text": "Bộ đếm thời gian Chạy tự động"
+    },
+    {
+      "key": "Setting_Sisyphus_VirtualPadWalkStart",
+      "text": "Ngưỡng Đi bộ Cần tay ảo (V.)"
+    },
+    {
+      "key": "Setting_Sisyphus_VirtualPadRunKeep",
+      "text": "Bán kính Duy trì Chạy Cần tay ảo (V.)"
+    },
+    {
+      "key": "Setting_Sisyphus_VirtualPadRunStart",
+      "text": "Ngưỡng Chạy Cần tay ảo (V.)"
+    },
+    {
+      "key": "Setting_Sisyphus_TurnAssist",
+      "text": "Điều chỉnh Ngưỡng Thay đổi Hướng"
+    },
+    {
+      "key": "Setting_Sisyphus_RunStartDelayValue",
+      "text": "{0} Giây"
+    },
+    {
+      "key": "Setting_Sisyphus_Move",
+      "text": "Di chuyển"
+    },
+    {
+      "key": "Setting_Sisyphus_Interaction",
+      "text": "Tương tác"
+    },
+    {
+      "key": "Setting_Sisyphus_Quest",
+      "text": "Nhật ký: Nhiệm vụ"
+    },
+    {
+      "key": "Setting_Sisyphus_GauntletSuicide",
+      "text": "Quay lại Nguồn nước"
+    },
+    {
+      "key": "Setting_Sisyphus_Attack",
+      "text": "Tấn công"
+    },
+    {
+      "key": "Setting_Sisyphus_Guard",
+      "text": "Chặn"
+    },
+    {
+      "key": "Setting_Sisyphus_Dodge",
+      "text": "Né tránh"
+    },
+    {
+      "key": "Setting_Sisyphus_Run",
+      "text": "Đua"
+    },
+    {
+      "key": "Setting_Sisyphus_LockedNeedItem",
+      "text": "※ Không khả dụng. Mua vật phẩm liên quan để mở khóa."
+    },
+    {
+      "key": "Setting_Sisyphus_LanternToggle",
+      "text": "Bật/Tắt Đèn lồng"
+    },
+    {
+      "key": "Setting_Sisyphus_CloseWindowOrSetting",
+      "text": "Đóng cửa sổ đang mở / Cài đặt"
+    },
+    {
+      "key": "Setting_Sisyphus_Inventory",
+      "text": "Xem túi đồ"
+    },
+    {
+      "key": "Setting_Sisyphus_DialogueNext",
+      "text": "Tiến hành / Xác nhận lựa chọn hội thoại"
+    },
+    {
+      "key": "Setting_Sisyphus_DialogueChoice",
+      "text": "Xem các lựa chọn hội thoại"
+    },
+    {
+      "key": "Setting_Sisyphus_DialogueSkip",
+      "text": "Bỏ qua hội thoại"
+    },
+    {
+      "key": "Setting_Sisyphus_FullLog",
+      "text": "Xem Lịch sử Nhật ký"
+    },
+    {
+      "key": "Setting_Sisyphus_CreditFastForward",
+      "text": "Tăng tốc cuộn chữ credits"
+    },
+    {
+      "key": "Setting_Sisyphus_CreditSkip",
+      "text": "Bỏ qua credits"
+    },
+    {
+      "key": "Setting_Sisyphus_QuestNavigation",
+      "text": "Bật/tắt mũi tên điều hướng nhiệm vụ"
+    },
+    {
+      "key": "Setting_Sisyphus_TabDefault",
+      "text": "Điều khiển (Bàn phím)"
+    },
+    {
+      "key": "Setting_Sisyphus_TabMobile",
+      "text": "Điều khiển (Di động)"
+    },
+    {
+      "key": "WardenBigNail",
+      "text": "Đại Nanh của Giám thị"
+    },
+    {
+      "key": "FormationUI_AskToBack",
+      "text": "Rời đi bằng nút \"quay lại\" sẽ được tính là thất bại."
+    },
+    {
+      "key": "Setting_Sisyphus_Manual",
+      "text": "Hướng dẫn"
+    },
+    {
+      "key": "Setting_Sisyphus_BattleStatus",
+      "text": "Trạng thái trong Bóng tối"
+    },
+    {
+      "key": "TheaterTitle",
+      "text": "Cinéma"
+    },
+    {
+      "key": "SettingTitle",
+      "text": "Cài đặt"
+    },
+    {
+      "key": "Setting_Sisyphus_MobileMenu",
+      "text": "Mở Menu"
+    },
+    {
+      "key": "Setting_Sisyphus_MobileAutoAttack",
+      "text": "Tấn công tự động"
+    },
+    {
+      "key": "Setting_Sisyphus_MobileInteraction",
+      "text": "Tương tác"
+    },
+    {
+      "key": "Setting_Sisyphus_MobileQuestNavigation",
+      "text": "Mũi tên điều hướng Nhiệm vụ"
+    },
+    {
+      "key": "Setting_Sisyphus_MobileLantern",
+      "text": "Đèn lồng"
+    },
+    {
+      "key": "Setting_Sisyphus_MobileUnlockNotice",
+      "text": "Các chức năng được đánh dấu bằng \"※\" phải được mở khóa bằng cách mua vật phẩm liên quan."
+    },
+    {
+      "key": "Rpg_Menu_Status_Ego_Resources_Owned",
+      "text": "Tài nguyên E.G.O hiện tại"
+    },
+    {
+      "key": "Rpg_Menu_Status_Character_Mental_Status",
+      "text": "Trạng thái Tinh thần của Tù nhân"
+    },
+    {
+      "key": "Rpg_Move_Floor_Ui_Current_Floor",
+      "text": "Tầng hiện tại"
+    }
+  ]
+}

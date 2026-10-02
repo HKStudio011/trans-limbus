@@ -1,0 +1,508 @@
+{
+  "dataList": [
+    {
+      "id": "FellBulletMark",
+      "name": "Đánh dấu",
+      "desc": "- Trở thành mục tiêu của Tay Súng Hung Bạo\n- Bị xóa khi kết thúc lượt",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MRR501",
+      "name": "Khúc xạ lượng gây",
+      "desc": "Số lớp [Burn], [Bleed], [Tremor], [Rupture], [Sinking] gây cho kẻ địch bằng hiệu ứng kỹ năng/đồng xu +1",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MRR502",
+      "name": "Khúc xạ lượng nhận",
+      "desc": "Số lượt Hô hấp, [Charge] đồng minh nhận được bằng hiệu ứng kỹ năng/đồng xu +1",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MRR503",
+      "name": "Tinh thần bị khúc xạ",
+      "desc": "Kết thúc lượt, 3 đồng minh có Tinh thần thấp nhất hồi 8 Tinh thần (ngoại trừ đồng minh ở trạng thái Hoảng loạn/Xâm thực)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MRR504",
+      "name": "Tên buff",
+      "desc": "Khi kích hoạt Chí mạng, nếu số lớp Hô hấp sở hữu vượt quá 20, tiêu thụ tối đa 20 lớp Hô hấp vượt quá để tăng Sát thương chí mạng +(Lượng tiêu thụ × 2.5) (Tối đa 50%)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MRR505",
+      "name": "Sạc bị khúc xạ",
+      "desc": "Khi kỹ năng tiêu thụ từ 8 lượt [Charge] trở lên trúng đích, tăng +0.1 Kháng Đố kỵ của mục tiêu trong trận chiến này (Kích hoạt 1 lần cho mỗi kỹ năng trên mỗi kẻ địch. Giá trị tăng tối đa: 0.3)\nSát thương của kỹ năng nhận hoặc tiêu thụ lượt [Charge] +(10 + Giá trị nhận hoặc tiêu thụ × 2)% (Tối đa 50%)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MRR506",
+      "name": "Bộc phát bị khúc xạ",
+      "desc": "Kết thúc lượt, gây sát thương Phẫn nộ tương ứng với số lớp Hỏa thiêu lên tất cả bộ phận kẻ địch và giảm 1 lượt Hỏa thiêu. Kích hoạt [Burst] Chấn động 1 lần và giảm 1 lượt Chấn động (Chỉ kích hoạt khi số lượt từ 2 trở lên)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MRR507",
+      "name": "Vết rách bị khúc xạ",
+      "desc": "Uy lực cuối của kỹ năng gây số lớp hoặc số lượt [Rupture] +2",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MRR508",
+      "name": "Trầm luân bị khúc xạ",
+      "desc": "Sát thương gây ra cho kẻ địch không có Tinh thần hoặc Tinh thần dưới 0 +(Số lớp [Sinking] của mục tiêu)% (Tối đa 45%)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MRR509",
+      "name": "Phá hủy điểm yếu",
+      "desc": "Sát thương gây ra cho bộ phận đã bị phá hủy hoặc đang trong trạng thái Choáng +30%",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MRR510",
+      "name": "Bình xông khí dung",
+      "desc": "Khi lượt đầu tiên của đợt bắt đầu, tất cả đồng minh nhận 5 lớp và tăng 5 lượt Hô hấp. Nếu kích hoạt Cộng hưởng Ngạo mạn, khi bắt đầu trận chiến, tất cả đồng minh nhận 3 lớp và tăng 3 lượt Hô hấp.",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MRR511",
+      "name": "Tay súng cô độc",
+      "desc": "Giá trị Tốc độ tối thiểu/tối đa của đồng minh ở vị trí số 1 trong thứ tự thiết lập +1. Số lượng Kỹ năng 1 của đồng minh đó giảm đi, Kỹ năng 3 tăng thêm 1",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MRR512",
+      "name": "Ý chí chiến đấu tiếp nối",
+      "desc": "Hồi 30 Tinh thần vào đầu lượt khi được giải phóng khỏi trạng thái chờ từ vị trí thứ 7 trở đi trong thứ tự thiết lập, nhận 1 Tăng Uy lực Tấn công trong trận chiến này, +2 Tài nguyên E.G.O thuộc tính kỹ năng tấn công cơ bản của bản thân",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MRR513",
+      "name": "Thu hoạch tài nguyên",
+      "desc": "Khi kết thúc kỹ năng Tấn công/Phản đòn, nếu kẻ địch chết, nhận +2 Tài nguyên E.G.O cùng thuộc tính với kỹ năng đã sử dụng (1 lần mỗi kỹ năng, bao gồm cả kỹ năng E.G.O)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MRR514",
+      "name": "Tên hiệu ứng",
+      "desc": "Nếu có thêm kẻ địch mới xuất hiện, khi bắt đầu cuộc chiến gây 5 Xuất huyết(Bleed), 3 Số lượng Xuất huyết(Bleed) lên kẻ địch đó. Nếu đồng minh có <Huyết Quỷ>, mỗi khi thỏa mãn điều kiện trên, kích hoạt Xuất huyết(Bleed) lên tất cả kẻ địch 1 lần, và Số lượng Xuất huyết(Bleed) của tất cả kẻ địch giảm đi 1",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MRR515",
+      "name": "Phòng thủ kiên cố",
+      "desc": "Lượng sát thương nhận vào của tất cả đồng minh -50%",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MRR516",
+      "name": "Quyết định sinh tử",
+      "desc": "Lượng sát thương gây ra của tất cả đồng minh +30%",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MRR517",
+      "name": "Phản đòn phẫn nộ",
+      "desc": "Mỗi khi tất cả đồng minh nhận sát thương từ kỹ năng, nhận 2 Tăng Cấp độ Tấn công vào lượt tiếp theo (Tối đa 6)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MRR518",
+      "name": "Mặt dây chuyền kỷ niệm",
+      "desc": "Khi bắt đầu trận chiến, 3 đồng minh có thứ tự sắp xếp đội hình sớm nhất nhận 10 Cường độ Hơi thở(Poise)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MRR519",
+      "name": "Tên hiệu ứng",
+      "desc": "Uy lực Đối đầu của kỹ năng tiêu tốn Đạn +2, lượng sát thương +(60 ÷ Số lượng Đồng xu)%. Nếu Đạn bằng 0, nhận 2 Đạn vào lúc bắt đầu lượt tiếp theo (1 lượt mỗi trận chiến cho mỗi Bản sắc)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MRR520",
+      "name": "Cơn mưa đạn dữ dội",
+      "desc": "Mỗi khi một đồng minh tử trận, gây sát thương cố định bằng 50% Máu tối đa của đồng minh đó lên tất cả bộ phận của toàn bộ kẻ địch",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MRR521",
+      "name": "Biến dạng sinh lực",
+      "desc": "Máu tối đa của tất cả đồng minh +25%, loại bỏ ngưỡng Choáng đầu tiên",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MRR522",
+      "name": "Canh bạc nguy hiểm",
+      "desc": "Uy lực Cuối cùng của kỹ năng của tất cả đồng minh +1",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MRR523",
+      "name": "Yến tiệc nhuốm máu",
+      "desc": "Khi Đánh trúng, nếu Máu của kẻ địch giảm, hồi phục Máu bằng 10% lượng sát thương. Khi kết thúc lượt, giảm 3 Số lượng Xuất huyết(Bleed) của tất cả đồng minh",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MRR524",
+      "name": "Lễ hội máu",
+      "desc": "Với mỗi 10 Huyết Thực tích lũy đã tiêu thụ của mỗi đồng minh, lượng sát thương của tất cả kỹ năng +1% (Tối đa 30%)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MRR526",
+      "name": "Chém - Khúc xạ",
+      "desc": "Uy lực Cộng thêm của kỹ năng Chém +1, Uy lực Đồng xu Trừ -1\nKháng hệ Chém của Boss cuối Phân khu 3 đổi thành Điểm yếu (x1.5)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MRR527",
+      "name": "Đâm - Khúc xạ",
+      "desc": "Uy lực Cộng thêm của kỹ năng Đâm +1, Uy lực Đồng xu Trừ -1\nKháng hệ Đâm của Boss cuối Phân khu 3 đổi thành Điểm yếu (x1.5)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MRR528",
+      "name": "Đòn Đập Khúc Xạ",
+      "desc": "Sức mạnh Cộng của kỹ năng Đập +1, Sức mạnh Đồng xu Trừ -1\nKháng Đập của Trùm cuối khu vực 3 được đổi thành Điểm yếu (x1.5)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MRR529",
+      "name": "Tăng trưởng Khúc xạ I",
+      "desc": "Cấp kẻ địch +1",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MRR530",
+      "name": "Tăng trưởng Khúc xạ II",
+      "desc": "Cấp kẻ địch +2",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MRR531",
+      "name": "Tên Buff",
+      "desc": "Trong trận chiến, kẻ địch được viện trợ sẽ nhận được Tăng Sức mạnh Đối đầu 2 khi bắt đầu lượt chúng xuất hiện.",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MRR532",
+      "name": "Bay hơi Tài nguyên",
+      "desc": "Khi kết thúc tấn công bằng kỹ năng E.G.O Thức tỉnh, tiêu hao tổng cộng 2 tài nguyên E.G.O hiện có, mỗi loại thuộc tính 1 cái theo thứ tự số lượng từ nhiều đến ít.",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MRR533",
+      "name": "Máu Nở Rộ",
+      "desc": "Khi kẻ địch dùng kỹ năng/hiệu ứng để gây Xuất huyết lên mục tiêu đang bị Xuất huyết, Số lượng và Số lần Xuất huyết +1",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MRR534",
+      "name": "Phòng thủ Kiên cố",
+      "desc": "Sát thương Nhận vào của tất cả kẻ địch -20%",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MRR535",
+      "name": "Tên Buff",
+      "desc": "Máu tối đa của tất cả đồng minh -50%",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MRR536",
+      "name": "Phẫn nộ Khúc xạ",
+      "desc": "Mỗi khi kẻ địch nhận sát thương từ kỹ năng, nhận ngẫu nhiên 1 trong 2 hiệu ứng: Tăng Cấp Tấn công 1 hoặc Tăng Cấp Phòng thủ 1 vào lượt tiếp theo. (Tối đa 4 lần mỗi kẻ địch)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MRR537",
+      "name": "Máu Khúc xạ II",
+      "desc": "Máu tối đa của kẻ địch +20%",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MRR538",
+      "name": "Tên Buff",
+      "desc": "Sức mạnh Cuối cùng kỹ năng của kẻ địch +1",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MRR539",
+      "name": "Yến Tiệc Đẫm Máu",
+      "desc": "Lượng hồi Máu từ hiệu ứng kỹ năng/Đồng xu của kẻ địch tăng 20%",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MRR540",
+      "name": "Tên Buff",
+      "desc": "Sức mạnh Cuối cùng của các kỹ năng tiêu hao Huyết Thực của kẻ địch +1, Sát thương Gây ra tăng 10%",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MRR541",
+      "name": "Tên Buff",
+      "desc": "Nếu tất cả kẻ địch chọn đồng minh có Cường độ [Bleed] thấp nhất làm mục tiêu chính, Cường độ Cuối của kỹ năng khi tấn công +1.",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MRR542",
+      "name": "Khúc Xạ Sinh Lực",
+      "desc": "HP tối đa của kẻ địch +10%",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MRR543",
+      "name": "Ý Chí Tiếp Nối",
+      "desc": "Khi chết, nhận số lượng tài nguyên E.G.O có cùng thuộc tính với kỹ năng tấn công cơ bản tương ứng với số Rank.",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "FellBulletGroggy",
+      "name": "Dấu Ấn",
+      "desc": "- Không thể giải trừ\n- Khi về 0 vào cuối lượt, sẽ rơi vào trạng thái Hoảng loạn vào lượt kế tiếp\n- Khi sử dụng Bắn Chỉ Định Mục Tiêu, nếu mục tiêu không có Dấu Ấn, giảm 1\n- Khi kỹ năng Bắn Điều Chỉnh Mục Tiêu thua Khớp lệnh, giảm 1\n- Trước khi sử dụng kỹ năng Bắn Điều Chỉnh Mục Tiêu, nếu đồng minh được chỉ định làm mục tiêu tử trận, giảm 1",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MRR544",
+      "name": "Vòng Quay Cường Độ",
+      "desc": "Khi bắt đầu lượt, Cường độ Cuối của tất cả đồng minh +1 ~ 3",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MRR545",
+      "name": "Pháo Thủy Tinh",
+      "desc": "Sát thương gây ra của tất cả đồng minh +20%",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MRR546",
+      "name": "Rủi Ro Cao",
+      "desc": "Sát thương gây ra của tất cả đồng minh +10%\nKháng Chém, Đâm, Đập của Trùm cuối khu vực 3 thay đổi thành Điểm yếu (x1.3)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MRR547",
+      "name": "Vòng Quay Cường Độ",
+      "desc": "Khi bắt đầu lượt, Cường độ Cuối kỹ năng của kẻ địch +1 ~ 3",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MRR548",
+      "name": "Trận Đấu Hiểm Nguy",
+      "desc": "Cường độ Khớp lệnh của kẻ địch +2",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MRR549",
+      "name": "Quyết Định Sinh Tử",
+      "desc": "HP tối đa của tất cả đồng minh -25%",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MRR550",
+      "name": "Rủi Ro Nhẹ",
+      "desc": "Cường độ Đồng xu Cộng của kẻ địch +1",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MRR551",
+      "name": "[Bleed] Khúc Xạ",
+      "desc": "Khi bắt đầu lượt, Gây cho kẻ địch có HP cao nhất 5 Cường độ [Bleed], Số lượng tăng thêm 3 (Với mỗi kẻ địch, kích hoạt 1 lần mỗi trận đấu cho từng bộ phận)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MRR552",
+      "name": "Tên Buff",
+      "desc": "Mỗi khi một kẻ địch chết, vào lượt tiếp theo, 1 kẻ địch có HP hiện tại thấp nhất sẽ nhận Tăng Cường Độ Khớp Lệnh 2.",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MRR5BaseP",
+      "name": "Buff đang áp dụng",
+      "desc": "",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MRR5BaseN",
+      "name": "Khổ nạn đang áp dụng",
+      "desc": "",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MRR553",
+      "name": "Một hơi thở",
+      "desc": "Lượng sát thương kỹ năng E.G.O +30%",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MRR554",
+      "name": "Tên Buff",
+      "desc": "Lượng sát thương gây ra của toàn bộ đồng minh +15%",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MRR555",
+      "name": "Khúc xạ Uy lực Đối đầu",
+      "desc": "Uy lực Đối đầu của kẻ địch +1",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MRR556",
+      "name": "Đại bác Thủy tinh",
+      "desc": "Lượng sát thương nhận vào của toàn bộ đồng minh +30%",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MRR557",
+      "name": "Hơi thở bị khúc xạ",
+      "desc": "Lượng sát thương bạo kích +(10 + Tổng Uy lực và Số lượng Hơi thở sở hữu)% (Tối đa 50%)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MRR558",
+      "name": "Phẫn nộ bị khúc xạ",
+      "desc": "Lượng sát thương kỹ năng hệ Phẫn nộ +30%\nKháng Phẫn nộ của Boss cuối Khu vực 3 thay đổi thành Điểm yếu (x1.25)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MRR559",
+      "name": "Sắc dục bị khúc xạ",
+      "desc": "Lượng sát thương kỹ năng hệ Sắc dục +30%\nKháng Sắc dục của Boss cuối Khu vực 3 thay đổi thành Điểm yếu (x1.25)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MRR560",
+      "name": "Lười biếng bị khúc xạ",
+      "desc": "Lượng sát thương kỹ năng hệ Lười biếng +30%\nKháng Lười biếng của Boss cuối Khu vực 3 thay đổi thành Điểm yếu (x1.25)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MRR561",
+      "name": "Phàm ăn bị khúc xạ",
+      "desc": "Lượng sát thương kỹ năng hệ Phàm ăn +30%\nKháng Phàm ăn của Boss cuối Khu vực 3 thay đổi thành Điểm yếu (x1.25)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MRR562",
+      "name": "U sầu bị khúc xạ",
+      "desc": "Lượng sát thương kỹ năng hệ U sầu +30%\nKháng U sầu của Boss cuối Khu vực 3 thay đổi thành Điểm yếu (x1.25)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MRR563",
+      "name": "Ngạo mạn bị khúc xạ",
+      "desc": "Lượng sát thương kỹ năng hệ Ngạo mạn +30%\nKháng Ngạo mạn của Boss cuối Khu vực 3 thay đổi thành Điểm yếu (x1.25)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MRR564",
+      "name": "Đố kỵ bị khúc xạ",
+      "desc": "Lượng sát thương kỹ năng hệ Đố kỵ +30%\nKháng Đố kỵ của Boss cuối Khu vực 3 thay đổi thành Điểm yếu (x1.25)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MRR565",
+      "name": "An nhàn",
+      "desc": "Tốc độ tối thiểu/tối đa của tất cả đồng minh +2, Máu tối đa +25%",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MRR566",
+      "name": "Khúc xạ Công kích",
+      "desc": "Uy lực Đối đầu của kẻ địch +1, Sát thương gây ra +10%",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MRR567",
+      "name": "Rủi ro cao",
+      "desc": "Uy lực Đồng xu cộng thêm của kẻ địch +2",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MRR568",
+      "name": "Khúc xạ Phòng thủ",
+      "desc": "Cấp Phòng thủ của kẻ địch +3",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MRR569",
+      "name": "Khúc xạ Sát thương",
+      "desc": "Sát thương gây ra của kẻ địch +10%",
+      "summary": "",
+      "undefined": "-"
+    }
+  ]
+}

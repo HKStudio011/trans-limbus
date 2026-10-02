@@ -1,0 +1,84 @@
+{
+  "dataList": [
+    {
+      "id": 814201,
+      "name": "Đối Đầu",
+      "desc": "Khi Máu xuống dưới 50%, sử dụng kĩ năng đặc biệt chỉ định 1 mục tiêu cụ thể.\nTrong vòng 2 lượt tiếp theo kể từ lượt đó, không rơi vào trạng thái Choáng váng hay Hoảng loạn.\nNếu nhân vật có hiệu ứng [Đối Đầu] là Yi Sang, Dongbaek nhận 1 Tăng Uy lực Tấn công.\nNếu Yi Sang thắng đối đầu, toàn bộ đồng minh nhận 3 Tăng Sát thương vào lượt kế tiếp.\nNếu Dongbaek thắng đối đầu, Tinh thần của Dongbaek hồi phục hoàn toàn."
+    },
+    {
+      "id": 118301,
+      "name": "Ta vẫn chưa được nghe thấy.",
+      "desc": "Bắt đầu mỗi lượt, bản thể và bộ phận nhận 900 Lá chắn.\n- Nếu đối tượng có thứ tự sắp xếp đội hình sớm nhất có [Teaching], lượng nhận được giảm đi 300 ứng với mỗi 1 cấp hiệu ứng.\n- Nếu đối tượng có thứ tự sắp xếp đội hình sớm nhất có từ 3 [Teaching] trở lên, sẽ không nhận Lá chắn trong suốt phần còn lại của trận chiến."
+    },
+    {
+      "id": 118701,
+      "name": "Xin hãy dõi theo con bé này...!",
+      "desc": "Khi bắt đầu lượt, nếu có đơn vị do bản thân triệu hồi thì hồi 10 Tinh thần."
+    },
+    {
+      "id": 124105,
+      "name": "Nạp Đạn Hổ Ấn",
+      "desc": "Khi kết thúc lượt nếu Máu xuống dưới 90% hoặc kết thúc lượt thứ 2, nạp [BulletPropellant] và thay đổi hình thái vào lượt kế tiếp.\n- Nếu đang trong trạng thái Choáng váng, giải trừ Choáng váng."
+    },
+    {
+      "id": 124106,
+      "name": "Lôi Hoành",
+      "desc": "Khi kết thúc lượt nếu Máu xuống dưới 80% hoặc kết thúc lượt thứ 4, thay đổi hình thái vào lượt kế tiếp.\n- Sử dụng đòn tấn công mạnh mẽ (\"Khoái Đao Loạn Ma\"), lặp lại sau mỗi 3 lượt. Giá trị Tốc độ tối thiểu/tối đa vào lượt sử dụng kĩ năng này +10.\n- Khi bắt đầu lượt tương ứng, nhận 25 [BattleSense].\n- Nếu đang trong trạng thái Choáng váng, giải trừ Choáng váng."
+    },
+    {
+      "id": 124107,
+      "name": "Thiên Thoái Tinh",
+      "desc": "Tại thời điểm kết thúc lượt nếu Máu xuống dưới 60%, hoặc nếu lượt tiếp theo sẽ sử dụng đòn tấn công mạnh mẽ (\"Khoái Đao Loạn Ma\") lần thứ 2 trong trận chiến này, thay đổi hình thái vào lượt kế tiếp.\n- Khi bắt đầu lượt tương ứng, nhận 1 [Irritation].\n- Khi bắt đầu lượt tương ứng, nhận 18 [BulletPropellantSpecial] và nạp ngay lập tức.\n· Nếu tiêu hao hết [BulletPropellantSpecial], hiệu ứng này đổi thành [BulletPropellant] và triệu hồi 2 Soldato Ngón Cái Nghiêm Khắc vào lượt kế tiếp, đồng thời tiếp tế [BulletPropellantSpecial].\n- Nếu đang trong trạng thái Choáng váng, giải trừ Choáng váng."
+    },
+    {
+      "id": 124108,
+      "name": "Tiểu Chỉ Thiên Thoái Tinh Lôi Hoành",
+      "desc": "Tại thời điểm kết thúc lượt nếu Máu xuống dưới 40%, hoặc nếu lượt tiếp theo sẽ sử dụng đòn tấn công mạnh mẽ (\"Khoái Đao Loạn Ma\") lần thứ 3 trong trận chiến này, thay đổi hình thái vào lượt kế tiếp.\n- Đòn tấn công mạnh mẽ \"Khoái Đao Loạn Ma\" đổi thành \"Siêu Tuyệt Mãnh Hổ Sát Kích Loạn Trảm\". Giá trị Tốc độ tối thiểu/tối đa vào lượt sử dụng kĩ năng này +15.\n- [BattleSense] đổi thành [RestoredBattleSense].\n- [Irritation] đổi thành [DerivativeHugeIrritation].\n- Nếu đang trong trạng thái Choáng váng, giải trừ Choáng váng."
+    },
+    {
+      "id": 124112,
+      "name": "Đao Thiên Thoái Tinh Quá Nhiệt",
+      "desc": "Nếu đã sử dụng đòn tấn công mạnh mẽ (\"Khoái Đao Loạn Ma\" · \"Siêu Tuyệt Mãnh Hổ Sát Kích Loạn Trảm\"), nhận [Complacency] vào lượt kế tiếp bằng với số lần đã sử dụng đòn tấn công mạnh mẽ trong suốt trận chiến này. (Tối đa 5)"
+    },
+    {
+      "id": 124301,
+      "name": "Không ăn thêm được nữa",
+      "desc": "Nếu [FullCharon] từ 10 trở lên\n- Cưỡng chế rơi vào trạng thái Choáng váng khi bắt đầu lượt (trong 1 lượt)\n- Khi kết thúc lượt, loại bỏ toàn bộ [HungryCharon], [FullCharon]."
+    },
+    {
+      "id": 124302,
+      "name": "Brum brum, giận rồi.",
+      "desc": "Khi bắt đầu trận chiến, Vergilius nhận 1 [HungryCharon].\nKhi [HungryCharon] đạt 3, sử dụng đòn tấn công mạnh mẽ (\"Brum brum\").\n※Nếu bị Choáng váng do [FullCharon], hiệu ứng này sẽ không kích hoạt khi bắt đầu trận chiến."
+    },
+    {
+      "id": 124303,
+      "name": "Có kẹo không?",
+      "desc": "Theo thứ tự Bản sắc được sắp xếp trong đội hình sớm nhất, cấp 1 [GiveMeCandy] cho 1 kẻ địch chưa có [GiveMeCandy] khi bắt đầu lượt."
+    },
+    {
+      "id": 124304,
+      "name": "Đánh Comi cũng không ra kẹo đâu",
+      "desc": "Cấp 1 [GiveMeCandy] cho đối tượng tấn công Comi."
+    },
+    {
+      "id": 124001,
+      "name": "Huyết Cứng Tan Tác",
+      "desc": "Khi chết do đòn tấn công của kẻ địch hoặc sát thương hiệu ứng bất lợi, nhận thêm 30 [BloodDinner]. Không kích hoạt nếu tự ý bị loại bỏ."
+    },
+    {
+      "id": 124002,
+      "name": "Kí ức về những chuyến phiêu lưu đã qua",
+      "desc": "Cấp hiệu ứng đặc biệt cho toàn bộ đồng minh"
+    },
+    {
+      "id": 124003,
+      "name": "Kí ức về những chuyến phiêu lưu đã qua",
+      "desc": "Khi bắt đầu lượt, cấp 3 [Laceration] cho toàn bộ kẻ địch, tăng số lần [Laceration] thêm 1"
+    },
+    {
+      "id": 124004,
+      "name": "Kí ức về những chuyến phiêu lưu đã qua",
+      "desc": "Khi kết thúc lượt, cấp 1 [RegainedStrength] cho Don Quixote."
+    }
+  ]
+}

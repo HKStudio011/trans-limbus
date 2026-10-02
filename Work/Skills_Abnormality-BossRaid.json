@@ -1,0 +1,385 @@
+{
+    "dataList": [
+        {
+            "id": 500101,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Đấm",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Gây thêm 3 sát thương Va chạm"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Gây thêm 3 sát thương Va chạm"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Thêm 3 [Paralysis]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 500102,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Đá",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Gây thêm 5 sát thương Va chạm"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Gây thêm 5 sát thương Va chạm"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Thêm 3 [Paralysis] vào lượt kế tiếp"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 500103,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Trả đũa",
+                    "coinlist": [
+                        {},
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Giảm 5 điểm Tinh thần của mục tiêu"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 500104,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Chú ý đằng sau!",
+                    "desc": "Nếu Tinh thần của mục tiêu thấp hơn 0, Công suất Đồng xu +3",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Hồi 10 điểm Tinh thần cho bản thân"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Thêm 2 [Binding], 2 [Reduction] vào lượt kế tiếp"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Giảm 20 điểm Tinh thần của mục tiêu"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 500105,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Tập hợp toàn bộ",
+                    "desc": "[StartBattle] Triệu hồi 2 đồng minh vào lượt kế tiếp",
+                    "coinlist": [
+                        {}
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 500106,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Hãy khắc lên cơ thể ta xem",
+                    "desc": "",
+                    "coinlist": [
+                        {}
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 500107,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "PHIẾU GIẢM GIÁ TÓC CỦA TA!!!",
+                    "desc": "[DefeatDuel] Lượng sát thương cuối cùng giảm 30%, và mục tiêu sẽ không bị Chấn động bởi sát thương của kĩ năng này",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] Đẩy mốc Chấn động lên 30"
+                                },
+                                {
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] Thêm 1 [Paralysis] vào lượt kế tiếp"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Giảm 5 [RicardoBookRaid] của mục tiêu"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 500108,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Khắc ghi đau đớn",
+                    "desc": "Ưu tiên chỉ định mục tiêu có chỉ số [RicardoBookRaid] cao nhất\n[WhenUse] Nếu <color=#ff6000><mark=#ff000040><b><u>[RicardoBookRaid] của mục tiêu từ 3 trở lên,</u></b></mark></color>\ntất cả Đồng xu của kĩ năng này chuyển thành [SuperCoin]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Thêm 1 [Vulnerable] vào lượt này và lượt kế tiếp"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Thêm 1 [Vulnerable] vào lượt này và lượt kế tiếp"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Gây thêm sát thương Va chạm bằng ([RicardoBookRaid] của mục tiêu × 3)"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Giảm 3 [RicardoBookRaid] của mục tiêu"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 500109,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Trò chơi kết thúc tại đây",
+                    "desc": "[StartBattle] Hồi 20 điểm Tinh thần\n[EndBattle] Nhận 5 [Enhancement] vào lượt kế tiếp",
+                    "coinlist": [
+                        {}
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 500110,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Toàn bộ, hành hình!!!",
+                    "desc": "[DefeatDuel] Lượng sát thương cuối cùng giảm 30%, và mục tiêu sẽ không bị Chấn động bởi sát thương của kĩ năng này",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] Gây sát thương bằng 3% Máu tối đa tương ứng với mỗi 1 [RicardoBookRaid] của mục tiêu"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Giảm 10 [RicardoBookRaid] của mục tiêu"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 500111,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Là gia đình của tụi tao sao",
+                    "desc": "[StartBattle] Hồi 10 điểm Tinh thần cho tất cả đơn vị thuộc Hội Ngón Giữa",
+                    "coinlist": [
+                        {},
+                        {},
+                        {}
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 500112,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Ngươi dám lừa ta sao!!!",
+                    "desc": "[StartBattle] Giảm 20 điểm Tinh thần\n[StartBattle] Nhận 6 [AttackUp]\n[StartBattle] Nhận 4 [Vulnerable]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 500113,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Nghiền nát oán hận",
+                    "desc": "[EndBattle] Nhận 3 [AttackUp] vào lượt kế tiếp\n- Nếu có <color=#ff6000><mark=#ff000040><b><u>kĩ năng tấn công chỉ định mục tiêu chính vào ô sử dụng kĩ năng này,</u></b></mark></color>\n[AttackUp] nhận từ hiệu ứng này giảm 1",
+                    "coinlist": [
+                        {}
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 500114,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Hành hình tức khắc!",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Gây sát thương bằng 1% Máu tối đa tương ứng với mỗi 1 [RicardoBookRaid] của mục tiêu"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Gây sát thương bằng 1% Máu tối đa tương ứng với mỗi 1 [RicardoBookRaid] của mục tiêu"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Gây sát thương bằng 1% Máu tối đa tương ứng với mỗi 1 [RicardoBookRaid] của mục tiêu"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 500115,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Bài kiểm tra kết thúc rồi",
+                    "desc": "[WhenUse] Nhận 3 [HitDamageUp] vào lượt kế tiếp\n[WhenUse] Nếu <color=#ff6000><mark=#ff000040><b><u>[RicardoBookRaid] của mục tiêu chính từ 5 trở lên,</u></b></mark></color>\ntất cả Đồng xu của kĩ năng này chuyển thành [SuperCoin]",
+                    "coinlist": [
+                        {},
+                        {}
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 500116,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Sự nhân từ của Anh Cả",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Giảm 10 [RicardoBookRaid] của mục tiêu</u></b></mark></color>"
+                                },
+                                {
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Khiến mục tiêu rơi vào trạng thái Chấn động</u></b></mark></color>"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 500301,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Nắm Bắt Cơ Hội",
+                    "desc": "[BeforeHit] Nhận 5 Lá chắn với mỗi 1 giá trị [MiddleFingerBook] của mục tiêu (1 lần mỗi lượt, tối đa 50)\n[WhenUse] Nếu giá trị [MiddleFingerBook] của mục tiêu từ 5 trở lên, Sức mạnh cơ bản +3, Gây 4 [DefenseDown]",
+                    "coinlist": [
+                        {}
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 500401,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Trả Đũa Gấp Bội",
+                    "desc": "",
+                    "coinlist": [
+                        {}
+                    ]
+                }
+            ]
+        }
+    ]
+}

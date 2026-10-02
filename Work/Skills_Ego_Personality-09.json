@@ -1,0 +1,916 @@
+{
+  "dataList": [
+    {
+      "id": 2090411,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Sự Ăn mòn Sôi sục",
+          "abName": "Ngọc trai Di động",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 Số lần Chấn động"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Vào lượt tiếp theo, gây 2 Trói buộc"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Sự Ăn mòn Sôi sục",
+          "abName": "Ngọc trai Di động",
+          "desc": "[BeforeAttack] Nếu máu của mục tiêu chính từ 50% máu tối đa trở lên, Trọng lượng Tấn công +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 Chấn động, 5 Số lần Chấn động"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Vào lượt tiếp theo, gây 2 Trói buộc"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Bộc phát Chấn động"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Sự Ăn mòn Sôi sục",
+          "abName": "Ngọc trai Di động",
+          "desc": "[BeforeAttack] Nếu máu của mục tiêu chính từ 50% máu tối đa trở lên, Trọng lượng Tấn công +1\nNếu từ 75% máu tối đa trở lên, Trọng lượng Tấn công +1 thêm",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 Chấn động, 7 Số lần Chấn động"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Vào lượt tiếp theo, gây 2 Trói buộc"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Bộc phát Chấn động"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2090421,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Sự Ăn mòn Sôi sục",
+          "abName": "Ngọc trai Di động",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Hồi phục máu bản thân bằng 30% lượng sát thương"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Bộc phát Chấn động"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Sự Ăn mòn Sôi sục",
+          "abName": "Ngọc trai Di động",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\n[BeforeAttack] Nếu máu của mục tiêu chính từ 50% máu tối đa trở lên, Trọng lượng Tấn công +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Hồi phục máu bản thân bằng 30% lượng sát thương"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 Giảm Cấp Phòng thủ"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Bộc phát Chấn động"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Sự Ăn mòn Sôi sục",
+          "abName": "Ngọc trai Di động",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\n[BeforeAttack] Nếu máu của mục tiêu chính từ 50% máu tối đa trở lên, Trọng lượng Tấn công +1\nNếu từ 75% máu tối đa trở lên, Trọng lượng Tấn công +1 thêm",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Hồi phục máu bản thân bằng 30% lượng sát thương"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 5 Giảm Cấp Phòng thủ"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Bộc phát Chấn động"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2090511,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Chấp hành",
+          "abName": "Phụ tá Chấp hành viên Thiên giới",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Vào lượt tiếp theo, gây 1 Mong manh Lười biếng"
+                },
+                {
+                  "desc": "[EndSkill] Hồi phục cho 2 đồng minh (ngoại trừ bản thân) có tỉ lệ máu hiện tại thấp nhất một lượng bằng 15% máu tối đa của bản thân"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Chấp hành",
+          "abName": "Phụ tá Chấp hành viên Thiên giới",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Vào lượt tiếp theo, gây 1 Mong manh Lười biếng"
+                },
+                {
+                  "desc": "[EndSkill] Hồi phục cho 2 đồng minh (ngoại trừ bản thân) có tỉ lệ máu hiện tại thấp nhất một lượng bằng 25% máu tối đa của bản thân"
+                },
+                {
+                  "desc": "[EndSkillHead] Nếu mục tiêu bị Choáng hoặc chết, gây Khiên cho nhân vật đã được hồi phục máu một lượng bằng 10% máu tối đa của bản thân"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Chấp hành",
+          "abName": "Phụ tá Chấp hành viên Thiên giới",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Vào lượt tiếp theo, gây 1 Mong manh Lười biếng"
+                },
+                {
+                  "desc": "[EndSkill] Hồi phục cho 2 đồng minh (ngoại trừ bản thân) có tỉ lệ máu hiện tại thấp nhất một lượng bằng 30% máu tối đa của bản thân"
+                },
+                {
+                  "desc": "[EndSkillHead] Nếu mục tiêu bị Choáng hoặc chết, gây Khiên cho nhân vật đã được hồi phục máu một lượng bằng 15% máu tối đa của bản thân"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2090521,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Chấp hành",
+          "abName": "Phụ tá Chấp hành viên Thiên giới",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Bộc phát Chấn động"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 15 sát thương Tinh thần cho mục tiêu"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Hành Quyết",
+          "abName": "Phụ Tá của Hành Pháp Quan Thiên Giới",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\n[BeforeAttack] Nếu Máu của bản thân dưới 50%, Trọng số Tấn công +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Bộc phát Chấn động"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 20 sát thương Tinh thần cho mục tiêu"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Nếu mục tiêu Hoảng loạn hoặc tử trận, hồi 5 Tinh thần cho bản thân"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Hành Quyết",
+          "abName": "Phụ Tá của Hành Pháp Quan Thiên Giới",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\n[BeforeAttack] Nếu Máu của bản thân dưới 50%, Trọng số Tấn công +2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Bộc phát Chấn động"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 20 sát thương Tinh thần cho mục tiêu"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Nếu mục tiêu Hoảng loạn hoặc tử trận, hồi 7 Tinh thần cho bản thân"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2090611,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Dục Vọng Huyết Sắc",
+          "abName": "Đôi Giày Đỏ",
+          "desc": "Mỗi 2 [Laceration] của mục tiêu, +1 Sức mạnh Đồng xu (Tối đa 6)\n[StartBattle] Trong lượt này, Số lượng [Laceration] trên mục tiêu chính của kĩ năng này không giảm.\n[EndSkill] Trong 3 lượt, giảm 10 Tinh thần khi kết thúc lượt.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây sát thương hệ Lust tương ứng với Số cấp [Laceration] của mục tiêu.\n- Nếu Lust Cộng hưởng từ 4 trở lên, tính bằng 1.2 lần\n(Số cấp [Laceration] được tính không vượt quá 99.)",
+                  "summary": "[OnSucceedAttack] Sát thương hệ Lust tỉ lệ thuận với [Laceration] của mục tiêu"
+                },
+                {
+                  "desc": "[EnemyKill] Nếu sát thương của kĩ năng này hoặc hiệu ứng Đồng xu gây ra sát thương lớn hơn Máu hiện tại của kẻ địch, phân bổ lượng sát thương dư ra thành sát thương cố định cho toàn bộ kẻ địch.\n(Trong Trận chiến Tập trung, tính dựa trên Máu của bản thể chính)",
+                  "summary": "[EnemyKill] Nếu gây sát thương lớn hơn Máu hiện tại của kẻ địch, phân bổ lượng sát thương dư ra cho toàn bộ kẻ địch."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Dục Vọng Huyết Sắc",
+          "abName": "Đôi Giày Đỏ",
+          "desc": "Mỗi 2 [Laceration] của mục tiêu, +1 Sức mạnh Đồng xu (Tối đa <style=\"highlight\">9</style>)\n[StartBattle] Trong lượt này, Số lượng [Laceration] trên mục tiêu chính của kĩ năng này không giảm.\n[EndSkill] Trong 3 lượt, giảm 10 Tinh thần khi kết thúc lượt.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây sát thương hệ Lust bằng <style=\"highlight\">(Số cấp [Laceration] của mục tiêu × 1.2)</style>.\n- Nếu Lust Cộng hưởng từ 4 trở lên, tính bằng ×<style=\"highlight\">1.5</style>\n- Nếu số Lust Cộng hưởng Hoàn toàn tối đa từ 4 trở lên, tính bằng ×<style=\"highlight\">1.8</style>\n(Số cấp [Laceration] được tính không vượt quá 99.)",
+                  "summary": "[OnSucceedAttack] Sát thương hệ Lust tỉ lệ thuận với [Laceration] của mục tiêu"
+                },
+                {
+                  "desc": "[EnemyKill] Nếu sát thương của kĩ năng này hoặc hiệu ứng Đồng xu gây ra sát thương lớn hơn Máu hiện tại của kẻ địch, phân bổ lượng sát thương dư ra thành sát thương cố định cho toàn bộ kẻ địch.\n(Trong Trận chiến Tập trung, tính dựa trên Máu của bản thể chính)",
+                  "summary": "[EnemyKill] Nếu gây sát thương lớn hơn Máu hiện tại của kẻ địch, phân bổ lượng sát thương dư ra cho toàn bộ kẻ địch."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Dục Vọng Huyết Sắc",
+          "abName": "Đôi Giày Đỏ",
+          "desc": "Mỗi 2 [Laceration] của mục tiêu, +1 Sức mạnh Đồng xu (Tối đa <style=\"highlight\">13</style>)\n[StartBattle] Trong lượt này, Số lượng [Laceration] trên mục tiêu chính của kĩ năng này không giảm.\n[EndSkill] Trong 3 lượt, giảm 10 Tinh thần khi kết thúc lượt.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây sát thương hệ Lust bằng (Số cấp [Laceration] của mục tiêu × <style=\"highlight\">1.5</style>).\n- Nếu Lust Cộng hưởng từ 4 trở lên, tính bằng ×<style=\"highlight\">1.8</style>\n- Nếu số Lust Cộng hưởng Hoàn toàn tối đa từ 4 trở lên, tính bằng ×<style=\"highlight\">2</style>\n(Số cấp [Laceration] được tính không vượt quá 99.)",
+                  "summary": "[OnSucceedAttack] Sát thương hệ Lust tỉ lệ thuận với [Laceration] của mục tiêu"
+                },
+                {
+                  "desc": "[EnemyKill] Nếu sát thương của kĩ năng này hoặc hiệu ứng Đồng xu gây ra sát thương lớn hơn Máu hiện tại của kẻ địch, phân bổ lượng sát thương dư ra thành sát thương cố định cho toàn bộ kẻ địch.\n(Trong Trận chiến Tập trung, tính dựa trên Máu của bản thể chính)",
+                  "summary": "[EnemyKill] Nếu gây sát thương lớn hơn Máu hiện tại của kẻ địch, phân bổ lượng sát thương dư ra cho toàn bộ kẻ địch."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2090621,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Dục Vọng Huyết Sắc",
+          "abName": "Đôi Giày Đỏ",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\n[BeforeAttack] Trọng số Tấn công tăng thêm (Số Cộng hưởng cao nhất - 2) (Tối đa 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 + (Số Lust Cộng hưởng) [Laceration]\n(Lượng [Laceration] gây ra tối đa theo tỉ lệ Cộng hưởng: 4)",
+                  "summary": "[OnSucceedAttack] Gây 2 + Số Lust Cộng hưởng [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Dục Vọng Huyết Sắc",
+          "abName": "Đôi Giày Đỏ",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\n[BeforeAttack] Trọng số Tấn công tăng thêm (Số Cộng hưởng cao nhất - 2) (Tối đa 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây <style=\"highlight\">3</style> + (Số Lust Cộng hưởng) [Laceration]\n(Lượng [Laceration] gây ra tối đa theo tỉ lệ Cộng hưởng: <style=\"highlight\">5</style>)",
+                  "summary": "[OnSucceedAttack] Gây 3 + Số Lust Cộng hưởng [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Tăng 2 Số lượng [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Dục Vọng Huyết Sắc",
+          "abName": "Đôi Giày Đỏ",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\n[BeforeAttack] Trọng số Tấn công tăng thêm (Số Cộng hưởng cao nhất - 2) (Tối đa 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây <style=\"highlight\">4</style> + (Số Lust Cộng hưởng) [Laceration]\n(Lượng [Laceration] gây ra tối đa theo tỉ lệ Cộng hưởng: <style=\"highlight\">6</style>)",
+                  "summary": "[OnSucceedAttack] Gây [Laceration] bằng 4 + Số cộng hưởng Sắc dục"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Số lần [Laceration] tăng <style=\"highlight\">3</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2090711,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Đinh Nguyền Rủa",
+          "abName": "Gấu Teddy Đau Đớn",
+          "desc": "[EndSkill] Hồi phục Máu cho bản thân và 2 đồng minh có tỉ lệ Máu hiện tại thấp nhất một lượng bằng 12.5% Máu tối đa của bản thân",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [Curse]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Gây 2 [NailPersonality]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Đinh Nguyền Rủa",
+          "abName": "Gấu Teddy Đau Đớn",
+          "desc": "[EndSkill] Hồi phục Máu cho bản thân và 2 đồng minh có tỉ lệ Máu hiện tại thấp nhất một lượng bằng 12.5% Máu tối đa của bản thân\n<style=\"highlight\">- Với mỗi 2 loại hiệu ứng bất lợi mà mục tiêu được hồi phục đang sở hữu, lượng hồi phục tăng thêm 2.5% Máu tối đa (Tối đa 7.5%)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây <style=\"highlight\">3</style> [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [Curse]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Gây 2 [NailPersonality]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Đinh Nguyền Rủa",
+          "abName": "Gấu Teddy Đau Đớn",
+          "desc": "[EndSkill] Hồi phục Máu cho bản thân và 2 đồng minh có tỉ lệ Máu hiện tại thấp nhất một lượng bằng <style=\"highlight\">15%</style> Máu tối đa của bản thân\n- Với mỗi <style=\"highlight\">1</style> loại hiệu ứng bất lợi mà mục tiêu được hồi phục đang sở hữu, lượng hồi phục tăng thêm 2.5% Máu tối đa (Tối đa <style=\"highlight\">10%</style>)\n<style=\"highlight\">- Nếu cộng hưởng Đố kỵ bao gồm kĩ năng này từ 4 trở lên, số lượng mục tiêu hồi phục +1</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây <style=\"highlight\">4</style> [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây <style=\"highlight\">3</style> [Curse]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Gây <style=\"highlight\">3</style> [NailPersonality]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2090721,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Đinh Nguyền Rủa",
+          "abName": "Gấu Teddy Đau Đớn",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\n[EndSkill] Hồi phục Máu cho 3 đồng minh (không tính bản thân) có tỉ lệ Máu hiện tại thấp nhất một lượng bằng 15% Máu tối đa của bản thân",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Số lần [Laceration] tăng 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [Curse]"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Gây 2 [NailPersonality]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Đinh Nguyền Rủa",
+          "abName": "Gấu Teddy Đau Đớn",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\n[EndSkill] Hồi phục Máu cho 3 đồng minh (không tính bản thân) có tỉ lệ Máu hiện tại thấp nhất một lượng bằng 15% Máu tối đa của bản thân\n<style=\"highlight\">- Với mỗi 2 loại hiệu ứng bất lợi mà mục tiêu được hồi phục đang sở hữu, nhận 1 [AttackUp] cho đến lượt sau (Tối đa 2)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây <style=\"highlight\">3</style> [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Số lần [Laceration] tăng 2<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [Curse]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Gây 2 [NailPersonality]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Đinh Nguyền Rủa",
+          "abName": "Gấu Teddy Đau Đớn",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\n[EndSkill] Hồi phục Máu cho 3 đồng minh (không tính bản thân) có tỉ lệ Máu hiện tại thấp nhất một lượng bằng <style=\"highlight\">20%</style> Máu tối đa của bản thân\n- Với mỗi <style=\"highlight\">1</style> loại hiệu ứng bất lợi mà mục tiêu được hồi phục đang sở hữu, nhận 1 [AttackUp] cho đến lượt sau (Tối đa <style=\"highlight\">3</style>)\n<style=\"highlight\">- Nếu cộng hưởng Đố kỵ bao gồm kĩ năng này từ 4 trở lên, số lượng mục tiêu hồi phục +1</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây <style=\"highlight\">4</style> [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Số lần [Laceration] tăng 2<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây <style=\"highlight\">3</style> [Curse]"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Gây <style=\"highlight\">3</style> [NailPersonality]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2090811,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Phán Quyết Chỉ Định",
+          "abName": "Công Tước Thiêu Đốt",
+          "desc": "[EndSkill] Hồi phục Máu cho (1 + Số cộng hưởng tối đa) đồng minh có tỉ lệ Máu hiện tại thấp nhất một lượng bằng 15% Máu tối đa (Tối đa 3 người)\n[EndSkill] Trong 3 lượt, giảm 10 Tinh thần khi kết thúc lượt",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 6 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Nếu là mục tiêu chính, gây (1 + (Số cộng hưởng Phẫn nộ ÷ 3)) [BirdCage] ở lượt sau (Tối đa 2, làm tròn xuống)"
+                }
+              ]
+            },
+            {}
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Phán Quyết Chỉ Định",
+          "abName": "Công Tước Thiêu Đốt",
+          "desc": "<style=\"highlight\">[BeforeAttack] Trọng số Tấn công tăng thêm (Số cộng hưởng tối đa ÷ 2) (Tối đa 3, làm tròn xuống)</style>\n[EndSkill] Hồi phục Máu cho (1 + Số cộng hưởng tối đa) đồng minh có tỉ lệ Máu hiện tại thấp nhất một lượng bằng <style=\"highlight\">18</style>% Máu tối đa (Tối đa 3 người)\n[EndSkill] Trong 3 lượt, giảm 10 Tinh thần khi kết thúc lượt",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây <style=\"highlight\">8</style> [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Nếu là mục tiêu chính, gây (1 + (Số cộng hưởng Phẫn nộ ÷ 3)) [BirdCage] vào lượt kế tiếp (Tối đa <style=\"highlight\">3</style>, làm tròn xuống)"
+                }
+              ]
+            },
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Chỉ định Phán xét",
+          "abName": "Công tước Rực cháy",
+          "desc": "[BeforeAttack] Tăng chỉ số mục tiêu bằng (Số cộng hưởng tối đa ÷ 2) (Tối đa 3, làm tròn xuống)\n[EndSkill] (1 + Số cộng hưởng tối đa) đồng minh có tỉ lệ HP hiện tại thấp nhất hồi phục HP bằng <style=\"highlight\">20</style>% HP tối đa (Tối đa 3 người)\n[EndSkill] Trong 3 lượt, giảm 10 Tỉnh táo khi kết thúc lượt",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 8 [Combustion]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Nếu là mục tiêu chính, gây (1 + (Số cộng hưởng Phẫn nộ ÷ 3)) [BirdCage] vào lượt kế tiếp (Tối đa 3, làm tròn xuống)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2090821,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Chỉ định Phán xét",
+          "abName": "Công tước Rực cháy",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\n[BeforeAttack] Tăng chỉ số mục tiêu bằng (Số cộng hưởng tối đa ÷ 2) (Tối đa 3, làm tròn xuống)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây 6 [Combustion]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Nếu là mục tiêu chính, gây (1 + Số cộng hưởng Phẫn nộ) [BirdCage] (Tối đa 3)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Với mỗi 1 Sức mạnh [Combustion] trên mục tiêu chính, sát thương gây lên mục tiêu chính +1% (Tối đa 50%)"
+                },
+                {
+                  "desc": "[EnemyKill] (1 + Số cộng hưởng tối đa) đồng minh có tỉ lệ HP hiện tại thấp nhất nhận 1 [CrimsonResultUp], 1 [CrimsonDamageUp] (Tối đa 4 người, 1 lần mỗi kĩ năng)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Chỉ định Phán xét",
+          "abName": "Công tước Rực cháy",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\n[BeforeAttack] Tăng chỉ số mục tiêu bằng (Số cộng hưởng tối đa ÷ 2) (Tối đa 3, làm tròn xuống)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây <style=\"highlight\">8</style> [Combustion]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Nếu là mục tiêu chính, gây (1 + Số cộng hưởng Phẫn nộ) [BirdCage] (Tối đa <style=\"highlight\">4</style>)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Với mỗi 1 Sức mạnh [Combustion] trên mục tiêu chính, sát thương gây lên mục tiêu chính +1% (Tối đa 50%)"
+                },
+                {
+                  "desc": "[EnemyKill] (1 + Số cộng hưởng tối đa) đồng minh có tỉ lệ HP hiện tại thấp nhất nhận 1 [CrimsonResultUp], 1 [CrimsonDamageUp] (Tối đa <style=\"highlight\">5</style> người, 1 lần mỗi kĩ năng)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Chỉ định Phán xét",
+          "abName": "Công tước Rực cháy",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\n[BeforeAttack] Tăng chỉ số mục tiêu bằng (Số cộng hưởng tối đa ÷ 2) (Tối đa 3, làm tròn xuống)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây <style=\"highlight\">10</style> [Combustion]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[UnBrokenCoinOnSucceedAttack] Tăng 1 số lượng [Combustion]</style>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Nếu là mục tiêu chính, gây (1 + Số cộng hưởng Phẫn nộ) [BirdCage] (Tối đa <style=\"highlight\">5</style>)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Với mỗi 1 Sức mạnh [Combustion] trên mục tiêu chính, sát thương gây lên mục tiêu chính +<style=\"highlight\">2</style>% (Tối đa <style=\"highlight\">100</style>%)"
+                },
+                {
+                  "desc": "[EnemyKill] (1 + Số cộng hưởng tối đa) đồng minh có tỉ lệ HP hiện tại thấp nhất nhận 1 [CrimsonResultUp], 1 [CrimsonDamageUp] (Tối đa <style=\"highlight\">6</style> người, 1 lần mỗi kĩ năng)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2090911,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Vào trong ráng chiều",
+          "abName": "Lữ hành trong ráng chiều",
+          "desc": "[EndSkill] Hồi phục 5% HP tối đa cho 2 đồng minh có tỉ lệ HP hiện tại thấp nhất và nhận 2 [ScarletMothRodion] (Lượng hồi HP tối thiểu: 1)\n- Tăng số mục tiêu hồi phục bằng (Số cộng hưởng Sắc dục - 1) (Tối đa tăng 2 người)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Vào trong ráng chiều",
+          "abName": "Lữ hành trong ráng chiều",
+          "desc": "<style=\"highlight\">[WhenUse] Với mỗi 6 tổng [Combustion] và [Laceration] của tất cả mục tiêu, Sức mạnh Đối đầu +1 (Tối đa 2)</style>\n[EndSkill] Hồi phục <style=\"highlight\">8%</style> HP tối đa cho 2 đồng minh có tỉ lệ HP hiện tại thấp nhất và nhận 2 [ScarletMothRodion] (Lượng hồi HP tối thiểu: 1)\n- Tăng số mục tiêu hồi phục bằng (Số cộng hưởng Sắc dục - 1) (Tối đa tăng 2 người)\n<style=\"highlight\">- Nếu mục tiêu đang trang bị kĩ năng hệ Sắc dục, hồi phục 3 Tỉnh táo</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây <style=\"highlight\">3</style> [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây <style=\"highlight\">3</style> [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Vào trong ráng chiều",
+          "abName": "Lữ hành trong ráng chiều",
+          "desc": "[WhenUse] Với mỗi 6 tổng [Combustion] và [Laceration] của tất cả mục tiêu, Sức mạnh Đối đầu +1 (Tối đa 2)\n[EndSkill] Hồi phục <style=\"highlight\">10%</style> HP tối đa cho 2 đồng minh có tỉ lệ HP hiện tại thấp nhất và nhận 2 [ScarletMothRodion] (Lượng hồi HP tối thiểu: 1)\n- Tăng số mục tiêu hồi phục bằng (Số cộng hưởng Sắc dục - 1) (Tối đa tăng 2 người)\n- Nếu mục tiêu đang trang bị kĩ năng hệ Sắc dục, hồi phục <style=\"highlight\">6</style> Tỉnh táo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [Combustion]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [Laceration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[EndCoin] Mục tiêu bị trúng đòn nhận 1 [CrimsonTakeDamageUp], 1 [ScarletTakeDamageUp] vào lượt kế tiếp</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2090921,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Vào trong ráng chiều",
+          "abName": "Lữ hành trong ráng chiều",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\n[BeforeAttack] Với mỗi 4 tổng [Combustion] và [Laceration] của tất cả mục tiêu, sát thương gây ra +5% (Tối đa 15%)\n[BeforeAttack] Với mỗi đồng xu bị phá hủy, Sức mạnh Cơ bản -6 (Tối đa -12)\n[EndSkill] Gây 1 [ScarletMothRodion] cho đồng minh ngẫu nhiên, thực hiện 3 lần",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Tăng 1 số lượng [Combustion]"
+                },
+                {
+                  "desc": "[EndCoin] Mục tiêu bị trúng đòn nhận 1 [CrimsonTakeDamageUp] vào lượt kế tiếp (1 lần mỗi lượt)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây [Laceration] 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng thêm 1"
+                },
+                {
+                  "desc": "[EndCoin] Gây [ScarletTakeDamageUp] 1 cho mục tiêu bị đánh trúng vào lượt tiếp theo (1 lần mỗi lượt)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Vào Trong Ráng Chiều",
+          "abName": "Lữ Khách Ráng Chiều",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\n[BeforeAttack] Với mỗi tổng cộng 4 [Combustion] và [Laceration] của tất cả mục tiêu, Lượng sát thương +5% (Tối đa 15%)\n<style=\"highlight\">- Nếu có Cộng hưởng hoàn toàn Phẫn nộ hoặc Cộng hưởng hoàn toàn Sắc dục, Lượng sát thương +10% bổ sung</style>\n[BeforeAttack] Với mỗi đồng xu bị phá hủy, Sức mạnh cơ bản -6 (Tối đa -12)\n[EndSkill] Trao [ScarletMothRodion] cho đồng minh ngẫu nhiên, mỗi lần 1, <style=\"highlight\">4 lần</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây [Combustion] <style=\"highlight\">2</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Số lượng [Combustion] tăng thêm 1"
+                },
+                {
+                  "desc": "[EndCoin] Gây [CrimsonTakeDamageUp] 1 cho mục tiêu bị đánh trúng vào lượt tiếp theo (1 lần mỗi lượt)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây [Laceration] <style=\"highlight\">2</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng thêm 1"
+                },
+                {
+                  "desc": "[EndCoin] Gây [ScarletTakeDamageUp] 1 cho mục tiêu bị đánh trúng vào lượt tiếp theo (1 lần mỗi lượt)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Vào Trong Ráng Chiều",
+          "abName": "Lữ Khách Ráng Chiều",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\n[BeforeAttack] Với mỗi tổng cộng 4 [Combustion] và [Laceration] của tất cả mục tiêu, Lượng sát thương <style=\"highlight\">+10% (Tối đa 30%)</style>\n- Nếu có Cộng hưởng hoàn toàn Phẫn nộ hoặc Cộng hưởng hoàn toàn Sắc dục, Lượng sát thương <style=\"highlight\">+20%</style> bổ sung\n[BeforeAttack] Với mỗi đồng xu bị phá hủy, <style=\"highlight\">Sức mạnh cơ bản -5 (Tối đa -10)</style>\n[EndSkill] Trao [ScarletMothRodion] cho đồng minh ngẫu nhiên, mỗi lần 1, <style=\"highlight\">5 lần</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây [Combustion] 2<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Số lượng [Combustion] tăng thêm <style=\"highlight\">2</style>"
+                },
+                {
+                  "desc": "[EndCoin] Gây [CrimsonTakeDamageUp] 1 cho mục tiêu bị đánh trúng vào lượt tiếp theo (1 lần mỗi lượt)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây [Laceration] 2<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng thêm <style=\"highlight\">2</style>"
+                },
+                {
+                  "desc": "[EndCoin] Gây [ScarletTakeDamageUp] 1 cho mục tiêu bị đánh trúng vào lượt tiếp theo (1 lần mỗi lượt)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "dataList": [
+    {
+      "id": 40000201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Tận dụng Sơ hở",
+          "desc": "[WhenUse] Nếu mục tiêu có từ 3 loại hiệu ứng bất lợi trở lên, Sức mạnh Cơ bản +1\n[WhenUse] Số lượng [Breath] của mục tiêu tăng 1\n[OnDirectAttack] Số lượng [Burst] tăng 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Lượng Sát thương Chí mạng +30%"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40000202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Phục Kiếm Trọng Xung",
+          "desc": "[StartBattle] Nhận 1 [Protection]\n[WhenUse] Nếu mục tiêu có từ 3 loại hiệu ứng bất lợi trở lên, Sức mạnh Đồng xu +1\n[WhenUse] Nhận 3 Sức mạnh [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lượng [Burst] tăng 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Nhận 1 Số lượng [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Lượng Sát thương Chí mạng +50%"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40000203,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Gia Xích Ngã Viện",
+          "desc": "[WhenUse] Nếu mục tiêu có từ 3 loại hiệu ứng bất lợi trở lên, Sức mạnh Đồng xu +1\n[WhenUse] Số lượng [Breath] của mục tiêu tăng 3\n[WhenUse] Nhận 6 Sức mạnh [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lượng [Burst] tăng 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Nhận 1 Số lượng [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] Gây 2 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Lượng Sát thương Chí mạng +100%"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Gây 5 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40000204,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Phòng Hộ",
+          "desc": "[CanDuelGuard]\n[StartBattle] Loại bỏ ngẫu nhiên 1 hiệu ứng bất lợi có thể giải trừ đang áp dụng lên bản thân\n[StartBattle] Hồi 10 Tinh thần\n[WhenUse] Nhận 2 [ProtectStance]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

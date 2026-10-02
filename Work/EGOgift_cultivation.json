@@ -1,0 +1,222 @@
+{
+  "dataList": [
+    {
+      "id": 9819,
+      "name": "Huyết Viêm Đao",
+      "desc": "Khi bắt đầu lượt đầu tiên của màn chơi, Bản sắc sở hữu kỹ năng cơ bản có khả năng tự nhận [Combustion] sẽ nhận 5 [Combustion] và hồi 8 Tinh thần (SP).\n\nBản sắc thuộc Hắc Thú - Dậu bị cố định giới hạn HP tối đa có thể duy trì hoặc hồi phục ở mức 49%, bù lại lượng sát thương nhận vào và lượng hồi phục HP nhận được giảm 50% (Ngoại trừ hồi phục từ Quà lưu niệm E.G.O).",
+      "simpleDesc": [
+        {
+          "abilityID": 9819,
+          "simpleDesc": "Nhận [Combustion] để tăng Cấp tấn công, hồi phục Tinh thần (SP)"
+        },
+        {
+          "abilityID": 98191,
+          "simpleDesc": "Cố định giới hạn HP tối đa, giảm sát thương nhận vào và lượng hồi phục"
+        }
+      ]
+    },
+    {
+      "id": 9820,
+      "name": "Hắc Thiết Mã Giáp",
+      "desc": "Khi bắt đầu lượt, ban Lá chắn (Cấp phòng thủ ÷ 3) cho 1 đồng minh có Cấp phòng thủ cao nhất (Ưu tiên Bản sắc thuộc Hắc Thú - Ngọ, tối đa 15).\n\nKhi đồng minh có Lá chắn thắng Va chạm, gây (Tốc độ ÷ 2) số lượng [Vibration] cho kẻ địch, và nhận 2 [Agility], 2 [DefenseUp] vào lượt tiếp theo (1 lần mỗi Bản sắc trong 1 lượt).",
+      "simpleDesc": [
+        {
+          "abilityID": 9820,
+          "simpleDesc": "Ban Lá chắn và [Agility] cho 1 đồng minh"
+        },
+        {
+          "abilityID": 98201,
+          "simpleDesc": "Gây số lượng [Vibration] tỉ lệ với Tốc độ, tăng Cấp phòng thủ vào lượt tiếp theo"
+        }
+      ]
+    },
+    {
+      "id": 9821,
+      "name": "Hồng Y Cách Tâm",
+      "desc": "[Hiệu ứng dành riêng cho Bản sắc ở vị trí số 1]\n\nNếu đồng minh khác đánh trúng kẻ địch bằng Đòn tấn công một chiều, nhận 1 [AttackUp] vào lượt tiếp theo (1 lần mỗi Bản sắc trong 1 lượt, tối đa 6 lần mỗi lượt).\n\nNếu đồng minh khác [RetreatForCommon], nhận 1 [SlashResultUp], 1 [SlashDamageUp] vào lượt tiếp theo (Tối đa 1 lần mỗi lượt).\n\nNếu thỏa mãn tất cả điều kiện, nhận 1 [ResultEnhancement] vào lượt tiếp theo (Tối đa 1 lần mỗi lượt).",
+      "simpleDesc": [
+        {
+          "abilityID": 9821,
+          "simpleDesc": "Tăng Cấp tấn công vào lượt tiếp theo"
+        },
+        {
+          "abilityID": 98211,
+          "simpleDesc": "Tăng uy lực Trảm kích và sát thương Trảm kích vào lượt tiếp theo"
+        },
+        {
+          "abilityID": 98212,
+          "simpleDesc": "Tăng uy lực vào lượt tiếp theo"
+        }
+      ]
+    },
+    {
+      "id": 9822,
+      "name": "Đức Mục - Trí",
+      "desc": "[Hiệu ứng dành riêng cho Bản sắc ở vị trí số 6]\n\nKhi thắng Va chạm bằng kỹ năng tấn công (bao gồm kỹ năng E.G.O) có khả năng gây [Burst] hoặc số lần [Burst], nhận 2 [DefenseUp] vào lượt tiếp theo (Tối đa 1 lần mỗi lượt).\n- Nếu thuộc Ứng cử viên Gia chủ, nhận thêm 1 [Agility] vào lượt tiếp theo.",
+      "simpleDesc": [
+        {
+          "abilityID": 9822,
+          "simpleDesc": "Tăng Cấp phòng thủ, nếu thuộc Ứng cử viên Gia chủ sẽ nhận thêm [Agility] vào lượt tiếp theo"
+        }
+      ]
+    },
+    {
+      "id": 9823,
+      "name": "Đức Mục - Dũng",
+      "desc": "[Hiệu ứng dành riêng cho Bản sắc ở vị trí số 6]\n\nKhi thắng Va chạm bằng kỹ năng tấn công (bao gồm kỹ năng E.G.O) có khả năng gây [Burst] hoặc số lần [Burst], nhận 2 [AttackUp] vào lượt tiếp theo (Tối đa 1 lần mỗi lượt).\n- Nếu thuộc Ứng cử viên Gia chủ, nhận thêm 3 [AttackUp] vào lượt tiếp theo.",
+      "simpleDesc": [
+        {
+          "abilityID": 9823,
+          "simpleDesc": "Tăng Cấp tấn công, nếu thuộc Ứng cử viên Gia chủ sẽ nhận thêm [AttackUp] vào lượt tiếp theo"
+        }
+      ]
+    },
+    {
+      "id": 9824,
+      "name": "Đức Mục - Nhân",
+      "desc": "[Hiệu ứng dành riêng cho Bản sắc ở vị trí số 6]\n\nKhi thắng Va chạm bằng kỹ năng tấn công (bao gồm kỹ năng E.G.O) có khả năng gây [Burst] hoặc số lần [Burst], hồi 15 HP (Tối đa 1 lần mỗi lượt).\n- Nếu thuộc Ứng cử viên Gia chủ, nhận thêm 1 [Protection] vào lượt tiếp theo.",
+      "simpleDesc": [
+        {
+          "abilityID": 9824,
+          "simpleDesc": "Hồi HP, nếu thuộc Ứng cử viên Gia chủ sẽ nhận thêm [Protection] vào lượt tiếp theo"
+        }
+      ]
+    },
+    {
+      "id": 9825,
+      "name": "Thiết Sa Trác Ma",
+      "desc": "[Hiệu ứng dành riêng cho Bản sắc ở vị trí số 6]\n\nKhi thắng Va chạm bằng kỹ năng tấn công (bao gồm kỹ năng E.G.O) có khả năng gây [Burst] hoặc số lần [Burst], hồi 20 HP và nhận 3 [AttackUp], 3 [DefenseUp] vào lượt tiếp theo (Tối đa 1 lần mỗi lượt).\n- Nếu thuộc Ứng cử viên Gia chủ, nhận thêm hiệu ứng ban 1 [Agility], 1 [Protection], 3 [AttackUp] cho toàn bộ đồng minh bao gồm bản thân vào lượt tiếp theo.",
+      "simpleDesc": [
+        {
+          "abilityID": 9825,
+          "simpleDesc": "Tăng Cấp tấn công, Cấp phòng thủ, hồi HP; nếu thuộc Ứng cử viên Gia chủ sẽ ban Tốc độ, Bảo vệ, Tăng Cấp tấn công cho toàn bộ đồng minh bao gồm bản thân vào lượt tiếp theo"
+        }
+      ]
+    },
+    {
+      "id": 9826,
+      "name": "Rượu Thiệu Hưng",
+      "desc": "[Hiệu ứng dành riêng cho Bản sắc ở vị trí số 2]\n\nMỗi 1% HP đã mất của bản thân, tăng +1% sát thương gây ra từ kỹ năng cơ bản (Tối đa 10%).",
+      "simpleDesc": [
+        {
+          "abilityID": 9826,
+          "simpleDesc": "Tăng sát thương gây ra tỉ lệ với lượng HP đã mất"
+        }
+      ]
+    },
+    {
+      "id": 19826,
+      "name": "Rượu Thiệu Hưng+",
+      "desc": "[Hiệu ứng dành riêng cho Bản sắc ở vị trí số 2<style=\"upgradeHighlight\">・4</style>]\n\nMỗi 1% HP đã mất của bản thân, tăng +1% sát thương gây ra từ kỹ năng cơ bản (Tối đa 10%).",
+      "simpleDesc": [
+        {
+          "abilityID": 19826,
+          "simpleDesc": "Tăng sát thương gây ra tỉ lệ với lượng HP đã mất"
+        }
+      ]
+    },
+    {
+      "id": 29826,
+      "name": "Rượu Thiệu Hưng++",
+      "desc": "[Hiệu ứng dành riêng cho Bản sắc ở vị trí số 2・4<style=\"upgradeHighlight\">・6</style>]\n\nMỗi 1% HP đã mất của bản thân, tăng +1% sát thương gây ra từ kỹ năng cơ bản (Tối đa 10%).",
+      "simpleDesc": [
+        {
+          "abilityID": 29826,
+          "simpleDesc": "Tăng sát thương gây ra tỉ lệ với lượng HP đã mất"
+        }
+      ]
+    },
+    {
+      "id": 9827,
+      "name": "Mối Thù Gia Tộc",
+      "desc": "Lượng Huyết Thực sản sinh trong màn chơi tăng gấp đôi.\nKhi kết thúc đòn tấn công của kỹ năng gây [Laceration], số lần [Laceration] hoặc Xuất huyết đặc biệt, hồi HP bằng 30% lượng sát thương HP đã gây ra (Tối đa 20).\n- Nếu hồi HP bằng hiệu ứng trên, nhận 1 [Enhancement] vào đầu lượt tiếp theo (Tối đa 2).\n\nMỗi 50 [BloodDinner_Common_Accumulation], tất cả đồng minh nhận 1 [AttackUp] vào đầu lượt tiếp theo (Tối đa 5).\nNếu thuộc La Mancha Land, nhận thêm 1 [AttackUp] vào đầu lượt tiếp theo với mỗi 30 [BloodDinner_Accumulation] của bản thân (Tối đa 3).",
+      "simpleDesc": [
+        {
+          "abilityID": 9827,
+          "simpleDesc": "Tăng lượng Huyết Thực sản sinh"
+        },
+        {
+          "abilityID": 98271,
+          "simpleDesc": "Hồi HP"
+        },
+        {
+          "abilityID": 98272,
+          "simpleDesc": "Nhận [Enhancement]"
+        },
+        {
+          "abilityID": 98272,
+          "simpleDesc": "Nhận [AttackUp]"
+        }
+      ]
+    },
+    {
+      "id": 9828,
+      "name": "Vì Capo",
+      "desc": "[Hiệu ứng dành riêng cho Bản sắc ở vị trí số 1]\nKhi sử dụng kỹ năng tiêu tốn [Bullet], áp dụng các hiệu ứng sau:\n- Nhận 3 [Agility] vào lượt tiếp theo (1 lần mỗi lượt).\n- Khi đánh trúng, [VibrationExplosion]. Tiêu tốn 1 số lần [Vibration] (2 lần mỗi lượt).\n- Sau khi thắng Va chạm, nếu mục tiêu đang có cả [Combustion] và [Vibration] (bao gồm Thiêu đốt đặc biệt và Chấn động đặc biệt) khi đánh trúng, gây sát thương Phẫn nộ bằng tổng số lượng [Combustion] và [Vibration] (2 lần mỗi lượt).\n\nNếu kích hoạt Cộng hưởng Phẫn nộ từ 4 trở lên, áp dụng các hiệu ứng sau:\n- Khi sử dụng kỹ năng thuộc tính Phẫn nộ, tăng 2 Trị số Đồng xu của kỹ năng.\n- Khi đánh trúng, nếu tiêu tốn [Bullet], tăng +30% sát thương.",
+      "simpleDesc": [
+        {
+          "abilityID": 9828,
+          "simpleDesc": "Nhận [Agility]"
+        },
+        {
+          "abilityID": 98281,
+          "simpleDesc": "[VibrationExplosion]"
+        },
+        {
+          "abilityID": 98282,
+          "simpleDesc": "Sát thương Phẫn nộ"
+        },
+        {
+          "abilityID": 98283,
+          "simpleDesc": "Tăng Trị số Đồng xu"
+        },
+        {
+          "abilityID": 98284,
+          "simpleDesc": "Tăng sát thương"
+        }
+      ]
+    },
+    {
+      "id": 9829,
+      "name": "Kỷ Luật Ngón Giữa",
+      "desc": "Tăng +1 Trị số Đồng xu cho kỹ năng cơ bản hệ Đập, Bản sắc thuộc Ngón Giữa được cường hóa hiệu ứng thành +2 Trị số Đồng xu.\nKhi đồng minh nhận sát thương, tất cả đồng minh nhận 2 [AttackUp] vào lượt tiếp theo (Tối đa 3 lần mỗi lượt).\n\nCác hiệu ứng dưới đây sẽ kích hoạt thêm khi có từ 3 Bản sắc thuộc Ngón Giữa trở lên trong trận chiến:\nKhi bắt đầu trận chiến, nhận 1 [Enhancement] và 1 [Protection] tương ứng với số lượng Cộng hưởng Đố kỵ (Tối đa 3).\nKhi Bản sắc thuộc Ngón Giữa sử dụng kỹ năng cơ bản thuộc tính Đố kỵ, kỹ năng đó chuyển thành [SuperCoin] và giảm 50% sát thương nhận vào.\nNhận 2 [HitDamageUp] trong lượt này và lượt tiếp theo.",
+      "simpleDesc": [
+        {
+          "abilityID": 9829,
+          "simpleDesc": "Tăng Trị số Đồng xu"
+        },
+        {
+          "abilityID": 98291,
+          "simpleDesc": "Tăng Trị số Đồng xu"
+        },
+        {
+          "abilityID": 98292,
+          "simpleDesc": "Tăng Cấp tấn công"
+        },
+        {
+          "abilityID": 98293,
+          "simpleDesc": "Nhận [Enhancement] và [Protection]"
+        },
+        {
+          "abilityID": 98294,
+          "simpleDesc": "Chuyển thành [SuperCoin], giảm sát thương nhận vào, tăng sát thương Đập"
+        }
+      ]
+    },
+    {
+      "id": 9830,
+      "name": "Món Quà Nhỏ Của Komi",
+      "desc": "Khi bắt đầu lượt đầu tiên của màn chơi, hoặc cho tất cả đồng minh vừa kết thúc trạng thái chờ 3 [VerEmergencyCandy].\nNếu lượt trước không tiêu thụ [VerEmergencyCandy], nhận 1 [VerHunger] khi bắt đầu lượt.",
+      "simpleDesc": [
+        {
+          "abilityID": 9830,
+          "simpleDesc": "Ban [VerEmergencyCandy]"
+        },
+        {
+          "abilityID": 98301,
+          "simpleDesc": "Ban [VerHunger]"
+        }
+      ]
+    }
+  ]
+}

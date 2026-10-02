@@ -1,0 +1,1224 @@
+﻿{
+  "dataList": [
+    {
+      "id": 144801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Siết bằng dây thừng",
+          "desc": "[WhenUse] Nếu tổng [Breath] của bản thân và [Laceration] của mục tiêu từ 6 trở lên, Sức mạnh cơ bản +1\n[WhenUse] Số lượt [Breath] của bản thân tăng 3\n- Nếu tốc độ cao hơn mục tiêu, số lượt [Breath] của bản thân tăng thêm 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lượt [Laceration] tăng 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [ScratchesHurt] vào lượt tiếp theo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 144802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Cắt gân",
+          "desc": "[WhenUse] Với mỗi 6 tổng [Breath] của bản thân và [Laceration] của mục tiêu, Sức mạnh cơ bản +1 (Tối đa 2)\n[WhenUse] Nếu tốc độ cao hơn mục tiêu, đồng xu cuối cùng được đổi thành [SuperCoin]\n[WhenUse] Nhận 2 [Breath], số lượt [Breath] của bản thân tăng 3\n[WhenUse] Nếu tốc độ cao hơn mục tiêu, nhận 3 [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lượt [Laceration] tăng 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [ScratchesHurt] vào lượt tiếp theo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 144803,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Chém xé",
+          "desc": "[WhenUse] Với mỗi 6 tổng [Breath] của bản thân và [Laceration] của mục tiêu, Sức mạnh đồng xu +1 (Tối đa 2)\n[WhenUse] Nếu tốc độ cao hơn mục tiêu, tất cả đồng xu được đổi thành [SuperCoin]\n[WhenUse] Nhận 3 [Breath]\n[WinDuel] Nhận 2 [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lượt [Laceration] tăng 2"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Gây 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lượt [Laceration] tăng 2"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Gây 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [ScratchesHurt] vào lượt tiếp theo"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Gây 1 [ScratchesHurt] vào lượt tiếp theo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 144804,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Đóng dấu ấn",
+          "desc": "Ưu tiên tấn công mục tiêu bị gây [TiedRope]\nNếu tốc độ cao hơn mục tiêu, với mỗi 1 chênh lệch tốc độ, lượng sát thương +25% (Tối đa 100%)\n[WhenUse] Với mỗi 6 tổng [Breath] của bản thân và [Laceration] của mục tiêu, Sức mạnh đồng xu +1 (Tối đa 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 144805,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Chặn đường lui",
+          "desc": "[DuelCounter]\n[WhenUse] Với mỗi 6 tổng [Breath] của bản thân và [Laceration] của mục tiêu, Sức mạnh cơ bản +1 (Tối đa 2)\n[WhenUse] Nhận 3 [Breath]\n[WinDuel] Số lượt [Breath] của bản thân tăng 3",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lượt [Laceration] tăng 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [ScratchesHurt] vào lượt tiếp theo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 144901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Chế ngự",
+          "desc": "[WhenUse] Nếu tổng [Breath] của bản thân và [Laceration] của mục tiêu từ 6 trở lên, Sức mạnh cơ bản +1\n[WhenUse] Số lượt [Breath] của bản thân tăng 3\n- Nếu tốc độ cao hơn mục tiêu, số lượt [Breath] của bản thân tăng thêm 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [Binding] vào lượt tiếp theo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 144902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Siết yết hầu",
+          "desc": "[WhenUse] Với mỗi 6 tổng [Breath] của bản thân và [Laceration] của mục tiêu, Sức mạnh cơ bản +1 (Tối đa 2)\n[WhenUse] Nếu tốc độ cao hơn mục tiêu, đồng xu cuối cùng được đổi thành [SuperCoin]\n[WhenUse] Nhận 2 [Breath], số lượt [Breath] của bản thân tăng 2\n[WhenUse] Nếu tốc độ cao hơn mục tiêu, nhận 3 [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [Binding] vào lượt tiếp theo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 144903,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Thi hành án",
+          "desc": "[WhenUse] Với mỗi 6 tổng [Breath] của bản thân và [Laceration] của mục tiêu, Sức mạnh đồng xu +1 (Tối đa 2)\n[WhenUse] Nếu tốc độ cao hơn mục tiêu, tất cả đồng xu được đổi thành [SuperCoin]\n[WhenUse] Nhận 3 [Breath]\n[WinDuel] Nhận 2 [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [Laceration]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Gây 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [Laceration]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Gây 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây 3 [Binding] trong lượt này và lượt tiếp theo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Tỉ lệ (Giá trị [Binding] × 20)% gây [TiedRope]\n- Nếu mục tiêu trong trạng thái Choáng, chắc chắn gây"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 144904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Đóng dấu ấn",
+          "desc": "Ưu tiên tấn công mục tiêu bị gây [TiedRope]\nNếu tốc độ cao hơn mục tiêu, với mỗi 1 chênh lệch tốc độ, lượng sát thương +25% (Tối đa 100%)\n[WhenUse] Với mỗi 6 tổng [Breath] của bản thân và [Laceration] của mục tiêu, Sức mạnh đồng xu +1 (Tối đa 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 144905,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Chặn đường lui",
+          "desc": "[DuelCounter]\n[WhenUse] Với mỗi 6 tổng số [Breath] của bản thân và [Laceration] của mục tiêu, Sức mạnh cơ bản +1 (Tối đa 2)\n[WhenUse] Nhận 3 [Breath]\n[WinDuel] Số lượt [Breath] tăng thêm 3",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [Binding] vào lượt tiếp theo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 145201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Húc bằng sừng",
+          "desc": "[WhenUse] Nhận 1 [Agility] vào lượt tiếp theo (1 lần mỗi lượt)\nNếu tổng [Laceration] và [Vibration] của mục tiêu từ 6 trở lên, Sức mạnh cơ bản +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [LensmanNail]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [LensmanNail]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 145202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Dồn trọng lực",
+          "desc": "[WhenUse] Nhận 2 [Agility] vào lượt tiếp theo (1 lần mỗi lượt)\nVới mỗi 6 tổng [Laceration] và [Vibration] của mục tiêu, Sức mạnh đồng xu +1 (Tối đa 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [LensmanNail]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [LensmanNail]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion]. Số lượt [Vibration] giảm đi 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 145203,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Cố định vật thể",
+          "desc": "Với mỗi 6 tổng [Laceration] và [Vibration] của mục tiêu, Sức mạnh đồng xu +1 (Tối đa 2)\n[WhenUse] Nếu Tốc độ cao hơn mục tiêu, tất cả đồng xu chuyển thành [SuperCoin]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [LensmanNail]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion]. Số lượt [Vibration] giảm đi 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây 3 [Paralysis] vào lượt tiếp theo"
+                },
+                {
+                  "desc": "[EndCoin] Gây 1 [TakePicture] vào lượt tiếp theo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 145204,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Bắt trọn khoảnh khắc",
+          "desc": "[DuelCounter]\nVới mỗi 4 tổng [Laceration] và [Vibration] của mục tiêu, Sức mạnh cơ bản +1 (Tối đa 2)\n[WhenUse] Nếu Tốc độ cao hơn mục tiêu, tất cả đồng xu chuyển thành [SuperCoin]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây 3 [AttackDown] vào lượt tiếp theo"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây 3 [Paralysis] vào lượt tiếp theo"
+                },
+                {
+                  "desc": "[EndCoin] Gây 1 [TakePicture] vào lượt tiếp theo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 145301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Nện bằng tấm sắt",
+          "desc": "[WhenUse] Nhận 1 [Agility] vào lượt tiếp theo (1 lần mỗi lượt)\nNếu tổng [Laceration] và [Vibration] của mục tiêu từ 6 trở lên, Sức mạnh cơ bản +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [LensmanNail]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [LensmanNail]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Số lượt [Vibration] tăng thêm 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 145302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Đóng đầu đinh",
+          "desc": "[WhenUse] Nhận 2 [Agility] vào lượt tiếp theo (1 lần mỗi lượt)\nVới mỗi 6 tổng [Laceration] và [Vibration] của mục tiêu, Sức mạnh đồng xu +1 (Tối đa 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [LensmanNail]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Số lượt [Vibration] tăng thêm 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [LensmanNail]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Số lượt [Vibration] tăng thêm 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion]. Số lượt [Vibration] giảm đi 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 145303,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Cố định tiêu điểm",
+          "desc": "Với mỗi 6 tổng [Laceration] và [Vibration] của mục tiêu, Sức mạnh đồng xu +1 (Tối đa 2)\n[WhenUse] Nếu Tốc độ cao hơn mục tiêu, tất cả đồng xu chuyển thành [SuperCoin]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [LensmanNail]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lượt [Vibration] tăng thêm 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion]. Số lượt [Vibration] giảm đi 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây 3 [Paralysis] vào lượt tiếp theo"
+                },
+                {
+                  "desc": "[EndCoin] Gây [TakePicture] vào lượt tới"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 145304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Bắt Trọn Khoảnh Khắc",
+          "desc": "[DuelCounter]\nCứ mỗi tổng cộng 4 [Laceration] và [Vibration] trên mục tiêu, Sức mạnh cơ bản +1 (Tối đa 2)\n[WhenUse] Nếu Tốc độ cao hơn mục tiêu, tất cả đồng xu chuyển thành [SuperCoin]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây 3 [AttackDown] vào lượt tới"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây 3 [Paralysis] vào lượt tới"
+                },
+                {
+                  "desc": "[EndCoin] Gây [TakePicture] vào lượt tới"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 145001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ngưu Liệt",
+          "desc": "[WhenUse] Nhận 3 [Breath]\n[WhenUse] Cứ mỗi 4 [Laceration] trên mục tiêu, Sức mạnh cuối +1 (Tối đa 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [Laceration]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Số lần [Laceration] tăng thêm 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 145002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Hùng Liệt",
+          "desc": "[WhenUse] Số lần [Breath] của bản thân tăng thêm 3\n[WhenUse] Cứ mỗi 4 [Laceration] trên mục tiêu, Sức mạnh cuối +1 (Tối đa 2)\n[WhenUse] Nếu [Breath] của bản thân từ 6 trở lên, tất cả đồng xu trở thành [SuperCoin]\n[DefeatDuel]\n- Sát thương gây ra -80%\n- Không kích hoạt Chí mạng\n- Sát thương từ kĩ năng này không khiến mục tiêu rơi vào trạng thái Choáng",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lần [Laceration] tăng thêm 3"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Gây 3 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 145003,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Hùng Đống Đoạn",
+          "desc": "[WhenUse] Nếu [Breath] của bản thân từ 8 trở lên, sát thương Chí mạng +40%\n[WhenUse] Cứ mỗi 4 [Laceration] trên mục tiêu, Sức mạnh cuối +1 (Tối đa 2)\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>Nếu [ChoiSwordsmanship] của bản thân từ 7 trở lên, tất cả đồng xu chuyển thành [SuperCoin] và sát thương Chí mạng +20%</color></mark></b></u>\n[DefeatDuel]\n- Sát thương gây ra -80%\n- Không kích hoạt Chí mạng\n- Sát thương từ kĩ năng này không khiến mục tiêu rơi vào trạng thái Choáng",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [SlashResistDown] trong lượt này và lượt tới"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 5 [Laceration], số lần [Laceration] tăng thêm 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 145005,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Bản Quốc Kiếm Pháp - Sa<size=50%>ru</size> Xé Thịt",
+          "desc": "[WhenUse] Nhận 3 [Breath]\n[WhenUse] Cứ mỗi 4 [Laceration] trên mục tiêu, Sức mạnh cuối +1 (Tối đa 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 145006,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Săn Hổ",
+          "desc": "[WhenUse] Số lần [Breath] của bản thân tăng thêm 3\n[WhenUse] Cứ mỗi 4 [Laceration] trên mục tiêu, Sức mạnh cuối +1 (Tối đa 2)\n[WhenUse] Nếu [Breath] của bản thân từ 6 trở lên, tất cả đồng xu trở thành [SuperCoin]\n[DefeatDuel]\n- Sát thương gây ra -80%\n- Không kích hoạt Chí mạng\n- Sát thương từ kĩ năng này không khiến mục tiêu rơi vào trạng thái Choáng",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lần [Laceration] tăng thêm 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lần [Laceration] tăng thêm 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lần [Laceration] tăng thêm 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 145007,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Hổ Liệt",
+          "desc": "[WhenUse] Nếu [Breath] của bản thân từ 8 trở lên, sát thương Chí mạng +40%\n[WhenUse] Cứ mỗi 4 [Laceration] trên mục tiêu, Sức mạnh cuối +1 (Tối đa 2)\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>Nếu [ChoiSwordsmanship] của bản thân từ 3 trở xuống, tất cả đồng xu chuyển thành [SuperCoin] và sát thương Chí mạng +20%</color></mark></b></u>\n[DefeatDuel]\n- Sát thương gây ra -80%\n- Không kích hoạt Chí mạng\n- Sát thương từ kĩ năng này không khiến mục tiêu rơi vào trạng thái Choáng",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [Laceration], số lần [Laceration] tăng thêm 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [Laceration], số lần [Laceration] tăng thêm 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [Binding] vào lượt tới"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [SlashResistDown] trong lượt này và lượt tới"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 145009,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Bản Quốc Kiếm [Sal] - Làm Lại",
+          "desc": "Không chịu ảnh hưởng của [ChoiSwordsmanship]\n[CantDuel] với người hỗ trợ\nƯu tiên chỉ định mục tiêu là Tù nhân\nNếu kĩ năng của mục tiêu là kĩ năng chuyên dụng [SupportProtect], trở thành [SuperCoin]\n[StartDuel] <color=#ff6000><mark color=#ff000040><b><u>Giảm 3 [ChoiSwordsmanship]</color></mark></b></u>\n- Nếu kĩ năng của mục tiêu là kĩ năng chuyên dụng [SupportProtect], hiệu ứng này không kích hoạt\n[EndSkill] <color=#ff6000><mark color=#ff000040><b><u>Nếu đánh trúng mục tiêu thực hiện Đòn tấn công một phía hoặc sử dụng kĩ năng chuyên dụng [SupportProtect], nhận 2 [ChoiSwordsmanship]</color></mark></b></u>",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 145010,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Bản Quốc Kiếm [Sal] - Mài Giũa",
+          "desc": "Không chịu ảnh hưởng của [ChoiSwordsmanship]\n[CantDuel] với người hỗ trợ\nƯu tiên chỉ định mục tiêu là Tù nhân\nNếu kĩ năng của mục tiêu là kĩ năng chuyên dụng [SupportProtect], trở thành [SuperCoin]\n[StartDuel] <color=#ff6000><mark color=#ff000040><b><u>Nhận 3 [ChoiSwordsmanship]</color></mark></b></u>\n- Nếu kĩ năng của mục tiêu là kĩ năng chuyên dụng [SupportProtect], hiệu ứng này không kích hoạt\n[EndSkill] <color=#ff6000><mark color=#ff000040><b><u>Nếu đánh trúng mục tiêu thực hiện Đòn tấn công một phía hoặc sử dụng kĩ năng chuyên dụng [SupportProtect], giảm 2 [ChoiSwordsmanship]</color></mark></b></u>",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 145011,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Bản Quốc Cung [Sal] - Khai Tiễn",
+          "desc": "<color=#ff6000><mark color=#ff000040><b><u>Chỉ định kẻ địch có nhiều [Laceration] nhất làm mục tiêu</color></mark></b></u>\nKhông chịu ảnh hưởng của [ChoiSwordsmanship]\n[WhenUse] Tiêu hao 3 Sức mạnh [Breath] của bản thân, Sức mạnh cuối +2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 5 [Laceration], số lần [Laceration] tăng thêm 4"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Đẩy vạch Choáng lên 10"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây 2 [Binding] vào lượt tới"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây 3 [Vulnerable]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 145012,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Phòng thủ",
+          "desc": "Không chịu ảnh hưởng của [ChoiSwordsmanship]\n[StartBattle] Nhận 5 [Breath], số lần [Breath] của bản thân tăng thêm 5\n[WhenUse] Nhận 2 [CriticalDamageUp] vào lượt tới",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 145013,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Phản đòn",
+          "desc": "Không chịu ảnh hưởng của [ChoiSwordsmanship]\n[StartBattle] Nhận 5 [Breath], số lần [Breath] của bản thân tăng thêm 5",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lần [Laceration] tăng thêm 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 145101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Phanh bò",
+          "desc": "[WhenUse] Nhận [Breath]3\n[WhenUse] Với mỗi 4 [Laceration] của mục tiêu, Sức mạnh cuối +1 (Tối đa 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây [Laceration]3"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Số lần [Laceration] tăng 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 145102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Phanh gấu",
+          "desc": "[WhenUse] Số lần [Breath] của bản thân tăng 3\n[WhenUse] Với mỗi 4 [Laceration] của mục tiêu, Sức mạnh cuối +1 (Tối đa 2)\n[WhenUse] Nếu [Breath] của bản thân từ 6 trở lên, tất cả Coin trở thành [SuperCoin]\n[DefeatDuel]\n- Sát thương -80%\n- Không kích hoạt Chí mạng\n- Mục tiêu không bị Hỗn loạn bởi sát thương của kĩ năng này",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lần [Laceration] tăng 3"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Gây [Laceration]3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 145103,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Chém đứt thân gấu",
+          "desc": "[WhenUse] Nếu [Breath] của bản thân từ 8 trở lên, Sát thương Chí mạng +40%\n[WhenUse] Với mỗi 4 [Laceration] của mục tiêu, Sức mạnh cuối +1 (Tối đa 2)\n[WhenUse] Nếu [ChoiSwordsmanship] của bản thân vượt quá 6, Sức mạnh cuối tăng theo giá trị vượt quá (Tối đa 3)\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>Nếu [ChoiSwordsmanship] của bản thân từ 7 trở lên, tất cả Coin chuyển thành [SuperCoin] và Sát thương Chí mạng +20%</color></mark></b></u>\n[DefeatDuel]\n- Sát thương -80%\n- Không kích hoạt Chí mạng\n- Mục tiêu không bị Hỗn loạn bởi sát thương của kĩ năng này",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây [SlashResistDown]1 trong lượt này và lượt tiếp theo"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây [Laceration]5, số lần [Laceration] tăng 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 145104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Sangun [Sơn Quân] cũng sẽ bị chẻ làm đôi dưới mũi kiếm này",
+          "desc": "Chỉ định mục tiêu có nhiều [Laceration] nhất\n[WhenUse] Cho đến khi kết thúc kĩ năng này, không bị Hỗn loạn do nhận sát thương\n[WhenUse] Với mỗi 4 [Laceration] của mục tiêu, Sức mạnh cuối +1 (Tối đa 3)\n[WhenUse] Nếu [ChoiSwordsmanship] của bản thân vượt quá 6, với mỗi 1 giá trị vượt quá, Sức mạnh cuối +2 (Tối đa 6)\n[WinDuel] <color=#ff6000><mark color=#ff000040><b><u>Kĩ năng này không tiêu hao số lần [Breath], mặt Coin kĩ năng chắc chắn là mặt Ngửa và gây đòn Chí mạng</color></mark></b></u>\n[BeforeAttack] Với mỗi 2 [ChoiSwordsmanship] của bản thân, Sát thương Chí mạng +20% (Tối đa 80%)\n[DefeatDuel]\n- Sát thương -80%\n- Không kích hoạt Chí mạng\n- Mục tiêu không bị Hỗn loạn bởi sát thương của kĩ năng này",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây thêm sát thương Trảm kích bằng ([Breath] của bản thân × 10)% sát thương cuối của Coin này (Tối đa 100%)"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây thêm sát thương Sắc dục bằng ([Laceration] của mục tiêu × 10)% sát thương cuối của Coin này (Tối đa 100%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Kích hoạt [Laceration] của mục tiêu 1 lần. Số lần [Laceration] giảm 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 145105,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Bonguk Kiếm Pháp - Chém Sal [Thịt]",
+          "desc": "[WhenUse] Nhận [Breath]3\n[WhenUse] Với mỗi 4 [Laceration] của mục tiêu, Sức mạnh cuối +1 (Tối đa 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây [Laceration]3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây [Laceration]3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây [Laceration]3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 145106,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Săn hổ",
+          "desc": "[WhenUse] Số lần [Breath] của bản thân tăng 3\n[WhenUse] Với mỗi 4 [Laceration] của mục tiêu, Sức mạnh cuối +1 (Tối đa 2)\n[WhenUse] Nếu [Breath] của bản thân từ 6 trở lên, tất cả Coin trở thành [SuperCoin]\n[DefeatDuel]\n- Sát thương -80%\n- Không kích hoạt Chí mạng\n- Mục tiêu không bị Hỗn loạn bởi sát thương của kĩ năng này",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lần [Laceration] tăng 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lần [Laceration] tăng 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lần [Laceration] tăng 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 145107,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Phanh hổ",
+          "desc": "[WhenUse] Nếu [Breath] của bản thân từ 8 trở lên, Sát thương Chí mạng +40%\n[WhenUse] Với mỗi 4 [Laceration] của mục tiêu, Sức mạnh cuối +1 (Tối đa 2)\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>Nếu [ChoiSwordsmanship] của bản thân từ 3 trở xuống, tất cả Coin chuyển thành [SuperCoin] và Sát thương Chí mạng +20%</color></mark></b></u>\n[DefeatDuel]\n- Sát thương -80%\n- Không kích hoạt Chí mạng\n- Mục tiêu không bị Hỗn loạn bởi sát thương của kĩ năng này",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây [Laceration]2, số lần [Laceration] tăng 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây [Laceration]2, số lần [Laceration] tăng 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây [Binding]2 trong lượt tiếp theo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây [SlashResistDown]1 trong lượt này và lượt tiếp theo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 145108,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Sẽ chém đứt mọi phần Sal (Thịt) của bất kì hổ núi nào",
+          "desc": "Chỉ định mục tiêu có nhiều [Laceration] nhất\n<color=#ff6000><mark color=#ff000040><b><u>Có thể khớp với kĩ năng này bất kể tốc độ</color></mark></b></u>\n[WhenUse] Cho đến khi kết thúc kĩ năng này, không bị Hỗn loạn do nhận sát thương\n[WhenUse] Với mỗi 4 [Laceration] của mục tiêu, Sức mạnh cuối +1 (Tối đa 3)\n[WinDuel] <color=#ff6000><mark color=#ff000040><b><u>Kĩ năng này không tiêu hao [Breath], mặt Coin kĩ năng chắc chắn là mặt Ngửa và gây trúng đòn Chí mạng</color></mark></b></u>\n[BeforeAttack] Với mỗi 2 [Breath] của bản thân, Sát thương Chí mạng +20% (Tối đa 80%)\n[DefeatDuel]\n- Sát thương -80%\n- Không kích hoạt Chí mạng\n- Mục tiêu không bị Hỗn loạn bởi sát thương của kĩ năng này",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây [Laceration]2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Kích hoạt [Laceration] của mục tiêu 1 lần. Số lần [Laceration] giảm 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây [Laceration]2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Kích hoạt [Laceration] của mục tiêu 1 lần. Số lần [Laceration] giảm 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây [Laceration]2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Kích hoạt [Laceration] của mục tiêu 1 lần. Số lần [Laceration] giảm 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Nếu [Laceration] của mục tiêu chính từ 10 trở lên, số lần [Laceration] của mục tiêu trúng đòn tăng 8"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Số lần [Laceration] tăng 8"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 145109,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Bonguk Sword [Sal] - Sắp xếp lại",
+          "desc": "Không chịu ảnh hưởng của [ChoiSwordsmanship]\n[CantDuel] với người hỗ trợ\nƯu tiên chỉ định mục tiêu là Tù nhân\nNếu kĩ năng của mục tiêu là kĩ năng chuyên dụng [SupportProtect], sẽ trở thành [SuperCoin]\n[StartDuel] <color=#ff6000><mark color=#ff000040><b><u>[ChoiSwordsmanship] giảm 3</color></mark></b></u>\n- Nếu kĩ năng của mục tiêu là kĩ năng chuyên dụng [SupportProtect], hiệu ứng này không kích hoạt\n[EndSkill] <color=#ff6000><mark color=#ff000040><b><u>Nếu trúng mục tiêu thực hiện Tấn công một phía hoặc sử dụng kĩ năng chuyên dụng [SupportProtect], nhận [ChoiSwordsmanship]2</color></mark></b></u>",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 145110,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Bonguk Sword [Sal] - Mài sắc",
+          "desc": "Không chịu ảnh hưởng của [ChoiSwordsmanship]\n[CantDuel] với người hỗ trợ\nƯu tiên chỉ định mục tiêu là Tù nhân\nNếu kĩ năng của mục tiêu là kĩ năng chuyên dụng [SupportProtect], sẽ trở thành [SuperCoin]\n[StartDuel] <color=#ff6000><mark color=#ff000040><b><u>Nhận [ChoiSwordsmanship]3</color></mark></b></u>\n- Nếu kĩ năng của mục tiêu là kĩ năng chuyên dụng [SupportProtect], hiệu ứng này không kích hoạt\n[EndSkill] <color=#ff6000><mark color=#ff000040><b><u>Nếu trúng mục tiêu thực hiện Tấn công một phía hoặc sử dụng kĩ năng chuyên dụng [SupportProtect], [ChoiSwordsmanship] giảm 2</color></mark></b></u>",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 145111,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Bonguk Cung [Sal] - Bắn tên",
+          "desc": "<color=#ff6000><mark color=#ff000040><b><u>Chỉ định mục tiêu có nhiều [Laceration] nhất</color></mark></b></u>\nKhông chịu ảnh hưởng của [ChoiSwordsmanship]\n[WhenUse] Tiêu hao 3 Cấp độ [Breath] của bản thân, Sức mạnh cuối +2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây [Laceration]5, số lần [Laceration] tăng 4"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Đẩy ngưỡng choáng lên 10"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây 2 [Binding] vào lượt tiếp theo"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây 3 [Vulnerable]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 145112,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Phòng thủ",
+          "desc": "Không bị ảnh hưởng bởi [ChoiSwordsmanship]\n[StartBattle] Nhận 5 [Breath], số lượng [Breath] của bản thân tăng thêm 5\n[WhenUse] Nhận 2 [CriticalDamageUp] vào lượt tiếp theo",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 145113,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Phản đòn",
+          "desc": "Không bị ảnh hưởng bởi [ChoiSwordsmanship]\n[StartBattle] Nhận 5 [Breath], số lượng [Breath] của bản thân tăng thêm 5",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng thêm 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

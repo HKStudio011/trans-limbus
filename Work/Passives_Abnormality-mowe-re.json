@@ -1,0 +1,24 @@
+{
+  "dataList": [
+    {
+      "id": 123806,
+      "name": "Cơn ác mộng của La Mancha Land",
+      "desc": "Nếu kẻ địch có Huyết Quỷ thuộc La Mancha Land, nhận các hiệu ứng sau:\n- Khi đang đối đầu với Huyết Quỷ thuộc La Mancha Land, Sức mạnh Đối đầu giảm 4\n- Khi bị Huyết Quỷ thuộc La Mancha Land tấn công, Tinh thần giảm 5 (Tối đa 1 lần mỗi kĩ năng. Tối đa 2 lần mỗi lượt)\n- Sát thương gây ra lên Huyết Quỷ thuộc La Mancha Land bằng kĩ năng giảm 20%"
+    },
+    {
+      "id": 123801,
+      "name": "Máu đang mang",
+      "desc": "Khi kết thúc lượt, tùy vào trị số của [KeptBlood]\n- Lượt tiếp theo, mỗi 1 nhận 2 [Laceration], 1 số lần [Laceration]\n- Nếu từ 5 trở xuống, mỗi (6 - trị số) nhận 1 [Binding], 1 [Vulnerable], 1 [AttackDown] vào lượt tiếp theo và Tinh thần giảm 5 (Tinh thần không giảm xuống dưới -20 bởi hiệu ứng này)\n- Nếu vượt quá 5, mỗi (trị số - 5) nhận 1 [AttackUp] và 1 [DefenseUp] vào lượt tiếp theo và hồi 8 Tinh thần (Tinh thần không hồi phục vượt quá 30 bởi hiệu ứng này)"
+    },
+    {
+      "id": 123805,
+      "name": "Huyết Thực - Hóa Cứng",
+      "desc": "Khi xuất hiện, hồi 30 Tinh thần\nKhi bắt đầu lượt, nếu bản thân có [Laceration],\n- Mỗi 5 [Laceration] nhận 1 [AttackUp], 1 [DefenseUp] (Tối đa 5)\n- Mỗi 10 [Laceration] nhận 1 [ParryingResultUp] (Tối đa 2)\nGiảm 50% sát thương [Laceration] bản thân nhận (Làm tròn xuống)"
+    },
+    {
+      "id": 130502,
+      "name": "Mẫu cơ thể nhân tạo - L37",
+      "desc": "Khi xuất hiện, hồi 20 Tinh thần\nKhi bắt đầu lượt, mỗi 1 số lần [Charge], hồi 1 Tinh thần (Tối đa 15)\nKhi bắt đầu lượt, nếu số lần [Charge] ít hơn 5, nhận 1 [Reduction]\nKhi bắt đầu lượt, nếu số lần [Charge] từ 5 trở lên, nhận 2 [ParryingResultUp]\nKhi bắt đầu lượt, nếu số lần [Charge] từ 10 trở lên, nhận 1 [PlusCoinValueUp]\nKhi bắt đầu lượt, nếu số lần [Charge] từ 15 trở lên, lượng sát thương của kĩ năng tấn công cơ bản tăng thêm (Số lần [Charge] của bản thân × 2)%"
+    }
+  ]
+}

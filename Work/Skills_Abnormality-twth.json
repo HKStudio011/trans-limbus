@@ -1,0 +1,467 @@
+{
+  "dataList": [
+    {
+      "id": 142201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Biểu hiện Nguyên sắc",
+          "desc": "Cứ mỗi 6 tổng số [Laceration] và [Sinking] trên mục tiêu, Sức mạnh Cuối cùng +1 (Tối đa 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [EagleClawWound]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [EagleClawWound]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 142202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Phủ màu Mãnh liệt",
+          "desc": "Cứ mỗi 6 tổng số [Laceration] và [Sinking] trên mục tiêu, Sức mạnh Cuối cùng +1 (Tối đa 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [BearClawWound]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [BearClawWound]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 142203,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Dã thú Phái - Triển khai Nguyên sơ",
+          "desc": "Cứ mỗi 6 tổng số [Laceration] và [Sinking] trên mục tiêu, Sức mạnh Cuối cùng +1 (Tối đa 3)\n[DefeatDuel] Mục tiêu không bị Hỗn loạn bởi sát thương của kĩ năng này, và hiệu ứng [Sinking] của mục tiêu không kích hoạt khi trúng đòn",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [Laceration], số lượt [Laceration] tăng thêm 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [BearClawWound]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [Sinking], số lượt [Sinking] tăng thêm 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [EagleClawWound]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Gây 1 [BoldBrushstrokes]</u></b></mark></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 142204,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Phê bình",
+          "desc": "[CantChangeTarget]\n[WhenUse]\n- Cứ mỗi <color=#ff6000><mark=#ff000040><b><u>loại hiệu ứng bất lợi trên mục tiêu,</u></b></mark></color> Sức mạnh Giao tranh +2 (Tối đa 12)\n- Nếu mục tiêu có <color=#ff6000><mark=#ff000040><b><u>[IntenseColors],</u></b></mark></color> Sức mạnh Giao tranh +6, Lượng sát thương +100%\n- Nếu mục tiêu đang sở hữu [IntenseColors] mà <color=#ff6000><mark=#ff000040><b><u>đã trang bị Kĩ năng Phòng thủ,</u></b></mark></color> thay vào đó Sức mạnh Giao tranh +6, Lượng sát thương -90%\n[DefeatDuel]\n- Mục tiêu không bị Hỗn loạn bởi sát thương của kĩ năng này, và hiệu ứng [Sinking] của mục tiêu không kích hoạt khi trúng đòn",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Tái sử dụng đồng xu này (Tối đa 2 lần)\n- Khi trúng đòn sau khi thua giao tranh, thay vào đó tái sử dụng đồng xu này (Tối đa 1 lần)\n- Không kích hoạt khi mục tiêu đã trang bị kĩ năng phòng thủ"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [Laceration], số lượt [Laceration] tăng thêm 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [Sinking], số lượt [Sinking] tăng thêm 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 142301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Xử lý Nguyên sắc",
+          "desc": "Cứ mỗi 6 tổng số [Laceration] và [Sinking] trên mục tiêu, Sức mạnh Cuối cùng +1 (Tối đa 2)\n[DefeatDuel] Mục tiêu không bị Hỗn loạn bởi sát thương của kĩ năng này, và hiệu ứng [Sinking] của mục tiêu không kích hoạt khi trúng đòn",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [EagleClawWound]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây 3 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [EagleClawWound]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 142302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Phủ màu Kịch liệt",
+          "desc": "Cứ mỗi 6 tổng số [Laceration] và [Sinking] trên mục tiêu, Sức mạnh Cuối cùng +1 (Tối đa 3)\n[DefeatDuel] Mục tiêu không bị Hỗn loạn bởi sát thương của kĩ năng này, và hiệu ứng [Sinking] của mục tiêu không kích hoạt khi trúng đòn",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây 2 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [BearClawWound]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây 3 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [BearClawWound]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 142303,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Dã thú Phái - Triển khai Bạo ác",
+          "desc": "Cứ mỗi 6 tổng số [Laceration] và [Sinking] trên mục tiêu, Sức mạnh Cuối cùng +1 (Tối đa 4)\n[WhenUse] Nếu mục tiêu có từ <color=#ff6000><mark=#ff000040><b><u>3 loại hiệu ứng bất lợi trở lên,</u></b></mark></color> tất cả đồng xu của kĩ năng này chuyển thành [SuperCoin]\n[DefeatDuel]\n- Lượng sát thương -75%\n- Mục tiêu không bị Hỗn loạn bởi sát thương của kĩ năng này, và hiệu ứng [Sinking] của mục tiêu không kích hoạt khi trúng đòn",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lượt [Laceration] tăng thêm 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [BearClawWound]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lượt [Sinking] tăng thêm 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [EagleClawWound]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Gây 1 [BoldBrushstrokes]</u></b></mark></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 142304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Cơn rùng mình của Ý tưởng",
+          "desc": "Có thể giao tranh với kĩ năng này bất kể Tốc độ\n[WhenUse] Cứ mỗi <color=#ff6000><mark=#ff000040><b><u>loại hiệu ứng bất lợi trên mục tiêu chính,</u></b></mark></color> Sức mạnh Cuối cùng +1, Lượng sát thương +10% (Mỗi loại tối đa 6, 60%)\n[WinDuel]\n- Cứ mỗi <color=#ff6000><mark=#ff000040><b><u>loại hiệu ứng bất lợi trên mỗi mục tiêu,</u></b></mark></color> Lượng sát thương +10% (Tối đa 60%, tính riêng cho từng mục tiêu)\n[DefeatDuel]\n- Lượng sát thương -75%\n- Giá trị [BearClawWound], [EagleClawWound] gây ra bởi kĩ năng này giảm đi 1/3 (Làm tròn lên)\n- Mục tiêu không bị Hỗn loạn bởi sát thương của kĩ năng này, và hiệu ứng [Sinking] của mục tiêu không kích hoạt khi trúng đòn",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây 3 [Laceration], số lượt [Laceration] tăng thêm 3"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây 3 [Sinking], số lượt [Sinking] tăng thêm 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Gây 9 [BearClawWound]</u></b></mark></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Gây 9 [EagleClawWound]</u></b></mark></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Gây 1 [BoldBrushstrokes]</u></b></mark></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 142305,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Màu vẽ đỏ mạch đập dưới lớp da của ngươi thật thô bạo",
+          "desc": "[WideAreaRampage]\nƯu tiên chỉ định đối tượng sở hữu [IntenseColors]\nKhông cho đối tượng kích hoạt kĩ năng phòng thủ (Ngoại trừ phòng thủ có thể đấu kĩ năng)\nBất kể tốc độ, có thể đấu kĩ năng với kĩ năng này\n[WhenUse]\n- Với mỗi loại <color=#ff6000><mark=#ff000040><b><u>hiệu ứng bất lợi của mục tiêu chính,</u></b></mark></color> Sức mạnh cuối cùng +1 (Tối đa 6)\n- Nếu mục tiêu chính <color=#ff6000><mark=#ff000040><b><u>có [IntenseColors],</u></b></mark></color> Sức mạnh đấu kĩ năng +6\n- Nếu đối tượng <color=#ff6000><mark=#ff000040><b><u>có [IntenseColors],</u></b></mark></color> sát thương gây ra +100%\n(Phán đoán theo từng đối tượng)\n・Trong số các mục tiêu, đối với <color=#ff6000><mark=#ff000040><b><u>đối tượng đang trang bị kĩ năng phòng thủ</u></b></mark></color> trong khi đang sở hữu [IntenseColors], thay vào đó sát thương gây ra -90%\n[WinDuel]\n- Với mỗi loại <color=#ff6000><mark=#ff000040><b><u>hiệu ứng bất lợi của mỗi đối tượng,</u></b></mark></color> sát thương gây ra +10% (Tối đa 60%, phán đoán theo từng đối tượng)\n[DefeatDuel]\n- Nhận [AttackDmgDown] 5, [Paralysis] 5\n- Đối tượng không bị Hoảng loạn bởi sát thương của kĩ năng này, và hiệu ứng [Sinking] của đối tượng không kích hoạt khi trúng đòn\n[EndSkill] Kết thúc lượt này",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây [Laceration] 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Số lượng [Laceration] tăng thêm 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây [Sinking] 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Số lượng [Sinking] tăng thêm 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "<color=#ff6000><mark=#ff000040><b><u>Đồng xu này trúng tất cả các đối tượng</u></b></mark></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 500604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Phê bình",
+          "desc": "[CantChangeTarget]\n[WhenUse]\n- Với mỗi loại <color=#ff6000><mark=#ff000040><b><u>hiệu ứng bất lợi của đối tượng,</u></b></mark></color> Sức mạnh đấu kĩ năng +2 (Tối đa 12)\n- Với mỗi <color=#ff6000><mark=#ff000040><b><u>đồng minh Học sinh Phái Dã thú trên chiến trường</u></b></mark></color> sát thương gây ra +12.5% (Tối đa 50%)\n- Nếu đối tượng <color=#ff6000><mark=#ff000040><b><u>có [IntenseColors],</u></b></mark></color> Sức mạnh đấu kĩ năng +6, sát thương gây ra +200%\n・Nếu đối tượng <color=#ff6000><mark=#ff000040><b><u>đang trang bị kĩ năng phòng thủ</u></b></mark></color> trong khi đang sở hữu [IntenseColors], thay vào đó Sức mạnh đấu kĩ năng +6, sát thương gây ra -90%, đối tượng không bị Hoảng loạn bởi sát thương của kĩ năng này, và hiệu ứng [Sinking] của đối tượng không kích hoạt khi trúng đòn\n[DefeatDuel]\n- Đối tượng không bị Hoảng loạn bởi sát thương của kĩ năng này, và hiệu ứng [Sinking] của đối tượng không kích hoạt khi trúng đòn",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Sử dụng lại đồng xu này (Tối đa 2 lần)\n- Khi trúng đòn sau khi thua đấu kĩ năng, thay vào đó sử dụng lại đồng xu này (Tối đa 1 lần)\n- Không kích hoạt khi đối tượng đang trang bị kĩ năng phòng thủ"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây [Laceration] 2, số lượng [Laceration] tăng thêm 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây [Sinking] 2, số lượng [Sinking] tăng thêm 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 500704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Sự rùng mình của cảm hứng",
+          "desc": "Bất kể tốc độ, có thể đấu kĩ năng với kĩ năng này\n[WhenUse] Với mỗi loại <color=#ff6000><mark=#ff000040><b><u>hiệu ứng bất lợi của mục tiêu chính,</u></b></mark></color> Sức mạnh cuối cùng +1, sát thương gây ra +10% (Tối đa lần lượt là 6, 60%)\n[WinDuel]\n- Với mỗi loại <color=#ff6000><mark=#ff000040><b><u>hiệu ứng bất lợi của mỗi đối tượng,</u></b></mark></color> sát thương gây ra +10% (Tối đa 60%, phán đoán theo từng đối tượng)\n[DefeatDuel]\n- Sát thương gây ra -75%\n- Giá trị [BearClawWound], [EagleClawWound] gây ra bởi hiệu ứng của kĩ năng này giảm xuống còn 1/3 (Làm tròn lên)\n- Đối tượng không bị Hoảng loạn bởi sát thương của kĩ năng này, và hiệu ứng [Sinking] của đối tượng không kích hoạt khi trúng đòn",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây [Laceration] 3, số lượng [Laceration] tăng thêm 3"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây [Sinking] 3, số lượng [Sinking] tăng thêm 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Gây [BearClawWound] 9</u></b></mark></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Gây [EagleClawWound] 9</u></b></mark></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Gây [BoldBrushstrokes] 1</u></b></mark></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 500705,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Màu vẽ đỏ mạch đập dưới lớp da của ngươi thật thô bạo",
+          "desc": "[WideAreaRampage]\nƯu tiên chỉ định đối tượng sở hữu [IntenseColors]\nKhông cho đối tượng kích hoạt kĩ năng phòng thủ (Ngoại trừ phòng thủ có thể đấu kĩ năng)\nBất kể tốc độ, có thể đấu kĩ năng với kĩ năng này\n[WhenUse]\n- Với mỗi loại <color=#ff6000><mark=#ff000040><b><u>hiệu ứng bất lợi của mục tiêu chính,</u></b></mark></color> Sức mạnh cuối cùng +1 (Tối đa 6)\n- Nếu mục tiêu chính <color=#ff6000><mark=#ff000040><b><u>có [IntenseColors],</u></b></mark></color> Sức mạnh đấu kĩ năng +6\n- Nếu đối tượng <color=#ff6000><mark=#ff000040><b><u>có [IntenseColors],</u></b></mark></color> sát thương gây ra +200%\n(Phán đoán theo từng đối tượng)\n・Trong số các mục tiêu, đối với <color=#ff6000><mark=#ff000040><b><u>đối tượng đang trang bị kĩ năng phòng thủ</u></b></mark></color> trong khi đang sở hữu [IntenseColors], thay vào đó sát thương gây ra -90%\n[WinDuel]\n- Với mỗi loại <color=#ff6000><mark=#ff000040><b><u>hiệu ứng bất lợi của mỗi đối tượng,</u></b></mark></color> sát thương gây ra +10% (Tối đa 60%, phán đoán theo từng đối tượng)\n[DefeatDuel]\n- Nhận [AttackDmgDown] 5, [Paralysis] 5\n- Đối tượng không bị Hoảng loạn bởi sát thương của kĩ năng này, và hiệu ứng [Sinking] của đối tượng không kích hoạt khi trúng đòn\n[EndSkill] Kết thúc lượt này",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây [Laceration] 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Số lượng [Laceration] tăng thêm 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây [Sinking] 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Số lượng [Sinking] tăng thêm 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "<color=#ff6000><mark=#ff000040><b><u>Đồng xu này trúng tất cả các đối tượng</u></b></mark></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

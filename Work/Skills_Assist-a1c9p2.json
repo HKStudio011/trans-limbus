@@ -1,0 +1,170 @@
+{
+  "dataList": [
+    {
+      "id": 40000601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Kiềm tỏa",
+          "desc": "Với mỗi loại hiệu ứng bất lợi trên mục tiêu, Lượng sát thương +50% (Tối đa 100%)\n[WhenUse] Với mỗi 2 tổng số [Laceration] và [Vibration] trên mục tiêu, Sức mạnh cơ bản +1 (Tối đa 5)\n[WhenUse] Số lần [Breath] của bản thân tăng 3",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 5 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 5 [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40000602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Bào kép",
+          "desc": "Với mỗi loại hiệu ứng bất lợi trên mục tiêu, Lượng sát thương +50% (Tối đa 100%)\n[WhenUse] Với mỗi 2 tổng số [Laceration] và [Vibration] trên mục tiêu, Sức mạnh cơ bản +1 (Tối đa 5)\n[WhenUse] Số lần [Breath] của bản thân tăng 3",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lần [Laceration] tăng 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lần [Vibration] tăng 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40000603,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Phóng lao",
+          "desc": "Với mỗi loại hiệu ứng bất lợi trên mục tiêu, Lượng sát thương +50% (Tối đa 200%)\n[WhenUse] Nhận 2 [CriticalDmgUpVespa] vào lượt sau",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây [BeeSting]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Đẩy mốc Choáng về phía trước bằng 80% Lượng sát thương"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40000604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Cắm lao - Chỗ đó phải không.",
+          "desc": "[CantChangeTarget]\nVới mỗi loại hiệu ứng bất lợi trên mục tiêu, Lượng sát thương +50% (Tối đa 300%)\n[WhenUse] Nhận 5 [CriticalDmgUpVespa] vào lượt sau",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây [ArtifactBeeSting]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Khiến mục tiêu Choáng"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40000605,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Thu hồi lao",
+          "desc": "[CantDuel]\nVới mỗi loại hiệu ứng bất lợi trên mục tiêu, Lượng sát thương +50% (Tối đa 200%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Loại bỏ lao đang cắm trên mục tiêu"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40000606,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Phản công nào.",
+          "desc": "[DuelCounter]\nVới mỗi loại hiệu ứng bất lợi trên mục tiêu, Lượng sát thương +50% (Tối đa 100%)\n[StartBattle] <color=#ff6000><mark color=#ff000040><b><u>Nhận 1 [SupportProtect]</color></mark></b></u>\n[WhenUse] Nhận 2 [ResultEnhancement], 2 [AttackDmgUp] vào lượt sau",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 5 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lần [Vibration] tăng 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40000607,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Tôi sẽ hỗ trợ.",
+          "desc": "[CanDuelGuard]\nKĩ năng chuyên dụng cho [SupportProtect]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

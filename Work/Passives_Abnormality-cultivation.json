@@ -1,0 +1,89 @@
+{
+  "dataList": [
+    {
+      "id": 124701,
+      "name": "Cựu Hắc Thú - Ngọ Đầu Mục",
+      "desc": "Khi bắt đầu màn chơi, Ý chí giảm xuống -15, nhận [LegStrengthHorse] 3, [CrazyWei] 1\nSát thương nhận vào từ [Combustion], [Laceration], [Vibration], [Burst], [Sinking] -50% (làm tròn xuống)\n\nKhi [SuperCoin] của bản thân bị phá hủy và đánh trúng, không kích hoạt hiệu ứng [Burst] của mục tiêu (không trừ số lần)\n\nSát thương gây ra cho kẻ địch đang bị Hoảng loạn +50%"
+    },
+    {
+      "id": 124702,
+      "name": "Giẫm nát... ta sẽ nghiền nát ngươi.",
+      "desc": "Nếu bản thân có [LegStrengthHorse], mỗi khi đánh trúng [VibrationExplosion], nếu đối tượng là mục tiêu chính, đặt 1 [ConcussionWei]."
+    },
+    {
+      "id": 124703,
+      "name": "Hồn Phi Trung Thiên",
+      "desc": "Nếu bản thân có [LegStrengthHorse], khi đồng xu có hiệu ứng [VibrationExplosion] đánh trúng mục tiêu không có [Vibration], nhận 1 [ReboundWei] (Nếu [ReboundWei] đạt tối đa thì không nhận thêm)\n\nKhi kết thúc lượt, nếu [ReboundWei] của bản thân đạt tối đa, tiêu thụ tất cả và vào lượt tiếp theo giảm 1 [LegStrengthHorse]."
+    },
+    {
+      "id": 124704,
+      "name": "Để không còn sót lại dù chỉ một mảnh vảy bẩn thỉu đó...",
+      "desc": "Khi bắt đầu lượt, mỗi 2 Tốc độ của bản thân nhận 1 [AttackUp] (Tối đa 2)\nNếu Tốc độ của bản thân từ 5 trở lên, nhận thêm 1 [SlashDamageUp], 1 [HitDamageUp]."
+    },
+    {
+      "id": 124705,
+      "name": "Đồ không biết tự lượng sức, ngươi nghĩ đây là đâu...!",
+      "desc": "Khi thua So khớp, nếu đồng xu của đối tượng đang So khớp là đồng xu cộng, hồi 5 Ý chí cho đối tượng. Nếu là đồng xu trừ, giảm 5 Ý chí của đối tượng (không nhận hiệu ứng này nếu Ý chí từ -40 trở xuống). Tài nguyên E.G.O của thuộc tính Kĩ năng đối tượng đã sử dụng +2 (Kích hoạt 3 lần mỗi lượt)\n- Nếu Kĩ năng đó thuộc hệ Phẫn nộ hoặc Phàm ăn, nhận thêm +2 Tài nguyên E.G.O ít nhất."
+    },
+    {
+      "id": 127201,
+      "name": "Thiệt hại trong lúc đó",
+      "desc": "Khi nhận sát thương trong trận chiến, Sát thương gây ra +20% trong lượt đó\nKhi thua So khớp trong trận chiến, Sát thương nhận vào từ Kĩ năng đó +15%."
+    },
+    {
+      "id": 127202,
+      "name": "Tu Luyện Say Mềm",
+      "desc": "Mỗi 1% Máu đã mất của bản thân, Sát thương gây ra +2% (Tối đa 100%)"
+    },
+    {
+      "id": 127203,
+      "name": "Có rượu bầu bạn thì chẳng có gì phải sợ hãi cả",
+      "desc": "Khi bắt đầu lượt, nếu [SipOfAlcoholJin] của bản thân đạt tối đa, tiêu thụ 2 để nhận [DrunkAwakening]"
+    },
+    {
+      "id": 127204,
+      "name": "Túy Thủ Dạ Khách",
+      "desc": "Khi bắt đầu màn chơi, Ý chí tăng lên 10\nSát thương nhận vào từ [Combustion], [Laceration], [Vibration], [Burst], [Sinking] -50% (làm tròn xuống)\n\nSát thương nhận vào từ Tội đồ -30%\n\nNếu lượt trước nhận được từ 2 [SipOfAlcoholJin] trở lên, khi bắt đầu lượt, hồi 5 Ý chí mỗi 10% Máu đã mất của bản thân (Tối đa 40)\n\nKhi chuyển giai đoạn, nếu bản thân đang trong trạng thái Hoảng loạn thì sẽ được giải trừ."
+    },
+    {
+      "id": 127205,
+      "name": "Huyết Tích Thành Hà",
+      "desc": "Kích hoạt khi kết thúc lượt nếu có ít nhất 1 kẻ địch có [Laceration] từ 10 trở lên\nVới mỗi 5 [Laceration] trên kẻ địch đang có [Laceration], đặt 1 [DrunkBlood] (3 lần mỗi kẻ địch)."
+    },
+    {
+      "id": 124801,
+      "name": "Kết thúc Đối Luyện",
+      "desc": "Trận chiến kết thúc khi Máu của bản thân dưới 20%"
+    },
+    {
+      "id": 124901,
+      "name": "Đảo Ngược Mạch Điện",
+      "desc": "Khi bắt đầu lượt, nếu số lượt [Charge] của bản thân dưới 10, tiêu hao 5% Máu tối đa của bản thân để nhận 5 số lượt [Charge]\nKhi kết thúc lượt, nếu số lượt [Charge] của bản thân từ 15 trở lên, tiêu thụ 5 số lượt [Charge] để hồi 5% Máu tối đa của bản thân."
+    },
+    {
+      "id": 125001,
+      "name": "Hành trang vơi bớt",
+      "desc": "Khi bắt đầu lượt, hồi 5 Ý chí\nKhi bắt đầu lượt, nếu Ý chí của bản thân từ 20 trở lên, nhận 1 [Enhancement]."
+    },
+    {
+      "id": 125002,
+      "name": "Sức nặng của Trách nhiệm",
+      "desc": "Trong trận chiến này, nếu Máu của bản thân giảm xuống dưới một nửa Máu tối đa, từ lượt tiếp theo mỗi lượt nhận 2 [AttackDmgUp]."
+    },
+    {
+      "id": 125101,
+      "name": "Chính trị Khủng bố",
+      "desc": "Nếu Ý chí của mục tiêu dưới 0, mỗi 1 Ý chí thấp hơn 0 tăng Sát thương gây ra +3%."
+    },
+    {
+      "id": 125102,
+      "name": "Chẳng phải thú vị lắm sao?",
+      "desc": "Mỗi khi tất cả mục tiêu nhận hiệu ứng bất lợi, nhận 1 [AttackUp], 1 [DefenseUp]."
+    },
+    {
+      "id": 125103,
+      "name": "Ý chí vặn vẹo",
+      "desc": "Khi thắng So khớp, hồi 5 Ý chí\nKhi thua So khớp, nhận 1 [Enhancement]."
+    }
+  ]
+}

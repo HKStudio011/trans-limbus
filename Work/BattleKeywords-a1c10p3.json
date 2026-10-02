@@ -1,0 +1,433 @@
+﻿{
+  "dataList": [
+    {
+      "id": "GoldenHideWarderFirstPhase",
+      "name": "Thumping Pulse",
+      "desc": "- Khi bắt đầu lượt: Một Tù nhân ngẫu nhiên nhận hiệu ứng này\n- Sức mạnh Đối kháng +1, nhận -25% sát thương\n- Khi kết thúc lượt: Hiệu ứng này hết hạn",
+      "summary": "Tăng Sức mạnh Đối kháng, nhận ít sát thương hơn",
+      "flavor": "Miền của sự sống. Ý chí của sự thay đổi và sinh ra."
+    },
+    {
+      "id": "GoldenFabricWarderFirstPhase",
+      "name": "Stillness",
+      "desc": "- Khi bắt đầu lượt: Một Tù nhân ngẫu nhiên nhận hiệu ứng này\n- Sức mạnh Cuối cùng +1, gây +15% sát thương\n- Khi kết thúc lượt: Hiệu ứng này hết hạn",
+      "summary": "Nhận Sức mạnh Cuối cùng, gây thêm sát thương",
+      "flavor": "Miền của cái chết. Sự thôi thúc bảo tồn và tĩnh lặng."
+    },
+    {
+      "id": "MeursaultBuffWarderFirstPhase",
+      "name": "The Stranger",
+      "desc": "HP của Meursault không thể giảm xuống dưới 1 miễn là còn ít nhất 1 đồng đội sống sót trong màn chơi này\n- Khi Đối kháng với Quản ngục:\n · Sức mạnh Đối kháng +1\n · Gây thêm +(tỉ lệ HP đã mất của bản thân / 2)% sát thương (tối đa 20%)\n · Khi Thắng Đối kháng, nhận 1 tài nguyên E.G.O cho mỗi 2 Tương hợp ít nhất\n- Khi nhận sát thương có thể gây Chấn động đơn vị này, không bị Chấn động và xóa Ngưỡng Chấn động tương ứng; và nhận 1 Tăng Uy Lực Tấn công lượt sau (không giới hạn kích hoạt)\n- Không thể Rút lui",
+      "summary": "Nhận Sức mạnh Đối kháng và gây thêm sát thương khi Đối kháng với Warden\nKhông thể bị Chấn động, không thể bị đánh bại khi còn đồng minh sống sót",
+      "flavor": "Tôi có phải là một kẻ xa lạ, một yếu tố ngoại lai trong cả cửa hàng bách hóa và Thành phố không?"
+    },
+    {
+      "id": "UnstableConnection",
+      "name": "Thần Thánh Bấp Bênh",
+      "desc": "- Giá trị tối đa: 2\n- Khi bắt đầu lượt: Nhận (giá trị x 4) Sức mạnh Đối kháng Giảm và Mong manh\n- khi kết thúc lượt: Hồi ((45 - Tinh thần hiện tại) / 2) Tinh thần (làm tròn xuống); sau đó, mất 1 Giá trị",
+      "summary": "Nhận Sức mạnh Đối kháng Giảm và Mong manh khi bắt đầu lượt\nHồi Tinh thần khi kết thúc lượt",
+      "flavor": "\"*thở dài* Lại gặp vấn đề kết nối vào lúc này...\""
+    },
+    {
+      "id": "Dominion",
+      "name": "Bảo Tồn Hệ Thống Sisyphe",
+      "desc": "- Giá trị tối đa: 25\n- Gây thêm +(giá trị)% sát thương (tối đa 25%)\n- Nhận ít hơn -(giá trị)% sát thương (tối đa 25%)",
+      "summary": "Gây thêm sát thương và nhận ít sát thương hơn",
+      "flavor": "\"Có phải vì anh đến từ Quận khác không? Sao các người vẫn không hiểu nhỉ? Nếu Tháp Sisyphe sụp đổ, mấy cái Malleus Maleficarum hay gì đó sẽ—*thở dài*\"\n\n\"Vẫn là những kẻ lạ mặt và ngoại lai như cũ, tôi đoán vậy. Các người chẳng quan tâm chút nào đến N Corp. hay thế giới này sẽ ra sao. Ugh... thôi bỏ đi. Giờ thì để xem các người sẵn sàng đi xa đến đâu.\""
+    },
+    {
+      "id": "BlackStigmata",
+      "name": "Hối hận",
+      "desc": "- Đơn vị có Tinh thần: Loại Hoảng loạn chuyển thành \"Hối Hận\"\n- Đơn vị không có Tinh thần: Nhận thêm +10% sát thương từ mục tiêu có Tốc độ nhanh hơn bản thân\n- khi kết thúc lượt: Mất 1 Giá trị\n- Hiệu ứng này không cộng dồn; áp dụng sẽ thay thế giá trị hiện tại bằng giá trị áp dụng\n- Áp dụng điều kiện \"Đơn vị không có Tinh thần\" cho một số kẻ địch có Tinh thần nhưng không thể thay đổi Loại Hoảng loạn của chúng\n\n※ Hiệu ứng Hoảng loạn Hối Hận:\n- Suy giảm nhuệ khí: Tốc độ tối thiểu & tối đa -1; nhận thêm +10% sát thương từ mục tiêu có Tốc độ nhanh hơn đơn vị này\n- Hoảng loạn: Tốc độ tối thiểu & tối đa -2; nhận thêm +15% sát thương từ mục tiêu có Tốc độ nhanh hơn đơn vị này",
+      "summary": "Mất Tốc độ tối thiểu & tối đa\nNhận thêm sát thương từ mục tiêu có Tốc độ nhanh hơn",
+      "flavor": "\"Ngươi cảm nhận tội lỗi đang bò trên lưng mình.\""
+    },
+    {
+      "id": "BlackStigmata_Main",
+      "name": "Hối hận",
+      "desc": "- Đơn vị có Tinh thần: Chuyển Loại Hoảng loạn của chúng thành \"Hối Hận\"\n- khi kết thúc lượt: Mất 1 Giá trị",
+      "summary": "Chuyển Loại Hoảng loạn thành \"Hối Hận\"",
+      "flavor": "\"Ngươi cảm nhận tội lỗi đang bò trên lưng mình.\""
+    },
+    {
+      "id": "BlackStigmata_Sub",
+      "name": "Hối hận",
+      "desc": "- Đơn vị không có Tinh thần: Nhận thêm +10% sát thương từ mục tiêu có Tốc độ nhanh hơn bản thân\n- khi kết thúc lượt: Mất 1 Giá trị",
+      "summary": "Nhận thêm sát thương từ mục tiêu có Tốc độ nhanh hơn bản thân",
+      "flavor": "\"Ngươi cảm nhận tội lỗi đang bò trên lưng mình.\""
+    },
+    {
+      "id": "BlackStigmata_LowMorale",
+      "name": "Hối hận",
+      "desc": "- Suy giảm nhuệ khí\n- Tốc độ tối thiểu & tối đa -1; nhận thêm +10% sát thương từ mục tiêu có Tốc độ nhanh hơn bản thân",
+      "summary": "Mất Tốc độ tối thiểu & tối đa\nNhận thêm sát thương từ mục tiêu có Tốc độ nhanh hơn",
+      "flavor": "\"Ngươi cảm nhận tội lỗi đang bò trên lưng mình.\""
+    },
+    {
+      "id": "BlackStigmata_Panic",
+      "name": "Hối hận",
+      "desc": "- Hoảng loạn (Panic)\n- Tốc độ tối thiểu & tối đa -2; nhận thêm 15% sát thương từ mục tiêu có Tốc độ nhanh hơn",
+      "summary": "Mất Tốc độ tối thiểu & tối đa\nNhận thêm sát thương từ mục tiêu có Tốc độ nhanh hơn",
+      "flavor": "\"Ngươi cảm nhận tội lỗi đang bò trên lưng mình.\""
+    },
+    {
+      "id": "GoldenHideWarderSecondPhase",
+      "name": "Thumping Pulse",
+      "desc": "- Khi bắt đầu lượt: Một tội đồ ngẫu nhiên nhận hiệu ứng này\n- Khi Thắng Đối kháng, nếu tội đồ có hiệu ứng này <color=#ff6000><mark=#ff000040><b><u>thắng Đối kháng</u></b></mark></color> với kĩ năng <color=#ff6000><mark=#ff000040><b><u>\"Death Unto the Condemned\"</u></b></mark></color> của Warden, nhận <color=#ff6000><mark=#ff000040><b><u>Lá chắn bằng 250% HP tối đa của tội đồ</u></b></mark></color> (Lá chắn nhận được từ hiệu ứng này sẽ bị loại bỏ khỏi tổng Lá chắn của tội đồ khi kết thúc đợt tấn công của Warden với \"Death Unto the Condemned\")\n- Sức mạnh Đối kháng +2, nhận -25% sát thương\n- Khi kết thúc lượt: Hiệu ứng này hết hạn",
+      "summary": "Nhận Sức mạnh Đối kháng và giảm sát thương nhận vào\nKhi Thắng Đối kháng với \"Death Unto the Condemned\", nhận Lá chắn",
+      "flavor": "Miền của sự sống. Ý chí của sự thay đổi và sinh ra."
+    },
+    {
+      "id": "GoldenFabricWarderSecondPhase",
+      "name": "Stillness",
+      "desc": "- Khi bắt đầu lượt: Một tội đồ ngẫu nhiên nhận hiệu ứng này\n- Sức mạnh Cuối cùng +2, gây +25% sát thương\n- khi kết thúc lượt: Hiệu ứng này hết hạn",
+      "summary": "Nhận Sức mạnh Cuối cùng, gây thêm sát thương",
+      "flavor": "Miền của cái chết. Sự thôi thúc bảo tồn và tĩnh lặng."
+    },
+    {
+      "id": "MeursaultBuffWarderSecondPhase",
+      "name": "The Stranger",
+      "desc": "- HP của Meursault không thể giảm xuống dưới 1 miễn là còn ít nhất 1 đồng minh sống sót trong màn chơi này\n- Tốc độ tối thiểu & tối đa +1\n- Khi Đối kháng với Warden:\n · Sức mạnh Đối kháng +2\n · Gây thêm +(phần trăm HP thiếu hụt của bản thân / 2)% sát thương (tối đa 40%)\n · Khi Thắng Đối kháng, nhận 1 tài nguyên E.G.O cho mỗi 3 Liên kết ít nhất\n- Khi nhận sát thương đủ để Chấn động đơn vị này, không bị Chấn động và xóa Ngưỡng Chấn động tương ứng; và nhận 2 Tăng Uy Lực Tấn công lượt sau (không giới hạn kích hoạt)\n- Không thể Rút lui",
+      "summary": "Nhận Sức mạnh Đối kháng và gây thêm sát thương khi Đối kháng với Warden\nKhông thể bị Chấn động, không thể bị đánh bại khi còn đồng minh sống sót",
+      "flavor": "Tôi có phải là một kẻ xa lạ, một yếu tố ngoại lai trong cả cửa hàng bách hóa và Thành phố không?"
+    },
+    {
+      "id": "EncompassingVoiceSecondPhase",
+      "name": "Tiếng nói của Thần Obsidian",
+      "desc": "- Giá trị tối đa: 100\n- Khi bắt đầu lượt: Nhận 1 Tăng Cấp độ Tấn công cho mỗi 20 Giá trị (tối đa 4)\n- Nhận giá trị bằng số lần Bảo tồn đơn vị này tiêu thụ hoặc nhận được do hiệu ứng Kĩ năng của nó (tối đa 40 mỗi lượt; Giá trị này được nhận bất kể số lần Bảo tồn tối đa)\n- khi kết thúc lượt: Nhận 10 Giá trị\n- Ở Giá trị tối đa, chuyển đổi hiệu ứng này thành \"Thần tính của Thần Obsidian\" lượt sau",
+      "summary": "Nhận Cấp độ Tấn công dựa trên Giá trị\nỞ Giá trị tối đa, chuyển đổi thành \"Thần tính của Thần Obsidian\"",
+      "flavor": "Một giọng nói rao giảng Quy tắc Bảo tồn.\nKhông thể quay lại thời kỳ man rợ."
+    },
+    {
+      "id": "EncompassingVoiceThirdPhase",
+      "name": "Tiếng nói của Thần Obsidian",
+      "desc": "- Giá trị tối đa: 100\n- Khi bắt đầu lượt: Nhận 1 Tăng Cấp độ Tấn công cho mỗi 20 Giá trị (tối đa 4)\n- Nhận giá trị bằng số lần Bảo tồn đơn vị này tiêu thụ hoặc nhận được do hiệu ứng Kĩ năng của nó (tối đa 40 mỗi lượt; Giá trị này được nhận bất kể số lần Bảo tồn tối đa)\n- khi kết thúc lượt: Nhận 10 Giá trị\n- Ở Giá trị tối đa, chuyển đổi hiệu ứng này thành \"Thần tính của Thần Obsidian\" lượt sau",
+      "summary": "Nhận Cấp độ Tấn công dựa trên Giá trị\nỞ Giá trị tối đa, chuyển đổi thành \"Thần tính của Thần Obsidian\"",
+      "flavor": "Một giọng nói rao giảng Quy tắc Bảo tồn.\nKhông thể quay lại thời kỳ man rợ."
+    },
+    {
+      "id": "SpreadingVoiceSecondPhase",
+      "name": "Thần tính của Thần Obsidian",
+      "desc": "- Giá trị tối đa: 100\n- Khi bắt đầu lượt: Nhận 1 Tăng Cấp độ Tấn công và 1 Tăng Cấp độ Phòng thủ cho mỗi 20 giá trị (tối đa lần lượt 4)\n- Chuyển tất cả Đồng xu Kĩ năng thành Đồng xu Bất khả phá\n- Khi giá trị bằng 0, hiệu ứng này sẽ chuyển thành \"Tiếng nói của Thần Obsidian\" vào lượt tiếp theo",
+      "summary": "Chuyển tất cả Đồng xu Kĩ năng thành Đồng xu Bất khả phá\nNhận Cấp độ Tấn công và Cấp độ Phòng thủ dựa trên giá trị",
+      "flavor": "Thần Obsidian—Ngài là người cai quản sự sáng tạo và thời gian trong Hệ thống Sisyphe."
+    },
+    {
+      "id": "SpreadingVoiceThirdPhase",
+      "name": "Thần tính của Thần Obsidian",
+      "desc": "- Giá trị tối đa: 100\n- Khi bắt đầu lượt: Nhận 1 Tăng Cấp độ Tấn công và 1 Tăng Cấp độ Phòng thủ cho mỗi 20 giá trị (tối đa lần lượt 4)\n- Chuyển tất cả Đồng xu Kĩ năng thành Đồng xu Bất khả phá (trừ Đồng xu Loại bỏ)\n- Khi giá trị bằng 0, hiệu ứng này sẽ chuyển thành \"Tiếng nói của Thần Obsidian\" vào lượt tiếp theo",
+      "summary": "Chuyển tất cả Đồng xu Kĩ năng thành Đồng xu Bất khả phá (trừ Đồng xu Loại bỏ)\nNhận Cấp độ Tấn công và Cấp độ Phòng thủ dựa trên giá trị",
+      "flavor": "Thần Obsidian—Ngài là người cai quản sự sáng tạo và thời gian trong Hệ thống Sisyphe."
+    },
+    {
+      "id": "LeaderVoiceSecondPhase",
+      "name": "Người cai quản Hình phạt Sisyphe",
+      "desc": "- Giá trị tối đa: 5\n- Cấp độ Tấn công +1 và Cấp độ Phòng thủ +2 cho mỗi giá trị\n- Khi đạt 3+ giá trị, gây thêm +1 \"Đinh [Punishment]\" và \"Đinh [Penance]\" khi dùng Kĩ năng",
+      "summary": "Nhận Cấp độ Tấn công và Cấp độ Phòng thủ dựa trên giá trị\nKhi đạt 3+ giá trị, gây thêm \"Đinh [Punishment]\" và \"Đinh [Penance]\"",
+      "flavor": "Người cai quản xuất hiện trước những kẻ từ chối hành động theo ý định. Vì đó là cách hệ thống vận hành."
+    },
+    {
+      "id": "ConfessionSecondPhase",
+      "name": "Bằng chứng của Lời thú tội",
+      "desc": "- Các hiệu ứng sau đây được gọi chung là \"Bằng chứng của Lời thú tội\":\n · Đinh búa [Condemnation]\n · Đinh búa [Judgment]\n · Đinh [Punishment]\n · Đinh [Penance]",
+      "summary": "Gọi chung là \"Đinh\" và \"Đinh búa\" mà Người cai quản gây ra",
+      "flavor": "Đóng vào nhiều đinh như tội lỗi của ngươi đòi hỏi, và chứng minh sự ăn năn của ngươi."
+    },
+    {
+      "id": "LeaderVoiceThirdPhase",
+      "name": "Cha xứ của Hình phạt Sisyphe",
+      "desc": "- Giá trị tối đa: 5\n- Cấp độ Tấn công +2 và Cấp độ Phòng thủ +3 cho mỗi giá trị\n- Khi đạt 3+ giá trị, gây thêm +1 \"Đinh [Console]\" khi dùng Kĩ năng",
+      "summary": "Nhận Cấp độ Tấn công và Cấp độ Phòng thủ dựa trên giá trị\nKhi đạt 3+ giá trị, gây thêm \"Đinh [Console]\"",
+      "flavor": "Cha xứ xuất hiện trước những kẻ từ chối hành động theo ý định. Vì đó là cách hệ thống vận hành."
+    },
+    {
+      "id": "ConfessionThirdPhase",
+      "name": "〜",
+      "desc": "- Các hiệu ứng sau đây được gọi chung là \"〜\":\n· Đinh [Exception]\n· Đinh [Breakpoint]\n· Đinh [Console]",
+      "summary": "Gọi chung là \"Đinh\" mà Cha xứ gây ra",
+      "flavor": "\"Giờ thì tôi chắc chắn rồi. Các ngươi đều là những yếu tố ngoại lai không nên được phép vào hệ thống này. Tôi đoán đã đến lúc thực sự kiểm tra sổ tay. Không có gì mà luật lệ và quy tắc không tính đến.\""
+    },
+    {
+      "id": "ExecutionNailSecondPhase",
+      "name": "Đinh búa [Judgment]",
+      "desc": "- Giá trị tối đa: 9\n- Nếu hiệu ứng này được kích hoạt bởi \"Judgment... Sentencing... Condemnation!\", <color=#ff6000><mark=#ff000040><b><u>gây sát thương cố định bằng (giá trị x 5%) HP tối đa</u></b></mark></color> (tối thiểu 10)\n · Khi bắt đầu trận chiến: Nếu đơn vị này trang bị Kĩ năng Phòng thủ, giảm một nửa sát thương nhận vào và đơn vị này không thể bị giết hoặc Chấn động bởi hiệu ứng này",
+      "summary": "Khi kích hoạt, nhận sát thương cố định\nKhi trang bị Kĩ năng Phòng thủ, giảm một nửa sát thương nhận vào và đơn vị này không thể bị giết",
+      "flavor": "Vì đây là một chiếc đinh, nhưng không phải đinh. Nó là một chiếc búa tuyên phán xét."
+    },
+    {
+      "id": "RestrainingNailSecondPhase",
+      "name": "Hammernail [Condemnation]",
+      "desc": "- Giá trị tối đa: 9\n- Khi bắt đầu lượt: Nếu đơn vị này có hiệu ứng này, trở thành <color=#ff6000><mark=#ff000040><b><u>Chấn động</u></b></mark></color>\n · Khi kết thúc lượt: Hiệu ứng này hết hạn nếu được kích hoạt trong lượt này\n · Nếu đơn vị này có \"Thumping Pulse\", nó không thể bị Chấn động bởi hiệu ứng này, và hiệu ứng này hết hạn khi kết thúc lượt",
+      "summary": "Khi bắt đầu lượt: Trở thành Chấn động\nNếu đơn vị này có \"Thumping Pulse\", không trở thành Chấn động",
+      "flavor": "Mỗi chiếc đinh mà ngươi không thể rút ra sẽ là chứng nhân cho tội lỗi của ngươi; và khi Ngày Phán Xét đến, mỗi chiếc đinh còn lại trong ngươi sẽ bị đóng sâu hơn vào thịt và linh hồn của ngươi."
+    },
+    {
+      "id": "CeremonialNail",
+      "name": "Nail [Punishment]",
+      "desc": "- Giá trị tối đa: 9\n- Nếu hiệu ứng này được kích hoạt bởi \"Judgment... Sentencing... Condemnation!\", nhận Lún chìm bằng với giá trị",
+      "summary": "Khi kích hoạt, nhận Lún chìm",
+      "flavor": "Vì sự trừng phạt là nỗi đau của lương tâm mà những kẻ vi phạm luật lệ phải chịu đựng."
+    },
+    {
+      "id": "MarkingNail",
+      "name": "Nail [Penance]",
+      "desc": "- Giá trị tối đa: 9\n- Nếu hiệu ứng này được kích hoạt bởi \"Judgment... Sentencing... Condemnation!\", tăng ngưỡng Chấn động lên (giá trị x 2)",
+      "summary": "Khi kích hoạt, tăng ngưỡng Chấn động",
+      "flavor": "Đây là một chiếc đinh đóng vào trái tim của những kẻ không hối cải."
+    },
+    {
+      "id": "GoldenHideWarderThirdPhase",
+      "name": "Thumping Pulse",
+      "desc": "- Khi bắt đầu lượt: Một tội đồ ngẫu nhiên nhận hiệu ứng này\n- Khi thắng Đối kháng, nếu tội đồ có hiệu ứng này <color=#ff6000><mark=#ff000040><b><u>thắng Đối kháng</u></b></mark></color> với Kĩ năng <color=#ff6000><mark=#ff000040><b><u>\"Systemwide Ban\"</u></b></mark></color> của Chaplain, nhận <color=#ff6000><mark=#ff000040><b><u>Lá chắn bằng 250% HP tối đa của tội đồ</u></b></mark></color> (Lá chắn từ hiệu ứng này sẽ bị xóa khỏi tổng Lá chắn của tội đồ khi kết thúc đợt tấn công của \"Systemwide Ban\" của Chaplain)\n- Sức mạnh Đối kháng +3, nhận -50% sát thương\n- Khi bị đánh trúng, giảm 1 Cấp độ Tấn công (tối đa 9)\n- Khi kết thúc lượt: Hiệu ứng này hết hiệu lực",
+      "summary": "Nhận Sức mạnh Đối kháng và giảm sát thương nhận vào\nKhi Thắng Đối kháng chống lại \"Systemwide Ban\", nhận Lá chắn",
+      "flavor": "Miền của sự sống. Ý chí của sự thay đổi và sinh ra."
+    },
+    {
+      "id": "GoldenFabricWarderThirdPhase",
+      "name": "Stillness",
+      "desc": "- Khi bắt đầu lượt: Một Tù nhân ngẫu nhiên nhận hiệu ứng này\n- Sức mạnh Cuối cùng +2, gây +25% sát thương\n- Khi bị đánh trúng, giảm 1 Cấp độ Phòng thủ (tối đa 9)\n- Khi kết thúc lượt: Hiệu ứng này hết hạn",
+      "summary": "Nhận Sức mạnh Cuối cùng và gây thêm sát thương\nKhi bị đánh trúng, giảm Cấp độ Phòng thủ",
+      "flavor": "Miền của cái chết. Sự thôi thúc bảo tồn và tĩnh lặng."
+    },
+    {
+      "id": "MeursaultBuffWarderThirdPhase",
+      "name": "The Stranger",
+      "desc": "- Máu của Meursault không thể giảm xuống dưới 1 miễn là còn ít nhất 1 đồng minh sống sót trong màn chơi này\n- Tốc độ tối thiểu & tối đa +3\n- Sức mạnh Cuối cùng +3 và gây +30% sát thương\n- Khi Đối kháng với Chaplain:\n · Gây thêm +(phần trăm máu đã mất của bản thân)% sát thương (tối đa 90%)\n · Khi Thắng Đối kháng, hồi 8 Tinh thần\n · Khi Thắng Đối kháng, nhận 1 tài nguyên E.G.O cho mỗi 5 Mối liên kết ít nhất\n- Khi nhận sát thương đủ để Chấn động đơn vị này, không bị Chấn động và loại bỏ Ngưỡng Chấn động tương ứng; đồng thời nhận 3 Tăng Uy Lực Tấn công lượt sau (không giới hạn kích hoạt)\n- Không thể Rút lui",
+      "summary": "Nhận Sức mạnh Đối kháng và gây thêm sát thương khi Đối kháng với Chaplain\nKhông thể bị Chấn động, không thể bị đánh bại khi còn đồng minh sống sót",
+      "flavor": "Tôi có phải là một kẻ xa lạ, một yếu tố ngoại lai trong cả cửa hàng bách hóa và Thành phố không?"
+    },
+    {
+      "id": "GoldenNail",
+      "name": "Đinh [Console]",
+      "desc": "- Giá trị tối đa: 9\n- Khi bắt đầu trận chiến: <color=#ff6000><mark=#ff000040><b><u>Khi đạt 9 giá trị, Khi bị đánh trúng Chaplain</u></b></mark></color>, Tù nhân có hiệu ứng này trong lượt này <color=#ff6000><mark=#ff000040><b><u>nhận sát thương cố định bằng 2% HP tối đa</u></b></mark></color> (hiệu ứng này không thể Chấn động đơn vị này)\n- Nếu hiệu ứng này được kích hoạt bởi \"Do you seriously mean to break the Sisyphe System?\", nhận Lún chìm bằng giá trị và tăng Ngưỡng Chấn động lên (giá trị x 2)",
+      "summary": "Khi kích hoạt, nhận Lún chìm và tăng Ngưỡng Chấn động\nKhi đạt giá trị tối đa, nhận sát thương cố định khi bị đánh trúng",
+      "flavor": "\"Để xem nào, hướng dẫn sử dụng cho cái đinh này... 'Bạn cảm nhận tội lỗi đang bò trên lưng mình...' Mm, không phải cái này.\"\n\n\"Nó phải nằm trong Ngăn kéo 42 ở đây... Tôi biết tôi đã để nó... à, đây rồi! 'Hướng dẫn sử dụng cho Quản trị viên Hệ thống Le Noir Sisyphe'.\""
+    },
+    {
+      "id": "VibrationFocusing",
+      "name": "Rung chuyển - Bảo tồn",
+      "desc": "- Khi Nổ Rung chuyển, nhận sát thương Lười biếng bằng (60 + tổng Hiệu lực Sạc hoặc Sạc Độc nhất của kẻ tấn công x 8)% Hiệu lực Rung chuyển, và giảm số lần đi 1 (tối đa 120%)\n · Khi Kĩ năng và Nội tại của đơn vị \"Le Noir\" kích hoạt Nổ Rung chuyển, hiệu ứng trên không giảm số lần\n- Khi bị đánh trúng bởi Kĩ năng kích hoạt Nổ Rung chuyển, tăng Ngưỡng Chấn động bằng Hiệu lực của hiệu ứng này\n- Khi kết thúc lượt: Mất 1 lần\n(Tương tác giống như Rung chuyển thông thường với các hiệu ứng tăng hoặc giảm Hiệu lực/Số lần Rung chuyển)",
+      "summary": "Khi Nổ Rung chuyển, nhận sát thương Lười biếng\nKhi bị đánh trúng bởi Kĩ năng kích hoạt Nổ Rung chuyển, tăng Ngưỡng Chấn động"
+    },
+    {
+      "id": "ExecutionNailThirdPhase",
+      "name": "Đinh [Breakpoint]",
+      "desc": "- Giá trị tối đa: 9\n- Nếu hiệu ứng này được kích hoạt bởi \"Do you seriously mean to break the Sisyphe System?\", <color=#ff6000><mark=#ff000040><b><u>nhận sát thương cố định bằng (giá trị x 10%) HP tối đa</u></b></mark></color> (tối thiểu 10)\n · Khi bắt đầu trận chiến: Nếu đơn vị này trang bị Kĩ năng Phòng thủ, giảm một nửa sát thương nhận vào và đơn vị này không thể bị giết hoặc Chấn động bởi hiệu ứng này",
+      "summary": "Khi kích hoạt, nhận sát thương cố định\nKhi trang bị Kĩ năng Phòng thủ, giảm một nửa sát thương nhận vào và đơn vị này không thể bị giết",
+      "flavor": "\"Hướng dẫn quản trị nói rõ ràng. Một khi lệnh này đóng đinh bạn vào hệ thống, bạn không thể làm gì cả.\""
+    },
+    {
+      "id": "RestrainingNailThirdPhase",
+      "name": "Đinh [Exception]",
+      "desc": "- Giá trị tối đa: 9\n- Khi bắt đầu lượt: Nếu đơn vị này có hiệu ứng này, <color=#ff6000><mark=#ff000040><b><u>nhận sát thương cố định bằng 50% HP hiện tại</u></b></mark></color> và trở thành <color=#ff6000><mark=#ff000040><b><u>Chấn động</u></b></mark></color>\n · Khi kết thúc lượt: Hiệu ứng này hết hạn nếu được kích hoạt trong lượt này\n · Nếu đơn vị này có \"Thumping Pulse\", không thể bị Chấn động bởi hiệu ứng này, giảm một nửa sát thương nhận vào, và hiệu ứng này hết hạn khi kết thúc lượt",
+      "summary": "Khi bắt đầu lượt: Nhận sát thương cố định và trở thành Chấn động\nNếu đơn vị này có \"Thumping Pulse\", không bị Chấn động và chỉ nhận một nửa sát thương",
+      "flavor": "\"Ngay cả những ngoại lệ cũng không thể thoát khỏi cái đinh này.\""
+    },
+    {
+      "id": "ConnectionError_LowMorale",
+      "name": "Lỗi Đồng bộ",
+      "desc": "- Suy giảm nhuệ khí\n- Nhận thêm +12.5% sát thương\n- Tốc độ tối thiểu & tối đa -1\n- Gây -15% sát thương khi sử dụng Kĩ năng tiêu hao Bảo tồn",
+      "summary": "Mất Tốc độ tối thiểu & tối đa, nhận thêm sát thương\nKĩ năng tiêu hao Bảo tồn gây ít sát thương hơn",
+      "undefined": "-"
+    },
+    {
+      "id": "ConnectionError_Panic",
+      "name": "Lỗi Đồng bộ",
+      "desc": "- Hoảng loạn\n- Nhận thêm +20% sát thương\n- Tốc độ tối thiểu & tối đa -2\n- Gây -25% sát thương khi sử dụng Kĩ năng tiêu hao Bảo tồn",
+      "summary": "Mất Tốc độ tối thiểu & tối đa, nhận thêm sát thương\nKĩ năng tiêu hao Bảo tồn gây ít sát thương hơn",
+      "undefined": "-"
+    },
+    {
+      "id": "JeanneDesign",
+      "name": "Đóng đinh",
+      "desc": "- Giá trị tối đa: 3\n- <color=#ff6000><mark color=#ff000040><b><u>Đơn vị này có 95% cơ hội tung Mặt Ngửa</color></mark></b></u>\n- Ở 2 giá trị, <color=#ff6000><mark color=#ff000040><b><u>Sức mạnh Đối kháng -2 cho mục tiêu</color></mark></b></u> Đối kháng với đơn vị này\n- Ở 3 giá trị, tiêu thụ toàn bộ giá trị và nhận <color=#ff6000><mark color=#ff000040><b><u>Engagement</color></mark></b></u> lượt sau\n- khi kết thúc lượt: Mất 1 giá trị (không mất giá trị trong lượt nhận hiệu ứng này)\n- Không thể nhận hiệu ứng này nếu đơn vị này đã có Engagement",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Tồn tại đi trước bản chất."
+    },
+    {
+      "id": "JeanneManager",
+      "name": "Engagement",
+      "desc": "- <color=#ff6000><mark color=#ff000040><b><u>Đơn vị này có 100% cơ hội tung Mặt Ngửa</color></mark></b></u>\n- Các mục tiêu Đối kháng hoặc tấn công đơn vị này có <color=#ff6000><mark color=#ff000040><b><u>100% cơ hội tung Mặt Sấp cho Đồng xu Plus</color></mark></b></u>\n · Các Đồng xu Minus của những mục tiêu đó có 100% cơ hội tung Mặt Ngửa\n- Loại bỏ hiệu ứng này khi trang bị Kĩ năng \"Focusing\", hoặc nếu đơn vị này bị Chấn động",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Tôi đã thiết kế cửa hàng bách hóa. Và giờ, tôi là người mẫu trên sàn diễn của nó, một diễn viên trên sân khấu của nó.\n\nCòn bạn, ma puce... bạn sẽ là chính rạp chiếu phim, phải không?"
+    },
+    {
+      "id": "JeannePartner",
+      "name": "Être-pour-autrui",
+      "desc": "- Các mục tiêu nhận hiệu ứng này mất toàn bộ hiệu ứng tiêu cực\n- Cố định Tinh thần ở mức 45\n · Với các Bản sắc sử dụng Đồng xu Minus, cố định Tinh thần ở mức -30\n- Không thể bị Chấn động\n- Loại bỏ hiệu ứng này khi Jeanne bước vào giai đoạn mới",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Bạn nghĩ bạn trông thế nào trong mắt tôi? Cái tôi mà bạn thấy và cái tôi mà tôi thấy chắc chắn hoàn toàn khác nhau.\nMa puce... bạn đã bị đóng đinh vào vị trí trong tôi rồi."
+    },
+    {
+      "id": "JeannePartnerTwo",
+      "name": "Être-pour-soi",
+      "desc": "- Cố định Tinh thần ở mức 45\n- Không nhận sát thương\n- Loại bỏ hiệu ứng này khi Jeanne bước vào giai đoạn mới",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Ý thức là một điều đáng sợ, bạn biết không. Ở đâu đó trong đó, một khoảng trống chắc chắn sẽ mở ra.\n\nBạn sẽ lấp đầy nó cho tôi chứ, ma puce?"
+    },
+    {
+      "id": "JeannePathos",
+      "name": "Pathos - Désir d'être",
+      "desc": "- Giá trị tối đa: 100\n- Khi thắng Đối kháng, nhận 3 giá trị\n- Khi thua Đối kháng, nhận 5 giá trị\n- Nhận giá trị bằng số lần Đối kháng\n- khi kết thúc lượt: Ở giá trị tối đa, bước vào giai đoạn mới",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Tôi muốn nở rộ màu đỏ... với tất cả đam mê đỏ rực, tất cả nhiệt huyết, tất cả pathos cháy bỏng trong tôi."
+    },
+    {
+      "id": "JeanneLogos",
+      "name": "Logos - Manque d'être",
+      "desc": "- Giá trị tối đa: 100\n- Khi thắng Đối kháng, nhận 5 giá trị\n- Nhận giá trị bằng số lần Đối kháng\n- Cấp độ Tấn công +1 cho mỗi 10 giá trị\n- Sức mạnh Đối kháng +1 cho mỗi 20 giá trị",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Có điều gì đó thiếu sót trong bạn—và trong tôi nữa. Chúng ta có thể lấp đầy cho nhau."
+    },
+    {
+      "id": "JeanneCheat",
+      "name": "Désespoir",
+      "desc": "- Đơn vị này có 100% cơ hội tung Mặt Sấp (với Đồng xu Minus, Mặt Ngửa)\n- khi kết thúc lượt: Mất 1 giá trị",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "... Ma puce, bạn đang chạy trốn sao? Khỏi phán xét, khỏi ánh sáng này...?"
+    },
+    {
+      "id": "JeanneBlueprint",
+      "name": "Délaissement",
+      "desc": "- Giá trị tối đa: 5\n- Sức mạnh Đối kháng +1 cho mỗi giá trị\n- Nhận thêm +10% sát thương từ Kĩ năng cho mỗi giá trị\n- Khi bắt đầu lượt: Ở 4+ giá trị, áp dụng các hiệu ứng sau:\n · Loại bỏ toàn bộ Ngưỡng Chấn động\n · Khi bị Chấn động, hồi phục khỏi Chấn động\n · Trọng lượng Ô +1",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Giữa sự tự do của tuyệt vọng không hứa hẹn điều gì, chỉ có Grand Magasin Sisyphe mang lại một phước lành: được cắt đo theo thiết kế và ánh nhìn, và qua đó, được trao sự chắc chắn và liên tục."
+    },
+    {
+      "id": "BoneNail",
+      "name": "L'Abject",
+      "desc": "- Giá trị tối đa: 5\n- Mất 1 Tốc độ cho mỗi giá trị\n- Nhận thêm +20% sát thương từ Xuất huyết cho mỗi giá trị (làm tròn xuống)\n- Khi dùng Kĩ năng Tấn công Cơ bản, nhận (Giá trị x 2) số lần Xuất huyết",
+      "summary": "",
+      "flavor": "Một phần cơ thể bị loại bỏ. Buffet đã đẩy nó ra, nhổ nó ra, làm tràn nó ra từ bên trong.\n\nDù nó đến từ chính cơ thể mình, nhưng một khi bị loại bỏ ra ngoài, nó không còn thuộc về bản thân nữa. Và ngay cả khi được cấy vào một cơ thể khác, nó cũng không bao giờ thuộc về cơ thể đó."
+    },
+    {
+      "id": "BuffetDream",
+      "name": "Kí ức của Pwie",
+      "desc": "- Giá trị tối đa: 5\n- Với mỗi giá trị,\n · Cấp độ Tấn công Cơ bản -5\n · Cấp độ Phòng thủ Cơ bản -5\n · Sức mạnh Đối kháng -1\n- Khi bắt đầu lượt: Hồi (8 x Giá trị) Tinh thần",
+      "summary": "",
+      "flavor": ""
+    },
+    {
+      "id": "BuffetDream1",
+      "name": "Kí ức của Pwie",
+      "desc": "- Giá trị tối đa: 5\n- Với mỗi giá trị,\n · Cấp độ Tấn công Cơ bản -5\n · Cấp độ Phòng thủ Cơ bản -5\n · Sức mạnh Đối kháng -1\n- Khi bắt đầu lượt: Hồi (8 x Giá trị) Tinh thần",
+      "summary": "",
+      "flavor": "Đôi giày... làm tôi rất vui..."
+    },
+    {
+      "id": "BuffetDream2",
+      "name": "Kí ức của Pwie",
+      "desc": "- Giá trị tối đa: 5\n- Với mỗi giá trị,\n · Cấp độ Tấn công Cơ bản -5\n · Cấp độ Phòng thủ Cơ bản -5\n · Sức mạnh Đối kháng -1\n- Khi bắt đầu lượt: Hồi (8 x Giá trị) Tinh thần",
+      "summary": "",
+      "flavor": "Cảm ơn... vì đã nhìn vào mắt tôi...\n\nĐôi giày... làm tôi rất vui..."
+    },
+    {
+      "id": "BuffetDream3",
+      "name": "Kí ức của Pwie",
+      "desc": "- Giá trị tối đa: 5\n- Với mỗi giá trị,\n · Cấp độ Tấn công Cơ bản -5\n · Cấp độ Phòng thủ Cơ bản -5\n · Sức mạnh Đối kháng -1\n- Khi bắt đầu lượt: Hồi (8 x Giá trị) Tinh thần",
+      "summary": "",
+      "flavor": "Chúng ta đã có một cuộc phiêu lưu... Thật vui...\n\nCảm ơn... vì đã nhìn vào mắt tôi...\n\nĐôi giày... làm tôi rất vui..."
+    },
+    {
+      "id": "BuffetDream4",
+      "name": "Kí ức của Pwie",
+      "desc": "- Giá trị tối đa: 5\n- Với mỗi giá trị,\n · Cấp độ Tấn công Cơ bản -5\n · Cấp độ Phòng thủ Cơ bản -5\n · Sức mạnh Đối kháng -1\n- Khi bắt đầu lượt: Hồi (8 x Giá trị) Tinh thần",
+      "summary": "",
+      "flavor": "Tôi đói... Tôi không muốn làm đau ai cả... Nó đau lắm...\n\nChúng ta đã có một cuộc phiêu lưu... Thật vui...\n\nCảm ơn... vì đã nhìn vào mắt tôi...\n\nĐôi giày... làm tôi rất vui..."
+    },
+    {
+      "id": "BuffetDream5",
+      "name": "Kí ức của Pwie",
+      "desc": "- Giá trị tối đa: 5\n- Với mỗi giá trị,\n · Cấp độ Tấn công Cơ bản -5\n · Cấp độ Phòng thủ Cơ bản -5\n · Sức mạnh Đối kháng -1\n- Khi bắt đầu lượt: Hồi (8 x Giá trị) Tinh thần",
+      "summary": "",
+      "flavor": "Tôi không thể dừng lại... Tôi nhớ bạn... Tôi đã hoàn toàn cô đơn, nên... Tôi muốn đi cùng bạn...\n\nTôi đói... Tôi không muốn làm đau ai cả... Nó đau lắm...\n\nChúng ta đã có một cuộc phiêu lưu... Thật vui...\n\nCảm ơn... vì đã nhìn vào mắt tôi...\n\nĐôi giày... làm tôi rất vui..."
+    },
+    {
+      "id": "BuffetDreamEnd",
+      "name": "Tôi... là \"Pwie\".",
+      "desc": "- Cấp độ Tấn công Cơ bản -30\n- Cấp độ Phòng thủ Cơ bản -30\n- Nhận thêm +100% sát thương",
+      "summary": "",
+      "flavor": "Hãy nhớ tôi là \"Pwie,\" được không?\nCảm ơn... vì tất cả."
+    },
+    {
+      "id": "BuffetRevival",
+      "name": "Tiếng nói của Thần Đỏ",
+      "desc": "- Giá trị tối đa: 3\n- Không thể bị đánh bại\n- Khi kết thúc lượt: Mất 1 giá trị\n- Khi hiệu ứng này kết thúc,\n · Trở lại dạng \"Le Rouge Senior Staff\"\n · Hồi 5 Tinh thần cho mỗi 10 HP còn lại khi đơn vị này ở dạng \"Ripped Flesh of the Crimson God\"; nhận +2 số lần Pulsation\n · Nếu đơn vị này nhận được 10+ số lần Pulsation, tiêu thụ toàn bộ số lần Pulsation; sau đó, nhận 1 Uncontrollable Rampage [Le Désir] vào lượt tiếp theo cho mỗi 5 giá trị đã tiêu thụ",
+      "summary": "",
+      "flavor": "Sống, và sống lại.\n\nTrải nghiệm, sống, là để tâm trí không ở hiện tại, mà đã hướng về tương lai.\n\nBởi vì người ta mong chờ điều chưa đến, người ta khao khát trải nghiệm. Và vì người ta khao khát trải nghiệm, người ta chọn tiếp tục sống."
+    },
+    {
+      "id": "BuffetRouge",
+      "name": "Hoảng loạn Không kiểm soát [Le Désir]",
+      "desc": "- Giá trị tối đa: 3\n- Tốc độ tối thiểu & tối đa +1\n- Sức mạnh Đối kháng +1 cho mỗi giá trị\n- Nhận -50% sát thương từ Xuất huyết\n- Không thể bị đánh bại bởi sát thương Xuất huyết\n- Khi kết thúc lượt: Mất 1 giá trị",
+      "summary": "",
+      "flavor": "Tôi không bao giờ cảm thấy thỏa mãn.\n\nDù khao khát này không thực sự là của tôi, tôi lại nhầm tưởng nó thuộc về mình.\n\nĐây là một khao khát sinh ra từ bạn—một khao khát bùng nổ từ bạn, vì bạn."
+    },
+    {
+      "id": "BuffetScruple",
+      "name": "Chia sẻ với Pwie",
+      "desc": "- Tốc độ tối thiểu & tối đa +3\n- Nhận -50% sát thương cuối cùng từ The Crimson God [Adulthood]",
+      "summary": "",
+      "flavor": "Chúng tôi đã chia sẻ một trải nghiệm với Pwie. Cùng nhau. Điều đó là chắc chắn.\n\nSự do dự bắt đầu xuất hiện."
+    },
+    {
+      "id": "BuffetResolve",
+      "name": "Quyết định",
+      "desc": "- Giá trị tối đa: 1\n- Gây và nhận +30% sát thương từ The Crimson God [Adulthood]\n- Khi bắt đầu lượt: Hồi 5 Tinh thần",
+      "summary": "",
+      "flavor": "<Là Quản lý... tôi phải chọn, đúng không?>\n\n<Đúng vậy, Quản lý.>\n\n<.......>\n\n<.......>\n\n<... Tôi đã đưa ra quyết định.>"
+    },
+    {
+      "id": "MeursaultBuffetEnd",
+      "name": "He Who Nails",
+      "desc": "- Tốc độ tối thiểu & tối đa +3\n- Khi dùng Kĩ năng, nhận thêm 2 Tài nguyên E.G.O cho hệ của Kĩ năng đó (2 lần mỗi lượt)\n- Không thể Rút lui",
+      "summary": ""
+    },
+    {
+      "id": "GrandBuffet_LowMorale",
+      "name": "Le Désir",
+      "desc": "- Suy giảm nhuệ khí\n- Cấp độ Tấn công +3\n- Cấp độ Phòng thủ +3",
+      "summary": ""
+    },
+    {
+      "id": "GrandBuffet_Panic",
+      "name": "Le Désir",
+      "desc": "- Hoảng loạn\n- Cấp độ Tấn công +5\n- Cấp độ Phòng thủ +5",
+      "summary": ""
+    },
+    {
+      "id": "LaRougeSuperior_LowMorale",
+      "name": "Xa hơn qua lớp ẩn giấu!",
+      "desc": "- Suy giảm nhuệ khí\n- Cấp độ Phòng thủ -2\n- Cấp độ Tấn công +2",
+      "summary": ""
+    },
+    {
+      "id": "LaRougeSuperior_Panic",
+      "name": "Xa hơn qua lớp ẩn giấu!",
+      "desc": "- Hoảng loạn\n- Cấp độ Phòng thủ -5\n- Cấp độ Tấn công +3",
+      "summary": ""
+    },
+    {
+      "id": "Jeanne_LowMorale",
+      "name": "La Nausée",
+      "desc": "- Suy giảm nhuệ khí\n- Gây -10% sát thương",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "Jeanne_Panic",
+      "name": "La Nausée",
+      "desc": "- Hoảng loạn (Panic)\n- Sức mạnh Cơ bản -1\n- Gây -10% sát thương",
+      "summary": "",
+      "undefined": "-"
+    }
+  ]
+}

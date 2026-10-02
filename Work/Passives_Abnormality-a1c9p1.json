@@ -1,0 +1,174 @@
+{
+  "dataList": [
+    {
+      "id": 130601,
+      "name": "Duello",
+      "desc": "Khi kết thúc hòa kích, gây [DuelEdge] 1 cho mục tiêu vừa hòa kích\nKhi hòa kích với mục tiêu có [DuelEdge], hồi phục 3 Tinh thần với mỗi 1 trị số [DuelEdge] của mục tiêu (Tối đa 15)"
+    },
+    {
+      "id": 130602,
+      "name": "Kiếm thuật Palermo",
+      "desc": "Nhận các hiệu quả dưới đây tùy theo trị số [DuelEdge] (Áp dụng cộng dồn)\n- Với mỗi 1 trị số, Sát thương gây ra cho mục tiêu +5%, Sát thương nhận vào -5% \n- Nếu từ 1 trở lên, khi hòa kích với mục tiêu đó, Sức mạnh hòa kích +1\n- Nếu từ 2 trở lên, khi hòa kích với mục tiêu đó, Sức mạnh cơ bản +1\n- Nếu từ 3 trở lên, khi hòa kích với mục tiêu đó, Sức mạnh Xu +1, khi tấn công trúng đích mục tiêu, gây [SeveredTendon] 3\n- Nếu từ 4 trở lên, khi hòa kích với mục tiêu đó, Sức mạnh cuối cùng +1"
+    },
+    {
+      "id": 130603,
+      "name": "Rapier kiểu Palermo / Thiết Trảm Đao",
+      "desc": "Nếu [VibrationExplosion] kích hoạt bởi hiệu quả kỹ năng của bản thân, nhận [AttackUp] 2 vào lượt tiếp theo (3 lần mỗi lượt)"
+    },
+    {
+      "id": 130604,
+      "name": "Dấu ấn Săn bắn",
+      "desc": "Mỗi 3 lượt, ưu tiên chọn ngẫu nhiên 1 kẻ địch còn lại không phải Ryoshu, đặt Tốc độ thành 1 và chỉ định làm mục tiêu cho tất cả kỹ năng\n(Nếu không thể kích hoạt do bị Hoảng loạn, sẽ kích hoạt vào lượt tiếp theo)"
+    },
+    {
+      "id": 130605,
+      "name": "Giáo trình chỉ dành cho một người",
+      "desc": "Khi bắt đầu màn chơi, nhận [TeachersCommand]\nKhi hòa kích với Ryoshu, Sức mạnh hòa kích -3, các kỹ năng có Sức mạnh cơ bản sẽ chuyển thành [SuperCoin],\nkhi thua hòa kích, lượng sát thương giảm 80%, các hiệu quả khi trúng đích không kích hoạt"
+    },
+    {
+      "id": 130701,
+      "name": "Cánh tay tìm kiếm thứ gì đó - Giải phóng một phần ức chế",
+      "desc": "Nếu các bộ phận cánh tay khác bị phá hủy, tất cả kỹ năng của bộ phận cánh tay trở thành [SuperCoin], Trọng lượng Tấn công +1\n- Khi sử dụng kỹ năng có áp dụng hiệu quả này, nhận [RapidGrowthApple] 1"
+    },
+    {
+      "id": 130702,
+      "name": "Nữ hoàng Gỗ mun - Giải phóng một phần ức chế",
+      "desc": "Nếu có bộ phận Rễ, sau khi bộ phận Quả nhận sát thương, nhận 1 [HowDareYouApple]\n\nNếu [HowDareYouApple] của bản thân là 4, sử dụng kỹ năng có hiệu quả âm cực mạnh\n\nNếu không có bộ phận Rễ, không nhận và không tiêu hao [HowDareYouApple]\nSau đó, nếu bộ phận Quả bị phá hủy thì xóa bỏ [HowDareYouApple]"
+    },
+    {
+      "id": 130703,
+      "name": "Rễ quấn quýt",
+      "desc": "Cho đến khi Rễ bị phá hủy, gây [Binding] 2 cho tất cả kẻ địch khi bắt đầu lượt"
+    },
+    {
+      "id": 130704,
+      "name": "Chỉ một cái rễ",
+      "desc": "Rễ nhận [Enhancement] 3 tương ứng với số cánh tay chưa bị phá hủy\nNếu bộ phận Rễ đang trong trạng thái bị phá hủy thì không nhận"
+    },
+    {
+      "id": 131901,
+      "name": "Giáp trụ để bảo vệ và ức chế",
+      "desc": "Khi bắt đầu lượt, nếu bản thân không trong trạng thái Hoảng loạn, nhận [Protection] 2, [DefenseUp] 10 và nhận Lá chắn bằng 10% máu hiện tại\n\nVới mỗi 1 lần sử dụng 「Thân xác bị ức chế」 trong trận chiến này, các hiệu quả [Protection] nhận được giảm 1, [DefenseUp] giảm 5, trị số Lá chắn giảm 5%"
+    },
+    {
+      "id": 131902,
+      "name": "Iron Maiden - Gai",
+      "desc": "Khi bản thân không trong trạng thái Hoảng loạn, kích hoạt hiệu quả khi nhận sát thương từ Xu cuối cùng của người tấn công\n- Gây sát thương Đâm cho người tấn công bằng 20% lượng sát thương nhận từ Xu đó, và gây Xuất huyết 2 (Sát thương tối đa 100 mỗi kỹ năng)\n- Sát thương từ hiệu quả này không làm mục tiêu bị Hoảng loạn"
+    },
+    {
+      "id": 131903,
+      "name": "Iron Maiden - Khử rung tim",
+      "desc": "Khi xuất hiện, hồi phục 30 Tinh thần\n\nKhi máu của bản thân xuống dưới 60%, giải trừ trạng thái Hoảng loạn và kết thúc lượt này (1 lần mỗi trận chiến)"
+    },
+    {
+      "id": 131904,
+      "name": "Thân xác đã được dùng làm nguyên liệu",
+      "desc": "Lượng máu, Tinh thần bị mất và lượng tịnh tiến ngưỡng Hoảng loạn do [Combustion] · [Vibration] · [Burst] · [Sinking] gây ra -30%\nSát thương nhận vào do [Laceration] -50%"
+    },
+    {
+      "id": 131905,
+      "name": "Tác phẩm quý giá, Fascia",
+      "desc": "Khi kết thúc lượt, nếu [HumanFleshTheRings] là 2, sau khi [HumanFleshTheRings] biến mất vào lượt tiếp theo, nhận [BoneBladeTheRings]\n\nKhi bắt đầu lượt, nếu có [BoneBladeTheRings], sử dụng đòn tấn công mạnh trong lượt này\n\nKhi nhận sát thương từ kỹ năng tấn công trước khi sử dụng đòn tấn công mạnh, nhận [UnsteadyTheRings] 1"
+    },
+    {
+      "id": 131801,
+      "name": "Tu hành để được ban tên của những vì sao",
+      "desc": "Khi kết thúc kỹ năng tấn công, gây cho mỗi mục tiêu (Số lượng Xu Chém trúng đích Chí mạng × 10) sát thương Chém (Sát thương này không gây Hoảng loạn)"
+    },
+    {
+      "id": 131802,
+      "name": "Tinh Thần Nhất Đáo",
+      "desc": "Trị số [Breath] bị giới hạn tối đa là 25\nTrị số [Breath] nhận được vượt quá 25 sẽ được chuyển đổi thành [DicipleLittleFinger]"
+    },
+    {
+      "id": 131803,
+      "name": "Chỉnh Kiếm",
+      "desc": "Khi bắt đầu màn chơi, nhận [DicipleLittleFinger] 50"
+    },
+    {
+      "id": 131804,
+      "name": "Tĩnh Niệm",
+      "desc": "Nếu bản thân có [DicipleLittleFinger], áp dụng các hiệu quả sau\n- Tinh thần không giảm xuống dưới 0. Nếu dưới 0 sẽ trở thành 0\n- Sát thương Tinh thần nhận vào chuyển thành sát thương hệ Trầm cảm (Ngoại trừ các điều kiện tăng giảm Tinh thần cơ bản)"
+    },
+    {
+      "id": 131805,
+      "name": "Ân nghĩa",
+      "desc": "Khi hòa kích với mục tiêu không phải Ryoshu, Sức mạnh hòa kích -2\nSát thương nhận vào từ mục tiêu không phải Ryoshu -20%"
+    },
+    {
+      "id": 130801,
+      "name": "Mê hoặc",
+      "desc": "Khi bắt đầu lượt, gây [FairyCharm] cho những Tội đồ có Tốc độ thấp tỷ lệ thuận với số lượng người tham gia chiến đấu\nMỗi khi bộ phận Yêu tinh tái sinh, số lượng người bị [FairyCharm] sẽ tăng lên"
+    },
+    {
+      "id": 130802,
+      "name": "Vực thẳm lộ diện",
+      "desc": "Khi bộ phận Yêu tinh bị phá hủy, phần Thân sẽ lộ ra\nKhi ẩn phần Thân lại, xóa bỏ tất cả các hiệu quả tăng lợi và giảm hại đang có"
+    },
+    {
+      "id": 130803,
+      "name": "Mồi nhử đi trước",
+      "desc": "Dù bộ phận Yêu tinh bị tấn công, máu của cơ thể chính cũng không bị tiêu hao\nTrọng lượng Tấn công của kỹ năng nhất định tăng lên tùy theo số lượng người bị [FairyCharm]"
+    },
+    {
+      "id": 130804,
+      "name": "Gốc rễ bị phá hủy",
+      "desc": "Khi phá hủy bộ phận Thân,\n- Khi Yêu tinh tái sinh, máu sẽ ở trạng thái 60%\n- Khi hồi phục máu cho cơ thể chính bằng kỹ năng, lượng hồi phục +20"
+    },
+    {
+      "id": 130805,
+      "name": "Mồi nhử tiến hóa",
+      "desc": "Mỗi khi bộ phận Yêu tinh tái sinh, Máu tối đa tăng 30%"
+    },
+    {
+      "id": 130806,
+      "name": "Phấn Yêu tinh",
+      "desc": "Khi Yêu tinh bị tiêu diệt, tất cả Bản sắc nhận [Breath] 5, [Breath] Số lượng 2 vào lượt tiếp theo"
+    },
+    {
+      "id": 130807,
+      "name": "Cường hóa Tính Tấn công - Giải phóng Một phần Lực Ức chế",
+      "desc": "Sau khi Yêu tinh lộ diện 2 lần, sử dụng Kĩ năng được cường hóa thêm"
+    },
+    {
+      "id": 130901,
+      "name": "Tẩu thoát Chiều không gian",
+      "desc": "Từ lượt thứ 2, triệu hồi 4 chiều không gian ngẫu nhiên mỗi một số lượt nhất định để ẩn thân.\n- Nếu tất cả bộ phận ở trạng thái Hoảng loạn, kích hoạt vào lượt kế tiếp.\n- Trong trạng thái ẩn thân vào chiều không gian, sẽ không rơi vào trạng thái Hoảng loạn"
+    },
+    {
+      "id": 130902,
+      "name": "Thoát khỏi Chiều không gian bị giam cầm",
+      "desc": "Khi tất cả chiều không gian bị phá hủy, lượt kế tiếp sẽ thoát ra khỏi chiều không gian\nSau đó, mất 5 số lần [Charge] và ngưỡng Hoảng loạn của tất cả bộ phận tiến lên 30"
+    },
+    {
+      "id": 130903,
+      "name": "Tu sửa Lưỡi đao Khúc xạ Chiều không gian",
+      "desc": "Khi bộ phận Lưỡi đao bị phá hủy, mất 5 số lần [Charge]\nKết thúc lượt kế tiếp, tiêu hao 2 số lần [Charge] để hồi phục bộ phận Lưỡi đao đã bị phá hủy.\n\nNếu bộ phận Lưỡi đao đang bị phá hủy, nhận 2 [AttackDown] khi bắt đầu mỗi lượt"
+    },
+    {
+      "id": 130904,
+      "name": "Thử nghiệm Giải phóng Chiều không gian Cưỡng chế - Giải phóng Một phần Lực Ức chế",
+      "desc": "Khi Máu của bản thể xuống dưới 60%, kết thúc lượt và thay đổi quy luật hành động\n- Vô hiệu hóa Nội tại 「Tẩu thoát Chiều không gian」\n- Vô hiệu hóa Nội tại 「Thoát khỏi Chiều không gian bị giam cầm」\n- Nếu cả hai cánh tay đều chưa bị phá hủy, sử dụng kĩ năng mạnh mẽ sau mỗi số lượt nhất định"
+    },
+    {
+      "id": 131001,
+      "name": "Chiều không gian Máu chảy",
+      "desc": "Nếu đi xuyên qua Chiều không gian Máu chảy, Sát thương +10%"
+    },
+    {
+      "id": 131101,
+      "name": "Chiều không gian Độc tố Sôi trào",
+      "desc": "Nếu đi xuyên qua Chiều không gian Độc tố Sôi trào, Máu tối đa cơ bản của bản thể +20%"
+    },
+    {
+      "id": 131201,
+      "name": "Chiều không gian Rung động Không ngừng",
+      "desc": "Nếu đi xuyên qua Chiều không gian Rung động Không ngừng, Tốc độ tăng 1"
+    },
+    {
+      "id": 131301,
+      "name": "Chiều không gian Phóng ra Dòng điện",
+      "desc": "Nếu đi xuyên qua Chiều không gian Phóng ra Dòng điện, Sức mạnh Coin +1"
+    }
+  ]
+}

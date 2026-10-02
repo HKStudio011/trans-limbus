@@ -1,0 +1,322 @@
+﻿{
+  "dataList": [
+    {
+      "id": "Bothersome",
+      "name": "Thiết Trảm",
+      "desc": "- Coi kháng Trảm kích của mục tiêu là Điểm yếu (1.5) (Không áp dụng nếu kháng Trảm kích của mục tiêu từ 1.5 trở lên)\n- Biến mất khi kết thúc lượt",
+      "summary": ""
+    },
+    {
+      "id": "VibrationIgnition",
+      "name": "Chấn động - Chước Nhiệt",
+      "desc": "- Khi Chấn động Bộc phát, nhận sát thương Phẫn nộ bằng (Tổng Số tầng Chấn động và Số tầng Bỏng ÷ 2) và giảm Số lượt Bỏng đi 1\n- Khi nhận sát thương từ kỹ năng Chấn động Bộc phát, thanh nản lòng tiến lên một khoảng bằng Số tầng hiệu ứng\n- Giảm Số lượt đi 1 khi kết thúc lượt\n(Nhận ảnh hưởng tương tự bởi các hiệu ứng tăng giảm Số tầng và Số lượt Chấn động)",
+      "summary": ""
+    },
+    {
+      "id": "BulletPropellant",
+      "name": "Hổ Tiêu Đạn",
+      "desc": "- Đạn đặc biệt\n- Tiêu hao khi sử dụng kỹ năng nhất định\n- Giá trị tối đa: 6",
+      "summary": ""
+    },
+    {
+      "id": "BulletPropellantSpecial",
+      "name": "Mãnh Hổ Tiêu Đạn",
+      "desc": "- Đạn đặc biệt\n- Tiêu hao khi sử dụng kỹ năng nhất định (Áp dụng hiệu ứng của Hổ Tiêu Đạn)\n- Số đạn đã nạp và số đạn còn lại được hiển thị là Số tầng và Số lượt của hiệu ứng này\n· Số tầng tối đa (Đạn đã nạp): 6\n- Lượng sát thương của đồng xu tiêu hao đạn này tăng 30%, và giá trị gây Số tầng Bỏng, Số lượt Bỏng tăng gấp đôi\n- Nếu đã tiêu hao hết số đạn đã nạp và số đạn còn lại, chuyển thành Hổ Tiêu Đạn",
+      "summary": ""
+    },
+    {
+      "id": "Prey",
+      "name": "Con mồi",
+      "desc": "- Khi đối đầu với kẻ địch, Sức mạnh đối đầu - 5\n- Khi bắt đầu cuộc chiến,\n· Nếu trang bị kỹ năng tấn công, lượng sát thương gây ra cho Lôi Hồng bằng kỹ năng tấn công giảm 50%\n· Nếu trang bị kỹ năng phòng ngự, lượng sát thương nhận vào từ Lôi Hồng giảm 75%\n- Khi đối đầu và chiến thắng Lôi Hồng khi đang có hiệu ứng này, nhận 3 tài nguyên E.G.O có số lượng ít nhất\n- Biến mất khi kết thúc lượt, và hồi 10 Tinh thần cho bản thân",
+      "summary": ""
+    },
+    {
+      "id": "Complacency",
+      "name": "Quá nhiệt",
+      "desc": "- Giá trị tối đa: 5\n- Khi bắt đầu lượt, nhận giảm Sức mạnh đối đầu và Mong manh theo giá trị\n- Giảm khi kết thúc lượt",
+      "summary": ""
+    },
+    {
+      "id": "BattleSense",
+      "name": "Nội Lực",
+      "desc": "- Giá trị tối đa: 25\n- Tiêu hao khi sử dụng kỹ năng nhất định, và hồi Tinh thần tương ứng với giá trị đã tiêu hao khi kết thúc lượt đó\n- Tăng 1 mỗi khi tiến hành đối đầu (Tối đa 5 mỗi kỹ năng). Khi thua đối đầu, mất các cộng dồn đã nhận được từ đối đầu trong lượt đó\n- Khi trúng bằng Tấn công một phía, tăng 2 (Tối đa 10 mỗi kỹ năng)\n- Tỉ lệ thuận với tổng giá trị tiêu hao, nhận Tăng Tốc ở lượt sau khi kết thúc lượt (Mỗi 25 giá trị nhận 1 Tăng Tốc, tối đa 2)\n- Thay đổi buff khi vào một số mô thức nhất định",
+      "summary": ""
+    },
+    {
+      "id": "RestoredBattleSense",
+      "name": "Cực Lực",
+      "desc": "- Giá trị tối đa: 50\n- Được coi là Nội Lực. Tiêu hao khi sử dụng kỹ năng nhất định, và hồi Tinh thần tương ứng với giá trị đã tiêu hao khi kết thúc lượt đó\n- Tăng 2 mỗi khi tiến hành đối đầu (Tối đa 10 mỗi kỹ năng). Khi thua đối đầu, mất các cộng dồn đã nhận được từ đối đầu trong lượt đó\n- Khi trúng bằng Tấn công một phía, tăng 3 (Tối đa 15 mỗi kỹ năng)\n- Tỉ lệ thuận với tổng giá trị tiêu hao, nhận Tăng Tốc ở lượt sau khi kết thúc lượt (Mỗi 25 giá trị nhận 1 Tăng Tốc, tối đa 5)",
+      "summary": ""
+    },
+    {
+      "id": "Irritation",
+      "name": "Thiên Thoái Tinh",
+      "desc": "- Khi bắt đầu lượt, với mỗi 20% máu đã mất, nhận 1 Tăng sát thương và 1 Tăng sức mạnh (Tối đa 3 mỗi loại)\n- Số tầng Chấn động gây ra cho kẻ địch bằng kỹ năng +2\n- Nếu Tốc độ bản thân cao hơn Tốc độ mục tiêu từ 3 trở lên, Lượng sát thương + (Chênh lệch tốc độ với mục tiêu × 5)% (Tối đa 20%)\n- Đồng xu cuối của 「Tam Liên Kích - Bộc」 trở thành đồng xu không thể bị phá hủy\n- Ở một số mô thức nhất định, buff này chuyển thành 「Tâm - Thiên Thoái Tinh」",
+      "summary": ""
+    },
+    {
+      "id": "HugeIrritation",
+      "name": "Tâm - Thiên Thoái Tinh",
+      "desc": "- Khi bắt đầu lượt, với mỗi 15% máu đã mất, nhận 1 Tăng sát thương và 1 Tăng sức mạnh (Tối đa 5 mỗi loại)\n- Số tầng Chấn động gây ra cho kẻ địch bằng kỹ năng +3, Số lượt Chấn động tăng thêm +1\n- Nếu Tốc độ bản thân cao hơn Tốc độ mục tiêu từ 3 trở lên, Lượng sát thương + (Chênh lệch tốc độ với mục tiêu × 5)% (Tối đa 20%)\n- Đồng xu cuối của 「Nhị Liên Kích - Bộc」 và 「Tam Liên Kích - Bộc」 trở thành đồng xu không thể bị phá hủy",
+      "summary": ""
+    },
+    {
+      "id": "ReloadKeepAmmo",
+      "name": "Nạp đạn - Duy trì đạn thừa",
+      "desc": "- Nhận lại số lượng đạn tối đa có thể nhận (Tuy nhiên, không vứt bỏ số đạn đang sở hữu)",
+      "summary": ""
+    },
+    {
+      "id": "BeastEyes_LowMorale",
+      "name": "Bản năng mãnh thú - Nhụt chí",
+      "desc": "- Lượng sát thương gây ra cho mục tiêu có tỉ lệ máu còn lại cao hơn bản thân tăng (Chênh lệch tỉ lệ máu ÷ 2)% (Tối đa 10%)\n- Khi bắt đầu lượt, nhận 1 Tăng sức mạnh cuối, 1 Tăng sát thương, 1 Mong manh",
+      "summary": ""
+    },
+    {
+      "id": "BeastEyes_Panic",
+      "name": "Bản năng mãnh thú - Hoảng loạn",
+      "desc": "- Lượng sát thương gây ra cho mục tiêu có tỉ lệ máu còn lại cao hơn bản thân tăng (Chênh lệch tỉ lệ máu)% (Tối đa 25%)\n- Khi bắt đầu lượt, nhận 1 Tăng sức mạnh đồng xu, 2 Tăng sát thương, 2 Mong manh\n- Khi bắt đầu lượt tiếp theo, hồi Tinh thần bằng với giá trị tỉ lệ máu đã mất của bản thân (Tối đa 25)",
+      "summary": ""
+    },
+    {
+      "id": "DisengageCombat",
+      "name": "Rời khỏi trận chiến",
+      "desc": "- Kết thúc lượt, giải trừ trạng thái Hoảng loạn và rời khỏi trận chiến (Ngoại trừ Hoảng loạn cưỡng chế, không được tính là tử trận)",
+      "summary": ""
+    },
+    {
+      "id": "Chesed_Mercy",
+      "name": "Chesed Nhân Từ",
+      "desc": "- Cấp Tấn công và Cấp Phòng thủ của tất cả nhân vật được bình quân hóa\n- Bản sắc đồng minh nhận thêm 3 Cấp Tấn công, 6 Cấp Phòng thủ sau khi áp dụng hiệu ứng Chesed\n- [Hiệu ứng Giải phóng lần đầu] Chesed Nhân Từ duy trì trong suốt trận chiến này",
+      "summary": ""
+    },
+    {
+      "id": "Ryoshu_Attackup",
+      "name": "Hồi ức bị chém tơi tả",
+      "desc": "[Hiệu ứng đặc biệt Ryoshu]\n- Trong trận chiến này, lượng Sát thương gây ra cho Lôi Hồng +(Số lượt hiện tại × 2.5)% (Tối đa 30%)",
+      "summary": ""
+    },
+    {
+      "id": "Honglu_EGOResourceup",
+      "name": "Tâm trí và suy nghĩ của mình...",
+      "desc": "[Hiệu ứng đặc biệt Hong Lu]\n- Trong trận chiến này, khi kết thúc kỹ năng tấn công của bản thân, nhận thêm 2 tài nguyên E.G.O của hệ tương ứng (1 lần mỗi lượt)",
+      "summary": ""
+    },
+    {
+      "id": "BudgetBulletPropellant",
+      "name": "Đạn phản lực",
+      "desc": "- Đạn đặc biệt\n- Tiêu hao khi sử dụng kỹ năng nhất định\n- Giá trị tối đa: 4",
+      "summary": ""
+    },
+    {
+      "id": "NEgoFleshSpatula_LowMorale",
+      "name": "Xẻng thịt vụn",
+      "desc": "- Nhụt chí\n- Khi bắt đầu lượt, nhận 5 Xuất huyết, nhận 1 Tăng sức mạnh tấn công",
+      "summary": ""
+    },
+    {
+      "id": "NEgoFleshSpatula_Panic",
+      "name": "Xẻng thịt vụn",
+      "desc": "- Hoảng loạn\n- Khi bắt đầu lượt, nhận 10 Xuất huyết, nhận 2 Tăng sức mạnh tấn công",
+      "summary": ""
+    },
+    {
+      "id": "LeRegole_LowMorale",
+      "name": "Kỷ luật",
+      "desc": "- Suy sụp tinh thần\n- Nếu lượt trước đã Gây 2 [Tremor] trở lên, nhận 1 Tăng Sát thương Hệ Lười biếng\n- Nếu lượt trước đã Gây 2 [Burn] trở lên, nhận 1 Tăng Sát thương Hệ Phẫn nộ\n- Nếu không Gây được gì, nhận 2 Giảm Cấp phòng ngự",
+      "summary": ""
+    },
+    {
+      "id": "LeRegole_Panic",
+      "name": "Kỷ luật",
+      "desc": "- Hoảng loạn\n- Nếu lượt trước đã Gây 2 [Tremor] trở lên, nhận 2 Tăng Sát thương Hệ Lười biếng\n- Nếu lượt trước đã Gây 2 [Burn] trở lên, nhận 2 Tăng Sát thương Hệ Phẫn nộ\n- Nếu không Gây được gì, nhận 3 Giảm Cấp phòng ngự",
+      "summary": ""
+    },
+    {
+      "id": "GazeReplica",
+      "name": "Ánh nhìn",
+      "desc": "- Giá trị tối đa: 7\n- Với mỗi 1 giá trị, lượng sát thương Gây ra và Nhận vào từ Jia Fan đều +10%\n- Khi giá trị đạt 7, chuyển thành [Khinh miệt]",
+      "summary": ""
+    },
+    {
+      "id": "ContemptReplica",
+      "name": "Khinh miệt",
+      "desc": "- Giá trị tối đa: 1\n- Lượng sát thương Gây ra và Nhận vào từ Jia Fan -50%\n- Đối tượng có [Khinh miệt] không thể nhận [Ánh nhìn]\n- Biến mất khi kết thúc lượt",
+      "summary": ""
+    },
+    {
+      "id": "GraspReplica",
+      "name": "Lòng bàn tay",
+      "desc": "- Giá trị tối đa: 4\n- Khi kết thúc lượt, nhận 10 [Bind] vào lượt kế tiếp\n- Khi kết thúc lượt, giá trị giảm đi 1",
+      "summary": ""
+    },
+    {
+      "id": "EgoErodeReplica",
+      "name": "E.G.O Xâm thực - Tập đoàn N",
+      "desc": "- Giá trị tối đa: 10\n- Mỗi khi bắt đầu lượt, áp dụng các hiệu ứng sau:\n· Tinh thần giảm theo giá trị\n· Mỗi 3 giá trị, nhận 1 Tăng Uy lực Tấn công\n- Nếu giá trị đạt tối đa, khi kết thúc lượt chịu sát thương bằng 5% Máu tối đa",
+      "summary": ""
+    },
+    {
+      "id": "BoseProjektilReplica",
+      "name": "Hồi ức bị xé toạc",
+      "desc": "Giá trị tối đa: 7",
+      "summary": ""
+    },
+    {
+      "id": "EgoErodeContempt_LowMorale",
+      "name": "Trái tim đúc từ vàng giòn",
+      "desc": "- Suy sụp tinh thần\n- Khi bắt đầu lượt, nhận 1 Tăng Uy lực Tấn công, 1 [Fragile]",
+      "summary": ""
+    },
+    {
+      "id": "EgoErodeContempt_Panic",
+      "name": "Trái tim đúc từ vàng giòn",
+      "desc": "- Hoảng loạn\n- Khi bắt đầu lượt, nhận 2 Tăng Uy lực Tấn công, 2 [Fragile]",
+      "summary": ""
+    },
+    {
+      "id": "EgoErodeMemory_LowMorale",
+      "name": "Trái tim hướng về kỷ nguyên mới",
+      "desc": "- Suy sụp tinh thần\n- Khi tấn công trúng đích, tiêu hao 3 Tinh thần của bản thân, Gây 2 [Sinking]",
+      "summary": ""
+    },
+    {
+      "id": "EgoErodeMemory_Panic",
+      "name": "Trái tim hướng về kỷ nguyên mới",
+      "desc": "- Hoảng loạn\n- Khi tấn công trúng đích, Gây 3 [Sinking], Nhận 1 [Sinking]",
+      "summary": ""
+    },
+    {
+      "id": "PileObedient",
+      "name": "Sự phục tùng tích tụ",
+      "desc": "- Khi kết thúc lượt nếu giá trị là 3, hiệu ứng này sẽ chuyển thành [Sự phục tùng hư vô] vào lượt kế tiếp.",
+      "summary": ""
+    },
+    {
+      "id": "Obedient",
+      "name": "Sự phục tùng hư vô",
+      "desc": "- Khi tiến hành Đối đầu với Jia Mu, Uy lực Đối đầu -2\n- Được giải trừ khi Tinh thần của nhân vật này đạt 45 hoặc giá trị đạt 0\n- Giảm 1 khi kết thúc lượt",
+      "summary": ""
+    },
+    {
+      "id": "ExpensiveJade",
+      "name": "Cái nôi Bảo ngọc",
+      "desc": "- Rơi vào trạng thái bất động, các chỉ số Tăng lợi, Máu, Tinh thần không được cập nhật, đồng thời tạo ra một Bảo ngọc kết nối với nhân vật này",
+      "summary": ""
+    },
+    {
+      "id": "FamilyTreasure",
+      "name": "Trò chơi bùng nổ",
+      "desc": "- Khi kết thúc lượt\n· Giá trị cơ bản: 1\n· Hồi phục Máu cho nhân vật kết nối với đơn vị này bằng 25% Máu tối đa, Tinh thần giảm 20\n· Giá trị tăng 1\n· Nếu giá trị là 3, sử dụng kỹ năng Tự sát. Nếu nhân vật này chết do tự sát, Gây 3 [Sự phục tùng hư vô] cho nhân vật bị nhốt vào lượt kế tiếp",
+      "summary": ""
+    },
+    {
+      "id": "OutpouringAnger",
+      "name": "Vùng vẫy",
+      "desc": "- Nếu mục tiêu chính của kỹ năng \"Bọn ngươi vẫn chưa hiểu gì về sức mạnh và sự đặc biệt của đôi mắt đó đâu\" là Hong Lu, toàn bộ đồng xu của kỹ năng đó sẽ trở thành đồng xu không thể bị phá hủy, phớt lờ hiệu ứng kỹ năng",
+      "summary": ""
+    },
+    {
+      "id": "Honglu_Xi",
+      "name": "Hỉ",
+      "desc": "- Uy lực Đối đầu của Hong Lu +1\n- Nếu có ít nhất 1 đồng minh khác còn sống trong trận chiến này, khi Hong Lu nhận sát thương khiến Máu về 1, anh ta sẽ không chết mà hồi phục Máu bằng 50% Máu tối đa\n- Không bị rơi vào trạng thái Bảo ngọc duy nhất 1 lần trong giai đoạn này. Khi tiến hành Đối đầu với kỹ năng gây trạng thái Bảo ngọc, Uy lực Đối đầu +5, nếu thắng Đối đầu với kỹ năng đó, không rơi vào trạng thái Bảo ngọc và giải trừ trạng thái Choáng của bản thân, Tinh thần của Jia Mu giảm 10, Gây 2 [Fragile] cho Jia Mu\nKhi thắng Đối đầu với Jia Mu, nhận ngẫu nhiên mỗi loại 1 tài nguyên E.G.O trong số các tài nguyên có số lượng ít nhất, tổng cộng nhận 3",
+      "summary": ""
+    },
+    {
+      "id": "Honglu_Le",
+      "name": "Hỉ, Lạc",
+      "desc": "- Uy lực Cuối cùng của Hong Lu +1\n- Khi thắng Đối đầu, hồi 5 Tinh thần cho đồng minh có Tinh thần thấp nhất (bao gồm bản thân)\n- Nếu có ít nhất 1 đồng minh khác còn sống trong trận chiến này, khi Hong Lu nhận sát thương khiến Máu về 1, anh ta sẽ không chết mà hồi phục Máu bằng 50% Máu tối đa\nKhi thắng Đối đầu với Jia Mu, nhận ngẫu nhiên mỗi loại 1 tài nguyên E.G.O trong số các tài nguyên có số lượng ít nhất, tổng cộng nhận 3",
+      "summary": ""
+    },
+    {
+      "id": "Honglu_Ai",
+      "name": "Hỉ, Lạc, Ai",
+      "desc": "- Uy lực Cuối cùng của Hong Lu +3\n- Khi thắng Đối đầu, hồi 5 Tinh thần cho đồng minh có Tinh thần thấp nhất (bao gồm bản thân)\n- Nếu đồng minh tử trận, các đồng minh còn lại nhận 1 Tăng Uy lực Tấn công vào lượt kế tiếp khi kết thúc lượt (1 lần mỗi lượt)\n- Nếu có ít nhất 1 đồng minh khác còn sống trong trận chiến này, khi Hong Lu nhận sát thương khiến Máu về 1, anh ta sẽ không chết mà hồi phục Máu bằng 50% Máu tối đa\nKhi thắng Đối đầu với Jia Mu, nhận ngẫu nhiên mỗi loại 1 tài nguyên E.G.O trong số các tài nguyên có số lượng ít nhất, tổng cộng nhận 3",
+      "summary": ""
+    },
+    {
+      "id": "Honglu_Nu",
+      "name": "Hỉ, Lạc, Ai, Nộ",
+      "desc": "- Uy lực Cuối cùng của Hong Lu +5\n- Mỗi khi bắt đầu lượt, hồi 5 Tinh thần cho toàn bộ đồng minh (bao gồm bản thân)\n- Nếu đồng minh tử trận, các đồng minh còn lại nhận 1 Tăng Uy lực Tấn công vào lượt kế tiếp khi kết thúc lượt (1 lần mỗi lượt)\n- Nếu có ít nhất 1 đồng minh khác còn sống trong trận chiến này, khi Hong Lu nhận sát thương khiến Máu về 1, anh ta sẽ không chết mà hồi phục Máu bằng 50% Máu tối đa\n- Tăng lượng sát thương bằng 30% tỷ lệ Máu đã mất tích lũy trong trận chiến này (Tối đa 100%)\nKhi thắng Đối đầu với Jia Mu, nhận ngẫu nhiên mỗi loại 1 tài nguyên E.G.O trong số các tài nguyên có số lượng ít nhất, tổng cộng nhận 3",
+      "summary": ""
+    },
+    {
+      "id": "SupremeEternalLife",
+      "name": "Bất tử Tối cao",
+      "desc": "- Khi bắt đầu lượt, cấp Lá chắn tương đương 5% Máu tối đa cho bản thể và tất cả bộ phận của Gia Mục",
+      "summary": ""
+    },
+    {
+      "id": "ImperfectEternalLife",
+      "name": "Bất tử không hoàn thiện",
+      "desc": "- Bị hấp thụ khi nhận sát thương từ các kỹ năng nhất định của Gia Mục\n- Trường hợp hiệu ứng này được cấp cho Gia Mục, mỗi 1 trị số nhận 1 Mong manh, nếu trị số là 5 sẽ rơi vào trạng thái Choáng",
+      "summary": ""
+    },
+    {
+      "id": "GoldenBoughSync",
+      "name": "Bất cảm ứng",
+      "desc": "- Cấp độ Tấn công cơ bản +2, Cấp độ Phòng thủ cơ bản +2",
+      "summary": ""
+    },
+    {
+      "id": "GoldenBoughSyncDistorted",
+      "name": "Quái lực loạn thần",
+      "desc": "- Cấp độ Tấn công cơ bản +4, Cấp độ Phòng thủ cơ bản +4",
+      "summary": ""
+    },
+    {
+      "id": "LastingHongwonWill_LowMorale",
+      "name": "Ý chí Hồng Viên được kế thừa",
+      "desc": "- Giảm nhuệ khí\n- Nhận 2 Tăng Uy lực Tấn công, 1 Trói buộc\n- Khi bộ phận Thân mình thua Kháng lệnh với Hồng Lộ, lượt kế tiếp bộ phận Thân mình nhận 1 Tăng Sát thương, 1 Mong manh (1 lần mỗi lượt)",
+      "summary": ""
+    },
+    {
+      "id": "LastingHongwonWill_Panic",
+      "name": "Ý chí Hồng Viên được kế thừa",
+      "desc": "- Hoảng loạn\n- Nhận 2 Tăng Uy lực Tấn công, 2 Trói buộc\n- Khi bộ phận Thân mình thua Kháng lệnh với Hồng Lộ, lượt kế tiếp bộ phận Thân mình nhận 2 Tăng Sát thương, 2 Mong manh (1 lần mỗi lượt)",
+      "summary": ""
+    },
+    {
+      "id": "LongLastingHongwonWill_LowMorale",
+      "name": "Ý chí Hồng Viên kế thừa vĩnh cửu",
+      "desc": "- Giảm nhuệ khí\n- Nhận 2 Tăng Uy lực Tấn công, 1 Mong manh\n- Đơn vị do bản thân tạo ra nhận 3 Giảm Cấp độ Phòng thủ\n- Sát thương gây ra tăng 20%. Nếu bộ phận Kiệu có Máu bằng 0, Sát thương gây ra giảm 10% thay thế",
+      "summary": ""
+    },
+    {
+      "id": "LongLastingHongwonWill_Panic",
+      "name": "Ý chí Hồng Viên kế thừa vĩnh cửu",
+      "desc": "- Hoảng loạn\n- Nhận 2 Tăng Uy lực Tấn công, 2 Mong manh\n- Đơn vị do bản thân tạo ra nhận 6 Giảm Cấp độ Phòng thủ\n- Sát thương gây ra tăng 30%. Nếu bộ phận Kiệu có Máu bằng 0, Sát thương gây ra giảm 15% thay thế",
+      "summary": ""
+    },
+    {
+      "id": "YisangParryGubo",
+      "name": "Trách nhiệm",
+      "desc": "Khi tiến hành Kháng lệnh với Kubo, Uy lực Kháng lệnh +2",
+      "summary": ""
+    },
+    {
+      "id": "HongluParryGahwan",
+      "name": "Ý chí đối diện",
+      "desc": "Khi tiến hành Kháng lệnh với Gia Hoán, Uy lực Kháng lệnh +2",
+      "summary": ""
+    },
+    {
+      "id": "GahwanEgoContempt",
+      "name": "Cảm ứng E.G.O bất ổn - Khinh miệt",
+      "desc": "- Trang bị E.G.O được chiết xuất tại Công ty N. Tuy tương thích nhưng chưa có nhiều kinh nghiệm, vẫn chưa quen thuộc.\n- Trị số tối đa: 5\n- Cấp độ Tấn công, Cấp độ Phòng thủ -7\n- Khi thắng Kháng lệnh, trị số tăng 1\n- Mỗi 1 trị số khiến Cấp độ Tấn công giảm 1, Cấp độ Phòng thủ tăng 1\n- Nếu trị số đạt tối đa, lượt kế tiếp nhận 2 Bảo hộ và trị số được khởi tạo về 0",
+      "summary": ""
+    },
+    {
+      "id": "GuboEgoShooter",
+      "name": "Cảm ứng E.G.O bất ổn - Hung đạn",
+      "desc": "- Trang bị E.G.O được chiết xuất tại Công ty N. Tuy tương thích nhưng chưa có nhiều kinh nghiệm, vẫn chưa quen thuộc.\n- Trị số tối đa: 5\n- Cấp độ Tấn công, Cấp độ Phòng thủ -2\n- Khi thua Kháng lệnh, trị số tăng 1\n- Mỗi 1 trị số khiến Cấp độ Tấn công tăng 1, Cấp độ Phòng thủ tăng 1\n- Nếu trị số đạt tối đa, lượt kế tiếp nhận 2 Tăng Sát thương và trị số được khởi tạo về 0",
+      "summary": ""
+    },
+    {
+      "id": "FellBulletMarkReplica",
+      "name": "Đánh dấu",
+      "desc": "- Trở thành mục tiêu của Kubo\n- Xóa bỏ khi kết thúc lượt",
+      "summary": ""
+    }
+  ]
+}

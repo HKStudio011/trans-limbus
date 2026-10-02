@@ -1,0 +1,183 @@
+{
+  "dataList": [
+    {
+      "id": 40000301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Bằng tình yêu!",
+          "desc": "[WhenUse] Mỗi 5 tổng số [Burst] và [Sinking] trên mục tiêu, Sức mạnh Cơ bản +1 (Tối đa 2)\n[WhenUse] Số lượt [PowerOfLoveAndJustice] của bản thân tăng thêm 10",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40000302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Nhân danh công lý!",
+          "desc": "[WhenUse] Mỗi 7 tổng số [Burst] và [Sinking] trên mục tiêu, Sức mạnh Đồng xu +1 (Tối đa 2)\n[WhenUse] Số lượt [PowerOfLoveAndJustice] của bản thân tăng thêm 10",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lượt [Burst] tăng thêm 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Nếu tổng số [Burst] và [Sinking] trên mục tiêu từ 10 trở lên, gây 1 [Binding] vào lượt tiếp theo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40000303,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Nhịp điệu Arcana",
+          "desc": "Chỉ định Kị sĩ Tuyệt vọng làm mục tiêu chính\nChỉ định đồng minh có nhiều [ColdBlackTear] nhất làm mục tiêu phụ\n- Nếu không có, chỉ định đồng minh có HP thấp nhất làm mục tiêu phụ\nSát thương gây ra cho đồng minh bằng 0, và hiệu ứng [Sinking] cùng [ColdBlackTear] không kích hoạt\n\n[WinDuel] Loại bỏ 1 [ColdBlackTear] của đồng minh là mục tiêu phụ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Nếu mục tiêu là kẻ địch, gây 1 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Nếu mục tiêu là đồng minh, hồi 5 HP"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Nếu mục tiêu là kẻ địch, gây 1 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Nếu mục tiêu là đồng minh, hồi 5 HP"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Nếu mục tiêu là kẻ địch, gây 1 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Nếu mục tiêu là đồng minh, hồi 5 HP"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40000304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Chỉ còn cách dùng chiêu đó thôi!",
+          "desc": "[StartBattle] Nhận 1 [ChasingArcana]\n[StartBattle] Nhận 50 Khiên\n[StartBattle] Nhận 20 [Aggro] vào lượt tiếp theo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40000305,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Niệm - Arcana Slave",
+          "desc": "[StartBattle] Nhận 50 Khiên\n[StartBattle] Nhận 20 [Aggro] vào lượt tiếp theo\n[EndBattle] Nếu Khiên bằng 0, rút lui",
+          "coinlist": [
+            {
+              "coindescs": [
+                {}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40000306,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Arcana Slave",
+          "desc": "[CantDuel]\nKhông gây sát thương lên Thanh kiếm của Kị sĩ bị lãng quên\nKết thúc lượt khi đánh trúng kẻ địch có [WornOutKnight]\n[EndBattle] Nhận [UsedTooMuchPower]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Khiến HP mục tiêu trở thành (100 - (Trị số của [CollapsedPride] × 33))% HP hiện tại"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40000307,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Arcana Slave",
+          "desc": "[CantDuel]\nChỉ gây sát thương bằng hiệu ứng Đồng xu\nKhông gây sát thương lên Kiếm phá tâm, Kiếm xé tâm, Kiếm đâm tâm\nKết thúc lượt khi đánh trúng kẻ địch có [WornOutKnight] và có từ 600 HP trở xuống\n[EndBattle] Nhận [UsedTooMuchPower]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây (Trị số của [CollapsedPride] × 200) sát thương cố định"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40000308,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Chỉ còn cách dùng chiêu đó thôi!",
+          "desc": "[StartBattle] Nhận 1 [ChasingArcanahard]\n[StartBattle] Nhận 50 Khiên\n[StartBattle] Nhận 20 [Aggro] vào lượt tiếp theo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {}
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

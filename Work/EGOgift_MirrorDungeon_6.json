@@ -1,0 +1,170 @@
+{
+  "dataList": [
+    {
+      "id": 9799,
+      "name": "Một Triết Lý Nào Đó",
+      "desc": "Tỉ lệ tổng hợp Quà tặng luôn được áp dụng là 100%.",
+      "simpleDesc": [
+        {
+          "abilityID": 9799,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9800,
+      "name": "Sự Giàu Sang",
+      "desc": "Chi phí mua và cường hóa tất cả Quà tặng được cố định là 1.\n\nVới mỗi 500 chi phí sở hữu, tất cả đồng minh nhận 1 [AttackUp] (Tối đa 20).",
+      "simpleDesc": [
+        {
+          "abilityID": 9800,
+          "simpleDesc": ""
+        },
+        {
+          "abilityID": 980001,
+          "simpleDesc": "Nhận Tăng Cấp Tấn Công"
+        }
+      ]
+    },
+    {
+      "id": 9801,
+      "name": "Cường Nhẫn Hoàn",
+      "desc": "Khi bắt đầu lượt, 1 đồng minh có Máu tối đa cao nhất nhận [DefenseUp] bằng với (Số lần nhận sát thương từ kỹ năng của kẻ địch trong trận chiến này) (Tối đa 6).",
+      "simpleDesc": [
+        {
+          "abilityID": 9801,
+          "simpleDesc": "Nhận Tăng Cấp Phòng Thủ"
+        }
+      ]
+    },
+    {
+      "id": 9802,
+      "name": "Rìu Điện",
+      "desc": "Khi kỹ năng tiêu tốn số lượt [Charge] trúng đích, gây 1 [Burst] (Kích hoạt 3 lần mỗi kỹ năng, bao gồm cả Sạc đặc biệt)\n\nHiệu ứng Quà tặng được tăng cường dựa trên số lượng [Bản sắc] trong đội hình sở hữu kỹ năng tấn công có khả năng gây hoặc nhận [Burst], [Charge] (Ngoại trừ kỹ năng E.G.O, bao gồm cả nhân viên trong đội hình)\n\n- Từ 6 người trở lên\nNếu gây sát thương [Burst] lên kẻ địch, số lượt [Charge] tăng thêm 1 (3 lần mỗi kỹ năng)\n\n- Từ 8 người trở lên\nKhi kỹ năng tiêu tốn số lượt [Charge] trúng đích, số lượt [Burst] tăng thêm 1 (3 lần mỗi kỹ năng, bao gồm cả Sạc đặc biệt).",
+      "simpleDesc": [
+        {
+          "abilityID": 9802,
+          "simpleDesc": "Gây 1 [Vết rách]"
+        },
+        {
+          "abilityID": 980201,
+          "simpleDesc": ""
+        },
+        {
+          "abilityID": 980202,
+          "simpleDesc": "Số lượt [Sạc] tăng thêm 1"
+        },
+        {
+          "abilityID": 980203,
+          "simpleDesc": "Số lượt [Vết rách] tăng thêm 1"
+        }
+      ]
+    },
+    {
+      "id": 9803,
+      "name": "Hoa Trong Gương",
+      "desc": "Khi bắt đầu mỗi lượt, gây 3 số lượng [Burst] và tăng 1 số lượt [Burst] cho tất cả kẻ địch (Áp dụng cho tất cả bộ phận trong Trận chiến tập trung)\n\nHiệu ứng Quà tặng được tăng cường dựa trên số lượng [Bản sắc] trong đội hình sở hữu kỹ năng tấn công có khả năng gây hoặc nhận [Burst], [Poise] (Ngoại trừ kỹ năng E.G.O, bao gồm cả nhân viên trong đội hình)\n\n- Từ 6 người trở lên\nNếu sát thương [Burst] phát sinh khi kỹ năng trúng đích, nhận 1 số lượt [Poise] (3 lần mỗi kỹ năng)\n\n- Từ 10 người trở lên\nNếu đòn chí mạng phát sinh khi kỹ năng trúng đích, số lượt [Burst] tăng thêm 1 (3 lần mỗi kỹ năng).",
+      "simpleDesc": [
+        {
+          "abilityID": 9803,
+          "simpleDesc": "Gây 3 số lượng [Vết rách], tăng 1 số lượt [Vết rách]"
+        },
+        {
+          "abilityID": 980301,
+          "simpleDesc": ""
+        },
+        {
+          "abilityID": 980302,
+          "simpleDesc": "Nhận 1 số lượt [Hô hấp]"
+        },
+        {
+          "abilityID": 980303,
+          "simpleDesc": "Số lượt [Vết rách] tăng thêm 1"
+        }
+      ]
+    },
+    {
+      "id": 9804,
+      "name": "Trăng Trong Nước",
+      "desc": "Khi kỹ năng tấn công trúng kẻ địch đang có từ 5 số lượng [Burst] trở lên, nhận 1 số lượng [Poise] và số lượt [Poise] của bản thân tăng thêm 1 (Tối đa 3 lần mỗi kỹ năng)\n\nHiệu ứng Quà tặng được tăng cường dựa trên số lượng [Bản sắc] trong đội hình sở hữu kỹ năng tấn công có khả năng gây hoặc nhận [Burst], [Poise] (Ngoại trừ kỹ năng E.G.O, bao gồm cả nhân viên trong đội hình)\n\nKhi kỹ năng trúng đích, nếu mục tiêu có từ 20 [Burst] trở lên, Sát thương chí mạng +10% (Với mỗi nhân viên trong đội hình, Sát thương chí mạng tăng thêm 3%)\n\n- Từ 12 người trở lên\nNếu đòn chí mạng phát sinh khi kỹ năng trúng đích, xóa ngẫu nhiên 1 hiệu ứng bất lợi có thể giải trừ đang áp dụng lên bản thân (1 lần mỗi lượt cho mỗi [Bản sắc]).",
+      "simpleDesc": [
+        {
+          "abilityID": 9804,
+          "simpleDesc": "Nhận số lượng và số lượt [Hô hấp]"
+        },
+        {
+          "abilityID": 980401,
+          "simpleDesc": ""
+        },
+        {
+          "abilityID": 980402,
+          "simpleDesc": "Tăng sát thương chí mạng"
+        },
+        {
+          "abilityID": 980403,
+          "simpleDesc": "Xóa ngẫu nhiên hiệu ứng bất lợi"
+        }
+      ]
+    },
+    {
+      "id": 9795,
+      "name": "Một Giọt Rơi Xuống",
+      "desc": "Khi bắt đầu lượt, nếu có từ 3 [Bản sắc] trở lên sở hữu kỹ năng tiêu tốn [BloodDinner], hiệu ứng sẽ kích hoạt trong suốt trận chiến này (Ngoại trừ kỹ năng E.G.O, không bao gồm nhân viên dự bị)\n\nKhi bắt đầu trận chiến, nếu mục tiêu bị tấn công bởi [Bản sắc] tiêu tốn [BloodDinner] có từ 30 số lượng [Laceration] trở lên, giảm số lượng [Laceration] của mục tiêu xuống còn 15, và tạo ra lượng [BloodDinner] tương ứng với số lượng [Laceration] đã giảm. (Kích hoạt 1 lần mỗi lượt trên toàn bộ kẻ địch, đối với kỹ năng diện rộng chỉ áp dụng cho mục tiêu chính)\n\nVới mỗi 10 [BloodDinner] được tạo ra từ hiệu ứng này, tăng 1 Uy lực và 1 Tăng Sát thương cho các [Bản sắc] sở hữu kỹ năng tiêu tốn [BloodDinner] ở lượt tiếp theo (Tối đa 4).",
+      "simpleDesc": [
+        {
+          "abilityID": 9795,
+          "simpleDesc": "Giảm số lượng [Xuất huyết], tăng [BloodDinner]"
+        },
+        {
+          "abilityID": 979501,
+          "simpleDesc": "Tăng Uy lực, Tăng Sát thương"
+        }
+      ]
+    },
+    {
+      "id": 9796,
+      "name": "Hơi Thở Đau Thương",
+      "desc": "Nếu tổng số lượng [Poise] và số lượt [Poise] của đồng minh ở vị trí thứ 5 trong đội hình từ 50 trở lên, các đồng xu kỹ năng sử dụng khi thắng [Va chạm] hoặc khi Tấn công một chiều chắc chắn sẽ ra mặt Ngửa (mặt Sấp đối với đồng xu trừ), và Sát thương chí mạng +80% (1 lần mỗi trận chiến, ngoại trừ kỹ năng E.G.O)\n\nTrong số các nhân viên trong đội hình, nếu có từ 5 [Bản sắc] trở lên sở hữu kỹ năng tấn công có khả năng gây hoặc nhận số lượng [Poise] hoặc số lượt [Poise], Sát thương chí mạng của vị trí thứ 5 +60% (Với mỗi nhân viên vượt quá điều kiện, Sát thương chí mạng tăng thêm 20%, bao gồm cả nhân viên trong đội hình).",
+      "simpleDesc": [
+        {
+          "abilityID": 9796,
+          "simpleDesc": "Tăng sát thương chí mạng"
+        },
+        {
+          "abilityID": 979601,
+          "simpleDesc": "Tăng sát thương chí mạng"
+        }
+      ]
+    },
+    {
+      "id": 9797,
+      "name": "Hỏa Pháo Định Mệnh Tan Vỡ",
+      "desc": "Khi bắt đầu lượt, nhận 2 [GiftCannon], 2 [GiftGlass] mỗi lượt\nTừ lượt thứ 2, giá trị nhận được mỗi lượt tăng thêm 1 (Tối đa 8 lần).",
+      "simpleDesc": [
+        {
+          "abilityID": 9797,
+          "simpleDesc": "Nhận Hỏa lực và Yếu ớt"
+        },
+        {
+          "abilityID": 979701,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9798,
+      "name": "Gai Tham Lam",
+      "desc": "Khi bắt đầu giai đoạn, tạo 100 [BloodDinner]\nKhi bắt đầu lượt, gây 2 [RoseThorn] cho kẻ địch (bộ phận) đang bị [Laceration].\nNếu tất cả kẻ địch (bộ phận) đều bị [Laceration], gây 4 [RoseThorn].",
+      "simpleDesc": [
+        {
+          "abilityID": 9798,
+          "simpleDesc": "Gây [RoseThorn]"
+        },
+        {
+          "abilityID": 979801,
+          "simpleDesc": "Gây [RoseThorn]"
+        }
+      ]
+    }
+  ]
+}

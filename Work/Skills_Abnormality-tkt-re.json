@@ -1,0 +1,464 @@
+{
+  "dataList": [
+    {
+      "id": 122801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ngươi sợ rồi sao?",
+          "desc": "Nếu ở trạng thái [TimeAcceleration], Sức mạnh Đối đầu +1\n[DefeatDuel] Nếu máu của bản thân dưới 75%, tiêu hao 40 [LimitedTime] và nhận 1 [Protection] (1 lần mỗi lượt)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Hình phạt cho kẻ sát hại thời gian",
+          "desc": "Nếu ở trạng thái [TimeAcceleration], Sức mạnh Đối đầu +2\n[WhenUse] Nếu [LimitedTime] từ 500 trở lên, số lượt [Laceration] của mục tiêu tăng thêm 3\n[WhenUse] Nếu [LimitedTime] từ 500 trở lên, số lượt [Laceration] của mục tiêu tăng thêm 1\n[WhenUse] Nếu [LimitedTime] từ 400 trở lên, tiêu hao 20 [LimitedTime], tăng +1 Sức mạnh và số lượt [Laceration] gây ra bởi kĩ năng này",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 4 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lượt [Laceration] tăng thêm 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lượt [Laceration] tăng thêm 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122803,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Trích xuất",
+          "desc": "Nếu ở trạng thái [TimeAcceleration], Sức mạnh Coin +1\n[WhenUse] Nếu máu của bản thân dưới 75%, tiêu hao 40 [LimitedTime] để tăng +2 Sức mạnh Đối đầu\n[DefeatDuel] Lượng sát thương giảm 80%, sát thương của kĩ năng này không khiến mục tiêu bị Choáng",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Số lượt [Laceration] tăng thêm 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122804,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Chém loạn xạ",
+          "desc": "[WhenUse] Nếu máu của bản thân dưới 75%, tiêu hao 60 [LimitedTime] để tăng +2 Sức mạnh Đối đầu\n[BeforeAttack] Nếu ở trạng thái [TimeAcceleration], Mục tiêu Chỉ định tăng thêm 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Số lượt [Laceration] tăng thêm 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 5 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122805,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Thời gian cứu rỗi",
+          "desc": "[CantDuel]\nGây [TimeKillerWatch] cho mục tiêu đã sử dụng kĩ năng tấn công lên bản thân vào lượt tiếp theo\n[StartBattle] Tiêu hao 200 [LimitedTime]. Nhận [TimeAcceleration] vào lượt tiếp theo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122806,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Né tránh",
+          "desc": "[WhenUse] Mỗi 100 [LimitedTime], Sức mạnh Cơ bản +1 (Tối đa 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122807,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Chuyện đó...",
+          "desc": "[DefeatDuel] Nhận 1 [Vulnerable]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122808,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Không đủ thời gian",
+          "desc": "[DefeatDuel] Nhận 1 [Vulnerable]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lượt [Laceration] tăng thêm 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ngươi sợ rồi sao?",
+          "desc": "Nếu ở trạng thái [TimeAcceleration], Sức mạnh Đối đầu +1\n[DefeatDuel] Nếu máu của bản thân dưới 75%, tiêu hao 40 [OwnTime] và nhận 1 [Protection] (1 lần mỗi lượt)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Hình phạt cho kẻ sát hại thời gian",
+          "desc": "Nếu ở trạng thái [TimeAcceleration], Sức mạnh Đối đầu +2\n[WhenUse] Nếu tổng [OwnTime] của tất cả bộ phận từ 600 trở lên, số lượt [Laceration] của mục tiêu tăng thêm 3\n[WhenUse] Nếu tổng [OwnTime] của tất cả bộ phận từ 500 trở lên, số lượt [Laceration] của mục tiêu tăng thêm 1\n[WhenUse] Nếu tổng [OwnTime] của tất cả bộ phận từ 400 trở lên, tiêu hao 20 [OwnTime], tăng +1 Sức mạnh và số lượt [Laceration] gây ra bởi kĩ năng này",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 4 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lượt [Laceration] tăng thêm 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lượt [Laceration] tăng thêm 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122903,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Trích xuất",
+          "desc": "Nếu ở trạng thái [TimeAcceleration], Sức mạnh Coin +1\n[WhenUse] Nếu máu của bản thân dưới 75%, tiêu hao 40 [OwnTime] để tăng +2 Sức mạnh Đối đầu\n[DefeatDuel] Lượng sát thương giảm 80%, sát thương của kĩ năng này không khiến mục tiêu bị Choáng",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Số lượt [Laceration] tăng thêm 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Chém loạn xạ",
+          "desc": "[WhenUse] Nếu máu của bản thân dưới 75%, tiêu hao 60 [OwnTime] để tăng +2 Sức mạnh Đối đầu\n[BeforeAttack] Nếu ở trạng thái [TimeAcceleration], Mục tiêu Chỉ định tăng thêm 3\n[BeforeAttack] Nếu máu của bản thân dưới 60%, tiêu hao 10 [OwnTime] và Mục tiêu Chỉ định tăng thêm 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng thêm 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 5 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122905,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Thời gian cứu rỗi",
+          "desc": "[CantDuel]\nĐến đối tượng đã sử dụng kĩ năng tấn công lên bản thân, gây [TimeKillerWatch] vào lượt kế tiếp\n[StartBattle] Tiêu hao 200 [OwnTime]. Nhận [TimeAcceleration] vào lượt kế tiếp)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122906,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Né tránh",
+          "desc": "[WhenUse] Với mỗi 50 tổng [OwnTime] sở hữu bởi tất cả các bộ phận, Uy lực cơ bản +1 (Tối đa 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122907,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Thời gian Giết Thời gian",
+          "desc": "[CantDuel]\nCố định Tốc độ bản thân ở mức 24.\nTrong lượt này, không rơi vào trạng thái Hoảng loạn.\n[WhenUse] Tiêu hao sau khi nhận 400 [OwnTime] còn lại cuối cùng của tất cả mọi người.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Xóa thời gian của mục tiêu. Nếu đã xóa thời gian của mục tiêu, tất cả các bộ phận hồi phục hoàn toàn [OwnTime] và nhận Nhanh nhẹn, Tăng Sức mạnh Tấn công 10 vào lượt kế tiếp."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122908,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Cần thêm thời gian!",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    }
+  ]
+}

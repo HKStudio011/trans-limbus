@@ -1,0 +1,84 @@
+{
+  "dataList": [
+    {
+      "id": 835001,
+      "name": "Máu Đang Mang",
+      "desc": "Khi kết thúc lượt, nếu [KeptBlood]\n- Từ 5 trở xuống, mỗi lượt, nhận 1 [Binding], [Vulnerable], [AttackDown] ứng với mỗi (6 - giá trị) vào lượt tiếp theo\n- Vượt quá 5, mỗi lượt, nhận 2 [AttackUp], [DefenseUp] ứng với mỗi (giá trị - 5) vào lượt tiếp theo"
+    },
+    {
+      "id": 835002,
+      "name": "Máu Không Được Cạn Kiệt",
+      "desc": "Thay đổi hình thái khi [KeptBlood] lần đầu tiên bằng 0\nKhi sử dụng Ta là... Hoàng tử... của cuộc diễu hành này...!, Tốc độ được cố định là 10"
+    },
+    {
+      "id": 835003,
+      "name": "Sự Kháng Cự Của Hoàng Tử",
+      "desc": "Khi HP hiện tại bằng 30% HP tối đa, nhận [BloodyCrave]"
+    },
+    {
+      "id": 835004,
+      "name": "Đại Đao Huyết Ngạnh",
+      "desc": "Ưu tiên tấn công mục tiêu có tổng Sức mạnh và Số lượng [Laceration] cao nhất\nKhi tấn công trúng đích, nếu mục tiêu có [Laceration], hồi 2% HP tối đa"
+    },
+    {
+      "id": 835005,
+      "name": "Huyết Thực - Ngạnh Hóa",
+      "desc": "Nếu bản thân có [Laceration],\n- Mỗi 5 [Laceration], nhận 1 Tăng Cấp độ Tấn công, 1 Tăng Cấp độ Phòng thủ (Tối đa 10)\n- Mỗi 10 [Laceration], nhận 1 Sức mạnh So khớp (Tối đa 5)\n- Giảm 50% sát thương [Laceration] bản thân nhận phải (Làm tròn xuống)"
+    },
+    {
+      "id": 9014501,
+      "name": "Huyết Dịch Ngạnh Hóa",
+      "desc": "Mỗi khi nhận sát thương từ đòn tấn công, nhận 1 Số lượng [Laceration]\nKhi kết thúc lượt, tiêu thụ 3 Số lượng [Laceration] của bản thân để nhận 1 [HardenedBlood]"
+    },
+    {
+      "id": 9014502,
+      "name": "Khát Máu",
+      "desc": "Ưu tiên tấn công mục tiêu bị áp dụng [Laceration]\nKhi kết thúc lượt, nếu lượt này không gây được sát thương thì lượt kế tiếp nhận 2 [Vulnerable], 2 [AttackUp]"
+    },
+    {
+      "id": 9014503,
+      "name": "Hút Máu",
+      "desc": "Giảm 10% sát thương [Laceration] bản thân nhận phải (Làm tròn xuống)\nKhi tấn công trúng đích, nếu mục tiêu có [Laceration], hồi máu bằng 10% lượng sát thương gây ra"
+    },
+    {
+      "id": 9014801,
+      "name": "Hút Máu Tham Lam",
+      "desc": "Giảm 20% sát thương [Laceration] bản thân nhận phải (Làm tròn xuống)\nKhi tấn công trúng đích, nếu mục tiêu có [Laceration], hồi máu bằng 15% lượng sát thương gây ra"
+    },
+    {
+      "id": 9014802,
+      "name": "Rò Điện",
+      "desc": "Mỗi khi bản thân nhận sát thương, nếu kẻ tấn công sử dụng kĩ năng nhận [Charge], chuyển 1 Số lượng [Charge] cho kẻ tấn công\n(Mỗi kĩ năng một lần, không kích hoạt nếu đối tượng nhận sát thương không có [Charge])"
+    },
+    {
+      "id": 9015101,
+      "name": "Đưa Máu Lên Não",
+      "desc": "Giảm 30% sát thương [Laceration] bản thân nhận phải (Làm tròn xuống)\nKhi tấn công trúng đích, nếu mục tiêu có [Laceration], hồi máu bằng 15% lượng sát thương gây ra"
+    },
+    {
+      "id": 9015102,
+      "name": "Mẫu Cơ Thể Nhân Tạo - L37",
+      "desc": "Khi bắt đầu lượt, nếu Số lượng [Charge] ít hơn 5, áp dụng 1 [Reduction] cho bản thân\nKhi bắt đầu lượt, nếu Số lượng [Charge] từ 5 trở lên, áp dụng 2 [ParryingResultUp]"
+    },
+    {
+      "id": 9015201,
+      "name": "Quyến Thuộc Non Trẻ",
+      "desc": "Giảm 30% sát thương [Laceration] bản thân nhận phải (Làm tròn xuống)\nKhi tấn công trúng đích, nếu mục tiêu có [Laceration], hồi máu bằng 25% lượng sát thương gây ra"
+    },
+    {
+      "id": 9014803,
+      "name": "Sự Kiên Trì",
+      "desc": "HP không giảm xuống dưới 1 do sát thương nhận phải từ kĩ năng của chính mình"
+    },
+    {
+      "id": 834801,
+      "name": "Túi Máu Phát Nổ",
+      "desc": "Khi bắt đầu trận chiến, chiến đấu trong trạng thái HP bị giảm một nửa"
+    },
+    {
+      "id": 834802,
+      "name": "Quyến Thuộc Thứ 7",
+      "desc": "Với mỗi đồng minh có HP bằng 1, Số lượng ô kĩ năng +1 (Tối đa 2 lần)"
+    }
+  ]
+}

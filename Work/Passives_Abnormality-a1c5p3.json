@@ -1,0 +1,254 @@
+{
+  "dataList": [
+    {
+      "id": 810001,
+      "name": "Ngọn Đèn Soi Sáng Tất Cả",
+      "desc": "Nếu nến tắt và Thể lực của nến ở trạng thái hồi đầy, kháng tăng cho đến khi tất cả nến được thắp sáng.\nKhi tất cả nến đang cháy, kháng giảm."
+    },
+    {
+      "id": 810002,
+      "name": "Bóng Tối Bị Đẩy Lùi",
+      "desc": "Mỗi 4 lượt sau khi lửa tắt, nếu có nến đã tắt thì tự thắp sáng tất cả nến. Thể lực của tất cả nến trở thành 1."
+    },
+    {
+      "id": 810701,
+      "name": "Mồi Lửa Bốc Lên",
+      "desc": "Thể lực không giảm xuống 0.\nKhi Thể lực bằng 1, thắp lửa và sử dụng Kĩ năng (Skill) tấn công."
+    },
+    {
+      "id": 810702,
+      "name": "Bóng Tối Chìm Xuống",
+      "desc": "Khi tất cả nến đang cháy, sử dụng Kĩ năng (Skill) phòng ngự.\nKhi tất cả Lá chắn bị tiêu hao, lửa sẽ tắt vào lượt tiếp theo."
+    },
+    {
+      "id": 810101,
+      "name": "Viên Ngọc Phơi Bày",
+      "desc": "Khi bắt đầu lượt, nếu Dịch Nhầy Màu Xanh của bản thân bằng 0 thì rơi vào trạng thái Hoảng loạn. Kháng thuộc tính của viên ngọc giảm đi 0.5 mỗi loại.\nKhi thoát khỏi trạng thái Hoảng loạn, nhận 10 Dịch Nhầy Màu Xanh."
+    },
+    {
+      "id": 810102,
+      "name": "Vỏ Sò Vụn Vỡ",
+      "desc": "Nếu Thể lực bản thể còn lại 10%, quy luật hành động thay đổi."
+    },
+    {
+      "id": 810103,
+      "name": "Vỏ Sò Cứng Cáp",
+      "desc": "Bộ phận Vỏ Sò dù có Hoảng loạn vẫn giữ nguyên mức kháng vốn có."
+    },
+    {
+      "id": 810104,
+      "name": "Dịch Nhầy Tích Tụ",
+      "desc": "Vào lượt sử dụng Dịch Ăn Mòn, Tốc độ trở thành 1."
+    },
+    {
+      "id": 810901,
+      "name": "Dịch Nhầy Màu Xanh",
+      "desc": "Nếu bị tiêu diệt bởi Viên Ngọc Biết Đi, Dịch Nhầy Màu Xanh của Viên Ngọc Biết Đi tăng thêm 3."
+    },
+    {
+      "id": 810902,
+      "name": "Dịch Nhầy Ô Nhiễm",
+      "desc": "Khi kết thúc lượt, gây (2 + số lượng Dịch Nhầy Màu Xanh còn sống) Độc cho tất cả kẻ địch."
+    },
+    {
+      "id": 810201,
+      "name": "Oxy Khuếch Tán",
+      "desc": "Khi bộ phận Đèn Huỳnh Quang bị phá hủy, gây [AaCePcBb] cho tất cả kẻ địch.\nBộ phận Đèn Huỳnh Quang sẽ tái sinh sau 2 lượt."
+    },
+    {
+      "id": 810202,
+      "name": "Hô Hấp Dưới Nước",
+      "desc": "Từ lượt thứ 2 trở đi, mỗi lượt nếu bộ phận Đèn Huỳnh Quang không bị phá hủy thì nhận 8 Hô hấp trong lượt này.\nSố lần Hô hấp tăng 3. Từ lượt thứ 2 trở đi, mỗi lượt nếu bộ phận Đèn Huỳnh Quang bị phá hủy thì nhận 2 Tê liệt (Paralysis), 2 Giảm lượng sát thương trong lượt này."
+    },
+    {
+      "id": 810203,
+      "name": "Dòng Nước Đục",
+      "desc": "Từ lượt thứ 2 trở đi, mỗi lượt gây 1 Trói buộc (Bind), 1 Tê liệt (Paralysis) cho những Bản sắc không có [AaCePcBb]. Tinh thần giảm 3."
+    },
+    {
+      "id": 810801,
+      "name": "Kiên Cố",
+      "desc": "Vô hiệu hóa sát thương dưới 12."
+    },
+    {
+      "id": 810802,
+      "name": "Vật Trôi Dạt Bị Cuốn Đi",
+      "desc": "Nếu Dòng Nước Đục Ăn Mơ sử dụng Manh Mục và không bị phá hủy khi kết thúc lượt, gây 20 sát thương cho một Bản sắc ngẫu nhiên."
+    },
+    {
+      "id": 810803,
+      "name": "Vật Trôi Dạt Bị Phá Hủy",
+      "desc": "Khi chết, Thể lực không trở về 0.\nTrở thành Vật Trôi Dạt Bị Phá Hủy."
+    },
+    {
+      "id": 810301,
+      "name": "Mệnh Lệnh Của Thuyền Trưởng",
+      "desc": "Khi bắt đầu lượt, nếu Tinh thần không phải -45 thì hồi (Số đồng minh còn sống trừ bản thân × 5) Tinh thần.\nKhi bắt đầu lượt, nếu Tinh thần là -45 thì giải trừ trạng thái Hoảng loạn (Panic) vào cuối lượt và đặt giá trị về 0."
+    },
+    {
+      "id": 810302,
+      "name": "Hình Xăm Bị Đâm Xuyên",
+      "desc": "Mỗi khi một đồng minh thuộc Thị trấn Pequod tử trận, số lần Hô hấp giảm 1, Tinh thần giảm 10."
+    },
+    {
+      "id": 810303,
+      "name": "Thợ Phóng Lao Bất Khuất",
+      "desc": "Thể lực bản thân càng thấp, lượng sát thương gây ra từ Kĩ năng (Skill) càng tăng."
+    },
+    {
+      "id": 810304,
+      "name": "Sự Căm Phẫn Và Thù Hận Được Tiêm Vào",
+      "desc": "Khi kết thúc lượt, nếu Thể lực thấp hơn 50% mức tối đa thì chuyển sang Giai đoạn 2.\nThể lực không giảm xuống 0 cho đến khi bước sang Giai đoạn 2.\nKhi bắt đầu Giai đoạn 2, hồi Thể lực đến 50% mức tối đa và triệu hồi 4 đồng minh. Sau đó, vào đầu mỗi lượt, gây [AaCePcBj] cho 1 kẻ địch có tỉ lệ Thể lực hiện tại thấp nhất."
+    },
+    {
+      "id": 810305,
+      "name": "Sự Căm Phẫn Và Thù Hận Khắc Sâu",
+      "desc": "Khi Thể lực trở thành 1, hồi Thể lực đến 50% mức tối đa và nhận 2 Tăng Uy lực Tấn công vào lượt tiếp theo. (Kích hoạt 1 lần mỗi trận chiến)"
+    },
+    {
+      "id": 810306,
+      "name": "Tinh Thần Hỗn Loạn",
+      "desc": "Nếu rơi vào trạng thái Hoảng loạn, nếu Tinh thần dưới 0 vào cuối lượt thì đặt lại Tinh thần về 0."
+    },
+    {
+      "id": 810401,
+      "name": "Sự Căm Phẫn Và Thù Hận Khắc Sâu",
+      "desc": "Nếu Thể lực thấp hơn 50% vào cuối lượt, nhận 2 Nhanh nhẹn (Haste), 2 Tăng Uy lực Tấn công vào lượt tiếp theo. (Kích hoạt 1 lần mỗi trận chiến)"
+    },
+    {
+      "id": 810402,
+      "name": "Đâm Xuyên Bằng Lao",
+      "desc": "Khi đánh Chí mạng, giá trị của hiệu ứng bất lợi gây ra bởi Kĩ năng (Skill) tăng thêm 1."
+    },
+    {
+      "id": 810501,
+      "name": "Thuyền Trưởng Tàu Pequod",
+      "desc": "Khi bắt đầu lượt, nếu Tinh thần không phải -45 thì hồi 15 Tinh thần.\nNếu đang ở trạng thái Hoảng loạn (Panic) vào cuối lượt, giải trừ trạng thái Hoảng loạn (Panic) và đặt Tinh thần về 0."
+    },
+    {
+      "id": 810503,
+      "name": "Mệnh lệnh U ám",
+      "desc": "Nếu nhân vật này rơi vào trạng thái Hoảng loạn, khi kết thúc lượt, nếu Tinh thần của tất cả đồng minh trừ bản thân thấp hơn 0 thì đặt lại Tinh thần về 0."
+    },
+    {
+      "id": 810504,
+      "name": "Quyết định Lạnh lùng",
+      "desc": "Khi sang Giai đoạn 2, hồi phục hoàn toàn Máu, Nội tại Mệnh lệnh Thuyền trưởng của Queequeg và Starbuck sẽ không kích hoạt nữa. Ngoài ra, Queequeg sẽ không rơi vào trạng thái Hoảng loạn kể cả khi chỉ số Khiên Bảo vệ Viện trợ bằng 0 vào cuối lượt."
+    },
+    {
+      "id": 810601,
+      "name": "Ahab",
+      "desc": "Khi bắt đầu lượt, nếu Tinh thần không phải là -45 thì hồi 15 Tinh thần.\nKhi kết thúc lượt, nếu đang trong trạng thái Hoảng loạn thì giải trừ trạng thái Hoảng loạn. Tinh thần được đặt về 0, và ở lượt tiếp theo nhận 2 Tăng Sức mạnh Tấn công · Tăng Sức mạnh Phòng thủ."
+    },
+    {
+      "id": 810602,
+      "name": "Tội lỗi và Sự trong sạch của Pip",
+      "desc": "Khi bắt đầu giai đoạn, nhận 20 Bản ngã của Pip.\nKhi kết thúc lượt, hồi 3 Tinh thần với mỗi 1 Bản ngã của Pip.\nKhi kết thúc lượt, nếu [AaCePcBo] bằng 0 thì sẽ bị Hoảng loạn vào lượt tiếp theo."
+    },
+    {
+      "id": 810603,
+      "name": "Nỗi sợ của Starbuck",
+      "desc": "Khi bắt đầu giai đoạn, nhận 20 Bản ngã của Starbuck.\nKhi thua khớp đấu với mục tiêu có [AaCePcBj], [AaCePcBp] giảm đi bằng số đồng xu bị phá hủy trong khớp đấu.\nKhi bắt đầu lượt, nhận 1 Bảo vệ với mỗi 5 Bản ngã của Starbuck.\nKhi kết thúc lượt, nếu [AaCePcBp] bằng 0 thì sẽ bị Hoảng loạn vào lượt tiếp theo."
+    },
+    {
+      "id": 810604,
+      "name": "Đâm bằng Lao",
+      "desc": "Trong giai đoạn này, khi đánh Chí mạng, giá trị của hiệu ứng bất lợi gây ra bằng Kĩ năng tăng thêm 1."
+    },
+    {
+      "id": 810605,
+      "name": "Sự Sám hối của Queequeg",
+      "desc": "Khi bắt đầu giai đoạn, nhận 30 Bản ngã của Queequeg.\nKhi kết thúc lượt, nếu còn Khiên thì hồi 5 Bản ngã của Queequeg, nếu không còn Khiên thì [AaCePcBq] giảm 10.\nKhi kết thúc lượt, nếu [AaCePcBq] bằng 0 thì sẽ bị Hoảng loạn vào lượt tiếp theo."
+    },
+    {
+      "id": 810606,
+      "name": "Thợ săn cá voi Bất khuất",
+      "desc": "Trong giai đoạn này, Máu bản thân càng thấp thì lượng sát thương gây ra bằng Kĩ năng càng tăng.\nVới mỗi 0.75% Máu đã mất, lượng sát thương tăng 1%\n(Tối đa 100%. Đạt tối đa khi Máu ở mức 25% giá trị tối đa)"
+    },
+    {
+      "id": 810607,
+      "name": "Cái giá của sự Cao cả",
+      "desc": "Mỗi khi nhận được Bản ngã của nhân vật khác, Cấp Tấn công và Cấp Phòng thủ tăng\nKhi thua khớp đấu của Kĩ năng nhất định, Tinh thần giảm"
+    },
+    {
+      "id": 814101,
+      "name": "Ngọn đèn Phơi bày Tất cả",
+      "desc": "Nếu nến đã tắt và Máu của nến ở trạng thái hồi phục hoàn toàn, Kháng tăng cho đến khi tất cả nến được thắp sáng.\nKhi tất cả nến đều sáng, Kháng giảm."
+    },
+    {
+      "id": 814102,
+      "name": "Bóng tối bị Xua đuổi",
+      "desc": "Cứ mỗi 4 lượt sau khi lửa tắt, nếu có nến đã tắt thì bản thân sẽ tự thắp sáng tất cả nến. Máu của tất cả nến trở thành 1."
+    },
+    {
+      "id": 813601,
+      "name": "Mồi lửa Bốc cao",
+      "desc": "Máu không giảm xuống 0.\nKhi Máu bằng 1, thắp lửa và sử dụng Kĩ năng tấn công."
+    },
+    {
+      "id": 813602,
+      "name": "Bóng tối Chìm đắm",
+      "desc": "Khi tất cả nến đều sáng, sử dụng Kĩ năng phòng thủ.\nKhi Khiên bị tiêu hao hết, lửa sẽ tắt vào lượt tiếp theo."
+    },
+    {
+      "id": 813701,
+      "name": "Viên ngọc trai bị Phơi bày",
+      "desc": "Khi bắt đầu lượt, nếu Chất nhầy xanh của bản thân bằng 0 thì rơi vào trạng thái Hoảng loạn. Kháng thuộc tính của Ngọc trai giảm 0.5 mỗi loại.\nKhi giải trừ Hoảng loạn, nhận 10 Chất nhầy xanh."
+    },
+    {
+      "id": 813702,
+      "name": "Vỏ sò Vỡ nát",
+      "desc": "Khi Máu cơ thể chính còn 10%, kiểu hành động thay đổi."
+    },
+    {
+      "id": 813703,
+      "name": "Vỏ sò Cứng cáp",
+      "desc": "Bộ phận Vỏ sò dù bị Hoảng loạn vẫn giữ nguyên mức Kháng gốc."
+    },
+    {
+      "id": 813704,
+      "name": "Chất nhầy Tụ lại",
+      "desc": "Vào lượt sử dụng Chất lỏng Xâm thực, Tốc độ trở thành 1."
+    },
+    {
+      "id": 813801,
+      "name": "Chất nhầy xanh",
+      "desc": "Nếu bị hạ gục bởi Ngọc trai di động, Chất nhầy xanh của Ngọc trai di động tăng thêm 3"
+    },
+    {
+      "id": 813802,
+      "name": "Chất nhầy gây Ô nhiễm",
+      "desc": "Khi kết thúc lượt, gây (2 + Chất nhầy xanh còn sống) Độc lên tất cả kẻ địch."
+    },
+    {
+      "id": 813901,
+      "name": "Oxy Khuếch tán",
+      "desc": "Khi bộ phận Đèn huỳnh quang bị phá hủy, gây [AaCePcBb] cho tất cả kẻ địch.\nBộ phận Đèn huỳnh quang sẽ tái tạo sau 2 lượt."
+    },
+    {
+      "id": 813902,
+      "name": "Hô hấp Dưới nước",
+      "desc": "Từ lượt thứ 2 trở đi mỗi lượt, nếu bộ phận Đèn huỳnh quang không ở trạng thái bị phá hủy, nhận 8 Hơi thở trong lượt này.\nSố lần Hơi thở tăng thêm 3. Từ lượt thứ 2 trở đi mỗi lượt, nếu bộ phận Đèn huỳnh quang bị phá hủy, nhận 2 Tê liệt, 2 Giảm Sát thương trong lượt này."
+    },
+    {
+      "id": 813903,
+      "name": "Dòng nước đục",
+      "desc": "Từ lượt thứ 2 trở đi mỗi lượt, gây 1 Trói buộc, 1 Tê liệt cho những Bản sắc không có [AaCePcBb]. Tinh thần giảm 3."
+    },
+    {
+      "id": 814001,
+      "name": "Kiên cố",
+      "desc": "Vô hiệu hóa sát thương dưới 12."
+    },
+    {
+      "id": 814002,
+      "name": "Vật trôi dạt bị cuốn đi",
+      "desc": "Nếu Dòng nước đục Nuốt chửng Giấc mơ sử dụng Mù lòa và không bị phá hủy vào cuối lượt, gây 20 sát thương lên một Bản sắc ngẫu nhiên"
+    },
+    {
+      "id": 814003,
+      "name": "Vật trôi dạt bị phá hủy",
+      "desc": "Khi chết, Máu không giảm xuống 0.\nTrở thành Vật trôi dạt bị phá hủy."
+    }
+  ]
+}

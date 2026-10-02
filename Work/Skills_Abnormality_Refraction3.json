@@ -1,0 +1,656 @@
+{
+  "dataList": [
+    {
+      "id": 857801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Gieo Bông",
+          "desc": "[WhenUse] Gây cho mục tiêu 3 [MRcAfBa]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [Laceration], số lượng [Laceration] tăng thêm 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 857802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Gieo Vết Thương",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng thêm 2"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Gây 4 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 857803,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Rễ Hút Cạn",
+          "desc": "[CantDuel]\nTấn công mục tiêu có [MRcAfBa] với Tốc độ thấp nhất\nSát thương tăng thêm ([MRcAfBa] × 10)% của mục tiêu",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Hồi Máu bằng ([MRcAfBa] X 5)% lượng sát thương gây ra"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Hồi Máu bằng ([MRcAfBa] X 5)% lượng sát thương gây ra"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 857804,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Bông Bao Phủ",
+          "desc": "Tấn công mục tiêu có nhiều [Laceration] nhất\n[WhenUse] Nếu mục tiêu chính có nhiều [Laceration] nhất, Sức mạnh cơ bản +5, hiệu ứng gây ra tăng gấp đôi",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [Binding], 2 [ScarletTakeDamageUp] vào lượt tiếp theo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 8 [Laceration], số lượng [Laceration] tăng thêm 4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 857805,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Bông Tán Loạn",
+          "desc": "Tấn công mục tiêu có [MRcAfBa] với Máu thấp nhất\n[WhenUse] Nếu mục tiêu chính có nhiều [Laceration] nhất, Sức mạnh cơ bản +5\n[EndBattle] Giải trừ trạng thái [MRcAfBb] vào lượt tiếp theo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 4 [Laceration] cho mục tiêu, số lượng [Laceration] tăng thêm 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 4 [Laceration] cho mục tiêu, số lượng [Laceration] tăng thêm 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 857806,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Gió Loạn",
+          "desc": "[OnSucceedEvade] Gây 3 [Laceration], số lượng [Laceration] tăng thêm 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 857807,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Bông Che Phủ",
+          "desc": "[CantDuel]\nƯu tiên tấn công mục tiêu có Tốc độ thấp nhất\nSát thương gây ra của kĩ năng tấn công này trở thành 0\n[StartBattle] Nhận trạng thái [MRcAfBb] vào lượt tiếp theo",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [MRcAfBa]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 857808,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Bông Nhuộm Đỏ Tán Loạn",
+          "desc": "Ưu tiên tấn công mục tiêu có nhiều [Laceration] nhất\n[WhenUse] Nếu mục tiêu chính có nhiều [Laceration] nhất, Sức mạnh cơ bản +10\nNếu [Laceration] của mục tiêu từ 10 trở lên, Sát thương +50%",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 5 [Laceration] cho mục tiêu, số lượng [Laceration] tăng thêm 4"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Hồi phục Máu của bản thân bằng số lượng [Laceration] của mục tiêu"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 5 [Laceration] cho mục tiêu, số lượng [Laceration] tăng thêm 4"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Hồi phục Máu của bản thân bằng số lượng [Laceration] của mục tiêu"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 857701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Hỏa Nguyền Cường Đả",
+          "desc": "[WhenUse] Nhận 1 [MRcAiBa]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [Combustion], số lượng [Combustion] tăng thêm 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 857702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Hồng Viêm Dực",
+          "desc": "[WhenUse] Nhận 1 [MRcAiBa]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [CrimsonResistDown] vào lượt tiếp theo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 857703,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Điểm Hỏa",
+          "desc": "[WinDuel] Gây [Combustion] bằng số lượng [Combustion] của mục tiêu\n[WhenUse] Số lượng [Combustion] của mục tiêu tăng thêm 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Nếu [MRcAiBb] của mục tiêu từ 3 trở lên, số lượng [Combustion] tăng thêm 2, gây 10 [Combustion] và 2 [MRcAiBc]."
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 6 [Combustion], số lượng [Combustion] tăng thêm 4"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [CrimsonResistDown] vào lượt tiếp theo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 857704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Phấn Trần Bộc Phát",
+          "desc": "[WhenUse] Nếu [Combustion] của mục tiêu từ 7 trở lên, Sức mạnh Đối đầu của kĩ năng này +2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lượng [Combustion] tăng thêm bằng số kĩ năng hệ Phẫn Nộ mà Hồng Viêm Nga đã sử dụng trong lượt này"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Số lượng [Combustion] của kẻ địch có Tốc độ thấp nhất tăng thêm bằng số kĩ năng hệ Phẫn Nộ mà Hồng Viêm Nga đã sử dụng trong lượt này"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây [Combustion] bằng số kĩ năng hệ Phẫn Nộ mà Hồng Viêm Nga đã sử dụng trong lượt này"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Gây [Combustion] cho kẻ địch có Tốc độ thấp nhất bằng số kĩ năng hệ Phẫn Nộ mà Hồng Viêm Nga đã sử dụng trong lượt này"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 857705,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Hồng Viêm Sát",
+          "desc": "Sức mạnh Đối đầu tăng thêm (Số kĩ năng hệ Phẫn Nộ mà Hồng Viêm Nga sử dụng trong lượt này × 2)\n[WhenUse] Gây (Số kĩ năng hệ Phẫn Nộ mà Hồng Viêm Nga sử dụng trong lượt này × 2) [Combustion] cho tất cả kẻ địch",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây [Combustion] bằng số kĩ năng hệ Phẫn Nộ mà Hồng Viêm Nga sử dụng trong lượt này"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Gây [Combustion] cho kẻ địch có Tốc độ thấp nhất bằng số kĩ năng hệ Phẫn Nộ mà Hồng Viêm Nga sử dụng trong lượt này, tăng số lượng [Combustion] [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây [Combustion] bằng với số kỹ năng Phẫn nộ mà Hồng Viêm Nga sử dụng trong lượt này"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Gây [Combustion] cho kẻ địch có Tốc độ thấp nhất bằng với số kỹ năng Phẫn nộ mà Hồng Viêm Nga sử dụng trong lượt này, tăng số lượt [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Đẩy mốc Hoảng loạn lên một khoảng bằng 10% lượng sát thương gây ra"
+                },
+                {
+                  "desc": "[EndSkill] Gây [Combustion] 10 cho kẻ địch rơi vào trạng thái Hoảng loạn do sát thương này"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 857706,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Né tránh",
+          "desc": "[WhenUseEvade] Gây [Combustion] 4 cho mục tiêu\n[OnSucceedEvade] Nhận [MRcAiBa] 1 vào lượt kế tiếp",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 857712,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Nhóm Lửa Mồi",
+          "desc": "[CantDuel]\n[CantChangeTarget]\nSát thương gây ra của kỹ năng tấn công này bằng 0.",
+          "coinlist": [
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây [MRcAiBb] 2 vào lượt kế tiếp"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 858501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ta sẽ đâm xuyên",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây [Laceration] 4"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Tăng số lượt [Laceration] thêm 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 858502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Sẽ thấm vào từ từ",
+          "desc": "[WinDuel] Gấp đôi lượng [Vulnerable] và [Binding] gây ra từ hiệu ứng mặt xu.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây [Laceration] 4, tăng số lượt [Laceration] thêm 2"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Gây [Vulnerable] 1 vào lượt kế tiếp"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Gây [Binding] 1 vào lượt kế tiếp"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây [Laceration] 4"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Tăng số lượt [Laceration] thêm 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 858503,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ta sẽ nghiền nát",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây [AttackDown] 2 vào lượt kế tiếp"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Gây [DefenseDown] 3 vào lượt kế tiếp"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây [AttackDmgDown] 1 vào lượt kế tiếp"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Nhận [AttackDmgUp] 1 vào lượt kế tiếp"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 858504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ta sẽ siết chặt",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây [MRcAmBb] 3 cho mục tiêu"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Nhận [AttackDmgUp] 1 vào lượt kế tiếp"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây [MRcAmBb] 3 cho mục tiêu"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Nhận [AttackDmgUp] 1 vào lượt kế tiếp"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 858505,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Sẽ đi ngang qua",
+          "desc": "Nếu Lòng Bàn Tay còn sống, Sức mạnh Cuối cùng +5",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây [Laceration] 8, tăng số lượt [Laceration] thêm 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 10 sát thương Tinh thần"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Đẩy mốc Hoảng loạn lên 20"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 858506,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Sẽ khinh miệt tất cả",
+          "desc": "Nếu Lòng Bàn Tay còn sống, Sức mạnh Cuối cùng +5\n[EndBattle] Xóa bỏ Ánh Nhìn của tất cả kẻ địch",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây [Laceration] 10, tăng số lượt [Laceration] thêm 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây [Laceration] 8, tăng số lượt [Laceration] thêm 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 15 sát thương Tinh thần"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Đẩy mốc Hoảng loạn lên 30"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 858507,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Né tránh",
+          "desc": "[OnSucceedEvade] Gây 4 sát thương Tinh thần cho mục tiêu",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 857101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Chương 6 Tiết 5",
+          "desc": "[CantDuel][CantChangeTarget]\nBản thân nhận sát thương thay cho mục tiêu. Hoảng loạn vào lượt kế tiếp.\nGây Biểu Trưng cho một kẻ địch ngẫu nhiên không có [AaCePcBa] vào lượt kế tiếp.\n[EndBattle] Hồi phục toàn bộ Nến về máu tối đa",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Giảm 5% Máu tối đa của bản thân"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây Bỏng 10 cho bản thân"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Giảm 5% Máu tối đa của bản thân"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây Bỏng 10 cho bản thân"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 857102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Đừng khinh thường lời tiên tri",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây [Combustion] 5 cho mục tiêu, tăng số lượt [Combustion] thêm 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Hồi 20 Máu cho bản thân"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 858201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Sự Trắng Hóa Lan Rộng",
+          "desc": "[StartBattle] Nhận Lá chắn tương đương 10% Máu tối đa. Với mỗi 1 Cái tôi của Queequeg, nhận thêm Lá chắn tương đương 0.3% Máu tối đa.\nTrong khi có Lá chắn, khi Nhận sát thương, giảm 5 Tinh thần của mục tiêu.\nKhi Nhận sát thương, Tái sử dụng Kĩ năng 1 lần với mỗi 10 Mảnh Cái tôi của Queequeg",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 Xuất huyết"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 Xuất huyết"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

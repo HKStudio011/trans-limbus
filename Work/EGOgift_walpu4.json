@@ -1,0 +1,85 @@
+{
+  "dataList": [
+    {
+      "id": 9744,
+      "name": "Tử Tâm",
+      "desc": "Mỗi khi gây [Laceration] hoặc Xuất huyết đặc biệt cho kẻ địch bằng hiệu ứng Kĩ năng tấn công cơ bản, Số lượng [Laceration] của mục tiêu tăng thêm 2 (Kích hoạt tối đa 3 lần mỗi lượt)\n\nVới mỗi 1 Số lượng [Laceration] của mục tiêu, Sát thương +1% (Tối đa 20%)",
+      "simpleDesc": [
+        {
+          "abilityID": 9744,
+          "simpleDesc": "Tăng Số lượng [Laceration] của mục tiêu, tăng Sát thương của bản thân"
+        }
+      ]
+    },
+    {
+      "id": 9745,
+      "name": "Bóng bán dẫn biến dạng",
+      "desc": "Tiêu hao thêm một nửa Số lượng [Charge] hoặc Sạc đặc biệt bị tiêu hao bởi Kĩ năng tấn công cơ bản\nVới mỗi 1 Số lượng [Charge] hoặc Sạc đặc biệt bị tiêu hao bởi Kĩ năng tấn công cơ bản, Sát thương +2% (Tối đa 20%)",
+      "simpleDesc": [
+        {
+          "abilityID": 9745,
+          "simpleDesc": "Tiêu hao thêm Số lượng [Charge] hoặc Sạc đặc biệt để tăng Sát thương"
+        }
+      ]
+    },
+    {
+      "id": 9746,
+      "name": "Khí ga gia tốc ô nhiễm tinh thần",
+      "desc": "Khi gây sát thương bằng Kĩ năng tấn công có hiệu ứng gây [Sinking], Số lượng [Sinking] hoặc Trầm luân đặc biệt sau khi tham gia Đối kháng, Khi trúng gây thêm [Sinking] bằng với số lần Đối kháng đã thực hiện (Tối đa 3, kích hoạt 3 lần mỗi lượt)",
+      "simpleDesc": [
+        {
+          "abilityID": 9746,
+          "simpleDesc": "Gây [Sinking] bằng với số lần Đối kháng"
+        }
+      ]
+    },
+    {
+      "id": 9747,
+      "name": "Enkephalin trào dâng",
+      "desc": "Khi Số lượng [Sinking] của kẻ địch giảm hoặc bị tiêu hao, có (Số lượng [Sinking] của mục tiêu)% xác suất Số lượng [Sinking] tăng thêm 1 ngay trước khi giảm hoặc tiêu hao (Kích hoạt 3 lần mỗi lượt, tối đa 100%)\n- Tăng tỉ lệ cơ bản thêm (Số Cộng hưởng tối đa × 2)% (Tối đa 12%)\n- Nếu Cộng hưởng tối đa tương ứng là Cộng hưởng U sầu hoặc Cộng hưởng Đố kị, Số lượng [Sinking] gây ra +1",
+      "simpleDesc": [
+        {
+          "abilityID": 9747,
+          "simpleDesc": "Có (Số lượng [Sinking] của mục tiêu)% xác suất tăng Số lượng [Sinking] ngay trước khi giảm hoặc tiêu hao"
+        }
+      ]
+    },
+    {
+      "id": 9748,
+      "name": "Khổ nạn",
+      "desc": "Khi thắng Đối kháng, hồi phục Tinh thần bằng với số lần Đối kháng đã thực hiện (Tối đa 3)\nNếu hồi phục khi Tinh thần ở mức 45, nhận [AttackUp] vào lượt tiếp theo bằng một nửa số lần Đối kháng (Tối đa 3)",
+      "simpleDesc": [
+        {
+          "abilityID": 9748,
+          "simpleDesc": "Khi thắng Đối kháng, hồi phục Tinh thần bằng với số lần Đối kháng đã thực hiện"
+        }
+      ]
+    },
+    {
+      "id": 9749,
+      "name": "Vương miện gai",
+      "desc": "Khi bắt đầu lượt, 1 đồng minh có Tinh thần thấp nhất được hồi 8 Tinh thần (Ngoại trừ trạng thái Hoảng loạn, E.G.O Xâm thực)\nNếu Tinh thần của nhân vật đó đã ở mức tối đa, nhận +1 Sức mạnh Đối kháng trong lượt này\nTrong lượt này, nhân vật đó nhận [MentalSystemResultIncrease_Typo] +1, [MentalSystemResultDecrease_Typo] -1",
+      "simpleDesc": [
+        {
+          "abilityID": 9749,
+          "simpleDesc": "Khi bắt đầu lượt, 1 đồng minh có Tinh thần thấp nhất được hồi 8 Tinh thần"
+        }
+      ]
+    },
+    {
+      "id": 9750,
+      "name": "An nghỉ",
+      "desc": "Khi Tinh thần bản thân giảm do Kĩ năng tấn công cơ bản, lượng tiêu hao giảm 1\nNếu mục tiêu có [Sinking], Sát thương tăng thêm 2% với mỗi lần Kĩ năng tấn công này tung mặt Ngửa (Tối đa 16%)",
+      "simpleDesc": [
+        {
+          "abilityID": 9750,
+          "simpleDesc": "Lượng tiêu hao giảm 1 khi Tinh thần bản thân giảm do Kĩ năng tấn công cơ bản"
+        },
+        {
+          "abilityID": 97501,
+          "simpleDesc": "Nếu mục tiêu có Trầm luân, tăng Sát thương"
+        }
+      ]
+    }
+  ]
+}

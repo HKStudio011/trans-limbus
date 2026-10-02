@@ -1,0 +1,267 @@
+{
+  "dataList": [
+    {
+      "id": 9427,
+      "name": "Cây Lao Bảo Vệ Thị Trấn",
+      "desc": "[Hiệu ứng dành riêng cho danh tính ở vị trí thiết lập số 6]\nKhi kết thúc lượt, nếu HP hiện tại thấp hơn 30% HP tối đa, nhận 1 [Enhancement] vào lượt tiếp theo",
+      "simpleDesc": [
+        {
+          "abilityID": 9427,
+          "simpleDesc": "Lượt tiếp theo nhận 1 Tăng Uy lực Tấn công"
+        }
+      ]
+    },
+    {
+      "id": 19427,
+      "name": "Cây Lao Bảo Vệ Thị Trấn+",
+      "desc": "[Hiệu ứng dành riêng cho danh tính ở vị trí thiết lập số 6]\nKhi kết thúc lượt, nếu HP hiện tại thấp hơn 40% HP tối đa, nhận 1 [Enhancement] vào lượt tiếp theo\n\nKhi kết thúc lượt, nếu có đồng minh đang Hoảng loạn, lượt tiếp theo tăng 6 [Aggro]. Nhận 4 [DefenseUp]",
+      "simpleDesc": [
+        {
+          "abilityID": 19427,
+          "simpleDesc": "Lượt tiếp theo nhận 1 Tăng Uy lực Tấn công"
+        },
+        {
+          "abilityID": 194271,
+          "simpleDesc": "Lượt tiếp theo nhận 6 Điểm Thu hút, 4 Tăng Cấp Phòng thủ"
+        }
+      ]
+    },
+    {
+      "id": 29427,
+      "name": "Cây Lao Bảo Vệ Thị Trấn++",
+      "desc": "[Hiệu ứng dành riêng cho danh tính ở vị trí thiết lập số 6]\nKhi kết thúc lượt, nếu HP hiện tại thấp hơn 50% HP tối đa, nhận 1 [Enhancement] vào lượt tiếp theo\n\nKhi kết thúc lượt, nếu có đồng minh đang Hoảng loạn, lượt tiếp theo tăng 6 [Aggro]. Nhận 4 [DefenseUp]",
+      "simpleDesc": [
+        {
+          "abilityID": 29427,
+          "simpleDesc": "Lượt tiếp theo nhận 1 Tăng Uy lực Tấn công"
+        },
+        {
+          "abilityID": 294271,
+          "simpleDesc": "Lượt tiếp theo nhận 6 Điểm Thu hút, 4 Tăng Cấp Phòng thủ"
+        }
+      ]
+    },
+    {
+      "id": 9428,
+      "name": "Trái Tim Cá Voi",
+      "desc": "Khi kỹ năng tấn công trúng đích kẻ địch bị gây [Laceration] hoặc Xuất huyết đặc biệt, nhận 1 [Breath] (Kích hoạt 3 lần mỗi lượt cho mỗi danh tính)\n\nNếu đòn đánh Chí mạng khi kỹ năng trúng đích, có 50% xác suất nhận 1 [PenetrateResultUp] vào lượt tiếp theo (Kích hoạt 2 lần mỗi lượt cho mỗi danh tính. Bao gồm kỹ năng E.G.O và Phản kích)\n\nKhi mặt trước trúng đích Chí mạng bằng kỹ năng cơ bản, trị số hiệu ứng giảm lợi gây ra bởi đồng xu đó tăng thêm 1. (Kích hoạt 1 lần mỗi lượt cho mỗi danh tính. Ngoại trừ kỹ năng E.G.O, bao gồm Phản kích)",
+      "simpleDesc": [
+        {
+          "abilityID": 9428,
+          "simpleDesc": "Nhận 1 [Breath]"
+        },
+        {
+          "abilityID": 94281,
+          "simpleDesc": "Xác suất nhận [PenetrateResultUp] vào lượt tiếp theo"
+        },
+        {
+          "abilityID": 94282,
+          "simpleDesc": "Trị số hiệu ứng giảm lợi tăng thêm 1"
+        }
+      ]
+    },
+    {
+      "id": 9431,
+      "name": "Chiếc Vĩ Cầm Hỏng",
+      "desc": "[Hiệu ứng dành riêng cho danh tính ở vị trí thiết lập số 5 và 6]\n\nKhi HP bản thân từ 45% trở xuống, nhận 1 [AttackUp], 1 [TakeHpHealIncrease] khi thắng đối đầu (2 lần mỗi lượt cho mỗi nhân vật)\n\nKhi HP bản thân từ 20% trở xuống, thay vì hiệu ứng này, nhận 1 [AttackUp], 1 [TakeHpHealIncrease] khi sử dụng kỹ năng (2 lần mỗi lượt cho mỗi nhân vật)",
+      "simpleDesc": [
+        {
+          "abilityID": 9431,
+          "simpleDesc": "Nhận 1 Tăng Cấp Tấn công, Tăng Lượng Hồi phục HP Nhận được"
+        },
+        {
+          "abilityID": 94311,
+          "simpleDesc": "Nhận 1 Tăng Cấp Tấn công, Tăng Lượng Hồi phục HP Nhận được"
+        }
+      ]
+    },
+    {
+      "id": 19431,
+      "name": "Chiếc Vĩ Cầm Hỏng+",
+      "desc": "[Hiệu ứng dành riêng cho danh tính ở vị trí thiết lập số 5 và 6]\n\nKhi HP bản thân từ <style=\"upgradeHighlight\">65%</style> trở xuống, nhận 1 [AttackUp], 1 [TakeHpHealIncrease] khi thắng đối đầu (2 lần mỗi lượt cho mỗi nhân vật)\n\nKhi HP bản thân từ <style=\"upgradeHighlight\">40%</style> trở xuống, thay vì hiệu ứng này, nhận 1 [AttackUp], 1 [TakeHpHealIncrease] khi sử dụng kỹ năng (2 lần mỗi lượt cho mỗi nhân vật)\n\n<style=\"upgradeHighlight\">Trường hợp thắng đối đầu từ 5 lần đối đầu trở lên, sát thương gây ra bởi kỹ năng đã thắng đối đầu +(Số lần đối đầu × 2)% (Tối đa 20%)</style>",
+      "simpleDesc": [
+        {
+          "abilityID": 19431,
+          "simpleDesc": "Nhận 1 Tăng Cấp Tấn công, Tăng Lượng Hồi phục HP Nhận được"
+        },
+        {
+          "abilityID": 194311,
+          "simpleDesc": "Nhận 1 Tăng Cấp Tấn công, Tăng Lượng Hồi phục HP Nhận được"
+        },
+        {
+          "abilityID": 194312,
+          "simpleDesc": "Tăng lượng sát thương tỉ lệ thuận với số lần đối đầu"
+        }
+      ]
+    },
+    {
+      "id": 29431,
+      "name": "Chiếc Vĩ Cầm Hỏng++",
+      "desc": "[Hiệu ứng dành riêng cho danh tính ở vị trí thiết lập số 5 và 6]\n\nKhi HP bản thân từ 65% trở xuống, nhận 1 [AttackUp], 1 [TakeHpHealIncrease] khi thắng đối đầu (2 lần mỗi lượt cho mỗi nhân vật)\n\nKhi HP bản thân từ 40% trở xuống, thay vì hiệu ứng này, nhận 1 [AttackUp], 1 [TakeHpHealIncrease] khi sử dụng kỹ năng (2 lần mỗi lượt cho mỗi nhân vật)\n\nTrường hợp thắng đối đầu từ 5 lần đối đầu trở lên, sát thương gây ra bởi kỹ năng đã thắng đối đầu <style=\"upgradeHighlight\">+(Số lần đối đầu × 3)% (Tối đa 30%)</style>",
+      "simpleDesc": [
+        {
+          "abilityID": 29431,
+          "simpleDesc": "Nhận 1 Tăng Cấp Tấn công, Tăng Lượng Hồi phục HP Nhận được"
+        },
+        {
+          "abilityID": 294311,
+          "simpleDesc": "Nhận 1 Tăng Cấp Tấn công, Tăng Lượng Hồi phục HP Nhận được"
+        },
+        {
+          "abilityID": 294312,
+          "simpleDesc": "Tăng lượng sát thương tỉ lệ thuận với số lần đối đầu"
+        }
+      ]
+    },
+    {
+      "id": 9432,
+      "name": "Hộp Nhạc Mô Hình Dinh Thự",
+      "desc": "Khi kết thúc lượt nếu rơi vào trạng thái Hoảng loạn, giải trừ trạng thái Hoảng loạn đó, đồng thời vào đầu lượt tiếp theo gây 4 uy lực [Sinking], 4 số lần [Sinking] cho tất cả kẻ địch (Kích hoạt 1 lần mỗi trận chiến, ngoại trừ Hoảng loạn cưỡng chế, trong trận chiến tập trung tính theo bộ phận)\n\nKhi tiêu diệt kẻ địch, tăng thêm 2 số lần [Sinking] cho 1 kẻ địch có số lần [Sinking] thấp nhất (Kích hoạt 3 lần mỗi lượt, trong trận chiến tập trung tính theo bộ phận)",
+      "simpleDesc": [
+        {
+          "abilityID": 9432,
+          "simpleDesc": "Vào lượt tiếp theo, gây 4 uy lực và số lần Trầm luân cho toàn bộ kẻ địch"
+        },
+        {
+          "abilityID": 94321,
+          "simpleDesc": "Tăng thêm 2 số lần Trầm luân cho kẻ địch có số lần Trầm luân thấp nhất"
+        }
+      ]
+    },
+    {
+      "id": 9435,
+      "name": "Kỹ Thuật Bắt Giữ Kiểu Quản Gia",
+      "desc": "Vào đầu lượt, gây 1 [Binding] cho kẻ địch đã hồi phục từ trạng thái Hoảng loạn ở lượt trước\n\nKhi đồng minh có tỉ lệ HP cao nhất tấn công trúng đích, nếu mục tiêu đang Hoảng loạn, tăng sát thương +7.5% tùy theo cấp độ Hoảng loạn",
+      "simpleDesc": [
+        {
+          "abilityID": 9435,
+          "simpleDesc": "Gây 1 Trói buộc cho kẻ địch đã hồi phục sau Hoảng loạn"
+        },
+        {
+          "abilityID": 94351,
+          "simpleDesc": "Tăng lượng sát thương tùy theo cấp độ Hoảng loạn của đối tượng"
+        }
+      ]
+    },
+    {
+      "id": 19435,
+      "name": "Kỹ Thuật Bắt Giữ Kiểu Quản Gia+",
+      "desc": "Vào đầu lượt, gây <style=\"upgradeHighlight\">2</style> [Binding] cho kẻ địch đã hồi phục từ trạng thái Hoảng loạn ở lượt trước\n\nKhi đồng minh có tỉ lệ HP cao nhất tấn công trúng đích, nếu mục tiêu đang Hoảng loạn, tăng sát thương +<style=\"upgradeHighlight\">10%</style> tùy theo cấp độ Hoảng loạn",
+      "simpleDesc": [
+        {
+          "abilityID": 19435,
+          "simpleDesc": "Gây [Binding] 2 cho kẻ thù vừa hồi phục từ trạng thái Hoảng loạn"
+        },
+        {
+          "abilityID": 194351,
+          "simpleDesc": "Sát thương tăng theo cấp độ Hoảng loạn của mục tiêu"
+        }
+      ]
+    },
+    {
+      "id": 29435,
+      "name": "Thuật Trói Buộc Kiểu Quản Gia++",
+      "desc": "Khi bắt đầu lượt, gây [Binding] <style=\"upgradeHighlight\">3</style> cho kẻ thù vừa hồi phục từ trạng thái Hoảng loạn ở lượt trước\n\nKhi đồng minh có tỷ lệ Máu cao nhất đánh trúng đích, nếu mục tiêu đang trong trạng thái Hoảng loạn, sát thương +<style=\"upgradeHighlight\">12.5%</style> theo cấp độ Hoảng loạn",
+      "simpleDesc": [
+        {
+          "abilityID": 29435,
+          "simpleDesc": "Gây [Binding] 3 cho kẻ thù vừa hồi phục từ trạng thái Hoảng loạn"
+        },
+        {
+          "abilityID": 294351,
+          "simpleDesc": "Sát thương tăng theo cấp độ Hoảng loạn của mục tiêu"
+        }
+      ]
+    },
+    {
+      "id": 9436,
+      "name": "Ống Thủy Tinh Khúc Xạ",
+      "desc": "Trong trận chiến thông thường, khi đánh trúng kẻ thù có tổng [Sinking] số lượng và [Sinking] số lần từ 10 trở lên, nếu Tinh thần của mục tiêu là -45,\ngây sát thương U sầu bằng ([Sinking] số lượng ÷ 2) (Kích hoạt 1 lần mỗi kỹ năng)\n\nTrong trận chiến tập trung, khi đánh trúng kẻ thù có tổng [Sinking] số lượng và [Sinking] số lần từ 10 trở lên,\ngây sát thương U sầu bằng ([Sinking] số lượng ÷ 2) (Kích hoạt 1 lần mỗi kỹ năng)\n\nNếu kỹ năng đánh trúng kẻ thù là kỹ năng gây [Sinking] (bao gồm số lần và [Sinking] đặc biệt), gây sát thương U sầu bằng ([Sinking] số lượng) thay vì ([Sinking] số lượng ÷ 2)\n(Chỉ áp dụng cho kỹ năng gây [Sinking] đánh trúng đầu tiên trong lượt đó)",
+      "simpleDesc": [
+        {
+          "abilityID": 9436,
+          "simpleDesc": "Sát thương U sầu tỷ lệ thuận với [Sinking] của mục tiêu"
+        },
+        {
+          "abilityID": 94361,
+          "simpleDesc": "Sát thương U sầu tỷ lệ thuận với [Sinking] của mục tiêu"
+        }
+      ]
+    },
+    {
+      "id": 9437,
+      "name": "Vé Vào Cửa Tự Do La Mancha Land",
+      "desc": "Khi đánh trúng kẻ thù bị gây tổng cộng 10 [Laceration], Xuất huyết đặc biệt, [Burst] trở lên, nhận 1 [Breath] số lượng, tăng 1 [Breath] số lần của bản thân (Kích hoạt tối đa 2 lần mỗi kỹ năng)",
+      "simpleDesc": [
+        {
+          "abilityID": 9437,
+          "simpleDesc": "Nhận 1 [Breath] số lượng và số lần"
+        }
+      ]
+    },
+    {
+      "id": 9438,
+      "name": "Minh Chứng Chiến Thắng",
+      "desc": "Khi tiêu diệt kẻ thù, hồi 3 Tinh thần cho 1 đồng minh có Tinh thần thấp nhất hiện tại.\n\nKhi kết thúc đòn tấn công, nếu kẻ thù bị gây tổng cộng 10 [Laceration], Xuất huyết đặc biệt, [Burst] trở lên bị tiêu diệt, 1 đồng minh nhận [AttackUp] 2 vào lượt tiếp theo. (Ưu tiên đồng minh đã tiêu diệt mục tiêu)",
+      "simpleDesc": [
+        {
+          "abilityID": 9438,
+          "simpleDesc": "Hồi 3 Tinh thần"
+        },
+        {
+          "abilityID": 9438,
+          "simpleDesc": "Một đồng minh ngẫu nhiên nhận Tăng Cấp Độ Tấn Công 2 vào lượt tiếp theo"
+        }
+      ]
+    },
+    {
+      "id": 9439,
+      "name": "Khối Lập Phương Ngấu Nghiến",
+      "desc": "Khi đồng minh tử trận, nhận mỗi loại 1 tài nguyên E.G.O thuộc hệ kỹ năng 1 và 2 của đồng minh đó\n\nKhi kết thúc đòn tấn công, nếu kẻ thù tử trận, nhận 1 tài nguyên E.G.O ngẫu nhiên (Tối đa 1 lần mỗi kỹ năng)",
+      "simpleDesc": [
+        {
+          "abilityID": 9439,
+          "simpleDesc": "Nhận 1 tài nguyên E.G.O ngẫu nhiên"
+        }
+      ]
+    },
+    {
+      "id": 9440,
+      "name": "Mặt Nạ Diễu Hành",
+      "desc": "Toàn bộ đồng minh là Huyết Quỷ được +1 Uy lực Mặt Xu kỹ năng cơ bản\n\nTrong trận chiến có viện binh, nếu kẻ thù mới xuất hiện, gây 3 [Laceration] và 3 [Laceration] số lần cho kẻ thù đó khi bắt đầu trận chiến\n\nNếu có <Huyết Quỷ> trong phe đồng minh, mỗi khi viện binh đến, kích hoạt [Laceration] của toàn bộ kẻ thù 1 lần, đồng thời giảm 1 [Laceration] số lần của toàn bộ kẻ thù",
+      "simpleDesc": [
+        {
+          "abilityID": 94402,
+          "simpleDesc": "+1 Uy lực Mặt Xu kỹ năng cơ bản"
+        },
+        {
+          "abilityID": 9440,
+          "simpleDesc": "Gây 3 Xuất huyết và 3 số lần Xuất huyết cho kẻ thù viện binh"
+        },
+        {
+          "abilityID": 94401,
+          "simpleDesc": "Kích hoạt Xuất huyết của toàn bộ kẻ thù 1 lần (Số lần Xuất huyết giảm 1)"
+        }
+      ]
+    },
+    {
+      "id": 19440,
+      "name": "Mặt Nạ Diễu Hành+",
+      "desc": "Toàn bộ đồng minh là Huyết Quỷ được +1 Uy lực Mặt Xu kỹ năng cơ bản\n\nTrong trận chiến có viện binh, nếu kẻ thù mới xuất hiện, gây <style=\"upgradeHighlight\">5</style> [Laceration] và 3 [Laceration] số lần cho kẻ thù đó khi bắt đầu trận chiến\n\nNếu có <Huyết Quỷ> trong phe đồng minh, mỗi khi viện binh đến, kích hoạt [Laceration] của toàn bộ kẻ thù 1 lần, đồng thời giảm 1 [Laceration] số lần của toàn bộ kẻ thù",
+      "simpleDesc": [
+        {
+          "abilityID": 94402,
+          "simpleDesc": "+1 Uy lực Mặt Xu kỹ năng cơ bản"
+        },
+        {
+          "abilityID": 194405,
+          "simpleDesc": "Gây 5 Xuất huyết và 3 số lần Xuất huyết cho kẻ thù viện binh"
+        },
+        {
+          "abilityID": 1944051,
+          "simpleDesc": "Kích hoạt Xuất huyết của toàn bộ kẻ thù 1 lần (Số lần Xuất huyết giảm 1)"
+        }
+      ]
+    }
+  ]
+}

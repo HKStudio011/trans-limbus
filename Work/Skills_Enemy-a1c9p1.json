@@ -1,0 +1,364 @@
+{
+  "dataList": [
+    {
+      "id": 9103601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Đâm",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng thêm 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9103602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Xé Thịt",
+          "desc": "Nếu [Laceration] của mục tiêu từ 5 trở lên, Sức mạnh cơ bản +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng thêm 2\nNếu mục tiêu có từ 3 loại hiệu ứng bất lợi trở lên, tăng thêm 1"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Gây 2 [DefenseDown] vào lượt tiếp theo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng thêm 2\nNếu mục tiêu có từ 3 loại hiệu ứng bất lợi trở lên, tăng thêm 1"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Gây 2 [DefenseDown] vào lượt tiếp theo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9103603,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Tên tác phẩm: Giải Phóng Xương theo Chu Kỳ Tim",
+          "desc": "Với mỗi 20% HP bản thể đã mất, Sức mạnh cơ bản +1 (Tối đa 4)\nVới mỗi 3 [Laceration] của mục tiêu, Sức mạnh Coin +1 (Tối đa 2)\n[WinDuel] Số lượng [Vibration] của mục tiêu tăng thêm 2\n[DefeatDuel] Nhận 1 [Paralysis] vào lượt tiếp theo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng thêm 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 5 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnStartCoin] Giảm HP bằng 30% HP bản thể hiện tại (Hiệu ứng này không gây trạng thái Choáng, làm tròn xuống)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Nhận 5 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 5 [Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] [Switch_Vibration] sang [VibrationBleeding]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] [VibrationExplosion]. Số lượng [Vibration] của mục tiêu giảm 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9103605,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Co Rút Cơ Bắp",
+          "desc": "[CanDuelGuard]\n[StartBattle] Nhận 1 [MuscleContraction] vào lượt tiếp theo. Nhận thêm 1 khi nhận sát thương (1 lần mỗi lượt)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9103701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Đâm",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 4 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9103702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Xé Toạc Mạch Máu",
+          "desc": "Nếu [Laceration] của mục tiêu từ 5 trở lên, Sức mạnh cơ bản +1\nNếu mục tiêu có từ 3 loại hiệu ứng bất lợi trở lên, lượng Sát thương +30%",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9103703,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Tên tác phẩm: Giải Phóng Xương theo Chu Kỳ Tim",
+          "desc": "Với mỗi 20% HP bản thể đã mất, Sức mạnh cơ bản +1 (Tối đa 4)\nVới mỗi 3 [Laceration] của mục tiêu, Sức mạnh Coin +1 (Tối đa 2)\n[WinDuel] Số lượng [Vibration] của mục tiêu tăng thêm 2\n[DefeatDuel] Nhận 1 [Paralysis] vào lượt tiếp theo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng thêm 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 5 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnStartCoin] Giảm HP bằng 30% HP bản thể hiện tại (Hiệu ứng này không gây trạng thái Choáng, làm tròn xuống)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Nhận 5 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 5 [Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] [Switch_Vibration] sang [VibrationBleeding]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] [VibrationExplosion]. Số lượng [Vibration] của mục tiêu giảm 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9103705,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Co Rút Cơ Bắp",
+          "desc": "[CanDuelGuard]\n[StartBattle] Nhận 1 [MuscleContraction] vào lượt tiếp theo. Nhận thêm 1 khi nhận sát thương (1 lần mỗi lượt)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9103801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Cơ Bắp Bị Ràng Buộc",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng thêm 3"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Gây 1 [Desire] vào lượt tiếp theo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9103802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Xé Toạc",
+          "desc": "Nếu [Laceration] của mục tiêu từ 5 trở lên, Sức mạnh cơ bản +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng thêm 2\nNếu mục tiêu có từ 3 loại hiệu ứng bất lợi trở lên, tăng thêm 1"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Gây 1 [Desire] vào lượt tiếp theo"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng thêm 2\nNếu mục tiêu có từ 3 loại hiệu ứng bất lợi trở lên, tăng thêm 1"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Gây 1 [Desire] vào lượt tiếp theo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9103803,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Tác Phẩm Nhuốm Màu Dục Vọng",
+          "desc": "Với mỗi 20% HP bản thể đã mất, Sức mạnh cơ bản +1 (Tối đa 4)\nVới mỗi 3 [Laceration] của mục tiêu, Sức mạnh Coin +1 (Tối đa 2)\n[WinDuel] Số lượng [Vibration] của mục tiêu tăng thêm 2\n[DefeatDuel] Nhận 1 [Paralysis] vào lượt tiếp theo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng thêm 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 5 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnStartCoin] Giảm HP một lượng bằng 30% HP hiện tại (Hiệu ứng này không gây trạng thái Choáng, làm tròn xuống)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Nhận 5 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [Desire] vào lượt tiếp theo"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] [Switch_Vibration] sang [VibrationBleeding]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] [VibrationExplosion]. Số lần [Vibration] của mục tiêu giảm 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9103805,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ruy Băng Thắt Chặt",
+          "desc": "[CanDuelGuard]\nKhi nhận sát thương, gây 1 [PinkRibbon_Ishmael] cho mục tiêu (1 lần mỗi kĩ năng)\n[StartBattle] Nhận 1 [MuscleContraction] vào lượt tiếp theo. Khi nhận sát thương, nhận thêm 1 (1 lần mỗi lượt)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

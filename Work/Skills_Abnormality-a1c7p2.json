@@ -1,0 +1,432 @@
+{
+  "dataList": [
+    {
+      "id": 838101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Dáng đi thật tao nhã...",
+          "desc": "Ưu tiên chỉ định đồng minh không bị Hoảng loạn, nếu mục tiêu là đồng minh, Sức mạnh Đối kháng +10, Lượng sát thương luôn cố định ở mức 0\nMỗi 3 [Laceration] của mục tiêu, Sức mạnh Đối kháng +1 (Tối đa 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [Laceration]\n- Nếu mục tiêu là đồng minh, thay thế hiệu ứng này bằng nhận [AttackUp] 3 cho đến lượt sau"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 838102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Cử chỉ thật xinh đẹp...",
+          "desc": "Ưu tiên chỉ định đồng minh không bị Hoảng loạn, nếu mục tiêu là đồng minh, Sức mạnh Đối kháng +10, Lượng sát thương luôn cố định ở mức 0\nMỗi 3 [Laceration] của mục tiêu, Sức mạnh Đối kháng +1 (Tối đa 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Tăng 3 số lần [Laceration]\n- Nếu mục tiêu là đồng minh, thay thế hiệu ứng này bằng nhận [DefenseUp] 3 cho đến lượt sau"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 838103,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Vẫy gọi khán giả...",
+          "desc": "[WhenUse] Mỗi 5 [FestivalFever] của bản thân hoặc mỗi 6 [Laceration] của mục tiêu, Sức mạnh Cuối cùng +1 (Tối đa 4)\n[WhenUse] Nếu [Laceration] thấp hơn 15, nhận 15 [Laceration] rồi kích hoạt ngay 1 lần và giảm 1 số lần [Laceration] (Nếu HP thấp hơn 10% thì chỉ kích hoạt hiệu ứng nhận [Laceration] và số lần [Laceration])\n[EndSkill] Tiêu hao 15 [BloodDinner]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Mỗi 6 [Laceration] của mục tiêu, nhận 1 [AttackUp] và 1 [DefenseUp] (Tối đa mỗi loại là 3)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Tăng 5 số lần [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Nhận 3 [BloomingThorns]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 838104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Cuộc diễu hành huyền ảo",
+          "desc": "[CantIdentify]\nƯu tiên chỉ định mục tiêu chính là kẻ địch và mục tiêu phụ là đồng minh, nếu mục tiêu là đồng minh, Sức mạnh Đối kháng +10, Lượng sát thương luôn cố định ở mức 0\n[WhenUse] Mỗi 20 [BloodDinner_Accumulation] của bản thân, Sức mạnh Đối kháng +1 (Tối đa 10)\n[WhenUse] Nếu [BloodDinner] thấp hơn 25, nhận 25 [Laceration] rồi kích hoạt ngay 1 lần, giảm 1 số lần [Laceration] (Nếu HP thấp hơn 10% thì chỉ kích hoạt hiệu ứng nhận [Laceration] và số lần [Laceration])\n[EndSkill] Tiêu hao 25 [BloodDinner]\n[EndBattle] Tiêu hao toàn bộ [FestivalFever]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Tỉ lệ thuận với [FestivalFever] của mục tiêu, gây 1 [AttackUp] và 1 [DefenseUp] cho đến lượt sau (Gây 1 đơn vị ứng với mỗi 3 [FestivalFever], tối đa mỗi loại là 3)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Tăng 3 số lần [Laceration]\n- Nếu mục tiêu là đồng minh, thay thế hiệu ứng này bằng gây 5 [BloomingThorns]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 838105,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Cuộc diễu hành sẽ lặp lại mãi mãi",
+          "desc": "[WhenUse] Mỗi 20 [BloodDinner_Accumulation] của bản thân, Sức mạnh Đối kháng +1 (Tối đa 10)\n[WhenUse] Nếu [BloodDinner] thấp hơn 50, nhận 25 [Laceration] và 2 số lần [Laceration] rồi kích hoạt ngay 2 lần, giảm 2 số lần [Laceration] (Nếu HP thấp hơn 10% thì chỉ kích hoạt hiệu ứng nhận [Laceration] và số lần [Laceration])\n[WhenUse] Tiêu hao một nửa [BloodDinner]\n[EndBattle] Tiêu hao toàn bộ [IncompleteParade]\n[EndBattle] Nhận 10 [FestivalFever]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Hồi HP bằng 25% Sát thương gây ra"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Hồi HP bằng 25% Sát thương gây ra"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Hồi HP bằng 50% Sát thương gây ra"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 5 [Laceration] và 5 [Burst] (Bộc phát)"
+                },
+                {
+                  "desc": "[EndCoin] Mỗi 10 [BloodDinner] đã tiêu hao bằng Kĩ năng này, nhận 1 [BloomingThorns] (Tối đa 10)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 838106,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Chỉ là lặp lại nó thôi...",
+          "desc": "[DuelCounter]\n[WhenUse] Nếu [FestivalFever] của bản thân từ 5 trở lên, Sức mạnh Đối kháng +3\n[StartBattle] Nhận 5 [BloomingThorns]\n[DefeatDuel] Mất 5 [BloomingThorns]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Tăng 2 số lần [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 838107,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Hạ màn",
+          "desc": "[WhenUse] Tiêu hao một nửa [BloodDinner]\n[WinDuel] Lượng sát thương tăng thêm (Lượng [BloodDinner] đã tiêu hao bằng Kĩ năng này)% (Tối đa 150%)\n[DefeatDuel] Lượng sát thương giảm 50%, mục tiêu không bị Hoảng loạn bởi sát thương từ Kĩ năng này\n[EndSkill] Điểm Tỉnh táo trở thành -45",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 6 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Tăng 6 số lần [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Gây 6 [Burst] (Bộc phát)"
+                },
+                {
+                  "desc": "[WinDuelAttack] Tăng 6 số lần [Burst] (Bộc phát)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[EndCoin] Mỗi 10 [BloodDinner] đã tiêu hao bằng Kĩ năng này, nhận 1 [BloomingThorns] (Tối đa 10)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 838901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Long Tuyền",
+          "desc": "[WhenUse] Nhận 2 [Agility] vào lượt sau",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Nhận 1 [Agility] vào lượt sau"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [Vulnerable] vào lượt sau"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 838902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Thu Liên",
+          "desc": "[WhenUse] Nhận 2 [Agility] vào lượt sau",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Nhận 1 [Agility] vào lượt sau"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [Vulnerable] vào lượt sau"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 838903,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Quỹ tích mờ nhạt",
+          "desc": "[WhenUse] Nhận 3 [Agility] vào lượt sau",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [SlashTakeDamageUp]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 838904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Quỹ tích nhợt nhạt",
+          "desc": "Nếu Tốc độ cao hơn mục tiêu từ 5 trở lên, Sức mạnh Đối kháng +5",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây thêm 100 sát thương"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 838905,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Mũi tên đỏ",
+          "desc": "[WhenUse] Nhận 2 [Agility] vào lượt sau",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây thêm 50 sát thương"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây thêm 50 sát thương"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 838906,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Mũi Tên Đen",
+          "desc": "[WhenUse] Nhận 2 [Agility] vào lượt tiếp theo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [MentalCrack]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [MentalCrack]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 838907,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Gương Nước",
+          "desc": "[CanDuelGuard]\n[WhenUse] Nhận 3 [Protection]\n[WinDuel] Gây sát thương máu bằng với Sức mạnh Khớp cuối cùng của kĩ năng này",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 838908,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Kích Hoạt Đường Ray Gia Tốc Điện",
+          "desc": "[StartBattle] Nhận 10 [Enhancement] và 10 [Agility] vào lượt tiếp theo",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 838909,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Mũi Tên",
+          "desc": "[WhenUse] Nhận 5 [PenetrateDamageUp]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

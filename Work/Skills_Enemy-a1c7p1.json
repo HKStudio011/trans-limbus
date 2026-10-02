@@ -1,0 +1,840 @@
+{
+    "dataList": [
+        {
+            "id": 9015201,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Ngạnh Huyết Thức - Đâm",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Gây 3 [Laceration]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9015202,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Ngạnh Huyết Thức - Chém Quét",
+                    "desc": "[WhenUse] Nếu [Laceration] của mục tiêu từ 8 trở lên, sát thương +20%",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Gây 2 [Laceration]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Gây 2 [Laceration]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Nếu [Laceration] từ 6 trở lên, nhận 1 [HardenedBlood]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Gây 2 [Laceration]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Nhận 8 [Laceration], 1 [BloodScissor]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9015203,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Ngạnh Huyết Thức - Chém Quét Cường Hóa",
+                    "desc": "[WhenUse] Nếu [Laceration] của mục tiêu từ 6 trở lên, Sức mạnh cơ bản +1\nVới mỗi [HardenedBlood], sát thương +5% (Tối đa 25%)\n[EndSkill] Tiêu hao toàn bộ [HardenedBlood], [BloodScissor]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Gây 3 [Laceration], số lượng [Laceration] tăng 2"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Hồi Máu tương đương ([Laceration] của mục tiêu)% Máu tối đa (Tối đa 20%)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9015204,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Phản kích",
+                    "desc": "[WhenUse] Với mỗi [HardenedBlood] của bản thân, Sức mạnh cơ bản +1",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackHead] Gây 2 [Laceration]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9015301,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Ngạnh Huyết Thức - Nêm",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng 2"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9015302,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Ngạnh Huyết Thức - Xẻ",
+                    "desc": "[WhenUse] Nếu [Laceration] của mục tiêu từ 4 trở lên, sát thương +10%",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng 2"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng 2"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Nếu [Laceration] từ 6 trở lên, nhận 1 [HardenedBlood]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng 2"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Nhận 8 [Laceration], 1 [BloodScissor]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9015303,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Ngạnh Huyết Thức - Xẻ Cường Hóa",
+                    "desc": "[WhenUse] Nếu số lượng [Laceration] của mục tiêu từ 6 trở lên, Sức mạnh cơ bản +1\nVới mỗi [HardenedBlood], sát thương +5% (Tối đa 25%)\n[EndSkill] Tiêu hao toàn bộ [HardenedBlood], [BloodScissor]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Gây 3 [Laceration], số lượng [Laceration] tăng 2"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Hồi Máu tương đương ([Laceration] của mục tiêu)% Máu tối đa (Tối đa 20%)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9015304,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Phản kích",
+                    "desc": "[WhenUse] Với mỗi [HardenedBlood] của bản thân, Sức mạnh cơ bản +1",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttackHead] Gây 2 [Laceration]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9015401,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Lễ hội, là lễ hội đó!",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Gây 3 [Laceration]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Gây 3 [Laceration]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9015402,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Để ta mặc đồ cho ngươi nhé",
+                    "desc": "[WhenUse] Nếu [Laceration] của mục tiêu từ 6 trở lên, sát thương +20%",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng 3"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Nếu [Laceration] của mục tiêu từ 5 trở lên, nhận 1 [HardenedBlood]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9015403,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Vẫn còn sự kiện mà!",
+                    "desc": "[WhenUse] Tiêu hao tối đa 50 [BloodDinner], với mỗi 10 [BloodDinner] tiêu hao, nhận 1 [BloodScissor]\n[WhenUse] Nếu không thể tiêu hao [BloodDinner] bằng Kĩ năng này, nhận 5 [Laceration], 1 [HardenedBlood]\n[WhenUse] Nếu [Laceration] của mục tiêu từ 5 trở lên, Sức mạnh Đồng xu +1",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Gây 3 [Laceration]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Gây 3 [Laceration]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9015404,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Đừng có hối",
+                    "desc": "[WhenUse] Nếu [Laceration] của mục tiêu từ 5 trở lên, Sức mạnh Đồng xu +1\n[WhenUse] Tỉ lệ thuận với [BloodScissor], Sức mạnh Đối đầu +1 (Tối đa 3)\nVới mỗi [HardenedBlood], sát thương +7% (Tối đa 35%)\n[EndSkill] Tiêu hao toàn bộ [HardenedBlood]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttackHead] Gây 8 [Laceration]"
+                                }
+                            ]
+                        },
+                        {},
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Tiêu hao tối đa 5 [BloodScissor], sát thương tăng (20 × số [BloodScissor] tiêu hao)% (Tối đa 100%)"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Hồi Máu tương đương (Sức mạnh [Laceration] của mục tiêu)% Máu tối đa (Tối đa 30%)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9015405,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Phản kích",
+                    "desc": "[WhenUse] Nếu [BloodScissor] từ 1 trở lên, Sức mạnh cơ bản +1\n[WhenUse] Nếu [HardenedBlood] của bản thân từ 3 trở lên, Sức mạnh Đồng xu +1",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Gây 2 [Laceration]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9015501,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Hãy đến đây nhiều hơn nữa nào",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Số lần [Laceration] tăng thêm 2"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Số lần [Laceration] tăng thêm 2"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9015502,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Ăn thêm một chút nữa thôi",
+                    "desc": "[WhenUse] Nếu [Laceration] của mục tiêu từ 4 trở lên, lượng sát thương +10%",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Gây 4 [Laceration]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Nếu [Laceration] của mục tiêu từ 5 trở lên, nhận 1 [HardenedBlood]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9015503,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Chắc chắn sẽ ngon tuyệt cú mèo cho mà xem!",
+                    "desc": "[WhenUse] Tiêu hao tối đa 50 [BloodDinner], mỗi 10 [BloodDinner] tiêu hao nhận 1 [BloodScissor]\n[WhenUse] Nếu không thể tiêu hao [BloodDinner] bằng kĩ năng này, nhận 5 [Laceration], 1 [HardenedBlood]\n[WhenUse] Nếu [Laceration] của mục tiêu từ 5 trở lên, Sức mạnh Đồng xu +1",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Gây 3 [Laceration]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Gây 3 [Laceration]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9015504,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Nhìn thảm hại như lũ chuột cống vậy!",
+                    "desc": "[WhenUse] Nếu [Laceration] của mục tiêu từ 5 trở lên, Sức mạnh Đồng xu +1\n[WhenUse] Sức mạnh Đối đầu +1 tỉ lệ thuận với [BloodScissor] (Tối đa 3)\nMỗi 1 [HardenedBlood], lượng sát thương +7% (Tối đa 35%)\n[EndSkill] Tiêu hao tất cả [HardenedBlood]",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[SuperCoin]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Gây 8 [Laceration]"
+                                }
+                            ]
+                        },
+                        {},
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Tiêu hao tối đa 5 [BloodScissor], lượng sát thương tăng (20 × số [BloodScissor] đã tiêu hao)% (Tối đa 100%)"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Hồi HP bằng (Cường độ [Laceration] của mục tiêu)% HP tối đa (Tối đa 30%)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9015505,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Phản kích",
+                    "desc": "[WhenUse] Nếu [BloodScissor] từ 1 trở lên, Sức mạnh Cơ bản +1\n[WhenUse] Nếu [HardenedBlood] của bản thân từ 3 trở lên, Sức mạnh Đồng xu +1",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Gây 2 [Laceration]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9015601,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Chém Xuống",
+                    "desc": "Nếu [Burst] của mục tiêu từ 5 trở lên, lượng sát thương +10%",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Gây 3 [Burst]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Gây 1 [DefenseDown]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9015602,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Khoét Vết Thương",
+                    "desc": "Nếu [Burst] của mục tiêu từ 5 trở lên, Sức mạnh Cơ bản +1",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Gây 1 [Burst]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Gây 1 [TakeHpHealReduce]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Nếu [Burst] của mục tiêu từ 5 trở lên, gây thêm 1 [TakeHpHealReduce]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9015603,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Chém Xuống Kịch Liệt",
+                    "desc": "[WhenUse] Nếu [Burst] của mục tiêu từ 10 trở lên, kĩ năng này không tiêu hao số lần [Burst] khi trúng đích",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Số lần [Burst] tăng thêm 1"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Gây 1 [Vulnerable]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Gây 4 [Burst]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Nếu [Burst] của mục tiêu từ 10 trở lên, lượng sát thương gây ra +30%"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9015604,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Cầm Máu",
+                    "desc": "[WhenUse] Nếu bản thân đang có [Laceration], giảm 2 [Laceration] của bản thân (không giảm xuống dưới 1)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9015701,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Chém Xuống",
+                    "desc": "Nếu số lần [Burst] của mục tiêu từ 3 trở lên, lượng sát thương +10%",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Số lần [Burst] tăng thêm 2"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Gây 1 [DefenseDown]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9015702,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Khoét Vết Thương",
+                    "desc": "Nếu số lần [Burst] của mục tiêu từ 3 trở lên, Sức mạnh Cơ bản +1",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Số lần [Burst] tăng thêm 1"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Gây 1 [TakeHpHealReduce]"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Nếu [Burst] của mục tiêu từ 5 trở lên, gây thêm 1 [TakeHpHealReduce]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9015703,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Chém Xuống Kịch Liệt",
+                    "desc": "[WhenUse] Nếu [Burst] của mục tiêu từ 10 trở lên, kĩ năng này không tiêu hao số lần [Burst] khi trúng đích",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Số lần [Burst] tăng thêm 2"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Gây 1 [Vulnerable]"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Gây [Burst] 3"
+                                },
+                                {
+                                    "desc": "[OnSucceedAttack] Nếu [Burst] của mục tiêu từ 10 trở lên, Sát thương gây ra +30%"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9015704,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Cầm Máu",
+                    "desc": "[WhenUse] Nếu bản thân có [Laceration], [Laceration] của bản thân giảm 2 (không giảm xuống dưới 1)",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9016001,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Hành Hung",
+                    "desc": "[WhenUse] Nhận [Breath] 2",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Gây [Laceration] 1"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Gây [Paralysis] 1"
+                                },
+                                {
+                                    "desc": "[CriticalOnSucceedAttack] Sát thương +20%"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9016002,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Ngược Đãi",
+                    "desc": "[WhenUse] Nhận [Breath] 2",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Gây [Vulnerable] 1"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Gây [DefenseDown] 1"
+                                },
+                                {
+                                    "desc": "[CriticalOnSucceedAttack] Nếu mục tiêu có [TrulyWeak], lượng sát thương tăng 30%"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9016101,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "「Grrrr...」",
+                    "desc": "",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Gây [Burst] 2"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9016102,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "「Grarr...」",
+                    "desc": "Nếu mục tiêu có từ 5 [Laceration] trở lên, Sát thương +10%",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Gây [Burst] 1"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Gây [Laceration] 2"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9016103,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Không, đã bảo là—「Grrrr」",
+                    "desc": "Nếu mục tiêu có từ 5 [Laceration] trở lên, Công suất Đồng xu +1",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Gây [Vulnerable] 1"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Gây [Burst] 2"
+                                }
+                            ]
+                        },
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": "[OnSucceedAttack] Gây [Laceration] 2"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9016104,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "…",
+                    "desc": "[WhenUse] Nhận [Protection] 1",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9016105,
+            "levelList": [
+                {
+                    "level": 1,
+                    "name": "Này, ta vẫn phải làm cái này à?",
+                    "desc": "[WhenUse] Nhận [Enhancement] 1 vào lượt kế tiếp",
+                    "coinlist": [
+                        {
+                            "coindescs": [
+                                {
+                                    "desc": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

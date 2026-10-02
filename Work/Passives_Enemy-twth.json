@@ -1,0 +1,64 @@
+{
+  "dataList": [
+    {
+      "id": 9104301,
+      "name": "Màu Nguyên Bản Mạnh Mẽ - Rouge",
+      "desc": "Trước khi tấn công trúng, nếu mục tiêu không có [Laceration], tăng số lượng [Laceration] của mục tiêu thêm 3 (Mỗi kẻ địch 1 lần mỗi lượt)"
+    },
+    {
+      "id": 9104302,
+      "name": "Dã Thú Phái - Masque de Chien",
+      "desc": "Khi kĩ năng trúng kẻ địch, gây cho mục tiêu 1 [BearClawWound]\n\nMỗi khi gây 4 [BearClawWound], nhận 1 [Enhancement] vào lượt tiếp theo (2 lần mỗi lượt)",
+      "flavor": "“Bắt đầu từ một loài động vật.”\n“Càng khám phá nghệ thuật và sự hoang dã, ta lại càng chồng chất những loài thú khác lên trên đó.”"
+    },
+    {
+      "id": 9104303,
+      "name": "Cảm Hứng Tràn Đầy",
+      "desc": "Khi bản thân hoặc đồng đội nhận sát thương, nhận 1 [AttackUp] vào lượt tiếp theo (1 lần mỗi kĩ năng, tối đa 3 lần mỗi lượt)"
+    },
+    {
+      "id": 9104304,
+      "name": "Nét Bút Cuối Cùng",
+      "desc": "Khi chết, gây 3 [BearClawWound] cho 2 kẻ địch ngẫu nhiên"
+    },
+    {
+      "id": 9104501,
+      "name": "Màu Nguyên Bản Mạnh Mẽ - Bleu",
+      "desc": "Trước khi tấn công trúng, nếu mục tiêu không có [Sinking], tăng số lượng [Sinking] của mục tiêu thêm 3 (Mỗi kẻ địch 1 lần mỗi lượt)"
+    },
+    {
+      "id": 9104502,
+      "name": "Dã Thú Phái - Masque de Chèvre-Hibou",
+      "desc": "Khi kĩ năng trúng kẻ địch, gây cho mục tiêu 1 [EagleClawWound]\n- Nếu bản thân có [Agility], lượng [EagleClawWound] gây ra +1\n\nMỗi khi gây 4 [EagleClawWound], nhận 1 [Agility] vào lượt tiếp theo (2 lần mỗi lượt)",
+      "flavor": "“Một loài dã thú thể hiện bản sắc của riêng mình. Chúng tôi lấy loài thú đó làm nền tảng nghệ thuật và ôm giữ niềm kiêu hãnh về nó. Vì vậy, cho dù một loài thú cụ thể nào đó đang thịnh hành trong Dã Thú Phái, chúng tôi cũng không thay đổi loài thú vốn là bản sắc của mình.”\n“Thế nhưng, tôi nghe nói thỉnh thoảng cũng có những kẻ thay đổi bản sắc xoành xoạch, chuyển sang loài thú khác mà chẳng có tính chủ thể... hừm.”"
+    },
+    {
+      "id": 9104503,
+      "name": "Biểu Hiện Nhanh Nhẹn",
+      "desc": "Nếu tốc độ cao hơn mục tiêu, Sức mạnh đối đầu +1"
+    },
+    {
+      "id": 9104504,
+      "name": "Nét Bút Cuối Cùng",
+      "desc": "Khi chết, gây 3 [EagleClawWound] cho 2 kẻ địch ngẫu nhiên"
+    },
+    {
+      "id": 9103401,
+      "name": "Chỉ Thị Truyền Bằng Mảnh Giấy",
+      "desc": "Bắt đầu lượt\n- Nhận [IndexPrescriptEnemy_0]/[IndexPrescriptEnemy_1]/[IndexPrescriptEnemy_2]/[IndexPrescriptEnemy_3] tùy theo giá trị [BlessingOfIndexPrescriptEnemy] của bản thân\n- Gây [IndexPrescriptTargetToPersonality] cho 1 Tù nhân ngẫu nhiên\n(Trong trận chiến tập trung, ưu tiên tấn công)",
+      "flavor": "“Chắc hẳn có những người biết rằng Chỉ thị được truyền đạt dưới nhiều hình thức khác nhau. Trong số đó, nhận Chỉ thị bằng mảnh giấy là phổ biến nhất, và có nhiều người ưa chuộng hình thức này.”"
+    },
+    {
+      "id": 9103402,
+      "name": "Ý Nghĩa Của Chỉ Thị",
+      "desc": "Nếu đã thực hiện [IndexPrescript_Base] trong lượt này,\nhồi 5 Tỉnh táo, nhận 2 [BlessingOfIndexPrescriptEnemy] khi kết thúc lượt (1 lần mỗi lượt)\n- Nếu đang sở hữu [IndexPrescriptEnemy_2] hoặc khi thực hiện [IndexPrescript_Base], nếu mục tiêu có [IndexPrescriptTargetToPersonality], hồi 10 Tỉnh táo và nhận 3 [BlessingOfIndexPrescriptEnemy] thay thế\n\nNếu không thể thực hiện [IndexPrescript_Base] trong lượt này,\nnhận 10 [KarmaOfIndexEnemy] khi kết thúc lượt\n- Nếu [BlessingOfIndexPrescriptEnemy] ít hơn 6, nhận 1 [BlessingOfIndexPrescriptEnemy] khi kết thúc lượt\n- Nếu [BlessingOfIndexPrescriptEnemy] là 9, không nhận [KarmaOfIndexEnemy]",
+      "flavor": "“Vậy thì, phương thức truyền đạt Chỉ thị... có bao nhiêu loại tất cả? Và liệu những Chỉ thị mang hình thái đa dạng đó thực sự bắt nguồn từ một nguồn duy nhất? Hay mỗi phương thức truyền đạt lại có một chủ thể riêng biệt?”\n“Nghiên cứu điều đó là nhiệm vụ của Hội Nghiên Cứu Ngón Trỏ chúng tôi. Bạn có muốn gia nhập không?”"
+    },
+    {
+      "id": 9103403,
+      "name": "Thanh Kiếm Của Người Thi Hành",
+      "desc": "Mỗi 1 [BlessingOfIndexPrescriptEnemy], tăng sát thương gây ra cho mục tiêu có [IndexPrescriptTargetToPersonality] thêm +2.5% (Tối đa 20%)\n- Nếu [BlessingOfIndexPrescriptEnemy] là 9, tăng sát thương gây ra cho mọi mục tiêu thêm +30% thay thế\n\nKhi đánh trúng mục tiêu sở hữu [IndexPrescriptTargetToPersonality],\nnhận 1 [Breath] và gây 1 [Sinking] (1 lần mỗi lượt)\n- Mỗi 3 [BlessingOfIndexPrescriptEnemy], số lần kích hoạt mỗi lượt +1 (Tối đa 2)",
+      "flavor": "Một thanh kiếm tầm thường, trông có vẻ tồi tàn.\nThanh kiếm này dần được hoàn thiện thành một thanh kiếm mang cá tính riêng thông qua những nội dung đã thực thi theo Chỉ thị, sự giúp đỡ từ những sứ giả xuất hiện từ hư vô, và sự tầm sư học đạo từ các Đại diện."
+    }
+  ]
+}

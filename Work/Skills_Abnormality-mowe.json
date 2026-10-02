@@ -1,0 +1,227 @@
+{
+  "dataList": [
+    {
+      "id": 835001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Quỳ xuống",
+          "desc": "[WhenUse] Nếu [Laceration] của mục tiêu từ 4 trở lên, Uy lực Đối đầu +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 4 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 835002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Kẻ không đáng để tâm",
+          "desc": "[WhenUse] Nếu [Laceration] của mục tiêu từ 4 trở lên, Uy lực Đối đầu +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lần [Laceration] tăng thêm 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 835003,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Cút đi... cút đi...!",
+          "desc": "[WhenUse] Nếu [Laceration] của mục tiêu từ 4 trở lên, Uy lực Đối đầu +1\n[WhenUse] Mỗi 1 số lần [Laceration] của mục tiêu, Lượng sát thương +5% (Tối đa 20%)",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 8 [Laceration], số lần [Laceration] tăng thêm 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 835004,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Hoàng tử của Buổi Diễu hành",
+          "desc": "[StartBattle] Chỉ tăng Trọng lượng Tấn công đối với các mục tiêu có [Laceration] (Tối đa 5)\n[WhenUse] Nếu [Laceration] của mục tiêu từ 4 trở lên, Uy lực Cơ bản +1\n[WhenUse] Nếu số lần [Laceration] của mục tiêu từ 3 trở lên, Uy lực Đồng xu +1\n[DefeatDuel] [KeptBlood] giảm 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lần [Laceration] tăng thêm 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Số lần [Laceration] tăng thêm 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 4 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 4 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 835005,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Máu... máu... máu...!",
+          "desc": "[WhenUse] Nếu [Laceration] của mục tiêu từ 8 trở lên, Uy lực Đồng xu +1\n[DefeatDuel] [KeptBlood] giảm 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 5 [Laceration], số lần [Laceration] tăng thêm 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Nếu [Laceration] của mục tiêu từ 10 trở lên, Lượng sát thương của Đồng xu tiếp theo +20%"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Nhận 1 [KeptBlood]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 1 [Binding] vào lượt tiếp theo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 835006,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Hãy mặc kệ ta...!",
+          "desc": "[WhenUseEvade] Mỗi 1 số lần [Laceration] của mục tiêu, Uy lực Cơ bản +1 (Tối đa 4)",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 835007,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ta là... hoàng tử... của buổi diễu hành này...!",
+          "desc": "[CantDuel]\n[WhenUse] Hiệu quả hồi phục của Thương [TabExplain] Cương Huyết tăng gấp đôi\n[WhenUse] Tinh thần về 0\n[EndSkill] Nhận 10 [KeptBlood]\nTrong lượt này, không bị Choáng. Kết thúc lượt sau khi sử dụng kĩ năng này.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [Laceration], số lần [Laceration] tăng thêm 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [Laceration], số lần [Laceration] tăng thêm 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [Laceration], số lần [Laceration] tăng thêm 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [Laceration], số lần [Laceration] tăng thêm 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 835008,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Nhất định... sẽ không quay lại đâu...!",
+          "desc": "[WhenUse] Mỗi 5 [Laceration] trên mục tiêu chính, Uy lực Đối đầu +1 (Tối đa 3)\n[WhenUse] Nếu số lần [Laceration] trên mục tiêu chính từ 4 trở lên, Uy lực Đồng xu +1\n[WhenUse] Mỗi 1 số lần [Laceration] trên mục tiêu chính, Lượng sát thương +5% (Tối đa 20%)\n[WhenUse] Hiệu quả hồi phục của Thương [TabExplain] Cương Huyết tăng gấp đôi\n[EndSkill] Nhận 10 [KeptBlood]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [Laceration], số lần [Laceration] tăng thêm 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [Laceration], số lần [Laceration] tăng thêm 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [Laceration], số lần [Laceration] tăng thêm 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gây 3 [Laceration], số lần [Laceration] tăng thêm 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

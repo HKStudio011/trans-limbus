@@ -1,0 +1,101 @@
+{
+  "dataList": [
+    {
+      "id": 9805,
+      "name": "Phước lành Chòm sao Xám",
+      "desc": "[Hiệu ứng dành riêng cho Bản thể ở vị trí 1]\n\nKhi bắt đầu màn chơi, nhận [KnightBless]",
+      "simpleDesc": [
+        {
+          "abilityID": 9744,
+          "simpleDesc": "Nhận [KnightBless]"
+        }
+      ]
+    },
+    {
+      "id": 9806,
+      "name": "Kẻ không được chọn",
+      "desc": "Mỗi khi đồng minh nhận sát thương, gây 3 [Sinking] cho kẻ tấn công\n\nKhi đồng minh tử trận, tất cả đồng minh nhận 2 [Enhancement] vào lượt tiếp theo (1 lần mỗi lượt)",
+      "simpleDesc": [
+        {
+          "abilityID": 9806,
+          "simpleDesc": "Gây [Sinking]"
+        },
+        {
+          "abilityID": 98061,
+          "simpleDesc": "Nhận [Enhancement]"
+        }
+      ]
+    },
+    {
+      "id": 9807,
+      "name": "Thanh kiếm mài sắc bằng nước mắt",
+      "desc": "Khi kỹ năng của đồng minh trúng đích, nếu Tinh thần của mục tiêu từ -20 trở xuống, gây sát thương Trầm mặc tương đương Uy lực [Sinking] của mục tiêu (1 lần mỗi kỹ năng)\n\n- Nếu là kỹ năng Đâm, gây thêm sát thương cố định tương đương (Số lượng [Sinking] ÷ 2) (1 lần mỗi kỹ năng)",
+      "simpleDesc": [
+        {
+          "abilityID": 9807,
+          "simpleDesc": "Gây thêm sát thương Trầm mặc"
+        },
+        {
+          "abilityID": 98071,
+          "simpleDesc": "Gây thêm sát thương cố định"
+        }
+      ]
+    },
+    {
+      "id": 9808,
+      "name": "Món quà chứa đựng tình yêu của Thiếu nữ Phép thuật",
+      "desc": "Mỗi khi kỹ năng nhận hoặc tiêu hao số tầng [Charge] hoặc Sạc đặc biệt của đồng minh đánh trúng, hồi ngẫu nhiên 3 Máu hoặc Tinh thần cho một đồng minh ngẫu nhiên (1 lần mỗi đồng xu, ngoại trừ đồng minh có Máu hoặc Tinh thần ở mức tối đa)\n\nKhi đồng minh hồi phục từ trạng thái Hoảng loạn hoặc Bị E.G.O xâm chiếm, hồi 20 Tinh thần",
+      "simpleDesc": [
+        {
+          "abilityID": 9808,
+          "simpleDesc": "Hồi Máu, Tinh thần ngẫu nhiên"
+        },
+        {
+          "abilityID": 98081,
+          "simpleDesc": "Hồi Tinh thần"
+        }
+      ]
+    },
+    {
+      "id": 9809,
+      "name": "Công dụng đã cạn, Căm thù trú ngụ",
+      "desc": "Nếu tiêu hao số tầng [Charge] bằng kỹ năng tấn công, nhận [AttackUp] tương đương (số tầng [Charge] đã tiêu hao ÷ 2) vào lượt tiếp theo (tối đa 10 mỗi lượt, bao gồm cả Sạc đặc biệt)\n\nKết thúc lượt, nếu Tinh thần của đồng minh bị giảm trong lượt này, đồng minh đó nhận 1 [Enhancement] và 1 [Vulnerable] vào lượt tiếp theo",
+      "simpleDesc": [
+        {
+          "abilityID": 9809,
+          "simpleDesc": "Nhận [AttackUp]"
+        },
+        {
+          "abilityID": 98091,
+          "simpleDesc": "Nhận [AttackUp], [DefenseDown]"
+        }
+      ]
+    },
+    {
+      "id": 9810,
+      "name": "Trường ngăn chặn Chấn thương",
+      "desc": "Khi bắt đầu màn chơi, tất cả đồng minh nhận 2 [TraumaShield].",
+      "simpleDesc": [
+        {
+          "abilityID": 9810,
+          "simpleDesc": "Nhận [TraumaShield]"
+        }
+      ]
+    },
+    {
+      "id": 9811,
+      "name": "Xử lý giá trị",
+      "desc": "Khi đồng minh tử trận trong trận chiến, nhận thêm mỗi loại tài nguyên E.G.O 2 đơn vị\n\nKhi bắt đầu chiến đấu, nếu có đồng minh được giải phóng khỏi trạng thái chờ trong lượt này, hồi 10 Tinh thần cho 2 đồng minh có Tinh thần thấp nhất (1 lần mỗi lượt, ngoại trừ trạng thái Hoảng loạn / Bị E.G.O xâm chiếm)",
+      "simpleDesc": [
+        {
+          "abilityID": 9811,
+          "simpleDesc": "Nhận tài nguyên E.G.O"
+        },
+        {
+          "abilityID": 98111,
+          "simpleDesc": "Hồi Tinh thần"
+        }
+      ]
+    }
+  ]
+}

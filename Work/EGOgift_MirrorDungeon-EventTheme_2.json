@@ -1,0 +1,884 @@
+{
+  "dataList": [
+    {
+      "id": 9751,
+      "name": "Lớp Da Rắn Lột",
+      "desc": "Khi bắt đầu lượt, tất cả đồng minh nhận [DefenseUp] 2.\nCấp độ Tấn công của mỗi đồng minh tăng thêm ([DefenseUp] của bản thân ÷ 4). (Tối đa 10)",
+      "simpleDesc": [
+        {
+          "abilityID": 9751,
+          "simpleDesc": "Tất cả đồng minh nhận [DefenseUp] và tăng Cấp độ Tấn công"
+        }
+      ]
+    },
+    {
+      "id": 19751,
+      "name": "Lớp Da Rắn Lột+",
+      "desc": "Khi bắt đầu lượt, tất cả đồng minh nhận [DefenseUp] <style=\"upgradeHighlight\">4</style>.\nCấp độ Tấn công của mỗi đồng minh tăng thêm ([DefenseUp] của bản thân ÷ <style=\"upgradeHighlight\">3</style>). (Tối đa 10)",
+      "simpleDesc": [
+        {
+          "abilityID": 19751,
+          "simpleDesc": "Tất cả đồng minh nhận [DefenseUp] và tăng Cấp độ Tấn công"
+        }
+      ]
+    },
+    {
+      "id": 29751,
+      "name": "Lớp Da Rắn Lột++",
+      "desc": "Khi bắt đầu lượt, tất cả đồng minh nhận [DefenseUp] 4.\nCấp độ Tấn công của mỗi đồng minh tăng thêm ([DefenseUp] của bản thân ÷ <style=\"upgradeHighlight\">2</style>). (Tối đa 10)",
+      "simpleDesc": [
+        {
+          "abilityID": 29751,
+          "simpleDesc": "Tất cả đồng minh nhận [DefenseUp] và tăng Cấp độ Tấn công"
+        }
+      ]
+    },
+    {
+      "id": 9752,
+      "name": "Hào Quang Giả Tạo",
+      "desc": "Mỗi khi đòn tấn công trúng đích, nhận [Zazen] 1 (tối đa 2 lần mỗi kỹ năng).\nNếu bản thân đã nhận sát thương từ kỹ năng của kẻ địch trong lượt này, nhận thêm [Zazen] +1",
+      "simpleDesc": [
+        {
+          "abilityID": 9752,
+          "simpleDesc": "Mỗi khi đòn tấn công trúng đích, nhận [Zazen] 1"
+        }
+      ]
+    },
+    {
+      "id": 19752,
+      "name": "Hào Quang Giả Tạo+",
+      "desc": "Mỗi khi đòn tấn công trúng đích, nhận [Zazen] 1 (tối đa <style=\"upgradeHighlight\">3</style> lần mỗi kỹ năng).\nNếu bản thân đã nhận sát thương từ kỹ năng của kẻ địch trong lượt này, nhận thêm [Zazen] +1",
+      "simpleDesc": [
+        {
+          "abilityID": 19752,
+          "simpleDesc": "Mỗi khi đòn tấn công trúng đích, nhận [Zazen] 1"
+        }
+      ]
+    },
+    {
+      "id": 29752,
+      "name": "Hào Quang Giả Tạo++",
+      "desc": "Mỗi khi đòn tấn công trúng đích, nhận [Zazen] <style=\"upgradeHighlight\">2</style> (tối đa 3 lần mỗi kỹ năng).\nNếu bản thân đã nhận sát thương từ kỹ năng của kẻ địch trong lượt này, nhận thêm [Zazen] +1",
+      "simpleDesc": [
+        {
+          "abilityID": 29752,
+          "simpleDesc": "Mỗi khi đòn tấn công trúng đích, nhận [Zazen] 2"
+        }
+      ]
+    },
+    {
+      "id": 9753,
+      "name": "Máy Đếm Nhịp",
+      "desc": "Nếu là lượt lẻ, tất cả đồng minh nhận [AttackDmgUp] 1. Nếu là lượt chẵn, tất cả đồng minh nhận [Protection] 1.",
+      "simpleDesc": [
+        {
+          "abilityID": 9753,
+          "simpleDesc": "Tất cả đồng minh được tăng khả năng tấn công hoặc phòng thủ tùy theo lượt"
+        }
+      ]
+    },
+    {
+      "id": 19753,
+      "name": "Máy Đếm Nhịp+",
+      "desc": "Nếu là lượt lẻ, tất cả đồng minh nhận [AttackDmgUp] 1. Nếu là lượt chẵn, tất cả đồng minh nhận [Protection] 1, <style=\"upgradeHighlight\">[DefenseUp] 1</style>.",
+      "simpleDesc": [
+        {
+          "abilityID": 19753,
+          "simpleDesc": "Tất cả đồng minh được tăng khả năng tấn công hoặc phòng thủ tùy theo lượt"
+        }
+      ]
+    },
+    {
+      "id": 29753,
+      "name": "Máy Đếm Nhịp++",
+      "desc": "Nếu là lượt lẻ, tất cả đồng minh nhận [AttackDmgUp] 1, <style=\"upgradeHighlight\">[AttackUp] 1</style>. Nếu là lượt chẵn, tất cả đồng minh nhận [Protection] 1, [DefenseUp] 1.",
+      "simpleDesc": [
+        {
+          "abilityID": 29753,
+          "simpleDesc": "Tất cả đồng minh được tăng khả năng tấn công hoặc phòng thủ tùy theo lượt"
+        }
+      ]
+    },
+    {
+      "id": 9754,
+      "name": "Ách Áp Chế",
+      "desc": "Khi bắt đầu màn chơi, HP tối đa của tất cả đồng minh tăng thêm (Tầng hiện tại × 2)% (Tối đa 20%)",
+      "simpleDesc": [
+        {
+          "abilityID": 9754,
+          "simpleDesc": "HP tối đa của tất cả đồng minh tăng tỷ lệ thuận với tầng hiện tại"
+        }
+      ]
+    },
+    {
+      "id": 19754,
+      "name": "Ách Áp Chế+",
+      "desc": "Khi bắt đầu màn chơi, HP tối đa của tất cả đồng minh tăng thêm (Tầng hiện tại × <style=\"upgradeHighlight\">3</style>)% (Tối đa <style=\"upgradeHighlight\">30</style>%)",
+      "simpleDesc": [
+        {
+          "abilityID": 19754,
+          "simpleDesc": "HP tối đa của tất cả đồng minh tăng tỷ lệ thuận với tầng hiện tại"
+        }
+      ]
+    },
+    {
+      "id": 29754,
+      "name": "Ách Áp Chế++",
+      "desc": "Khi bắt đầu màn chơi, HP tối đa của tất cả đồng minh tăng thêm (Tầng hiện tại × <style=\"upgradeHighlight\">5</style>)% (Tối đa <style=\"upgradeHighlight\">50</style>%)",
+      "simpleDesc": [
+        {
+          "abilityID": 29754,
+          "simpleDesc": "HP tối đa của tất cả đồng minh tăng tỷ lệ thuận với tầng hiện tại"
+        }
+      ]
+    },
+    {
+      "id": 9755,
+      "name": "Sự Khinh Miệt của Ánh Nhìn Khinh Miệt",
+      "desc": "[Hiệu ứng dành riêng cho Bản ngã ở vị trí số 6]\n\nKhi bắt đầu trận chiến, với mỗi kỹ năng tấn công của kẻ địch đang nhắm vào bản thân, Tăng Sát thương gây ra +10% (Tối đa 20%)\n\nNếu đang bị nhắm mục tiêu bởi 2 kỹ năng tấn công trở lên khi bắt đầu trận chiến, gây Sát thương cố định và Sát thương Tinh thần lên kẻ địch đang nhắm vào bản thân tương ứng với số lượng kỹ năng đang nhắm mục tiêu. (Tối đa 3. Không gây sát thương lên đồng minh)",
+      "simpleDesc": [
+        {
+          "abilityID": 9755,
+          "simpleDesc": "Tăng Sát thương và gây Sát thương cố định tỷ lệ thuận với số lượng kỹ năng tấn công của kẻ địch đang nhắm mục tiêu"
+        }
+      ]
+    },
+    {
+      "id": 19755,
+      "name": "Sự Khinh Miệt của Ánh Nhìn Khinh Miệt+",
+      "desc": "[Hiệu ứng dành riêng cho Bản ngã vị trí số 6 trong đội hình]\n\nKhi bắt đầu trận chiến, với mỗi kỹ năng tấn công của kẻ thù nhắm vào bản thân, Sát thương gây ra +10% (Tối đa 20%)\n\nKhi bắt đầu trận chiến, nếu là mục tiêu của từ 2 kỹ năng tấn công trở lên, gây <style=\"upgradeHighlight\">(2 × Số kỹ năng nhắm vào)</style> sát thương cố định và sát thương Tinh thần lên kẻ thù đang nhắm vào bản thân. (Tối đa <style=\"upgradeHighlight\">5</style>. Không gây sát thương lên đồng minh)",
+      "simpleDesc": [
+        {
+          "abilityID": 19755,
+          "simpleDesc": "Tăng lượng sát thương và gây sát thương cố định tỷ lệ thuận với số kỹ năng tấn công của kẻ thù nhắm vào"
+        }
+      ]
+    },
+    {
+      "id": 29755,
+      "name": "Sự Khinh miệt của Ánh nhìn Khinh miệt++",
+      "desc": "[Hiệu ứng dành riêng cho Bản ngã vị trí số <style=\"upgradeHighlight\">1</style>, 6 trong đội hình]\n\nKhi bắt đầu trận chiến, với mỗi kỹ năng tấn công của kẻ thù nhắm vào bản thân, Sát thương gây ra +10% (Tối đa <style=\"upgradeHighlight\">30</style>%)\n\nKhi bắt đầu trận chiến, nếu là mục tiêu của từ 2 kỹ năng tấn công trở lên, gây (2 × Số kỹ năng nhắm vào) sát thương cố định và sát thương Tinh thần lên kẻ thù đang nhắm vào bản thân. (Tối đa <style=\"upgradeHighlight\">10</style>. Không gây sát thương lên đồng minh)",
+      "simpleDesc": [
+        {
+          "abilityID": 29755,
+          "simpleDesc": "Tăng lượng sát thương và gây sát thương cố định tỷ lệ thuận với số kỹ năng tấn công của kẻ thù nhắm vào"
+        }
+      ]
+    },
+    {
+      "id": 9756,
+      "name": "Mồi lửa không thể nở",
+      "desc": "Nếu nhận sát thương chí mạng, Thể lực được duy trì ở mức 1 trong suốt đòn tấn công đó. Khi đòn tấn công đó kết thúc, hồi phục 20% Thể lực tối đa (Kích hoạt 1 lần mỗi trận chiến)",
+      "simpleDesc": [
+        {
+          "abilityID": 9756,
+          "simpleDesc": "Không chết khi nhận sát thương chí mạng và hồi phục Thể lực"
+        }
+      ]
+    },
+    {
+      "id": 19756,
+      "name": "Mồi lửa không thể nở+",
+      "desc": "Nếu nhận sát thương chí mạng, Thể lực được duy trì ở mức 1 trong suốt đòn tấn công đó. Khi đòn tấn công đó kết thúc, hồi phục 20% Thể lực tối đa (Kích hoạt 1 lần mỗi trận chiến)\n\n<style=\"upgradeHighlight\">Nếu bản thân có [Combustion], lượng Thể lực hồi phục khi đòn tấn công đó kết thúc sẽ là 30%. (Cùng với hiệu ứng trên, kích hoạt 1 lần mỗi trận chiến)</style>",
+      "simpleDesc": [
+        {
+          "abilityID": 19756,
+          "simpleDesc": "Không chết khi nhận sát thương chí mạng và hồi phục Thể lực"
+        }
+      ]
+    },
+    {
+      "id": 29756,
+      "name": "Mồi lửa không thể nở++",
+      "desc": "Nếu nhận sát thương chí mạng, Thể lực được duy trì ở mức 1 trong suốt đòn tấn công đó. Khi đòn tấn công đó kết thúc, hồi phục 20% Thể lực tối đa (Kích hoạt 1 lần mỗi trận chiến)\n\nNếu bản thân có [Combustion], lượng Thể lực hồi phục khi đòn tấn công đó kết thúc sẽ là <style=\"upgradeHighlight\">40</style>%. (Cùng với hiệu ứng trên, kích hoạt 1 lần mỗi trận chiến)",
+      "simpleDesc": [
+        {
+          "abilityID": 29756,
+          "simpleDesc": "Không chết khi nhận sát thương chí mạng và hồi phục Thể lực"
+        }
+      ]
+    },
+    {
+      "id": 9757,
+      "name": "Phích cắm tiếp địa chống Cừu điện",
+      "desc": "Nếu nhận sát thương trong trận chiến, gây [Paralysis] 1 lên kẻ tấn công ở lượt tiếp theo. (Mỗi nhân vật 1 lần mỗi lượt)",
+      "simpleDesc": [
+        {
+          "abilityID": 9757,
+          "simpleDesc": "Khi nhận sát thương, gây [Paralysis] 1 ở lượt tiếp theo"
+        }
+      ]
+    },
+    {
+      "id": 19757,
+      "name": "Phích cắm tiếp địa chống Cừu điện+",
+      "desc": "Nếu nhận sát thương trong trận chiến, gây [Paralysis] 1 lên kẻ tấn công ở lượt tiếp theo (Mỗi nhân vật 1 lần mỗi lượt)\n\n<style=\"upgradeHighlight\">Khi bắt đầu trận chiến, nếu Cộng hưởng Hoàn toàn hệ Đố kỵ từ 5 trở lên, gây [Paralysis] 1 cho tất cả kẻ thù</style>",
+      "simpleDesc": [
+        {
+          "abilityID": 19757,
+          "simpleDesc": "Khi bắt đầu trận chiến hoặc khi nhận sát thương, gây [Paralysis] 1 ở lượt tiếp theo"
+        }
+      ]
+    },
+    {
+      "id": 9758,
+      "name": "Tàn dư của Vua",
+      "desc": "Khi bắt đầu lượt, nếu có Bản ngã được giải phóng trạng thái chờ, hồi phục 10 Tinh thần cho Bản ngã đó, nhận [Enhancement] 2, [ParryingResultUp] 2, và nhận mỗi loại tài nguyên E.G.O tương ứng với thuộc tính Kỹ năng 1, 2, 3 của bản thân 1 đơn vị.",
+      "simpleDesc": [
+        {
+          "abilityID": 9758,
+          "simpleDesc": "Hồi phục Tinh thần, tăng Uy lực Đấu trí, nhận tài nguyên E.G.O khi giải phóng trạng thái chờ"
+        }
+      ]
+    },
+    {
+      "id": 9759,
+      "name": "Đèn lồng tắt lửa",
+      "desc": "[Hiệu ứng dành riêng cho Bản ngã vị trí số 7 trong đội hình]\n\nGiá trị số lượng [Vibration] nhận được từ hiệu ứng Kỹ năng/Đồng xu +1\n\n- Nếu mục tiêu tấn công đang trong trạng thái Chệnh choạng, Giảm chí khí, hoặc Hoảng loạn, thay vào đó là +2",
+      "simpleDesc": [
+        {
+          "abilityID": 9759,
+          "simpleDesc": "Tăng số lượng [Vibration] nhận được từ hiệu ứng Kỹ năng/Đồng xu"
+        }
+      ]
+    },
+    {
+      "id": 9760,
+      "name": "Chân nến tắt lửa",
+      "desc": "[Hiệu ứng dành riêng cho Bản ngã vị trí số 1 trong đội hình]\n\nKhi bắt đầu lượt, nếu có kẻ thù đang trong trạng thái Chệnh choạng, Giảm chí khí, hoặc Hoảng loạn, gây [AttackDown] 1 hoặc [DefenseDown] 1 cho tất cả kẻ thù. (Tối đa 3 lần mỗi lượt)\n\nKhi đánh trúng kẻ thù đang trong trạng thái Chệnh choạng, Giảm chí khí, hoặc Hoảng loạn, gây [AttackDown] 1 hoặc [DefenseDown] 1 (Tối đa 3 lần mỗi lượt)",
+      "simpleDesc": [
+        {
+          "abilityID": 9760,
+          "simpleDesc": "Gây [AttackDown] hoặc [DefenseDown] 1"
+        },
+        {
+          "abilityID": 97601,
+          "simpleDesc": "Gây [AttackDown] hoặc [DefenseDown] 1"
+        }
+      ]
+    },
+    {
+      "id": 9761,
+      "name": "Quái vật bóng đêm",
+      "desc": "[Hiệu ứng dành riêng cho Bản ngã vị trí số 1, 2, 7, 8 trong đội hình]\n\nGiá trị số lượng [Vibration] nhận được từ hiệu ứng Kỹ năng/Đồng xu +1\n- Nếu mục tiêu tấn công đang trong trạng thái Chệnh choạng, Giảm chí khí, hoặc Hoảng loạn, thay vào đó là +2\n\nKhi bắt đầu lượt, nếu có kẻ thù đang trong trạng thái Chệnh choạng, Giảm chí khí, hoặc Hoảng loạn, gây [AttackDown] 2 hoặc [DefenseDown] 2 cho tất cả kẻ thù. (Tối đa 3 lần mỗi lượt)\n\nKhi đánh trúng kẻ thù đang trong trạng thái Chệnh choạng, Giảm chí khí, hoặc Hoảng loạn, gây [AttackDown] 1 hoặc [DefenseDown] 1 (Tối đa 3 lần mỗi lượt. Chia sẻ số lần với các Bản ngã khác)",
+      "simpleDesc": [
+        {
+          "abilityID": 9761,
+          "simpleDesc": "Tăng số lượng [Vibration] nhận được từ hiệu ứng Kỹ năng/Đồng xu"
+        },
+        {
+          "abilityID": 97611,
+          "simpleDesc": "Gây [AttackDown] hoặc [DefenseDown] 1"
+        },
+        {
+          "abilityID": 97612,
+          "simpleDesc": "Gây [AttackDown] hoặc [DefenseDown] 1"
+        }
+      ]
+    },
+    {
+      "id": 9762,
+      "name": "Hộp quà gói sẵn",
+      "desc": "Mỗi khi kỹ năng của đồng minh đánh trúng, gây ngẫu nhiên 1 hiệu ứng có Cấp độ 1 trong số [Combustion], [Laceration], [Vibration], [Burst], [Sinking] (3 lần mỗi lượt)\n\nKhi đồng minh tiêu diệt kẻ thù, một đồng minh ngẫu nhiên nhận 1 hiệu ứng có Cấp độ 1 ở lượt tiếp theo trong số số lượng [Breath], số lượng [Charge], [Agility], [AttackUp], [DefenseUp] (3 lần mỗi lượt)",
+      "simpleDesc": [
+        {
+          "abilityID": 9762,
+          "simpleDesc": "Gây hiệu ứng có hại ngẫu nhiên"
+        },
+        {
+          "abilityID": 97621,
+          "simpleDesc": "Nhận hiệu ứng có lợi ngẫu nhiên"
+        }
+      ]
+    },
+    {
+      "id": 9763,
+      "name": "Ruy băng gói quà",
+      "desc": "Khi bắt đầu lượt, tất cả đồng minh nhận ngẫu nhiên 1 hiệu ứng trong số \"Tăng Sát thương hệ Phẫn nộ ~ Đố kỵ\".\n\nKhi bắt đầu lượt, gây 1 hiệu ứng ngẫu nhiên trong số \"Mong manh hệ Phẫn nộ ~ Đố kỵ\" cho tất cả kẻ địch.",
+      "simpleDesc": [
+        {
+          "abilityID": 9763,
+          "simpleDesc": "Nhận Tăng Sát thương hệ ngẫu nhiên"
+        },
+        {
+          "abilityID": 97631,
+          "simpleDesc": "Gây Mong manh hệ ngẫu nhiên"
+        }
+      ]
+    },
+    {
+      "id": 9764,
+      "name": "Quà tặng",
+      "desc": "Mỗi khi kỹ năng của đồng minh trúng đích, gây 1 trị số cho 2 hiệu ứng ngẫu nhiên trong số [Combustion], [Laceration], [Vibration], [Burst], [Sinking] (3 lần mỗi lượt).\n\nMỗi khi kỹ năng của đồng minh trúng đích, 2 đồng minh ngẫu nhiên nhận 1 hiệu ứng ngẫu nhiên trong số số lượng [Breath], số lượng [Charge], [Agility], [AttackUp], [DefenseUp] ở lượt kế tiếp (3 lần mỗi lượt).\n\nKhi bắt đầu lượt, tất cả đồng minh nhận 2 hiệu ứng ngẫu nhiên (mỗi cái 1) trong số Tăng Sát thương hệ Phẫn nộ ~ Đố kỵ.\n\nKhi bắt đầu lượt, gây 2 hiệu ứng ngẫu nhiên (mỗi cái 1) trong số Mong manh hệ Phẫn nộ ~ Đố kỵ cho tất cả kẻ địch.",
+      "simpleDesc": [
+        {
+          "abilityID": 9764,
+          "simpleDesc": "Gây hiệu ứng bất lợi ngẫu nhiên"
+        },
+        {
+          "abilityID": 97641,
+          "simpleDesc": "Nhận hiệu ứng có lợi ngẫu nhiên"
+        },
+        {
+          "abilityID": 97642,
+          "simpleDesc": "Nhận Tăng Sát thương hệ ngẫu nhiên"
+        }
+      ]
+    },
+    {
+      "id": 9765,
+      "name": "Búp bê May vá Vui vẻ",
+      "desc": "Tỷ lệ với số lượng kỹ năng tấn công gây sát thương của đồng minh khi kết thúc lượt, nhận 2 trị số [Breath] ở lượt kế tiếp.\n- Ở các màn chơi thuộc hình thức Chiến đấu Tập trung, hiệu ứng được cường hóa và nhận 4 trị số [Breath].\n\nKhi bắt đầu lượt, gây cho đồng minh có HP thấp nhất 2 [Breath], 2 số lượng [Breath], 2 [Protection].\n\nSát thương gây ra cho kẻ địch +(Giá trị tuyệt đối Tinh thần của bản thân đồng minh. Tối thiểu 0)%\n\nKhi đồng minh sở hữu Coin Cộng hồi phục từ trạng thái Hoảng loạn, hồi phục hoàn toàn Tinh thần (Không kích hoạt nếu đang ở trạng thái Ăn mòn).\n\nNếu tất cả kỹ năng là Coin Trừ, nhận 5 [Paralysis] khi bắt đầu lượt",
+      "simpleDesc": [
+        {
+          "abilityID": 9765,
+          "simpleDesc": "Nhận trị số [Breath]"
+        },
+        {
+          "abilityID": 97651,
+          "simpleDesc": "Gây hiệu ứng có lợi ngẫu nhiên"
+        },
+        {
+          "abilityID": 97652,
+          "simpleDesc": "Gây [Breath], [Protection]"
+        },
+        {
+          "abilityID": 97653,
+          "simpleDesc": "Tăng Sát thương"
+        },
+        {
+          "abilityID": 97654,
+          "simpleDesc": "Hồi phục hoàn toàn Tinh thần"
+        },
+        {
+          "abilityID": 97655,
+          "simpleDesc": "Nhận [Paralysis]"
+        }
+      ]
+    },
+    {
+      "id": 9766,
+      "name": "Gia hạn Khế ước Mặc khải",
+      "desc": "Nếu không có [RequestedTarget] nào đang sống, đồng minh đầu tiên tấn công sẽ gây hiệu ứng [RequestedTarget] lên kẻ địch (1 lần mỗi lượt)",
+      "simpleDesc": [
+        {
+          "abilityID": 9766,
+          "simpleDesc": "Gây [RequestedTarget]"
+        }
+      ]
+    },
+    {
+      "id": 9767,
+      "name": "Tẩu thuốc Hắc hỏa",
+      "desc": "[Hiệu ứng dành riêng cho Bản ngã ở vị trí số 1]\n\nMỗi lượt nhận 2 [Enhancement], 1 [Vulnerable].\n\nNếu Cấp Phòng thủ của mục tiêu tấn công chính bị giảm, nhận 5 [Breath] trước khi tấn công.\n\nSát thương của kỹ năng Đâm hệ Ngạo mạn +(50 ÷ Số lượng Coin)% (Bao gồm E.G.O)",
+      "simpleDesc": [
+        {
+          "abilityID": 9767,
+          "simpleDesc": "Nhận [Enhancement], [Vulnerable]"
+        },
+        {
+          "abilityID": 97671,
+          "simpleDesc": "Nhận [Breath]"
+        },
+        {
+          "abilityID": 97672,
+          "simpleDesc": "Tăng Sát thương kỹ năng Đâm"
+        }
+      ]
+    },
+    {
+      "id": 9768,
+      "name": "Bình đẳng",
+      "desc": "Nếu Kháng Đâm của kẻ địch từ 1.5 trở xuống, Kháng Đâm +0.3",
+      "simpleDesc": [
+        {
+          "abilityID": 9768,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9769,
+      "name": "Chỉ huy Nhanh nhẹn",
+      "desc": "Khi kết thúc lượt, nếu có đồng minh rút lui trong lượt này, 1 đồng minh có Tốc độ cao nhất nhận 2 [Enhancement], 1 [AttackDmgUp] vào đầu lượt kế tiếp.\n\nKhi bắt đầu trận đấu, nếu có đồng minh được triển khai từ hàng chờ trong lượt này, đồng minh đó nhận 2 [Enhancement], 2 [Endurance]",
+      "simpleDesc": [
+        {
+          "abilityID": 9769,
+          "simpleDesc": "Nhận [Enhancement], [AttackDmgUp]"
+        },
+        {
+          "abilityID": 97691,
+          "simpleDesc": "Nhận [Enhancement], [Endurance]"
+        }
+      ]
+    },
+    {
+      "id": 9770,
+      "name": "Mảnh Bánh răng",
+      "desc": "Khi bắt đầu lượt, nếu bản thân có [Breath], nhận 2 [DefenseUp], 1 [Endurance].\n\nNếu có [Breath], sát thương của Coin trúng đích đầu tiên +10%.\n\nNếu Coin đó đánh Chí mạng, Sát thương Chí mạng +20%",
+      "simpleDesc": [
+        {
+          "abilityID": 9770,
+          "simpleDesc": "Nhận [DefenseUp], [Endurance]"
+        },
+        {
+          "abilityID": 97701,
+          "simpleDesc": "Tăng Sát thương của Coin trúng đích đầu tiên"
+        }
+      ]
+    },
+    {
+      "id": 9771,
+      "name": "Giáo trình Chiến thuật Cận chiến",
+      "desc": "Nếu không tiêu hao [Bullet] ở kỹ năng có thể tiêu hao, nhận 1 [Enhancement] trong lượt này và lượt tiếp theo (1 lần mỗi lượt).\n\nKhi nhận [Bullet], sát thương của Kỹ năng 3 sử dụng trong lượt này và lượt tiếp theo +50%.\n\nKhi sử dụng kỹ năng tiêu hao [Bullet], nhận 3 [Breath], 1 số lượng [Breath]",
+      "simpleDesc": [
+        {
+          "abilityID": 9771,
+          "simpleDesc": "Nhận [Enhancement]"
+        },
+        {
+          "abilityID": 97711,
+          "simpleDesc": "Tăng sát thương Kỹ năng 3"
+        },
+        {
+          "abilityID": 97712,
+          "simpleDesc": "Nhận trị số, số lượng [Breath]"
+        }
+      ]
+    },
+    {
+      "id": 9772,
+      "name": "Găng tay Đánh lửa",
+      "desc": "Khi thắng đối đầu với kẻ địch bằng kỹ năng tấn công cơ bản gây Uy lực [Combustion] hoặc Hỏa thiêu đặc biệt, gây 2 Uy lực [Combustion] (2 lần mỗi lượt cho mỗi Bản thể)\n\nKhi thắng đối đầu với kẻ địch bằng kỹ năng tấn công cơ bản gây Số lượng [Combustion], Số lượng [Combustion] của mục tiêu tăng thêm 2. (3 lần mỗi lượt cho mỗi kẻ địch)\n\nKỹ năng tấn công cơ bản gây Uy lực [Combustion], Số lượng [Combustion] hoặc Hỏa thiêu đặc biệt được tăng Cấp độ tấn công dựa trên số lượng sở hữu của mỗi kỹ năng (Tối đa 3).\n- Nếu số lượng sở hữu kỹ năng đó từ 3 trở lên, Cấp độ tấn công tăng thêm 2.",
+      "simpleDesc": [
+        {
+          "abilityID": 9772,
+          "simpleDesc": "Gây [Combustion]"
+        },
+        {
+          "abilityID": 97721,
+          "simpleDesc": "Tăng Số lượng [Combustion]"
+        },
+        {
+          "abilityID": 97722,
+          "simpleDesc": "Tăng Cấp độ tấn công"
+        }
+      ]
+    },
+    {
+      "id": 9773,
+      "name": "Giày Chiến Đấu Gai",
+      "desc": "Khi thắng đối đầu với kẻ địch bằng kỹ năng tấn công cơ bản gây Số lượng [Burst], Số lượng [Burst] của mục tiêu tăng thêm 3 (2 lần mỗi lượt cho mỗi kẻ địch)\n\nKhi trúng đích, hiệu ứng Xu nếu mục tiêu không có [Burst] sẽ gây Uy lực [Burst], thay vì gây Uy lực [Burst] sẽ gây Số lượng [Burst] (Tối đa 4, 2 lần mỗi lượt cho mỗi kẻ địch, tính theo từng bộ phận đối với Thực thể dị thường)\n\nKỹ năng tấn công cơ bản gây Uy lực [Burst] hoặc Số lượng [Burst] được tăng Cấp độ tấn công dựa trên số lượng sở hữu của mỗi kỹ năng (Tối đa 3).\n- Nếu số lượng sở hữu kỹ năng đó từ 3 trở lên, Cấp độ tấn công tăng thêm 2.",
+      "simpleDesc": [
+        {
+          "abilityID": 9773,
+          "simpleDesc": "Tăng Số lượng [Burst]"
+        },
+        {
+          "abilityID": 97731,
+          "simpleDesc": "Tăng Số lượng [Burst]"
+        },
+        {
+          "abilityID": 97732,
+          "simpleDesc": "Tăng Cấp độ tấn công"
+        }
+      ]
+    },
+    {
+      "id": 9774,
+      "name": "Bugi Đánh Lửa Lại",
+      "desc": "Sát thương của kỹ năng tấn công cơ bản gây Số lượng [Combustion] +20%, Số lượng [Combustion] gây ra +1. Khi trúng đích kẻ địch đang có [Combustion] hoặc Hỏa thiêu đặc biệt bằng kỹ năng đó, gây 1 [DefenseDown] (2 lần mỗi lượt cho mỗi Bản thể)\n\nKhi bắt đầu lượt, các Bản thể có tất cả kỹ năng tấn công cơ bản gây Uy lực [Combustion], Số lượng [Combustion] hoặc Hỏa thiêu đặc biệt sẽ nhận [AttackUp] dựa theo số lượt đã sống sót (Ngoại trừ lượt xuất trận, tối đa 5)",
+      "simpleDesc": [
+        {
+          "abilityID": 9774,
+          "simpleDesc": "Gây [DefenseDown]"
+        },
+        {
+          "abilityID": 97741,
+          "simpleDesc": "Nhận [AttackUp]"
+        },
+        {
+          "abilityID": 97742,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9775,
+      "name": "Thuốc Tăng Cường Mk.4",
+      "desc": "Khi đồng xu cuối cùng trúng đích kẻ địch có Uy lực [Burst] từ 15 trở xuống bằng kỹ năng cơ bản gây Uy lực [Burst] hoặc Số lượng [Burst], Số lượng [Burst] của mục tiêu tăng thêm 3 (1 lần mỗi lượt cho mỗi Bản thể)\n\nKỹ năng tấn công cơ bản gây Số lượng [Burst] được +1 Uy lực đối đầu, +20% Sát thương",
+      "simpleDesc": [
+        {
+          "abilityID": 9775,
+          "simpleDesc": "Tăng Số lượng [Burst]"
+        },
+        {
+          "abilityID": 97751,
+          "simpleDesc": "Tăng Uy lực đối đầu, Sát thương"
+        },
+        {
+          "abilityID": 97752,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9776,
+      "name": "Than Hồng",
+      "desc": "Khi bắt đầu lượt, Số lượng [Combustion] của tất cả kẻ địch (tất cả bộ phận đối với Thực thể dị thường) tăng thêm 1~2.\n\nKẻ địch đang có [Combustion] nếu bị đồng minh đánh trúng 5 lần bằng kỹ năng tấn công (bao gồm cả kỹ năng E.G.O) gây Uy lực [Combustion], Số lượng [Combustion] hoặc Hỏa thiêu đặc biệt, [Combustion] sẽ kích hoạt 1 lần và Số lượng [Combustion] giảm đi 1 (2 lần mỗi lượt cho mỗi kẻ địch, tính theo từng bộ phận đối với Thực thể dị thường)",
+      "simpleDesc": [
+        {
+          "abilityID": 9776,
+          "simpleDesc": "Tăng Số lượng [Combustion]"
+        },
+        {
+          "abilityID": 97761,
+          "simpleDesc": "Kích hoạt [Combustion]"
+        }
+      ]
+    },
+    {
+      "id": 9777,
+      "name": "Cành Cây Nhỏ",
+      "desc": "Kẻ địch đang có [Burst] mỗi khi bị đồng minh đánh trúng bằng kỹ năng tấn công (bao gồm kỹ năng E.G.O) gây Uy lực [Burst] hoặc Số lượng [Burst] và khiến [Burst] kích hoạt 3 lần, mục tiêu sẽ nhận 2 [AttackDown] vào lượt tiếp theo (3 lần mỗi lượt cho mỗi kẻ địch, tính theo từng bộ phận đối với Thực thể dị thường)\n\nKhi tiêu diệt kẻ địch bằng kỹ năng tấn công cơ bản gây Số lượng [Burst], gây ngẫu nhiên Số lượng [Burst] còn lại của mục tiêu đã tử vong cho kẻ địch vào lượt tiếp theo (2 lần mỗi lượt)",
+      "simpleDesc": [
+        {
+          "abilityID": 9777,
+          "simpleDesc": "Gây [AttackDown]"
+        },
+        {
+          "abilityID": 97771,
+          "simpleDesc": "Tăng Số lượng [Burst]"
+        },
+        {
+          "abilityID": 97772,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9778,
+      "name": "Trang Bị Tác Chiến Thông Thường",
+      "desc": "Bản thể thuộc Limbus Company được +1 Cấp độ tấn công và +15% Sát thương cho kỹ năng 2, +2 Cấp độ tấn công và +30% Sát thương cho kỹ năng 3\n\nNếu có từ 4 Bản thể thuộc Limbus Company trở lên trong đội dự bị, khi bắt đầu lượt, 2 đồng minh ngẫu nhiên nhận 2 [AttackUp]",
+      "simpleDesc": [
+        {
+          "abilityID": 9778,
+          "simpleDesc": "Tăng Cấp độ tấn công, Sát thương"
+        },
+        {
+          "abilityID": 97781,
+          "simpleDesc": "Nhận Tăng Cấp độ tấn công"
+        }
+      ]
+    },
+    {
+      "id": 9779,
+      "name": "Thẻ Phê Duyệt Tác Chiến",
+      "desc": "Nếu có đồng minh tử vong hoặc rút lui trong trận chiến, khi bắt đầu lượt tiếp theo, tất cả Bản thể nhận ngẫu nhiên tổng cộng 3 [AttackUp] (2 lần mỗi lượt)\n- Nếu có từ 3 đồng minh trở lên tử vong hoặc rút lui trong trận chiến, hiệu ứng được tăng cường, gây ngẫu nhiên tổng cộng 6 [AttackUp] (2 lần mỗi lượt)\n\nKhi bắt đầu lượt, 3 đồng minh có Tinh thần thấp nhất lần lượt hồi phục 15, 10, 5 Tinh thần (Không cộng dồn, áp dụng theo thứ tự Tinh thần thấp dần. Không áp dụng nếu đang ở trạng thái Hoảng loạn hoặc Xâm thực)",
+      "simpleDesc": [
+        {
+          "abilityID": 9779,
+          "simpleDesc": "Nhận Tăng Cấp độ tấn công"
+        },
+        {
+          "abilityID": 97791,
+          "simpleDesc": "Hồi phục Tinh thần"
+        }
+      ]
+    },
+    {
+      "id": 9780,
+      "name": "Trang Bị Tác Chiến Nguy Hiểm Cao",
+      "desc": "Bản thể thuộc Limbus Company được +2 Cấp độ tấn công và +20% Sát thương cho kỹ năng 2, +3 Cấp độ tấn công và +40% Sát thương cho kỹ năng 3\n\nKhi bắt đầu lượt, các đồng minh ngẫu nhiên nhận 2 [AttackUp] dựa theo số lượng Bản thể thuộc Limbus Company đã tử vong hoặc nằm trong đội dự bị\n\nNếu có đồng minh tử vong hoặc rút lui trong trận chiến, khi bắt đầu lượt tiếp theo, tất cả Bản thể nhận ngẫu nhiên tổng cộng 3 [AttackUp] (Gây đều, 2 lần mỗi lượt)\n- Nếu có từ 3 đồng minh trở lên tử vong hoặc rút lui trong trận chiến, hiệu ứng được tăng cường, nhận ngẫu nhiên tổng cộng 6 [AttackUp]\n- Nếu có từ 3 Bản thể thuộc Limbus Company trở lên tử vong hoặc rút lui trong trận chiến, hiệu ứng được tăng cường, nhận ngẫu nhiên tổng cộng 8 [AttackUp]",
+      "simpleDesc": [
+        {
+          "abilityID": 9780,
+          "simpleDesc": "Tăng Cấp độ tấn công, Sát thương"
+        },
+        {
+          "abilityID": 97801,
+          "simpleDesc": "Nhận Tăng Cấp độ tấn công được chia ngẫu nhiên"
+        },
+        {
+          "abilityID": 97802,
+          "simpleDesc": "Nhận Tăng Cấp độ tấn công được chia ngẫu nhiên"
+        }
+      ]
+    },
+    {
+      "id": 9781,
+      "name": "Chén Gỗ",
+      "desc": "Khi thua đối đầu, nhận 1 [Protection] và hồi phục 3~6 Tinh thần (1 lần mỗi lượt cho mỗi Bản thể)\n\nKhi tấn công kẻ địch bằng [SuperCoin] của kỹ năng đã thua đối đầu (ngoại trừ kỹ năng E.G.O), nếu là kỹ năng Xu cộng thì Uy lực Xu cộng +(3 ÷ Số lượng Xu), Sát thương +20% (Giá trị tăng Uy lực Xu cộng tối thiểu là 1), nếu là kỹ năng Xu trừ thì Sát thương +40%",
+      "simpleDesc": [
+        {
+          "abilityID": 9781,
+          "simpleDesc": "Nhận [Protection], hồi phục Tinh thần"
+        },
+        {
+          "abilityID": 97811,
+          "simpleDesc": "Tăng uy lực Đồng xu, tăng sát thương"
+        }
+      ]
+    },
+    {
+      "id": 9782,
+      "name": "Chuôi kiếm cũ",
+      "desc": "Đồng minh nhận [ScarletResultUp] 1 khi bắt đầu lượt\n\nNếu thuộc Kiếm Khế hoặc Hội Hắc Vân, hiệu ứng được cường hóa và nhận [ScarletResultUp] 2, [SlashResultUp] 1",
+      "simpleDesc": [
+        {
+          "abilityID": 9782,
+          "simpleDesc": "Nhận Tăng uy lực Sắc dục"
+        },
+        {
+          "abilityID": 97821,
+          "simpleDesc": "Nhận Tăng uy lực Sắc dục, Tăng uy lực Trảm kích"
+        }
+      ]
+    },
+    {
+      "id": 9783,
+      "name": "Tuyệt cảnh",
+      "desc": "Kích hoạt khi bắt đầu lượt nếu có từ 3 Bản ngã thuộc Hội Hắc Vân trở lên (dựa trên quân số xuất kích)\n\nĐồng minh nhận [ScarletResultUp] 2, [SlashResultUp] 1 khi bắt đầu lượt\n\nUy lực Đồng xu của kỹ năng tấn công cơ bản mà Bản ngã thuộc Hội Hắc Vân sử dụng +(4 ÷ Số Đồng xu, tối thiểu 1), Số lượng gây [Laceration] +1, Số lượt gây [Laceration] +1, Sát thương +(80 ÷ Số Đồng xu)%\n\nVô hiệu hóa ngưỡng Choáng đầu tiên của Bản ngã thuộc Hội Hắc Vân, nếu Máu dưới 50% tối đa thì nhận [Protection] 2 khi bắt đầu lượt. Bản ngã thuộc Hội Hắc Vân đã nhận sát thương từ kẻ địch trong lượt này sẽ nhận [Agility] 2 ở lượt kế tiếp",
+      "simpleDesc": [
+        {
+          "abilityID": 9783,
+          "simpleDesc": "Nhận Tăng uy lực Sắc dục, Tăng uy lực Trảm kích"
+        },
+        {
+          "abilityID": 97831,
+          "simpleDesc": "Tăng uy lực Đồng xu, số lượng gây Xuất huyết, số lượt gây Xuất huyết, tăng sát thương"
+        },
+        {
+          "abilityID": 97832,
+          "simpleDesc": "Vô hiệu hóa ngưỡng Choáng đầu tiên, nhận [Protection] nếu Máu dưới mức nhất định, nhận [Agility] khi nhận sát thương"
+        }
+      ]
+    },
+    {
+      "id": 9784,
+      "name": "Trác ma",
+      "desc": "Kích hoạt khi bắt đầu lượt nếu có từ 3 Bản ngã thuộc Kiếm Khế trở lên (dựa trên quân số xuất kích)\n\nĐồng minh nhận [SlashResultUp] 2 khi bắt đầu lượt, sát thương gây ra +35%\n\nKhi Bản ngã thuộc Kiếm Khế gây sát thương Chí mạng lên kẻ địch, gây thêm sát thương Ngạo mạn bằng ([Breath] ÷ 2) hiện có\n\nKhi kết thúc lượt, nếu Bản ngã thuộc Kiếm Khế đang có từ 30 [Breath] trở lên, tiêu hao 10 [Breath] và nhận [SlashDamageUp] 2 ở lượt kế tiếp",
+      "simpleDesc": [
+        {
+          "abilityID": 9784,
+          "simpleDesc": "Nhận Tăng uy lực Trảm kích, tăng sát thương"
+        },
+        {
+          "abilityID": 97841,
+          "simpleDesc": "Gây thêm sát thương Ngạo mạn bằng ([Breath] ÷ 2)"
+        },
+        {
+          "abilityID": 97842,
+          "simpleDesc": "Nhận Tăng sát thương Trảm kích"
+        }
+      ]
+    },
+    {
+      "id": 9785,
+      "name": "Tùng vân",
+      "desc": "Kích hoạt khi bắt đầu lượt nếu có từ 3 Bản ngã thuộc Hội Hắc Vân trở lên (dựa trên quân số xuất kích)\n\nSát thương khi trúng đích bằng [SuperCoin] của kỹ năng tấn công cơ bản +(40 ÷ Số Đồng xu)% (ngoại trừ kỹ năng E.G.O). Với Bản ngã thuộc Hội Hắc Vân, hiệu ứng được cường hóa thành sát thương +(80 ÷ Số Đồng xu)%\n\nBản ngã thuộc Hội Hắc Vân sở hữu kỹ năng tấn công cơ bản hệ Trảm kích nhận [SlashDamageUp] 2 khi bắt đầu lượt. Khi kết thúc lượt, với mỗi 10% Máu đã mất của Bản ngã thuộc Hội Hắc Vân, nhận [AttackUp] 1, [DefenseUp] 1 ở lượt kế tiếp (tối đa 5 mỗi loại)\n\nKhi một Bản ngã thuộc Hội Hắc Vân tử trận, tất cả Bản ngã thuộc Hội Hắc Vân nhận [AttackDmgUp] 2 ở lượt kế tiếp (1 lần mỗi lượt)",
+      "simpleDesc": [
+        {
+          "abilityID": 9785,
+          "simpleDesc": "Tăng sát thương"
+        },
+        {
+          "abilityID": 97851,
+          "simpleDesc": "Nhận Tăng sát thương Trảm kích, Tăng cấp Tấn công, Tăng cấp Phòng thủ"
+        },
+        {
+          "abilityID": 97852,
+          "simpleDesc": "Nhận Tăng sát thương"
+        }
+      ]
+    },
+    {
+      "id": 9786,
+      "name": "Hình xăm cường hóa - Trung Chỉ",
+      "desc": "Uy lực Đối kháng của kỹ năng Đập +1\n- Với Bản ngã thuộc Trung Chỉ, thay thế bằng Uy lực Đối kháng +1, Uy lực Đồng xu +1\n- Với Bản ngã thuộc Trung Chỉ, nếu mục tiêu chính là [RetaliationBook], thay thế bằng Uy lực Đối kháng +1, Uy lực Đồng xu +1, sát thương +10%",
+      "simpleDesc": [
+        {
+          "abilityID": 9786,
+          "simpleDesc": "Tăng uy lực Đối kháng. Nếu thuộc Trung Chỉ, tăng cả uy lực Đồng xu và sát thương"
+        }
+      ]
+    },
+    {
+      "id": 9787,
+      "name": "Lá bùa ký tự lạ",
+      "desc": "Khi tiêu diệt mục tiêu có [Burst] bằng kỹ năng tấn công của bản thân (phá hủy bộ phận trong Trận chiến tập trung), chia số lượng [Burst] của mục tiêu và gây cho tất cả kẻ địch (các bộ phận trong Trận chiến tập trung) (tối đa 2 mỗi mục tiêu, làm tròn xuống)\n\nKhi tiêu diệt mục tiêu có [BurstAgility] bằng kỹ năng tấn công của bản thân (phá hủy bộ phận trong Trận chiến tập trung), thay thế hiệu ứng trên bằng cách chia số lượng và số lượt [Burst] của mục tiêu rồi gây cho tất cả kẻ địch (các bộ phận trong Trận chiến tập trung) (tối đa 2 mỗi mục tiêu, làm tròn xuống)",
+      "simpleDesc": [
+        {
+          "abilityID": 9787,
+          "simpleDesc": "Gây [Vết rách]"
+        },
+        {
+          "abilityID": 97871,
+          "simpleDesc": "Gây số lượng, số lượt [Vết rách]"
+        }
+      ]
+    },
+    {
+      "id": 9788,
+      "name": "Chân Mão",
+      "desc": "Khi Tốc độ của bản thân cao hơn mục tiêu, gây thêm (Chênh lệch tốc độ ÷ 3) số lượng hoặc số lượt [Vết rách] cho mục tiêu bằng kỹ năng (tối đa 3)",
+      "simpleDesc": [
+        {
+          "abilityID": 9788,
+          "simpleDesc": "Gây số lượng hoặc số lượt [Vết rách]"
+        }
+      ]
+    },
+    {
+      "id": 9789,
+      "name": "Xiềng xích nghĩa khí",
+      "desc": "Khi Bản ngã cùng hội nhận sát thương, sát thương Đập của các nhân sự cùng hội +5% (tối đa 15% mỗi lượt)\n\nVới Bản ngã thuộc Trung Chỉ, thay thế hiệu ứng này bằng nhận [AttackUp] 1 và sát thương Đập +10% (tối đa 3 lần mỗi lượt, tối đa 30% mỗi lượt)",
+      "simpleDesc": [
+        {
+          "abilityID": 9789,
+          "simpleDesc": "Tăng sát thương Đập. Nếu thuộc Trung Chỉ, nhận thêm Tăng cấp Tấn công"
+        }
+      ]
+    },
+    {
+      "id": 9790,
+      "name": "Ký tự lạ được khắc ghi",
+      "desc": "Khi Đối kháng với mục tiêu có [Burst], tăng uy lực Đối kháng bằng (Số lượng [Burst] của đối phương ÷ 20) (tối đa 2)\n- Khi Đối kháng với mục tiêu có [BurstAgility], thay thế hiệu ứng trên bằng cách tăng uy lực Đối kháng (Số lượng [Burst] của đối phương ÷ 15) (tối đa 3)\n\nKhi gây sát thương bằng hiệu ứng [BurstAgility], gây thêm sát thương cố định bằng (Sát thương [BurstAgility] ÷ 3)",
+      "simpleDesc": [
+        {
+          "abilityID": 9790,
+          "simpleDesc": "Tăng uy lực Đối kháng"
+        },
+        {
+          "abilityID": 97901,
+          "simpleDesc": "Gây thêm sát thương khi gây sát thương bằng Lá bùa Hắc Thú - Mão"
+        }
+      ]
+    },
+    {
+      "id": 9791,
+      "name": "Nón lá bóng đêm",
+      "desc": "Kết thúc lượt, nếu thuộc Hắc Thú - Mão, nhận [Agility] 2 ở lượt kế tiếp\n\nNếu Tốc độ của bản thân cao hơn mục tiêu hoặc thực hiện Tấn công một chiều, sát thương Trảm kích +(Chênh lệch tốc độ ÷ 3) x 10% (tối đa 30%)\n\nNếu Tốc độ của bản thân cao hơn mục tiêu, sát thương nhận vào -(Chênh lệch tốc độ ÷ 3) x 10% (tối đa 30%)",
+      "simpleDesc": [
+        {
+          "abilityID": 9791,
+          "simpleDesc": "Nhận Tốc độ"
+        },
+        {
+          "abilityID": 97911,
+          "simpleDesc": "Tăng sát thương Trảm kích"
+        },
+        {
+          "abilityID": 97912,
+          "simpleDesc": "Giảm sát thương nhận vào"
+        }
+      ]
+    },
+    {
+      "id": 9792,
+      "name": "Xiềng xích Cơ duyên Vĩnh cửu",
+      "desc": "Khi bắt đầu lượt, kích hoạt khi có từ 2 ID thuộc phe Ngón Giữa trở lên (tính trên nhân sự xuất trận)\n\nKhi ID cùng phe nhận sát thương, tăng +5% sát thương Va chạm cho các nhân sự cùng phe (tối đa 15% mỗi lượt)\nTrường hợp là ID thuộc phe Ngón Giữa, thay vì hiệu ứng này, nhận 1 Tăng Cấp độ Tấn công và tăng +10% sát thương Va chạm (tối đa 3 mỗi lượt, tối đa 30% mỗi lượt)\n\nUy lực cơ bản của kỹ năng Va chạm +1\n- Trường hợp là ID thuộc phe Ngón Giữa, thay vì hiệu ứng này, Uy lực cơ bản +1, Uy lực đồng xu +1\n- Trường hợp là ID thuộc phe Ngón Giữa, nếu mục tiêu là [RetaliationBook], thay vì hiệu ứng này, Uy lực cơ bản +1, Uy lực đồng xu +1, Sát thương +30%\n\nTrường hợp là ID thuộc phe Ngón Giữa, giá trị Tốc độ tối thiểu/tối đa trong trận chiến +1",
+      "simpleDesc": [
+        {
+          "abilityID": 9792,
+          "simpleDesc": "Tăng sát thương Va chạm. Nếu thuộc phe Ngón Giữa, tăng cả Cấp độ Tấn công"
+        },
+        {
+          "abilityID": 97921,
+          "simpleDesc": "Tăng uy lực kỹ năng Va chạm"
+        },
+        {
+          "abilityID": 97922,
+          "simpleDesc": "Tăng giá trị Tốc độ tối thiểu/tối đa"
+        }
+      ]
+    },
+    {
+      "id": 9793,
+      "name": "Li Điền Tất Tự",
+      "desc": "Khi bắt đầu lượt, nếu có từ 5 ID trở lên sở hữu kỹ năng tấn công gây Uy lực [Burst] hoặc Số lượng [Burst], kích hoạt trong suốt trận chiến này. (Không tính kỹ năng E.G.O, không tính nhân sự dự bị)\n\nKhi tiêu diệt mục tiêu có [Burst] bằng kỹ năng tấn công của bản thân (phá hủy bộ phận đối với Trận chiến Tập trung), chia đều Uy lực [Burst] của mục tiêu đó và gây cho tất cả kẻ địch (các bộ phận đối với Trận chiến Tập trung) (tối đa mỗi cái 3)\n\nKhi tiêu diệt mục tiêu có [BurstAgility] bằng kỹ năng tấn công của bản thân (phá hủy bộ phận đối với Trận chiến Tập trung), thay vì hiệu ứng trên, chia đều Uy lực và Số lượng [Burst] của mục tiêu đó và gây cho tất cả kẻ địch (các bộ phận đối với Trận chiến Tập trung) (tối đa 6)\n\nKhi đấu tranh với mục tiêu có [Burst], Uy lực Đấu tranh tăng thêm (Số [Burst] của mục tiêu ÷ 20) (tối đa 2)\n- Khi đấu tranh với mục tiêu có [BurstAgility], thay vì hiệu ứng trên, Uy lực đồng xu tăng thêm (Số [Burst] của mục tiêu ÷ 10) (tối đa 2)\n\nKhi gây sát thương bằng hiệu ứng [BurstAgility], gây thêm sát thương cố định bằng (Sát thương [BurstAgility] ÷ 2)",
+      "simpleDesc": [
+        {
+          "abilityID": 9793,
+          "simpleDesc": "Gây Vết rách"
+        },
+        {
+          "abilityID": 97931,
+          "simpleDesc": "Gây Vết rách"
+        },
+        {
+          "abilityID": 97932,
+          "simpleDesc": "Tăng uy lực Đấu tranh"
+        },
+        {
+          "abilityID": 97933,
+          "simpleDesc": "Hắc Thú - Khi gây sát thương bằng Bùa Mão, gây thêm sát thương"
+        }
+      ]
+    },
+    {
+      "id": 9794,
+      "name": "Bình nhiên liệu căng phồng",
+      "desc": "[Hiệu ứng dành riêng cho ID ở vị trí số 2 và 4 trong đội hình]\n\nKhi nhận sát thương khiến HP trở về 0, có 60% xác suất không nhận sát thương đó và hồi 30 HP (Kích hoạt 1 lần cho mỗi ID trong mỗi trận chiến)\nHiệu ứng hồi phục và ngăn chặn cái chết sẽ không kích hoạt trong các trạng thái sau\n- Lượng sát thương kỹ năng vượt quá HP tối đa của bản thân khi nhận sát thương\n- Đang sở hữu Giảm hiệu ứng hồi phục HP",
+      "simpleDesc": [
+        {
+          "abilityID": 9794,
+          "simpleDesc": "Hồi phục HP"
+        }
+      ]
+    },
+    {
+      "id": 2080,
+      "name": "Chuôi kiếm cũ",
+      "desc": "Đồng minh nhận [ScarletResultUp] 1 khi bắt đầu lượt\n\nNếu thuộc phe Hội Kiếm hoặc Hội Hắc Vân, hiệu ứng được cường hóa và nhận [ScarletResultUp] 2, [SlashResultUp] 1",
+      "simpleDesc": [
+        {
+          "abilityID": 2080,
+          "simpleDesc": "Nhận Tăng uy lực Sắc dục"
+        },
+        {
+          "abilityID": 20801,
+          "simpleDesc": "Nhận Tăng uy lực Sắc dục, Tăng uy lực Trảm kích"
+        }
+      ]
+    },
+    {
+      "id": 2081,
+      "name": "Tuyệt cảnh",
+      "desc": "Khi bắt đầu lượt, kích hoạt khi có từ 3 ID thuộc phe Hội Hắc Vân trở lên (tính trên nhân sự xuất trận)\n\nĐồng minh nhận [ScarletResultUp] 2, [SlashResultUp] 1 khi bắt đầu lượt\n\nKỹ năng tấn công cơ bản mà ID thuộc phe Hội Hắc Vân sử dụng sẽ có Uy lực đồng xu +(4 ÷ số đồng xu, tối thiểu 1), Số lượng Uy lực [Laceration] gây ra +1, Số lượng Số lần [Laceration] gây ra +1, Sát thương +(80 ÷ số đồng xu)%\n\nVô hiệu hóa ngưỡng Choáng đầu tiên của ID thuộc phe Hội Hắc Vân, nếu HP thấp hơn 50% HP tối đa thì nhận [Protection] 2 khi bắt đầu lượt. ID thuộc phe Hội Hắc Vân đã nhận sát thương từ kẻ địch trong lượt này sẽ nhận [Agility] 2 vào lượt tiếp theo",
+      "simpleDesc": [
+        {
+          "abilityID": 2081,
+          "simpleDesc": "Nhận Tăng uy lực Sắc dục, Tăng uy lực Trảm kích"
+        },
+        {
+          "abilityID": 20811,
+          "simpleDesc": "Tăng Uy lực đồng xu, Số lượng Uy lực [Xuất huyết] gây ra, Số lượng Số lần [Xuất huyết] gây ra, Sát thương"
+        },
+        {
+          "abilityID": 20812,
+          "simpleDesc": "Vô hiệu hóa ngưỡng Choáng đầu tiên, nhận Bảo hộ nếu HP dưới mức nhất định, nhận Tốc độ khi nhận sát thương"
+        }
+      ]
+    },
+    {
+      "id": 2082,
+      "name": "Trác Ma",
+      "desc": "Khi bắt đầu lượt, kích hoạt khi có từ 3 ID thuộc phe Hội Kiếm trở lên (tính trên nhân sự xuất trận)\n\nĐồng minh nhận [SlashResultUp] 2 khi bắt đầu lượt, Sát thương gây ra +35%\n\nKhi ID thuộc phe Hội Kiếm gây sát thương bạo kích lên kẻ địch, gây thêm sát thương Ngạo mạn bằng (Uy lực [Breath] đang sở hữu ÷ 2)\n\nVào cuối lượt, nếu ID thuộc phe Hội Kiếm sở hữu từ 30 Uy lực [Breath] trở lên, tiêu hao 10 Uy lực [Breath] và nhận [SlashDamageUp] 2 vào lượt tiếp theo",
+      "simpleDesc": [
+        {
+          "abilityID": 2082,
+          "simpleDesc": "Nhận Tăng uy lực Trảm kích, Tăng sát thương"
+        },
+        {
+          "abilityID": 20821,
+          "simpleDesc": "Gây thêm sát thương Ngạo mạn bằng (Uy lực [Breath] ÷ 2)"
+        },
+        {
+          "abilityID": 20822,
+          "simpleDesc": "Nhận Tăng sát thương Trảm kích"
+        }
+      ]
+    }
+  ]
+}
