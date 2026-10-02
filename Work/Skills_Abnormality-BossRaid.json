@@ -386,16 +386,16 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Bearspine Breaker",
-                    "desc": "[WhenUse] At 8+ [Breath], deal +40% damage on Critical Hit\n[WhenUse] Final Power +1 for every 4 [Laceration] on target (max 2)\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>At 7+ [ChoiSwordsmanship], convert all Coins into [SuperCoin]s and deal +100% damage on Critical Hit</color></mark></b></u>\n[DefeatDuel]\n- Deal -80% damage\n- Does not hit Critically\n- Damage dealt by this Skill cannot Stagger the target",
+                    "name": "Bẻ Lưng Gấu",
+                    "desc": "[WhenUse] Nếu có 8+ [Breath], sát thương Chí mạng +40%\n[WhenUse] Sức mạnh Cuối cùng +1 cho mỗi 4 [Laceration] trên mục tiêu (tối đa 2)\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>Nếu có 7+ [ChoiSwordsmanship], chuyển toàn bộ Đồng xu thành [SuperCoin] và sát thương Chí mạng +100%</color></mark></b></u>\n[DefeatDuel]\n- Lượng sát thương cuối cùng giảm 80%\n- Không kích hoạt Chí mạng\n- Sát thương do kĩ năng này gây ra không thể khiến mục tiêu bị Chấn động",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Inflict 1 [SlashResistDown] this turn and next turn"
+                                    "desc": "[OnSucceedAttack] Gây 1 [SlashResistDown] vào lượt này và lượt kế tiếp"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Inflict 5 [Laceration] and +3 [Laceration] Count"
+                                    "desc": "[OnSucceedAttack] Gây 5 [Laceration] và +3 Số lần [Laceration]"
                                 }
                             ]
                         }
@@ -408,34 +408,34 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Tigersplitter",
-                    "desc": "[WhenUse] At 8+ [Breath], deal +40% damage on Critical Hit\n[WhenUse] Final Power +1 for every 4 [Laceration] on target (max 2)\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>At 3 or fewer [ChoiSwordsmanship], convert all Coins into [SuperCoin]s and deal +100% damage on Critical Hit</color></mark></b></u>\n[DefeatDuel]\n- Deal -80% damage\n- Does not hit Critically\n- Damage dealt by this Skill cannot Stagger the target",
+                    "name": "Xẻ Hổ",
+                    "desc": "[WhenUse] Nếu có 8+ [Breath], sát thương Chí mạng +40%\n[WhenUse] Sức mạnh Cuối cùng +1 cho mỗi 4 [Laceration] trên mục tiêu (tối đa 2)\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>Nếu có 3 [ChoiSwordsmanship] trở xuống, chuyển toàn bộ Đồng xu thành [SuperCoin] và sát thương Chí mạng +100%</color></mark></b></u>\n[DefeatDuel]\n- Lượng sát thương cuối cùng giảm 80%\n- Không kích hoạt Chí mạng\n- Sát thương do kĩ năng này gây ra không thể khiến mục tiêu bị Chấn động",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Inflict 2 [Laceration] and +2 [Laceration] Count"
+                                    "desc": "[OnSucceedAttack] Gây 2 [Laceration] và +2 Số lần [Laceration]"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Inflict 2 [Laceration] and +2 [Laceration] Count"
+                                    "desc": "[OnSucceedAttack] Gây 2 [Laceration] và +2 Số lần [Laceration]"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Inflict 2 [Binding] next turn"
+                                    "desc": "[OnSucceedAttack] Gây 2 [Binding] vào lượt kế tiếp"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Inflict 1 [SlashResistDown] this turn and next turn"
+                                    "desc": "[OnSucceedAttack] Gây 1 [SlashResistDown] vào lượt này và lượt kế tiếp"
                                 }
                             ]
                         }
@@ -448,8 +448,8 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Sword of the Homeland [Sal] - Reassume Stance",
-                    "desc": "Unaffected by [ChoiSwordsmanship]\nIf target's Skill is [SupportProtect] Exclusive Skill, convert into [SuperCoin]\n[StartDuel] <color=#ff6000><mark color=#ff000040><b><u>Lose 3 [ChoiSwordsmanship]</color></mark></b></u>\n- If target's Skill is [SupportProtect] Exclusive Skill, this effect does not activate\n[EndSkill] <color=#ff6000><mark color=#ff000040><b><u>On Hit as an Unopposed Attack, or On Hit against target that used [SupportProtect] Exclusive Skill, gain 2 [ChoiSwordsmanship]</color></mark></b></u>",
+                    "name": "Kiếm của Tổ quốc [Sal] - Tiếp tục thế",
+                    "desc": "Không bị ảnh hưởng bởi [ChoiSwordsmanship]\nNếu Kĩ năng của mục tiêu là Kĩ năng độc quyền [SupportProtect], chuyển thành [SuperCoin]\n[StartDuel] <color=#ff6000><mark color=#ff000040><b><u>Mất 3 [ChoiSwordsmanship]</color></mark></b></u>\n- Nếu Kĩ năng của mục tiêu là Kĩ năng độc quyền [SupportProtect], hiệu ứng này không kích hoạt\n[EndSkill] <color=#ff6000><mark color=#ff000040><b><u>Khi đánh trúng bằng Đòn tấn công một chiều, hoặc đánh trúng mục tiêu đã sử dụng Kĩ năng độc quyền [SupportProtect], nhận 2 [ChoiSwordsmanship]</color></mark></b></u>",
                     "coinlist": [
                         {}
                     ]
@@ -461,8 +461,8 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Sword of the Homeland [Sal] - Swordhoning",
-                    "desc": "Unaffected by [ChoiSwordsmanship]\nIf target's Skill is [SupportProtect] Exclusive Skill, convert into [SuperCoin]\n[StartDuel] <color=#ff6000><mark color=#ff000040><b><u>Gain 3 [ChoiSwordsmanship]</color></mark></b></u>\n- If target's Skill is [SupportProtect] Exclusive Skill, this effect does not activate\n[EndSkill] <color=#ff6000><mark color=#ff000040><b><u>On Hit as an Unopposed Attack, or On Hit against target that used [SupportProtect] Exclusive Skill, lose 2 [ChoiSwordsmanship]</color></mark></b></u>",
+                    "name": "Kiếm của Tổ quốc [Sal] - Bôi dầu kiếm",
+                    "desc": "Không bị ảnh hưởng bởi [ChoiSwordsmanship]\nNếu Kĩ năng của mục tiêu là Kĩ năng độc quyền [SupportProtect], chuyển thành [SuperCoin]\n[StartDuel] <color=#ff6000><mark color=#ff000040><b><u>Nhận 3 [ChoiSwordsmanship]</color></mark></b></u>\n- Nếu Kĩ năng của mục tiêu là Kĩ năng độc quyền [SupportProtect], hiệu ứng này không kích hoạt\n[EndSkill] <color=#ff6000><mark color=#ff000040><b><u>Khi đánh trúng bằng Đòn tấn công một chiều, hoặc đánh trúng mục tiêu đã sử dụng Kĩ năng độc quyền [SupportProtect], mất 2 [ChoiSwordsmanship]</color></mark></b></u>",
                     "coinlist": [
                         {}
                     ]
@@ -474,16 +474,16 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Bearspine Breaker",
-                    "desc": "[WhenUse] At 8+ [Breath], deal +40% damage on Critical Hit\n[WhenUse] Final Power +1 for every 4 [Laceration] on target (max 2)\n[WhenUse] At more than 6 [ChoiSwordsmanship], gain Final Power for every excess [ChoiSwordsmanship] Stack (max 3)\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>At 7+ [ChoiSwordsmanship], convert all Coins into [SuperCoin]s and deal +100% damage on Critical Hit</color></mark></b></u>\n[DefeatDuel]\n- Deal -80% damage\n- Does not hit Critically\n- Damage dealt by this Skill cannot Stagger the target",
+                    "name": "Bẻ Lưng Gấu",
+                    "desc": "[WhenUse] Nếu có 8+ [Breath], sát thương Chí mạng +40%\n[WhenUse] Sức mạnh Cuối cùng +1 cho mỗi 4 [Laceration] trên mục tiêu (tối đa 2)\n[WhenUse] Nếu có trên 6 [ChoiSwordsmanship], nhận Sức mạnh Cuối cùng cho mỗi Tầng [ChoiSwordsmanship] vượt mức (tối đa 3)\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>Nếu có 7+ [ChoiSwordsmanship], chuyển toàn bộ Đồng xu thành [SuperCoin] và sát thương Chí mạng +100%</color></mark></b></u>\n[DefeatDuel]\n- Lượng sát thương cuối cùng giảm 80%\n- Không kích hoạt Chí mạng\n- Sát thương do kĩ năng này gây ra không thể khiến mục tiêu bị Chấn động",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Inflict 1 [SlashResistDown] this turn and next turn"
+                                    "desc": "[OnSucceedAttack] Gây 1 [SlashResistDown] vào lượt này và lượt kế tiếp"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Inflict 5 [Laceration] and +3 [Laceration] Count"
+                                    "desc": "[OnSucceedAttack] Gây 5 [Laceration] và +3 Số lần [Laceration]"
                                 }
                             ]
                         }
@@ -496,8 +496,8 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Even Sanguns Shall Be Cleft Under This Sword",
-                    "desc": "Targets the enemy that has the most [Laceration]\n[WhenUse] Cannot be Staggered from taking damage until this Skill ends\n[WhenUse] Final Power +1 for every 4 [Laceration] on target (max 3)\n[WhenUse] At more than 6 [ChoiSwordsmanship], gain Final Power +2 for every excess [ChoiSwordsmanship] Stack (max 6)\n[WinDuel] <color=#ff6000><mark color=#ff000040><b><u>This Skill always flips Head, hits Critically, and does not consume [Breath] Count</color></mark></b></u>\n[BeforeAttack] Deal +30% damage on Critical Hit for every 2 [ChoiSwordsmanship] on self (max 120%)\n[DefeatDuel]\n- Deal -80% damage\n- Does not hit Critically\n- Damage dealt by this Skill cannot Stagger the target",
+                    "name": "Dẫu Là Sơn Quân Cũng Bị Chẻ Đôi Dưới Thanh Kiếm Này",
+                    "desc": "Nhắm vào kẻ địch có nhiều [Laceration] nhất\n[WhenUse] Không thể bị Chấn động do sát thương cho đến khi kĩ năng này kết thúc\n[WhenUse] Sức mạnh Cuối cùng +1 cho mỗi 4 [Laceration] trên mục tiêu (tối đa 3)\n[WhenUse] Nếu có trên 6 [ChoiSwordsmanship], Sức mạnh Cuối cùng +2 cho mỗi Tầng [ChoiSwordsmanship] vượt mức (tối đa 6)\n[WinDuel] <color=#ff6000><mark color=#ff000040><b><u>Kĩ năng này luôn tung ra Mặt Ngửa, đánh trúng Chí mạng và không tiêu hao Số lần [Breath]</color></mark></b></u>\n[BeforeAttack] Sát thương Chí mạng +30% cho mỗi 2 [ChoiSwordsmanship] trên bản thân (tối đa 120%)\n[DefeatDuel]\n- Lượng sát thương cuối cùng giảm 80%\n- Không kích hoạt Chí mạng\n- Sát thương do kĩ năng này gây ra không thể khiến mục tiêu bị Chấn động",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -505,13 +505,13 @@
                                     "desc": "[SuperCoin]"
                                 },
                                 {
-                                    "desc": "[UnBrokenCoinOnSucceedAttack] Deal (([Breath] on self x 10)% of this Coin's final damage) Slash damage (max 100%)"
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] Gây sát thương Trảm kích bằng (([Breath] trên bản thân x 10)% sát thương cuối cùng của Đồng xu này) (tối đa 100%)"
                                 },
                                 {
-                                    "desc": "[UnBrokenCoinOnSucceedAttack] Deal (([Laceration] on target x 10)% of this Coin's final damage) Lust damage (max 100%)"
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] Gây sát thương Sắc dục bằng (([Laceration] trên mục tiêu x 10)% sát thương cuối cùng của Đồng xu này) (tối đa 100%)"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Activate [Laceration] on target once. Target loses 1 [Laceration] Count"
+                                    "desc": "[OnSucceedAttack] Kích hoạt [Laceration] của mục tiêu 1 lần. Mục tiêu mất 1 Số lần [Laceration]"
                                 }
                             ]
                         }
@@ -524,34 +524,34 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Tigersplitter",
-                    "desc": "[WhenUse] At 8+ [Breath], deal +40% damage on Critical Hit\n[WhenUse] Final Power +1 for every 4 [Laceration] on target (max 2)\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>At 3 or fewer [ChoiSwordsmanship], convert all Coins into [SuperCoin]s and deal +100% damage on Critical Hit</color></mark></b></u>\n[DefeatDuel]\n- Deal -80% damage\n- Does not hit Critically\n- Damage dealt by this Skill cannot Stagger the target",
+                    "name": "Xẻ Hổ",
+                    "desc": "[WhenUse] Nếu có 8+ [Breath], sát thương Chí mạng +40%\n[WhenUse] Sức mạnh Cuối cùng +1 cho mỗi 4 [Laceration] trên mục tiêu (tối đa 2)\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>Nếu có 3 [ChoiSwordsmanship] trở xuống, chuyển toàn bộ Đồng xu thành [SuperCoin] và sát thương Chí mạng +100%</color></mark></b></u>\n[DefeatDuel]\n- Lượng sát thương cuối cùng giảm 80%\n- Không kích hoạt Chí mạng\n- Sát thương do kĩ năng này gây ra không thể khiến mục tiêu bị Chấn động",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Inflict 2 [Laceration] and +2 [Laceration] Count"
+                                    "desc": "[OnSucceedAttack] Gây 2 [Laceration] và +2 Số lần [Laceration]"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Inflict 2 [Laceration] and +2 [Laceration] Count"
+                                    "desc": "[OnSucceedAttack] Gây 2 [Laceration] và +2 Số lần [Laceration]"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Inflict 2 [Binding] next turn"
+                                    "desc": "[OnSucceedAttack] Gây 2 [Binding] vào lượt kế tiếp"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Inflict 1 [SlashResistDown] this turn and next turn"
+                                    "desc": "[OnSucceedAttack] Gây 1 [SlashResistDown] vào lượt này và lượt kế tiếp"
                                 }
                             ]
                         }
@@ -564,8 +564,8 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "No Tiger's Flesh Shall Be Left Uncloven",
-                    "desc": "Targets the enemy that has the most [Laceration]\n<color=#ff6000><mark color=#ff000040><b><u>Can Clash with this Skill regardless of Speed</color></mark></b></u>\n[WhenUse] Cannot be Staggered from taking damage until this Skill ends\n[WhenUse] Final Power +1 for every 4 [Laceration] on target (max 3)\n[WinDuel] <color=#ff6000><mark color=#ff000040><b><u>This Skill always flips Head, hits Critically, and does not consume [Breath] Count</color></mark></b></u>\n[BeforeAttack] Deal +30% damage on Critical Hit for every 2 [Breath] on self (max 120%)\n[DefeatDuel]\n- Deal -80% damage\n- Does not hit Critically\n- Damage dealt by this Skill cannot Stagger the target",
+                    "name": "Thịt Của Bất Kỳ Mãnh Hổ Nào Cũng Sẽ Bị Xẻ",
+                    "desc": "Nhắm vào kẻ địch có nhiều [Laceration] nhất\n<color=#ff6000><mark color=#ff000040><b><u>Có thể Đối kháng với kĩ năng này bất kể Tốc độ</color></mark></b></u>\n[WhenUse] Không thể bị Chấn động do sát thương cho đến khi kĩ năng này kết thúc\n[WhenUse] Sức mạnh Cuối cùng +1 cho mỗi 4 [Laceration] trên mục tiêu (tối đa 3)\n[WinDuel] <color=#ff6000><mark color=#ff000040><b><u>Kĩ năng này luôn tung ra Mặt Ngửa, đánh trúng Chí mạng và không tiêu hao Số lần [Breath]</color></mark></b></u>\n[BeforeAttack] Sát thương Chí mạng +30% cho mỗi 2 [Breath] trên bản thân (tối đa 120%)\n[DefeatDuel]\n- Lượng sát thương cuối cùng giảm 80%\n- Không kích hoạt Chí mạng\n- Sát thương do kĩ năng này gây ra không thể khiến mục tiêu bị Chấn động",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -573,10 +573,10 @@
                                     "desc": "[SuperCoin]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                                    "desc": "[OnSucceedAttack] Gây 2 [Laceration]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Activate [Laceration] on target once. Target loses 1 [Laceration] Count"
+                                    "desc": "[OnSucceedAttack] Kích hoạt [Laceration] của mục tiêu 1 lần. Mục tiêu mất 1 Số lần [Laceration]"
                                 }
                             ]
                         },
@@ -586,10 +586,10 @@
                                     "desc": "[SuperCoin]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                                    "desc": "[OnSucceedAttack] Gây 2 [Laceration]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Activate [Laceration] on target once. Target loses 1 [Laceration] Count"
+                                    "desc": "[OnSucceedAttack] Kích hoạt [Laceration] của mục tiêu 1 lần. Mục tiêu mất 1 Số lần [Laceration]"
                                 }
                             ]
                         },
@@ -599,10 +599,10 @@
                                     "desc": "[SuperCoin]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                                    "desc": "[OnSucceedAttack] Gây 2 [Laceration]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Activate [Laceration] on target once. Target loses 1 [Laceration] Count"
+                                    "desc": "[OnSucceedAttack] Kích hoạt [Laceration] của mục tiêu 1 lần. Mục tiêu mất 1 Số lần [Laceration]"
                                 }
                             ]
                         },
@@ -612,10 +612,10 @@
                                     "desc": "[SuperCoin]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] If the main target has 10+ [Laceration], inflict +8 [Laceration] Count on targets hit by this Coin"
+                                    "desc": "[OnSucceedAttack] Nếu mục tiêu chính có 10+ [Laceration], gây +8 Số lần [Laceration] lên các mục tiêu bị Đồng xu này đánh trúng"
                                 },
                                 {
-                                    "desc": "[UnBrokenCoinOnSucceedAttack] Inflict +8 [Laceration] Count"
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] Gây +8 Số lần [Laceration]"
                                 }
                             ]
                         }
@@ -628,8 +628,8 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Sword of the Homeland [Sal] - Reassume Stance",
-                    "desc": "Unaffected by [ChoiSwordsmanship]\nIf target's Skill is [SupportProtect] Exclusive Skill, convert into [SuperCoin]\n[StartDuel] <color=#ff6000><mark color=#ff000040><b><u>Lose 3 [ChoiSwordsmanship]</color></mark></b></u>\n- If target's Skill is [SupportProtect] Exclusive Skill, this effect does not activate\n[EndSkill] <color=#ff6000><mark color=#ff000040><b><u>On Hit as an Unopposed Attack, or On Hit against target that used [SupportProtect] Exclusive Skill, gain 2 [ChoiSwordsmanship]</color></mark></b></u>",
+                    "name": "Kiếm của Tổ quốc [Sal] - Tiếp tục thế",
+                    "desc": "Không bị ảnh hưởng bởi [ChoiSwordsmanship]\nNếu Kĩ năng của mục tiêu là Kĩ năng độc quyền [SupportProtect], chuyển thành [SuperCoin]\n[StartDuel] <color=#ff6000><mark color=#ff000040><b><u>Mất 3 [ChoiSwordsmanship]</color></mark></b></u>\n- Nếu Kĩ năng của mục tiêu là Kĩ năng độc quyền [SupportProtect], hiệu ứng này không kích hoạt\n[EndSkill] <color=#ff6000><mark color=#ff000040><b><u>Khi đánh trúng bằng Đòn tấn công một chiều, hoặc đánh trúng mục tiêu đã sử dụng Kĩ năng độc quyền [SupportProtect], nhận 2 [ChoiSwordsmanship]</color></mark></b></u>",
                     "coinlist": [
                         {}
                     ]
@@ -641,8 +641,8 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Sword of the Homeland [Sal] - Swordhoning",
-                    "desc": "Unaffected by [ChoiSwordsmanship]\nIf target's Skill is [SupportProtect] Exclusive Skill, convert into [SuperCoin]\n[StartDuel] <color=#ff6000><mark color=#ff000040><b><u>Gain 3 [ChoiSwordsmanship]</color></mark></b></u>\n- If target's Skill is [SupportProtect] Exclusive Skill, this effect does not activate\n[EndSkill] <color=#ff6000><mark color=#ff000040><b><u>On Hit as an Unopposed Attack, or On Hit against target that used [SupportProtect] Exclusive Skill, lose 2 [ChoiSwordsmanship]</color></mark></b></u>",
+                    "name": "Kiếm của Tổ quốc [Sal] - Bôi dầu kiếm",
+                    "desc": "Không bị ảnh hưởng bởi [ChoiSwordsmanship]\nNếu Kĩ năng của mục tiêu là Kĩ năng độc quyền [SupportProtect], chuyển thành [SuperCoin]\n[StartDuel] <color=#ff6000><mark color=#ff000040><b><u>Nhận 3 [ChoiSwordsmanship]</color></mark></b></u>\n- Nếu Kĩ năng của mục tiêu là Kĩ năng độc quyền [SupportProtect], hiệu ứng này không kích hoạt\n[EndSkill] <color=#ff6000><mark color=#ff000040><b><u>Khi đánh trúng bằng Đòn tấn công một chiều, hoặc đánh trúng mục tiêu đã sử dụng Kĩ năng độc quyền [SupportProtect], mất 2 [ChoiSwordsmanship]</color></mark></b></u>",
                     "coinlist": [
                         {}
                     ]
@@ -654,20 +654,20 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Double Slash",
-                    "desc": "Final Power +1 for every 4 ([Combustion] + [Vibration]) on target (max 2)",
+                    "name": "Song Liên Trảm",
+                    "desc": "Sức mạnh Cuối cùng +1 cho mỗi 4 ([Combustion] + [Vibration]) trên mục tiêu (tối đa 2)",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Inflict 2 [Vibration]"
+                                    "desc": "[OnSucceedAttack] Gây 2 [Vibration]"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Inflict 3 [Vibration]"
+                                    "desc": "[OnSucceedAttack] Gây 3 [Vibration]"
                                 }
                             ]
                         }
@@ -680,27 +680,27 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Triple Slash",
-                    "desc": "Final Power +1 for every 4 ([Combustion] + [Vibration]) on target (max 2)",
+                    "name": "Tam Liên Kích",
+                    "desc": "Sức mạnh Cuối cùng +1 cho mỗi 4 ([Combustion] + [Vibration]) trên mục tiêu (tối đa 2)",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Inflict +2 [Vibration] Count"
+                                    "desc": "[OnSucceedAttack] +2 Số lần [Vibration]"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Inflict 1 [Vibration] and +2 [Vibration] Count"
+                                    "desc": "[OnSucceedAttack] Gây 1 [Vibration] và +2 Số lần [Vibration]"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                                    "desc": "[OnSucceedAttack] Kích hoạt [VibrationExplosion]; sau đó, giảm 1 Số lần [Vibration] của mục tiêu"
                                 }
                             ]
                         }
@@ -714,25 +714,25 @@
                 {
                     "level": 1,
                     "name": "Double Slash - Blast [爆]",
-                    "desc": "Final Power +1 for every 4 ([Combustion] + [Vibration]) on target (max 4)\n[DefeatDuel] Lose 1 [BulletPropellant]",
+                    "desc": "Sức mạnh Cuối cùng +1 cho mỗi 4 ([Combustion] + [Vibration]) trên mục tiêu (tối đa 4)\n[DefeatDuel] Giảm 1 [BulletPropellant]",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Inflict 3 [Vibration]"
+                                    "desc": "[OnSucceedAttack] Gây 3 [Vibration]"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "Spend 1 [BulletPropellant]"
+                                    "desc": "Tiêu hao 1 [BulletPropellant]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Inflict 3 [Combustion] and +2 [Combustion] Count"
+                                    "desc": "[OnSucceedAttack] Gây 3 [Combustion] và +2 Số lần [Combustion]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Inflict 3 [Vibration] and +2 [Vibration] Count"
+                                    "desc": "[OnSucceedAttack] Gây 3 [Vibration] và +2 Số lần [Vibration]"
                                 }
                             ]
                         }
@@ -746,38 +746,38 @@
                 {
                     "level": 1,
                     "name": "Triple Slash - Blast [爆]",
-                    "desc": "Final Power +1 for every 4 ([Combustion] + [Vibration]) on target (max 4)\n[DefeatDuel] Lose 1 [BulletPropellant]",
+                    "desc": "Sức mạnh Cuối cùng +1 cho mỗi 4 ([Combustion] + [Vibration]) trên mục tiêu (tối đa 4)\n[DefeatDuel] Giảm 1 [BulletPropellant]",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Inflict +2 [Vibration] Count"
+                                    "desc": "[OnSucceedAttack] +2 Số lần [Vibration]"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "Spend 1 [BulletPropellant]"
+                                    "desc": "Tiêu hao 1 [BulletPropellant]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Inflict 3 [Combustion] and +2 [Combustion] Count"
+                                    "desc": "[OnSucceedAttack] Gây 3 [Combustion] và +2 Số lần [Combustion]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Inflict 2 [Vibration] and +2 [Vibration] Count"
+                                    "desc": "[OnSucceedAttack] Gây 2 [Vibration] và +2 Số lần [Vibration]"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "Spend 1 [BulletPropellant]"
+                                    "desc": "Tiêu hao 1 [BulletPropellant]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Inflict 3 [Combustion] and +2 [Combustion] Count"
+                                    "desc": "[OnSucceedAttack] Gây 3 [Combustion] và +2 Số lần [Combustion]"
                                 },
                                 {
-                                    "desc": "[UnBrokenCoinOnSucceedAttack] Trigger [VibrationExplosion] 2 times; then, reduce target's [Vibration] Count by 2"
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] Kích hoạt [VibrationExplosion] 2 lần; sau đó, giảm 2 Số lần [Vibration] của mục tiêu"
                                 }
                             ]
                         }
@@ -791,7 +791,7 @@
                 {
                     "level": 1,
                     "name": "Blasting Shatterslash [爆碎斬]",
-                    "desc": "Prioritizes targets that have [Prey_leiheng]\n<color=#ff6000><mark=#ff000040><b><u>Can clash with this Skill regardless of Speed</u></b></mark></color>\nCoin Power +1 for every 6 ([Combustion] + [Vibration]) on target (max 3)\n[DefeatDuel] Lose 10 SP",
+                    "desc": "Ưu tiên chỉ định mục tiêu sở hữu [Prey_leiheng]\n<color=#ff6000><mark=#ff000040><b><u>Có thể Đối kháng với kĩ năng này bất kể Tốc độ</u></b></mark></color>\nSức mạnh Đồng xu +1 cho mỗi 6 ([Combustion] + [Vibration]) trên mục tiêu (tối đa 3)\n[DefeatDuel] Tinh thần bản thân giảm 10",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -799,16 +799,16 @@
                                     "desc": "[SuperCoin]"
                                 },
                                 {
-                                    "desc": "Spend 1 [BulletPropellant]"
+                                    "desc": "Tiêu hao 1 [BulletPropellant]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Inflict 3 [Combustion]"
+                                    "desc": "[OnSucceedAttack] Gây 3 [Combustion]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Inflict 3 [Vibration]"
+                                    "desc": "[OnSucceedAttack] Gây 3 [Vibration]"
                                 },
                                 {
-                                    "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 4 [Vibration] and +4 [Vibration] Count"
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] Gây 4 [Vibration] và +4 Số lần [Vibration]"
                                 }
                             ]
                         },
@@ -818,16 +818,16 @@
                                     "desc": "[SuperCoin]"
                                 },
                                 {
-                                    "desc": "Spend 1 [BulletPropellant]"
+                                    "desc": "Tiêu hao 1 [BulletPropellant]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Inflict +3 [Combustion] Count"
+                                    "desc": "[OnSucceedAttack] +3 Số lần [Combustion]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Inflict +3 [Vibration] Count"
+                                    "desc": "[OnSucceedAttack] +3 Số lần [Vibration]"
                                 },
                                 {
-                                    "desc": "[UnBrokenCoinOnSucceedAttack] Trigger [Switch_Vibration] into [VibrationIgnition]"
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] [Switch_Vibration] sang [VibrationIgnition]"
                                 }
                             ]
                         },
@@ -837,16 +837,16 @@
                                     "desc": "[SuperCoin]"
                                 },
                                 {
-                                    "desc": "Spend 1 [BulletPropellant]"
+                                    "desc": "Tiêu hao 1 [BulletPropellant]"
                                 },
                                 {
-                                    "desc": "<color=#ff6000><mark=#ff000040><b><u>If this unit spent [BulletPropellant] due to this Coin's effect, deal +50% damage</u></b></mark></color>"
+                                    "desc": "<color=#ff6000><mark=#ff000040><b><u>Nếu đơn vị này tiêu hao [BulletPropellant] do hiệu ứng của Đồng xu này, sát thương +50%</u></b></mark></color>"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Inflict 3 [Combustion] and +3 [Combustion] Count"
+                                    "desc": "[OnSucceedAttack] Gây 3 [Combustion] và +3 Số lần [Combustion]"
                                 },
                                 {
-                                    "desc": "<color=#ff6000><mark=#ff000040><b><u>[UnBrokenCoinOnSucceedAttack]</u></b></mark></color> Trigger [VibrationExplosion] 2 times; then, reduce target's [Vibration] Count by 2"
+                                    "desc": "<color=#ff6000><mark=#ff000040><b><u>[UnBrokenCoinOnSucceedAttack]</u></b></mark></color> Kích hoạt [VibrationExplosion] 2 lần; sau đó, giảm 2 Số lần [Vibration] của mục tiêu"
                                 }
                             ]
                         }
@@ -860,7 +860,7 @@
                 {
                     "level": 1,
                     "name": "Tanglecleaver [快刀亂麻]",
-                    "desc": "Prioritizes targets that have [Prey_leiheng]\n<color=#ff6000><mark=#ff000040><b><u>Can Clash with this Skill regardless of Speed; this unit does not become Staggered before it uses this Skill</u></b></mark></color>\n[WhenUse] Consume all [BattleSense] Stack on self. If this unit consumed...\n- ... 10+ Stacks, gain Atk Weight +1 for every 10 Stack consumed (max 2)\n- ... 25 Stacks, Final Power +1 for every 4 (sum of [Combustion] and [Vibration] on the main target) (max 5)\n[DefeatDuel] Gain 1 [Paralysis]\n[DefeatDuel] Deal -80% damage; this Skill's damage cannot Stagger the target; <color=#ff6000><mark=#ff000040><b><u>inflict only half the Potency and Count for both [Combustion] and [Vibration] inflicted by this Skill</u></b></mark></color> (unless raised by other effects)\n[EndSkill] [FullReload] (once per turn)\n- If this unit has [BulletPropellantSpecial], [ReloadKeepAmmo] instead (once per turn)\n[EndSkill] Ends this turn",
+                    "desc": "Ưu tiên chỉ định mục tiêu sở hữu [Prey_leiheng]\n<color=#ff6000><mark=#ff000040><b><u>Có thể Đối kháng với kĩ năng này bất kể Tốc độ; đơn vị này không bị Chấn động trước khi sử dụng kĩ năng này</u></b></mark></color>\n[WhenUse] Tiêu hao toàn bộ Tầng [BattleSense] trên bản thân. Nếu đơn vị này đã tiêu hao...\n- ... 10 Tầng trở lên, nhận Trọng số Tấn công +1 cho mỗi 10 Tầng đã tiêu hao (tối đa 2)\n- ... 25 Tầng, Sức mạnh Cuối cùng +1 cho mỗi 4 (tổng [Combustion] và [Vibration] trên mục tiêu chính) (tối đa 5)\n[DefeatDuel] Nhận 1 [Paralysis]\n[DefeatDuel] Sát thương giảm 80%; sát thương của kĩ năng này không thể khiến mục tiêu bị Chấn động; <color=#ff6000><mark=#ff000040><b><u>chỉ gây một nửa Cường độ và Số lần cho cả [Combustion] và [Vibration] do kĩ năng này gây ra</u></b></mark></color> (trừ khi được tăng bởi các hiệu ứng khác)\n[EndSkill] [FullReload] (1 lần mỗi lượt)\n- Nếu đang có [BulletPropellantSpecial], thay bằng [ReloadKeepAmmo] (1 lần mỗi lượt)\n[EndSkill] Kết thúc lượt này",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -868,16 +868,16 @@
                                     "desc": "[SuperCoin]"
                                 },
                                 {
-                                    "desc": "Spend all [BulletPropellant]"
+                                    "desc": "Tiêu hao toàn bộ [BulletPropellant]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Inflict [Combustion], [Combustion] Count, [Vibration], and [Vibration] Count by [BulletPropellant] spent"
+                                    "desc": "[OnSucceedAttack] Gây [Combustion], tăng Số lần [Combustion], gây [Vibration] và tăng Số lần [Vibration] tương ứng với lượng [BulletPropellant] đã tiêu hao"
                                 },
                                 {
-                                    "desc": "[UnBrokenCoinOnSucceedAttack] Trigger [Switch_Vibration] into [VibrationIgnition]"
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] [Switch_Vibration] sang [VibrationIgnition]"
                                 },
                                 {
-                                    "desc": "<color=#ff6000><mark=#ff000040><b><u>[UnBrokenCoinOnSucceedAttack]</u></b></mark></color> Trigger [VibrationExplosion] 3 times; then, reduce target's [Vibration] Count by 3"
+                                    "desc": "<color=#ff6000><mark=#ff000040><b><u>[UnBrokenCoinOnSucceedAttack]</u></b></mark></color> Kích hoạt [VibrationExplosion] 3 lần; sau đó, giảm 3 Số lần [Vibration] của mục tiêu"
                                 }
                             ]
                         }
@@ -891,7 +891,7 @@
                 {
                     "level": 1,
                     "name": "Savage Tigerslayer's Perfected Flurry of Blades [超絕猛虎殺擊亂斬]",
-                    "desc": "Prioritizes targets that have [Prey_leiheng]\n<color=#ff6000><mark=#ff000040><b><u>Can Clash with this Skill regardless of Speed; this unit does not become Staggered before it uses this Skill</u></b></mark></color>\n[WhenUse] Consume all [BattleSense] Stack on self. If this unit consumed...\n- ... 10+ Stacks, gain Atk Weight +1 for every 10 Stack consumed (max 4)\n- ... 25+ Stacks, Final Power +1 for every 4 (sum of [Combustion] and [Vibration] on the main target) (max 6)\n- ... 50 Stacks, Coin Power +1 and deal +50% damage\n[DefeatDuel] Gain 6 [Paralysis]\n[DefeatDuel] Deal -80% damage; this Skill's damage cannot Stagger the target; <color=#ff6000><mark=#ff000040><b><u>inflict only half the Potency and Count for both [Combustion] and [Vibration] inflicted by this Skill</u></b></mark></color> (unless raised by other effects)\n[EndSkill] [FullReload] (once per turn)\n- If this unit has [BulletPropellantSpecial], [ReloadKeepAmmo] instead (once per turn)\n[EndSkill] Ends this turn",
+                    "desc": "Ưu tiên chỉ định mục tiêu sở hữu [Prey_leiheng]\n<color=#ff6000><mark=#ff000040><b><u>Có thể Đối kháng với kĩ năng này bất kể Tốc độ; đơn vị này không bị Chấn động trước khi sử dụng kĩ năng này</u></b></mark></color>\n[WhenUse] Tiêu hao toàn bộ Tầng [BattleSense] trên bản thân. Nếu đơn vị này đã tiêu hao...\n- ... 10 Tầng trở lên, nhận Trọng số Tấn công +1 cho mỗi 10 Tầng đã tiêu hao (tối đa 4)\n- ... 25 Tầng trở lên, Sức mạnh Cuối cùng +1 cho mỗi 4 (tổng [Combustion] và [Vibration] trên mục tiêu chính) (tối đa 6)\n- ... 50 Tầng, Sức mạnh Đồng xu +1 và sát thương +50%\n[DefeatDuel] Nhận 6 [Paralysis]\n[DefeatDuel] Sát thương giảm 80%; sát thương của kĩ năng này không thể khiến mục tiêu bị Chấn động; <color=#ff6000><mark=#ff000040><b><u>chỉ gây một nửa Cường độ và Số lần cho cả [Combustion] và [Vibration] do kĩ năng này gây ra</u></b></mark></color> (trừ khi được tăng bởi các hiệu ứng khác)\n[EndSkill] [FullReload] (1 lần mỗi lượt)\n- Nếu đang có [BulletPropellantSpecial], thay bằng [ReloadKeepAmmo] (1 lần mỗi lượt)\n[EndSkill] Kết thúc lượt này",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -899,10 +899,10 @@
                                     "desc": "[SuperCoin]"
                                 },
                                 {
-                                    "desc": "Spend 1 [BulletPropellant]"
+                                    "desc": "Tiêu hao 1 [BulletPropellant]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Inflict 6 [Combustion]"
+                                    "desc": "[OnSucceedAttack] Gây 6 [Combustion]"
                                 }
                             ]
                         },
@@ -912,10 +912,10 @@
                                     "desc": "[SuperCoin]"
                                 },
                                 {
-                                    "desc": "Spend 1 [BulletPropellant]"
+                                    "desc": "Tiêu hao 1 [BulletPropellant]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Inflict +6 [Combustion] Count"
+                                    "desc": "[OnSucceedAttack] +6 Số lần [Combustion]"
                                 }
                             ]
                         },
@@ -925,10 +925,10 @@
                                     "desc": "[SuperCoin]"
                                 },
                                 {
-                                    "desc": "Spend 1 [BulletPropellant]"
+                                    "desc": "Tiêu hao 1 [BulletPropellant]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Inflict 6 [Vibration]"
+                                    "desc": "[OnSucceedAttack] Gây 6 [Vibration]"
                                 }
                             ]
                         },
@@ -938,10 +938,10 @@
                                     "desc": "[SuperCoin]"
                                 },
                                 {
-                                    "desc": "Spend 1 [BulletPropellant]"
+                                    "desc": "Tiêu hao 1 [BulletPropellant]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Inflict +6 [Vibration] Count"
+                                    "desc": "[OnSucceedAttack] +6 Số lần [Vibration]"
                                 }
                             ]
                         },
@@ -951,10 +951,10 @@
                                     "desc": "[SuperCoin]"
                                 },
                                 {
-                                    "desc": "Spend 1 [BulletPropellant]"
+                                    "desc": "Tiêu hao 1 [BulletPropellant]"
                                 },
                                 {
-                                    "desc": "[UnBrokenCoinOnSucceedAttack] Trigger [Switch_Vibration] into [VibrationIgnition]"
+                                    "desc": "[UnBrokenCoinOnSucceedAttack] [Switch_Vibration] sang [VibrationIgnition]"
                                 }
                             ]
                         },
@@ -964,10 +964,10 @@
                                     "desc": "[SuperCoin]"
                                 },
                                 {
-                                    "desc": "Spend 1 [BulletPropellant]"
+                                    "desc": "Tiêu hao 1 [BulletPropellant]"
                                 },
                                 {
-                                    "desc": "<color=#ff6000><mark=#ff000040><b><u>[UnBrokenCoinOnSucceedAttack]</u></b></mark></color> Trigger [VibrationExplosion] 5 times; then, reduce target's [Vibration] Count by 5"
+                                    "desc": "<color=#ff6000><mark=#ff000040><b><u>[UnBrokenCoinOnSucceedAttack]</u></b></mark></color> Kích hoạt [VibrationExplosion] 5 lần; sau đó, giảm 5 Số lần [Vibration] của mục tiêu"
                                 }
                             ]
                         }
@@ -980,26 +980,26 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Reloading Tiantui Star's Blade",
-                    "desc": "[DuelCounter]\n[DefeatDuel] Lose 1 [BulletPropellant]\n[EndBattle] [FullReload] (once per turn)\n- If this unit has [BulletPropellantSpecial], [ReloadKeepAmmo] instead (once per turn)",
+                    "name": "Thiên Thoái Tinh Đao Nạp Đạn",
+                    "desc": "[DuelCounter]\n[DefeatDuel] Giảm 1 [BulletPropellant]\n[EndBattle] [FullReload] (1 lần mỗi lượt)\n- Nếu đang có [BulletPropellantSpecial], thay bằng [ReloadKeepAmmo] (1 lần mỗi lượt)",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Inflict 2 [Vibration]"
+                                    "desc": "[OnSucceedAttack] Gây 2 [Vibration]"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "Spend 1 [BulletPropellant]"
+                                    "desc": "Tiêu hao 1 [BulletPropellant]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Inflict 3 [Combustion]"
+                                    "desc": "[OnSucceedAttack] Gây 3 [Combustion]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Inflict +3 [Vibration] Count"
+                                    "desc": "[OnSucceedAttack] +3 Số lần [Vibration]"
                                 }
                             ]
                         }
@@ -1012,8 +1012,8 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Savage Tigermark Support",
-                    "desc": "[EndBattle] Give 6 [BulletPropellantSpecial] to Lei Heng\n[EndBattle] [DisengageCombat]",
+                    "name": "Chi viện Mãnh Hổ Tiêu",
+                    "desc": "[EndBattle] Cung cấp 6 [BulletPropellantSpecial] cho Lôi Hoành\n[EndBattle] [DisengageCombat]",
                     "coinlist": [
                         {}
                     ]
