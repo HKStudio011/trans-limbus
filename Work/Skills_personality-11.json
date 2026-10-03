@@ -6,7 +6,7 @@
         {
           "level": 1,
           "name": "Chờ Đã!",
-          "desc": "Khi kỹ năng này bị [Discard], Số lượng Chấn động của bản thân tăng 3",
+          "desc": "Khi kỹ năng này bị Vứt bỏ, Số lượng Chấn động của bản thân tăng 3",
           "coinlist": [
             {
               "coindescs": [
@@ -20,7 +20,7 @@
         {
           "level": 2,
           "name": "Chờ Đã!",
-          "desc": "Khi kỹ năng này bị [Discard], Số lượng Chấn động của bản thân tăng 4\n[WhenUse] Số lượng Chấn động của bản thân tăng 2\nNếu Số lượng Chấn động của bản thân từ 6 trở lên, Uy lực cuối cùng +1",
+          "desc": "Khi kỹ năng này bị Vứt bỏ, Số lượng Chấn động của bản thân tăng 4\n[WhenUse] Số lượng Chấn động của bản thân tăng 2\nNếu Số lượng Chấn động của bản thân từ 6 trở lên, Uy lực cuối cùng +1",
           "coinlist": [
             {
               "coindescs": [
@@ -34,7 +34,7 @@
         {
           "level": 4,
           "name": "Chờ Đã!",
-          "desc": "Khi kỹ năng này bị [Discard], Số lượng Chấn động của bản thân tăng 4\n[WhenUse] Số lượng Chấn động của bản thân tăng 2\nNếu Số lượng Chấn động của bản thân từ 6 trở lên, Uy lực cuối cùng +2",
+          "desc": "Khi kỹ năng này bị Vứt bỏ, Số lượng Chấn động của bản thân tăng 4\n[WhenUse] Số lượng Chấn động của bản thân tăng 2\nNếu Số lượng Chấn động của bản thân từ 6 trở lên, Uy lực cuối cùng +2",
           "coinlist": [
             {
               "coindescs": [
@@ -53,7 +53,7 @@
         {
           "level": 1,
           "name": "Xé Toạc",
-          "desc": "[WhenUse] [Discard] 1 kỹ năng có cấp thấp nhất từ tất cả các ô kỹ năng của bản thân",
+          "desc": "[WhenUse] Vứt bỏ 1 kỹ năng có cấp thấp nhất từ tất cả các ô kỹ năng của bản thân",
           "coinlist": [
             {
               "coindescs": [
@@ -142,7 +142,7 @@
         {
           "level": 3,
           "name": "Phán Đoán Liều Lĩnh",
-          "desc": "[WhenUse] [Discard] các kỹ năng trong tất cả các ô kỹ năng của bản thân theo thứ tự cấp độ từ cao xuống thấp\nTiêu hao 10 Số lượng Chấn động của bản thân để nhận +1 Uy lực Đồng xu",
+          "desc": "[WhenUse] Vứt bỏ các kỹ năng trong tất cả các ô kỹ năng của bản thân theo thứ tự cấp độ từ cao xuống thấp\nTiêu hao 10 Số lượng Chấn động của bản thân để nhận +1 Uy lực Đồng xu",
           "coinlist": [
             {
               "coindescs": [
@@ -180,7 +180,7 @@
         {
           "level": 4,
           "name": "Quyết định táo bạo",
-          "desc": "[WhenUse] [Discard] các kỹ năng ở tất cả ô kỹ năng của bản thân theo thứ tự cấp độ từ cao xuống thấp\nTiêu tốn 10 số lần Chấn động của bản thân để tăng +2 sức mạnh đồng xu",
+          "desc": "[WhenUse] Vứt bỏ các kỹ năng ở tất cả ô kỹ năng của bản thân theo thứ tự cấp độ từ cao xuống thấp\nTiêu tốn 10 số lần Chấn động của bản thân để tăng +2 sức mạnh đồng xu",
           "coinlist": [
             {
               "coindescs": [
@@ -223,7 +223,7 @@
         {
           "level": 1,
           "name": "Giải rượu",
-          "desc": "[WhenUse] [Discard] 1 kỹ năng có cấp độ thấp nhất từ tất cả ô kỹ năng của bản thân",
+          "desc": "[WhenUse] Vứt bỏ 1 kỹ năng có cấp độ thấp nhất từ tất cả ô kỹ năng của bản thân",
           "coinlist": [
             {}
           ]
@@ -231,7 +231,7 @@
         {
           "level": 4,
           "name": "Giải rượu",
-          "desc": "[WhenUse] [Discard] 1 kỹ năng có cấp độ thấp nhất từ tất cả ô kỹ năng của bản thân",
+          "desc": "[WhenUse] Vứt bỏ 1 kỹ năng có cấp độ thấp nhất từ tất cả ô kỹ năng của bản thân",
           "coinlist": [
             {}
           ]
@@ -651,7 +651,7 @@
         {
           "level": 2,
           "name": "Gõ Cửa",
-          "desc": "[WhenUse] Nếu [Sinking] của mục tiêu từ 7 trở lên, uy lực đồng xu +1",
+          "desc": "[WhenUse] Nếu Trầm luân của mục tiêu từ 7 trở lên, uy lực đồng xu +1",
           "coinlist": [
             {},
             {
@@ -1097,17 +1097,17 @@
             {
               "coindescs": [
                 {
-                  "desc": "[Khi tấn công trúng] Số lượng [Charge] của bản thân tăng 1"
+                  "desc": "[OnSucceedAttack] Số lượng [Charge] của bản thân tăng 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[Khi tấn công trúng] Số lượng [Charge] của bản thân tăng 2"
+                  "desc": "[OnSucceedAttack] Số lượng [Charge] của bản thân tăng 2"
                 },
                 {
-                  "desc": "[Khi tấn công trúng] Ban 1 [Binding] vào lượt tiếp theo"
+                  "desc": "[OnSucceedAttack] Ban 1 [Binding] vào lượt tiếp theo"
                 },
                 {
                   "desc": "[Khi tấn công trúng mặt] Nếu đã tiêu tốn số lượng [Charge] khi sử dụng kỹ năng này, ban 2 [Binding] vào lượt tiếp theo"
@@ -1124,20 +1124,20 @@
             {
               "coindescs": [
                 {
-                  "desc": "[Khi tấn công trúng] Số lượng [Charge] của bản thân tăng 2"
+                  "desc": "[OnSucceedAttack] Số lượng [Charge] của bản thân tăng 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[Khi tấn công trúng] Số lượng [Charge] của bản thân tăng 2"
+                  "desc": "[OnSucceedAttack] Số lượng [Charge] của bản thân tăng 2"
                 },
                 {
-                  "desc": "[Khi tấn công trúng] Ban 1 [Binding] vào lượt tiếp theo"
+                  "desc": "[OnSucceedAttack] Ban 1 [Binding] vào lượt tiếp theo"
                 },
                 {
-                  "desc": "[Khi tấn công trúng] Nếu đã tiêu tốn số lượng [Charge] khi sử dụng kỹ năng này, ban 2 [Binding] vào lượt tiếp theo"
+                  "desc": "[OnSucceedAttack] Nếu đã tiêu tốn số lượng [Charge] khi sử dụng kỹ năng này, ban 2 [Binding] vào lượt tiếp theo"
                 }
               ]
             }
@@ -1157,7 +1157,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[Khi tấn công trúng] Ban 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Ban 1 [Burst]"
                 }
               ]
             },

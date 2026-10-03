@@ -15,7 +15,7 @@
                   "desc": "[OnSucceedAttack] Số lần Chấn động tăng 2, tăng thêm (Số Cộng hưởng Hoàn toàn Phẫn nộ)÷3"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Bộc phát Chấn động"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion]"
                 }
               ]
             }
@@ -643,7 +643,7 @@
           "level": 4,
           "name": "Quá khứ tan vỡ",
           "abName": "Máy vận chuyển hơi nước",
-          "desc": "[BeforeAttack] Nếu (Sức mạnh [Vibration] + Số lượng [Vibration]) của mục tiêu chính từ 30 trở lên, Trọng số +1\n<style=\"highlight\">- Nếu từ 100 trở lên, thay vào đó Trọng số +3</style>\n<style=\"highlight\">[BeforeAttack] Với mỗi 2 Cộng hưởng tối đa, gây 1 Chấn động cho toàn bộ mục tiêu tấn công (Tối đa 3)</style>\n[EndSkill] Trong 3 lượt, giảm 10 Tinh thần khi kết thúc lượt\n<style=\"highlight\">[EndSkill] Hồi phục ([AccumulatedPastSinner] × 2)% Máu tối đa của bản thân</style>\n[EndSkill] Nếu (Số lượng Cộng hưởng Phế nhác) là số lẻ ở lượt lẻ, hoặc (Số lượng Cộng hưởng Phế nhác) là số chẵn ở lượt chẵn, hồi phục 10 Tinh thần",
+          "desc": "[BeforeAttack] Nếu (Sức mạnh [Vibration] + Số lượng [Vibration]) của mục tiêu chính từ 30 trở lên, Trọng số +1\n<style=\"highlight\">- Nếu từ 100 trở lên, thay vào đó Trọng số +3</style>\n<style=\"highlight\">[BeforeAttack] Với mỗi 2 Cộng hưởng tối đa, gây 1 [Vibration] cho toàn bộ mục tiêu tấn công (Tối đa 3)</style>\n[EndSkill] Trong 3 lượt, giảm 10 Tinh thần khi kết thúc lượt\n<style=\"highlight\">[EndSkill] Hồi phục ([AccumulatedPastSinner] × 2)% Máu tối đa của bản thân</style>\n[EndSkill] Nếu (Số lượng Cộng hưởng Phế nhác) là số lẻ ở lượt lẻ, hoặc (Số lượng Cộng hưởng Phế nhác) là số chẵn ở lượt chẵn, hồi phục 10 Tinh thần",
           "coinlist": [
             {
               "coindescs": [

@@ -13,7 +13,7 @@
     {
       "id": 1010301,
       "name": "Điềm tĩnh",
-      "desc": "Khi chiến thắng Kháng cự, số lần Hô hấp (Poise) tăng thêm 1"
+      "desc": "Khi chiến thắng Kháng cự, số lần [Breath] (Poise) tăng thêm 1"
     },
     {
       "id": 1020101,
@@ -23,12 +23,12 @@
     {
       "id": 1020201,
       "name": "Tự sạc",
-      "desc": "Khi kết thúc tấn công, số lần Sạc (Charge) tăng thêm 1"
+      "desc": "Khi kết thúc tấn công, số lần [Charge] (Charge) tăng thêm 1"
     },
     {
       "id": 1020301,
       "name": "Quyết tâm",
-      "desc": "Khi bắt đầu lượt tiếp theo, nếu số lần Hô hấp (Poise) từ 4 trở lên, nhận Nhanh nhẹn (Haste) 2"
+      "desc": "Khi bắt đầu lượt tiếp theo, nếu số lần [Breath] (Poise) từ 4 trở lên, nhận [Agility] (Haste) 2"
     },
     {
       "id": 1030101,
@@ -103,7 +103,7 @@
     {
       "id": 1070301,
       "name": "Chuẩn bị ăn cỏ",
-      "desc": "Khi bắt đầu lượt tiếp theo, số lần Sạc (Charge) tăng thêm (Số cộng hưởng Phẫn nộ (Wrath)).\nNếu số lần Sạc (Charge) từ 5 trở lên, nhận Nhanh nhẹn (Haste) 1, Tăng Uy lực (Power) Tấn công 1"
+      "desc": "Khi bắt đầu lượt tiếp theo, số lần Sạc (Charge) tăng thêm (Số cộng hưởng Phẫn nộ (Wrath)).\nNếu số lần Sạc (Charge) từ 5 trở lên, nhận [Agility] (Haste) 1, Tăng Uy lực (Power) Tấn công 1"
     },
     {
       "id": 1080101,
@@ -173,7 +173,7 @@
     {
       "id": 1110301,
       "name": "Phấn Chấn",
-      "desc": "Khi bắt đầu lượt kế tiếp, cấp 2 Nhanh nhẹn (Haste) cho bản thân và đồng minh ở hai bên cạnh trong lượt trước"
+      "desc": "Khi bắt đầu lượt kế tiếp, cấp 2 [Agility] (Haste) cho bản thân và đồng minh ở hai bên cạnh trong lượt trước"
     },
     {
       "id": 1120101,
@@ -213,7 +213,7 @@
     {
       "id": 1020221,
       "name": "Vô Tuyến",
-      "desc": "Số lần Sạc (Charge) nhận được của 1 đồng minh có Máu tối đa thấp nhất +1"
+      "desc": "Số lần [Charge] (Charge) nhận được của 1 đồng minh có Máu tối đa thấp nhất +1"
     },
     {
       "id": 1020321,
@@ -468,7 +468,7 @@
     {
       "id": 1090421,
       "name": "Tín Ngưỡng Đong Đầy",
-      "desc": "Khi kẻ địch tử vong, 1 đồng minh có Tỉnh táo cao nhất nhận 1 Nhanh nhẹn (Haste), 1 Tăng Sát thương vào lượt sau (Kích hoạt 1 lần mỗi lượt)"
+      "desc": "Khi kẻ địch tử vong, 1 đồng minh có Tỉnh táo cao nhất nhận 1 [Agility] (Haste), 1 Tăng Sát thương vào lượt sau (Kích hoạt 1 lần mỗi lượt)"
     },
     {
       "id": 1020401,
@@ -673,7 +673,7 @@
     {
       "id": 1080701,
       "name": "Nghiền Nát Vỗ Tay",
-      "desc": "Khi Tấn công Trúng đích mục tiêu đang có [Vibration], Số lần [Sinking] tăng thêm 1"
+      "desc": "Khi Tấn công Trúng đích mục tiêu đang có [Vibration], Số lần Trầm luân tăng thêm 1"
     },
     {
       "id": 1080721,
@@ -728,12 +728,12 @@
     {
       "id": 1060601,
       "name": "Công Việc Thu Dọn Quen Thuộc",
-      "desc": "Khi bắt đầu trận chiến, nếu Số lần Sạc từ 5 trở lên, nhận 2 Nhanh nhẹn ở lượt tiếp theo"
+      "desc": "Khi bắt đầu trận chiến, nếu Số lần Sạc từ 5 trở lên, nhận 2 [Agility] ở lượt tiếp theo"
     },
     {
       "id": 1060621,
       "name": "Truyền Đạt Sổ Tay Thu Dọn Tàu Hỏa",
-      "desc": "Khi đồng minh có Tốc độ thấp nhất bắt đầu trận chiến, nếu Số lần Sạc từ 5 trở lên, nhận 2 Nhanh nhẹn ở lượt tiếp theo"
+      "desc": "Khi đồng minh có Tốc độ thấp nhất bắt đầu trận chiến, nếu Số lần Sạc từ 5 trở lên, nhận 2 [Agility] ở lượt tiếp theo"
     },
     {
       "id": 1070601,
@@ -845,7 +845,7 @@
     {
       "id": 1010621,
       "name": "Giáo dục sư phạm sắp xếp",
-      "desc": "1 đồng minh có số lượt Sạc (Charge) nhiều nhất sẽ được tăng lượng sát thương gây ra lên đối tượng có <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Vết rách (Rupture)</color></link></u> tỉ lệ thuận với số Vết rách (Rupture) của đối tượng (1.5% mỗi 1 Vết rách (Rupture), tối đa 15%)"
+      "desc": "1 đồng minh có số lượt [Charge] (Charge) nhiều nhất sẽ được tăng lượng sát thương gây ra lên đối tượng có <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Vết rách (Rupture)</color></link></u> tỉ lệ thuận với số Vết rách (Rupture) của đối tượng (1.5% mỗi 1 Vết rách (Rupture), tối đa 15%)"
     },
     {
       "id": 1120701,
@@ -880,7 +880,7 @@
     {
       "id": 1040621,
       "name": "Viên Cuối Cùng",
-      "desc": "Nếu 1 đồng minh sở hữu ít [Bullet] nhất tiêu hao [Bullet] cuối cùng bằng một mặt đồng xu, khi kết thúc đòn tấn công của đồng xu đó, gây thêm sát thương bằng 50% lượng sát thương gây ra từ đòn tấn công của đồng xu đó cho mỗi mục tiêu. (Làm tròn chữ số thập phân)"
+      "desc": "Nếu 1 đồng minh sở hữu ít Đạn nhất tiêu hao Đạn cuối cùng bằng một mặt đồng xu, khi kết thúc đòn tấn công của đồng xu đó, gây thêm sát thương bằng 50% lượng sát thương gây ra từ đòn tấn công của đồng xu đó cho mỗi mục tiêu. (Làm tròn chữ số thập phân)"
     },
     {
       "id": 1040631,
@@ -944,12 +944,12 @@
     {
       "id": 1010701,
       "name": "Lao của Thuyền Phó 1",
-      "desc": "Khi đánh bạo kích, Sức mạnh Xuất huyết gây ra bởi Kĩ năng +2 (Tối đa 6 lần mỗi lượt)"
+      "desc": "Khi đánh bạo kích, Sức mạnh [Laceration] gây ra bởi Kĩ năng +2 (Tối đa 6 lần mỗi lượt)"
     },
     {
       "id": 1010721,
       "name": "Bản Lĩnh của Thuyền Phó 1",
-      "desc": "Khi 1 đồng minh sở hữu [Breath] nhiều nhất đánh bạo kích, Sức mạnh Xuất huyết gây ra bởi Kĩ năng +2 (Tối đa 6 lần mỗi lượt)"
+      "desc": "Khi 1 đồng minh sở hữu [Breath] nhiều nhất đánh bạo kích, Sức mạnh [Laceration] gây ra bởi Kĩ năng +2 (Tối đa 6 lần mỗi lượt)"
     },
     {
       "id": 1110601,
@@ -1044,7 +1044,7 @@
     {
       "id": 1010801,
       "name": "Tri Thức Chìm Đắm",
-      "desc": "Khi nhận sát thương, gây 1 Trầm luân cho kẻ tấn công (Tối đa 4 lần)"
+      "desc": "Khi nhận sát thương, gây 1 [Sinking] cho kẻ tấn công (Tối đa 4 lần)"
     },
     {
       "id": 1010811,
@@ -1485,7 +1485,7 @@
     {
       "id": 1040921,
       "name": "T.C. (Có thể hiểu là: Trợ Cảm)",
-      "desc": "Đồng minh ở vị trí số 1 trong thứ tự sắp xếp nhận giá trị số lượt [Vibration] từ hiệu ứng Kĩ năng · Coin +1 (2 lần mỗi lượt)"
+      "desc": "Đồng minh ở vị trí số 1 trong thứ tự sắp xếp nhận giá trị số lượt Chấn động từ hiệu ứng Kĩ năng · Coin +1 (2 lần mỗi lượt)"
     },
     {
       "id": 1060901,
@@ -1495,7 +1495,7 @@
     {
       "id": 1060921,
       "name": "Nếu tôi là hung thủ thì sao...?",
-      "desc": "Khi đồng minh ở vị trí số 1 trong thứ tự sắp xếp gây [VibrationExplosion] bằng hiệu ứng Kĩ năng · Coin, có 25% xác suất [VibrationExplosion] kích hoạt thêm 1 lần (1 lần mỗi lượt)"
+      "desc": "Khi đồng minh ở vị trí số 1 trong thứ tự sắp xếp gây Bộc phát bằng hiệu ứng Kĩ năng · Coin, có 25% xác suất Bộc phát kích hoạt thêm 1 lần (1 lần mỗi lượt)"
     },
     {
       "id": 1030901,
@@ -1520,7 +1520,7 @@
     {
       "id": 1051001,
       "name": "Chỉ thị Tự học",
-      "desc": "Mỗi khi đồng minh khác vứt bỏ Kĩ năng, gây 1 [KnowledgeTraining] cho đối tượng và bản thân (1 lần cho mỗi Kĩ năng, 3 lần mỗi lượt)\nKhi kết thúc lượt, nhận [PenetrateDamageUp], [HitDamageUp] vào lượt tiếp theo tương ứng với số lượng đồng minh khác đã vứt bỏ Kĩ năng (Tối đa 3)"
+      "desc": "Mỗi khi đồng minh khác vứt bỏ Kĩ năng, gây 1 [KnowledgeTraining] cho đối tượng và bản thân (1 lần cho mỗi Kĩ năng, 3 lần mỗi lượt)\nKhi kết thúc lượt, nhận Tăng lượng sát thương Đâm, Tăng lượng sát thương Đập vào lượt tiếp theo tương ứng với số lượng đồng minh khác đã vứt bỏ Kĩ năng (Tối đa 3)"
     },
     {
       "id": 1051021,
@@ -1590,7 +1590,7 @@
     {
       "id": 1071011,
       "name": "Lời Triệu Hồi Của Ma Vương",
-      "desc": "- Mỗi 1 [Sinking] trên mục tiêu, Sát thương +1% (Tối đa 15%)\n\n<style=\"highlight\">- Khi 1 đồng minh nhận sát thương chí tử trong trận chiến, tiêu hao 2 [Coffin] để nhận [WildHunt] (1 lần mỗi lượt)\n\n- Lượt tiếp theo, nhận [AttackDmgUp] 2 cho bản sắc đã nhận [WildHunt]\n- Nếu thuộc Đồi Gió Hú hoặc Gia tộc Edgar, nhận thêm 1 [Enhancement] vào lượt tiếp theo</style>",
+      "desc": "- Mỗi 1 [Sinking] trên mục tiêu, Sát thương +1% (Tối đa 15%)\n\n<style=\"highlight\">- Khi 1 đồng minh nhận sát thương chí tử trong trận chiến, tiêu hao 2 Quan tài để nhận [WildHunt] (1 lần mỗi lượt)\n\n- Lượt tiếp theo, nhận [AttackDmgUp] 2 cho bản sắc đã nhận [WildHunt]\n- Nếu thuộc Đồi Gió Hú hoặc Gia tộc Edgar, nhận thêm 1 [Enhancement] vào lượt tiếp theo</style>",
       "summary": "Sát thương tăng tỉ lệ thuận với [Sinking] trên mục tiêu"
     },
     {
@@ -1602,7 +1602,7 @@
     {
       "id": 1071012,
       "name": "Lời Triệu Hồi Của Ma Vương",
-      "desc": "- Mỗi 1 [Sinking] trên mục tiêu, Sát thương +1% (Tối đa 15%)\n\n- Khi 1 đồng minh nhận sát thương chí tử trong trận chiến, tiêu hao 2 [Coffin] để nhận [WildHunt] (tối đa <style=\"highlight\">2</style> lần mỗi lượt)\n\n- Lượt tiếp theo, nhận [AttackDmgUp] 2 cho bản sắc đã nhận [WildHunt]\n- Nếu thuộc Đồi Gió Hú hoặc Gia tộc Edgar, nhận thêm 1 [Enhancement] vào lượt tiếp theo",
+      "desc": "- Mỗi 1 [Sinking] trên mục tiêu, Sát thương +1% (Tối đa 15%)\n\n- Khi 1 đồng minh nhận sát thương chí tử trong trận chiến, tiêu hao 2 Quan tài để nhận [WildHunt] (tối đa <style=\"highlight\">2</style> lần mỗi lượt)\n\n- Lượt tiếp theo, nhận [AttackDmgUp] 2 cho bản sắc đã nhận [WildHunt]\n- Nếu thuộc Đồi Gió Hú hoặc Gia tộc Edgar, nhận thêm 1 [Enhancement] vào lượt tiếp theo",
       "summary": "Sát thương tăng tỉ lệ thuận với [Sinking] trên mục tiêu"
     },
     {
@@ -1645,7 +1645,7 @@
       "id": 1011011,
       "name": "Bắn. Đừng Bắn.",
       "desc": "Khi kết thúc đòn tấn công, nếu mục tiêu tử vong bởi Kỹ năng của bản thân thì [ReloadLament]\nNếu nhận [BulletLament], nhận 2 [Agility] vào lượt tiếp theo (1 lần mỗi lượt)",
-      "summary": "Nếu nhận đạn, nhận Nhanh nhẹn vào lượt tiếp theo. Nạp lại khi tiêu diệt mục tiêu"
+      "summary": "Nếu nhận đạn, nhận [Agility] vào lượt tiếp theo. Nạp lại khi tiêu diệt mục tiêu"
     },
     {
       "id": 1011021,
@@ -1717,8 +1717,8 @@
     {
       "id": 1051121,
       "name": "Nhanh Hơn Một Bước",
-      "desc": "Khi 1 đồng minh có tốc độ cao nhất thắng khớp nối, nhận Nhanh nhẹn 1 vào lượt tiếp theo (Tối đa 2 lần mỗi lượt)",
-      "summary": "Khi đồng minh có tốc độ cao nhất thắng khớp nối, nhận Nhanh nhẹn vào lượt tiếp theo"
+      "desc": "Khi 1 đồng minh có tốc độ cao nhất thắng khớp nối, nhận [Agility] 1 vào lượt tiếp theo (Tối đa 2 lần mỗi lượt)",
+      "summary": "Khi đồng minh có tốc độ cao nhất thắng khớp nối, nhận [Agility] vào lượt tiếp theo"
     },
     {
       "id": 1061001,
@@ -1933,7 +1933,7 @@
     {
       "id": 1021111,
       "name": "Thiêu thân",
-      "desc": "Khi bắt đầu trận chiến, nếu Máu đã mất của bản thân từ 80% trở lên và [Combustion] dưới 30, nhận Bỏng cho đến khi đạt 30. (1 lần mỗi màn chơi).\n\nKhi kết thúc lượt, mỗi 6 [Combustion] giúp nhận [AttackUp] 1 vào lượt kế tiếp (Tối đa 5).\n\nKhi chết, kích hoạt các hiệu ứng sau:\n- Gây [Combustion] 2 cho tất cả kẻ địch. Chia đều số lượng [Combustion] của bản thân để gây ra (Tối đa 3 mỗi kẻ địch).\n- Nhận mỗi loại 2 tài nguyên E.G.O cho 2 loại tài nguyên đang có ít nhất.\n\nNếu chết bởi hiệu ứng của Kĩ năng Hồng Viêm Sát Tối Đa Cảm Ứng 【Thoái Hóa Xâm Thực】, hiệu ứng được cường hóa:\n- Gây [Combustion] 3 cho tất cả kẻ địch. Chia đều số lượng [Combustion] của bản thân để gây ra (Tối đa 5 mỗi kẻ địch).\n- Nhận mỗi loại 2 tài nguyên E.G.O cho 2 loại tài nguyên đang có ít nhất.\n- Nếu [Combustion] của bản thân từ 30 trở lên, cấp [AttackUp] 3 cho 1 nhân sự được giải phóng trạng thái chờ."
+      "desc": "Khi bắt đầu trận chiến, nếu Máu đã mất của bản thân từ 80% trở lên và [Combustion] dưới 30, nhận [Combustion] cho đến khi đạt 30. (1 lần mỗi màn chơi).\n\nKhi kết thúc lượt, mỗi 6 [Combustion] giúp nhận [AttackUp] 1 vào lượt kế tiếp (Tối đa 5).\n\nKhi chết, kích hoạt các hiệu ứng sau:\n- Gây [Combustion] 2 cho tất cả kẻ địch. Chia đều số lượng [Combustion] của bản thân để gây ra (Tối đa 3 mỗi kẻ địch).\n- Nhận mỗi loại 2 tài nguyên E.G.O cho 2 loại tài nguyên đang có ít nhất.\n\nNếu chết bởi hiệu ứng của Kĩ năng Hồng Viêm Sát Tối Đa Cảm Ứng 【Thoái Hóa Xâm Thực】, hiệu ứng được cường hóa:\n- Gây [Combustion] 3 cho tất cả kẻ địch. Chia đều số lượng [Combustion] của bản thân để gây ra (Tối đa 5 mỗi kẻ địch).\n- Nhận mỗi loại 2 tài nguyên E.G.O cho 2 loại tài nguyên đang có ít nhất.\n- Nếu [Combustion] của bản thân từ 30 trở lên, cấp [AttackUp] 3 cho 1 nhân sự được giải phóng trạng thái chờ."
     },
     {
       "id": 1021121,
@@ -1987,12 +1987,12 @@
     {
       "id": 1011201,
       "name": "Nhiệt Huyết Dâng Trào",
-      "desc": "Vào cuối lượt, hồi 5 + (Số cộng hưởng tối đa) Tinh thần cho 1 đồng minh có Tinh thần thấp nhất hiện tại. (Tối đa 10) (Ngoại trừ bản thân hoặc đồng minh đang trong trạng thái Hoảng loạn/E.G.O Xâm thực)\n- Nếu đối tượng được hồi phục sở hữu Kĩ năng cơ bản gây cấp hoặc số lượng [Bỏng], hồi thêm 5 Tinh thần"
+      "desc": "Vào cuối lượt, hồi 5 + (Số cộng hưởng tối đa) Tinh thần cho 1 đồng minh có Tinh thần thấp nhất hiện tại. (Tối đa 10) (Ngoại trừ bản thân hoặc đồng minh đang trong trạng thái Hoảng loạn/E.G.O Xâm thực)\n- Nếu đối tượng được hồi phục sở hữu Kĩ năng cơ bản gây cấp hoặc số lượng [Combustion], hồi thêm 5 Tinh thần"
     },
     {
       "id": 1011211,
       "name": "Nhiệt Huyết Dâng Trào",
-      "desc": "Vào cuối lượt, hồi 5 + (Số cộng hưởng tối đa) Tinh thần cho 1 đồng minh có Tinh thần thấp nhất hiện tại. (Tối đa 10) (Ngoại trừ bản thân hoặc đồng minh đang trong trạng thái Hoảng loạn/E.G.O Xâm thực)\n- Nếu đối tượng được hồi phục sở hữu Kĩ năng cơ bản gây cấp hoặc số lượng [Bỏng], hồi thêm 5 Tinh thần\n- Nếu Cộng hưởng Phẫn nộ từ 4 trở lên, hồi phục thêm cho 1 đối tượng"
+      "desc": "Vào cuối lượt, hồi 5 + (Số cộng hưởng tối đa) Tinh thần cho 1 đồng minh có Tinh thần thấp nhất hiện tại. (Tối đa 10) (Ngoại trừ bản thân hoặc đồng minh đang trong trạng thái Hoảng loạn/E.G.O Xâm thực)\n- Nếu đối tượng được hồi phục sở hữu Kĩ năng cơ bản gây cấp hoặc số lượng [Combustion], hồi thêm 5 Tinh thần\n- Nếu Cộng hưởng Phẫn nộ từ 4 trở lên, hồi phục thêm cho 1 đối tượng"
     },
     {
       "id": 1011221,
@@ -2002,38 +2002,38 @@
     {
       "id": 1011231,
       "name": "Phương Trận Liu",
-      "desc": "Nếu 2 đồng minh có Tinh thần thấp nhất bị giảm Tinh thần trong lượt này, hồi 5 Tinh thần vào cuối lượt\n- Nếu đối tượng được hồi phục sở hữu Kĩ năng cơ bản gây cấp hoặc số lượng [Bỏng], hồi 5~10 Tinh thần thay thế"
+      "desc": "Nếu 2 đồng minh có Tinh thần thấp nhất bị giảm Tinh thần trong lượt này, hồi 5 Tinh thần vào cuối lượt\n- Nếu đối tượng được hồi phục sở hữu Kĩ năng cơ bản gây cấp hoặc số lượng [Combustion], hồi 5~10 Tinh thần thay thế"
     },
     {
       "id": 1121102,
       "name": "Nhiên Liệu Xưởng Đặc Chế Khu 12",
-      "desc": "Bắt đầu với 100 [FirePunchFuel] [TabExplain]\n- Nếu giá trị vượt quá 50, trở thành [FirePunchFuel]\n- Nếu giá trị từ 50 trở xuống, [FirePunchFuel] chuyển thành [FirePunchFuelOverheated]"
+      "desc": "Bắt đầu với 100 [FirePunchFuel] TabExplain\n- Nếu giá trị vượt quá 50, trở thành [FirePunchFuel]\n- Nếu giá trị từ 50 trở xuống, [FirePunchFuel] chuyển thành [FirePunchFuelOverheated]"
     },
     {
       "id": 1121101,
       "name": "Chỉ còn mình tôi sống sót...",
       "desc": "Tăng +0.2% Sát thương gây ra với mỗi 1 [FirePunchFuel], [FirePunchFuelOverheated] đã tiêu hao trong trận chiến này (Tối đa 40%)\n- Nếu mục tiêu chính là <Huyết Quỷ> · <Túi Máu>, hoặc tổng cấp và số lượng [Bỏng] của đối tượng từ 30 trở lên, tăng +0.3% Sát thương gây ra thay thế (Tối đa 60%)\n\nKhi có từ 1 [FirePunchFuel], [FirePunchFuelOverheated] trở lên, nếu khiến kẻ địch bị [Bỏng] rơi vào trạng thái Choáng váng hoặc tiêu diệt chúng, tăng 2 số lượng [Bỏng] cho 2 kẻ địch ngẫu nhiên không có [Bỏng] hoặc có số lượng [Bỏng] thấp nhất (1 lần mỗi lượt)\n- Trong trận chiến tập trung thì áp dụng cho bộ phận",
-      "summary": "Tăng sát thương tỉ lệ với [FirePunchFuel], [FirePunchFuelOverheated] đã tiêu hao [TabExplain]\nTăng số lượng [Bỏng] cho 2 kẻ địch (1 lần mỗi lượt)"
+      "summary": "Tăng sát thương tỉ lệ với [FirePunchFuel], [FirePunchFuelOverheated] đã tiêu hao TabExplain\nTăng số lượng [Combustion] cho 2 kẻ địch (1 lần mỗi lượt)"
     },
     {
       "id": 1121121,
       "name": "Đó chắc chắn là đồng phục văn phòng của chúng ta mà...",
-      "desc": "Khi đồng minh có Tốc độ cao nhất tấn công trúng, tăng +5% Sát thương Phẫn nộ với mỗi 6 cấp [Bỏng] trên đối tượng (Tối đa 20%)"
+      "desc": "Khi đồng minh có Tốc độ cao nhất tấn công trúng, tăng +5% Sát thương Phẫn nộ với mỗi 6 cấp [Combustion] trên đối tượng (Tối đa 20%)"
     },
     {
       "id": 1031101,
       "name": "Thảo Viêm Ngọc Cầu",
-      "desc": "Vào cuối lượt, nhận 1 [Nhanh nhẹn] cho mỗi 5 cấp [Nhịp thở] của bản thân vào lượt kế tiếp (Tối đa 2)\n\nBan [DianxueDonQuixote] cho đối tượng (hoặc bộ phận) bị tấn công trúng cuối cùng bởi Kĩ năng tấn công cơ bản vào lượt kế tiếp (1 lần mỗi lượt)\n\nSát thương bạo kích +(Cấp [Bỏng] của đối tượng)% (Tối đa 15%)"
+      "desc": "Vào cuối lượt, nhận 1 [Agility] cho mỗi 5 cấp [Breath] của bản thân vào lượt kế tiếp (Tối đa 2)\n\nBan [DianxueDonQuixote] cho đối tượng (hoặc bộ phận) bị tấn công trúng cuối cùng bởi Kĩ năng tấn công cơ bản vào lượt kế tiếp (1 lần mỗi lượt)\n\nSát thương bạo kích +(Cấp [Combustion] của đối tượng)% (Tối đa 15%)"
     },
     {
       "id": 1031111,
       "name": "Thảo Viêm Ngọc Cầu",
-      "desc": "Vào cuối lượt, nhận 1 [Nhanh nhẹn] cho mỗi <style=\"highlight\">3</style> cấp [Nhịp thở] của bản thân vào lượt kế tiếp (Tối đa 2)\n\nBan [DianxueDonQuixote] cho đối tượng (hoặc bộ phận) bị tấn công trúng cuối cùng bởi Kĩ năng tấn công cơ bản vào lượt kế tiếp (1 lần mỗi lượt)\n\nSát thương bạo kích +(Cấp [Bỏng] của đối tượng)% (Tối đa 15%)\n<style=\"highlight\">- Tăng 5% giá trị tối đa với mỗi 1 [DianxueDonQuixote] trên đối tượng</style>"
+      "desc": "Vào cuối lượt, nhận 1 [Agility] cho mỗi <style=\"highlight\">3</style> cấp [Breath] của bản thân vào lượt kế tiếp (Tối đa 2)\n\nBan [DianxueDonQuixote] cho đối tượng (hoặc bộ phận) bị tấn công trúng cuối cùng bởi Kĩ năng tấn công cơ bản vào lượt kế tiếp (1 lần mỗi lượt)\n\nSát thương bạo kích +(Cấp [Combustion] của đối tượng)% (Tối đa 15%)\n<style=\"highlight\">- Tăng 5% giá trị tối đa với mỗi 1 [DianxueDonQuixote] trên đối tượng</style>"
     },
     {
       "id": 1031121,
       "name": "Khinh Thân Pháp",
-      "desc": "Khi đồng minh có Tốc độ cao nhất chiến thắng khi đối đầu với kẻ địch đang có [Bỏng] hoặc Bỏng đặc biệt, nhận 1 [Nhanh nhẹn] vào lượt kế tiếp (1 lần mỗi lượt)"
+      "desc": "Khi đồng minh có Tốc độ cao nhất chiến thắng khi đối đầu với kẻ địch đang có [Combustion] hoặc Bỏng đặc biệt, nhận 1 [Agility] vào lượt kế tiếp (1 lần mỗi lượt)"
     },
     {
       "id": 1031131,
@@ -2053,7 +2053,7 @@
     {
       "id": 1041121,
       "name": "Tu Luyện Hắc Thú Hóa Một Phần",
-      "desc": "Vào cuối lượt, 1 đồng minh có Tốc độ cao nhất nhận 2 [Nhanh nhẹn] vào lượt kế tiếp"
+      "desc": "Vào cuối lượt, 1 đồng minh có Tốc độ cao nhất nhận 2 [Agility] vào lượt kế tiếp"
     },
     {
       "id": 1111201,
@@ -2129,7 +2129,7 @@
       "id": 1021201,
       "name": "Hắc Thú Hóa [Mão] / Thủ lĩnh Mão",
       "desc": "Nếu Tốc độ của bản thân cao hơn mục tiêu, Sát thương gây ra +2% ứng với mỗi 1 chênh lệch Tốc độ (Tối đa 10%)\n\nTrong trận đấu, mỗi khi đồng minh kích hoạt hiệu ứng Chú Sát, nhận 1 [EnhanceZilu] (Tối đa 5 lần mỗi lượt)\n- Nếu bản thân kích hoạt, nhận thêm 1 [EnhanceZilu]\nKhi hiệu ứng [SupportProtect] kích hoạt, nhận 5 [EnhanceZilu]",
-      "summary": "Sát thương tỉ lệ thuận với chênh lệch Tốc độ [TabExplain]\nNhận [EnhanceZilu] khi kích hoạt Chú Sát hoặc hiệu ứng [SupportProtect]"
+      "summary": "Sát thương tỉ lệ thuận với chênh lệch Tốc độ TabExplain\nNhận [EnhanceZilu] khi kích hoạt Chú Sát hoặc hiệu ứng [SupportProtect]"
     },
     {
       "id": 1021221,
@@ -2150,7 +2150,7 @@
     {
       "id": 1081202,
       "name": "Khởi Động",
-      "desc": "Khi rút lui khỏi trận đấu, nhận Tăng Cấp độ Tấn công 1 cho đồng minh theo thứ tự đội hình vào lượt tiếp theo\n- Số lượng mục tiêu: Giá trị [StartXichun] của bản thân\n- Nếu mục tiêu thuộc \"Nhà Gia\", thay vào đó nhận Tăng Cấp độ Tấn công 2 vào lượt tiếp theo\n- Không áp dụng cho Identity sẽ quay trở lại hoặc được đưa ra sân vào lượt tiếp theo\n\nTrong lượt bản thân xuất hiện do được đưa ra sân hoặc quay trở lại, bản thân nhận [WaitingXichun], và khi bắt đầu lượt trận sẽ sử dụng 「Xích Kích - Thủy [TabExplain] 」lên mục tiêu ngẫu nhiên với thứ tự kĩ năng nhanh nhất.",
+      "desc": "Khi rút lui khỏi trận đấu, nhận Tăng Cấp độ Tấn công 1 cho đồng minh theo thứ tự đội hình vào lượt tiếp theo\n- Số lượng mục tiêu: Giá trị [StartXichun] của bản thân\n- Nếu mục tiêu thuộc \"Nhà Gia\", thay vào đó nhận Tăng Cấp độ Tấn công 2 vào lượt tiếp theo\n- Không áp dụng cho Identity sẽ quay trở lại hoặc được đưa ra sân vào lượt tiếp theo\n\nTrong lượt bản thân xuất hiện do được đưa ra sân hoặc quay trở lại, bản thân nhận [WaitingXichun], và khi bắt đầu lượt trận sẽ sử dụng 「Xích Kích - Thủy TabExplain 」lên mục tiêu ngẫu nhiên với thứ tự kĩ năng nhanh nhất.",
       "summary": "Khi bắt đầu lượt trận trong lượt bản thân xuất hiện do được đưa ra sân hoặc quay trở lại, sử dụng 「Xích Kích - Thủy」lên mục tiêu ngẫu nhiên với thứ tự kĩ năng nhanh nhất."
     },
     {
@@ -2620,7 +2620,7 @@
       "id": 1021401,
       "name": "Thanh kiếm của Người thực thi",
       "desc": "Mỗi 1 [BlessingOfIndexPrescriptAlly] của bản thân, Sát thương kĩ năng có khắc [IndexPrescriptTargetMarkToEnemy] +2% (Tối đa 16%)\n- Nếu [BlessingOfIndexPrescriptAlly] là 9, Sát thương Kĩ năng Tấn công cơ bản +20% thay thế\n\nKhi dùng Kĩ năng Tấn công cơ bản trúng mục tiêu có [IndexPrescriptTargetToEnemy],\nnhận 1 [Breath] và gây 1 [Sinking] (1 lần mỗi hiệp)\n- Với mỗi 3 [BlessingOfIndexPrescriptAlly], số lần có thể kích hoạt mỗi hiệp +1 (Tối đa 2)\n\nNếu [BlessingOfIndexPrescriptAlly] là 9, giá trị gây Sức mạnh [Sinking] của Kĩ năng cơ bản +1, giá trị nhận Sức mạnh [Breath] +1",
-      "summary": "Nếu là kĩ năng có khắc Dấu ấn Chỉ thị, sát thương tăng tỉ lệ thuận với Sự Bảo hộ của Chỉ thị\nKhi trúng, nhận [Breath] và gây [Sinking]"
+      "summary": "Nếu là kĩ năng có khắc Dấu ấn Chỉ thị, sát thương tăng tỉ lệ thuận với Sự Bảo hộ của Chỉ thị\nKhi trúng, nhận Nhịp thở và gây Trầm luân"
     },
     {
       "id": 1021421,
@@ -2807,7 +2807,7 @@
     {
       "id": 1041421,
       "name": "Sự ra đời của Mùa xuân",
-      "desc": "Khi 1 đồng minh có Tốc độ cao nhất đánh trúng kẻ địch bằng kĩ năng gây Cường độ/Số lần [Sinking], hoặc Trầm luân đặc biệt [TabExplain], gây 2 [Vibration] và [VibrationExplosion]. Số lần [Vibration] của mục tiêu giảm đi 1 (1 lần mỗi lượt)",
+      "desc": "Khi 1 đồng minh có Tốc độ cao nhất đánh trúng kẻ địch bằng kĩ năng gây Cường độ/Số lần [Sinking], hoặc Trầm luân đặc biệt TabExplain, gây 2 [Vibration] và [VibrationExplosion]. Số lần [Vibration] của mục tiêu giảm đi 1 (1 lần mỗi lượt)",
       "summary": "Gây [Vibration], [VibrationExplosion]"
     },
     {
@@ -2962,7 +2962,7 @@
     {
       "id": 1041502,
       "name": "Tái ngộ",
-      "desc": "Khi xuất hiện lần đầu trong trận đấu, nhận [SojiRyoshuEchoPast] 0, [SojiRyoshuEntangle] 0\n\nKhi xuất hiện lần đầu trong trận đấu, cứ mỗi 3 Danh tính đồng minh thuộc Mạng Nhện (bao gồm cả bản thân) được sắp xếp, giá trị tối thiểu/tối đa của [SojiRyoshuEchoPast] tăng thêm 1 (Tối đa 3)\n\nNếu Danh tính thuộc Mạng Nhện đang ra trận, khi bản thân nhận sát thương máu, sẽ chuyển lượng sát thương máu đã nhận sang cho Danh tính đồng minh thuộc Mạng Nhện có tỉ lệ máu hiện tại thấp nhất\n\nKhi nhận sát thương khiến máu về 0, máu sẽ không giảm xuống dưới 1 trong lượt đó (1 lần mỗi trận đấu)\n\nNếu có Danh tính đồng minh thuộc Mạng Nhện đã tử trận, áp dụng các hiệu quả sau\n- Nhận 1 [SojiRyoshuEchoPast]\n- Tùy theo Danh tính đã tử trận, nhận thêm các hiệu quả sau trong suốt trận đấu này\n· Yi Sang Trưởng bối Ngón Trỏ Mạng Nhện: Khi sử dụng Kĩ năng Tấn công Cơ bản, Đồng xu Cuối cùng được thay đổi thành [SuperCoin]. Lượng sát thương của [SuperCoin] trong Kĩ năng Tấn công Cơ bản +10%\n· Chấp hành viên Ngón Trỏ - Khai hoa [TabExplain] E.G.O::Chấp hành Don Quixote: Nhận 2 [Breath] khi sử dụng Kĩ năng Tấn công Cơ bản. Khi Kĩ năng Tấn công Cơ bản đánh Chí mạng, gây 1 [Sinking]\n· Ishmael Thứ bối Ngón Giữa Mạng Nhện: Cấp phòng thủ +2, Cường độ [Combustion] gây ra bằng Kĩ năng Tấn công Cơ bản +1\n· Hong Lu Trưởng bối Ngón Áp Út Mạng Nhện: Nhận [MelodyBodyArt]\n· Faust Thứ bối Ngón Áp Út Mạng Nhện: Khi bắt đầu mỗi lượt, nhận Khiên tương ứng với 10% Máu tối đa\n· Sinclair Thứ bối Ngón Út Mạng Nhện: Khi bắt đầu mỗi lượt, nhận 1 số lần [Breath], 1 [CriticalDamageUp]\n\nDanh tính này chỉ được tính là Danh tính gây [Combustion] · [Laceration] · [Breath]\n\nNếu không có Danh tính nào đang chờ để ra sân hoặc quay lại, cứ mỗi 3 Danh tính đồng minh thuộc Mạng Nhện đã tử trận, số ô kĩ năng của Ryoshu Thanh kiếm Mạng Nhện +1 (Tăng tối đa 3 lần)\n- Hiệu quả này không làm tăng số ô vượt quá số ô kĩ năng tối đa của trận đấu đó\n- Có thể kích hoạt bất chấp hiệu quả hạn chế tăng ô kĩ năng của một số nội dung\n\nKhi đạt điều kiện nhất định, thay đổi BGM trận đấu trong suốt trận đấu này (Ngoại trừ một số trận đấu)",
+      "desc": "Khi xuất hiện lần đầu trong trận đấu, nhận [SojiRyoshuEchoPast] 0, [SojiRyoshuEntangle] 0\n\nKhi xuất hiện lần đầu trong trận đấu, cứ mỗi 3 Danh tính đồng minh thuộc Mạng Nhện (bao gồm cả bản thân) được sắp xếp, giá trị tối thiểu/tối đa của [SojiRyoshuEchoPast] tăng thêm 1 (Tối đa 3)\n\nNếu Danh tính thuộc Mạng Nhện đang ra trận, khi bản thân nhận sát thương máu, sẽ chuyển lượng sát thương máu đã nhận sang cho Danh tính đồng minh thuộc Mạng Nhện có tỉ lệ máu hiện tại thấp nhất\n\nKhi nhận sát thương khiến máu về 0, máu sẽ không giảm xuống dưới 1 trong lượt đó (1 lần mỗi trận đấu)\n\nNếu có Danh tính đồng minh thuộc Mạng Nhện đã tử trận, áp dụng các hiệu quả sau\n- Nhận 1 [SojiRyoshuEchoPast]\n- Tùy theo Danh tính đã tử trận, nhận thêm các hiệu quả sau trong suốt trận đấu này\n· Yi Sang Trưởng bối Ngón Trỏ Mạng Nhện: Khi sử dụng Kĩ năng Tấn công Cơ bản, Đồng xu Cuối cùng được thay đổi thành [SuperCoin]. Lượng sát thương của [SuperCoin] trong Kĩ năng Tấn công Cơ bản +10%\n· Chấp hành viên Ngón Trỏ - Khai hoa TabExplain E.G.O::Chấp hành Don Quixote: Nhận 2 [Breath] khi sử dụng Kĩ năng Tấn công Cơ bản. Khi Kĩ năng Tấn công Cơ bản đánh Chí mạng, gây 1 [Sinking]\n· Ishmael Thứ bối Ngón Giữa Mạng Nhện: Cấp phòng thủ +2, Cường độ [Combustion] gây ra bằng Kĩ năng Tấn công Cơ bản +1\n· Hong Lu Trưởng bối Ngón Áp Út Mạng Nhện: Nhận [MelodyBodyArt]\n· Faust Thứ bối Ngón Áp Út Mạng Nhện: Khi bắt đầu mỗi lượt, nhận Khiên tương ứng với 10% Máu tối đa\n· Sinclair Thứ bối Ngón Út Mạng Nhện: Khi bắt đầu mỗi lượt, nhận 1 số lần [Breath], 1 [CriticalDamageUp]\n\nDanh tính này chỉ được tính là Danh tính gây [Combustion] · [Laceration] · [Breath]\n\nNếu không có Danh tính nào đang chờ để ra sân hoặc quay lại, cứ mỗi 3 Danh tính đồng minh thuộc Mạng Nhện đã tử trận, số ô kĩ năng của Ryoshu Thanh kiếm Mạng Nhện +1 (Tăng tối đa 3 lần)\n- Hiệu quả này không làm tăng số ô vượt quá số ô kĩ năng tối đa của trận đấu đó\n- Có thể kích hoạt bất chấp hiệu quả hạn chế tăng ô kĩ năng của một số nội dung\n\nKhi đạt điều kiện nhất định, thay đổi BGM trận đấu trong suốt trận đấu này (Ngoại trừ một số trận đấu)",
       "summary": "Chuyển sát thương nhận vào cho Danh tính Mạng Nhện",
       "flavor": "「Thứ không muốn gặp lại thì rồi sẽ gặp lại, thứ muốn gặp lại thì chẳng bao giờ gặp lại được nữa.」\n「Vì vậy, vào khoảnh khắc tái ngộ, ta phải giữ lòng sắt đá.」"
     },

@@ -26,7 +26,7 @@
         },
         {
           "abilityID": 91582,
-          "simpleDesc": "Gây cường độ [Combustion] tương ứng với số cường độ Bỏng còn lại của kẻ địch đã chết"
+          "simpleDesc": "Gây cường độ [Combustion] tương ứng với số cường độ [Combustion] còn lại của kẻ địch đã chết"
         },
         {
           "abilityID": 91583,
@@ -79,11 +79,11 @@
       "simpleDesc": [
         {
           "abilityID": 9163,
-          "simpleDesc": "Khi thắng Kháng cự bằng kỹ năng tiêu tốn số lượt Chấn động, số lượt [Vibration] của mục tiêu tăng 2"
+          "simpleDesc": "Khi thắng Kháng cự bằng kỹ năng tiêu tốn số lượt [Vibration], số lượt [Vibration] của mục tiêu tăng 2"
         },
         {
           "abilityID": 91631,
-          "simpleDesc": "Khi thắng Kháng cự với Cộng hưởng Lười biếng từ 3 trở lên bao gồm kỹ năng tiêu tốn số lượt Chấn động, số lượt [Vibration] của mục tiêu tăng 3"
+          "simpleDesc": "Khi thắng Kháng cự với Cộng hưởng Lười biếng từ 3 trở lên bao gồm kỹ năng tiêu tốn số lượt [Vibration], số lượt [Vibration] của mục tiêu tăng 3"
         }
       ]
     },
@@ -109,7 +109,7 @@
       "simpleDesc": [
         {
           "abilityID": 9166,
-          "simpleDesc": "Khi thắng Kháng cự bằng kỹ năng tiêu tốn số lượt [Vibration] của bản thân, nếu mục tiêu chưa có Chấn động, tăng số lượt [Vibration] của mục tiêu thêm 3"
+          "simpleDesc": "Khi thắng Kháng cự bằng kỹ năng tiêu tốn số lượt [Vibration] của bản thân, nếu mục tiêu chưa có [Vibration], tăng số lượt [Vibration] của mục tiêu thêm 3"
         },
         {
           "abilityID": 91661,
@@ -144,7 +144,7 @@
         },
         {
           "abilityID": 91674,
-          "simpleDesc": "Khi kết thúc lượt, duy trì [VibrationNesting] mà mục tiêu đang sở hữu cho đến lượt tiếp theo"
+          "simpleDesc": "Khi kết thúc lượt, duy trì VibrationNesting mà mục tiêu đang sở hữu cho đến lượt tiếp theo"
         }
       ]
     },
@@ -245,7 +245,7 @@
       "simpleDesc": [
         {
           "abilityID": 9176,
-          "simpleDesc": "Gây [Sinking]"
+          "simpleDesc": "Gây Trầm luân"
         },
         {
           "abilityID": 91761,
@@ -261,7 +261,7 @@
         },
         {
           "abilityID": 91764,
-          "simpleDesc": "Gây [Sinking]"
+          "simpleDesc": "Gây Trầm luân"
         },
         {
           "abilityID": 91765,
@@ -284,11 +284,11 @@
     {
       "id": 9178,
       "name": "Phần Của Thiên Thần",
-      "desc": "Tại thời điểm kết thúc lượt, nếu cường độ [Breath] của mỗi đồng minh vượt quá 20, tiêu hao 1 cường độ [Breath] để tăng 1 số lượng [Breath]",
+      "desc": "Tại thời điểm kết thúc lượt, nếu cường độ Nhịp thở của mỗi đồng minh vượt quá 20, tiêu hao 1 cường độ Nhịp thở để tăng 1 số lượng Nhịp thở",
       "simpleDesc": [
         {
           "abilityID": 9178,
-          "simpleDesc": "Tiêu hao 1 cường độ [Breath], tăng 1 số lượng [Breath]"
+          "simpleDesc": "Tiêu hao 1 cường độ Nhịp thở, tăng 1 số lượng Nhịp thở"
         }
       ]
     },
@@ -299,7 +299,7 @@
       "simpleDesc": [
         {
           "abilityID": 9180,
-          "simpleDesc": "Nhận số lượng [Breath]"
+          "simpleDesc": "Nhận số lượng Nhịp thở"
         },
         {
           "abilityID": 91801,
@@ -307,7 +307,7 @@
         },
         {
           "abilityID": 91802,
-          "simpleDesc": "Mỗi khi nhận được Uy lực Hô hấp bằng hiệu ứng kỹ năng, nhận thêm Uy lực và Số lượng."
+          "simpleDesc": "Mỗi khi nhận được Uy lực [Breath] bằng hiệu ứng kỹ năng, nhận thêm Uy lực và Số lượng."
         },
         {
           "abilityID": 91803,

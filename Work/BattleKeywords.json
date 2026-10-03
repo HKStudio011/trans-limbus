@@ -1050,7 +1050,7 @@
     {
       "id": "EmittedCurrent",
       "name": "Dòng điện Phóng ra",
-      "desc": "Khi nhận sát thương, Số lần [Charge] của kẻ tấn công tăng 1. Khi nhận sát thương hệ U sầu, Số lần [Rupture] của bản thân tăng 1. Sau đó trị số giảm 1."
+      "desc": "Khi nhận sát thương, Số lần Sạc của kẻ tấn công tăng 1. Khi nhận sát thương hệ U sầu, Số lần [Rupture] của bản thân tăng 1. Sau đó trị số giảm 1."
     },
     {
       "id": "DistortedDongrangRadiantVanity",
@@ -1109,8 +1109,8 @@
     },
     {
       "id": "SinkingSurge",
-      "name": "[Sinking] Sát đáo",
-      "desc": "Gây sát thương Tinh thần bằng (Số lần [Sinking] × Uy lực [Sinking]), sau đó xóa bỏ [Sinking]\nNếu Tinh thần của mục tiêu từ -45 trở xuống, gây lượng sát thương Tinh thần vượt quá thành sát thương hệ U sầu.\n(Áp dụng toàn bộ thành sát thương hệ U sầu đối với mục tiêu không có Tinh thần)"
+      "name": "Trầm luân Sát đáo",
+      "desc": "Gây sát thương Tinh thần bằng (Số lần Trầm luân × Uy lực Trầm luân), sau đó xóa bỏ Trầm luân\nNếu Tinh thần của mục tiêu từ -45 trở xuống, gây lượng sát thương Tinh thần vượt quá thành sát thương hệ U sầu.\n(Áp dụng toàn bộ thành sát thương hệ U sầu đối với mục tiêu không có Tinh thần)"
     },
     {
       "id": "AmberResultUp",
@@ -1121,7 +1121,7 @@
     {
       "id": "Blue",
       "name": "Nước mắt",
-      "desc": "Khi kết thúc lượt, giảm 5 Tinh thần của bản thân.\nKhi mặt Ngửa trúng đích, gây [Sinking] 2"
+      "desc": "Khi kết thúc lượt, giảm 5 Tinh thần của bản thân.\nKhi mặt Ngửa trúng đích, gây Trầm luân 2"
     },
     {
       "id": "EgoAwakenDongrangTreeDisplay",
@@ -1370,12 +1370,12 @@
     {
       "id": "VibrationCollapse",
       "name": "[Tremor] - Sụp Đổ",
-      "desc": "Với mỗi 4 Uy lực [Tremor] trên đối tượng, Cấp Phòng thủ giảm 1\nKhi nhận sát thương bởi kỹ năng [Burst] [Tremor], Vùng Hoảng loạn tiến lên một khoảng bằng giá trị hiệu ứng\nGiảm 1 số lần khi kết thúc lượt\n(Chịu ảnh hưởng tương tự bởi các hiệu ứng tăng giảm Uy lực và Số lần [Tremor])"
+      "desc": "Với mỗi 4 Uy lực [Tremor] trên đối tượng, Cấp Phòng thủ giảm 1\nKhi nhận sát thương bởi kỹ năng Vết rách [Tremor], Vùng Hoảng loạn tiến lên một khoảng bằng giá trị hiệu ứng\nGiảm 1 số lần khi kết thúc lượt\n(Chịu ảnh hưởng tương tự bởi các hiệu ứng tăng giảm Uy lực và Số lần [Tremor])"
     },
     {
       "id": "EchoOfMansion",
       "name": "Tiếng Vang Dinh Thự",
-      "desc": "- Khi Uy lực hoặc Số lần [Sinking] được duy trì bởi hiệu ứng Kỹ năng/Đồng xu, có 50% xác suất tăng Số lần [Sinking] thêm 1\n- Với đối tượng có Tinh thần, loại Hoảng loạn chuyển thành 「Tiếng Vang Dinh Thự」, khi Hoảng loạn, vào lượt tiếp theo sẽ gây 2 Tiếng Vang Dinh Thự cho 2 đồng đội ngẫu nhiên (ngoại trừ bản thân) trong cùng đội.\n- Với đối tượng không có Tinh thần, xác suất tung ra mặt Ngửa -10%\n- Giảm 1 khi kết thúc lượt\n- Hiệu ứng này không cộng dồn mà được làm mới.\n- Với một số kẻ địch có Tinh thần nhưng không bị thay đổi loại Hoảng loạn, áp dụng hiệu ứng dành cho đối tượng không có Tinh thần."
+      "desc": "- Khi Uy lực hoặc Số lần Trầm luân được duy trì bởi hiệu ứng Kỹ năng/Đồng xu, có 50% xác suất tăng Số lần Trầm luân thêm 1\n- Với đối tượng có Tinh thần, loại Hoảng loạn chuyển thành 「Tiếng Vang Dinh Thự」, khi Hoảng loạn, vào lượt tiếp theo sẽ gây 2 Tiếng Vang Dinh Thự cho 2 đồng đội ngẫu nhiên (ngoại trừ bản thân) trong cùng đội.\n- Với đối tượng không có Tinh thần, xác suất tung ra mặt Ngửa -10%\n- Giảm 1 khi kết thúc lượt\n- Hiệu ứng này không cộng dồn mà được làm mới.\n- Với một số kẻ địch có Tinh thần nhưng không bị thay đổi loại Hoảng loạn, áp dụng hiệu ứng dành cho đối tượng không có Tinh thần."
     },
     {
       "id": "Switch_Vibration",
@@ -1390,7 +1390,7 @@
     {
       "id": "VibrationCrack",
       "name": "[Tremor] - Rạn Nứt",
-      "desc": "- Khi rơi vào trạng thái Hoảng loạn, nếu tổng Uy lực và Số lần [Tremor] của bản thân từ 20 trở lên, cấp độ Hoảng loạn tăng thêm 1\n- Hiệu ứng này không vượt quá cấp độ Hoảng loạn tối đa\n\nKhi nhận sát thương bởi kỹ năng [Burst] [Tremor], Vùng Hoảng loạn tiến lên một khoảng bằng giá trị hiệu ứng\nGiảm 1 số lần sau khi kết thúc lượt\n(Áp dụng tương tự như các hiệu ứng tăng giảm Uy lực và Số lần [Tremor])"
+      "desc": "- Khi rơi vào trạng thái Hoảng loạn, nếu tổng Uy lực và Số lần [Tremor] của bản thân từ 20 trở lên, cấp độ Hoảng loạn tăng thêm 1\n- Hiệu ứng này không vượt quá cấp độ Hoảng loạn tối đa\n\nKhi nhận sát thương bởi kỹ năng Vết rách [Tremor], Vùng Hoảng loạn tiến lên một khoảng bằng giá trị hiệu ứng\nGiảm 1 số lần sau khi kết thúc lượt\n(Áp dụng tương tự như các hiệu ứng tăng giảm Uy lực và Số lần [Tremor])"
     },
     {
       "id": "ForwardToTheKing",
@@ -1431,13 +1431,13 @@
     {
       "id": "VibrationEcho",
       "name": "[Tremor] - Vang Vọng",
-      "desc": "- Khi [Burst] [Tremor], nhận sát thương hệ Lười biếng bằng Uy lực [Tremor]\n- Khi nhận sát thương bởi kỹ năng [Burst] [Tremor], Vùng Hoảng loạn tiến lên một khoảng bằng giá trị hiệu ứng\n- Giảm 1 số lần khi kết thúc lượt\n(Chịu ảnh hưởng tương tự bởi các hiệu ứng tăng giảm Uy lực và Số lần [Tremor])",
+      "desc": "- Khi Vết rách [Tremor], nhận sát thương hệ Lười biếng bằng Uy lực [Tremor]\n- Khi nhận sát thương bởi kỹ năng Vết rách [Tremor], Vùng Hoảng loạn tiến lên một khoảng bằng giá trị hiệu ứng\n- Giảm 1 số lần khi kết thúc lượt\n(Chịu ảnh hưởng tương tự bởi các hiệu ứng tăng giảm Uy lực và Số lần [Tremor])",
       "summary": ""
     },
     {
       "id": "ShieldManagerCryingToad",
       "name": "Giọt Lệ",
-      "desc": "- Hiệu ứng này được coi là hiệu ứng quản lý Hộ giáp\n- Giảm 1 khi kết thúc lượt\n- Trong khi Giọt Lệ còn hiệu lực, Hộ giáp không bị mất khi kết thúc lượt (Ngoại trừ trường hợp bị mất do sát thương hoặc hiệu ứng)\n- Khi Hộ giáp có hiệu ứng Giọt Lệ bị phá hủy do nhận sát thương, gây [Sinking] Cường độ và [Sinking] Số lượng ngẫu nhiên lên đối tượng đã tấn công (Tổng cộng 4)\n- Giá trị Hộ giáp có thể cộng dồn, trong khi hiệu ứng Giọt Lệ còn hiệu lực, giá trị Hộ giáp không vượt quá 60% Máu tối đa của đối tượng nhận Hộ giáp.",
+      "desc": "- Hiệu ứng này được coi là hiệu ứng quản lý Hộ giáp\n- Giảm 1 khi kết thúc lượt\n- Trong khi Giọt Lệ còn hiệu lực, Hộ giáp không bị mất khi kết thúc lượt (Ngoại trừ trường hợp bị mất do sát thương hoặc hiệu ứng)\n- Khi Hộ giáp có hiệu ứng Giọt Lệ bị phá hủy do nhận sát thương, gây Trầm luân Cường độ và Trầm luân Số lượng ngẫu nhiên lên đối tượng đã tấn công (Tổng cộng 4)\n- Giá trị Hộ giáp có thể cộng dồn, trong khi hiệu ứng Giọt Lệ còn hiệu lực, giá trị Hộ giáp không vượt quá 60% Máu tối đa của đối tượng nhận Hộ giáp.",
       "summary": ""
     },
     {
@@ -1491,13 +1491,13 @@
     {
       "id": "ChargeLoad",
       "name": "Quá tải",
-      "desc": "- Tối đa : 6\n- Sát thương của Kỹ năng tấn công tiêu hao [Charge] Số lượng tăng 2.5% mỗi cấp độ (Tối đa 15%)\n- Nếu đối tượng nhận hiệu ứng là nhân viên Tập đoàn W, tăng 5% mỗi cấp độ (Tối đa 30%)\n- Biến mất khi kết thúc lượt",
+      "desc": "- Tối đa : 6\n- Sát thương của Kỹ năng tấn công tiêu hao Sạc Số lượng tăng 2.5% mỗi cấp độ (Tối đa 15%)\n- Nếu đối tượng nhận hiệu ứng là nhân viên Tập đoàn W, tăng 5% mỗi cấp độ (Tối đa 30%)\n- Biến mất khi kết thúc lượt",
       "summary": ""
     },
     {
       "id": "PhotoElectricity",
       "name": "Quang điện",
-      "desc": "Tối đa : 3\nKhi nhận sát thương, [Charge] Số lượng của kẻ tấn công tăng theo cấp độ (1 lần mỗi Kỹ năng)\n- Nếu [Charge] Số lượng của kẻ tấn công từ 5 trở xuống, nhận thêm 3 [Charge] Số lượng\nBiến mất khi kết thúc lượt",
+      "desc": "Tối đa : 3\nKhi nhận sát thương, Sạc Số lượng của kẻ tấn công tăng theo cấp độ (1 lần mỗi Kỹ năng)\n- Nếu Sạc Số lượng của kẻ tấn công từ 5 trở xuống, nhận thêm 3 Sạc Số lượng\nBiến mất khi kết thúc lượt",
       "summary": ""
     },
     {
@@ -1509,7 +1509,7 @@
     {
       "id": "WildHunt",
       "name": "Wild Hunt",
-      "desc": "- Trong lượt đầu tiên nhận hiệu ứng, duy trì 1 Máu, khi kết thúc lượt hồi 50% Máu tối đa, Tinh thần đặt lại về 0\n- Khi chết, nhận 1 Tài nguyên E.G.O đang có ít nhất\n- Khi chết do bị tấn công, gây 3 [Sinking] cho đối tượng cuối cùng đã tấn công bản thân\n- Chết khi kết thúc lượt đã hồi sinh",
+      "desc": "- Trong lượt đầu tiên nhận hiệu ứng, duy trì 1 Máu, khi kết thúc lượt hồi 50% Máu tối đa, Tinh thần đặt lại về 0\n- Khi chết, nhận 1 Tài nguyên E.G.O đang có ít nhất\n- Khi chết do bị tấn công, gây 3 Trầm luân cho đối tượng cuối cùng đã tấn công bản thân\n- Chết khi kết thúc lượt đã hồi sinh",
       "summary": ""
     },
     {
@@ -1539,21 +1539,21 @@
     {
       "id": "WanderingFootsteps_LowMorale",
       "name": "Phá sản",
-      "desc": "- Tinh thần Sa sút\n- Sức mạnh Đối kháng của bản thân -1. Nhận 3 [Sinking] khi kết thúc mỗi lượt",
+      "desc": "- Tinh thần Sa sút\n- Sức mạnh Đối kháng của bản thân -1. Nhận 3 Trầm luân khi kết thúc mỗi lượt",
       "summary": "Sức mạnh Đối kháng của bản thân -1\nNhận 3 [Sinking] khi kết thúc mỗi lượt",
       "undefined": "-"
     },
     {
       "id": "WanderingFootsteps_Panic",
       "name": "Phá sản",
-      "desc": "- Hoảng loạn\n- Sức mạnh Đối kháng của bản thân -2. Nhận 5 [Sinking] và tăng 3 [Sinking] Số lượng khi kết thúc mỗi lượt",
+      "desc": "- Hoảng loạn\n- Sức mạnh Đối kháng của bản thân -2. Nhận 5 Trầm luân và tăng 3 Trầm luân Số lượng khi kết thúc mỗi lượt",
       "summary": "Uy lực Khớp lệnh bản thân -2\nKhi kết thúc mỗi lượt, nhận 5 [Sinking], số lượt [Sinking] tăng 3",
       "undefined": "-"
     },
     {
       "id": "UninvitedGuestPersonality",
       "name": "Kẻ không mời",
-      "desc": "- Tối đa 2\n- Khi chết, hồi 3 Tinh thần cho kẻ tấn công cuối cùng. Hiệu ứng này sẽ chuyển 2 cộng dồn sang một đồng minh ngẫu nhiên không sở hữu hiệu ứng.\n- Với mỗi 1 [Sinking] bản thân đang có, Lượng sát thương nhận vào +0.5% (Tối đa 10%, trong Trận chiến Tập trung sẽ tính toán riêng biệt cho mỗi bộ phận)\n- Giảm 1 khi kết thúc lượt",
+      "desc": "- Tối đa 2\n- Khi chết, hồi 3 Tinh thần cho kẻ tấn công cuối cùng. Hiệu ứng này sẽ chuyển 2 cộng dồn sang một đồng minh ngẫu nhiên không sở hữu hiệu ứng.\n- Với mỗi 1 Trầm luân bản thân đang có, Lượng sát thương nhận vào +0.5% (Tối đa 10%, trong Trận chiến Tập trung sẽ tính toán riêng biệt cho mỗi bộ phận)\n- Giảm 1 khi kết thúc lượt",
       "summary": "",
       "undefined": "-"
     },
@@ -1574,7 +1574,7 @@
     {
       "id": "DefensiveStance",
       "name": "Tư thế Phòng ngự",
-      "desc": "- Tối đa: 2\n- Hiệu ứng này được làm mới chứ không cộng dồn\n- Giảm 1 khi kết thúc lượt\n- Khi nhận hiệu ứng này, các hiệu ứng sau sẽ áp dụng vào lượt tiếp theo:\n· Tốc độ cố định ở giá trị tối thiểu\n· Nhận 5 Tăng cấp Phòng ngự\n· Chỉ số Khiêu khích mỗi ô kỹ năng tăng thêm (10 ÷ Số ô kỹ năng của bản thân)\n· Khi chỉ định kỹ năng, có thể thay đổi mục tiêu tấn công sang bản thân bất kể Tốc độ (Chỉ dành cho Trận chiến Tập trung)\n· [Burst] [Tremor] khi thắng Khớp lệnh\n· Không bị Choáng do sát thương",
+      "desc": "- Tối đa: 2\n- Hiệu ứng này được làm mới chứ không cộng dồn\n- Giảm 1 khi kết thúc lượt\n- Khi nhận hiệu ứng này, các hiệu ứng sau sẽ áp dụng vào lượt tiếp theo:\n· Tốc độ cố định ở giá trị tối thiểu\n· Nhận 5 Tăng cấp Phòng ngự\n· Chỉ số Khiêu khích mỗi ô kỹ năng tăng thêm (10 ÷ Số ô kỹ năng của bản thân)\n· Khi chỉ định kỹ năng, có thể thay đổi mục tiêu tấn công sang bản thân bất kể Tốc độ (Chỉ dành cho Trận chiến Tập trung)\n· Vết rách [Tremor] khi thắng Khớp lệnh\n· Không bị Choáng do sát thương",
       "summary": ""
     },
     {
@@ -1738,7 +1738,7 @@
     {
       "id": "FreishutzOutisEgoBullet_2nd",
       "name": "Viên ma đạn thứ 2",
-      "desc": "- Sát thương gây ra +10%\n- Gây sát thương cho các mục tiêu khác ngoại trừ mục tiêu chính (Số lượng mục tiêu: tối đa 4), sát thương nhận vào của mục tiêu chính là 0\n- Gây 3 [Paralysis] khi trúng đích"
+      "desc": "- Sát thương gây ra +10%\n- Gây sát thương cho các mục tiêu khác ngoại trừ mục tiêu chính (Số lượng mục tiêu: tối đa 4), sát thương nhận vào của mục tiêu chính là 0\n- Gây 3 Tê liệt khi trúng đích"
     },
     {
       "id": "FreishutzOutisEgoBullet_3rd",
@@ -2119,21 +2119,21 @@
     {
       "id": "ChoSuperCharge",
       "name": "Siêu Á Quang Tích Điện",
-      "desc": "- Giá trị tối đa: 100\n- Khi bản thân tiêu hao số tầng [Charge], giá trị buff này tăng thêm bằng lượng tiêu hao\n- Số tầng [Charge] tối đa +10\n- Khi đồng minh nhận [Charge] Uy lực hoặc Số tầng, số tầng [Charge] của bản thân tăng 1\n- Khi tiêu hao số tầng [Charge] bằng kỹ năng của bản thân, tiêu hao thêm 1 lần bằng lượng tiêu hao (Nếu không đủ số tầng, tiêu hao tối đa lượng còn lại)\n- Mỗi 10 giá trị, sát thương kỹ năng của bản thân +10%\n- Mỗi 20 giá trị, tăng +0.1 vào Mọi Thuộc Tính của kẻ địch chỉ áp dụng cho đòn tấn công của bản thân. (Tối đa +0.5, ngoại trừ trạng thái Choáng)\n- Khi Bản sắc sở hữu buff này tử trận, buff sẽ được kế thừa cho đồng minh có thứ tự sắp xếp đội hình cao tiếp theo trong số các nhân viên xuất chiến hiện tại, và giá trị buff được giữ nguyên\n- Hiệu ứng buff này cũng áp dụng cho [Charge] đặc biệt",
+      "desc": "- Giá trị tối đa: 100\n- Khi bản thân tiêu hao số tầng Sạc, giá trị buff này tăng thêm bằng lượng tiêu hao\n- Số tầng Sạc tối đa +10\n- Khi đồng minh nhận Sạc Uy lực hoặc Số tầng, số tầng Sạc của bản thân tăng 1\n- Khi tiêu hao số tầng Sạc bằng kỹ năng của bản thân, tiêu hao thêm 1 lần bằng lượng tiêu hao (Nếu không đủ số tầng, tiêu hao tối đa lượng còn lại)\n- Mỗi 10 giá trị, sát thương kỹ năng của bản thân +10%\n- Mỗi 20 giá trị, tăng +0.1 vào Mọi Thuộc Tính của kẻ địch chỉ áp dụng cho đòn tấn công của bản thân. (Tối đa +0.5, ngoại trừ trạng thái Choáng)\n- Khi Bản sắc sở hữu buff này tử trận, buff sẽ được kế thừa cho đồng minh có thứ tự sắp xếp đội hình cao tiếp theo trong số các nhân viên xuất chiến hiện tại, và giá trị buff được giữ nguyên\n- Hiệu ứng buff này cũng áp dụng cho Sạc đặc biệt",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "ShareCharge",
       "name": "Mạch Cộng Hưởng Tự Thân",
-      "desc": "Tổng số tầng [Charge] mà tất cả đồng minh hiện tại đang sở hữu\n\nSát thương khi kỹ năng trúng đích +(Tổng số tầng [Charge] của đồng minh hiện tại ÷ 3)%\nMỗi 100 lượng tiêu hao tích lũy số tầng [Charge] của đồng minh, tất cả đồng minh nhận 1 Tăng Cấp Tấn Công",
+      "desc": "Tổng số tầng Sạc mà tất cả đồng minh hiện tại đang sở hữu\n\nSát thương khi kỹ năng trúng đích +(Tổng số tầng Sạc của đồng minh hiện tại ÷ 3)%\nMỗi 100 lượng tiêu hao tích lũy số tầng Sạc của đồng minh, tất cả đồng minh nhận 1 Tăng Cấp Tấn Công",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "WaveSinking",
       "name": "Ngược Dòng",
-      "desc": "- Giá trị tối đa: 3\nKhi nhận sát thương, nhận [Sinking] Uy lực theo giá trị\n\nKhi kết thúc lượt, nếu Tinh thần của bản thân từ -30 trở xuống, áp dụng các hiệu ứng sau (Kẻ địch không có Tinh thần sẽ kích hoạt khi sở hữu từ 60 [Sinking] Uy lực trở lên)\n- Nhận sát thương Trầm tư bằng ([Sinking] Uy lực × Giá trị) của bản thân\n- Gây 1 Ngược Dòng cho 2 mục tiêu có Tinh thần thấp nhất ngoại trừ bản thân (Nếu là Hoang tưởng thể thì là các bộ phận), và gây sát thương Trầm tư bằng ([Sinking] Uy lực × Giá trị) của mỗi mục tiêu\n- Khi tử trận trong trạng thái sở hữu Ngược Dòng, gây Ngược Dòng cho đồng minh có giá trị Ngược Dòng cao nhất bằng giá trị Ngược Dòng của bản thân",
+      "desc": "- Giá trị tối đa: 3\nKhi nhận sát thương, nhận Trầm luân Uy lực theo giá trị\n\nKhi kết thúc lượt, nếu Tinh thần của bản thân từ -30 trở xuống, áp dụng các hiệu ứng sau (Kẻ địch không có Tinh thần sẽ kích hoạt khi sở hữu từ 60 Trầm luân Uy lực trở lên)\n- Nhận sát thương Trầm tư bằng (Trầm luân Uy lực × Giá trị) của bản thân\n- Gây 1 Ngược Dòng cho 2 mục tiêu có Tinh thần thấp nhất ngoại trừ bản thân (Nếu là Hoang tưởng thể thì là các bộ phận), và gây sát thương Trầm tư bằng (Trầm luân Uy lực × Giá trị) của mỗi mục tiêu\n- Khi tử trận trong trạng thái sở hữu Ngược Dòng, gây Ngược Dòng cho đồng minh có giá trị Ngược Dòng cao nhất bằng giá trị Ngược Dòng của bản thân",
       "summary": "",
       "undefined": "-"
     },
@@ -2354,8 +2354,8 @@
     {
       "id": "WOverCharge",
       "name": "Quá tải",
-      "desc": "- Tối đa: 1\n- Trở thành trạng thái Không thể hành động\n- Lượng sát thương nhận vào giảm 10 + (Số lượng [Charge] của bản thân × 5)% (Tối đa 25%)\n- Khi bắt đầu lượt, nhận [Charge] Barrier bằng Số lượng [Charge] của bản thân (Tối đa 5)\n- Khi kết thúc lượt, nhận 10 Số lượt [Charge], 2 Tăng Uy lực Tấn công vào lượt tiếp theo và hiệu ứng này biến mất\n- Ô kỹ năng ngoài cùng bên trái nhận Cấp độ Khiêu khích bằng Số lượng [Charge] của bản thân (Tối đa 5)\n- Khi nhận sát thương, nhận 1 Số lượt [Charge], 1 [Load] vào lượt tiếp theo (Tối đa 5 mỗi lượt)\n- Hiệu ứng này biến mất nếu bản thân bị Hoảng loạn, hoặc ở trạng thái Panic hoặc E.G.O Xâm thực khi bắt đầu lượt",
-      "summary": "Không thể hành động. Lượng sát thương nhận vào giảm. Nhận Cấp độ Khiêu khích, [Charge] Barrier. Nhận Số lượt [Charge] vào lượt tiếp theo. Nhận [Load] và Số lượt [Charge] khi nhận sát thương",
+      "desc": "- Tối đa: 1\n- Trở thành trạng thái Không thể hành động\n- Lượng sát thương nhận vào giảm 10 + (Số lượng Sạc của bản thân × 5)% (Tối đa 25%)\n- Khi bắt đầu lượt, nhận Sạc Barrier bằng Số lượng Sạc của bản thân (Tối đa 5)\n- Khi kết thúc lượt, nhận 10 Số lượt Sạc, 2 Tăng Uy lực Tấn công vào lượt tiếp theo và hiệu ứng này biến mất\n- Ô kỹ năng ngoài cùng bên trái nhận Cấp độ Khiêu khích bằng Số lượng Sạc của bản thân (Tối đa 5)\n- Khi nhận sát thương, nhận 1 Số lượt Sạc, 1 [Load] vào lượt tiếp theo (Tối đa 5 mỗi lượt)\n- Hiệu ứng này biến mất nếu bản thân bị Hoảng loạn, hoặc ở trạng thái Panic hoặc E.G.O Xâm thực khi bắt đầu lượt",
+      "summary": "Không thể hành động. Lượng sát thương nhận vào giảm. Nhận Cấp độ Khiêu khích, Sạc Barrier. Nhận Số lượt Sạc vào lượt tiếp theo. Nhận [Load] và Số lượt Sạc khi nhận sát thương",
       "undefined": "-"
     },
     {
@@ -2381,7 +2381,7 @@
     {
       "id": "EmergencyChargeForceField",
       "name": "Pin Trường Lực Khẩn cấp",
-      "desc": "- Tối đa: 7\n- Khi rơi vào trạng thái Hoảng loạn, tiêu hao toàn bộ Pin Trường Lực Khẩn cấp, nhận bấy nhiêu [Charge] Barrier bằng số lượng đã tiêu hao",
+      "desc": "- Tối đa: 7\n- Khi rơi vào trạng thái Hoảng loạn, tiêu hao toàn bộ Pin Trường Lực Khẩn cấp, nhận bấy nhiêu Sạc Barrier bằng số lượng đã tiêu hao",
       "summary": "",
       "undefined": "-"
     },
@@ -2562,15 +2562,15 @@
     {
       "id": "DelusionGregBigBird_Main",
       "name": "Huyễn Hoặc",
-      "desc": "- Với mỗi 1 tổng số [Sinking] và Bỏng, Sát thương nhận vào từ Kỹ năng Tấn công cơ bản +0.5% (Tối đa 10%)\n- Nếu đối tượng có Cấp tinh thần, Loại Hoảng loạn chuyển thành Huyễn Hoặc\n- Giảm 1 khi kết thúc lượt",
-      "summary": "Với mỗi 1 tổng số [Sinking] và Bỏng, Sát thương nhận vào từ Kỹ năng Tấn công cơ bản +0.5% (Tối đa 10%)\nLoại Hoảng loạn chuyển thành Huyễn Hoặc",
+      "desc": "- Với mỗi 1 tổng số Trầm luân và Bỏng, Sát thương nhận vào từ Kỹ năng Tấn công cơ bản +0.5% (Tối đa 10%)\n- Nếu đối tượng có Cấp tinh thần, Loại Hoảng loạn chuyển thành Huyễn Hoặc\n- Giảm 1 khi kết thúc lượt",
+      "summary": "Với mỗi 1 tổng số Trầm luân và Bỏng, Sát thương nhận vào từ Kỹ năng Tấn công cơ bản +0.5% (Tối đa 10%)\nLoại Hoảng loạn chuyển thành Huyễn Hoặc",
       "undefined": "-"
     },
     {
       "id": "DelusionGregBigBird_Sub",
       "name": "Huyễn Hoặc",
-      "desc": "- Với mỗi 1 tổng số [Sinking] và Bỏng, Sát thương nhận vào từ Kỹ năng Tấn công cơ bản +0.5% (Tối đa 10%)\n- Nếu đối tượng không có Cấp tinh thần, Cấp Phòng ngự -2\n- Giảm 1 khi kết thúc lượt",
-      "summary": "Với mỗi 1 tổng số [Sinking] và Bỏng, Sát thương nhận vào từ Kỹ năng Tấn công cơ bản +0.5% (Tối đa 10%)\nCấp Phòng ngự -2",
+      "desc": "- Với mỗi 1 tổng số Trầm luân và Bỏng, Sát thương nhận vào từ Kỹ năng Tấn công cơ bản +0.5% (Tối đa 10%)\n- Nếu đối tượng không có Cấp tinh thần, Cấp Phòng ngự -2\n- Giảm 1 khi kết thúc lượt",
+      "summary": "Với mỗi 1 tổng số Trầm luân và Bỏng, Sát thương nhận vào từ Kỹ năng Tấn công cơ bản +0.5% (Tối đa 10%)\nCấp Phòng ngự -2",
       "undefined": "-"
     },
     {
@@ -2953,7 +2953,7 @@
     {
       "id": "FaubismMaskMeursault",
       "name": "Phái Dã Thú - Masque de Chien (Mặt nạ Chó)",
-      "desc": "- Với mỗi 3 Màu Sắc Bị Xé Toạc của mục tiêu, +5% Sát thương gây ra (Tối đa 15%)\n- +1 giá trị Uy lực [Bleed] và [Sinking] gây ra bằng kỹ năng cơ bản\n- Trước khi kỹ năng cơ bản trúng đích, nếu mục tiêu không có [Bleed], gây thêm 2 số lượng [Bleed] (1 lần mỗi lượt)",
+      "desc": "- Với mỗi 3 Màu Sắc Bị Xé Toạc của mục tiêu, +5% Sát thương gây ra (Tối đa 15%)\n- +1 giá trị Uy lực [Bleed] và Trầm luân gây ra bằng kỹ năng cơ bản\n- Trước khi kỹ năng cơ bản trúng đích, nếu mục tiêu không có [Bleed], gây thêm 2 số lượng [Bleed] (1 lần mỗi lượt)",
       "summary": "",
       "undefined": "-"
     },
@@ -2967,21 +2967,21 @@
     {
       "id": "FaubismWolfMaskRodion",
       "name": "Phái Dã Thú - Masque de Loup (Mặt nạ Sói)",
-      "desc": "- Tốc độ tối thiểu/tối đa +1\n- +1 giá trị Uy lực [Bleed] và [Sinking] gây ra bằng kỹ năng cơ bản\n- Khi tấn công trúng đích, nếu Màu Sắc Bị Xé Toạc [Bleu] của mục tiêu từ 3 trở lên, tăng 1 số lượng [Sinking] (1 lần mỗi lượt)\n- Khi tấn công trúng đích, nếu Màu Sắc Bị Xé Toạc [Rouge] của mục tiêu từ 3 trở lên, tăng 1 số lượng [Bleed] (1 lần mỗi lượt)",
+      "desc": "- Tốc độ tối thiểu/tối đa +1\n- +1 giá trị Uy lực [Bleed] và Trầm luân gây ra bằng kỹ năng cơ bản\n- Khi tấn công trúng đích, nếu Màu Sắc Bị Xé Toạc [Bleu] của mục tiêu từ 3 trở lên, tăng 1 số lượng Trầm luân (1 lần mỗi lượt)\n- Khi tấn công trúng đích, nếu Màu Sắc Bị Xé Toạc [Rouge] của mục tiêu từ 3 trở lên, tăng 1 số lượng [Bleed] (1 lần mỗi lượt)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BoldBrushstrokesRodion",
       "name": "Nét Vẽ Táo Bạo",
-      "desc": "- Tối đa: 2\n- Với mỗi 1 giá trị, +10% Sát thương HP/Tinh thần nhận vào từ hiệu ứng [Bleed] và [Sinking] (Tối đa 20%, làm tròn xuống)\n- Giảm 1 khi kết thúc lượt",
+      "desc": "- Tối đa: 2\n- Với mỗi 1 giá trị, +10% Sát thương HP/Tinh thần nhận vào từ hiệu ứng [Bleed] và Trầm luân (Tối đa 20%, làm tròn xuống)\n- Giảm 1 khi kết thúc lượt",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "IntenseColorsRodion",
       "name": "Màu Sắc Mãnh Liệt",
-      "desc": "- Tối đa: 4\n- Sát thương nhận vào từ các Bản sắc thuộc Ngón Áp Út +(Giá trị × 2.5)% \n・Nếu kẻ tấn công thuộc Ngón Áp Út đồng thời thuộc Phái Dã Thú, sát thương nhận vào thay thành +(Giá trị × 5)%\n- Khi bắt đầu trận đấu, nhận ngẫu nhiên một trong các hiệu ứng: Uy lực [Bleed], Uy lực [Sinking], Số lượng [Bleed], Số lượng [Sinking] một số lần bằng giá trị này\n- Khi kết thúc trận đấu, hiệu ứng này biến mất và giá trị của Màu Sắc Bị Xé Toạc [Rouge] · Màu Sắc Bị Xé Toạc [Bleu] bị giảm một nửa (làm tròn xuống)",
+      "desc": "- Tối đa: 4\n- Sát thương nhận vào từ các Bản sắc thuộc Ngón Áp Út +(Giá trị × 2.5)% \n・Nếu kẻ tấn công thuộc Ngón Áp Út đồng thời thuộc Phái Dã Thú, sát thương nhận vào thay thành +(Giá trị × 5)%\n- Khi bắt đầu trận đấu, nhận ngẫu nhiên một trong các hiệu ứng: Uy lực [Bleed], Uy lực Trầm luân, Số lượng [Bleed], Số lượng Trầm luân một số lần bằng giá trị này\n- Khi kết thúc trận đấu, hiệu ứng này biến mất và giá trị của Màu Sắc Bị Xé Toạc [Rouge] · Màu Sắc Bị Xé Toạc [Bleu] bị giảm một nửa (làm tròn xuống)",
       "summary": "",
       "undefined": "-"
     },
@@ -3009,7 +3009,7 @@
     {
       "id": "EagleClawWoundAlly",
       "name": "Sắc Màu Bị Xé Toạc [Blue]",
-      "desc": "- Giá trị tối đa: 9\n- Khi nhận sát thương, mỗi 3 đơn vị giá trị nhận 1 Số lượng [Sinking] (1 lần mỗi lượt)\n- Khi kết thúc lượt, nếu giá trị từ 5 trở lên, giảm 5 Tinh thần\n- Giảm 1 khi kết thúc lượt",
+      "desc": "- Giá trị tối đa: 9\n- Khi nhận sát thương, mỗi 3 đơn vị giá trị nhận 1 Số lượng Trầm luân (1 lần mỗi lượt)\n- Khi kết thúc lượt, nếu giá trị từ 5 trở lên, giảm 5 Tinh thần\n- Giảm 1 khi kết thúc lượt",
       "summary": "",
       "undefined": "-"
     },
@@ -3488,8 +3488,8 @@
     {
       "id": "ChargeNoirAlly",
       "name": "Bảo tồn",
-      "desc": "- [Charge] đặc biệt\n- Số lượng tối đa: 20\n- Tương tác giống như Charge thông thường đối với các hiệu ứng tăng giảm Sức mạnh và số [Charge]\n- Kết thúc lượt: Mất 1 số lượng",
-      "summary": "[Charge] đặc biệt",
+      "desc": "- Sạc đặc biệt\n- Số lượng tối đa: 20\n- Tương tác giống như Charge thông thường đối với các hiệu ứng tăng giảm Sức mạnh và số Sạc\n- Kết thúc lượt: Mất 1 số lượng",
+      "summary": "Sạc đặc biệt",
       "flavor": "Lực được nén lại, gom về, và cố định tại chỗ. Đôi khi, cần nhiều lực hơn để ngăn thay đổi hơn là để gây ra nó."
     },
     {
@@ -3502,7 +3502,7 @@
     {
       "id": "ChargeRougeAlly",
       "name": "Nhịp đập",
-      "desc": "- [Charge] đặc biệt\n- Số lượng tối đa: 20\n- Tương tác giống như Charge thông thường đối với các hiệu ứng tăng giảm Sức mạnh và số [Charge]\n- Kết thúc lượt: Mất 1 số lượng",
+      "desc": "- Sạc đặc biệt\n- Số lượng tối đa: 20\n- Tương tác giống như Charge thông thường đối với các hiệu ứng tăng giảm Sức mạnh và số Sạc\n- Kết thúc lượt: Mất 1 số lượng",
       "summary": "",
       "undefined": "-"
     },
@@ -3554,7 +3554,7 @@
     {
       "id": "ChargeKhakiAlly",
       "name": "Quán tính của việc trôi dạt",
-      "desc": "- Số lượng tối đa: 20\n- [Charge] đặc biệt\n- Tương tác giống như Charge thông thường đối với các hiệu ứng tăng giảm Sức mạnh và số [Charge]\n- Kết thúc lượt: Mất 1 số lượng",
+      "desc": "- Số lượng tối đa: 20\n- Sạc đặc biệt\n- Tương tác giống như Charge thông thường đối với các hiệu ứng tăng giảm Sức mạnh và số Sạc\n- Kết thúc lượt: Mất 1 số lượng",
       "summary": "",
       "undefined": "-",
       "flavor": "Những kẻ bị dòng triều cuốn đi như những con phao có thể không thay đổi được dòng chảy của sự vật, nhưng họ vẫn có thể củng cố con triều và dấn thân vào hành động của mình trong đó."

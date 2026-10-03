@@ -1601,7 +1601,7 @@
                   "desc": "Tiêu hao 1 [Bullet]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "Sát thương +(Đạn đã tiêu hao × <style=\"highlight\">15</style>)%"
+                  "desc": "Sát thương +([Bullet] đã tiêu hao × <style=\"highlight\">15</style>)%"
                 },
                 {
                   "desc": "[OnSucceedAttack] Đẩy mốc Choáng lên thêm <style=\"highlight\">15</style>% Sát thương"
@@ -1614,7 +1614,7 @@
                   "desc": "Tiêu hao tối đa 2 [Bullet]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "Sát thương +(Đạn đã tiêu hao × <style=\"highlight\">15</style>)%"
+                  "desc": "Sát thương +([Bullet] đã tiêu hao × <style=\"highlight\">15</style>)%"
                 },
                 {
                   "desc": "[OnSucceedAttack] Đẩy mốc Choáng lên thêm <style=\"highlight\">15</style>% Sát thương"
@@ -2016,7 +2016,7 @@
         {
           "level": 1,
           "name": "Ta muốn khai phá một con đường",
-          "desc": "[StartBattle] Cấp 1 [Endurance] cho 1 đồng minh khác bản thân + (Số Cộng hưởng tối đa ÷ 3) người (1 lần mỗi lượt, tối đa 3. Ưu tiên cấp cho đồng minh đang có [SupportProtect]. Bao gồm cả Hỗ trợ Phòng thủ Đặc biệt [TabExplain])",
+          "desc": "[StartBattle] Cấp 1 [Endurance] cho 1 đồng minh khác bản thân + (Số Cộng hưởng tối đa ÷ 3) người (1 lần mỗi lượt, tối đa 3. Ưu tiên cấp cho đồng minh đang có [SupportProtect]. Bao gồm cả Hỗ trợ Phòng thủ Đặc biệt TabExplain)",
           "coinlist": [
             {
               "coindescs": [
@@ -2037,7 +2037,7 @@
         {
           "level": 2,
           "name": "Ta muốn khai phá một con đường",
-          "desc": "[StartBattle] Ban 1 [Endurance] cho 1 đồng minh khác bản thân + (Số Cộng hưởng tối đa ÷ 3) người (1 lần mỗi lượt, tối đa 3. Ưu tiên ban cho đồng minh đang có [SupportProtect]. Bao gồm cả Phòng ngự Viện trợ Đặc biệt [TabExplain])\n<style=\"highlight\">[WhenUse] Nếu tổng [Burst] của mục tiêu và [Breath] của bản thân từ 6 trở lên, Công suất Xu +1</style>",
+          "desc": "[StartBattle] Ban 1 [Endurance] cho 1 đồng minh khác bản thân + (Số Cộng hưởng tối đa ÷ 3) người (1 lần mỗi lượt, tối đa 3. Ưu tiên ban cho đồng minh đang có [SupportProtect]. Bao gồm cả Phòng ngự Viện trợ Đặc biệt TabExplain)\n<style=\"highlight\">[WhenUse] Nếu tổng [Burst] của mục tiêu và [Breath] của bản thân từ 6 trở lên, Công suất Xu +1</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -2058,7 +2058,7 @@
         {
           "level": 4,
           "name": "Ta muốn khai phá một con đường.",
-          "desc": "[StartBattle] Ban 1 [Endurance] cho 1 đồng minh khác bản thân + (Số Cộng hưởng tối đa ÷ 3) người (1 lần mỗi lượt, tối đa 3. Ưu tiên ban cho đồng minh đang có [SupportProtect]. Bao gồm cả Phòng ngự Viện trợ Đặc biệt [TabExplain])\n[WhenUse] Nếu tổng [Burst] của mục tiêu và [Breath] của bản thân từ 6 trở lên, Công suất Xu +1\n<style=\"highlight\">[WhenUse] Nếu mục tiêu có từ 3 loại hiệu ứng bất lợi trở lên, Công suất Đối đầu +1</style>",
+          "desc": "[StartBattle] Ban 1 [Endurance] cho 1 đồng minh khác bản thân + (Số Cộng hưởng tối đa ÷ 3) người (1 lần mỗi lượt, tối đa 3. Ưu tiên ban cho đồng minh đang có [SupportProtect]. Bao gồm cả Phòng ngự Viện trợ Đặc biệt TabExplain)\n[WhenUse] Nếu tổng [Burst] của mục tiêu và [Breath] của bản thân từ 6 trở lên, Công suất Xu +1\n<style=\"highlight\">[WhenUse] Nếu mục tiêu có từ 3 loại hiệu ứng bất lợi trở lên, Công suất Đối đầu +1</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -2320,7 +2320,7 @@
         {
           "level": 4,
           "name": "Khai Mở Con Đường Quân Chủ",
-          "desc": "[WhenUse] Nếu phối hợp với Bản sắc Thủ lĩnh Hắc Thú, Uy lực Cơ bản +1, Uy lực Đồng xu +1\n\n<style=\"highlight\">Mỗi 1% tổng HP đã mất của mục tiêu và bản thân, Lượng sát thương +1% (Tối đa 50%)</style>\n<style=\"highlight\">[WhenUse] Mỗi 6 tổng [Burst] của mục tiêu và [Breath] của bản thân, Uy lực Đồng xu +1 (Tối đa 3)</style>\n<style=\"highlight\">[WhenUse] Mỗi 2 loại hiệu ứng bất lợi trên mục tiêu, Lượng sát thương +10% (Tối đa 30%)</style>\n[WhenUse] Mỗi [HeishouComboCountHonglu], Lượng sát thương <style=\"highlight\">+10%</style>\n[EndSkill] Nhận [HeishouComboCountHonglu] tùy theo Bản sắc Hắc Thú đã kích hoạt [HeishouCombo]",
+          "desc": "[WhenUse] Nếu phối hợp với Bản sắc Thủ lĩnh Hắc Thú, Uy lực Cơ bản +1, Uy lực Đồng xu +1\n\n<style=\"highlight\">Mỗi 1% tổng HP đã mất của mục tiêu và bản thân, Lượng sát thương +1% (Tối đa 50%)</style>\n<style=\"highlight\">[WhenUse] Mỗi 6 tổng [Burst] của mục tiêu và Nhịp thở của bản thân, Uy lực Đồng xu +1 (Tối đa 3)</style>\n<style=\"highlight\">[WhenUse] Mỗi 2 loại hiệu ứng bất lợi trên mục tiêu, Lượng sát thương +10% (Tối đa 30%)</style>\n[WhenUse] Mỗi [HeishouComboCountHonglu], Lượng sát thương <style=\"highlight\">+10%</style>\n[EndSkill] Nhận [HeishouComboCountHonglu] tùy theo Bản sắc Hắc Thú đã kích hoạt [HeishouCombo]",
           "coinlist": [
             {
               "coindescs": [

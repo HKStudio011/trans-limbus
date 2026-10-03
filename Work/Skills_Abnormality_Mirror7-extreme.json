@@ -1608,7 +1608,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[Tấn công trúng] Gây 3 Độc"
+                  "desc": "[OnSucceedAttack] Gây 3 Độc"
                 }
               ]
             },
@@ -1618,7 +1618,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[Tấn công trúng] Gây 3 Độc"
+                  "desc": "[OnSucceedAttack] Gây 3 Độc"
                 }
               ]
             },
@@ -1628,7 +1628,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[Tấn công trúng] Gây 3 Độc"
+                  "desc": "[OnSucceedAttack] Gây 3 Độc"
                 }
               ]
             }
@@ -1647,14 +1647,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[Tấn công trúng] Gây 3 [Paralysis] vào lượt kế tiếp"
+                  "desc": "[OnSucceedAttack] Gây 3 [Paralysis] vào lượt kế tiếp"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[Tấn công trúng] Gây 3 [Binding] vào lượt kế tiếp"
+                  "desc": "[OnSucceedAttack] Gây 3 [Binding] vào lượt kế tiếp"
                 }
               ]
             }
@@ -1668,12 +1668,12 @@
         {
           "level": 1,
           "name": "Quỳ xuống",
-          "desc": "[Khi sử dụng] Nếu [Laceration] của mục tiêu từ 4 trở lên, Sức mạnh đối đầu +1",
+          "desc": "[WhenUse] Nếu [Laceration] của mục tiêu từ 4 trở lên, Sức mạnh đối đầu +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[Tấn công trúng] Gây 4 [Laceration]"
+                  "desc": "[OnSucceedAttack] Gây 4 [Laceration]"
                 }
               ]
             }
@@ -1687,12 +1687,12 @@
         {
           "level": 1,
           "name": "Đồ tầm thường",
-          "desc": "[Khi sử dụng] Nếu [Laceration] của mục tiêu từ 4 trở lên, Sức mạnh đối đầu +1",
+          "desc": "[WhenUse] Nếu [Laceration] của mục tiêu từ 4 trở lên, Sức mạnh đối đầu +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[Tấn công trúng] Số lần [Laceration] tăng 2"
+                  "desc": "[OnSucceedAttack] Số lần [Laceration] tăng 2"
                 }
               ]
             }
@@ -1712,7 +1712,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[Tấn công trúng] Gây 8 [Laceration], số lần [Laceration] tăng 2"
+                  "desc": "[OnSucceedAttack] Gây 8 [Laceration], số lần [Laceration] tăng 2"
                 }
               ]
             }
@@ -1731,31 +1731,31 @@
             {
               "coindescs": [
                 {
-                  "desc": "[Tấn công trúng] Số lần [Laceration] tăng 2"
+                  "desc": "[OnSucceedAttack] Số lần [Laceration] tăng 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[Tấn công trúng] Số lần [Laceration] tăng 2"
+                  "desc": "[OnSucceedAttack] Số lần [Laceration] tăng 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[Tấn công trúng] Gây 4 [Laceration]"
+                  "desc": "[OnSucceedAttack] Gây 4 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[Tấn công trúng] Gây 4 [Laceration]"
+                  "desc": "[OnSucceedAttack] Gây 4 [Laceration]"
                 },
                 {
-                  "desc": "[Tấn công trúng] Nhận 1 [KeptBlood]"
+                  "desc": "[OnSucceedAttack] Nhận 1 [KeptBlood]"
                 }
               ]
             }
@@ -1774,20 +1774,20 @@
             {
               "coindescs": [
                 {
-                  "desc": "[Tấn công trúng] Gây 5 [Laceration], số lần [Laceration] tăng 3"
+                  "desc": "[OnSucceedAttack] Gây 5 [Laceration], số lần [Laceration] tăng 3"
                 },
                 {
-                  "desc": "[Tấn công trúng] Nếu [Laceration] của mục tiêu từ 10 trở lên, Sát thương Coin tiếp theo +20%"
+                  "desc": "[OnSucceedAttack] Nếu [Laceration] của mục tiêu từ 10 trở lên, Sát thương Coin tiếp theo +20%"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[Tấn công trúng] Nhận 1 [KeptBlood]"
+                  "desc": "[OnSucceedAttack] Nhận 1 [KeptBlood]"
                 },
                 {
-                  "desc": "[Tấn công trúng] Gây 1 [Binding] vào lượt kế tiếp"
+                  "desc": "[OnSucceedAttack] Gây 1 [Binding] vào lượt kế tiếp"
                 }
               ]
             }
@@ -1819,28 +1819,28 @@
             {
               "coindescs": [
                 {
-                  "desc": "[Tấn công trúng] Gây 2 [Laceration], số lần [Laceration] tăng 1"
+                  "desc": "[OnSucceedAttack] Gây 2 [Laceration], số lần [Laceration] tăng 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[Tấn công trúng] Gây 2 [Laceration], số lần [Laceration] tăng 1"
+                  "desc": "[OnSucceedAttack] Gây 2 [Laceration], số lần [Laceration] tăng 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[Tấn công trúng] Gây 2 [Laceration], số lần [Laceration] tăng 1"
+                  "desc": "[OnSucceedAttack] Gây 2 [Laceration], số lần [Laceration] tăng 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[Tấn công trúng] Gây 2 [Laceration], số lần [Laceration] tăng 1"
+                  "desc": "[OnSucceedAttack] Gây 2 [Laceration], số lần [Laceration] tăng 1"
                 }
               ]
             }
@@ -1859,21 +1859,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "[Tấn công trúng] Gây 3 [Laceration], số lần [Laceration] tăng 1"
+                  "desc": "[OnSucceedAttack] Gây 3 [Laceration], số lần [Laceration] tăng 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[Tấn công trúng] Gây 3 [Laceration], số lần [Laceration] tăng 1"
+                  "desc": "[OnSucceedAttack] Gây 3 [Laceration], số lần [Laceration] tăng 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[Tấn công trúng] Gây 3 [Laceration], số lần [Laceration] tăng 1"
+                  "desc": "[OnSucceedAttack] Gây 3 [Laceration], số lần [Laceration] tăng 1"
                 }
               ]
             },
@@ -1902,10 +1902,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[Tấn công trúng] Gây 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Gây 3 [Laceration]"
                 },
                 {
-                  "desc": "[Tấn công trúng] Gây 1 [Binding] vào lượt kế tiếp"
+                  "desc": "[OnSucceedAttack] Gây 1 [Binding] vào lượt kế tiếp"
                 }
               ]
             }
@@ -2580,15 +2580,15 @@
         {
           "level": 1,
           "name": "Thỏa hiệp",
-          "desc": "[Khi sử dụng] Với mỗi 5 tổng số [Laceration], [Vibration], và [Sinking] trên mục tiêu, Sức mạnh Đối đầu +1 (Tối đa 4)",
+          "desc": "[WhenUse] Với mỗi 5 tổng số [Laceration], [Vibration], và [Sinking] trên mục tiêu, Sức mạnh Đối đầu +1 (Tối đa 4)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[Khi tấn công trúng] Gây 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Gây 3 [Laceration]"
                 },
                 {
-                  "desc": "[Khi tấn công trúng] Gây 1 [Reduction] ở lượt kế tiếp"
+                  "desc": "[OnSucceedAttack] Gây 1 [Reduction] ở lượt kế tiếp"
                 }
               ]
             }
@@ -2602,15 +2602,15 @@
         {
           "level": 1,
           "name": "Thỏa hiệp Mạnh",
-          "desc": "[Khi sử dụng] Với mỗi 5 tổng số [Laceration], [Vibration], và [Sinking] trên mục tiêu, Sức mạnh Đối đầu +1 (Tối đa 4)",
+          "desc": "[WhenUse] Với mỗi 5 tổng số [Laceration], [Vibration], và [Sinking] trên mục tiêu, Sức mạnh Đối đầu +1 (Tối đa 4)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[Khi tấn công trúng] Gây 3 [Laceration], 3 [Vibration]"
+                  "desc": "[OnSucceedAttack] Gây 3 [Laceration], 3 [Vibration]"
                 },
                 {
-                  "desc": "[Khi tấn công trúng] Gây 3 [Reduction] ở lượt kế tiếp"
+                  "desc": "[OnSucceedAttack] Gây 3 [Reduction] ở lượt kế tiếp"
                 }
               ]
             }
@@ -2624,25 +2624,25 @@
         {
           "level": 1,
           "name": "Đập Đuôi",
-          "desc": "[Khi sử dụng] Với mỗi 5 tổng số [Laceration], [Vibration], và [Sinking] trên mục tiêu, Sức mạnh Cơ bản +1 (Tối đa 3)",
+          "desc": "[WhenUse] Với mỗi 5 tổng số [Laceration], [Vibration], và [Sinking] trên mục tiêu, Sức mạnh Cơ bản +1 (Tối đa 3)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[Khi tấn công trúng] Gây 3 [Sinking], 3 [Vibration]"
+                  "desc": "[OnSucceedAttack] Gây 3 [Sinking], 3 [Vibration]"
                 },
                 {
-                  "desc": "[Khi tấn công trúng] Gây 1 [Vulnerable] ở lượt kế tiếp"
+                  "desc": "[OnSucceedAttack] Gây 1 [Vulnerable] ở lượt kế tiếp"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[Khi tấn công trúng] Số lượt [Sinking] tăng thêm 2"
+                  "desc": "[OnSucceedAttack] Số lượt [Sinking] tăng thêm 2"
                 },
                 {
-                  "desc": "[Khi tấn công trúng] Gây 3 [Vulnerable] ở lượt kế tiếp"
+                  "desc": "[OnSucceedAttack] Gây 3 [Vulnerable] ở lượt kế tiếp"
                 }
               ]
             }
@@ -2656,15 +2656,15 @@
         {
           "level": 1,
           "name": "Nén Bao",
-          "desc": "[Khi sử dụng] Với mỗi 5 tổng số [Laceration], [Vibration], và [Sinking] trên mục tiêu, Sức mạnh Cơ bản +1 (Tối đa 3)",
+          "desc": "[WhenUse] Với mỗi 5 tổng số [Laceration], [Vibration], và [Sinking] trên mục tiêu, Sức mạnh Cơ bản +1 (Tối đa 3)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[Khi tấn công trúng] [VibrationExplosion]. Số lượt [Vibration] của mục tiêu giảm đi 1"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion]. Số lượt [Vibration] của mục tiêu giảm đi 1"
                 },
                 {
-                  "desc": "[Khi tấn công trúng] Gây 3 [Binding] ở lượt kế tiếp"
+                  "desc": "[OnSucceedAttack] Gây 3 [Binding] ở lượt kế tiếp"
                 }
               ]
             }
@@ -2678,7 +2678,7 @@
         {
           "level": 1,
           "name": "Pháo Bắn Máu",
-          "desc": "[Khi sử dụng] Nếu mục tiêu chính có hiệu ứng bất lợi, Sức mạnh Đối đầu +5\n- Nếu không có hiệu ứng bất lợi, Sức mạnh Đối đầu -5",
+          "desc": "[WhenUse] Nếu mục tiêu chính có hiệu ứng bất lợi, Sức mạnh Đối đầu +5\n- Nếu không có hiệu ứng bất lợi, Sức mạnh Đối đầu -5",
           "coinlist": [
             {
               "coindescs": [
@@ -2686,10 +2686,10 @@
                   "desc": "Nếu mục tiêu có hiệu ứng bất lợi, lượng sát thương +50%"
                 },
                 {
-                  "desc": "[Khi tấn công trúng] Gây 20 [Laceration]"
+                  "desc": "[OnSucceedAttack] Gây 20 [Laceration]"
                 },
                 {
-                  "desc": "[Khi tấn công trúng] Kích hoạt [Laceration] 1 lần. Số lượt [Laceration] giảm đi 1"
+                  "desc": "[OnSucceedAttack] Kích hoạt [Laceration] 1 lần. Số lượt [Laceration] giảm đi 1"
                 }
               ]
             }
@@ -2703,7 +2703,7 @@
         {
           "level": 1,
           "name": "Đông Máu",
-          "desc": "[Khi sử dụng] Nếu mục tiêu chính có hiệu ứng bất lợi, Sức mạnh Đối đầu +5\n- Nếu không có hiệu ứng bất lợi, Sức mạnh Đối đầu -5",
+          "desc": "[WhenUse] Nếu mục tiêu chính có hiệu ứng bất lợi, Sức mạnh Đối đầu +5\n- Nếu không có hiệu ứng bất lợi, Sức mạnh Đối đầu -5",
           "coinlist": [
             {
               "coindescs": [
@@ -2711,10 +2711,10 @@
                   "desc": "Nếu mục tiêu có hiệu ứng bất lợi, lượng sát thương +100%"
                 },
                 {
-                  "desc": "[Khi tấn công trúng] Gây 30 [Laceration]"
+                  "desc": "[OnSucceedAttack] Gây 30 [Laceration]"
                 },
                 {
-                  "desc": "[Khi tấn công trúng] Kích hoạt [Laceration] 1 lần. Số lượt [Laceration] giảm đi 1"
+                  "desc": "[OnSucceedAttack] Kích hoạt [Laceration] 1 lần. Số lượt [Laceration] giảm đi 1"
                 }
               ]
             }
@@ -2733,10 +2733,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[Khi tấn công trúng] Gây 3 [Laceration], 3 [Vibration]"
+                  "desc": "[OnSucceedAttack] Gây 3 [Laceration], 3 [Vibration]"
                 },
                 {
-                  "desc": "[Khi tấn công trúng] Gây 1 [Reduction] ở lượt kế tiếp"
+                  "desc": "[OnSucceedAttack] Gây 1 [Reduction] ở lượt kế tiếp"
                 }
               ]
             }
@@ -2755,13 +2755,13 @@
             {
               "coindescs": [
                 {
-                  "desc": "[Khi tấn công trúng] Gây 5 [Laceration], 5 [Vibration]"
+                  "desc": "[OnSucceedAttack] Gây 5 [Laceration], 5 [Vibration]"
                 },
                 {
-                  "desc": "[Khi tấn công trúng] [Switch_Vibration] sang [VibrationBleeding]"
+                  "desc": "[OnSucceedAttack] [Switch_Vibration] sang [VibrationBleeding]"
                 },
                 {
-                  "desc": "[Khi tấn công trúng] Gây 3 [Reduction] ở lượt kế tiếp"
+                  "desc": "[OnSucceedAttack] Gây 3 [Reduction] ở lượt kế tiếp"
                 }
               ]
             }
@@ -2780,20 +2780,20 @@
             {
               "coindescs": [
                 {
-                  "desc": "[Khi tấn công trúng] Gây 5 [Sinking], 5 [Vibration]"
+                  "desc": "[OnSucceedAttack] Gây 5 [Sinking], 5 [Vibration]"
                 },
                 {
-                  "desc": "[Khi tấn công trúng] Gây 1 [Vulnerable] ở lượt kế tiếp"
+                  "desc": "[OnSucceedAttack] Gây 1 [Vulnerable] ở lượt kế tiếp"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[Khi tấn công trúng] Số lượt [Sinking] tăng thêm 4"
+                  "desc": "[OnSucceedAttack] Số lượt [Sinking] tăng thêm 4"
                 },
                 {
-                  "desc": "[Khi tấn công trúng] Gây 3 [Vulnerable] ở lượt kế tiếp"
+                  "desc": "[OnSucceedAttack] Gây 3 [Vulnerable] ở lượt kế tiếp"
                 }
               ]
             }
@@ -2812,13 +2812,13 @@
             {
               "coindescs": [
                 {
-                  "desc": "[Khi tấn công trúng] [Switch_Vibration] sang [VibrationBleeding]"
+                  "desc": "[OnSucceedAttack] [Switch_Vibration] sang [VibrationBleeding]"
                 },
                 {
-                  "desc": "[Khi tấn công trúng] [VibrationExplosion]. Số lượt [Vibration] của mục tiêu giảm đi 1"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion]. Số lượt [Vibration] của mục tiêu giảm đi 1"
                 },
                 {
-                  "desc": "[Khi tấn công trúng] Gây 3 [Binding] ở lượt kế tiếp"
+                  "desc": "[OnSucceedAttack] Gây 3 [Binding] ở lượt kế tiếp"
                 }
               ]
             }
@@ -2832,7 +2832,7 @@
         {
           "level": 1,
           "name": "Pháo Bắn Máu",
-          "desc": "[Khi sử dụng] Nếu mục tiêu chính có hiệu ứng bất lợi, Sức mạnh Đối đầu +10\n- Nếu không có hiệu ứng bất lợi, Sức mạnh Đối đầu -10",
+          "desc": "[WhenUse] Nếu mục tiêu chính có hiệu ứng bất lợi, Sức mạnh Đối đầu +10\n- Nếu không có hiệu ứng bất lợi, Sức mạnh Đối đầu -10",
           "coinlist": [
             {
               "coindescs": [
