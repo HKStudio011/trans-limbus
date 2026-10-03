@@ -2884,25 +2884,25 @@
         {
           "level": 1,
           "name": "Colpi di Taglio",
-          "desc": "[WinDuel] Lose (# of remaining Coins) [FutureEyeOnRodion] Stack on self; deal +5% damage for every Stack lost (max 10%)",
+          "desc": "[WinDuel] Mất (Số lượng Đồng xu còn lại) Tầng [FutureEyeOnRodion] trên bản thân; gây +5% sát thương cho mỗi Tầng đã mất (Tối đa 10%)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Gây 1 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Vibration]"
+                  "desc": "[OnSucceedAttack] Gây 1 [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Số lượng [Combustion] tăng thêm 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Số lượng [Vibration] tăng thêm 1"
                 }
               ]
             }
@@ -2911,25 +2911,25 @@
         {
           "level": 2,
           "name": "Colpi di Taglio",
-          "desc": "<style=\"highlight\">[WhenUse] At 6+ [Breath], Final Power +1</style>\n[WinDuel] Lose (# of remaining Coins) [FutureEyeOnRodion] Stack on self; deal +5% damage for every Stack lost (max 10%)",
+          "desc": "<style=\"highlight\">[WhenUse] Nếu [Breath] của bản thân từ 6 trở lên, Uy lực Cuối cùng +1</style>\n[WinDuel] Mất (Số lượng Đồng xu còn lại) Tầng [FutureEyeOnRodion] trên bản thân; gây +5% sát thương cho mỗi Tầng đã mất (Tối đa 10%)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Gây 1 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Vibration]"
+                  "desc": "[OnSucceedAttack] Gây 1 [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Số lượng [Combustion] tăng thêm 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Số lượng [Vibration] tăng thêm 1"
                 }
               ]
             }
@@ -2938,25 +2938,25 @@
         {
           "level": 4,
           "name": "Colpi di Taglio",
-          "desc": "[WhenUse] At 6+ [Breath], Final Power +1\n<style=\"highlight\">[WhenUse] Coin Power +1 for every 6 ([Combustion] + [Vibration]) on target (max 2)</style>\n[WinDuel] Lose (# of remaining Coins) [FutureEyeOnRodion] Stack on self; deal +5% damage for every Stack lost (max 10%)",
+          "desc": "[WhenUse] Nếu [Breath] của bản thân từ 6 trở lên, Uy lực Cuối cùng +1\n<style=\"highlight\">[WhenUse] Với mỗi 6 ([Combustion] + [Vibration]) trên mục tiêu, Uy lực Đồng xu +1 (Tối đa 2)</style>\n[WinDuel] Mất (Số lượng Đồng xu còn lại) Tầng [FutureEyeOnRodion] trên bản thân; gây +5% sát thương cho mỗi Tầng đã mất (Tối đa 10%)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Gây 1 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Vibration]"
+                  "desc": "[OnSucceedAttack] Gây 1 [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Số lượng [Combustion] tăng thêm 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Số lượng [Vibration] tăng thêm 1"
                 }
               ]
             }
@@ -2969,36 +2969,36 @@
       "levelList": [
         {
           "level": 1,
-          "name": "I'll Gladly Blast a Hole Through Ya",
-          "desc": "Turn Start: If this unit does not have [AccelBullet], activate as \"Sezionatura di Cervo\"\n[WinDuel] Lose (# of remaining Coins) [FutureEyeOnRodion] Stack on self; deal +5% damage for every Stack lost (max 15%)",
+          "name": "Ta sẽ vui lòng bắn xuyên qua bằng viên đạn này",
+          "desc": "Khi bắt đầu lượt: Nếu đơn vị này không có [AccelBullet], kích hoạt dưới dạng \"Sezionatura di Cervo\"\n[WinDuel] Mất (Số lượng Đồng xu còn lại) Tầng [FutureEyeOnRodion] trên bản thân; gây +5% sát thương cho mỗi Tầng đã mất (Tối đa 15%)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "Spend 1 [AccelBullet]"
+                  "desc": "Tiêu hao 1 [AccelBullet]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion]"
+                  "desc": "[OnSucceedAttack] Gây 2 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]"
+                  "desc": "[OnSucceedAttack] Gây 2 [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Spend 1 [AccelBullet]"
+                  "desc": "Tiêu hao 1 [AccelBullet]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Vibration] and +1 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Gây 1 [Vibration] và +1 Số lượng [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Kích hoạt [VibrationExplosion]; sau đó, giảm 1 Số lượng [Vibration] của mục tiêu"
                 }
               ]
             }
@@ -3006,36 +3006,36 @@
         },
         {
           "level": 2,
-          "name": "I'll Gladly Blast a Hole Through Ya",
-          "desc": "Turn Start: If this unit does not have [AccelBullet], activate as \"Sezionatura di Cervo\"\n<style=\"highlight\">[WhenUse] At 6+ [Breath], Final Power +1</style>\n[WinDuel] Lose (# of remaining Coins) [FutureEyeOnRodion] Stack on self; deal +5% damage for every Stack lost (max 15%)",
+          "name": "Ta sẽ vui lòng bắn xuyên qua bằng viên đạn này",
+          "desc": "Khi bắt đầu lượt: Nếu đơn vị này không có [AccelBullet], kích hoạt dưới dạng \"Sezionatura di Cervo\"\n<style=\"highlight\">[WhenUse] Nếu [Breath] của bản thân từ 6 trở lên, Uy lực Cuối cùng +1</style>\n[WinDuel] Mất (Số lượng Đồng xu còn lại) Tầng [FutureEyeOnRodion] trên bản thân; gây +5% sát thương cho mỗi Tầng đã mất (Tối đa 15%)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "Spend 1 [AccelBullet]"
+                  "desc": "Tiêu hao 1 [AccelBullet]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion]"
+                  "desc": "[OnSucceedAttack] Gây 2 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]"
+                  "desc": "[OnSucceedAttack] Gây 2 [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Spend 1 [AccelBullet]"
+                  "desc": "Tiêu hao 1 [AccelBullet]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Vibration] and +1 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Gây 1 [Vibration] và +1 Số lượng [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Kích hoạt [VibrationExplosion]; sau đó, giảm 1 Số lượng [Vibration] của mục tiêu"
                 }
               ]
             }
@@ -3043,36 +3043,36 @@
         },
         {
           "level": 4,
-          "name": "I'll Gladly Blast a Hole Through Ya",
-          "desc": "Turn Start: If this unit does not have [AccelBullet], activate as \"Sezionatura di Cervo\"\n[WhenUse] At 6+ [Breath], Final Power +1\n<style=\"highlight\">[WhenUse] Coin Power +1 for every 6 ([Combustion] + [Vibration]) on target (max 2)</style>\n[WinDuel] Lose (# of remaining Coins) [FutureEyeOnRodion] Stack on self; deal +5% damage for every Stack lost (max 15%)",
+          "name": "Ta sẽ vui lòng bắn xuyên qua bằng viên đạn này",
+          "desc": "Khi bắt đầu lượt: Nếu đơn vị này không có [AccelBullet], kích hoạt dưới dạng \"Sezionatura di Cervo\"\n[WhenUse] Nếu [Breath] của bản thân từ 6 trở lên, Uy lực Cuối cùng +1\n<style=\"highlight\">[WhenUse] Với mỗi 6 ([Combustion] + [Vibration]) trên mục tiêu, Uy lực Đồng xu +1 (Tối đa 2)</style>\n[WinDuel] Mất (Số lượng Đồng xu còn lại) Tầng [FutureEyeOnRodion] trên bản thân; gây +5% sát thương cho mỗi Tầng đã mất (Tối đa 15%)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "Spend 1 [AccelBullet]"
+                  "desc": "Tiêu hao 1 [AccelBullet]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion]"
+                  "desc": "[OnSucceedAttack] Gây 2 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]"
+                  "desc": "[OnSucceedAttack] Gây 2 [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Spend 1 [AccelBullet]"
+                  "desc": "Tiêu hao 1 [AccelBullet]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Vibration] and +1 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Gây 1 [Vibration] và +1 Số lượng [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Kích hoạt [VibrationExplosion]; sau đó, giảm 1 Số lượng [Vibration] của mục tiêu"
                 }
               ]
             }
@@ -3086,48 +3086,48 @@
         {
           "level": 1,
           "name": "Sezionatura di Elefante",
-          "desc": "[WhenUse] At 6+ [Breath], Final Power +1\n[BeforeAttack] Lose up to 10 [FutureEyeOnRodion] on self (once per turn)",
+          "desc": "[WhenUse] Nếu [Breath] của bản thân từ 6 trở lên, Uy lực Cuối cùng +1\n[BeforeAttack] Mất tối đa 10 [FutureEyeOnRodion] trên bản thân (1 lần mỗi lượt)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "Spend 1 [AccelBullet]"
+                  "desc": "Tiêu hao 1 [AccelBullet]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion]"
+                  "desc": "[OnSucceedAttack] Gây 2 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]"
+                  "desc": "[OnSucceedAttack] Gây 2 [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Spend 1 [AccelBullet]"
+                  "desc": "Tiêu hao 1 [AccelBullet]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Số lượng [Combustion] tăng thêm 2"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Số lượng [Vibration] tăng thêm 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Spend 1 [AccelBullet]"
+                  "desc": "Tiêu hao 1 [AccelBullet]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [Switch_Vibration] into [VibrationIgnition]"
+                  "desc": "[OnSucceedAttack] Kích hoạt [Switch_Vibration] sang [VibrationIgnition]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Kích hoạt [VibrationExplosion]; sau đó, giảm 1 Số lượng [Vibration] của mục tiêu"
                 }
               ]
             }
@@ -3136,48 +3136,48 @@
         {
           "level": 4,
           "name": "Sezionatura di Elefante",
-          "desc": "[WhenUse] At 6+ [Breath], Final Power +1\n<style=\"highlight\">[WhenUse] Coin Power +1 for every 6 ([Combustion] + [Vibration]) on target (max 2)</style>\n[BeforeAttack] Lose up to 10 [FutureEyeOnRodion] on self (once per turn)",
+          "desc": "[WhenUse] Nếu [Breath] của bản thân từ 6 trở lên, Uy lực Cuối cùng +1\n<style=\"highlight\">[WhenUse] Với mỗi 6 ([Combustion] + [Vibration]) trên mục tiêu, Uy lực Đồng xu +1 (Tối đa 2)</style>\n[BeforeAttack] Mất tối đa 10 [FutureEyeOnRodion] trên bản thân (1 lần mỗi lượt)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "Spend 1 [AccelBullet]"
+                  "desc": "Tiêu hao 1 [AccelBullet]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion]"
+                  "desc": "[OnSucceedAttack] Gây 2 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]"
+                  "desc": "[OnSucceedAttack] Gây 2 [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Spend 1 [AccelBullet]"
+                  "desc": "Tiêu hao 1 [AccelBullet]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Số lượng [Combustion] tăng thêm 2"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Số lượng [Vibration] tăng thêm 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Spend 1 [AccelBullet]"
+                  "desc": "Tiêu hao 1 [AccelBullet]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [Switch_Vibration] into [VibrationIgnition]"
+                  "desc": "[OnSucceedAttack] Kích hoạt [Switch_Vibration] sang [VibrationIgnition]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1\n<style=\"highlight\">- Activate the above effect once more for every [AccelBullet] spent by this Skill (max 2 times)</style>"
+                  "desc": "[OnSucceedAttack] Kích hoạt [VibrationExplosion]; sau đó, giảm 1 Số lượng [Vibration] của mục tiêu\n<style=\"highlight\">- Hiệu ứng trên được kích hoạt thêm một lần nữa cho mỗi [AccelBullet] đã tiêu hao bởi Kỹ năng này (Tối đa 2 lần)</style>"
                 }
               ]
             }
@@ -3190,26 +3190,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Fuck Off!",
-          "desc": "[DuelCounter]\n[WhenUse] Lose 3 [FutureEyeOnRodion] on self\n[EndBattle] If this unit has less than 5 [AccelBullet], reload[TabExplain] [AccelBullet] to 5 (once per turn)",
+          "name": "Cút đi!",
+          "desc": "[DuelCounter]\n[WhenUse] Mất 3 [FutureEyeOnRodion] trên bản thân\n[EndBattle] Nếu đơn vị này có ít hơn 5 [AccelBullet], nạp lại[TabExplain] [AccelBullet] lên 5 (1 lần mỗi lượt)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Gây 1 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Vibration]"
+                  "desc": "[OnSucceedAttack] Gây 1 [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Gây 1 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Vibration]"
+                  "desc": "[OnSucceedAttack] Gây 1 [Vibration]"
                 }
               ]
             }
@@ -3217,26 +3217,26 @@
         },
         {
           "level": 4,
-          "name": "Fuck Off!",
-          "desc": "[DuelCounter]\n<style=\"highlight\">[WhenUse] Final Power +1 for every 4 ([Combustion] + [Vibration]) on target (max 2)</style>\n[WhenUse] Lose <style=\"highlight\">4</style> [FutureEyeOnRodion] on self\n[EndBattle] If this unit has less than 5 [AccelBullet], reload[TabExplain] [AccelBullet] to 5 (once per turn)",
+          "name": "Cút đi!",
+          "desc": "[DuelCounter]\n<style=\"highlight\">[WhenUse] Uy lực Cuối cùng +1 cho mỗi 4 ([Combustion] + [Vibration]) trên mục tiêu (Tối đa 2)</style>\n[WhenUse] Mất <style=\"highlight\">4</style> [FutureEyeOnRodion] trên bản thân\n[EndBattle] Nếu đơn vị này có ít hơn 5 [AccelBullet], nạp lại[TabExplain] [AccelBullet] lên 5 (1 lần mỗi lượt)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Gây 1 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Vibration]"
+                  "desc": "[OnSucceedAttack] Gây 1 [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Gây 1 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Vibration]"
+                  "desc": "[OnSucceedAttack] Gây 1 [Vibration]"
                 }
               ]
             }
@@ -3250,22 +3250,22 @@
         {
           "level": 1,
           "name": "Sezionatura di Coniglio",
-          "desc": "[CantDuel]\nThis Skill does not trigger Defense Skills, and external effects cannot trigger this Skill to be Reused",
+          "desc": "[CantDuel]\nKỹ năng này không kích hoạt Kỹ năng Phòng thủ, và hiệu ứng bên ngoài không thể khiến Kỹ năng này được tái sử dụng",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Số lượng [Combustion] tăng thêm 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Số lượng [Vibration] tăng thêm 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Kích hoạt [VibrationExplosion]; sau đó, giảm 1 Số lượng [Vibration] của mục tiêu"
                 }
               ]
             }
@@ -3274,22 +3274,22 @@
         {
           "level": 2,
           "name": "Sezionatura di Coniglio",
-          "desc": "[CantDuel]\nThis Skill does not trigger Defense Skills, and external effects cannot trigger this Skill to be Reused\n<style=\"highlight\">[WhenUse] At 6+ [Breath], Final Power +1</style>",
+          "desc": "[CantDuel]\nKỹ năng này không kích hoạt Kỹ năng Phòng thủ, và hiệu ứng bên ngoài không thể khiến Kỹ năng này được tái sử dụng\n<style=\"highlight\">[WhenUse] Nếu [Breath] của bản thân từ 6 trở lên, Uy lực Cuối cùng +1</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Số lượng [Combustion] tăng thêm 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Số lượng [Vibration] tăng thêm 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Kích hoạt [VibrationExplosion]; sau đó, giảm 1 Số lượng [Vibration] của mục tiêu"
                 }
               ]
             }
@@ -3298,22 +3298,22 @@
         {
           "level": 4,
           "name": "Sezionatura di Coniglio",
-          "desc": "[CantDuel]\nThis Skill does not trigger Defense Skills, and external effects cannot trigger this Skill to be Reused\n[WhenUse] At 6+ [Breath], Final Power +1\n<style=\"highlight\">[WhenUse] Base Power +1 for every 4 ([Combustion] + [Vibration]) on target (max 2)</style>",
+          "desc": "[CantDuel]\nKỹ năng này không kích hoạt Kỹ năng Phòng thủ, và hiệu ứng bên ngoài không thể khiến Kỹ năng này được tái sử dụng\n[WhenUse] Nếu [Breath] của bản thân từ 6 trở lên, Uy lực Cuối cùng +1\n<style=\"highlight\">[WhenUse] Uy lực Cơ bản +1 cho mỗi 4 ([Combustion] + [Vibration]) trên mục tiêu (Tối đa 2)</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Số lượng [Combustion] tăng thêm 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Số lượng [Vibration] tăng thêm 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Kích hoạt [VibrationExplosion]; sau đó, giảm 1 Số lượng [Vibration] của mục tiêu"
                 }
               ]
             }
@@ -3327,32 +3327,32 @@
         {
           "level": 1,
           "name": "Sezionatura di Cervo",
-          "desc": "[WhenUse] If this unit is in [FutureEyeOffRodion] state, convert all Coins into [SuperCoin]s\n[WhenUse] Gain +4 [Breath] Count\n[WinDuel] Lose (# of remaining Coins) [FutureEyeOnRodion] Stack on self; deal +5% damage for every Stack lost (max 15%)",
+          "desc": "[WhenUse] Nếu đơn vị này ở trạng thái [FutureEyeOffRodion], chuyển toàn bộ Đồng xu thành [SuperCoin]\n[WhenUse] Số lượng [Breath] của bản thân tăng thêm 4\n[WinDuel] Mất (Số lượng Đồng xu còn lại) Tầng [FutureEyeOnRodion] trên bản thân; gây +5% sát thương cho mỗi Tầng đã mất (Tối đa 15%)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 5 [Breath]"
+                  "desc": "[OnSucceedAttack] Nhận 5 [Breath]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion]"
+                  "desc": "[OnSucceedAttack] Gây 2 [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration] and +2 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Gây 2 [Vibration] và +2 Số lượng [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [Switch_Vibration] into [VibrationIgnition]"
+                  "desc": "[OnSucceedAttack] Kích hoạt [Switch_Vibration] sang [VibrationIgnition]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Kích hoạt [VibrationExplosion]; sau đó, giảm 1 Số lượng [Vibration] của mục tiêu"
                 }
               ]
             }
@@ -3361,32 +3361,32 @@
         {
           "level": 2,
           "name": "Sezionatura di Cervo",
-          "desc": "[WhenUse] If this unit is in [FutureEyeOffRodion] state, <style=\"highlight\">gain Final Power +2</style> and convert all Coins into [SuperCoin]s\n[WhenUse] Gain +4 [Breath] Count\n[WinDuel] Lose (# of remaining Coins) [FutureEyeOnRodion] Stack on self; deal +5% damage for every Stack lost (max 15%)",
+          "desc": "[WhenUse] Nếu đơn vị này ở trạng thái [FutureEyeOffRodion], <style=\"highlight\">nhận Uy lực Cuối cùng +2</style> và chuyển toàn bộ Đồng xu thành [SuperCoin]\n[WhenUse] Số lượng [Breath] của bản thân tăng thêm 4\n[WinDuel] Mất (Số lượng Đồng xu còn lại) Tầng [FutureEyeOnRodion] trên bản thân; gây +5% sát thương cho mỗi Tầng đã mất (Tối đa 15%)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 5 [Breath]"
+                  "desc": "[OnSucceedAttack] Nhận 5 [Breath]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion]"
+                  "desc": "[OnSucceedAttack] Gây 2 [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration] and +2 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Gây 2 [Vibration] và +2 Số lượng [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [Switch_Vibration] into [VibrationIgnition]"
+                  "desc": "[OnSucceedAttack] Kích hoạt [Switch_Vibration] sang [VibrationIgnition]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Kích hoạt [VibrationExplosion]; sau đó, giảm 1 Số lượng [Vibration] của mục tiêu"
                 }
               ]
             }
@@ -3395,35 +3395,35 @@
         {
           "level": 4,
           "name": "Sezionatura di Cervo",
-          "desc": "[WhenUse] If this unit is in [FutureEyeOffRodion] state, gain Final Power +2 and convert all Coins into [SuperCoin]s\n[WhenUse] Gain +4 [Breath] Count\n<style=\"highlight\">[WhenUse] Coin Power +1 for every 6 ([Combustion] + [Vibration]) on target (max 2)</style>\n[WinDuel] Lose (# of remaining Coins) [FutureEyeOnRodion] Stack on self; deal +5% damage for every Stack lost (max 15%)",
+          "desc": "[WhenUse] Nếu đơn vị này ở trạng thái [FutureEyeOffRodion], nhận Uy lực Cuối cùng +2 và chuyển toàn bộ Đồng xu thành [SuperCoin]\n[WhenUse] Số lượng [Breath] của bản thân tăng thêm 4\n<style=\"highlight\">[WhenUse] Với mỗi 6 ([Combustion] + [Vibration]) trên mục tiêu, Uy lực Đồng xu +1 (Tối đa 2)</style>\n[WinDuel] Mất (Số lượng Đồng xu còn lại) Tầng [FutureEyeOnRodion] trên bản thân; gây +5% sát thương cho mỗi Tầng đã mất (Tối đa 15%)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 5 [Breath]"
+                  "desc": "[OnSucceedAttack] Nhận 5 [Breath]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion]"
+                  "desc": "[OnSucceedAttack] Gây 2 [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration] and +2 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Gây 2 [Vibration] và +2 Số lượng [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [Switch_Vibration] into [VibrationIgnition]"
+                  "desc": "[OnSucceedAttack] Kích hoạt [Switch_Vibration] sang [VibrationIgnition]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Kích hoạt [VibrationExplosion]; sau đó, giảm 1 Số lượng [Vibration] của mục tiêu"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] If target has 10+ [Vibration], trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Nếu mục tiêu có từ 10 [Vibration] trở lên, kích hoạt [VibrationExplosion]; sau đó, giảm 1 Số lượng [Vibration] của mục tiêu</style>"
                 }
               ]
             }
@@ -3436,8 +3436,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Disposal",
-          "desc": "If target has 50%- current HP, deal +50% damage\nWhen attacking [TeachersPreyRodion], Coin Power +1\n[WhenUse] If this unit has 1+ [AccelBullet], Coin Power +1\n[EnemyKill] Upon killing [TeachersPreyRodion], add 1 \"Disposal\" to the list of Skills for the next upcoming turn (killing [TeachersPreyRodion] with the added \"Disposal\" does not trigger this effect again)\n[EnemyKill] [FullReload] (once per turn)",
+          "name": "Xử lý",
+          "desc": "Nếu HP hiện tại của mục tiêu từ 50% trở xuống, Sát thương +50%\nKhi tấn công [TeachersPreyRodion], Uy lực Đồng xu +1\n[WhenUse] Nếu đơn vị này có từ 1 [AccelBullet] trở lên, Uy lực Đồng xu +1\n[EnemyKill] Khi tiêu diệt [TeachersPreyRodion], thêm 1 \"Xử lý\" vào danh sách kỹ năng của lượt sắp tới (tiêu diệt [TeachersPreyRodion] bằng \"Xử lý\" được thêm vào sẽ không kích hoạt lại hiệu ứng này)\n[EnemyKill] [FullReload] (1 lần mỗi lượt)",
           "coinlist": [
             {
               "coindescs": [
@@ -3445,10 +3445,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion]"
+                  "desc": "[OnSucceedAttack] Gây 2 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]"
+                  "desc": "[OnSucceedAttack] Gây 2 [Vibration]"
                 }
               ]
             },
@@ -3458,10 +3458,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion]"
+                  "desc": "[OnSucceedAttack] Gây 2 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]"
+                  "desc": "[OnSucceedAttack] Gây 2 [Vibration]"
                 }
               ]
             },
@@ -3471,10 +3471,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Số lượng [Combustion] tăng thêm 3"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Số lượng [Vibration] tăng thêm 3"
                 }
               ]
             },
@@ -3484,7 +3484,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [Switch_Vibration] into [VibrationIgnition]"
+                  "desc": "[OnSucceedAttack] Kích hoạt [Switch_Vibration] sang [VibrationIgnition]"
                 }
               ]
             },
@@ -3494,10 +3494,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "Spend up to 5 [AccelBullet]"
+                  "desc": "Tiêu hao tối đa 5 [AccelBullet]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1\n- Activate the above effect once more for every [AccelBullet] spent (max 2 times)"
+                  "desc": "[OnSucceedAttack] Kích hoạt [VibrationExplosion]; sau đó, giảm 1 Số lượng [Vibration] của mục tiêu\n- Hiệu ứng trên được kích hoạt thêm một lần nữa cho mỗi [AccelBullet] đã tiêu hao (Tối đa 2 lần)"
                 }
               ]
             }
@@ -3505,8 +3505,8 @@
         },
         {
           "level": 4,
-          "name": "Disposal",
-          "desc": "If target has 50%- current HP, deal +50% damage\nWhen attacking [TeachersPreyRodion], Coin Power +1\n[WhenUse] If this unit has 1+ [AccelBullet], Coin Power +1\n<style=\"highlight\">[WhenUse] Final Power +1 for every 4 ([Combustion] + [Vibration]) on target (max 5)</style>\n[EnemyKill] Upon killing [TeachersPreyRodion], add 1 \"Disposal\" to the list of Skills for the next upcoming turn (killing [TeachersPreyRodion] with the added \"Disposal\" does not trigger this effect again)\n[EnemyKill] [FullReload] (once per turn)",
+          "name": "Xử lý",
+          "desc": "Nếu HP hiện tại của mục tiêu từ 50% trở xuống, Sát thương +50%\nKhi tấn công [TeachersPreyRodion], Uy lực Đồng xu +1\n[WhenUse] Nếu đơn vị này có từ 1 [AccelBullet] trở lên, Uy lực Đồng xu +1\n<style=\"highlight\">[WhenUse] Uy lực Cuối cùng +1 cho mỗi 4 ([Combustion] + [Vibration]) trên mục tiêu (Tối đa 5)</style>\n[EnemyKill] Khi tiêu diệt [TeachersPreyRodion], thêm 1 \"Xử lý\" vào danh sách kỹ năng của lượt sắp tới (tiêu diệt [TeachersPreyRodion] bằng \"Xử lý\" được thêm vào sẽ không kích hoạt lại hiệu ứng này)\n[EnemyKill] [FullReload] (1 lần mỗi lượt)",
           "coinlist": [
             {
               "coindescs": [
@@ -3514,10 +3514,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion]"
+                  "desc": "[OnSucceedAttack] Gây 2 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]"
+                  "desc": "[OnSucceedAttack] Gây 2 [Vibration]"
                 }
               ]
             },
@@ -3527,10 +3527,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion]"
+                  "desc": "[OnSucceedAttack] Gây 2 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]"
+                  "desc": "[OnSucceedAttack] Gây 2 [Vibration]"
                 }
               ]
             },
@@ -3540,10 +3540,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Số lượng [Combustion] tăng thêm 3"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Số lượng [Vibration] tăng thêm 3"
                 }
               ]
             },
@@ -3553,7 +3553,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [Switch_Vibration] into [VibrationIgnition]"
+                  "desc": "[OnSucceedAttack] Kích hoạt [Switch_Vibration] sang [VibrationIgnition]"
                 }
               ]
             },
@@ -3563,10 +3563,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "Spend up to 5 [AccelBullet]\nDeal +10% damage for every [AccelBullet] that will be spent by this Coin effect (max 50%)"
+                  "desc": "Tiêu hao tối đa 5 [AccelBullet]\nGây +10% sát thương cho mỗi [AccelBullet] sẽ bị tiêu hao bởi hiệu ứng Đồng xu này (Tối đa 50%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1\n- Activate the above effect once more for every [AccelBullet] spent (max <style=\"highlight\">3</style> times)"
+                  "desc": "[OnSucceedAttack] Kích hoạt [VibrationExplosion]; sau đó, giảm 1 Số lượng [Vibration] của mục tiêu\n- Hiệu ứng trên được kích hoạt thêm một lần nữa cho mỗi [AccelBullet] đã tiêu hao (Tối đa <style=\"highlight\">3</style> lần)"
                 }
               ]
             }
@@ -3579,16 +3579,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Precognition",
-          "desc": "Upon successfully evading all Coins on a Skill, use \"Sezionatura di Coniglio\" as an Unopposed Attack against the attacker (once per turn)\nCoin Power +1 for every 2 [FutureEyeOnRodion] Stacks on self (max 4)\nBase Power +1 for every 2 excess [FutureEyeOnRodion] Stacks on self past 10 Stacks (max 4)\n[WhenUse] Gain +3 [Breath] Count (once per turn)\n[OnSucceedEvade] Gain 2 [Breath] (2 times per turn)\n[EndSkillAll] Lose 2 [FutureEyeOnRodion] on self",
+          "name": "Dự tri",
+          "desc": "Khi Né tránh thành công toàn bộ Đồng xu của một Kỹ năng, sử dụng \"Sezionatura di Coniglio\" như một Tấn công Không đối kháng lên kẻ tấn công (1 lần mỗi lượt)\nUy lực Đồng xu +1 cho mỗi 2 Tầng [FutureEyeOnRodion] trên bản thân (Tối đa 4)\nUy lực Cơ bản +1 cho mỗi 2 Tầng [FutureEyeOnRodion] dư thừa vượt quá 10 Tầng trên bản thân (Tối đa 4)\n[WhenUse] Số lượng [Breath] của bản thân tăng thêm 3 (1 lần mỗi lượt)\n[OnSucceedEvade] Nhận 2 [Breath] (2 lần mỗi lượt)\n[EndSkillAll] Mất 2 [FutureEyeOnRodion] trên bản thân",
           "coinlist": [
             {}
           ]
         },
         {
           "level": 4,
-          "name": "Precognition",
-          "desc": "Upon successfully evading all Coins on a Skill, use \"Sezionatura di Coniglio\" as an Unopposed Attack against the attacker (once per turn)\nCoin Power +1 for every 2 [FutureEyeOnRodion] Stacks on self (max 4)\nBase Power +1 for every 2 excess [FutureEyeOnRodion] Stacks on self past 10 Stacks (max 4)\n[WhenUse] Gain +3 [Breath] Count (once per turn)\n[OnSucceedEvade] Gain 2 [Breath] (2 times per turn)\n<style=\"highlight\">[OnSucceedEvade] Heal 3 SP (2 times per turn)</style>\n[EndSkillAll] Lose 2 [FutureEyeOnRodion] on self",
+          "name": "Dự tri",
+          "desc": "Khi Né tránh thành công toàn bộ Đồng xu của một Kỹ năng, sử dụng \"Sezionatura di Coniglio\" như một Tấn công Không đối kháng lên kẻ tấn công (1 lần mỗi lượt)\nUy lực Đồng xu +1 cho mỗi 2 Tầng [FutureEyeOnRodion] trên bản thân (Tối đa 4)\nUy lực Cơ bản +1 cho mỗi 2 Tầng [FutureEyeOnRodion] dư thừa vượt quá 10 Tầng trên bản thân (Tối đa 4)\n[WhenUse] Số lượng [Breath] của bản thân tăng thêm 3 (1 lần mỗi lượt)\n[OnSucceedEvade] Nhận 2 [Breath] (2 lần mỗi lượt)\n<style=\"highlight\">[OnSucceedEvade] Hồi 3 Tinh thần (2 lần mỗi lượt)</style>\n[EndSkillAll] Mất 2 [FutureEyeOnRodion] trên bản thân",
           "coinlist": [
             {}
           ]
@@ -3601,7 +3601,7 @@
         {
           "level": 1,
           "name": "Retouche",
-          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\n[EndSkill] If target is an ally, apply +3 [Charge] Count and 1 [AttackUp]\n[EndSkill] If target is an ally, activate the following effects (once per turn):\n- Apply Shield equal to 5% of this unit's max HP (min 1)\n- Apply 1 [NoirScissorShield]\n- If target is [PersonalityCharge], apply 1 [Enhancement]",
+          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\n[EndSkill] Nếu mục tiêu là đồng minh, áp dụng +3 Số lượng [Charge] và 1 [AttackUp]\n[EndSkill] Nếu mục tiêu là đồng minh, kích hoạt các hiệu ứng sau (1 lần mỗi lượt):\n- Áp dụng Khiên bằng 5% Máu tối đa của đơn vị này (tối thiểu 1)\n- Áp dụng 1 [NoirScissorShield]\n- Nếu mục tiêu là [PersonalityCharge], áp dụng 1 [Enhancement]",
           "coinlist": [
             {
               "coindescs": []
@@ -3611,7 +3611,7 @@
         {
           "level": 2,
           "name": "Retouche",
-          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\n[EndSkill] If target is an ally, apply +<style=\"highlight\">4</style> [Charge] Count and 1 [AttackUp]\n[EndSkill] If target is an ally, activate the following effects (once per turn):\n- Apply Shield equal to 5% of this unit's max HP (min 1)\n- Apply 1 [NoirScissorShield]\n- If target is [PersonalityCharge], apply 1 [Enhancement]<style=\"highlight\"></style>",
+          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\n[EndSkill] Nếu mục tiêu là đồng minh, áp dụng +<style=\"highlight\">4</style> Số lượng [Charge] và 1 [AttackUp]\n[EndSkill] Nếu mục tiêu là đồng minh, kích hoạt các hiệu ứng sau (1 lần mỗi lượt):\n- Áp dụng Khiên bằng 5% Máu tối đa của đơn vị này (tối thiểu 1)\n- Áp dụng 1 [NoirScissorShield]\n- Nếu mục tiêu là [PersonalityCharge], áp dụng 1 [Enhancement]<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": []
@@ -3621,7 +3621,7 @@
         {
           "level": 4,
           "name": "Retouche",
-          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\n[EndSkill] If target is an ally, apply +4 [Charge] Count and 1 [AttackUp]\n[EndSkill] If target is an ally, activate the following effects <style=\"highlight\">(2 times per turn)</style>:\n- Apply Shield equal to <style=\"highlight\">10%</style> of this unit's max HP (min 1)\n- Apply 1 [NoirScissorShield]\n- If target is [PersonalityCharge], apply 2 [Enhancement]",
+          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\n[EndSkill] Nếu mục tiêu là đồng minh, áp dụng +4 Số lượng [Charge] và 1 [AttackUp]\n[EndSkill] Nếu mục tiêu là đồng minh, kích hoạt các hiệu ứng sau <style=\"highlight\">(2 lần mỗi lượt)</style>:\n- Áp dụng Khiên bằng <style=\"highlight\">10%</style> Máu tối đa của đơn vị này (tối thiểu 1)\n- Áp dụng 1 [NoirScissorShield]\n- Nếu mục tiêu là [PersonalityCharge], áp dụng 2 [Enhancement]",
           "coinlist": [
             {
               "coindescs": []
@@ -3635,27 +3635,27 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Pin and Trim Along the Patterns",
-          "desc": "[StartBattle] Apply the following effects to 1 other ally with the earliest Deployment Order (prioritizes [PersonalityCharge]; once per turn):\n- Apply 2 [AttackUp]\n- Apply Shield equal to 5% of this unit's max HP (min 1)\n- If the said Identity is [PersonalityCharge], apply an additional 1 [AttackUp] and Shield equal to 5% of this unit's max HP\n\n[WhenUse] If target has 6+ [Vibration] Potency, Coin Power +1\n[WhenUse] Consume 5 [ChargeKhakiAlly] Count to gain Final Power +2",
+          "name": "Ghim Và Cắt Theo Mẫu",
+          "desc": "[StartBattle] Áp dụng các hiệu ứng sau lên 1 đồng minh khác có thứ tự triển khai sớm nhất (ưu tiên [PersonalityCharge]; 1 lần mỗi lượt):\n- Áp dụng 2 [AttackUp]\n- Áp dụng Khiên bằng 5% Máu tối đa của đơn vị này (tối thiểu 1)\n- Nếu Bản sắc đó là [PersonalityCharge], áp dụng thêm 1 [AttackUp] và Khiên bằng 5% Máu tối đa của đơn vị này\n\n[WhenUse] Nếu mục tiêu có từ 6 [Vibration] trở lên, Uy lực Đồng xu +1\n[WhenUse] Tiêu hao 5 Số lượng [ChargeKhakiAlly] để nhận Uy lực Cuối cùng +2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +6 [ChargeKhakiAlly] Count"
+                  "desc": "[OnSucceedAttack] Số lượng [ChargeKhakiAlly] tăng thêm 6"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Số lượng [Vibration] tăng thêm 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Kích hoạt [VibrationExplosion]; sau đó, giảm 1 Số lượng [Vibration] của mục tiêu"
                 }
               ]
             }
@@ -3663,27 +3663,27 @@
         },
         {
           "level": 2,
-          "name": "Pin and Trim Along the Patterns",
-          "desc": "[StartBattle] Apply the following effects to <style=\"highlight\">this unit and</style> 1 other ally with the earliest Deployment Order (prioritizes [PersonalityCharge]; once per turn):\n- Apply 2 [AttackUp]\n- Apply Shield equal to 5% of this unit's max HP (min 1)\n- If the said Identity is [PersonalityCharge], apply an additional 1 [AttackUp] and Shield equal to 5% of this unit's max HP\n\n[WhenUse] If target has 6+ [Vibration] Potency, Coin Power +1\n[WhenUse] Consume 5 [ChargeKhakiAlly] Count to gain Final Power +2",
+          "name": "Ghim Và Cắt Theo Mẫu",
+          "desc": "[StartBattle] Áp dụng các hiệu ứng sau lên <style=\"highlight\">bản thân và</style> 1 đồng minh khác có thứ tự triển khai sớm nhất (ưu tiên [PersonalityCharge]; 1 lần mỗi lượt):\n- Áp dụng 2 [AttackUp]\n- Áp dụng Khiên bằng 5% Máu tối đa của đơn vị này (tối thiểu 1)\n- Nếu Bản sắc đó là [PersonalityCharge], áp dụng thêm 1 [AttackUp] và Khiên bằng 5% Máu tối đa của đơn vị này\n\n[WhenUse] Nếu mục tiêu có từ 6 [Vibration] trở lên, Uy lực Đồng xu +1\n[WhenUse] Tiêu hao 5 Số lượng [ChargeKhakiAlly] để nhận Uy lực Cuối cùng +2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +6 [ChargeKhakiAlly] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Số lượng [ChargeKhakiAlly] tăng thêm 6<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Vibration] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Số lượng [Vibration] tăng thêm 2<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Kích hoạt [VibrationExplosion]; sau đó, giảm 1 Số lượng [Vibration] của mục tiêu<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -3691,30 +3691,30 @@
         },
         {
           "level": 4,
-          "name": "Pin and Trim Along the Patterns",
-          "desc": "[StartBattle] Apply the following effects to this unit, 1 other ally with the earliest Deployment Order (prioritizes [PersonalityCharge]), <style=\"highlight\">and 1 ally with the lowest current HP percentage</style> (once per turn):\n- Apply 2 [AttackUp]\n- Apply Shield equal to 5% of this unit's max HP (min 1)\n- If the said ally is [PersonalityCharge], apply an additional 1 [AttackUp] and Shield equal to 5% of this unit's max HP\n\n<style=\"highlight\">[WhenUse] Coin Power +1 for every 6 [Vibration] Potency on target (max 2)</style>\n[WhenUse] Consume 5 [ChargeKhakiAlly] Count to gain Final Power +2",
+          "name": "Ghim Và Cắt Theo Mẫu",
+          "desc": "[StartBattle] Áp dụng các hiệu ứng sau lên bản thân, 1 đồng minh khác có thứ tự triển khai sớm nhất (ưu tiên [PersonalityCharge]), <style=\"highlight\">và 1 đồng minh có tỷ lệ Máu hiện tại thấp nhất</style> (1 lần mỗi lượt):\n- Áp dụng 2 [AttackUp]\n- Áp dụng Khiên bằng 5% Máu tối đa của đơn vị này (tối thiểu 1)\n- Nếu đồng minh đó là [PersonalityCharge], áp dụng thêm 1 [AttackUp] và Khiên bằng 5% Máu tối đa của đơn vị này\n\n<style=\"highlight\">[WhenUse] Với mỗi 6 [Vibration] trên mục tiêu, Uy lực Đồng xu +1 (Tối đa 2)</style>\n[WhenUse] Tiêu hao 5 Số lượng [ChargeKhakiAlly] để nhận Uy lực Cuối cùng +2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +6 [ChargeKhakiAlly] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Số lượng [ChargeKhakiAlly] tăng thêm 6<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Vibration] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Số lượng [Vibration] tăng thêm 2<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Kích hoạt [VibrationExplosion]; sau đó, giảm 1 Số lượng [Vibration] của mục tiêu<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [AmberResistDown] (once per turn)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Gây 1 [AmberResistDown] (1 lần mỗi lượt)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -3728,35 +3728,35 @@
         {
           "level": 3,
           "name": "Coupez dans le Biais",
-          "desc": "Deal +15% damage for every [NoirScissorCut] on self (max 30%)\n\n[StartBattle] Apply the following effects to 1 other ally with the earliest Deployment Order (prioritizes [PersonalityCharge]) and 1 ally with the lowest current HP percentage (once per turn):\n- Apply 1 [NoirScissorShield]\n- Apply Shield equal to 5% of this unit's max HP (min 1)\n\n[WhenUse] If target has 6+ [Vibration] Potency, Coin Power +1\n[WhenUse] Final Power +1 for every 3 [ChargeKhakiAlly] Potency (max 2)\n[WhenUse] Consume 5 [ChargeKhakiAlly] Count to gain Final Power +2\n\n[EndSkill] Gain +5 [ChargeKhakiAlly] Count",
+          "desc": "Với mỗi [NoirScissorCut] trên bản thân, Sát thương +15% (Tối đa 30%)\n\n[StartBattle] Áp dụng các hiệu ứng sau lên 1 đồng minh khác có thứ tự triển khai sớm nhất (ưu tiên [PersonalityCharge]) và 1 đồng minh có tỷ lệ Máu hiện tại thấp nhất (1 lần mỗi lượt):\n- Áp dụng 1 [NoirScissorShield]\n- Áp dụng Khiên bằng 5% Máu tối đa của đơn vị này (tối thiểu 1)\n\n[WhenUse] Nếu mục tiêu có từ 6 [Vibration] trở lên, Uy lực Đồng xu +1\n[WhenUse] Với mỗi 3 Sức mạnh [ChargeKhakiAlly], Uy lực Cuối cùng +1 (Tối đa 2)\n[WhenUse] Tiêu hao 5 Số lượng [ChargeKhakiAlly] để nhận Uy lực Cuối cùng +2\n\n[EndSkill] Số lượng [ChargeKhakiAlly] của bản thân tăng thêm 5",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Số lượng [Vibration] tăng thêm 3"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [NoirScissorAlly]"
+                  "desc": "[OnSucceedAttack] Gây 1 [NoirScissorAlly]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Vibration]"
+                  "desc": "[OnSucceedAttack] Gây 3 [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [NoirScissorAlly]"
+                  "desc": "[OnSucceedAttack] Gây 1 [NoirScissorAlly]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Kích hoạt [VibrationExplosion]; sau đó, giảm 1 Số lượng [Vibration] của mục tiêu"
                 },
                 {
-                  "desc": "[OnSucceedAttack] At 5+ [ChargeKhakiAlly] Count, consume 5 [ChargeKhakiAlly] Count to trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Khi có từ 5 Số lượng [ChargeKhakiAlly] trở lên, tiêu hao 5 Số lượng [ChargeKhakiAlly] để kích hoạt [VibrationExplosion]; sau đó, giảm 1 Số lượng [Vibration] của mục tiêu"
                 }
               ]
             }
@@ -3765,35 +3765,35 @@
         {
           "level": 4,
           "name": "Coupez dans le Biais",
-          "desc": "Deal <style=\"highlight\">+30%</style> damage for every [NoirScissorCut] on self <style=\"highlight\">(max 60%)</style>\n\n[StartBattle] Apply the following effects to this unit, 1 other ally with the earliest Deployment Order (prioritizes [PersonalityCharge]), and 1 ally with the lowest current HP percentage (once per turn):\n- Apply 1 [NoirScissorShield]\n- Apply Shield equal to <style=\"highlight\">10%</style> of this unit's max HP (min 1)\n\n<style=\"highlight\">[WhenUse] Coin Power +1 for every 6 [Vibration] Potency on target (max 2)</style>\n[WhenUse] Final Power +1 for every 3 [ChargeKhakiAlly] Potency (max 2)\n[WhenUse] Consume 5 [ChargeKhakiAlly] Count to gain Final Power +2\n\n[EndSkill] Gain +5 [ChargeKhakiAlly] Count",
+          "desc": "Với mỗi [NoirScissorCut] trên bản thân, Sát thương <style=\"highlight\">+30%</style> <style=\"highlight\">(Tối đa 60%)</style>\n\n[StartBattle] Áp dụng các hiệu ứng sau lên bản thân, 1 đồng minh khác có thứ tự triển khai sớm nhất (ưu tiên [PersonalityCharge]), và 1 đồng minh có tỷ lệ Máu hiện tại thấp nhất (1 lần mỗi lượt):\n- Áp dụng 1 [NoirScissorShield]\n- Áp dụng Khiên bằng <style=\"highlight\">10%</style> Máu tối đa của đơn vị này (tối thiểu 1)\n\n<style=\"highlight\">[WhenUse] Với mỗi 6 [Vibration] trên mục tiêu, Uy lực Đồng xu +1 (Tối đa 2)</style>\n[WhenUse] Với mỗi 3 Sức mạnh [ChargeKhakiAlly], Uy lực Cuối cùng +1 (Tối đa 2)\n[WhenUse] Tiêu hao 5 Số lượng [ChargeKhakiAlly] để nhận Uy lực Cuối cùng +2\n\n[EndSkill] Số lượng [ChargeKhakiAlly] của bản thân tăng thêm 5",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Số lượng [Vibration] tăng thêm 3"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [NoirScissorAlly]"
+                  "desc": "[OnSucceedAttack] Gây 1 [NoirScissorAlly]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Vibration]"
+                  "desc": "[OnSucceedAttack] Gây 3 [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [NoirScissorAlly]"
+                  "desc": "[OnSucceedAttack] Gây 1 [NoirScissorAlly]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Kích hoạt [VibrationExplosion]; sau đó, giảm 1 Số lượng [Vibration] của mục tiêu"
                 },
                 {
-                  "desc": "[OnSucceedAttack] At 5+ [ChargeKhakiAlly] Count, consume 5 [ChargeKhakiAlly] Count to trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Khi có từ 5 Số lượng [ChargeKhakiAlly] trở lên, tiêu hao 5 Số lượng [ChargeKhakiAlly] để kích hoạt [VibrationExplosion]; sau đó, giảm 1 Số lượng [Vibration] của mục tiêu"
                 }
               ]
             }
@@ -3807,12 +3807,12 @@
         {
           "level": 1,
           "name": "Trimming",
-          "desc": "[DuelCounter]\n[StartBattle] Gain +5 [ChargeKhakiAlly] Count (2 times per turn)\n[StartBattle] Apply Shield equal to 5% of this unit's max HP to this unit and 2 other allies with the lowest current HP percentage (min 1, once per turn)",
+          "desc": "[DuelCounter]\n[StartBattle] Số lượng [ChargeKhakiAlly] của bản thân tăng thêm 5 (2 lần mỗi lượt)\n[StartBattle] Áp dụng Khiên bằng 5% Máu tối đa của đơn vị này lên bản thân và 2 đồng minh khác có tỷ lệ Máu hiện tại thấp nhất (tối thiểu 1, 1 lần mỗi lượt)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]"
+                  "desc": "[OnSucceedAttack] Gây 2 [Vibration]"
                 }
               ]
             }
@@ -3821,12 +3821,12 @@
         {
           "level": 4,
           "name": "Trimming",
-          "desc": "[DuelCounter]\n[StartBattle] Gain +5 [ChargeKhakiAlly] Count (2 times per turn)\n[StartBattle] Apply Shield equal to <style=\"highlight\">10%</style> of this unit's max HP to this unit and 2 other allies with the lowest current HP percentage (min 1, once per turn)\n\n<style=\"highlight\">[WhenUse] Clash Power +1 for every 5 [ChargeKhakiAlly] Count (max 4)</style>",
+          "desc": "[DuelCounter]\n[StartBattle] Số lượng [ChargeKhakiAlly] của bản thân tăng thêm 5 (2 lần mỗi lượt)\n[StartBattle] Áp dụng Khiên bằng <style=\"highlight\">10%</style> Máu tối đa của đơn vị này lên bản thân và 2 đồng minh khác có tỷ lệ Máu hiện tại thấp nhất (tối thiểu 1, 1 lần mỗi lượt)\n\n<style=\"highlight\">[WhenUse] Uy lực Đối đầu +1 cho mỗi 5 Số lượng [ChargeKhakiAlly] (Tối đa 4)</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]"
+                  "desc": "[OnSucceedAttack] Gây 2 [Vibration]"
                 }
               ]
             }
@@ -3840,18 +3840,18 @@
         {
           "level": 1,
           "name": "Patterning",
-          "desc": "[CantDuel]\n[WhenUse] Gain +3 [ChargeKhakiAlly] Count",
+          "desc": "[CantDuel]\n[WhenUse] Số lượng [ChargeKhakiAlly] của bản thân tăng thêm 3",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] At 3+ [ChargeKhakiAlly] Potency, Reuse this Coin (once per Skill)"
+                  "desc": "[OnSucceedAttack] Nếu Sức mạnh [ChargeKhakiAlly] từ 3 trở lên, tái sử dụng đồng xu này (1 lần mỗi kỹ năng)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Số lượng [Vibration] tăng thêm 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [NoirScissorAlly]"
+                  "desc": "[OnSucceedAttack] Gây 1 [NoirScissorAlly]"
                 }
               ]
             }
@@ -3865,19 +3865,19 @@
         {
           "level": 1,
           "name": "Cutout",
-          "desc": "[CantDuel]\n[WhenUse] Final Power +1 for every 3 [ChargeKhakiAlly] Potency (max 2)\n[WhenUse] Gain +5 [ChargeKhakiAlly] Count\n\n[EndSkill] Consume 2 [NoirScissorAlly] on target\n[EndSkill] Gain 1 [NoirScissorCut]",
+          "desc": "[CantDuel]\n[WhenUse] Với mỗi 3 Sức mạnh [ChargeKhakiAlly], Uy lực Cuối cùng +1 (Tối đa 2)\n[WhenUse] Số lượng [ChargeKhakiAlly] của bản thân tăng thêm 5\n\n[EndSkill] Tiêu hao 2 [NoirScissorAlly] trên mục tiêu\n[EndSkill] Nhận 1 [NoirScissorCut]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Vibration]"
+                  "desc": "[OnSucceedAttack] Gây 3 [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Kích hoạt [VibrationExplosion]; sau đó, giảm 1 Số lượng [Vibration] của mục tiêu"
                 }
               ]
             }
