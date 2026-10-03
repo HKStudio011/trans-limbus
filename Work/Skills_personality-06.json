@@ -3395,16 +3395,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Fa Jin",
-          "desc": "[WhenUse] If target does not have [DianxueHongLu], Clash Power +1\n[WhenUse] Gain +3 [Breath] Count",
+          "name": "Phát Kình",
+          "desc": "[WhenUse] Nếu mục tiêu không có [DianxueHongLu], Uy lực Đối đầu +1\n[WhenUse] Số lần [Breath] của bản thân tăng thêm 3",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Gây 1 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has 3+ [DianxueHongLu], Reuse this Coin (once per Skill)"
+                  "desc": "[OnSucceedAttack] Nếu mục tiêu có từ 3 [DianxueHongLu] trở lên, tái sử dụng đồng xu này (1 lần mỗi kỹ năng)"
                 }
               ]
             }
@@ -3412,19 +3412,19 @@
         },
         {
           "level": 2,
-          "name": "Fa Jin",
-          "desc": "<style=\"highlight\">If this unit's Speed is faster than the target's by 2 or more, Coin Power +1</style>\n[WhenUse] If target does not have [DianxueHongLu], Clash Power +1\n[WhenUse] Gain +3 [Breath] Count",
+          "name": "Phát Kình",
+          "desc": "<style=\"highlight\">Nếu Tốc độ của bản thân cao hơn mục tiêu từ 2 trở lên, Uy lực Đồng xu +1</style>\n[WhenUse] Nếu mục tiêu không có [DianxueHongLu], Uy lực Đối đầu +1\n[WhenUse] Số lần [Breath] của bản thân tăng thêm 3",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Gây 1 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has 3+ [DianxueHongLu], Reuse this Coin (once per Skill)"
+                  "desc": "[OnSucceedAttack] Nếu mục tiêu có từ 3 [DianxueHongLu] trở lên, tái sử dụng đồng xu này (1 lần mỗi kỹ năng)"
                 },
                 {
-                  "desc": "<style=\"highlight\">[ReUseOnSucceedAttack] Inflict 1 [Combustion]</style>"
+                  "desc": "<style=\"highlight\">[ReUseOnSucceedAttack] Gây 1 [Combustion]</style>"
                 }
               ]
             }
@@ -3432,19 +3432,19 @@
         },
         {
           "level": 4,
-          "name": "Fa Jin",
-          "desc": "If this unit's Speed is faster than the target's by 2 or more, Coin Power +1\n<style=\"highlight\">[WhenUse] Clash Power +1 for every 6 ([Breath] on self + [Combustion] on target) (max 2)</style>\n[WhenUse] If target does not have [DianxueHongLu], Clash Power +1\n[WhenUse] Gain +3 [Breath] Count",
+          "name": "Phát Kình",
+          "desc": "Nếu Tốc độ của bản thân cao hơn mục tiêu từ 2 trở lên, Uy lực Đồng xu +1\n<style=\"highlight\">[WhenUse] Với mỗi 6 tổng [Breath] của bản thân và [Combustion] của mục tiêu, Uy lực Đối đầu +1 (Tối đa 2)</style>\n[WhenUse] Nếu mục tiêu không có [DianxueHongLu], Uy lực Đối đầu +1\n[WhenUse] Số lần [Breath] của bản thân tăng thêm 3",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Gây 1 [Combustion]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has 3+ [DianxueHongLu], Reuse this Coin (once per Skill)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Nếu mục tiêu có từ 3 [DianxueHongLu] trở lên, tái sử dụng đồng xu này (1 lần mỗi kỹ năng)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] Inflict 1 [Combustion]<style=\"highlight\"></style>"
+                  "desc": "[ReUseOnSucceedAttack] Gây 1 [Combustion]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -3457,23 +3457,23 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Virescent Flame Palm",
-          "desc": "[WinDuel] Gain 3 [Breath]\n- Gain [Breath] Count equal to [DianxueHongLu] on target",
+          "name": "Thảo Viêm Chưởng",
+          "desc": "[WinDuel] Nhận 3 [Breath]\n- Tăng thêm số lần [Breath] tương ứng với số lượng [DianxueHongLu] trên mục tiêu",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +1 [Breath] Count"
+                  "desc": "[OnSucceedAttack] Số lần [Breath] của bản thân tăng thêm 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Gây 1 [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If target has 2+ [DianxueHongLu], Reuse this Coin (once per Skill)"
+                  "desc": "[OnSucceedAttack] Nếu mục tiêu có từ 2 [DianxueHongLu] trở lên, tái sử dụng đồng xu này (1 lần mỗi kỹ năng)"
                 }
               ]
             }
@@ -3481,29 +3481,29 @@
         },
         {
           "level": 2,
-          "name": "Virescent Flame Palm",
-          "desc": "<style=\"highlight\">If this unit's Speed is faster than the target's, gain Coin Power based on Speed difference (Coin Power +1 for every 2 Speed difference; max 2)</style>\n[WinDuel] Gain 3 [Breath]\n- Gain [Breath] Count equal to [DianxueHongLu] on target",
+          "name": "Thảo Viêm Chưởng",
+          "desc": "<style=\"highlight\">Nếu Tốc độ của bản thân cao hơn mục tiêu, nhận Uy lực Đồng xu dựa trên chênh lệch Tốc độ (Mỗi 2 chênh lệch Tốc độ, Uy lực Đồng xu +1; Tối đa 2)</style>\n[WinDuel] Nhận 3 [Breath]\n- Tăng thêm số lần [Breath] tương ứng với số lượng [DianxueHongLu] trên mục tiêu",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +<style=\"highlight\">2</style> [Breath] Count"
+                  "desc": "[OnSucceedAttack] Số lần [Breath] của bản thân tăng thêm <style=\"highlight\">2</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">2</style> [Combustion]"
+                  "desc": "[OnSucceedAttack] Gây <style=\"highlight\">2</style> [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflict +1 [Combustion] Count</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Số lần [Combustion] tăng thêm 1</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has 2+ [DianxueHongLu], Reuse this Coin (once per Skill)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Nếu mục tiêu có từ 2 [DianxueHongLu] trở lên, tái sử dụng đồng xu này (1 lần mỗi kỹ năng)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[ReUseOnSucceedAttack] Inflict [DefenseDown] equal to [DianxueHongLu] on target (once per turn)</style>"
+                  "desc": "<style=\"highlight\">[ReUseOnSucceedAttack] Gây [DefenseDown] tương ứng với số lượng [DianxueHongLu] trên mục tiêu (1 lần mỗi lượt)</style>"
                 }
               ]
             }
@@ -3511,29 +3511,29 @@
         },
         {
           "level": 4,
-          "name": "Virescent Flame Palm",
-          "desc": "If this unit's Speed is faster than the target's, gain Coin Power based on Speed difference (Coin Power +1 for every 2 Speed difference; max 2)\n<style=\"highlight\">[WhenUse] At 6+ ([Breath] on self + [Combustion] on target), Final Power +1</style>\n[WinDuel] Gain 3 [Breath]\n- Gain [Breath] Count equal to [DianxueHongLu] on target",
+          "name": "Thảo Viêm Chưởng",
+          "desc": "Nếu Tốc độ của bản thân cao hơn mục tiêu, nhận Uy lực Đồng xu dựa trên chênh lệch Tốc độ (Mỗi 2 chênh lệch Tốc độ, Uy lực Đồng xu +1; Tối đa 2)\n<style=\"highlight\">[WhenUse] Nếu tổng [Breath] của bản thân và [Combustion] của mục tiêu từ 6 trở lên, Uy lực cuối cùng +1</style>\n[WinDuel] Nhận 3 [Breath]\n- Tăng thêm số lần [Breath] tương ứng với số lượng [DianxueHongLu] trên mục tiêu",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +2 [Breath] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Số lần [Breath] của bản thân tăng thêm 2<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Gây 2 [Combustion]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Combustion] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Số lần [Combustion] tăng thêm 1<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has 2+ [DianxueHongLu], Reuse this Coin (once per Skill)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Nếu mục tiêu có từ 2 [DianxueHongLu] trở lên, tái sử dụng đồng xu này (1 lần mỗi kỹ năng)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] Inflict [DefenseDown] equal to [DianxueHongLu] on target (once per turn)<style=\"highlight\"></style>"
+                  "desc": "[ReUseOnSucceedAttack] Gây [DefenseDown] tương ứng với số lượng [DianxueHongLu] trên mục tiêu (1 lần mỗi lượt)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -3546,39 +3546,39 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Take the Hit to the Last Blow, Please?",
-          "desc": "If this unit's Speed is faster than the target's by 2 or more, Coin Power +1\n[WinDuel] Gain 3 [Breath]\n- Gain [Breath] Count equal to [DianxueHongLu] on target",
+          "name": "Xin hãy đỡ đến nước cuối cùng nhé?",
+          "desc": "Nếu Tốc độ của bản thân cao hơn mục tiêu từ 2 trở lên, Uy lực Đồng xu +1\n[WinDuel] Nhận 3 [Breath]\n- Tăng thêm số lần [Breath] tương ứng với số lượng [DianxueHongLu] trên mục tiêu",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Gây 1 [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Gây 1 [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Deal +([Breath] on self + [Combustion] on target)% damage on Critical Hit (max 20%)"
+                  "desc": "Sát thương Chí mạng +([Breath] của bản thân + [Combustion] của mục tiêu)% (Tối đa 20%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Số lần [Combustion] tăng thêm 1"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Inflict 2 [DefenseDown] (2 times per turn)"
+                  "desc": "[CriticalOnSucceedAttack] Gây 2 [DefenseDown] (2 lần mỗi lượt)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has [DianxueHongLu], Reuse this Coin (once per Skill)"
+                  "desc": "[OnSucceedAttack] Nếu mục tiêu có [DianxueHongLu], tái sử dụng đồng xu này (1 lần mỗi kỹ năng)"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] Deal Wrath damage equal to ([Combustion] on target x 2)% of this Coin's final damage (max 40%)"
+                  "desc": "[ReUseOnSucceedAttack] Gây sát thương Phẫn nộ bằng ([Combustion] trên mục tiêu x 2)% sát thương cuối cùng của đồng xu này (Tối đa 40%)"
                 }
               ]
             }
@@ -3586,39 +3586,39 @@
         },
         {
           "level": 4,
-          "name": "Take the Hit to the Last Blow, Please?",
-          "desc": "If this unit's Speed is faster than the target's by 2 or more, Coin Power +1\n<style=\"highlight\">[WhenUse] At 6+ ([Breath] on self + [Combustion] on target), Coin Power +1</style>\n[WinDuel] Gain <style=\"highlight\">5</style> [Breath]\n- Gain [Breath] Count equal to [DianxueHongLu] on target",
+          "name": "Xin hãy đỡ đến nước cuối cùng nhé?",
+          "desc": "Nếu Tốc độ của bản thân cao hơn mục tiêu từ 2 trở lên, Uy lực Đồng xu +1\n<style=\"highlight\">[WhenUse] Nếu tổng [Breath] của bản thân và [Combustion] của mục tiêu từ 6 trở lên, Uy lực Đồng xu +1</style>\n[WinDuel] Nhận <style=\"highlight\">5</style> [Breath]\n- Tăng thêm số lần [Breath] tương ứng với số lượng [DianxueHongLu] trên mục tiêu",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">2</style> [Combustion]"
+                  "desc": "[OnSucceedAttack] Gây <style=\"highlight\">2</style> [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">2</style> [Combustion]"
+                  "desc": "[OnSucceedAttack] Gây <style=\"highlight\">2</style> [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Deal +([Breath] on self + [Combustion] on target)% damage on Critical Hit (max <style=\"highlight\">30</style>%)"
+                  "desc": "Sát thương Chí mạng +([Breath] của bản thân + [Combustion] của mục tiêu)% (Tối đa <style=\"highlight\">30</style>%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Combustion] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Số lần [Combustion] tăng thêm 1<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Inflict 2 [DefenseDown] (2 times per turn)<style=\"highlight\"></style>"
+                  "desc": "[CriticalOnSucceedAttack] Gây 2 [DefenseDown] (2 lần mỗi lượt)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has [DianxueHongLu], Reuse this Coin (once per Skill)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Nếu mục tiêu có [DianxueHongLu], tái sử dụng đồng xu này (1 lần mỗi kỹ năng)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] Deal Wrath damage equal to ([Combustion] on target x 2)% of this Coin's final damage (max 40%)<style=\"highlight\"></style>"
+                  "desc": "[ReUseOnSucceedAttack] Gây sát thương Phẫn nộ bằng ([Combustion] trên mục tiêu x 2)% sát thương cuối cùng của đồng xu này (Tối đa 40%)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -3631,16 +3631,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Light as a Tuft of Cloud",
-          "desc": "If this unit's Speed is faster than the attacker's by 2 or more, Coin Power +1\n[StartBattle] Gain +2 [Breath] Count (once per turn)",
+          "name": "Nhẹ tựa chòm mây",
+          "desc": "Nếu Tốc độ của bản thân cao hơn kẻ tấn công từ 2 trở lên, Uy lực Đồng xu +1\n[StartBattle] Số lần [Breath] của bản thân tăng thêm 2 (1 lần mỗi lượt)",
           "coinlist": [
             {}
           ]
         },
         {
           "level": 4,
-          "name": "Light as a Tuft of Cloud",
-          "desc": "If this unit's Speed is faster than the attacker's by 2 or more, Coin Power +1\n[StartBattle] Gain +<style=\"highlight\">3</style> [Breath] Count (once per turn)",
+          "name": "Nhẹ tựa chòm mây",
+          "desc": "Nếu Tốc độ của bản thân cao hơn kẻ tấn công từ 2 trở lên, Uy lực Đồng xu +1\n[StartBattle] Số lần [Breath] của bản thân tăng thêm <style=\"highlight\">3</style> (1 lần mỗi lượt)",
           "coinlist": [
             {}
           ]

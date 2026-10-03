@@ -2739,14 +2739,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Gây 1 [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Vibration]"
+                  "desc": "[OnSucceedAttack] Gây 1 [Vibration]"
                 }
               ]
             }
@@ -2755,19 +2755,19 @@
         {
           "level": 2,
           "name": "La Spada di Palermo",
-          "desc": "<style=\"highlight\">[WhenUse] If target has 6+ ([Combustion] + [Vibration]), Coin Power +1</style>",
+          "desc": "<style=\"highlight\">[WhenUse] Nếu tổng ([Combustion] + [Vibration]) trên mục tiêu từ 6 trở lên, Uy lực Đồng xu +1</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Gây 1 [Combustion]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Vibration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Gây 1 [Vibration]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -2776,19 +2776,19 @@
         {
           "level": 4,
           "name": "La Spada di Palermo",
-          "desc": "[WhenUse] <style=\"highlight\">Coin Power +1 for every 6 ([Combustion] + [Vibration]) on target (max 2)</style>",
+          "desc": "[WhenUse] <style=\"highlight\">Với mỗi 6 tổng ([Combustion] + [Vibration]) trên mục tiêu, Uy lực Đồng xu +1 (Tối đa 2)</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">2</style> [Combustion]"
+                  "desc": "[OnSucceedAttack] Gây <style=\"highlight\">2</style> [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Vibration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Gây 1 [Vibration]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -2807,14 +2807,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Gây +1 Số lượng [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Gây +1 Số lượng [Vibration]"
                 }
               ]
             },
@@ -2824,26 +2824,26 @@
         {
           "level": 2,
           "name": "Colpi Sottani",
-          "desc": "<style=\"highlight\">[WhenUse] If target has 6+ ([Combustion] + [Vibration]), Coin Power +1</style>",
+          "desc": "<style=\"highlight\">[WhenUse] Nếu tổng ([Combustion] + [Vibration]) trên mục tiêu từ 6 trở lên, Uy lực Đồng xu +1</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +<style=\"highlight\">2</style> [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Gây +<style=\"highlight\">2</style> Số lượng [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +<style=\"highlight\">2</style> [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Gây +<style=\"highlight\">2</style> Số lượng [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] If this unit has [EvolvingManual], or if target has [DuelEdgeAlly], trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Nếu bản thân có [EvolvingManual], hoặc mục tiêu có [DuelEdgeAlly], kích hoạt [VibrationExplosion]; sau đó, giảm 1 Số lượng [Vibration] của mục tiêu</style>"
                 }
               ]
             }
@@ -2852,26 +2852,26 @@
         {
           "level": 4,
           "name": "Colpi Sottani",
-          "desc": "[WhenUse] <style=\"highlight\">Coin Power +1 for every 6 ([Combustion] + [Vibration]) on target (max 2)\n[WinDuel] If target has [DuelEdgeAlly], inflict +1 [Vibration] Count</style>",
+          "desc": "[WhenUse] <style=\"highlight\">Với mỗi 6 tổng ([Combustion] + [Vibration]) trên mục tiêu, Uy lực Đồng xu +1 (Tối đa 2)\n[WinDuel] Nếu mục tiêu có [DuelEdgeAlly], gây +1 Số lượng [Vibration]</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">2 [Combustion] and</style> +2 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Gây <style=\"highlight\">2 [Combustion] và</style> +2 Số lượng [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">2 [Vibration] and</style> +2 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Gây <style=\"highlight\">2 [Vibration] và</style> +2 Số lượng [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If this unit has [EvolvingManual], or if target has [DuelEdgeAlly], trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Nếu bản thân có [EvolvingManual], hoặc mục tiêu có [DuelEdgeAlly], kích hoạt [VibrationExplosion]; sau đó, giảm 1 Số lượng [Vibration] của mục tiêu<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -2885,35 +2885,35 @@
         {
           "level": 3,
           "name": "Il Cacciatore",
-          "desc": "[BeforeUse] If target has 5 [DuelEdgeAlly], activate \"Sezionatura di Cervo\" instead (once per turn)\n[WhenUse] If target has 6+ ([Combustion] + [Vibration]), Coin Power +1\n[WhenUse] Gain the following effects based on [DuelEdgeAlly] Stack on target:\n- 1+ [DuelEdgeAlly]: Inflict +1 more [Vibration] Potency\n- 2+ [DuelEdgeAlly]: Inflict +1 more [Vibration] Count\n- 3+ [DuelEdgeAlly]: Inflict +1 more [Combustion] Potency\n- 4+ [DuelEdgeAlly]: Inflict +1 more [Combustion] Count\n[WhenUse] If this unit has [EvolvingManual], or if target has 3+ [DuelEdgeAlly], convert all Coins on this Skill to [SuperCoin]s",
+          "desc": "[BeforeUse] Nếu mục tiêu có 5 [DuelEdgeAlly], thay vào đó kích hoạt \"Sezionatura di Cervo\" (1 lần mỗi lượt)\n[WhenUse] Nếu tổng ([Combustion] + [Vibration]) trên mục tiêu từ 6 trở lên, Uy lực Đồng xu +1\n[WhenUse] Nhận các hiệu ứng sau dựa trên số Tầng [DuelEdgeAlly] trên mục tiêu:\n- 1+ [DuelEdgeAlly]: Gây thêm +1 Uy lực [Vibration]\n- 2+ [DuelEdgeAlly]: Gây thêm +1 Số lượng [Vibration]\n- 3+ [DuelEdgeAlly]: Gây thêm +1 Uy lực [Combustion]\n- 4+ [DuelEdgeAlly]: Gây thêm +1 Số lượng [Combustion]\n[WhenUse] Nếu bản thân có [EvolvingManual], hoặc mục tiêu có 3+ [DuelEdgeAlly], chuyển toàn bộ Đồng xu trên kỹ năng này thành [SuperCoin]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion] and +2 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Gây 2 [Combustion] và +2 Số lượng [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration] and +2 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Gây 2 [Vibration] và +2 Số lượng [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Deal +10% damage for every [EvolvingManual] on self (max 30%)"
+                  "desc": "Với mỗi [EvolvingManual] trên bản thân, Sát thương +10% (Tối đa 30%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [Switch_Vibration] into [VibrationIgnition]"
+                  "desc": "[OnSucceedAttack] Kích hoạt [Switch_Vibration] sang [VibrationIgnition]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Kích hoạt [VibrationExplosion]; sau đó, giảm 1 Số lượng [Vibration] của mục tiêu"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If this unit has [EvolvingManual], or if target has 3+ [DuelEdgeAlly], trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Nếu bản thân có [EvolvingManual], hoặc mục tiêu có 3+ [DuelEdgeAlly], kích hoạt [VibrationExplosion]; sau đó, giảm 1 Số lượng [Vibration] của mục tiêu"
                 }
               ]
             }
@@ -2922,35 +2922,35 @@
         {
           "level": 4,
           "name": "Il Cacciatore",
-          "desc": "[BeforeUse] If target has 5 [DuelEdgeAlly], activate \"Sezionatura di Cervo\" instead (once per turn)\n[WhenUse] <style=\"highlight\">Coin Power +1 for every 6 ([Combustion] + [Vibration]) on target (max 2)</style>\n[WhenUse] Gain the following effects based on [DuelEdgeAlly] Stack on target:\n- <style=\"highlight\">Deal +6% damage for every Stack (max 30%)</style>\n- 1+ [DuelEdgeAlly]: Inflict +1 more [Vibration] Potency\n- 2+ [DuelEdgeAlly]: Inflict +1 more [Vibration] Count\n- 3+ [DuelEdgeAlly]: Inflict +1 more [Combustion] Potency\n- 4+ [DuelEdgeAlly]: Inflict +1 more [Combustion] Count\n[WhenUse] If this unit has [EvolvingManual], or if target has 3+ [DuelEdgeAlly], convert all Coins on this Skill to [SuperCoin]s",
+          "desc": "[BeforeUse] Nếu mục tiêu có 5 [DuelEdgeAlly], thay vào đó kích hoạt \"Sezionatura di Cervo\" (1 lần mỗi lượt)\n[WhenUse] <style=\"highlight\">Với mỗi 6 tổng ([Combustion] + [Vibration]) trên mục tiêu, Uy lực Đồng xu +1 (Tối đa 2)</style>\n[WhenUse] Nhận các hiệu ứng sau dựa trên số Tầng [DuelEdgeAlly] trên mục tiêu:\n- <style=\"highlight\">Với mỗi Tầng, Sát thương +6% (Tối đa 30%)</style>\n- 1+ [DuelEdgeAlly]: Gây thêm +1 Uy lực [Vibration]\n- 2+ [DuelEdgeAlly]: Gây thêm +1 Số lượng [Vibration]\n- 3+ [DuelEdgeAlly]: Gây thêm +1 Uy lực [Combustion]\n- 4+ [DuelEdgeAlly]: Gây thêm +1 Số lượng [Combustion]\n[WhenUse] Nếu bản thân có [EvolvingManual], hoặc mục tiêu có 3+ [DuelEdgeAlly], chuyển toàn bộ Đồng xu trên kỹ năng này thành [SuperCoin]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">3</style> [Combustion] and +2 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Gây <style=\"highlight\">3</style> [Combustion] và +2 Số lượng [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">3</style> [Vibration] and +2 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Gây <style=\"highlight\">3</style> [Vibration] và +2 Số lượng [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Deal <style=\"highlight\">+25%</style> damage for every [EvolvingManual] on self (max <style=\"highlight\">75%</style>)"
+                  "desc": "Với mỗi [EvolvingManual] trên bản thân, Sát thương <style=\"highlight\">+25%</style> (Tối đa <style=\"highlight\">75%</style>)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [Switch_Vibration] into [VibrationIgnition]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Kích hoạt [Switch_Vibration] sang [VibrationIgnition]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Kích hoạt [VibrationExplosion]; sau đó, giảm 1 Số lượng [Vibration] của mục tiêu<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If this unit has [EvolvingManual], or if target has 3+ [DuelEdgeAlly], trigger [VibrationExplosion] <style=\"highlight\">2 times</style>; then, reduce target's [Vibration] Count by <style=\"highlight\">2</style>"
+                  "desc": "[OnSucceedAttack] Nếu bản thân có [EvolvingManual], hoặc mục tiêu có 3+ [DuelEdgeAlly], kích hoạt [VibrationExplosion] <style=\"highlight\">2 lần</style>; sau đó, giảm <style=\"highlight\">2</style> Số lượng [Vibration] của mục tiêu"
                 }
               ]
             }
@@ -2963,20 +2963,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Measuring Blade Reach",
-          "desc": "[DuelCounter]\nDeal +10% damage for every [DuelEdgeAlly] on target (max 50%)",
+          "name": "Đo Tầm Lưỡi Kiếm",
+          "desc": "[DuelCounter]\nVới mỗi [DuelEdgeAlly] trên mục tiêu, Sát thương +10% (Tối đa 50%)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion] (2 times per turn)"
+                  "desc": "[OnSucceedAttack] Gây 1 [Combustion] (2 lần mỗi lượt)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Vibration] (2 times per turn)"
+                  "desc": "[OnSucceedAttack] Gây 1 [Vibration] (2 lần mỗi lượt)"
                 }
               ]
             }
@@ -2984,20 +2984,20 @@
         },
         {
           "level": 4,
-          "name": "Measuring Blade Reach",
-          "desc": "[DuelCounter]\nDeal +<style=\"highlight\">20</style>% damage for every [DuelEdgeAlly] on target (max <style=\"highlight\">100</style>%)\n<style=\"highlight\">[WhenUse] Final Power +1 for every 4 ([Combustion] + [Vibration]) on target (max 2)</style>",
+          "name": "Đo Tầm Lưỡi Kiếm",
+          "desc": "[DuelCounter]\nVới mỗi [DuelEdgeAlly] trên mục tiêu, Sát thương +<style=\"highlight\">20</style>% (Tối đa <style=\"highlight\">100</style>%)\n<style=\"highlight\">[WhenUse] Với mỗi 4 tổng ([Combustion] + [Vibration]) trên mục tiêu, Uy lực Cuối cùng +1 (Tối đa 2)</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion] (2 times per turn)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Gây 1 [Combustion] (2 lần mỗi lượt)<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Vibration] (2 times per turn)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Gây 1 [Vibration] (2 lần mỗi lượt)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -3010,8 +3010,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "I Will Protect.",
-          "desc": "[CanDuelGuard]\n[SupportProtect] exclusive Skill",
+          "name": "Tôi sẽ bảo vệ.",
+          "desc": "[CanDuelGuard]\nKỹ năng chuyên dụng cho [SupportProtect]",
           "coinlist": [
             {
               "coindescs": [
@@ -3024,8 +3024,8 @@
         },
         {
           "level": 4,
-          "name": "I Will Protect.",
-          "desc": "[CanDuelGuard]\n[SupportProtect] exclusive Skill\n<style=\"highlight\">[WhenUse]\n- Gain 2 [Protection] (once per turn)\n- Heal 5 SP for the unit protected by the [SupportProtect]</style>",
+          "name": "Tôi sẽ bảo vệ.",
+          "desc": "[CanDuelGuard]\nKỹ năng chuyên dụng cho [SupportProtect]\n<style=\"highlight\">[WhenUse]\n- Nhận 2 [Protection] (1 lần mỗi lượt)\n- Hồi 5 Tinh thần cho đơn vị được [SupportProtect] bảo vệ</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -3044,7 +3044,7 @@
         {
           "level": 3,
           "name": "Sezionatura di Cervo",
-          "desc": "[WhenUse]\n- Gain +([EvolvingManual] - 1) Atk Weight (max 2)\n- Coin Power +1 for every 6 ([Combustion] + [Vibration]) on the main target (max 2)\n- When attacking just 1 target, deal +15% damage (for Focused Encounters, 1 Part)\n- Deal +15% damage for every excess Atk Weight beyond the # of actual targets (for Focused Encounters, Parts)\n\n[EndSkill]\n- Consume all [DuelEdgeAlly] on the main target\n- Gain 1 [EvolvingManual]. If the main target is defeated, gain 2 [EvolvingManual] instead",
+          "desc": "[WhenUse]\n- Nhận +([EvolvingManual] - 1) Chỉ số Mục tiêu (Tối đa 2)\n- Với mỗi 6 tổng ([Combustion] + [Vibration]) trên mục tiêu chính, Uy lực Đồng xu +1 (Tối đa 2)\n- Khi chỉ tấn công 1 mục tiêu, Sát thương +15% (Trong trận chiến tập trung, tính theo 1 bộ phận)\n- Với mỗi Chỉ số Mục tiêu vượt quá số mục tiêu thực tế, Sát thương +15% (Trong trận chiến tập trung, tính theo bộ phận)\n\n[EndSkill]\n- Tiêu hao toàn bộ [DuelEdgeAlly] trên mục tiêu chính\n- Nhận 1 [EvolvingManual]. Nếu mục tiêu chính bị tiêu diệt, thay vào đó nhận 2 [EvolvingManual]",
           "coinlist": [
             {
               "coindescs": [
@@ -3052,7 +3052,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Combustion] and +3 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Gây 3 [Combustion] và +3 Số lượng [Combustion]"
                 }
               ]
             },
@@ -3062,7 +3062,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Vibration] and +3 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Gây 3 [Vibration] và +3 Số lượng [Vibration]"
                 }
               ]
             },
@@ -3079,13 +3079,13 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnStartCoin] This Coin gains Coin Power +1 for every [EvolvingManual] (max 3)"
+                  "desc": "[OnStartCoin] Với mỗi [EvolvingManual], Đồng xu này nhận +1 Uy lực Đồng xu (Tối đa 3)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [Switch_Vibration] into [VibrationIgnition]"
+                  "desc": "[OnSucceedAttack] Kích hoạt [Switch_Vibration] sang [VibrationIgnition]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion] 2 times; then, reduce target's [Vibration] Count by 2"
+                  "desc": "[OnSucceedAttack] Kích hoạt [VibrationExplosion] 2 lần; sau đó, giảm 2 Số lượng [Vibration] của mục tiêu"
                 }
               ]
             }
@@ -3094,7 +3094,7 @@
         {
           "level": 4,
           "name": "Sezionatura di Cervo",
-          "desc": "[WhenUse]\n- Gain +([EvolvingManual] - 1) Atk Weight (max 2)\n- Coin Power +1 for every 6 ([Combustion] + [Vibration]) on the main target (max <style=\"highlight\">3</style>)\n- When attacking just 1 target, deal +<style=\"highlight\">25</style>% damage (for Focused Encounters, 1 Part)\n- Deal +<style=\"highlight\">25</style>% damage for every excess Atk Weight beyond the # of actual targets (for Focused Encounters, Parts)\n\n[EndSkill]\n- Consume all [DuelEdgeAlly] on the main target\n- Gain 1 [EvolvingManual]. If the main target is defeated, gain 2 [EvolvingManual] instead",
+          "desc": "[WhenUse]\n- Nhận +([EvolvingManual] - 1) Chỉ số Mục tiêu (Tối đa 2)\n- Với mỗi 6 tổng ([Combustion] + [Vibration]) trên mục tiêu chính, Uy lực Đồng xu +1 (Tối đa <style=\"highlight\">3</style>)\n- Khi chỉ tấn công 1 mục tiêu, Sát thương +<style=\"highlight\">25</style>% (Trong trận chiến tập trung, tính theo 1 bộ phận)\n- Với mỗi Chỉ số Mục tiêu vượt quá số mục tiêu thực tế, Sát thương +<style=\"highlight\">25</style>% (Trong trận chiến tập trung, tính theo bộ phận)\n\n[EndSkill]\n- Tiêu hao toàn bộ [DuelEdgeAlly] trên mục tiêu chính\n- Nhận 1 [EvolvingManual]. Nếu mục tiêu chính bị tiêu diệt, thay vào đó nhận 2 [EvolvingManual]",
           "coinlist": [
             {
               "coindescs": [
@@ -3102,7 +3102,7 @@
                   "desc": "[SuperCoin]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">4</style> [Combustion] and +3 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Gây <style=\"highlight\">4</style> [Combustion] và +3 Số lượng [Combustion]"
                 }
               ]
             },
@@ -3112,7 +3112,7 @@
                   "desc": "[SuperCoin]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">4</style> [Vibration] and +3 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Gây <style=\"highlight\">4</style> [Vibration] và +3 Số lượng [Vibration]"
                 }
               ]
             },
@@ -3129,13 +3129,13 @@
                   "desc": "[SuperCoin]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnStartCoin] This Coin gains Coin Power +1 for every [EvolvingManual] (max 3)<style=\"highlight\"></style>"
+                  "desc": "[OnStartCoin] Với mỗi [EvolvingManual], Đồng xu này nhận +1 Uy lực Đồng xu (Tối đa 3)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [Switch_Vibration] into [VibrationIgnition]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Kích hoạt [Switch_Vibration] sang [VibrationIgnition]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion] <style=\"highlight\">3 times</style>; then, reduce target's [Vibration] Count by <style=\"highlight\">3</style>"
+                  "desc": "[OnSucceedAttack] Kích hoạt [VibrationExplosion] <style=\"highlight\">3 lần</style>; sau đó, giảm <style=\"highlight\">3</style> Số lượng [Vibration] của mục tiêu"
                 }
               ]
             }
