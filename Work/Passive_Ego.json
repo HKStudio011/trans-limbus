@@ -3,7 +3,7 @@
     {
       "id": 2010111,
       "name": "Trầm Mặc",
-      "desc": "Khi nhận sát thương, nhận 3 Trói buộc ở lượt kế tiếp; khi tấn công mục tiêu bằng thuộc tính Điểm yếu/Mong manh, Sát thương gây ra +20%\n(Kích hoạt 1 lần mỗi lượt)"
+      "desc": "Khi nhận sát thương, nhận 3 [Binding] ở lượt kế tiếp; khi tấn công mục tiêu bằng thuộc tính Điểm yếu/Mong manh, Sát thương gây ra +20%\n(Kích hoạt 1 lần mỗi lượt)"
     },
     {
       "id": 2010211,
@@ -79,7 +79,7 @@
     {
       "id": 2060211,
       "name": "Ruy Băng Ràng Buộc",
-      "desc": "Khi kết thúc tấn công lên mục tiêu bị tấn công bởi Kĩ năng nằm ngoài cùng bên trái bảng điều khiển,\nở lượt kế tiếp, gây (Số Cộng hưởng Tuyệt đối Sắc dục ÷ 4) Mong manh Sắc dục"
+      "desc": "Khi kết thúc tấn công lên mục tiêu bị tấn công bởi Kĩ năng nằm ngoài cùng bên trái bảng điều khiển,\nở lượt kế tiếp, gây (Số Cộng hưởng Tuyệt đối Sắc dục ÷ 4) [ScarletTakeDamageUp]"
     },
     {
       "id": 2070111,
@@ -175,7 +175,7 @@
     {
       "id": 2020411,
       "name": "Phóng Điện Thích Nghi",
-      "desc": "Khi bản thân có [Charge], mỗi Số lần Sạc (Charge) tăng +2% Sát thương\nGiảm -2 giá trị Số lần Sạc (Charge) tiêu hao bởi hiệu ứng Kĩ năng"
+      "desc": "Khi bản thân có [Charge], mỗi Số lần [Charge] (Charge) tăng +2% Sát thương\nGiảm -2 giá trị Số lần [Charge] (Charge) tiêu hao bởi hiệu ứng Kĩ năng"
     },
     {
       "id": 2030411,
@@ -195,7 +195,7 @@
     {
       "id": 2060311,
       "name": "Khôi Phục Hiện Trạng Rối Ren",
-      "desc": "Khi tấn công Trúng kẻ địch có hiệu ứng bất lợi, tăng Số lần Sạc (Charge) của bản thân thêm 1 (Tối đa 4 lần mỗi lượt)\nKhi Máu chạm mốc 0, tiêu hao toàn bộ Số lần Sạc (Charge) và hồi Máu tỉ lệ thuận với giá trị đã tiêu hao (Kích hoạt 1 lần mỗi trận chiến. Lượng hồi tối đa: 25% Máu tối đa)"
+      "desc": "Khi tấn công Trúng kẻ địch có hiệu ứng bất lợi, tăng Số lần [Charge] (Charge) của bản thân thêm 1 (Tối đa 4 lần mỗi lượt)\nKhi Máu chạm mốc 0, tiêu hao toàn bộ Số lần [Charge] (Charge) và hồi Máu tỉ lệ thuận với giá trị đã tiêu hao (Kích hoạt 1 lần mỗi trận chiến. Lượng hồi tối đa: 25% Máu tối đa)"
     },
     {
       "id": 2050411,
@@ -215,12 +215,12 @@
     {
       "id": 2070311,
       "name": "Phóng Điện Bồn Chồn",
-      "desc": "Khi nhận sát thương, tiêu hao 1 Số lần Sạc (Charge) để hồi 2.5% Máu tối đa\nTrường hợp Máu khi nhận sát thương dưới 40%, Số lần Sạc (Charge) tăng 1 và kích hoạt hiệu ứng hồi Máu (Số lần Sạc (Charge) có thể tăng tối đa lên đến 10 trong 1 lượt)"
+      "desc": "Khi nhận sát thương, tiêu hao 1 Số lần [Charge] (Charge) để hồi 2.5% Máu tối đa\nTrường hợp Máu khi nhận sát thương dưới 40%, Số lần [Charge] (Charge) tăng 1 và kích hoạt hiệu ứng hồi Máu (Số lần [Charge] (Charge) có thể tăng tối đa lên đến 10 trong 1 lượt)"
     },
     {
       "id": 2120411,
       "name": "Phóng Điện Xoay Chiều",
-      "desc": "Khi mặt Trước Trúng, tiêu hao 2 Số lần Sạc (Charge) của bản thân để tăng 1 Số lần Sạc (Charge) cho 1 đồng minh đang có [Charge] và có Số lần Sạc (Charge) thấp nhất"
+      "desc": "Khi mặt Trước Trúng, tiêu hao 2 Số lần [Charge] (Charge) của bản thân để tăng 1 Số lần [Charge] (Charge) cho 1 đồng minh đang có [Charge] và có Số lần [Charge] (Charge) thấp nhất"
     },
     {
       "id": 2010511,
@@ -285,7 +285,7 @@
     {
       "id": 2040611,
       "name": "Ngấu Nghiến Giấc Mơ",
-      "desc": "Khi Kĩ năng hệ Ngạo mạn đánh Chí mạng, tăng 1 Số lượng Hơi thở (Tối đa 3 lần mỗi lượt)"
+      "desc": "Khi Kĩ năng hệ Ngạo mạn đánh Chí mạng, tăng 1 Số lượng [Breath] (Tối đa 3 lần mỗi lượt)"
     },
     {
       "id": 2080511,
@@ -310,22 +310,22 @@
     {
       "id": 2070511,
       "name": "Sự Căm Ghét Vô Tận",
-      "desc": "Khi bản thân đang có hiệu ứng bất lợi hoặc trạng thái bất thường, nếu mục tiêu chính hoặc kẻ tấn công bản thân đang có hiệu ứng có lợi, thì các hiệu ứng Kĩ năng/Đồng xu gây ra Bỏng, Xuất huyết, Chấn động, Vết rách, Trầm luân cho bản thân và kẻ địch được +1 Sức mạnh, các hiệu ứng Kĩ năng/Đồng xu giúp bản thân nhận Hơi thở, Sạc được +1 Số lượng."
+      "desc": "Khi bản thân đang có hiệu ứng bất lợi hoặc trạng thái bất thường, nếu mục tiêu chính hoặc kẻ tấn công bản thân đang có hiệu ứng có lợi, thì các hiệu ứng Kĩ năng/Đồng xu gây ra [Combustion], [Laceration], [Vibration], [Burst], [Sinking] cho bản thân và kẻ địch được +1 Sức mạnh, các hiệu ứng Kĩ năng/Đồng xu giúp bản thân nhận [Breath], [Charge] được +1 Số lượng."
     },
     {
       "id": 2110511,
       "name": "Món Quà Công Bằng",
-      "desc": "Khi gây hiệu ứng có lợi cho đồng minh khác bằng hiệu ứng Kĩ năng/Đồng xu, gây ngẫu nhiên 1 trong các hiệu ứng Bỏng, Xuất huyết, Chấn động, Vết rách, Trầm luân với 1 Sức mạnh lên 1 kẻ địch ngẫu nhiên (Kích hoạt tối đa 5 lần mỗi lượt. Có thể gây tối đa 5 lần lên mỗi kẻ địch, đối với Thực thể không xác định thì gây lên bộ phận ngẫu nhiên.)"
+      "desc": "Khi gây hiệu ứng có lợi cho đồng minh khác bằng hiệu ứng Kĩ năng/Đồng xu, gây ngẫu nhiên 1 trong các hiệu ứng [Combustion], [Laceration], [Vibration], [Burst], [Sinking] với 1 Sức mạnh lên 1 kẻ địch ngẫu nhiên (Kích hoạt tối đa 5 lần mỗi lượt. Có thể gây tối đa 5 lần lên mỗi kẻ địch, đối với Thực thể không xác định thì gây lên bộ phận ngẫu nhiên.)"
     },
     {
       "id": 2030511,
       "name": "Tòa Tháp Đá Sụp Đổ",
-      "desc": "Khi tiêu diệt kẻ địch bị [Laceration], nhận 2 Hơi thở, 2 Số lượng Hơi thở (3 lần mỗi lượt)"
+      "desc": "Khi tiêu diệt kẻ địch bị [Laceration], nhận 2 [Breath], 2 Số lượng [Breath] (3 lần mỗi lượt)"
     },
     {
       "id": 2120511,
       "name": "Vương Miện Hoa Hồng",
-      "desc": "Đầu lượt, gây 2 Sức mạnh Vết rách cho 1 kẻ địch ngẫu nhiên. (Trong Trận chiến tập trung, gây lên tất cả bộ phận)\nNếu kích hoạt Cộng hưởng Hoàn toàn, khi bắt đầu chiến đấu, gây 2 Sức mạnh Vết rách cho tất cả kẻ địch."
+      "desc": "Đầu lượt, gây 2 Sức mạnh [Burst] cho 1 kẻ địch ngẫu nhiên. (Trong Trận chiến tập trung, gây lên tất cả bộ phận)\nNếu kích hoạt Cộng hưởng Hoàn toàn, khi bắt đầu chiến đấu, gây 2 Sức mạnh [Burst] cho tất cả kẻ địch."
     },
     {
       "id": 2120611,

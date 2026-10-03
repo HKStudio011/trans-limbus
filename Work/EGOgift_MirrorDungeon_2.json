@@ -52,7 +52,7 @@
     {
       "id": 9162,
       "name": "Sốc Mất Máu",
-      "desc": "Khi bắt đầu lượt, nếu có từ 5 danh tính trở lên sở hữu kỹ năng tấn công gây [Laceration] và Xuất huyết đặc biệt, hiệu ứng này sẽ kích hoạt trong suốt trận chiến. (Ngoại trừ kỹ năng E.G.O, không tính nhân viên dự bị)\n\nKhi đồng đội thắng Kháng cự, kích hoạt [Laceration] của kẻ địch 1 lần và giảm số lượt [Laceration] đi 1. (Kích hoạt 1 lần mỗi lượt cho mỗi đồng đội)\n\nKẻ địch có thể bị Hoảng loạn do sát thương [Laceration]. Nếu kẻ địch bị Hoảng loạn do sát thương [Laceration] trong khi đang Kháng cự, kích hoạt [Laceration] dựa trên số đồng xu còn lại của kẻ địch, và số lượt [Laceration] giảm tương ứng với số lần kích hoạt.\n\nNếu tất cả kẻ địch đều bị gây [Laceration], cấp phòng thủ giảm 2. Khi kết thúc lượt, nhận [DefenseDown] vào lượt tiếp theo dựa trên (số lần [Laceration] đã kích hoạt × 2) (Tối đa 20)\n\nMỗi khi gây cường độ [Laceration] hoặc Xuất huyết đặc biệt bằng hiệu ứng kỹ năng, gây thêm cho mục tiêu 3 cường độ [Laceration] và 1 số lượt [Laceration]",
+      "desc": "Khi bắt đầu lượt, nếu có từ 5 danh tính trở lên sở hữu kỹ năng tấn công gây [Laceration] và [Laceration] đặc biệt, hiệu ứng này sẽ kích hoạt trong suốt trận chiến. (Ngoại trừ kỹ năng E.G.O, không tính nhân viên dự bị)\n\nKhi đồng đội thắng Kháng cự, kích hoạt [Laceration] của kẻ địch 1 lần và giảm số lượt [Laceration] đi 1. (Kích hoạt 1 lần mỗi lượt cho mỗi đồng đội)\n\nKẻ địch có thể bị Hoảng loạn do sát thương [Laceration]. Nếu kẻ địch bị Hoảng loạn do sát thương [Laceration] trong khi đang Kháng cự, kích hoạt [Laceration] dựa trên số đồng xu còn lại của kẻ địch, và số lượt [Laceration] giảm tương ứng với số lần kích hoạt.\n\nNếu tất cả kẻ địch đều bị gây [Laceration], cấp phòng thủ giảm 2. Khi kết thúc lượt, nhận [DefenseDown] vào lượt tiếp theo dựa trên (số lần [Laceration] đã kích hoạt × 2) (Tối đa 20)\n\nMỗi khi gây cường độ [Laceration] hoặc Xuất huyết đặc biệt bằng hiệu ứng kỹ năng, gây thêm cho mục tiêu 3 cường độ [Laceration] và 1 số lượt [Laceration]",
       "simpleDesc": [
         {
           "abilityID": 9162,
@@ -98,14 +98,14 @@
         },
         {
           "abilityID": 91641,
-          "simpleDesc": "Nếu tiêu diệt hoặc khiến kẻ địch Hoảng loạn bằng kỹ năng tiêu tốn số lượt Chấn động, số lượt Chấn động của bản thân sẽ tăng lên"
+          "simpleDesc": "Nếu tiêu diệt hoặc khiến kẻ địch Hoảng loạn bằng kỹ năng tiêu tốn số lượt [Vibration], số lượt [Vibration] của bản thân sẽ tăng lên"
         }
       ]
     },
     {
       "id": 9166,
       "name": "Tâm Chấn",
-      "desc": "Khi bắt đầu lượt, nếu có từ 5 danh tính trở lên sở hữu kỹ năng tấn công gây cường độ [Vibration] hoặc số lượt [Vibration], hiệu ứng này sẽ kích hoạt trong suốt trận chiến. (Ngoại trừ kỹ năng E.G.O, không tính nhân viên dự bị. Không kích hoạt nếu danh tính tự nhận số lượt [Vibration])\n\nKhi thắng Kháng cự bằng kỹ năng tiêu tốn số lượt [Vibration] của bản thân, nếu mục tiêu chưa có [Vibration], tăng số lượt [Vibration] của mục tiêu thêm 3\n\nUy lực Kháng cự khi bắt đầu lượt tăng thêm (số lượt [Vibration] của bản thân ÷ 5). (Tối đa 3)\n\nNếu tiêu diệt kẻ địch hoặc khiến chúng bị Hoảng loạn bằng kỹ năng tiêu tốn số lượt [Vibration] của bản thân, tăng số lượt [Vibration] của bản thân thêm (số lượt [Vibration] đã tiêu tốn ÷ 2) (Kích hoạt 1 lần mỗi kỹ năng)",
+      "desc": "Khi bắt đầu lượt, nếu có từ 5 danh tính trở lên sở hữu kỹ năng tấn công gây cường độ Chấn động hoặc số lượt [Vibration], hiệu ứng này sẽ kích hoạt trong suốt trận chiến. (Ngoại trừ kỹ năng E.G.O, không tính nhân viên dự bị. Không kích hoạt nếu danh tính tự nhận số lượt [Vibration])\n\nKhi thắng Kháng cự bằng kỹ năng tiêu tốn số lượt [Vibration] của bản thân, nếu mục tiêu chưa có [Vibration], tăng số lượt [Vibration] của mục tiêu thêm 3\n\nUy lực Kháng cự khi bắt đầu lượt tăng thêm (số lượt [Vibration] của bản thân ÷ 5). (Tối đa 3)\n\nNếu tiêu diệt kẻ địch hoặc khiến chúng bị Hoảng loạn bằng kỹ năng tiêu tốn số lượt [Vibration] của bản thân, tăng số lượt [Vibration] của bản thân thêm (số lượt [Vibration] đã tiêu tốn ÷ 2) (Kích hoạt 1 lần mỗi kỹ năng)",
       "simpleDesc": [
         {
           "abilityID": 9166,
@@ -117,7 +117,7 @@
         },
         {
           "abilityID": 91662,
-          "simpleDesc": "Nếu tiêu diệt hoặc khiến kẻ địch Hoảng loạn bằng kỹ năng tiêu tốn số lượt Chấn động, số lượt Chấn động của bản thân sẽ tăng lên"
+          "simpleDesc": "Nếu tiêu diệt hoặc khiến kẻ địch Hoảng loạn bằng kỹ năng tiêu tốn số lượt [Vibration], số lượt [Vibration] của bản thân sẽ tăng lên"
         }
       ]
     },
@@ -128,7 +128,7 @@
       "simpleDesc": [
         {
           "abilityID": 9167,
-          "simpleDesc": "Khi thắng Kháng cự, gây Chấn động tương ứng số đồng xu còn lại. Nếu mục tiêu chưa có [Vibration], tăng số lượt [Vibration]"
+          "simpleDesc": "Khi thắng Kháng cự, gây Chấn động tương ứng số đồng xu còn lại. Nếu mục tiêu chưa có Chấn động, tăng số lượt [Vibration]"
         },
         {
           "abilityID": 91671,
@@ -136,7 +136,7 @@
         },
         {
           "abilityID": 91672,
-          "simpleDesc": "Nếu tiêu diệt hoặc khiến kẻ địch Hoảng loạn bằng kỹ năng tiêu tốn số lượt Chấn động, số lượt Chấn động của bản thân sẽ tăng lên"
+          "simpleDesc": "Nếu tiêu diệt hoặc khiến kẻ địch Hoảng loạn bằng kỹ năng tiêu tốn số lượt [Vibration], số lượt [Vibration] của bản thân sẽ tăng lên"
         },
         {
           "abilityID": 91673,
@@ -162,7 +162,7 @@
     {
       "id": 9170,
       "name": "Bức tượng đá kỳ quái",
-      "desc": "Khi bắt đầu lượt, nếu có từ 5 Danh tính trở lên sở hữu kỹ năng tấn công gây cường độ [Burst] hoặc số lượng [Burst], kích hoạt trong suốt trận chiến này. (Ngoại trừ kỹ năng E.G.O, ngoại trừ nhân viên dự bị)\n\nLượng sát thương hiệu ứng [Burst] gây ra lên Lá chắn của kẻ địch +100%\nNếu cường độ [Burst] của mục tiêu dưới 15, khi gây cường độ [Burst], gây thêm 2\n\nNếu không thể gây [Burst] bằng hiệu ứng kỹ năng, Cấp cộng của đồng xu +1\n- Trường hợp kỹ năng đồng xu trừ, thay vì Cấp cộng của đồng xu, Cường độ cơ bản +(4 ÷ Số lượng đồng xu) (Tối thiểu 1, làm tròn xuống)",
+      "desc": "Khi bắt đầu lượt, nếu có từ 5 Danh tính trở lên sở hữu kỹ năng tấn công gây cường độ Vết rách hoặc số lượng [Burst], kích hoạt trong suốt trận chiến này. (Ngoại trừ kỹ năng E.G.O, ngoại trừ nhân viên dự bị)\n\nLượng sát thương hiệu ứng [Burst] gây ra lên Lá chắn của kẻ địch +100%\nNếu cường độ [Burst] của mục tiêu dưới 15, khi gây cường độ [Burst], gây thêm 2\n\nNếu không thể gây [Burst] bằng hiệu ứng kỹ năng, Cấp cộng của đồng xu +1\n- Trường hợp kỹ năng đồng xu trừ, thay vì Cấp cộng của đồng xu, Cường độ cơ bản +(4 ÷ Số lượng đồng xu) (Tối thiểu 1, làm tròn xuống)",
       "simpleDesc": [
         {
           "abilityID": 9170,
@@ -181,7 +181,7 @@
     {
       "id": 9171,
       "name": "Tan vỡ",
-      "desc": "Khi bắt đầu lượt, nếu có từ 5 Danh tính trở lên sở hữu kỹ năng tấn công gây cường độ [Burst] hoặc số lượng [Burst], kích hoạt trong suốt trận chiến này. (Ngoại trừ kỹ năng E.G.O, ngoại trừ nhân viên dự bị)\n\nLượng sát thương hiệu ứng [Burst] gây ra lên Lá chắn của kẻ địch +150%\n\nKhi bắt đầu lượt, Cấp độ tấn công và Cấp độ phòng thủ của kẻ địch hoặc bộ phận đang trong trạng thái [Burst] giảm (3 + Cường độ [Burst] ÷ 2). (Tối đa 6)\n\nMỗi khi gây cường độ [Burst] hoặc số lượng [Burst] bằng hiệu ứng kỹ năng, gây cho mục tiêu 2 cường độ [Burst], 1 số lượng [Burst]. Nếu cường độ [Burst] của mục tiêu dưới 15, khi gây cường độ [Burst], gây thêm 2.\n\nCấp cộng của đồng xu của kỹ năng đồng xu cộng gây cường độ, số lượng [Burst] hoặc Vết rách đặc biệt +1\nCường độ cơ bản của kỹ năng đồng xu trừ gây cường độ, số lượng [Burst] hoặc Vết rách đặc biệt + (4 ÷ Số lượng đồng xu) (Tối thiểu 1, làm tròn xuống)",
+      "desc": "Khi bắt đầu lượt, nếu có từ 5 Danh tính trở lên sở hữu kỹ năng tấn công gây cường độ Vết rách hoặc số lượng Vết rách, kích hoạt trong suốt trận chiến này. (Ngoại trừ kỹ năng E.G.O, ngoại trừ nhân viên dự bị)\n\nLượng sát thương hiệu ứng [Burst] gây ra lên Lá chắn của kẻ địch +150%\n\nKhi bắt đầu lượt, Cấp độ tấn công và Cấp độ phòng thủ của kẻ địch hoặc bộ phận đang trong trạng thái [Burst] giảm (3 + Cường độ [Burst] ÷ 2). (Tối đa 6)\n\nMỗi khi gây cường độ [Burst] hoặc số lượng [Burst] bằng hiệu ứng kỹ năng, gây cho mục tiêu 2 cường độ [Burst], 1 số lượng [Burst]. Nếu cường độ [Burst] của mục tiêu dưới 15, khi gây cường độ [Burst], gây thêm 2.\n\nCấp cộng của đồng xu của kỹ năng đồng xu cộng gây cường độ, số lượng [Burst] hoặc Vết rách đặc biệt +1\nCường độ cơ bản của kỹ năng đồng xu trừ gây cường độ, số lượng [Burst] hoặc Vết rách đặc biệt + (4 ÷ Số lượng đồng xu) (Tối thiểu 1, làm tròn xuống)",
       "simpleDesc": [
         {
           "abilityID": 9171,
@@ -226,7 +226,7 @@
     {
       "id": 9175,
       "name": "Găng tay Surgi",
-      "desc": "Khi bắt đầu lượt, nếu có từ 5 Danh tính trở lên sở hữu kỹ năng tấn công gây cường độ [Sinking], số lượng [Sinking] hoặc Trầm luân đặc biệt, kích hoạt trong suốt trận chiến này. (Ngoại trừ kỹ năng E.G.O, ngoại trừ nhân viên dự bị)\n\nKhi sử dụng kỹ năng tấn công cơ bản, nếu cường độ [Sinking] của kẻ địch từ 5 trở lên, hồi phục Tinh thần cho bản thân bằng (Cường độ [Sinking] của mục tiêu ÷ 10) (Tối đa 5)\n\nTại thời điểm kết thúc lượt, toàn bộ đồng minh nhận [AttackUp] ở lượt tiếp theo dựa theo số lượng kẻ địch có Tinh thần là -45 (Tối đa 3)",
+      "desc": "Khi bắt đầu lượt, nếu có từ 5 Danh tính trở lên sở hữu kỹ năng tấn công gây cường độ Trầm luân, số lượng [Sinking] hoặc Trầm luân đặc biệt, kích hoạt trong suốt trận chiến này. (Ngoại trừ kỹ năng E.G.O, ngoại trừ nhân viên dự bị)\n\nKhi sử dụng kỹ năng tấn công cơ bản, nếu cường độ [Sinking] của kẻ địch từ 5 trở lên, hồi phục Tinh thần cho bản thân bằng (Cường độ [Sinking] của mục tiêu ÷ 10) (Tối đa 5)\n\nTại thời điểm kết thúc lượt, toàn bộ đồng minh nhận [AttackUp] ở lượt tiếp theo dựa theo số lượng kẻ địch có Tinh thần là -45 (Tối đa 3)",
       "simpleDesc": [
         {
           "abilityID": 9175,
@@ -241,7 +241,7 @@
     {
       "id": 9176,
       "name": "Sóng dữ",
-      "desc": "Khi bắt đầu lượt, nếu có từ 5 Danh tính trở lên sở hữu kỹ năng tấn công gây cường độ [Sinking], số lượng [Sinking] hoặc Trầm luân đặc biệt, kích hoạt trong suốt trận chiến này. (Ngoại trừ kỹ năng E.G.O, ngoại trừ nhân viên dự bị)\n\nKhi bắt đầu lượt, gây cho 1 kẻ địch ngẫu nhiên 1 [WaveSinking]\n\nKhi kẻ địch sở hữu [WaveSinking] chết, gây [WaveSinking] cho kẻ địch có giá trị [WaveSinking] cao nhất mà chưa đạt giá trị tối đa ở lượt tiếp theo với giá trị bằng [WaveSinking] của mục tiêu đó.\n\nKhi đánh trúng kẻ địch bằng kỹ năng gây cường độ [Sinking], số lượng [Sinking] hoặc Trầm luân đặc biệt, nếu gây sát thương HP, gây cho mục tiêu 4 cường độ [Sinking], 3 số lượng [Sinking] khi kết thúc lượt. (Kích hoạt 1 lần mỗi lượt cho mỗi kẻ địch)\nNếu kích hoạt Cộng hưởng hoàn toàn thuộc tính U sầu hoặc Sắc dục, khi bắt đầu trận chiến, gây cho toàn bộ kẻ địch (1 bộ phận ngẫu nhiên nếu là Thực thể ảo ảnh) 3 cường độ [Sinking], 3 số lượng [Sinking].\n\nKhi kết thúc kỹ năng tấn công cơ bản, nếu cường độ [Sinking] của kẻ địch từ 10 trở lên, hồi phục Tinh thần cho bản thân bằng (Cường độ [Sinking] của mục tiêu ÷ 10) (Tối đa 5), gây [DefenseDown] cho mục tiêu (Tối đa 5, kích hoạt 1 lần mỗi lượt cho mỗi kẻ địch)\n\nTại thời điểm kết thúc lượt, toàn bộ đồng minh nhận [AttackUp] ở lượt tiếp theo dựa theo số lượng kẻ địch có Tinh thần là -45 hoặc không có Tinh thần (Tối đa 6)\n\nCấp cộng của đồng xu của kỹ năng đồng xu cộng gây cường độ, số lượng [Sinking] hoặc Trầm luân đặc biệt +1\nCường độ cơ bản của kỹ năng đồng xu trừ gây cường độ, số lượng [Sinking] hoặc Trầm luân đặc biệt + (4 ÷ Số lượng đồng xu) (Tối thiểu 1, làm tròn xuống)\n\nKhi đánh trúng kẻ địch bằng kỹ năng tấn công cơ bản có gây/nhận cường độ [Sinking], số lượng [Sinking] hoặc Trầm luân đặc biệt, mỗi lần kích hoạt hiệu ứng [Sinking] (bao gồm cả Trầm luân đặc biệt) mà mục tiêu sở hữu, hồi phục 5 Tinh thần cho bản thân khi kết thúc lượt (2 lần mỗi lượt cho mỗi Danh tính)\nNếu Tinh thần khi bắt đầu lượt là 45, hiệu ứng được thay đổi: khi đánh trúng bằng kỹ năng tấn công cơ bản, mỗi lần kích hoạt hiệu ứng [Sinking] (bao gồm cả Trầm luân đặc biệt) mà mục tiêu sở hữu, gây cho kẻ địch đó 3 số lượng [Sinking] (2 lần mỗi lượt cho mỗi Danh tính)",
+      "desc": "Khi bắt đầu lượt, nếu có từ 5 Danh tính trở lên sở hữu kỹ năng tấn công gây cường độ Trầm luân, số lượng Trầm luân hoặc Trầm luân đặc biệt, kích hoạt trong suốt trận chiến này. (Ngoại trừ kỹ năng E.G.O, ngoại trừ nhân viên dự bị)\n\nKhi bắt đầu lượt, gây cho 1 kẻ địch ngẫu nhiên 1 Ngược Dòng\n\nKhi kẻ địch sở hữu [WaveSinking] chết, gây [WaveSinking] cho kẻ địch có giá trị [WaveSinking] cao nhất mà chưa đạt giá trị tối đa ở lượt tiếp theo với giá trị bằng [WaveSinking] của mục tiêu đó.\n\nKhi đánh trúng kẻ địch bằng kỹ năng gây cường độ [Sinking], số lượng [Sinking] hoặc Trầm luân đặc biệt, nếu gây sát thương HP, gây cho mục tiêu 4 cường độ [Sinking], 3 số lượng [Sinking] khi kết thúc lượt. (Kích hoạt 1 lần mỗi lượt cho mỗi kẻ địch)\nNếu kích hoạt Cộng hưởng hoàn toàn thuộc tính U sầu hoặc Sắc dục, khi bắt đầu trận chiến, gây cho toàn bộ kẻ địch (1 bộ phận ngẫu nhiên nếu là Thực thể ảo ảnh) 3 cường độ [Sinking], 3 số lượng [Sinking].\n\nKhi kết thúc kỹ năng tấn công cơ bản, nếu cường độ [Sinking] của kẻ địch từ 10 trở lên, hồi phục Tinh thần cho bản thân bằng (Cường độ [Sinking] của mục tiêu ÷ 10) (Tối đa 5), gây [DefenseDown] cho mục tiêu (Tối đa 5, kích hoạt 1 lần mỗi lượt cho mỗi kẻ địch)\n\nTại thời điểm kết thúc lượt, toàn bộ đồng minh nhận [AttackUp] ở lượt tiếp theo dựa theo số lượng kẻ địch có Tinh thần là -45 hoặc không có Tinh thần (Tối đa 6)\n\nCấp cộng của đồng xu của kỹ năng đồng xu cộng gây cường độ, số lượng [Sinking] hoặc Trầm luân đặc biệt +1\nCường độ cơ bản của kỹ năng đồng xu trừ gây cường độ, số lượng [Sinking] hoặc Trầm luân đặc biệt + (4 ÷ Số lượng đồng xu) (Tối thiểu 1, làm tròn xuống)\n\nKhi đánh trúng kẻ địch bằng kỹ năng tấn công cơ bản có gây/nhận cường độ [Sinking], số lượng [Sinking] hoặc Trầm luân đặc biệt, mỗi lần kích hoạt hiệu ứng [Sinking] (bao gồm cả Trầm luân đặc biệt) mà mục tiêu sở hữu, hồi phục 5 Tinh thần cho bản thân khi kết thúc lượt (2 lần mỗi lượt cho mỗi Danh tính)\nNếu Tinh thần khi bắt đầu lượt là 45, hiệu ứng được thay đổi: khi đánh trúng bằng kỹ năng tấn công cơ bản, mỗi lần kích hoạt hiệu ứng [Sinking] (bao gồm cả Trầm luân đặc biệt) mà mục tiêu sở hữu, gây cho kẻ địch đó 3 số lượng [Sinking] (2 lần mỗi lượt cho mỗi Danh tính)",
       "simpleDesc": [
         {
           "abilityID": 9176,
@@ -295,7 +295,7 @@
     {
       "id": 9180,
       "name": "Rượu Ủ Thùng",
-      "desc": "Khi bắt đầu lượt, nếu có từ 5 Danh tính trở lên sở hữu kỹ năng tấn công gây/nhận cường độ [Breath] hoặc số lượng [Breath], kích hoạt trong suốt trận chiến này. (Ngoại trừ kỹ năng E.G.O, ngoại trừ nhân viên dự bị)\n\nTại thời điểm kết thúc lượt, nếu cường độ [Breath] của mỗi đồng minh vượt quá 20, mỗi người tiêu hao 1 cường độ [Breath] để tăng 1 số lượng [Breath]\n\nTại thời điểm kết thúc lượt, 1 đồng minh có cường độ [Breath] cao nhất và 1 đồng minh có số lượng [Breath] cao nhất sẽ nhận [Agility] 2, [AttackUp] 1 ở lượt tiếp theo (Có thể cộng dồn nếu là cùng một Danh tính)\n\nMỗi khi nhận cường độ [Breath] bằng hiệu ứng kỹ năng, nhân vật đó nhận 2 cường độ [Breath], 2 số lượng [Breath]. Nếu tổng cường độ và số lượng [Breath] đang sở hữu dưới 20, nhận 3 cường độ [Breath], 3 số lượng [Breath] thay thế.\n\nNếu cường độ [Breath] vượt quá 40 khi kết thúc trận chiến, tiêu hao 15 cường độ [Breath] và [Discard] 1 kỹ năng có cấp thấp nhất từ toàn bộ ô kỹ năng của bản thân. (1 lần mỗi lượt cho mỗi nhân vật)",
+      "desc": "Khi bắt đầu lượt, nếu có từ 5 Danh tính trở lên sở hữu kỹ năng tấn công gây/nhận cường độ Nhịp thở hoặc số lượng [Breath], kích hoạt trong suốt trận chiến này. (Ngoại trừ kỹ năng E.G.O, ngoại trừ nhân viên dự bị)\n\nTại thời điểm kết thúc lượt, nếu cường độ [Breath] của mỗi đồng minh vượt quá 20, mỗi người tiêu hao 1 cường độ [Breath] để tăng 1 số lượng [Breath]\n\nTại thời điểm kết thúc lượt, 1 đồng minh có cường độ [Breath] cao nhất và 1 đồng minh có số lượng [Breath] cao nhất sẽ nhận [Agility] 2, [AttackUp] 1 ở lượt tiếp theo (Có thể cộng dồn nếu là cùng một Danh tính)\n\nMỗi khi nhận cường độ [Breath] bằng hiệu ứng kỹ năng, nhân vật đó nhận 2 cường độ [Breath], 2 số lượng [Breath]. Nếu tổng cường độ và số lượng [Breath] đang sở hữu dưới 20, nhận 3 cường độ [Breath], 3 số lượng [Breath] thay thế.\n\nNếu cường độ [Breath] vượt quá 40 khi kết thúc trận chiến, tiêu hao 15 cường độ [Breath] và [Discard] 1 kỹ năng có cấp thấp nhất từ toàn bộ ô kỹ năng của bản thân. (1 lần mỗi lượt cho mỗi nhân vật)",
       "simpleDesc": [
         {
           "abilityID": 9180,
@@ -344,7 +344,7 @@
     {
       "id": 9184,
       "name": "Động Cơ Vĩnh Cửu Loại 5",
-      "desc": "Vào đầu lượt, nếu có từ 5 Nhân cách sở hữu kỹ năng tấn công nhận số lượng [Charge] hoặc Sạc đặc biệt, hiệu ứng này sẽ kích hoạt trong suốt trận chiến. (Ngoại trừ kỹ năng E.G.O, ngoại trừ thành viên dự bị)\n\nĐầu lượt, nếu số lượng [Charge] ít hơn 3, tăng 5 số lượng [Charge]. Nếu số lượng Sạc vào đầu lượt từ 5 trở lên, nhận +2 trị số Tốc độ tối thiểu/tối đa, 1 [Enhancement], 2 [AttackDmgUp]. (Bao gồm cả Sạc đặc biệt)\n\nTất cả đồng minh nhận [ShareCharge] khi bắt đầu lượt tham chiến.\n\nKhi kết thúc đòn tấn công của kỹ năng 3 tiêu hao hoặc nhận số lượng [Charge] của bản thân, nếu mục tiêu chết hoặc có từ 3 [Charge] trở lên, thêm 1 kỹ năng 3 vào danh sách kỹ năng sử dụng ở lượt tiếp theo. (Mỗi đồng minh kích hoạt 1 lần mỗi lượt, bao gồm cả Sạc đặc biệt)",
+      "desc": "Vào đầu lượt, nếu có từ 5 Nhân cách sở hữu kỹ năng tấn công nhận số lượng [Charge] hoặc [Charge] đặc biệt, hiệu ứng này sẽ kích hoạt trong suốt trận chiến. (Ngoại trừ kỹ năng E.G.O, ngoại trừ thành viên dự bị)\n\nĐầu lượt, nếu số lượng [Charge] ít hơn 3, tăng 5 số lượng [Charge]. Nếu số lượng Sạc vào đầu lượt từ 5 trở lên, nhận +2 trị số Tốc độ tối thiểu/tối đa, 1 [Enhancement], 2 [AttackDmgUp]. (Bao gồm cả Sạc đặc biệt)\n\nTất cả đồng minh nhận [ShareCharge] khi bắt đầu lượt tham chiến.\n\nKhi kết thúc đòn tấn công của kỹ năng 3 tiêu hao hoặc nhận số lượng [Charge] của bản thân, nếu mục tiêu chết hoặc có từ 3 [Charge] trở lên, thêm 1 kỹ năng 3 vào danh sách kỹ năng sử dụng ở lượt tiếp theo. (Mỗi đồng minh kích hoạt 1 lần mỗi lượt, bao gồm cả Sạc đặc biệt)",
       "simpleDesc": [
         {
           "abilityID": 9184,

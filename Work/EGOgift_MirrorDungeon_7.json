@@ -69,7 +69,7 @@
     {
       "id": 9211,
       "name": "Mây Mù",
-      "desc": "Khi bắt đầu lượt, nếu tổng Uy lực và Số lượng [Sinking] của toàn bộ kẻ địch từ 30 trở lên, áp dụng các hiệu ứng dưới đây:\n\n- Tăng +1 Uy lực Cuối cho các kỹ năng Gây Uy lực hoặc Số lượng [Sinking] (Bao gồm [Sinking] đặc biệt, ngoại trừ kỹ năng E.G.O)\n\n- Nếu có từ 6 Bản thể trở lên sở hữu kỹ năng tấn công Gây Uy lực, Số lượng [Sinking] hoặc [Sinking] đặc biệt, tăng thêm +20% Sát thương cho các kỹ năng Gây Uy lực hoặc Số lượng [Sinking] (Bao gồm [Sinking] đặc biệt, ngoại trừ kỹ năng E.G.O. Bao gồm cả nhân sự dự bị)\n・Nếu Tinh thần của mục tiêu là -45, tăng thêm +10% Sát thương\n\n- Nếu có từ 10 Bản thể trở lên sở hữu kỹ năng tấn công Gây Uy lực, Số lượng [Sinking] hoặc [Sinking] đặc biệt, tăng thêm +1 Uy lực Xu cho các kỹ năng Cộng Xu Gây Uy lực hoặc Số lượng [Sinking] (Bao gồm [Sinking] đặc biệt, ngoại trừ kỹ năng E.G.O. Bao gồm cả nhân sự dự bị)\n・Trường hợp kỹ năng Trừ Xu, tăng +(4 ÷ Số lượng Xu) Uy lực cơ bản thay cho Uy lực Xu (Tối thiểu 1, làm tròn xuống)",
+      "desc": "Khi bắt đầu lượt, nếu tổng Uy lực và Số lượng Trầm luân của toàn bộ kẻ địch từ 30 trở lên, áp dụng các hiệu ứng dưới đây:\n\n- Tăng +1 Uy lực Cuối cho các kỹ năng Gây Uy lực hoặc Số lượng Trầm luân (Bao gồm Trầm luân đặc biệt, ngoại trừ kỹ năng E.G.O)\n\n- Nếu có từ 6 Bản thể trở lên sở hữu kỹ năng tấn công Gây Uy lực, Số lượng Trầm luân hoặc [Sinking] đặc biệt, tăng thêm +20% Sát thương cho các kỹ năng Gây Uy lực hoặc Số lượng [Sinking] (Bao gồm [Sinking] đặc biệt, ngoại trừ kỹ năng E.G.O. Bao gồm cả nhân sự dự bị)\n・Nếu Tinh thần của mục tiêu là -45, tăng thêm +10% Sát thương\n\n- Nếu có từ 10 Bản thể trở lên sở hữu kỹ năng tấn công Gây Uy lực, Số lượng [Sinking] hoặc [Sinking] đặc biệt, tăng thêm +1 Uy lực Xu cho các kỹ năng Cộng Xu Gây Uy lực hoặc Số lượng [Sinking] (Bao gồm [Sinking] đặc biệt, ngoại trừ kỹ năng E.G.O. Bao gồm cả nhân sự dự bị)\n・Trường hợp kỹ năng Trừ Xu, tăng +(4 ÷ Số lượng Xu) Uy lực cơ bản thay cho Uy lực Xu (Tối thiểu 1, làm tròn xuống)",
       "simpleDesc": [
         {
           "abilityID": 9211,
@@ -88,7 +88,7 @@
     {
       "id": 9212,
       "name": "Kết thúc của Mọi cái Ác",
-      "desc": "Kích hoạt khi có từ 3 Bản thể thuộc tàu Pequod trở lên trong đội hình (Bao gồm nhân sự dự bị)\n\nKhi kỹ năng tấn công trúng kẻ địch đang chịu [Bleed] hoặc [Bleed] đặc biệt, tăng 2 số lượng [Breath] hoặc nhận [Breath] 3 (Kích hoạt 3 lần mỗi lượt cho mỗi Bản thể)\n\nNếu gây chí mạng khi kỹ năng trúng đích, có 80% xác suất nhận [PenetrateResultUp] 1 vào lượt tiếp theo (Kích hoạt 2 lần mỗi lượt cho mỗi Bản thể. Bao gồm kỹ năng E.G.O và Phản kích)\n- Nếu là Bản thể thuộc tàu Pequod, nhận thêm [PlusCoinValueUp] 1 vào lượt tiếp theo (Kích hoạt 1 lần mỗi lượt cho mỗi Bản thể)\n\nKhi gây chí mạng bằng mặt trước của kỹ năng cơ bản, giá trị hiệu ứng xấu gây ra bởi đồng xu đó tăng thêm 1. (Kích hoạt 1 lần mỗi lượt cho mỗi Bản thể. Ngoại trừ kỹ năng E.G.O, bao gồm Phản kích)\n\nKhi kẻ địch hoặc đồng minh tử trận, các Bản thể thuộc tàu Pequod nhận [PenetrateResultUp] 1, [Protection] 1, [CriticalDamageUp] 1 mỗi lượt cho đến hết trận chiến (Kích hoạt tối đa 3 lần mỗi trận chiến)\n\nNếu Bản thể thuộc tàu Pequod tấn công trúng đích, hồi phục 7 Tinh thần cho Bản thể thuộc tàu Pequod có thứ tự sắp xếp sớm nhất (1 lần cho mỗi kỹ năng)\n\nKhi đồng minh tiêu diệt kẻ địch, nếu Tinh thần của Bản thể thuộc tàu Pequod có thứ tự sắp xếp sớm nhất bị giảm, hồi phục 15 Tinh thần.",
+      "desc": "Kích hoạt khi có từ 3 Bản thể thuộc tàu Pequod trở lên trong đội hình (Bao gồm nhân sự dự bị)\n\nKhi kỹ năng tấn công trúng kẻ địch đang chịu [Laceration] hoặc [Bleed] đặc biệt, tăng 2 số lượng [Breath] hoặc nhận [Breath] 3 (Kích hoạt 3 lần mỗi lượt cho mỗi Bản thể)\n\nNếu gây chí mạng khi kỹ năng trúng đích, có 80% xác suất nhận [PenetrateResultUp] 1 vào lượt tiếp theo (Kích hoạt 2 lần mỗi lượt cho mỗi Bản thể. Bao gồm kỹ năng E.G.O và Phản kích)\n- Nếu là Bản thể thuộc tàu Pequod, nhận thêm [PlusCoinValueUp] 1 vào lượt tiếp theo (Kích hoạt 1 lần mỗi lượt cho mỗi Bản thể)\n\nKhi gây chí mạng bằng mặt trước của kỹ năng cơ bản, giá trị hiệu ứng xấu gây ra bởi đồng xu đó tăng thêm 1. (Kích hoạt 1 lần mỗi lượt cho mỗi Bản thể. Ngoại trừ kỹ năng E.G.O, bao gồm Phản kích)\n\nKhi kẻ địch hoặc đồng minh tử trận, các Bản thể thuộc tàu Pequod nhận [PenetrateResultUp] 1, [Protection] 1, [CriticalDamageUp] 1 mỗi lượt cho đến hết trận chiến (Kích hoạt tối đa 3 lần mỗi trận chiến)\n\nNếu Bản thể thuộc tàu Pequod tấn công trúng đích, hồi phục 7 Tinh thần cho Bản thể thuộc tàu Pequod có thứ tự sắp xếp sớm nhất (1 lần cho mỗi kỹ năng)\n\nKhi đồng minh tiêu diệt kẻ địch, nếu Tinh thần của Bản thể thuộc tàu Pequod có thứ tự sắp xếp sớm nhất bị giảm, hồi phục 15 Tinh thần.",
       "simpleDesc": [
         {
           "abilityID": 9212,
@@ -111,7 +111,7 @@
     {
       "id": 9213,
       "name": "Vòng quay Mặt trời Thu nhỏ",
-      "desc": "Tăng +1 Uy lực Xu cho kỹ năng cơ bản của tất cả đồng minh Huyết Quỷ, tăng <noparse>Sát thương kỹ năng</noparse> thêm ([BloodDinner_Accumulation] ÷ 10)%\n\nKhi kết thúc lượt, 2 Bản thể có Máu thấp nhất trong số các đồng minh đang chịu [Bleed] sẽ hồi phục 5% Máu tối đa và nhận [SwirlingBloodPersonality] 10 khi bắt đầu lượt tiếp theo\n\nKhi tiêu diệt kẻ địch, tạo ra [BloodDinner] bằng (Máu tối đa của cơ thể chính ÷ 10) (Tối đa 50)\n\nKhi kết thúc lượt, nếu có đồng minh tử trận trong lượt này, tất cả đồng minh nhận [Enhancement] 2 vào lượt tiếp theo\n\nTrong trận chiến có viện binh địch, khi kẻ địch mới xuất hiện, gây cho kẻ địch đó [Bleed] 5 và 3 số lượng [Bleed] khi bắt đầu trận chiến.\nNếu có <Huyết Quỷ> trong đội hình đồng minh, khi kẻ địch tăng thêm, kích hoạt [Bleed] của tất cả kẻ địch 2 lần, sau đó giảm 2 số lượng [Bleed] của tất cả kẻ địch",
+      "desc": "Tăng +1 Uy lực Xu cho kỹ năng cơ bản của tất cả đồng minh Huyết Quỷ, tăng <noparse>Sát thương kỹ năng</noparse> thêm ([BloodDinner_Accumulation] ÷ 10)%\n\nKhi kết thúc lượt, 2 Bản thể có Máu thấp nhất trong số các đồng minh đang chịu [Laceration] sẽ hồi phục 5% Máu tối đa và nhận [SwirlingBloodPersonality] 10 khi bắt đầu lượt tiếp theo\n\nKhi tiêu diệt kẻ địch, tạo ra [BloodDinner] bằng (Máu tối đa của cơ thể chính ÷ 10) (Tối đa 50)\n\nKhi kết thúc lượt, nếu có đồng minh tử trận trong lượt này, tất cả đồng minh nhận [Enhancement] 2 vào lượt tiếp theo\n\nTrong trận chiến có viện binh địch, khi kẻ địch mới xuất hiện, gây cho kẻ địch đó [Laceration] 5 và 3 số lượng [Laceration] khi bắt đầu trận chiến.\nNếu có <Huyết Quỷ> trong đội hình đồng minh, khi kẻ địch tăng thêm, kích hoạt [Laceration] của tất cả kẻ địch 2 lần, sau đó giảm 2 số lượng [Laceration] của tất cả kẻ địch",
       "simpleDesc": [
         {
           "abilityID": 9213,
@@ -149,7 +149,7 @@
     {
       "id": 9215,
       "name": "Cà vạt màu đỏ",
-      "desc": "Uy lực đối đầu của Kỹ năng 3 gây [Combustion] Số lượng, [Combustion] Số lần hoặc Hỏa thiêu đặc biệt +2, Sát thương +30%",
+      "desc": "Uy lực đối đầu của Kỹ năng 3 gây Bỏng Số lượng, [Combustion] Số lần hoặc Hỏa thiêu đặc biệt +2, Sát thương +30%",
       "simpleDesc": [
         {
           "abilityID": 9215,
@@ -160,7 +160,7 @@
     {
       "id": 9216,
       "name": "Đồng phục chính quy - Hiệp hội Liu",
-      "desc": "Khi bắt đầu lượt, nếu có từ 5 Danh tính sở hữu kỹ năng tấn công gây [Combustion] Số lượng, [Combustion] Số lần hoặc Hỏa thiêu đặc biệt trở lên, kích hoạt trong suốt trận chiến này (Ngoại trừ kỹ năng E.G.O, không tính nhân viên dự bị)\n\nDanh tính thuộc Hiệp hội Liu có Uy lực Đồng xu cộng của kỹ năng tấn công cơ bản +2 (Trường hợp kỹ năng Đồng xu trừ, Uy lực cơ bản +(8÷Số lượng Đồng xu) (Tối thiểu 1, làm tròn xuống))\n\nSát thương của các kỹ năng không phải Kỹ năng 3 gây [Combustion] Số lượng, [Combustion] Số lần hoặc Hỏa thiêu đặc biệt +20% (Bao gồm kỹ năng E.G.O)\n\nUy lực Đồng xu cộng của Kỹ năng 3 gây [Combustion] Số lượng, [Combustion] Số lần hoặc Hỏa thiêu đặc biệt +1 (Trường hợp kỹ năng Đồng xu trừ, Uy lực cơ bản +(4÷Số lượng Đồng xu) (Tối thiểu 1, làm tròn xuống)), Sát thương +30%\n- Tăng 5% sát thương kỹ năng đó cho mỗi Danh tính cùng hội được xếp vào đội hình (Tối đa 20%, tính cả nhân viên dự bị)\n\nKhi kết thúc lượt, hồi 8 Tinh thần cho 2 đồng minh có Tinh thần thấp nhất\n- Nếu Tinh thần của mục tiêu từ 0 trở xuống, hồi thêm 5",
+      "desc": "Khi bắt đầu lượt, nếu có từ 5 Danh tính sở hữu kỹ năng tấn công gây Bỏng Số lượng, Bỏng Số lần hoặc Hỏa thiêu đặc biệt trở lên, kích hoạt trong suốt trận chiến này (Ngoại trừ kỹ năng E.G.O, không tính nhân viên dự bị)\n\nDanh tính thuộc Hiệp hội Liu có Uy lực Đồng xu cộng của kỹ năng tấn công cơ bản +2 (Trường hợp kỹ năng Đồng xu trừ, Uy lực cơ bản +(8÷Số lượng Đồng xu) (Tối thiểu 1, làm tròn xuống))\n\nSát thương của các kỹ năng không phải Kỹ năng 3 gây Bỏng Số lượng, [Combustion] Số lần hoặc Hỏa thiêu đặc biệt +20% (Bao gồm kỹ năng E.G.O)\n\nUy lực Đồng xu cộng của Kỹ năng 3 gây [Combustion] Số lượng, [Combustion] Số lần hoặc Hỏa thiêu đặc biệt +1 (Trường hợp kỹ năng Đồng xu trừ, Uy lực cơ bản +(4÷Số lượng Đồng xu) (Tối thiểu 1, làm tròn xuống)), Sát thương +30%\n- Tăng 5% sát thương kỹ năng đó cho mỗi Danh tính cùng hội được xếp vào đội hình (Tối đa 20%, tính cả nhân viên dự bị)\n\nKhi kết thúc lượt, hồi 8 Tinh thần cho 2 đồng minh có Tinh thần thấp nhất\n- Nếu Tinh thần của mục tiêu từ 0 trở xuống, hồi thêm 5",
       "simpleDesc": [
         {
           "abilityID": 9216,
@@ -245,7 +245,7 @@
     {
       "id": 9221,
       "name": "Vũ khí tia nhiệt",
-      "desc": "Khi kỹ năng thuộc tính Envy hoặc kỹ năng Phản đòn trúng đích, tăng 1 [Laceration] Số lần hoặc [Combustion] Số lần (3 lần mỗi lượt)\n\nTrong trận chiến, khi [Laceration] Số lần của kẻ địch thấp hơn 1, nếu [Combustion] Số lần kẻ địch đang sở hữu từ 2 trở lên, [Combustion] Số lần sẽ bị giảm thay cho [Laceration] Số lần (3 lần mỗi lượt)",
+      "desc": "Khi kỹ năng thuộc tính Envy hoặc kỹ năng Phản đòn trúng đích, tăng 1 Xuất huyết Số lần hoặc [Combustion] Số lần (3 lần mỗi lượt)\n\nTrong trận chiến, khi [Laceration] Số lần của kẻ địch thấp hơn 1, nếu [Combustion] Số lần kẻ địch đang sở hữu từ 2 trở lên, [Combustion] Số lần sẽ bị giảm thay cho [Laceration] Số lần (3 lần mỗi lượt)",
       "simpleDesc": [
         {
           "abilityID": 9221,
@@ -521,7 +521,7 @@
     {
       "id": 9255,
       "name": "Vỗ Tay Bép Bép!",
-      "desc": "Khi đấu thắng bằng kỹ năng cơ bản có gây uy lực [Vibration], số lượng [Vibration] hoặc Chấn động đặc biệt cho kẻ địch, thực hiện [FusionVibration] thành một Chấn động đặc biệt ngẫu nhiên trong số các Chấn động đặc biệt dưới đây (Tối đa 1 lần mỗi lượt)\n- [VibrationIgnition]\n- [VibrationBleeding]\n- [VibrationEcho]\n- [VibrationCollapse]\n- [VibrationChainPersonality]",
+      "desc": "Khi đấu thắng bằng kỹ năng cơ bản có gây uy lực Chấn động, số lượng [Vibration] hoặc Chấn động đặc biệt cho kẻ địch, thực hiện [FusionVibration] thành một Chấn động đặc biệt ngẫu nhiên trong số các Chấn động đặc biệt dưới đây (Tối đa 1 lần mỗi lượt)\n- [VibrationIgnition]\n- [VibrationBleeding]\n- [VibrationEcho]\n- [VibrationCollapse]\n- [VibrationChainPersonality]",
       "simpleDesc": [
         {}
       ]

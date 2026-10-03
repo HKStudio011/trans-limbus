@@ -6,13 +6,13 @@
         {
           "level": 1,
           "name": "Tuần tra",
-          "desc": "[DefeatDuel] Nhận 2 Tăng Cấp Phòng Thủ",
+          "desc": "[DefeatDuel] Nhận 2 [DefenseUp]",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Lượt tới nhận 2 Tăng Cấp Phòng Thủ"
+                  "desc": "[OnSucceedAttackHead] Lượt tới nhận 2 [DefenseUp]"
                 }
               ]
             }
@@ -21,13 +21,13 @@
         {
           "level": 2,
           "name": "Tuần tra",
-          "desc": "[DefeatDuel] Nhận 3 Tăng Cấp Phòng Thủ",
+          "desc": "[DefeatDuel] Nhận 3 [DefenseUp]",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Lượt tới nhận 2 Tăng Cấp Phòng Thủ"
+                  "desc": "[OnSucceedAttack] Lượt tới nhận 2 [DefenseUp]"
                 }
               ]
             }
@@ -36,13 +36,13 @@
         {
           "level": 4,
           "name": "Tuần tra",
-          "desc": "[WhenUse] Lượt tới, tăng 2 Chỉ số Khiêu khích cho ô kỹ năng này\n[DefeatDuel] Nhận 3 Tăng Cấp Phòng Thủ",
+          "desc": "[WhenUse] Lượt tới, tăng 2 [Aggro] cho ô kỹ năng này\n[DefeatDuel] Nhận 3 [DefenseUp]",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Lượt tới nhận 2 Tăng Cấp Phòng Thủ"
+                  "desc": "[OnSucceedAttack] Lượt tới nhận 2 [DefenseUp]"
                 }
               ]
             }
@@ -56,26 +56,26 @@
         {
           "level": 1,
           "name": "Bảo vệ Khách hàng",
-          "desc": "[WhenUse] Ban 2 Tăng Cấp Phòng Thủ cho đồng minh có tỉ lệ HP hiện tại thấp nhất. (Kích hoạt tối đa 3 lần mỗi lượt)",
+          "desc": "[WhenUse] Ban 2 [DefenseUp] cho đồng minh có tỉ lệ HP hiện tại thấp nhất. (Kích hoạt tối đa 3 lần mỗi lượt)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Lượt tới nhận 1 Tăng Cấp Phòng Thủ"
+                  "desc": "[OnSucceedAttackHead] Lượt tới nhận 1 [DefenseUp]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Lượt tới nhận 1 Tăng Cấp Phòng Thủ"
+                  "desc": "[OnSucceedAttackHead] Lượt tới nhận 1 [DefenseUp]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Lượt tới nhận 1 Tăng Cấp Phòng Thủ"
+                  "desc": "[OnSucceedAttackHead] Lượt tới nhận 1 [DefenseUp]"
                 }
               ]
             }
@@ -84,26 +84,26 @@
         {
           "level": 2,
           "name": "Bảo vệ Khách hàng",
-          "desc": "[WhenUse] Cấp 3 Tăng Cấp Phòng Thủ cho đồng đội có tỉ lệ HP hiện tại thấp nhất. (Kích hoạt tối đa 3 lần mỗi lượt)\nNếu Tăng Cấp Phòng Thủ của bản thân từ 5 trở lên, Công suất Đối đầu +1",
+          "desc": "[WhenUse] Cấp 3 [DefenseUp] cho đồng đội có tỉ lệ HP hiện tại thấp nhất. (Kích hoạt tối đa 3 lần mỗi lượt)\nNếu [DefenseUp] của bản thân từ 5 trở lên, Công suất Đối đầu +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Nhận 1 Tăng Cấp Phòng Thủ vào lượt tiếp theo"
+                  "desc": "[OnSucceedAttack] Nhận 1 [DefenseUp] vào lượt tiếp theo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Nhận 1 Tăng Cấp Phòng Thủ vào lượt tiếp theo"
+                  "desc": "[OnSucceedAttack] Nhận 1 [DefenseUp] vào lượt tiếp theo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Nhận 1 Tăng Cấp Phòng Thủ vào lượt tiếp theo"
+                  "desc": "[OnSucceedAttack] Nhận 1 [DefenseUp] vào lượt tiếp theo"
                 }
               ]
             }
@@ -112,26 +112,26 @@
         {
           "level": 4,
           "name": "Bảo Vệ Khách Hàng",
-          "desc": "[WhenUse] Cấp 4 Tăng Cấp Phòng Thủ cho đồng đội có tỉ lệ HP hiện tại thấp nhất. (Kích hoạt tối đa 3 lần mỗi lượt)\nNếu Tăng Cấp Phòng Thủ của bản thân từ 5 trở lên, Công suất Đối đầu +2",
+          "desc": "[WhenUse] Cấp 4 [DefenseUp] cho đồng đội có tỉ lệ HP hiện tại thấp nhất. (Kích hoạt tối đa 3 lần mỗi lượt)\nNếu [DefenseUp] của bản thân từ 5 trở lên, Công suất Đối đầu +2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Nhận 1 Tăng Cấp Phòng Thủ vào lượt tiếp theo"
+                  "desc": "[OnSucceedAttack] Nhận 1 [DefenseUp] vào lượt tiếp theo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Nhận 1 Tăng Cấp Phòng Thủ vào lượt tiếp theo"
+                  "desc": "[OnSucceedAttack] Nhận 1 [DefenseUp] vào lượt tiếp theo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Nhận 1 Tăng Cấp Phòng Thủ vào lượt tiếp theo"
+                  "desc": "[OnSucceedAttack] Nhận 1 [DefenseUp] vào lượt tiếp theo"
                 }
               ]
             }
@@ -145,7 +145,7 @@
         {
           "level": 3,
           "name": "Hộ Vệ Trị An",
-          "desc": "Nếu Tăng Cấp Phòng Thủ của bản thân từ 5 trở lên, Công suất Đồng xu +1\n[WinDuel] Hồi 2 HP",
+          "desc": "Nếu [DefenseUp] của bản thân từ 5 trở lên, Công suất Đồng xu +1\n[WinDuel] Hồi 2 HP",
           "coinlist": [
             {},
             {
@@ -160,7 +160,7 @@
         {
           "level": 4,
           "name": "Hộ Vệ Trị An",
-          "desc": "Nếu Tăng Cấp Phòng Thủ của bản thân từ 5 trở lên, Công suất Đồng xu +1\n[WinDuel] Hồi 4 HP",
+          "desc": "Nếu [DefenseUp] của bản thân từ 5 trở lên, Công suất Đồng xu +1\n[WinDuel] Hồi 4 HP",
           "coinlist": [
             {},
             {
@@ -238,7 +238,7 @@
         {
           "level": 4,
           "name": "Xiềng Xích Siết Chặt",
-          "desc": "[WhenUse] Số lượt Chấn động của bản thân tăng 3\n[DefeatDuel] Số lượt Chấn động của bản thân tăng 3",
+          "desc": "[WhenUse] Số lượt [Vibration] của bản thân tăng 3\n[DefeatDuel] Số lượt [Vibration] của bản thân tăng 3",
           "coinlist": [
             {
               "coindescs": [
@@ -282,7 +282,7 @@
         {
           "level": 2,
           "name": "Tiếng vang Kim loại",
-          "desc": "[StartBattle] Tiêu hao 5 số lượt Chấn động của bản thân để +1 Trọng số tấn công cho kỹ năng này\n[WhenUse] Tăng 4 số lượt Chấn động của bản thân",
+          "desc": "[StartBattle] Tiêu hao 5 số lượt [Vibration] của bản thân để +1 Trọng số tấn công cho kỹ năng này\n[WhenUse] Tăng 4 số lượt [Vibration] của bản thân",
           "coinlist": [
             {
               "coindescs": [
@@ -310,7 +310,7 @@
         {
           "level": 4,
           "name": "Tiếng vang Kim loại",
-          "desc": "[StartBattle] Tiêu hao 5 số lượt Chấn động của bản thân để +1 Trọng số tấn công cho kỹ năng này\n[WhenUse] Tăng 4 số lượt Chấn động của bản thân",
+          "desc": "[StartBattle] Tiêu hao 5 số lượt [Vibration] của bản thân để +1 Trọng số tấn công cho kỹ năng này\n[WhenUse] Tăng 4 số lượt [Vibration] của bản thân",
           "coinlist": [
             {
               "coindescs": [
@@ -343,26 +343,26 @@
         {
           "level": 3,
           "name": "Bạo Lực Giải Phóng",
-          "desc": "[StartBattle] Tiêu tốn 5 số lượng Chấn động của bản thân, Trọng số Tấn công của kỹ năng này +1 (Tối đa +2)\n[DefeatDuel] Tinh thần giảm 20\nVới mỗi loại hiệu ứng bất lợi mục tiêu đang có, lượng sát thương tăng thêm 3% (Tối đa 15%)\n[EnemyKill] Số lượng Chấn động của bản thân tăng thêm 2",
+          "desc": "[StartBattle] Tiêu tốn 5 số lượng [Vibration] của bản thân, Trọng số Tấn công của kỹ năng này +1 (Tối đa +2)\n[DefeatDuel] Tinh thần giảm 20\nVới mỗi loại hiệu ứng bất lợi mục tiêu đang có, lượng sát thương tăng thêm 3% (Tối đa 15%)\n[EnemyKill] Số lượng [Vibration] của bản thân tăng thêm 2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Chấn động Bộc phát\nKhi Chấn động Bộc phát, gây sát thương Phẫn nộ bằng 20% giá trị tịnh tiến Ngưỡng Loạng choạng cuối cùng. (Tối đa 13)"
+                  "desc": "[OnSucceedAttack] Chấn động [VibrationExplosion]\nKhi Chấn động [VibrationExplosion], gây sát thương Phẫn nộ bằng 20% giá trị tịnh tiến Ngưỡng Loạng choạng cuối cùng. (Tối đa 13)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Chấn động Bộc phát\nKhi Chấn động Bộc phát, gây sát thương Phẫn nộ bằng 20% giá trị tịnh tiến Ngưỡng Loạng choạng cuối cùng. (Tối đa 13)"
+                  "desc": "[OnSucceedAttack] Chấn động [VibrationExplosion]\nKhi Chấn động [VibrationExplosion], gây sát thương Phẫn nộ bằng 20% giá trị tịnh tiến Ngưỡng Loạng choạng cuối cùng. (Tối đa 13)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Chấn động Bộc phát\nKhi Chấn động Bộc phát, gây sát thương Phẫn nộ bằng 20% giá trị tịnh tiến Ngưỡng Loạng choạng cuối cùng. (Tối đa 13)\nSố lượng Chấn động giảm 3"
+                  "desc": "[OnSucceedAttack] [Vibration] [VibrationExplosion]\nKhi Chấn động [VibrationExplosion], gây sát thương Phẫn nộ bằng 20% giá trị tịnh tiến Ngưỡng Loạng choạng cuối cùng. (Tối đa 13)\nSố lượng Chấn động giảm 3"
                 }
               ]
             }
@@ -371,26 +371,26 @@
         {
           "level": 4,
           "name": "Bạo Lực Giải Phóng",
-          "desc": "[StartBattle] Tiêu tốn 5 số lượng Chấn động của bản thân, Trọng số Tấn công của kỹ năng này +1 (Tối đa +2)\n[DefeatDuel] Tinh thần giảm 20\nVới mỗi loại hiệu ứng bất lợi mục tiêu đang có, lượng sát thương tăng thêm 6% (Tối đa 30%)\n[EnemyKill] Số lượng Chấn động của bản thân tăng thêm 2",
+          "desc": "[StartBattle] Tiêu tốn 5 số lượng [Vibration] của bản thân, Trọng số Tấn công của kỹ năng này +1 (Tối đa +2)\n[DefeatDuel] Tinh thần giảm 20\nVới mỗi loại hiệu ứng bất lợi mục tiêu đang có, lượng sát thương tăng thêm 6% (Tối đa 30%)\n[EnemyKill] Số lượng [Vibration] của bản thân tăng thêm 2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Chấn động Bộc phát\nKhi Chấn động Bộc phát, gây sát thương Phẫn nộ bằng 30% giá trị tịnh tiến Ngưỡng Loạng choạng cuối cùng. (Tối đa 20)"
+                  "desc": "[OnSucceedAttack] Chấn động [VibrationExplosion]\nKhi Chấn động [VibrationExplosion], gây sát thương Phẫn nộ bằng 30% giá trị tịnh tiến Ngưỡng Loạng choạng cuối cùng. (Tối đa 20)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Chấn động Bộc phát\nKhi Chấn động Bộc phát, gây sát thương Phẫn nộ bằng 30% giá trị tịnh tiến Ngưỡng Loạng choạng cuối cùng. (Tối đa 20)"
+                  "desc": "[OnSucceedAttack] Chấn động [VibrationExplosion]\nKhi Chấn động [VibrationExplosion], gây sát thương Phẫn nộ bằng 30% giá trị tịnh tiến Ngưỡng Loạng choạng cuối cùng. (Tối đa 20)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Chấn động Bộc phát\nKhi Chấn động Bộc phát, gây sát thương Phẫn nộ bằng 30% giá trị tịnh tiến Ngưỡng Loạng choạng cuối cùng. (Tối đa 20)\nSố lượng Chấn động giảm 3"
+                  "desc": "[OnSucceedAttack] [Vibration] [VibrationExplosion]\nKhi Chấn động [VibrationExplosion], gây sát thương Phẫn nộ bằng 30% giá trị tịnh tiến Ngưỡng Loạng choạng cuối cùng. (Tối đa 20)\nSố lượng Chấn động giảm 3"
                 }
               ]
             }

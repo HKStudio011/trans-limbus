@@ -644,7 +644,7 @@
         {
           "level": 1,
           "name": "Huyết Hỉ",
-          "desc": "[Khi sử dụng] Tiêu hao 4 [BloodArmor], hồi 10 Tỉnh táo\n[Khi sử dụng] Tiêu hao 10 [BloodDinner], nhận 1 [BloodArmor] và hồi 10 Tỉnh táo\n- Nếu không thể tiêu hao [BloodDinner], nhận 3 [Laceration]",
+          "desc": "[WhenUse] Tiêu hao 4 [BloodArmor], hồi 10 Tỉnh táo\n[WhenUse] Tiêu hao 10 [BloodDinner], nhận 1 [BloodArmor] và hồi 10 Tỉnh táo\n- Nếu không thể tiêu hao [BloodDinner], nhận 3 [Laceration]",
           "coinlist": [
             {
               "coindescs": [
@@ -705,7 +705,7 @@
         {
           "level": 1,
           "name": "Don Quixote Lưu Ngạnh Huyết Thức 4 - Khoét Sâu",
-          "desc": "[Khi sử dụng] Nếu [Laceration] trên mục tiêu từ 6 trở lên, Sức mạnh Đồng xu +1\n[Thắng Kháng cự] Tùy theo cấp độ [BloodArmor], Sát thương kĩ năng này +20% (Tối đa 60%)\n[Thua Kháng cự] Tiêu hao 4 [BloodArmor], nhận 20 HP Lá chắn",
+          "desc": "[WhenUse] Nếu [Laceration] trên mục tiêu từ 6 trở lên, Sức mạnh Đồng xu +1\n[WinDuel] Tùy theo cấp độ [BloodArmor], Sát thương kĩ năng này +20% (Tối đa 60%)\n[DefeatDuel] Tiêu hao 4 [BloodArmor], nhận 20 HP Lá chắn",
           "coinlist": [
             {
               "coindescs": [
@@ -731,7 +731,7 @@
         {
           "level": 1,
           "name": "Don Quixote Lưu Ngạnh Huyết Thức 11 - Đục Thủng",
-          "desc": "[Khi sử dụng] Mỗi 3 [Laceration] trên mục tiêu, Sức mạnh Cơ bản +1 (Tối đa 3)\n[Thắng Kháng cự] Tùy theo cấp độ [BloodArmor], Sát thương kĩ năng này +20% (Tối đa 60%)\n[Thua Kháng cự] Tiêu hao 4 [BloodArmor], nhận 20 HP Lá chắn",
+          "desc": "[WhenUse] Mỗi 3 [Laceration] trên mục tiêu, Sức mạnh Cơ bản +1 (Tối đa 3)\n[WinDuel] Tùy theo cấp độ [BloodArmor], Sát thương kĩ năng này +20% (Tối đa 60%)\n[DefeatDuel] Tiêu hao 4 [BloodArmor], nhận 20 HP Lá chắn",
           "coinlist": [
             {
               "coindescs": [
@@ -866,7 +866,7 @@
         {
           "level": 1,
           "name": "Don Quixote Á Lưu Sancho Thức 2 - La Sangre",
-          "desc": "Có thể Kháng cự với Kĩ năng này bất kể tốc độ\n[Khi sử dụng] Tiêu hao 50 [BloodDinner], gây 1 [Paralysis] cho bản thân và mục tiêu\n[Khi sử dụng] Tiêu hao 100 [BloodDinner], Sức mạnh Kháng cự +5\n- Nếu không đủ [BloodDinner], tiêu hao 100 HP của bản thân để Sức mạnh Kháng cự +5\n[Kết thúc Kĩ năng] Kết thúc lượt này",
+          "desc": "Có thể Kháng cự với Kĩ năng này bất kể tốc độ\n[WhenUse] Tiêu hao 50 [BloodDinner], gây 1 [Paralysis] cho bản thân và mục tiêu\n[WhenUse] Tiêu hao 100 [BloodDinner], Sức mạnh Kháng cự +5\n- Nếu không đủ [BloodDinner], tiêu hao 100 HP của bản thân để Sức mạnh Kháng cự +5\n[EndSkill] Kết thúc lượt này",
           "coinlist": [
             {
               "coindescs": [
@@ -891,7 +891,7 @@
         {
           "level": 1,
           "name": "La Aventura a Terminado",
-          "desc": "[Khi sử dụng] Tiêu hao [BloodDinner] một lượng bằng (45 - Tỉnh táo hiện tại) để hồi Tỉnh táo lên 45\n- Nếu không đủ [BloodDinner], tiêu hao một lượng HP bằng (45 - Tỉnh táo hiện tại) để hồi Tỉnh táo lên 45 (Sát thương này không thể làm HP thấp hơn 1)\n- Nhận HP Lá chắn tương ứng với lượng [BloodDinner] còn lại (Tối đa 100)\n[Thắng Kháng cự] Gây 10 [Laceration] cho mục tiêu\n[Thua Kháng cự] Tiêu hao 100 [BloodDinner]\n[Kết thúc Kĩ năng] Nhận [BloodDinner] tương ứng với sát thương kĩ năng này gây ra",
+          "desc": "[WhenUse] Tiêu hao [BloodDinner] một lượng bằng (45 - Tỉnh táo hiện tại) để hồi Tỉnh táo lên 45\n- Nếu không đủ [BloodDinner], tiêu hao một lượng HP bằng (45 - Tỉnh táo hiện tại) để hồi Tỉnh táo lên 45 (Sát thương này không thể làm HP thấp hơn 1)\n- Nhận HP Lá chắn tương ứng với lượng [BloodDinner] còn lại (Tối đa 100)\n[WinDuel] Gây 10 [Laceration] cho mục tiêu\n[DefeatDuel] Tiêu hao 100 [BloodDinner]\n[EndSkill] Nhận [BloodDinner] tương ứng với sát thương kĩ năng này gây ra",
           "coinlist": [
             {
               "coindescs": [
@@ -919,7 +919,7 @@
         {
           "level": 1,
           "name": "Kigigigik",
-          "desc": "[Khi sử dụng] Nhận 3 [DefenseUp]\n[Thua Kháng cự] Nhận 3 [DefenseUp]",
+          "desc": "[WhenUse] Nhận 3 [DefenseUp]\n[DefeatDuel] Nhận 3 [DefenseUp]",
           "coinlist": [
             {
               "coindescs": [
@@ -945,7 +945,7 @@
         {
           "level": 1,
           "name": "Kiii iii",
-          "desc": "[Thắng Kháng cự] Gây 1 [Binding] vào lượt sau\n[Khi sử dụng] Mỗi 4 [DefenseUp] của bản thân, Sức mạnh Cơ bản +1 (Tối đa 2)\n[Khi sử dụng] Nhận 3 [DefenseUp]",
+          "desc": "[WinDuel] Gây 1 [Binding] vào lượt sau\n[WhenUse] Mỗi 4 [DefenseUp] của bản thân, Sức mạnh Cơ bản +1 (Tối đa 2)\n[WhenUse] Nhận 3 [DefenseUp]",
           "coinlist": [
             {
               "coindescs": [
@@ -978,7 +978,7 @@
         {
           "level": 1,
           "name": "Kiiik",
-          "desc": "[Bắt đầu trận đấu] Tặng 3 [DefenseUp] cho 1 đồng minh (bao gồm bản thân) có tỉ lệ HP hiện tại thấp nhất\n[Khi sử dụng] Mỗi 5 [DefenseUp] của bản thân, Sức mạnh Cơ bản +1 (Tối đa 4)",
+          "desc": "[StartBattle] Tặng 3 [DefenseUp] cho 1 đồng minh (bao gồm bản thân) có tỉ lệ HP hiện tại thấp nhất\n[WhenUse] Mỗi 5 [DefenseUp] của bản thân, Sức mạnh Cơ bản +1 (Tối đa 4)",
           "coinlist": [
             {},
             {},
@@ -1423,7 +1423,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây sát thương hệ Sắc dục bằng (Số tầng [Laceration] × Số lần [Laceration] của mục tiêu)"
+                  "desc": "[OnSucceedAttack] Gây sát thương hệ Sắc dục bằng (Số tầng Xuất huyết × Số lần [Laceration] của mục tiêu)"
                 }
               ]
             }
@@ -1725,7 +1725,7 @@
         {
           "level": 1,
           "name": "Kiii!",
-          "desc": "[Khi sử dụng] Gây [DuelDeclaration_Camille]\n[Khi sử dụng] Nhận 5 [Breath]\n[Thắng đấu khẩu] Số lượt [Breath] của bản thân tăng 2",
+          "desc": "[WhenUse] Gây [DuelDeclaration_Camille]\n[WhenUse] Nhận 5 [Breath]\n[WinDuel] Số lượt [Breath] của bản thân tăng 2",
           "coinlist": [
             {
               "coindescs": [
@@ -1776,7 +1776,7 @@
         {
           "level": 1,
           "name": "Kii",
-          "desc": "[Khi sử dụng] Nếu [Breath] của bản thân từ 7 trở lên, Sức mạnh Coin +2\n[Thắng đấu khẩu] Số lượt [Breath] của bản thân tăng 2 ",
+          "desc": "[WhenUse] Nếu [Breath] của bản thân từ 7 trở lên, Sức mạnh Coin +2\n[WinDuel] Số lượt [Breath] của bản thân tăng 2 ",
           "coinlist": [
             {
               "coindescs": [
@@ -1853,7 +1853,7 @@
         {
           "level": 1,
           "name": "Kiki!",
-          "desc": "[Thắng đấu khẩu] Sát thương tăng theo số lần đấu khẩu (Mỗi lần đấu khẩu +10%. Tối đa 50%)\n[Thắng đấu khẩu] Nhận 2 [Agility] vào lượt tiếp theo\n[Thua đấu khẩu] Nhận 2 [Binding] vào lượt tiếp theo",
+          "desc": "[WinDuel] Sát thương tăng theo số lần đấu khẩu (Mỗi lần đấu khẩu +10%. Tối đa 50%)\n[WinDuel] Nhận 2 [Agility] vào lượt tiếp theo\n[DefeatDuel] Nhận 2 [Binding] vào lượt tiếp theo",
           "coinlist": [
             {
               "coindescs": [
@@ -1872,7 +1872,7 @@
         {
           "level": 1,
           "name": "Kigigigii!",
-          "desc": "[Né tránh thành công] Nhận 1 [Agility] vào lượt tiếp theo",
+          "desc": "[OnSucceedEvade] Nhận 1 [Agility] vào lượt tiếp theo",
           "coinlist": [
             {
               "coindescs": [
@@ -1908,7 +1908,7 @@
         {
           "level": 1,
           "name": "Ký ức phiêu lưu rực rỡ",
-          "desc": "[Bắt đầu trận đấu] Gây cho 1 tù nhân ngẫu nhiên 1 [ParryingResultUp], 1 [AttackDmgUp]\n[Bắt đầu trận đấu] Gây cho Don Quixote và Giấc Mơ Ngưng Kết 1 [Vulnerable]",
+          "desc": "[StartBattle] Gây cho 1 tù nhân ngẫu nhiên 1 [ParryingResultUp], 1 [AttackDmgUp]\n[StartBattle] Gây cho Don Quixote và Giấc Mơ Ngưng Kết 1 [Vulnerable]",
           "coinlist": [
             {
               "coindescs": [

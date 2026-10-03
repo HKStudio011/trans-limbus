@@ -1110,7 +1110,7 @@
                   "desc": "[OnSucceedAttack] Ban 1 [Binding] vào lượt tiếp theo"
                 },
                 {
-                  "desc": "[Khi tấn công trúng mặt] Nếu đã tiêu tốn số lượng [Charge] khi sử dụng kỹ năng này, ban 2 [Binding] vào lượt tiếp theo"
+                  "desc": "[OnSucceedAttackHead] Nếu đã tiêu tốn số lượng [Charge] khi sử dụng kỹ năng này, ban 2 [Binding] vào lượt tiếp theo"
                 }
               ]
             }
@@ -1151,7 +1151,7 @@
         {
           "level": 3,
           "name": "Chiết Đoạn Không Gian",
-          "desc": "[Bắt đầu trận đấu] Ban [ChargeLoad] bằng với số lượng [Charge] cho bản thân và đồng minh sở hữu [Charge] (Số lượng mục tiêu bằng số Cộng hưởng tối đa)\n(Số lượng mục tiêu tối đa: 5 người ngoại trừ bản thân)\n[Khi sử dụng] Nếu [Charge] từ 2 trở lên và số lượng [Charge] từ 7 đến dưới 15, tiêu tốn toàn bộ số lượng [Charge] đang sở hữu, uy lực đồng xu +1\n[Khi sử dụng] Tiêu tốn 15 số lượng [Charge], uy lực đồng xu +1",
+          "desc": "[StartBattle] Ban [ChargeLoad] bằng với số lượng [Charge] cho bản thân và đồng minh sở hữu [Charge] (Số lượng mục tiêu bằng số Cộng hưởng tối đa)\n(Số lượng mục tiêu tối đa: 5 người ngoại trừ bản thân)\n[WhenUse] Nếu [Charge] từ 2 trở lên và số lượng [Charge] từ 7 đến dưới 15, tiêu tốn toàn bộ số lượng [Charge] đang sở hữu, uy lực đồng xu +1\n[WhenUse] Tiêu tốn 15 số lượng [Charge], uy lực đồng xu +1",
           "coinlist": [
             {},
             {

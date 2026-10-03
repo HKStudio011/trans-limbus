@@ -711,7 +711,7 @@
         {
           "level": 1,
           "name": "Chuyên Tâm Học Tập",
-          "desc": "Khi kỹ năng này bị [Discard], nhận Lá chắn tương đương ([KnowledgeExplored] × 3% Máu tối đa).\n[WhenUse] [Discard] 1 kỹ năng có cấp thấp nhất từ tất cả các ô kỹ năng của bản thân.",
+          "desc": "Khi kỹ năng này bị Vứt bỏ, nhận Lá chắn tương đương ([KnowledgeExplored] × 3% Máu tối đa).\n[WhenUse] [Discard] 1 kỹ năng có cấp thấp nhất từ tất cả các ô kỹ năng của bản thân.",
           "coinlist": [
             {},
             {
@@ -726,7 +726,7 @@
         {
           "level": 2,
           "name": "Tinh Tấn Học Tập",
-          "desc": "Khi kỹ năng này bị [Discard], nhận Lá chắn tương đương ([KnowledgeExplored] × <style=\"highlight\">4%</style> Máu tối đa).\n[WhenUse] [Discard] 1 kỹ năng có cấp thấp nhất từ tất cả các ô kỹ năng của bản thân.\n<style=\"highlight\">[WhenUse] Nếu [KnowledgeExplored] từ 2 trở lên, Uy lực Đối đầu +1.\n[WinDuel] Nhận 2 [KnowledgeTraining] (1 lần mỗi lượt)</style>",
+          "desc": "Khi kỹ năng này bị Vứt bỏ, nhận Lá chắn tương đương ([KnowledgeExplored] × <style=\"highlight\">4%</style> Máu tối đa).\n[WhenUse] [Discard] 1 kỹ năng có cấp thấp nhất từ tất cả các ô kỹ năng của bản thân.\n<style=\"highlight\">[WhenUse] Nếu [KnowledgeExplored] từ 2 trở lên, Uy lực Đối đầu +1.\n[WinDuel] Nhận 2 [KnowledgeTraining] (1 lần mỗi lượt)</style>",
           "coinlist": [
             {},
             {
@@ -741,7 +741,7 @@
         {
           "level": 4,
           "name": "Tinh Tấn Học Tập",
-          "desc": "Khi kỹ năng này bị [Discard], nhận Lá chắn tương đương ([KnowledgeExplored] × <style=\"highlight\">5%</style> Máu tối đa).\n[WhenUse] [Discard] 1 kỹ năng có cấp thấp nhất từ tất cả các ô kỹ năng của bản thân.\n<style=\"highlight\">[WhenUse] Uy lực Đối đầu tăng thêm ([KnowledgeExplored] - 1) (Tối đa 2)</style>\n[WinDuel] Nhận 2 [KnowledgeTraining] (1 lần mỗi lượt)",
+          "desc": "Khi kỹ năng này bị Vứt bỏ, nhận Lá chắn tương đương ([KnowledgeExplored] × <style=\"highlight\">5%</style> Máu tối đa).\n[WhenUse] [Discard] 1 kỹ năng có cấp thấp nhất từ tất cả các ô kỹ năng của bản thân.\n<style=\"highlight\">[WhenUse] Uy lực Đối đầu tăng thêm ([KnowledgeExplored] - 1) (Tối đa 2)</style>\n[WinDuel] Nhận 2 [KnowledgeTraining] (1 lần mỗi lượt)",
           "coinlist": [
             {},
             {
@@ -1662,7 +1662,7 @@
         {
           "level": 4,
           "name": "Chỉ Huy Diễu Hành",
-          "desc": "[Khi sử dụng] Tiêu hao tối đa 10 [BloodDinner] để ban 1 [BloodArmorMeursault] cho mỗi 5 [BloodDinner] tiêu hao lên bản thân và 1 đồng minh có Máu tối đa thấp nhất (1 lần mỗi lượt, ngoại trừ đối tượng đạt giá trị tối đa)\n- Ưu tiên ban cho đồng minh là <Huyết Quỷ> (Quyến thuộc cấp cao) thuộc <La Mancha Land>\n- Nếu đồng minh nhận hiệu ứng thuộc <La Mancha Land>, ban thêm 1 [BloodArmorMeursault]\n- Nếu không thể tiêu hao [BloodDinner], nhận 10 [Laceration]\n[Khi sử dụng] Nếu [Laceration] của mục tiêu từ 4 trở lên, Uy lực Đồng xu +1\n<style=\"highlight\">[Khi sử dụng] Nếu số lần [Laceration] của mục tiêu từ 3 trở lên, Uy lực Cuối cùng +1</style>",
+          "desc": "[WhenUse] Tiêu hao tối đa 10 [BloodDinner] để ban 1 [BloodArmorMeursault] cho mỗi 5 [BloodDinner] tiêu hao lên bản thân và 1 đồng minh có Máu tối đa thấp nhất (1 lần mỗi lượt, ngoại trừ đối tượng đạt giá trị tối đa)\n- Ưu tiên ban cho đồng minh là <Huyết Quỷ> (Quyến thuộc cấp cao) thuộc <La Mancha Land>\n- Nếu đồng minh nhận hiệu ứng thuộc <La Mancha Land>, ban thêm 1 [BloodArmorMeursault]\n- Nếu không thể tiêu hao [BloodDinner], nhận 10 [Laceration]\n[WhenUse] Nếu [Laceration] của mục tiêu từ 4 trở lên, Uy lực Đồng xu +1\n<style=\"highlight\">[WhenUse] Nếu số lần [Laceration] của mục tiêu từ 3 trở lên, Uy lực Cuối cùng +1</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1695,7 +1695,7 @@
         {
           "level": 1,
           "name": "Nghĩa vụ Tái thiết",
-          "desc": "[Khi sử dụng] Tiêu hao tối đa 10 [BloodDinner] để ban 1 [BloodArmorMeursault] cho mỗi 5 [BloodDinner] tiêu hao lên bản thân và 1 đồng minh có Máu tối đa cao nhất (1 lần mỗi lượt, ngoại trừ đối tượng đạt giá trị tối đa)\n- Ưu tiên ban cho đồng minh là <Huyết Quỷ> (Quyến thuộc cấp cao) thuộc <La Mancha Land>\n- Nếu đồng minh nhận hiệu ứng thuộc <La Mancha Land>, ban thêm 1 [BloodArmorMeursault]\n- Nếu không thể tiêu hao [BloodDinner], nhận 10 [Laceration]",
+          "desc": "[WhenUse] Tiêu hao tối đa 10 [BloodDinner] để ban 1 [BloodArmorMeursault] cho mỗi 5 [BloodDinner] tiêu hao lên bản thân và 1 đồng minh có Máu tối đa cao nhất (1 lần mỗi lượt, ngoại trừ đối tượng đạt giá trị tối đa)\n- Ưu tiên ban cho đồng minh là <Huyết Quỷ> (Quyến thuộc cấp cao) thuộc <La Mancha Land>\n- Nếu đồng minh nhận hiệu ứng thuộc <La Mancha Land>, ban thêm 1 [BloodArmorMeursault]\n- Nếu không thể tiêu hao [BloodDinner], nhận 10 [Laceration]",
           "coinlist": [
             {
               "coindescs": [
@@ -1719,7 +1719,7 @@
         {
           "level": 2,
           "name": "Nghĩa vụ Tái thiết",
-          "desc": "[Khi sử dụng] Tiêu hao tối đa 10 [BloodDinner] để ban 1 [BloodArmorMeursault] cho mỗi 5 [BloodDinner] tiêu hao lên bản thân và 1 đồng minh có Máu tối đa cao nhất (1 lần mỗi lượt, ngoại trừ đối tượng đạt giá trị tối đa)\n- Ưu tiên ban cho đồng minh là <Huyết Quỷ> (Quyến thuộc cấp cao) thuộc <La Mancha Land>\n- Nếu đồng minh nhận hiệu ứng thuộc <La Mancha Land>, ban thêm 1 [BloodArmorMeursault]\n- Nếu không thể tiêu hao [BloodDinner], nhận 10 [Laceration]\n<style=\"highlight\">[Khi sử dụng] Mỗi 4 [Laceration] trên mục tiêu, Uy lực Đồng xu +1 (Tối đa 2)\n[Khi sử dụng] Nếu số lần [Laceration] của mục tiêu từ 3 trở lên, Uy lực Cuối cùng +1</style>",
+          "desc": "[WhenUse] Tiêu hao tối đa 10 [BloodDinner] để ban 1 [BloodArmorMeursault] cho mỗi 5 [BloodDinner] tiêu hao lên bản thân và 1 đồng minh có Máu tối đa cao nhất (1 lần mỗi lượt, ngoại trừ đối tượng đạt giá trị tối đa)\n- Ưu tiên ban cho đồng minh là <Huyết Quỷ> (Quyến thuộc cấp cao) thuộc <La Mancha Land>\n- Nếu đồng minh nhận hiệu ứng thuộc <La Mancha Land>, ban thêm 1 [BloodArmorMeursault]\n- Nếu không thể tiêu hao [BloodDinner], nhận 10 [Laceration]\n<style=\"highlight\">[WhenUse] Mỗi 4 [Laceration] trên mục tiêu, Uy lực Đồng xu +1 (Tối đa 2)\n[WhenUse] Nếu số lần [Laceration] của mục tiêu từ 3 trở lên, Uy lực Cuối cùng +1</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1743,7 +1743,7 @@
         {
           "level": 4,
           "name": "Nghĩa vụ Tái thiết",
-          "desc": "[Khi sử dụng] Cho bản thân và 1 đồng minh có HP tối đa cao nhất, tiêu hao tối đa 10 [BloodDinner], mỗi 5 [BloodDinner] nhận 1 [BloodArmorMeursault] (1 lần mỗi lượt, không bao gồm các đối tượng đã đạt giá trị tối đa)\n- Ưu tiên đồng minh thuộc <La Mancha Land>, <Huyết Quỷ> (Quyến thuộc Cấp cao)\n- Nếu đồng minh nhận hiệu ứng thuộc <La Mancha Land>, nhận thêm 1 [BloodArmorMeursault]\n- Nếu không thể tiêu hao [BloodDinner], nhận 10 [Laceration]\n[Khi sử dụng] Mỗi 4 [Laceration] trên mục tiêu, Uy lực Đồng xu +1 (Tối đa 2)\n[Khi sử dụng] Mỗi <style=\"highlight\">3 số lượt [Laceration] trên mục tiêu, Uy lực Cuối cùng +1 (Tối đa 2)</style>\n<style=\"highlight\">[Khi sử dụng] Mỗi 1 [BloodArmorMeursault] của bản thân, lượng sát thương +10% (Tối đa 30%)</style>",
+          "desc": "[WhenUse] Cho bản thân và 1 đồng minh có HP tối đa cao nhất, tiêu hao tối đa 10 [BloodDinner], mỗi 5 [BloodDinner] nhận 1 [BloodArmorMeursault] (1 lần mỗi lượt, không bao gồm các đối tượng đã đạt giá trị tối đa)\n- Ưu tiên đồng minh thuộc <La Mancha Land>, <Huyết Quỷ> (Quyến thuộc Cấp cao)\n- Nếu đồng minh nhận hiệu ứng thuộc <La Mancha Land>, nhận thêm 1 [BloodArmorMeursault]\n- Nếu không thể tiêu hao [BloodDinner], nhận 10 [Laceration]\n[WhenUse] Mỗi 4 [Laceration] trên mục tiêu, Uy lực Đồng xu +1 (Tối đa 2)\n[WhenUse] Mỗi <style=\"highlight\">3 số lượt [Laceration] trên mục tiêu, Uy lực Cuối cùng +1 (Tối đa 2)</style>\n<style=\"highlight\">[WhenUse] Mỗi 1 [BloodArmorMeursault] của bản thân, lượng sát thương +10% (Tối đa 30%)</style>",
           "coinlist": [
             {
               "coindescs": [

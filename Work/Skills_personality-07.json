@@ -761,7 +761,7 @@
         {
           "level": 4,
           "name": "Hành khúc Tưởng niệm",
-          "desc": "[WhenUse] Với mỗi <style=\"highlight\">5</style> [Sinking] của mục tiêu, Uy lực Đồng xu +1<style=\"highlight\">(Tối đa 2)</style>\n[WhenUse] Với mỗi <style=\"highlight\">4</style> [Coffin] của bản thân, Chỉ số cộng hưởng tấn công +1<style=\"highlight\">(Tối đa 2)</style>\n[WhenUse] Nếu bản thân có [NightPathfinding], Chỉ số cộng hưởng tấn công +1\n[EndSkill] Nếu bản thân có [NightPathfinding], giảm 10 Tinh thần",
+          "desc": "[WhenUse] Với mỗi <style=\"highlight\">5</style> Trầm luân của mục tiêu, Uy lực Đồng xu +1<style=\"highlight\">(Tối đa 2)</style>\n[WhenUse] Với mỗi <style=\"highlight\">4</style> [Coffin] của bản thân, Chỉ số cộng hưởng tấn công +1<style=\"highlight\">(Tối đa 2)</style>\n[WhenUse] Nếu bản thân có [NightPathfinding], Chỉ số cộng hưởng tấn công +1\n[EndSkill] Nếu bản thân có [NightPathfinding], giảm 10 Tinh thần",
           "coinlist": [
             {},
             {
@@ -809,7 +809,7 @@
                   "desc": "[OnSucceedAttack] Cấp 2 [Sinking]"
                 },
                 {
-                  "desc": "[EnemyKill] Cấp [Sinking] cho 2 kẻ địch ngẫu nhiên dựa trên ([Sinking] của mục tiêu đã hạ gục ÷ 3) (Tối đa 3)"
+                  "desc": "[EnemyKill] Cấp Trầm luân cho 2 kẻ địch ngẫu nhiên dựa trên ([Sinking] của mục tiêu đã hạ gục ÷ 3) (Tối đa 3)"
                 }
               ]
             }
@@ -836,7 +836,7 @@
                   "desc": "[OnSucceedAttack] Cấp <style=\"highlight\">3</style> [Sinking]"
                 },
                 {
-                  "desc": "[EnemyKill] Cấp [Sinking] cho 2 kẻ địch ngẫu nhiên dựa trên ([Sinking] của mục tiêu đã hạ gục ÷ <style=\"highlight\">2</style>) (Tối đa <style=\"highlight\">5</style>)"
+                  "desc": "[EnemyKill] Cấp Trầm luân cho 2 kẻ địch ngẫu nhiên dựa trên ([Sinking] của mục tiêu đã hạ gục ÷ <style=\"highlight\">2</style>) (Tối đa <style=\"highlight\">5</style>)"
                 }
               ]
             }
@@ -918,7 +918,7 @@
                   "desc": "[OnSucceedAttack] Gây sát thương thuộc tính U sầu bằng với số lượng [Sinking] của mục tiêu (Tối đa 15)"
                 },
                 {
-                  "desc": "[EnemyKill] Áp đặt ([Sinking] của mục tiêu bị tiêu diệt ÷ 3) [Sinking] lên 2 kẻ địch ngẫu nhiên (Tối đa 4)"
+                  "desc": "[EnemyKill] Áp đặt (Trầm luân của mục tiêu bị tiêu diệt ÷ 3) [Sinking] lên 2 kẻ địch ngẫu nhiên (Tối đa 4)"
                 },
                 {
                   "desc": "[EnemyKill] Hồi phục 15 Tinh thần"
@@ -948,7 +948,7 @@
                   "desc": "[OnSucceedAttack] Gây sát thương hệ U sầu dựa trên [Sinking] của mục tiêu (Tối đa <style=\"highlight\">30</style>)"
                 },
                 {
-                  "desc": "[EnemyKill] Gây [Sinking] cho 2 kẻ địch ngẫu nhiên dựa trên ([Sinking] ÷ <style=\"highlight\">2</style>) của mục tiêu bị tiêu diệt (Tối đa <style=\"highlight\">8</style>)"
+                  "desc": "[EnemyKill] Gây Trầm luân cho 2 kẻ địch ngẫu nhiên dựa trên ([Sinking] ÷ <style=\"highlight\">2</style>) của mục tiêu bị tiêu diệt (Tối đa <style=\"highlight\">8</style>)"
                 },
                 {
                   "desc": "[EnemyKill] Hồi 15 điểm Tinh thần"
@@ -983,7 +983,7 @@
                   "desc": "[OnSucceedAttack] Gây sát thương hệ U sầu dựa trên [Sinking] của mục tiêu (Tối đa 15)"
                 },
                 {
-                  "desc": "[EnemyKill] Gây [Sinking] cho 2 kẻ địch ngẫu nhiên dựa trên ([Sinking] ÷ 3) của mục tiêu bị tiêu diệt (Tối đa 4)"
+                  "desc": "[EnemyKill] Gây Trầm luân cho 2 kẻ địch ngẫu nhiên dựa trên ([Sinking] ÷ 3) của mục tiêu bị tiêu diệt (Tối đa 4)"
                 },
                 {
                   "desc": "[EnemyKill] Hồi 15 điểm Tinh thần"
@@ -1013,7 +1013,7 @@
                   "desc": "[OnSucceedAttack] Gây sát thương hệ Trầm mặc bằng với số [Sinking] trên mục tiêu (Tối đa <style=\"highlight\">30</style>)"
                 },
                 {
-                  "desc": "[EnemyKill] Gây [Sinking] lên 2 kẻ địch ngẫu nhiên một lượng bằng ([Sinking] ÷ <style=\"highlight\">2</style>) của mục tiêu đã bị tiêu diệt (Tối đa <style=\"highlight\">8</style>)"
+                  "desc": "[EnemyKill] Gây Trầm luân lên 2 kẻ địch ngẫu nhiên một lượng bằng ([Sinking] ÷ <style=\"highlight\">2</style>) của mục tiêu đã bị tiêu diệt (Tối đa <style=\"highlight\">8</style>)"
                 },
                 {
                   "desc": "[EnemyKill] Hồi phục 15 Tinh thần"
@@ -1193,7 +1193,7 @@
         {
           "level": 3,
           "name": "Nhắm Bắn Chuẩn Xác",
-          "desc": "[BeforeUse] Nếu bản thân đang có [Bullet_LogicAtelier], kích hoạt dưới dạng \"Đạn Nghiền Tốc Độ Cao Chế Tác Bởi Xưởng Logic\"\nNếu tốc độ của mục tiêu thấp hơn bản thân, tăng +10% sát thương với mỗi 1 chênh lệch tốc độ (Tối đa 50%)\n[WhenUse] Nhận 5 [Breath]\n[WhenUse] Tiêu hao toàn bộ [LogicAtelierAM], nhận số lượng [Breath] tương ứng với (số lượng tiêu hao × 2) và tăng sát thương thêm +(số lượng tiêu hao × 12.5)%",
+          "desc": "[BeforeUse] Nếu bản thân đang có [Bullet_LogicAtelier], kích hoạt dưới dạng \"Đạn Nghiền Tốc Độ Cao Chế Tác Bởi Xưởng Logic\"\nNếu tốc độ của mục tiêu thấp hơn bản thân, tăng +10% sát thương với mỗi 1 chênh lệch tốc độ (Tối đa 50%)\n[WhenUse] Nhận 5 Nhịp thở\n[WhenUse] Tiêu hao toàn bộ [LogicAtelierAM], nhận số lượng [Breath] tương ứng với (số lượng tiêu hao × 2) và tăng sát thương thêm +(số lượng tiêu hao × 12.5)%",
           "coinlist": [
             {
               "coindescs": [
@@ -1213,7 +1213,7 @@
         {
           "level": 4,
           "name": "Nhắm Bắn Chuẩn Xác",
-          "desc": "[BeforeUse] Nếu bản thân đang có [Bullet_LogicAtelier], kích hoạt dưới dạng \"Đạn Nghiền Tốc Độ Cao Chế Tác Bởi Xưởng Logic\"\nNếu tốc độ của mục tiêu thấp hơn bản thân, tăng +10% sát thương với mỗi 1 chênh lệch tốc độ (Tối đa 50%)\n[WhenUse] Nhận 5 [Breath]\n[WhenUse] Tiêu hao toàn bộ [LogicAtelierAM], nhận số lượng [Breath] tương ứng với (số lượng tiêu hao × 2) và tăng sát thương thêm +(số lượng tiêu hao × 12.5)%\n<style=\"highlight\">[EndSkill] Tăng 2 số lần [Breath]</style>",
+          "desc": "[BeforeUse] Nếu bản thân đang có [Bullet_LogicAtelier], kích hoạt dưới dạng \"Đạn Nghiền Tốc Độ Cao Chế Tác Bởi Xưởng Logic\"\nNếu tốc độ của mục tiêu thấp hơn bản thân, tăng +10% sát thương với mỗi 1 chênh lệch tốc độ (Tối đa 50%)\n[WhenUse] Nhận 5 Nhịp thở\n[WhenUse] Tiêu hao toàn bộ [LogicAtelierAM], nhận số lượng [Breath] tương ứng với (số lượng tiêu hao × 2) và tăng sát thương thêm +(số lượng tiêu hao × 12.5)%\n<style=\"highlight\">[EndSkill] Tăng 2 số lần [Breath]</style>",
           "coinlist": [
             {
               "coindescs": [

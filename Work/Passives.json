@@ -203,7 +203,7 @@
     {
       "id": 1010321,
       "name": "Thụ Giáo",
-      "desc": "Số lần Hơi thở nhận được từ hiệu ứng Kĩ năng (Skill) của 1 đồng minh có Tinh thần cao nhất +1"
+      "desc": "Số lần [Breath] nhận được từ hiệu ứng Kĩ năng (Skill) của 1 đồng minh có Tinh thần cao nhất +1"
     },
     {
       "id": 1020121,
@@ -458,7 +458,7 @@
     {
       "id": 1090401,
       "name": "Hân Hoan Xử Đoán",
-      "desc": "Khi kẻ địch tử vong, nhận 1 Nhanh nhẹn (Haste), 1 Tăng Sát thương vào đầu lượt sau. Nếu bản thân tiêu diệt kẻ địch, nhận 1 Cuồng tín (Kích hoạt 1 lần mỗi lượt)"
+      "desc": "Khi kẻ địch tử vong, nhận 1 [Agility] (Haste), 1 Tăng Sát thương vào đầu lượt sau. Nếu bản thân tiêu diệt kẻ địch, nhận 1 Cuồng tín (Kích hoạt 1 lần mỗi lượt)"
     },
     {
       "id": 1050421,
@@ -553,7 +553,7 @@
     {
       "id": 1090501,
       "name": "Để được tan làm sớm~",
-      "desc": "Khi [VibrationExplosion], tiêu thụ 3 số tầng Sạc để tăng lượng đẩy mốc Loạng choạng của [VibrationExplosion] thêm +40%\nKhi kích hoạt [VibrationExplosion], lượt sau nhận 1 Nhanh nhẹn, tăng 1 Sát thương Va đập"
+      "desc": "Khi Bộc phát, tiêu thụ 3 số tầng Sạc để tăng lượng đẩy mốc Loạng choạng của [VibrationExplosion] thêm +40%\nKhi kích hoạt [VibrationExplosion], lượt sau nhận 1 [Agility], tăng 1 Sát thương Va đập"
     },
     {
       "id": 1090521,
@@ -703,7 +703,7 @@
     {
       "id": 1020501,
       "name": "Bảo Vệ Khu Vực",
-      "desc": "Khi bắt đầu trận chiến, gây 2 Tăng Cấp Phòng Thủ cho các đồng minh nằm hai bên trên bảng điều khiển"
+      "desc": "Khi bắt đầu trận chiến, gây 2 [DefenseUp] cho các đồng minh nằm hai bên trên bảng điều khiển"
     },
     {
       "id": 1020511,
@@ -762,7 +762,7 @@
     {
       "id": 1020601,
       "name": "Trước khi trà nguội...",
-      "desc": "Khi tấn công bằng thuộc tính Điểm yếu/Yếu (Kháng trên 1) của đối tượng, trước khi tấn công, nhận <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Hô hấp (Breath)</color></u></link> bằng với số <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Vết rách (Rupture)</color></link></u> của đối tượng (Tối đa 20 mỗi lượt)",
+      "desc": "Khi tấn công bằng thuộc tính Điểm yếu/Yếu (Kháng trên 1) của đối tượng, trước khi tấn công, nhận <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">[Breath] (Breath)</color></u></link> bằng với số <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">[Burst] (Rupture)</color></link></u> của đối tượng (Tối đa 20 mỗi lượt)",
       "summary": "Khi tấn công bằng thuộc tính Điểm yếu/Yếu, nhận Hô hấp (Breath) bằng với số Vết rách (Rupture) của đối tượng trước khi tấn công"
     },
     {
@@ -774,7 +774,7 @@
     {
       "id": 1020631,
       "name": "Giờ trà chiều của Hiệp hội Seven",
-      "desc": "Khi 1 đồng minh có Tốc độ cao nhất tấn công bằng <style=\"highlight\">thuộc tính Điểm yếu/Yếu (Kháng trên 1)</style>, lượng sát thương tăng tỉ lệ thuận với <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Vết rách (Rupture)</color></link></u> của đối tượng\n(1.5% mỗi 1 Vết rách (Rupture), tối đa 15%)\n<style=\"highlight\">Nếu đối tượng áp dụng hiệu ứng là Sửa trị viên Hiệp hội Seven, lượng sát thương tăng thêm\n(0.5% mỗi 1 Vết rách (Rupture), tối đa 5%)</style>",
+      "desc": "Khi 1 đồng minh có Tốc độ cao nhất tấn công bằng <style=\"highlight\">thuộc tính Điểm yếu/Yếu (Kháng trên 1)</style>, lượng sát thương tăng tỉ lệ thuận với <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">[Burst] (Rupture)</color></link></u> của đối tượng\n(1.5% mỗi 1 Vết rách (Rupture), tối đa 15%)\n<style=\"highlight\">Nếu đối tượng áp dụng hiệu ứng là Sửa trị viên Hiệp hội Seven, lượng sát thương tăng thêm\n(0.5% mỗi 1 Vết rách (Rupture), tối đa 5%)</style>",
       "summary": "Khi 1 đồng minh có Tốc độ cao nhất tấn công bằng thuộc tính Điểm yếu/Yếu, lượng sát thương tăng tỉ lệ thuận với Vết rách (Rupture) của đối tượng\nNếu đối tượng là Sửa trị viên Hiệp hội Seven, lượng sát thương tăng thêm"
     },
     {
@@ -860,7 +860,7 @@
     {
       "id": 1120721,
       "name": "Lỗ gió",
-      "desc": "Khi 1 đồng minh sở hữu nhiều Hô hấp (Breath) nhất tiêu diệt kẻ địch, nhận 1 [PenetrateDamageUp] vào lượt kế tiếp. (1 lần mỗi lượt)"
+      "desc": "Khi 1 đồng minh sở hữu nhiều Hô hấp (Breath) nhất tiêu diệt kẻ địch, nhận 1 Tăng lượng sát thương Đâm vào lượt kế tiếp. (1 lần mỗi lượt)"
     },
     {
       "id": 1040601,
@@ -885,7 +885,7 @@
     {
       "id": 1040631,
       "name": "Viên Cuối Cùng",
-      "desc": "<style=\"highlight\">- Khi 1 đồng minh sở hữu ít [Bullet] nhất sử dụng Kĩ năng tiêu hao [Bullet], nhận 3 Hơi thở. (1 lần mỗi lượt. Không áp dụng cho mục tiêu không có đạn)</style>\nNếu 1 đồng minh sở hữu ít [Bullet] nhất tiêu hao [Bullet] cuối cùng bằng một mặt đồng xu, khi kết thúc đòn tấn công của đồng xu đó, gây thêm sát thương bằng 50% lượng sát thương gây ra từ đòn tấn công của đồng xu đó cho mỗi mục tiêu. (Làm tròn chữ số thập phân)"
+      "desc": "<style=\"highlight\">- Khi 1 đồng minh sở hữu ít Đạn nhất sử dụng Kĩ năng tiêu hao Đạn, nhận 3 Hơi thở. (1 lần mỗi lượt. Không áp dụng cho mục tiêu không có đạn)</style>\nNếu 1 đồng minh sở hữu ít [Bullet] nhất tiêu hao [Bullet] cuối cùng bằng một mặt đồng xu, khi kết thúc đòn tấn công của đồng xu đó, gây thêm sát thương bằng 50% lượng sát thương gây ra từ đòn tấn công của đồng xu đó cho mỗi mục tiêu. (Làm tròn chữ số thập phân)"
     },
     {
       "id": 1030601,
@@ -1049,7 +1049,7 @@
     {
       "id": 1010811,
       "name": "Tri Thức Chìm Đắm",
-      "desc": "Khi nhận sát thương, gây 1 Trầm luân cho kẻ tấn công. Khi đang có Khiên, gây thêm 1 Trầm luân khi nhận sát thương (Tối đa 4 lần)"
+      "desc": "Khi nhận sát thương, gây 1 [Sinking] cho kẻ tấn công. Khi đang có Khiên, gây thêm 1 [Sinking] khi nhận sát thương (Tối đa 4 lần)"
     },
     {
       "id": 1010821,
@@ -1579,7 +1579,7 @@
     {
       "id": 1071002,
       "name": "Dullahan",
-      "desc": "- Khi bắt đầu lượt, nếu có [NightPathfinding] thì cưỡi lên [NightPathfinding]\n- Mỗi khi cưỡi lên [NightPathfinding], tiêu tốn 5 Tinh thần\n- Nếu có từ 3 đồng minh trở lên đã tử trận trong trận chiến, nhận [NightPathfinding] vào lượt tiếp theo (1 lần mỗi trận).\n- Khi cưỡi lên [NightPathfinding], nếu bị rơi vào trạng thái Hoảng loạn do sát thương hoặc do vạch Hoảng loạn bị đẩy lên, thì giải trừ trạng thái Hoảng loạn. Trường hợp trạng thái Hoảng loạn không thể giải trừ thì không thể cưỡi lên [NightPathfinding].\n- Nhận 1 [Coffin] khi tiêu diệt đối tượng."
+      "desc": "- Khi bắt đầu lượt, nếu có [NightPathfinding] thì cưỡi lên [NightPathfinding]\n- Mỗi khi cưỡi lên [NightPathfinding], tiêu tốn 5 Tinh thần\n- Nếu có từ 3 đồng minh trở lên đã tử trận trong trận chiến, nhận [NightPathfinding] vào lượt tiếp theo (1 lần mỗi trận).\n- Khi cưỡi lên [NightPathfinding], nếu bị rơi vào trạng thái Hoảng loạn do sát thương hoặc do vạch Hoảng loạn bị đẩy lên, thì giải trừ trạng thái Hoảng loạn. Trường hợp trạng thái Hoảng loạn không thể giải trừ thì không thể cưỡi lên [NightPathfinding].\n- Nhận 1 Quan tài khi tiêu diệt đối tượng."
     },
     {
       "id": 1071001,
@@ -1735,7 +1735,7 @@
     {
       "id": 1061021,
       "name": "Sách Hướng Dẫn Chinh Phục Huyết Quỷ - Cầm Máu",
-      "desc": "Khi bắt đầu trận đấu, giảm 2 số lượt [Laceration] của 1 đồng minh có tổng mức [Laceration] và số lượt [Laceration] cao nhất\nKhi 1 đồng minh có tốc độ cao nhất tấn công trúng kẻ địch có [Burst], ban [DefenseDown] 1 (Tối đa 2 lần mỗi lượt)",
+      "desc": "Khi bắt đầu trận đấu, giảm 2 số lượt Xuất huyết của 1 đồng minh có tổng mức [Laceration] và số lượt [Laceration] cao nhất\nKhi 1 đồng minh có tốc độ cao nhất tấn công trúng kẻ địch có [Burst], ban [DefenseDown] 1 (Tối đa 2 lần mỗi lượt)",
       "summary": ""
     },
     {
@@ -1843,7 +1843,7 @@
     {
       "id": 1031001,
       "name": "Huyết Thực",
-      "desc": "Nếu nhân vật này xuất hiện trong trận chiến hoặc nằm trong danh sách chờ, từ lượt 1, [BloodDinner] sẽ tăng bằng sát thương [Laceration] mà tất cả nhân vật nhận được.\nMỗi khi nhân vật này xuất hiện trong trận chiến, làm lộ rõ thêm dòng máu ẩn khuất vương vãi trên chiến trường.\n\nKhi tiêu hao [BloodDinner], nếu có quyến thuộc cùng loại thuộc <La Mancha Land [TabExplain]>, bản thân sẽ ưu tiên tiêu hao [BloodDinner] trước.\n\nTrong khi sử dụng 'A Lưu Sancho Ngạnh Huyết [TabExplain] Thức 6 - Roi', Máu sẽ không giảm xuống dưới 1 bởi sát thương Xuất huyết."
+      "desc": "Nếu nhân vật này xuất hiện trong trận chiến hoặc nằm trong danh sách chờ, từ lượt 1, BloodDinner sẽ tăng bằng sát thương [Laceration] mà tất cả nhân vật nhận được.\nMỗi khi nhân vật này xuất hiện trong trận chiến, làm lộ rõ thêm dòng máu ẩn khuất vương vãi trên chiến trường.\n\nKhi tiêu hao BloodDinner, nếu có quyến thuộc cùng loại thuộc <La Mancha Land [TabExplain]>, bản thân sẽ ưu tiên tiêu hao [BloodDinner] trước.\n\nTrong khi sử dụng 'A Lưu Sancho Ngạnh Huyết [TabExplain] Thức 6 - Roi', Máu sẽ không giảm xuống dưới 1 bởi sát thương Xuất huyết."
     },
     {
       "id": 1031002,
@@ -1858,7 +1858,7 @@
     {
       "id": 1031004,
       "name": "Huyết Giáp",
-      "desc": "Khi kết thúc đòn tấn công của bản thân nếu kẻ địch tử trận, tạo [BloodDinner] bằng 10% Máu tối đa của mục tiêu (Tối đa 100 mỗi lượt, trong Trận chiến tập trung sẽ tính theo bộ phận).\nKhi kết thúc lượt, mỗi 15% Máu đã mất giúp nhận [AttackDmgUp] 1 vào lượt kế tiếp (Tối đa 3).\nTrong trận chiến, nếu đồng minh nhận sát thương chí tử bởi [Laceration], sẽ không tử trận bởi sát thương [Laceration] trong lượt đó (Kích hoạt 1 lần cho mỗi Bản sắc trong mỗi trận)."
+      "desc": "Khi kết thúc đòn tấn công của bản thân nếu kẻ địch tử trận, tạo [BloodDinner] bằng 10% Máu tối đa của mục tiêu (Tối đa 100 mỗi lượt, trong Trận chiến tập trung sẽ tính theo bộ phận).\nKhi kết thúc lượt, mỗi 15% Máu đã mất giúp nhận [AttackDmgUp] 1 vào lượt kế tiếp (Tối đa 3).\nTrong trận chiến, nếu đồng minh nhận sát thương chí tử bởi Xuất huyết, sẽ không tử trận bởi sát thương [Laceration] trong lượt đó (Kích hoạt 1 lần cho mỗi Bản sắc trong mỗi trận)."
     },
     {
       "id": 1031021,
@@ -1903,12 +1903,12 @@
     {
       "id": 1071111,
       "name": "Ngắm bắn chính xác",
-      "desc": "Khi kết thúc lượt, mỗi 10 [Breath] giúp nhận [Agility] 1 vào lượt kế tiếp (Tối đa 2).\n<style=\"highlight\">Khi bắt đầu trận chiến, nếu bản thân không sử dụng Kĩ năng tấn công (Bao gồm Kĩ năng E.G.O), cấp [Breath] 3 cho 1 đồng minh có số lượng Nhịp thở thấp nhất</style>\nKhi kết thúc lượt, nếu lượt này bản thân không sử dụng Kĩ năng tấn công (Bao gồm Kĩ năng E.G.O, không tính [CoveringFire]), nhận [Breath] 10 và [PenetrateResultUp] 1 vào lượt kế tiếp."
+      "desc": "Khi kết thúc lượt, mỗi 10 [Breath] giúp nhận [Agility] 1 vào lượt kế tiếp (Tối đa 2).\n<style=\"highlight\">Khi bắt đầu trận chiến, nếu bản thân không sử dụng Kĩ năng tấn công (Bao gồm Kĩ năng E.G.O), cấp [Breath] 3 cho 1 đồng minh có số lượng [Breath] thấp nhất</style>\nKhi kết thúc lượt, nếu lượt này bản thân không sử dụng Kĩ năng tấn công (Bao gồm Kĩ năng E.G.O, không tính [CoveringFire]), nhận [Breath] 10 và [PenetrateResultUp] 1 vào lượt kế tiếp."
     },
     {
       "id": 1071121,
       "name": "Quan sát viên",
-      "desc": "Khi 1 đồng minh sở hữu ít [Bullet] nhất sử dụng Kĩ năng tiêu hao [Bullet], số lượt [Breath] tăng thêm 2.\n\n- Nếu đối tượng là Bản sắc Văn phòng Full Stop, hoặc số lượt [Breath] của đối tượng dưới 5, tăng 4 thay thế (1 lần mỗi lượt. Không áp dụng cho đối tượng không có [Bullet])."
+      "desc": "Khi 1 đồng minh sở hữu ít [Bullet] nhất sử dụng Kĩ năng tiêu hao [Bullet], số lượt [Breath] tăng thêm 2.\n\n- Nếu đối tượng là [Breath] Văn phòng Full Stop, hoặc số lượt [Breath] của đối tượng dưới 5, tăng 4 thay thế (1 lần mỗi lượt. Không áp dụng cho đối tượng không có [Bullet])."
     },
     {
       "id": 1011101,
@@ -2314,7 +2314,7 @@
     {
       "id": 1061301,
       "name": "Chấp nhận cả dòng máu bẩn thỉu, thực hiện ý nguyện khi đang nhuốm máu ai đó.",
-      "desc": "Khi bắt đầu chiến đấu, nếu bản thân bị Tấn công một chiều mà không trang bị [Skill] Phòng thủ, ban 1 [HeishouSupportProtect] cho (Số Cộng hưởng tối đa ÷ 3) đồng minh Hắc Thú ngẫu nhiên có chỉ số [SupportProtect] thấp nhất (Tối đa 2 người, mỗi Bản sắc 1 lần. Ngoại trừ các Bản sắc sở hữu [Skill] nhận [SupportProtect]).\n\nKhi nhận sát thương khiến máu về 0 trong trận chiến này, không nhận sát thương đó, duy trì máu ở mức 1 trong 1 lượt và nhận 1 [CondensedBlood] (1 lần mỗi trận).\n\nMỗi 1 [CondensedBlood] của bản thân, Lượng sát thương [Skill] +3%.\n\nKhi kích hoạt [Skill] E.G.O 「Ô Huyết Khấp Lệ [TabExplain] - Chung」, hiệu ứng tử vong khi kết thúc tấn công không kích hoạt và hồi máu bằng 60% giá trị tối đa. Từ lượt tiếp theo, nhận 1 [AttackDmgUp] khi bắt đầu mỗi lượt (1 lần mỗi trận).",
+      "desc": "Khi bắt đầu chiến đấu, nếu bản thân bị Tấn công một chiều mà không trang bị [TabExplain] Phòng thủ, ban 1 [HeishouSupportProtect] cho (Số Cộng hưởng tối đa ÷ 3) đồng minh Hắc Thú ngẫu nhiên có chỉ số [SupportProtect] thấp nhất (Tối đa 2 người, mỗi Bản sắc 1 lần. Ngoại trừ các Bản sắc sở hữu [Skill] nhận [SupportProtect]).\n\nKhi nhận sát thương khiến máu về 0 trong trận chiến này, không nhận sát thương đó, duy trì máu ở mức 1 trong 1 lượt và nhận 1 [CondensedBlood] (1 lần mỗi trận).\n\nMỗi 1 [CondensedBlood] của bản thân, Lượng sát thương [Skill] +3%.\n\nKhi kích hoạt [Skill] E.G.O 「Ô Huyết Khấp Lệ [TabExplain] - Chung」, hiệu ứng tử vong khi kết thúc tấn công không kích hoạt và hồi máu bằng 60% giá trị tối đa. Từ lượt tiếp theo, nhận 1 [AttackDmgUp] khi bắt đầu mỗi lượt (1 lần mỗi trận).",
       "summary": "Khi nhận sát thương khiến máu về 0, không tử trận mà nhận [CondensedBlood]\nKhi kích hoạt 「Ô Huyết Khấp Lệ [TabExplain] - Chung」, bỏ qua hiệu ứng tử vong, hồi máu và nhận [AttackDmgUp]"
     },
     {
@@ -2351,7 +2351,7 @@
     {
       "id": 1011402,
       "name": "Cẩu Mã Chi Tâm",
-      "desc": "Khi kích hoạt [HeishouCombo] cùng Hồng Lộ Quân chủ Hồng Viên, Hồng Lộ Quân chủ Hồng Viên nhận hiệu ứng sau nhờ [HeishouComboCountHonglu]:\n- Khi đồng xu cuối của [Skill] Cơ bản đánh trúng, [VibrationExplosion] 1 lần (1 lần mỗi lượt)\n\nNếu có Ishmael Ứng cử viên Gia chủ trong số nhân viên chiến đấu, áp dụng các hiệu ứng sau:\n- Nhận 3 Sức mạnh [Breath] khi Ishmael Ứng cử viên Gia chủ gây [Burst] hoặc Số lượng [Burst] bằng hiệu ứng [Skill] (2 lần mỗi lượt, không áp dụng cho [Skill] E.G.O)\n- Khi bắt đầu lượt, ban 1 [Enhancement] cho Ishmael Ứng cử viên Gia chủ. Nếu Sức mạnh [Breath] của Ishmael từ 10 trở lên, ban thêm 1 [Enhancement]\n- Sau khi sử dụng 「Hắc Phong Mã Cước Nguyệt Trảm」, Ishmael Ứng cử viên Gia chủ tấn công hỗ trợ bằng [Skill]: Xích Xuân (1 lần mỗi lượt)"
+      "desc": "Khi kích hoạt [HeishouCombo] cùng Hồng Lộ Quân chủ Hồng Viên, Hồng Lộ Quân chủ Hồng Viên nhận hiệu ứng sau nhờ [HeishouComboCountHonglu]:\n- Khi đồng xu cuối của [TabExplain] Cơ bản đánh trúng, [VibrationExplosion] 1 lần (1 lần mỗi lượt)\n\nNếu có Ishmael Ứng cử viên Gia chủ trong số nhân viên chiến đấu, áp dụng các hiệu ứng sau:\n- Nhận 3 Sức mạnh [Breath] khi Ishmael Ứng cử viên Gia chủ gây [Burst] hoặc Số lượng [Burst] bằng hiệu ứng [Skill] (2 lần mỗi lượt, không áp dụng cho [Skill] E.G.O)\n- Khi bắt đầu lượt, ban 1 [Enhancement] cho Ishmael Ứng cử viên Gia chủ. Nếu Sức mạnh [Breath] của Ishmael từ 10 trở lên, ban thêm 1 [Enhancement]\n- Sau khi sử dụng 「Hắc Phong Mã Cước Nguyệt Trảm」, Ishmael Ứng cử viên Gia chủ tấn công hỗ trợ bằng [Skill]: Xích Xuân (1 lần mỗi lượt)"
     },
     {
       "id": 1011403,
@@ -2412,7 +2412,7 @@
     {
       "id": 1071301,
       "name": "Nạp điện hướng phòng thủ",
-      "desc": "- Mỗi khi tiêu thụ tổng cộng 10 Số lượng [Sạc] trong trận chiến, nhận 1 [Sạc]\n- Khi bắt đầu lượt, nhận [DefenseUp] dựa trên Sức mạnh [Sạc] của bản thân (Tối đa 6)"
+      "desc": "- Mỗi khi tiêu thụ tổng cộng 10 Số lượng [Charge] trong trận chiến, nhận 1 [Charge]\n- Khi bắt đầu lượt, nhận [DefenseUp] dựa trên Sức mạnh [Charge] của bản thân (Tối đa 6)"
     },
     {
       "id": 1071311,
@@ -2566,13 +2566,13 @@
     {
       "id": 1091401,
       "name": "Chiếc sừng được trang trí Giáng sinh",
-      "desc": "Mỗi khi tiêu hao tổng cộng 10 Số lượng [Charge] của bản thân trong trận đấu, nhận 1 [Charge]\n\nKhi sử dụng Kĩ năng Tấn công cơ bản có hiệu ứng gây Sức mạnh [Sinking] lên kẻ địch, nếu mục tiêu chính không có [Sinking] thì nhận 5 [Sinking], và Sức mạnh [Sinking] gây ra từ hiệu ứng kĩ năng đó tăng gấp đôi (1 lần mỗi hiệp, tính theo bộ phận nếu là Trận chiến Tập trung)",
+      "desc": "Mỗi khi tiêu hao tổng cộng 10 Số lượng [Charge] của bản thân trong trận đấu, nhận 1 [Charge]\n\nKhi sử dụng Kĩ năng Tấn công cơ bản có hiệu ứng gây Sức mạnh Trầm luân lên kẻ địch, nếu mục tiêu chính không có [Sinking] thì nhận 5 [Sinking], và Sức mạnh [Sinking] gây ra từ hiệu ứng kĩ năng đó tăng gấp đôi (1 lần mỗi hiệp, tính theo bộ phận nếu là Trận chiến Tập trung)",
       "summary": "Nếu là kẻ địch không có [Sinking], nhận [Sinking] và tăng lượng Sức mạnh [Sinking] gây ra"
     },
     {
       "id": 1091411,
       "name": "Chiếc sừng được trang trí Giáng sinh",
-      "desc": "Mỗi khi tiêu hao tổng cộng 10 Số lượng [Charge] của bản thân trong trận đấu, nhận 1 [Charge]\n\nKhi sử dụng Kĩ năng Tấn công cơ bản có hiệu ứng gây Sức mạnh [Sinking] lên kẻ địch, nếu mục tiêu chính không có [Sinking] thì nhận 5 [Sinking], và Sức mạnh [Sinking] gây ra từ hiệu ứng kĩ năng đó tăng gấp đôi (1 lần mỗi hiệp, tính theo bộ phận nếu là Trận chiến Tập trung)\n\n<style=\"highlight\">Khi Máu của bản thân thấp hơn 35%, Sức mạnh Cuối cùng của Kĩ năng Tấn công cơ bản +1</style>",
+      "desc": "Mỗi khi tiêu hao tổng cộng 10 Số lượng [Charge] của bản thân trong trận đấu, nhận 1 [Charge]\n\nKhi sử dụng Kĩ năng Tấn công cơ bản có hiệu ứng gây Sức mạnh Trầm luân lên kẻ địch, nếu mục tiêu chính không có [Sinking] thì nhận 5 [Sinking], và Sức mạnh [Sinking] gây ra từ hiệu ứng kĩ năng đó tăng gấp đôi (1 lần mỗi hiệp, tính theo bộ phận nếu là Trận chiến Tập trung)\n\n<style=\"highlight\">Khi Máu của bản thân thấp hơn 35%, Sức mạnh Cuối cùng của Kĩ năng Tấn công cơ bản +1</style>",
       "summary": "Nếu là kẻ địch không có [Sinking], nhận [Sinking] và tăng lượng Sức mạnh [Sinking] gây ra\nNếu Máu thấp hơn 35%, Sức mạnh Cuối cùng +1"
     },
     {
@@ -2607,7 +2607,7 @@
     {
       "id": 1021402,
       "name": "Chỉ thị được truyền bằng mảnh giấy",
-      "desc": "Khi bắt đầu hiệp\n- Nhận [IndexPrescriptFaust_0] / [IndexPrescriptFaust_1] / [IndexPrescriptFaust_2] / [IndexPrescriptFaust_3] tùy theo giá trị [BlessingOfIndexPrescriptAlly] của bản thân\n- Gây [IndexPrescriptTargetToEnemy] lên 1 kẻ địch ngẫu nhiên (Gây vào bộ phận nếu là Trận chiến Tập trung)\n- Gây [IndexPrescriptTargetMarkToEnemy] vào Kĩ năng Tấn công cơ bản của bản thân trên các ô kĩ năng (Mỗi ô kĩ năng gây 1 cái, tối đa 2 cái)\n· Nếu [BlessingOfIndexPrescriptAlly] từ 6 trở lên, ưu tiên gây vào Kĩ năng 3\n- Nếu ở trạng thái Hoảng loạn, Bất động [TabExplain], Hỗn loạn, E.G.O Xâm chiếm, tất cả các hiệu ứng trên và kết quả thực hiện [IndexPrescript_Base] sẽ không được áp dụng",
+      "desc": "Khi bắt đầu hiệp\n- Nhận [IndexPrescriptFaust_0] / [IndexPrescriptFaust_1] / [IndexPrescriptFaust_2] / [IndexPrescriptFaust_3] tùy theo giá trị [BlessingOfIndexPrescriptAlly] của bản thân\n- Gây [IndexPrescriptTargetToEnemy] lên 1 kẻ địch ngẫu nhiên (Gây vào bộ phận nếu là Trận chiến Tập trung)\n- Gây [IndexPrescriptTargetMarkToEnemy] vào Kĩ năng Tấn công cơ bản của bản thân trên các ô kĩ năng (Mỗi ô kĩ năng gây 1 cái, tối đa 2 cái)\n· Nếu [BlessingOfIndexPrescriptAlly] từ 6 trở lên, ưu tiên gây vào Kĩ năng 3\n- Nếu ở trạng thái Hoảng loạn, Bất động [TabExplain], Hỗn loạn, E.G.O Xâm chiếm, tất cả các hiệu ứng trên và kết quả thực hiện [IndexPrescript_Base] sẽ không được áp dụng[TabExplain]",
       "summary": "Nhận Chỉ thị\nGây Đối tượng Chỉ thị lên kẻ địch ngẫu nhiên\nGây Dấu ấn Chỉ thị vào kĩ năng tấn công cơ bản ngẫu nhiên của bản thân"
     },
     {
@@ -2720,7 +2720,7 @@
     {
       "id": 1011502,
       "name": "Chỉ thị được truyền đạt qua thiết bị đầu cuối",
-      "desc": "Khi bắt đầu lượt,\n- Nhận [IndexPrescriptYi_0] / [IndexPrescriptYi_1] / [IndexPrescriptYi_2] / [IndexPrescriptYi_3] tùy theo cấp độ [UnlockBuff_Base] của bản thân\n- Trao [IndexPrescriptTargetToEnemy] cho 1 kẻ địch ngẫu nhiên (Trao vào bộ phận nếu là Trận đấu Tập trung)\n- Gán [IndexPrescriptTargetMarkToEnemy] vào Kĩ năng tấn công cơ bản của bản thân trong các ô kĩ năng (Mỗi ô kĩ năng gán 1 cái, tối đa 2 cái)\n· Nếu từ [UnlockBuffAlly_2] trở lên, ưu tiên gán vào Kĩ năng 3 (Ưu tiên Kĩ năng đã được tăng cường)\n- Nếu đang ở trạng thái Hoảng loạn, Hành động bất khả [TabExplain], Hoảng loạn, hoặc Ăn mòn E.G.O, tất cả các hiệu ứng trên và kết quả thực hiện [IndexPrescript_Base_2nd] sẽ không được áp dụng",
+      "desc": "Khi bắt đầu lượt,\n- Nhận [IndexPrescriptYi_0] / [IndexPrescriptYi_1] / [IndexPrescriptYi_2] / [IndexPrescriptYi_3] tùy theo cấp độ [UnlockBuff_Base] của bản thân\n- Trao [IndexPrescriptTargetToEnemy] cho 1 kẻ địch ngẫu nhiên (Trao vào bộ phận nếu là Trận đấu Tập trung)\n- Gán [IndexPrescriptTargetMarkToEnemy] vào Kĩ năng tấn công cơ bản của bản thân trong các ô kĩ năng (Mỗi ô kĩ năng gán 1 cái, tối đa 2 cái)\n· Nếu từ [UnlockBuffAlly_2] trở lên, ưu tiên gán vào Kĩ năng 3 (Ưu tiên Kĩ năng đã được tăng cường)\n- Nếu đang ở trạng thái Hoảng loạn, Hành động bất khả [TabExplain], Hoảng loạn, hoặc Ăn mòn E.G.O, tất cả các hiệu ứng trên và kết quả thực hiện [IndexPrescript_Base_2nd] sẽ không được áp dụng[TabExplain]",
       "summary": "Khi thực hiện Chỉ thị, hồi Tinh thần và nhận sự bảo hộ của Chỉ thị\nKhi thất bại Chỉ thị, nhận Nghiệp"
     },
     {

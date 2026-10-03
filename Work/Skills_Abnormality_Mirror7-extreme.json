@@ -1642,7 +1642,7 @@
         {
           "level": 1,
           "name": "Giãy giụa trong đau đớn",
-          "desc": "[Khi sử dụng] Nếu mục tiêu có hiệu ứng bất lợi, Sức mạnh cơ bản +4\n[Khi sử dụng] Tiêu hao 12 HP. Số lần [Laceration] của bản thân tăng 3 vào lượt kế tiếp",
+          "desc": "[WhenUse] Nếu mục tiêu có hiệu ứng bất lợi, Sức mạnh cơ bản +4\n[WhenUse] Tiêu hao 12 HP. Số lần [Laceration] của bản thân tăng 3 vào lượt kế tiếp",
           "coinlist": [
             {
               "coindescs": [
@@ -1706,7 +1706,7 @@
         {
           "level": 1,
           "name": "Đi chỗ khác... Đi chỗ khác đi...!",
-          "desc": "[Khi sử dụng] Nếu [Laceration] của mục tiêu từ 4 trở lên, Sức mạnh đối đầu +1\n[Khi sử dụng] Mỗi 1 số lần [Laceration] của mục tiêu, Sát thương +5% (Tối đa 20%)",
+          "desc": "[WhenUse] Nếu [Laceration] của mục tiêu từ 4 trở lên, Sức mạnh đối đầu +1\n[WhenUse] Mỗi 1 số lần [Laceration] của mục tiêu, Sát thương +5% (Tối đa 20%)",
           "coinlist": [
             {},
             {
@@ -1801,7 +1801,7 @@
         {
           "level": 1,
           "name": "Để ta yên...!",
-          "desc": "[Khi sử dụng Né tránh] Mỗi 1 số lần [Laceration] của mục tiêu, Sức mạnh cơ bản +1 (Tối đa 4)",
+          "desc": "[WhenUseEvade] Mỗi 1 số lần [Laceration] của mục tiêu, Sức mạnh cơ bản +1 (Tối đa 4)",
           "coinlist": [
             {}
           ]
@@ -1883,7 +1883,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[Tấn công trúng bằng Coin chưa vỡ] Gây 3 [Laceration], số lần [Laceration] tăng 1"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây 3 [Laceration], số lần [Laceration] tăng 1"
                 }
               ]
             }
@@ -1897,7 +1897,7 @@
         {
           "level": 1,
           "name": "Vận hành cơ thể máy",
-          "desc": "[Khi sử dụng] Nếu số lần [Charge] từ 10 trở lên, tiêu hao 3 số lần [Charge] để nhận +1 Sức mạnh Coin\n[Khi sử dụng] Nếu số lần [Charge] từ 15 trở lên, tiêu hao thêm 3 số lần [Charge] để nhận +20% Sát thương\n[Khi sử dụng] Nếu số lần [Charge] ít hơn 5, giảm một lượng HP bằng 10% HP tối đa để nhận 9 số lần [Charge]",
+          "desc": "[WhenUse] Nếu số lần [Charge] từ 10 trở lên, tiêu hao 3 số lần [Charge] để nhận +1 Sức mạnh Coin\n[WhenUse] Nếu số lần [Charge] từ 15 trở lên, tiêu hao thêm 3 số lần [Charge] để nhận +20% Sát thương\n[WhenUse] Nếu số lần [Charge] ít hơn 5, giảm một lượng HP bằng 10% HP tối đa để nhận 9 số lần [Charge]",
           "coinlist": [
             {
               "coindescs": [
@@ -2728,7 +2728,7 @@
         {
           "level": 1,
           "name": "Thỏa hiệp",
-          "desc": "[Khi sử dụng] Với mỗi 5 tổng số [Laceration], [Vibration], và [Sinking] trên mục tiêu, Sức mạnh Cơ bản +2 (Tối đa 6)\n[Khi sử dụng] Nếu mục tiêu có [PlayingWithWaterTogetherMirror], Sức mạnh Đối đầu -3",
+          "desc": "[WhenUse] Với mỗi 5 tổng số [Laceration], [Vibration], và [Sinking] trên mục tiêu, Sức mạnh Cơ bản +2 (Tối đa 6)\n[WhenUse] Nếu mục tiêu có [PlayingWithWaterTogetherMirror], Sức mạnh Đối đầu -3",
           "coinlist": [
             {
               "coindescs": [
@@ -2750,7 +2750,7 @@
         {
           "level": 1,
           "name": "Thỏa hiệp Mạnh",
-          "desc": "[Khi sử dụng] Với mỗi 5 tổng số [Laceration], [Vibration], và [Sinking] trên mục tiêu, Sức mạnh Cơ bản +2 (Tối đa 6)\n[Khi sử dụng] Nếu mục tiêu có [PlayingWithWaterTogetherMirror], Sức mạnh Đối đầu -3",
+          "desc": "[WhenUse] Với mỗi 5 tổng số [Laceration], [Vibration], và [Sinking] trên mục tiêu, Sức mạnh Cơ bản +2 (Tối đa 6)\n[WhenUse] Nếu mục tiêu có [PlayingWithWaterTogetherMirror], Sức mạnh Đối đầu -3",
           "coinlist": [
             {
               "coindescs": [
@@ -2775,7 +2775,7 @@
         {
           "level": 1,
           "name": "Đập Đuôi",
-          "desc": "[Khi sử dụng] Với mỗi 5 tổng số [Laceration], [Vibration], và [Sinking] trên mục tiêu, Sức mạnh Đồng xu +1 (Tối đa 3)\n[Khi sử dụng] Nếu mục tiêu có [PlayingWithWaterTogetherMirror], Sức mạnh Đối đầu -2",
+          "desc": "[WhenUse] Với mỗi 5 tổng số [Laceration], [Vibration], và [Sinking] trên mục tiêu, Sức mạnh Đồng xu +1 (Tối đa 3)\n[WhenUse] Nếu mục tiêu có [PlayingWithWaterTogetherMirror], Sức mạnh Đối đầu -2",
           "coinlist": [
             {
               "coindescs": [
@@ -2807,7 +2807,7 @@
         {
           "level": 1,
           "name": "Nén Bao",
-          "desc": "[Khi sử dụng] Với mỗi 5 tổng số [Laceration], [Vibration], và [Sinking] trên mục tiêu, Sức mạnh Cơ bản +2 (Tối đa 6)\n[Khi sử dụng] Nếu mục tiêu có [PlayingWithWaterTogetherMirror], Sức mạnh Đối đầu -2",
+          "desc": "[WhenUse] Với mỗi 5 tổng số [Laceration], [Vibration], và [Sinking] trên mục tiêu, Sức mạnh Cơ bản +2 (Tối đa 6)\n[WhenUse] Nếu mục tiêu có [PlayingWithWaterTogetherMirror], Sức mạnh Đối đầu -2",
           "coinlist": [
             {
               "coindescs": [

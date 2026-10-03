@@ -21,7 +21,7 @@
         {
           "level": 2,
           "name": "Bình Tĩnh",
-          "desc": "Khi kỹ năng này bị vứt bỏ, tăng 4 số lượng Chấn động của bản thân\n[WhenUse] Tăng 2 số lượng Chấn động của bản thân",
+          "desc": "Khi kỹ năng này bị vứt bỏ, tăng 4 số lượng [Vibration] của bản thân\n[WhenUse] Tăng 2 số lượng [Vibration] của bản thân",
           "coinlist": [
             {},
             {
@@ -36,7 +36,7 @@
         {
           "level": 4,
           "name": "Bình Tĩnh",
-          "desc": "Khi kỹ năng này bị vứt bỏ, tăng 4 số lượng Chấn động của bản thân\n[WhenUse] Tăng 2 số lượng Chấn động của bản thân\nNếu số lượng Chấn động của bản thân từ 5 trở lên, Uy lực Đồng xu +1",
+          "desc": "Khi kỹ năng này bị vứt bỏ, tăng 4 số lượng [Vibration] của bản thân\n[WhenUse] Tăng 2 số lượng [Vibration] của bản thân\nNếu số lượng [Vibration] của bản thân từ 5 trở lên, Uy lực Đồng xu +1",
           "coinlist": [
             {},
             {
@@ -222,7 +222,7 @@
         {
           "level": 4,
           "name": "Xé Toạc Chiều Không Gian",
-          "desc": "[WhenUse] Số lượng Sạc của bản thân tăng 2\nNếu số lượng Sạc từ 10 trở lên, Uy lực đồng xu +2",
+          "desc": "[WhenUse] Số lượng [Charge] của bản thân tăng 2\nNếu số lượng [Charge] từ 10 trở lên, Uy lực đồng xu +2",
           "coinlist": [
             {
               "coindescs": [
@@ -265,7 +265,7 @@
         {
           "level": 2,
           "name": "Tuần hoàn Năng lượng",
-          "desc": "[WhenUse] Tăng 6 số tầng Sạc của bản thân\nNếu số tầng Sạc từ 10 trở lên, Sức mạnh Đồng xu +1",
+          "desc": "[WhenUse] Tăng 6 số tầng [Charge] của bản thân\nNếu số tầng [Charge] từ 10 trở lên, Sức mạnh Đồng xu +1",
           "coinlist": [
             {
               "coindescs": [
@@ -289,7 +289,7 @@
         {
           "level": 4,
           "name": "Tuần hoàn Năng lượng",
-          "desc": "[WhenUse] Tăng 7 số tầng Sạc của bản thân\nNếu số tầng Sạc từ 10 trở lên, Sức mạnh Đồng xu +1",
+          "desc": "[WhenUse] Tăng 7 số tầng [Charge] của bản thân\nNếu số tầng [Charge] từ 10 trở lên, Sức mạnh Đồng xu +1",
           "coinlist": [
             {
               "coindescs": [
@@ -304,7 +304,7 @@
                   "desc": "[OnSucceedAttack] Gây 3 [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Nếu số tầng Sạc của bản thân từ 10 trở lên, gây 3 Vết rách và tăng số tầng Vết rách thêm 2."
+                  "desc": "[OnSucceedAttack] Nếu số tầng [Charge] của bản thân từ 10 trở lên, gây 3 [Burst] và tăng số tầng [Burst] thêm 2."
                 }
               ]
             }
@@ -318,7 +318,7 @@
         {
           "level": 3,
           "name": "Khe nứt không gian",
-          "desc": "[WhenUse] Nếu số tầng Sạc ít hơn 15, tiêu hao 10 số tầng Sạc để nhận +1 Uy lực xu\n[WhenUse] Tiêu hao 15 số tầng Sạc, nhận +2 Uy lực xu",
+          "desc": "[WhenUse] Nếu số tầng [Charge] ít hơn 15, tiêu hao 10 số tầng [Charge] để nhận +1 Uy lực xu\n[WhenUse] Tiêu hao 15 số tầng [Charge], nhận +2 Uy lực xu",
           "coinlist": [
             {
               "coindescs": [
@@ -352,7 +352,7 @@
         {
           "level": 4,
           "name": "Khe nứt không gian",
-          "desc": "[WhenUse] Nếu số tầng Sạc ít hơn 15, tiêu hao 10 số tầng Sạc để nhận +1 Uy lực xu\n[WhenUse] Tiêu hao 15 số tầng Sạc, nhận +2 Uy lực xu\n[BeforeAttack] Nếu đã tiêu hao 15 số tầng Sạc, tăng số tầng Vết rách thêm 3",
+          "desc": "[WhenUse] Nếu số tầng [Charge] ít hơn 15, tiêu hao 10 số tầng [Charge] để nhận +1 Uy lực xu\n[WhenUse] Tiêu hao 15 số tầng [Charge], nhận +2 Uy lực xu\n[BeforeAttack] Nếu đã tiêu hao 15 số tầng [Charge], tăng số tầng [Burst] thêm 3",
           "coinlist": [
             {
               "coindescs": [
