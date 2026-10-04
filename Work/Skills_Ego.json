@@ -1449,13 +1449,13 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Nhận 1 Tăng Sức mạnh Tấn công vào lượt tiếp theo"
+                  "desc": "[OnSucceedAttack] Nhận 1 [Enhancement] vào lượt tiếp theo"
                 },
                 {
                   "desc": "[OnSucceedAttack] Nhận 3 [Agility] vào lượt tiếp theo"
                 },
                 {
-                  "desc": "[EnemyKill] Nhận 2 Tăng Sức mạnh Tấn công vào lượt tiếp theo"
+                  "desc": "[EnemyKill] Nhận 2 [Enhancement] vào lượt tiếp theo"
                 }
               ]
             }
@@ -1617,7 +1617,7 @@
                   "desc": "[OnSucceedAttack] Gây 3 [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [Burst] [Tremor]"
+                  "desc": "[OnSucceedAttack] Kích hoạt [VibrationExplosion]"
                 }
               ]
             }
@@ -2222,7 +2222,7 @@
                   "desc": "[OnSucceedAttackHead] Gây 12 [Burst]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Giảm 10 Tỉnh táo. <style=\"highlight\">Lượt sau nhận 1 Tăng Sức mạnh Tấn công</style>"
+                  "desc": "[OnSucceedAttackHead] Giảm 10 Tỉnh táo. <style=\"highlight\">Lượt sau nhận 1 [Enhancement]</style>"
                 },
                 {},
                 {
@@ -2262,7 +2262,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[EnemyKill] Lượt sau nhận 1 Tăng Sức mạnh Tấn công"
+                  "desc": "[EnemyKill] Lượt sau nhận 1 [Enhancement]"
                 },
                 {
                   "desc": "[EnemyKill] Toàn bộ đồng minh hồi 15% Máu tối đa của bản thân"
@@ -2280,7 +2280,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[EnemyKill] Lượt sau nhận 1 Tăng Sức mạnh Tấn công"
+                  "desc": "[EnemyKill] Lượt sau nhận 1 [Enhancement]"
                 },
                 {
                   "desc": "[EnemyKill] Toàn bộ đồng minh hồi 15% Máu tối đa của bản thân"
@@ -2321,7 +2321,7 @@
                   "desc": "[EnemyKillFail] Lượt sau nhận 10 [Laceration]"
                 },
                 {
-                  "desc": "[EnemyKillFail] Lượt sau nhận 3 Tăng Sức mạnh Tấn công"
+                  "desc": "[EnemyKillFail] Lượt sau nhận 3 [Enhancement]"
                 }
               ]
             }
@@ -2339,7 +2339,7 @@
                   "desc": "[EnemyKillFail] Lượt sau nhận 10 [Laceration]"
                 },
                 {
-                  "desc": "[EnemyKillFail] Lượt sau nhận 3 Tăng Sức mạnh Tấn công"
+                  "desc": "[EnemyKillFail] Lượt sau nhận 3 [Enhancement]"
                 }
               ]
             }
@@ -2392,7 +2392,7 @@
                   "desc": "[OnSucceedAttack] Gây 4 [Burst]"
                 },
                 {
-                  "desc": "[EnemyKill] Gây cho 1 đồng minh ngẫu nhiên 1 Tăng Sát thương"
+                  "desc": "[EnemyKill] Gây cho 1 đồng minh ngẫu nhiên 1 [AttackDmgUp]"
                 }
               ]
             }
@@ -2510,7 +2510,7 @@
           "level": 3,
           "name": "Không Tức Thị Sắc",
           "abName": "Ta, Đã Đạt Đến Cõi Không",
-          "desc": "[EndSkill] Hồi 18 Tỉnh táo\n[EndSkill] Gây cho 2 đồng minh ngẫu nhiên (ngoại trừ bản thân) 1 Tăng Sức mạnh Tấn công",
+          "desc": "[EndSkill] Hồi 18 Tỉnh táo\n[EndSkill] Gây cho 2 đồng minh ngẫu nhiên (ngoại trừ bản thân) 1 [Enhancement]",
           "coinlist": [
             {
               "coindescs": [
@@ -2551,7 +2551,7 @@
           "level": 3,
           "name": "Không Tức Thị Sắc",
           "abName": "Ta, Đã Đạt Đến Cõi Không",
-          "desc": "[CantIdentify] \nTấn công mục tiêu ngẫu nhiên\n[EndSkill] Gây cho 2 đồng minh ngẫu nhiên (ngoại trừ bản thân) 1 Tăng Sức mạnh Tấn công",
+          "desc": "[CantIdentify] \nTấn công mục tiêu ngẫu nhiên\n[EndSkill] Gây cho 2 đồng minh ngẫu nhiên (ngoại trừ bản thân) 1 [Enhancement]",
           "coinlist": [
             {
               "coindescs": [
@@ -4424,7 +4424,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Tiếp thêm Giảm Sức mạnh Tấn công 1 vào lượt sau"
+                  "desc": "[OnSucceedAttack] Gây 1 [Reduction] vào lượt sau"
                 },
                 {
                   "desc": "[EndSkill] 4 đồng minh có Tinh thần thấp nhất ngoại trừ bản thân hồi phục 12 Tinh thần"
@@ -4442,7 +4442,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây 2 Giảm Sức mạnh Tấn công ở lượt kế tiếp"
+                  "desc": "[OnSucceedAttack] Gây 2 [Reduction] ở lượt kế tiếp"
                 },
                 {
                   "desc": "[EndSkill] Hồi phục 17 Tinh thần cho 4 đồng minh có Tinh thần thấp nhất ngoại trừ bản thân"
@@ -4460,7 +4460,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây 2 Giảm Sức mạnh Tấn công ở lượt kế tiếp"
+                  "desc": "[OnSucceedAttack] Gây 2 [Reduction] ở lượt kế tiếp"
                 },
                 {
                   "desc": "[EndSkill] Hồi phục 25 Tinh thần cho 4 đồng minh có Tinh thần thấp nhất ngoại trừ bản thân"
@@ -4483,13 +4483,13 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây 3 Giảm Cấp Phòng thủ cho 1 đồng minh ngoại trừ bản thân"
+                  "desc": "[OnSucceedAttack] Gây 3 [DefenseDown] cho 1 đồng minh ngoại trừ bản thân"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Nhận 2 Tăng Cấp Phòng thủ ở lượt kế tiếp"
+                  "desc": "[OnSucceedAttack] Nhận 2 [DefenseUp] ở lượt kế tiếp"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Nhận 1 Tăng Sát thương ở lượt kế tiếp"
+                  "desc": "[OnSucceedAttack] Nhận 1 [AttackDmgUp] ở lượt kế tiếp"
                 }
               ]
             }
@@ -4504,13 +4504,13 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây 3 Giảm Cấp Phòng thủ cho 1 đồng minh ngoại trừ bản thân"
+                  "desc": "[OnSucceedAttack] Gây 3 [DefenseDown] cho 1 đồng minh ngoại trừ bản thân"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Nhận 2 Tăng Cấp Phòng thủ ở lượt kế tiếp"
+                  "desc": "[OnSucceedAttack] Nhận 2 [DefenseUp] ở lượt kế tiếp"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Nhận 1 Tăng Sát thương ở lượt kế tiếp"
+                  "desc": "[OnSucceedAttack] Nhận 1 [AttackDmgUp] ở lượt kế tiếp"
                 },
                 {
                   "desc": "[OnSucceedAttackTail] Hồi phục 4 Tinh thần cho bản thân"
@@ -4528,13 +4528,13 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây 3 Giảm Cấp Phòng thủ cho 1 đồng minh ngoại trừ bản thân"
+                  "desc": "[OnSucceedAttack] Gây 3 [DefenseDown] cho 1 đồng minh ngoại trừ bản thân"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Nhận 2 Tăng Cấp Phòng thủ ở lượt kế tiếp"
+                  "desc": "[OnSucceedAttack] Nhận 2 [DefenseUp] ở lượt kế tiếp"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Nhận 1 Tăng Sát thương ở lượt kế tiếp"
+                  "desc": "[OnSucceedAttack] Nhận 1 [AttackDmgUp] ở lượt kế tiếp"
                 },
                 {
                   "desc": "[OnSucceedAttackTail] Hồi phục 4 Tinh thần cho bản thân"

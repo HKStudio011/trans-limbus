@@ -61,7 +61,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Khi số lượng Chấn động của bản thân từ 5 trở lên, gây Nổ Chấn động. Giảm 2 số lượng Chấn động của mục tiêu"
+                  "desc": "[OnSucceedAttack] Khi số lượng [Vibration] của bản thân từ 5 trở lên, kích hoạt [VibrationExplosion]. Giảm 2 số lượng [Vibration] của mục tiêu"
                 }
               ]
             }
@@ -78,7 +78,7 @@
                   "desc": "[OnSucceedAttack] Tăng 2 số lượng [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Khi số lượt Chấn động của bản thân từ 5 trở lên, Kích nổ Chấn động. Số lượt Chấn động của mục tiêu giảm 2"
+                  "desc": "[OnSucceedAttack] Khi số lượt [Vibration] của bản thân từ 5 trở lên, kích hoạt [VibrationExplosion]. Số lượt [Vibration] của mục tiêu giảm 2"
                 }
               ]
             }
@@ -95,7 +95,7 @@
                   "desc": "[OnSucceedAttack] Số lượt [Vibration] tăng 3"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Khi số lượt Chấn động của bản thân từ 5 trở lên, Kích nổ Chấn động. Số lượt Chấn động của mục tiêu giảm 2"
+                  "desc": "[OnSucceedAttack] Khi số lượt [Vibration] của bản thân từ 5 trở lên, kích hoạt [VibrationExplosion]. Số lượt [Vibration] của mục tiêu giảm 2"
                 }
               ]
             }
@@ -117,7 +117,7 @@
                   "desc": "[OnSucceedAttack] Gây 4 [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Khi sử dụng kỹ năng, nếu đã tiêu hao số lượt Chấn động thì Kích nổ Chấn động"
+                  "desc": "[OnSucceedAttack] Khi sử dụng kỹ năng, nếu đã tiêu hao số lượt [Vibration] thì kích hoạt [VibrationExplosion]"
                 }
               ]
             },
@@ -125,10 +125,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Gây 2 Giảm Cấp Phòng Thủ"
+                  "desc": "[OnSucceedAttackHead] Gây 2 [DefenseDown]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Khi sử dụng kỹ năng, nếu đã tiêu hao số lượt Chấn động thì Kích nổ Chấn động"
+                  "desc": "[OnSucceedAttack] Khi sử dụng kỹ năng, nếu đã tiêu hao số lượt [Vibration] thì kích hoạt [VibrationExplosion]"
                 }
               ]
             }
