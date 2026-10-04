@@ -1677,7 +1677,7 @@
         {
           "level": 4,
           "name": "Viêm Trảm",
-          "desc": "Với mỗi <style=\"highlight\">3 [Combustion]</style> của mục tiêu, Công suất Coin +1 <style=\"highlight\">(Tối đa 2)</style>\n<style=\"highlight\">Với mỗi 10 [Combustion] của mục tiêu, lượng Sát thương +10% (Tối đa 30%)</style>",
+          "desc": "Với mỗi 3 [Combustion] của mục tiêu, Công suất Coin +1 <style=\"highlight\">(Tối đa 2)</style>\n<style=\"highlight\">Với mỗi 10 [Combustion] của mục tiêu, lượng Sát thương +10% (Tối đa 30%)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1842,7 +1842,7 @@
         {
           "level": 4,
           "name": "Kiếm Lưu",
-          "desc": "Mỗi 6 [Combustion] của mục tiêu <style=\"highlight\">thì</style> Uy lực Đồng xu +1 <style=\"highlight\">(Tối đa 2)</style>\nMỗi 6 [Combustion] trên mục tiêu, Sát thương +10% (Tối đa 30%)\n[EndSkill] Hồi <style=\"highlight\">15</style> Tinh thần cho 1 đồng minh có Tinh thần thấp nhất (ngoại trừ bản thân)\n- Nếu tiêu diệt mục tiêu hoặc [Combustion] của mục tiêu từ 10 trở lên, hồi thêm cho 1 đồng minh nữa",
+          "desc": "Mỗi 6 [Combustion] của mục tiêu thì Uy lực Đồng xu +1 <style=\"highlight\">(Tối đa 2)</style>\nMỗi 6 [Combustion] trên mục tiêu, Sát thương +10% (Tối đa 30%)\n[EndSkill] Hồi <style=\"highlight\">15</style> Tinh thần cho 1 đồng minh có Tinh thần thấp nhất (ngoại trừ bản thân)\n- Nếu tiêu diệt mục tiêu hoặc [Combustion] của mục tiêu từ 10 trở lên, hồi thêm cho 1 đồng minh nữa",
           "coinlist": [
             {
               "coindescs": [
@@ -2057,7 +2057,7 @@
         {
           "level": 4,
           "name": "Xuyên thấu",
-          "desc": "[WhenUse] Với mỗi 1 [BoseProjektil] của bản thân, lượng sát thương +<style=\"highlight\">15</style>% (Tối đa <style=\"highlight\">105</style>%)\n[WhenUse] Với mỗi 5 [Breath] <style=\"highlight\">của bản thân</style>, Uy lực đồng xu +1 <style=\"highlight\">(Tối đa 2)</style>\n[WhenUse] Nhận 2 [Breath]",
+          "desc": "[WhenUse] Với mỗi 1 [BoseProjektil] của bản thân, lượng sát thương +15% (Tối đa <style=\"highlight\">105</style>%)\n[WhenUse] Với mỗi 5 [Breath] <style=\"highlight\">của bản thân</style>, Uy lực đồng xu +1 <style=\"highlight\">(Tối đa 2)</style>\n[WhenUse] Nhận 2 [Breath]",
           "coinlist": [
             {
               "coindescs": [
@@ -2920,7 +2920,7 @@
         {
           "level": 4,
           "name": "Furioso-Replica",
-          "desc": "[WideAreaRampage]\nChỉ có thể đặt 1 cái vào ô kỹ năng\nNếu kỹ năng này được khắc [IndexPrescriptTargetMarkToEnemy], sát thương +10%\nThay vì uy lực đồng xu không đổi, khi uy lực đồng xu tăng ở bước cuối cùng, mỗi 1 chỉ số sẽ khiến uy lực cuối cùng +5, <style=\"highlight\">sát thương +25%</style> (Kỹ năng này không bị ảnh hưởng bởi [Paralysis])\nVới mỗi <style=\"highlight\">6 đơn vị</style> tổng [Breath] của bản thân và [Sinking] của mục tiêu chính, <style=\"highlight\">uy lực cuối cùng +1 (Tối đa 2)</style>\n[StartBattle]\n- Tất cả đồng xu chuyển thành [SuperCoin]\n- Mỗi khi kỹ năng này đánh trúng, gây 1 [Sinking] hoặc nhận 1 [Breath]\n- Trong lượt này, không nhận được [StackYisangSpecialSkill]\n[WhenUse]\n- Uy lực kỹ năng +3\n- Nhận 3 [Breath], số lần [Breath] của bản thân tăng 3\n[EndSkill]\n- Áp dụng 5 [Combustion], 3 [Binding], 3 [Vulnerable] cho mọi mục tiêu bị đánh trúng vào lượt tiếp theo\n- Tiêu hao toàn bộ [StackYisangSpecialSkill]",
+          "desc": "[WideAreaRampage]\nChỉ có thể đặt 1 cái vào ô kỹ năng\nNếu kỹ năng này được khắc [IndexPrescriptTargetMarkToEnemy], sát thương +10%\nThay vì uy lực đồng xu không đổi, khi uy lực đồng xu tăng ở bước cuối cùng, mỗi 1 chỉ số sẽ khiến uy lực cuối cùng +5, sát thương +25% (Kỹ năng này không bị ảnh hưởng bởi [Paralysis])\nVới mỗi <style=\"highlight\">6 đơn vị</style> tổng [Breath] của bản thân và [Sinking] của mục tiêu chính, <style=\"highlight\">uy lực cuối cùng +1 (Tối đa 2)</style>\n[StartBattle]\n- Tất cả đồng xu chuyển thành [SuperCoin]\n- Mỗi khi kỹ năng này đánh trúng, gây 1 [Sinking] hoặc nhận 1 [Breath]\n- Trong lượt này, không nhận được [StackYisangSpecialSkill]\n[WhenUse]\n- Uy lực kỹ năng +3\n- Nhận 3 [Breath], số lần [Breath] của bản thân tăng 3\n[EndSkill]\n- Áp dụng 5 [Combustion], 3 [Binding], 3 [Vulnerable] cho mọi mục tiêu bị đánh trúng vào lượt tiếp theo\n- Tiêu hao toàn bộ [StackYisangSpecialSkill]",
           "coinlist": [
             {},
             {},

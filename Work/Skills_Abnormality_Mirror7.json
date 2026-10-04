@@ -436,7 +436,7 @@
         {
           "level": 1,
           "name": "Phải bóc đến tận lớp bọc thứ hai rồi à.",
-          "desc": "[EndSkill] Nếu bản thân có [ReinforcedTattooSpider], không bị phá hủy và khi Tung xu trúng đích gây thêm 10 sát thương Đánh\n[WhenUse] Trạng thái [MiddleFatherSwordTwo] chuyển thành trạng thái [MiddleFatherSwordThree]",
+          "desc": "[KhiSửDụng] Nếu bản thân có [ReinforcedTattooSpider], không bị phá hủy và khi Tung xu trúng đích gây thêm 10 sát thương Đánh\n[KếtThúcKĩNăng] Trạng thái [MiddleFatherSwordTwo] chuyển thành trạng thái [MiddleFatherSwordThree]",
           "coinlist": [
             {
               "coindescs": [
@@ -520,7 +520,7 @@
         {
           "level": 1,
           "name": "Giẫm đạp xử tử tức thì!",
-          "desc": "Mỗi 3 [Laceration] của mục tiêu, Sức mạnh Cơ bản +1 (Tối đa 3)\n[DefeatDuel] Nếu bản thân có [ReinforcedTattooSpider], khi Tung xu trúng đích gây thêm 1 [Laceration]\n[EndSkill] Sát thương từ kĩ năng này không làm mục tiêu Hoảng loạn\n[WhenUse] Tiêu thụ tất cả [ResentmentSpider] của bản thân, nhận 1 [DaughterEducationSpider]",
+          "desc": "Mỗi 3 [Laceration] của mục tiêu, Sức mạnh Cơ bản +1 (Tối đa 3)\n[KhiSửDụng] Nếu bản thân có [ReinforcedTattooSpider], khi Tung xu trúng đích gây thêm 1 [Laceration]\n[ThuaĐấuTayĐôi] Sát thương từ kĩ năng này không làm mục tiêu Hoảng loạn\n[KếtThúcKĩNăng] Tiêu thụ tất cả [ResentmentSpider] của bản thân, nhận 1 [DaughterEducationSpider]",
           "coinlist": [
             {
               "coindescs": [
@@ -626,7 +626,7 @@
         {
           "level": 1,
           "name": "Laevateinn - Lâu rồi mới phá giải đến mức này đấy!",
-          "desc": "[EndSkill] Nếu bản thân có [ReinforcedTattooSpider], không bị phá hủy và khi Tung xu trúng đích gây thêm 10 sát thương Chém\n[WhenUse] Trạng thái [MiddleFatherSwordThree] chuyển thành [MiddleFatherSwordFour]",
+          "desc": "[KhiSửDụng] Nếu bản thân có [ReinforcedTattooSpider], không bị phá hủy và khi Tung xu trúng đích gây thêm 10 sát thương Chém\n[KếtThúcKĩNăng] Trạng thái [MiddleFatherSwordThree] chuyển thành [MiddleFatherSwordFour]",
           "coinlist": [
             {
               "coindescs": [
@@ -678,7 +678,7 @@
         {
           "level": 1,
           "name": "Knife Kill [Laevateinn]",
-          "desc": "[DefeatDuel] Tinh thần của bản thân giảm 10\n[BeforeUse] Sát thương từ kĩ năng này không làm mục tiêu Hoảng loạn\n[BeforeAttack] Khi Máu của bản thân từ 50% trở xuống, lượng sát thương +40%\n[BeforeAttack] Nhận (Số lượng xu của kĩ năng này × 2) [Combustion]",
+          "desc": "[TrướcKhiSửDụng] Tinh thần của bản thân giảm 10\n[ThuaĐấuTayĐôi] Sát thương từ kĩ năng này không làm mục tiêu Hoảng loạn\n[TrướcKhiTấnCông] Khi Máu của bản thân từ 50% trở xuống, lượng sát thương +40%\n[TrướcKhiTấnCông] Nhận (Số lượng xu của kĩ năng này × 2) [Combustion]",
           "coinlist": [
             {
               "coindescs": [
@@ -1036,7 +1036,7 @@
         {
           "level": 1,
           "name": "Furioso [Lacrimosa-Crescendo]",
-          "desc": "[WideAreaRampage]\n<color=#ff6000><mark=#ff000040><b><u>Kĩ năng này không cho phép mục tiêu kích hoạt kĩ năng Phòng thủ</u></b></mark></color>\nCó thể Đấu với kĩ năng này bất kể Tốc độ\n[WhenUse]\n- Nhận 9 [Breath], tăng số lượng [Breath] của bản thân thêm 9\n- Uy lực Đấu +15 (<color=#ff6000><mark=#ff000040><b><u>Giảm 1 với mỗi 5 [KarmaOfIndexRien_2Phase] của bản thân</u></b></mark></color>)\n[WhenUse] Nếu Tinh thần từ 0 trở lên, tạo 3 Man (Vọng)\n- Sát thương tăng 60%, Uy lực cuối +8\n[WinDuel]\n- Khi kết thúc đòn tấn công, gây 5 [Laceration], 3 [Binding], 3 [Vulnerable] vào lượt tiếp theo lên tất cả mục tiêu bị trúng đòn\n[DefeatDuel] \n- Sát thương cuối giảm 80%\n- Mục tiêu không bị Chấn lồng bởi sát thương của kĩ năng này, và không kích hoạt hiệu ứng [Sinking] của mục tiêu khi trúng đòn\n[EndSkill] Nếu đã tạo Man (Vọng), Tinh thần giảm 30\n[EndSkill] Kết thúc lượt này",
+          "desc": "[WideAreaRampage]\nKĩ năng này không cho phép mục tiêu kích hoạt kĩ năng Phòng thủ\nCó thể Đấu với kĩ năng này bất kể Tốc độ\n[WhenUse]\n- Nhận 9 [Breath], tăng số lượng [Breath] của bản thân thêm 9\n- Uy lực Đấu +15 (<color=#ff6000><mark=#ff000040><b><u>Giảm 1 với mỗi 5 [KarmaOfIndexRien_2Phase] của bản thân</u></b></mark></color>)\n[WhenUse] Nếu Tinh thần từ 0 trở lên, tạo 3 Man (Vọng)\n- Sát thương tăng 60%, Uy lực cuối +8\n[WinDuel]\n- Khi kết thúc đòn tấn công, gây 5 [Laceration], 3 [Binding], 3 [Vulnerable] vào lượt tiếp theo lên tất cả mục tiêu bị trúng đòn\n[DefeatDuel] \n- Sát thương cuối giảm 80%\n- Mục tiêu không bị Chấn lồng bởi sát thương của kĩ năng này, và không kích hoạt hiệu ứng [Sinking] của mục tiêu khi trúng đòn\n[EndSkill] Nếu đã tạo Man (Vọng), Tinh thần giảm 30\n[EndSkill] Kết thúc lượt này",
           "coinlist": [
             {
               "coindescs": [

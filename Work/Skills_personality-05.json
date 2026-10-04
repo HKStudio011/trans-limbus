@@ -1404,7 +1404,7 @@
         {
           "level": 4,
           "name": "Khoái Đao Loạn Ma",
-          "desc": "Nếu có [BulletPropellantSpecialAlly], kích hoạt như 「Siêu Việt Mãnh Hổ Sát Kích Loạn Trảm」\n- [BeforeUse] Nếu không có [BulletPropellantSpecialAlly], hủy bỏ kích hoạt\nVới mỗi <style=\"highlight\">tổng 8 [Combustion] và [Vibration]</style> của mục tiêu chính, <style=\"highlight\">Cấp độ đồng xu +1 (Tối đa 2)</style>",
+          "desc": "Nếu có [BulletPropellantSpecialAlly], kích hoạt như 「Siêu Việt Mãnh Hổ Sát Kích Loạn Trảm」\n- [BeforeUse] Nếu không có [BulletPropellantSpecialAlly], hủy bỏ kích hoạt\nVới mỗi tổng 8 [Combustion] và [Vibration] của mục tiêu chính, <style=\"highlight\">Cấp độ đồng xu +1 (Tối đa 2)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1778,7 +1778,7 @@
         {
           "level": 3,
           "name": "Máu được cô đặc lại, để khoác lên tôi và cả ngài nữa.",
-          "desc": "Khi kỹ năng này trúng đích, hồi phục HP bằng 40% lượng sát thương gây ra (Tối đa 50 mỗi kỹ năng)\n[EndSkill] Nếu [BloodArmorMeursault] của bản thân là 5, kích hoạt dưới dạng \"Ouverture\"\n[WhenUse] Mỗi 6 [Laceration] trên mục tiêu, Uy lực Đồng xu +1 (Tối đa 2)\n[WhenUse] Cho bản thân và (Số Cộng hưởng tối đa) đồng minh 1 [BloodArmorMeursault] (2 lần mỗi lượt, tối đa 4 đồng minh, áp dụng ưu tiên theo thứ tự <La Mancha Land>, <Huyết Quỷ> (Quyến thuộc Cấp cao). Không bao gồm các đối tượng đã đạt giá trị tối đa)\n[BeforeUse] Nếu mục tiêu tử vong, [BloodDinner] tăng thêm 20 (1 lần mỗi lượt)",
+          "desc": "Khi kỹ năng này trúng đích, hồi phục HP bằng 40% lượng sát thương gây ra (Tối đa 50 mỗi kỹ năng)\n[Trước khi sử dụng] Nếu [BloodArmorMeursault] của bản thân là 5, kích hoạt dưới dạng \"Ouverture\"\n[Khi sử dụng] Mỗi 6 [Laceration] trên mục tiêu, Uy lực Đồng xu +1 (Tối đa 2)\n[Khi sử dụng] Cho bản thân và (Số Cộng hưởng tối đa) đồng minh 1 [BloodArmorMeursault] (2 lần mỗi lượt, tối đa 4 đồng minh, áp dụng ưu tiên theo thứ tự <La Mancha Land>, <Huyết Quỷ> (Quyến thuộc Cấp cao). Không bao gồm các đối tượng đã đạt giá trị tối đa)\n[Kết thúc kỹ năng] Nếu mục tiêu tử vong, [BloodDinner] tăng thêm 20 (1 lần mỗi lượt)",
           "coinlist": [
             {
               "coindescs": [
