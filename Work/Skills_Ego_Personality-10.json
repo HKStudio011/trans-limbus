@@ -92,7 +92,7 @@
                   "desc": "[OnSucceedAttackTail] Số lần [Burst] tăng thêm 3"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gây 3 Giảm Cấp Phòng thủ"
+                  "desc": "[OnSucceedAttack] Gây 3 [DefenseDown]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Hồi cho bản thân một lượng bằng 50% sát thương gây ra"
@@ -113,7 +113,7 @@
                   "desc": "[OnSucceedAttack] Số lần [Burst] tăng thêm 3"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gây 5 Giảm Cấp Phòng thủ"
+                  "desc": "[OnSucceedAttack] Gây 5 [DefenseDown]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Hồi cho bản thân một lượng bằng 50% sát thương gây ra"
@@ -272,7 +272,7 @@
                   "desc": "- Nếu mục tiêu đã có [ShieldManagerCryingToad], thay đổi giá trị [ShieldManagerCryingToad] thành 2"
                 },
                 {
-                  "desc": "- Nếu Số Cộng hưởng Hoàn toàn U sầu Lớn nhất từ 4 trở lên, giá trị [ShieldManagerCryingToad] của kĩ năng này khi nhận và áp dụng sẽ là 3"
+                  "desc": "- Nếu Số Cộng hưởng Hoàn toàn U sầu Lớn nhất từ 4 trở lên, hiệu ứng trên của kĩ năng này đổi thành 'áp dụng 3 [ShieldManagerCryingToad]' và 'đổi giá trị [ShieldManagerCryingToad] thành 3'."
                 }
               ]
             }
@@ -287,13 +287,13 @@
             {
               "coindescs": [
                 {
-                  "desc": "[EndSkill] Nhận cho bản thân và gây cho <style=\"highlight\">1 + (Số Cộng hưởng Lớn nhất - 2)</style> đồng minh có Máu hiện tại thấp nhất một lượng Lá chắn bằng <style=\"highlight\">14%</style> Máu tối đa của bản thân và nhận 2 [ShieldManagerCryingToad] <style=\"highlight\">(Số lượng mục tiêu nhận tối đa không tính bản thân: 3)</style>"
+                  "desc": "[EndSkill] Nhận cho bản thân và gây cho <style=\"highlight\">1 + (Số Cộng hưởng Lớn nhất - 2)</style> đồng minh có Máu hiện tại thấp nhất một lượng Lá chắn bằng <style=\"highlight\">14%</style> Máu tối đa của bản thân và nhận 2 [ShieldManagerCryingToad]\n<style=\"highlight\">(Số lượng đồng minh khác nhận [ShieldManagerCryingToad] tối đa: 3)</style>"
                 },
                 {
                   "desc": "- Nếu mục tiêu đã có [ShieldManagerCryingToad], thay đổi giá trị [ShieldManagerCryingToad] thành 2<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "- Nếu Số Cộng hưởng Hoàn toàn U sầu Lớn nhất từ 4 trở lên, giá trị [ShieldManagerCryingToad] của kĩ năng này khi nhận và áp dụng sẽ là 3<style=\"highlight\"></style>"
+                  "desc": "- Nếu Số Cộng hưởng Hoàn toàn U sầu Lớn nhất từ 4 trở lên, hiệu ứng trên của kĩ năng này đổi thành 'áp dụng 3 [ShieldManagerCryingToad]' và 'đổi giá trị [ShieldManagerCryingToad] thành 3'<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -308,13 +308,13 @@
             {
               "coindescs": [
                 {
-                  "desc": "[EndSkill] Nhận cho bản thân và gây cho 1 + (Số Cộng hưởng Lớn nhất - 2) đồng minh có Máu hiện tại thấp nhất một lượng Lá chắn bằng <style=\"highlight\">20%</style> Máu tối đa của bản thân và nhận 2 [ShieldManagerCryingToad] (Số lượng mục tiêu nhận tối đa không tính bản thân: 3)"
+                  "desc": "[EndSkill] Nhận cho bản thân và gây cho 1 + (Số Cộng hưởng Lớn nhất - 2) đồng minh có Máu hiện tại thấp nhất một lượng Lá chắn bằng <style=\"highlight\">20%</style> Máu tối đa của bản thân và nhận 2 [ShieldManagerCryingToad]\n(Số lượng đồng minh khác nhận [ShieldManagerCryingToad] tối đa: 3)"
                 },
                 {
                   "desc": "- Nếu mục tiêu đã có [ShieldManagerCryingToad], thay đổi giá trị [ShieldManagerCryingToad] thành 2<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "- Nếu Số Cộng hưởng Hoàn toàn U sầu Lớn nhất từ 4 trở lên, giá trị [ShieldManagerCryingToad] của kĩ năng này khi nhận và áp dụng sẽ là 3<style=\"highlight\"></style>"
+                  "desc": "- Nếu Số Cộng hưởng Hoàn toàn U sầu Lớn nhất từ 4 trở lên, hiệu ứng trên của kĩ năng này đổi thành 'áp dụng 3 [ShieldManagerCryingToad]' và 'đổi giá trị [ShieldManagerCryingToad] thành 3'<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -343,7 +343,7 @@
                   "desc": "- Nếu bản thân đã có [ShieldManagerCryingToad], thay đổi giá trị [ShieldManagerCryingToad] thành 2"
                 },
                 {
-                  "desc": "- Nếu Số Cộng hưởng Hoàn toàn U sầu Lớn nhất từ 4 trở lên, giá trị [ShieldManagerCryingToad] của kĩ năng này khi nhận và áp dụng sẽ là 3"
+                  "desc": "- Nếu Số Cộng hưởng Hoàn toàn U sầu Lớn nhất từ 4 trở lên, hiệu ứng trên của kĩ năng này đổi thành 'nhận 3 [ShieldManagerCryingToad]' và 'đổi giá trị [ShieldManagerCryingToad] thành 3'."
                 }
               ]
             }
@@ -367,7 +367,7 @@
                   "desc": "- Nếu bản thân đã có [ShieldManagerCryingToad], thay đổi giá trị [ShieldManagerCryingToad] thành 2<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "- Nếu Số Cộng hưởng Hoàn toàn U sầu Lớn nhất từ 4 trở lên, giá trị [ShieldManagerCryingToad] của kĩ năng này khi nhận và áp dụng sẽ là 3<style=\"highlight\"></style>"
+                  "desc": "- Nếu Số Cộng hưởng Hoàn toàn U sầu Lớn nhất từ 4 trở lên, hiệu ứng trên của kĩ năng này đổi thành 'áp dụng 3 [ShieldManagerCryingToad]' và 'đổi giá trị [ShieldManagerCryingToad] thành 3'<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -391,7 +391,7 @@
                   "desc": "- Nếu bản thân đã có [ShieldManagerCryingToad], đổi giá trị của [ShieldManagerCryingToad] thành 2<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "- Nếu số Cộng hưởng Hoàn toàn Trầm luân tối đa từ 4 trở lên, nhận và áp dụng giá trị [ShieldManagerCryingToad] của kĩ năng này là 3<style=\"highlight\"></style>"
+                  "desc": "- Nếu số Cộng hưởng Hoàn toàn Trầm luân tối đa từ 4 trở lên, hiệu ứng trên của kĩ năng này đổi thành 'áp dụng 3 [ShieldManagerCryingToad]' và 'đổi giá trị [ShieldManagerCryingToad] thành 3'<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "<style=\"highlight\">- Nếu Cộng hưởng Trầm luân từ 4 trở lên, tự nhận thêm một lượng Lá chắn bằng 10% Máu tối đa của bản thân</style>"

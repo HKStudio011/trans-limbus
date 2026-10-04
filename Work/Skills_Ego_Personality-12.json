@@ -165,7 +165,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây 2 [AzureTakeDamageUp]. Nếu Cộng hưởng U sầu từ 3 trở lên, gây thêm 1"
+                  "desc": "[OnSucceedAttack] Gây 2 [AzureTakeDamageUp]. Nếu Cộng hưởng U sầu từ 3 trở lên, gây thêm 1 [AzureTakeDamageUp]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Tăng 3 số lần [Sinking]"
@@ -186,7 +186,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây 2 [AzureTakeDamageUp]. Với mỗi 3 Cộng hưởng U sầu, gây thêm 1 (Tối đa 2)"
+                  "desc": "[OnSucceedAttack] Gây 2 [AzureTakeDamageUp]. Với mỗi 3 Cộng hưởng U sầu, gây thêm 1 [AzureTakeDamageUp] (Tối đa 2)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Tăng 3 số lần [Sinking]"
@@ -207,7 +207,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây [AzureTakeDamageUp] 2. Với mỗi 2 Cộng hưởng U sầu, gây thêm 1 (Tối đa 2)"
+                  "desc": "[OnSucceedAttack] Gây 2 [AzureTakeDamageUp]. Với mỗi 2 Cộng hưởng U sầu, gây thêm 1 [AzureTakeDamageUp] (Tối đa 2)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Số lần [Sinking] tăng thêm 3"
@@ -486,7 +486,7 @@
                   "desc": "[OnSucceedAttack] Gây 4 [Sinking]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Nếu mục tiêu đang trong trạng thái Chệnh choạng, Hạ chí khí hoặc Hoảng loạn, gây 1 [Reduction] vào lượt tiếp theo, gây <style=\"highlight\">1 [Mong manh] của thuộc tính cộng hưởng cao nhất</style>"
+                  "desc": "[OnSucceedAttack] Nếu mục tiêu đang trong trạng thái Chệnh choạng, Hạ chí khí hoặc Hoảng loạn, gây 1 [Reduction] vào lượt tiếp theo, gây <style=\"highlight\">1 Mong manh[TabExplain] của thuộc tính cộng hưởng cao nhất</style>"
                 }
               ]
             }
@@ -581,7 +581,7 @@
                   "desc": "[OnSucceedAttack] Gây 4 [Sinking]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Nếu mục tiêu đang trong trạng thái Chệnh choạng, Hạ chí khí hoặc Hoảng loạn, gây 1 [Reduction] vào lượt tiếp theo, gây <style=\"highlight\">2 [Mong manh] của thuộc tính cộng hưởng cao nhất</style>"
+                  "desc": "[OnSucceedAttack] Nếu mục tiêu đang trong trạng thái Chệnh choạng, Hạ chí khí hoặc Hoảng loạn, gây 1 [Reduction] vào lượt tiếp theo, gây <style=\"highlight\">2 Mong manh[TabExplain] của thuộc tính cộng hưởng cao nhất</style>"
                 }
               ]
             }
@@ -596,7 +596,7 @@
           "level": 1,
           "name": "Vinh quang không chói lọi - Lưu thủy",
           "abName": "Mlynar",
-          "desc": "[CantDuel]\nKhi sử dụng lần đầu trong trận chiến, tài nguyên E.G.O cần thiết giảm (Phẫn nộ 1, Lười biếng 2, Ngạo mạn 1)\nNếu có từ 1 [MlynarWaiting] trở lên, kích hoạt dưới dạng Vinh quang không chói lọi - Quang huy\nKĩ năng này không đánh trúng kẻ địch và không kích hoạt kĩ năng phòng ngự. Không thể tái sử dụng bằng hiệu ứng bên ngoài\n[EndSkill] Nhận 1 [MlynarWaiting]\n[EndSkill] Hồi phục 25 Tinh thần\n[EndSkill] Nhận 1 [AttackUp] vào lượt tiếp theo",
+          "desc": "[CantDuel]\nKhi sử dụng lần đầu trong trận chiến, tài nguyên E.G.O cần thiết giảm (Phẫn nộ 1, Lười biếng 2, Ngạo mạn 1)\nNếu có từ 1 [MlynarWaiting] trở lên, kích hoạt <noparse>Vinh quang không chói lọi - Quang huy</noparse> thay thế\nKĩ năng này không đánh trúng kẻ địch và không kích hoạt kĩ năng phòng ngự. Không thể tái sử dụng bằng hiệu ứng bên ngoài\n[EndSkill] Nhận 1 [MlynarWaiting]\n[EndSkill] Hồi phục 25 Tinh thần\n[EndSkill] Nhận 1 [AttackUp] vào lượt tiếp theo",
           "coinlist": [
             {
               "coindescs": [
@@ -611,7 +611,7 @@
           "level": 3,
           "name": "Vinh quang không chói lọi - Lưu thủy",
           "abName": "Mlynar",
-          "desc": "[CantDuel]\nKhi sử dụng lần đầu trong trận chiến, tài nguyên E.G.O cần thiết giảm (Phẫn nộ 1, Lười biếng 2, Ngạo mạn 1)\nNếu có từ 1 [MlynarWaiting] trở lên, kích hoạt dưới dạng Vinh quang không chói lọi - Quang huy\nKĩ năng này không đánh trúng kẻ địch và không kích hoạt kĩ năng phòng ngự. Không thể tái sử dụng bằng hiệu ứng bên ngoài\n[EndSkill] Nhận 1 [MlynarWaiting]\n[EndSkill] Hồi phục 25 Tinh thần\n[EndSkill] Nhận <style=\"highlight\">2</style> [AttackUp] vào lượt tiếp theo",
+          "desc": "[CantDuel]\nKhi sử dụng lần đầu trong trận chiến, tài nguyên E.G.O cần thiết giảm (Phẫn nộ 1, Lười biếng 2, Ngạo mạn 1)\nNếu có từ 1 [MlynarWaiting] trở lên, kích hoạt <noparse>Vinh quang không chói lọi - Quang huy</noparse> thay thế\nKĩ năng này không đánh trúng kẻ địch và không kích hoạt kĩ năng phòng ngự. Không thể tái sử dụng bằng hiệu ứng bên ngoài\n[EndSkill] Nhận 1 [MlynarWaiting]\n[EndSkill] Hồi phục 25 Tinh thần\n[EndSkill] Nhận <style=\"highlight\">2</style> [AttackUp] vào lượt tiếp theo",
           "coinlist": [
             {
               "coindescs": [
@@ -626,7 +626,7 @@
           "level": 4,
           "name": "Vinh quang không chói lọi - Lưu thủy",
           "abName": "Mlynar",
-          "desc": "[CantDuel]\nKhi sử dụng lần đầu trong trận chiến, tài nguyên E.G.O tiêu tốn giảm đi 1 Phẫn nộ, 2 Lười biếng, 1 Ngạo mạn\nNếu [MlynarWaiting] từ 1 trở lên, phát động thành Vinh Quang Không Tỏa Sáng - Quang Huy\nKĩ năng này không trúng đích kẻ địch, không kích hoạt kĩ năng phòng thủ. Không thể tái sử dụng bởi hiệu ứng bên ngoài\n[EndSkill] Nhận 1 [MlynarWaiting]\n[EndSkill] Hồi 25 Tinh thần\n[EndSkill] Lượt sau nhận 2 [AttackUp], <style=\"highlight\">1 [AttackDmgUp]</style>",
+          "desc": "[CantDuel]\nKhi sử dụng lần đầu trong trận chiến, tài nguyên E.G.O tiêu tốn giảm đi 1 Phẫn nộ, 2 Lười biếng, 1 Ngạo mạn\nNếu [MlynarWaiting] từ 1 trở lên, phát động thành <noparse>Vinh Quang Không Tỏa Sáng - Quang Huy</noparse> thay thế\nKĩ năng này không trúng đích kẻ địch, không kích hoạt kĩ năng phòng thủ. Không thể tái sử dụng bởi hiệu ứng bên ngoài\n[EndSkill] Nhận 1 [MlynarWaiting]\n[EndSkill] Hồi 25 Tinh thần\n[EndSkill] Lượt sau nhận 2 [AttackUp], <style=\"highlight\">1 [AttackDmgUp]</style>",
           "coinlist": [
             {
               "coindescs": [

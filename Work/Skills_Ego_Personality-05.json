@@ -12,7 +12,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lần Chấn động tăng 2, tăng thêm (Số Cộng hưởng Hoàn toàn Phẫn nộ)÷3"
+                  "desc": "[OnSucceedAttack] Số lần [Vibration] tăng 2, tăng thêm số lần [Vibration] (Số Cộng hưởng Hoàn toàn Phẫn nộ ÷ 3)"
                 },
                 {
                   "desc": "[OnSucceedAttack] [VibrationExplosion]"
@@ -30,7 +30,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lần Chấn động tăng 2, tăng thêm (Số Cộng hưởng Hoàn toàn Phẫn nộ)÷3"
+                  "desc": "[OnSucceedAttack] Số lần [Vibration] tăng 2, tăng thêm số lần [Vibration] (Số Cộng hưởng Hoàn toàn Phẫn nộ ÷ 3)"
                 },
                 {
                   "desc": "[OnSucceedAttack] [VibrationExplosion] Chấn động\nKhi [VibrationExplosion] Chấn động, nếu mục tiêu không có Thanh Đoạn trường, gây Sát thương Phẫn nộ bằng (6 + 2×(Số Cộng hưởng Hoàn toàn Phẫn nộ))% giá trị tiến tới Thanh Đoạn trường cuối cùng."
@@ -48,7 +48,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lần Chấn động tăng 3, tăng thêm (Số Cộng hưởng Hoàn toàn Phẫn nộ)÷3"
+                  "desc": "[OnSucceedAttack] Số lần [Vibration] tăng 3, tăng thêm số lần [Vibration] (Số Cộng hưởng Hoàn toàn Phẫn nộ ÷ 3)"
                 },
                 {
                   "desc": "[OnSucceedAttack] [VibrationExplosion] Chấn động\nKhi [VibrationExplosion] Chấn động, nếu mục tiêu không có Thanh Đoạn trường, gây Sát thương Phẫn nộ bằng (12 + 3×(Số Cộng hưởng Hoàn toàn Phẫn nộ))% giá trị tiến tới Thanh Đoạn trường cuối cùng."
@@ -74,7 +74,7 @@
                   "desc": "[OnSucceedAttack] [VibrationExplosion] [Vibration].\nKhi [VibrationExplosion] [Vibration], tăng giá trị tiến tới Thanh Đoạn trường bằng 30% Cấp độ Chấn động.\nSố lần Chấn động giảm 1"
                 },
                 {
-                  "desc": "[EndSkill] Nhận [Bind] 3, Tăng Uy lực Đập 1 vào lượt tiếp theo."
+                  "desc": "[EndSkill] Nhận 3 [Binding] và 1 [HitResultUp] vào lượt tiếp theo."
                 }
               ]
             }
@@ -92,7 +92,7 @@
                   "desc": "[OnSucceedAttack] [VibrationExplosion] [Vibration]\nKhi [VibrationExplosion] [Vibration], tăng giá trị tiến tới Thanh Đoạn trường bằng 40% Cấp độ Chấn động.\nKhi [VibrationExplosion] Chấn động, nếu mục tiêu không có Thanh Đoạn trường, gây Sát thương Phẫn nộ bằng (6 + 2×(Số Cộng hưởng Hoàn toàn Phẫn nộ))% giá trị tiến tới Thanh Đoạn trường cuối cùng.\nSố lần Chấn động giảm 1"
                 },
                 {
-                  "desc": "[EndSkill] Nhận [Bind] 3, Tăng Uy lực Đập 1 vào lượt tiếp theo."
+                  "desc": "[EndSkill] Nhận 3 [Binding] và 1 [HitResultUp] vào lượt tiếp theo."
                 }
               ]
             }
@@ -110,7 +110,7 @@
                   "desc": "[OnSucceedAttack] [VibrationExplosion] [Vibration]\nKhi [VibrationExplosion] [Vibration], tăng giá trị tiến tới Thanh Đoạn trường bằng 50% Cấp độ Chấn động.\nKhi [VibrationExplosion] Chấn động, nếu mục tiêu không có Thanh Đoạn trường, gây Sát thương Phẫn nộ bằng (12 + 3×(Số Cộng hưởng Hoàn toàn Phẫn nộ))% giá trị tiến tới Thanh Đoạn trường cuối cùng.\nSố lần Chấn động giảm 1"
                 },
                 {
-                  "desc": "[EndSkill] Nhận [Bind] 3, Tăng Uy lực Đập 1 vào lượt tiếp theo."
+                  "desc": "[EndSkill] Nhận 3 [Binding] và 1 [HitResultUp] vào lượt tiếp theo."
                 }
               ]
             }
@@ -320,7 +320,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[WinDuelAttack] Kích hoạt [Laceration] của mục tiêu <style=\"highlight\">1 + (Số Cộng hưởng tối đa ÷ 2) lần. (Tối đa 3 lần. Số lần [Laceration] giảm theo số lần kích hoạt)</style>"
+                  "desc": "[WinDuelAttack] Kích hoạt [Laceration] của mục tiêu <style=\"highlight\">1 + (Số Cộng hưởng tối đa ÷ 2) lần. (Tối đa 3 lần. Số lần [Laceration] giảm theo số lần kích hoạt)"
                 }
               ]
             }
@@ -437,7 +437,7 @@
           "level": 3,
           "name": "Khát Vọng - Milcara",
           "abName": "Bốn Trăm Đóa Hồng",
-          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\n<style=\"highlight\">Nếu tổng [Laceration] của bản thân và mục tiêu từ 6 trở lên, Sức mạnh Xu +1</style>\n[WhenUse] Tiêu hao 10% HP tối đa của bản thân, tất cả kẻ địch và đồng minh nhận (HP đã tiêu hao ÷ 2) sát thương\n- Nếu HP bản thân dưới 50% HP tối đa, thay vào đó gây [Laceration] 5 cho toàn bộ đồng minh và kích hoạt 1 lần (Số lần [Laceration] giảm 1). Hồi phục HP cho bản thân bằng lượng sát thương [Laceration] mà đồng minh đã nhận",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\n<style=\"highlight\">Nếu tổng [Laceration] của bản thân và [Laceration] của mục tiêu từ 6 trở lên, Sức mạnh Xu +1</style>\n[WhenUse] Tiêu hao 10% HP tối đa của bản thân, tất cả kẻ địch và đồng minh nhận (HP đã tiêu hao ÷ 2) sát thương\n- Nếu HP bản thân dưới 50% HP tối đa, thay vào đó gây [Laceration] 5 cho toàn bộ đồng minh và kích hoạt 1 lần (Số lần [Laceration] giảm 1). Hồi phục HP cho bản thân bằng lượng sát thương [Laceration] mà đồng minh đã nhận",
           "coinlist": [
             {
               "coindescs": [
@@ -485,7 +485,7 @@
           "level": 4,
           "name": "Khát Vọng - Milkala",
           "abName": "Tứ Bách Đóa Hồng",
-          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\nVới mỗi 6 tổng [Laceration] của bản thân và mục tiêu, Sức mạnh Coin +1<style=\"highlight\">(Tối đa 3)</style>\n[WhenUse] Tiêu hao 10% Máu tối đa của bản thân, tất cả kẻ địch và đồng minh chịu (Máu đã tiêu hao của bản thân ÷ 2) sát thương\n- Nếu Máu của bản thân thấp hơn 50% Máu tối đa, thay vào đó gây 5 [Laceration] cho toàn bộ đồng minh và kích hoạt 1 lần (Số lượng [Laceration] giảm 1). Hồi phục Máu cho bản thân bằng lượng sát thương [Laceration] đồng minh đã nhận",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\nVới mỗi 6 ([Laceration] của bản thân + [Laceration] của mục tiêu), Sức mạnh Coin +1 <style=\"highlight\">(Tối đa 3)</style>\n[WhenUse] Tiêu hao 10% Máu tối đa của bản thân, tất cả kẻ địch và đồng minh chịu (Máu đã tiêu hao của bản thân ÷ 2) sát thương\n- Nếu Máu của bản thân thấp hơn 50% Máu tối đa, thay vào đó gây 5 [Laceration] cho toàn bộ đồng minh và kích hoạt 1 lần (Số lượng [Laceration] giảm 1). Hồi phục Máu cho bản thân bằng lượng sát thương [Laceration] đồng minh đã nhận",
           "coinlist": [
             {
               "coindescs": [

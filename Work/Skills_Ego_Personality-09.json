@@ -272,7 +272,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây sát thương hệ Lust tương ứng với Số cấp [Laceration] của mục tiêu.\n- Nếu Lust Cộng hưởng từ 4 trở lên, tính bằng 1.2 lần\n(Số cấp [Laceration] được tính không vượt quá 99.)",
+                  "desc": "[OnSucceedAttack] Gây sát thương hệ Lust tương ứng với Số cấp [Laceration] của mục tiêu.\n- Nếu Lust Cộng hưởng từ 4 trở lên, tính bằng ([Laceration] của mục tiêu × 1.2) lần\n(Số cấp [Laceration] được tính không vượt quá 99.)",
                   "summary": "[OnSucceedAttack] Sát thương hệ Lust tỉ lệ thuận với [Laceration] của mục tiêu"
                 },
                 {
@@ -292,7 +292,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây sát thương hệ Lust bằng <style=\"highlight\">(Số cấp [Laceration] của mục tiêu × 1.2)</style>.\n- Nếu Lust Cộng hưởng từ 4 trở lên, tính bằng ×<style=\"highlight\">1.5</style>\n- Nếu số Lust Cộng hưởng Hoàn toàn tối đa từ 4 trở lên, tính bằng ×<style=\"highlight\">1.8</style>\n(Số cấp [Laceration] được tính không vượt quá 99.)",
+                  "desc": "[OnSucceedAttack] Gây sát thương hệ Lust bằng <style=\"highlight\">(Số cấp [Laceration] của mục tiêu × 1.2)</style>.\n- Nếu Lust Cộng hưởng từ 4 trở lên, gây sát thương hệ Lust bằng (Số cấp [Laceration] của mục tiêu × <style=\"highlight\">1.5</style>).\n- Nếu số Lust Cộng hưởng Hoàn toàn tối đa từ 4 trở lên, gây sát thương hệ Lust bằng (Số cấp [Laceration] của mục tiêu × <style=\"highlight\">1.8</style>).\n(Số cấp [Laceration] được tính không vượt quá 99.)",
                   "summary": "[OnSucceedAttack] Sát thương hệ Lust tỉ lệ thuận với [Laceration] của mục tiêu"
                 },
                 {
@@ -312,7 +312,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây sát thương hệ Lust bằng (Số cấp [Laceration] của mục tiêu × <style=\"highlight\">1.5</style>).\n- Nếu Lust Cộng hưởng từ 4 trở lên, tính bằng ×<style=\"highlight\">1.8</style>\n- Nếu số Lust Cộng hưởng Hoàn toàn tối đa từ 4 trở lên, tính bằng ×<style=\"highlight\">2</style>\n(Số cấp [Laceration] được tính không vượt quá 99.)",
+                  "desc": "[OnSucceedAttack] Gây sát thương hệ Lust bằng (Số cấp [Laceration] của mục tiêu × <style=\"highlight\">1.5</style>).\n- Nếu Lust Cộng hưởng từ 4 trở lên, gây sát thương hệ Lust bằng (Số cấp [Laceration] của mục tiêu × <style=\"highlight\">1.8</style>).\n- Nếu số Lust Cộng hưởng Hoàn toàn tối đa từ 4 trở lên, gây sát thương hệ Lust bằng (Số cấp [Laceration] của mục tiêu × <style=\"highlight\">2</style>).\n(Số cấp [Laceration] được tính không vượt quá 99.)",
                   "summary": "[OnSucceedAttack] Sát thương hệ Lust tỉ lệ thuận với [Laceration] của mục tiêu"
                 },
                 {

@@ -1050,7 +1050,7 @@
           "level": 4,
           "name": "Hồng Viêm Sát",
           "abName": "Hồng Viêm Ngạ",
-          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\n[BeforeAttack] Với mỗi 10 tổng số lượng [Combustion] của bản thân và tất cả mục tiêu bị tấn công, Sức mạnh Cuối +1 (Tối đa 2)\n[EndSkill] Nhận 10 [Combustion], số lượt [Combustion] của bản thân tăng thêm 1\n[EndSkill] Nếu [Combustion] của bản thân từ 25 trở lên, nhận 2 [CrimsonDamageUp] ở lượt tiếp theo (1 lần mỗi lượt)\n[EndSkill] Nếu HP đã mất của bản thân từ 50% trở lên, hồi 5 Tinh thần với mỗi 10 [Combustion] của bản thân (<style=\"highlight\">Tối đa 15</style>)",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\n[BeforeAttack] Với mỗi 10 ([Combustion] của tất cả mục tiêu + [Combustion] của bản thân), Sức mạnh Cuối +1 (Tối đa 2)\n[EndSkill] Nhận 10 [Combustion], số lượt [Combustion] của bản thân tăng thêm 1\n[EndSkill] Nếu [Combustion] của bản thân từ 25 trở lên, nhận 2 [CrimsonDamageUp] ở lượt tiếp theo (1 lần mỗi lượt)\n[EndSkill] Nếu HP đã mất của bản thân từ 50% trở lên, hồi 5 Tinh thần với mỗi 10 [Combustion] của bản thân (<style=\"highlight\">Tối đa 15</style>)",
           "coinlist": [
             {
               "coindescs": [
@@ -1075,7 +1075,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[EndCoin] Gây tổng cộng <style=\"highlight\">6</style> [FaustFlameMothEmber] chia cho các mục tiêu ngẫu nhiên (1 lần mỗi lượt, ngoại trừ mục tiêu có giá trị cao nhất. Trong Trận chiến Tập trung được tính là một bộ phận)"
+                  "desc": "[EndCoin] Gây tổng cộng <style=\"highlight\">6</style> [FaustFlameMothEmber] chia cho các mục tiêu ngẫu nhiên (1 lần mỗi lượt, ngoại trừ mục tiêu có [FaustFlameMothEmber] cao nhất. Trong Trận chiến Tập trung được tính là một bộ phận)"
                 }
               ]
             }

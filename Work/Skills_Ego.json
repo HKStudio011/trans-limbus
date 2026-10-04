@@ -12,7 +12,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Gây Giảm Sức mạnh Tấn công 2"
+                  "desc": "[OnSucceedAttackHead] Gây 2 [Reduction]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Lượt kế tiếp, gây [Agility] 1 cho toàn bộ đồng minh"
@@ -30,7 +30,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây Giảm Sức mạnh Tấn công 2"
+                  "desc": "[OnSucceedAttack] Gây 2 [Reduction]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Lượt kế tiếp, gây [Agility] 3 cho toàn bộ đồng minh"
@@ -48,7 +48,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây Giảm Sức mạnh Tấn công 2"
+                  "desc": "[OnSucceedAttack] Gây 2 [Reduction]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Lượt kế tiếp, gây [Agility] 3 cho toàn bộ đồng minh"
@@ -117,7 +117,7 @@
           "level": 5,
           "name": "Ngọn Lửa Que Diêm Thứ 4",
           "abName": "Thiếu Nữ Thiêu Rụi",
-          "desc": "<style=\"highlight\">[BeforeAttack] Tổng [Combustion] của mọi mục tiêu bị tấn công\n- Với mỗi 6, Sức mạnh Cuối cùng +1 (Tối đa 4)\n- Với mỗi 1, Lượng Sát thương +1% (Tối đa 30%)</style>",
+          "desc": "<style=\"highlight\">[BeforeAttack] Áp dụng các hiệu ứng sau:\n- Với mỗi 6 [Combustion] trên mọi mục tiêu, Sức mạnh Cuối cùng +1 (Tối đa 4)\n- Với mỗi 1 [Combustion] trên mọi mục tiêu, Lượng Sát thương +1% (Tối đa 30%)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -188,7 +188,7 @@
           "level": 5,
           "name": "Ngọn Lửa Que Diêm Thứ 4",
           "abName": "Thiếu Nữ Thiêu Rụi",
-          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\n<style=\"highlight\">[BeforeAttack] Tổng [Combustion] của mọi mục tiêu bị tấn công\n- Với mỗi 6, Sức mạnh Cuối cùng +1 (Tối đa 6)\n- Với mỗi 1, Lượng Sát thương +1.5% (Tối đa 45%)\n[DefeatDuel] Sức mạnh Cơ bản -12\n[EndSkill] Lượt kế tiếp nhận [MatchesPersonality] (1 lần mỗi lượt)</style>",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\n<style=\"highlight\">[BeforeAttack] Áp dụng các hiệu ứng sau:\n- Với mỗi 6 [Combustion] trên mọi mục tiêu, Sức mạnh Cuối cùng +1 (Tối đa 6)\n- Với mỗi 1 [Combustion] trên mọi mục tiêu, Lượng Sát thương +1.5% (Tối đa 45%)\n[DefeatDuel] Sức mạnh Cơ bản -12\n[EndSkill] Lượt kế tiếp nhận [MatchesPersonality] (1 lần mỗi lượt)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -237,7 +237,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây 2 Mong manh (Fragile) hệ Lười"
+                  "desc": "[OnSucceedAttack] Gây 2 [AmberTakeDamageUp]"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Gây 3 [Paralysis] (Paralysis)"
@@ -260,7 +260,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây 1 Mong manh (Fragile) hệ Lười"
+                  "desc": "[OnSucceedAttack] Gây 1 [AmberTakeDamageUp]"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Gây 2 [Paralysis] (Paralysis)"
@@ -278,7 +278,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây 1 Mong manh (Fragile) hệ Lười"
+                  "desc": "[OnSucceedAttack] Gây 1 [AmberTakeDamageUp]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Gây 2 [Paralysis] (Paralysis)"
@@ -419,7 +419,7 @@
                   "desc": "[OnSucceedAttack] Gây 10 sát thương Tinh thần lên mục tiêu"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gây 1 Giảm Sức mạnh Tấn công vào lượt tiếp theo"
+                  "desc": "[OnSucceedAttack] Gây 1 [Reduction] vào lượt tiếp theo"
                 }
               ]
             }
@@ -437,7 +437,7 @@
                   "desc": "[OnSucceedAttack] Gây 20 sát thương Tinh thần lên mục tiêu"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gây 2 Giảm Sức mạnh Tấn công vào lượt tiếp theo"
+                  "desc": "[OnSucceedAttack] Gây 2 [Reduction] vào lượt tiếp theo"
                 }
               ]
             }
@@ -458,7 +458,7 @@
                   "desc": "[OnSucceedAttackTail] Gây 10 sát thương Tinh thần cho mục tiêu"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trao 2 Giảm Sức mạnh Tấn công vào lượt tiếp theo"
+                  "desc": "[OnSucceedAttack] Trao 2 [Reduction] vào lượt tiếp theo"
                 }
               ]
             }
@@ -481,7 +481,7 @@
                   "desc": "[OnSucceedAttack] Trao 1 [PenetrateTakeDamageUp]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trao 1 Mong manh Đố kị"
+                  "desc": "[OnSucceedAttack] Trao 1 [VioletTakeDamageUp]"
                 }
               ]
             }
@@ -499,7 +499,7 @@
                   "desc": "[OnSucceedAttack] Trao 3 [PenetrateTakeDamageUp]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trao 1 Mong manh Đố kị"
+                  "desc": "[OnSucceedAttack] Trao 1 [VioletTakeDamageUp]"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Trao 3 [Curse]"
@@ -520,7 +520,7 @@
                   "desc": "[OnSucceedAttack] Trao 3 [PenetrateTakeDamageUp]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trao 1 Mong manh Đố kị"
+                  "desc": "[OnSucceedAttack] Trao 1 [VioletTakeDamageUp]"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Trao 3 [Curse]"
@@ -3394,7 +3394,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] <style=\"highlight\">Nếu tiêu hao số lượng Sạc (Charge), gây 3 Vết Nứt Không Gian</style>"
+                  "desc": "[OnSucceedAttack] <style=\"highlight\">Nếu tiêu hao số lượng [Charge], gây 3 [DimensionRift]</style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Gây sát thương Ngạo mạn bằng ([Burst] (Rupture) của mục tiêu × <style=\"highlight\">10</style>)% lượng sát thương và tiêu hao 5 số lượng [Burst] (Rupture) (Tối đa <style=\"highlight\">100</style>%)"
@@ -3412,7 +3412,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Nếu tiêu hao số lượng Sạc (Charge), gây <style=\"highlight\">5</style> Vết Nứt Không Gian"
+                  "desc": "[OnSucceedAttack] Nếu tiêu hao số lượng [Charge], gây <style=\"highlight\">5</style> [DimensionRift]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Gây sát thương Ngạo mạn bằng ([Burst] (Rupture) của mục tiêu × 10)% lượng sát thương và tiêu hao 5 số lượng [Burst] (Rupture) (Tối đa 100%)<style=\"highlight\"></style>"
@@ -3453,7 +3453,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Nếu tiêu hao số lượng Sạc (Charge), gây 3 Vết Nứt Không Gian</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Nếu tiêu hao số lượng [Charge], gây 3 [DimensionRift]</style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Gây <style=\"highlight\">6</style> [Burst] (Rupture)"
@@ -3474,7 +3474,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Nếu tiêu hao số lượng Sạc (Charge), gây <style=\"highlight\">5</style> Vết Nứt Không Gian"
+                  "desc": "[OnSucceedAttack] Nếu tiêu hao số lượng [Charge], gây <style=\"highlight\">5</style> [DimensionRift]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Gây 6 [Burst] (Rupture)<style=\"highlight\"></style>"
@@ -4168,7 +4168,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trong lượt này và lượt tiếp theo, gây Mong manh hệ Lười biếng, 1 Mong manh hệ Đâm"
+                  "desc": "[OnSucceedAttack] Trong lượt này và lượt tiếp theo, gây 1 [AmberTakeDamageUp] và 1 [PenetrateTakeDamageUp]"
                 }
               ]
             }
@@ -4183,7 +4183,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trong lượt này và lượt tiếp theo, gây Mong manh hệ Lười biếng, 2 Mong manh hệ Đâm"
+                  "desc": "[OnSucceedAttack] Trong lượt này và lượt tiếp theo, gây 2 [AmberTakeDamageUp] và 2 [PenetrateTakeDamageUp]"
                 }
               ]
             }

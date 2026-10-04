@@ -815,7 +815,7 @@
     {
       "id": 1060721,
       "name": "Trang bị sinh học phổ thông",
-      "desc": "Khi 1 đồng minh có Tốc độ cao nhất tiêu diệt kẻ địch đang bị Xuất huyết (Bleed), nhận 1 Tăng Sức mạnh Tấn công vào lượt kế tiếp (Tối đa 1 lần mỗi lượt)"
+      "desc": "Khi 1 đồng minh có Tốc độ cao nhất tiêu diệt kẻ địch đang bị <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Xuất huyết (Bleed)</color></link></u>, nhận 1 Tăng Sức mạnh Tấn công vào lượt kế tiếp (Tối đa 1 lần mỗi lượt)"
     },
     {
       "id": 1020701,
@@ -1089,12 +1089,12 @@
     {
       "id": 1050801,
       "name": "Bản Quốc Kiếm Thuật",
-      "desc": "Trong trận chiến này, khi nhận sát thương khiến Máu trở về 0, duy trì 1 Máu để chịu đựng. (1 lần mỗi trận)\n\nKhi nhận Uy lực, Số lần [Breath] bằng kĩ năng hoặc hiệu ứng đồng xu của bản thân, Uy lực và Số lần [Breath] của 2 Bản sắc Kiếm Khế không có [Breath] hoặc có ít nhất ngoại trừ bản thân tăng thêm 1\n- Nếu có từ 6 thành viên Kiếm Khế trở lên tham gia chiến đấu, tăng thêm 2 thay thế"
+      "desc": "Trong trận chiến này, khi nhận sát thương khiến Máu trở về 0, duy trì 1 Máu để chịu đựng. (1 lần mỗi trận)\n\nKhi bản thân nhận Uy lực/Số lần [Breath] bằng kĩ năng hoặc hiệu ứng đồng xu của bản thân: Cho 2 Bản sắc Kiếm Khế khác không có [Breath] hoặc có ít nhất [Breath] 1 Uy lực [Breath] và +1 Số lần [Breath]\n- Nếu có từ 6 thành viên Kiếm Khế trở lên tham gia chiến đấu, thay vào đó trao 2 Uy lực [Breath] và +2 Số lần [Breath]"
     },
     {
       "id": 1050811,
       "name": "Bản Quốc Kiếm Thuật",
-      "desc": "Trong trận chiến này, khi nhận sát thương khiến Máu trở về 0, duy trì 1 Máu để chịu đựng. (1 lần mỗi trận)\n\nKhi nhận Uy lực, Số lần [Breath] bằng kĩ năng hoặc hiệu ứng đồng xu của bản thân, Uy lực và Số lần [Breath] của 2 Bản sắc Kiếm Khế không có [Breath] hoặc có ít nhất ngoại trừ bản thân tăng thêm 1\n- Nếu có từ 6 thành viên Kiếm Khế trở lên tham gia chiến đấu, tăng thêm 2 thay thế\n\n<style=\"highlight\">Khi bắt đầu cuộc chiến, gây [SwordPlayOfTheHomeland] cho các thành viên Kiếm Khế ngoại trừ bản thân</style>"
+      "desc": "Trong trận chiến này, khi nhận sát thương khiến Máu trở về 0, duy trì 1 Máu để chịu đựng. (1 lần mỗi trận)\n\nKhi bản thân nhận Uy lực/Số lần [Breath] bằng kĩ năng hoặc hiệu ứng đồng xu của bản thân: Cho 2 Bản sắc Kiếm Khế khác không có [Breath] hoặc có ít nhất [Breath] 1 Uy lực [Breath] và +1 Số lần [Breath]\n- Nếu có từ 6 thành viên Kiếm Khế trở lên tham gia chiến đấu, thay vào đó trao 2 Uy lực [Breath] và +2 Số lần [Breath]\n\n<style=\"highlight\">Khi bắt đầu cuộc chiến, gây [SwordPlayOfTheHomeland] cho các thành viên Kiếm Khế ngoại trừ bản thân</style>"
     },
     {
       "id": 1050821,
@@ -1159,13 +1159,13 @@
     {
       "id": 1090801,
       "name": "Khí thế nóng bỏng",
-      "desc": "Với mỗi 6 Sức mạnh [Combustion] của mục tiêu, Lượng sát thương +5% (Tối đa 15%)\nKhi bắt đầu trận đấu, nếu tất cả kẻ địch đều đang bị gây từ 6 [Combustion] trở lên, gây 1 [CrimsonDamageUp] cho số lượng đồng minh tương ứng (Số lượng Cộng hưởng Hoàn toàn hệ Phẫn nộ tối đa) theo thứ tự sắp xếp\n- Trong Trận chiến tập trung, phán đoán theo bộ phận",
+      "desc": "Với mỗi 6 Sức mạnh [Combustion] của mục tiêu, Lượng sát thương +5% (Tối đa 15%)\nKhi bắt đầu trận đấu, nếu tất cả kẻ địch đều đang bị gây từ 6 [Combustion] trở lên, gây 1 [CrimsonDamageUp] cho số lượng đồng minh tương ứng (Số lượng Cộng hưởng Hoàn toàn hệ Phẫn nộ tối đa) theo thứ tự sắp xếp\n- Trong Trận chiến tập trung, phán đoán theo bộ phận khi tất cả bộ phận của kẻ địch đang bị gây từ 6 [Combustion] trở lên",
       "summary": "Với mỗi 6 Sức mạnh [Combustion] của mục tiêu, Lượng sát thương +5% (Tối đa 15%)\nGây hiệu ứng tăng cường cho đồng minh dựa theo điều kiện Bỏng, Cộng hưởng Hoàn toàn hệ Phẫn nộ"
     },
     {
       "id": 1090811,
       "name": "Khí thế nóng bỏng",
-      "desc": "Với mỗi 6 Sức mạnh [Combustion] của mục tiêu, Lượng sát thương +10% (Tối đa 30%)\nKhi bắt đầu trận đấu, nếu tất cả kẻ địch đều đang bị gây từ 6 [Combustion] trở lên, gây 1 [CrimsonDamageUp] cho số lượng đồng minh tương ứng (Số lượng Cộng hưởng Hoàn toàn hệ Phẫn nộ tối đa) theo thứ tự sắp xếp\n- Trong Trận chiến tập trung, phán đoán theo bộ phận\n- Nếu mục tiêu là Fixer Hiệp hội Liu, gây Tăng Sức mạnh Tấn công 1",
+      "desc": "Với mỗi 6 Sức mạnh [Combustion] của mục tiêu, Lượng sát thương +10% (Tối đa 30%)\nKhi bắt đầu trận đấu, nếu tất cả kẻ địch đều đang bị gây từ 6 [Combustion] trở lên, gây 1 [CrimsonDamageUp] cho số lượng đồng minh tương ứng (Số lượng Cộng hưởng Hoàn toàn hệ Phẫn nộ tối đa) theo thứ tự sắp xếp\n- Trong Trận chiến tập trung, phán đoán theo bộ phận khi tất cả bộ phận của kẻ địch đang bị gây từ 6 [Combustion] trở lên\n- Nếu mục tiêu là Fixer Hiệp hội Liu, gây Tăng Sức mạnh Tấn công 1",
       "summary": "Với mỗi 6 Sức mạnh [Combustion] của mục tiêu, Lượng sát thương +10% (Tối đa 30%)\nGây hiệu ứng tăng cường cho đồng minh dựa theo điều kiện Bỏng, Cộng hưởng Hoàn toàn hệ Phẫn nộ"
     },
     {
@@ -1177,13 +1177,13 @@
       "id": 1040701,
       "name": "Hỏa truyền",
       "desc": "Khi bản thân tiêu diệt kẻ địch bị gây [Combustion], gây 4 [Combustion] cho 1 kẻ địch ngẫu nhiên không có [Combustion] hoặc có Sức mạnh [Combustion] thấp nhất (1 lần mỗi lượt)\n- Trong Trận chiến tập trung, gây lên bộ phận",
-      "summary": "Khi tiêu diệt kẻ địch bị gây [Combustion], gây 4 [Combustion] cho 1 kẻ địch ngẫu nhiên không có [Combustion] hoặc có Sức mạnh thấp nhất"
+      "summary": "Khi tiêu diệt kẻ địch bị gây [Combustion], gây 4 [Combustion] cho 1 kẻ địch ngẫu nhiên không có [Combustion] hoặc có Sức mạnh [Combustion] thấp nhất"
     },
     {
       "id": 1040711,
       "name": "Hỏa truyền",
       "desc": "Khi bản thân tiêu diệt kẻ địch bị gây [Combustion], gây 4 [Combustion] cho 2 kẻ địch ngẫu nhiên không có [Combustion] hoặc có Sức mạnh [Combustion] thấp nhất (2 lần mỗi lượt)\n- Trong Trận chiến tập trung, gây lên bộ phận",
-      "summary": "Khi tiêu diệt kẻ địch bị gây [Combustion], gây 4 [Combustion] cho 2 kẻ địch ngẫu nhiên không có [Combustion] hoặc có Sức mạnh thấp nhất"
+      "summary": "Khi tiêu diệt kẻ địch bị gây [Combustion], gây 4 [Combustion] cho 2 kẻ địch ngẫu nhiên không có [Combustion] hoặc có Sức mạnh [Combustion] thấp nhất"
     },
     {
       "id": 1040721,
@@ -1206,7 +1206,7 @@
     {
       "id": 1070811,
       "name": "Sự hiện diện nghiêm ngặt",
-      "desc": "Với mỗi 6 Sức mạnh [Vibration] của mục tiêu, Lượng sát thương +10% (Tối đa 30%)\nKhi chuyển đổi bằng hiệu ứng kĩ năng của bản thân sang [VibrationCollapse], kích hoạt [VibrationExplosion] lên mục tiêu",
+      "desc": "Với mỗi 6 Sức mạnh [Vibration] của mục tiêu, Lượng sát thương +10% (Tối đa 30%)\nKhi chuyển đổi [Vibration] bằng hiệu ứng kĩ năng của bản thân sang [VibrationCollapse], kích hoạt [VibrationExplosion] lên mục tiêu",
       "summary": ""
     },
     {
@@ -1368,13 +1368,13 @@
     {
       "id": 1040821,
       "name": "Chỉ huy dọn dẹp",
-      "desc": "Khi 1 đồng minh ở vị trí cuối cùng trong thứ tự đội hình thắng khiêu chiến, số lần nhịp thở tăng 1 (3 lần mỗi lượt)",
+      "desc": "Khi 1 đồng minh ở vị trí cuối cùng trong thứ tự đội hình thắng khiêu chiến, nhận +1 Số lần [Breath] (3 lần mỗi lượt)",
       "summary": ""
     },
     {
       "id": 1040831,
       "name": "Chỉ huy dọn dẹp",
-      "desc": "Khi 1 đồng minh ở vị trí cuối cùng trong thứ tự đội hình thắng khiêu chiến, số lần nhịp thở tăng 1 (3 lần mỗi lượt). Nhận 1 [Agility] vào lượt tiếp theo (1 lần mỗi lượt)",
+      "desc": "Khi 1 đồng minh ở vị trí cuối cùng trong thứ tự đội hình thắng khiêu chiến, nhận +1 Số lần [Breath] (3 lần mỗi lượt). Nhận 1 [Agility] vào lượt tiếp theo (1 lần mỗi lượt)",
       "summary": ""
     },
     {
@@ -1723,13 +1723,13 @@
     {
       "id": 1061001,
       "name": "Thuật Săn Bắn Vui Vẻ",
-      "desc": "Nếu mục tiêu là <Huyết Quỷ>, <Huyết Nang>, Lượng sát thương +10%\nKhi sử dụng Kĩ năng, nếu bản thân có [Laceration], ban [Burst] 3 khi tấn công trúng đích (1 lần mỗi lượt)",
+      "desc": "Nếu mục tiêu là <Bloodfiend> hoặc <Bloodbag>, Lượng sát thương +10%\nKhi sử dụng Kĩ năng, nếu bản thân có [Laceration], gây 3 [Burst] khi tấn công trúng đích (1 lần mỗi lượt)",
       "summary": ""
     },
     {
       "id": 1061011,
       "name": "Thuật Săn Bắn Vui Vẻ",
-      "desc": "Nếu mục tiêu là <Huyết Quỷ>, <Huyết Nang>, hoặc mức [Burst] của mục tiêu từ 10 trở lên, Lượng sát thương +10%\nKhi sử dụng Kĩ năng, nếu bản thân có [Laceration], ban [Burst] 3 khi tấn công trúng đích (2 lần mỗi lượt)",
+      "desc": "Nếu mục tiêu là <Bloodfiend>, <Bloodbag>, hoặc mức [Burst] của mục tiêu từ 10 trở lên, Lượng sát thương +10%\nKhi sử dụng Kĩ năng, nếu bản thân có [Laceration], gây 3 [Burst] khi tấn công trúng đích (2 lần mỗi lượt)",
       "summary": ""
     },
     {
@@ -1982,7 +1982,7 @@
     {
       "id": 1081121,
       "name": "Lưỡi Kiếm Xưởng Vân",
-      "desc": "1 đồng minh có Tốc độ cao nhất tăng +1 giá trị cấp hoặc số lượng [Vết rách] gây ra cho kẻ địch thông qua hiệu ứng Kĩ năng/Đồng xu"
+      "desc": "1 đồng minh có Tốc độ cao nhất tăng +1 Cường độ hoặc Số lượng [Laceration] gây ra cho kẻ địch thông qua hiệu ứng Kĩ năng/Đồng xu"
     },
     {
       "id": 1011201,
@@ -2144,8 +2144,8 @@
     {
       "id": 1081201,
       "name": "Phá Hấp Tự Hoàn",
-      "desc": "Khi tiêu diệt mục tiêu bằng Kĩ năng tấn công của bản thân, nhận [Breath] tương ứng với [Burst] của mục tiêu (Tối đa 3 mỗi kẻ địch, 1 lần mỗi lượt)\n- Nếu nhận đến 3 [Breath] bằng hiệu ứng trên, số lượt [Breath] của bản thân tăng thêm tương ứng với số lượt [Burst] của mục tiêu (Tối đa 2 mỗi kẻ địch, 1 lần mỗi lượt)\n\nKhi đang Đối đầu, nếu Cấp độ Tấn công cao hơn kẻ địch đang đối đầu, Sức mạnh Đối đầu +1\n\nKhi đang Đối đầu, nếu Cấp độ Tấn công cao hơn kẻ địch đang đối đầu, tăng +1 Cường độ hoặc Số lượt [Burst] gây ra bởi Kĩ năng cơ bản (Kích hoạt 2 lần mỗi lượt)",
-      "summary": "Khi Đối đầu, nếu Cấp độ Tấn công cao hơn mục tiêu tấn công, Sức mạnh Đối đầu +1\nTăng +1 Cường độ hoặc Số lượt [Burst] gây ra bởi Kĩ năng cơ bản"
+      "desc": "Khi tiêu diệt mục tiêu bằng Kĩ năng tấn công của bản thân, nhận [Breath] tương ứng với [Burst] của mục tiêu (Tối đa 3 mỗi kẻ địch, 1 lần mỗi lượt)\n- Nếu nhận đến 3 [Breath] bằng hiệu ứng trên, số lượt [Breath] của bản thân tăng thêm tương ứng với số lượt [Burst] của mục tiêu (Tối đa 2 mỗi kẻ địch, 1 lần mỗi lượt)\n\nKhi đang Đối đầu, nếu Cấp độ Tấn công cao hơn kẻ địch đang đối đầu, Sức mạnh Đối đầu +1\n\nKhi đang Đối đầu, nếu Cấp độ Tấn công cao hơn kẻ địch đang đối đầu, tăng +1 Cường độ [Burst] hoặc Số lượt [Burst] gây ra bởi Kĩ năng cơ bản (Kích hoạt 2 lần mỗi lượt)",
+      "summary": "Khi Đối đầu, nếu Cấp độ Tấn công cao hơn mục tiêu tấn công, Sức mạnh Đối đầu +1\nTăng +1 Cường độ [Burst] và Số lượt [Burst] gây ra bởi Kĩ năng cơ bản"
     },
     {
       "id": 1081202,
@@ -2180,25 +2180,25 @@
     {
       "id": 1101321,
       "name": "Tái Nạp",
-      "desc": "Khi kết thúc đòn tấn công của 1 đồng minh có thứ tự đội hình sớm nhất trong số các Identity sử dụng [Bullet], nếu [Bullet] hiện có của Identity đó thấp hơn một nửa, nhận lại [Bullet] bằng một nửa giá trị tối đa (làm tròn lên, 1 lần mỗi trận, giá trị [Bullet] nhận tối đa: 5)\n\n- Với [Bullet] có Cường độ và Số lượt tách biệt, sẽ nhận ngẫu nhiên Cường độ hoặc Số lượt\n- Nếu Cường độ hoặc Số lượt đạt tối đa, sẽ nhận cho phần chưa đạt tối đa\n- Nếu không có Identity nào sử dụng [Bullet], hiệu ứng này không kích hoạt.",
+      "desc": "Khi kết thúc đòn tấn công của 1 đồng minh có thứ tự đội hình sớm nhất trong số các Identity sử dụng [Bullet], nếu [Bullet] hiện có của Identity đó thấp hơn một nửa, nhận lại [Bullet] bằng một nửa giá trị tối đa (làm tròn lên, 1 lần mỗi trận, giá trị [Bullet] nhận tối đa: 5)\n\n- Với [Bullet] có Cường độ và Số lượt tách biệt, sẽ nhận ngẫu nhiên Cường độ hoặc Số lượt\n- Nếu Cường độ hoặc Số lượt [Bullet] đạt tối đa, sẽ nhận cho phần chưa đạt tối đa\n- Nếu không có Identity nào sử dụng [Bullet], hiệu ứng này không kích hoạt.",
       "summary": ""
     },
     {
       "id": 1051202,
       "name": "Sáp Si Hổ",
-      "desc": "Áp dụng thường trực: Sở hữu 12 [BulletPropellantAlly]\n\nKhi tung đồng xu tiêu tốn [BulletPropellantAlly], [BulletPropellantSpecialAlly], dù không có đạn đặc biệt tương ứng, đòn tấn công cũng không bị hủy, thay vào đó hiệu ứng Gây [Combustion], tăng số lượt [Combustion] khi trúng đích của đồng xu đó sẽ không kích hoạt.\n\nTrong trận chiến này, nếu lần đầu trang bị Kĩ năng phòng thủ hoặc sử dụng hết [BulletPropellantAlly], hoặc bị Hoảng loạn, vào cuối lượt đó nạp 8 viên [BulletPropellantSpecialAlly] và nhận 1 [IrritationAlly] (1 lần mỗi trận).\n- Khi hiệu ứng kích hoạt trong trạng thái Hoảng loạn, giải trừ trạng thái Hoảng loạn (Ngoại trừ Hoảng loạn cưỡng chế).\n- Nếu còn [BulletPropellantAlly], tiêu biến tất cả.\n- Nếu tổng [BulletPropellantAlly] và [BulletPropellantSpecialAlly] bản thân đã tiêu tốn từ 8 trở lên, [IrritationAlly] đổi thành [HugeIrritationAlly].\n\nKhi sử dụng Kĩ năng tấn công cơ bản tiêu tốn viên đạn cuối cùng của [BulletPropellantSpecialAlly],\n- Trước khi bắt đầu tấn công, Mục tiêu tối đa +2\n- Lượt kế tiếp nhận 1 [BeastEyesAlly]",
+      "desc": "Áp dụng thường trực: Sở hữu 12 [BulletPropellantAlly]\n\nKhi tung đồng xu tiêu tốn [BulletPropellantAlly], [BulletPropellantSpecialAlly], dù không có đạn đặc biệt tương ứng, đòn tấn công cũng không bị hủy, thay vào đó hiệu ứng Gây [Combustion], tăng số lượt [Combustion] khi trúng đích của đồng xu đó sẽ không kích hoạt.\n\nTrong trận chiến này, nếu lần đầu trang bị Kĩ năng phòng thủ hoặc sử dụng hết [BulletPropellantAlly], hoặc bị Hoảng loạn, vào cuối lượt đó nạp 8 viên [BulletPropellantSpecialAlly] và nhận 1 [IrritationAlly] (1 lần mỗi trận).\n- Khi hiệu ứng kích hoạt trong trạng thái Hoảng loạn, giải trừ trạng thái Hoảng loạn (Ngoại trừ Hoảng loạn cưỡng chế).\n- Tiêu biến tất cả [BulletPropellantAlly] nếu còn [BulletPropellantAlly].\n- Nếu tổng [BulletPropellantAlly] và [BulletPropellantSpecialAlly] bản thân đã tiêu tốn từ 8 trở lên, [IrritationAlly] đổi thành [HugeIrritationAlly].\n\nKhi sử dụng Kĩ năng tấn công cơ bản tiêu tốn viên đạn cuối cùng của [BulletPropellantSpecialAlly],\n- Trước khi bắt đầu tấn công, Mục tiêu tối đa +2\n- Lượt kế tiếp nhận 1 [BeastEyesAlly]",
       "summary": ""
     },
     {
       "id": 1051201,
       "name": "Thiên Thoái Tinh Đao",
-      "desc": "Khi sở hữu [BulletPropellantAlly],\n- Nếu từ 1 trở lên, tất cả đồng xu của 「Khoái Đao Loạn Ma」 đổi thành [SuperCoin]\n- Sức mạnh đồng xu Kĩ năng tiêu tốn [BulletPropellantAlly] +1 (Áp dụng theo số lượng có thể tiêu tốn)\n\nKhi sở hữu [BulletPropellantSpecialAlly],\n- Nếu từ 1 trở lên, tất cả đồng xu của Kĩ năng tấn công cơ bản đổi thành [SuperCoin]\n- Nếu là 0, đồng xu có thể tiêu tốn đạn đặc biệt của Kĩ năng tấn công cơ bản đổi thành [SuperCoin]\n- Sức mạnh đồng xu của Kĩ năng tiêu tốn [BulletPropellantSpecialAlly] +2 (Áp dụng theo số lượng có thể tiêu tốn)",
+      "desc": "Khi sở hữu [BulletPropellantAlly],\n- Nếu [BulletPropellantAlly] từ 1 trở lên, tất cả đồng xu của 「Khoái Đao Loạn Ma」 đổi thành [SuperCoin]\n- Sức mạnh đồng xu Kĩ năng tiêu tốn [BulletPropellantAlly] +1 (Áp dụng theo số lượng có thể tiêu tốn)\n\nKhi sở hữu [BulletPropellantSpecialAlly],\n- Nếu [BulletPropellantSpecialAlly] từ 1 trở lên, tất cả đồng xu của Kĩ năng tấn công cơ bản đổi thành [SuperCoin]\n- Nếu [BulletPropellantSpecialAlly] là 0, đồng xu có thể tiêu tốn đạn đặc biệt của Kĩ năng tấn công cơ bản đổi thành [SuperCoin]\n- Sức mạnh đồng xu của Kĩ năng tiêu tốn [BulletPropellantSpecialAlly] +2 (Áp dụng theo số lượng có thể tiêu tốn)",
       "summary": ""
     },
     {
       "id": 1051211,
       "name": "Thiên Thoái Tinh Đao",
-      "desc": "Khi sở hữu [BulletPropellantAlly],\n- Nếu từ 1 trở lên, tất cả đồng xu của 「Khoái Đao Loạn Ma」 đổi thành [SuperCoin]\n- Sức mạnh đồng xu Kĩ năng tiêu tốn [BulletPropellantAlly] +1, <style=\"highlight\">Sát thương +10%</style> (Áp dụng theo số lượng có thể tiêu tốn)\n\nKhi sở hữu [BulletPropellantSpecialAlly],\n- Nếu từ 1 trở lên, tất cả đồng xu của Kĩ năng tấn công cơ bản đổi thành [SuperCoin]\n- Nếu là 0, đồng xu có thể tiêu tốn đạn đặc biệt của Kĩ năng tấn công cơ bản đổi thành [SuperCoin]\n- Sức mạnh đồng xu của Kĩ năng tiêu tốn [BulletPropellantSpecialAlly] +2, <style=\"highlight\">Sát thương +30%, giá trị Gây số lượng và số lượt [Combustion] khi đồng xu đó trúng đích +2</style> (Áp dụng theo số lượng có thể tiêu tốn)",
+      "desc": "Khi sở hữu [BulletPropellantAlly],\n- Nếu [BulletPropellantAlly] từ 1 trở lên, tất cả đồng xu của 「Khoái Đao Loạn Ma」 đổi thành [SuperCoin]\n- Sức mạnh đồng xu Kĩ năng tiêu tốn [BulletPropellantAlly] +1, <style=\"highlight\">Sát thương +10%</style> (Áp dụng theo số lượng có thể tiêu tốn)\n\nKhi sở hữu [BulletPropellantSpecialAlly],\n- Nếu [BulletPropellantSpecialAlly] từ 1 trở lên, tất cả đồng xu của Kĩ năng tấn công cơ bản đổi thành [SuperCoin]\n- Nếu [BulletPropellantSpecialAlly] là 0, đồng xu có thể tiêu tốn đạn đặc biệt của Kĩ năng tấn công cơ bản đổi thành [SuperCoin]\n- Sức mạnh đồng xu của Kĩ năng tiêu tốn [BulletPropellantSpecialAlly] +2, <style=\"highlight\">Sát thương +30%, giá trị Gây Cường độ [Combustion] và Số lượng [Combustion] khi đồng xu đó trúng đích +2</style> (Áp dụng theo số lượng có thể tiêu tốn)",
       "summary": ""
     },
     {
@@ -2315,7 +2315,7 @@
       "id": 1061301,
       "name": "Chấp nhận cả dòng máu bẩn thỉu, thực hiện ý nguyện khi đang nhuốm máu ai đó.",
       "desc": "Khi bắt đầu chiến đấu, nếu bản thân bị Tấn công một chiều mà không trang bị [TabExplain] Phòng thủ, ban 1 [HeishouSupportProtect] cho (Số Cộng hưởng tối đa ÷ 3) đồng minh Hắc Thú ngẫu nhiên có chỉ số [SupportProtect] thấp nhất (Tối đa 2 người, mỗi Bản sắc 1 lần. Ngoại trừ các Bản sắc sở hữu [Skill] nhận [SupportProtect]).\n\nKhi nhận sát thương khiến máu về 0 trong trận chiến này, không nhận sát thương đó, duy trì máu ở mức 1 trong 1 lượt và nhận 1 [CondensedBlood] (1 lần mỗi trận).\n\nMỗi 1 [CondensedBlood] của bản thân, Lượng sát thương [Skill] +3%.\n\nKhi kích hoạt [Skill] E.G.O 「Ô Huyết Khấp Lệ [TabExplain] - Chung」, hiệu ứng tử vong khi kết thúc tấn công không kích hoạt và hồi máu bằng 60% giá trị tối đa. Từ lượt tiếp theo, nhận 1 [AttackDmgUp] khi bắt đầu mỗi lượt (1 lần mỗi trận).",
-      "summary": "Khi nhận sát thương khiến máu về 0, không tử trận mà nhận [CondensedBlood]\nKhi kích hoạt 「Ô Huyết Khấp Lệ [TabExplain] - Chung」, bỏ qua hiệu ứng tử vong, hồi máu và nhận [AttackDmgUp]"
+      "summary": "Khi nhận sát thương khiến máu về 0, không tử trận mà nhận [CondensedBlood]\nKhi kích hoạt 「Ô Huyết Khấp Lệ [TabExplain] - Chung [TabExplain]」, bỏ qua hiệu ứng tử vong, hồi máu và nhận [AttackDmgUp]"
     },
     {
       "id": 1061321,
@@ -2381,7 +2381,7 @@
     {
       "id": 1041203,
       "name": "Ta sẽ cho tất cả các ngươi thấy một thứ thú vị",
-      "desc": "Khi bắt đầu chiến đấu, 「Xạ kích điều chỉnh mục tiêu」 của Yi Sang E.G.O Công ty N::Hung Đạn nhận hiệu ứng sau:\n- Nếu Ryoshu E.G.O Công ty N::Khinh Miệt, Uy Kính đang sở hữu [ContemptPersonality] và có thể sử dụng [Skill] cơ bản, thay vào đó sử dụng 「Bắn đi / Bất cứ lúc nào」 lên Ryoshu (1 lần mỗi lượt. Cấp bậc Đồng bộ hóa của Yi Sang được áp dụng cho 「Bắn đi / Bất cứ lúc nào」)\n- Nếu Ryoshu E.G.O Công ty N::Khinh Miệt, Uy Kính không phải là mục tiêu chính, Ryoshu Tấn công một chiều mục tiêu chính bằng [Skill] 1 trước khi bắt đầu tấn công (1 lần mỗi lượt. Lượng sát thương -50% [CantIdentify], mục tiêu chính không tử trận vì [Skill] đó)"
+      "desc": "Khi bắt đầu chiến đấu, 「Xạ kích điều chỉnh mục tiêu」 của Yi Sang E.G.O Công ty N::<noparse>Hung Đạn</noparse> nhận hiệu ứng sau:\n- Nếu Ryoshu E.G.O Công ty N::<noparse>Khinh Miệt</noparse>, Uy Kính đang sở hữu [ContemptPersonality] và có thể sử dụng [Skill] cơ bản, thay vào đó sử dụng 「Bắn đi / Bất cứ lúc nào」 lên Ryoshu (1 lần mỗi lượt. Cấp bậc Đồng bộ hóa của Yi Sang được áp dụng cho 「Bắn đi / Bất cứ lúc nào」)\n- Nếu Ryoshu E.G.O Công ty N::<noparse>Khinh Miệt</noparse>, Uy Kính không phải là mục tiêu chính, Ryoshu Tấn công một chiều mục tiêu chính bằng [Skill] 1 trước khi bắt đầu tấn công (1 lần mỗi lượt. Lượng sát thương -50% [CantIdentify], mục tiêu chính không tử trận vì [Skill] đó)"
     },
     {
       "id": 1041221,
@@ -2417,12 +2417,12 @@
     {
       "id": 1071311,
       "name": "Giáp làm sạch tắc nghẽn",
-      "desc": "- Khi bắt đầu chiến đấu, nếu máu của bản thân dưới 50%, nhận Khiên bằng (Sức mạnh [Sạc] × 5) (Tối đa 25)\n- Ngay trước khi nhận sát thương, nhận Khiên bằng (Sức mạnh [Sạc] của bản thân) (Tối đa 5, tối đa 3 lần mỗi lượt)\n- Nếu nhận Số lượng [Sạc] vượt quá giá trị tối đa bằng [Skill] của bản thân, mỗi 1 Số lượng [Sạc] vượt mức tối đa tăng +3% Lượng sát thương của [Skill] đó (Tối đa 15%)"
+      "desc": "- Khi bắt đầu chiến đấu, nếu máu của bản thân dưới 50%, nhận Khiên bằng (Sức mạnh [Charge] × 5) (Tối đa 25)\n- Ngay trước khi nhận sát thương, nhận Khiên bằng (Sức mạnh [Charge] của bản thân) (Tối đa 5, tối đa 3 lần mỗi lượt)\n- Nếu nhận Số lượng [Charge] vượt quá giới hạn Số lượng [Charge] tối đa bằng [Skill] của bản thân, mỗi 1 Số lượng [Charge] vượt quá giới hạn Số lượng [Charge] tối đa tăng +3% Lượng sát thương của [Skill] đó (Tối đa 15%)"
     },
     {
       "id": 1071321,
       "name": "「Có khi nào mình cũng có thể nhắm tới trang bị dọn dẹp dùng cho tàu ngừng chạy không nhỉ」",
-      "desc": "- Khi bắt đầu chiến đấu, nếu đồng minh có thứ tự đội hình sớm nhất nhận Số lượng [Sạc] vượt quá giá trị tối đa bằng [Skill] của bản thân, với mỗi 1 Số lượng [Sạc] vượt mức, nhận [ChargeForceField] vào lượt tiếp theo (Tối đa 3, bao gồm cả [Skill] E.G.O)"
+      "desc": "- Khi bắt đầu chiến đấu, nếu đồng minh có thứ tự đội hình sớm nhất nhận Số lượng [Charge] vượt quá giới hạn Số lượng [Charge] tối đa bằng [Skill] của bản thân, với mỗi 1 Số lượng [Charge] vượt quá giới hạn Số lượng [Charge] tối đa, nhận 1 [ChargeForceField] vào lượt tiếp theo (Tối đa 3, bao gồm cả [Skill] E.G.O)"
     },
     {
       "id": 1051301,
@@ -2461,7 +2461,7 @@
     {
       "id": 1081302,
       "name": "Koi-koi",
-      "desc": "Khi bắt đầu lượt, nếu không có [HanafudaCombo], nhận 0 Cấp, 3 Số lượng [HanafudaCombo]\n\nKhi bắt đầu lượt, nếu không có \"Tổ hợp Bài\", nhận ngẫu nhiên một \"Tổ hợp Bài\" trong số [HanafudaOne], [HanafudaTwo], [HanafudaThree] tương ứng với Kĩ năng tấn công cơ bản tại ô kĩ năng ngoài cùng bên trái của bản thân\n\nKhi bắt đầu trận chiến, áp dụng các hiệu ứng sau khi sử dụng Kĩ năng tấn công cơ bản hoặc Kĩ năng E.G.O trang bị tại ô kĩ năng ngoài cùng bên trái (1 lần mỗi lượt):\n- Lượt tiếp theo, đổi thành \"Tổ hợp Bài\" tương ứng với kĩ năng đó\n- Nếu là \"Sakura-sen\" hoặc Kĩ năng E.G.O, nhận 1 Cấp [HanafudaCombo]\n- Nếu hệ của kĩ năng đó khớp với \"Tổ hợp Bài\", áp dụng các hiệu ứng sau:\n・Nhận 1 Cấp [HanafudaCombo]\n・Nếu lượt trước cũng khớp \"Tổ hợp Bài\", nhận 1 Cấp [HanafudaCombo]\n・Khi kĩ năng đó trúng đích, [VibrationExplosion]. Giảm 1 Số lượng [Vibration] của mục tiêu\n・25% xác suất nhận 1 tài nguyên E.G.O cùng hệ với kĩ năng đó\n- Khi kĩ năng đó kết thúc, nếu Cấp [HanafudaCombo] là 5 hoặc Số lượng là 0, kích hoạt \"Hikari-giri\"",
+      "desc": "Khi bắt đầu lượt, nếu không có [HanafudaCombo], nhận 0 Cấp [HanafudaCombo], 3 Số lượng [HanafudaCombo]\n\nKhi bắt đầu lượt, nếu không có \"Tổ hợp Bài\", nhận ngẫu nhiên một \"Tổ hợp Bài\" trong số [HanafudaOne], [HanafudaTwo], [HanafudaThree] tương ứng với Kĩ năng tấn công cơ bản tại ô kĩ năng ngoài cùng bên trái của bản thân\n\nKhi bắt đầu trận chiến, áp dụng các hiệu ứng sau khi sử dụng Kĩ năng tấn công cơ bản hoặc Kĩ năng E.G.O trang bị tại ô kĩ năng ngoài cùng bên trái (1 lần mỗi lượt):\n- Lượt tiếp theo, đổi thành \"Tổ hợp Bài\" tương ứng với kĩ năng đó\n- Nếu là \"Sakura-sen\" hoặc Kĩ năng E.G.O, nhận 1 Cấp [HanafudaCombo]\n- Nếu hệ của kĩ năng đó khớp với \"Tổ hợp Bài\", áp dụng các hiệu ứng sau:\n・Nhận 1 Cấp [HanafudaCombo]\n・Nếu lượt trước cũng khớp \"Tổ hợp Bài\", nhận 1 Cấp [HanafudaCombo]\n・Khi kĩ năng đó trúng đích, [VibrationExplosion]. Giảm 1 Số lượng [Vibration] của mục tiêu\n・25% xác suất nhận 1 tài nguyên E.G.O cùng hệ với kĩ năng đó\n- Khi kĩ năng đó kết thúc, nếu Cấp [HanafudaCombo] là 5 hoặc Số lượng [HanafudaCombo] là 0, kích hoạt \"Hikari-giri\"",
       "summary": "Khi tập hợp đủ Tổ hợp Bài, nhận [HanafudaCombo]. Bộc phát Chấn động"
     },
     {
@@ -2507,7 +2507,7 @@
     {
       "id": 1071401,
       "name": "Huyết chiến đối đầu",
-      "desc": "Khi bắt đầu trận chiến, với mỗi 20% Máu đã mất của bản thân, nhận 1 Tăng Cấp độ Tấn công, 1 Tăng Cấp độ Phòng thủ (Tối đa 3)\n\nKhi thỏa mãn các điều kiện sau, nhận [ChickenFightlust] (Tối đa 10 mỗi lượt):\n- Nhận 3 khi bắt đầu đối mặt\n- Nhận 1 khi đánh trúng bằng Kĩ năng tấn công cơ bản, hoặc khi bản thân nhận sát thương [Combustion]\nNếu Máu hiện tại dưới 50%, nhận thêm 1\n- Nhận 5 khi tiêu diệt kẻ địch",
+      "desc": "Khi bắt đầu trận chiến, với mỗi 20% Máu đã mất của bản thân, nhận 1 Tăng Cấp độ Tấn công, 1 Tăng Cấp độ Phòng thủ (Tối đa 3)\n\nKhi thỏa mãn các điều kiện sau, nhận [ChickenFightlust] (Tối đa 10 mỗi lượt):\n- Nhận 3 khi bắt đầu đối mặt\n- Nhận 1 khi đánh trúng bằng Kĩ năng tấn công cơ bản, hoặc khi bản thân nhận sát thương [Combustion]\nNếu Máu hiện tại dưới 50%, nhận thêm 1 [ChickenFightlust]\n- Nhận 5 khi tiêu diệt kẻ địch",
       "summary": "Nhận [ChickenFightlust]"
     },
     {
@@ -2549,7 +2549,7 @@
     {
       "id": 1041301,
       "name": "Du Hiệp",
-      "desc": "Khi kẻ địch tấn công đồng minh và đồng minh đó tử vong hoặc Máu thấp hơn 25%, Ryoshu Võ sĩ lang thang Hồng Viên sẽ Tấn công một phía vào kẻ địch đó bằng 「G.K.T.V (Có thể hiểu là: Giúp Kẻ Thân <noparse>Viện</noparse>)」 khi đòn tấn công tương ứng kết thúc (1 lần mỗi trận đấu)\n- Hong Lu Quân chủ Hồng Viên có thể kích hoạt hiệu ứng này thêm 1 lần nữa vượt qua giới hạn số lần kích hoạt\n\nKhi kích hoạt 「N.M.L (Có thể hiểu là: Này, Mau Lui)」 bằng hiệu ứng nội tại 「Q.K.B.L (Có thể hiểu là: Quân Khả Bàng Lương)」, Sát thương Chí mạng của kĩ năng đó +30%. Hồi 2~4 Tinh thần cho 1 đồng minh (không tính bản thân) có Tinh thần thấp nhất (1 lần mỗi hiệp. Không tính đồng minh có Tinh thần từ -40 trở xuống)",
+      "desc": "Khi kẻ địch tấn công đồng minh và đồng minh đó tử vong hoặc Máu thấp hơn 25%, Ryoshu Võ sĩ lang thang Hồng Viên sẽ Tấn công một phía vào kẻ địch đó bằng 「G.K.T.V (Có thể hiểu là: Giúp Kẻ Thân Viện)」 khi đòn tấn công tương ứng kết thúc (1 lần mỗi trận đấu)\n- Hong Lu Quân chủ Hồng Viên có thể kích hoạt hiệu ứng này thêm 1 lần nữa vượt qua giới hạn số lần kích hoạt\n\nKhi kích hoạt 「N.M.L (Có thể hiểu là: Này, Mau Lui)」 bằng hiệu ứng nội tại 「Q.K.B.L (Có thể hiểu là: Quân Khả Bàng Lương)」, Sát thương Chí mạng của kĩ năng đó +30%. Hồi 2~4 Tinh thần cho 1 đồng minh (không tính bản thân) có Tinh thần thấp nhất (1 lần mỗi hiệp. Không tính đồng minh có Tinh thần từ -40 trở xuống)",
       "summary": "Khi đồng minh nhận sát thương chí mạng, dùng Kĩ năng 3 lên kẻ tấn công. Cường hóa Kĩ năng 1 kích hoạt bằng hiệu ứng nội tại duy trì"
     },
     {
@@ -2578,7 +2578,7 @@
     {
       "id": 1091421,
       "name": "Trong tiếng hát thánh ca, những người đồng đội đang dần lìa xa",
-      "desc": "Sát thương của kĩ năng có hiệu ứng tiêu hao [Charge] hoặc Sạc đặc biệt của 1 đồng minh có Tinh thần thấp nhất để gây [Sinking] lên kẻ địch +10% (Không tính kĩ năng E.G.O)"
+      "desc": "Sát thương của kĩ năng có hiệu ứng tiêu hao [Charge] hoặc Sạc đặc biệt[TabExplain] của 1 đồng minh có Tinh thần thấp nhất để gây [Sinking] lên kẻ địch +10% (Không tính kĩ năng E.G.O)"
     },
     {
       "id": 1111401,
@@ -2595,7 +2595,7 @@
     {
       "id": 1111412,
       "name": "Vương trượng của Horus - Bản sao",
-      "desc": "Khi bắt đầu hiệp, nếu kẻ địch có hiệu ứng thay đổi loại Hoảng loạn, nhận 1 [TheUdjatOutis]\n\nNếu bản thân có [TheUdjatOutis], gây 1 [SheutFracture] khi dùng Kĩ năng Tấn công cơ bản trúng đích (Tối đa 15 mỗi hiệp)\n<style=\"highlight\">- Trường hợp tiêu hao [LCA_Bullet], gây thêm bằng số lượng [LCA_Bullet] đã tiêu hao</style>\n\nTổng giá trị [Protection] nhận được từ Kĩ năng cơ bản và [TheUdjatOutis] của bản thân không vượt quá 5 mỗi hiệp",
+      "desc": "Khi bắt đầu hiệp, nếu kẻ địch có hiệu ứng thay đổi loại Hoảng loạn, nhận 1 [TheUdjatOutis]\n\nNếu bản thân có [TheUdjatOutis], gây 1 [SheutFracture] khi dùng Kĩ năng Tấn công cơ bản trúng đích (Tối đa 15 mỗi hiệp)\n<style=\"highlight\">- Trường hợp tiêu hao [LCA_Bullet], gây thêm [SheutFracture] bằng số lượng [LCA_Bullet] đã tiêu hao</style>\n\nTổng giá trị [Protection] nhận được từ Kĩ năng cơ bản và [TheUdjatOutis] của bản thân không vượt quá 5 mỗi hiệp",
       "summary": ""
     },
     {
@@ -2643,7 +2643,7 @@
     {
       "id": 1031404,
       "name": "Giải Ấn/Khai Hoa E.G.O::Đại Diện",
-      "desc": "Khi kết thúc hiệp nếu [BlessingOfIndexPrescriptAlly] là 3/6/9, nhận [UnlockBuffAlly_1]/[UnlockBuffAlly_2]/[UnlockBuffAlly_3]\n\nNếu nhận [UnlockBuffAlly_1], tiêu hao 15 Tinh thần và chuyển sang trạng thái <noparse>Khai Hoa</noparse> E.G.O::Đại Diện\n- Trước khi tiêu hao Tinh thần, Tinh thần tăng lên đến 25 và nhận [KarmaOfIndexAlly] bằng (Tinh thần tăng thêm ÷ 5) (Làm tròn lên)\n- Sau đó, khi bắt đầu hiệp nếu có [UnlockBuff_Base] và Tinh thần từ 25 trở lên, tiêu hao 15 Tinh thần và chuyển sang trạng thái tương ứng\n\nKhi chuyển sang trạng thái <noparse>Khai Hoa</noparse> E.G.O::Đại Diện,\n- Giải trừ Hỗn loạn của hiệp đó\n(Nếu là Hỗn loạn không thể giải trừ, không thể chuyển sang trạng thái này)\n- Khi ở trạng thái tương ứng, nhận [Blandishment]\n\nKhi bắt đầu hiệp nếu Tinh thần từ 0 trở xuống, trạng thái này sẽ bị giải trừ"
+      "desc": "Khi kết thúc hiệp nếu [BlessingOfIndexPrescriptAlly] là 3/6/9, nhận [UnlockBuffAlly_1]/[UnlockBuffAlly_2]/[UnlockBuffAlly_3]\n\nNếu nhận [UnlockBuffAlly_1], tiêu hao 15 Tinh thần và chuyển sang trạng thái <noparse>Khai Hoa</noparse> E.G.O::Đại Diện\n- Trước khi tiêu hao Tinh thần, Tinh thần tăng lên đến 25 và nhận [KarmaOfIndexAlly] bằng (Tinh thần tăng thêm ÷ 5) (Làm tròn lên)\n- Sau đó, khi bắt đầu hiệp nếu có [UnlockBuff_Base] và Tinh thần từ 25 trở lên, tiêu hao 15 Tinh thần và chuyển sang trạng thái tương ứng\n\n- Khi chuyển sang trạng thái <noparse>Khai Hoa</noparse> E.G.O::Đại Diện mà bị Hỗn loạn, giải trừ Hỗn loạn của hiệp đó (Nếu là Hỗn loạn không thể giải trừ một cách tự nhiên, không thể chuyển sang trạng thái <noparse>Khai Hoa</noparse> E.G.O::Đại Diện)\n- Khi ở trạng thái <noparse>Khai Hoa</noparse> E.G.O::Đại Diện, nhận [Blandishment]\n\nKhi bắt đầu hiệp nếu Tinh thần từ 0 trở xuống, giải trừ trạng thái <noparse>Khai Hoa</noparse> E.G.O::Đại Diện"
     },
     {
       "id": 1031401,
@@ -2654,7 +2654,7 @@
     {
       "id": 1031421,
       "name": "Đây cũng là nhờ ơn của ngài Pipi ma thuật",
-      "desc": "Khi bắt đầu trận đấu, hồi 15 Tinh thần cho 1 đồng minh có Tinh thần thấp nhất\n- Ưu tiên áp dụng cho Bản sắc sử dụng Coin cộng\n- Nếu đối tượng thuộc Chỉ Số, hiệu quả được tăng cường và nhận thêm 1 [AttackDmgUp]\n- Không áp dụng cho đối tượng không thể hồi Tinh thần như bị Ăn mòn, Hoảng loạn, v.v."
+      "desc": "Khi bắt đầu trận đấu, hồi 15 Tinh thần cho 1 đồng minh có Tinh thần thấp nhất\n- Ưu tiên áp dụng cho Bản sắc sử dụng Coin cộng\n- Nếu đối tượng thuộc Chỉ Số, hiệu quả được tăng cường và nhận thêm 1 [AttackDmgUp]\n- Không áp dụng cho đối tượng không thể hồi Tinh thần như bị Ăn mòn[TabExplain], Hoảng loạn, v.v."
     },
     {
       "id": 1081401,
@@ -2664,7 +2664,7 @@
     {
       "id": 1081411,
       "name": "Ngón Giữa sẽ không quên đâu",
-      "desc": "Khi kết thúc lượt, trao [RetaliationBook] cho 1 kẻ địch gây nhiều Sát thương bằng Kĩ năng nhất lên đồng minh trong lượt tương ứng\n\nMỗi khi bản thân nhận Sát thương từ kẻ địch, nhận 2 [ResentmentIshmael] (2 lần mỗi lượt)\nMỗi khi đồng minh thuộc Ngón Giữa ngoại trừ bản thân nhận Sát thương từ kẻ địch, nhận 1 [ResentmentIshmael] (1 lần mỗi lượt trên mỗi Bản sắc)\n<style=\"highlight\">- Nếu đối tượng đã tấn công bản thân hoặc đồng minh có [RetaliationBook], nhận thêm 1\n- Khi bắt đầu trận đấu, nếu có Cộng hưởng Hoàn toàn Đố kị, nhận gấp đôi [ResentmentIshmael] trong lượt này</style>\n\nMỗi khi bản thân tiêu hao 5 [ResentmentIshmael], nhận 1 [ReinforcedTattooIshmael] (2 lần mỗi lượt)\n\nKhi bắt đầu trận đấu, nếu bản thân không có [HeatingWireIshmael] và tổng số Cộng hưởng Đố kị từ 3 trở lên, nhận 2 [HeatingWireIshmael] vào lượt tiếp theo\nKhi bắt đầu trận đấu, nếu bản thân có [HeatingWireIshmael], nhận thêm (Số Cộng hưởng Đố kị ÷ 3) [HeatingWireIshmael] khi kết thúc lượt (Tối đa 2)"
+      "desc": "Khi kết thúc lượt, trao [RetaliationBook] cho 1 kẻ địch gây nhiều Sát thương bằng Kĩ năng nhất lên đồng minh trong lượt tương ứng\n\nMỗi khi bản thân nhận Sát thương từ kẻ địch, nhận 2 [ResentmentIshmael] (2 lần mỗi lượt)\nMỗi khi đồng minh thuộc Ngón Giữa ngoại trừ bản thân nhận Sát thương từ kẻ địch, nhận 1 [ResentmentIshmael] (1 lần mỗi lượt trên mỗi Bản sắc)\n<style=\"highlight\">- Nếu đối tượng đã tấn công bản thân hoặc đồng minh có [RetaliationBook], nhận thêm 1 [ResentmentIshmael]\n- Khi bắt đầu trận đấu, nếu có Cộng hưởng Hoàn toàn Đố kị, nhận gấp đôi [ResentmentIshmael] trong lượt này</style>\n\nMỗi khi bản thân tiêu hao 5 [ResentmentIshmael], nhận 1 [ReinforcedTattooIshmael] (2 lần mỗi lượt)\n\nKhi bắt đầu trận đấu, nếu bản thân không có [HeatingWireIshmael] và tổng số Cộng hưởng Đố kị từ 3 trở lên, nhận 2 [HeatingWireIshmael] vào lượt tiếp theo\nKhi bắt đầu trận đấu, nếu bản thân có [HeatingWireIshmael], nhận thêm (Số Cộng hưởng Đố kị ÷ 3) [HeatingWireIshmael] khi kết thúc lượt (Tối đa 2)"
     },
     {
       "id": 1081402,
@@ -2773,12 +2773,12 @@
     {
       "id": 1051411,
       "name": "Lan tỏa Bào tử",
-      "desc": "Khi tiêu diệt kẻ địch đang sở hữu [MeursaultBeeSpore], áp dụng các hiệu ứng sau\n- Lượng [MeursaultBeeSpore] gây ra trong lượt tiếp theo sẽ tăng gấp đôi\n<style=\"highlight\">- Khi tiêu diệt bằng kĩ năng tấn công cơ bản, nhận lượng Đạn Bào tử bằng (lượng Đạn Bào tử tiêu tốn bởi kĩ năng đó ÷ 2) (Làm tròn lên, 1 lần mỗi kĩ năng)</style>"
+      "desc": "Khi tiêu diệt kẻ địch đang sở hữu [MeursaultBeeSpore], áp dụng các hiệu ứng sau\n- Lượng [MeursaultBeeSpore] gây ra trong lượt tiếp theo sẽ tăng gấp đôi\n<style=\"highlight\">- Khi tiêu diệt bằng kĩ năng tấn công cơ bản, nhận lượng <noparse>Đạn Bào tử</noparse> bằng (lượng <noparse>Đạn Bào tử</noparse> tiêu tốn bởi kĩ năng đó ÷ 2) (Làm tròn lên, 1 lần mỗi kĩ năng)</style>"
     },
     {
       "id": 1051402,
       "name": "Biến điệu E.G.O / Đạn Bào tử",
-      "desc": "Áp dụng thường trực: Sở hữu 10 [MeursaultSporeBulletLong], 6 [MeursaultSporeBulletShort]\n\nKhi Coin tiêu tốn <noparse>Đạn Bào tử</noparse> trúng đích,\n- Nếu tiêu tốn [MeursaultSporeBulletLong], gây 2 [MeursaultBeeSpore]\n- Nếu tiêu tốn [MeursaultSporeBulletShort], gây 3 [MeursaultBeeSpore]\n- Hiệu ứng này được tính là gây hiệu ứng bất lợi bằng kĩ năng\n\nTrước khi sử dụng Coin tiêu tốn [MeursaultSporeBulletShort], nếu không có [MeursaultSporeBulletShort]\ntiêu tốn 2 Tinh thần, 2 [MeursaultSporeBulletLong] để nhận 1 [MeursaultSporeBulletShort]\nNếu thiếu Đạn Bào tử trong khi đang sử dụng kĩ năng, hủy bỏ tất cả các Coin tiếp theo và [MeursaultSporeBulletReloading]\n\nKhi mục tiêu có [MeursaultBeeSpore] chết, nhận 1 [MeursaultWorkerBee]",
+      "desc": "Áp dụng thường trực: Sở hữu 10 [MeursaultSporeBulletLong], 6 [MeursaultSporeBulletShort]\n\nKhi Coin tiêu tốn <noparse>Đạn Bào tử</noparse> trúng đích,\n- Nếu tiêu tốn [MeursaultSporeBulletLong], gây 2 [MeursaultBeeSpore]\n- Nếu tiêu tốn [MeursaultSporeBulletShort], gây 3 [MeursaultBeeSpore]\n- Hiệu ứng này được tính là gây hiệu ứng bất lợi bằng kĩ năng\n\nTrước khi sử dụng Coin tiêu tốn [MeursaultSporeBulletShort], nếu không có [MeursaultSporeBulletShort]\ntiêu tốn 2 Tinh thần, 2 [MeursaultSporeBulletLong] để nhận 1 [MeursaultSporeBulletShort]\nNếu thiếu <noparse>Đạn Bào tử</noparse> trong khi đang sử dụng kĩ năng, hủy bỏ tất cả các Coin tiếp theo và [MeursaultSporeBulletReloading]\n\nKhi mục tiêu có [MeursaultBeeSpore] chết, nhận 1 [MeursaultWorkerBee]",
       "flavor": "\"Kết quả xác nhận từ nhóm nghiên cứu của chúng tôi cho thấy, mặc dù đây là trang bị ổn định được tinh chế và chiết xuất từ Thực thể dị thường, nhưng dường như có những biến đổi tinh vi xảy ra tùy thuộc vào người sử dụng.\nThay vì nói là do không hoàn thiện... có lẽ nên xem đó là quá trình trở nên hoàn thiện hơn, giống như một E.G.O thực thụ.\nTạm thời, hãy đặt tên cho nó là 『Biến điệu』.\""
     },
     {
@@ -2789,7 +2789,7 @@
     {
       "id": 1041401,
       "name": "Đóa hoa không tàn",
-      "desc": "Khi kẻ địch nhận sát thương [Sinking], nhận 1 [AlriuneEGOWe]\nNhận [AlriuneEGOWe] bằng với số lượng [AlriuneEGOThey] đang gây trên kẻ địch\nKhi xảy ra [VibrationExplosion], nhận 2 [AlriuneEGOWe]",
+      "desc": "Khi kẻ địch nhận sát thương [Sinking], nhận 1 [AlriuneEGOWe]\nMỗi khi kẻ địch nhận [AlriuneEGOThey], nhận [AlriuneEGOWe] bằng với số lượng [AlriuneEGOThey] đã gây\nKhi kích hoạt Chấn động bùng nổ, nhận 2 [AlriuneEGOWe]",
       "summary": "Nhận [AlriuneEGOWe]"
     },
     {
@@ -2801,7 +2801,7 @@
     {
       "id": 1041411,
       "name": "Đóa hoa không tàn",
-      "desc": "Khi kẻ địch nhận sát thương [Sinking], nhận 1 [AlriuneEGOWe]\nNhận [AlriuneEGOWe] bằng với số lượng [AlriuneEGOThey] được gây trên kẻ địch\nKhi xảy ra [VibrationExplosion], nhận 2 [AlriuneEGOWe]\n\nKhi kết thúc đòn tấn công của bản thân, nếu [AlriuneEGOWe] của bản thân từ 30 trở lên, kích hoạt 「Tận thế ngây ngất」 lên mục tiêu có [AlriuneEGOThey] cao nhất\n\nLượng sát thương gây ra lên mục tiêu đang Hoảng loạn +(Số lượng [AlriuneEGOThey] của mục tiêu)%\n\nNếu trong lượt này bản thân mất đi từ 10% Máu tối đa trở lên, hồi phục 3% Máu tối đa và 10 Tinh thần (1 lần mỗi lượt)",
+      "desc": "Khi kẻ địch nhận sát thương [Sinking], nhận 1 [AlriuneEGOWe]\nMỗi khi kẻ địch nhận [AlriuneEGOThey], nhận [AlriuneEGOWe] bằng với số lượng [AlriuneEGOThey] đã gây\nKhi kích hoạt Chấn động bùng nổ, nhận 2 [AlriuneEGOWe]\n\nKhi kết thúc đòn tấn công của bản thân, nếu [AlriuneEGOWe] của bản thân từ 30 trở lên, kích hoạt 「Tận thế ngây ngất」 lên mục tiêu có [AlriuneEGOThey] cao nhất\n\nLượng sát thương gây ra lên mục tiêu đang Hoảng loạn +(Số lượng [AlriuneEGOThey] của mục tiêu)%\n\nNếu trong lượt này bản thân mất đi từ 10% Máu tối đa trở lên, hồi phục 3% Máu tối đa và 10 Tinh thần (1 lần mỗi lượt)",
       "summary": "Nhận [AlriuneEGOWe]"
     },
     {
@@ -2843,7 +2843,7 @@
     {
       "id": 1061404,
       "name": "Tác phẩm để đời, Tibia",
-      "desc": "Khi lần đầu xuất hiện trong màn chơi, số lần [ChargeBodyArt] của bản thân tăng thêm (Số đồng minh thuộc Ngón Áp Út có mặt trên chiến trường × 2) (Tối đa 10)\n\nKhi kết thúc kĩ năng, nếu kĩ năng đó đã gây sát thương lên Máu hoặc Lá chắn, số lần [ChargeBodyArt] của bản thân tăng 5\n- Nếu mục tiêu chết, số lần tăng thêm 3\n\nTrong trận đấu, mỗi khi tiêu tốn tổng cộng 10 số lần [ChargeBodyArt] của bản thân, nhận 1 [ChargeBodyArt]\n- Nếu Cường độ [ChargeBodyArt] từ 2 trở lên bởi hiệu ứng trên, nhận [TibiaPersonality]\n\nKĩ năng tấn công cơ bản và kĩ năng Phản đòn có thể Đối đầu được tính là kĩ năng nhận số lần [Charge]",
+      "desc": "Khi lần đầu xuất hiện trong màn chơi, số lần [ChargeBodyArt] của bản thân tăng thêm (Số đồng minh thuộc Ngón Áp Út có mặt trên chiến trường × 2) (Tối đa 10)\n\nKhi kết thúc kĩ năng, nếu kĩ năng đó đã gây sát thương lên Máu hoặc Lá chắn, số lần [ChargeBodyArt] của bản thân tăng 5\n- Nếu mục tiêu chết, số lần [ChargeBodyArt] tăng thêm 3\n\nTrong trận đấu, mỗi khi tiêu tốn tổng cộng 10 số lần [ChargeBodyArt] của bản thân, nhận 1 [ChargeBodyArt]\n- Nếu Cường độ [ChargeBodyArt] từ 2 trở lên bởi hiệu ứng trên, nhận [TibiaPersonality]\n\nKĩ năng tấn công cơ bản và kĩ năng Phản đòn có thể Đối đầu được tính là kĩ năng nhận số lần [Charge]",
       "summary": "Nhận [ChargeBodyArt]"
     },
     {
@@ -2971,7 +2971,7 @@
       "name": "Địa Tuệ Tinh",
       "desc": "Nếu [PhantomIncisionTotalID] của bản thân từ 50 trở lên, thi triển \"Không Gian Trảm - Duyên\" lên kẻ địch ngẫu nhiên ở lượt cuối cùng của lượt đó (1 lần mỗi trận đấu)\n- Sau khi sử dụng \"Không Gian Trảm - Duyên\" bằng hiệu quả này, áp dụng các hiệu quả sau cho bản thân\n· Trong suốt trận đấu này, không thể rút lui\n· Khi kết thúc lượt, nếu [PhantomIncisionTotalID] của bản thân từ 50 trở lên, thay đổi một Kĩ năng Cơ bản thành \"Không Gian Trảm - Tàn\" khi bắt đầu lượt tiếp theo (Ưu tiên áp dụng cho kĩ năng hàng dưới của ô tận cùng bên trái)",
       "summary": "",
-      "flavor": "「Tuệ Tinh Đao, Thiên Sát Tinh Đao. Nếu ngươi nắm giữ đến tận hai thanh kiếm được rèn từ tinh tú, thì rốt cuộc ngươi nên được gọi là vì sao nào đây.」\n「Bị hủy hoại bởi dục vọng quá độ, hoặc giả bị trảm đến tận cùng như những vì tinh tú đã từng, sư phụ ngươi chắc hẳn cũng đã từng kể cho ngươi nghe rồi. Trong hai thanh kiếm đó, chỉ được chọn một mà thôi.」"
+      "flavor": "「Tuệ Tinh Đao, Thiên Sát Tinh Đao. Nếu ngươi nắm giữ đến tận <i>hai</i> thanh kiếm được rèn từ tinh tú, thì rốt cuộc ngươi nên được gọi là vì sao nào đây.」\n「Bị hủy hoại bởi dục vọng quá độ, hoặc giả bị trảm đến tận cùng như những vì tinh tú đã từng, sư phụ ngươi chắc hẳn cũng đã từng kể cho ngươi nghe rồi. Trong hai thanh kiếm đó, chỉ được chọn một mà thôi.」"
     },
     {
       "id": 1041504,
@@ -2983,7 +2983,7 @@
     {
       "id": 1041501,
       "name": "Tàn ảnh Phản hồi",
-      "desc": "Cứ mỗi 1 Cường độ [Breath] vượt quá 20 của bản thân, Lượng Sát thương Chí mạng của Kĩ năng Tấn công Cơ bản +1% (Tối đa 10%)\nKhi Kĩ năng Tấn công Cơ bản đánh Chí mạng, gây 1 [PhantomIncisionID]\n\nCó thể kích hoạt Nội tại của E.G.O Tam Thiên Đại Thế Giới bằng kĩ năng tấn công nhắm vào đồng minh",
+      "desc": "Cứ mỗi 1 Cường độ [Breath] vượt quá 20 [Breath] của bản thân, Lượng Sát thương Chí mạng của Kĩ năng Tấn công Cơ bản +1% (Tối đa 10%)\nKhi Kĩ năng Tấn công Cơ bản đánh Chí mạng, gây 1 [PhantomIncisionID]\n\nCó thể kích hoạt Nội tại của E.G.O Tam Thiên Đại Thế Giới bằng kĩ năng tấn công nhắm vào đồng minh",
       "summary": "Tăng lượng sát thương Chí mạng, gây [PhantomIncisionID] khi đánh Chí mạng"
     },
     {
@@ -2995,7 +2995,7 @@
     {
       "id": 1111501,
       "name": "Sổ cái trả đũa - Điều khoản đặc biệt của Mạng Nhện",
-      "desc": "Khi kết thúc lượt,\n\n- Gây [RetaliationBook] cho 1 kẻ địch đã gây sát thương nhiều nhất cho đồng minh bằng kĩ năng trong lượt đó\n- Gây [RetaliationBookSpiderOutis] cho 1 kẻ địch đã gây sát thương nhiều nhất cho bản thân bằng kĩ năng trong lượt đó\n\nKhi bắt đầu trận chiến, với mỗi 1 Cộng hưởng Đố kị, nhận 1 [ResentmentSpiderOutis] (Tối đa 7)\n\nTrong trận chiến, nếu thỏa mãn các điều kiện dưới đây, nhận 2 [ResentmentSpiderOutis]\n- Khi bản thân bị trúng kĩ năng của nhân vật khác (2 lần mỗi lượt)\n- Khi Ishmael Tiểu đệ Ngón Giữa Mạng Nhện bị trúng kĩ năng của nhân vật khác (1 lần mỗi lượt)\n\nTrong trận chiến, nếu thỏa mãn các điều kiện dưới đây, nhận 1 [ResentmentSpiderOutis] (Ngoại trừ bản thân và Ishmael Tiểu đệ Ngón Giữa Mạng Nhện)\n- Khi đồng minh thuộc Ngón Giữa bị trúng kĩ năng của nhân vật khác (1 lần mỗi lượt cho mỗi Identity)\n- Khi đồng minh thuộc Mạng Nhện bị trúng kĩ năng của nhân vật khác (1 lần mỗi lượt cho mỗi Identity)\n\nKhi bản thân nhận [ResentmentSpiderOutis], nếu mục tiêu có [RetaliationBook], nhận thêm 1\n\nMỗi khi bản thân tiêu hao 5 [ResentmentSpiderOutis], nhận 1 [ReinforcedTattooSpiderOutis]\n\n【Hiệu ứng dành riêng cho Ishmael Tiểu đệ Ngón Giữa Mạng Nhện】\nKhi Outis Đại ca Ngón Giữa Mạng Nhện bị trúng kĩ năng của nhân vật khác, Ishmael nhận 2 [ResentmentIshmael] (1 lần mỗi lượt)"
+      "desc": "Khi kết thúc lượt,\n- Gây [RetaliationBook] cho 1 kẻ địch đã gây sát thương nhiều nhất cho đồng minh bằng kĩ năng trong lượt đó\n- Gây [RetaliationBookSpiderOutis] cho 1 kẻ địch đã gây sát thương nhiều nhất cho bản thân bằng kĩ năng trong lượt đó\n\nKhi bắt đầu trận chiến, với mỗi 1 Cộng hưởng Đố kị, nhận 1 [ResentmentSpiderOutis] (Tối đa 7)\n\nTrong trận chiến, nếu thỏa mãn các điều kiện dưới đây, nhận 2 [ResentmentSpiderOutis]\n- Khi bản thân bị trúng kĩ năng của nhân vật khác (2 lần mỗi lượt)\n- Khi Ishmael Tiểu đệ Ngón Giữa Mạng Nhện bị trúng kĩ năng của nhân vật khác (1 lần mỗi lượt)\n\nTrong trận chiến, nếu thỏa mãn các điều kiện dưới đây, nhận 1 [ResentmentSpiderOutis] (Ngoại trừ bản thân và Ishmael Tiểu đệ Ngón Giữa Mạng Nhện)\n- Khi đồng minh thuộc Ngón Giữa bị trúng kĩ năng của nhân vật khác (1 lần mỗi lượt cho mỗi Identity)\n- Khi đồng minh thuộc Mạng Nhện bị trúng kĩ năng của nhân vật khác (1 lần mỗi lượt cho mỗi Identity)\n\nKhi bản thân nhận [ResentmentSpiderOutis], nếu mục tiêu có [RetaliationBook], nhận thêm 1 [ResentmentSpiderOutis]\n\nMỗi khi bản thân tiêu hao 5 [ResentmentSpiderOutis], nhận 1 [ReinforcedTattooSpiderOutis]\n\n【Hiệu ứng dành riêng cho Ishmael Tiểu đệ Ngón Giữa Mạng Nhện】\nKhi Outis Đại ca Ngón Giữa Mạng Nhện bị trúng kĩ năng của nhân vật khác, Ishmael nhận 2 [ResentmentIshmael] (1 lần mỗi lượt)"
     },
     {
       "id": 1111502,
@@ -3064,7 +3064,7 @@
     {
       "id": 1081502,
       "name": "Nơi thuộc về",
-      "desc": "Khi xuất hiện lần đầu trong màn chơi, với mỗi Identity đồng minh thuộc Hội Kiếm đang ở trên chiến trường ngoại trừ bản thân, nhận [BladelineagePride] (Tối đa 3)\n\nTrong trận chiến này, nếu có từ 3 Identity đồng minh thuộc Hội Kiếm ngoại trừ bản thân tử trận\n- Trước khi sử dụng kĩ năng, nếu bản thân chưa có [SwordPlayOfTheHomeland], nhận [SwordPlayOfTheHomeland]\n- Khi nhận Sức mạnh·Số lượng [Breath] bằng hiệu ứng Kĩ năng·Đồng xu của bản thân, Sức mạnh·Số lượng [Breath] nhận thêm 1\n- Nếu có từ 5 Identity đồng minh thuộc Hội Kiếm tử trận, nhận thêm 2 thay thế",
+      "desc": "Khi xuất hiện lần đầu trong màn chơi, với mỗi Identity đồng minh thuộc Hội Kiếm đang ở trên chiến trường ngoại trừ bản thân, nhận [BladelineagePride] (Tối đa 3)\n\nTrong trận chiến này, nếu có từ 3 Identity đồng minh thuộc Hội Kiếm ngoại trừ bản thân tử trận\n- Trước khi sử dụng kĩ năng, nếu bản thân chưa có [SwordPlayOfTheHomeland], nhận [SwordPlayOfTheHomeland]\n- Khi nhận Sức mạnh [Breath]·Số lượng [Breath] bằng hiệu ứng Kĩ năng·Đồng xu của bản thân, Sức mạnh [Breath]·Số lượng [Breath] nhận thêm 1\n- Nếu có từ 5 Identity đồng minh thuộc Hội Kiếm tử trận, thay vào đó nhận thêm 2 Sức mạnh [Breath]·Số lượng [Breath]",
       "summary": ""
     },
     {

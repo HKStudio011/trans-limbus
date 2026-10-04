@@ -343,7 +343,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Nếu mục tiêu có [Laceration], Lượng sát thương +(Tổng Cấp độ và Số lượt [Laceration] của mục tiêu)% (Tối đa 20%)"
+                  "desc": "[OnSucceedAttack] Nếu mục tiêu có [Laceration], Lượng sát thương +([Laceration] của mục tiêu + Số lượt [Laceration] của mục tiêu)% (Tối đa 20%)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Gây (1 + Số Cộng hưởng tối đa × 1.5) [Laceration] (Tối đa 10, làm tròn xuống)"
@@ -364,7 +364,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Nếu mục tiêu có [Laceration], Lượng sát thương +(Tổng Cấp độ và Số lượt [Laceration] của mục tiêu)% (Tối đa <style=\"highlight\">40%</style>)"
+                  "desc": "[OnSucceedAttack] Nếu mục tiêu có [Laceration], Lượng sát thương +([Laceration] của mục tiêu + Số lượt [Laceration] của mục tiêu)% (Tối đa <style=\"highlight\">40%</style>)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Gây <style=\"highlight\">(3 + Số Cộng hưởng tối đa × 2)</style> [Laceration] (Tối đa <style=\"highlight\">15</style>, làm tròn xuống)"
@@ -385,7 +385,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Nếu mục tiêu có [Laceration], Lượng sát thương +(Tổng Cấp độ và Số lượt [Laceration] của mục tiêu)% (Tối đa <style=\"highlight\">60%</style>)"
+                  "desc": "[OnSucceedAttack] Nếu mục tiêu có [Laceration], Lượng sát thương +([Laceration] của mục tiêu + Số lượt [Laceration] của mục tiêu)% (Tối đa <style=\"highlight\">60%</style>)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Gây <style=\"highlight\">(10 + Số Cộng hưởng tối đa × 2.5)</style> [Laceration] (Tối đa <style=\"highlight\">25</style>, làm tròn xuống)"
@@ -555,7 +555,7 @@
                   "desc": "Lượng sát thương Chí mạng +30%"
                 },
                 {
-                  "desc": "[OnStartCoin] Tiêu hao tất cả [RyoshuEGOPF] của bản thân, với mỗi 5 chỉ số tiêu hao, Lượng sát thương +1% (Tối đa 100%)",
+                  "desc": "[OnStartCoin] Tiêu hao tất cả [RyoshuEGOPF] của bản thân, với mỗi 5 [RyoshuEGOPF] tiêu hao, Lượng sát thương +1% (Tối đa 100%)",
                   "summary": "[OnStartCoin] Lượng sát thương tăng tỉ lệ thuận với [RyoshuEGOPF]"
                 }
               ]
@@ -609,7 +609,7 @@
                   "desc": "<style=\"highlight\">[OnStartCoin] Với mỗi 10 (Số lần [Combustion] + [Laceration] của tất cả mục tiêu), Sức mạnh Coin +1 (Tối đa 3)</style>"
                 },
                 {
-                  "desc": "[OnStartCoin] Tiêu hao tất cả [RyoshuEGOPF] của bản thân, với mỗi 5 chỉ số tiêu hao, Lượng sát thương +1% (Tối đa 100%)\n- Nếu mục tiêu tấn công là 1, hiệu ứng này áp dụng gấp 1.5 lần (Trong trường hợp Trận đấu Tập trung, phán đoán dựa trên bản thể chính)",
+                  "desc": "[OnStartCoin] Tiêu hao tất cả [RyoshuEGOPF] của bản thân, với mỗi 5 [RyoshuEGOPF] tiêu hao, Lượng sát thương +1% (Tối đa 100%)\n- Nếu mục tiêu tấn công là 1, hiệu ứng này áp dụng gấp 1.5 lần (Trong trường hợp Trận đấu Tập trung, phán đoán dựa trên bản thể chính)",
                   "summary": "<style=\"highlight\">[OnStartCoin] Lượng sát thương tăng tỉ lệ thuận với [RyoshuEGOPF]</style>"
                 }
               ]
@@ -663,7 +663,7 @@
                   "desc": "[OnStartCoin] Với mỗi 10 (Số lần [Combustion] + [Laceration] của tất cả mục tiêu), Sức mạnh Coin +1 <style=\"highlight\">(Tối đa 5)</style>"
                 },
                 {
-                  "desc": "[OnStartCoin] Tiêu hao tất cả [RyoshuEGOPF] của bản thân, với mỗi 5 chỉ số tiêu hao, Lượng sát thương +1% <style=\"highlight\">(Tối đa 198%)</style>\n- Nếu mục tiêu tấn công là 1, hiệu ứng này áp dụng <style=\"highlight\">gấp 2 lần</style> (Trong trường hợp Trận đấu Tập trung, phán đoán dựa trên bản thể chính)",
+                  "desc": "[OnStartCoin] Tiêu hao tất cả [RyoshuEGOPF] của bản thân, với mỗi 5 [RyoshuEGOPF] tiêu hao, Lượng sát thương +1% <style=\"highlight\">(Tối đa 198%)</style>\n- Nếu mục tiêu tấn công là 1, hiệu ứng này áp dụng <style=\"highlight\">gấp 2 lần</style> (Trong trường hợp Trận đấu Tập trung, phán đoán dựa trên bản thể chính)",
                   "summary": "[OnStartCoin] Lượng sát thương tăng tỉ lệ thuận với [RyoshuEGOPF]"
                 }
               ]
@@ -679,7 +679,7 @@
           "level": 1,
           "name": "S.T.G.W (Có thể hiểu là: Tam Thiên Đại Thiên Thế Giới)",
           "abName": "La Sinh Điệp",
-          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\n[BeforeAttack] Tiêu hao tối đa 20 [Breath] vượt quá 20 của bản thân, với mỗi 1 [Breath] tiêu hao, hồi phục HP bằng 1% giá trị tối đa (Tối thiểu 1), Lượng sát thương của Kĩ năng này +1%\n[BeforeAttack] Số lần [Breath] của bản thân tăng thêm 3\n[BeforeAttack] Nếu [RyoshuEGOPF] của bản thân là 999, Sức mạnh cơ bản +1\n[BeforeAttack] Với mỗi 1 số lượng Coin bị phá hủy, Sức mạnh cơ bản -3 (Tối đa -9)\n\n[EndSkill] Nhận 10 [RyoshuEGOPF]",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\n[BeforeAttack] Tiêu hao tối đa 20 [Breath] vượt quá 20 [Breath] của bản thân, với mỗi 1 [Breath] tiêu hao, hồi phục HP bằng 1% giá trị tối đa (Tối thiểu 1), Lượng sát thương của Kĩ năng này +1%\n[BeforeAttack] Số lần [Breath] của bản thân tăng thêm 3\n[BeforeAttack] Nếu [RyoshuEGOPF] của bản thân là 999, Sức mạnh cơ bản +1\n[BeforeAttack] Với mỗi 1 số lượng Coin bị phá hủy, Sức mạnh cơ bản -3 (Tối đa -9)\n\n[EndSkill] Nhận 10 [RyoshuEGOPF]",
           "coinlist": [
             {
               "coindescs": [
@@ -710,7 +710,7 @@
                   "desc": "Sát thương Chí mạng +30%"
                 },
                 {
-                  "desc": "[OnStartCoin] Tiêu hao toàn bộ [RyoshuEGOPF] của bản thân, mỗi 5 chỉ số tiêu hao tăng +1% Sát thương (Tối đa 100%)",
+                  "desc": "[OnStartCoin] Tiêu hao toàn bộ [RyoshuEGOPF] của bản thân, mỗi 5 [RyoshuEGOPF] tiêu hao tăng +1% Sát thương (Tối đa 100%)",
                   "summary": "[OnStartCoin] Sát thương tăng tỉ lệ thuận với [RyoshuEGOPF]"
                 }
               ]
@@ -721,7 +721,7 @@
           "level": 3,
           "name": "Tam Thiên Đại Thế Giới",
           "abName": "La Sinh Điệp",
-          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\n[BeforeAttack] Tiêu hao tối đa 20 [Breath] vượt quá 20 của bản thân, mỗi 1 [Breath] tiêu hao hồi 1% Máu tối đa (Tối thiểu 1), tăng +1% Sát thương cho kĩ năng này\n[BeforeAttack] Tăng 3 số lượng [Breath] của bản thân\n[BeforeAttack] Nếu [RyoshuEGOPF] của bản thân là 999, Sức mạnh cơ bản <style=\"highlight\">+2</style>\n[BeforeAttack] Mỗi 1 đồng xu bị phá hủy, Sức mạnh cơ bản -3 (Tối đa -9)\n\n[EndSkill] Nhận <style=\"highlight\">20</style> [RyoshuEGOPF]",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\n[BeforeAttack] Tiêu hao tối đa 20 [Breath] vượt quá 20 [Breath] của bản thân, mỗi 1 [Breath] tiêu hao hồi 1% Máu tối đa (Tối thiểu 1), tăng +1% Sát thương cho kĩ năng này\n[BeforeAttack] Tăng 3 số lượng [Breath] của bản thân\n[BeforeAttack] Nếu [RyoshuEGOPF] của bản thân là 999, Sức mạnh cơ bản <style=\"highlight\">+2</style>\n[BeforeAttack] Mỗi 1 đồng xu bị phá hủy, Sức mạnh cơ bản -3 (Tối đa -9)\n\n[EndSkill] Nhận <style=\"highlight\">20</style> [RyoshuEGOPF]",
           "coinlist": [
             {
               "coindescs": [
@@ -764,7 +764,7 @@
                   "desc": "<style=\"highlight\">[OnStartCoin] Với mỗi 10 (Số lượng [Combustion] + [Laceration] của tất cả mục tiêu), tăng +1 Sức mạnh cuối (Tối đa 3)</style>"
                 },
                 {
-                  "desc": "[OnStartCoin] Tiêu hao toàn bộ [RyoshuEGOPF] của bản thân, mỗi 5 chỉ số tiêu hao tăng +1% Sát thương (Tối đa 100%)\n<style=\"highlight\">- Nếu mục tiêu tấn công là 1 người, hiệu ứng này được áp dụng gấp 1.5 lần (Trong Trận chiến Tập trung, phán đoán dựa trên bản thể)</style>",
+                  "desc": "[OnStartCoin] Tiêu hao toàn bộ [RyoshuEGOPF] của bản thân, mỗi 5 [RyoshuEGOPF] tiêu hao tăng +1% Sát thương (Tối đa 100%)\n<style=\"highlight\">- Nếu mục tiêu tấn công là 1 người, hiệu ứng này được áp dụng gấp 1.5 lần (Trong Trận chiến Tập trung, phán đoán dựa trên bản thể)</style>",
                   "summary": "[OnStartCoin] Sát thương tăng tỉ lệ thuận với [RyoshuEGOPF]"
                 }
               ]
@@ -775,7 +775,7 @@
           "level": 4,
           "name": "Tam Thiên Đại Thế Giới",
           "abName": "La Sinh Điệp",
-          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\n[BeforeAttack] Tiêu hao tối đa 20 [Breath] vượt quá 20 của bản thân, mỗi 1 [Breath] tiêu hao hồi 1% Máu tối đa (Tối thiểu 1), tăng +1% Sát thương cho kĩ năng này\n[BeforeAttack] Tăng <style=\"highlight\">5</style> số lượng [Breath] của bản thân\n[BeforeAttack] Nếu [RyoshuEGOPF] của bản thân là 999, Sức mạnh cơ bản <style=\"highlight\">+3</style>\n[BeforeAttack] Mỗi 1 đồng xu bị phá hủy, Sức mạnh cơ bản -3 (Tối đa -9)\n\n[EndSkill] Nhận <style=\"highlight\">33</style> [RyoshuEGOPF]",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\n[BeforeAttack] Tiêu hao tối đa 20 [Breath] vượt quá 20 [Breath] của bản thân, mỗi 1 [Breath] tiêu hao hồi 1% Máu tối đa (Tối thiểu 1), tăng +1% Sát thương cho kĩ năng này\n[BeforeAttack] Tăng <style=\"highlight\">5</style> số lượng [Breath] của bản thân\n[BeforeAttack] Nếu [RyoshuEGOPF] của bản thân là 999, Sức mạnh cơ bản <style=\"highlight\">+3</style>\n[BeforeAttack] Mỗi 1 đồng xu bị phá hủy, Sức mạnh cơ bản -3 (Tối đa -9)\n\n[EndSkill] Nhận <style=\"highlight\">33</style> [RyoshuEGOPF]",
           "coinlist": [
             {
               "coindescs": [
@@ -818,7 +818,7 @@
                   "desc": "[OnStartCoin] Với mỗi 10 (Số lượng [Combustion] + [Laceration] của tất cả mục tiêu), tăng +1 Sức mạnh cuối <style=\"highlight\">(Tối đa 5)</style>"
                 },
                 {
-                  "desc": "[OnStartCoin] Tiêu hao toàn bộ [RyoshuEGOPF] của bản thân, mỗi 5 chỉ số tiêu hao tăng <style=\"highlight\">+1.25% Sát thương (Tối đa 248%)</style>\n- Nếu mục tiêu tấn công là 1 người, hiệu ứng này được áp dụng gấp <style=\"highlight\">2 lần</style> (Trong Trận chiến Tập trung, phán đoán dựa trên bản thể)",
+                  "desc": "[OnStartCoin] Tiêu hao toàn bộ [RyoshuEGOPF] của bản thân, mỗi 5 [RyoshuEGOPF] tiêu hao tăng <style=\"highlight\">+1.25%</style> Sát thương <style=\"highlight\">(Tối đa 248%)</style>\n- Nếu mục tiêu tấn công là 1 người, hiệu ứng này được áp dụng gấp <style=\"highlight\">2 lần</style> (Trong Trận chiến Tập trung, phán đoán dựa trên bản thể)",
                   "summary": "[OnStartCoin] Sát thương tăng tỉ lệ thuận với [RyoshuEGOPF]"
                 }
               ]
