@@ -473,12 +473,12 @@
     {
       "id": 1020401,
       "name": "Tiếng Huýt Sáo",
-      "desc": "Khi bắt đầu trận chiến, hồi 15 Tỉnh táo cho 2 đồng minh có Tỉnh táo thấp nhất.\nNếu đối tượng là Cuồng tín đồ Hội N, nhận 1 Cuồng tín"
+      "desc": "Khi bắt đầu trận chiến, hồi 15 Tỉnh táo cho 2 đồng minh có Tỉnh táo thấp nhất.\nNếu đối tượng là [AssemblePersonality] đồ Hội N, nhận 1 Cuồng tín"
     },
     {
       "id": 1020421,
       "name": "Lời Thì Thầm",
-      "desc": "Khi bắt đầu trận chiến, hồi 15 Tỉnh táo cho 1 đồng minh có Tỉnh táo thấp nhất.\nNếu đối tượng là Cuồng tín đồ Hội N, nhận 1 Cuồng tín"
+      "desc": "Khi bắt đầu trận chiến, hồi 15 Tỉnh táo cho 1 đồng minh có Tỉnh táo thấp nhất.\nNếu đối tượng là [AssemblePersonality] đồ Hội N, nhận 1 Cuồng tín"
     },
     {
       "id": 1070401,
@@ -1982,7 +1982,7 @@
     {
       "id": 1081121,
       "name": "Lưỡi Kiếm Xưởng Vân",
-      "desc": "1 đồng minh có Tốc độ cao nhất tăng +1 giá trị cấp hoặc số lượng [Vết rách] gây ra cho kẻ địch thông qua hiệu ứng Kĩ năng/Đồng xu"
+      "desc": "1 đồng minh có Tốc độ cao nhất tăng +1 giá trị cấp hoặc số lượng [Laceration] gây ra cho kẻ địch thông qua hiệu ứng Kĩ năng/Đồng xu"
     },
     {
       "id": 1011201,
@@ -2038,7 +2038,7 @@
     {
       "id": 1031131,
       "name": "Khinh Thân Pháp",
-      "desc": "Khi đồng minh có Tốc độ cao nhất chiến thắng khi đối đầu với kẻ địch đang có [Bỏng] hoặc Bỏng đặc biệt, nhận 1 [Nhanh nhẹn] vào lượt kế tiếp (1 lần mỗi lượt)\n<style=\"highlight\">- Nếu cấp [Bỏng] của đối tượng từ 20 trở lên, nhận thêm 1 [Nhanh nhẹn]</style>"
+      "desc": "Khi đồng minh có Tốc độ cao nhất chiến thắng khi đối đầu với kẻ địch đang có [Combustion] hoặc Bỏng đặc biệt, nhận 1 [Combustion] vào lượt kế tiếp (1 lần mỗi lượt)\n<style=\"highlight\">- Nếu cấp [Agility] của đối tượng từ 20 trở lên, nhận thêm 1 [Agility]</style>"
     },
     {
       "id": 1041101,
@@ -2417,12 +2417,12 @@
     {
       "id": 1071311,
       "name": "Giáp làm sạch tắc nghẽn",
-      "desc": "- Khi bắt đầu chiến đấu, nếu máu của bản thân dưới 50%, nhận Khiên bằng (Sức mạnh [Sạc] × 5) (Tối đa 25)\n- Ngay trước khi nhận sát thương, nhận Khiên bằng (Sức mạnh [Sạc] của bản thân) (Tối đa 5, tối đa 3 lần mỗi lượt)\n- Nếu nhận Số lượng [Sạc] vượt quá giá trị tối đa bằng [Skill] của bản thân, mỗi 1 Số lượng [Sạc] vượt mức tối đa tăng +3% Lượng sát thương của [Skill] đó (Tối đa 15%)"
+      "desc": "- Khi bắt đầu chiến đấu, nếu máu của bản thân dưới 50%, nhận Khiên bằng (Sức mạnh [Charge] × 5) (Tối đa 25)\n- Ngay trước khi nhận sát thương, nhận Khiên bằng (Sức mạnh [Charge] của bản thân) (Tối đa 5, tối đa 3 lần mỗi lượt)\n- Nếu nhận Số lượng [Charge] vượt quá giá trị tối đa bằng [Charge] của bản thân, mỗi 1 Số lượng [Charge] vượt mức tối đa tăng +3% Lượng sát thương của [Charge] đó (Tối đa 15%)"
     },
     {
       "id": 1071321,
       "name": "「Có khi nào mình cũng có thể nhắm tới trang bị dọn dẹp dùng cho tàu ngừng chạy không nhỉ」",
-      "desc": "- Khi bắt đầu chiến đấu, nếu đồng minh có thứ tự đội hình sớm nhất nhận Số lượng [Sạc] vượt quá giá trị tối đa bằng [Skill] của bản thân, với mỗi 1 Số lượng [Sạc] vượt mức, nhận [ChargeForceField] vào lượt tiếp theo (Tối đa 3, bao gồm cả [Skill] E.G.O)"
+      "desc": "- Khi bắt đầu chiến đấu, nếu đồng minh có thứ tự đội hình sớm nhất nhận Số lượng [Charge] vượt quá giá trị tối đa bằng [Charge] của bản thân, với mỗi 1 Số lượng [Charge] vượt mức, nhận [ChargeForceField] vào lượt tiếp theo (Tối đa 3, bao gồm cả [Charge] E.G.O)"
     },
     {
       "id": 1051301,

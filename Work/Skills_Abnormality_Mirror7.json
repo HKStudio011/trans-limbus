@@ -436,7 +436,7 @@
         {
           "level": 1,
           "name": "Phải bóc đến tận lớp bọc thứ hai rồi à.",
-          "desc": "[KhiSửDụng] Nếu bản thân có [ReinforcedTattooSpider], không bị phá hủy và khi Tung xu trúng đích gây thêm 10 sát thương Đánh\n[KếtThúcKĩNăng] Trạng thái [MiddleFatherSwordTwo] chuyển thành trạng thái [MiddleFatherSwordThree]",
+          "desc": "[EndSkill] Nếu bản thân có [ReinforcedTattooSpider], không bị phá hủy và khi Tung xu trúng đích gây thêm 10 sát thương Đánh\n[WhenUse] Trạng thái [MiddleFatherSwordTwo] chuyển thành trạng thái [MiddleFatherSwordThree]",
           "coinlist": [
             {
               "coindescs": [
@@ -520,7 +520,7 @@
         {
           "level": 1,
           "name": "Giẫm đạp xử tử tức thì!",
-          "desc": "Mỗi 3 [Laceration] của mục tiêu, Sức mạnh Cơ bản +1 (Tối đa 3)\n[KhiSửDụng] Nếu bản thân có [ReinforcedTattooSpider], khi Tung xu trúng đích gây thêm 1 [Laceration]\n[ThuaĐấuTayĐôi] Sát thương từ kĩ năng này không làm mục tiêu Hoảng loạn\n[KếtThúcKĩNăng] Tiêu thụ tất cả [ResentmentSpider] của bản thân, nhận 1 [DaughterEducationSpider]",
+          "desc": "Mỗi 3 [Laceration] của mục tiêu, Sức mạnh Cơ bản +1 (Tối đa 3)\n[DefeatDuel] Nếu bản thân có [ReinforcedTattooSpider], khi Tung xu trúng đích gây thêm 1 [Laceration]\n[EndSkill] Sát thương từ kĩ năng này không làm mục tiêu Hoảng loạn\n[WhenUse] Tiêu thụ tất cả [ResentmentSpider] của bản thân, nhận 1 [DaughterEducationSpider]",
           "coinlist": [
             {
               "coindescs": [
@@ -626,7 +626,7 @@
         {
           "level": 1,
           "name": "Laevateinn - Lâu rồi mới phá giải đến mức này đấy!",
-          "desc": "[KhiSửDụng] Nếu bản thân có [ReinforcedTattooSpider], không bị phá hủy và khi Tung xu trúng đích gây thêm 10 sát thương Chém\n[KếtThúcKĩNăng] Trạng thái [MiddleFatherSwordThree] chuyển thành [MiddleFatherSwordFour]",
+          "desc": "[EndSkill] Nếu bản thân có [ReinforcedTattooSpider], không bị phá hủy và khi Tung xu trúng đích gây thêm 10 sát thương Chém\n[WhenUse] Trạng thái [MiddleFatherSwordThree] chuyển thành [MiddleFatherSwordFour]",
           "coinlist": [
             {
               "coindescs": [
@@ -678,7 +678,7 @@
         {
           "level": 1,
           "name": "Knife Kill [Laevateinn]",
-          "desc": "[TrướcKhiSửDụng] Tinh thần của bản thân giảm 10\n[ThuaĐấuTayĐôi] Sát thương từ kĩ năng này không làm mục tiêu Hoảng loạn\n[TrướcKhiTấnCông] Khi Máu của bản thân từ 50% trở xuống, lượng sát thương +40%\n[TrướcKhiTấnCông] Nhận (Số lượng xu của kĩ năng này × 2) [Combustion]",
+          "desc": "[DefeatDuel] Tinh thần của bản thân giảm 10\n[BeforeUse] Sát thương từ kĩ năng này không làm mục tiêu Hoảng loạn\n[BeforeAttack] Khi Máu của bản thân từ 50% trở xuống, lượng sát thương +40%\n[BeforeAttack] Nhận (Số lượng xu của kĩ năng này × 2) [Combustion]",
           "coinlist": [
             {
               "coindescs": [
