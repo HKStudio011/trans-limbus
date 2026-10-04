@@ -18,12 +18,12 @@
     {
       "id": 2020111,
       "name": "Quyện Đãi",
-      "desc": "Nếu kẻ địch rơi vào trạng thái Choáng trong khi bản thân đang tấn công, Hiệu suất hồi Tinh thần của 1 đồng minh có Tinh thần thấp nhất ở lượt kế tiếp +2 (Tối đa 3 lần mỗi lượt)"
+      "desc": "Nếu kẻ địch rơi vào trạng thái Choáng trong khi bản thân đang tấn công, cấp +2 [MentalSystemResultIncrease_Typo] cho 1 đồng minh có Tinh thần thấp nhất vào lượt kế tiếp (Tối đa 3 lần mỗi lượt)"
     },
     {
       "id": 2020211,
       "name": "Chất Lỏng Bao Phủ",
-      "desc": "Khi bắt đầu lượt, cấp cho 1 đồng minh có HP thấp nhất (bao gồm cả bản thân) 2 Bảo vệ"
+      "desc": "Khi bắt đầu lượt, cấp cho 1 đồng minh có HP thấp nhất (bao gồm cả bản thân) 2 [Protection]"
     },
     {
       "id": 2020311,
@@ -59,7 +59,7 @@
     {
       "id": 2050111,
       "name": "Từ Chối Phán Xét",
-      "desc": "Khi bắt đầu trận chiến, nếu bản thân đang là mục tiêu của từ 3 Kĩ năng trở lên, nhận 3 Bảo vệ."
+      "desc": "Khi bắt đầu trận chiến, nếu bản thân đang là mục tiêu của từ 3 Kĩ năng trở lên, nhận 3 [Protection]."
     },
     {
       "id": 2050211,
@@ -99,7 +99,7 @@
     {
       "id": 2080211,
       "name": "Ruy Băng Hồng",
-      "desc": "Khi thắng Đối kháng, gây 1 Ruy Băng Hồng"
+      "desc": "Khi thắng Đối kháng, gây 1 [PinkRibbon_Ishmael]"
     },
     {
       "id": 2080311,
@@ -109,7 +109,7 @@
     {
       "id": 2090111,
       "name": "Đoạn Tuyệt",
-      "desc": "Hiệu suất hồi Tinh thần +1, Hiệu suất giảm Tinh thần -1"
+      "desc": "+1 [MentalSystemResultIncrease_Typo], -1 [MentalSystemResultDecrease_Typo]"
     },
     {
       "id": 2090211,
@@ -130,7 +130,7 @@
     {
       "id": 2100111,
       "name": "Bất Ổn",
-      "desc": "Trong một Kĩ năng, khi tấn công Trúng, nếu tung ra mặt Đồng xu khác với mặt của Đồng xu đã tung trước đó thì bản thân bị -5 Tinh thần, đồng thời nhận 1 Tăng Sát thương trong lượt này (Tối đa 3 lần mỗi lượt)"
+      "desc": "Trong một Kĩ năng, khi tấn công Trúng, nếu tung ra mặt Đồng xu khác với mặt của Đồng xu đã tung trước đó thì bản thân bị -5 Tinh thần, đồng thời nhận 1 [AttackDmgUp] trong lượt này (Tối đa 3 lần mỗi lượt)"
     },
     {
       "id": 2100211,
@@ -140,7 +140,7 @@
     {
       "id": 2110111,
       "name": "Chiến Thuật Hoàn Hảo",
-      "desc": "Mỗi lượt, nếu không bị trúng đòn lần nào thì nhận 1 Tăng Sát thương vào lượt kế tiếp. (Cộng dồn tối đa 3 lần)"
+      "desc": "Mỗi lượt, nếu không bị trúng đòn lần nào thì nhận 1 [AttackDmgUp] vào lượt kế tiếp. Mỗi lượt liên tiếp không bị trúng đòn, nhận thêm 1 [AttackDmgUp] (Cộng dồn tối đa 3 lần)"
     },
     {
       "id": 2110211,
@@ -150,12 +150,12 @@
     {
       "id": 2110311,
       "name": "Lòng Trống Rỗng",
-      "desc": "Mỗi lượt, nhận 1 Tăng Sát thương hệ Sắc dục. Nếu Tinh thần bản thân dưới 0, nhận thêm 1."
+      "desc": "Mỗi lượt, nhận 1 [ScarletDamageUp]\nNếu Tinh thần bản thân dưới 0, nhận thêm 1."
     },
     {
       "id": 2120111,
       "name": "Cơn Co Giật Dị Hình",
-      "desc": "Khi bắt đầu lượt, nếu Máu dưới 25% thì hồi 15 Máu và nhận 2 Bảo vệ.\nKhi hiệu ứng kích hoạt, một đồng minh ngẫu nhiên khác bản thân và 1 kẻ địch nhận +2 Hiệu suất Giảm Tinh thần"
+      "desc": "Khi bắt đầu lượt, nếu Máu dưới 25% thì hồi 15 Máu và nhận 2 [Protection]\nKhi hiệu ứng kích hoạt, một đồng minh ngẫu nhiên khác bản thân và 1 kẻ địch nhận +2 [MentalSystemResultDecrease_Typo]"
     },
     {
       "id": 2120211,
@@ -210,7 +210,7 @@
     {
       "id": 2110411,
       "name": "Nhịp Thở Săn Bắn",
-      "desc": "Khi kết thúc Đối đầu, nhận 2 Hơi thở (Poise)\nKhi rơi vào trạng thái Hoảng loạn, nhận 2 Bảo vệ, khi hồi phục từ trạng thái Hoảng loạn nhận 5 Hơi thở (Poise)"
+      "desc": "Khi kết thúc Đối đầu, nhận 2 [Breath]\nKhi rơi vào trạng thái Hoảng loạn, nhận 2 [Protection], khi hồi phục từ trạng thái Hoảng loạn nhận 5 [Breath]"
     },
     {
       "id": 2070311,
@@ -235,12 +235,12 @@
     {
       "id": 2040411,
       "name": "Săn Mồi",
-      "desc": "Trong lượt này, nếu hồi nhiều hơn 10% Máu tối đa, nhận 1 Tăng Sức mạnh Tấn công vào lượt kế tiếp"
+      "desc": "Trong lượt này, nếu hồi nhiều hơn 10% Máu tối đa, nhận 1 [Enhancement] vào lượt kế tiếp"
     },
     {
       "id": 2040511,
       "name": "Thức Uống Đã Mở Nắp",
-      "desc": "Khi tấn công Trúng kẻ địch đang bị gây ít nhất 5 [Sinking], gây 1 Giảm Sức mạnh Phòng thủ (Tối đa 5 lần mỗi lượt)"
+      "desc": "Khi tấn công Trúng kẻ địch đang bị gây ít nhất 5 [Sinking], gây 1 [Disarming] (Tối đa 5 lần mỗi lượt)"
     },
     {
       "id": 2040512,
@@ -265,7 +265,7 @@
     {
       "id": 2050511,
       "name": "Cơn Giận Bị Xiềng Xích",
-      "desc": "Kĩ năng của bản thân nằm ở ngoài cùng bên trái trên bảng điều khiển bị giảm 1 Sức mạnh Cơ bản. Tăng 2 Sức mạnh Đồng xu.\nĐầu lượt, nếu Tốc độ từ 4 trở xuống, nhận 1 Tăng Sức mạnh Đập."
+      "desc": "Kĩ năng của bản thân nằm ở ngoài cùng bên trái trên bảng điều khiển bị giảm 1 Sức mạnh Cơ bản. Tăng 2 Sức mạnh Đồng xu.\nĐầu lượt, nếu Tốc độ từ 4 trở xuống, nhận 1 [HitResultUp]."
     },
     {
       "id": 2020511,
@@ -290,7 +290,7 @@
     {
       "id": 2080511,
       "name": "Chuyến Hải Trình Liều Lĩnh",
-      "desc": "Khi kết thúc lượt, gây 5 Trầm luân cho 1 đồng minh có tỉ lệ Máu thấp nhất ngoại trừ bản thân, lượt kế tiếp nhận 1 Nhanh nhẹn, 3 Tăng Cấp độ Tấn công."
+      "desc": "Khi kết thúc lượt, gây 5 [Sinking] cho 1 đồng minh có tỉ lệ Máu thấp nhất ngoại trừ bản thân, lượt kế tiếp nhận 1 [Agility], 3 [AttackUp]."
     },
     {
       "id": 2090411,
@@ -350,7 +350,7 @@
     {
       "id": 2070611,
       "name": "Xiềng Xích Ràng Buộc",
-      "desc": "- Khi bắt đầu chiến đấu, nếu Cộng hưởng cao nhất có chứa kĩ năng của bản thân đạt từ 4 trở lên, gây 3 [AttackUp], 3 [DefenseUp] cho bản thân và tất cả đồng minh trong Cộng hưởng đó\n- Nếu Cộng hưởng đó là Cộng hưởng Hoàn toàn, gây thêm 2"
+      "desc": "- Khi bắt đầu chiến đấu, nếu Cộng hưởng cao nhất có chứa kĩ năng của bản thân đạt từ 4 trở lên, gây 3 [AttackUp], 3 [DefenseUp] cho bản thân và tất cả đồng minh trong Cộng hưởng đó\n- Nếu Cộng hưởng đó là Cộng hưởng Hoàn toàn, gây thêm 2 [AttackUp] và [DefenseUp]"
     },
     {
       "id": 2110611,
@@ -548,13 +548,13 @@
     {
       "id": 2070911,
       "name": "Kết nối Mạch",
-      "desc": "Khi kĩ năng cấp số lượng [Combustion] hoặc Bỏng đặc biệt hoặc kĩ năng thuộc tính Đố kỵ của bản thân trúng đích kẻ địch, cấp thêm số lượng [Combustion] cho mục tiêu một lượng bằng một nửa số lượng đồng xu của kĩ năng đó\n(Làm tròn lên, 3 lần mỗi lượt)"
+      "desc": "Khi kĩ năng cấp số lượng [Combustion] hoặc Bỏng đặc biệt[TabExplain] hoặc kĩ năng thuộc tính Đố kỵ của bản thân trúng đích kẻ địch, cấp thêm số lượng [Combustion] cho mục tiêu một lượng bằng một nửa số lượng đồng xu của kĩ năng đó (Làm tròn lên, 3 lần mỗi lượt)"
     },
     {
       "id": 2010811,
       "name": "Đan dệt bầu trời",
-      "desc": "Nếu mục tiêu đang có [ThreeMirrorpartYiSang], lượng số lượng [Combustion] và [Sinking] cấp bằng Kĩ năng tấn công cơ bản của bản thân +1 (Cấp thêm tối đa 8 mỗi lượt)\nVới mỗi kẻ địch chết bởi sát thương [Combustion], lượt sau nhận 1 <noparse>Tăng lượng sát thương</noparse> thuộc tính vật lý ngẫu nhiên (Tối đa 3 lần mỗi lượt, nhận ngẫu nhiên mỗi khi nhận)",
-      "summary": "Tăng lượng số lượng [Combustion] · [Sinking] cấp cho kẻ địch đang có [ThreeMirrorpartYiSang]\nVới mỗi kẻ địch chết bởi sát thương [Combustion], nhận <noparse>Tăng lượng sát thương</noparse> thuộc tính vật lý ngẫu nhiên"
+      "desc": "Nếu mục tiêu đang có [ThreeMirrorpartYiSang], lượng số lượng [Combustion] và [Sinking] cấp bằng Kĩ năng tấn công cơ bản của bản thân +1 (Cấp thêm tối đa 8 mỗi lượt)\nVới mỗi kẻ địch chết bởi sát thương [Combustion], lượt sau nhận 1 Tăng lượng sát thương thuộc tính vật lý ngẫu nhiên (Tối đa 3 lần mỗi lượt, nhận ngẫu nhiên mỗi khi nhận)",
+      "summary": "Tăng lượng số lượng [Combustion] · [Sinking] cấp cho kẻ địch đang có [ThreeMirrorpartYiSang]\nVới mỗi kẻ địch chết bởi sát thương [Combustion], nhận Tăng lượng sát thương thuộc tính vật lý ngẫu nhiên"
     },
     {
       "id": 2040911,
@@ -575,7 +575,7 @@
     {
       "id": 2090911,
       "name": "Sự khác biệt giữa Ngài và Bướm",
-      "desc": "Nếu Kĩ năng tấn công cơ bản của bản thân đặt ở phía ngoài cùng bên trái trên bảng điều khiển là kĩ năng thuộc tính Phẫn nộ hoặc Sắc dục,\nkhi kết thúc tấn công, gây một lượng sát thương thuộc tính tội lỗi của kĩ năng đó lên 1 kẻ địch ngẫu nhiên bằng 30% lượng sát thương gây ra cho mục tiêu chính bởi kĩ năng đó (Sát thương tối đa 30, trường hợp Trận chiến tập trung sẽ tính theo bộ phận)\n\nNếu đã gây sát thương tối đa bằng hiệu ứng trên, lượt sau nhận 1 <noparse>Tăng lượng sát thương</noparse> thuộc tính tội lỗi tương ứng, và hiệu ứng trên sẽ không kích hoạt trong 2 lượt."
+      "desc": "Nếu Kĩ năng tấn công cơ bản của bản thân đặt ở phía ngoài cùng bên trái trên bảng điều khiển là kĩ năng thuộc tính Phẫn nộ hoặc Sắc dục, khi kết thúc tấn công, gây một lượng sát thương thuộc tính tội lỗi của kĩ năng đó lên 1 kẻ địch ngẫu nhiên bằng 30% lượng sát thương gây ra cho mục tiêu chính bởi kĩ năng đó (Sát thương tối đa 30, trường hợp Trận chiến tập trung sẽ tính theo bộ phận)\n\nNếu đã gây sát thương tối đa bằng hiệu ứng trên, lượt sau nhận 1 Tăng lượng sát thương thuộc tính tội lỗi tương ứng, và hiệu ứng trên sẽ không kích hoạt trong 2 lượt."
     },
     {
       "id": 2010212,

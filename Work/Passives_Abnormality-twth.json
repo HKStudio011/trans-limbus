@@ -66,7 +66,7 @@
     {
       "id": 500601,
       "name": "Chiến đấu Ảnh chiếu",
-      "desc": "Khi số lần Khiêu chiến với cùng một đối tượng từ 10 lần trở lên, Sức mạnh Khiêu chiến tăng hoặc giảm một lượng bằng (Số lần Khiêu chiến ÷ 10) hiện tại (Lấy phần nguyên)\n\nChỉ số [Combustion], [Laceration], [Vibration], [Burst], [Sinking] tích lũy tối đa đến 30, và số lượt cộng dồn tối đa đến 10.",
+      "desc": "Khi số lần Khiêu chiến với cùng một đối tượng từ 10 lần trở lên, Sức mạnh Khiêu chiến tăng hoặc giảm một lượng bằng (Số lần Khiêu chiến ÷ 10) hiện tại (Lấy phần nguyên)\n\nChỉ số tối đa của [Combustion], [Laceration], [Vibration], [Burst], [Sinking] là 30\nSố lượt cộng dồn tối đa của [Combustion], [Laceration], [Vibration], [Burst], [Sinking] là 10",
       "flavor": ""
     },
     {
@@ -86,7 +86,7 @@
     {
       "id": 500604,
       "name": "Phái Dã thú - Sắc màu Hoang dã",
-      "desc": "Khi kết thúc trận chiến, áp dụng <color=#ff6000><mark=#ff000040><b><u>1 [IntenseColors] vào lượt tiếp theo</u></b></mark></color> cho Tội nhân sở hữu tất cả các hiệu ứng [BearClawWound], [EagleClawWound] và [BoldBrushstrokes]\n- Nếu [BearClawWound] và [EagleClawWound] mà đối tượng sở hữu\nlần lượt từ 3/6/9 trở lên, thay vào đó áp dụng 2/3/4",
+      "desc": "Khi kết thúc trận chiến, áp dụng <color=#ff6000><mark=#ff000040><b><u>1 [IntenseColors] vào lượt tiếp theo</u></b></mark></color> cho Tội nhân sở hữu tất cả các hiệu ứng [BearClawWound], [EagleClawWound] và [BoldBrushstrokes]\n- Nếu [BearClawWound] và [EagleClawWound] mà đối tượng sở hữu lần lượt từ 3/6/9 trở lên, thay vào đó áp dụng 2/3/4 [IntenseColors]",
       "summary": "Áp dụng Sắc màu Mãnh liệt",
       "flavor": "「Ngoại hình của động vật đều có mục đích riêng. Trong số đó, thứ đánh thức và biểu hiện sự hoang dã của những kẻ mà chúng ta gọi là dã thú chính là phái Dã thú.」"
     },
@@ -100,27 +100,27 @@
     {
       "id": 500701,
       "name": "Chiến đấu Ảnh chiếu",
-      "desc": "Khi số lần Khiêu chiến với cùng một đối tượng từ 10 lần trở lên, Sức mạnh Khiêu chiến tăng hoặc giảm một lượng bằng (Số lần Khiêu chiến ÷ 10) hiện tại (Lấy phần nguyên)\n\nChỉ số [Combustion], [Laceration], [Vibration], [Burst], [Sinking] tích lũy tối đa đến 30, và số lượt cộng dồn tối đa đến 10.",
+      "desc": "Khi số lần Khiêu chiến với cùng một đối tượng từ 10 lần trở lên, Sức mạnh Khiêu chiến tăng hoặc giảm một lượng bằng (Số lần Khiêu chiến ÷ 10) hiện tại (Lấy phần nguyên)\n\nChỉ số tối đa của [Combustion], [Laceration], [Vibration], [Burst], [Sinking] là 30\nSố lượt cộng dồn tối đa của [Combustion], [Laceration], [Vibration], [Burst], [Sinking] là 10",
       "flavor": ""
     },
     {
       "id": 500702,
       "name": "Docent phái Dã thú Ngón Nhẫn Loup",
-      "desc": "Trong lượt sử dụng đòn tấn công mạnh, giá trị Tốc độ tối thiểu/tối đa +15\n\nLượng sát thương nhận vào từ Tấn công một chiều -50%\nLượng sát thương gây ra từ Tấn công một chiều +50%\n- Nếu [Aggro] của ô kỹ năng tương ứng từ 2 trở lên, mỗi 1 giá trị sẽ làm giảm 5% lượng sát thương tăng thêm từ hiệu ứng này (Tối thiểu 0%)\n\nKhi thua Khiêu chiến, nhận 1 [AttackDmgUp] (Tối đa 5 mỗi lượt)\n- Khi kết thúc lượt hoặc khi tấn công trúng Tội nhân bằng kỹ năng, [AttackDmgUp] nhận được từ hiệu ứng này sẽ biến mất khi kết thúc đòn tấn công của kỹ năng đó",
+      "desc": "Trong lượt sử dụng đòn tấn công mạnh, giá trị Tốc độ tối thiểu/tối đa +15\n\nLượng sát thương nhận vào từ Tấn công một chiều -50%\nLượng sát thương gây ra từ Tấn công một chiều +50%\n- Nếu [Aggro] của ô kỹ năng tương ứng từ 2 trở lên, mỗi 1 [Aggro] sẽ làm giảm 5% lượng sát thương tăng thêm từ hiệu ứng này (Tối thiểu 0%)\n\nKhi thua Khiêu chiến, nhận 1 [AttackDmgUp] (Tối đa 5 mỗi lượt)\n- Khi kết thúc lượt hoặc khi tấn công trúng Tội nhân bằng kỹ năng, [AttackDmgUp] nhận được từ hiệu ứng này sẽ biến mất khi kết thúc đòn tấn công của kỹ năng đó",
       "summary": "Giảm lượng sát thương nhận vào từ Tấn công một chiều, tăng lượng sát thương gây ra từ Tấn công một chiều\nKhi thua Khiêu chiến, nhận tăng lượng sát thương",
       "flavor": ""
     },
     {
       "id": 500703,
       "name": "Phái Dã thú - Masque du Loup : Đánh thức Bản năng",
-      "desc": "Khi bắt đầu lượt, nhận <color=#ff6000><mark=#ff000040><b><u>10 [Protection]</u></b></mark></color>\n- Với mỗi <color=#ff6000><mark=#ff000040><b><u>loại hiệu ứng bất lợi</u></b></mark></color> đang sở hữu, giá trị nhận được khi bắt đầu lượt giảm 1\n- <color=#ff6000><mark=#ff000040><b><u>Khi thua Khiêu chiến</u></b></mark></color> trước 「Thô bạo thay, những vệt màu đỏ đang mạch động dưới lớp da của ngươi.」, hiệu ứng này sẽ đổi thành <color=#ff6000><mark=#ff000040><b><u>nhận 2 [Vulnerable]</u></b></mark></color> chỉ trong lượt tiếp theo\n\nMỗi khi <color=#ff6000><mark=#ff000040><b><u>nhận sát thương từ xu kỹ năng, Cấp Phòng thủ tăng thêm 1</u></b></mark></color> (Tối đa 20 mỗi lượt)\n- Khi kết thúc lượt, Cấp Phòng thủ nhận được từ hiệu ứng này sẽ biến mất\n- <color=#ff6000><mark=#ff000040><b><u>Khi thua Khiêu chiến</u></b></mark></color> trước 「Thô bạo thay, những vệt màu đỏ đang mạch động dưới lớp da của ngươi.」, hiệu ứng này sẽ đổi thành <color=#ff6000><mark=#ff000040><b><u>Cấp Phòng thủ giảm đi 1</u></b></mark></color> mỗi khi nhận sát thương từ xu kỹ năng chỉ trong lượt tiếp theo (Tối đa 20, hiệu ứng biến mất khi kết thúc lượt đó)",
+      "desc": "Khi bắt đầu lượt, nhận <color=#ff6000><mark=#ff000040><b><u>10 [Protection]</u></b></mark></color>\n- Với mỗi <color=#ff6000><mark=#ff000040><b><u>loại hiệu ứng bất lợi</u></b></mark></color> đang sở hữu, giá trị [Protection] nhận được khi bắt đầu lượt giảm 1\n- <color=#ff6000><mark=#ff000040><b><u>Khi thua Khiêu chiến trước 「Thô bạo thay, những vệt màu đỏ đang mạch động dưới lớp da của ngươi.」, hiệu ứng này sẽ đổi thành nhận 2 [Vulnerable]</u></b></mark></color> chỉ trong lượt tiếp theo\n\nMỗi khi <color=#ff6000><mark=#ff000040><b><u>nhận sát thương từ xu kỹ năng, Cấp Phòng thủ tăng thêm 1</u></b></mark></color> (Tối đa 20 mỗi lượt)\n- Khi kết thúc lượt, Cấp Phòng thủ nhận được từ hiệu ứng này sẽ biến mất\n- <color=#ff6000><mark=#ff000040><b><u>Khi thua Khiêu chiến trước 「Thô bạo thay, những vệt màu đỏ đang mạch động dưới lớp da của ngươi.」, hiệu ứng này sẽ đổi thành Cấp Phòng thủ giảm đi 1 mỗi khi nhận sát thương từ xu kỹ năng</u></b></mark></color> chỉ trong lượt tiếp theo (Tối đa 20, hiệu ứng biến mất khi kết thúc lượt đó)",
       "summary": "Khi nhận sát thương, Cấp Phòng thủ tăng\nNếu đã thua Khiêu chiến bằng kỹ năng nhất định ở lượt trước, Cấp Phòng thủ sẽ giảm thay thế",
       "flavor": ""
     },
     {
       "id": 500704,
       "name": "Phái Dã thú - Sắc màu Hoang dã",
-      "desc": "Khi kết thúc trận chiến, áp dụng <color=#ff6000><mark=#ff000040><b><u>1 [IntenseColors] vào lượt tiếp theo</u></b></mark></color> cho Tội nhân sở hữu tất cả các hiệu ứng [BearClawWound], [EagleClawWound] và [BoldBrushstrokes]\n- Nếu [BearClawWound] và [EagleClawWound] mà đối tượng sở hữu\nlần lượt từ 3/6/9 trở lên, thay vào đó áp dụng 2/3/4",
+      "desc": "Khi kết thúc trận chiến, áp dụng <color=#ff6000><mark=#ff000040><b><u>1 [IntenseColors] vào lượt tiếp theo</u></b></mark></color> cho Tội nhân sở hữu tất cả các hiệu ứng [BearClawWound], [EagleClawWound] và [BoldBrushstrokes]\n- Nếu [BearClawWound] và [EagleClawWound] mà đối tượng sở hữu lần lượt từ 3/6/9 trở lên, thay vào đó áp dụng 2/3/4 [IntenseColors]",
       "summary": "Áp dụng Sắc màu Mãnh liệt",
       "flavor": "「Ngoại hình của các loài động vật đều có mục đích riêng của chúng. Trong số đó, thứ đánh thức bản năng dã tính của những kẻ mà chúng ta gọi là dã thú và khiến nó bộc lộ ra bên ngoài chính là Dã Thú Phái.」"
     },

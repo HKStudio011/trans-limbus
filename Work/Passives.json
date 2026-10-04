@@ -3,7 +3,7 @@
     {
       "id": 1010101,
       "name": "Truyền đạt thông tin",
-      "desc": "Tại bảng điều khiển, ban Tăng Sát thương 1 cho 2 đồng minh đứng sau bản thân"
+      "desc": "Tại bảng điều khiển, ban 1 [AttackDmgUp] cho 2 đồng minh đứng sau bản thân"
     },
     {
       "id": 1010201,
@@ -208,7 +208,7 @@
     {
       "id": 1020121,
       "name": "Quan Sát",
-      "desc": "Khi 1 đồng minh có Máu tối đa cao nhất tấn công trúng đích, 25% xác suất gây 2 Giảm Cấp độ Tấn công"
+      "desc": "Khi 1 đồng minh có Máu tối đa cao nhất tấn công trúng đích, 25% xác suất gây 2 [AttackDown]"
     },
     {
       "id": 1020221,
@@ -473,12 +473,12 @@
     {
       "id": 1020401,
       "name": "Tiếng Huýt Sáo",
-      "desc": "Khi bắt đầu trận chiến, hồi 15 Tỉnh táo cho 2 đồng minh có Tỉnh táo thấp nhất.\nNếu đối tượng là Cuồng tín đồ Hội N, nhận 1 Cuồng tín"
+      "desc": "Khi bắt đầu trận chiến, hồi 15 Tỉnh táo cho 2 đồng minh có Tỉnh táo thấp nhất.\nNếu đối tượng là Cuồng tín đồ Hội N, nhận 1 [AssemblePersonality]"
     },
     {
       "id": 1020421,
       "name": "Lời Thì Thầm",
-      "desc": "Khi bắt đầu trận chiến, hồi 15 Tỉnh táo cho 1 đồng minh có Tỉnh táo thấp nhất.\nNếu đối tượng là Cuồng tín đồ Hội N, nhận 1 Cuồng tín"
+      "desc": "Khi bắt đầu trận chiến, hồi 15 Tỉnh táo cho 1 đồng minh có Tỉnh táo thấp nhất.\nNếu đối tượng là Cuồng tín đồ Hội N, nhận 1 [AssemblePersonality]"
     },
     {
       "id": 1070401,
@@ -708,12 +708,12 @@
     {
       "id": 1020511,
       "name": "Bảo Vệ Khu Vực",
-      "desc": "Khi bắt đầu trận chiến, gây 2 Tăng Cấp Phòng Thủ cho các đồng minh nằm hai bên trên bảng điều khiển\nNếu Máu của mục tiêu dưới 50%, gây thêm 2"
+      "desc": "Khi bắt đầu trận chiến, gây 2 [DefenseUp] cho các đồng minh nằm hai bên trên bảng điều khiển\nNếu Máu của mục tiêu dưới 50%, gây thêm 2 [DefenseUp]"
     },
     {
       "id": 1020521,
       "name": "Tiếp Nhận Yêu Cầu Bảo Vệ",
-      "desc": "Khi bắt đầu trận chiến, gây 2 Tăng Cấp Phòng Thủ cho 1 đồng minh có tỉ lệ Máu thấp nhất\nNếu Máu của mục tiêu dưới 50%, gây thêm 2"
+      "desc": "Khi bắt đầu trận chiến, gây 2 [DefenseUp] cho 1 đồng minh có tỉ lệ Máu thấp nhất\nNếu Máu của mục tiêu dưới 50%, gây thêm 2 [DefenseUp]"
     },
     {
       "id": 1040501,
@@ -762,7 +762,7 @@
     {
       "id": 1020601,
       "name": "Trước khi trà nguội...",
-      "desc": "Khi tấn công bằng thuộc tính Điểm yếu/Yếu (Kháng trên 1) của đối tượng, trước khi tấn công, nhận <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">[Breath] (Breath)</color></u></link> bằng với số <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">[Burst] (Rupture)</color></link></u> của đối tượng (Tối đa 20 mỗi lượt)",
+      "desc": "Khi tấn công bằng thuộc tính Điểm yếu/Yếu (Kháng trên 1) của đối tượng, trước khi tấn công, nhận [Breath] bằng với số [Burst] của đối tượng (Tối đa 20 mỗi lượt)",
       "summary": "Khi tấn công bằng thuộc tính Điểm yếu/Yếu, nhận Hô hấp (Breath) bằng với số Vết rách (Rupture) của đối tượng trước khi tấn công"
     },
     {
@@ -780,12 +780,12 @@
     {
       "id": 1010501,
       "name": "Chính những lúc thế này...",
-      "desc": "Mỗi khi gây Chấn động Bộc phát (Burst) khiến mốc choáng của kẻ địch đẩy thêm 4, gây 1 Giảm Cấp Phòng thủ (Tối đa 5 mỗi kẻ địch trong một lượt)"
+      "desc": "Mỗi khi kích hoạt [VibrationExplosion] lên kẻ địch khiến mốc choáng đẩy thêm 4, gây 1 [DefenseDown] (Tối đa 5 [DefenseDown] mỗi kẻ địch trong một lượt)"
     },
     {
       "id": 1010521,
       "name": "Thu dọn tàn cuộc",
-      "desc": "Khi 1 đồng minh có HP tối đa thấp nhất gây Chấn động Bộc phát (Burst) khiến mốc choáng của kẻ địch đẩy thêm 4, gây 1 Giảm Cấp Phòng thủ vào lượt kế tiếp (Tối đa 3 mỗi lượt / trên mỗi kẻ địch)"
+      "desc": "Khi 1 đồng minh có HP tối đa thấp nhất kích hoạt [VibrationExplosion] lên kẻ địch khiến mốc choáng đẩy thêm 4, gây 1 [DefenseDown] vào lượt kế tiếp (Tối đa 3 [DefenseDown] mỗi lượt / trên mỗi kẻ địch)"
     },
     {
       "id": 1110501,
@@ -820,12 +820,12 @@
     {
       "id": 1020701,
       "name": "Sự hối hận bị cuốn trôi",
-      "desc": "- Khi đang Đối đầu, nếu đối phương có từ 3 loại hiệu ứng bất lợi trở lên, Sức mạnh Đối đầu của đối phương -1\n- Khi bản thân còn sống, kẻ địch bị [VibrationExplosion] sẽ nhận 2 Giảm Cấp Phòng thủ. (Tối đa 1 lần trên 1 kẻ địch mỗi lượt)\n- Nhiễm độc tâm trí: Nếu Tinh thần thấp hơn -25 khi kết thúc lượt, nhận 2 Trói buộc (Bind), 1 Tăng Sức mạnh Va chạm vào lượt kế tiếp"
+      "desc": "- Khi đang Đối đầu, nếu đối phương có từ 3 loại hiệu ứng bất lợi trở lên, Sức mạnh Đối đầu của đối phương -1\n- Khi bản thân còn sống, kẻ địch bị [VibrationExplosion] sẽ nhận 2 [DefenseDown]. (Tối đa 1 lần trên 1 kẻ địch mỗi lượt)\n- Nhiễm độc tâm trí: Nếu Tinh thần thấp hơn -25 khi kết thúc lượt, nhận 2 [Binding] và 1 [HitResultUp] vào lượt kế tiếp"
     },
     {
       "id": 1020711,
       "name": "Sự hối hận bị cuốn trôi",
-      "desc": "- Khi đang Đối đầu, cứ mỗi 3 loại hiệu ứng bất lợi trên đối phương, Sức mạnh Đối đầu của đối phương -1 (Tối đa 2)\n- Khi bản thân còn sống, kẻ địch bị [VibrationExplosion] sẽ nhận 2 Giảm Cấp Phòng thủ. (Tối đa 3 lần trên 1 kẻ địch mỗi lượt)\n- Nhiễm độc tâm trí: Nếu Tinh thần thấp hơn -25 khi kết thúc lượt, nhận 2 Trói buộc (Bind), 1 Tăng Sức mạnh Va chạm vào lượt kế tiếp"
+      "desc": "- Khi đang Đối đầu, cứ mỗi 3 loại hiệu ứng bất lợi trên đối phương, Sức mạnh Đối đầu của đối phương -1 (Tối đa 2)\n- Khi bản thân còn sống, kẻ địch bị [VibrationExplosion] sẽ nhận 2 [DefenseDown]. (Tối đa 3 lần trên 1 kẻ địch mỗi lượt)\n- Nhiễm độc tâm trí: Nếu Tinh thần thấp hơn -25 khi kết thúc lượt, nhận 2 [Binding] và 1 [HitResultUp] vào lượt kế tiếp"
     },
     {
       "id": 1020721,
@@ -835,12 +835,12 @@
     {
       "id": 1010601,
       "name": "Cái đầu rỗng tuếch",
-      "desc": "- Khi kết thúc lượt, mỗi 5 số lượt Sạc (Charge) của bản thân giúp nhận 1 Nhanh nhẹn (Haste) vào lượt kế tiếp. (Tối đa 2)\n- Khi bản thân tiêu hao số lượt Sạc (Charge) bằng kĩ năng, gây 3 Từ trường Sạc cho 1 đồng minh có tỉ lệ HP hiện tại thấp nhất"
+      "desc": "- Khi kết thúc lượt, mỗi 5 số lượt [Charge] của bản thân giúp nhận 1 [Agility] vào lượt kế tiếp. (Tối đa 2)\n- Khi bản thân tiêu hao số lượt [Charge] bằng kĩ năng, gây 3 [ChargeForceField] cho 1 đồng minh có tỉ lệ HP hiện tại thấp nhất"
     },
     {
       "id": 1010611,
       "name": "Cái đầu rỗng tuếch",
-      "desc": "- Khi kết thúc lượt, mỗi 5 số lượt Sạc (Charge) của bản thân giúp nhận 1 Nhanh nhẹn (Haste) vào lượt kế tiếp. (Tối đa 3)\n- Khi bản thân tiêu hao số lượt Sạc (Charge) bằng kĩ năng, gây 3 Từ trường Sạc cho 1 đồng minh có tỉ lệ HP hiện tại thấp nhất"
+      "desc": "- Khi kết thúc lượt, mỗi 5 số lượt [Charge] của bản thân giúp nhận 1 [Agility] vào lượt kế tiếp. (Tối đa 3)\n- Khi bản thân tiêu hao số lượt [Charge] bằng kĩ năng, gây 3 [ChargeForceField] cho 1 đồng minh có tỉ lệ HP hiện tại thấp nhất"
     },
     {
       "id": 1010621,
@@ -850,17 +850,17 @@
     {
       "id": 1120701,
       "name": "Đạn dược đắt đỏ lắm đấy",
-      "desc": "- Khi tung mặt Ngửa trúng đích đối tượng đang bị Xuất huyết (Bleed), nhận <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Lợi nhuận phi pháp (Unjust Enrichment)</color></u></link>. (Tối đa 4)\n- Nếu không có [Bullet], khi đánh Chí mạng sẽ tiêu hao toàn bộ <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Lợi nhuận phi pháp (Unjust Enrichment)</color></u></link>, và gây thêm sát thương bằng (5 × <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Lợi nhuận phi pháp (Unjust Enrichment)</color></u></link> đã tiêu hao)% lượng sát thương."
+      "desc": "- Khi tung mặt Ngửa trúng đích đối tượng đang bị <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Xuất huyết (Bleed)</color></link></u>, nhận <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Lợi nhuận phi pháp (Unjust Enrichment)</color></link></u>. (Tối đa 4)\n- Nếu không có [Bullet], khi đánh Chí mạng sẽ tiêu hao toàn bộ <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Lợi nhuận phi pháp (Unjust Enrichment)</color></link></u>, và gây thêm sát thương bằng (5 × <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Lợi nhuận phi pháp (Unjust Enrichment)</color></link></u> đã tiêu hao)% lượng sát thương."
     },
     {
       "id": 1120702,
       "name": "Đạn dược đắt đỏ lắm đấy",
-      "desc": "<style=\"highlight\">- Áp dụng thường trực: Sở hữu 7 viên đạn</style>\n- Khi tung mặt Ngửa trúng đích đối tượng đang bị Xuất huyết (Bleed), nhận <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Lợi nhuận phi pháp (Unjust Enrichment)</color></u></link>. (Tối đa 4)\n<style=\"highlight\">- Khi đồng xu tiêu hao đạn trúng đích, tiêu hao toàn bộ <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Lợi nhuận phi pháp (Unjust Enrichment)</color></u></link>, và gây thêm sát thương bằng (25 × <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Lợi nhuận phi pháp (Unjust Enrichment)</color></u></link> đã tiêu hao)% lượng sát thương.</style>\n- Nếu không có [Bullet], khi đánh Chí mạng sẽ tiêu hao toàn bộ <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Lợi nhuận phi pháp (Unjust Enrichment)</color></u></link>, và gây thêm sát thương bằng (5 × <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Lợi nhuận phi pháp (Unjust Enrichment)</color></u></link> đã tiêu hao)% lượng sát thương."
+      "desc": "<style=\"highlight\">- Áp dụng thường trực: Sở hữu 7 viên đạn</style>\n- Khi tung mặt Ngửa trúng đích đối tượng đang bị <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Xuất huyết (Bleed)</color></link></u>, nhận <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Lợi nhuận phi pháp (Unjust Enrichment)</color></link></u>. (Tối đa 4)\n<style=\"highlight\">- Khi đồng xu tiêu hao đạn trúng đích, tiêu hao toàn bộ <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Lợi nhuận phi pháp (Unjust Enrichment)</color></link></u>, và gây thêm sát thương bằng (25 × <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Lợi nhuận phi pháp (Unjust Enrichment)</color></link></u> đã tiêu hao)% lượng sát thương.</style>\n- Nếu không có [Bullet], khi đánh Chí mạng sẽ tiêu hao toàn bộ <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Lợi nhuận phi pháp (Unjust Enrichment)</color></link></u>, và gây thêm sát thương bằng (5 × <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Lợi nhuận phi pháp (Unjust Enrichment)</color></link></u> đã tiêu hao)% lượng sát thương."
     },
     {
       "id": 1120721,
       "name": "Lỗ gió",
-      "desc": "Khi 1 đồng minh sở hữu nhiều Hô hấp (Breath) nhất tiêu diệt kẻ địch, nhận 1 Tăng lượng sát thương Đâm vào lượt kế tiếp. (1 lần mỗi lượt)"
+      "desc": "Khi 1 đồng minh sở hữu nhiều <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Hô hấp (Breath)</color></link></u> nhất tiêu diệt kẻ địch, nhận 1 Tăng lượng sát thương Đâm vào lượt kế tiếp. (1 lần mỗi lượt)"
     },
     {
       "id": 1040601,
@@ -1109,12 +1109,12 @@
     {
       "id": 1020811,
       "name": "Máu Nở Như Mai Đỏ",
-      "desc": "Khi trúng đòn chí mạng, gây 1 [RedApricotBlossom]. Nếu [RedApricotBlossom] của mục tiêu là 10, thay vào đó gây Giảm cấp phòng thủ 1 (Tối đa 6 lần)"
+      "desc": "Khi trúng đòn chí mạng, gây 1 [RedApricotBlossom]\nNếu [RedApricotBlossom] của mục tiêu là 10, thay vào đó gây 1 [DefenseDown] (Tối đa 6 lần)"
     },
     {
       "id": 1020821,
       "name": "Mũi kiếm vương vấn",
-      "desc": "Khi đồng minh có thứ tự sắp xếp sớm nhất trúng đòn chí mạng bằng kĩ năng hệ Chém, gây Giảm cấp phòng thủ 1 (Mỗi lượt, tối đa 3 lần cho mỗi kẻ địch)"
+      "desc": "Khi đồng minh có thứ tự sắp xếp sớm nhất trúng đòn chí mạng bằng kĩ năng hệ Chém, gây 1 [DefenseDown] (Mỗi lượt, tối đa 3 lần cho mỗi kẻ địch)"
     },
     {
       "id": 1030801,
@@ -1863,7 +1863,7 @@
     {
       "id": 1031021,
       "name": "\"Hỡi gia quyến, hãy lấp đầy cơn đói đã kìm nén bấy lâu\"",
-      "desc": "Khi bắt đầu trận chiến, mỗi 20% Máu đã mất của đồng minh có Máu thấp nhất giúp nhận [AttackDmgUp] 1 (Tối đa 3).\n- Nếu đồng minh đó là <Huyết Quỷ>, thay thế bằng: mỗi 15% Máu đã mất giúp nhận [AttackDmgUp] 1 (Tối đa 3)."
+      "desc": "Khi bắt đầu trận chiến, mỗi 20% Máu đã mất của đồng minh có Máu thấp nhất giúp nhận [AttackDmgUp] 1 (Tối đa 3).\n- Nếu đồng minh đó là <Bloodfiend>, thay thế bằng: mỗi 15% Máu đã mất giúp nhận [AttackDmgUp] 1 (Tối đa 3)."
     },
     {
       "id": 1061101,
@@ -2012,7 +2012,7 @@
     {
       "id": 1121101,
       "name": "Chỉ còn mình tôi sống sót...",
-      "desc": "Tăng +0.2% Sát thương gây ra với mỗi 1 [FirePunchFuel], [FirePunchFuelOverheated] đã tiêu hao trong trận chiến này (Tối đa 40%)\n- Nếu mục tiêu chính là <Huyết Quỷ> · <Túi Máu>, hoặc tổng cấp và số lượng [Bỏng] của đối tượng từ 30 trở lên, tăng +0.3% Sát thương gây ra thay thế (Tối đa 60%)\n\nKhi có từ 1 [FirePunchFuel], [FirePunchFuelOverheated] trở lên, nếu khiến kẻ địch bị [Bỏng] rơi vào trạng thái Choáng váng hoặc tiêu diệt chúng, tăng 2 số lượng [Bỏng] cho 2 kẻ địch ngẫu nhiên không có [Bỏng] hoặc có số lượng [Bỏng] thấp nhất (1 lần mỗi lượt)\n- Trong trận chiến tập trung thì áp dụng cho bộ phận",
+      "desc": "Tăng +0.2% Sát thương gây ra với mỗi 1 [FirePunchFuel], [FirePunchFuelOverheated] đã tiêu hao trong trận chiến này (Tối đa 40%)\n- Nếu mục tiêu chính là <Bloodfiend>, <Bloodbag>, hoặc tổng cấp [Combustion] và số lượng [Combustion] của đối tượng từ 30 trở lên, tăng +0.3% Sát thương gây ra thay thế (Tối đa 60%)\n\nKhi có từ 1 [FirePunchFuel], [FirePunchFuelOverheated] trở lên, nếu khiến kẻ địch bị [Combustion] rơi vào trạng thái Choáng váng hoặc tiêu diệt chúng, tăng 2 số lượng [Combustion] cho 2 kẻ địch ngẫu nhiên không có [Combustion] hoặc có số lượng [Combustion] thấp nhất (1 lần mỗi lượt)\n- Trong trận chiến tập trung thì áp dụng cho bộ phận",
       "summary": "Tăng sát thương tỉ lệ với [FirePunchFuel], [FirePunchFuelOverheated] đã tiêu hao TabExplain\nTăng số lượng [Combustion] cho 2 kẻ địch (1 lần mỗi lượt)"
     },
     {
@@ -2038,7 +2038,7 @@
     {
       "id": 1031131,
       "name": "Khinh Thân Pháp",
-      "desc": "Khi đồng minh có Tốc độ cao nhất chiến thắng khi đối đầu với kẻ địch đang có [Bỏng] hoặc Bỏng đặc biệt, nhận 1 [Nhanh nhẹn] vào lượt kế tiếp (1 lần mỗi lượt)\n<style=\"highlight\">- Nếu cấp [Bỏng] của đối tượng từ 20 trở lên, nhận thêm 1 [Nhanh nhẹn]</style>"
+      "desc": "Khi đồng minh có Tốc độ cao nhất chiến thắng khi đối đầu với kẻ địch đang có [Combustion] hoặc Bỏng đặc biệt, nhận 1 [Agility] vào lượt kế tiếp (1 lần mỗi lượt)\n<style=\"highlight\">- Nếu cấp [Combustion] của đối tượng từ 20 trở lên, nhận thêm 1 [Agility]</style>"
     },
     {
       "id": 1041101,
@@ -2341,12 +2341,12 @@
     {
       "id": 1011401,
       "name": "Hắc Phong Mã Cước",
-      "desc": "Khi thỏa mãn các điều kiện dưới đây, nhận 1 [BreakthroughHorse]:\n- Khi bắt đầu tấn công, Tốc độ cao hơn mục tiêu từ 2 trở lên\n- Khi kích hoạt hiệu ứng [VibrationExplosion] 2 lần bằng [Skill] của bản thân (Bao gồm [Skill] E.G.O)\n- Khi thắng đối kháng trong trạng thái sở hữu [LegStrengthHorseYisang]\n※ [BreakthroughHorse] có thể nhận tối đa 3 mỗi lượt, không thể nhận bằng [Skill] 「Hắc Phong Mã Cước Nguyệt Trảm」"
+      "desc": "Khi thỏa mãn các điều kiện dưới đây, nhận 1 [BreakthroughHorse]:\n- Khi bắt đầu tấn công, Tốc độ cao hơn mục tiêu từ 2 trở lên\n- Khi kích hoạt hiệu ứng [VibrationExplosion] 2 lần bằng [Skill] của bản thân (Bao gồm [Skill] E.G.O)\n- Khi thắng đối kháng trong trạng thái sở hữu [LegStrengthHorseYisang]\n※ [BreakthroughHorse] có thể nhận tối đa 3 mỗi lượt, không thể nhận [BreakthroughHorse] bằng [Skill] 「Hắc Phong Mã Cước Nguyệt Trảm」"
     },
     {
       "id": 1011411,
       "name": "Hắc Phong Mã Cước",
-      "desc": "Khi thỏa mãn các điều kiện dưới đây, nhận 1 [BreakthroughHorse]:\n- Khi bắt đầu tấn công, Tốc độ cao hơn mục tiêu từ 2 trở lên\n- Khi kích hoạt hiệu ứng [VibrationExplosion] 2 lần bằng [Skill] của bản thân (Bao gồm [Skill] E.G.O)\n- Khi thắng đối kháng trong trạng thái sở hữu [LegStrengthHorseYisang]\n※ [BreakthroughHorse] có thể nhận tối đa 3 mỗi lượt, không thể nhận bằng [Skill] 「Hắc Phong Mã Cước Nguyệt Trảm」\n\n<style=\"highlight\">Khi bản thân có Khiên, Cấp phòng thủ tăng thêm (Giá trị Khiên ÷ 10) (Tối đa 5, bỏ phần thập phân)</style>"
+      "desc": "Khi thỏa mãn các điều kiện dưới đây, nhận 1 [BreakthroughHorse]:\n- Khi bắt đầu tấn công, Tốc độ cao hơn mục tiêu từ 2 trở lên\n- Khi kích hoạt hiệu ứng [VibrationExplosion] 2 lần bằng [Skill] của bản thân (Bao gồm [Skill] E.G.O)\n- Khi thắng đối kháng trong trạng thái sở hữu [LegStrengthHorseYisang]\n※ [BreakthroughHorse] có thể nhận tối đa 3 mỗi lượt, không thể nhận [BreakthroughHorse] bằng [Skill] 「Hắc Phong Mã Cước Nguyệt Trảm」\n\n<style=\"highlight\">Khi bản thân có Khiên, Cấp phòng thủ tăng thêm (Giá trị Khiên ÷ 10) (Tối đa 5, bỏ phần thập phân)</style>"
     },
     {
       "id": 1011402,
@@ -2631,7 +2631,7 @@
     {
       "id": 1031402,
       "name": "Chỉ thị được truyền bằng máy thiết bị cầm tay",
-      "desc": "Khi bắt đầu hiệp\n- Nhận [IndexPrescriptDon_0] / [IndexPrescriptDon_1] / [IndexPrescriptDon_2] / [IndexPrescriptDon_3] tùy theo cấp độ [UnlockBuff_Base] của bản thân\n- Gây [IndexPrescriptTargetToEnemy] lên 1 kẻ địch ngẫu nhiên (Gây vào bộ phận nếu là Trận chiến Tập trung)\n- Gây [IndexPrescriptTargetMarkToEnemy] vào Kĩ năng Tấn công cơ bản của bản thân trên các ô kĩ năng (Mỗi ô kĩ năng gây 1 cái, tối đa 2 cái)\n· Nếu [UnlockBuffAlly_2] trở lên, ưu tiên gây vào Kĩ năng 3\n- Nếu ở trạng thái Hoảng loạn, Bất động [TabExplain], Hỗn loạn, E.G.O Xâm chiếm, tất cả các hiệu ứng trên và kết quả thực hiện [IndexPrescript_Base_2nd] sẽ không được áp dụng\n\nKhi bắt đầu hiệp nếu là [UnlockBuffAlly_3], nhận [Blandishment_Shin]",
+      "desc": "Khi bắt đầu hiệp\n- Nhận [IndexPrescriptDon_0] / [IndexPrescriptDon_1] / [IndexPrescriptDon_2] / [IndexPrescriptDon_3] tùy theo cấp độ [UnlockBuff_Base] của bản thân\n- Gây [IndexPrescriptTargetToEnemy] lên 1 kẻ địch ngẫu nhiên (Gây vào bộ phận nếu là Trận chiến Tập trung)\n- Gây [IndexPrescriptTargetMarkToEnemy] vào Kĩ năng Tấn công cơ bản của bản thân trên các ô kĩ năng (Mỗi ô kĩ năng gây 1 cái, tối đa 2 cái)\n· Nếu [UnlockBuffAlly_2] trở lên, ưu tiên gây vào Kĩ năng 3\n- Nếu ở trạng thái Hoảng loạn, Bất động [TabExplain], Hỗn loạn, E.G.O Xâm chiếm[TabExplain], tất cả các hiệu ứng trên và kết quả thực hiện [IndexPrescript_Base_2nd] sẽ không được áp dụng\n\nKhi bắt đầu hiệp nếu là [UnlockBuffAlly_3], nhận [Blandishment_Shin]",
       "summary": "Nhận Chỉ thị\nGây Đối tượng Chỉ thị lên kẻ địch ngẫu nhiên\nGây Dấu ấn Chỉ thị vào kĩ năng tấn công cơ bản ngẫu nhiên của bản thân"
     },
     {
@@ -2732,7 +2732,7 @@
     {
       "id": 1011504,
       "name": "Cấp trên của Chỉ Số",
-      "desc": "Khi xuất hiện lần đầu trong màn chơi, nhận [BurningWoundYisangMask]\n- Trong khi sở hữu hiệu ứng này, nếu bị Hoảng loạn lần đầu trong trận đấu này,\ngiải trừ Hoảng loạn (không bao gồm Hoảng loạn cưỡng chế) khi kết thúc lượt và [BurningWoundYisangMask] chuyển thành [BurningWoundYisang]\n\nNếu Đại diện Chỉ Số - <noparse>Khai hoa</noparse> E.G.O::Đại diện Don Quixote đang cùng chiến đấu trên chiến trường, trao [SatisfyingEsteemNeeds] cho Don Quixote",
+      "desc": "Khi xuất hiện lần đầu trong màn chơi, nhận [BurningWoundYisangMask]\n- Trong khi sở hữu hiệu ứng này, nếu bị Hoảng loạn lần đầu trong trận đấu này, giải trừ Hoảng loạn (không bao gồm Hoảng loạn cưỡng chế) khi kết thúc lượt và [BurningWoundYisangMask] chuyển thành [BurningWoundYisang]\n\nNếu Đại diện Chỉ Số - Khai hoa E.G.O::Đại diện Don Quixote đang cùng chiến đấu trên chiến trường, trao [SatisfyingEsteemNeeds] cho Don Quixote",
       "summary": ""
     },
     {
@@ -2828,7 +2828,7 @@
     {
       "id": 1121511,
       "name": "Hãy tiến lên phía trước. Ta sẽ hỗ trợ cho.",
-      "desc": "Khi bắt đầu trận đấu, số lần [Charge] của bản thân tăng <style=\"highlight\">10</style> (1 lần mỗi trận đấu)\n\nKhi kết thúc trận đấu, nếu số lần [Charge] của bản thân vượt quá 12\ntiêu tốn tối đa 8 số lần [Charge] vượt quá, 1 đồng minh sẽ tăng số lần [Charge] bằng một nửa giá trị đã tiêu tốn bởi hiệu ứng này <style=\"highlight\">(Làm tròn lên)</style>\n- Ưu tiên áp dụng cho đồng minh có thứ tự thiết lập đội hình sớm hơn bản thân và có số lần [Charge] thấp\n- Nếu không có đồng minh nào có thứ tự thiết lập đội hình sớm hơn bản thân trên chiến trường, hoặc số lần [Charge] của bản thân từ 3 trở lên thì hiệu ứng này bị vô hiệu hóa\n\nNếu Cộng hưởng Gloom (U uất) hoặc Envy (Ghen tị) từ <style=\"highlight\">2</style> trở lên,\ntrong lượt tiếp theo, số lần [Charge] của đồng minh có thứ tự thiết lập đội hình sớm hơn bản thân tăng 2\n- Áp dụng hiệu ứng cho (Số cộng hưởng cao nhất giữa Gloom hoặc Envy - <style=\"highlight\">1</style>) người theo thứ tự thiết lập đội hình (Tối đa 3 người)\n- Nếu số lần [Charge] của bản thân từ 3 trở lên, số lần [Charge] của đồng minh tăng 4 thay thế\n- Nếu không có đồng minh nào có thứ tự thiết lập đội hình sớm hơn bản thân trên chiến trường, số lần [Charge] của bản thân tăng 4 thay thế"
+      "desc": "Khi bắt đầu trận đấu, số lần [Charge] của bản thân tăng <style=\"highlight\">10</style> (1 lần mỗi trận đấu)\n\nKhi kết thúc trận đấu, nếu số lần [Charge] của bản thân vượt quá 12, tiêu tốn tối đa 8 số lần [Charge] vượt quá, 1 đồng minh sẽ tăng [Charge] bằng một nửa [Charge] đã tiêu tốn bởi hiệu ứng này <style=\"highlight\">(Làm tròn lên)</style>\n- Ưu tiên áp dụng cho đồng minh có thứ tự thiết lập đội hình sớm hơn bản thân và có số lần [Charge] thấp\n- Nếu không có đồng minh nào có thứ tự thiết lập đội hình sớm hơn bản thân trên chiến trường, hoặc số lần [Charge] của bản thân từ 3 trở lên thì hiệu ứng này bị vô hiệu hóa\n\nNếu Cộng hưởng Gloom (U uất) hoặc Envy (Ghen tị) từ <style=\"highlight\">2</style> trở lên, trong lượt tiếp theo, số lần [Charge] của đồng minh có thứ tự thiết lập đội hình sớm hơn bản thân tăng 2\n- Áp dụng hiệu ứng cho (Số cộng hưởng cao nhất giữa Gloom hoặc Envy - <style=\"highlight\">1</style>) người theo thứ tự thiết lập đội hình (Tối đa 3 người)\n- Nếu số lần [Charge] của bản thân từ 3 trở lên, số lần [Charge] của đồng minh tăng 4 thay thế\n- Nếu không có đồng minh nào có thứ tự thiết lập đội hình sớm hơn bản thân trên chiến trường, số lần [Charge] của bản thân tăng 4 thay thế"
     },
     {
       "id": 1121521,
@@ -2872,7 +2872,7 @@
     {
       "id": 1021504,
       "name": "Tác phẩm trân quý, Fascia",
-      "desc": "Khi lần đầu xuất hiện trong màn chơi, số lần [ChargeBodyArt] của bản thân tăng thêm (Số đồng minh thuộc Ngón Áp Út có mặt trên chiến trường × 2) (Tối đa 10)\n\nKhi kết thúc kĩ năng, nếu kĩ năng đó đã gây sát thương lên Máu hoặc Lá chắn, số lần [ChargeBodyArt] của bản thân tăng 5\n- Nếu mục tiêu chết, số lần tăng thêm 3\n\nTrong trận đấu, mỗi khi tiêu tốn tổng cộng 10 số lần [ChargeBodyArt] của bản thân, nhận 1 [ChargeBodyArt]\n- Nếu Cường độ [ChargeBodyArt] từ 2 trở lên bởi hiệu ứng trên, nhận [FasciaPersonality]\n\nKĩ năng tấn công cơ bản và kĩ năng Phản đòn có thể Đối đầu được tính là kĩ năng nhận số lần [Charge]",
+      "desc": "Khi lần đầu xuất hiện trong màn chơi, số lần [ChargeBodyArt] của bản thân tăng thêm (Số đồng minh thuộc Ngón Áp Út có mặt trên chiến trường × 2) (Tối đa 10)\n\nKhi kết thúc kĩ năng, nếu kĩ năng đó đã gây sát thương lên Máu hoặc Lá chắn, số lần [ChargeBodyArt] của bản thân tăng 5\n- Nếu mục tiêu chết, số lần [ChargeBodyArt] tăng thêm 3\n\nTrong trận đấu, mỗi khi tiêu tốn tổng cộng 10 số lần [ChargeBodyArt] của bản thân, nhận 1 [ChargeBodyArt]\n- Nếu Cường độ [ChargeBodyArt] từ 2 trở lên bởi hiệu ứng trên, nhận [FasciaPersonality]\n\nKĩ năng tấn công cơ bản và kĩ năng Phản đòn có thể Đối đầu được tính là kĩ năng nhận số lần [Charge]",
       "summary": "Nhận [ChargeBodyArt]"
     },
     {
@@ -3011,13 +3011,13 @@
     {
       "id": 1111513,
       "name": "Thanh kiếm bị phong ấn [Laevateinn]",
-      "desc": "Khi xuất hiện lần đầu trong màn chơi, nhận [MiddleFatherSwordOneOutis]\n\n<style=\"highlight\">Khi nhận hiệu ứng theo giai đoạn của mỗi thanh kiếm, nhận [CountSkillMidOutis] tương ứng với các chỉ số dưới đây\n- [MiddleFatherSwordOneOutis]: 1\n- [MiddleFatherSwordTwoOutis]: 2\n- [MiddleFatherSwordThreeOutis]: 2\n\nKhi thỏa mãn các điều kiện dưới đây, [CountSkillMidOutis] giảm 1 (1 lần mỗi lượt)\n- Khi sử dụng kĩ năng \"Dậm Chân Oán Hận\" (Bao gồm cả kích hoạt bằng Phản đòn)\n- Nếu tổng số Cộng hưởng Hoàn toàn Đố kị từ 6 trở lên, khi kết thúc lượt đó\n\nNếu [CountSkillMidOutis] bằng 0, khi kết thúc kĩ năng của mình, thực hiện đòn tấn công một chiều bằng \"Để ta thử bóc lớp bọc này ra xem nào\"\n- Khi kết thúc lượt, nếu [CountSkillMidOutis] bằng 0 và không thể sử dụng \"Để ta thử bóc lớp bọc này ra xem nào\" trong lượt đó, sẽ sử dụng kĩ năng đó vào lúc bắt đầu trận chiến lượt tiếp theo\n- Khi kiếm của bản thân đang ở trạng thái [MiddleFatherSwordOneOutis], nếu HP của bản thân dưới 80%, sẽ sử dụng kĩ năng đó bất kể [CountSkillMidOutis]\n\nNếu HP của bản thân từ 50% trở xuống, nhận 3 [MiddleFatherGutsOutis] (1 lần mỗi trận)\n\nNếu bị Hoảng loạn lần đầu trong trận chiến này, giải trừ trạng thái Hoảng loạn khi kết thúc lượt và nhận 15 [ResentmentSpiderOutis] (Ngoại trừ Hoảng loạn cưỡng chế)\n\nKhi bắt đầu lượt, nếu [ResentmentSpiderOutis] của bản thân là 15, thay đổi 1 kĩ năng cơ bản trong ô kĩ năng của mình thành \"Dậm Chân Oán Hận\" hoặc \"Hành Hình Tức Khắc\" (3 lần mỗi trận)\n- Chỉ áp dụng cho kĩ năng ở hàng dưới ngoài cùng bên trái\n- Nếu trong ô kĩ năng đã có sẵn kĩ năng đó thì sẽ không kích hoạt</style>",
+      "desc": "Khi xuất hiện lần đầu trong màn chơi, nhận [MiddleFatherSwordOneOutis]\n\n<style=\"highlight\">Khi nhận hiệu ứng theo giai đoạn của mỗi thanh kiếm, nhận [CountSkillMidOutis] tương ứng với các chỉ số dưới đây\n- [MiddleFatherSwordOneOutis]: Nhận 1 [CountSkillMidOutis]\n- [MiddleFatherSwordTwoOutis]: Nhận 2 [CountSkillMidOutis]\n- [MiddleFatherSwordThreeOutis]: Nhận 2 [CountSkillMidOutis]\n\nKhi thỏa mãn các điều kiện dưới đây, [CountSkillMidOutis] giảm 1 (1 lần mỗi lượt)\n- Khi sử dụng kĩ năng \"Dậm Chân Oán Hận\" (Bao gồm cả kích hoạt bằng Phản đòn)\n- Nếu tổng số Cộng hưởng Hoàn toàn Đố kị từ 6 trở lên, khi kết thúc lượt đó\n\nNếu [CountSkillMidOutis] bằng 0, khi kết thúc kĩ năng của mình, thực hiện đòn tấn công một chiều bằng \"Để ta thử bóc lớp bọc này ra xem nào\"\n- Khi kết thúc lượt, nếu [CountSkillMidOutis] bằng 0 và không thể sử dụng \"Để ta thử bóc lớp bọc này ra xem nào\" trong lượt đó, sẽ sử dụng kĩ năng đó vào lúc bắt đầu trận chiến lượt tiếp theo\n- Khi kiếm của bản thân đang ở trạng thái [MiddleFatherSwordOneOutis], nếu HP của bản thân dưới 80%, sẽ sử dụng kĩ năng đó bất kể [CountSkillMidOutis]\n\nNếu HP của bản thân từ 50% trở xuống, nhận 3 [MiddleFatherGutsOutis] (1 lần mỗi trận)\n\nNếu bị Hoảng loạn lần đầu trong trận chiến này, giải trừ trạng thái Hoảng loạn khi kết thúc lượt và nhận 15 [ResentmentSpiderOutis] (Ngoại trừ Hoảng loạn cưỡng chế)\n\nKhi bắt đầu lượt, nếu [ResentmentSpiderOutis] của bản thân là 15, thay đổi 1 kĩ năng cơ bản trong ô kĩ năng của mình thành \"Dậm Chân Oán Hận\" hoặc \"Hành Hình Tức Khắc\" (3 lần mỗi trận)\n- Chỉ áp dụng cho kĩ năng ở hàng dưới ngoài cùng bên trái\n- Nếu trong ô kĩ năng đã có sẵn kĩ năng đó thì sẽ không kích hoạt</style>",
       "flavor": "\"Di tích nằm sâu trong Thành Phố. Vượt qua một độ sâu nhất định, bên dưới đó không còn thuộc về Thành Phố nữa. Đây là một mảnh vỡ của thanh kiếm mà một trong những thực thể chờ đợi ngày tận thế tại những di tích như thế đã vung lên, là tàn tích chứa đựng toàn bộ sức mạnh đang ngủ say.\n...Ngài đã kể như vậy nhỉ. Đúng như truyền thuyết, nó thực sự là một thanh kiếm rất ngầu. Đại ca, Đại tỷ.\""
     },
     {
       "id": 1111504,
       "name": "Giáo dục Con cái",
-      "desc": "Nếu Ishmael Tiểu đệ Ngón Giữa Mạng Nhện cùng ở trên chiến trường với bản thân, các hiệu ứng dưới đây sẽ kích hoạt\n- Khi bản thân thắng Khớp lệnh, nhận 1 [DaughterEducationSpiderOutis] (1 lần mỗi lượt, nhận thêm 1 nếu là kĩ năng đầu tiên bản thân sử dụng trong lượt đó)\n- Khi kĩ năng của bản thân đánh trúng, nhận 1 [DaughterEducationSpiderOutis] (1 lần mỗi lượt, không nhận nếu là Đồng xu bị phá hủy)\n\n【Hiệu ứng dành riêng cho Ishmael Tiểu đệ Ngón Giữa Mạng Nhện】\n- Khi Ishmael thắng Khớp lệnh, nhận 1 [GotAComplimentIshmael] (1 lần mỗi lượt, nhận thêm 1 nếu là kĩ năng đầu tiên Ishmael sử dụng trong lượt đó)\n- Khi kĩ năng của Ishmael đánh trúng, nhận 1 [GotAComplimentIshmael] (1 lần mỗi lượt, không nhận nếu là Đồng xu bị phá hủy. Nếu kĩ năng đó là kĩ năng 3 sử dụng bằng Phản đòn, nhận thêm 1)"
+      "desc": "Nếu Ishmael Tiểu đệ Ngón Giữa Mạng Nhện cùng ở trên chiến trường với bản thân, các hiệu ứng dưới đây sẽ kích hoạt\n- Khi bản thân thắng Khớp lệnh, nhận 1 [DaughterEducationSpiderOutis] (1 lần mỗi lượt, nhận thêm 1 [DaughterEducationSpiderOutis] nếu là kĩ năng đầu tiên bản thân sử dụng trong lượt đó)\n- Khi kĩ năng của bản thân đánh trúng, nhận 1 [DaughterEducationSpiderOutis] (1 lần mỗi lượt, không nhận [DaughterEducationSpiderOutis] nếu là Đồng xu bị phá hủy)\n\n【Hiệu ứng dành riêng cho Ishmael Tiểu đệ Ngón Giữa Mạng Nhện】\n- Khi Ishmael thắng Khớp lệnh, nhận 1 [GotAComplimentIshmael] (1 lần mỗi lượt, nhận thêm 1 [GotAComplimentIshmael] nếu là kĩ năng đầu tiên Ishmael sử dụng trong lượt đó)\n- Khi kĩ năng của Ishmael đánh trúng, nhận 1 [GotAComplimentIshmael] (1 lần mỗi lượt, không nhận [GotAComplimentIshmael] nếu là Đồng xu bị phá hủy. Nếu kĩ năng đó là kĩ năng 3 sử dụng bằng Phản đòn, nhận thêm 1 [GotAComplimentIshmael])"
     },
     {
       "id": 1111505,
@@ -3037,7 +3037,7 @@
     {
       "id": 1111507,
       "name": "Thanh kiếm bị phong ấn [Laevateinn]",
-      "desc": "Khi xuất hiện lần đầu trong màn chơi, nhận [MiddleFatherSwordOneOutis]\n\n<style=\"highlight\">Khi bắt đầu lượt, nếu [CountSkillMidOutis] bằng 0, nhận [CountSkillMidOutis] tương ứng với các chỉ số dưới đây\n- [MiddleFatherSwordOneOutis]: 1\n- [MiddleFatherSwordTwoOutis]: 2\n- [MiddleFatherSwordThreeOutis]: 2\n\nKhi thỏa mãn các điều kiện dưới đây, [CountSkillMidOutis] giảm 1 (1 lần mỗi lượt)\n- Khi sử dụng kĩ năng \"Dậm Chân Oán Hận\" (Bao gồm cả kích hoạt bằng Phản đòn)\n- Nếu tổng số Cộng hưởng Hoàn toàn Đố kị từ 6 trở lên, khi kết thúc lượt đó\n\nNếu [CountSkillMidOutis] bằng 0, khi kết thúc kĩ năng của mình, thực hiện đòn tấn công một chiều bằng \"Để ta thử bóc lớp bọc này ra xem nào\"\n- Khi kết thúc lượt, nếu [CountSkillMidOutis] bằng 0 và không thể sử dụng \"Để ta thử bóc lớp bọc này ra xem nào\" trong lượt đó, sẽ sử dụng kĩ năng đó vào lúc bắt đầu trận chiến lượt tiếp theo\n- Khi kiếm của bản thân đang ở trạng thái [MiddleFatherSwordOneOutis], nếu HP của bản thân dưới 80%, sẽ sử dụng kĩ năng đó bất kể [CountSkillMidOutis]\n\nNếu HP của bản thân từ 50% trở xuống, nhận 3 [MiddleFatherGutsOutis] (1 lần mỗi trận)\n\nNếu bị Hoảng loạn lần đầu trong trận chiến này, giải trừ trạng thái Hoảng loạn khi kết thúc lượt và nhận 15 [ResentmentSpiderOutis] (Ngoại trừ Hoảng loạn cưỡng chế)\n\nKhi bắt đầu lượt, nếu [ResentmentSpiderOutis] của bản thân là 15, thay đổi 1 kĩ năng cơ bản trong ô kĩ năng của mình thành \"Dậm Chân Oán Hận\" hoặc \"Hành Hình Tức Khắc\" (3 lần mỗi trận)\n- Chỉ áp dụng cho kĩ năng ở hàng dưới ngoài cùng bên trái\n- Nếu trong ô kĩ năng đã có sẵn kĩ năng đó thì sẽ không kích hoạt</style>",
+      "desc": "Khi xuất hiện lần đầu trong màn chơi, nhận [MiddleFatherSwordOneOutis]\n\n<style=\"highlight\">Khi bắt đầu lượt, nếu [CountSkillMidOutis] bằng 0, nhận [CountSkillMidOutis] tương ứng với các chỉ số dưới đây\n- [MiddleFatherSwordOneOutis]: Nhận 1 [CountSkillMidOutis]\n- [MiddleFatherSwordTwoOutis]: Nhận 2 [CountSkillMidOutis]\n- [MiddleFatherSwordThreeOutis]: Nhận 2 [CountSkillMidOutis]\n\nKhi thỏa mãn các điều kiện dưới đây, [CountSkillMidOutis] giảm 1 (1 lần mỗi lượt)\n- Khi sử dụng kĩ năng \"Dậm Chân Oán Hận\" (Bao gồm cả kích hoạt bằng Phản đòn)\n- Nếu tổng số Cộng hưởng Hoàn toàn Đố kị từ 6 trở lên, khi kết thúc lượt đó\n\nNếu [CountSkillMidOutis] bằng 0, khi kết thúc kĩ năng của mình, thực hiện đòn tấn công một chiều bằng \"Để ta thử bóc lớp bọc này ra xem nào\"\n- Khi kết thúc lượt, nếu [CountSkillMidOutis] bằng 0 và không thể sử dụng \"Để ta thử bóc lớp bọc này ra xem nào\" trong lượt đó, sẽ sử dụng kĩ năng đó vào lúc bắt đầu trận chiến lượt tiếp theo\n- Khi kiếm của bản thân đang ở trạng thái [MiddleFatherSwordOneOutis], nếu HP của bản thân dưới 80%, sẽ sử dụng kĩ năng đó bất kể [CountSkillMidOutis]\n\nNếu HP của bản thân từ 50% trở xuống, nhận 3 [MiddleFatherGutsOutis] (1 lần mỗi trận)\n\nNếu bị Hoảng loạn lần đầu trong trận chiến này, giải trừ trạng thái Hoảng loạn khi kết thúc lượt và nhận 15 [ResentmentSpiderOutis] (Ngoại trừ Hoảng loạn cưỡng chế)\n\nKhi bắt đầu lượt, nếu [ResentmentSpiderOutis] của bản thân là 15, thay đổi 1 kĩ năng cơ bản trong ô kĩ năng của mình thành \"Dậm Chân Oán Hận\" hoặc \"Hành Hình Tức Khắc\" (3 lần mỗi trận)\n- Chỉ áp dụng cho kĩ năng ở hàng dưới ngoài cùng bên trái\n- Nếu trong ô kĩ năng đã có sẵn kĩ năng đó thì sẽ không kích hoạt</style>",
       "flavor": "\"Di tích nằm sâu trong Thành Phố. Vượt qua một độ sâu nhất định, bên dưới đó không còn thuộc về Thành Phố nữa. Đây là một mảnh vỡ của thanh kiếm mà một trong những thực thể chờ đợi ngày tận thế tại những di tích như thế đã vung lên, là tàn tích chứa đựng toàn bộ sức mạnh đang ngủ say.\n...Ngài đã kể như vậy nhỉ. Đúng như truyền thuyết, nó thực sự là một thanh kiếm rất ngầu. Đại ca, Đại tỷ.\""
     },
     {

@@ -532,7 +532,7 @@
     {
       "id": 29020,
       "name": "Bông Trắng++",
-      "desc": "Khi bắt đầu lượt nếu có kẻ địch đang trong trạng thái Hoảng loạn, thay vì giải trừ trạng thái Hoảng loạn của mục tiêu, kẻ đó nhận <style=\"upgradeHighlight\">(12 + Cấp Hoảng loạn x 6)</style> Cường độ [Laceration], đồng thời gây [AttackDown] và <style=\"upgradeHighlight\">[DefenseDown]</style> lên mục tiêu trong lượt này và lượt tiếp theo với giá trị bằng con số đó. (Chỉ kích hoạt 1 lần cho mỗi kẻ địch trong một trận chiến, không kích hoạt lên kẻ địch đặc thù không bị giải trừ trạng thái Hoảng loạn)",
+      "desc": "Khi bắt đầu lượt nếu có kẻ địch đang trong trạng thái Hoảng loạn, thay vì giải trừ trạng thái Hoảng loạn của mục tiêu, kẻ đó nhận <style=\"upgradeHighlight\">(12 + Cấp Hoảng loạn x 6) Cường độ [Laceration]</style>, đồng thời gây <style=\"upgradeHighlight\">(12 + Cấp Hoảng loạn x 6)</style> [AttackDown] và <style=\"upgradeHighlight\">[DefenseDown]</style> lên mục tiêu trong lượt này và lượt tiếp theo. (Chỉ kích hoạt 1 lần cho mỗi kẻ địch trong một trận chiến, không kích hoạt lên kẻ địch đặc thù không bị giải trừ trạng thái Hoảng loạn)",
       "simpleDesc": [
         {
           "abilityID": 29020,
@@ -1698,7 +1698,7 @@
     {
       "id": 29062,
       "name": "Sơ yếu lý lịch++",
-      "desc": "Khi kết thúc lượt, đồng minh có tổng số lượng [Sạc] và Sạc đặc biệt từ 7 trở lên sẽ <style=\"upgradeHighlight\">nhận [Nhanh nhẹn] 3 vào lượt kế tiếp.</style>\n\nTrường hợp đồng minh sở hữu kỹ năng tấn công thuộc tính U uất, hiệu ứng được cường hóa và vào lượt kế tiếp sẽ nhận <style=\"upgradeHighlight\">[Nhanh nhẹn] 4</style>, [Gia tăng kết quả] 1.",
+      "desc": "Khi kết thúc lượt, đồng minh có tổng số lượng [Charge] và Sạc đặc biệt từ 7 trở lên sẽ <style=\"upgradeHighlight\">nhận [Agility] 3 vào lượt kế tiếp.</style>\n\nTrường hợp đồng minh sở hữu kỹ năng tấn công thuộc tính U uất, hiệu ứng được cường hóa và vào lượt kế tiếp sẽ nhận <style=\"upgradeHighlight\">[Agility] 4</style>, [ResultEnhancement] 1.",
       "simpleDesc": [
         {
           "abilityID": 29062,
@@ -1706,7 +1706,7 @@
         },
         {
           "abilityID": 290621,
-          "simpleDesc": "Nhận [Nhanh nhẹn] 4, [Gia tăng kết quả] 1"
+          "simpleDesc": "Nhận [Agility] 4, [ResultEnhancement] 1"
         }
       ]
     },
@@ -1758,7 +1758,7 @@
     {
       "id": 9064,
       "name": "Súng lục ổ quay hỏng",
-      "desc": "Khi bắt đầu lượt, Cấp độ Tấn công và Cấp độ Phòng thủ của kẻ địch (Trong trường hợp là Dị thường thì là bộ phận) ở trạng thái [Bộc phát] giảm 2 trong lượt này.",
+      "desc": "Khi bắt đầu lượt, Cấp độ Tấn công và Cấp độ Phòng thủ của kẻ địch (Trong trường hợp là Dị thường thì là bộ phận) ở trạng thái [Burst] giảm 2 trong lượt này.",
       "simpleDesc": [
         {
           "abilityID": 9064,
@@ -1769,7 +1769,7 @@
     {
       "id": 9065,
       "name": "Cảm quan thẩm mỹ",
-      "desc": "Sát thương gây ra tăng 35% đối với kẻ địch nhận hiệu ứng tiêu cực (Giảm nhuệ khí, Hoảng loạn) do giảm Tinh thần.\n\nTrường hợp là kỹ năng gây [Sinking] Sức mạnh hoặc tăng số lượng, sát thương gây ra tăng thêm 10% (Bao gồm <noparse>Trầm luân</noparse> đặc biệt)\n\nTrường hợp hiệu ứng [Sinking] áp dụng lên kẻ địch không có Tinh thần, thay vì gây sát thương thuộc tính U uất sẽ đổi thành sát thương thuộc tính Tội lỗi có hiệu quả nhất (Bao gồm cả thuộc tính U uất).",
+      "desc": "Sát thương gây ra tăng 35% đối với kẻ địch nhận hiệu ứng tiêu cực (Giảm nhuệ khí, Hoảng loạn) do giảm Tinh thần.\n\nTrường hợp là kỹ năng gây [Sinking] Sức mạnh hoặc tăng số lượng, sát thương gây ra tăng thêm 10% (Bao gồm Trầm luân đặc biệt)\n\nTrường hợp hiệu ứng [Sinking] áp dụng lên kẻ địch không có Tinh thần, thay vì gây sát thương thuộc tính U uất sẽ đổi thành sát thương thuộc tính Tội lỗi có hiệu quả nhất (Bao gồm cả thuộc tính U uất).",
       "simpleDesc": [
         {
           "abilityID": 9065,
@@ -1799,7 +1799,7 @@
     {
       "id": 29065,
       "name": "Cảm quan thẩm mỹ++",
-      "desc": "<style=\"upgradeHighlight\">Sát thương gây ra tăng 50% đối với kẻ địch không có Tinh thần hoặc dưới 0.</style>\n\nTrường hợp là kỹ năng gây [Sinking] Sức mạnh hoặc tăng số lượng, sát thương gây ra tăng thêm 10% (Bao gồm <noparse>Trầm luân</noparse> đặc biệt)\n\nTrường hợp hiệu ứng [Sinking] áp dụng lên kẻ địch không có Tinh thần, thay vì gây sát thương thuộc tính U uất sẽ đổi thành sát thương thuộc tính Tội lỗi có hiệu quả nhất (Bao gồm cả thuộc tính U uất).",
+      "desc": "<style=\"upgradeHighlight\">Sát thương gây ra tăng 50% đối với kẻ địch không có Tinh thần hoặc dưới 0.</style>\n\nTrường hợp là kỹ năng gây [Sinking] Sức mạnh hoặc tăng số lượng, sát thương gây ra tăng thêm 10% (Bao gồm Trầm luân đặc biệt)\n\nTrường hợp hiệu ứng [Sinking] áp dụng lên kẻ địch không có Tinh thần, thay vì gây sát thương thuộc tính U uất sẽ đổi thành sát thương thuộc tính Tội lỗi có hiệu quả nhất (Bao gồm cả thuộc tính U uất).",
       "simpleDesc": [
         {
           "abilityID": 29065,
@@ -2515,7 +2515,7 @@
     {
       "id": 29093,
       "name": "Đèn Huỳnh Quang ++",
-      "desc": "Khi kết thúc lượt, gây <style=\"upgradeHighlight\">[AttackDmgUp] 1, [Agility] 1</style> cho 1 đồng minh ngẫu nhiên vào lượt kế tiếp bằng với số lượng kẻ địch (tất cả bộ phận đối với Thực thể dị thường) đang có trạng thái [Burst] +3.",
+      "desc": "Khi kết thúc lượt, nếu có kẻ địch hoặc bộ phận của Thực thể dị thường đang có [Burst], gây <style=\"upgradeHighlight\">[AttackDmgUp] 1, [Agility] 1</style> cho 1 đồng minh ngẫu nhiên vào lượt kế tiếp, lặp lại bằng với số lượng kẻ địch (tất cả bộ phận đối với Thực thể dị thường) đang có trạng thái [Burst] +3.",
       "simpleDesc": [
         {
           "abilityID": 29093,
@@ -3478,7 +3478,7 @@
     {
       "id": 19129,
       "name": "Búp Bê Gỗ Cũ+",
-      "desc": "[Hiệu ứng dành riêng cho Danh tính vị trí 1, 2, <style=\"upgradeHighlight\">3</style> trong đội hình]\n\nMỗi khi gây sát thương chí mạng cho kẻ địch, gây [DefenseDown] 1 vào lượt kế tiếp (tối đa 3 lần mỗi lượt cho mỗi Danh tính)\n[Không thể kích hoạt trùng lặp] Khi Nội tại E.G.O Don Quixote Huyết Ấn kích hoạt, hiệu ứng này sẽ không kích hoạt.",
+      "desc": "[Hiệu ứng dành riêng cho Danh tính vị trí 1, 2, <style=\"upgradeHighlight\">3</style> trong đội hình]\n\nMỗi khi gây sát thương chí mạng cho kẻ địch, gây [DefenseDown] 1 vào lượt kế tiếp (<style=\"upgradeHighlight\">4</style> lần mỗi lượt cho mỗi Danh tính)\n[Không thể kích hoạt trùng lặp] Khi Nội tại E.G.O Don Quixote Huyết Ấn kích hoạt, hiệu ứng này sẽ không kích hoạt.",
       "simpleDesc": [
         {
           "abilityID": 19129,
@@ -3564,7 +3564,7 @@
     {
       "id": 29132,
       "name": "Bộ lưu điện dự phòng++",
-      "desc": "Khi kết thúc lượt, nếu số tầng [Charge] ít hơn <style=\"upgradeHighlight\">5</style>, số tầng [Charge] tăng thêm <style=\"upgradeHighlight\">4</style> vào đầu lượt tiếp theo (Bao gồm cả Sạc đặc biệt)\n\nKhi kết thúc lượt, nếu số tầng [Charge] từ <style=\"upgradeHighlight\">5</style> trở lên, nhận 2 [AttackDmgUp] vào đầu lượt tiếp theo (Bao gồm cả Sạc đặc biệt)",
+      "desc": "Khi kết thúc lượt, nếu số tầng [Charge] ít hơn <style=\"upgradeHighlight\">5</style>, số tầng [Charge] tăng thêm <style=\"upgradeHighlight\">4</style> vào đầu lượt tiếp theo (Bao gồm cả Sạc đặc biệt)\n\nKhi kết thúc lượt, nếu số tầng [Charge] từ <style=\"upgradeHighlight\">5</style> trở lên, nhận <style=\"upgradeHighlight\">2</style> [AttackDmgUp] vào đầu lượt tiếp theo (Bao gồm cả Sạc đặc biệt)",
       "simpleDesc": [
         {
           "abilityID": 29132,
@@ -3709,7 +3709,7 @@
     {
       "id": 29137,
       "name": "Dao mổ++",
-      "desc": "[Agility]\n\nKhi kết thúc lượt, danh tính sở hữu kĩ năng tấn công hệ Trảm kích nhận [Agility] vào lượt tiếp theo tương đương với (số lượng kĩ năng tấn công hệ Trảm kích sở hữu +1) (Kĩ năng giống nhau chỉ tính là 1, không bao gồm kĩ năng E.G.O và Phản đòn).",
+      "desc": "[Hiệu ứng dành riêng cho Danh tính vị trí #4<style=\"upgradeHighlight\">, #5</style> trong đội hình]\n\nKhi kết thúc lượt, danh tính sở hữu kĩ năng tấn công hệ Trảm kích nhận [Agility] vào lượt tiếp theo tương đương với (số lượng kĩ năng tấn công hệ Trảm kích sở hữu +1) (Ví dụ: Danh tính có S1 Trảm kích, S2 Trảm kích và S3 Trảm kích sẽ nhận 4 [Agility] vào lượt kế tiếp. Kĩ năng giống nhau chỉ tính là 1, không bao gồm kĩ năng E.G.O và Phản đòn).",
       "simpleDesc": [
         {
           "abilityID": 29137,
@@ -3813,7 +3813,7 @@
     {
       "id": 19140,
       "name": "Quyết Tâm+",
-      "desc": "Tất cả đồng minh sở hữu từ 2 kĩ năng Trảm kích trở lên trong trận chiến này, ở lượt đầu tiên nhận Sức mạnh Kháng cự +1, từ lượt thứ 2 nhận [Agility] <style=\"upgradeHighlight\">2</style> và Sức mạnh Kháng cự +1\n\nBản sắc thuộc Hiệp hội Shi có giới hạn HP tối đa có thể duy trì hoặc hồi phục bị cố định ở mức <style=\"upgradeHighlight\">50%</style>, bù lại sát thương nhận vào và lượng hồi phục bản thân nhận được giảm <style=\"upgradeHighlight\">75%</style> (Kích hoạt khi bắt đầu trận chiến, ngoại trừ hồi phục từ Quà lưu niệm E.G.O)\n\nNếu là Bản sắc thuộc Hiệp hội Shi, mỗi khi bắt đầu lượt nhận 1 Tăng Sức mạnh Trảm kích, 1 Tăng Sát thương Trảm kích <style=\"upgradeHighlight\">2</style>",
+      "desc": "Tất cả đồng minh sở hữu từ 2 kĩ năng Trảm kích trở lên trong trận chiến này, ở lượt đầu tiên nhận Sức mạnh Kháng cự +1, từ lượt thứ 2 nhận [Agility] <style=\"upgradeHighlight\">2</style> và Sức mạnh Kháng cự +1\n\nBản sắc thuộc Hiệp hội Shi có giới hạn HP tối đa có thể duy trì hoặc hồi phục bị cố định ở mức <style=\"upgradeHighlight\">50%</style>, bù lại sát thương nhận vào giảm <style=\"upgradeHighlight\">75%</style> và lượng hồi phục bản thân nhận được giảm <style=\"upgradeHighlight\">75%</style> (Kích hoạt khi bắt đầu trận chiến, ngoại trừ hồi phục từ Quà lưu niệm E.G.O)\n\nNếu là Bản sắc thuộc Hiệp hội Shi, mỗi khi bắt đầu lượt nhận 1 Tăng Sức mạnh Trảm kích, 1 Tăng Sát thương Trảm kích <style=\"upgradeHighlight\">2</style>",
       "simpleDesc": [
         {
           "abilityID": 19140,
@@ -3828,7 +3828,7 @@
     {
       "id": 29140,
       "name": "Quyết Tâm++",
-      "desc": "Tất cả đồng minh sở hữu từ 2 kĩ năng Trảm kích trở lên trong trận chiến này, ở lượt đầu tiên nhận Sức mạnh Kháng cự +1, từ lượt thứ 2 nhận [Agility] 2 và <style=\"upgradeHighlight\">Sức mạnh Cuối cùng +1</style>\n\nBản sắc thuộc Hiệp hội Shi có giới hạn HP tối đa có thể duy trì hoặc hồi phục bị cố định ở mức <style=\"upgradeHighlight\">49%</style>, bù lại sát thương nhận vào và lượng hồi phục bản thân nhận được giảm <style=\"upgradeHighlight\">75%</style> (Kích hoạt khi bắt đầu trận chiến, ngoại trừ hồi phục từ Quà lưu niệm E.G.O)\n\nNếu là Bản sắc thuộc Hiệp hội Shi, mỗi khi bắt đầu lượt nhận 1 Tăng Sức mạnh Trảm kích, 1 Tăng Sát thương Trảm kích <style=\"upgradeHighlight\">3</style>",
+      "desc": "Tất cả đồng minh sở hữu từ 2 kĩ năng Trảm kích trở lên trong trận chiến này, ở lượt đầu tiên nhận Sức mạnh Kháng cự +1, từ lượt thứ 2 nhận [Agility] 2 và <style=\"upgradeHighlight\">Sức mạnh Cuối cùng +1</style>\n\nBản sắc thuộc Hiệp hội Shi có giới hạn HP tối đa có thể duy trì hoặc hồi phục bị cố định ở mức <style=\"upgradeHighlight\">49%</style>, bù lại sát thương nhận vào giảm <style=\"upgradeHighlight\">75%</style> và lượng hồi phục bản thân nhận được giảm <style=\"upgradeHighlight\">75%</style> (Kích hoạt khi bắt đầu trận chiến, ngoại trừ hồi phục từ Quà lưu niệm E.G.O)\n\nNếu là Bản sắc thuộc Hiệp hội Shi, mỗi khi bắt đầu lượt nhận 1 Tăng Sức mạnh Trảm kích, 1 Tăng Sát thương Trảm kích <style=\"upgradeHighlight\">3</style>",
       "simpleDesc": [
         {
           "abilityID": 29140,
