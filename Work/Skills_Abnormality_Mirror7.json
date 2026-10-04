@@ -436,7 +436,7 @@
         {
           "level": 1,
           "name": "Phải bóc đến tận lớp bọc thứ hai rồi à.",
-          "desc": "[KhiSửDụng] Nếu bản thân có [ReinforcedTattooSpider], không bị phá hủy và khi Tung xu trúng đích gây thêm 10 sát thương Đánh\n[KếtThúcKĩNăng] Trạng thái [MiddleFatherSwordTwo] chuyển thành trạng thái [MiddleFatherSwordThree]",
+          "desc": "[WhenUse] Nếu bản thân có [ReinforcedTattooSpider], không bị phá hủy và khi Tung xu trúng đích gây thêm 10 sát thương Đánh\n[EndSkill] Trạng thái [MiddleFatherSwordTwo] chuyển thành trạng thái [MiddleFatherSwordThree]",
           "coinlist": [
             {
               "coindescs": [
@@ -520,7 +520,7 @@
         {
           "level": 1,
           "name": "Giẫm đạp xử tử tức thì!",
-          "desc": "Mỗi 3 [Laceration] của mục tiêu, Sức mạnh Cơ bản +1 (Tối đa 3)\n[KhiSửDụng] Nếu bản thân có [ReinforcedTattooSpider], khi Tung xu trúng đích gây thêm 1 [Laceration]\n[ThuaĐấuTayĐôi] Sát thương từ kĩ năng này không làm mục tiêu Hoảng loạn\n[KếtThúcKĩNăng] Tiêu thụ tất cả [ResentmentSpider] của bản thân, nhận 1 [DaughterEducationSpider]",
+          "desc": "Mỗi 3 [Laceration] của mục tiêu, Sức mạnh Cơ bản +1 (Tối đa 3)\n[WhenUse] Nếu bản thân có [ReinforcedTattooSpider], khi Tung xu trúng đích gây thêm 1 [Laceration]\n[DefeatDuel] Sát thương từ kĩ năng này không làm mục tiêu Hoảng loạn\n[EndSkill] Tiêu thụ tất cả [ResentmentSpider] của bản thân, nhận 1 [DaughterEducationSpider]",
           "coinlist": [
             {
               "coindescs": [
@@ -626,7 +626,7 @@
         {
           "level": 1,
           "name": "Laevateinn - Lâu rồi mới phá giải đến mức này đấy!",
-          "desc": "[KhiSửDụng] Nếu bản thân có [ReinforcedTattooSpider], không bị phá hủy và khi Tung xu trúng đích gây thêm 10 sát thương Chém\n[KếtThúcKĩNăng] Trạng thái [MiddleFatherSwordThree] chuyển thành [MiddleFatherSwordFour]",
+          "desc": "[WhenUse] Nếu bản thân có [ReinforcedTattooSpider], không bị phá hủy và khi Tung xu trúng đích gây thêm 10 sát thương Chém\n[EndSkill] Trạng thái [MiddleFatherSwordThree] chuyển thành [MiddleFatherSwordFour]",
           "coinlist": [
             {
               "coindescs": [
@@ -678,7 +678,7 @@
         {
           "level": 1,
           "name": "Knife Kill [Laevateinn]",
-          "desc": "[TrướcKhiSửDụng] Tinh thần của bản thân giảm 10\n[ThuaĐấuTayĐôi] Sát thương từ kĩ năng này không làm mục tiêu Hoảng loạn\n[TrướcKhiTấnCông] Khi Máu của bản thân từ 50% trở xuống, lượng sát thương +40%\n[TrướcKhiTấnCông] Nhận (Số lượng xu của kĩ năng này × 2) [Combustion]",
+          "desc": "[BeforeUse] Tinh thần của bản thân giảm 10\n[DefeatDuel] Sát thương từ kĩ năng này không làm mục tiêu Hoảng loạn\n[BeforeAttack] Khi Máu của bản thân từ 50% trở xuống, lượng sát thương +40%\n[BeforeAttack] Nhận (Số lượng xu của kĩ năng này × 2) [Combustion]",
           "coinlist": [
             {
               "coindescs": [
@@ -1169,7 +1169,7 @@
         {
           "level": 1,
           "name": "Giai điệu của Tibia - Kẻ bị giải thể giải thể kẻ chưa bị giải thể",
-          "desc": "Ở lượt lắp đặt Kĩ năng này, <color=#ff6000><mark=#ff000040><b><u>khi nhận sát thương bởi Kĩ năng tấn công</u></b></mark></color>, nhận [PlusCoinValueDown] 1, [ResultReduction] 1 (1 lần mỗi Kĩ năng, tối đa 3 lần mỗi lượt)\nKhông rơi vào trạng thái Choáng cho đến khi sử dụng Kĩ năng này\nHồi 15 Tinh thần với mỗi mục tiêu bị tiêu diệt bởi Kĩ năng này\n[StartBattle] Nhận [Protection] 4\n[WhenUse] Mỗi 6 tổng số [Laceration] của mục tiêu chính và mục tiêu phụ, Lượng sát thương +3% (Tối đa 30%)\n[DefeatDuel] Lượng sát thương cuối cùng giảm 80%, và sát thương của Kĩ năng này không khiến mục tiêu bị Choáng\n[EndSkill] [MineTheRings] biến mất",
+          "desc": "Ở lượt lắp đặt Kĩ năng này, <color=#ff6000><mark=#ff000040><b><u>khi nhận sát thương bởi Kĩ năng tấn công</u></b></mark></color>, nhận [PlusCoinValueDown] 1, [ResultReduction] 1 (1 lần mỗi Kĩ năng, tối đa 3 lần mỗi lượt)\nKhông rơi vào trạng thái Choáng cho đến khi sử dụng Kĩ năng này\nHồi 15 Tinh thần với mỗi mục tiêu bị tiêu diệt bởi Kĩ năng này\n[StartBattle] Nhận [Protection] 4\n[WhenUse] Mỗi 6 tổng số ([Laceration] của mục tiêu chính + [Laceration] của mục tiêu phụ), Lượng sát thương +3% (Tối đa 30%)\n[DefeatDuel] Lượng sát thương cuối cùng giảm 80%, và sát thương của Kĩ năng này không khiến mục tiêu bị Choáng\n[EndSkill] [MineTheRings] biến mất",
           "coinlist": [
             {
               "coindescs": [
@@ -1351,7 +1351,7 @@
         {
           "level": 1,
           "name": "Sự giải phóng xác thịt bị kìm nén",
-          "desc": "Ở lượt lắp đặt Kĩ năng này, <color=#ff6000><mark=#ff000040><b><u>khi nhận sát thương bởi Kĩ năng tấn công</u></b></mark></color>, nhận [PlusCoinValueDown] 1, [ResultReduction] 1 (1 lần mỗi Kĩ năng, tối đa 3 lần mỗi lượt)\nKhông rơi vào trạng thái Choáng cho đến khi sử dụng Kĩ năng này\nHồi 15 Tinh thần với mỗi mục tiêu bị tiêu diệt bởi Kĩ năng này\n[StartBattle] Nhận [Protection] 4\n[WhenUse] Mỗi 6 tổng số [Laceration] của mục tiêu chính và mục tiêu phụ, Lượng sát thương +3% (Tối đa 30%)\n[DefeatDuel] Lượng sát thương cuối cùng giảm 80%, và sát thương của Kĩ năng này không khiến mục tiêu bị Choáng\n[EndSkill] [BoneBladeTheRings] biến mất",
+          "desc": "Ở lượt lắp đặt Kĩ năng này, <color=#ff6000><mark=#ff000040><b><u>khi nhận sát thương bởi Kĩ năng tấn công</u></b></mark></color>, nhận [PlusCoinValueDown] 1, [ResultReduction] 1 (1 lần mỗi Kĩ năng, tối đa 3 lần mỗi lượt)\nKhông rơi vào trạng thái Choáng cho đến khi sử dụng Kĩ năng này\nHồi 15 Tinh thần với mỗi mục tiêu bị tiêu diệt bởi Kĩ năng này\n[StartBattle] Nhận [Protection] 4\n[WhenUse] Mỗi 6 tổng số ([Laceration] của mục tiêu chính + [Laceration] của mục tiêu phụ), Lượng sát thương +3% (Tối đa 30%)\n[DefeatDuel] Lượng sát thương cuối cùng giảm 80%, và sát thương của Kĩ năng này không khiến mục tiêu bị Choáng\n[EndSkill] [BoneBladeTheRings] biến mất",
           "coinlist": [
             {
               "coindescs": [

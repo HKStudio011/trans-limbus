@@ -203,7 +203,7 @@
         {
           "level": 1,
           "name": "Loạn Kích",
-          "desc": "[WhenUse] \n- Với mỗi 8 tổng số [Combustion] và [Laceration] của mục tiêu, Sức mạnh hòa kích +1 (Tối đa 3)\n- Với mỗi 8 [Breath] của bản thân, Lượng sát thương +10% (Tối đa 30%)\n- Nhận 2 [Breath]\n- Nếu HP thấp hơn 66%/33%, Đồng xu cuối cùng/Tất cả đồng xu sẽ được đổi thành [SuperCoin]",
+          "desc": "[WhenUse]\n- Với mỗi 8 tổng số [Combustion] và [Laceration] của mục tiêu, Sức mạnh hòa kích +1 (Tối đa 3)\n- Với mỗi 8 [Breath] của bản thân, Lượng sát thương +10% (Tối đa 30%)\n- Nhận 2 [Breath]\n- Nếu HP thấp hơn 66%, Đồng xu cuối cùng sẽ được đổi thành [SuperCoin]\n- Nếu HP thấp hơn 33%, Tất cả đồng xu sẽ được đổi thành [SuperCoin]",
           "coinlist": [
             {
               "coindescs": [
@@ -235,7 +235,7 @@
         {
           "level": 1,
           "name": "Phấn Toái",
-          "desc": "[WhenUse] \n- Với mỗi 8 tổng số [Combustion] và [Laceration] của mục tiêu, Sức mạnh hòa kích +1 (Tối đa 3)\n- Với mỗi 8 [Breath] của bản thân, Lượng sát thương +10% (Tối đa 30%)\n- Số lượt [Breath] tăng thêm 2\n- Nếu HP thấp hơn 66%/33%, Đồng xu cuối cùng/Tất cả đồng xu sẽ được đổi thành [SuperCoin]",
+          "desc": "[WhenUse]\n- Với mỗi 8 tổng số [Combustion] và [Laceration] của mục tiêu, Sức mạnh hòa kích +1 (Tối đa 3)\n- Với mỗi 8 [Breath] của bản thân, Lượng sát thương +10% (Tối đa 30%)\n- Số lượt [Breath] tăng thêm 2\n- Nếu HP thấp hơn 66%, Đồng xu cuối cùng sẽ được đổi thành [SuperCoin]\n- Nếu HP thấp hơn 33%, Tất cả đồng xu sẽ được đổi thành [SuperCoin]",
           "coinlist": [
             {
               "coindescs": [
@@ -298,7 +298,7 @@
         {
           "level": 1,
           "name": "Rèn",
-          "desc": "Bất kể tốc độ, có thể thực hiện hòa kích với Kĩ năng này\n[WhenUse]\n- Với mỗi 6 [Combustion] của mục tiêu, Sức mạnh hòa kích +1 (Tối đa 6)\n- Nếu HP thấp hơn 66%/33%, Đồng xu thứ hai/Tất cả đồng xu sẽ đổi thành [SuperCoin]\n[DefeatDuel] Cho đến khi kết thúc đòn tấn công của Kĩ năng này, mục tiêu không bị Hoảng loạn",
+          "desc": "Bất kể tốc độ, có thể thực hiện hòa kích với Kĩ năng này\n[WhenUse]\n- Với mỗi 6 [Combustion] của mục tiêu, Sức mạnh hòa kích +1 (Tối đa 6)\n- Nếu HP thấp hơn 66%, Đồng xu thứ hai sẽ đổi thành [SuperCoin]\n- Nếu HP thấp hơn 33%, Tất cả đồng xu sẽ đổi thành [SuperCoin]\n[DefeatDuel] Cho đến khi kết thúc đòn tấn công của Kĩ năng này, mục tiêu không bị Hoảng loạn",
           "coinlist": [
             {
               "coindescs": [
@@ -324,7 +324,7 @@
         {
           "level": 1,
           "name": "Thiêu Hủy",
-          "desc": "Bất kể tốc độ, có thể thực hiện hòa kích với Kĩ năng này\n[WhenUse]\n- Với mỗi 6 [Combustion] của mục tiêu chính, Sức mạnh hòa kích +1 (Tối đa 6)\n- <color=#ff6000><mark=#ff000040><b><u>Lượng sát thương +([StackPastActivate] × 2)%</u></b></mark></color> (Tối đa 60%)\n- Nếu HP thấp hơn 66%/33%, Đồng xu thứ hai/Tất cả đồng xu sẽ đổi thành [SuperCoin]\n[DefeatDuel] Cho đến khi kết thúc đòn tấn công của Kĩ năng này, mục tiêu không bị Hoảng loạn",
+          "desc": "Bất kể tốc độ, có thể thực hiện hòa kích với Kĩ năng này\n[WhenUse]\n- Với mỗi 6 [Combustion] của mục tiêu chính, Sức mạnh hòa kích +1 (Tối đa 6)\n- <color=#ff6000><mark=#ff000040><b><u>Lượng sát thương +([StackPastActivate] × 2)%</u></b></mark></color> (Tối đa 60%)\n- Nếu HP thấp hơn 66%, Đồng xu thứ hai sẽ đổi thành [SuperCoin]\n- Nếu HP thấp hơn 33%, Tất cả đồng xu sẽ được đổi thành [SuperCoin]\n[DefeatDuel] Cho đến khi kết thúc đòn tấn công của Kĩ năng này, mục tiêu không bị Hoảng loạn",
           "coinlist": [
             {
               "coindescs": [
@@ -1658,7 +1658,7 @@
         {
           "level": 1,
           "name": "Giai điệu của Tibia - Thứ bị tháo dỡ sẽ tháo dỡ thứ chưa bị tháo dỡ",
-          "desc": "Trong lượt chuẩn bị kĩ năng này, <color=#ff6000><mark=#ff000040><b><u>khi nhận sát thương từ kĩ năng Tấn công</u></b></mark></color>, nhận 1 [PlusCoinValueDown], 1 [ResultReduction] (1 lần mỗi kĩ năng, tối đa 3 lần mỗi lượt)\nKhông bị Choáng cho đến khi sử dụng kĩ năng này\nMỗi khi hạ gục 1 mục tiêu bằng kĩ năng này, hồi 15 Tinh thần\n[StartBattle] Nhận 4 [Protection]\n[WhenUse] Mỗi tổng số 6 [Laceration] trên Mục tiêu chính và Mục tiêu phụ, Lượng sát thương +3% (Tối đa 30%)\n[DefeatDuel] Lượng sát thương giảm 90%, và mục tiêu không bị Choáng bởi sát thương từ kĩ năng này\n[EndSkill] [MineTheRings] biến mất",
+          "desc": "Trong lượt chuẩn bị kĩ năng này, <color=#ff6000><mark=#ff000040><b><u>khi nhận sát thương từ kĩ năng Tấn công</u></b></mark></color>, nhận 1 [PlusCoinValueDown], 1 [ResultReduction] (1 lần mỗi kĩ năng, tối đa 3 lần mỗi lượt)\nKhông bị Choáng cho đến khi sử dụng kĩ năng này\nMỗi khi hạ gục 1 mục tiêu bằng kĩ năng này, hồi 15 Tinh thần\n[StartBattle] Nhận 4 [Protection]\n[WhenUse] Mỗi tổng số 6 ([Laceration] trên Mục tiêu chính + [Laceration] trên Mục tiêu phụ), Lượng sát thương +3% (Tối đa 30%)\n[DefeatDuel] Lượng sát thương giảm 90%, và mục tiêu không bị Choáng bởi sát thương từ kĩ năng này\n[EndSkill] [MineTheRings] biến mất",
           "coinlist": [
             {
               "coindescs": [
@@ -1731,7 +1731,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Tiêu thụ tất cả [PhantomIncision] trên mục tiêu, gây sát thương Máu bằng (Giá trị tiêu thụ)% HP tối đa"
+                  "desc": "[OnSucceedAttack] Tiêu thụ tất cả [PhantomIncision] trên mục tiêu, gây sát thương Máu bằng ([PhantomIncision] tiêu thụ)% HP tối đa"
                 }
               ]
             }
@@ -1745,7 +1745,7 @@
         {
           "level": 1,
           "name": "Giải phóng thực thể bị ức chế",
-          "desc": "Trong lượt chuẩn bị kĩ năng này, <color=#ff6000><mark=#ff000040><b><u>khi nhận sát thương từ kĩ năng Tấn công</u></b></mark></color>, nhận 1 [PlusCoinValueDown], 1 [ResultReduction] (1 lần mỗi kĩ năng, tối đa 3 lần mỗi lượt)\nKhông bị Choáng cho đến khi sử dụng kĩ năng này\nMỗi khi hạ gục 1 mục tiêu bằng kĩ năng này, hồi 15 Tinh thần\n[StartBattle] Nhận 4 [Protection]\n[WhenUse] Mỗi tổng số 6 [Laceration] trên Mục tiêu chính và Mục tiêu phụ, Lượng sát thương +3% (Tối đa 30%)\n[DefeatDuel] Lượng sát thương giảm 90%, và mục tiêu không bị Choáng bởi sát thương từ kĩ năng này\n[EndSkill] [BoneBladeTheRings] biến mất",
+          "desc": "Trong lượt chuẩn bị kĩ năng này, <color=#ff6000><mark=#ff000040><b><u>khi nhận sát thương từ kĩ năng Tấn công</u></b></mark></color>, nhận 1 [PlusCoinValueDown], 1 [ResultReduction] (1 lần mỗi kĩ năng, tối đa 3 lần mỗi lượt)\nKhông bị Choáng cho đến khi sử dụng kĩ năng này\nMỗi khi hạ gục 1 mục tiêu bằng kĩ năng này, hồi 15 Tinh thần\n[StartBattle] Nhận 4 [Protection]\n[WhenUse] Mỗi tổng số 6 ([Laceration] trên Mục tiêu chính + [Laceration] trên Mục tiêu phụ), Lượng sát thương +3% (Tối đa 30%)\n[DefeatDuel] Lượng sát thương giảm 90%, và mục tiêu không bị Choáng bởi sát thương từ kĩ năng này\n[EndSkill] [BoneBladeTheRings] biến mất",
           "coinlist": [
             {
               "coindescs": [

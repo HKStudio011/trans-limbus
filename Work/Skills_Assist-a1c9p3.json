@@ -611,7 +611,7 @@
         {
           "level": 1,
           "name": "Xưởng Namir - Trọng lượng gấp 5 lần!",
-          "desc": "Nếu mục tiêu có hiệu ứng bất lợi, Lượng sát thương +50%\n[WhenUse] Nếu bản thân không có số lần [Charge], khi kĩ năng đánh trúng, số lần [Vibration] của mục tiêu tăng thêm 1\n[WhenUse] Nếu số lần [Charge] của bản thân từ 15 trở lên, tiêu hao tất cả và áp dụng hiệu ứng sau\n- Thêm 1 lần [VibrationExplosion]\n- [VibrationExplosion] sử dụng trong kĩ năng này không làm giảm số lần [Vibration]",
+          "desc": "Nếu mục tiêu có hiệu ứng bất lợi, Lượng sát thương +50%\n[WhenUse] Nếu bản thân không có số lần [Charge], khi kĩ năng đánh trúng, số lần [Vibration] của mục tiêu tăng thêm 1\n[WhenUse] Nếu số lần [Charge] của bản thân từ 15 trở lên, tiêu hao tất cả [Charge] và áp dụng hiệu ứng sau\n- Thêm 1 lần [VibrationExplosion]\n- [VibrationExplosion] sử dụng trong kĩ năng này không làm giảm số lần [Vibration]",
           "coinlist": [
             {
               "coindescs": [
@@ -1146,7 +1146,7 @@
         {
           "level": 1,
           "name": "Xuất huyết nội",
-          "desc": "Với mỗi tổng 1 [Laceration] của bản thân và mục tiêu, Sát thương +1% (Tối đa 20%)\n[WhenUse] Nhận 3 [Laceration], số lần [Laceration] của bản thân tăng 5",
+          "desc": "Với mỗi tổng 1 [Laceration] của bản thân và [Laceration] của mục tiêu, Sát thương +1% (Tối đa 20%)\n[WhenUse] Nhận 3 [Laceration], số lần [Laceration] của bản thân tăng 5",
           "coinlist": [
             {
               "coindescs": [
@@ -1188,7 +1188,7 @@
         {
           "level": 1,
           "name": "Vọng Huyết Trảm",
-          "desc": "Với mỗi tổng 1 [Laceration] của bản thân và mục tiêu, Sát thương +1% (Tối đa 20%)\n[WhenUse] Nhận 3 [Laceration], số lần [Laceration] của bản thân tăng 5",
+          "desc": "Với mỗi tổng 1 [Laceration] của bản thân và [Laceration] của mục tiêu, Sát thương +1% (Tối đa 20%)\n[WhenUse] Nhận 3 [Laceration], số lần [Laceration] của bản thân tăng 5",
           "coinlist": [
             {
               "coindescs": [
@@ -1227,7 +1227,7 @@
         {
           "level": 1,
           "name": "Như chìm trong máu mà chết đuối",
-          "desc": "Với mỗi tổng 1 [Laceration] của bản thân và mục tiêu, Sát thương +1% (Tối đa 30%)\n[WhenUse] Nhận 6 [Laceration], số lần [Laceration] của bản thân tăng 5\n[WhenUse] Nếu Tinh thần từ 0 trở lên, tạo 2 Man (Vọng)\n- Sức mạnh cơ bản +2, Sát thương +60%\n[EndSkill] Nếu đã tạo Man (Vọng), tiêu hao 5 Tinh thần",
+          "desc": "Với mỗi tổng 1 [Laceration] của bản thân và [Laceration] của mục tiêu, Sát thương +1% (Tối đa 30%)\n[WhenUse] Nhận 6 [Laceration], số lần [Laceration] của bản thân tăng 5\n[WhenUse] Nếu Tinh thần từ 0 trở lên, tạo 2 Man (Vọng)\n- Sức mạnh cơ bản +2, Sát thương +60%\n[EndSkill] Nếu đã tạo Man (Vọng), tiêu hao 5 Tinh thần",
           "coinlist": [
             {
               "coindescs": [
@@ -1248,7 +1248,7 @@
                   "desc": "[OnSucceedAttack] Số lần [Laceration] tăng 4"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Với mỗi tổng 5 [Laceration] của bản thân và mục tiêu, gây 1 [BloodBranch] (Tối đa 3)"
+                  "desc": "[OnSucceedAttack] Với mỗi tổng 5 [Laceration] của bản thân và [Laceration] của mục tiêu, gây 1 [BloodBranch] (Tối đa 3)"
                 }
               ]
             },
@@ -1272,7 +1272,7 @@
         {
           "level": 1,
           "name": "Tang lễ cho những Huyết Quỷ đã khuất",
-          "desc": "Với mỗi tổng 1 [Laceration] của bản thân và mục tiêu, Sát thương +1% (Tối đa 50%)\n[WhenUse] Nhận 10 [Laceration], số lần [Laceration] của bản thân tăng 5\n[WhenUse] Nếu Tinh thần từ 0 trở lên, tạo 3 Man (Vọng)\n- Sức mạnh cơ bản +3, Sát thương +90%\n[EndSkill] Nếu đã tạo Man (Vọng), tiêu hao 3 Tinh thần",
+          "desc": "Với mỗi tổng 1 [Laceration] của bản thân và [Laceration] của mục tiêu, Sát thương +1% (Tối đa 50%)\n[WhenUse] Nhận 10 [Laceration], số lần [Laceration] của bản thân tăng 5\n[WhenUse] Nếu Tinh thần từ 0 trở lên, tạo 3 Man (Vọng)\n- Sức mạnh cơ bản +3, Sát thương +90%\n[EndSkill] Nếu đã tạo Man (Vọng), tiêu hao 3 Tinh thần",
           "coinlist": [
             {
               "coindescs": [
@@ -1294,7 +1294,7 @@
                   "desc": "[OnSucceedAttack] Gây 5 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Với mỗi tổng 5 [Laceration] của bản thân và mục tiêu, gây 1 [BloodBranch] (Tối đa 5)"
+                  "desc": "[OnSucceedAttack] Với mỗi tổng 5 [Laceration] của bản thân và [Laceration] của mục tiêu, gây 1 [BloodBranch] (Tối đa 5)"
                 }
               ]
             },

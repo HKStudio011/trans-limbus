@@ -256,7 +256,7 @@
         {
           "level": 1,
           "name": "6463",
-          "desc": "Với mỗi 50 [AccumulatedPast], sát thương +10%\n[WhenUse] Với mỗi 10 tổng Sức mạnh và số lần [Vibration] của mục tiêu, Sức mạnh cơ bản +1 (Tối đa 3)\n[WhenUse] Nếu [AccumulatedPast] của bản thân là số lẻ, sát thương của kĩ năng này +30%",
+          "desc": "Với mỗi 50 [AccumulatedPastMirror], sát thương +10%\n[WhenUse] Với mỗi 10 tổng Sức mạnh và số lần [Vibration] của mục tiêu, Sức mạnh cơ bản +1 (Tối đa 3)\n[WhenUse] Nếu [AccumulatedPastMirror] của bản thân là số lẻ, sát thương của kĩ năng này +30%",
           "coinlist": [
             {
               "coindescs": [
@@ -278,7 +278,7 @@
         {
           "level": 1,
           "name": "6753",
-          "desc": "Với mỗi 50 [AccumulatedPast], sát thương +10%\n[WhenUse] Với mỗi 10 tổng Sức mạnh và số lần [Vibration] của mục tiêu, Sức mạnh cơ bản +1 (Tối đa 3)\n[WhenUse] Nếu [AccumulatedPast] của bản thân là số chẵn, nhận 3 [Protection] (1 lần mỗi lượt)",
+          "desc": "Với mỗi 50 [AccumulatedPastMirror], sát thương +10%\n[WhenUse] Với mỗi 10 tổng Sức mạnh và số lần [Vibration] của mục tiêu, Sức mạnh cơ bản +1 (Tối đa 3)\n[WhenUse] Nếu [AccumulatedPastMirror] của bản thân là số chẵn, nhận 3 [Protection] (1 lần mỗi lượt)",
           "coinlist": [
             {
               "coindescs": [
@@ -318,7 +318,7 @@
                   "desc": "[OnSucceedAttack] Đẩy ngưỡng Choáng váng lên một đoạn bằng 50% sát thương gây ra"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Mỗi 1 [AccumulatedPast], Sát thương +1% (Tối đa 50%)"
+                  "desc": "[OnSucceedAttack] Mỗi 1 [AccumulatedPastMirror], Sát thương +1% (Tối đa 50%)"
                 }
               ]
             }
@@ -398,10 +398,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "Mỗi 1 [AccumulatedPast], Sát thương +1% (Tối đa 200%)"
+                  "desc": "Mỗi 1 [AccumulatedPastMirror], Sát thương +1% (Tối đa 200%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Mỗi 50 [AccumulatedPast], [VibrationExplosion] 1 lần. Số lượng [Vibration] của mục tiêu giảm 1 (Kích hoạt tối đa 5 lần)"
+                  "desc": "[OnSucceedAttack] Mỗi 50 [AccumulatedPastMirror], [VibrationExplosion] 1 lần. Số lượng [Vibration] của mục tiêu giảm 1 (Kích hoạt tối đa 5 lần)"
                 }
               ]
             }
@@ -819,7 +819,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Nhân đôi số lượng và số lần [Sinking] mục tiêu đang sở hữu"
+                  "desc": "[OnSucceedAttack] Nhân đôi [Sinking] và số lần [Sinking] mục tiêu đang sở hữu"
                 }
               ]
             }
@@ -1600,7 +1600,7 @@
         {
           "level": 1,
           "name": "Quằn quại trong đau đớn",
-          "desc": "[Khi sử dụng] Nếu mục tiêu có hiệu ứng bất lợi, Sức mạnh cơ bản +3\n[Khi sử dụng] Tiêu hao 12 HP. Nhận 5 [Laceration] vào lượt kế tiếp\n[Thua đối đầu] Sức mạnh cơ bản -5\n[Thua đối đầu] Sát thương giảm 80%, sát thương của kĩ năng này không làm mục tiêu bị Chấn hoảng",
+          "desc": "[WhenUse] Nếu mục tiêu có hiệu ứng bất lợi, Sức mạnh cơ bản +3\n[WhenUse] Tiêu hao 12 HP. Nhận 5 [Laceration] vào lượt kế tiếp\n[DefeatDuel] Sức mạnh cơ bản -5\n[DefeatDuel] Sát thương giảm 80%, sát thương của kĩ năng này không làm mục tiêu bị Chấn hoảng",
           "coinlist": [
             {
               "coindescs": [
@@ -1726,7 +1726,7 @@
         {
           "level": 1,
           "name": "Hoàng tử của cuộc diễu hành",
-          "desc": "[Bắt đầu trận đấu] Tăng Mục tiêu tấn công đối với các đối tượng có [Laceration] (Tối đa 5)\n[Khi sử dụng] Nếu [Laceration] của mục tiêu chính từ 4 trở lên, Sức mạnh cơ bản +1\n[Khi sử dụng] Nếu số lần [Laceration] của mục tiêu chính từ 3 trở lên, Sức mạnh Coin +1\n[Thua đối đầu] Giảm 1 [KeptBlood]",
+          "desc": "[StartBattle] Tăng Mục tiêu tấn công đối với các đối tượng có [Laceration] (Tối đa 5)\n[WhenUse] Nếu [Laceration] của mục tiêu chính từ 4 trở lên, Sức mạnh cơ bản +1\n[WhenUse] Nếu số lần [Laceration] của mục tiêu chính từ 3 trở lên, Sức mạnh Coin +1\n[DefeatDuel] Giảm 1 [KeptBlood]",
           "coinlist": [
             {
               "coindescs": [
@@ -1769,7 +1769,7 @@
         {
           "level": 1,
           "name": "Máu... Máu... Máu...!",
-          "desc": "[Khi sử dụng] Nếu [Laceration] của mục tiêu từ 8 trở lên, Sức mạnh Coin +1\n[Thua đối đầu] Giảm 1 [KeptBlood]",
+          "desc": "[WhenUse] Nếu [Laceration] của mục tiêu từ 8 trở lên, Sức mạnh Coin +1\n[DefeatDuel] Giảm 1 [KeptBlood]",
           "coinlist": [
             {
               "coindescs": [
@@ -1814,7 +1814,7 @@
         {
           "level": 1,
           "name": "Ta... là... Hoàng tử... của cuộc diễu hành này...!",
-          "desc": "[Không thể đối đầu]\n[Khi sử dụng] Nhận 4 [Paralysis]\n[Khi sử dụng] Hiệu quả hồi phục của <noparse>Đại đao Ngạnh huyết</noparse> tăng gấp đôi\n[Khi sử dụng] Tinh thần trở về 0\n[Kết thúc kĩ năng] Nhận 10 [KeptBlood]\nTrong lượt này, không bị Chấn hoảng. Sau khi sử dụng kĩ năng này, kết thúc lượt luôn.",
+          "desc": "[CantDuel]\n[WhenUse] Nhận 4 [Paralysis]\n[WhenUse] Hiệu quả hồi phục của Đại đao [TabExplain] Ngạnh huyết tăng gấp đôi\n[WhenUse] Tinh thần trở về 0\n[EndSkill] Nhận 10 [KeptBlood]\nTrong lượt này, không bị Chấn hoảng. Sau khi sử dụng kĩ năng này, kết thúc lượt luôn.",
           "coinlist": [
             {
               "coindescs": [
@@ -1854,7 +1854,7 @@
         {
           "level": 1,
           "name": "Tuyệt đối... không quay lại đâu...!",
-          "desc": "[Khi sử dụng] Mỗi 5 [Laceration] của mục tiêu chính, Sức mạnh đối đầu +1 (Tối đa 3)\n[Khi sử dụng] Nếu số lần [Laceration] của mục tiêu chính từ 4 trở lên, Sức mạnh Coin +1\n[Khi sử dụng] Mỗi 1 số lần [Laceration] của mục tiêu chính, Sát thương +5% (Tối đa 20%)\n[Thắng đối đầu] Hiệu quả hồi phục của <noparse>Đại đao Ngạnh huyết</noparse> tăng gấp đôi\n[Thua đối đầu] Hiệu quả hồi phục của <noparse>Đại đao Ngạnh huyết</noparse> không kích hoạt\n[Thua đối đầu] Sát thương giảm 80%, sát thương của kĩ năng này không làm mục tiêu bị Chấn hoảng\n[Kết thúc kĩ năng] Nhận 10 [KeptBlood]",
+          "desc": "[WhenUse] Mỗi 5 [Laceration] của mục tiêu chính, Sức mạnh đối đầu +1 (Tối đa 3)\n[WhenUse] Nếu số lần [Laceration] của mục tiêu chính từ 4 trở lên, Sức mạnh Coin +1\n[WhenUse] Mỗi 1 số lần [Laceration] của mục tiêu chính, Sát thương +5% (Tối đa 20%)\n[WinDuel] Hiệu quả hồi phục của Đại đao [TabExplain] Ngạnh huyết tăng gấp đôi\n[DefeatDuel] Hiệu quả hồi phục của Đại đao [TabExplain] Ngạnh huyết không kích hoạt\n[DefeatDuel] Sát thương giảm 80%, sát thương của kĩ năng này không làm mục tiêu bị Chấn hoảng\n[EndSkill] Nhận 10 [KeptBlood]",
           "coinlist": [
             {
               "coindescs": [
