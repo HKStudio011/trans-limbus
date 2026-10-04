@@ -350,7 +350,7 @@
                   "desc": "[OnSucceedAttack] Gây 3 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Số [Combustion] tăng 3"
+                  "desc": "[OnSucceedAttack] Số [Vibration] tăng 3"
                 }
               ]
             }
@@ -382,7 +382,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Số [Laceration] tăng 2"
+                  "desc": "[OnSucceedAttack] Số [Laceration] tăng 2"
                 }
               ]
             },
@@ -1175,7 +1175,7 @@
         {
           "level": 1,
           "name": "Ngươi vẫn chẳng thể làm được gì như mọi khi nhỉ",
-          "desc": "[WhenUse] Nhận [OutpouringAnger]\n[WhenUse] Hồi phục 8 Tinh thần\n[WhenUse] Nếu máu của mục tiêu chính dưới 50%, hoặc tổng [Burst] và [Laceration] của mục tiêu chính từ 10 trở lên, trở thành [SuperCoin]\n[DefeatDuel] Nhận [Vulnerable] 1\n- Khi thua khiêu chiến trước Hong Lu, thay vào đó nhận 2",
+          "desc": "[WhenUse] Nhận [OutpouringAnger]\n[WhenUse] Hồi phục 8 Tinh thần\n[WhenUse] Nếu máu của mục tiêu chính dưới 50%, hoặc tổng [Burst] và [Laceration] của mục tiêu chính từ 10 trở lên, trở thành [SuperCoin]\n[DefeatDuel] Nhận [Vulnerable] 1\n- Khi thua khiêu chiến trước Hong Lu, thay vào đó nhận [Vulnerable] 2",
           "coinlist": [
             {
               "coindescs": [
@@ -1353,7 +1353,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Nếu mục tiêu là đồng minh, hấp thụ lượng Máu còn lại và hấp thụ [ImperfectEternalLife] của mục tiêu; vào lượt kế tiếp, tất cả các bộ phận nhận hiệu ứng tương ứng bằng với giá trị đã hấp thụ. Sau đó, loại bỏ mục tiêu đã bị hấp thụ."
+                  "desc": "[OnSucceedAttack] Nếu mục tiêu là đồng minh, hấp thụ lượng Máu còn lại và hấp thụ [ImperfectEternalLife] của mục tiêu; vào lượt kế tiếp, tất cả các bộ phận nhận hiệu ứng [ImperfectEternalLife] tương ứng bằng với giá trị đã hấp thụ. Sau đó, loại bỏ mục tiêu đã bị hấp thụ."
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] Gán 8 [Laceration], 8 [Burst]"

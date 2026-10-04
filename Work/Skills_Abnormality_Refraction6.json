@@ -418,7 +418,7 @@
         {
           "level": 1,
           "name": "Vô Thường",
-          "desc": "Bất kể tốc độ, có thể đối đầu với Kĩ năng này\n[WhenUse]\n- Mỗi 6 [Breath] của bản thân, Sức mạnh Đối đầu +1, Sát thương +10% (Lần lượt tối đa 6, 60%)\n- Nếu Máu dưới 66%/33%, đồng xu thứ 2/tất cả đồng xu đổi thành [SuperCoin]\n[BeforeAttack] Nhận 2 [Breath], số [Breath] tăng 2\n[DefeatDuel] Mục tiêu không bị Choáng cho đến khi kết thúc đòn tấn công của Kĩ năng này",
+          "desc": "Bất kể tốc độ, có thể đối đầu với Kĩ năng này\n[WhenUse]\n- Mỗi 6 [Breath] của bản thân, Sức mạnh Đối đầu +1, Sát thương +10% (Lần lượt tối đa 6, 60%)\n- Nếu Máu dưới 66%, đồng xu thứ 2 đổi thành [SuperCoin]\n- Nếu Máu dưới 33%, tất cả đồng xu đổi thành [SuperCoin]\n[BeforeAttack] Nhận 2 [Breath], số [Breath] tăng 2\n[DefeatDuel] Mục tiêu không bị Choáng cho đến khi kết thúc đòn tấn công của Kĩ năng này",
           "coinlist": [
             {
               "coindescs": [
@@ -444,7 +444,7 @@
         {
           "level": 1,
           "name": "Xuyên Không",
-          "desc": "Bất kể tốc độ, có thể đối đầu với Kĩ năng này\n[WhenUse]\n- Mỗi 6 [Breath] của bản thân, Sức mạnh Đối đầu +1, Sát thương +10% (Lần lượt tối đa 6, 60%)\n- <color=#ff6000><mark=#ff000040><b><u>Sát thương +([StackPresentActivate] × 2)%</u></b></mark></color> (Tối đa 60%)\n- Nếu Máu dưới 66%/33%, đồng xu thứ 2/tất cả đồng xu đổi thành [SuperCoin]\n[BeforeAttack] Nhận 3 [Breath], số [Breath] tăng 2\n[DefeatDuel] Mục tiêu không bị Choáng cho đến khi kết thúc đòn tấn công của Kĩ năng này",
+          "desc": "Bất kể tốc độ, có thể đối đầu với Kĩ năng này\n[WhenUse]\n- Mỗi 6 [Breath] của bản thân, Sức mạnh Đối đầu +1, Sát thương +10% (Lần lượt tối đa 6, 60%)\n- <color=#ff6000><mark=#ff000040><b><u>Sát thương +([StackPresentActivate] × 2)%</u></b></mark></color> (Tối đa 60%)\n- Nếu Máu dưới 66%, đồng xu thứ 2 đổi thành [SuperCoin]\n- Nếu Máu dưới 33%, tất cả đồng xu đổi thành [SuperCoin]\n[BeforeAttack] Nhận 3 [Breath], số [Breath] tăng 2\n[DefeatDuel] Mục tiêu không bị Choáng cho đến khi kết thúc đòn tấn công của Kĩ năng này",
           "coinlist": [
             {
               "coindescs": [
@@ -496,7 +496,7 @@
         {
           "level": 1,
           "name": "Phá Tà",
-          "desc": "Bất kể tốc độ, có thể đối đầu với Kĩ năng này\n[WhenUse]\n- Mỗi 6 [Breath] của bản thân, Sức mạnh Cuối cùng +1, Sát thương +20% (Lần lượt tối đa 6, 120%)\n- Nhận 4 [Breath], số [Breath] tăng 4\n- <color=#ff6000><mark=#ff000040><b><u>Sát thương +([StackPresentActivate] × 4)% (Tối đa 120%)</u></b></mark></color>\n[BeforeAttack] Nếu Sức mạnh [Breath] của bản thân vượt quá 20, tiêu hao tối đa 20 [Breath] vượt quá, Sát thương +(Giá trị tiêu hao × 5)% (Tối đa 100%)\n- Không kích hoạt khi Thua đối đầu\n[WinDuel] Nhận 5 [StackPresentActivate]\n[DefeatDuel]\n- Giảm một nửa [StackPresentActivate] (Làm tròn xuống)\n- Nhận 2 [AttackDmgDown], 1 [Paralysis]\n- Mục tiêu không bị Choáng cho đến khi kết thúc đòn tấn công của Kĩ năng này\n[EndSkill] Nếu mục tiêu tử trận, tái sử dụng Kĩ năng này lên mục tiêu có Máu cao nhất (1 lần mỗi lượt)\n- Không kích hoạt khi Thua đối đầu",
+          "desc": "Bất kể tốc độ, có thể đối đầu với Kĩ năng này\n[WhenUse]\n- Mỗi 6 [Breath] của bản thân, Sức mạnh Cuối cùng +1, Sát thương +20% (Lần lượt tối đa 6, 120%)\n- Nhận 4 [Breath], số [Breath] tăng 4\n- <color=#ff6000><mark=#ff000040><b><u>Sát thương +([StackPresentActivate] × 4)% (Tối đa 120%)</u></b></mark></color>\n[BeforeAttack] Nếu Sức mạnh [Breath] của bản thân đạt 20 trở lên, tiêu hao tối đa 20 [Breath] vượt quá 20, Sát thương +(Giá trị [Breath] tiêu hao × 5)% (Tối đa 100%)\n- Không kích hoạt khi Thua đối đầu\n[WinDuel] Nhận 5 [StackPresentActivate]\n[DefeatDuel]\n- Giảm một nửa [StackPresentActivate] (Làm tròn xuống)\n- Nhận 2 [AttackDmgDown], 1 [Paralysis]\n- Mục tiêu không bị Choáng cho đến khi kết thúc đòn tấn công của Kĩ năng này\n[EndSkill] Nếu mục tiêu tử trận, tái sử dụng Kĩ năng này lên mục tiêu có Máu cao nhất (1 lần mỗi lượt)\n- Không kích hoạt khi Thua đối đầu",
           "coinlist": [
             {
               "coindescs": [
@@ -521,7 +521,7 @@
         {
           "level": 1,
           "name": "Hủ Thực",
-          "desc": "Bất kể tốc độ, có thể đối đầu với Kĩ năng này\n[WhenUse]\n- Mỗi 6 [Laceration] trên mục tiêu, Sức mạnh Đối đầu +1 (Tối đa 6)\n- Nếu Máu dưới 66%/33%, đồng xu thứ 2/tất cả đồng xu đổi thành [SuperCoin]\n[DefeatDuel] Mục tiêu không bị Choáng cho đến khi kết thúc đòn tấn công của Kĩ năng này",
+          "desc": "Bất kể tốc độ, có thể đối đầu với Kĩ năng này\n[WhenUse]\n- Mỗi 6 [Laceration] trên mục tiêu, Sức mạnh Đối đầu +1 (Tối đa 6)\n- Nếu Máu dưới 66%, đồng xu thứ 2 đổi thành [SuperCoin]\n- Nếu Máu dưới 33%, tất cả đồng xu đổi thành [SuperCoin]\n[DefeatDuel] Mục tiêu không bị Choáng cho đến khi kết thúc đòn tấn công của Kĩ năng này",
           "coinlist": [
             {
               "coindescs": [
@@ -547,7 +547,7 @@
         {
           "level": 1,
           "name": "Hủ Diệt",
-          "desc": "Bất kể tốc độ, có thể đối đầu với Kĩ năng này\nTrong khi tiến hành đối đầu với Kĩ năng này, <color=#ff6000><mark=#ff000040><b><u>số [Laceration] của mục tiêu chính không giảm xuống dưới 1</u></b></mark></color>\n[WhenUse]\n- Mỗi 6 [Laceration] trên mục tiêu chính, Sức mạnh Đối đầu +1 (Tối đa 6)\n- Sát thương +([StackFutureActivate] × 2)% (Tối đa 60%)\n- Nếu Máu dưới 66%/33%, đồng xu thứ 2/tất cả đồng xu đổi thành [SuperCoin]\n[DefeatDuel] Mục tiêu không bị Choáng cho đến khi kết thúc đòn tấn công của Kĩ năng này",
+          "desc": "Bất kể tốc độ, có thể đối đầu với Kĩ năng này\nTrong khi tiến hành đối đầu với Kĩ năng này, <color=#ff6000><mark=#ff000040><b><u>số [Laceration] của mục tiêu chính không giảm xuống dưới 1</u></b></mark></color>\n[WhenUse]\n- Mỗi 6 [Laceration] trên mục tiêu chính, Sức mạnh Đối đầu +1 (Tối đa 6)\n- Sát thương +([StackFutureActivate] × 2)% (Tối đa 60%)\n- Nếu Máu dưới 66%, đồng xu thứ 2 đổi thành [SuperCoin]\n- Nếu Máu dưới 33%, tất cả đồng xu đổi thành [SuperCoin]\n[DefeatDuel] Mục tiêu không bị Choáng cho đến khi kết thúc đòn tấn công của Kĩ năng này",
           "coinlist": [
             {
               "coindescs": [
@@ -707,7 +707,7 @@
         {
           "level": 1,
           "name": "Lạc Châm",
-          "desc": "[WhenUse] Với mỗi <color=#ff6000><mark=#ff000040><b><u>2 [YesdragonSelfRefraction]</u></b></mark></color> của bản thân, Sức mạnh Cơ bản +1\n[WhenUse] Nếu mục tiêu có [Binding] hoặc [Paralysis], Sức mạnh Cơ bản +2\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Triệu hồi <noparse>Mai Hoa Châm</noparse> vào lượt tiếp theo</u></b></mark></color>\n[DefeatDuel] Hồi 5 Tinh thần cho mục tiêu\n[DefeatDuel] <color=#ff6000><mark=#ff000040><b><u>Không triệu hồi <noparse>Mai Hoa Châm</noparse></u></b></mark></color>, phần đầu sẽ nhận <color=#ff6000><mark=#ff000040><b><u>Sát thương Cố định</u></b></mark></color>",
+          "desc": "[WhenUse] Với mỗi <color=#ff6000><mark=#ff000040><b><u>2 [YesdragonSelfRefraction]</u></b></mark></color> của bản thân, Sức mạnh Cơ bản +1\n[WhenUse] Nếu mục tiêu có [Binding] hoặc [Paralysis], Sức mạnh Cơ bản +2\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Triệu hồi Mai Hoa Châm vào lượt tiếp theo</u></b></mark></color>\n[DefeatDuel] Hồi 5 Tinh thần cho mục tiêu\n[DefeatDuel] <color=#ff6000><mark=#ff000040><b><u>Không triệu hồi Mai Hoa Châm</u></b></mark></color>, phần đầu sẽ nhận <color=#ff6000><mark=#ff000040><b><u>Sát thương Cố định</u></b></mark></color>",
           "coinlist": [
             {
               "coindescs": [
@@ -801,7 +801,7 @@
         {
           "level": 1,
           "name": "Lạc Lôi",
-          "desc": "[CantDuel][CantChangeTarget]\n<color=#ff6000><mark=#ff000040><b><u>Chỉ định <noparse>Mai Hoa Châm</noparse> làm mục tiêu</u></b></mark></color>\nNếu <noparse>Mai Hoa Châm</noparse> bị tiêu diệt, kỹ năng này sẽ bị hủy",
+          "desc": "[CantDuel][CantChangeTarget]\n<color=#ff6000><mark=#ff000040><b><u>Chỉ định Mai Hoa Châm làm mục tiêu</u></b></mark></color>\nNếu Mai Hoa Châm bị tiêu diệt, kỹ năng này sẽ bị hủy",
           "coinlist": [
             {
               "coindescs": [
@@ -956,7 +956,7 @@
         {
           "level": 1,
           "name": "Lạc Châm",
-          "desc": "[WhenUse] Với mỗi <color=#ff6000><mark=#ff000040><b><u>2 [YesdragonSelfRefraction]</u></b></mark></color> của bản thân, Sức mạnh Cơ bản +1\n[WhenUse] Nếu mục tiêu có [Binding] hoặc [Paralysis], Sức mạnh Cơ bản +2\n[WhenUse] Nếu bản thân có <color=#ff6000><mark=#ff000040><b><u>từ 5 [YesdragonSelfRefraction] trở lên</u></b></mark></color>, Sức mạnh Đồng xu +1\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Triệu hồi <noparse>Mai Hoa Châm</noparse> vào lượt tiếp theo</u></b></mark></color>\n[DefeatDuel] <color=#ff6000><mark=#ff000040><b><u>Không triệu hồi <noparse>Mai Hoa Châm</noparse></u></b></mark></color>",
+          "desc": "[WhenUse] Với mỗi <color=#ff6000><mark=#ff000040><b><u>2 [YesdragonSelfRefraction]</u></b></mark></color> của bản thân, Sức mạnh Cơ bản +1\n[WhenUse] Nếu mục tiêu có [Binding] hoặc [Paralysis], Sức mạnh Cơ bản +2\n[WhenUse] Nếu bản thân có <color=#ff6000><mark=#ff000040><b><u>từ 5 [YesdragonSelfRefraction] trở lên</u></b></mark></color>, Sức mạnh Đồng xu +1\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Triệu hồi Mai Hoa Châm vào lượt tiếp theo</u></b></mark></color>\n[DefeatDuel] <color=#ff6000><mark=#ff000040><b><u>Không triệu hồi Mai Hoa Châm</u></b></mark></color>",
           "coinlist": [
             {
               "coindescs": [
@@ -1072,7 +1072,7 @@
         {
           "level": 1,
           "name": "Lạc Lôi",
-          "desc": "[CantDuel][CantChangeTarget]\n<color=#ff6000><mark=#ff000040><b><u>Chỉ định <noparse>Mai Hoa Châm</noparse> làm mục tiêu</u></b></mark></color>\nNếu <noparse>Mai Hoa Châm</noparse> tử trận, kĩ năng này sẽ bị hủy",
+          "desc": "[CantDuel][CantChangeTarget]\n<color=#ff6000><mark=#ff000040><b><u>Chỉ định Mai Hoa Châm làm mục tiêu</u></b></mark></color>\nNếu Mai Hoa Châm tử trận, kĩ năng này sẽ bị hủy",
           "coinlist": [
             {
               "coindescs": [

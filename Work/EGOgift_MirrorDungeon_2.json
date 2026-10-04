@@ -60,11 +60,11 @@
         },
         {
           "abilityID": 91621,
-          "simpleDesc": "Sau khi kết thúc Kháng cự, kích hoạt Xuất huyết của kẻ địch tương ứng với số đồng xu còn lại (số lượt Xuất huyết giảm tương ứng số lần kích hoạt)"
+          "simpleDesc": "Sau khi kết thúc Kháng cự, kích hoạt [Laceration] của kẻ địch (số đồng xu còn lại của bản thân) lần và giảm số lượng [Laceration] đi (số lần kích hoạt [Laceration])"
         },
         {
           "abilityID": 91622,
-          "simpleDesc": "Giảm cấp phòng thủ bằng (số lần Xuất huyết đã kích hoạt × 2)"
+          "simpleDesc": "Gây [DefenseDown] bằng (số lần kích hoạt [Laceration] × 2) (tối đa 20)"
         },
         {
           "abilityID": 91623,
@@ -124,7 +124,7 @@
     {
       "id": 9167,
       "name": "Chuông Tám Hướng Vô Chấn",
-      "desc": "Khi bắt đầu lượt, nếu có từ 5 danh tính trở lên sở hữu kỹ năng tấn công gây cường độ [Vibration], số lượt [Vibration] hoặc Chấn động đặc biệt, hiệu ứng này sẽ kích hoạt trong suốt trận chiến. (Ngoại trừ kỹ năng E.G.O, không tính nhân viên dự bị. Không kích hoạt nếu danh tính tự nhận số lượt [Vibration])\n\nKhi thắng Kháng cự bằng kỹ năng gây cường độ [Vibration], số lượt [Vibration] hoặc tiêu tốn số lượt [Vibration] của bản thân, gây cường độ [Vibration] cho mục tiêu tương ứng với số đồng xu còn lại. Tăng số lượt Chấn động của bản thân. (Số lượt Chấn động của bản thân tăng tối đa 3 lần mỗi kỹ năng) Nếu mục tiêu chưa có [Vibration], tăng số lượt [Vibration] của mục tiêu thêm 3.\n\nKhi bắt đầu lượt, nhận [ParryingResultUp] bằng 1 + (số lượt [Vibration] của bản thân ÷ 5). (Tối đa 3)\n\nNếu tiêu diệt kẻ địch hoặc khiến chúng bị Hoảng loạn bằng kỹ năng tiêu tốn số lượt [Vibration] của bản thân, tăng số lượt [Vibration] của bản thân thêm (số lượt [Vibration] đã tiêu tốn ÷ 2) (Kích hoạt 1 lần mỗi kỹ năng)\n\nSát thương của kỹ năng +(số lượt [Vibration] bản thân đã tiêu tốn + cường độ [Vibration] kẻ địch đang sở hữu + 5)% (Ngoại trừ kỹ năng E.G.O, tối đa 50%)\nKhi mục tiêu đang có [VibrationNesting], [Switch_Vibration] sang loại [Vibration] không trùng lặp cho mục tiêu đó. Nếu sử dụng [FusionVibration], khi kết thúc lượt, [VibrationNesting] mục tiêu đang sở hữu sẽ được duy trì đến lượt tiếp theo",
+      "desc": "Khi bắt đầu lượt, nếu có từ 5 danh tính trở lên sở hữu kỹ năng tấn công gây cường độ [Vibration], số lượt hoặc Chấn động đặc biệt, hiệu ứng này sẽ kích hoạt trong suốt trận chiến. (Ngoại trừ kỹ năng E.G.O, không tính nhân viên dự bị)\n(Không kích hoạt nếu danh tính chỉ sở hữu kỹ năng tấn công tự nhận số lượt [Vibration])\n\nKhi thắng Kháng cự bằng kỹ năng gây cường độ [Vibration], số lượt hoặc tiêu tốn số lượt [Vibration] của bản thân, gây cường độ [Vibration] cho mục tiêu tương ứng với số đồng xu còn lại và tăng số lượt Chấn động của bản thân tương ứng với số đồng xu còn lại (số lượt Chấn động nhận được tối đa +3 mỗi kỹ năng). Nếu mục tiêu chưa có [Vibration], tăng số lượt [Vibration] của mục tiêu thêm 3.\n\nKhi bắt đầu lượt, nhận [ParryingResultUp] bằng 1 + (số lượt [Vibration] của bản thân ÷ 5). (Tối đa 3)\n\nNếu tiêu diệt kẻ địch hoặc khiến chúng bị Hoảng loạn bằng kỹ năng tiêu tốn số lượt [Vibration] của bản thân, tăng số lượt [Vibration] của bản thân thêm (số lượt [Vibration] đã tiêu tốn ÷ 2) (Kích hoạt 1 lần mỗi kỹ năng)\n\nSát thương của kỹ năng +(số lượt [Vibration] bản thân đã tiêu tốn + cường độ [Vibration] kẻ địch đang sở hữu + 5)% (Ngoại trừ kỹ năng E.G.O, tối đa 50%)\nKhi mục tiêu có [VibrationNesting], khi kích hoạt [Switch_Vibration] hoặc [FusionVibration] nhắm vào kẻ địch với loại [Vibration] mà chúng không có trong [VibrationNesting], kéo dài [VibrationNesting] trên mục tiêu vào cuối lượt sang lượt tiếp theo",
       "simpleDesc": [
         {
           "abilityID": 9167,

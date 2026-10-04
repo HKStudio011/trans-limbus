@@ -1005,7 +1005,7 @@
     {
       "id": 19042,
       "name": "Khói và dây thép gai+",
-      "desc": "Số lượng [Laceration] mà đồng minh gây lên kẻ địch bằng hiệu ứng kĩ năng tăng gấp đôi.\n\nKhi kết thúc lượt, kẻ địch bị [Laceration] hoặc trạng thái Xuất huyết đặc biệt sẽ <style=\"upgradeHighlight\">giảm 3 Tốc độ vào lượt tiếp theo.",
+      "desc": "Số lượng [Laceration] mà đồng minh gây lên kẻ địch bằng hiệu ứng kĩ năng tăng gấp đôi.\n\nKhi kết thúc lượt, kẻ địch bị [Laceration] hoặc trạng thái Xuất huyết đặc biệt sẽ <style=\"upgradeHighlight\">giảm 3 Tốc độ</style> vào lượt tiếp theo.",
       "simpleDesc": [
         {
           "abilityID": 19042,
@@ -1691,7 +1691,7 @@
         },
         {
           "abilityID": 190621,
-          "simpleDesc": "Nhận [Nhanh nhẹn] 3, [Gia tăng kết quả] 1"
+          "simpleDesc": "Nhận [Agility] 3, [ResultEnhancement] 1"
         }
       ]
     },
@@ -1784,7 +1784,7 @@
     {
       "id": 19065,
       "name": "Cảm quan thẩm mỹ+",
-      "desc": "<style=\"upgradeHighlight\">Sát thương gây ra tăng 40% đối với kẻ địch có Tinh thần dưới 0.</style>\n\nTrường hợp là kỹ năng gây [Sinking] Sức mạnh hoặc tăng số lượng, sát thương gây ra tăng thêm 10% (Bao gồm <noparse>Trầm luân</noparse> đặc biệt)\n\nTrường hợp hiệu ứng [Sinking] áp dụng lên kẻ địch không có Tinh thần, thay vì gây sát thương thuộc tính U uất sẽ đổi thành sát thương thuộc tính Tội lỗi có hiệu quả nhất (Bao gồm cả thuộc tính U uất).",
+      "desc": "<style=\"upgradeHighlight\">Sát thương gây ra tăng 40% đối với kẻ địch có Tinh thần dưới 0.</style>\n\nTrường hợp là kỹ năng gây [Sinking] Sức mạnh hoặc tăng số lượng, sát thương gây ra tăng thêm 10% (Bao gồm Trầm luân đặc biệt)\n\nTrường hợp hiệu ứng [Sinking] áp dụng lên kẻ địch không có Tinh thần, thay vì gây sát thương thuộc tính U uất sẽ đổi thành sát thương thuộc tính Tội lỗi có hiệu quả nhất (Bao gồm cả thuộc tính U uất).",
       "simpleDesc": [
         {
           "abilityID": 19065,
@@ -2504,7 +2504,7 @@
     {
       "id": 19093,
       "name": "Đèn Huỳnh Quang +",
-      "desc": "Khi kết thúc lượt, gây 1 trong số [AttackDmgUp] 1, [Agility] 1 cho 1 đồng minh ngẫu nhiên vào lượt kế tiếp bằng với <style=\"upgradeHighlight\">số lượng kẻ địch (tất cả bộ phận đối với Thực thể dị thường) đang có trạng thái [Burst] +3</style>.",
+      "desc": "Khi kết thúc lượt, nếu có kẻ địch hoặc bộ phận Thực thể dị thường đang có [Burst], gây 1 [AttackDmgUp] hoặc 1 [Agility] cho 1 đồng minh ngẫu nhiên vào lượt kế tiếp. Lặp lại <style=\"upgradeHighlight\">(số lượng kẻ địch (hoặc số lượng bộ phận Thực thể dị thường) đang có [Burst] + 3)</style> lần.",
       "simpleDesc": [
         {
           "abilityID": 19093,
@@ -4333,7 +4333,7 @@
     {
       "id": 19117,
       "name": "Thuốc Súng Có Khói+",
-      "desc": "[Burst]\n\nKhi kết thúc lượt, nếu đã sử dụng kỹ năng tấn công gây Sức mạnh [Burst] hoặc Số lượng [Vết rách] dù chỉ một lần trong lượt này, nhận [Agility] 1 vào lượt tiếp theo.\n\nNếu Tốc độ của bản thân từ <style=\"upgradeHighlight\">5</style> trở lên, Sát thương của kỹ năng tấn công gây Sức mạnh [Vết rách] hoặc Số lượng [Vết rách] +<style=\"upgradeHighlight\">15</style>%",
+      "desc": "[Hiệu ứng chỉ áp dụng cho Bản sắc xuất kích #1, #2 và <style=\"upgradeHighlight\">#3</style>]\n\nKhi kết thúc lượt, nếu đã sử dụng kỹ năng tấn công gây Sức mạnh [Burst] hoặc Số lượng Bùng nổ dù chỉ một lần trong lượt này, nhận [Agility] 1 vào lượt tiếp theo.\n\nNếu Tốc độ của bản thân từ <style=\"upgradeHighlight\">5</style> trở lên, Sát thương của kỹ năng tấn công gây Sức mạnh Bùng nổ hoặc Số lượng [Burst] +<style=\"upgradeHighlight\">15</style>%",
       "simpleDesc": [
         {
           "abilityID": 19117,

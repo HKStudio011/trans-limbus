@@ -299,7 +299,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Nếu mục tiêu có [AffectionTeddy], tiêu hao [AffectionTeddy] và gây một lượng [Curse] cùng [NailPersonality] tương ứng với giá trị đó (Tiêu hao tối đa 4)"
+                  "desc": "[OnSucceedAttack] Nếu mục tiêu có [AffectionTeddy], tiêu hao [AffectionTeddy] và gây một lượng [Curse] cùng [NailPersonality] tương ứng với giá trị [AffectionTeddy] đã tiêu hao (Tiêu hao tối đa 4)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Nếu [Curse] trên mục tiêu từ 4 trở lên, tiêu hao 4 [Curse] của mục tiêu để gây 1 [CursePackage]"
@@ -666,7 +666,7 @@
         {
           "level": 1,
           "name": "Hoan Hỉ Huyết",
-          "desc": "Có thể Kháng cự với Kĩ năng này bất kể tốc độ\n[Bắt đầu trận đấu] Nếu có kẻ địch đang bị [Laceration], kích hoạt [Laceration] của tất cả kẻ địch. Số lượng [Laceration] giảm 2\n[Khi sử dụng] Nếu hiệu ứng khi bắt đầu trận đấu không được kích hoạt, nhận 30 [Laceration]\n[Thắng Kháng cự] Tiêu hao tối đa 40 [BloodDinner], mỗi 10 [BloodDinner] tiêu hao, nhận 1 [BloodArmor] và Sát thương +25% (Tối đa 100%)\n- Nếu không thể tiêu hao [BloodDinner], nhận 5 [Laceration] và kích hoạt nó. Số lượng [Laceration] giảm 2\n[Kết thúc Kĩ năng] Kết thúc lượt này",
+          "desc": "Có thể Kháng cự với Kĩ năng này bất kể tốc độ\n[StartBattle] Nếu có kẻ địch đang bị [Laceration], kích hoạt [Laceration] của tất cả kẻ địch. Số lượng [Laceration] giảm 2\n[WhenUse] Nếu hiệu ứng khi bắt đầu trận đấu không được kích hoạt, nhận 30 [Laceration].\n[WinDuel] Tiêu hao tối đa 40 [BloodDinner], mỗi 10 [BloodDinner] tiêu hao, nhận 1 [BloodArmor] và Sát thương +25% (Tối đa 100%)\n- Nếu không thể tiêu hao [BloodDinner], nhận 5 [Laceration] và kích hoạt [Laceration] ngay lập tức. Số lượng [Laceration] giảm 2\n[EndSkill] Kết thúc lượt này",
           "coinlist": [
             {
               "coindescs": [
@@ -764,7 +764,7 @@
         {
           "level": 1,
           "name": "Don Quixote Lưu Ngạnh Huyết Thức 2 - Ngạnh Huyết",
-          "desc": "Có thể Kháng cự với Kĩ năng này bất kể tốc độ\n[Bắt đầu trận đấu] Tiêu hao 200 [BloodDinner], nhận 500 HP Lá chắn, 5 [BloodArmor] và 1 [SwirlingBlood]\n- Nếu không đủ [BloodDinner], nhận 50 [Laceration] và kích hoạt nó. Số lượng [Laceration] giảm 2. Nhận 500 HP Lá chắn, 5 [BloodArmor] và 1 [SwirlingBlood] (Sát thương này không thể làm HP thấp hơn 1)\n[Thắng Kháng cự] Nhận 200 HP Lá chắn\n[Thua Kháng cự] Khi đang có Lá chắn nhận từ kĩ năng này, nhận 3 [Vulnerable]\n[Thua Kháng cự] Sát thương giảm 50%, và mục tiêu không bị Choáng bởi sát thương của kĩ năng này\n[Kết thúc Kĩ năng] Kết thúc lượt này",
+          "desc": "Có thể Kháng cự với Kĩ năng này bất kể tốc độ\n[StartBattle] Tiêu hao 200 [BloodDinner], nhận 500 HP Lá chắn, 5 [BloodArmor] và 1 [SwirlingBlood]\n- Nếu không đủ [BloodDinner], nhận 50 [Laceration] và kích hoạt [Laceration] ngay lập tức. Số lượng [Laceration] giảm 2. Nhận 500 HP Lá chắn và 1 [SwirlingBlood] (Sát thương này không thể làm HP thấp hơn 1)\n[WinDuel] Nhận 200 HP Lá chắn\n[DefeatDuel] Khi đang có Lá chắn nhận từ kĩ năng này, nhận 3 [Vulnerable]\n[DefeatDuel] Sát thương giảm 50%, và mục tiêu không bị Choáng bởi sát thương của kĩ năng này\n[EndSkill] Kết thúc lượt này",
           "coinlist": [
             {
               "coindescs": [
@@ -807,7 +807,7 @@
         {
           "level": 1,
           "name": "Don Quixote Á Lưu Sancho Thức 4 - Truy Kích",
-          "desc": "Ưu tiên tấn công mục tiêu có nhiều [Laceration] nhất\n[Trước khi tấn công] Nếu là mục tiêu có nhiều [Laceration] nhất, Chỉ số Mục tiêu +2, Sức mạnh Kháng cự +3\n[Khi sử dụng] Tiêu hao tối đa 30 [BloodDinner], mỗi 15 [BloodDinner] tiêu hao nhận 1 [BloodArmor]. Sức mạnh Đồng xu +1 (Tối đa 2)\n- Nếu không thể tiêu hao [BloodDinner], nhận 10 [Laceration] và kích hoạt nó. Số lượng [Laceration] giảm 1\n[Kết thúc Kĩ năng] Nhận [BloodDinner] tương ứng với sát thương kĩ năng này gây ra",
+          "desc": "Ưu tiên tấn công mục tiêu có nhiều [Laceration] nhất\n[BeforeAttack] Nếu là mục tiêu có nhiều [Laceration] nhất, Chỉ số Mục tiêu +2, Sức mạnh Kháng cự +3\n[WhenUse] Tiêu hao tối đa 30 [BloodDinner], mỗi 15 [BloodDinner] tiêu hao nhận 1 [BloodArmor]. Sức mạnh Đồng xu +1 (Tối đa 2)\n- Nếu không thể tiêu hao [BloodDinner], nhận 10 [Laceration] và kích hoạt [Laceration] ngay lập tức. Số lượng [Laceration] giảm 2\n[EndSkill] Nhận [BloodDinner] tương ứng với sát thương kĩ năng này gây ra",
           "coinlist": [
             {
               "coindescs": [
@@ -833,7 +833,7 @@
         {
           "level": 1,
           "name": "Don Quixote Á Lưu Sancho Thức 3 - Kỳ Kích",
-          "desc": "Ưu tiên tấn công mục tiêu có nhiều [Laceration] nhất\n[Trước khi tấn công] Nếu là mục tiêu có nhiều [Laceration] nhất, Chỉ số Mục tiêu +2, Sức mạnh Kháng cự +3\n[Khi sử dụng] Tiêu hao tối đa 50 [BloodDinner], mỗi 10 [BloodDinner] tiêu hao nhận 1 [BloodArmor]. Sức mạnh Cơ bản +1 (Tối đa 5)\n- Nếu không thể tiêu hao [BloodDinner], nhận 10 [Laceration] và kích hoạt nó. Số lượng [Laceration] giảm 1\n[Kết thúc Kĩ năng] Nhận [BloodDinner] tương ứng với sát thương kĩ năng này gây ra",
+          "desc": "Ưu tiên tấn công mục tiêu có nhiều [Laceration] nhất\n[BeforeAttack] Nếu là mục tiêu có nhiều [Laceration] nhất, Chỉ số Mục tiêu +2, Sức mạnh Kháng cự +3\n[WhenUse] Tiêu hao tối đa 50 [BloodDinner], mỗi 10 [BloodDinner] tiêu hao nhận 1 [BloodArmor]. Sức mạnh Cơ bản +1 (Tối đa 5)\n- Nếu không thể tiêu hao [BloodDinner], nhận 10 [Laceration] và kích hoạt [Laceration] ngay lập tức. Số lượng [Laceration] giảm 1\n[EndSkill] Nhận [BloodDinner] tương ứng với sát thương kĩ năng này gây ra",
           "coinlist": [
             {
               "coindescs": [
@@ -1042,14 +1042,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Nếu số lần [Burst] của mục tiêu dưới 5, số lần [Burst] tăng thêm 2\n- Nếu từ 5 trở lên, gây [Burst] 2 thay thế"
+                  "desc": "[OnSucceedAttack] Nếu số lần [Burst] của mục tiêu dưới 5, số lần [Burst] tăng thêm 2\n- Nếu số lần [Burst] từ 5 trở lên, thay vào đó gây 2 [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Nếu số lần [Burst] của mục tiêu dưới 5, số lần [Burst] tăng thêm 2\n- Nếu từ 5 trở lên, gây [Burst] 2 thay thế"
+                  "desc": "[OnSucceedAttack] Nếu số lần [Burst] của mục tiêu dưới 5, số lần [Burst] tăng thêm 2\n- Nếu số lần [Burst] từ 5 trở lên, thay vào đó gây 2 [Burst]"
                 }
               ]
             }

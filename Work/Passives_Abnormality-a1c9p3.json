@@ -8,7 +8,7 @@
     {
       "id": 133101,
       "name": "Toàn bộ yếu tố cơ thể của ta vốn đã nằm ở Tibia",
-      "desc": "Sát thương Máu/Tinh thần từ [Combustion], [Vibration], [Burst], [Sinking] -30%\nSát thương nhận từ [Laceration] -50%\n\nBắt đầu lượt, nếu ở trạng thái Choáng thì giải trừ Choáng. Sau đó, nhận [CrimsonTakeDamageUp] 2 và không thể sử dụng \"Nghệ thuật Sắp đặt số 3 『Xương sườn Tạm bợ』\" cho đến lượt sau (1 lần mỗi trận)"
+      "desc": "Sát thương Máu/Tinh thần từ [Combustion], [Vibration], [Burst], [Sinking] -30%\nSát thương nhận từ [Laceration] -50%\n\nBắt đầu lượt, nếu ở trạng thái Choáng thì giải trừ Choáng. Sau đó, nhận [CrimsonTakeDamageUp] 2 và không thể sử dụng \"Nghệ thuật Sắp đặt số 3 『Xương sườn Tạm bợ』\" cho đến lượt sau (1 lần mỗi trận)\n\nKhi kết thúc lượt, nhận 1 [DefenseDown] vào lượt tiếp theo cho mỗi 4 [Combustion] trên bản thân (tối đa 15)"
     },
     {
       "id": 133102,
@@ -178,7 +178,7 @@
       "desc": "Khi Đại huynh Ngón Giữa sở hữu [MiddleFatherSwordFour], không rơi vào trạng thái [HeatingWireOffSpider]\n\nChỉ định mục tiêu là nhân vật sở hữu [MosesRedBreathCharge]",
       "summary": "",
       "undefined": "-",
-      "flavor": "Trực giác thú tính và thiên phú chiến đấu bẩm sinh của cô ta đang mách bảo theo bản năng.\nDù không biết cái đó là gì, nhưng nếu bị trúng đòn chắc chắn sẽ chết."
+      "flavor": "Trực giác thú tính và thiên phú chiến đấu bẩm sinh của cô ta đang mách bảo theo bản năng.\nDù không biết cái đó là gì, nhưng nếu bị trúng đòn <b>chắc chắn</b> sẽ chết."
     },
     {
       "id": 132601,
@@ -191,7 +191,7 @@
     {
       "id": 132602,
       "name": "Tư thế đang sụp đổ",
-      "desc": "Nhận các hiệu ứng dưới đây tùy theo trị số [DuelEdge] (Áp dụng cộng dồn)\n- Mỗi 1 trị số, +10% Sát thương gây ra, +10% Sát thương nhận vào đối với mục tiêu bị chỉ định\n- Nếu từ 3 trở lên, khi đối đầu với mục tiêu bị chỉ định, +1 Sức mạnh đối đầu\n- Nếu từ 5 trở lên, khi đối đầu với mục tiêu bị chỉ định, +1 Sức mạnh cơ bản\n- Nếu từ 7 trở lên, khi đối đầu với mục tiêu bị chỉ định, +1 Sức mạnh đồng xu\n- Nếu từ 10 trở lên, khi đối đầu với mục tiêu bị chỉ định, +1 Sức mạnh cuối cùng",
+      "desc": "Nhận các hiệu ứng dưới đây tùy theo trị số [DuelEdge] (Áp dụng cộng dồn)\n- Mỗi 1 trị số, +10% Sát thương gây ra, +10% Sát thương nhận vào đối với mục tiêu có [DuelEdge]\n- Nếu từ 3 trở lên, khi đối đầu với mục tiêu có [DuelEdge], +1 Sức mạnh đối đầu\n- Nếu từ 5 trở lên, khi đối đầu với mục tiêu có [DuelEdge], +1 Sức mạnh cơ bản\n- Nếu từ 7 trở lên, khi đối đầu với mục tiêu có [DuelEdge], +1 Sức mạnh đồng xu\n- Nếu từ 10 trở lên, khi đối đầu với mục tiêu có [DuelEdge], +1 Sức mạnh cuối cùng",
       "summary": "",
       "undefined": "-"
     },
@@ -281,7 +281,7 @@
       "id": 134501,
       "name": "Mọi yếu tố cơ thể của tôi đã hướng về Tibia",
       "desc": "-30% lượng giảm Máu, Tinh thần và tiến trình vùng Hoảng loạn do [Combustion]·[Vibration]·[Burst]·[Sinking] gây ra\n-50% Sát thương nhận vào từ [Laceration]\n\nKhi bắt đầu lượt, nếu đang ở trạng thái Hoảng loạn thì giải trừ Hoảng loạn. Sau đó, nhận 2 [CrimsonTakeDamageUp] (1 lần mỗi trận chiến)\n\nKhi kết thúc lượt, với mỗi 4 [Combustion] của bản thân, nhận 1 [DefenseDown] vào lượt tiếp theo (Tối đa 15)",
-      "flavor": "「Kiệt tác mà những Ngón Tay hằng mong đợi, cũng là lý do tồn tại của Mạng Nhện, có vẻ như sắp hoàn thành rồi.\nCành Vàng tuy là một vật phẩm thú vị, nhưng thực tế nó không phải là nguyên liệu cần thiết để hoàn thiện tác phẩm.\nLý do tại sao hắn lại mang nó đi cho đến mức biến Limbus Company thành kẻ thù thì tôi vẫn chưa rõ...\nNhưng vì kết quả đã chắc chắn, nên tôi đành phải chấp nhận quá trình hỗn loạn này thôi.\nChuỗi tình huống này là điều mà Lian... không, là vị Thần mà gã đó sùng bái mong muốn.\nViệc nhận được toàn bộ tình yêu của một tồn tại được gọi là Thần, rốt cuộc là phước lành hay là lời nguyền đây. Hư hư.」"
+      "flavor": "「Kiệt tác mà những Ngón Tay hằng mong đợi, cũng là lý do tồn tại của Mạng Nhện, có vẻ như sắp hoàn thành rồi.\nCành Vàng tuy là một vật phẩm thú vị, nhưng thực tế nó không phải là nguyên liệu cần thiết để hoàn thiện tác phẩm.\nLý do tại sao hắn lại mang nó đi cho đến mức biến Limbus Company thành kẻ thù thì tôi vẫn chưa rõ... nhưng vì kết quả đã chắc chắn, nên tôi đành phải chấp nhận quá trình hỗn loạn này thôi.\nChuỗi tình huống này là điều mà Lian... không, là vị Thần mà gã đó sùng bái mong muốn.\nViệc được một tồn tại gọi là Thần <i>yêu</i> đến mức ấy, rốt cuộc là phước lành hay là lời nguyền đây. Hư hư.」"
     },
     {
       "id": 134502,
@@ -359,14 +359,14 @@
     {
       "id": 133702,
       "name": "Thực thi Chỉ thị",
-      "desc": "Nếu đã thực hiện [IndexPrescript_Base_2nd] trong lượt này,\n\nKhi kết thúc lượt, hồi 15 Tinh thần, nhận (cấp độ [UnlockBuff_Base] + 1) [BlessingOfIndexPrescriptEnemy] (1 lần mỗi lượt)\n\nNếu không thể thực hiện [IndexPrescript_Base_2nd] trong lượt này,\nKhi kết thúc lượt, nhận 1 [PressureOfPrescript], 10 [KarmaOfIndexStudent]\n- Nếu cấp độ [UnlockBuff_Base] thấp hơn 2, nhận 1 [BlessingOfIndexPrescriptEnemy] khi kết thúc lượt\n- Nếu [BlessingOfIndexPrescriptEnemy] là 9, không nhận [KarmaOfIndexStudent]\n\n- Mỗi khi nhận [PressureOfPrescript], nhận một lượng [EsteemNeeds] bằng với giá trị đó",
+      "desc": "Khi kết thúc lượt, nếu đã thực hiện [IndexPrescript_Base_2nd] trong lượt này, hồi 15 Tinh thần và nhận (cấp độ [UnlockBuff_Base] + 1) [BlessingOfIndexPrescriptEnemy] (1 lần mỗi lượt)\n\nKhi kết thúc lượt, nếu không thực hiện [IndexPrescript_Base_2nd] trong lượt này, nhận 1 [PressureOfPrescript] và 10 [KarmaOfIndexStudent]\n- Nếu cấp độ [UnlockBuff_Base] thấp hơn 2, nhận 1 [BlessingOfIndexPrescriptEnemy]\n- Nếu [BlessingOfIndexPrescriptEnemy] là 9, không nhận [KarmaOfIndexStudent]\n\n- Mỗi khi nhận [PressureOfPrescript], nhận một lượng [EsteemNeeds] bằng với số [PressureOfPrescript] đã nhận",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": 133703,
       "name": "Giải Khai",
-      "desc": "Khi kết thúc lượt, nếu [BlessingOfIndexPrescriptEnemy] là 6/9 hoặc Máu dưới 80%/60%,\n- Nhận [UnlockBuff_2]/[UnlockBuff_3]\n- Tinh thần tăng lên 45\n- Tiêu thụ toàn bộ [PressureOfPrescript] đang có, giải trừ Choáng\n\nKhi nhận [UnlockBuff_Base] bằng điều kiện Máu,\n- Nhận một lượng [KarmaOfIndexStudent] bằng (Tinh thần đã tăng ÷ 15)\n- Nếu [BlessingOfIndexPrescriptEnemy] thấp hơn 6/9, thay đổi thành 6/9\nMỗi 1 đơn vị giá trị tăng thêm, nhận 1 [DefenseDown], 2 [KarmaOfIndexStudent] vào đầu lượt tiếp theo\n\nTốc độ tối đa và tối thiểu +10 vào lượt sử dụng đòn tấn công mạnh",
+      "desc": "Khi kết thúc lượt, nếu [BlessingOfIndexPrescriptEnemy] là 6/9 hoặc Máu dưới 80%/60%,\n- Nhận [UnlockBuff_2]/[UnlockBuff_3]\n- Tinh thần tăng lên 45\n- Tiêu thụ toàn bộ [PressureOfPrescript] đang có, giải trừ Choáng\n\nKhi nhận [UnlockBuff_Base] bằng điều kiện Máu,\n- Nhận một lượng [KarmaOfIndexStudent] bằng (Tinh thần đã tăng ÷ 15)\n- Nếu [BlessingOfIndexPrescriptEnemy] thấp hơn 6/9, tăng [BlessingOfIndexPrescriptEnemy] lên 6/9; mỗi 1 cộng dồn [BlessingOfIndexPrescriptEnemy] tăng thêm, nhận 1 [DefenseDown], 2 [KarmaOfIndexStudent] vào đầu lượt tiếp theo\n\nTốc độ tối đa và tối thiểu +10 vào lượt sử dụng đòn tấn công mạnh",
       "summary": "",
       "undefined": "-"
     },
@@ -397,7 +397,7 @@
     {
       "id": 133803,
       "name": "Tinh Thần Nhất Đáo",
-      "desc": "Số lượng [Breath] bị giới hạn tối đa là 25\nLượng [Breath] nhận vượt quá 25 sẽ được chuyển đổi thành [DicipleLittleFinger]\n\nMỗi khi [DicipleLittleFinger] giảm đi, nhận một lượng [Fugacious] bằng với giá trị đó"
+      "desc": "Số lượng [Breath] bị giới hạn tối đa là 25\nLượng [Breath] nhận vượt quá 25 sẽ được chuyển đổi thành [DicipleLittleFinger]\n\nMỗi khi [DicipleLittleFinger] giảm đi 1 cộng dồn, nhận một lượng [Fugacious] bằng với số [DicipleLittleFinger] đã mất"
     },
     {
       "id": 133804,
@@ -412,7 +412,7 @@
     {
       "id": 133901,
       "name": "Thần dân của Hoàng đế",
-      "desc": "Khi bắt đầu lượt, nhận 50 [DefenseBug] (Giá trị nhận mỗi lượt giảm 3, giảm tối đa 20)\n- Nếu bản thân có [Bỏng] · [Xuất huyết] · [Chấn động] · [Bộc phát] · [Trầm luân],\n<color=#ff6000><mark=#ff000040><b><u>giảm Sức mạnh một cách ngẫu nhiên, và [DefenseBug] giảm đi một lượng bằng với giá trị đã giảm đó</u></b></mark></color>\n- Nếu Sức mạnh của hiệu ứng tương ứng là 1 và Số lượng từ 2 trở lên, Số lượng sẽ giảm thay vì Sức mạnh\n\nTrong trận chiến, <color=#ff6000><mark=#ff000040><b><u>nếu [DefenseBug] đã giảm hết,</u></b></mark></color> áp dụng hiệu ứng sau vào lượt tiếp theo\n- Nhận 10 [DefenseDown] thay vì [DefenseBug]\n- Tạo mỗi loại 2 tài nguyên E.G.O thuộc 3 hệ mà kẻ địch có ít nhất\n- Khi kết thúc lượt, loại bỏ toàn bộ hiệu ứng giảm của bản thân. Nhận [DefenseBug]",
+      "desc": "Khi bắt đầu lượt, nhận 50 [DefenseBug] (Mỗi lượt tiếp theo nhận ít hơn 3 [DefenseBug], giảm tối đa 20)\n- Nếu bản thân có [Combustion], [Laceration], [Vibration], [Burst], hoặc [Sinking], <color=#ff6000><mark=#ff000040><b><u>giảm Sức mạnh của chúng một cách ngẫu nhiên; sau đó, [DefenseBug] giảm đi một lượng bằng giá trị ngẫu nhiên đó</u></b></mark></color>\n- Nếu Sức mạnh của hiệu ứng tương ứng là 1 và Số lượng từ 2 trở lên, Số lượng sẽ giảm thay vì Sức mạnh\n\nTrong trận chiến, <color=#ff6000><mark=#ff000040><b><u>nếu [DefenseBug] đã giảm hết,</u></b></mark></color> áp dụng hiệu ứng sau vào lượt tiếp theo\n- Nhận 10 [DefenseDown] thay vì [DefenseBug]\n- Tạo mỗi loại 2 tài nguyên E.G.O thuộc 3 hệ mà kẻ địch có ít nhất\n- Khi kết thúc lượt, loại bỏ toàn bộ hiệu ứng giảm của bản thân. Nhận [DefenseBug]",
       "flavor": "Cho dù ở bất cứ đâu, bất kỳ lúc nào, chúng đều bò ra từ những đường thẳng nơi các mặt giao nhau."
     },
     {

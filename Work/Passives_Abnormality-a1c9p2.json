@@ -17,7 +17,7 @@
     {
       "id": 132205,
       "name": "Tàn ảnh Chém xuống từ Đa tầng Thời gian",
-      "desc": "Khi kết thúc kỹ năng tấn công, gây sát thương Chém bằng (Số lượng đồng xu Chém trúng chí mạng × 10) lên mỗi mục tiêu (Sát thương này không gây Hoảng loạn)\n\nKhi kết thúc kỹ năng tấn công, tiêu hao toàn bộ [Breath] vượt quá 20 mà bản thân đang sở hữu, áp dụng [PhantomIncision] lên mục tiêu tương đương với giá trị đã tiêu hao",
+      "desc": "Khi kết thúc kỹ năng tấn công, gây sát thương Chém bằng (Số lượng đồng xu Chém trúng chí mạng × 10) lên mỗi mục tiêu (Sát thương này không gây Hoảng loạn)\n\nKhi kết thúc kỹ năng tấn công, tiêu hao toàn bộ [Breath] vượt quá 20 mà bản thân đang sở hữu, áp dụng [PhantomIncision] lên mục tiêu tương đương với giá trị [Breath] đã tiêu hao",
       "summary": "",
       "undefined": "-"
     },
@@ -81,7 +81,7 @@
     {
       "id": 132004,
       "name": "Hồng Viêm Đan Xen",
-      "desc": "Nếu bản thân có [MRcAiBa], các kỹ năng không phải hệ Phẫn nộ sẽ chuyển thành hệ Phẫn nộ tương ứng với giá trị đó.\n\nKhi kỹ năng trúng đích, ban [Combustion] tương ứng với số lượng kỹ năng hệ Phẫn nộ mà Ngài Bướm Hồng Viêm sử dụng trong lượt này.\n\nKhi kỹ năng trúng đích, hồi phục Máu bằng (Số lượng kỹ năng hệ Phẫn nộ Ngài Bướm Hồng Viêm sử dụng trong lượt này × 2).",
+      "desc": "Nếu bản thân có [MRcAiBa], các kỹ năng không phải hệ Phẫn nộ sẽ chuyển thành hệ Phẫn nộ tương ứng với số cộng dồn [MRcAiBa].\n\nKhi kỹ năng trúng đích, ban [Combustion] tương ứng với số lượng kỹ năng hệ Phẫn nộ mà Ngài Bướm Hồng Viêm sử dụng trong lượt này.\n\nKhi kỹ năng trúng đích, hồi phục Máu bằng (Số lượng kỹ năng hệ Phẫn nộ Ngài Bướm Hồng Viêm sử dụng trong lượt này × 2).",
       "summary": "",
       "undefined": "-"
     },
@@ -116,7 +116,7 @@
     {
       "id": 132503,
       "name": "Giải phóng",
-      "desc": "Khi kết thúc lượt, nếu [BlessingOfIndexPrescriptEnemy] đạt 3/6/9 hoặc Máu dưới 90%/75%/60%,\n- Nhận [UnlockBuff_1]/[UnlockBuff_2]/[UnlockBuff_3]\n- Tinh thần tăng lên 45\n- <color=#ff6000><mark=#ff000040><b><u>Tiêu hao toàn bộ [PressureOfPrescript] đang có, giải trừ Hoảng loạn</u></b></mark></color>\n- Vào lượt tiếp theo sau khi lần đầu nhận được [UnlockBuff_Base], nhận 1 [BlessingOfIndexPrescriptEnemy]\n\nKhi nhận được [UnlockBuff_Base] dựa trên điều kiện Máu,\n- Nhận (Lượng Tinh thần tăng thêm ÷ 15) [KarmaOfIndexStudent]\n- Nếu [BlessingOfIndexPrescriptEnemy] ít hơn 3/6/9, thay đổi thành 3/6/9\nVới mỗi 1 giá trị tăng thêm, nhận 1 [DefenseDown], 2 [KarmaOfIndexStudent] vào đầu lượt tiếp theo\n\nTrong lượt sử dụng đòn tấn công mạnh, Tốc độ tối đa và tối thiểu +10",
+      "desc": "Khi kết thúc lượt, nếu [BlessingOfIndexPrescriptEnemy] đạt 3/6/9 hoặc Máu dưới 90%/75%/60%,\n- Nhận [UnlockBuff_1]/[UnlockBuff_2]/[UnlockBuff_3]\n- Tinh thần tăng lên 45\n- <color=#ff6000><mark=#ff000040><b><u>Tiêu hao toàn bộ [PressureOfPrescript] đang có, giải trừ Hoảng loạn</u></b></mark></color>\n- Vào lượt tiếp theo sau khi lần đầu nhận được [UnlockBuff_Base], nhận 1 [BlessingOfIndexPrescriptEnemy]\n\nKhi nhận được [UnlockBuff_Base] dựa trên điều kiện Máu,\n- Nhận (Lượng Tinh thần tăng thêm ÷ 15) [KarmaOfIndexStudent]\n- Nếu [BlessingOfIndexPrescriptEnemy] ít hơn 3/6/9, tăng [BlessingOfIndexPrescriptEnemy] lên 3/6/9; với mỗi 1 cộng dồn [BlessingOfIndexPrescriptEnemy] tăng thêm, nhận 1 [DefenseDown], 2 [KarmaOfIndexStudent] vào đầu lượt tiếp theo\n\nTrong lượt sử dụng đòn tấn công mạnh, Tốc độ tối đa và tối thiểu +10",
       "summary": "",
       "undefined": "-",
       "flavor": "“Người ta nói rằng thanh kiếm và dải lụa mà Chỉ thị ban tặng, chỉ khi Chỉ thị được thực thi thì sức mạnh của chúng mới được giải phóng và hiện rõ.”"

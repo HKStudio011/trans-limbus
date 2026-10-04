@@ -552,7 +552,7 @@
                   "desc": "[OnSucceedAttack] Trao 1 [PenetrateTakeDamageUp]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trao 1 Mong manh Đố kị"
+                  "desc": "[OnSucceedAttack] Trao 1 [VioletTakeDamageUp]"
                 }
               ]
             }
@@ -570,7 +570,7 @@
                   "desc": "[OnSucceedAttack] Trao 1 [PenetrateTakeDamageUp]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trao 3 Mong manh Đố kị"
+                  "desc": "[OnSucceedAttack] Trao 3 [VioletTakeDamageUp]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Trao 3 [Curse]"
@@ -591,7 +591,7 @@
                   "desc": "[OnSucceedAttack] Trao 1 [PenetrateTakeDamageUp]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trao 3 Mong manh Đố kị"
+                  "desc": "[OnSucceedAttack] Trao 3 [VioletTakeDamageUp]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Trao 3 [Curse]"
@@ -863,7 +863,7 @@
           "level": 1,
           "name": "Ngọn Lửa Diêm Thứ Tư",
           "abName": "Thiếu Nữ Thiêu Rụi",
-          "desc": "Nếu mục tiêu có [Combustion], Sức mạnh Kĩ năng +2\n[EnemyKill] Nhận 1 Tăng Sức mạnh Tấn công vào lượt tiếp theo",
+          "desc": "Nếu mục tiêu có [Combustion], Sức mạnh Kĩ năng +2\n[EnemyKill] Nhận 1 [Enhancement] vào lượt tiếp theo",
           "coinlist": [
             {
               "coindescs": [
@@ -878,7 +878,7 @@
           "level": 3,
           "name": "Ngọn Lửa Diêm Thứ Tư",
           "abName": "Cô Bé Thiêu Rụi",
-          "desc": "Nếu mục tiêu có [Combustion], Sức mạnh Kĩ năng +2\n[EnemyKill] Lượt kế tiếp nhận 2 Tăng Sức mạnh Tấn công",
+          "desc": "Nếu mục tiêu có [Combustion], Sức mạnh Kĩ năng +2\n[EnemyKill] Lượt kế tiếp nhận 2 [Enhancement]",
           "coinlist": [
             {
               "coindescs": [
@@ -893,7 +893,7 @@
           "level": 4,
           "name": "Ngọn Lửa từ Cây Diêm Thứ Tư",
           "abName": "Cô Bé Thiêu Rụi",
-          "desc": "Nếu mục tiêu có [Combustion], Sức mạnh Kĩ năng +2\nVới mỗi 1 mức độ [Combustion] trên mục tiêu, lượng sát thương tăng thêm 5% (Tối đa 100%)\n[EnemyKill] Lượt kế tiếp nhận 2 Tăng Sức mạnh Tấn công",
+          "desc": "Nếu mục tiêu có [Combustion], Sức mạnh Kĩ năng +2\nVới mỗi 1 mức độ [Combustion] trên mục tiêu, lượng sát thương tăng thêm 5% (Tối đa 100%)\n[EnemyKill] Lượt kế tiếp nhận 2 [Enhancement]",
           "coinlist": [
             {
               "coindescs": [
@@ -908,7 +908,7 @@
           "level": 5,
           "name": "Ngọn Lửa từ Cây Diêm Thứ Tư",
           "abName": "Cô Bé Thiêu Rụi",
-          "desc": "Nếu mục tiêu có [Combustion], Sức mạnh Kĩ năng +2\n<style=\"highlight\">[BeforeAttack] Với mỗi 1 tổng số [Combustion] của tất cả mục tiêu bị tấn công</style>, Lượng sát thương +5% (Tối đa 100%)\n[EnemyKill] Lượt kế tiếp nhận 2 [Enhancement]",
+          "desc": "Nếu mục tiêu có [Combustion], Sức mạnh Kĩ năng +2\n<style=\"highlight\">[BeforeAttack]</style> Với mỗi <style=\"highlight\">1 tổng số [Combustion] của tất cả mục tiêu bị tấn công</style>, lượng sát thương +5% (Tối đa 100%)\n[EnemyKill] Lượt kế tiếp nhận 2 [Enhancement]",
           "coinlist": [
             {
               "coindescs": [
@@ -931,7 +931,7 @@
           "level": 1,
           "name": "Ngọn Lửa từ Cây Diêm Thứ Tư",
           "abName": "Cô Bé Thiêu Rụi",
-          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\nNếu mục tiêu có [Combustion], Sức mạnh Kĩ năng +2\n[EnemyKill] Lượt kế tiếp nhận 2 Tăng Sức mạnh Tấn công\n[EnemyKillFail] Lượt kế tiếp nhận 10 [Combustion]",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\nNếu mục tiêu có [Combustion], Sức mạnh Kĩ năng +2\n[EnemyKill] Lượt kế tiếp nhận 2 [Enhancement]\n[EnemyKillFail] Lượt kế tiếp nhận 10 [Combustion]",
           "coinlist": [
             {
               "coindescs": [
@@ -946,7 +946,7 @@
           "level": 3,
           "name": "Ngọn Lửa từ Cây Diêm Thứ Tư",
           "abName": "Cô Bé Thiêu Rụi",
-          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\nNếu mục tiêu có [Combustion], Sức mạnh Kĩ năng +4\n[EnemyKill] Lượt kế tiếp nhận 3 Tăng Sức mạnh Tấn công\n[EnemyKillFail] Lượt kế tiếp nhận 3 Tăng Sức mạnh Tấn công, 10 [Combustion]",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\nNếu mục tiêu có [Combustion], Sức mạnh Kĩ năng +4\n[EnemyKill] Lượt kế tiếp nhận 3 [Enhancement]\n[EnemyKillFail] Lượt kế tiếp nhận 3 [Enhancement], 10 [Combustion]",
           "coinlist": [
             {
               "coindescs": [
@@ -961,7 +961,7 @@
           "level": 4,
           "name": "Ngọn Lửa từ Cây Diêm Thứ Tư",
           "abName": "Cô Bé Thiêu Rụi",
-          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\nNếu mục tiêu có [Combustion], Sức mạnh Kĩ năng +4\nVới mỗi 1 mức độ [Combustion] trên mục tiêu, lượng sát thương tăng thêm 5% (Tối đa 100%)\n[EnemyKill] Lượt kế tiếp nhận 3 Tăng Sức mạnh Tấn công\n[EnemyKillFail] Lượt kế tiếp nhận 3 Tăng Sức mạnh Tấn công, 10 [Combustion]",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\nNếu mục tiêu có [Combustion], Sức mạnh Kĩ năng +4\nVới mỗi 1 mức độ [Combustion] trên mục tiêu, lượng sát thương tăng thêm 5% (Tối đa 100%)\n[EnemyKill] Lượt kế tiếp nhận 3 [Enhancement]\n[EnemyKillFail] Lượt kế tiếp nhận 3 [Enhancement], 10 [Combustion]",
           "coinlist": [
             {
               "coindescs": [
@@ -976,7 +976,7 @@
           "level": 5,
           "name": "Ngọn Lửa từ Cây Diêm Thứ Tư",
           "abName": "Cô Bé Thiêu Rụi",
-          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\nNếu mục tiêu có [Combustion], Sức mạnh Kĩ năng +4\nVới mỗi 1 <style=\"highlight\">[BeforeAttack] Tổng số [Combustion] của tất cả mục tiêu bị tấn công</style>, Lượng sát thương +5% (Tối đa 100%)\n<style=\"highlight\">[DefeatDuel] Sức mạnh Cơ bản -16</style>\n[EnemyKill] Lượt kế tiếp nhận 3 [Enhancement]\n[EnemyKillFail] Lượt kế tiếp nhận 3 [Enhancement], 10 [Combustion]",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\nNếu mục tiêu có [Combustion], Sức mạnh Kĩ năng +4\n<style=\"highlight\">[BeforeAttack]</style> Với mỗi <style=\"highlight\">1 tổng số [Combustion] của tất cả mục tiêu bị tấn công</style>, lượng sát thương +5% (Tối đa 100%)\n<style=\"highlight\">[DefeatDuel] Sức mạnh Cơ bản -16</style>\n[EnemyKill] Lượt kế tiếp nhận 3 [Enhancement]\n[EnemyKillFail] Lượt kế tiếp nhận 3 [Enhancement], 10 [Combustion]",
           "coinlist": [
             {
               "coindescs": [
@@ -1013,10 +1013,10 @@
                   "desc": "[OnSucceedAttack] Lượt kế tiếp nhận 3 [Binding]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Lượt kế tiếp gây 2 Giảm Sức mạnh Tấn công"
+                  "desc": "[OnSucceedAttack] Lượt kế tiếp gây 2 [Reduction]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Lượt kế tiếp nhận 2 Giảm Sức mạnh Tấn công"
+                  "desc": "[OnSucceedAttack] Lượt kế tiếp nhận 2 [Reduction]"
                 }
               ]
             }
@@ -1037,10 +1037,10 @@
                   "desc": "[OnSucceedAttack] Lượt kế tiếp nhận 5 [Binding]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Lượt kế tiếp gây 4 Giảm Sức mạnh Tấn công"
+                  "desc": "[OnSucceedAttack] Lượt kế tiếp gây 4 [Reduction]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Lượt kế tiếp nhận 4 Giảm Sức mạnh Tấn công"
+                  "desc": "[OnSucceedAttack] Lượt kế tiếp nhận 4 [Reduction]"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Lượt kế tiếp nhận 2 Bảo vệ"
@@ -1064,10 +1064,10 @@
                   "desc": "[OnSucceedAttack] Lượt kế tiếp nhận 3 [Binding]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Lượt kế tiếp gây 4 Giảm Sức mạnh Tấn công"
+                  "desc": "[OnSucceedAttack] Lượt kế tiếp gây 4 [Reduction]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Lượt kế tiếp nhận 3 Giảm Sức mạnh Tấn công"
+                  "desc": "[OnSucceedAttack] Lượt kế tiếp nhận 3 [Reduction]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Lượt kế tiếp nhận 2 Bảo vệ"
@@ -1193,7 +1193,7 @@
           "level": 1,
           "name": "Chấp Hành",
           "abName": "Phụ Tá Chấp Hành Viên Thiên Giới",
-          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\n[EndSkill] Gây 1 Mong manh cho 2 đồng minh có HP hiện tại thấp nhất, ngoại trừ bản thân vào lượt tiếp theo. Lượt tiếp theo gây 2 Tăng Sát thương",
+          "desc": "[CantIdentify] Tấn công mục tiêu ngẫu nhiên\n[EndSkill] Gây 1 [Vulnerable] cho 2 đồng minh có HP hiện tại thấp nhất, ngoại trừ bản thân vào lượt tiếp theo. Lượt tiếp theo gây 2 [AttackDmgUp]",
           "coinlist": [
             {
               "coindescs": [
@@ -1208,7 +1208,7 @@
           "level": 3,
           "name": "Chấp Hành",
           "abName": "Phụ Tá Chấp Hành Viên Thiên Giới",
-          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\n[EndSkill] Gây 2 Mong manh cho 2 đồng minh có HP hiện tại thấp nhất, ngoại trừ bản thân vào lượt tiếp theo. Lượt tiếp theo gây 3 Tăng Sát thương",
+          "desc": "[CantIdentify] Tấn công mục tiêu ngẫu nhiên\n[EndSkill] Gây 2 [Vulnerable] cho 2 đồng minh có HP hiện tại thấp nhất, ngoại trừ bản thân vào lượt tiếp theo. Lượt tiếp theo gây 3 [AttackDmgUp]",
           "coinlist": [
             {
               "coindescs": [
@@ -1289,7 +1289,7 @@
                   "desc": "[OnSucceedAttack] Gây 2 Giảm Uy lực Phòng thủ"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gây 2 Giảm Cấp Phòng thủ"
+                  "desc": "[OnSucceedAttack] Gây 2 [DefenseDown]"
                 }
               ]
             }
@@ -1307,7 +1307,7 @@
                   "desc": "[OnSucceedAttack] Gây 2 Giảm Sức mạnh Thủ"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gây 4 Giảm Cấp phòng ngự"
+                  "desc": "[OnSucceedAttack] Gây 4 [DefenseDown]"
                 }
               ]
             }
@@ -1325,7 +1325,7 @@
                   "desc": "[OnSucceedAttack] Gây 2 Giảm Sức mạnh Thủ"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gây 5 Giảm Cấp phòng ngự"
+                  "desc": "[OnSucceedAttack] Gây 5 [DefenseDown]"
                 }
               ]
             }
@@ -1348,7 +1348,7 @@
                   "desc": "[OnSucceedAttack] Gây 2 Giảm Sức mạnh Thủ"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gây 2 Giảm Cấp phòng ngự"
+                  "desc": "[OnSucceedAttack] Gây 2 [DefenseDown]"
                 },
                 {
                   "desc": "[OnSucceedAttackTail] Gây 4 [Binding] vào lượt tiếp theo"
@@ -1369,7 +1369,7 @@
                   "desc": "[OnSucceedAttack] Gây 2 Giảm Sức mạnh Thủ"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gây 4 Giảm Cấp phòng ngự"
+                  "desc": "[OnSucceedAttack] Gây 4 [DefenseDown]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Gây 4 [Binding] vào lượt tiếp theo"
@@ -1390,7 +1390,7 @@
                   "desc": "[OnSucceedAttack] Gây 2 Giảm Sức mạnh Thủ"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gây 5 Giảm Cấp phòng ngự"
+                  "desc": "[OnSucceedAttack] Gây 5 [DefenseDown]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Gây 4 [Binding] vào lượt tiếp theo"
@@ -1413,7 +1413,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Nhận 1 Tăng Sức mạnh Tấn công vào lượt tiếp theo"
+                  "desc": "[OnSucceedAttackHead] Nhận 1 [Enhancement] vào lượt tiếp theo"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Nhận 2 [Agility] vào lượt tiếp theo"
@@ -1431,7 +1431,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Nhận 1 Tăng Sức mạnh Tấn công vào lượt tiếp theo"
+                  "desc": "[OnSucceedAttack] Nhận 1 [Enhancement] vào lượt tiếp theo"
                 },
                 {
                   "desc": "[OnSucceedAttack] Nhận 3 [Agility] vào lượt tiếp theo"
@@ -3500,7 +3500,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây 1 Mong manh (Fragile), 2 Vết Nứt Không Gian"
+                  "desc": "[OnSucceedAttack] Gây 1 [Vulnerable], 2 [DimensionRift]"
                 }
               ]
             }
@@ -3515,7 +3515,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây 1 Mong manh (Fragile), 4 Vết Nứt Không Gian"
+                  "desc": "[OnSucceedAttack] Gây 1 [Vulnerable], 4 [DimensionRift]"
                 }
               ]
             }
@@ -3530,12 +3530,12 @@
           "level": 1,
           "name": "Xé Toạc Không Gian",
           "abName": "Hành Khách Lạc Lối",
-          "desc": "[CantIdentify] \nTấn công mục tiêu có HP hiện tại cao nhất\n\n[BeforeAttack] Nhận 2 Nhanh nhẹn (Haste) vào lượt tiếp theo.\nTiêu hao 10 số lượng Sạc (Charge) để tăng Mong manh (Fragile) và Vết Nứt Không Gian gây ra khi trúng đích thêm +1",
+          "desc": "[CantIdentify] \nTấn công mục tiêu có HP hiện tại cao nhất\n\n[BeforeAttack] Nhận 2 [Agility] vào lượt tiếp theo.\nTiêu hao 10 [Charge] Count để tăng [Vulnerable] và [DimensionRift] gây ra khi trúng đích thêm +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây 1 Mong manh (Fragile), 3 Vết Nứt Không Gian"
+                  "desc": "[OnSucceedAttack] Gây 1 [Vulnerable], 3 [DimensionRift]"
                 }
               ]
             }
@@ -3545,12 +3545,12 @@
           "level": 3,
           "name": "Xé Toạc Không Gian",
           "abName": "Hành Khách Lạc Lối",
-          "desc": "[CantIdentify] \nTấn công mục tiêu có HP hiện tại cao nhất\n\n[BeforeAttack] Nhận <style=\"highlight\">3</style> Nhanh nhẹn (Haste) vào lượt tiếp theo.\nTiêu hao 10 số lượng Sạc (Charge) để tăng Mong manh (Fragile) và Vết Nứt Không Gian gây ra khi trúng đích thêm <style=\"highlight\">+2</style>",
+          "desc": "[CantIdentify] \nTấn công mục tiêu có HP hiện tại cao nhất\n\n[BeforeAttack] Nhận <style=\"highlight\">3</style> [Agility] vào lượt tiếp theo.\nTiêu hao 10 [Charge] Count để tăng [Vulnerable] và [DimensionRift] gây ra khi trúng đích thêm <style=\"highlight\">+2</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây 1 Mong manh (Fragile), 4 Vết Nứt Không Gian"
+                  "desc": "[OnSucceedAttack] Gây 1 [Vulnerable], 4 [DimensionRift]"
                 }
               ]
             }

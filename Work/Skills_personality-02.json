@@ -151,7 +151,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Cấp 1 Tốc Độ và 2 Tăng Cấp Phòng Thủ cho đồng đội có tỉ lệ HP hiện tại thấp nhất vào lượt tiếp theo"
+                  "desc": "Cấp 1 [Agility] và 2 [DefenseUp] cho đồng đội có tỉ lệ HP hiện tại thấp nhất vào lượt tiếp theo"
                 }
               ]
             }
@@ -166,10 +166,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "Cấp 1 Tốc Độ và 2 Tăng Cấp Phòng Thủ cho đồng đội có tỉ lệ HP hiện tại thấp nhất vào lượt tiếp theo"
+                  "desc": "Cấp 1 [Agility] và 2 [DefenseUp] cho đồng đội có tỉ lệ HP hiện tại thấp nhất vào lượt tiếp theo"
                 },
                 {
-                  "desc": "Nếu mục tiêu là Fixer Hiệp hội Zwei, nhận thêm 1 Tốc hành và 1 Tăng Cấp Phòng Thủ"
+                  "desc": "Nếu mục tiêu là Fixer Hiệp hội Zwei, nhận thêm 1 [Agility] và 1 [DefenseUp]"
                 }
               ]
             }
@@ -191,7 +191,7 @@
         {
           "level": 4,
           "name": "Phòng ngự",
-          "desc": "[WhenUse] Tăng 3 chỉ số Thu hút của ô kỹ năng này vào lượt sau",
+          "desc": "[WhenUse] Tăng 3 [Aggro] cho ô kỹ năng này vào lượt sau",
           "coinlist": [
             {}
           ]
@@ -265,7 +265,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Phóng ra Giảm cấp độ tấn công 1 vào lượt kế tiếp"
+                  "desc": "[OnSucceedAttackHead] Phóng ra 1 [AttackDown] vào lượt kế tiếp"
                 }
               ]
             },
@@ -290,7 +290,7 @@
                   "desc": "[OnSucceedAttackHead] Tăng 1 số lượt [Vibration] của bản thân"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Phóng ra Giảm cấp độ tấn công 1 vào lượt kế tiếp"
+                  "desc": "[OnSucceedAttackHead] Phóng ra 1 [AttackDown] vào lượt kế tiếp"
                 }
               ]
             },
@@ -301,7 +301,7 @@
                   "desc": "[OnSucceedAttack] Phóng ra [Vibration] 5"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Phóng ra Suy yếu xu cộng thêm 1 vào lượt kế tiếp"
+                  "desc": "[OnSucceedAttackHead] Phóng ra 1 [PlusCoinValueDown] vào lượt kế tiếp"
                 }
               ]
             }
@@ -318,7 +318,7 @@
                   "desc": "[OnSucceedAttackHead] Tăng 1 số lượt [Vibration] của bản thân"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Phóng ra Giảm cấp độ tấn công 1 vào lượt kế tiếp"
+                  "desc": "[OnSucceedAttack] Phóng ra 1 [AttackDown] vào lượt kế tiếp"
                 }
               ]
             },
@@ -329,7 +329,7 @@
                   "desc": "[OnSucceedAttack] Tiếp thêm 5 [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Tiếp thêm 1 Yếu hóa Đồng xu Cộng vào lượt tới"
+                  "desc": "[OnSucceedAttack] Tiếp thêm 1 [PlusCoinValueDown] vào lượt tới"
                 }
               ]
             }
@@ -570,7 +570,7 @@
         {
           "level": 3,
           "name": "Hồng Mai Tung Bay",
-          "desc": "Với mỗi [RedApricotBlossom] trên mục tiêu, tăng 3% sát thương\n[WinDuel] Giảm một nửa số lần [Breath] của bản thân, nhận [Breath] bằng với lượng đã giảm (Tối đa 10)",
+          "desc": "Với mỗi [RedApricotBlossom] trên mục tiêu, tăng 3% sát thương\n[WinDuel] Giảm một nửa số lần [Breath] của bản thân, nhận [Breath] bằng với lượng [Breath] đã giảm (Tối đa 10)",
           "coinlist": [
             {
               "coindescs": [
@@ -599,7 +599,7 @@
                   "desc": "[CriticalOnSucceedAttack] Cấp 5 [RedApricotBlossom]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Nếu [RedApricotBlossom] của mục tiêu là 10, cấp 1 Mỏng manh Chém"
+                  "desc": "[CriticalOnSucceedAttack] Nếu [RedApricotBlossom] của mục tiêu là 10, cấp 1 [SlashTakeDamageUp]"
                 }
               ]
             },

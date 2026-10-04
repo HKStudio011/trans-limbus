@@ -50,19 +50,19 @@
     },
     {
       "id": "RecoverHpOnly",
-      "content": "<color=#ebcaa2>{conditions}{targets}</color> <color=#00ff9c>hồi {amount} Máu</color>"
+      "content": "<color=#ebcaa2>{targets} {conditions}</color> <color=#ebcaa2>hồi phục</color> <color=#00ff9c>{amount} Máu.</color>"
     },
     {
       "id": "RecoverMpOnly",
-      "content": "<color=#ebcaa2>{conditions}{targets}</color> <color=#80c9ff>hồi {amount} Tinh thần</color>"
+      "content": "<color=#ebcaa2>{targets} {conditions}</color> <color=#ebcaa2>hồi phục</color> <color=#80c9ff>{amount} Tinh thần.</color>"
     },
     {
       "id": "RecoverHpOnlyUntilMax",
-      "content": "<color=#ebcaa2>{conditions}{targets}</color> <color=#00ff9c>hồi tối đa Máu</color>"
+      "content": "<color=#ebcaa2>{targets} {conditions}</color> <color=#ebcaa2>hồi phục trở lại</color> <color=#00ff9c>Máu tối đa.</color>"
     },
     {
       "id": "RecoverMpOnlyUntilMax",
-      "content": "<color=#ebcaa2>{conditions}{targets}</color> <color=#80c9ff>hồi tối đa Tinh thần</color>"
+      "content": "<color=#ebcaa2>{targets} {conditions}</color> <color=#ebcaa2>hồi phục trở lại</color> <color=#80c9ff>Tinh thần tối đa.</color>"
     },
     {
       "id": "LoseHpOnly",
@@ -74,7 +74,7 @@
     },
     {
       "id": "RecoverHpMpSameAmount",
-      "content": "<color=#ebcaa2>{conditions}{targets}</color> <color=#00ff9c>hồi {amount} Máu</color> <color=#80c9ff>và Tinh thần</color>"
+      "content": "<color=#ebcaa2>{targets} {conditions}</color> <color=#ebcaa2>hồi phục</color> <color=#00ff9c>{amount} Máu</color> và <color=#80c9ff>Tinh thần.</color>"
     },
     {
       "id": "RecoverHpMpDifferentAmount",
@@ -462,7 +462,7 @@
     },
     {
       "id": "RecoverRatioHpOnly",
-      "content": "<color=#ebcaa2>{conditions}{targets}</color> <color=#00ff9c>hồi phục {amount}% Máu tối đa</color>"
+      "content": "<color=#ebcaa2>{targets} {conditions}</color> <color=#ebcaa2>hồi phục</color> <color=#00ff9c>{amount}% Máu tối đa.</color>"
     }
   ]
 }

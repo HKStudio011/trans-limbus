@@ -145,7 +145,7 @@
                   "desc": "[OnSucceedAttack] Gây 4 [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Khi sử dụng kỹ năng, nếu đã tiêu hao số lượt Chấn động thì Kích nổ Chấn động"
+                  "desc": "[OnSucceedAttack] Khi sử dụng kỹ năng, nếu đã tiêu hao [Vibration] Count thì Kích nổ [VibrationExplosion]"
                 }
               ]
             },
@@ -153,10 +153,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Áp dụng 2 Giảm Cấp Phòng thủ"
+                  "desc": "[OnSucceedAttack] Áp dụng 2 [DefenseDown]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Khi sử dụng kỹ năng, nếu đã tiêu hao số lượng Chấn động thì gây Nổ Chấn động"
+                  "desc": "[OnSucceedAttack] Khi sử dụng kỹ năng, nếu đã tiêu hao [Vibration] Count thì gây [VibrationExplosion]"
                 }
               ]
             }
@@ -340,10 +340,10 @@
                   "desc": "[OnSucceedAttack] Với mỗi 5 số tầng [Charge] đã tiêu hao khi sử dụng kỹ năng, gây 2 [Burst] (Tối đa 6)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Khi sử dụng kỹ năng, nếu đã tiêu hao 15 số tầng Sạc, gây 2 Vết nứt không gian"
+                  "desc": "[OnSucceedAttack] Khi sử dụng kỹ năng, nếu đã tiêu hao 15 [Charge] Count, gây 2 [DimensionRift]"
                 },
                 {
-                  "desc": "[EnemyKill] Nhận 3 Trường lực sạc"
+                  "desc": "[EnemyKill] Nhận 3 [ChargeForceField]"
                 }
               ]
             }
@@ -374,10 +374,10 @@
                   "desc": "[OnSucceedAttack] Với mỗi 5 số tầng [Charge] đã tiêu hao khi sử dụng kỹ năng, gây 3 [Burst] (Tối đa 9)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Khi sử dụng kỹ năng, nếu đã tiêu hao 15 số tầng Sạc, gây 2 Vết nứt không gian"
+                  "desc": "[OnSucceedAttack] Khi sử dụng kỹ năng, nếu đã tiêu hao 15 [Charge] Count, gây 2 [DimensionRift]"
                 },
                 {
-                  "desc": "[EnemyKill] Nhận 5 Trường lực sạc"
+                  "desc": "[EnemyKill] Nhận 5 [ChargeForceField]"
                 }
               ]
             }
@@ -399,7 +399,7 @@
         {
           "level": 4,
           "name": "Chiều Không Gian Trống Rỗng",
-          "desc": "Mỗi 5 số lượng Sạc, Uy lực cơ bản +1 (Tối đa 2)\n[OnSucceedEvade] Ở lượt tiếp theo, kỹ năng đầu tiên gây thêm 1 Vết rách (Giới hạn lượng tăng tối đa mỗi lượt: 3)",
+          "desc": "Mỗi 5 [Charge], Uy lực cơ bản +1 (Tối đa 2)\n[OnSucceedEvade] Ở lượt tiếp theo, khi lần đầu gây [Burst] bằng kỹ năng, gây thêm +1 [Burst] (Giới hạn lượng tăng tối đa mỗi lượt: 3)",
           "coinlist": [
             {}
           ]
@@ -412,7 +412,7 @@
         {
           "level": 1,
           "name": "Xuyên Thấu",
-          "desc": "[WhenUse] Số lượng Bình tĩnh của bản thân tăng 2",
+          "desc": "[WhenUse] Số lượng [Breath] của bản thân tăng 2",
           "coinlist": [
             {},
             {
@@ -427,7 +427,7 @@
         {
           "level": 2,
           "name": "Xuyên Thấu",
-          "desc": "[WhenUse] Số lượng Bình tĩnh của bản thân tăng 2",
+          "desc": "[WhenUse] Số lượng [Breath] của bản thân tăng 2",
           "coinlist": [
             {},
             {
@@ -445,7 +445,7 @@
         {
           "level": 4,
           "name": "Xuyên Thấu",
-          "desc": "[WhenUse] Số lượng Bình tĩnh của bản thân tăng 2",
+          "desc": "[WhenUse] Số lượng [Breath] của bản thân tăng 2",
           "coinlist": [
             {},
             {
@@ -468,12 +468,12 @@
         {
           "level": 1,
           "name": "Đâm, Đâm rồi lại Đâm",
-          "desc": "[WhenUse] Tăng 2 số lượng Bình tĩnh của bản thân\nNếu Bình tĩnh từ 5 trở lên, Uy lực đối kháng +2",
+          "desc": "[WhenUse] Tăng 2 số lượng [Breath] của bản thân\nNếu [Breath] từ 5 trở lên, Uy lực đối kháng +2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Nhận 2 Bình tĩnh"
+                  "desc": "[OnSucceedAttackHead] Nhận 2 [Breath]"
                 }
               ]
             },
@@ -489,12 +489,12 @@
         {
           "level": 2,
           "name": "Đâm, Đâm rồi lại Đâm",
-          "desc": "[WhenUse] Tăng 2 số lượng Bình tĩnh của bản thân\nNếu Bình tĩnh từ 5 trở lên, Uy lực đối kháng +2",
+          "desc": "[WhenUse] Tăng 2 số lượng [Breath] của bản thân\nNếu [Breath] từ 5 trở lên, Uy lực đối kháng +2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Nhận 2 Bình tĩnh"
+                  "desc": "[OnSucceedAttackHead] Nhận 2 [Breath]"
                 }
               ]
             },
@@ -513,12 +513,12 @@
         {
           "level": 4,
           "name": "Đâm, Đâm rồi lại Đâm",
-          "desc": "[WhenUse] Tăng 2 số lượng Bình tĩnh của bản thân\nNếu Bình tĩnh từ 5 trở lên, Uy lực đối kháng +3",
+          "desc": "[WhenUse] Tăng 2 số lượng [Breath] của bản thân\nNếu [Breath] từ 5 trở lên, Uy lực đối kháng +3",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Nhận 2 Bình tĩnh"
+                  "desc": "[OnSucceedAttack] Nhận 2 [Breath]"
                 }
               ]
             },
@@ -542,12 +542,12 @@
         {
           "level": 3,
           "name": "Đột kích",
-          "desc": "[WhenUse] Nhận 5 Bình tĩnh",
+          "desc": "[WhenUse] Nhận 5 [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Số lượng Bình tĩnh của bản thân tăng 2"
+                  "desc": "[OnSucceedAttackHead] Số lượng [Breath] của bản thân tăng 2"
                 }
               ]
             },
@@ -566,12 +566,12 @@
         {
           "level": 4,
           "name": "Tập kích",
-          "desc": "[WhenUse] Nhận 5 Bình tĩnh\nNếu Bình tĩnh của bản thân từ 7 trở lên, Uy lực Đồng xu +1",
+          "desc": "[WhenUse] Nhận 5 [Breath]\nNếu [Breath] của bản thân từ 7 trở lên, Uy lực Đồng xu +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lượng Bình tĩnh của bản thân tăng 2"
+                  "desc": "[OnSucceedAttack] Số lượng [Breath] của bản thân tăng 2"
                 }
               ]
             },
@@ -740,7 +740,7 @@
         {
           "level": 4,
           "name": "Khép Chặt",
-          "desc": "Khi kỹ năng này bị vứt bỏ, nhận Lá chắn bằng ([KnowledgeExplored] × 6% Máu tối đa)\n[WhenUse] Vứt bỏ 1 kỹ năng có cấp cao nhất từ tất cả các ô kỹ năng của bản thân\n[WhenUse] Nếu [Sinking] của mục tiêu từ 5 trở lên, Uy lực Đồng xu +1\n[WhenUse] Ở lượt kế tiếp, ô kỹ năng này nhận 3 Khiêu khích",
+          "desc": "Khi kỹ năng này bị vứt bỏ, nhận Lá chắn bằng ([KnowledgeExplored] × 6% Máu tối đa)\n[WhenUse] Vứt bỏ 1 kỹ năng có cấp cao nhất từ tất cả các ô kỹ năng của bản thân\n[WhenUse] Nếu [Sinking] của mục tiêu từ 5 trở lên, Uy lực Đồng xu +1\n[WhenUse] Ở lượt kế tiếp, ô kỹ năng này nhận 3 [Aggro]",
           "coinlist": [
             {},
             {
@@ -767,7 +767,7 @@
         {
           "level": 3,
           "name": "Tri Thức Gia Hộ",
-          "desc": "Khi kỹ năng này bị vứt bỏ, nhận Lá chắn bằng ([KnowledgeExplored] × 9% Máu tối đa)\n[WhenUse] Ở lượt kế tiếp, ô kỹ năng này nhận 8 Khiêu khích",
+          "desc": "Khi kỹ năng này bị vứt bỏ, nhận Lá chắn bằng ([KnowledgeExplored] × 9% Máu tối đa)\n[WhenUse] Ở lượt kế tiếp, ô kỹ năng này nhận 8 [Aggro]",
           "coinlist": [
             {},
             {},
@@ -784,7 +784,7 @@
         {
           "level": 4,
           "name": "Tri Thức Gia Hộ",
-          "desc": "Khi kỹ năng này bị vứt bỏ, nhận Lá chắn bằng ([KnowledgeExplored] × 12% Máu tối đa)\n[WhenUse] Ở lượt kế tiếp, ô kỹ năng này nhận 10 Khiêu khích\n[WhenUse] Nếu Máu của bản thân dưới 50%, Uy lực Đồng xu +1",
+          "desc": "Khi kỹ năng này bị vứt bỏ, nhận Lá chắn bằng ([KnowledgeExplored] × 12% Máu tối đa)\n[WhenUse] Ở lượt kế tiếp, ô kỹ năng này nhận 10 [Aggro]\n[WhenUse] Nếu Máu của bản thân dưới 50%, Uy lực Đồng xu +1",
           "coinlist": [
             {},
             {},
@@ -806,7 +806,7 @@
         {
           "level": 1,
           "name": "Say Mê Khám Phá",
-          "desc": "[WhenUse] Vứt bỏ ngẫu nhiên 2 kỹ năng theo thứ tự cấp thấp nhất từ tất cả các ô kỹ năng của bản thân\n[WhenUse] Ở lượt kế tiếp, ô kỹ năng này nhận 3 Khiêu khích",
+          "desc": "[WhenUse] Vứt bỏ ngẫu nhiên 2 kỹ năng theo thứ tự cấp thấp nhất từ tất cả các ô kỹ năng của bản thân\n[WhenUse] Ở lượt kế tiếp, ô kỹ năng này nhận 3 [Aggro]",
           "coinlist": [
             {
               "coindescs": [
@@ -820,7 +820,7 @@
         {
           "level": 4,
           "name": "Say Mê Khám Phá",
-          "desc": "[WhenUse] Vứt bỏ ngẫu nhiên 2 kỹ năng theo thứ tự cấp thấp nhất từ tất cả các ô kỹ năng của bản thân\n[WhenUse] Ở lượt kế tiếp, ô kỹ năng này nhận 5 Khiêu khích",
+          "desc": "[WhenUse] Vứt bỏ ngẫu nhiên 2 kỹ năng theo thứ tự cấp thấp nhất từ tất cả các ô kỹ năng của bản thân\n[WhenUse] Ở lượt kế tiếp, ô kỹ năng này nhận 5 [Aggro]",
           "coinlist": [
             {
               "coindescs": [
@@ -981,7 +981,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Laceration] tăng thêm 1. Nếu mục tiêu sở hữu từ 4 loại hiệu ứng bất lợi trở lên, tăng thêm 2"
+                  "desc": "[OnSucceedAttack] Số lần [Laceration] tăng thêm 1. Nếu mục tiêu sở hữu từ 4 loại hiệu ứng bất lợi trở lên, tăng thêm 2 số lần [Laceration]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Áp đặt 3 số lần của 1 hiệu ứng ngẫu nhiên trong số [Combustion], [Laceration], [Vibration], [Burst], [Sinking]"
@@ -991,7 +991,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Áp đặt 1 [Laceration]. Nếu mục tiêu sở hữu từ 4 loại hiệu ứng bất lợi trở lên, áp đặt thêm 2"
+                  "desc": "[OnSucceedAttack] Áp đặt 1 [Laceration]. Nếu mục tiêu sở hữu từ 4 loại hiệu ứng bất lợi trở lên, áp đặt thêm 2 [Laceration]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Áp đặt 2 Uy lực của 1 hiệu ứng ngẫu nhiên trong số [Combustion], [Laceration], [Vibration], [Burst], [Sinking]"
@@ -1019,7 +1019,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Tăng 1 số lượng [Laceration]. Nếu mục tiêu sở hữu từ 3 loại hiệu ứng bất lợi trở lên, tăng thêm 2"
+                  "desc": "[OnSucceedAttack] Tăng 1 số lượng [Laceration]. Nếu mục tiêu sở hữu từ 3 loại hiệu ứng bất lợi trở lên, tăng thêm 2 số lượng [Laceration]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Ban ngẫu nhiên 3 số lượng của 1 trong các hiệu ứng [Combustion], [Laceration], [Vibration], [Burst], [Sinking]"
@@ -1029,7 +1029,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Ban 1 [Laceration]. Nếu mục tiêu sở hữu từ 3 loại hiệu ứng bất lợi trở lên, ban thêm 2"
+                  "desc": "[OnSucceedAttack] Ban 1 [Laceration]. Nếu mục tiêu sở hữu từ 3 loại hiệu ứng bất lợi trở lên, ban thêm 2 [Laceration]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Ban ngẫu nhiên 2 cường độ của 1 trong các hiệu ứng [Combustion], [Laceration], [Vibration], [Burst], [Sinking]"
@@ -1202,7 +1202,7 @@
         {
           "level": 2,
           "name": "Lời Ai Điếu Trang Trọng Cho Những Kẻ Còn Sống",
-          "desc": "Nếu tổng [Sinking] và tất cả [SinkingWhite] trên mục tiêu từ 6 trở lên, Uy lực Đồng xu +1\n[WinDuel] Số lần [Sinking] tăng thêm 1\n[EndSkill] Nhận [BulletLament] bằng với số Cộng hưởng tối đa (tối đa 6)\n- Nếu Cộng hưởng tương ứng là Cộng hưởng Hoàn toàn, nhận (số Cộng hưởng tối đa × 2) (tối đa 12)",
+          "desc": "Nếu tổng [Sinking] và tất cả [SinkingWhite] trên mục tiêu từ 6 trở lên, Uy lực Đồng xu +1\n[WinDuel] Số lần [Sinking] tăng thêm 1\n[EndSkill] Nhận [BulletLament] bằng với số Cộng hưởng tối đa (tối đa 6)\n- Nếu Cộng hưởng tương ứng là Cộng hưởng Hoàn toàn, nhận (số Cộng hưởng tối đa × 2) [BulletLament] (tối đa 12)",
           "coinlist": [
             {
               "coindescs": [
@@ -1229,7 +1229,7 @@
         {
           "level": 4,
           "name": "Lời Ai Điếu Trang Trọng Cho Những Kẻ Còn Sống",
-          "desc": "Nếu sở hữu từ 10 [BulletLament] trở lên, Uy lực Thắng bại +1\nTổng [Sinking] và tất cả [SinkingWhite] trên mục tiêu <style=\"highlight\">với mỗi 6 điểm, Uy lực Đồng xu +1 (tối đa 2)</style>\n[WinDuel] Số lần [Sinking] tăng thêm 1\n[EndSkill] Nhận [BulletLament] bằng với số Cộng hưởng tối đa (tối đa 6)\n- Nếu Cộng hưởng tương ứng là Cộng hưởng Hoàn toàn, nhận (số Cộng hưởng tối đa × 2) (tối đa 12)\n<style=\"highlight\">- Nếu Cộng hưởng đó là Cộng hưởng Hoàn toàn từ 4 trở lên, nhận [ReloadLament] thay thế</style>",
+          "desc": "Nếu sở hữu từ 10 [BulletLament] trở lên, Uy lực Thắng bại +1\nTổng [Sinking] và tất cả [SinkingWhite] trên mục tiêu <style=\"highlight\">với mỗi 6 điểm, Uy lực Đồng xu +1</style> <style=\"highlight\">(tối đa 2)</style>\n[WinDuel] Số lần [Sinking] tăng thêm 1\n[EndSkill] Nhận [BulletLament] bằng với số Cộng hưởng tối đa (tối đa 6)\n- Nếu Cộng hưởng tương ứng là Cộng hưởng Hoàn toàn, nhận (số Cộng hưởng tối đa × 2) [BulletLament] (tối đa 12)\n<style=\"highlight\">- Nếu Cộng hưởng đó là Cộng hưởng Hoàn toàn từ 4 trở lên, nhận [ReloadLament] thay thế</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1602,7 +1602,7 @@
         {
           "level": 1,
           "name": "Thế nhưng, tùy vào mức độ cảm ứng và đồng bộ mà kẻ đó có thể sẽ bị nuốt chửng.",
-          "desc": "[StartBattle] Nhận 2 [GlowingLantern] (1 lần mỗi lượt)\n[WhenUse] Lượt kế tiếp nhận 6 [Aggro]\n[WhenUse] Nếu cấp độ [Burst] của mục tiêu là 15, số lượng từ 3 trở lên, không áp dụng số lượng [Burst] thông qua hiệu ứng kỹ năng này, thay vào đó Uy lực cơ bản +3",
+          "desc": "[StartBattle] Nhận 2 [GlowingLantern] (1 lần mỗi lượt)\n[WhenUse] Lượt kế tiếp nhận 6 [Aggro]\n[WhenUse] Nếu cấp độ [Burst] của mục tiêu là 15, số lượng [Burst] từ 3 trở lên, không áp dụng số lượng [Burst] thông qua hiệu ứng kỹ năng này, thay vào đó Uy lực cơ bản +3",
           "coinlist": [
             {
               "coindescs": [
@@ -1616,7 +1616,7 @@
         {
           "level": 4,
           "name": "Thế nhưng, tùy vào mức độ cảm ứng và đồng bộ mà kẻ đó có thể sẽ bị nuốt chửng.",
-          "desc": "[StartBattle] Nhận 3 [GlowingLantern] (1 lần mỗi lượt)\n[WhenUse] Lượt kế tiếp nhận 8 [Aggro]\n[WhenUse] Nếu cấp độ [Burst] của mục tiêu là 15, số lượng từ 3 trở lên, không áp dụng số lượng [Burst] thông qua hiệu ứng kỹ năng này, thay vào đó Uy lực cơ bản +3",
+          "desc": "[StartBattle] Nhận 3 [GlowingLantern] (1 lần mỗi lượt)\n[WhenUse] Lượt kế tiếp nhận 8 [Aggro]\n[WhenUse] Nếu cấp độ [Burst] của mục tiêu là 15, số lượng [Burst] từ 3 trở lên, không áp dụng số lượng [Burst] thông qua hiệu ứng kỹ năng này, thay vào đó Uy lực cơ bản +3",
           "coinlist": [
             {
               "coindescs": [
@@ -2098,7 +2098,7 @@
         {
           "level": 3,
           "name": "Xạ kích Điều chỉnh Mục tiêu",
-          "desc": "[StartBattle] Ưu tiên tấn công mục tiêu có Máu thấp nhất\n- Nếu bản thân có 7 [BoseProjektil], ưu tiên chỉ định mục tiêu chính là đồng minh\n[StartBattle] Với mỗi 3 [BoseProjektil], Tăng mục tiêu +1 (Tối đa 2)\n[WhenUse] Nếu [Breath] của bản thân từ 5 trở lên, Công suất Coin +1\n[WhenUse] Nếu số lần [Breath] của bản thân từ 3 trở lên, Công suất Cơ bản +1\n[WhenUse] Với mỗi 1 [BoseProjektil], nhận 1 [Breath] (Tối đa 7)\n[EndSkill] Giảm Tinh thần một lượng bằng ([BoseProjektil] × 2) (Giảm tối đa 14)\n[EndSkill] Khi bắt đầu trận chiến, nếu bản thân có 7 [BoseProjektil] thì tiêu hao toàn bộ\n- Nếu tiêu hao toàn bộ và đồng minh tử trận, hồi 20 Tinh thần cho bản thân",
+          "desc": "[StartBattle] Ưu tiên tấn công mục tiêu có Máu thấp nhất\n- Nếu bản thân có 7 [BoseProjektil], ưu tiên chỉ định mục tiêu chính là đồng minh\n[StartBattle] Với mỗi 3 [BoseProjektil], Tăng mục tiêu +1 (Tối đa 2)\n[WhenUse] Nếu [Breath] của bản thân từ 5 trở lên, Công suất Coin +1\n[WhenUse] Nếu số lần [Breath] của bản thân từ 3 trở lên, Công suất Cơ bản +1\n[WhenUse] Với mỗi 1 [BoseProjektil], nhận 1 [Breath] (Tối đa 7)\n[EndSkill] Giảm Tinh thần một lượng bằng ([BoseProjektil] × 2) (Giảm tối đa 14)\n[EndSkill] Khi bắt đầu trận chiến, nếu bản thân có 7 [BoseProjektil] thì tiêu hao toàn bộ\n- Nếu tiêu hao toàn bộ [BoseProjektil] và đồng minh tử trận, hồi 20 Tinh thần cho bản thân",
           "coinlist": [
             {
               "coindescs": [
@@ -2161,7 +2161,7 @@
         {
           "level": 4,
           "name": "Xạ kích Điều chỉnh Mục tiêu",
-          "desc": "[StartBattle] Ưu tiên tấn công mục tiêu có Máu thấp nhất\n- Nếu bản thân có 7 [BoseProjektil], ưu tiên chọn mục tiêu chính là đồng minh\n[StartBattle] Với mỗi 3 [BoseProjektil] của bản thân, Chỉ số cộng hưởng tấn công +1 (Tối đa 2)\n[WhenUse] Với mỗi 5 [Breath] <style=\"highlight\">của bản thân</style>, Sức mạnh đồng xu +1 <style=\"highlight\">(Tối đa 2)</style>\n[WhenUse] Với mỗi 3 số lượng [Breath] <style=\"highlight\">của bản thân</style>, Sức mạnh cơ bản +1 <style=\"highlight\">(Tối đa 2)</style>\n[WhenUse] Với mỗi 1 [BoseProjektil] của bản thân, nhận 1 [Breath] (Tối đa 7)\n[EndSkill] Tinh thần giảm đi một lượng bằng ([BoseProjektil] × 2) của bản thân (Giảm tối đa 14)\n[EndSkill] Khi bắt đầu trận đấu, nếu bản thân có 7 [BoseProjektil], tiêu hao tất cả\n- Nếu đồng minh tử trận sau khi tiêu hao tất cả, hồi 20 Tinh thần cho bản thân",
+          "desc": "[StartBattle] Ưu tiên tấn công mục tiêu có Máu thấp nhất\n- Nếu bản thân có 7 [BoseProjektil], ưu tiên chọn mục tiêu chính là đồng minh\n[StartBattle] Với mỗi 3 [BoseProjektil] của bản thân, Chỉ số cộng hưởng tấn công +1 (Tối đa 2)\n[WhenUse] <style=\"highlight\">Với mỗi 5 [Breath] của bản thân, Sức mạnh đồng xu +1 (Tối đa 2)</style>\n[WhenUse] <style=\"highlight\">Với mỗi 3 số lượng [Breath] của bản thân, Sức mạnh cơ bản +1 (Tối đa 2)</style>\n[WhenUse] Với mỗi 1 [BoseProjektil] của bản thân, nhận 1 [Breath] (Tối đa 7)\n[EndSkill] Tinh thần giảm đi một lượng bằng ([BoseProjektil] × 2) của bản thân (Giảm tối đa 14)\n[EndSkill] Khi bắt đầu trận đấu, nếu bản thân có 7 [BoseProjektil], tiêu hao tất cả\n- Nếu đồng minh tử trận sau khi tiêu hao tất cả [BoseProjektil], hồi 20 Tinh thần cho bản thân",
           "coinlist": [
             {
               "coindescs": [

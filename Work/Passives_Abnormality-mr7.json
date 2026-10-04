@@ -18,7 +18,7 @@
     {
       "id": 135503,
       "name": "Giải ấn",
-      "desc": "Khi kết thúc lượt, nếu [BlessingOfIndexPrescriptEnemy] là 3/6/9 hoặc Máu dưới 90%/70%/50%,\n- Nhận [UnlockBuff_1]/[UnlockBuff_2]/[UnlockBuff_3]\n- Tinh thần tăng lên 45\n- Tiêu thụ toàn bộ [PressureOfPrescript] đang có, hóa giải Choáng\n- Vào lượt kế tiếp sau khi nhận [UnlockBuff_Base] lần đầu, nhận 1 [BlessingOfIndexPrescriptEnemy]\n\nKhi nhận [UnlockBuff_Base] với điều kiện Máu,\n- Nhận [KarmaOfIndexStudent] bằng (Tinh thần tăng thêm ÷ 15)\n- Nếu [BlessingOfIndexPrescriptEnemy] thấp hơn 3/6/9, thay đổi thành 3/6/9\nMỗi 1 giá trị tăng thêm, nhận 1 [DefenseDown] và 2 [KarmaOfIndexStudent] vào đầu lượt kế tiếp."
+      "desc": "Khi kết thúc lượt, nếu [BlessingOfIndexPrescriptEnemy] là 3/6/9 hoặc Máu dưới 90%/70%/50%,\n- Nhận [UnlockBuff_1]/[UnlockBuff_2]/[UnlockBuff_3]\n- Tinh thần tăng lên 45\n- Tiêu thụ toàn bộ [PressureOfPrescript] đang có, hóa giải Choáng\n- Vào lượt kế tiếp sau khi nhận [UnlockBuff_Base] lần đầu, nhận 1 [BlessingOfIndexPrescriptEnemy]\n\nKhi nhận [UnlockBuff_Base] với điều kiện Máu,\n- Nhận [KarmaOfIndexStudent] bằng (Tinh thần tăng thêm ÷ 15)\n- Nếu đơn vị này có ít hơn 3/6/9 [BlessingOfIndexPrescriptEnemy], tăng [BlessingOfIndexPrescriptEnemy] lên 3/6/9; mỗi 1 [BlessingOfIndexPrescriptEnemy] tăng thêm, nhận 1 [DefenseDown] và 2 [KarmaOfIndexStudent] vào đầu lượt kế tiếp."
     },
     {
       "id": 135505,
@@ -162,7 +162,7 @@
     {
       "id": 138001,
       "name": "Đại huynh Chỉ Ngón tay Rien",
-      "desc": "<color=#ff6000><mark=#ff000040><b><u>Sát thương nhận vào từ Đòn đánh một chiều -50%</u></b></mark></color>\nSát thương nhận vào từ [Combustion]·[Laceration]·[Vibration]·[Burst]·[Sinking] -50%\nKhi hồi phục Tinh thần bằng [UnlockBuff_Base], nếu Tinh thần dưới 15, hồi phục Tinh thần lên 15\n\nKhi bắt đầu giai đoạn, nhận [BurningWoundRien_Mask] và hồi phục Tinh thần lên 30\n\nNếu Máu dưới 55%, chuyển đổi giai đoạn\n- Mọi hiệu ứng ngoại trừ hiệu ứng đặc hữu của bản thân sẽ biến mất\n- Nếu [StackRienSpecialSkill] dưới 9, thay đổi thành 9",
+      "desc": "<color=#ff6000><mark=#ff000040><b><u>Sát thương nhận vào từ Đòn đánh một chiều -50%</u></b></mark></color>\nSát thương nhận vào từ [Combustion]·[Laceration]·[Vibration]·[Burst]·[Sinking] -50%\nKhi hồi phục Tinh thần bằng [UnlockBuff_Base], nếu Tinh thần dưới 15, hồi phục Tinh thần lên 15\n\nKhi bắt đầu giai đoạn, nhận [BurningWoundRien_Mask] và hồi phục Tinh thần lên 30\n\nNếu Máu dưới 55%, chuyển đổi giai đoạn\n- Mọi hiệu ứng ngoại trừ hiệu ứng đặc hữu của bản thân sẽ biến mất\n- Nếu [StackRienSpecialSkill] dưới 9, thay đổi [StackRienSpecialSkill] thành 9",
       "flavor": "Như Chỉ thị đã nói, ta đã chờ đợi thời khắc đó.\nNgay cả sau khi con gái rời đi, ta vẫn chờ, chờ mãi.\n\nRồi một ngày nọ, liên lạc từ Limbus Company truyền đến, và cửa sau đã mở.\nKế đó thiết bị đầu cuối reo lên, ta biết đã đến lúc đi đón con gái mình."
     },
     {
@@ -186,7 +186,7 @@
     {
       "id": 138005,
       "name": "Giải ấn",
-      "desc": "Khi kết thúc lượt, nếu [BlessingOfIndexPrescriptEnemy] là 3/6/9 hoặc Máu dưới 95%/85%/75%,\nnhận [UnlockBuff_Rien1]/[UnlockBuff_Rien2]/[UnlockBuff_Rien3]\n\nKhi kết thúc lượt thứ 1/2, nếu cấp độ [UnlockBuff_Base] dưới 1/2\nnhận [UnlockBuff_Rien1]/[UnlockBuff_Rien2]\n\nKhi nhận lần đầu trong trạng thái không sở hữu [UnlockBuff_Base],\nnếu Tinh thần dưới 15, hồi phục lên 15\n\nKhi đạt [UnlockBuff_Base] bằng điều kiện Máu hoặc lượt,\n- Nếu [BlessingOfIndexPrescriptEnemy] dưới 3/6/9, thay đổi thành 3/6/9\nVới mỗi 1 giá trị tăng thêm, nhận 5 [KarmaOfIndexRien] vào đầu lượt kế tiếp",
+      "desc": "Khi kết thúc lượt, nếu [BlessingOfIndexPrescriptEnemy] là 3/6/9 hoặc Máu dưới 95%/85%/75%,\n- Nhận [UnlockBuff_Rien1]/[UnlockBuff_Rien2]/[UnlockBuff_Rien3]\n\nKhi kết thúc lượt thứ 1, nếu cấp độ [UnlockBuff_Base] dưới 1, nhận [UnlockBuff_Rien1]\nKhi kết thúc lượt thứ 2, nếu cấp độ [UnlockBuff_Base] dưới 2, nhận [UnlockBuff_Rien2]\n\nKhi nhận [UnlockBuff_Base] lần đầu, nếu Tinh thần dưới 15, hồi phục lên 15\n\nKhi đạt [UnlockBuff_Base] bằng điều kiện Máu hoặc lượt:\n- Nếu [BlessingOfIndexPrescriptEnemy] dưới 3/6/9, thay đổi thành 3/6/9; với mỗi 1 giá trị tăng thêm, nhận 5 [KarmaOfIndexRien] vào đầu lượt kế tiếp",
       "flavor": "「Nếu cứ tiến bước theo Chỉ thị, những thứ đang khép kín rồi sẽ được giải mở thôi.」"
     },
     {

@@ -593,7 +593,7 @@
                   "desc": "Sát thương Chí mạng +100%"
                 },
                 {
-                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Tiêu thụ toàn bộ [PhantomIncision]</u></b></mark></color> của mục tiêu, gây sát thương Máu bằng (Giá trị tiêu thụ)% Máu tối đa của mỗi mục tiêu"
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Tiêu thụ toàn bộ [PhantomIncision]</u></b></mark></color> của mục tiêu, gây sát thương Máu bằng (Giá trị [PhantomIncision] tiêu thụ)% Máu tối đa của mỗi mục tiêu"
                 }
               ]
             }
@@ -657,7 +657,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Tiêu hao toàn bộ [PhantomIncision]</u></b></mark></color> trên mục tiêu, gây sát thương HP bằng (Giá trị tiêu hao)% HP tối đa của mục tiêu"
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Tiêu hao toàn bộ [PhantomIncision]</u></b></mark></color> trên mục tiêu, gây sát thương HP bằng (Giá trị [PhantomIncision] tiêu hao)% HP tối đa của mục tiêu"
                 }
               ]
             }
@@ -683,7 +683,7 @@
                   "desc": "Sát thương Chí mạng +100%"
                 },
                 {
-                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Tiêu hao toàn bộ [PhantomIncision]</u></b></mark></color> trên mục tiêu, gây sát thương HP bằng (Giá trị tiêu hao)% HP tối đa của mỗi mục tiêu"
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Tiêu hao toàn bộ [PhantomIncision]</u></b></mark></color> trên mục tiêu, gây sát thương HP bằng (Giá trị [PhantomIncision] tiêu hao)% HP tối đa của mỗi mục tiêu"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Nhận 1 [Breath]"
@@ -1042,7 +1042,7 @@
         {
           "level": 1,
           "name": "Rễ Đố Kị",
-          "desc": "Kĩ năng này không gây sát thương\n[WhenUse] Tiêu hao tất cả [HowDareYouApple] của bản thân, dùng lại Đồng xu bằng với số lượng đã tiêu hao (Tối đa 4 lần)\n[DefeatDuel] Hiệu ứng [Burst] không kích hoạt trong kĩ năng này",
+          "desc": "Kĩ năng này không gây sát thương\n[WhenUse] Tiêu hao tất cả [HowDareYouApple] của bản thân, dùng lại Đồng xu bằng với số lượng [HowDareYouApple] đã tiêu hao (Tối đa 4 lần)\n[DefeatDuel] Hiệu ứng [Burst] không kích hoạt trong kĩ năng này",
           "coinlist": [
             {
               "coindescs": [

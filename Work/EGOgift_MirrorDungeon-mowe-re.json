@@ -3,7 +3,7 @@
     {
       "id": 9840,
       "name": "Mũ cấp bởi công ty W",
-      "desc": "Khi kết thúc sử dụng kỹ năng nhận số lượng [Charge] hoặc Sạc đặc biệt, nhận [EmergencyChargeForceField] bằng với trị số đã nhận (Tối đa 7 mỗi Bản sắc)",
+      "desc": "Khi kết thúc sử dụng kỹ năng nhận số lượng [Charge] hoặc <noparse>Sạc đặc biệt</noparse>, nhận [EmergencyChargeForceField] bằng với trị số đã nhận (Tối đa 7 mỗi Bản sắc)",
       "simpleDesc": [
         {
           "abilityID": 9840,
@@ -14,7 +14,7 @@
     {
       "id": 9841,
       "name": "Bộ trang bị nhân viên dọn dẹp loại C",
-      "desc": "Khi kết thúc sử dụng kỹ năng nhận số lượng [Charge] hoặc Sạc đặc biệt, nhận [EmergencyChargeForceField] bằng với trị số đã nhận (Tối đa 7 mỗi Bản sắc)\n\nSát thương của kỹ năng tiêu hao số lượng [Charge] hoặc Sạc đặc biệt + (Số lượng Bản sắc sở hữu kỹ năng nhận/tiêu hao số lượng [Charge] hoặc Sạc đặc biệt trong đội hình)% (Bao gồm cả thành viên dự bị)\n\nKỹ năng 1 nhận/tiêu hao số lượng [Charge] hoặc Sạc đặc biệt: Uy lực Hòa +3, Sát thương +15%\n- Khi sử dụng kỹ năng tương ứng, nhận 4 số lượng [Charge], 1 [ChargeForceField] (1 lần mỗi lượt cho mỗi Bản sắc)\n\nNếu là Bản sắc thuộc Công ty W, áp dụng các hiệu quả sau:\n- Nếu gây sát thương lên kẻ địch bằng kỹ năng (Bao gồm kỹ năng E.G.O), gây 2 [TakeHpHealReduce] (Không cộng dồn)\n- Trong chiến đấu, nếu nhận sát thương HP bởi các hiệu quả trừ sát thương trực tiếp từ kỹ năng, nhận 5 [ChargeForceField] (1 lần mỗi lượt cho mỗi Bản sắc)\n- Kỹ năng 2: Uy lực Hòa +3, Sát thương +15%\n- Khi bắt đầu lượt, trong lượt này sát thương kỹ năng 3 + (Số lượng Bản sắc thuộc Công ty W tham gia chiến đấu × 6.25)%\n- Khi bắt đầu lượt, gây 1 [PlusCoinValueUp] cho Nhân viên cấp 2 Công ty W\n- Khi bắt đầu lượt, nhận (Số lượng Bản sắc thuộc Công ty W tham gia chiến đấu ÷ 3) [ChargeLoad] (Tối đa 2, làm tròn xuống)",
+      "desc": "Khi kết thúc sử dụng kỹ năng nhận số lượng [Charge] hoặc <noparse>Sạc đặc biệt</noparse>, nhận [EmergencyChargeForceField] bằng với trị số đã nhận (Tối đa 7 mỗi Bản sắc)\n\nSát thương của kỹ năng tiêu hao số lượng [Charge] hoặc <noparse>Sạc đặc biệt</noparse> + (Số lượng Bản sắc sở hữu kỹ năng nhận/tiêu hao số lượng [Charge] hoặc <noparse>Sạc đặc biệt</noparse> trong đội hình)% (Bao gồm cả thành viên dự bị)\n\nKỹ năng 1 nhận/tiêu hao số lượng [Charge] hoặc <noparse>Sạc đặc biệt</noparse>: Uy lực Hòa +3, Sát thương +15%\n- Khi sử dụng kỹ năng tương ứng, nhận 4 số lượng [Charge], 1 [ChargeForceField] (1 lần mỗi lượt cho mỗi Bản sắc)\n\nNếu là Bản sắc thuộc Công ty W, áp dụng các hiệu quả sau:\n- Nếu gây sát thương lên kẻ địch bằng kỹ năng (Bao gồm kỹ năng E.G.O), gây 2 [TakeHpHealReduce] (Không cộng dồn)\n- Trong chiến đấu, nếu nhận sát thương HP bởi các hiệu quả trừ sát thương trực tiếp từ kỹ năng, nhận 5 [ChargeForceField] (1 lần mỗi lượt cho mỗi Bản sắc)\n- Kỹ năng 2: Uy lực Hòa +3, Sát thương +15%\n- Khi bắt đầu lượt, trong lượt này sát thương kỹ năng 3 + (Số lượng Bản sắc thuộc Công ty W tham gia chiến đấu × 6.25)%\n- Khi bắt đầu lượt, gây 1 [PlusCoinValueUp] cho Nhân viên cấp 2 Công ty W\n- Khi bắt đầu lượt, nhận (Số lượng Bản sắc thuộc Công ty W tham gia chiến đấu ÷ 3) [ChargeLoad] (Tối đa 2, làm tròn xuống)\n\nTrong số các Bản sắc gây [DimensionRift] bằng kỹ năng cơ bản, tính 1 Bản sắc không thuộc Công ty W có thứ tự xuất kích sớm nhất là Bản sắc thuộc Công ty W",
       "simpleDesc": [
         {
           "abilityID": 9841,
@@ -102,7 +102,7 @@
     {
       "id": 9206,
       "name": "Hương máu tìm đến",
-      "desc": "Trước khi bắt đầu chiến đấu, khi đồng minh có HP thấp nhất đánh trúng bằng kỹ năng tấn công gây [Laceration] hoặc Xuất huyết đặc biệt, hồi 3% HP tối đa (2 lần mỗi lượt)\n\nKhi thực hiện Hòa bằng kỹ năng gây [Laceration] hoặc Xuất huyết đặc biệt với kẻ địch đang có [Laceration] hoặc Xuất huyết đặc biệt, Uy lực Hòa +1\n- Nếu có từ 5 Bản sắc trở lên sở hữu kỹ năng tấn công gây [Laceration] hoặc Xuất huyết đặc biệt trong đội hình, thay vào đó Uy lực Hòa +1, Sát thương +10% (Bao gồm cả thành viên dự bị)\n- Nếu có từ 10 Bản sắc trở lên, thay vào đó Uy lực Hòa +2, Sát thương +15%",
+      "desc": "Trước khi bắt đầu chiến đấu, khi đồng minh có HP thấp nhất đánh trúng bằng kỹ năng tấn công gây [Laceration] hoặc <noparse>Xuất huyết đặc biệt</noparse>, hồi 3% HP tối đa (2 lần mỗi lượt)\n\nKhi thực hiện Hòa bằng kỹ năng gây [Laceration] hoặc <noparse>Xuất huyết đặc biệt</noparse> với kẻ địch đang có [Laceration] hoặc <noparse>Xuất huyết đặc biệt</noparse>, Uy lực Hòa +1\n- Nếu có từ 5 Bản sắc trở lên sở hữu kỹ năng tấn công gây [Laceration] hoặc <noparse>Xuất huyết đặc biệt</noparse> trong đội hình, thay vào đó Uy lực Hòa +1, Sát thương +10% (Bao gồm cả thành viên dự bị)\n- Nếu có từ 10 Bản sắc trở lên, thay vào đó Uy lực Hòa +2, Sát thương +15%",
       "simpleDesc": [
         {
           "abilityID": 9206,
@@ -117,7 +117,7 @@
     {
       "id": 9818,
       "name": "Găng tay không gian còn sót lại",
-      "desc": "Nếu gây sát thương lên kẻ địch bằng kỹ năng tiêu hao số lượng [Charge] hoặc Sạc đặc biệt, trong lượt này, tăng giá trị thấp nhất trong số các kháng vật lý của kẻ đó thêm +0.1 (1 lần mỗi lượt)",
+      "desc": "Nếu gây sát thương lên kẻ địch bằng kỹ năng tiêu hao số lượng [Charge] hoặc <noparse>Sạc đặc biệt</noparse>, trong lượt này, tăng giá trị thấp nhất trong số các kháng vật lý của kẻ đó thêm +0.1 (1 lần mỗi lượt)",
       "simpleDesc": [
         {
           "abilityID": 9818,
@@ -128,7 +128,7 @@
     {
       "id": 19818,
       "name": "Găng tay không gian còn sót lại+",
-      "desc": "Nếu gây sát thương lên kẻ địch bằng kỹ năng tiêu hao số lượng [Charge] hoặc Sạc đặc biệt, trong lượt này, tăng giá trị thấp nhất trong số các kháng vật lý của kẻ đó thêm +0.1 (1 lần mỗi lượt)\n<style=\"upgradeHighlight\">- Gây thêm 1 [VioletResistDown]</style>",
+      "desc": "Nếu gây sát thương lên kẻ địch bằng kỹ năng tiêu hao số lượng [Charge] hoặc <noparse>Sạc đặc biệt</noparse>, trong lượt này, tăng giá trị thấp nhất trong số các kháng vật lý của kẻ đó thêm +0.1 (1 lần mỗi lượt)\n<style=\"upgradeHighlight\">- Gây thêm 1 [VioletResistDown]</style>",
       "simpleDesc": [
         {
           "abilityID": 19818,
@@ -139,7 +139,7 @@
     {
       "id": 29818,
       "name": "Găng tay không gian còn sót lại++",
-      "desc": "Nếu gây sát thương lên kẻ địch bằng kỹ năng tiêu hao số lượng [Charge] hoặc Sạc đặc biệt, trong lượt này, tăng giá trị thấp nhất trong số các kháng vật lý của kẻ đó thêm +0.1 (2 lần mỗi lượt)\n- Gây thêm 1 [VioletResistDown], <style=\"upgradeHighlight\">1 [AzureResistDown]</style>",
+      "desc": "Nếu gây sát thương lên kẻ địch bằng kỹ năng tiêu hao số lượng [Charge] hoặc <noparse>Sạc đặc biệt</noparse>, trong lượt này, tăng giá trị thấp nhất trong số các kháng vật lý của kẻ đó thêm +0.1 (<style=\"upgradeHighlight\">2</style> lần mỗi lượt)\n- Gây thêm 1 [VioletResistDown], <style=\"upgradeHighlight\">1 [AzureResistDown]</style>",
       "simpleDesc": [
         {
           "abilityID": 29818,
@@ -150,7 +150,7 @@
     {
       "id": 9817,
       "name": "Mảnh sao xanh",
-      "desc": "Sức mạnh kỹ năng cuối cùng của kẻ địch trong trạng thái Giảm Ý Chí hoặc Hoảng Loạn -1 (Với kẻ địch không có Tinh thần, kích hoạt khi số lượng [Sinking] từ 25 trở lên)\n- Khi gây sát thương lên kẻ địch đó bằng kỹ năng gây [Sinking] số lượng, [Sinking] số lần hoặc Trầm luân đặc biệt, gây [DefenseDown] 2 (Tối đa 2 lần mỗi lượt)",
+      "desc": "Sức mạnh kỹ năng cuối cùng của kẻ địch trong trạng thái Giảm Ý Chí hoặc Hoảng Loạn -1 (Với kẻ địch không có Tinh thần, kích hoạt khi số lượng [Sinking] từ 25 trở lên)\n- Khi gây sát thương lên kẻ địch đó bằng kỹ năng gây [Sinking] số lượng, [Sinking] số lần hoặc <noparse>Trầm luân đặc biệt</noparse>, gây [DefenseDown] 2 (Tối đa 2 lần mỗi lượt)",
       "simpleDesc": [
         {
           "abilityID": 9817,
@@ -161,7 +161,7 @@
     {
       "id": 19817,
       "name": "Mảnh Sao Xanh+",
-      "desc": "Sức mạnh kỹ năng cuối cùng của kẻ địch trong trạng thái Giảm Ý Chí hoặc Hoảng Loạn <style=\"upgradeHighlight\">-2</style> (Với kẻ địch không có Tinh thần, kích hoạt khi số lượng [Sinking] từ <style=\"upgradeHighlight\">15</style> trở lên)\n- Khi gây sát thương lên kẻ địch đó bằng kỹ năng gây [Sinking] số lượng, [Sinking] số lần hoặc Trầm luân đặc biệt, gây [DefenseDown] <style=\"upgradeHighlight\">3</style> (Tối đa 2 lần mỗi lượt)",
+      "desc": "Sức mạnh kỹ năng cuối cùng của kẻ địch trong trạng thái Giảm Ý Chí hoặc Hoảng Loạn <style=\"upgradeHighlight\">-2</style> (Với kẻ địch không có Tinh thần, kích hoạt khi số lượng [Sinking] từ <style=\"upgradeHighlight\">15</style> trở lên)\n- Khi gây sát thương lên kẻ địch đó bằng kỹ năng gây [Sinking] số lượng, [Sinking] số lần hoặc <noparse>Trầm luân đặc biệt</noparse>, gây [DefenseDown] <style=\"upgradeHighlight\">3</style> (Tối đa 2 lần mỗi lượt)",
       "simpleDesc": [
         {
           "abilityID": 19817,
@@ -172,7 +172,7 @@
     {
       "id": 29817,
       "name": "Mảnh Sao Xanh++",
-      "desc": "Sức mạnh kỹ năng cuối cùng của kẻ địch trong trạng thái Giảm Ý Chí hoặc Hoảng Loạn <style=\"upgradeHighlight\">-3</style> (Với kẻ địch không có Tinh thần, kích hoạt khi số lượng [Sinking] từ <style=\"upgradeHighlight\">10</style> trở lên)\n- Khi gây sát thương lên kẻ địch đó bằng kỹ năng gây [Sinking] số lượng, [Sinking] số lần hoặc Trầm luân đặc biệt, gây [DefenseDown] 3 (Tối đa <style=\"upgradeHighlight\">3</style> lần mỗi lượt)",
+      "desc": "Sức mạnh kỹ năng cuối cùng của kẻ địch trong trạng thái Giảm Ý Chí hoặc Hoảng Loạn <style=\"upgradeHighlight\">-3</style> (Với kẻ địch không có Tinh thần, kích hoạt khi số lượng [Sinking] từ <style=\"upgradeHighlight\">10</style> trở lên)\n- Khi gây sát thương lên kẻ địch đó bằng kỹ năng gây [Sinking] số lượng, [Sinking] số lần hoặc <noparse>Trầm luân đặc biệt</noparse>, gây [DefenseDown] 3 (Tối đa <style=\"upgradeHighlight\">3</style> lần mỗi lượt)",
       "simpleDesc": [
         {
           "abilityID": 29817,

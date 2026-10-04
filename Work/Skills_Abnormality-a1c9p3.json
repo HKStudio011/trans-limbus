@@ -496,7 +496,7 @@
         {
           "level": 1,
           "name": "Giai điệu Xương chày - Thứ đã bị giải thể giải thể thứ chưa bị giải thể",
-          "desc": "Vào lượt trang bị kĩ năng này, <color=#ff6000><mark=#ff000040><b><u>khi nhận sát thương bởi kĩ năng tấn công</u></b></mark></color>, nhận [PlusCoinValueDown] 1 và [ResultReduction] 1 (1 lần mỗi kĩ năng, tối đa 3 lần mỗi lượt)\nKhông thể rơi vào trạng thái Hoảng loạn cho đến khi sử dụng kĩ năng này\nMỗi khi tiêu diệt 1 mục tiêu bằng kĩ năng này, hồi phục 15 Điểm Tinh thần\n[StartBattle] Nhận [Protection] 4\n[WhenUse] Mỗi tổng 6 [Laceration] của mục tiêu chính và mục tiêu phụ, Lượng sát thương +3% (Tối đa 30%)\n[DefeatDuel] Lượng sát thương giảm 60%, sát thương của kĩ năng này không khiến mục tiêu Hoảng loạn\n[EndSkill] [MineTheRings] biến mất",
+          "desc": "Vào lượt trang bị kĩ năng này, <color=#ff6000><mark=#ff000040><b><u>khi nhận sát thương bởi kĩ năng tấn công</u></b></mark></color>, nhận [PlusCoinValueDown] 1 và [ResultReduction] 1 (1 lần mỗi kĩ năng, tối đa 3 lần mỗi lượt)\nKhông thể rơi vào trạng thái Hoảng loạn cho đến khi sử dụng kĩ năng này\nMỗi khi tiêu diệt 1 mục tiêu bằng kĩ năng này, hồi phục 15 Điểm Tinh thần\n[StartBattle] Nhận [Protection] 4\n[WhenUse] Mỗi tổng 6 ([Laceration] của mục tiêu chính + [Laceration] của mục tiêu phụ), Lượng sát thương +3% (Tối đa 30%)\n[DefeatDuel] Lượng sát thương giảm 60%, sát thương của kĩ năng này không khiến mục tiêu Hoảng loạn\n[EndSkill] [MineTheRings] biến mất",
           "coinlist": [
             {
               "coindescs": [
@@ -794,7 +794,7 @@
         {
           "level": 1,
           "name": "Giải Phóng Xác Thịt Bị Kìm Nén",
-          "desc": "Trong lượt trang bị kỹ năng này, <color=#ff6000><mark=#ff000040><b><u>khi nhận sát thương bởi kỹ năng tấn công</u></b></mark></color>, nhận [PlusCoinValueDown] 1, [ResultReduction] 1 (1 lần mỗi kỹ năng, tối đa 3 lần mỗi lượt)\nKhông rơi vào trạng thái Hoảng loạn cho đến khi sử dụng kỹ năng này\nVới mỗi đối tượng bị tiêu diệt bởi kỹ năng này, hồi phục 15 Tinh thần\n[StartBattle] Nhận [Protection] 4\n[WhenUse] Với mỗi 6 tổng [Laceration] của mục tiêu chính và mục tiêu phụ, Sát thương +3% (Tối đa 30%)\n[DefeatDuel] Lượng sát thương giảm 60%, và đối tượng không bị Hoảng loạn bởi sát thương của kỹ năng này\n[EndSkill] [BoneBladeTheRings] biến mất",
+          "desc": "Trong lượt trang bị kỹ năng này, <color=#ff6000><mark=#ff000040><b><u>khi nhận sát thương bởi kỹ năng tấn công</u></b></mark></color>, nhận [PlusCoinValueDown] 1, [ResultReduction] 1 (1 lần mỗi kỹ năng, tối đa 3 lần mỗi lượt)\nKhông rơi vào trạng thái Hoảng loạn cho đến khi sử dụng kỹ năng này\nVới mỗi đối tượng bị tiêu diệt bởi kỹ năng này, hồi phục 15 Tinh thần\n[StartBattle] Nhận [Protection] 4\n[WhenUse] Với mỗi 6 ([Laceration] trên mục tiêu chính + [Laceration] trên mục tiêu phụ), Sát thương +3% (Tối đa 30%)\n[DefeatDuel] Lượng sát thương giảm 60%, và đối tượng không bị Hoảng loạn bởi sát thương của kỹ năng này\n[EndSkill] [BoneBladeTheRings] biến mất",
           "coinlist": [
             {
               "coindescs": [
@@ -2489,7 +2489,7 @@
         {
           "level": 1,
           "name": "Giai điệu Xương chày - Thứ bị giải phẫu giải phẫu thứ chưa bị giải phẫu",
-          "desc": "[CantChangeTarget]\nKhi <color=#ff6000><mark=#ff000040><b><u>nhận sát thương từ kĩ năng tấn công</u></b></mark></color> trong lượt kĩ năng này được thiết lập, nhận 1 [PlusCoinValueDown], 1 [ResultReduction] (1 lần mỗi kĩ năng, tối đa 3 lần mỗi lượt)\nKhông rơi vào trạng thái Hoảng loạn cho đến khi sử dụng kĩ năng này\nVới mỗi mục tiêu bị tiêu diệt bởi kĩ năng này, hồi 15 Tinh thần\n[StartBattle] Nhận 4 [Protection]\n[WhenUse] Với mỗi 6 tổng [Laceration] trên mục tiêu chính và mục tiêu phụ, Sát thương +3% (Tối đa 30%)\n[DefeatDuel] Sát thương giảm 60%, mục tiêu không bị Hoảng loạn bởi sát thương của kĩ năng này\n[DefeatDuel] [MineTheRings] biến mất\n[EndSkill] [MineTheRings] biến mất",
+          "desc": "[CantChangeTarget]\nKhi <color=#ff6000><mark=#ff000040><b><u>nhận sát thương từ kĩ năng tấn công</u></b></mark></color> trong lượt kĩ năng này được thiết lập, nhận 1 [PlusCoinValueDown], 1 [ResultReduction] (1 lần mỗi kĩ năng, tối đa 3 lần mỗi lượt)\nKhông rơi vào trạng thái Hoảng loạn cho đến khi sử dụng kĩ năng này\nVới mỗi mục tiêu bị tiêu diệt bởi kĩ năng này, hồi 15 Tinh thần\n[StartBattle] Nhận 4 [Protection]\n[WhenUse] Với mỗi 6 ([Laceration] trên mục tiêu chính + [Laceration] trên mục tiêu phụ), Sát thương +3% (Tối đa 30%)\n[DefeatDuel] Sát thương giảm 60%, mục tiêu không bị Hoảng loạn bởi sát thương của kĩ năng này\n[DefeatDuel] [MineTheRings] biến mất\n[EndSkill] [MineTheRings] biến mất",
           "coinlist": [
             {
               "coindescs": [
@@ -2572,7 +2572,7 @@
         {
           "level": 1,
           "name": "Giải phóng Thân xác bị Áp chế",
-          "desc": "[CantChangeTarget]\nKhi <color=#ff6000><mark=#ff000040><b><u>nhận sát thương từ kĩ năng tấn công</u></b></mark></color> trong lượt kĩ năng này được thiết lập, nhận 1 [PlusCoinValueDown], 1 [ResultReduction] (1 lần mỗi kĩ năng, tối đa 3 lần mỗi lượt)\nKhông rơi vào trạng thái Hoảng loạn cho đến khi sử dụng kĩ năng này\nVới mỗi mục tiêu bị tiêu diệt bởi kĩ năng này, hồi 15 Tinh thần\n[StartBattle] Nhận 4 [Protection]\n[WhenUse] Với mỗi 6 tổng [Laceration] trên mục tiêu chính và mục tiêu phụ, Sát thương +3% (Tối đa 30%)\n[DefeatDuel] Sát thương giảm 60%, mục tiêu không bị Hoảng loạn bởi sát thương của kĩ năng này\n[DefeatDuel] [BoneBladeTheRings] biến mất\n[EndSkill] [BoneBladeTheRings] biến mất",
+          "desc": "[CantChangeTarget]\nKhi <color=#ff6000><mark=#ff000040><b><u>nhận sát thương từ kĩ năng tấn công</u></b></mark></color> trong lượt kĩ năng này được thiết lập, nhận 1 [PlusCoinValueDown], 1 [ResultReduction] (1 lần mỗi kĩ năng, tối đa 3 lần mỗi lượt)\nKhông rơi vào trạng thái Hoảng loạn cho đến khi sử dụng kĩ năng này\nVới mỗi mục tiêu bị tiêu diệt bởi kĩ năng này, hồi 15 Tinh thần\n[StartBattle] Nhận 4 [Protection]\n[WhenUse] Với mỗi 6 ([Laceration] trên mục tiêu chính + [Laceration] trên mục tiêu phụ), Sát thương +3% (Tối đa 30%)\n[DefeatDuel] Sát thương giảm 60%, mục tiêu không bị Hoảng loạn bởi sát thương của kĩ năng này\n[DefeatDuel] [BoneBladeTheRings] biến mất\n[EndSkill] [BoneBladeTheRings] biến mất",
           "coinlist": [
             {
               "coindescs": [
@@ -2644,7 +2644,7 @@
                   "desc": "Sát thương chí mạng +100%"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Tiêu hao toàn bộ <color=#ff6000><mark=#ff000040><b><u>[PhantomIncision] của đối tượng</u></b></mark></color>, gây sát thương HP tương đương (giá trị tiêu hao)% Máu tối đa của mỗi người nhận sát thương"
+                  "desc": "[OnSucceedAttack] Tiêu hao toàn bộ <color=#ff6000><mark=#ff000040><b><u>[PhantomIncision] của đối tượng</u></b></mark></color>, gây sát thương HP tương đương (giá trị [PhantomIncision] tiêu hao)% Máu tối đa của mỗi người nhận sát thương"
                 }
               ]
             }
@@ -3897,7 +3897,7 @@
         {
           "level": 1,
           "name": "Con gái, con còn nhớ không? Chắc chắn chỉ có con mới có thể thấu nhận được điều này.",
-          "desc": "<color=#ff6000><mark=#ff000040><b><u>Đối tượng không phải Ryoshu không thể đấu đối kháng\n- Ryoshu có thể đấu đối kháng với kĩ năng này bất kể tốc độ</u></b></mark></color>\nKhi tấn công một chiều, Uy lực đồng xu +2, Sát thương +50%\n[DefeatDuel]\n- Uy lực đồng xu -2, Sát thương -50%\n- Sát thương của kĩ năng này không gây Hoảng loạn cho mục tiêu, và khi trúng đích hiệu ứng [Sinking] của mục tiêu không kích hoạt\n[EndBattle] <color=#ff6000><mark=#ff000040><b><u>Nếu thua đấu đối kháng, nhận 1 [BurningWoundRien]</u></b></mark></color>\n- Nếu cả 3 loại kĩ năng có hiệu ứng đặc biệt liên quan đến [BlackNightmare] đều thua đấu đối kháng trong lượt này, nhận 2 thay thế",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>Đối tượng không phải Ryoshu không thể đấu đối kháng</u></b></mark></color>\n- Ryoshu có thể đấu đối kháng với kĩ năng này bất kể tốc độ\nKhi tấn công một chiều, Uy lực đồng xu +2, Sát thương +50%\n\n[DefeatDuel]\n- Uy lực đồng xu -2, Sát thương -50%\n- Sát thương của kĩ năng này không gây Hoảng loạn cho mục tiêu, và khi trúng đích hiệu ứng [Sinking] của mục tiêu không kích hoạt\n\n[EndBattle] <color=#ff6000><mark=#ff000040><b><u>Nếu thua đấu đối kháng, nhận 1 [BurningWoundRien]</u></b></mark></color>\n- Nếu cả 3 loại kĩ năng có hiệu ứng đặc biệt liên quan đến [BlackNightmare] đều thua đấu đối kháng trong lượt này, nhận 2 [BurningWoundRien] thay thế",
           "coinlist": [
             {
               "coindescs": [

@@ -304,7 +304,7 @@
         {
           "level": 1,
           "name": "Don Quixote Á lưu Sancho Thức 4 - Truy đuổi",
-          "desc": "Ưu tiên tấn công mục tiêu có [Laceration] nhiều nhất\n[BeforeAttack] Mỗi 10 [BloodArmor] của bản thân, Chỉ số Mục tiêu tấn công +1 (Tối đa 3)\n[WhenUse] Mỗi 5 [Laceration] trên mục tiêu, Sức mạnh Đối kháng +1 (Tối đa 3)\n[WhenUse] Tiêu hao tối đa 30 [BloodDinner], mỗi 15 [BloodDinner] tiêu hao nhận 1 [BloodArmor]. Sức mạnh Đồng xu +1 (Tối đa 2)\n- Nếu không thể tiêu hao [BloodDinner], nhận 10 [Laceration] để kích hoạt.\nSố lượt [Laceration] giảm 1\n[EndSkill] Tăng [BloodDinner] dựa theo lượng sát thương mà Kĩ năng này gây ra",
+          "desc": "Ưu tiên tấn công mục tiêu có [Laceration] nhiều nhất\n[BeforeAttack] Mỗi 10 [BloodArmor] của bản thân, Chỉ số Mục tiêu tấn công +1 (Tối đa 3)\n[WhenUse] Mỗi 5 [Laceration] trên mục tiêu, Sức mạnh Đối kháng +1 (Tối đa 3)\n[WhenUse] Tiêu hao tối đa 30 [BloodDinner], mỗi 15 [BloodDinner] tiêu hao nhận 1 [BloodArmor]. Sức mạnh Đồng xu +1 (Tối đa 2)\n- Nếu không thể tiêu hao [BloodDinner], nhận 10 [Laceration] và kích hoạt [Laceration] ngay lập tức. Số [Laceration] giảm 1\n[EndSkill] Tăng [BloodDinner] dựa theo lượng sát thương mà Kĩ năng này gây ra",
           "coinlist": [
             {
               "coindescs": [
@@ -330,7 +330,7 @@
         {
           "level": 1,
           "name": "Don Quixote Á lưu Sancho Thức 3 - Kích tập",
-          "desc": "Ưu tiên tấn công mục tiêu có nhiều [Laceration] nhất\n[BeforeAttack] Mỗi 5 [Laceration] của mục tiêu, Trọng kích +1 (Tối đa 2)\n[WhenUse] Mỗi 5 [Laceration] của mục tiêu, Uy lực Hòa kích +1 (Tối đa 3)\n[WhenUse] Tiêu hao tối đa 30 [BloodDinner], mỗi 15 [BloodDinner] tiêu hao Nhận 1 [BloodArmor]. Uy lực Đồng xu +1 (Tối đa 2)\n- Nếu không thể tiêu hao [BloodDinner], Nhận 10 [Laceration] rồi kích hoạt.\n[Laceration] Số lượng giảm 1\n[EndSkill] [BloodDinner] tăng bằng lượng Sát thương gây ra bởi kỹ năng này",
+          "desc": "Ưu tiên tấn công mục tiêu có nhiều [Laceration] nhất\n[BeforeAttack] Mỗi 10 [BloodArmor] của bản thân, Trọng kích +1 (Tối đa 2)\n[WhenUse] Mỗi 5 [Laceration] của mục tiêu, Uy lực Hòa kích +1 (Tối đa 3)\n[WhenUse] Tiêu hao tối đa 30 [BloodDinner], mỗi 15 [BloodDinner] tiêu hao Nhận 1 [BloodArmor]. Uy lực Đồng xu +1 (Tối đa 2)\n- Nếu không thể tiêu hao [BloodDinner], Nhận 10 [Laceration] rồi kích hoạt [Laceration]. [Laceration] Số lượng giảm 1\n[EndSkill] [BloodDinner] tăng bằng lượng Sát thương gây ra bởi kỹ năng này",
           "coinlist": [
             {
               "coindescs": [
@@ -514,7 +514,7 @@
                   "desc": "[WinDuelAttack] Gây 5 Cấp [Vibration], [Vibration] Số lượng tăng 3"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] 2 lần [VibrationExplosion]. Khi mục tiêu bị [VibrationExplosion], [Vibration] Số lượng của mục tiêu giảm 1 (Nếu thắng Hòa kích, vô hiệu hóa hiệu ứng giảm 1 lần)"
+                  "desc": "[CriticalOnSucceedAttack] 2 lần [VibrationExplosion]. Khi mục tiêu bị [VibrationExplosion], [Vibration] Số lượng của mục tiêu giảm 1 (Nếu thắng Hòa kích, vô hiệu hóa 1 lần giảm [Vibration] Số lượng)"
                 }
               ]
             }
@@ -542,7 +542,7 @@
                   "desc": "Nếu đã nhận Sát thương máu ở lượt trước, không kích hoạt đánh Chí mạng và Sát thương gây ra giảm 80%"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] 3 lần [VibrationExplosion]. Khi mục tiêu bị [VibrationExplosion], mỗi lần [VibrationExplosion] [Vibration] Số lượng của mục tiêu giảm 3 (Giảm tối đa 9)"
+                  "desc": "[CriticalOnSucceedAttack] 3 lần [VibrationExplosion]. Khi mục tiêu bị [VibrationExplosion], [Vibration] Số lượng của mục tiêu giảm 3 (Giảm tối đa 9 [Vibration] Số lượng)"
                 }
               ]
             }
