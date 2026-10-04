@@ -2315,7 +2315,7 @@
       "id": 1061301,
       "name": "Chấp nhận cả dòng máu bẩn thỉu, thực hiện ý nguyện khi đang nhuốm máu ai đó.",
       "desc": "Khi bắt đầu chiến đấu, nếu bản thân bị Tấn công một chiều mà không trang bị [TabExplain] Phòng thủ, ban 1 [HeishouSupportProtect] cho (Số Cộng hưởng tối đa ÷ 3) đồng minh Hắc Thú ngẫu nhiên có chỉ số [SupportProtect] thấp nhất (Tối đa 2 người, mỗi Bản sắc 1 lần. Ngoại trừ các Bản sắc sở hữu [Skill] nhận [SupportProtect]).\n\nKhi nhận sát thương khiến máu về 0 trong trận chiến này, không nhận sát thương đó, duy trì máu ở mức 1 trong 1 lượt và nhận 1 [CondensedBlood] (1 lần mỗi trận).\n\nMỗi 1 [CondensedBlood] của bản thân, Lượng sát thương [Skill] +3%.\n\nKhi kích hoạt [Skill] E.G.O 「Ô Huyết Khấp Lệ [TabExplain] - Chung」, hiệu ứng tử vong khi kết thúc tấn công không kích hoạt và hồi máu bằng 60% giá trị tối đa. Từ lượt tiếp theo, nhận 1 [AttackDmgUp] khi bắt đầu mỗi lượt (1 lần mỗi trận).",
-      "summary": "Khi nhận sát thương khiến máu về 0, không tử trận mà nhận [CondensedBlood]\nKhi kích hoạt 「Ô Huyết Khấp Lệ [TabExplain] - Chung」, bỏ qua hiệu ứng tử vong, hồi máu và nhận [AttackDmgUp]"
+      "summary": "Khi nhận sát thương khiến máu về 0, không tử trận mà nhận [CondensedBlood]\nKhi kích hoạt 「Ô Huyết Khấp Lệ [TabExplain] - Chung」, bỏ qua hiệu ứng tử vong, hồi máu và nhận [AttackDmgUp][TabExplain]"
     },
     {
       "id": 1061321,
@@ -2341,12 +2341,12 @@
     {
       "id": 1011401,
       "name": "Hắc Phong Mã Cước",
-      "desc": "Khi thỏa mãn các điều kiện dưới đây, nhận 1 [BreakthroughHorse]:\n- Khi bắt đầu tấn công, Tốc độ cao hơn mục tiêu từ 2 trở lên\n- Khi kích hoạt hiệu ứng [VibrationExplosion] 2 lần bằng [Skill] của bản thân (Bao gồm [Skill] E.G.O)\n- Khi thắng đối kháng trong trạng thái sở hữu [LegStrengthHorseYisang]\n※ [BreakthroughHorse] có thể nhận tối đa 3 mỗi lượt, không thể nhận bằng [Skill] 「Hắc Phong Mã Cước Nguyệt Trảm」"
+      "desc": "Khi thỏa mãn các điều kiện dưới đây, nhận 1 [BreakthroughHorse]:\n- Khi bắt đầu tấn công, Tốc độ cao hơn mục tiêu từ 2 trở lên\n- Khi kích hoạt hiệu ứng [VibrationExplosion] 2 lần bằng [BreakthroughHorse] của bản thân (Bao gồm [Skill] E.G.O)\n- Khi thắng đối kháng trong trạng thái sở hữu [LegStrengthHorseYisang]\n※ [BreakthroughHorse] có thể nhận tối đa 3 mỗi lượt, không thể nhận bằng [Skill] 「Hắc Phong Mã Cước Nguyệt Trảm」"
     },
     {
       "id": 1011411,
       "name": "Hắc Phong Mã Cước",
-      "desc": "Khi thỏa mãn các điều kiện dưới đây, nhận 1 [BreakthroughHorse]:\n- Khi bắt đầu tấn công, Tốc độ cao hơn mục tiêu từ 2 trở lên\n- Khi kích hoạt hiệu ứng [VibrationExplosion] 2 lần bằng [Skill] của bản thân (Bao gồm [Skill] E.G.O)\n- Khi thắng đối kháng trong trạng thái sở hữu [LegStrengthHorseYisang]\n※ [BreakthroughHorse] có thể nhận tối đa 3 mỗi lượt, không thể nhận bằng [Skill] 「Hắc Phong Mã Cước Nguyệt Trảm」\n\n<style=\"highlight\">Khi bản thân có Khiên, Cấp phòng thủ tăng thêm (Giá trị Khiên ÷ 10) (Tối đa 5, bỏ phần thập phân)</style>"
+      "desc": "Khi thỏa mãn các điều kiện dưới đây, nhận 1 [BreakthroughHorse]:\n- Khi bắt đầu tấn công, Tốc độ cao hơn mục tiêu từ 2 trở lên\n- Khi kích hoạt hiệu ứng [VibrationExplosion] 2 lần bằng [BreakthroughHorse] của bản thân (Bao gồm [Skill] E.G.O)\n- Khi thắng đối kháng trong trạng thái sở hữu [LegStrengthHorseYisang]\n※ [BreakthroughHorse] có thể nhận tối đa 3 mỗi lượt, không thể nhận bằng [Skill] 「Hắc Phong Mã Cước Nguyệt Trảm」\n\n<style=\"highlight\">Khi bản thân có Khiên, Cấp phòng thủ tăng thêm (Giá trị Khiên ÷ 10) (Tối đa 5, bỏ phần thập phân)</style>"
     },
     {
       "id": 1011402,
@@ -2578,7 +2578,7 @@
     {
       "id": 1091421,
       "name": "Trong tiếng hát thánh ca, những người đồng đội đang dần lìa xa",
-      "desc": "Sát thương của kĩ năng có hiệu ứng tiêu hao [Charge] hoặc Sạc đặc biệt của 1 đồng minh có Tinh thần thấp nhất để gây [Sinking] lên kẻ địch +10% (Không tính kĩ năng E.G.O)"
+      "desc": "Sát thương của kĩ năng có hiệu ứng tiêu hao [Charge] hoặc Sạc đặc biệt của 1 đồng minh có Tinh thần thấp nhất để gây [Sinking] lên kẻ địch +10% (Không tính kĩ năng E.G.O)[TabExplain]"
     },
     {
       "id": 1111401,
@@ -2631,7 +2631,7 @@
     {
       "id": 1031402,
       "name": "Chỉ thị được truyền bằng máy thiết bị cầm tay",
-      "desc": "Khi bắt đầu hiệp\n- Nhận [IndexPrescriptDon_0] / [IndexPrescriptDon_1] / [IndexPrescriptDon_2] / [IndexPrescriptDon_3] tùy theo cấp độ [UnlockBuff_Base] của bản thân\n- Gây [IndexPrescriptTargetToEnemy] lên 1 kẻ địch ngẫu nhiên (Gây vào bộ phận nếu là Trận chiến Tập trung)\n- Gây [IndexPrescriptTargetMarkToEnemy] vào Kĩ năng Tấn công cơ bản của bản thân trên các ô kĩ năng (Mỗi ô kĩ năng gây 1 cái, tối đa 2 cái)\n· Nếu [UnlockBuffAlly_2] trở lên, ưu tiên gây vào Kĩ năng 3\n- Nếu ở trạng thái Hoảng loạn, Bất động [TabExplain], Hỗn loạn, E.G.O Xâm chiếm, tất cả các hiệu ứng trên và kết quả thực hiện [IndexPrescript_Base_2nd] sẽ không được áp dụng\n\nKhi bắt đầu hiệp nếu là [UnlockBuffAlly_3], nhận [Blandishment_Shin]",
+      "desc": "Khi bắt đầu hiệp\n- Nhận [IndexPrescriptDon_0] / [IndexPrescriptDon_1] / [IndexPrescriptDon_2] / [IndexPrescriptDon_3] tùy theo cấp độ [UnlockBuff_Base] của bản thân\n- Gây [IndexPrescriptTargetToEnemy] lên 1 kẻ địch ngẫu nhiên (Gây vào bộ phận nếu là Trận chiến Tập trung)\n- Gây [IndexPrescriptTargetMarkToEnemy] vào Kĩ năng Tấn công cơ bản của bản thân trên các ô kĩ năng (Mỗi ô kĩ năng gây 1 cái, tối đa 2 cái)\n· Nếu [UnlockBuffAlly_2] trở lên, ưu tiên gây vào Kĩ năng 3\n- Nếu ở trạng thái Hoảng loạn, Bất động [TabExplain], Hỗn loạn, E.G.O Xâm chiếm, tất cả các hiệu ứng trên và kết quả thực hiện [IndexPrescript_Base_2nd] sẽ không được áp dụng\n\nKhi bắt đầu hiệp nếu là [UnlockBuffAlly_3], nhận [Blandishment_Shin][TabExplain]",
       "summary": "Nhận Chỉ thị\nGây Đối tượng Chỉ thị lên kẻ địch ngẫu nhiên\nGây Dấu ấn Chỉ thị vào kĩ năng tấn công cơ bản ngẫu nhiên của bản thân"
     },
     {
@@ -2654,7 +2654,7 @@
     {
       "id": 1031421,
       "name": "Đây cũng là nhờ ơn của ngài Pipi ma thuật",
-      "desc": "Khi bắt đầu trận đấu, hồi 15 Tinh thần cho 1 đồng minh có Tinh thần thấp nhất\n- Ưu tiên áp dụng cho Bản sắc sử dụng Coin cộng\n- Nếu đối tượng thuộc Chỉ Số, hiệu quả được tăng cường và nhận thêm 1 [AttackDmgUp]\n- Không áp dụng cho đối tượng không thể hồi Tinh thần như bị Ăn mòn, Hoảng loạn, v.v."
+      "desc": "Khi bắt đầu trận đấu, hồi 15 Tinh thần cho 1 đồng minh có Tinh thần thấp nhất\n- Ưu tiên áp dụng cho Bản sắc sử dụng Coin cộng\n- Nếu đối tượng thuộc Chỉ Số, hiệu quả được tăng cường và nhận thêm 1 [AttackDmgUp]\n- Không áp dụng cho đối tượng không thể hồi Tinh thần như bị Ăn mòn, Hoảng loạn, v.v.[TabExplain]"
     },
     {
       "id": 1081401,
