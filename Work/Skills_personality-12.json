@@ -644,7 +644,7 @@
                   "desc": "[OnSucceedAttackHead] Áp dụng 3 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Nếu [Laceration] của mục tiêu từ 7 trở lên, áp đặt 1 Giảm Cấp Đồng Xu ở lượt tiếp theo"
+                  "desc": "[OnSucceedAttack] Nếu [Laceration] của mục tiêu từ <style=\"highlight\">7</style> trở lên, áp đặt 1 Giảm Cấp Đồng Xu ở lượt tiếp theo"
                 }
               ]
             }
@@ -1078,7 +1078,7 @@
         {
           "level": 4,
           "name": "Tội Lỗi Không Thể Gột Rửa",
-          "desc": "Khi kỹ năng này trúng đích, hồi HP bằng 50% sát thương gây ra (tối đa 100 mỗi kỹ năng)\n[WhenUse] Với mỗi 1% HP đã mất của bản thân, tăng sát thương <style=\"highlight\">+1.5% (Tối đa 90%)</style>\n[WhenUse] Nếu [Laceration] của mục tiêu từ 6 trở lên, Cấp độ đồng xu +1\n[WhenUse] Tiêu hao lượng [BloodyHandGregFirst] vượt mức 10 để nhận các hiệu quả sau:\n- Hồi HP cho bản thân bằng (Giá trị tiêu hao × 3)\n- Nếu giá trị tiêu hao từ 10 trở lên, Cấp độ đồng xu +1\n<style=\"highlight\">- Nếu giá trị tiêu hao là 20, sử dụng lại Đồng xu cuối cùng của kỹ năng này</style>\n[WhenUse] Nhận 10 [Laceration]\n[EndSkill] Hồi HP bằng 10% HP tối đa",
+          "desc": "Khi kỹ năng này trúng đích, hồi HP bằng 50% sát thương gây ra (tối đa 100 mỗi kỹ năng)\n[WhenUse] Với mỗi 1% HP đã mất của bản thân, tăng sát thương <style=\"highlight\">+1.5%</style> (Tối đa <style=\"highlight\">90%</style>)\n[WhenUse] Nếu [Laceration] của mục tiêu từ 6 trở lên, Cấp độ đồng xu +1\n[WhenUse] Tiêu hao lượng [BloodyHandGregFirst] vượt mức 10 để nhận các hiệu quả sau:\n- Hồi HP cho bản thân bằng (Giá trị tiêu hao × 3)\n- Nếu giá trị tiêu hao từ 10 trở lên, Cấp độ đồng xu +1\n<style=\"highlight\">- Nếu giá trị tiêu hao là 20, sử dụng lại Đồng xu cuối cùng của kỹ năng này</style>\n[WhenUse] Nhận 10 [Laceration]\n[EndSkill] Hồi HP bằng 10% HP tối đa",
           "coinlist": [
             {
               "coindescs": [
@@ -1610,7 +1610,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Với mỗi 1 (cấp độ [Burst] của mục tiêu + cấp độ [Breath] của bản thân), <style=\"highlight\">Sát thương +10% (Tối đa 200%)</style>"
+                  "desc": "Với mỗi 1 (cấp độ [Burst] của mục tiêu + cấp độ [Breath] của bản thân), <style=\"highlight\">Sát thương +10%</style> (Tối đa <style=\"highlight\">200%</style>)"
                 },
                 {
                   "desc": "Nếu bản thân có [SnakeStance], Sát thương Chí mạng <style=\"highlight\">+100%</style>"
@@ -1720,7 +1720,7 @@
         {
           "level": 4,
           "name": "Đâm Vào Sơ Hở",
-          "desc": "<style=\"highlight\">[WhenUse] Nhận 1 [Agility] vào lượt tiếp theo (1 lần mỗi lượt)</style>\n[WhenUse] Với mỗi 6 tổng [Laceration] và [Vibration] trên mục tiêu, uy lực đồng xu +1 <style=\"highlight\">(Tối đa 2)</style>",
+          "desc": "<style=\"highlight\">[WhenUse] Nhận 1 [Agility] vào lượt tiếp theo (1 lần mỗi lượt)</style>\n[WhenUse] <style=\"highlight\">Với mỗi</style> 6 tổng [Laceration] và [Vibration] trên mục tiêu, uy lực đồng xu +1 <style=\"highlight\">(Tối đa 2)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1809,7 +1809,7 @@
         {
           "level": 4,
           "name": "Stiletto Doppio",
-          "desc": "[WhenUse] Với mỗi 6 tổng số [Laceration] và [Vibration] của mục tiêu, Cường độ Coin +1 <style=\"highlight\">(Tối đa 2)</style>\n[WinDuel] <style=\"highlight\">Ban 1 [Vibration].</style> [VibrationExplosion]. Giảm 1 số lượng [Vibration] của mục tiêu",
+          "desc": "[WhenUse] <style=\"highlight\">Với mỗi</style> 6 tổng số [Laceration] và [Vibration] của mục tiêu, Cường độ Coin +1 <style=\"highlight\">(Tối đa 2)</style>\n[WinDuel] <style=\"highlight\">Ban 1 [Vibration].</style> [VibrationExplosion]. Giảm 1 số lượng [Vibration] của mục tiêu",
           "coinlist": [
             {
               "coindescs": [
@@ -1888,7 +1888,7 @@
         {
           "level": 4,
           "name": "Hành Quyết",
-          "desc": "[BeforeUse] Nếu mục tiêu có [CriHurtNightStiletto], kích hoạt thay bằng 「Dùi Đêm」 (1 lần mỗi hiệp)\n[WhenUse] Với mỗi 6 tổng [Laceration] và [Vibration] trên mục tiêu, Công lực Đồng xu +1 <style=\"highlight\">(Tối đa 2)</style>\n[WinDuel] <style=\"highlight\">Ban 2 [Vibration].</style>[VibrationExplosion]. Giảm số lượt [Vibration] của mục tiêu đi 1.",
+          "desc": "[BeforeUse] Nếu mục tiêu có [CriHurtNightStiletto], kích hoạt thay bằng 「Dùi Đêm」 (1 lần mỗi hiệp)\n[WhenUse] <style=\"highlight\">Với mỗi</style> 6 tổng [Laceration] và [Vibration] trên mục tiêu, Công lực Đồng xu +1 <style=\"highlight\">(Tối đa 2)</style>\n[WinDuel] <style=\"highlight\">Ban 2 [Vibration].</style>[VibrationExplosion]. Giảm số lượt [Vibration] của mục tiêu đi 1.",
           "coinlist": [
             {
               "coindescs": [
@@ -1900,7 +1900,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Ban 3 [Vibration], <style=\"highlight\">tăng số lượt [Vibration] thêm 1</style>"
+                  "desc": "[OnSucceedAttack] Ban <style=\"highlight\">3</style> [Vibration], <style=\"highlight\">tăng số lượt [Vibration] thêm 1</style>"
                 }
               ]
             },
@@ -1949,7 +1949,7 @@
         {
           "level": 4,
           "name": "Từ Bước Đường Cùng",
-          "desc": "[CanDuelGuard]\n<style=\"highlight\">[StartBattle] Trong lượt này, số lần có thể sử dụng \"Merce\" kích hoạt bởi hiệu ứng \"Kẻ Thanh Trừng Gia Đình\" tăng lên 2 lần mỗi lượt</style>\n[StartBattle] Nhận 1 [Agility] vào lượt tiếp theo (1 lần mỗi lượt)\n[WhenUse] Mỗi 6 tổng [Laceration] và [Vibration] của mục tiêu, Công suất Coin +1 <style=\"highlight\">(Tối đa 2)</style>\n[WinDuel] <style=\"highlight\">Cấp 2 [Vibration]</style>",
+          "desc": "[CanDuelGuard]\n<style=\"highlight\">[StartBattle] Trong lượt này, số lần có thể sử dụng \"Merce\" kích hoạt bởi hiệu ứng \"Kẻ Thanh Trừng Gia Đình\" tăng lên 2 lần mỗi lượt</style>\n[StartBattle] Nhận 1 [Agility] vào lượt tiếp theo (1 lần mỗi lượt)\n[WhenUse] <style=\"highlight\">Với mỗi</style> 6 tổng [Laceration] và [Vibration] của mục tiêu, Công suất Coin +1 <style=\"highlight\">(Tối đa 2)</style>\n[WinDuel] <style=\"highlight\">Cấp 2 [Vibration]</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -2060,7 +2060,7 @@
         {
           "level": 4,
           "name": "Mũi Dùi Đêm",
-          "desc": "Mỗi 1 điểm tổng [Agility] của bản thân và [Binding] của mục tiêu, lượng sát thương +<style=\"highlight\">15</style>% (Tối đa <style=\"highlight\">60</style>%)\n<style=\"highlight\">Nếu mục tiêu có lá chắn, lượng sát thương +30% (Trong Chiến đấu Tập trung, xét theo cơ thể hoặc bộ phận)</style>\n<style=\"highlight\">Tỷ lệ máu đã mất của kẻ địch (cơ thể) càng cao, <noparse>lượng sát thương gây ra càng tăng</noparse></style>\n- Nếu máu của kẻ địch (cơ thể) từ 20% trở xuống, <style=\"highlight\">thay vào đó</style> lượng sát thương +<style=\"highlight\">100</style>%\n<style=\"highlight\">[WhenUse] Cấp 5 [DefenseDown]</style>\n[WhenUse] Mỗi 4 điểm tổng [Laceration] và [Vibration] của mục tiêu, sức mạnh đồng xu +1 (Tối đa <style=\"highlight\">3</style>)\n[WinDuel] <style=\"highlight\">Cấp 4 [Vibration].</style> [VibrationExplosion]",
+          "desc": "Mỗi 1 điểm tổng [Agility] của bản thân và [Binding] của mục tiêu, lượng sát thương +<style=\"highlight\">15</style>% (Tối đa <style=\"highlight\">60</style>%)\n<style=\"highlight\">Nếu mục tiêu có lá chắn, lượng sát thương +30% (Trong Chiến đấu Tập trung, xét theo cơ thể hoặc bộ phận)</style>\n<style=\"highlight\">Tỷ lệ máu đã mất của kẻ địch (cơ thể) càng cao, lượng sát thương gây ra càng tăng</style>\n- Nếu máu của kẻ địch (cơ thể) từ 20% trở xuống, <style=\"highlight\">thay vào đó lượng sát thương +100%</style>\n<style=\"highlight\">[WhenUse] Cấp 5 [DefenseDown]</style>\n[WhenUse] Mỗi 4 điểm tổng [Laceration] và [Vibration] của mục tiêu, sức mạnh đồng xu +1 (Tối đa <style=\"highlight\">3</style>)\n[WinDuel] <style=\"highlight\">Cấp 4 [Vibration].</style> [VibrationExplosion]",
           "coinlist": [
             {
               "coindescs": [

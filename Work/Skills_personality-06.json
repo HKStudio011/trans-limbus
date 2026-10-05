@@ -968,7 +968,7 @@
         {
           "level": 4,
           "name": "Bẻ Xương",
-          "desc": "Khi [Burst] của mục tiêu từ 6 trở lên, Sức mạnh Coin +1\n[WhenUse] Nếu [Burst] của mục tiêu là 15 và Số lượng [Burst] từ 3 trở lên, thay vì gây [Burst] và Số lượng [Burst] thông qua kỹ năng này, Sức mạnh Coin +1\n- Nếu mục tiêu là <Quỷ Huyết>, <Túi Máu>, thêm Sức mạnh Coin +1\n[WinDuel] Số lượng [Burst] tăng 1",
+          "desc": "Khi [Burst] của mục tiêu từ 6 trở lên, Sức mạnh Coin +1\n[WhenUse] Nếu [Burst] của mục tiêu là 15 và Số lượng [Burst] từ 3 trở lên, thay vì gây [Burst] và Số lượng [Burst] thông qua kỹ năng này, Sức mạnh Coin +1\n- Nếu mục tiêu là <Bloodfiend> hoặc <Bloodbag>, thêm Sức mạnh Coin +1\n[WinDuel] Số lượng [Burst] tăng 1",
           "coinlist": [
             {
               "coindescs": [
@@ -1022,7 +1022,7 @@
         {
           "level": 4,
           "name": "Kết Thúc Cuộc Săn Khoái Trá",
-          "desc": "Khi [Burst] của mục tiêu từ 6 trở lên, Sức mạnh Coin +1\n[WhenUse] Nếu [Burst] của mục tiêu là 15 và Số lượng [Burst] từ 3 trở lên, thay vì gây [Burst] và Số lượng [Burst] thông qua kỹ năng này, Sức mạnh Coin +1\n- Nếu mục tiêu là <Quỷ Huyết>, <Túi Máu>, thêm Sức mạnh Coin +1\n[WinDuel] Số lượng [Burst] tăng 2",
+          "desc": "Khi [Burst] của mục tiêu từ 6 trở lên, Sức mạnh Coin +1\n[WhenUse] Nếu [Burst] của mục tiêu là 15 và Số lượng [Burst] từ 3 trở lên, thay vì gây [Burst] và Số lượng [Burst] thông qua kỹ năng này, Sức mạnh Coin +1\n- Nếu mục tiêu là <Bloodfiend> hoặc <Bloodbag>, thêm Sức mạnh Coin +1\n[WinDuel] Số lượng [Burst] tăng 2",
           "coinlist": [
             {
               "coindescs": [
@@ -1210,7 +1210,7 @@
                   "desc": "Tiêu hao tối đa 3 [Bullet]"
                 },
                 {
-                  "desc": "Sát thương +(Số đạn đã tiêu thụ × 10)%"
+                  "desc": "Sát thương +([Bullet] đã tiêu thụ × 10)%"
                 }
               ]
             },
@@ -1241,7 +1241,7 @@
                   "desc": "Tiêu thụ tối đa 3 [Bullet]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "Sát thương +(Số đạn đã tiêu thụ × 10)%<style=\"highlight\"></style>"
+                  "desc": "Sát thương +([Bullet] đã tiêu thụ × 10)%<style=\"highlight\"></style>"
                 }
               ]
             },
@@ -1275,10 +1275,10 @@
                   "desc": "Tiêu thụ tối đa 3 [Bullet]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "Sát thương +(Số đạn đã tiêu thụ × 10)%<style=\"highlight\"></style>"
+                  "desc": "Sát thương +([Bullet] đã tiêu thụ × 10)%<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">Sát thương bạo kích +(Số đạn đã tiêu thụ × 10)%</style>"
+                  "desc": "<style=\"highlight\">Sát thương bạo kích +([Bullet] đã tiêu thụ × 10)%</style>"
                 }
               ]
             },
@@ -1313,7 +1313,7 @@
                   "desc": "Tiêu tốn 1 [Bullet]"
                 },
                 {
-                  "desc": "Sát thương +(Số đạn đã tiêu tốn × 10)%"
+                  "desc": "Sát thương +([Bullet] đã tiêu tốn × 10)%"
                 },
                 {
                   "desc": "[OnSucceedAttack] Đẩy mốc Choáng váng của mục tiêu thêm 10% giá trị sát thương"
@@ -1326,7 +1326,7 @@
                   "desc": "Tiêu tốn tối đa 2 [Bullet]"
                 },
                 {
-                  "desc": "Sát thương +(Số đạn đã tiêu tốn × 10)%"
+                  "desc": "Sát thương +([Bullet] đã tiêu tốn × 10)%"
                 },
                 {
                   "desc": "[OnSucceedAttack] Đẩy mốc Choáng váng của mục tiêu thêm 10% giá trị sát thương"
@@ -1359,7 +1359,7 @@
                   "desc": "Tiêu tốn 1 [Bullet]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "Lượng sát thương + (Số đạn đã tiêu tốn × <style=\"highlight\">15</style>)%"
+                  "desc": "Lượng sát thương + ([Bullet] đã tiêu tốn × <style=\"highlight\">15</style>)%"
                 },
                 {
                   "desc": "[OnSucceedAttack] Đẩy mốc choáng tới trước một lượng bằng <style=\"highlight\">15</style>% sát thương gây ra"
@@ -1372,7 +1372,7 @@
                   "desc": "Tiêu tốn tối đa 2 [Bullet]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "Lượng sát thương + (Số đạn đã tiêu tốn × <style=\"highlight\">15</style>)%"
+                  "desc": "Lượng sát thương + ([Bullet] đã tiêu tốn × <style=\"highlight\">15</style>)%"
                 },
                 {
                   "desc": "[OnSucceedAttack] Đẩy mốc choáng tới trước một lượng bằng <style=\"highlight\">15</style>% sát thương gây ra"
@@ -1450,7 +1450,7 @@
                   "desc": "Tiêu hao tối đa 3 [Bullet]"
                 },
                 {
-                  "desc": "Sát thương +(Số đạn tiêu hao × 10)%"
+                  "desc": "Sát thương +([Bullet] tiêu hao × 10)%"
                 }
               ]
             },
@@ -1494,10 +1494,10 @@
                   "desc": "Tiêu hao tối đa 3 [Bullet]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "Sát thương +(Số đạn tiêu hao × 10)%<style=\"highlight\"></style>"
+                  "desc": "Sát thương +([Bullet] tiêu hao × 10)%<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">Sát thương Chí mạng +(Số đạn tiêu hao × 10)%</style>"
+                  "desc": "<style=\"highlight\">Sát thương Chí mạng +([Bullet] tiêu hao × 10)%</style>"
                 }
               ]
             },
@@ -1542,7 +1542,7 @@
                   "desc": "Tiêu hao 1 [Bullet]"
                 },
                 {
-                  "desc": "Lượng sát thương +(Số đạn đã tiêu hao × 10)%"
+                  "desc": "Lượng sát thương +([Bullet] đã tiêu hao × 10)%"
                 },
                 {
                   "desc": "[OnSucceedAttack] Đẩy mốc Hoảng loạn thêm 10% lượng sát thương gây ra"
@@ -1555,7 +1555,7 @@
                   "desc": "Tiêu hao tối đa 2 [Bullet]"
                 },
                 {
-                  "desc": "Lượng sát thương +(Số đạn đã tiêu hao × 10)%"
+                  "desc": "Lượng sát thương +([Bullet] đã tiêu hao × 10)%"
                 },
                 {
                   "desc": "[OnSucceedAttack] Đẩy mốc Hoảng loạn thêm 10% lượng sát thương gây ra"
@@ -1895,7 +1895,7 @@
         {
           "level": 4,
           "name": "Roi Tinh Thần",
-          "desc": "Mỗi 1 [Charge] tăng <style=\"highlight\">+4%</style> sát thương (Tối đa <style=\"highlight\">20%</style>)\n[WhenUse] Nếu số lượng [Charge] từ 5 trở lên và dưới 10:\n- Nhận <style=\"highlight\">10</style> [Sinking], tăng số lượng [Charge] lên 10\n- Kỹ năng này ở trạng thái [CantIdentify], [WideAreaRampage] và tăng +1 Trọng số Tấn công\n<style=\"highlight\">- [BeforeUse] Nếu [Charge] từ 5 trở lên, hiệu ứng [CantIdentify] sẽ không áp dụng</style>\n[WhenUse] Tiêu hao 10 [Charge] để tăng +2 Cường độ Đồng xu\n<style=\"highlight\">[BeforeAttack] Nếu số lượng [Charge] còn lại từ 8 trở lên, tiêu hao 8 [Charge] để tăng +40% sát thương</style>",
+          "desc": "Mỗi 1 [Charge] tăng <style=\"highlight\">+4%</style> sát thương (Tối đa <style=\"highlight\">20%</style>)\n[WhenUse] Nếu số lượng [Charge] từ 5 trở lên và dưới 10:\n- Nhận <style=\"highlight\">10</style> [Sinking], tăng số lượng [Charge] lên 10\n- Kỹ năng này ở trạng thái [CantIdentify], [WideAreaRampage] và tăng +1 Trọng số Tấn công\n<style=\"highlight\">- [BeforeUse] Nếu [Charge] từ 5 trở lên, hiệu ứng [CantIdentify] sẽ không áp dụng</style>\n[WhenUse] Tiêu hao 10 [Charge] để tăng <style=\"highlight\">+2</style> Cường độ Đồng xu\n<style=\"highlight\">[BeforeAttack] Nếu số lượng [Charge] còn lại từ 8 trở lên, tiêu hao 8 [Charge] để tăng +40% sát thương</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -2042,14 +2042,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lượt [Breath] của bản thân tăng 2"
+                  "desc": "[OnSucceedAttack] Số lượt [Breath] của bản thân tăng 2<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lượt [Burst] tăng 2"
+                  "desc": "[OnSucceedAttack] Số lượt [Burst] tăng 2<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -2070,7 +2070,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lượt [Burst] tăng 2"
+                  "desc": "[OnSucceedAttack] Số lượt [Burst] tăng 2<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -2434,7 +2434,7 @@
         {
           "level": 1,
           "name": "Hộ vệ",
-          "desc": "[CanDuelGuard]\nKỹ năng này chỉ được coi là chi viện phòng thủ của nhân vật sử dụng kỹ năng tương ứng,\nvà không kích hoạt hiệu ứng của các nhân vật khác khi kiểm tra kích hoạt hiệu ứng [SupportProtect].\n[WhenUse] Nếu mục tiêu có từ 3 loại hiệu ứng bất lợi trở lên, Uy lực Hòa kích +1",
+          "desc": "[CanDuelGuard]\nKỹ năng này chỉ được coi là chi viện phòng thủ[TabExplain] của nhân vật sử dụng kỹ năng tương ứng, và không kích hoạt hiệu ứng của các nhân vật khác khi kiểm tra kích hoạt hiệu ứng [SupportProtect].\n[WhenUse] Nếu mục tiêu có từ 3 loại hiệu ứng bất lợi trở lên, Uy lực Hòa kích +1",
           "coinlist": [
             {
               "coindescs": [
@@ -2636,7 +2636,7 @@
         {
           "level": 3,
           "name": "Giai điệu của xương chày - Kẻ đã bị giải phẫu đi giải phẫu kẻ chưa bị giải phẫu",
-          "desc": "[WhenUse] Với mỗi mục tiêu có số lượng mục tiêu ít hơn Trọng số tấn công của kỹ năng này, lượng sát thương +30% (Trong trận chiến tập trung, xét theo bộ phận)\n[WhenUse] Với mỗi 4 [Laceration] trên mục tiêu chính, Uy lực cuối cùng +1 (Tối đa 2)\n[WhenUse] Nếu số lần [ChargeBodyArt] của bản thân từ 10 trở lên, tiêu hao tối đa 20 lần [ChargeBodyArt] để áp dụng các hiệu ứng sau:\n- Uy lực cuối cùng +2\n- Với mỗi 1 điểm tiêu hao, lượng sát thương +1%\n- Nếu [ChargeBodyArt] từ 3/5 trở lên, Trọng số tấn công +1/+2\n- Tất cả đồng xu trở thành [SuperCoin]",
+          "desc": "[WhenUse] Với mỗi mục tiêu có số lượng mục tiêu ít hơn Trọng số tấn công của kỹ năng này, lượng sát thương +30% (Trong trận chiến tập trung, xét theo bộ phận)\n[WhenUse] Với mỗi 4 [Laceration] trên mục tiêu chính, Uy lực cuối cùng +1 (Tối đa 2)\n[WhenUse] Nếu số lần [ChargeBodyArt] của bản thân từ 10 trở lên, tiêu hao tối đa 20 lần [ChargeBodyArt] để áp dụng các hiệu ứng sau:\n- Uy lực cuối cùng +2\n- Với mỗi [ChargeBodyArt] tiêu hao, lượng sát thương +1%\n- Nếu [ChargeBodyArt] từ 3/5 trở lên, Trọng số tấn công +1/+2\n- Tất cả đồng xu trở thành [SuperCoin]",
           "coinlist": [
             {
               "coindescs": [
@@ -2680,7 +2680,7 @@
         {
           "level": 4,
           "name": "Giai điệu xương chày - Kẻ đã bị giải phẫu sẽ giải phẫu những kẻ chưa bị giải phẫu",
-          "desc": "[WhenUse] Với mỗi mục tiêu có số lượng ít hơn Trọng số Kỹ năng này, Sát thương +30% (Tính theo bộ phận trong Trận chiến tập trung)\n[WhenUse] Với mỗi 4 [Laceration] trên mục tiêu chính, Sức mạnh Cuối cùng +1 (Tối đa <style=\"highlight\">3</style>)\n[WhenUse] Nếu số lần [ChargeBodyArt] của bản thân từ 10 trở lên, tiêu hao tối đa 20 số lần [ChargeBodyArt] để áp dụng các hiệu ứng sau:\n- Sức mạnh Cuối cùng +2\n- Với mỗi 1 điểm tiêu hao, Sát thương +1%\n- Nếu [ChargeBodyArt] đạt từ 3/5 trở lên, Trọng số Kỹ năng +1/+2\n- Tất cả đồng xu trở thành [SuperCoin]",
+          "desc": "[WhenUse] Với mỗi mục tiêu có số lượng ít hơn Trọng số Kỹ năng này, Sát thương +30% (Tính theo bộ phận trong Trận chiến tập trung)\n[WhenUse] Với mỗi 4 [Laceration] trên mục tiêu chính, Sức mạnh Cuối cùng +1 (Tối đa <style=\"highlight\">3</style>)\n[WhenUse] Nếu số lần [ChargeBodyArt] của bản thân từ 10 trở lên, tiêu hao tối đa 20 số lần [ChargeBodyArt] để áp dụng các hiệu ứng sau:\n- Sức mạnh Cuối cùng +2\n- Với mỗi [ChargeBodyArt] tiêu hao, Sát thương +1%\n- Nếu [ChargeBodyArt] đạt từ 3/5 trở lên, Trọng số Kỹ năng +1/+2\n- Tất cả đồng xu trở thành [SuperCoin]",
           "coinlist": [
             {
               "coindescs": [
@@ -2771,7 +2771,7 @@
         {
           "level": 3,
           "name": "Hạ màn - Tác phẩm Sắp đặt số 1: \"Máu thịt và xương cốt các ngươi vung vãi sẽ trở thành hàng ghế khán giả\"",
-          "desc": "[WhenUse] Với mỗi mục tiêu tấn công ít hơn Trọng số Tấn công của kỹ năng này, Sát thương +30% (Trong trận chiến tập trung, tính theo bộ phận)\n- Nếu mục tiêu tấn công là 1, nhận thêm Sát thương +100%\n[WhenUse] Nếu số lần [ChargeBodyArt] của bản thân từ 10 trở lên, tiêu hao tối đa 20 số lần [ChargeBodyArt] để áp dụng các hiệu ứng sau:\n- Sức mạnh Cuối cùng +2\n- Với mỗi số lần tiêu hao, Sát thương +1%\n- Nếu [ChargeBodyArt] từ 3/5 trở lên, Trọng số Tấn công +1/+2\n[EndSkill] Hồi 10 Tinh thần cho các Bản sắc thuộc Ngón Áp Út, và ban cho đồng minh đó [MelodyBodyArt]",
+          "desc": "[WhenUse] Với mỗi mục tiêu tấn công ít hơn Trọng số Tấn công của kỹ năng này, Sát thương +30% (Trong trận chiến tập trung, tính theo bộ phận)\n- Nếu mục tiêu tấn công là 1, nhận thêm Sát thương +100%\n[WhenUse] Nếu số lần [ChargeBodyArt] của bản thân từ 10 trở lên, tiêu hao tối đa 20 số lần [ChargeBodyArt] để áp dụng các hiệu ứng sau:\n- Sức mạnh Cuối cùng +2\n- Với mỗi [ChargeBodyArt] tiêu hao, Sát thương +1%\n- Nếu [ChargeBodyArt] từ 3/5 trở lên, Trọng số Tấn công +1/+2\n[EndSkill] Hồi 10 Tinh thần cho các Bản sắc thuộc Ngón Áp Út, và ban cho đồng minh đó [MelodyBodyArt]",
           "coinlist": [
             {
               "coindescs": [
@@ -2840,7 +2840,7 @@
         {
           "level": 4,
           "name": "Bế mạc - Tác phẩm Nghệ thuật Sắp đặt số 1 \"Xác thịt và xương cốt các ngươi vương vãi sẽ trở thành hàng ghế khán giả\"",
-          "desc": "[WhenUse] Với mỗi mục tiêu ít hơn Chỉ số Mục tiêu của kỹ năng này, sát thương +30% (Trong trận chiến tập trung, tính theo bộ phận)\n- Nếu mục tiêu là 1, sát thương +100% bổ sung\n[WhenUse] Nếu số lần [ChargeBodyArt] của bản thân từ 10 trở lên, tiêu hao tối đa 20 số lần [ChargeBodyArt] để áp dụng các hiệu ứng sau:\n- Uy lực cuối cùng +2\n- Với mỗi đơn vị tiêu hao, sát thương +1%\n- Nếu [ChargeBodyArt] từ 3/5 trở lên, Chỉ số Mục tiêu +1/+2\n[EndSkill] Hồi 10 Tinh thần cho các đồng minh là bản thể thuộc Ngón Áp Út, đồng thời gây [MelodyBodyArt] cho đồng minh đó",
+          "desc": "[WhenUse] Với mỗi mục tiêu ít hơn Chỉ số Mục tiêu của kỹ năng này, sát thương +30% (Trong trận chiến tập trung, tính theo bộ phận)\n- Nếu mục tiêu là 1, sát thương +100% bổ sung\n[WhenUse] Nếu số lần [ChargeBodyArt] của bản thân từ 10 trở lên, tiêu hao tối đa 20 số lần [ChargeBodyArt] để áp dụng các hiệu ứng sau:\n- Uy lực cuối cùng +2\n- Với mỗi [ChargeBodyArt] tiêu hao, sát thương +1%\n- Nếu [ChargeBodyArt] từ 3/5 trở lên, Chỉ số Mục tiêu +1/+2\n[EndSkill] Hồi 10 Tinh thần cho các đồng minh là bản thể thuộc Ngón Áp Út, đồng thời gây [MelodyBodyArt] cho đồng minh đó",
           "coinlist": [
             {
               "coindescs": [

@@ -608,7 +608,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Lượt tiếp theo gây 2 Giảm cấp tấn công"
+                  "desc": "[OnSucceedAttackHead] Lượt tiếp theo gây 2 [AttackDown]"
                 }
               ]
             }
@@ -624,7 +624,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Lượt tiếp theo gây 3 Giảm cấp tấn công"
+                  "desc": "[OnSucceedAttack] Lượt tiếp theo gây 3 [AttackDown]"
                 }
               ]
             }
@@ -644,14 +644,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Lượt tiếp theo gây 1 Giảm uy lực tấn công"
+                  "desc": "[OnSucceedAttackHead] Lượt tiếp theo gây 1 [Reduction]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Lượt tiếp theo gây 1 Giảm uy lực tấn công"
+                  "desc": "[OnSucceedAttack] Lượt tiếp theo gây 1 [Reduction]"
                 }
               ]
             }
@@ -788,7 +788,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Tiêu hao 5 Số lần Sạc (Charge), lượt tiếp theo gây 2 Giảm uy lực tấn công, 3 Tê liệt"
+                  "desc": "[OnSucceedAttack] Tiêu hao 5 [Charge], lượt tiếp theo gây 2 [Reduction], 3 [Paralysis]"
                 }
               ]
             }
@@ -804,7 +804,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Tiêu hao 5 số lượng Sạc, lượt tiếp theo gây 2 Giảm Sức mạnh Tấn công, 3 Tê liệt"
+                  "desc": "[OnSucceedAttack] Tiêu hao 5 [Charge], lượt tiếp theo gây 2 [Reduction], 3 [Paralysis]"
                 }
               ]
             }
@@ -6899,7 +6899,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Tiếp thêm 1 Đinh"
+                  "desc": "[OnSucceedAttackHead] Tiếp thêm 1 [NailPersonality]"
                 }
               ]
             },
@@ -6920,7 +6920,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Tiếp thêm 1 Đinh"
+                  "desc": "[OnSucceedAttack] Tiếp thêm 1 [NailPersonality]"
                 }
               ]
             },
@@ -6947,7 +6947,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Tiếp thêm 3 Đinh"
+                  "desc": "[OnSucceedAttack] Tiếp thêm 3 [NailPersonality]"
                 }
               ]
             },
@@ -6969,7 +6969,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Tiếp thêm 3 Đinh"
+                  "desc": "[OnSucceedAttack] Tiếp thêm 3 [NailPersonality]"
                 }
               ]
             },
@@ -6993,14 +6993,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Tiếp thêm 2 Đinh"
+                  "desc": "[OnSucceedAttack] Tiếp thêm 2 [NailPersonality]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Tiếp thêm 3 Đinh"
+                  "desc": "[OnSucceedAttack] Tiếp thêm 3 [NailPersonality]"
                 }
               ]
             },
@@ -7024,26 +7024,26 @@
         {
           "level": 3,
           "name": "Xử Tử",
-          "desc": "Khi tiêu diệt kẻ địch bằng kĩ năng này, hồi 10 Tinh thần cho toàn bộ đồng minh và tiếp thêm [PenetrateDamageUp], Tăng sát thương Va chạm 1 cho toàn bộ đồng minh",
+          "desc": "Khi tiêu diệt kẻ địch bằng kĩ năng này, hồi 10 Tinh thần cho toàn bộ đồng minh và tiếp thêm 1 [PenetrateDamageUp] và [HitDamageUp] cho toàn bộ đồng minh",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Tiếp thêm 2 Đinh"
+                  "desc": "[OnSucceedAttack] Tiếp thêm 2 [NailPersonality]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Tiếp thêm 2 Đinh"
+                  "desc": "[OnSucceedAttackHead] Tiếp thêm 2 [NailPersonality]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Nếu Đinh của mục tiêu từ 5 trở lên, lượng sát thương +50%"
+                  "desc": "Nếu [NailPersonality] của mục tiêu từ 5 trở lên, lượng sát thương +50%"
                 }
               ]
             }
@@ -7052,26 +7052,26 @@
         {
           "level": 4,
           "name": "Xử Tử",
-          "desc": "Khi tiêu diệt kẻ địch bằng kĩ năng này, hồi 10 Tinh thần cho toàn bộ đồng minh và tiếp thêm [PenetrateDamageUp], Tăng sát thương Va chạm 1 cho toàn bộ đồng minh",
+          "desc": "Khi tiêu diệt kẻ địch bằng kĩ năng này, hồi 10 Tinh thần cho toàn bộ đồng minh và tiếp thêm [PenetrateDamageUp], [HitDamageUp] 1 cho toàn bộ đồng minh",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Tiếp thêm 2 Đinh"
+                  "desc": "[OnSucceedAttack] Tiếp thêm 2 [NailPersonality]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Tiếp thêm 2 Đinh"
+                  "desc": "[OnSucceedAttackHead] Tiếp thêm 2 [NailPersonality]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Nếu Đinh của mục tiêu từ 5 trở lên, lượng sát thương +70%"
+                  "desc": "Nếu [NailPersonality] của mục tiêu từ 5 trở lên, lượng sát thương +70%"
                 }
               ]
             }
@@ -8336,7 +8336,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [Burst] Chấn động"
+                  "desc": "[OnSucceedAttack] Kích hoạt [VibrationExplosion]"
                 },
                 {
                   "desc": "Nếu Đinh của mục tiêu từ 5 trở lên, Sát thương +20%"
@@ -8353,7 +8353,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [Burst] Chấn động"
+                  "desc": "[OnSucceedAttack] Kích hoạt [VibrationExplosion]"
                 },
                 {
                   "desc": "Nếu Đinh của mục tiêu từ 5 trở lên, Sát thương +30%"
@@ -8551,8 +8551,8 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây 2 Chấn động\nNếu số lượt [Charge] của bản thân từ 3 trở lên, mỗi khi tung mặt Ngửa thì dùng lại Coin này (tối đa 2 lần)\nNếu Coin này được dùng lại 2 lần, gây Chấn động và [Burst] Chấn động\nKhi [Burst] Chấn động, số lượt Chấn động giảm 1",
-                  "summary": "[OnSucceedAttack] [Burst] Chấn động.\nDùng lại Coin nếu thỏa mãn điều kiện. Khi dùng lại, Chấn động gây thêm +2.\nKhi dùng đến lần thứ 2 thì [Burst] Chấn động, số lượt Chấn động giảm"
+                  "desc": "[OnSucceedAttack] Gây 2 [Vibration]\nNếu số lượt Sạc của bản thân từ 3 trở lên, mỗi khi tung mặt Ngửa thì dùng lại Coin này (tối đa 2 lần)\nNếu Coin này được dùng lại 2 lần, gây [Vibration] và [VibrationExplosion]\nKhi [VibrationExplosion], số lượt [Vibration] giảm 1",
+                  "summary": "[OnSucceedAttack] Kích hoạt [VibrationExplosion].\nDùng lại Coin nếu thỏa mãn điều kiện. Khi dùng lại, gây thêm +2 [Vibration].\nKhi dùng đến lần thứ 2 thì kích hoạt [VibrationExplosion], số lượt [Vibration] giảm"
                 }
               ]
             }
@@ -8573,8 +8573,8 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây 2 Chấn động\nNếu số lượt [Charge] của bản thân từ 3 trở lên, mỗi khi tung mặt Ngửa thì dùng lại Coin này (tối đa 2 lần)\nMỗi khi dùng lại, Chấn động gây thêm +2\nNếu Coin này được dùng lại 2 lần, gây Chấn động và [Burst] Chấn động\nKhi [Burst] Chấn động, số lượt Chấn động giảm 1",
-                  "summary": "[OnSucceedAttack] [Burst] Chấn động.\nDùng lại Coin nếu thỏa mãn điều kiện. Khi dùng lại, Chấn động gây thêm +2.\nKhi dùng đến lần thứ 2 thì [Burst] Chấn động, số lượt Chấn động giảm"
+                  "desc": "[OnSucceedAttack] Gây 2 [Vibration]\nNếu số lượt Sạc của bản thân từ 3 trở lên, mỗi khi tung mặt Ngửa thì dùng lại Coin này (tối đa 2 lần)\nMỗi khi dùng lại, [Vibration] gây thêm +2\nNếu Coin này được dùng lại 2 lần, gây [Vibration] và [VibrationExplosion]\nKhi [VibrationExplosion], số lượt [Vibration] giảm 1",
+                  "summary": "[OnSucceedAttack] Kích hoạt [VibrationExplosion].\nDùng lại Coin nếu thỏa mãn điều kiện. Khi dùng lại, gây thêm +2 [Vibration].\nKhi dùng đến lần thứ 2 thì kích hoạt [VibrationExplosion], số lượt [Vibration] giảm"
                 }
               ]
             }
@@ -8595,8 +8595,8 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây 2 Chấn động\nNếu số lượt [Charge] của bản thân từ 3 trở lên, mỗi khi tung mặt Ngửa thì dùng lại Coin này (tối đa 2 lần)\nMỗi khi dùng lại, Chấn động gây thêm +2\nNếu Coin này được dùng lại 2 lần, gây Chấn động và [Burst] Chấn động\nKhi [Burst] Chấn động, số lượt Chấn động giảm 1",
-                  "summary": "[OnSucceedAttack] [Burst] Chấn động.\nDùng lại Coin nếu thỏa mãn điều kiện. Khi dùng lại, Chấn động gây thêm +2.\nKhi dùng đến lần thứ 2 thì [Burst] Chấn động, số lượt Chấn động giảm"
+                  "desc": "[OnSucceedAttack] Gây 2 [Vibration]\nNếu số lượt Sạc của bản thân từ 3 trở lên, mỗi khi tung mặt Ngửa thì dùng lại Coin này (tối đa 2 lần)\nMỗi khi dùng lại, [Vibration] gây thêm +2\nNếu Coin này được dùng lại 2 lần, gây [Vibration] và [VibrationExplosion]\nKhi [VibrationExplosion], số lượt [Vibration] giảm 1",
+                  "summary": "[OnSucceedAttack] Kích hoạt [VibrationExplosion].\nDùng lại Coin nếu thỏa mãn điều kiện. Khi dùng lại, gây thêm +2 [Vibration].\nKhi dùng đến lần thứ 2 thì kích hoạt [VibrationExplosion], số lượt [Vibration] giảm"
                 }
               ]
             }
@@ -9011,7 +9011,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [Bộc phát Chấn động]. Khi [Bộc phát Chấn động], Số [Chấn động] giảm 2.\nTiêu thụ tối đa 4 Số [Sạc], Số [Vết rách] tăng tương ứng với Số [Sạc] đã tiêu thụ"
+                  "desc": "[OnSucceedAttack] Kích hoạt [VibrationExplosion], sau đó giảm Số [Vibration] đi 2. Tiêu thụ tối đa 4 Số Sạc, Số Vết rách tăng tương ứng với Số Sạc đã tiêu thụ"
                 }
               ]
             },
@@ -9045,7 +9045,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [Bộc phát Chấn động]. Khi [Bộc phát Chấn động], Số [Chấn động] giảm 2.\nTiêu thụ tối đa 4 Số [Sạc], Số [Vết rách] tăng tương ứng với Số [Sạc] đã tiêu thụ"
+                  "desc": "[OnSucceedAttack] Kích hoạt [VibrationExplosion], sau đó giảm Số [Vibration] đi 2. Tiêu thụ tối đa 4 Số Sạc, Số Vết rách tăng tương ứng với Số Sạc đã tiêu thụ"
                 }
               ]
             },
@@ -9520,7 +9520,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Nếu [Sinking] của mục tiêu từ 6 trở lên, Trầm luân sát đáo"
+                  "desc": "[OnSucceedAttack] Nếu [Sinking] của mục tiêu từ 6 trở lên, gây [SinkingSurge]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Nếu số lượng [Vibration] của bản thân từ 10 trở lên, gây thêm sát thương bằng 30% lượng sát thương gây ra"
@@ -9551,7 +9551,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Nếu [Sinking] của mục tiêu từ 6 trở lên, Trầm luân sát đáo"
+                  "desc": "[OnSucceedAttack] Nếu [Sinking] của mục tiêu từ 6 trở lên, gây [SinkingSurge]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Nếu số lượng [Vibration] của bản thân từ 10 trở lên, gây thêm sát thương bằng 40% lượng sát thương gây ra"
@@ -11344,7 +11344,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[EndSkill] Nếu mục tiêu rơi vào trạng thái Hoảng loạn hoặc chết, nhận Nhanh nhẹn (Haste) 1, Tăng Sức mạnh (Power) Trảm 1 vào lượt tiếp theo"
+                  "desc": "[EndSkill] Nếu mục tiêu rơi vào trạng thái Hoảng loạn hoặc chết, nhận [Agility] 1, [SlashResultUp] 1 vào lượt tiếp theo"
                 }
               ]
             }
@@ -11372,7 +11372,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[EndSkill] Nếu mục tiêu rơi vào trạng thái Hoảng loạn hoặc chết, nhận Nhanh nhẹn (Haste) 1, Tăng Sức mạnh (Power) Trảm 1 vào lượt tiếp theo"
+                  "desc": "[EndSkill] Nếu mục tiêu rơi vào trạng thái Hoảng loạn hoặc chết, nhận [Agility] 1, [SlashResultUp] 1 vào lượt tiếp theo"
                 }
               ]
             }

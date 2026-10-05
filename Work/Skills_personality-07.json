@@ -360,7 +360,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Nếu tổng Cường độ và Số lượng [Vibration] của mục tiêu từ 20 trở lên, [Switch_Vibration] sang [VibrationCollapse]"
+                  "desc": "[OnSucceedAttack] Nếu tổng Cường độ [Vibration] và Số lượng [Vibration] của mục tiêu từ 20 trở lên, kích hoạt [Switch_Vibration] lên mục tiêu, chuyển [Vibration] thành [VibrationCollapse]"
                 }
               ]
             }
@@ -388,7 +388,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Nếu tổng Cường độ và Số lượng [Vibration] của mục tiêu từ 20 trở lên, [Switch_Vibration] sang [VibrationCollapse]"
+                  "desc": "[OnSucceedAttack] Nếu tổng Cường độ [Vibration] và Số lượng [Vibration] của mục tiêu từ 20 trở lên, kích hoạt [Switch_Vibration] lên mục tiêu, chuyển [Vibration] thành [VibrationCollapse]"
                 }
               ]
             }
@@ -850,7 +850,7 @@
         {
           "level": 1,
           "name": "Dullahan...!",
-          "desc": "[DuelCounter]\n[StartBattle] Nếu không có [NightPathfinding], nhận 1 [NightPathfinding] vào lượt tiếp theo (Kích hoạt 1 lần mỗi lượt)\n[EndBattle] Nếu có [NightPathfinding], xóa bỏ nó",
+          "desc": "[DuelCounter]\n[StartBattle] Nếu không có [NightPathfinding], nhận 1 [NightPathfinding] vào lượt tiếp theo (Kích hoạt 1 lần mỗi lượt)\n[EndBattle] Nếu có [NightPathfinding], xóa bỏ [NightPathfinding]",
           "coinlist": [
             {},
             {
@@ -865,7 +865,7 @@
         {
           "level": 3,
           "name": "Hỡi Dullahan...!",
-          "desc": "[DuelCounter]\n<style=\"highlight\">[BeforeUse] Nếu có [NightPathfinding] và Tinh thần từ 15 trở lên, phản đòn bằng \"Ai than, Bi thiết, Lụi tàn đi\" (Kích hoạt 1 lần mỗi lượt)</style>\n[StartBattle] Nếu không có [NightPathfinding], nhận 1 [NightPathfinding] vào lượt tiếp theo (Kích hoạt 1 lần mỗi lượt)\n<style=\"highlight\">[WhenUse] Nếu [Sinking] của mục tiêu từ 6 trở lên, Uy lực đồng xu +1</style>\n[EndBattle] Nếu có [NightPathfinding], loại bỏ",
+          "desc": "[DuelCounter]\n<style=\"highlight\">[BeforeUse] Nếu có [NightPathfinding] và Tinh thần từ 15 trở lên, phản đòn bằng \"Ai than, Bi thiết, Lụi tàn đi\" (Kích hoạt 1 lần mỗi lượt)</style>\n[StartBattle] Nếu không có [NightPathfinding], nhận 1 [NightPathfinding] vào lượt tiếp theo (Kích hoạt 1 lần mỗi lượt)\n<style=\"highlight\">[WhenUse] Nếu [Sinking] của mục tiêu từ 6 trở lên, Uy lực đồng xu +1</style>\n[EndBattle] Nếu có [NightPathfinding], loại bỏ [NightPathfinding]",
           "coinlist": [
             {},
             {
@@ -880,7 +880,7 @@
         {
           "level": 4,
           "name": "Hỡi Dullahan...!",
-          "desc": "[DuelCounter]\n[BeforeUse] Nếu có [NightPathfinding] và Tinh thần từ 15 trở lên, phản đòn bằng \"Ai than, Bi thiết, Lụi tàn đi\" (Kích hoạt 1 lần mỗi lượt)\n[StartBattle] Nếu không có [NightPathfinding], nhận 1 [NightPathfinding] vào lượt tiếp theo (Kích hoạt 1 lần mỗi lượt)\n[WhenUse] Với mỗi <style=\"highlight\">3 [Sinking]</style> của mục tiêu, Uy lực đồng xu +1<style=\"highlight\"> (Tối đa 2)</style>\n<style=\"highlight\">[WinDuel] Nhận [AttackUp] vào lượt tiếp theo dựa theo (Số lần đấu kiếm ÷ 3) (Tối đa 3, kích hoạt 1 lần mỗi lượt)</style>\n[EndBattle] Nếu có [NightPathfinding], loại bỏ",
+          "desc": "[DuelCounter]\n[BeforeUse] Nếu có [NightPathfinding] và Tinh thần từ 15 trở lên, phản đòn bằng \"Ai than, Bi thiết, Lụi tàn đi\" (Kích hoạt 1 lần mỗi lượt)\n[StartBattle] Nếu không có [NightPathfinding], nhận 1 [NightPathfinding] vào lượt tiếp theo (Kích hoạt 1 lần mỗi lượt)\n[WhenUse] Với mỗi <style=\"highlight\">3 [Sinking]</style> của mục tiêu, Uy lực đồng xu +1 (Tối đa 2)\n<style=\"highlight\">[WinDuel] Nhận [AttackUp] vào lượt tiếp theo dựa theo (Số lần đấu kiếm ÷ 3) (Tối đa 3, kích hoạt 1 lần mỗi lượt)</style>\n[EndBattle] Nếu có [NightPathfinding], loại bỏ [NightPathfinding]",
           "coinlist": [
             {},
             {

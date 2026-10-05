@@ -81,7 +81,7 @@
         {
           "level": 2,
           "name": "Xé Toạc",
-          "desc": "Khi kỹ năng này bị vứt bỏ, nhận 1 Tăng Cấp độ Tấn công\n[WhenUse] [Discard] 1 kỹ năng có cấp thấp nhất từ tất cả các ô kỹ năng của bản thân",
+          "desc": "Khi kỹ năng này bị vứt bỏ, nhận 1 [AttackUp]\n[WhenUse] Vứt bỏ 1 kỹ năng có cấp thấp nhất từ tất cả các ô kỹ năng của bản thân",
           "coinlist": [
             {
               "coindescs": [
@@ -109,7 +109,7 @@
         {
           "level": 4,
           "name": "Xé Xác",
-          "desc": "Khi kỹ năng này bị vứt bỏ, nhận 1 Tăng Cấp độ Tấn công\n[WhenUse] [Discard] 1 kỹ năng có cấp thấp nhất từ tất cả các ô kỹ năng của bản thân",
+          "desc": "Khi kỹ năng này bị vứt bỏ, nhận 1 [AttackUp]\n[WhenUse] Vứt bỏ 1 kỹ năng có cấp thấp nhất từ tất cả các ô kỹ năng của bản thân",
           "coinlist": [
             {
               "coindescs": [
@@ -1092,7 +1092,7 @@
         {
           "level": 2,
           "name": "Sạc Nhảy",
-          "desc": "[Khi sử dụng] Tiêu tốn 6 số lượng [Charge] của bản thân, uy lực cơ bản +1\n- Nếu đã tiêu tốn số lượng [Charge], ban cho bản thân và 2 đồng minh có số lượng [Charge] thấp nhất [ChargeForceField] bằng ([Charge] + 1) (Tối đa 7, kích hoạt tối đa 1 lần mỗi lượt)\n[Khi sử dụng] Số lượng [Charge] của bản thân tăng 2",
+          "desc": "[WhenUse] Tiêu tốn 6 số lượng [Charge] của bản thân, uy lực cơ bản +1\n- Nếu đã tiêu tốn số lượng [Charge], ban cho bản thân và 2 đồng minh có số lượng [Charge] thấp nhất [ChargeForceField] bằng ([Charge] + 1) (Tối đa 7 [ChargeForceField], kích hoạt tối đa 1 lần mỗi lượt)\n[WhenUse] Số lượng [Charge] của bản thân tăng 2",
           "coinlist": [
             {
               "coindescs": [
@@ -1119,7 +1119,7 @@
         {
           "level": 4,
           "name": "Sạc Nhảy",
-          "desc": "[Khi sử dụng] Tiêu tốn 6 số lượng [Charge] của bản thân, uy lực đồng xu +1\n- Nếu đã tiêu tốn số lượng [Charge], ban cho bản thân và 2 đồng minh có số lượng [Charge] thấp nhất [ChargeForceField] bằng ([Charge] +<style=\"highlight\">2</style>) (Tối đa <style=\"highlight\">8</style>, kích hoạt tối đa <style=\"highlight\">2</style> lần mỗi lượt)\n[Khi sử dụng] Số lượng [Charge] của bản thân tăng 2",
+          "desc": "[WhenUse] Tiêu tốn 6 số lượng [Charge] của bản thân, uy lực đồng xu +1\n- Nếu đã tiêu tốn số lượng [Charge], ban cho bản thân và 2 đồng minh có số lượng [Charge] thấp nhất [ChargeForceField] bằng ([Charge] +<style=\"highlight\">2</style>) (Tối đa <style=\"highlight\">8</style> [ChargeForceField], kích hoạt tối đa <style=\"highlight\">2</style> lần mỗi lượt)\n[WhenUse] Số lượng [Charge] của bản thân tăng 2",
           "coinlist": [
             {
               "coindescs": [
@@ -1507,7 +1507,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Nếu [BloodScissorPersonalityFirst] từ 10 trở lên, Sát thương +([BloodScissorPersonalityFirst] × <style=\"highlight\">3</style>)% (Tối đa <style=\"highlight\">57</style>%)\n- Nếu [BloodScissorPersonalityFirst] từ 20 trở lên, Sát thương +([BloodScissorPersonalityFirst] × <style=\"highlight\">4</style>)% (Tối đa 120%) thay thế"
+                  "desc": "[OnSucceedAttack] Nếu [BloodScissorPersonalityFirst] từ 10 trở lên, Sát thương +([BloodScissorPersonalityFirst] × <style=\"highlight\">3</style>)% (Tối đa <style=\"highlight\">57</style>%)\n- Nếu [BloodScissorPersonalityFirst] từ 20 trở lên, Sát thương +([BloodScissorPersonalityFirst] × <style=\"highlight\">4</style>)% (Tối đa <style=\"highlight\">120</style>%) thay thế"
                 }
               ]
             }
