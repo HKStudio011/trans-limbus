@@ -700,7 +700,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[CriticalOnSucceedAttack] Ban 2 [Breath] cho 1 đồng minh không có [Breath] hoặc sở hữu ít Cấp độ [Breath] nhất\n<style=\"highlight\">Nếu mục tiêu là thành viên Hội Kiếm, ban thêm 2 Bình tĩnh</style>"
+                  "desc": "[CriticalOnSucceedAttack] Ban 2 [Breath] cho 1 đồng minh không có [Breath] hoặc sở hữu ít Cấp độ [Breath] nhất\n<style=\"highlight\">Nếu mục tiêu là thành viên Hội Kiếm, ban thêm 2 [Breath]</style>"
                 }
               ]
             }
@@ -1148,7 +1148,7 @@
         {
           "level": 4,
           "name": "Hãy phô diễn thỏa lòng ngươi",
-          "desc": "Khi kỹ năng này trúng đích, hồi phục Máu bằng 30% lượng sát thương gây ra (Tối đa 10)\n[WhenUse] Tiêu hao tối đa 50 [BloodDinner], mỗi 10 [BloodDinner] tiêu hao nhận 1 [BloodArmorPersonalityFirst]\n- Nếu không thể tiêu hao [BloodDinner], nhận 5 [Laceration]\n[WhenUse] <style=\"highlight\">Mỗi 6</style> [Laceration] trên mục tiêu, uy lực xu +1 <style=\"highlight\">(Tối đa 2)</style>\n[BeforeAttack] Mỗi 10 [BloodArmorPersonalityFirst], Trọng số Tấn công tăng 1 (Tối đa 2)",
+          "desc": "Khi kỹ năng này trúng đích, hồi phục Máu bằng 30% lượng sát thương gây ra (Tối đa 10)\n[WhenUse] Tiêu hao tối đa 50 [BloodDinner], mỗi 10 [BloodDinner] tiêu hao nhận 1 [BloodArmorPersonalityFirst]\n- Nếu không thể tiêu hao [BloodDinner], nhận 5 [Laceration]\n[WhenUse] Mỗi 6 [Laceration] trên mục tiêu, uy lực xu +1 (Tối đa 2)</style>\n[BeforeAttack] Mỗi 10 [BloodArmorPersonalityFirst], Trọng số Tấn công tăng 1 (Tối đa 2)",
           "coinlist": [
             {
               "coindescs": [
@@ -2129,7 +2129,7 @@
         {
           "level": 2,
           "name": "Lũ ác ôn... ở đâu...?",
-          "desc": "Với mỗi 1 [HystericGauge] của bản thân, Lượng sát thương <style=\"highlight\">+4% (Tối đa 12%)</style>\n<style=\"highlight\">[WhenUse] Tiêu hao 5 số lượng [ThePowerOfLoveAndHate] của bản thân, Uy lực cơ bản +1</style>\n[WhenUse] Số lượng [ThePowerOfLoveAndHate] của bản thân tăng <style=\"highlight\">3</style>\n[WhenUse] Tỉnh táo giảm 5",
+          "desc": "Với mỗi 1 [HystericGauge] của bản thân, Lượng sát thương <style=\"highlight\">+4%</style> <style=\"highlight\">(Tối đa 12%)</style>\n<style=\"highlight\">[WhenUse] Tiêu hao 5 số lượng [ThePowerOfLoveAndHate] của bản thân, Uy lực cơ bản +1</style>\n[WhenUse] Số lượng [ThePowerOfLoveAndHate] của bản thân tăng <style=\"highlight\">3</style>\n[WhenUse] Tỉnh táo giảm 5",
           "coinlist": [
             {
               "coindescs": [
@@ -2153,7 +2153,7 @@
         {
           "level": 4,
           "name": "Kẻ thủ ác... ở đâu...?",
-          "desc": "Với mỗi 1 [HystericGauge] của bản thân, lượng sát thương <style=\"highlight\">+5% (Tối đa 15%)</style>\n[WhenUse] Tiêu hao 5 số lượng [ThePowerOfLoveAndHate] của bản thân, Uy lực cơ bản +1\n<style=\"highlight\">[WhenUse] Với mỗi 2 [ThePowerOfLoveAndHate] của bản thân, Uy lực cơ bản +1 (Tối đa 2)</style>\n[WhenUse] Số lượng [ThePowerOfLoveAndHate] của bản thân tăng 3\n[WhenUse] Tỉnh táo giảm 5",
+          "desc": "Với mỗi 1 [HystericGauge] của bản thân, lượng sát thương <style=\"highlight\">+5%</style> <style=\"highlight\">(Tối đa 15%)</style>\n<style=\"highlight\">[WhenUse] Tiêu hao 5 số lượng [ThePowerOfLoveAndHate] của bản thân, Uy lực cơ bản +1</style>\n<style=\"highlight\">[WhenUse] Với mỗi 2 [ThePowerOfLoveAndHate] của bản thân, Uy lực cơ bản +1 (Tối đa 2)</style>\n[WhenUse] Số lượng [ThePowerOfLoveAndHate] của bản thân tăng 3\n[WhenUse] Tỉnh táo giảm 5",
           "coinlist": [
             {
               "coindescs": [
@@ -2478,7 +2478,7 @@
         {
           "level": 4,
           "name": "Thế Chẻ Tre",
-          "desc": "Với mỗi 6 tổng số [Burst] và [Sinking] trên mục tiêu, <style=\"highlight\">Cấp đồng xu +1 (Tối đa 2)</style>\n[StartBattle] Nếu bản thân có [GrownHorns], đồng xu cuối cùng của kỹ năng này đổi thành [SuperCoin] và <style=\"highlight\">với mỗi 1 giá trị, tăng +5% sát thương đồng xu cuối cùng (Tối đa 15%)</style>",
+          "desc": "Với mỗi 6 tổng số [Burst] và [Sinking] trên mục tiêu, <style=\"highlight\">Cấp đồng xu +1 (Tối đa 2)</style>\n[StartBattle] Nếu bản thân có [GrownHorns], đồng xu cuối cùng của kỹ năng này đổi thành [SuperCoin] và <style=\"highlight\">với mỗi 1 [GrownHorns] của bản thân, tăng +5% sát thương đồng xu cuối cùng (Tối đa 15%)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -2558,7 +2558,7 @@
         {
           "level": 4,
           "name": "Sừng Phá Toái",
-          "desc": "Với mỗi 6 tổng số [Burst] và [Sinking] của mục tiêu, <style=\"highlight\">Uy lực đồng xu +1 (Tối đa 2)</style>\n[StartBattle] Nếu bản thân có [GrownHorns], toàn bộ đồng xu của kỹ năng này được chuyển thành [SuperCoin] và <style=\"highlight\">tăng +10% lượng sát thương với mỗi 1 giá trị (Tối đa 30%)</style>\n[WhenUse] Nhận 3 [GrownHorns]",
+          "desc": "Với mỗi 6 tổng số [Burst] và [Sinking] của mục tiêu, <style=\"highlight\">Uy lực đồng xu +1 (Tối đa 2)</style>\n[StartBattle] Nếu bản thân có [GrownHorns], toàn bộ đồng xu của kỹ năng này được chuyển thành [SuperCoin] và <style=\"highlight\">tăng +10% lượng sát thương với mỗi 1 [GrownHorns] của bản thân (Tối đa 30%)</style>\n[WhenUse] Nhận 3 [GrownHorns]",
           "coinlist": [
             {},
             {
@@ -2587,7 +2587,7 @@
                   "desc": "Nếu mục tiêu có hiệu ứng thay đổi loại Hoảng loạn, tăng <style=\"highlight\">+10%</style> lượng sát thương gây ra với mỗi 1 giá trị (Tối đa <style=\"highlight\">30%</style>)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gây sát thương Trảm bằng 25% lượng sát thương cuối cùng của đồng xu này\n<style=\"highlight\">- Nếu mục tiêu có [CrushMarks], hiệu ứng được cường hóa, thay vào đó gây sát thương Trảm bằng 50%</style>"
+                  "desc": "[OnSucceedAttack] Gây sát thương Trảm bằng 25% lượng sát thương cuối cùng của đồng xu này\n<style=\"highlight\">- Nếu mục tiêu có [CrushMarks], hiệu ứng được cường hóa, thay vào đó gây sát thương Trảm bằng 50%"
                 },
                 {
                   "desc": "[OnSucceedAttack] Lượt kế tiếp, cấp 3 [CrushMarks]\n<style=\"highlight\">- Nếu mục tiêu có hiệu ứng thay đổi loại Hoảng loạn, tăng thêm 3 số lần [Sinking] của mục tiêu (1 lần mỗi lượt)</style>"

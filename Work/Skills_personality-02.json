@@ -591,7 +591,7 @@
         {
           "level": 4,
           "name": "Hồng Mai Tan Tác",
-          "desc": "Với mỗi 1 [RedApricotBlossom] trên mục tiêu, Sát thương +3%\n<style=\"highlight\">Với mỗi 7 [Breath] của bản thân, Uy lực Đồng xu +1 (Tối đa 3)</style>\n[WinDuel] Giảm một nửa Số lượng [Breath] của bản thân, nhận [Breath] tương ứng với lượng đã giảm (Tối đa 10)\n<style=\"highlight\">Khi kỹ năng này trúng bạo kích, [RedApricotBlossom] không bị giảm</style>",
+          "desc": "Với mỗi 1 [RedApricotBlossom] trên mục tiêu, Sát thương +3%\n<style=\"highlight\">Với mỗi 7 [Breath] của bản thân, Uy lực Đồng xu +1 (Tối đa 3)</style>\n[WinDuel] Giảm một nửa Số lượng [Breath] của bản thân, sau đó nhận [Breath] tương ứng với Số lượng [Breath] đã tiêu hao (Tối đa 10)\n<style=\"highlight\">Khi kỹ năng này trúng bạo kích, [RedApricotBlossom] không bị giảm</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -609,7 +609,7 @@
                   "desc": "[CriticalOnSucceedAttack] Cấp 5 [RedApricotBlossom]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Nếu [RedApricotBlossom] của mục tiêu là 10, cấp 1 Mỏng manh Chém"
+                  "desc": "[CriticalOnSucceedAttack] Nếu [RedApricotBlossom] của mục tiêu là 10, cấp 1 [SlashTakeDamageUp]"
                 }
               ]
             }
@@ -895,7 +895,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Nếu Cộng hưởng chứa kỹ năng này từ 3 trở lên, tiêu hao toàn bộ số tầng [Charge] đang có, tăng +<style=\"highlight\">([Charge] + 3)% Lượng sát thương với mỗi 1 số tầng [Charge] đã tiêu hao bởi kỹ năng này (Tối đa 120%)</style>"
+                  "desc": "Nếu Cộng hưởng chứa kỹ năng này từ 3 trở lên, tiêu hao toàn bộ số tầng [Charge] đang có, tăng +<style=\"highlight\">([Charge] + 3)</style>% Lượng sát thương với mỗi 1 số tầng [Charge] đã tiêu hao bởi kỹ năng này (Tối đa <style=\"highlight\">120%</style>)"
                 }
               ]
             }
@@ -911,7 +911,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Nếu Cộng hưởng chứa kỹ năng này từ 3 trở lên, tiêu hao toàn bộ số tầng [Charge] đang có, tăng +<style=\"highlight\">([Charge] + 4)% Lượng sát thương với mỗi 1 số tầng [Charge] đã tiêu hao bởi kỹ năng này (Tối đa 180%)</style>"
+                  "desc": "Nếu Cộng hưởng chứa kỹ năng này từ 3 trở lên, tiêu hao toàn bộ số tầng [Charge] đang có, tăng +<style=\"highlight\">([Charge] + 4)</style>% Lượng sát thương với mỗi 1 số tầng [Charge] đã tiêu hao bởi kỹ năng này (Tối đa <style=\"highlight\">180%</style>)"
                 }
               ]
             }
@@ -977,7 +977,7 @@
                   "desc": "Nếu [Charge] từ 3 trở lên, +<style=\"highlight\">8%</style> lượng sát thương với mỗi [Charge] (Tối đa <style=\"highlight\">40%</style>)"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Lượt tiếp theo, áp dụng 1 Mỏng manh Đố kỵ\n- Nếu [Charge] từ 2 trở lên, áp dụng thêm 1</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Lượt tiếp theo, áp dụng 1 [VioletTakeDamageUp]\n- Nếu [Charge] từ 2 trở lên, áp dụng thêm 1 [VioletTakeDamageUp]</style>"
                 }
               ]
             }
@@ -1275,7 +1275,7 @@
         {
           "level": 1,
           "name": "Hồng Viêm Sát Cảm Ứng Tối Đa 【Xói Mòn Thoái Hóa】",
-          "desc": "Kẻ sử dụng sẽ tử vong khi kết thúc đòn tấn công bằng kỹ năng này.\n- Nếu máu chạm mốc 1 trong khi đang sử dụng kỹ năng này, máu sẽ không giảm xuống dưới 1 sau đó.\n[WhenUse] Với mỗi 5 [Combustion] của bản thân, lượng sát thương +7.5% (Tối đa 30%)\n[WhenUse] Nếu (Tổng [Combustion] của bản thân + mục tiêu) từ 10 trở lên, uy lực cơ bản +1\n[WhenUse] Với mỗi 30% máu đã mất của bản thân, uy lực Coin +1 (Tối đa 2)\n[BeforeAttack] Với mỗi 20% máu đã mất của bản thân, Trọng số tấn công +1 (Tối đa 2)",
+          "desc": "Kẻ sử dụng sẽ tử vong khi kết thúc đòn tấn công bằng kỹ năng này.\n- Nếu máu chạm mốc 1 trong khi đang sử dụng kỹ năng này, máu sẽ không giảm xuống dưới 1 sau đó.\n[WhenUse] Với mỗi 5 [Combustion] của bản thân, lượng sát thương +7.5% (Tối đa 30%)\n[WhenUse] Nếu ([Combustion] của bản thân + [Combustion] của mục tiêu) từ 10 trở lên, uy lực cơ bản +1\n[WhenUse] Với mỗi 30% máu đã mất của bản thân, uy lực Coin +1 (Tối đa 2)\n[BeforeAttack] Với mỗi 20% máu đã mất của bản thân, Trọng số tấn công +1 (Tối đa 2)",
           "coinlist": [
             {
               "coindescs": [
@@ -1312,7 +1312,7 @@
         {
           "level": 4,
           "name": "Hồng Viêm Sát Cảm Ứng Tối Đa 【Xói Mòn Thoái Hóa】",
-          "desc": "Kẻ sử dụng sẽ tử vong khi kết thúc đòn tấn công bằng kỹ năng này.\n- Nếu máu chạm mốc 1 trong khi đang sử dụng kỹ năng này, máu sẽ không giảm xuống dưới 1 sau đó.\n[WhenUse] Với mỗi 5 [Combustion] của bản thân, lượng sát thương +12.5% (Tối đa 50%)\n[WhenUse] Với mỗi 10 (Tổng [Combustion] của bản thân + mục tiêu), uy lực cơ bản +1 (Tối đa 2)\n[WhenUse] Với mỗi 30% máu đã mất của bản thân, uy lực Coin +1 (Tối đa 3)\n[BeforeAttack] Với mỗi 20% máu đã mất của bản thân, Trọng số tấn công +1 (Tối đa 4)",
+          "desc": "Kẻ sử dụng sẽ tử vong khi kết thúc đòn tấn công bằng kỹ năng này.\n- Nếu máu chạm mốc 1 trong khi đang sử dụng kỹ năng này, máu sẽ không giảm xuống dưới 1 sau đó.\n[WhenUse] Với mỗi 5 [Combustion] của bản thân, lượng sát thương +12.5% (Tối đa 50%)\n[WhenUse] Với mỗi 10 ([Combustion] của bản thân + [Combustion] của mục tiêu), uy lực cơ bản +1 (Tối đa 2)\n[WhenUse] Với mỗi 30% máu đã mất của bản thân, uy lực Coin +1 (Tối đa 3)\n[BeforeAttack] Với mỗi 20% máu đã mất của bản thân, Trọng số tấn công +1 (Tối đa 4)",
           "coinlist": [
             {
               "coindescs": [
@@ -2560,7 +2560,7 @@
         {
           "level": 3,
           "name": "Cơ thể bị ức chế",
-          "desc": "[IronMaidenPersonality] Kỹ năng riêng\n[WhenUse] Với mỗi 4 [Laceration] trên mục tiêu, Sức mạnh Cuối +1 (Tối đa 2)\n[WhenUse] Nếu số lần [ChargeBodyArt] của bản thân từ 10 trở lên, tiêu hao tối đa 20 số lần [ChargeBodyArt] để áp dụng các hiệu ứng sau:\n- Sức mạnh Cuối +2\n- Với mỗi 1 đơn vị tiêu hao, Lượng sát thương +3%",
+          "desc": "[IronMaidenPersonality] Kỹ năng riêng\n[WhenUse] Với mỗi 4 [Laceration] trên mục tiêu, Sức mạnh Cuối +1 (Tối đa 2)\n[WhenUse] Nếu số lần [ChargeBodyArt] của bản thân từ 10 trở lên, tiêu hao tối đa 20 số lần [ChargeBodyArt] để áp dụng các hiệu ứng sau:\n- Sức mạnh Cuối +2\n- Với mỗi 1 [ChargeBodyArt] tiêu hao, Lượng sát thương +3%",
           "coinlist": [
             {
               "coindescs": [
@@ -2598,7 +2598,7 @@
         {
           "level": 4,
           "name": "Thể Xác Bị Kìm Nén",
-          "desc": "[IronMaidenPersonality] Kỹ năng riêng\n[WhenUse] Với mỗi 4 [Laceration] trên mục tiêu, Sức mạnh Cuối +1 (Tối đa 3)\n[WhenUse] Nếu số lần [ChargeBodyArt] của bản thân từ 10 trở lên, tiêu hao tối đa 20 số lần [ChargeBodyArt] để áp dụng các hiệu ứng sau:\n- Sức mạnh Cuối +2\n- Với mỗi 1 đơn vị tiêu hao, Lượng sát thương +3%",
+          "desc": "[IronMaidenPersonality] Kỹ năng riêng\n[WhenUse] Với mỗi 4 [Laceration] trên mục tiêu, Sức mạnh Cuối +1 (Tối đa 3)\n[WhenUse] Nếu số lần [ChargeBodyArt] của bản thân từ 10 trở lên, tiêu hao tối đa 20 số lần [ChargeBodyArt] để áp dụng các hiệu ứng sau:\n- Sức mạnh Cuối +2\n- Với mỗi 1 [ChargeBodyArt] tiêu hao, Lượng sát thương +3%",
           "coinlist": [
             {
               "coindescs": [
@@ -2843,7 +2843,7 @@
         {
           "level": 3,
           "name": "Giải phóng xác thịt bị kiềm nén",
-          "desc": "Kỹ năng chuyên dụng của [SilverOpportunity]\n[WhenUse] Với mỗi đối tượng tấn công có Trọng số Tấn công thấp hơn Trọng số Tấn công của kỹ năng này, Sát thương +30% (Trong trận chiến tập trung, xét theo bộ phận)\n[WhenUse] Với mỗi 4 [Laceration] trên mục tiêu chính, Uy lực Cuối cùng +1 (Tối đa 2)\n[WhenUse] Nếu số lượng [ChargeBodyArt] của bản thân từ 10 trở lên, tiêu hao tối đa 20 [ChargeBodyArt] để áp dụng các hiệu ứng sau:\n- Uy lực Cuối cùng +2\n- Với mỗi 1 đơn vị tiêu hao, Sát thương +1%\n- Nếu [ChargeBodyArt] từ 3/5 trở lên, Trọng số Tấn công +1/+2\n- Tất cả đồng xu trở thành [SuperCoin]",
+          "desc": "Kỹ năng chuyên dụng của [SilverOpportunity]\n[WhenUse] Với mỗi đối tượng tấn công có Trọng số Tấn công thấp hơn Trọng số Tấn công của kỹ năng này, Sát thương +30% (Trong trận chiến tập trung, xét theo bộ phận)\n[WhenUse] Với mỗi 4 [Laceration] trên mục tiêu chính, Uy lực Cuối cùng +1 (Tối đa 2)\n[WhenUse] Nếu số lượng [ChargeBodyArt] của bản thân từ 10 trở lên, tiêu hao tối đa 20 [ChargeBodyArt] để áp dụng các hiệu ứng sau:\n- Uy lực Cuối cùng +2\n- Với mỗi 1 [ChargeBodyArt] tiêu hao, Sát thương +1%\n- Nếu [ChargeBodyArt] từ 3/5 trở lên, Trọng số Tấn công +1/+2\n- Tất cả đồng xu trở thành [SuperCoin]",
           "coinlist": [
             {
               "coindescs": [
@@ -2887,7 +2887,7 @@
         {
           "level": 4,
           "name": "Giải phóng Thể xác bị Ức chế",
-          "desc": "[SilverOpportunity] Kỹ năng chuyên dụng\n[WhenUse] Với mỗi mục tiêu có Chỉ số Cộng hưởng thấp hơn Chỉ số Cộng hưởng của kỹ năng này, Sát thương +30% (Trong chiến đấu tập trung, tính theo bộ phận)\n[WhenUse] Với mỗi 4 [Laceration] trên mục tiêu chính, Uy lực Cuối cùng +1 (Tối đa 3)\n[WhenUse] Nếu số tầng [ChargeBodyArt] của bản thân từ 10 trở lên, tiêu hao tối đa 20 tầng [ChargeBodyArt] để áp dụng các hiệu ứng sau:\n- Uy lực Cuối cùng +2\n- Với mỗi 1 đơn vị tiêu hao, Sát thương +1%\n- Nếu [ChargeBodyArt] từ 3/5 trở lên, Chỉ số Cộng hưởng +1/+2\n- Tất cả Đồng xu trở thành [SuperCoin]",
+          "desc": "[SilverOpportunity] Kỹ năng chuyên dụng\n[WhenUse] Với mỗi mục tiêu có Chỉ số Cộng hưởng thấp hơn Chỉ số Cộng hưởng của kỹ năng này, Sát thương +30% (Trong chiến đấu tập trung, tính theo bộ phận)\n[WhenUse] Với mỗi 4 [Laceration] trên mục tiêu chính, Uy lực Cuối cùng +1 (Tối đa 3)\n[WhenUse] Nếu số tầng [ChargeBodyArt] của bản thân từ 10 trở lên, tiêu hao tối đa 20 tầng [ChargeBodyArt] để áp dụng các hiệu ứng sau:\n- Uy lực Cuối cùng +2\n- Với mỗi 1 [ChargeBodyArt] tiêu hao, Sát thương +1%\n- Nếu [ChargeBodyArt] từ 3/5 trở lên, Chỉ số Cộng hưởng +1/+2\n- Tất cả Đồng xu trở thành [SuperCoin]",
           "coinlist": [
             {
               "coindescs": [
