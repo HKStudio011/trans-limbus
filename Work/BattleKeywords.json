@@ -206,7 +206,7 @@
     {
       "id": "Vibration",
       "name": "Chấn động(Tremor)",
-      "desc": "Khi nhận sát thương bằng kỹ năng [Tremor] Bộc phát(Burst), thanh choáng tiến tới một khoảng bằng mức uy lực của hiệu ứng\nSau khi kết thúc lượt, Số lượng giảm 1"
+      "desc": "Khi nhận sát thương bằng kỹ năng [Chấn động] Bộc phát(Burst), thanh choáng tiến tới một khoảng bằng mức uy lực của hiệu ứng\nSau khi kết thúc lượt, Số lượng giảm 1"
     },
     {
       "id": "Burst",
@@ -1039,8 +1039,8 @@
     {
       "id": "ErodingMind",
       "name": "Tâm trí bị xâm thực",
-      "desc": "Khi bắt đầu lượt, nhận Giảm Uy lực Tấn công 2, [Fragile] 2, Ràng buộc 5",
-      "summary": "Khi bắt đầu lượt, nhận Giảm Uy lực Tấn công 2, [Fragile] 2, Ràng buộc 5"
+      "desc": "Khi bắt đầu lượt, nhận Giảm Uy lực Tấn công 2, [Mong manh] 2, Ràng buộc 5",
+      "summary": "Khi bắt đầu lượt, nhận Giảm Uy lực Tấn công 2, [Mong manh] 2, Ràng buộc 5"
     },
     {
       "id": "CrimsonResultUp",
@@ -1050,7 +1050,7 @@
     {
       "id": "EmittedCurrent",
       "name": "Dòng điện Phóng ra",
-      "desc": "Khi nhận sát thương, Số lần Sạc của kẻ tấn công tăng 1. Khi nhận sát thương hệ U sầu, Số lần [Rupture] của bản thân tăng 1. Sau đó trị số giảm 1."
+      "desc": "Khi nhận sát thương, Số lần Sạc của kẻ tấn công tăng 1. Khi nhận sát thương hệ U sầu, Số lần [Vết rách] của bản thân tăng 1. Sau đó trị số giảm 1."
     },
     {
       "id": "DistortedDongrangRadiantVanity",
@@ -1105,7 +1105,7 @@
     {
       "id": "EgoAwakenDongrangOverHeal",
       "name": "Hồi phục Quá mức",
-      "desc": "Trị số tăng bằng lượng máu mà Dongrang đã hồi phục. Nếu trị số từ 50 trở lên, gây sát thương hệ Phàm ăn bằng trị số, gây [Fragile] 5 vào lượt kế tiếp và hiệu ứng biến mất."
+      "desc": "Trị số tăng bằng lượng máu mà Dongrang đã hồi phục. Nếu trị số từ 50 trở lên, gây sát thương hệ Phàm ăn bằng trị số, gây [Mong manh] 5 vào lượt kế tiếp và hiệu ứng biến mất."
     },
     {
       "id": "SinkingSurge",
@@ -1252,7 +1252,7 @@
     {
       "id": "Unjust_Enrichment",
       "name": "Lợi nhuận Bất chính",
-      "desc": "- Nhận khi đánh trúng bằng mặt trước vào mục tiêu đang bị [Bleed] (Tối đa 4)\n- Khi kích hoạt nội tại \"Đạn đắt lắm đấy\", tiêu thụ toàn bộ buff này để gây thêm sát thương."
+      "desc": "- Nhận khi đánh trúng bằng mặt trước vào mục tiêu đang bị [Xuất huyết] (Tối đa 4)\n- Khi kích hoạt nội tại \"Đạn đắt lắm đấy\", tiêu thụ toàn bộ buff này để gây thêm sát thương."
     },
     {
       "id": "Resentment",
@@ -1288,8 +1288,8 @@
     },
     {
       "id": "VibrationExplosion",
-      "name": "[Tremor] Bộc phát",
-      "desc": "Đẩy mốc choáng của mục tiêu lên phía trước một khoảng bằng Uy lực [Tremor]."
+      "name": "[Chấn động] Bộc phát",
+      "desc": "Đẩy mốc choáng của mục tiêu lên phía trước một khoảng bằng Uy lực [Chấn động]."
     },
     {
       "id": "OneOnOneDuel",
@@ -1309,7 +1309,7 @@
     {
       "id": "DarkFlame",
       "name": "Hắc hỏa",
-      "desc": "- [Burn] đặc biệt\n- Giá trị tối đa: 7\n- Giảm Cấp phòng thủ của mục tiêu theo giá trị\n- Khi kết thúc lượt, gây sát thương thuộc tính Ngạo mạn bằng (Giá trị × [Burn] của mục tiêu) và hiệu ứng biến mất."
+      "desc": "- [Bỏng] đặc biệt\n- Giá trị tối đa: 7\n- Giảm Cấp phòng thủ của mục tiêu theo giá trị\n- Khi kết thúc lượt, gây sát thương thuộc tính Ngạo mạn bằng (Giá trị × [Bỏng] của mục tiêu) và hiệu ứng biến mất."
     },
     {
       "id": "CtrlTeamCaptain",
@@ -1319,12 +1319,12 @@
     {
       "id": "HeatedGasHarpoon",
       "name": "Lao gas Nóng",
-      "desc": "Trong 1 lượt, khi đánh trúng bằng mặt trước, gây 1 [Burn]."
+      "desc": "Trong 1 lượt, khi đánh trúng bằng mặt trước, gây 1 [Bỏng]."
     },
     {
       "id": "OverHeatedGasHarpoon",
       "name": "Lao gas Quá nhiệt",
-      "desc": "Trong 1 lượt, khi đánh trúng, gây 1 [Burn]."
+      "desc": "Trong 1 lượt, khi đánh trúng, gây 1 [Bỏng]."
     },
     {
       "id": "CoverAttack",
@@ -1364,13 +1364,13 @@
     {
       "id": "RedApricotBlossom",
       "name": "Hồng Mai",
-      "desc": "- [Bleed] đặc biệt\n- Giá trị tối đa: 10\n- Nếu là mục tiêu chính, khi nhận sát thương, Tỉ lệ Kích hoạt Chí mạng +10%\n- Khi nhận sát thương Chí mạng, nhận [Bleed] bằng một nửa giá trị, và Sát thương Chí mạng nhận vào tăng (Giá trị × 3)%\n- Giảm 1 khi nhận sát thương",
+      "desc": "- [Xuất huyết] đặc biệt\n- Giá trị tối đa: 10\n- Nếu là mục tiêu chính, khi nhận sát thương, Tỉ lệ Kích hoạt Chí mạng +10%\n- Khi nhận sát thương Chí mạng, nhận [Xuất huyết] bằng một nửa giá trị, và Sát thương Chí mạng nhận vào tăng (Giá trị × 3)%\n- Giảm 1 khi nhận sát thương",
       "summary": "Khi nhận sát thương, tăng Tỉ lệ Kích hoạt Chí mạng và Sát thương Chí mạng nhận vào"
     },
     {
       "id": "VibrationCollapse",
-      "name": "[Tremor] - Sụp Đổ",
-      "desc": "Với mỗi 4 Uy lực [Tremor] trên đối tượng, Cấp Phòng thủ giảm 1\nKhi nhận sát thương bởi kỹ năng Vết rách [Tremor], Vùng Hoảng loạn tiến lên một khoảng bằng giá trị hiệu ứng\nGiảm 1 số lần khi kết thúc lượt\n(Chịu ảnh hưởng tương tự bởi các hiệu ứng tăng giảm Uy lực và Số lần [Tremor])"
+      "name": "[Chấn động] - Sụp Đổ",
+      "desc": "Với mỗi 4 Uy lực [Chấn động] trên đối tượng, Cấp Phòng thủ giảm 1\nKhi nhận sát thương bởi kỹ năng Vết rách [Chấn động], Vùng Hoảng loạn tiến lên một khoảng bằng giá trị hiệu ứng\nGiảm 1 số lần khi kết thúc lượt\n(Chịu ảnh hưởng tương tự bởi các hiệu ứng tăng giảm Uy lực và Số lần [Chấn động])"
     },
     {
       "id": "EchoOfMansion",
@@ -1380,7 +1380,7 @@
     {
       "id": "Switch_Vibration",
       "name": "Chuyển Đổi Biên Độ",
-      "desc": "Chuyển đổi [Tremor] và các loại [Tremor] đã chuyển đổi của đối tượng sang một loại [Tremor] khác.\nKhi chuyển đổi, Uy lực và Số lần [Tremor] hiện có được giữ nguyên."
+      "desc": "Chuyển đổi [Chấn động] và các loại [Chấn động] đã chuyển đổi của đối tượng sang một loại [Chấn động] khác.\nKhi chuyển đổi, Uy lực và Số lần [Chấn động] hiện có được giữ nguyên."
     },
     {
       "id": "AzureResultUp",
@@ -1389,8 +1389,8 @@
     },
     {
       "id": "VibrationCrack",
-      "name": "[Tremor] - Rạn Nứt",
-      "desc": "- Khi rơi vào trạng thái Hoảng loạn, nếu tổng Uy lực và Số lần [Tremor] của bản thân từ 20 trở lên, cấp độ Hoảng loạn tăng thêm 1\n- Hiệu ứng này không vượt quá cấp độ Hoảng loạn tối đa\n\nKhi nhận sát thương bởi kỹ năng Vết rách [Tremor], Vùng Hoảng loạn tiến lên một khoảng bằng giá trị hiệu ứng\nGiảm 1 số lần sau khi kết thúc lượt\n(Áp dụng tương tự như các hiệu ứng tăng giảm Uy lực và Số lần [Tremor])"
+      "name": "[Chấn động] - Rạn Nứt",
+      "desc": "- Khi rơi vào trạng thái Hoảng loạn, nếu tổng Uy lực và Số lần [Chấn động] của bản thân từ 20 trở lên, cấp độ Hoảng loạn tăng thêm 1\n- Hiệu ứng này không vượt quá cấp độ Hoảng loạn tối đa\n\nKhi nhận sát thương bởi kỹ năng Vết rách [Chấn động], Vùng Hoảng loạn tiến lên một khoảng bằng giá trị hiệu ứng\nGiảm 1 số lần sau khi kết thúc lượt\n(Áp dụng tương tự như các hiệu ứng tăng giảm Uy lực và Số lần [Chấn động])"
     },
     {
       "id": "ForwardToTheKing",
@@ -1430,8 +1430,8 @@
     },
     {
       "id": "VibrationEcho",
-      "name": "[Tremor] - Vang Vọng",
-      "desc": "- Khi Vết rách [Tremor], nhận sát thương hệ Lười biếng bằng Uy lực [Tremor]\n- Khi nhận sát thương bởi kỹ năng Vết rách [Tremor], Vùng Hoảng loạn tiến lên một khoảng bằng giá trị hiệu ứng\n- Giảm 1 số lần khi kết thúc lượt\n(Chịu ảnh hưởng tương tự bởi các hiệu ứng tăng giảm Uy lực và Số lần [Tremor])",
+      "name": "[Chấn động] - Vang Vọng",
+      "desc": "- Khi Vết rách [Chấn động], nhận sát thương hệ Lười biếng bằng Uy lực [Chấn động]\n- Khi nhận sát thương bởi kỹ năng Vết rách [Chấn động], Vùng Hoảng loạn tiến lên một khoảng bằng giá trị hiệu ứng\n- Giảm 1 số lần khi kết thúc lượt\n(Chịu ảnh hưởng tương tự bởi các hiệu ứng tăng giảm Uy lực và Số lần [Chấn động])",
       "summary": ""
     },
     {
@@ -1442,26 +1442,26 @@
     },
     {
       "id": "VibrationContinue",
-      "name": "[Tremor] - Vĩnh cửu",
-      "desc": "- Khi [Tremor] Bộc phát bởi hiệu ứng Kỹ năng/Đồng xu, có (Cường độ [Tremor])% xác suất bản thân kích hoạt thêm 1 lần [Tremor] Bộc phát (Tối đa 50%)\n- Khi [Tremor] Bộc phát bởi hiệu ứng Kỹ năng/Đồng xu, có (Số lượng [Tremor])% xác suất bản thân kích hoạt thêm 1 lần [Tremor] Bộc phát (Tối đa 50%)\n- Khi nhận sát thương bởi Kỹ năng [Tremor] Bộc phát, đẩy Thanh choáng lên một đoạn bằng Cường độ hiệu ứng\n- Giảm 1 Số lượng khi kết thúc lượt\n(Các hiệu ứng tăng giảm Cường độ và Số lượng [Tremor] cũng được áp dụng tương tự)",
+      "name": "[Chấn động] - Vĩnh cửu",
+      "desc": "- Khi [Chấn động] Bộc phát bởi hiệu ứng Kỹ năng/Đồng xu, có (Cường độ [Chấn động])% xác suất bản thân kích hoạt thêm 1 lần [Chấn động] Bộc phát (Tối đa 50%)\n- Khi [Chấn động] Bộc phát bởi hiệu ứng Kỹ năng/Đồng xu, có (Số lượng [Chấn động])% xác suất bản thân kích hoạt thêm 1 lần [Chấn động] Bộc phát (Tối đa 50%)\n- Khi nhận sát thương bởi Kỹ năng [Chấn động] Bộc phát, đẩy Thanh choáng lên một đoạn bằng Cường độ hiệu ứng\n- Giảm 1 Số lượng khi kết thúc lượt\n(Các hiệu ứng tăng giảm Cường độ và Số lượng [Chấn động] cũng được áp dụng tương tự)",
       "summary": ""
     },
     {
       "id": "TimeSuspend",
       "name": "Gia hạn Thời gian",
-      "desc": "- Trong khi hiệu ứng này còn tồn tại, tích trữ toàn bộ sát thương mà không nhận vào\n- Khi kết thúc trận đấu nếu Số lượng là 1, gây (100 + Cường độ × 15)% lượng sát thương đã tích trữ thành sát thương Hệ Lười biếng và kích hoạt [Tremor] Bộc phát tương ứng với Cường độ\n- Tăng 1 Cường độ, giảm 1 Số lượng khi kết thúc lượt\n- Khi nhận thêm Gia hạn Thời gian lên đối tượng đang có Gia hạn Thời gian, lập tức gây sát thương Hệ Lười biếng và hiệu ứng [Tremor] Bộc phát của Gia hạn Thời gian rồi giải trừ hiệu ứng có lợi này",
+      "desc": "- Trong khi hiệu ứng này còn tồn tại, tích trữ toàn bộ sát thương mà không nhận vào\n- Khi kết thúc trận đấu nếu Số lượng là 1, gây (100 + Cường độ × 15)% lượng sát thương đã tích trữ thành sát thương Hệ Lười biếng và kích hoạt [Chấn động] Bộc phát tương ứng với Cường độ\n- Tăng 1 Cường độ, giảm 1 Số lượng khi kết thúc lượt\n- Khi nhận thêm Gia hạn Thời gian lên đối tượng đang có Gia hạn Thời gian, lập tức gây sát thương Hệ Lười biếng và hiệu ứng [Chấn động] Bộc phát của Gia hạn Thời gian rồi giải trừ hiệu ứng có lợi này",
       "summary": ""
     },
     {
       "id": "TimeRentalTwoPersonality",
       "name": "Vay mượn Thời gian",
-      "desc": "Khi kết thúc lượt nếu Số lượng từ 2 trở lên,\n- Nhận Tốc độ, tăng Sức mạnh Đối kháng, và [Fragile] tương ứng với (Số lượng Vay mượn Thời gian - 1) ở lượt tiếp theo.\n- Nếu Trói buộc nhiều hơn Tốc độ nhận được ở lượt tiếp theo, giải trừ Vay mượn Thời gian khi bắt đầu lượt tiếp theo và rơi vào trạng thái Choáng\nKhi kết thúc lượt nếu Số lượng là 1, nhận Trói buộc bằng (Cường độ Vay mượn Thời gian - 1) × 2 ở lượt tiếp theo\nTăng 1 Cường độ, giảm 1 Số lượng khi kết thúc lượt",
+      "desc": "Khi kết thúc lượt nếu Số lượng từ 2 trở lên,\n- Nhận Tốc độ, tăng Sức mạnh Đối kháng, và [Mong manh] tương ứng với (Số lượng Vay mượn Thời gian - 1) ở lượt tiếp theo.\n- Nếu Trói buộc nhiều hơn Tốc độ nhận được ở lượt tiếp theo, giải trừ Vay mượn Thời gian khi bắt đầu lượt tiếp theo và rơi vào trạng thái Choáng\nKhi kết thúc lượt nếu Số lượng là 1, nhận Trói buộc bằng (Cường độ Vay mượn Thời gian - 1) × 2 ở lượt tiếp theo\nTăng 1 Cường độ, giảm 1 Số lượng khi kết thúc lượt",
       "summary": ""
     },
     {
       "id": "VibrationChainPersonality",
-      "name": "[Tremor] - Xích",
-      "desc": "- Mỗi 10 Cường độ [Tremor], Sức mạnh Đối kháng giảm 1 (Tối đa 3)\n- Khi nhận sát thương bởi Kỹ năng [Tremor] Bộc phát, đẩy Thanh choáng lên một đoạn bằng Cường độ hiệu ứng\n- Giảm 1 Số lượng khi kết thúc lượt\n- (Nhận các hiệu ứng tăng giảm Cường độ và Số lượng [Tremor] tương tự)",
+      "name": "[Chấn động] - Xích",
+      "desc": "- Mỗi 10 Cường độ [Chấn động], Sức mạnh Đối kháng giảm 1 (Tối đa 3)\n- Khi nhận sát thương bởi Kỹ năng [Chấn động] Bộc phát, đẩy Thanh choáng lên một đoạn bằng Cường độ hiệu ứng\n- Giảm 1 Số lượng khi kết thúc lượt\n- (Nhận các hiệu ứng tăng giảm Cường độ và Số lượng [Chấn động] tương tự)",
       "summary": ""
     },
     {
@@ -1574,7 +1574,7 @@
     {
       "id": "DefensiveStance",
       "name": "Tư thế Phòng ngự",
-      "desc": "- Tối đa: 2\n- Hiệu ứng này được làm mới chứ không cộng dồn\n- Giảm 1 khi kết thúc lượt\n- Khi nhận hiệu ứng này, các hiệu ứng sau sẽ áp dụng vào lượt tiếp theo:\n· Tốc độ cố định ở giá trị tối thiểu\n· Nhận 5 Tăng cấp Phòng ngự\n· Chỉ số Khiêu khích mỗi ô kỹ năng tăng thêm (10 ÷ Số ô kỹ năng của bản thân)\n· Khi chỉ định kỹ năng, có thể thay đổi mục tiêu tấn công sang bản thân bất kể Tốc độ (Chỉ dành cho Trận chiến Tập trung)\n· Vết rách [Tremor] khi thắng Khớp lệnh\n· Không bị Choáng do sát thương",
+      "desc": "- Tối đa: 2\n- Hiệu ứng này được làm mới chứ không cộng dồn\n- Giảm 1 khi kết thúc lượt\n- Khi nhận hiệu ứng này, các hiệu ứng sau sẽ áp dụng vào lượt tiếp theo:\n· Tốc độ cố định ở giá trị tối thiểu\n· Nhận 5 Tăng cấp Phòng ngự\n· Chỉ số Khiêu khích mỗi ô kỹ năng tăng thêm (10 ÷ Số ô kỹ năng của bản thân)\n· Khi chỉ định kỹ năng, có thể thay đổi mục tiêu tấn công sang bản thân bất kể Tốc độ (Chỉ dành cho Trận chiến Tập trung)\n· Vết rách [Chấn động] khi thắng Khớp lệnh\n· Không bị Choáng do sát thương",
       "summary": ""
     },
     {
@@ -1613,35 +1613,35 @@
     {
       "id": "LineCuttingPersonality",
       "name": "Đối tượng Khâu vá",
-      "desc": "- Tối đa: 1\n- Lượng sát thương nhận vào +0.5% với mỗi 1 [Bleed] (Tối đa 10%)\n- Giảm 1 khi kết thúc lượt",
+      "desc": "- Tối đa: 1\n- Lượng sát thương nhận vào +0.5% với mỗi 1 [Xuất huyết] (Tối đa 10%)\n- Giảm 1 khi kết thúc lượt",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "Snare",
       "name": "Thòng lọng",
-      "desc": "- Tối đa: 3\n- Khi kết thúc lượt, nhận Uy lực [Rupture] bằng với Tốc độ hiện tại của bản thân (Tối đa 5), lượt tiếp theo nhận 1 Ràng buộc\n- Giảm 1 khi kết thúc lượt",
+      "desc": "- Tối đa: 3\n- Khi kết thúc lượt, nhận Uy lực [Vết rách] bằng với Tốc độ hiện tại của bản thân (Tối đa 5), lượt tiếp theo nhận 1 Ràng buộc\n- Giảm 1 khi kết thúc lượt",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BloodyHandGregFirst",
       "name": "Đôi bàn tay vấy máu",
-      "desc": "- Tối đa : 10\n- Đôi bàn tay vấy máu Giai đoạn 1\n- Nếu Đôi bàn tay vấy máu từ 10 trở lên, trở thành Đôi bàn tay vấy máu II.\n- Nếu Đôi bàn tay vấy máu từ 20 trở lên, trở thành Đôi bàn tay vấy máu III.\n- Nếu Đôi bàn tay vấy máu bị tiêu hao không đủ, sẽ quay về giai đoạn trước.\n- Nếu là Đôi bàn tay vấy máu II, nhận Tăng cấp Tấn công 1 tỷ lệ với giá trị\n- Nếu là Đôi bàn tay vấy máu III, nhận Tăng cấp Tấn công 1 tỷ lệ với giá trị, mỗi khi kỹ năng cơ bản trúng đích, gây thêm 1 [Rupture] và 1 [Bleed]",
+      "desc": "- Tối đa : 10\n- Đôi bàn tay vấy máu Giai đoạn 1\n- Nếu Đôi bàn tay vấy máu từ 10 trở lên, trở thành Đôi bàn tay vấy máu II.\n- Nếu Đôi bàn tay vấy máu từ 20 trở lên, trở thành Đôi bàn tay vấy máu III.\n- Nếu Đôi bàn tay vấy máu bị tiêu hao không đủ, sẽ quay về giai đoạn trước.\n- Nếu là Đôi bàn tay vấy máu II, nhận Tăng cấp Tấn công 1 tỷ lệ với giá trị\n- Nếu là Đôi bàn tay vấy máu III, nhận Tăng cấp Tấn công 1 tỷ lệ với giá trị, mỗi khi kỹ năng cơ bản trúng đích, gây thêm 1 [Vết rách] và 1 [Xuất huyết]",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BloodyHandGregSecond",
       "name": "Đôi bàn tay vấy máu II",
-      "desc": "- Tối đa : 20\n- Đôi bàn tay vấy máu Giai đoạn 2\n- Khi bắt đầu lượt, nhận 1 Tăng cấp Tấn công với mỗi 10 giá trị\n- Nếu Đôi bàn tay vấy máu từ 10 trở lên, trở thành Đôi bàn tay vấy máu II.\n- Nếu Đôi bàn tay vấy máu từ 20 trở lên, trở thành Đôi bàn tay vấy máu III.\n- Nếu Đôi bàn tay vấy máu bị tiêu hao không đủ, sẽ quay về giai đoạn trước.\n- Nếu là Đôi bàn tay vấy máu II, nhận Tăng cấp Tấn công 1 tỷ lệ với giá trị\n- Nếu là Đôi bàn tay vấy máu III, nhận Tăng cấp Tấn công 1 tỷ lệ với giá trị, mỗi khi kỹ năng cơ bản trúng đích, gây thêm 1 [Rupture] và 1 [Bleed]",
+      "desc": "- Tối đa : 20\n- Đôi bàn tay vấy máu Giai đoạn 2\n- Khi bắt đầu lượt, nhận 1 Tăng cấp Tấn công với mỗi 10 giá trị\n- Nếu Đôi bàn tay vấy máu từ 10 trở lên, trở thành Đôi bàn tay vấy máu II.\n- Nếu Đôi bàn tay vấy máu từ 20 trở lên, trở thành Đôi bàn tay vấy máu III.\n- Nếu Đôi bàn tay vấy máu bị tiêu hao không đủ, sẽ quay về giai đoạn trước.\n- Nếu là Đôi bàn tay vấy máu II, nhận Tăng cấp Tấn công 1 tỷ lệ với giá trị\n- Nếu là Đôi bàn tay vấy máu III, nhận Tăng cấp Tấn công 1 tỷ lệ với giá trị, mỗi khi kỹ năng cơ bản trúng đích, gây thêm 1 [Vết rách] và 1 [Xuất huyết]",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BloodyHandGregThird",
       "name": "Đôi bàn tay vấy máu III",
-      "desc": "- Tối đa : 30\n- Đôi bàn tay vấy máu Giai đoạn 3\n- Khi bắt đầu lượt, nhận 1 Tăng cấp Tấn công với mỗi 10 giá trị\n- Mỗi khi kỹ năng cơ bản trúng đích, gây thêm 1 [Rupture] và 1 [Bleed]\n- Nếu Đôi bàn tay vấy máu từ 10 trở lên, trở thành Đôi bàn tay vấy máu II.\n- Nếu Đôi bàn tay vấy máu từ 20 trở lên, trở thành Đôi bàn tay vấy máu III.\n- Nếu Đôi bàn tay vấy máu bị tiêu hao không đủ, sẽ quay về giai đoạn trước.\n- Nếu là Đôi bàn tay vấy máu II, nhận Tăng cấp Tấn công 1 tỷ lệ với giá trị\n- Nếu là Đôi bàn tay vấy máu III, nhận Tăng cấp Tấn công 1 tỷ lệ với giá trị, mỗi khi kỹ năng cơ bản trúng đích, gây thêm 1 [Rupture] và 1 [Bleed]",
+      "desc": "- Tối đa : 30\n- Đôi bàn tay vấy máu Giai đoạn 3\n- Khi bắt đầu lượt, nhận 1 Tăng cấp Tấn công với mỗi 10 giá trị\n- Mỗi khi kỹ năng cơ bản trúng đích, gây thêm 1 [Vết rách] và 1 [Xuất huyết]\n- Nếu Đôi bàn tay vấy máu từ 10 trở lên, trở thành Đôi bàn tay vấy máu II.\n- Nếu Đôi bàn tay vấy máu từ 20 trở lên, trở thành Đôi bàn tay vấy máu III.\n- Nếu Đôi bàn tay vấy máu bị tiêu hao không đủ, sẽ quay về giai đoạn trước.\n- Nếu là Đôi bàn tay vấy máu II, nhận Tăng cấp Tấn công 1 tỷ lệ với giá trị\n- Nếu là Đôi bàn tay vấy máu III, nhận Tăng cấp Tấn công 1 tỷ lệ với giá trị, mỗi khi kỹ năng cơ bản trúng đích, gây thêm 1 [Vết rách] và 1 [Xuất huyết]",
       "summary": "",
       "undefined": "-"
     },
@@ -1937,21 +1937,21 @@
     {
       "id": "BurstPoison",
       "name": "Chú Sát 【Độc】",
-      "desc": "Giá trị cơ bản: 5\n- Chú Sát\n- Khi mục tiêu nhận sát thương chí mạng và [Rupture] kích hoạt, giảm 1\n- Khi giảm bởi hiệu ứng buff, nhận 1 Giảm Cấp độ Tấn công hoặc 1 Giảm Cấp độ Phòng ngự (Kích hoạt 3 lần mỗi lượt)\nKhi giảm bởi hiệu ứng buff, nếu giá trị là 0, nhận sát thương Hệ Phàm Ăn bằng (Số lượng [Rupture])\n- ※Hiệu ứng này không được làm mới",
+      "desc": "Giá trị cơ bản: 5\n- Chú Sát\n- Khi mục tiêu nhận sát thương chí mạng và [Vết rách] kích hoạt, giảm 1\n- Khi giảm bởi hiệu ứng buff, nhận 1 Giảm Cấp độ Tấn công hoặc 1 Giảm Cấp độ Phòng ngự (Kích hoạt 3 lần mỗi lượt)\nKhi giảm bởi hiệu ứng buff, nếu giá trị là 0, nhận sát thương Hệ Phàm Ăn bằng (Số lượng [Vết rách])\n- ※Hiệu ứng này không được làm mới",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "SnakeStance",
       "name": "Tị Uyển",
-      "desc": "Giá trị tối đa: 3\nKhi kết thúc lượt, nhận 3 [Poise] và tăng 2 Số lần [Poise] vào lượt tiếp theo\nKhi sử dụng kỹ năng tấn công cơ bản, nếu mục tiêu có [Rupture], nhận 5 [Poise]\nGiảm 1 khi kết thúc lượt",
+      "desc": "Giá trị tối đa: 3\nKhi kết thúc lượt, nhận 3 [Hơi thở] và tăng 2 Số lần [Hơi thở] vào lượt tiếp theo\nKhi sử dụng kỹ năng tấn công cơ bản, nếu mục tiêu có [Vết rách], nhận 5 [Hơi thở]\nGiảm 1 khi kết thúc lượt",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BurstZilu",
       "name": "Chú Sát 【Phá】",
-      "desc": "- Giá trị cơ bản: 3\n- Khi [Rupture] kích hoạt trong khi bản thân đang có Chú Sát, giảm giá trị đi 1 và gây 1 [Bind] vào lượt tiếp theo\n· Khi hiệu ứng này kích hoạt, nếu [Bind] bị gây lên bản thân ở lượt tiếp theo từ 3 trở lên, giảm giá trị đi 2 thay vì gây [Bind]\n- Khi giá trị về 0, nhận sát thương Hệ Phàm Ăn bằng (Số lượng [Rupture])\n※Hiệu ứng này không được làm mới.",
+      "desc": "- Giá trị cơ bản: 3\n- Khi [Vết rách] kích hoạt trong khi bản thân đang có Chú Sát, giảm giá trị đi 1 và gây 1 [Trói buộc] vào lượt tiếp theo\n· Khi hiệu ứng này kích hoạt, nếu [Trói buộc] bị gây lên bản thân ở lượt tiếp theo từ 3 trở lên, giảm giá trị đi 2 thay vì gây [Trói buộc]\n- Khi giá trị về 0, nhận sát thương Hệ Phàm Ăn bằng (Số lượng [Vết rách])\n※Hiệu ứng này không được làm mới.",
       "summary": "",
       "undefined": "-"
     },
@@ -1965,7 +1965,7 @@
     {
       "id": "EnhanceZilu",
       "name": "Thiên Cứu Tinh Đao",
-      "desc": "- Giá trị tối đa: 20\n- Nếu giá trị từ 10 trở lên, nhận 1 [Haste] vào lượt tiếp theo khi kết thúc lượt\n- Được sử dụng cho các kỹ năng nhất định",
+      "desc": "- Giá trị tối đa: 20\n- Nếu giá trị từ 10 trở lên, nhận 1 [Nhanh nhẹn] vào lượt tiếp theo khi kết thúc lượt\n- Được sử dụng cho các kỹ năng nhất định",
       "summary": "",
       "undefined": "-"
     },
@@ -1986,7 +1986,7 @@
     {
       "id": "EntangledCurseTalisman",
       "name": "Lá Bùa Chú Quấn Quýt",
-      "desc": "- Giá trị tối đa: 10\n- Bị xóa khi kết thúc lượt\n- Nếu giá trị từ 10 trở lên, khi nhận từ 30 sát thương trở lên bởi kỹ năng, tăng 1 Số lần [Rupture] và nhận sát thương Hệ Phàm Ăn bằng Số lượng [Rupture] (1 lần mỗi lượt)\n- Khi hiệu ứng này bị xóa, gây (Giá trị ÷ 4) [Attack Power Down] vào lượt tiếp theo (Tối đa 2)\n※Hiệu ứng này không được làm mới",
+      "desc": "- Giá trị tối đa: 10\n- Bị xóa khi kết thúc lượt\n- Nếu giá trị từ 10 trở lên, khi nhận từ 30 sát thương trở lên bởi kỹ năng, tăng 1 Số lần [Vết rách] và nhận sát thương Hệ Phàm Ăn bằng Số lượng [Vết rách] (1 lần mỗi lượt)\n- Khi hiệu ứng này bị xóa, gây (Giá trị ÷ 4) [Attack Power Down] vào lượt tiếp theo (Tối đa 2)\n※Hiệu ứng này không được làm mới",
       "summary": "",
       "undefined": "-"
     },
@@ -2014,7 +2014,7 @@
     {
       "id": "YesdragonSelf",
       "name": "Mai Hoa Châm",
-      "desc": "Giá trị tối đa : 20\n- Tăng 1 khi kết thúc lượt hoặc khi nhận sát thương\n- Với mỗi 5 giá trị, Cấp độ Tấn công tăng 1\n- Khi nhân vật sở hữu buff này chết, gây sát thương Hệ Phàm Ăn bằng giá trị cho tất cả kẻ thù và gây 5 [Rupture]\n- Bị xóa khi chết hoặc rút lui",
+      "desc": "Giá trị tối đa : 20\n- Tăng 1 khi kết thúc lượt hoặc khi nhận sát thương\n- Với mỗi 5 giá trị, Cấp độ Tấn công tăng 1\n- Khi nhân vật sở hữu buff này chết, gây sát thương Hệ Phàm Ăn bằng giá trị cho tất cả kẻ thù và gây 5 [Vết rách]\n- Bị xóa khi chết hoặc rút lui",
       "summary": "",
       "undefined": "-"
     },
@@ -2091,14 +2091,14 @@
     {
       "id": "IrritationAlly",
       "name": "Thiên Thoái Tinh",
-      "desc": "- Giá trị Tốc độ tối thiểu và tối đa tăng 1\n- Nếu Tốc độ của bản thân cao hơn mục tiêu từ 3 trở lên, Lượng sát thương +(Chênh lệch tốc độ với đối tượng × 2.5)% (Tối đa 20%)\n- Giá trị [Tremor] và số lượng [Tremor] gây ra cho kẻ địch bằng kỹ năng +1\n- Nếu tổng số Hổ Tiêu Đạn và Mãnh Hổ Tiêu Đạn bản thân đã tiêu hao từ 8 trở lên, khi kết thúc lượt, buff này sẽ đổi thành Tâm - Thiên Thoái Tinh vào lượt tiếp theo\n- Giá trị tối đa: 1",
+      "desc": "- Giá trị Tốc độ tối thiểu và tối đa tăng 1\n- Nếu Tốc độ của bản thân cao hơn mục tiêu từ 3 trở lên, Lượng sát thương +(Chênh lệch tốc độ với đối tượng × 2.5)% (Tối đa 20%)\n- Giá trị [Chấn động] và số lượng [Chấn động] gây ra cho kẻ địch bằng kỹ năng +1\n- Nếu tổng số Hổ Tiêu Đạn và Mãnh Hổ Tiêu Đạn bản thân đã tiêu hao từ 8 trở lên, khi kết thúc lượt, buff này sẽ đổi thành Tâm - Thiên Thoái Tinh vào lượt tiếp theo\n- Giá trị tối đa: 1",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "HugeIrritationAlly",
       "name": "Tâm - Thiên Thoái Tinh",
-      "desc": "- Giá trị Tốc độ tối thiểu và tối đa tăng 3\n- Nếu Tốc độ của bản thân cao hơn mục tiêu từ 3 trở lên, Lượng sát thương +(Chênh lệch tốc độ với đối tượng × 5)% (Tối đa 40%)\n- Giá trị [Tremor] và số lượng [Tremor] gây ra cho kẻ địch bằng kỹ năng +2\n- Giá trị tối đa: 1",
+      "desc": "- Giá trị Tốc độ tối thiểu và tối đa tăng 3\n- Nếu Tốc độ của bản thân cao hơn mục tiêu từ 3 trở lên, Lượng sát thương +(Chênh lệch tốc độ với đối tượng × 5)% (Tối đa 40%)\n- Giá trị [Chấn động] và số lượng [Chấn động] gây ra cho kẻ địch bằng kỹ năng +2\n- Giá trị tối đa: 1",
       "summary": "",
       "undefined": "-"
     },
@@ -2112,7 +2112,7 @@
     {
       "id": "RoseThorn",
       "name": "Gai Tham Ăn",
-      "desc": "Giá trị tối đa: 9\n\nKhi kết thúc lượt, tăng số lượng [Bleed] bằng với số lượng Cộng hưởng Sắc dục, và Gai Tham Ăn giảm 1. (Giá trị tăng số lượng [Bleed] tối đa là 5)\n\nKhi đang có hiệu ứng này mà bị gây từ 99 [Bleed] trở lên, nhận Huyết Xan bằng với giá trị [Bleed] vượt quá, và vào lượt tiếp theo nhận Giảm cấp phòng thủ bằng với số Huyết Xan đã nhận. (Giá trị nhận Giảm cấp phòng thủ tối đa là 5)",
+      "desc": "Giá trị tối đa: 9\n\nKhi kết thúc lượt, tăng số lượng [Xuất huyết] bằng với số lượng Cộng hưởng Sắc dục, và Gai Tham Ăn giảm 1. (Giá trị tăng số lượng [Xuất huyết] tối đa là 5)\n\nKhi đang có hiệu ứng này mà bị gây từ 99 [Xuất huyết] trở lên, nhận Huyết Xan bằng với giá trị [Xuất huyết] vượt quá, và vào lượt tiếp theo nhận Giảm cấp phòng thủ bằng với số Huyết Xan đã nhận. (Giá trị nhận Giảm cấp phòng thủ tối đa là 5)",
       "summary": "",
       "undefined": "-"
     },
@@ -2140,7 +2140,7 @@
     {
       "id": "FellBulletPersonality",
       "name": "Hung Đạn",
-      "desc": "Giá trị tối đa: 1\nMỗi 1 Ký Ức Bị Xé Toạc, Sát thương Bạo kích +3% (Tối đa 18%)\nKhi trúng đích, gây 1 [Bleed] (Tối đa 3 mỗi lượt)\nKhi tiêu diệt mục tiêu, nhận 3 [Poise], số tầng [Poise] của bản thân tăng 2 (Tối đa 2 lần mỗi lượt)\nBị xóa khi kết thúc lượt",
+      "desc": "Giá trị tối đa: 1\nMỗi 1 Ký Ức Bị Xé Toạc, Sát thương Bạo kích +3% (Tối đa 18%)\nKhi trúng đích, gây 1 [Xuất huyết] (Tối đa 3 mỗi lượt)\nKhi tiêu diệt mục tiêu, nhận 3 [Hơi thở], số tầng [Hơi thở] của bản thân tăng 2 (Tối đa 2 lần mỗi lượt)\nBị xóa khi kết thúc lượt",
       "summary": "Tăng sát thương bạo kích, gây thêm Xuất huyết",
       "undefined": "-"
     },
@@ -2189,7 +2189,7 @@
     {
       "id": "HeishouComboCountHonglu",
       "name": "Nhuộm Đen Hắc Thú",
-      "desc": "- Giá trị tối đa: 11\n- Hong Lu Chúa Tể Hồng Viên được cường hóa bởi các Hắc Thú đã thực hiện liên kết\n- Hiệu ứng cường hóa được cộng dồn\n\n・Hắc Thú - Mão Thủ Lĩnh Faust: Sát thương nhận vào từ kỹ năng -5%\n・Hắc Thú - Mão Ryoshu: Nếu Tốc độ của bản thân cao hơn mục tiêu, Sát thương +5%\n・Hắc Thú - Mão Outis: Khi tấn công một chiều trúng đích, Số lượng [Rupture] tăng 1 (1 lần mỗi lượt)\n・Hắc Thú - Tỵ Rodion: Khi bạo kích trúng đích, gây 1 [Rupture] (3 lần mỗi lượt)\n・Hắc Thú - Tỵ Gregor: Nếu gây sát thương [Rupture], nhận 1 Số lượng [Poise] (1 lần mỗi lượt)",
+      "desc": "- Giá trị tối đa: 11\n- Hong Lu Chúa Tể Hồng Viên được cường hóa bởi các Hắc Thú đã thực hiện liên kết\n- Hiệu ứng cường hóa được cộng dồn\n\n・Hắc Thú - Mão Thủ Lĩnh Faust: Sát thương nhận vào từ kỹ năng -5%\n・Hắc Thú - Mão Ryoshu: Nếu Tốc độ của bản thân cao hơn mục tiêu, Sát thương +5%\n・Hắc Thú - Mão Outis: Khi tấn công một chiều trúng đích, Số lượng [Vết rách] tăng 1 (1 lần mỗi lượt)\n・Hắc Thú - Tỵ Rodion: Khi bạo kích trúng đích, gây 1 [Vết rách] (3 lần mỗi lượt)\n・Hắc Thú - Tỵ Gregor: Nếu gây sát thương [Vết rách], nhận 1 Số lượng [Hơi thở] (1 lần mỗi lượt)",
       "summary": "",
       "undefined": "-"
     },
@@ -2330,7 +2330,7 @@
     {
       "id": "ArrowInTheEyeFau",
       "name": "Mũi tên đã cắm",
-      "desc": "- Tối đa: 4\n- Khi bắt đầu lượt, nhận Số lượng [Bleed] bằng chỉ số\n- Cấp độ Phòng thủ giảm bằng chỉ số\n- Khi kết thúc lượt, nếu chỉ số từ 2 trở lên, nhận 1 [Fragile] vào lượt tiếp theo (1 lần mỗi lượt)\n- Khi chết, rút lui, hóa giải hiệu ứng hoặc biến mất, hiệu ứng này sẽ biến mất, đồng thời cấp cho Faust Chi nhánh phía Đông Hiệp hội Shi Tổ 3 bấy nhiêu Mũi tên - Tử",
+      "desc": "- Tối đa: 4\n- Khi bắt đầu lượt, nhận Số lượng [Xuất huyết] bằng chỉ số\n- Cấp độ Phòng thủ giảm bằng chỉ số\n- Khi kết thúc lượt, nếu chỉ số từ 2 trở lên, nhận 1 [Mong manh] vào lượt tiếp theo (1 lần mỗi lượt)\n- Khi chết, rút lui, hóa giải hiệu ứng hoặc biến mất, hiệu ứng này sẽ biến mất, đồng thời cấp cho Faust Chi nhánh phía Đông Hiệp hội Shi Tổ 3 bấy nhiêu Mũi tên - Tử",
       "undefined": "-"
     },
     {
@@ -2388,7 +2388,7 @@
     {
       "id": "BloodArmorCasting",
       "name": "Huyết Cứng Đúc",
-      "desc": "- Tối đa: 3\n- Khi tiến hành đấu với kẻ địch đang có [Bleed] hoặc [Bleed] đặc biệt, Uy lực Đấu +1\n- Khi tiêu hao Huyết tiệc bằng kỹ năng tấn công, nếu không đủ Huyết tiệc, thay vào đó cứ mỗi 1 Huyết tiệc thiếu hụt sẽ tiêu hao 1 HP để tạo ra Huyết tiệc và tiêu hao nó (Sát thương nhận từ hiệu ứng này không gây Hoảng loạn, và HP không giảm xuống dưới 1)\n- Giảm 1 khi kết thúc lượt",
+      "desc": "- Tối đa: 3\n- Khi tiến hành đấu với kẻ địch đang có [Xuất huyết] hoặc [Xuất huyết] đặc biệt, Uy lực Đấu +1\n- Khi tiêu hao Huyết tiệc bằng kỹ năng tấn công, nếu không đủ Huyết tiệc, thay vào đó cứ mỗi 1 Huyết tiệc thiếu hụt sẽ tiêu hao 1 HP để tạo ra Huyết tiệc và tiêu hao nó (Sát thương nhận từ hiệu ứng này không gây Hoảng loạn, và HP không giảm xuống dưới 1)\n- Giảm 1 khi kết thúc lượt",
       "summary": "",
       "undefined": "-"
     },
@@ -2919,7 +2919,7 @@
       "id": "LivingSpecimenPersonality",
       "name": "Xem kịch cơ thể",
       "desc": "- Giá trị cơ bản: 3\n- Nếu bị kẻ địch gây Xuất huyết (Bleed) bằng kỹ năng tấn công, lượt tiếp theo nhận ngẫu nhiên 1 trong các hiệu ứng sau và giá trị hiệu ứng này giảm 1 (1 lần mỗi kỹ năng)\n· Uy lực Xuất huyết (Bleed) 3\n· Trói buộc 1\n· Giảm uy lực phòng thủ 1",
-      "summary": "Nhận ngẫu nhiên 1 trong các hiệu ứng: Uy lực [Bleed], Ràng buộc, Giảm uy lực thủ",
+      "summary": "Nhận ngẫu nhiên 1 trong các hiệu ứng: Uy lực [Xuất huyết], Ràng buộc, Giảm uy lực thủ",
       "undefined": "-"
     },
     {
@@ -2932,8 +2932,8 @@
     {
       "id": "IronMaidenPersonality",
       "name": "Iron Maiden (Trinh nữ sắt)",
-      "desc": "- Chỉ số khiêu khích tại ô kỹ năng ngoài cùng bên trái +4\n- Khi bắt đầu lượt, nhận 1 Bảo vệ, 5 Tăng cấp phòng thủ và nhận một lớp Khiên tương đương 5% HP hiện tại\n- Khi nhận sát thương từ đồng xu cuối cùng của kẻ tấn công, gây cho kẻ đó Sát thương Đâm bằng 20% lượng sát thương đã nhận từ đồng xu đó, và gây thêm 2 số lượng [Bleed] (1 lần mỗi kỹ năng, tối đa 3 lần mỗi lượt, sát thương tối đa mỗi lượt là 60)",
-      "summary": "Tăng chỉ số khiêu khích tại ô kỹ năng ngoài cùng bên trái\nNhận Bảo vệ, Tăng cấp phòng thủ, Khiên\nKhi thỏa mãn điều kiện, gây sát thương Đâm cho kẻ tấn công và tăng số lượng [Bleed]",
+      "desc": "- Chỉ số khiêu khích tại ô kỹ năng ngoài cùng bên trái +4\n- Khi bắt đầu lượt, nhận 1 Bảo vệ, 5 Tăng cấp phòng thủ và nhận một lớp Khiên tương đương 5% HP hiện tại\n- Khi nhận sát thương từ đồng xu cuối cùng của kẻ tấn công, gây cho kẻ đó Sát thương Đâm bằng 20% lượng sát thương đã nhận từ đồng xu đó, và gây thêm 2 số lượng [Xuất huyết] (1 lần mỗi kỹ năng, tối đa 3 lần mỗi lượt, sát thương tối đa mỗi lượt là 60)",
+      "summary": "Tăng chỉ số khiêu khích tại ô kỹ năng ngoài cùng bên trái\nNhận Bảo vệ, Tăng cấp phòng thủ, Khiên\nKhi thỏa mãn điều kiện, gây sát thương Đâm cho kẻ tấn công và tăng số lượng [Xuất huyết]",
       "undefined": "-"
     },
     {
@@ -2946,14 +2946,14 @@
     {
       "id": "FasciaPersonality",
       "name": "Tên tác phẩm: Fascia (Cân mạc)",
-      "desc": "Dựa theo Uy lực của Nguyên liệu sinh thể, các kỹ năng tấn công cơ bản và kỹ năng Phản đòn có thể Match nhận các hiệu ứng sau:\n- 1~: Uy lực cơ bản +1\n- 2~: Nếu kẻ địch có [Bleed] hoặc [Bleed] đặc biệt, +10% Sát thương gây ra\n- 3~: +1 giá trị Uy lực và Số lượng [Bleed] gây ra\n- 4~: Uy lực cơ bản +1",
+      "desc": "Dựa theo Uy lực của Nguyên liệu sinh thể, các kỹ năng tấn công cơ bản và kỹ năng Phản đòn có thể Match nhận các hiệu ứng sau:\n- 1~: Uy lực cơ bản +1\n- 2~: Nếu kẻ địch có [Xuất huyết] hoặc [Xuất huyết] đặc biệt, +10% Sát thương gây ra\n- 3~: +1 giá trị Uy lực và Số lượng [Xuất huyết] gây ra\n- 4~: Uy lực cơ bản +1",
       "summary": "Nhận các hiệu ứng đa dạng dựa trên Uy lực của Nguyên liệu sinh thể",
       "undefined": "-"
     },
     {
       "id": "FaubismMaskMeursault",
       "name": "Phái Dã Thú - Masque de Chien (Mặt nạ Chó)",
-      "desc": "- Với mỗi 3 Màu Sắc Bị Xé Toạc của mục tiêu, +5% Sát thương gây ra (Tối đa 15%)\n- +1 giá trị Uy lực [Bleed] và Trầm luân gây ra bằng kỹ năng cơ bản\n- Trước khi kỹ năng cơ bản trúng đích, nếu mục tiêu không có [Bleed], gây thêm 2 số lượng [Bleed] (1 lần mỗi lượt)",
+      "desc": "- Với mỗi 3 Màu Sắc Bị Xé Toạc của mục tiêu, +5% Sát thương gây ra (Tối đa 15%)\n- +1 giá trị Uy lực [Xuất huyết] và Trầm luân gây ra bằng kỹ năng cơ bản\n- Trước khi kỹ năng cơ bản trúng đích, nếu mục tiêu không có [Xuất huyết], gây thêm 2 số lượng [Xuất huyết] (1 lần mỗi lượt)",
       "summary": "",
       "undefined": "-"
     },
@@ -2967,21 +2967,21 @@
     {
       "id": "FaubismWolfMaskRodion",
       "name": "Phái Dã Thú - Masque de Loup (Mặt nạ Sói)",
-      "desc": "- Tốc độ tối thiểu/tối đa +1\n- +1 giá trị Uy lực [Bleed] và Trầm luân gây ra bằng kỹ năng cơ bản\n- Khi tấn công trúng đích, nếu Màu Sắc Bị Xé Toạc [Bleu] của mục tiêu từ 3 trở lên, tăng 1 số lượng Trầm luân (1 lần mỗi lượt)\n- Khi tấn công trúng đích, nếu Màu Sắc Bị Xé Toạc [Rouge] của mục tiêu từ 3 trở lên, tăng 1 số lượng [Bleed] (1 lần mỗi lượt)",
+      "desc": "- Tốc độ tối thiểu/tối đa +1\n- +1 giá trị Uy lực [Xuất huyết] và Trầm luân gây ra bằng kỹ năng cơ bản\n- Khi tấn công trúng đích, nếu Màu Sắc Bị Xé Toạc [Bleu] của mục tiêu từ 3 trở lên, tăng 1 số lượng Trầm luân (1 lần mỗi lượt)\n- Khi tấn công trúng đích, nếu Màu Sắc Bị Xé Toạc [Rouge] của mục tiêu từ 3 trở lên, tăng 1 số lượng [Xuất huyết] (1 lần mỗi lượt)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BoldBrushstrokesRodion",
       "name": "Nét Vẽ Táo Bạo",
-      "desc": "- Tối đa: 2\n- Với mỗi 1 giá trị, +10% Sát thương HP/Tinh thần nhận vào từ hiệu ứng [Bleed] và Trầm luân (Tối đa 20%, làm tròn xuống)\n- Giảm 1 khi kết thúc lượt",
+      "desc": "- Tối đa: 2\n- Với mỗi 1 giá trị, +10% Sát thương HP/Tinh thần nhận vào từ hiệu ứng [Xuất huyết] và Trầm luân (Tối đa 20%, làm tròn xuống)\n- Giảm 1 khi kết thúc lượt",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "IntenseColorsRodion",
       "name": "Màu Sắc Mãnh Liệt",
-      "desc": "- Tối đa: 4\n- Sát thương nhận vào từ các Bản sắc thuộc Ngón Áp Út +(Giá trị × 2.5)% \n・Nếu kẻ tấn công thuộc Ngón Áp Út đồng thời thuộc Phái Dã Thú, sát thương nhận vào thay thành +(Giá trị × 5)%\n- Khi bắt đầu trận đấu, nhận ngẫu nhiên một trong các hiệu ứng: Uy lực [Bleed], Uy lực Trầm luân, Số lượng [Bleed], Số lượng Trầm luân một số lần bằng giá trị này\n- Khi kết thúc trận đấu, hiệu ứng này biến mất và giá trị của Màu Sắc Bị Xé Toạc [Rouge] · Màu Sắc Bị Xé Toạc [Bleu] bị giảm một nửa (làm tròn xuống)",
+      "desc": "- Tối đa: 4\n- Sát thương nhận vào từ các Bản sắc thuộc Ngón Áp Út +(Giá trị × 2.5)% \n・Nếu kẻ tấn công thuộc Ngón Áp Út đồng thời thuộc Phái Dã Thú, sát thương nhận vào thay thành +(Giá trị × 5)%\n- Khi bắt đầu trận đấu, nhận ngẫu nhiên một trong các hiệu ứng: Uy lực [Xuất huyết], Uy lực Trầm luân, Số lượng [Xuất huyết], Số lượng Trầm luân một số lần bằng giá trị này\n- Khi kết thúc trận đấu, hiệu ứng này biến mất và giá trị của Màu Sắc Bị Xé Toạc [Rouge] · Màu Sắc Bị Xé Toạc [Bleu] bị giảm một nửa (làm tròn xuống)",
       "summary": "",
       "undefined": "-"
     },
@@ -3002,7 +3002,7 @@
     {
       "id": "BearClawWoundAlly",
       "name": "Màu Sắc Bị Xé Toạc [Rouge]",
-      "desc": "- Giá trị tối đa: 9\n- Khi nhận sát thương, mỗi 3 đơn vị giá trị nhận 1 Số lượng [Bleed] (1 lần mỗi lượt)\n- Khi kết thúc lượt, vào lượt kế tiếp nhận 1 Giảm cấp phòng thủ mỗi 4 đơn vị giá trị (Tối đa 2)\n- Giảm 1 khi kết thúc lượt",
+      "desc": "- Giá trị tối đa: 9\n- Khi nhận sát thương, mỗi 3 đơn vị giá trị nhận 1 Số lượng [Xuất huyết] (1 lần mỗi lượt)\n- Khi kết thúc lượt, vào lượt kế tiếp nhận 1 Giảm cấp phòng thủ mỗi 4 đơn vị giá trị (Tối đa 2)\n- Giảm 1 khi kết thúc lượt",
       "summary": "",
       "undefined": "-"
     },
@@ -3064,7 +3064,7 @@
     {
       "id": "SojiRyoshuShin",
       "name": "Shin(Tâm) - Địa Tuệ Tinh",
-      "desc": "- Tốc độ tối thiểu và tối đa tăng thêm 2\n- Khi sử dụng Kỹ năng tấn công cơ bản, nhận 2 [Poise], 1 Số lượng [Poise]\n- Sát thương chí mạng từ Kỹ năng tấn công cơ bản của bản thân +10%\n- Sát thương nhận từ Tấn công một chiều hoặc Đồng xu không thể phá hủy -20%",
+      "desc": "- Tốc độ tối thiểu và tối đa tăng thêm 2\n- Khi sử dụng Kỹ năng tấn công cơ bản, nhận 2 [Hơi thở], 1 Số lượng [Hơi thở]\n- Sát thương chí mạng từ Kỹ năng tấn công cơ bản của bản thân +10%\n- Sát thương nhận từ Tấn công một chiều hoặc Đồng xu không thể phá hủy -20%",
       "summary": "",
       "undefined": "-",
       "flavor": ""

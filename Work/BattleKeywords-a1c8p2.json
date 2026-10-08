@@ -9,7 +9,7 @@
     {
       "id": "BurstStop",
       "name": "Chú Sát 【Vật Động】",
-      "desc": "- Giá trị cơ bản: 4\n- Chú Sát\n- Khi [Rupture] kích hoạt trong trạng thái có từ 3 [Bind] trở lên, giảm 1\n- Khi giá trị giảm, đẩy mốc [Stagger] lên 10\n- Khi giá trị chạm 0, đẩy mốc [Stagger] lên bằng Số dư [Rupture] rồi biến mất\n- ※ Hiệu ứng này không được làm mới",
+      "desc": "- Giá trị cơ bản: 4\n- Chú Sát\n- Khi [Vết rách] kích hoạt trong trạng thái có từ 3 [Trói buộc] trở lên, giảm 1\n- Khi giá trị giảm, đẩy mốc [Stagger] lên 10\n- Khi giá trị chạm 0, đẩy mốc [Stagger] lên bằng Số dư [Vết rách] rồi biến mất\n- ※ Hiệu ứng này không được làm mới",
       "summary": ""
     },
     {
@@ -21,19 +21,19 @@
     {
       "id": "BurstWave",
       "name": "Chú Sát 【Tức Giảm】",
-      "desc": "Giá trị cơ bản: 10\n- Chú Sát\nKhi [Rupture] kích hoạt bởi người đặt, giảm 1.\n- Giảm ngẫu nhiên 1 giá trị của một Chú Sát khác mà bản thân đang sở hữu.\n- Khi giá trị chạm 0, biến mất\n- ※ Hiệu ứng này không được làm mới",
+      "desc": "Giá trị cơ bản: 10\n- Chú Sát\nKhi [Vết rách] kích hoạt bởi người đặt, giảm 1.\n- Giảm ngẫu nhiên 1 giá trị của một Chú Sát khác mà bản thân đang sở hữu.\n- Khi giá trị chạm 0, biến mất\n- ※ Hiệu ứng này không được làm mới",
       "summary": ""
     },
     {
       "id": "Teaching",
       "name": "Vấn Đáp",
-      "desc": "Giá trị tối đa: 3\n- Khi kết thúc lượt, hồi 5 [Sanity (SP)]\n- Khi HP chạm 0 trong trận chiến, hồi đầy HP (Kích hoạt số lần bằng giá trị)",
+      "desc": "Giá trị tối đa: 3\n- Khi kết thúc lượt, hồi 5 [Tinh thần (SP)]\n- Khi HP chạm 0 trong trận chiến, hồi đầy HP (Kích hoạt số lần bằng giá trị)",
       "summary": ""
     },
     {
       "id": "BurstWeakness",
       "name": "Chú Sát 【Nhược Hóa】",
-      "desc": "Giá trị cơ bản: 5\n- Chú Sát\n- Khi tốc độ của mục tiêu cao hơn và chênh lệch tốc độ từ 5 trở lên, giảm 1 khi [Rupture] kích hoạt lúc nhận sát thương.\n- Khi giá trị giảm, nhận Giảm Cấp Phòng thủ 1 vào lượt tiếp theo (Tối đa 1 mỗi lượt)\n- Khi giá trị chạm 0, nhận Giảm Cấp Phòng thủ 3, [Bind] 1 vào lượt tiếp theo rồi biến mất\n- ※ Hiệu ứng này không được làm mới",
+      "desc": "Giá trị cơ bản: 5\n- Chú Sát\n- Khi tốc độ của mục tiêu cao hơn và chênh lệch tốc độ từ 5 trở lên, giảm 1 khi [Vết rách] kích hoạt lúc nhận sát thương.\n- Khi giá trị giảm, nhận Giảm Cấp Phòng thủ 1 vào lượt tiếp theo (Tối đa 1 mỗi lượt)\n- Khi giá trị chạm 0, nhận Giảm Cấp Phòng thủ 3, [Trói buộc] 1 vào lượt tiếp theo rồi biến mất\n- ※ Hiệu ứng này không được làm mới",
       "summary": ""
     },
     {
@@ -51,7 +51,7 @@
     {
       "id": "QiuAndHonglu",
       "name": "Trái tim thật lòng của tôi...",
-      "desc": "- Uy lực cuối cùng tất cả kỹ năng của Hong Lu +1\n- Khi thắng [Clash], hồi 5 [Sanity (SP)] cho đồng minh có [Sanity (SP)] thấp nhất (bao gồm bản thân)\n- Nếu đồng minh tử trận, khi kết thúc lượt, các đồng minh còn lại nhận Tăng Uy Lực Tấn Công 1 vào lượt tiếp theo (1 lần mỗi lượt)",
+      "desc": "- Uy lực cuối cùng tất cả kỹ năng của Hong Lu +1\n- Khi thắng [Va chạm], hồi 5 [Tinh thần (SP)] cho đồng minh có [Tinh thần (SP)] thấp nhất (bao gồm bản thân)\n- Nếu đồng minh tử trận, khi kết thúc lượt, các đồng minh còn lại nhận Tăng Uy Lực Tấn Công 1 vào lượt tiếp theo (1 lần mỗi lượt)",
       "summary": ""
     },
     {
@@ -69,49 +69,49 @@
     {
       "id": "WitheredWood_LowMorale",
       "name": "Cổ Mộc Hóa",
-      "desc": "- Suy giảm nhuệ khí\n- Nhận Tăng Sát Thương 1, [Fragile] 1, Mong manh [Rupture] 1",
+      "desc": "- Suy giảm nhuệ khí\n- Nhận Tăng Sát Thương 1, [Mong manh] 1, Mong manh [Vết rách] 1",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "WitheredWood_Panic",
       "name": "Cổ Mộc Hóa",
-      "desc": "- Hoảng loạn\n- Nhận Tăng Sát Thương 2, [Fragile] 2, Mong manh [Rupture] 2",
+      "desc": "- Hoảng loạn\n- Nhận Tăng Sát Thương 2, [Mong manh] 2, Mong manh [Vết rách] 2",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "EvilHeart_LowMorale",
       "name": "Tà Tâm",
-      "desc": "- Suy giảm nhuệ khí\nKhi tiến hành [Clash] với mục tiêu đang có Lá Bùa Xui Xẻo, Uy lực [Clash] +2\nKhi bắt đầu lượt, nhận Tăng Sát Thương 2, [Fragile] 1",
+      "desc": "- Suy giảm nhuệ khí\nKhi tiến hành [Va chạm] với mục tiêu đang có Lá Bùa Xui Xẻo, Uy lực [Va chạm] +2\nKhi bắt đầu lượt, nhận Tăng Sát Thương 2, [Mong manh] 1",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "EvilHeart_Panic",
       "name": "Tà Tâm",
-      "desc": "- Hoảng loạn\nKhi tiến hành [Clash] với mục tiêu đang có Lá Bùa Xui Xẻo, Uy lực [Clash] +3\nKhi bắt đầu lượt, nhận Tăng Sát Thương 3, [Fragile] 2",
+      "desc": "- Hoảng loạn\nKhi tiến hành [Va chạm] với mục tiêu đang có Lá Bùa Xui Xẻo, Uy lực [Va chạm] +3\nKhi bắt đầu lượt, nhận Tăng Sát Thương 3, [Mong manh] 2",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "DeepEvilHeart_LowMorale",
       "name": "Tà Tâm Sâu Thẳm",
-      "desc": "- Suy giảm nhuệ khí\nKhi tiến hành [Clash] với mục tiêu đang có Lá Bùa Xui Xẻo, Uy lực [Clash] +2\nKhi bắt đầu lượt, nhận Tăng Sát Thương 3, [Fragile] 1",
+      "desc": "- Suy giảm nhuệ khí\nKhi tiến hành [Va chạm] với mục tiêu đang có Lá Bùa Xui Xẻo, Uy lực [Va chạm] +2\nKhi bắt đầu lượt, nhận Tăng Sát Thương 3, [Mong manh] 1",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "DeepEvilHeart_Panic",
       "name": "Tà Tâm Sâu Thẳm",
-      "desc": "- Hoảng loạn\nKhi tiến hành [Clash] với mục tiêu đang có Lá Bùa Xui Xẻo, Uy lực [Clash] +3\nKhi bắt đầu lượt, nhận Tăng Sát Thương 4, [Fragile] 2",
+      "desc": "- Hoảng loạn\nKhi tiến hành [Va chạm] với mục tiêu đang có Lá Bùa Xui Xẻo, Uy lực [Va chạm] +3\nKhi bắt đầu lượt, nhận Tăng Sát Thương 4, [Mong manh] 2",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "OminousTalisman",
       "name": "Lá Bùa Xui Xẻo",
-      "desc": "- Giá trị cơ bản: 10\n- Khi giá trị chạm 0, nhận sát thương hệ Phàm Ăn và sát thương [Sanity (SP)] bằng với Số dư [Rupture] rồi biến mất (Sát thương [Sanity (SP)]: Tối đa 20)\n- Khi Lá Bùa Xui Xẻo giảm, nhận Số dư [Rupture] bằng với giá trị đã giảm, và tăng Số lần [Rupture] bằng một nửa giá trị đó (Làm tròn xuống)\n※ Hiệu ứng này không được làm mới",
+      "desc": "- Giá trị cơ bản: 10\n- Khi giá trị chạm 0, nhận sát thương hệ Phàm Ăn và sát thương [Tinh thần (SP)] bằng với Số dư [Vết rách] rồi biến mất (Sát thương [Tinh thần (SP)]: Tối đa 20)\n- Khi Lá Bùa Xui Xẻo giảm, nhận Số dư [Vết rách] bằng với giá trị đã giảm, và tăng Số lần [Vết rách] bằng một nửa giá trị đó (Làm tròn xuống)\n※ Hiệu ứng này không được làm mới",
       "summary": "",
       "undefined": "-"
     },
@@ -125,77 +125,77 @@
     {
       "id": "UncontrolledChargeAxe_LowMorale",
       "name": "Nghịch Lưu Mạch Sạc",
-      "desc": "- Suy giảm nhuệ khí\nKhi tiến hành [Clash] với mục tiêu đang có [Rupture], nhận Số lần Sạc 3, [Fragile] 1 (2 lần mỗi lượt)",
+      "desc": "- Suy giảm nhuệ khí\nKhi tiến hành [Va chạm] với mục tiêu đang có [Vết rách], nhận Số lần Sạc 3, [Mong manh] 1 (2 lần mỗi lượt)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "UncontrolledChargeAxe_Panic",
       "name": "Nghịch Lưu Mạch Sạc",
-      "desc": "- Hoảng loạn\nKhi tiến hành [Clash] với mục tiêu đang có [Rupture], nhận Số lần Sạc 5, Tăng Sát Thương 1, [Fragile] 2 (2 lần mỗi lượt)",
+      "desc": "- Hoảng loạn\nKhi tiến hành [Va chạm] với mục tiêu đang có [Vết rách], nhận Số lần Sạc 5, Tăng Sát Thương 1, [Mong manh] 2 (2 lần mỗi lượt)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "MadFeather",
       "name": "Nhãn Vũ",
-      "desc": "- Giá trị tối đa: 10\n- Khi kết thúc lượt, nhận Số lần [Rupture] và Số lần [Bleed] bằng (Giá trị ÷ 2) (Làm tròn xuống)\n- Khi kết thúc lượt, giá trị giảm 1",
+      "desc": "- Giá trị tối đa: 10\n- Khi kết thúc lượt, nhận Số lần [Vết rách] và Số lần [Xuất huyết] bằng (Giá trị ÷ 2) (Làm tròn xuống)\n- Khi kết thúc lượt, giá trị giảm 1",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "MadFeather_LowMorale",
       "name": "Lưỡng Nhận Vũ",
-      "desc": "- Suy giảm nhuệ khí\nKhi bắt đầu lượt, nhận [Fragile] 1, Tăng Hồi Phục HP 1. Khi tấn công trúng, gây 1 [Rupture], 1 [Bleed]",
+      "desc": "- Suy giảm nhuệ khí\nKhi bắt đầu lượt, nhận [Mong manh] 1, Tăng Hồi Phục HP 1. Khi tấn công trúng, gây 1 [Vết rách], 1 [Xuất huyết]",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "MadFeather_Panic",
       "name": "Lưỡng Nhận Vũ",
-      "desc": "- Hoảng loạn\nKhi bắt đầu lượt, nhận [Fragile] 2, Tăng Hồi Phục HP 2. Khi tấn công trúng, gây 1 [Rupture], 1 [Bleed]",
+      "desc": "- Hoảng loạn\nKhi bắt đầu lượt, nhận [Mong manh] 2, Tăng Hồi Phục HP 2. Khi tấn công trúng, gây 1 [Vết rách], 1 [Xuất huyết]",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "JarMaster_LowMorale",
       "name": "Chỉ Thị Đột Kích",
-      "desc": "- Suy giảm nhuệ khí\nKhi bắt đầu lượt, nhận [Fragile] 1 và tăng Sát thương 1 cho toàn bộ đồng minh",
+      "desc": "- Suy giảm nhuệ khí\nKhi bắt đầu lượt, nhận [Mong manh] 1 và tăng Sát thương 1 cho toàn bộ đồng minh",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "JarMaster_Panic",
       "name": "Chỉ Thị Đột Kích",
-      "desc": "- Hoảng loạn\nKhi bắt đầu lượt, nhận [Fragile] 2 và tăng Sát thương 2 cho toàn bộ đồng minh",
+      "desc": "- Hoảng loạn\nKhi bắt đầu lượt, nhận [Mong manh] 2 và tăng Sát thương 2 cho toàn bộ đồng minh",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "DeepAngry_LowMorale",
       "name": "Uất Hận",
-      "desc": "- Suy giảm nhuệ khí\nKhi tiến hành [Clash] với mục tiêu đang có Lá Bùa Xui Xẻo, Uy lực [Clash] +2\nKhi bắt đầu lượt, nhận Tăng Sát Thương 2, [Fragile] 1",
+      "desc": "- Suy giảm nhuệ khí\nKhi tiến hành [Va chạm] với mục tiêu đang có Lá Bùa Xui Xẻo, Uy lực [Va chạm] +2\nKhi bắt đầu lượt, nhận Tăng Sát Thương 2, [Mong manh] 1",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "DeepAngry_Panic",
       "name": "Uất Hận",
-      "desc": "- Hoảng loạn\nKhi tiến hành [Clash] với mục tiêu đang có Lá Bùa Xui Xẻo, Uy lực [Clash] +3\nKhi bắt đầu lượt, nhận Tăng Sát Thương 3, [Fragile] 2",
+      "desc": "- Hoảng loạn\nKhi tiến hành [Va chạm] với mục tiêu đang có Lá Bùa Xui Xẻo, Uy lực [Va chạm] +3\nKhi bắt đầu lượt, nhận Tăng Sát Thương 3, [Mong manh] 2",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "TakeBreath_LowMorale",
       "name": "Nghỉ Ngơi",
-      "desc": "- Suy giảm nhuệ khí\nKhi bắt đầu lượt, nhận Tăng Cấp Phòng thủ 2 và Số dư [Poise] giảm 2",
+      "desc": "- Suy giảm nhuệ khí\nKhi bắt đầu lượt, nhận Tăng Cấp Phòng thủ 2 và Số dư [Hơi thở] giảm 2",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "TakeBreath_Panic",
       "name": "Nghỉ Ngơi",
-      "desc": "- Hoảng loạn\nKhi bắt đầu lượt, nhận Tăng Cấp Phòng thủ 5 và Số dư [Poise] giảm 5",
+      "desc": "- Hoảng loạn\nKhi bắt đầu lượt, nhận Tăng Cấp Phòng thủ 5 và Số dư [Hơi thở] giảm 5",
       "summary": "",
       "undefined": "-"
     }
