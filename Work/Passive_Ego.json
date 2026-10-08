@@ -210,7 +210,7 @@
     {
       "id": 2110411,
       "name": "Nhịp Thở Săn Bắn",
-      "desc": "Khi kết thúc Đối đầu, nhận 2 [Breath]\nKhi rơi vào trạng thái Hoảng loạn, nhận 2 [Protection], khi hồi phục từ trạng thái Hoảng loạn nhận 5 [Breath]"
+      "desc": "Khi kết thúc Đối kháng, nhận 2 [Breath]\nKhi rơi vào trạng thái Hoảng loạn, nhận 2 [Protection], khi hồi phục từ trạng thái Hoảng loạn nhận 5 [Breath]"
     },
     {
       "id": 2070311,
@@ -230,7 +230,7 @@
     {
       "id": 2040311,
       "name": "Tơ Nhện",
-      "desc": "Khi thắng Đối đầu, gây 1 Trói buộc ([Binding]) vào lượt kế tiếp (Tối đa 3 lần mỗi lượt)"
+      "desc": "Khi thắng Đối kháng, gây 1 Trói buộc ([Binding]) vào lượt kế tiếp (Tối đa 3 lần mỗi lượt)"
     },
     {
       "id": 2040411,
@@ -335,7 +335,7 @@
     {
       "id": 2010611,
       "name": "Ngày Hôm Qua Đã Tan Vỡ",
-      "desc": "Nếu Sức mạnh [Sinking] của mục tiêu từ 6 trở lên, Sức mạnh Đối đầu +1\nNếu Số lượng [Sinking] của mục tiêu từ 4 trở lên, Sức mạnh Đối đầu +1"
+      "desc": "Nếu Sức mạnh [Sinking] của mục tiêu từ 6 trở lên, Sức mạnh Đối kháng +1\nNếu Số lượng [Sinking] của mục tiêu từ 4 trở lên, Sức mạnh Đối kháng +1"
     },
     {
       "id": 2030611,
@@ -532,7 +532,7 @@
     {
       "id": 2081011,
       "name": "Vũ điệu Biển sâu",
-      "desc": "- Bắt đầu trận chiến, nếu chỉ có 1 kẻ địch, Sức mạnh Đối đầu của Kĩ năng tấn công nằm ngoài cùng bên trái trên bảng điều khiển của bản thân +1, lượng sát thương khi trúng đích sau khi thắng Đối đầu +11.5% (Bao gồm cả Kĩ năng E.G.O)\n- Trong lượt quay lại hoặc hủy trạng thái chờ, giá trị Tốc độ tối thiểu/tối đa của bản thân +1, Sức mạnh Đối đầu +1"
+      "desc": "- Bắt đầu trận chiến, nếu chỉ có 1 kẻ địch, Sức mạnh Đối kháng của Kĩ năng tấn công nằm ngoài cùng bên trái trên bảng điều khiển của bản thân +1, lượng sát thương khi trúng đích sau khi thắng Đối kháng +11.5% (Bao gồm cả Kĩ năng E.G.O)\n- Trong lượt quay lại hoặc hủy trạng thái chờ, giá trị Tốc độ tối thiểu/tối đa của bản thân +1, Sức mạnh Đối kháng +1"
     },
     {
       "id": 2120911,
@@ -542,8 +542,8 @@
     {
       "id": 2110911,
       "name": "Trò chơi trừng phạt nguyền rủa",
-      "desc": "Khi thắng Đối đầu, gây 4 sát thương Đố kỵ lên mục tiêu\n- Nếu HP của mục tiêu dưới 33% hoặc HP của bản thân dưới 33%, lượt sau cấp 1 [ResultReduction] (1 lần mỗi lượt)\n- Trong lượt E.G.O Gift <noparse>Búp bê Nguyền rủa</noparse> kích hoạt, không cấp [ResultReduction] bằng hiệu ứng bị động này",
-      "summary": "Khi thắng Đối đầu, gây sát thương Đố kỵ\nKhi thỏa mãn điều kiện, lượt sau cấp [ResultReduction]"
+      "desc": "Khi thắng Đối kháng, gây 4 sát thương Đố kỵ lên mục tiêu\n- Nếu HP của mục tiêu dưới 33% hoặc HP của bản thân dưới 33%, lượt sau cấp 1 [ResultReduction] (1 lần mỗi lượt)\n- Trong lượt E.G.O Gift <noparse>Búp bê Nguyền rủa</noparse> kích hoạt, không cấp [ResultReduction] bằng hiệu ứng bị động này",
+      "summary": "Khi thắng Đối kháng, gây sát thương Đố kỵ\nKhi thỏa mãn điều kiện, lượt sau cấp [ResultReduction]"
     },
     {
       "id": 2070911,
@@ -580,8 +580,8 @@
     {
       "id": 2010212,
       "name": "Tàn lửa",
-      "desc": "<style=\"highlight\">Khi sử dụng kĩ năng thuộc tính Phẫn nộ hoặc kĩ năng cấp số lượng · số lần [Combustion], nếu tổng [Combustion] của tất cả đối tượng bị tấn công từ 6 trở lên, Sức mạnh Đối đầu +1</style>\n\nKhi thắng Đối đầu, cấp (Số lượng <style=\"highlight\">Cộng hưởng Phẫn nộ × 2</style>) [Combustion] cho <style=\"highlight\">mục tiêu chính</style> (<style=\"highlight\">Tối đa 8</style> mỗi kĩ năng)",
-      "summary": "Tăng Sức mạnh Đối đầu\nCấp [Combustion] khi thỏa mãn điều kiện"
+      "desc": "<style=\"highlight\">Khi sử dụng kĩ năng thuộc tính Phẫn nộ hoặc kĩ năng cấp số lượng · số lần [Combustion], nếu tổng [Combustion] của tất cả đối tượng bị tấn công từ 6 trở lên, Sức mạnh Đối kháng +1</style>\n\nKhi thắng Đối kháng, cấp (Số lượng <style=\"highlight\">Cộng hưởng Phẫn nộ × 2</style>) [Combustion] cho <style=\"highlight\">mục tiêu chính</style> (<style=\"highlight\">Tối đa 8</style> mỗi kĩ năng)",
+      "summary": "Tăng Sức mạnh Đối kháng\nCấp [Combustion] khi thỏa mãn điều kiện"
     },
     {
       "id": 2050911,

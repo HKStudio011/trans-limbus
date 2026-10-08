@@ -52,21 +52,21 @@
     {
       "id": "DuelDeclaration_Camille",
       "name": "Tuyên Bố Quyết Đấu - Camille",
-      "desc": "Khi nhân vật đã chỉ định Tuyên Bố Quyết Đấu tiến hành [Va chạm] với mục tiêu bị chỉ định, Uy lực [Va chạm] +1\nKhi tấn công trúng đích, nhận 1 Tốc độ vào lượt tiếp theo. (Tối đa 4 lần mỗi lượt)\nHiệu ứng biến mất nếu nhân vật chỉ định áp dụng hiệu ứng này lên mục tiêu khác.\nNếu Tuyên Bố Quyết Đấu của nhân vật khác được áp dụng, nó sẽ bị thay thế.",
+      "desc": "Khi nhân vật đã chỉ định Tuyên Bố Quyết Đấu tiến hành [Đối kháng] với mục tiêu bị chỉ định, Uy lực [Đối kháng] +1\nKhi tấn công trúng đích, nhận 1 Tốc độ vào lượt tiếp theo. (Tối đa 4 lần mỗi lượt)\nHiệu ứng biến mất nếu nhân vật chỉ định áp dụng hiệu ứng này lên mục tiêu khác.\nNếu Tuyên Bố Quyết Đấu của nhân vật khác được áp dụng, nó sẽ bị thay thế.",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RecklessDuel",
       "name": "Quyết Đấu Liều Lĩnh",
-      "desc": "Khi kết thúc lượt, mỗi 10% tổng máu đã mất trong trận chiến sẽ nhận Tăng Uy Lực [Va chạm] vào lượt tiếp theo (Tối đa 5)\nKhi kết thúc lượt, mỗi 10% tổng máu đã mất trong trận chiến sẽ nhận [Trói buộc] vào lượt tiếp theo (Tối đa 5)",
+      "desc": "Khi kết thúc lượt, mỗi 10% tổng máu đã mất trong trận chiến sẽ nhận Tăng Uy Lực [Đối kháng] vào lượt tiếp theo (Tối đa 5)\nKhi kết thúc lượt, mỗi 10% tổng máu đã mất trong trận chiến sẽ nhận [Trói buộc] vào lượt tiếp theo (Tối đa 5)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "ConcentratedAttack",
       "name": "Tấn Công Tập Trung",
-      "desc": "Khi sử dụng kỹ năng vào ô kỹ năng đã tấn công thành công ở lượt trước, nhận các hiệu ứng sau dựa trên số lượt tấn công thành công tích lũy.\n- Tích lũy 1 lượt tấn công thành công: Uy lực [Va chạm] +1\n- Tích lũy 2 lượt tấn công thành công: Uy lực Cơ bản +1\n- Tích lũy 3 lượt tấn công thành công: Uy lực Cơ bản +1, Uy lực Đồng xu +1",
+      "desc": "Khi sử dụng kỹ năng vào ô kỹ năng đã tấn công thành công ở lượt trước, nhận các hiệu ứng sau dựa trên số lượt tấn công thành công tích lũy.\n- Tích lũy 1 lượt tấn công thành công: Uy lực [Đối kháng] +1\n- Tích lũy 2 lượt tấn công thành công: Uy lực Cơ bản +1\n- Tích lũy 3 lượt tấn công thành công: Uy lực Cơ bản +1, Uy lực Đồng xu +1",
       "summary": "",
       "undefined": "-"
     },
@@ -122,63 +122,63 @@
     {
       "id": "RighteousFeeling",
       "name": "Cảm Giác Tràn Đầy Chính Nghĩa!!",
-      "desc": "- Mỗi khi kết thúc lượt, nhận 1 Tốc độ, 3 Tăng Cấp Tấn Công, 3 Giảm Cấp Phòng Thủ vào lượt tiếp theo\n- Mỗi 3 lượt tích lũy, nhận thêm 2 Tăng Cấp Tấn Công (Tối đa 6)\n- Khi thắng [Va chạm], hồi 3 [Tinh thần (SP)]\n- Khi tiêu diệt kẻ địch, nhận 1 Tăng Uy Lực [Va chạm] vào lượt tiếp theo (1 lần mỗi lượt)",
+      "desc": "- Mỗi khi kết thúc lượt, nhận 1 Tốc độ, 3 Tăng Cấp Tấn Công, 3 Giảm Cấp Phòng Thủ vào lượt tiếp theo\n- Mỗi 3 lượt tích lũy, nhận thêm 2 Tăng Cấp Tấn Công (Tối đa 6)\n- Khi thắng [Đối kháng], hồi 3 [Tinh thần (SP)]\n- Khi tiêu diệt kẻ địch, nhận 1 Tăng Uy Lực [Đối kháng] vào lượt tiếp theo (1 lần mỗi lượt)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "DuelDeclarationMeursault",
       "name": "Tuyên Bố Quyết Đấu - Meursault",
-      "desc": "Khi nhân vật đã chỉ định Tuyên Bố Quyết Đấu tiến hành [Va chạm] với mục tiêu bị chỉ định, Uy lực [Va chạm] +1\nKhi tấn công trúng đích, nhận 1 Tốc độ vào lượt tiếp theo. (Tối đa 4 lần mỗi lượt)\nHiệu ứng biến mất nếu nhân vật chỉ định áp dụng hiệu ứng này lên mục tiêu khác.\nNếu Tuyên Bố Quyết Đấu của nhân vật khác được áp dụng, nó sẽ bị thay thế.",
+      "desc": "Khi nhân vật đã chỉ định Tuyên Bố Quyết Đấu tiến hành [Đối kháng] với mục tiêu bị chỉ định, Uy lực [Đối kháng] +1\nKhi tấn công trúng đích, nhận 1 Tốc độ vào lượt tiếp theo. (Tối đa 4 lần mỗi lượt)\nHiệu ứng biến mất nếu nhân vật chỉ định áp dụng hiệu ứng này lên mục tiêu khác.\nNếu Tuyên Bố Quyết Đấu của nhân vật khác được áp dụng, nó sẽ bị thay thế.",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "ConcentratedAttackMeursault",
       "name": "Tấn Công Tập Trung - Meursault",
-      "desc": "<Dành riêng cho Tiếp chiến Tập trung>\nKhi nhân vật áp dụng Tấn Công Tập Trung sử dụng kỹ năng vào ô kỹ năng đã tấn công trúng ở lượt trước, Nhận các hiệu ứng sau dựa trên số lần tấn công trúng tích lũy:\nTấn Công Tập Trung cấp 1: Uy lực [Va chạm] +1\nTấn Công Tập Trung cấp 2: Uy lực Cơ bản +1\nTấn Công Tập Trung cấp 3: Uy lực Cơ bản +1, Uy lực Đồng xu +1\n- Biến mất nếu nhân vật áp dụng không thể tấn công trúng vào ô kỹ năng có Tấn Công Tập Trung trong vòng 1 lượt\n- Biến mất nếu nhân vật áp dụng hiệu ứng này lên ô kỹ năng khác\n- Nếu Tấn Công Tập Trung của nhân vật khác được áp dụng lên ô kỹ năng đã có, nó sẽ bị thay thế\n- Khi bắt đầu lượt tiếp theo, nếu Tấn Công Tập Trung đang được áp dụng trên một ô kỹ năng đã bị loại bỏ, tái sắp xếp Tấn Công Tập Trung đã áp dụng trên tất cả các ô kỹ năng của bộ phận đó theo thứ tự đội hình",
+      "desc": "<Dành riêng cho Tiếp chiến Tập trung>\nKhi nhân vật áp dụng Tấn Công Tập Trung sử dụng kỹ năng vào ô kỹ năng đã tấn công trúng ở lượt trước, Nhận các hiệu ứng sau dựa trên số lần tấn công trúng tích lũy:\nTấn Công Tập Trung cấp 1: Uy lực [Đối kháng] +1\nTấn Công Tập Trung cấp 2: Uy lực Cơ bản +1\nTấn Công Tập Trung cấp 3: Uy lực Cơ bản +1, Uy lực Đồng xu +1\n- Biến mất nếu nhân vật áp dụng không thể tấn công trúng vào ô kỹ năng có Tấn Công Tập Trung trong vòng 1 lượt\n- Biến mất nếu nhân vật áp dụng hiệu ứng này lên ô kỹ năng khác\n- Nếu Tấn Công Tập Trung của nhân vật khác được áp dụng lên ô kỹ năng đã có, nó sẽ bị thay thế\n- Khi bắt đầu lượt tiếp theo, nếu Tấn Công Tập Trung đang được áp dụng trên một ô kỹ năng đã bị loại bỏ, tái sắp xếp Tấn Công Tập Trung đã áp dụng trên tất cả các ô kỹ năng của bộ phận đó theo thứ tự đội hình",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "Duello_LowMorale",
       "name": "Thực Lực 1 Đối 1",
-      "desc": "- Suy giảm nhuệ khí\n- Khi bắt đầu lượt, nhận 2 Tăng Cấp Tấn Công. Khi thua [Va chạm], nhận 1 Giảm Cấp Phòng Thủ (Tối đa 3 mỗi lượt). Tốc độ tối thiểu -1",
+      "desc": "- Suy giảm nhuệ khí\n- Khi bắt đầu lượt, nhận 2 Tăng Cấp Tấn Công. Khi thua [Đối kháng], nhận 1 Giảm Cấp Phòng Thủ (Tối đa 3 mỗi lượt). Tốc độ tối thiểu -1",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "Duello_Panic",
       "name": "Thực Lực 1 Đối 1",
-      "desc": "- Hoảng loạn\n- Khi bắt đầu lượt, nhận 4 Tăng Cấp Tấn Công. Khi thua [Va chạm], nhận 2 Giảm Cấp Phòng Thủ (Tối đa 6 mỗi lượt). Tốc độ tối thiểu -1",
+      "desc": "- Hoảng loạn\n- Khi bắt đầu lượt, nhận 4 Tăng Cấp Tấn Công. Khi thua [Đối kháng], nhận 2 Giảm Cấp Phòng Thủ (Tối đa 6 mỗi lượt). Tốc độ tối thiểu -1",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RighteousFeelingSancho",
       "name": "Nuốt Lệ Máu, Ta Sẽ Gánh Vác Trọng Trách.",
-      "desc": "- Mỗi khi nhận Máu Cứng, nhận thêm 1 Máu Cứng. (Tối đa 5 lần mỗi lượt)\n- Mỗi khi kết thúc lượt, nhận 2 Tốc độ, 3 Tăng Cấp Tấn Công vào lượt tiếp theo\n- Mỗi 3 lượt tích lũy, nhận thêm 2 Tăng Cấp Tấn Công (Tối đa 6)\n- Khi thắng [Va chạm], hồi 3 [Tinh thần (SP)]\n- Khi tiêu diệt kẻ địch, nhận 1 Tăng Uy Lực [Va chạm] vào lượt tiếp theo (1 lần mỗi lượt)",
+      "desc": "- Mỗi khi nhận Máu Cứng, nhận thêm 1 Máu Cứng. (Tối đa 5 lần mỗi lượt)\n- Mỗi khi kết thúc lượt, nhận 2 Tốc độ, 3 Tăng Cấp Tấn Công vào lượt tiếp theo\n- Mỗi 3 lượt tích lũy, nhận thêm 2 Tăng Cấp Tấn Công (Tối đa 6)\n- Khi thắng [Đối kháng], hồi 3 [Tinh thần (SP)]\n- Khi tiêu diệt kẻ địch, nhận 1 Tăng Uy Lực [Đối kháng] vào lượt tiếp theo (1 lần mỗi lượt)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "UnfinishedDreamSancho",
       "name": "Không Thể Thoát Khỏi Dòng Máu Đậm Hơn Nước,",
-      "desc": "- Mỗi khi nhận Máu Cứng, nhận thêm 2 Máu Cứng. (Tối đa 5 lần mỗi lượt)\n- Mỗi khi kết thúc lượt, nhận 2 Tốc độ, 3 Tăng Cấp Tấn Công vào lượt tiếp theo\n- Mỗi 3 lượt tích lũy, nhận thêm 2 Tăng Cấp Tấn Công (Tối đa 6)\n- Khi thắng [Va chạm], hồi 3 [Tinh thần (SP)]\n- Khi tiêu diệt kẻ địch, nhận 1 Tăng Uy Lực [Va chạm] vào lượt tiếp theo (1 lần mỗi lượt)",
+      "desc": "- Mỗi khi nhận Máu Cứng, nhận thêm 2 Máu Cứng. (Tối đa 5 lần mỗi lượt)\n- Mỗi khi kết thúc lượt, nhận 2 Tốc độ, 3 Tăng Cấp Tấn Công vào lượt tiếp theo\n- Mỗi 3 lượt tích lũy, nhận thêm 2 Tăng Cấp Tấn Công (Tối đa 6)\n- Khi thắng [Đối kháng], hồi 3 [Tinh thần (SP)]\n- Khi tiêu diệt kẻ địch, nhận 1 Tăng Uy Lực [Đối kháng] vào lượt tiếp theo (1 lần mỗi lượt)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "FragmentOfHopeSancho",
       "name": "Mở Tiệc Cho Những Gia Đình Đã Chịu Khổ Đau,",
-      "desc": "Tăng Uy lực [Va chạm] dựa trên chỉ số\nSát thương gây ra +10%",
+      "desc": "Tăng Uy lực [Đối kháng] dựa trên chỉ số\nSát thương gây ra +10%",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "FragmentOfHopeTwoSancho",
       "name": "Về Một Huyết Quỷ Đã Xử Phạt Người Cha Quay Lưng Với Con Cái Và Gánh Vác Mọi Tội Lỗi",
-      "desc": "- Mỗi 1 chỉ số, Uy lực [Va chạm] +4\n- Khi bắt đầu trận chiến, ban Lá chắn cho bản thân và đồng minh\n- Sát thương gây ra +20%\n- Mỗi khi đánh trúng, gây 1 sát thương cố định",
+      "desc": "- Mỗi 1 chỉ số, Uy lực [Đối kháng] +4\n- Khi bắt đầu trận chiến, ban Lá chắn cho bản thân và đồng minh\n- Sát thương gây ra +20%\n- Mỗi khi đánh trúng, gây 1 sát thương cố định",
       "summary": "",
       "undefined": "-"
     }

@@ -674,7 +674,7 @@
     {
       "id": "Assemble",
       "name": "Cuồng tín",
-      "desc": "Trong 1 lượt, khi tấn công mục tiêu bị gắn Đinh, Sức mạnh Cuối +{0} (Áp dụng cả khi đang Đối đầu)",
+      "desc": "Trong 1 lượt, khi tấn công mục tiêu bị gắn Đinh, Sức mạnh Cuối +{0} (Áp dụng cả khi đang Đối kháng)",
       "summary": "Sức mạnh Cuối +{0}"
     },
     {
@@ -1045,8 +1045,8 @@
     {
       "id": "Tipsiness",
       "name": "Say",
-      "desc": "Sức mạnh Đối đầu -{0} (Tối đa 5)",
-      "summary": "Sức mạnh Đối đầu giảm theo giá trị tương ứng"
+      "desc": "Sức mạnh Đối kháng -{0} (Tối đa 5)",
+      "summary": "Sức mạnh Đối kháng giảm theo giá trị tương ứng"
     },
     {
       "id": "Predation",
@@ -1087,8 +1087,8 @@
     {
       "id": "VibrationAssimilation",
       "name": "Đồng hóa Chấn động",
-      "desc": "Với mỗi 5 Chấn động mà mục tiêu sở hữu, Sức mạnh Đối đầu của mục tiêu -1",
-      "summary": "Với mỗi 5 Chấn động mà mục tiêu sở hữu, Sức mạnh Đối đầu của mục tiêu -1"
+      "desc": "Với mỗi 5 Chấn động mà mục tiêu sở hữu, Sức mạnh Đối kháng của mục tiêu -1",
+      "summary": "Với mỗi 5 Chấn động mà mục tiêu sở hữu, Sức mạnh Đối kháng của mục tiêu -1"
     },
     {
       "id": "CollapseAmpoule",
@@ -1146,7 +1146,7 @@
     {
       "id": "Crazy_Panic",
       "name": "Kẻ điên",
-      "desc": "- Hoảng loạn\n- Nhận trạng thái Không phân biệt được địch ta, +1 Sức mạnh Đối đầu, 2 Tăng lượng sát thương",
+      "desc": "- Hoảng loạn\n- Nhận trạng thái Không phân biệt được địch ta, +1 Sức mạnh Đối kháng, 2 Tăng lượng sát thương",
       "undefined": "-"
     },
     {
@@ -1200,13 +1200,13 @@
     {
       "id": "Blue_LowMorale",
       "name": "Nỗi đau",
-      "desc": "- Suy giảm Sĩ khí\n- Nếu có ít nhất một đồng xu tung ra mặt sấp trong lúc Đối đầu, Sức mạnh Đối đầu của mục tiêu trong lượt Đối đầu này -1",
+      "desc": "- Suy giảm Sĩ khí\n- Nếu có ít nhất một đồng xu tung ra mặt sấp trong lúc Đối kháng, Sức mạnh Đối kháng của mục tiêu trong lượt Đối kháng này -1",
       "undefined": "-"
     },
     {
       "id": "Blue_Panic",
       "name": "Nỗi đau",
-      "desc": "- Hoảng loạn\n- Nếu có ít nhất một đồng xu tung ra mặt sấp trong lúc Đối đầu, Sức mạnh Đối đầu của mục tiêu trong lượt Đối đầu này -3",
+      "desc": "- Hoảng loạn\n- Nếu có ít nhất một đồng xu tung ra mặt sấp trong lúc Đối kháng, Sức mạnh Đối kháng của mục tiêu trong lượt Đối kháng này -3",
       "undefined": "-"
     },
     {
@@ -2386,7 +2386,7 @@
     {
       "id": "BlackCloud",
       "name": "Hắc Vân",
-      "desc": "Giá trị tối đa: 1\nTrong lượt này, các đồng xu của Kĩ năng tấn công cơ bản bản thân sử dụng được chuyển thành [Đồng xu không thể bị phá hủy], không bị Choáng do sát thương cho đến khi kết thúc kĩ năng đó, giá trị [Xuất huyết] gây ra cho kẻ thù bằng đồng xu +1\nKhi thua Đối đầu, Sức mạnh Cuối cùng tăng 3\nKhi kết thúc lượt, xóa bùa lợi",
+      "desc": "Giá trị tối đa: 1\nTrong lượt này, các đồng xu của Kĩ năng tấn công cơ bản bản thân sử dụng được chuyển thành [Đồng xu không thể bị phá hủy], không bị Choáng do sát thương cho đến khi kết thúc kĩ năng đó, giá trị [Xuất huyết] gây ra cho kẻ thù bằng đồng xu +1\nKhi thua Đối kháng, Sức mạnh Cuối cùng tăng 3\nKhi kết thúc lượt, xóa bùa lợi",
       "summary": "Kĩ năng tấn công được chuyển thành [Đồng xu không thể bị phá hủy] và cường hóa hiệu ứng."
     },
     {
@@ -2434,7 +2434,7 @@
     {
       "id": "DianxueDonQuixote",
       "name": "Điểm Huyệt - Don Quixote",
-      "desc": "- Giá trị tối đa: 3\n- Nhân vật đã gây Điểm Huyệt sẽ nhận các hiệu ứng sau tùy theo giá trị Điểm Huyệt trên mục tiêu (hoặc bộ phận)\n· 1 Cộng dồn: Sức mạnh Đối đầu +1\n· 2 Cộng dồn: Sức mạnh Cơ bản +1\n· 3 Cộng dồn: Sức mạnh Đối đầu +1, Sức mạnh Cơ bản +1\n- Biến mất nếu nhân vật đã gây hiệu ứng này lại gây nó lên mục tiêu (hoặc bộ phận) khác\n- Nếu Điểm Huyệt của nhân vật khác được gây ra, nó sẽ bị thay thế",
+      "desc": "- Giá trị tối đa: 3\n- Nhân vật đã gây Điểm Huyệt sẽ nhận các hiệu ứng sau tùy theo giá trị Điểm Huyệt trên mục tiêu (hoặc bộ phận)\n· 1 Cộng dồn: Sức mạnh Đối kháng +1\n· 2 Cộng dồn: Sức mạnh Cơ bản +1\n· 3 Cộng dồn: Sức mạnh Đối kháng +1, Sức mạnh Cơ bản +1\n- Biến mất nếu nhân vật đã gây hiệu ứng này lại gây nó lên mục tiêu (hoặc bộ phận) khác\n- Nếu Điểm Huyệt của nhân vật khác được gây ra, nó sẽ bị thay thế",
       "summary": "",
       "undefined": "-"
     },
@@ -2595,7 +2595,7 @@
     {
       "id": "CheerUpXichun",
       "name": "Viện",
-      "desc": "- Giá trị tối đa: 1\n- Nếu mục tiêu có từ 5 loại hiệu ứng bất lợi trở lên, Sức mạnh Đối đầu +1, Sát thương +10%",
+      "desc": "- Giá trị tối đa: 1\n- Nếu mục tiêu có từ 5 loại hiệu ứng bất lợi trở lên, Sức mạnh Đối kháng +1, Sát thương +10%",
       "summary": "",
       "undefined": "-"
     },
@@ -3365,7 +3365,7 @@
     {
       "id": "MeursaultWorkerBee",
       "name": "Pheromone Trung thành",
-      "desc": "- Giá trị tối đa: 3\n- Tùy vào chỉ số, khi kết thúc lượt, nhận các hiệu ứng sau ở lượt kế tiếp:\n1~ : Bảo vệ 1\n2~ : Nhanh nhẹn 1\n3: Tăng Sức mạnh Đối đầu 1",
+      "desc": "- Giá trị tối đa: 3\n- Tùy vào chỉ số, khi kết thúc lượt, nhận các hiệu ứng sau ở lượt kế tiếp:\n1~ : Bảo vệ 1\n2~ : Nhanh nhẹn 1\n3: Tăng Sức mạnh Đối kháng 1",
       "summary": "",
       "undefined": "-"
     },
@@ -3730,7 +3730,7 @@
     {
       "id": "MiddleFatherGutsOutis",
       "name": "Siêu Kiên Cường",
-      "desc": "- Giá trị tối đa: 3\n- Chỉnh sửa các Kháng vật lý vượt quá Bình thường (1.0) của bản thân thành Bình thường (1.0) (Trừ trường hợp bị Choáng)\n- Lượng sát thương nhận vào từ kĩ năng giảm 30 + (Giá trị của [Ngón Giữa - Hình Xăm Oán Hận [<s>Đại Tỷ</s>]] × 4)% (Tối đa 50%, làm tròn xuống)\n- Khi Thắng đối đầu, tăng thêm Tinh thần bằng (Số lần đối đầu × 5) (Tối đa 15)\n- Khi kết thúc lượt, nếu Tinh thần bị giảm do hiệu ứng kĩ năng của bản thân trong lượt này, sát thương gây ra từ Kĩ năng cơ bản vào lượt tiếp theo +10% (1 lần mỗi lượt)\n- Giảm 1 khi kết thúc lượt",
+      "desc": "- Giá trị tối đa: 3\n- Chỉnh sửa các Kháng vật lý vượt quá Bình thường (1.0) của bản thân thành Bình thường (1.0) (Trừ trường hợp bị Choáng)\n- Lượng sát thương nhận vào từ kĩ năng giảm 30 + (Giá trị của [Ngón Giữa - Hình Xăm Oán Hận [<s>Đại Tỷ</s>]] × 4)% (Tối đa 50%, làm tròn xuống)\n- Khi Thắng đối kháng, tăng thêm Tinh thần bằng (Số lần đối kháng × 5) (Tối đa 15)\n- Khi kết thúc lượt, nếu Tinh thần bị giảm do hiệu ứng kĩ năng của bản thân trong lượt này, sát thương gây ra từ Kĩ năng cơ bản vào lượt tiếp theo +10% (1 lần mỗi lượt)\n- Giảm 1 khi kết thúc lượt",
       "summary": "",
       "undefined": "-",
       "flavor": ""
@@ -4069,7 +4069,7 @@
     {
       "id": "DianxueHongLu",
       "name": "Điểm Xích - Hong Lu",
-      "desc": "- Tối đa: 3\n- Đơn vị gây ra Điểm Xích này nhận các hiệu ứng sau dựa trên giá trị Điểm Xích của mục tiêu (hoặc Part bị nhắm tới)\n· 1x giá trị: Nhận Sức mạnh Đối đầu +1\n· 2x giá trị: Nhận Sức mạnh Cơ bản +1\n· 3x giá trị: Nhận Sức mạnh Đối đầu +1 và Sức mạnh Cơ bản +1\n- Biến mất nếu đơn vị gây ra nó gây hiệu ứng này lên một mục tiêu khác (hoặc Part khác)\n- Bị thay thế khi một đơn vị khác gây ra Điểm Xích (giá trị được bảo toàn)",
+      "desc": "- Tối đa: 3\n- Đơn vị gây ra Điểm Xích này nhận các hiệu ứng sau dựa trên giá trị Điểm Xích của mục tiêu (hoặc Part bị nhắm tới)\n· 1x giá trị: Nhận Sức mạnh Đối kháng +1\n· 2x giá trị: Nhận Sức mạnh Cơ bản +1\n· 3x giá trị: Nhận Sức mạnh Đối kháng +1 và Sức mạnh Cơ bản +1\n- Biến mất nếu đơn vị gây ra nó gây hiệu ứng này lên một mục tiêu khác (hoặc Part khác)\n- Bị thay thế khi một đơn vị khác gây ra Điểm Xích (giá trị được bảo toàn)",
       "summary": "",
       "undefined": "-"
     },

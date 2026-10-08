@@ -30,14 +30,14 @@
     {
       "id": "VibrationChain",
       "name": "Chấn động - Xiềng xích",
-      "desc": "- Với mỗi 10 Cường độ Chấn động, Uy lực Đối đầu giảm 1 (Tối đa 3)\n- Trong {1} lượt, khi nhận sát thương từ kỹ năng Chấn động Bộc phát, ngưỡng Choáng tiến thêm {0}\n- Khi kết thúc lượt, Số lượng giảm 1\n- (Nhận các hiệu ứng tăng giảm Cường độ và Số lượng Chấn động tương tự)",
-      "summary": "Với mỗi 10 Cường độ Chấn động, Uy lực Đối đầu giảm 1\nNgưỡng Choáng tiến thêm {0}",
+      "desc": "- Với mỗi 10 Cường độ Chấn động, Uy lực Đối kháng giảm 1 (Tối đa 3)\n- Trong {1} lượt, khi nhận sát thương từ kỹ năng Chấn động Bộc phát, ngưỡng Choáng tiến thêm {0}\n- Khi kết thúc lượt, Số lượng giảm 1\n- (Nhận các hiệu ứng tăng giảm Cường độ và Số lượng Chấn động tương tự)",
+      "summary": "Với mỗi 10 Cường độ Chấn động, Uy lực Đối kháng giảm 1\nNgưỡng Choáng tiến thêm {0}",
       "undefined": "-"
     },
     {
       "id": "TimeRentalTwo",
       "name": "Vay mượn Thời gian của Công ty T",
-      "desc": "Khi kết thúc lượt\n- Ở lượt tiếp theo, nhận {1} Quickness, Tăng Uy lực Đối đầu, và Mong manh\n- Nếu Số lượng là 1, thay vì hiệu ứng kết thúc lượt, ở lượt tiếp theo nhận {0} Bind\n- Cường độ tăng 1, Số lượng giảm 1\n- Nếu Bind nhiều hơn Quickness đang có, giải trừ Vay mượn Thời gian và rơi vào trạng thái Choáng.",
+      "desc": "Khi kết thúc lượt\n- Ở lượt tiếp theo, nhận {1} Quickness, Tăng Uy lực Đối kháng, và Mong manh\n- Nếu Số lượng là 1, thay vì hiệu ứng kết thúc lượt, ở lượt tiếp theo nhận {0} Bind\n- Cường độ tăng 1, Số lượng giảm 1\n- Nếu Bind nhiều hơn Quickness đang có, giải trừ Vay mượn Thời gian và rơi vào trạng thái Choáng.",
       "summary": "",
       "undefined": "-"
     },
@@ -50,16 +50,16 @@
     },
     {
       "id": "ParryingResultDown",
-      "name": "Giảm Uy lực Đối đầu",
-      "desc": "Khi bắt đầu Đối đầu, Uy lực Đối đầu giảm theo giá trị này",
+      "name": "Giảm Uy lực Đối kháng",
+      "desc": "Khi bắt đầu Đối kháng, Uy lực Đối kháng giảm theo giá trị này",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "ParryingResultUp",
-      "name": "Tăng Uy lực Đối đầu",
-      "desc": "Khi bắt đầu Đối đầu, Uy lực Đối đầu tăng theo giá trị này",
-      "summary": "Khi bắt đầu Đối đầu, Uy lực Đối đầu tăng theo giá trị này",
+      "name": "Tăng Uy lực Đối kháng",
+      "desc": "Khi bắt đầu Đối kháng, Uy lực Đối kháng tăng theo giá trị này",
+      "summary": "Khi bắt đầu Đối kháng, Uy lực Đối kháng tăng theo giá trị này",
       "undefined": "-"
     },
     {

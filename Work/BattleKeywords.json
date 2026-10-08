@@ -696,7 +696,7 @@
     {
       "id": "AssemblePersonality",
       "name": "Cuồng tín",
-      "desc": "Trong 1 lượt, khi tấn công mục tiêu bị dính Dinh, Uy lực cuối cùng tăng theo giá trị này (áp dụng cả khi đối đầu)"
+      "desc": "Trong 1 lượt, khi tấn công mục tiêu bị dính Dinh, Uy lực cuối cùng tăng theo giá trị này (áp dụng cả khi đối kháng)"
     },
     {
       "id": "MarkOfHeresy",
@@ -737,7 +737,7 @@
       "id": "CyclingKarma",
       "name": "Nghiệp báo Luân hồi",
       "desc": "Mỗi khi bất kỳ nhân vật nào đánh trúng, Nghiệp báo sẽ chuyển sang mục tiêu bị tấn công. Nếu đồng minh còn sống, Nghiệp báo sẽ không chuyển sang Ta, kẻ chạm đến hư không.",
-      "summary": "Chuyển Nghiệp báo khi thắng đối đầu"
+      "summary": "Chuyển Nghiệp báo khi thắng đối kháng"
     },
     {
       "id": "Cromer_Ecstasy",
@@ -943,7 +943,7 @@
     {
       "id": "Crazy_Panic",
       "name": "Kẻ Điên",
-      "desc": "- Hoảng loạn\n- Nhận trạng thái không phân biệt được địch ta, +1 Uy lực đối đầu, 2 Tăng Sát thương",
+      "desc": "- Hoảng loạn\n- Nhận trạng thái không phân biệt được địch ta, +1 Uy lực đối kháng, 2 Tăng Sát thương",
       "undefined": "-"
     },
     {
@@ -973,13 +973,13 @@
     {
       "id": "Blue_LowMorale",
       "name": "U sầu",
-      "desc": "- Suy giảm nhuệ khí\n- Trong đối đầu, nếu có ít nhất một đồng xu ra mặt ngửa, Uy lực đối đầu của mục tiêu trong lần đối đầu này -1",
+      "desc": "- Suy giảm nhuệ khí\n- Trong đối kháng, nếu có ít nhất một đồng xu ra mặt ngửa, Uy lực đối kháng của mục tiêu trong lần đối kháng này -1",
       "undefined": "-"
     },
     {
       "id": "Blue_Panic",
       "name": "U sầu",
-      "desc": "- Hoảng loạn\n- Trong đối đầu, nếu có ít nhất một đồng xu ra mặt ngửa, Uy lực đối đầu của mục tiêu trong lần đối đầu này -3",
+      "desc": "- Hoảng loạn\n- Trong đối kháng, nếu có ít nhất một đồng xu ra mặt ngửa, Uy lực đối kháng của mục tiêu trong lần đối kháng này -3",
       "undefined": "-"
     },
     {
@@ -1888,7 +1888,7 @@
     {
       "id": "DianxueDonQuixote",
       "name": "Điểm Huyệt - Don Quixote",
-      "desc": "- Giá trị tối đa: 3\n- Nhân vật đã gây Điểm huyệt sẽ nhận được các hiệu ứng dưới đây tùy theo giá trị Điểm huyệt trên mục tiêu (hoặc bộ phận):\n· 1 cộng dồn: Uy lực đối đầu +1\n· 2 cộng dồn: Uy lực cơ bản +1\n· 3 cộng dồn: Uy lực đối đầu +1, Uy lực cơ bản +1\n- Nếu nhân vật đã gây hiệu ứng này lại gây nó lên một mục tiêu (hoặc bộ phận) khác, hiệu ứng cũ sẽ biến mất\n- Nếu nhân vật khác gây Điểm huyệt, hiệu ứng sẽ bị thay thế",
+      "desc": "- Giá trị tối đa: 3\n- Nhân vật đã gây Điểm huyệt sẽ nhận được các hiệu ứng dưới đây tùy theo giá trị Điểm huyệt trên mục tiêu (hoặc bộ phận):\n· 1 cộng dồn: Uy lực đối kháng +1\n· 2 cộng dồn: Uy lực cơ bản +1\n· 3 cộng dồn: Uy lực đối kháng +1, Uy lực cơ bản +1\n- Nếu nhân vật đã gây hiệu ứng này lại gây nó lên một mục tiêu (hoặc bộ phận) khác, hiệu ứng cũ sẽ biến mất\n- Nếu nhân vật khác gây Điểm huyệt, hiệu ứng sẽ bị thay thế",
       "summary": "",
       "undefined": "-"
     },
@@ -2049,7 +2049,7 @@
     {
       "id": "CheerUpXichun",
       "name": "Viện",
-      "desc": "- Giá trị tối đa: 1\n- Nếu mục tiêu có từ 5 loại hiệu ứng bất lợi trở lên, Uy lực Đối đầu +1, Lượng sát thương +10%",
+      "desc": "- Giá trị tối đa: 1\n- Nếu mục tiêu có từ 5 loại hiệu ứng bất lợi trở lên, Uy lực Đối kháng +1, Lượng sát thương +10%",
       "summary": "",
       "undefined": "-"
     },
@@ -2105,7 +2105,7 @@
     {
       "id": "BeastEyesAlly",
       "name": "Quá nhiệt",
-      "desc": "- Hiệu ứng này biến mất nếu nhận được Mãnh Hổ Tiêu Đạn\n- Giá trị Tốc độ tối thiểu và tối đa tăng 2\n- Uy lực Đối đầu của kỹ năng tấn công cơ bản giảm (Số lượng Hổ Tiêu Đạn · Mãnh Hổ Tiêu Đạn đã tiêu hao tích lũy ÷ 2) (Tối đa 10), bù lại sẽ nhận được các hiệu ứng sau (Nhận tất cả)\n· 8~ : Khi bắt đầu lượt, nhận 1 Bảo vệ cho mỗi 10% máu đã mất (Tối đa 5)\n· 14~ : Khi thua Đối đầu, lượng sát thương của đồng xu không thể phá hủy của kỹ năng tấn công cơ bản +(75 + Tỷ lệ máu đã mất)% (Tối đa 150%)\n· 20~ : Lượng sát thương gây ra cho mục tiêu có tỷ lệ máu còn lại cao hơn bản thân tăng thêm (Chênh lệch tỷ lệ máu)% (Tối đa 50%, ngoại trừ kỹ năng E.G.O)",
+      "desc": "- Hiệu ứng này biến mất nếu nhận được Mãnh Hổ Tiêu Đạn\n- Giá trị Tốc độ tối thiểu và tối đa tăng 2\n- Uy lực Đối kháng của kỹ năng tấn công cơ bản giảm (Số lượng Hổ Tiêu Đạn · Mãnh Hổ Tiêu Đạn đã tiêu hao tích lũy ÷ 2) (Tối đa 10), bù lại sẽ nhận được các hiệu ứng sau (Nhận tất cả)\n· 8~ : Khi bắt đầu lượt, nhận 1 Bảo vệ cho mỗi 10% máu đã mất (Tối đa 5)\n· 14~ : Khi thua Đối kháng, lượng sát thương của đồng xu không thể phá hủy của kỹ năng tấn công cơ bản +(75 + Tỷ lệ máu đã mất)% (Tối đa 150%)\n· 20~ : Lượng sát thương gây ra cho mục tiêu có tỷ lệ máu còn lại cao hơn bản thân tăng thêm (Chênh lệch tỷ lệ máu)% (Tối đa 50%, ngoại trừ kỹ năng E.G.O)",
       "summary": "",
       "undefined": "-"
     },
@@ -2196,7 +2196,7 @@
     {
       "id": "DarkHongluQiuAndHonglu",
       "name": "Kẻ Bước Trên Bá Đạo",
-      "desc": "- Toàn bộ kỹ năng của Hong Lu có Uy lực cuối +1\n- Khi thắng đối đầu, hồi 5 Tinh thần cho đồng minh có Tinh thần thấp nhất (bao gồm bản thân)\n- Nếu đồng minh tử trận, khi kết thúc lượt, đồng minh còn lại cuối cùng sẽ nhận 2 Tăng Uy Lực Tấn Công vào lượt kế tiếp, các đồng minh còn lại khác nhận 1 Tăng Uy Lực Tấn Công (1 lần mỗi lượt)",
+      "desc": "- Toàn bộ kỹ năng của Hong Lu có Uy lực cuối +1\n- Khi thắng đối kháng, hồi 5 Tinh thần cho đồng minh có Tinh thần thấp nhất (bao gồm bản thân)\n- Nếu đồng minh tử trận, khi kết thúc lượt, đồng minh còn lại cuối cùng sẽ nhận 2 Tăng Uy Lực Tấn Công vào lượt kế tiếp, các đồng minh còn lại khác nhận 1 Tăng Uy Lực Tấn Công (1 lần mỗi lượt)",
       "summary": ""
     },
     {
@@ -2208,7 +2208,7 @@
     {
       "id": "DarkHongluParryGahwan",
       "name": "Đáng ghét thật đấy, huynh trưởng.",
-      "desc": "Khi tiến hành đối đầu với Jia Huan, Uy lực đối đầu +2",
+      "desc": "Khi tiến hành đối kháng với Jia Huan, Uy lực đối kháng +2",
       "summary": ""
     },
     {
@@ -2220,25 +2220,25 @@
     {
       "id": "DarkHonglu_Xi",
       "name": "Hỉ",
-      "desc": "- Uy lực Đối đầu của Hong Lu +1\n- Trong trận chiến này nếu còn ít nhất 1 đồng minh khác còn sống, khi nhận sát thương khiến máu của Hong Lu về 1, không chết và hồi máu bằng 50% máu tối đa\n- Chỉ 1 lần duy nhất trong giai đoạn này không bị rơi vào trạng thái Bảo Ngọc. Khi Đối đầu với kỹ năng gây trạng thái Bảo Ngọc, uy lực Đối đầu +5. Nếu thắng Đối đầu với kỹ năng đó, bản thân không bị rơi vào trạng thái Bảo Ngọc và giải trừ trạng thái Choáng váng, Giả Mục giảm 10 Tinh thần, gây 2 Mong manh cho Giả Mục\nKhi thắng Đối đầu với Giả Mục, nhận thêm mỗi loại 1 tài nguyên E.G.O thuộc hệ ngẫu nhiên trong số các tài nguyên có ít nhất, tổng cộng nhận 3",
+      "desc": "- Uy lực Đối kháng của Hong Lu +1\n- Trong trận chiến này nếu còn ít nhất 1 đồng minh khác còn sống, khi nhận sát thương khiến máu của Hong Lu về 1, không chết và hồi máu bằng 50% máu tối đa\n- Chỉ 1 lần duy nhất trong giai đoạn này không bị rơi vào trạng thái Bảo Ngọc. Khi Đối kháng với kỹ năng gây trạng thái Bảo Ngọc, uy lực Đối kháng +5. Nếu thắng Đối kháng với kỹ năng đó, bản thân không bị rơi vào trạng thái Bảo Ngọc và giải trừ trạng thái Choáng váng, Giả Mục giảm 10 Tinh thần, gây 2 Mong manh cho Giả Mục\nKhi thắng Đối kháng với Giả Mục, nhận thêm mỗi loại 1 tài nguyên E.G.O thuộc hệ ngẫu nhiên trong số các tài nguyên có ít nhất, tổng cộng nhận 3",
       "summary": ""
     },
     {
       "id": "DarkHonglu_Le",
       "name": "Hỉ, Lạc",
-      "desc": "- Uy lực Cuối cùng của Hong Lu +1\n- Khi thắng Đối đầu, hồi 5 Tinh thần cho đồng minh có Tinh thần thấp nhất (bao gồm bản thân)\n- Trong trận chiến này nếu còn ít nhất 1 đồng minh khác còn sống, khi nhận sát thương khiến máu của Hong Lu về 1, không chết và hồi máu bằng 50% máu tối đa\nKhi thắng Đối đầu với Giả Mục, nhận thêm mỗi loại 1 tài nguyên E.G.O thuộc hệ ngẫu nhiên trong số các tài nguyên có ít nhất, tổng cộng nhận 3",
+      "desc": "- Uy lực Cuối cùng của Hong Lu +1\n- Khi thắng Đối kháng, hồi 5 Tinh thần cho đồng minh có Tinh thần thấp nhất (bao gồm bản thân)\n- Trong trận chiến này nếu còn ít nhất 1 đồng minh khác còn sống, khi nhận sát thương khiến máu của Hong Lu về 1, không chết và hồi máu bằng 50% máu tối đa\nKhi thắng Đối kháng với Giả Mục, nhận thêm mỗi loại 1 tài nguyên E.G.O thuộc hệ ngẫu nhiên trong số các tài nguyên có ít nhất, tổng cộng nhận 3",
       "summary": ""
     },
     {
       "id": "DarkHonglu_Ai",
       "name": "Hỉ, Lạc, Ai",
-      "desc": "- Uy lực Cuối cùng của Hong Lu +3\n- Khi thắng Đối đầu, hồi 5 Tinh thần cho đồng minh có Tinh thần thấp nhất (bao gồm bản thân)\n- Nếu đồng minh tử trận, các đồng minh còn sống nhận 1 Tăng uy lực Tấn công vào lượt tiếp theo khi kết thúc lượt (1 lần mỗi lượt)\n- Trong trận chiến này nếu còn ít nhất 1 đồng minh khác còn sống, khi nhận sát thương khiến máu của Hong Lu về 1, không chết và hồi máu bằng 50% máu tối đa\nKhi thắng Đối đầu với Giả Mục, nhận thêm mỗi loại 1 tài nguyên E.G.O thuộc hệ ngẫu nhiên trong số các tài nguyên có ít nhất, tổng cộng nhận 3",
+      "desc": "- Uy lực Cuối cùng của Hong Lu +3\n- Khi thắng Đối kháng, hồi 5 Tinh thần cho đồng minh có Tinh thần thấp nhất (bao gồm bản thân)\n- Nếu đồng minh tử trận, các đồng minh còn sống nhận 1 Tăng uy lực Tấn công vào lượt tiếp theo khi kết thúc lượt (1 lần mỗi lượt)\n- Trong trận chiến này nếu còn ít nhất 1 đồng minh khác còn sống, khi nhận sát thương khiến máu của Hong Lu về 1, không chết và hồi máu bằng 50% máu tối đa\nKhi thắng Đối kháng với Giả Mục, nhận thêm mỗi loại 1 tài nguyên E.G.O thuộc hệ ngẫu nhiên trong số các tài nguyên có ít nhất, tổng cộng nhận 3",
       "summary": ""
     },
     {
       "id": "DarkHonglu_Nu",
       "name": "Hỉ, Lạc, Ai, Nộ",
-      "desc": "- Uy lực Cuối cùng của Hong Lu +5\n- Khi bắt đầu mỗi lượt, hồi 5 Tinh thần cho toàn bộ đồng minh (bao gồm bản thân)\n- Nếu đồng minh tử trận, các đồng minh còn sống nhận 1 Tăng uy lực Tấn công vào lượt tiếp theo khi kết thúc lượt (1 lần mỗi lượt)\n- Trong trận chiến này nếu còn ít nhất 1 đồng minh khác còn sống, khi nhận sát thương khiến máu của Hong Lu về 1, không chết và hồi máu bằng 50% máu tối đa\n- Tăng sát thương bằng 30% tỉ lệ máu đã mất tích lũy trong trận chiến này (Tối đa 100%)\nKhi thắng Đối đầu với Giả Mục, nhận thêm mỗi loại 1 tài nguyên E.G.O thuộc hệ ngẫu nhiên trong số các tài nguyên có ít nhất, tổng cộng nhận 3",
+      "desc": "- Uy lực Cuối cùng của Hong Lu +5\n- Khi bắt đầu mỗi lượt, hồi 5 Tinh thần cho toàn bộ đồng minh (bao gồm bản thân)\n- Nếu đồng minh tử trận, các đồng minh còn sống nhận 1 Tăng uy lực Tấn công vào lượt tiếp theo khi kết thúc lượt (1 lần mỗi lượt)\n- Trong trận chiến này nếu còn ít nhất 1 đồng minh khác còn sống, khi nhận sát thương khiến máu của Hong Lu về 1, không chết và hồi máu bằng 50% máu tối đa\n- Tăng sát thương bằng 30% tỉ lệ máu đã mất tích lũy trong trận chiến này (Tối đa 100%)\nKhi thắng Đối kháng với Giả Mục, nhận thêm mỗi loại 1 tài nguyên E.G.O thuộc hệ ngẫu nhiên trong số các tài nguyên có ít nhất, tổng cộng nhận 3",
       "summary": ""
     },
     {
@@ -2268,7 +2268,7 @@
     {
       "id": "BattlefieldHorse",
       "name": "Hào Lệnh",
-      "desc": "- Uy lực Đối đầu tăng 1, Cấp độ Phòng thủ tăng 2\n- Xóa bỏ khi kết thúc lượt",
+      "desc": "- Uy lực Đối kháng tăng 1, Cấp độ Phòng thủ tăng 2\n- Xóa bỏ khi kết thúc lượt",
       "summary": ""
     },
     {
@@ -2451,8 +2451,8 @@
     {
       "id": "CrushMarks",
       "name": "Vết Nứt vỡ",
-      "desc": "- Tăng 10% sát thương nhận vào khi bị kỹ năng hệ Phàm ăn hoặc U sầu tấn công\n- Nếu đối tượng có Tinh thần, đổi loại Hoảng loạn thành \"Vết Nứt vỡ\"\n- Nếu đối tượng không có Tinh thần, Uy lực Đối đầu -1\n- Giảm 1 khi kết thúc lượt\n- Hiệu ứng này không cộng dồn, chỉ làm mới\n- Đối với một số kẻ địch có Tinh thần nhưng không thể thay đổi loại Hoảng loạn, áp dụng hiệu ứng của đối tượng không có Tinh thần\n\n※ Hiệu ứng Hoảng loạn Vết Nứt vỡ\n- Giảm Nhuệ khí: Uy lực Đối đầu của bản thân -1, Cấp độ Phòng thủ -2\n- Hoảng loạn: Uy lực Đối đầu của bản thân -2, Cấp độ Phòng thủ -3",
-      "summary": "- Tăng 10% sát thương nhận vào khi bị kỹ năng hệ Phàm ăn hoặc U sầu tấn công\n- Nếu có Tinh thần, đổi loại Hoảng loạn thành \"Vết Nứt vỡ\"\n- Nếu không có Tinh thần, Uy lực Đối đầu -1",
+      "desc": "- Tăng 10% sát thương nhận vào khi bị kỹ năng hệ Phàm ăn hoặc U sầu tấn công\n- Nếu đối tượng có Tinh thần, đổi loại Hoảng loạn thành \"Vết Nứt vỡ\"\n- Nếu đối tượng không có Tinh thần, Uy lực Đối kháng -1\n- Giảm 1 khi kết thúc lượt\n- Hiệu ứng này không cộng dồn, chỉ làm mới\n- Đối với một số kẻ địch có Tinh thần nhưng không thể thay đổi loại Hoảng loạn, áp dụng hiệu ứng của đối tượng không có Tinh thần\n\n※ Hiệu ứng Hoảng loạn Vết Nứt vỡ\n- Giảm Nhuệ khí: Uy lực Đối kháng của bản thân -1, Cấp độ Phòng thủ -2\n- Hoảng loạn: Uy lực Đối kháng của bản thân -2, Cấp độ Phòng thủ -3",
+      "summary": "- Tăng 10% sát thương nhận vào khi bị kỹ năng hệ Phàm ăn hoặc U sầu tấn công\n- Nếu có Tinh thần, đổi loại Hoảng loạn thành \"Vết Nứt vỡ\"\n- Nếu không có Tinh thần, Uy lực Đối kháng -1",
       "undefined": "-"
     },
     {
@@ -2472,7 +2472,7 @@
     {
       "id": "TheUdjatOutis",
       "name": "Con mắt của Udjat [Tiên phong]",
-      "desc": "- Giá trị tối đa: 2\n- Giá trị Tốc độ tối thiểu/tối đa +3\n- Khi bắt đầu trận chiến, nhận 1 Bảo hộ\n- Trong trận chiến, áp dụng các hiệu ứng sau (1 lần mỗi kỹ năng, 3 lần mỗi lượt)\n・Với đồng xu đầu tiên của kỹ năng Tấn công một chiều mà bản thân là mục tiêu chính, xác suất ra mặt ngửa giảm một nửa\n・Khi bắt đầu Khiêu chiến, ở lần đối đầu đầu tiên, xác suất ra mặt ngửa của tất cả đồng xu của đối phương giảm một nửa\n・Trong các hiệu ứng trên, nếu đồng xu của đối phương là Đồng xu trừ, hiệu ứng sẽ được áp dụng cho xác suất ra mặt sấp\n- Giảm 1 khi kết thúc lượt",
+      "desc": "- Giá trị tối đa: 2\n- Giá trị Tốc độ tối thiểu/tối đa +3\n- Khi bắt đầu trận chiến, nhận 1 Bảo hộ\n- Trong trận chiến, áp dụng các hiệu ứng sau (1 lần mỗi kỹ năng, 3 lần mỗi lượt)\n・Với đồng xu đầu tiên của kỹ năng Tấn công một chiều mà bản thân là mục tiêu chính, xác suất ra mặt ngửa giảm một nửa\n・Khi bắt đầu Khiêu chiến, ở lần đối kháng đầu tiên, xác suất ra mặt ngửa của tất cả đồng xu của đối phương giảm một nửa\n・Trong các hiệu ứng trên, nếu đồng xu của đối phương là Đồng xu trừ, hiệu ứng sẽ được áp dụng cho xác suất ra mặt sấp\n- Giảm 1 khi kết thúc lượt",
       "summary": "",
       "undefined": "-"
     },
@@ -2763,7 +2763,7 @@
     {
       "id": "MeursaultWorkerBee",
       "name": "Pheromone Trung thành",
-      "desc": "- Giá trị tối đa: 3\n- Tùy theo giá trị, khi kết thúc lượt sẽ nhận các hiệu ứng sau vào lượt kế tiếp\n1~ : Bảo hộ 1\n2~ : Tốc độ 1\n3: Uy lực Đối đầu tăng 1",
+      "desc": "- Giá trị tối đa: 3\n- Tùy theo giá trị, khi kết thúc lượt sẽ nhận các hiệu ứng sau vào lượt kế tiếp\n1~ : Bảo hộ 1\n2~ : Tốc độ 1\n3: Uy lực Đối kháng tăng 1",
       "summary": "",
       "undefined": "-"
     },
@@ -3467,7 +3467,7 @@
     {
       "id": "DianxueHongLu",
       "name": "Điểm Xích - Hong Lu",
-      "desc": "- Tối đa: 3\n- Đơn vị gây ra Điểm Xích này nhận các hiệu ứng sau dựa trên giá trị Điểm Xích của mục tiêu (hoặc Part bị nhắm tới)\n· 1x giá trị: Nhận Sức mạnh Đối đầu +1\n· 2x giá trị: Nhận Sức mạnh Cơ bản +1\n· 3x giá trị: Nhận Sức mạnh Đối đầu +1 và Sức mạnh Cơ bản +1\n- Biến mất nếu đơn vị gây ra nó gây hiệu ứng này lên một mục tiêu khác (hoặc Part khác)\n- Bị thay thế khi một đơn vị khác gây ra Điểm Xích (giá trị được bảo toàn)",
+      "desc": "- Tối đa: 3\n- Đơn vị gây ra Điểm Xích này nhận các hiệu ứng sau dựa trên giá trị Điểm Xích của mục tiêu (hoặc Part bị nhắm tới)\n· 1x giá trị: Nhận Sức mạnh Đối kháng +1\n· 2x giá trị: Nhận Sức mạnh Cơ bản +1\n· 3x giá trị: Nhận Sức mạnh Đối kháng +1 và Sức mạnh Cơ bản +1\n- Biến mất nếu đơn vị gây ra nó gây hiệu ứng này lên một mục tiêu khác (hoặc Part khác)\n- Bị thay thế khi một đơn vị khác gây ra Điểm Xích (giá trị được bảo toàn)",
       "summary": "",
       "undefined": "-"
     },

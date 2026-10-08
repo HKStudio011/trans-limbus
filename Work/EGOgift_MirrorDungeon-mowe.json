@@ -29,7 +29,7 @@
     {
       "id": 9734,
       "name": "Đoản kiếm Không gian kiểu E",
-      "desc": "Uy lực Va chạm +1, Sát thương +5% cho Kỹ năng 1 tăng số tầng [Charge] hoặc Sạc đặc biệt\n\nNếu kỹ năng đó chỉ có một đồng xu, hiệu ứng sẽ được cường hóa: Uy lực Va chạm +1, Sát thương +12.5%\n\nNếu Bản sắc thuộc Tập đoàn W gây sát thương lên kẻ địch bằng kỹ năng hệ Đố kỵ (bao gồm cả kỹ năng E.G.O), gây 2 Giảm hồi máu (không cộng dồn)",
+      "desc": "Uy lực Đối kháng +1, Sát thương +5% cho Kỹ năng 1 tăng số tầng [Charge] hoặc Sạc đặc biệt\n\nNếu kỹ năng đó chỉ có một đồng xu, hiệu ứng sẽ được cường hóa: Uy lực Đối kháng +1, Sát thương +12.5%\n\nNếu Bản sắc thuộc Tập đoàn W gây sát thương lên kẻ địch bằng kỹ năng hệ Đố kỵ (bao gồm cả kỹ năng E.G.O), gây 2 Giảm hồi máu (không cộng dồn)",
       "simpleDesc": [
         {
           "abilityID": 9734,
@@ -48,7 +48,7 @@
     {
       "id": 9735,
       "name": "Pin trường lực cầm tay",
-      "desc": "Uy lực Va chạm của Kỹ năng 1 tăng số tầng [Charge] hoặc [Charge] đặc biệt +2\n\nKhi sử dụng kỹ năng đó, nhận 2 số tầng [Charge], 1 [ChargeForceField] (1 lần mỗi lượt)\n\nTrong trận chiến, nếu Bản sắc thuộc Tập đoàn W nhận sát thương từ các hiệu ứng khác ngoài sát thương trực tiếp của kỹ năng, nhận 5 [ChargeForceField] (1 lần mỗi lượt)",
+      "desc": "Uy lực Đối kháng của Kỹ năng 1 tăng số tầng [Charge] hoặc [Charge] đặc biệt +2\n\nKhi sử dụng kỹ năng đó, nhận 2 số tầng [Charge], 1 [ChargeForceField] (1 lần mỗi lượt)\n\nTrong trận chiến, nếu Bản sắc thuộc Tập đoàn W nhận sát thương từ các hiệu ứng khác ngoài sát thương trực tiếp của kỹ năng, nhận 5 [ChargeForceField] (1 lần mỗi lượt)",
       "simpleDesc": [
         {
           "abilityID": 9735,
@@ -63,7 +63,7 @@
     {
       "id": 9736,
       "name": "Pin phát điện sinh học",
-      "desc": "Cấp độ tấn công tăng dựa trên số lần Va chạm mà đồng minh sở hữu số tầng [Charge] hoặc Sạc đặc biệt đã thực hiện (Tối đa 6, đặt lại khi kết thúc tấn công)\n\nKhi kết thúc lượt, Bản sắc có tổng số tầng [Charge] và Sạc đặc biệt (uy lực cố định) từ 10 trở lên nhận 1 [Agility] vào lượt tiếp theo. Nếu tổng số tầng [Charge] và Sạc đặc biệt (uy lực cố định) từ 18 trở lên, nhận thêm 3 [AttackUp].\n\n※Đối với Sạc đặc biệt có cả uy lực và số tầng, sẽ được tính theo số tầng sạc",
+      "desc": "Cấp độ tấn công tăng dựa trên số lần Đối kháng mà đồng minh sở hữu số tầng [Charge] hoặc Sạc đặc biệt đã thực hiện (Tối đa 6, đặt lại khi kết thúc tấn công)\n\nKhi kết thúc lượt, Bản sắc có tổng số tầng [Charge] và Sạc đặc biệt (uy lực cố định) từ 10 trở lên nhận 1 [Agility] vào lượt tiếp theo. Nếu tổng số tầng [Charge] và Sạc đặc biệt (uy lực cố định) từ 18 trở lên, nhận thêm 3 [AttackUp].\n\n※Đối với Sạc đặc biệt có cả uy lực và số tầng, sẽ được tính theo số tầng sạc",
       "simpleDesc": [
         {
           "abilityID": 9736,
@@ -82,7 +82,7 @@
     {
       "id": 9737,
       "name": "Mô-đun phản ứng tim",
-      "desc": "Khi đồng minh sở hữu số tầng [Charge] hoặc Sạc đặc biệt thua Va chạm, nhận Khiên bằng tổng số tầng [Charge] và Sạc đặc biệt (1 lần mỗi lượt)\n\nNếu máu từ một nửa trở xuống, hiệu ứng sẽ được cường hóa, nhận Khiên bằng (Tổng số tầng [Charge] và Sạc đặc biệt × 2) (1 lần mỗi lượt)\n\nNếu Bản sắc thuộc Văn phòng Multi-crack nhận sát thương trong trận chiến này, hồi phục 33% lượng máu đã mất ở lượt trước vào lượt tiếp theo (làm tròn xuống)",
+      "desc": "Khi đồng minh sở hữu số tầng [Charge] hoặc Sạc đặc biệt thua Đối kháng, nhận Khiên bằng tổng số tầng [Charge] và Sạc đặc biệt (1 lần mỗi lượt)\n\nNếu máu từ một nửa trở xuống, hiệu ứng sẽ được cường hóa, nhận Khiên bằng (Tổng số tầng [Charge] và Sạc đặc biệt × 2) (1 lần mỗi lượt)\n\nNếu Bản sắc thuộc Văn phòng Multi-crack nhận sát thương trong trận chiến này, hồi phục 33% lượng máu đã mất ở lượt trước vào lượt tiếp theo (làm tròn xuống)",
       "simpleDesc": [
         {
           "abilityID": 9737,
@@ -142,7 +142,7 @@
     {
       "id": 9741,
       "name": "Pin quá tải",
-      "desc": "Đầu lượt, nếu có từ 5 Bản sắc trở lên sở hữu kỹ năng tấn công nhận số tầng [Charge] hoặc Sạc đặc biệt, kích hoạt trong suốt trận chiến này. (Ngoại trừ kỹ năng E.G.O và nhân viên dự bị)\n\nUy lực Đồng xu +1, Sát thương +(tổng số tầng [Charge] và Sạc đặc biệt đã tiêu hao trong kỹ năng đó × 4)% (Tối đa 40%) cho kỹ năng tấn công cơ bản có đồng xu cộng tiêu hao số tầng [Charge] hoặc Sạc đặc biệt\n- Đối với kỹ năng tấn công cơ bản có đồng xu trừ, thay vì Uy lực Đồng xu, Uy lực Cơ bản +(4 ÷ số lượng đồng xu) (Tối thiểu 1, làm tròn xuống)\n\nKhi đồng minh sở hữu số tầng [Charge] hoặc Sạc đặc biệt thực hiện Va chạm bằng kỹ năng tấn công cơ bản, Uy lực Va chạm +2. Khi thắng Va chạm, số tầng [Charge] tăng 3, khi thua Va chạm, số tầng [Charge] giảm 6.\n\nKhi thắng Va chạm bằng kỹ năng tấn công cơ bản hệ Đố kỵ, gây 1 [VioletTakeDamageUp] (Tối đa cộng dồn 3 lần)",
+      "desc": "Đầu lượt, nếu có từ 5 Bản sắc trở lên sở hữu kỹ năng tấn công nhận số tầng [Charge] hoặc Sạc đặc biệt, kích hoạt trong suốt trận chiến này. (Ngoại trừ kỹ năng E.G.O và nhân viên dự bị)\n\nUy lực Đồng xu +1, Sát thương +(tổng số tầng [Charge] và Sạc đặc biệt đã tiêu hao trong kỹ năng đó × 4)% (Tối đa 40%) cho kỹ năng tấn công cơ bản có đồng xu cộng tiêu hao số tầng [Charge] hoặc Sạc đặc biệt\n- Đối với kỹ năng tấn công cơ bản có đồng xu trừ, thay vì Uy lực Đồng xu, Uy lực Cơ bản +(4 ÷ số lượng đồng xu) (Tối thiểu 1, làm tròn xuống)\n\nKhi đồng minh sở hữu số tầng [Charge] hoặc Sạc đặc biệt thực hiện Đối kháng bằng kỹ năng tấn công cơ bản, Uy lực Đối kháng +2. Khi thắng Đối kháng, số tầng [Charge] tăng 3, khi thua Đối kháng, số tầng [Charge] giảm 6.\n\nKhi thắng Đối kháng bằng kỹ năng tấn công cơ bản hệ Đố kỵ, gây 1 [VioletTakeDamageUp] (Tối đa cộng dồn 3 lần)",
       "simpleDesc": [
         {
           "abilityID": 9741,
@@ -161,7 +161,7 @@
     {
       "id": 9742,
       "name": "Động cơ servo động cơ vĩnh cửu",
-      "desc": "Đầu lượt, nếu có từ 5 Bản sắc trở lên sở hữu kỹ năng tấn công nhận số tầng [Charge] hoặc Sạc đặc biệt, kích hoạt trong suốt trận chiến này. (Ngoại trừ kỹ năng E.G.O và nhân viên dự bị)\n\nUy lực Đồng xu +1, Sát thương +(tổng số tầng [Charge] và Sạc đặc biệt (uy lực cố định) đã tiêu hao trong kỹ năng đó × 4)% (Tối đa 40%) cho kỹ năng tấn công cơ bản có đồng xu cộng tiêu hao số tầng [Charge] hoặc Sạc đặc biệt (uy lực cố định)\n- Đối với kỹ năng tấn công cơ bản có đồng xu trừ, thay vì Uy lực Đồng xu, Uy lực Cơ bản +(4 ÷ số lượng đồng xu) (Tối thiểu 1, làm tròn xuống)\n\nKhi đồng minh sở hữu số tầng [Charge] hoặc Sạc đặc biệt thực hiện Va chạm bằng kỹ năng tấn công cơ bản, Uy lực Va chạm +1. Đầu lượt, nhận 2 [AttackUp] dựa trên số lần thắng Va chạm đó trong trận chiến này (Tối đa 6).\n\nTrong trận chiến, khi nhận sát thương chí mạng, tiêu hao toàn bộ số tầng [Charge] và Sạc đặc biệt (uy lực cố định) đang sở hữu, lập tức hồi phục (10 + tổng số tầng [Charge] và Sạc đặc biệt (uy lực cố định) đã tiêu hao)% máu tối đa (1 lần mỗi trận). Nhận 3 [Protection] cho đến khi chết.\n\n※Đối với Sạc đặc biệt có cả uy lực và số tầng, sẽ được tính theo số tầng sạc",
+      "desc": "Đầu lượt, nếu có từ 5 Bản sắc trở lên sở hữu kỹ năng tấn công nhận số tầng [Charge] hoặc Sạc đặc biệt, kích hoạt trong suốt trận chiến này. (Ngoại trừ kỹ năng E.G.O và nhân viên dự bị)\n\nUy lực Đồng xu +1, Sát thương +(tổng số tầng [Charge] và Sạc đặc biệt (uy lực cố định) đã tiêu hao trong kỹ năng đó × 4)% (Tối đa 40%) cho kỹ năng tấn công cơ bản có đồng xu cộng tiêu hao số tầng [Charge] hoặc Sạc đặc biệt (uy lực cố định)\n- Đối với kỹ năng tấn công cơ bản có đồng xu trừ, thay vì Uy lực Đồng xu, Uy lực Cơ bản +(4 ÷ số lượng đồng xu) (Tối thiểu 1, làm tròn xuống)\n\nKhi đồng minh sở hữu số tầng [Charge] hoặc Sạc đặc biệt thực hiện Đối kháng bằng kỹ năng tấn công cơ bản, Uy lực Đối kháng +1. Đầu lượt, nhận 2 [AttackUp] dựa trên số lần thắng Đối kháng đó trong trận chiến này (Tối đa 6).\n\nTrong trận chiến, khi nhận sát thương chí mạng, tiêu hao toàn bộ số tầng [Charge] và Sạc đặc biệt (uy lực cố định) đang sở hữu, lập tức hồi phục (10 + tổng số tầng [Charge] và Sạc đặc biệt (uy lực cố định) đã tiêu hao)% máu tối đa (1 lần mỗi trận). Nhận 3 [Protection] cho đến khi chết.\n\n※Đối với Sạc đặc biệt có cả uy lực và số tầng, sẽ được tính theo số tầng sạc",
       "simpleDesc": [
         {
           "abilityID": 9742,

@@ -46,7 +46,7 @@
       "id": 1008,
       "panicName": "Cuồng nhân",
       "lowMoraleDescription": "Nếu nhận trạng thái Giảm Nhuệ khí này lần đầu, rơi vào trạng thái không phân biệt được địch ta",
-      "panicDescription": "Trạng thái không phân biệt được địch ta, Uy lực Va chạm +1, nhận 2 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Tăng Sát thương</color></link></u>"
+      "panicDescription": "Trạng thái không phân biệt được địch ta, Uy lực Đối kháng +1, nhận 2 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Tăng Sát thương</color></link></u>"
     },
     {
       "id": 1009,
@@ -69,8 +69,8 @@
     {
       "id": 1012,
       "panicName": "Bi ai",
-      "lowMoraleDescription": "Nhận 1 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Mong manh</color></link></u>. Trong khi Va chạm, nếu mặt sấp xuất hiện dù chỉ 1 lần, Uy lực Va chạm -1 trong suốt lượt Va chạm đó",
-      "panicDescription": "Nhận 3 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Mong manh</color></link></u>. Trong khi Va chạm, nếu mặt sấp xuất hiện dù chỉ 1 lần, Uy lực Va chạm -3 trong suốt lượt Va chạm đó"
+      "lowMoraleDescription": "Nhận 1 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Mong manh</color></link></u>. Trong khi Đối kháng, nếu mặt sấp xuất hiện dù chỉ 1 lần, Uy lực Đối kháng -1 trong suốt lượt Đối kháng đó",
+      "panicDescription": "Nhận 3 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Mong manh</color></link></u>. Trong khi Đối kháng, nếu mặt sấp xuất hiện dù chỉ 1 lần, Uy lực Đối kháng -3 trong suốt lượt Đối kháng đó"
     },
     {
       "id": 9999,
@@ -81,8 +81,8 @@
     {
       "id": 1013,
       "panicName": "Bất thuận",
-      "lowMoraleDescription": "Nhận 1 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Mong manh</color></link></u>. Khi thua Va chạm, Tinh thần (SP) của mục tiêu -2",
-      "panicDescription": "Nhận 2 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Mong manh</color></link></u>. Khi thua Va chạm, Tinh thần (SP) của mục tiêu -5"
+      "lowMoraleDescription": "Nhận 1 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Mong manh</color></link></u>. Khi thua Đối kháng, Tinh thần (SP) của mục tiêu -2",
+      "panicDescription": "Nhận 2 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Mong manh</color></link></u>. Khi thua Đối kháng, Tinh thần (SP) của mục tiêu -5"
     },
     {
       "id": 1014,
@@ -105,8 +105,8 @@
     {
       "id": 1026,
       "panicName": "Phá sản",
-      "lowMoraleDescription": "Khi kết thúc mỗi lượt, nhận [Sinking]3. Uy lực Va chạm bản thân -1",
-      "panicDescription": "Khi kết thúc mỗi lượt, nhận [Sinking]5. Số lượt [Sinking] tăng thêm 3, Uy lực Va chạm bản thân -2"
+      "lowMoraleDescription": "Khi kết thúc mỗi lượt, nhận [Sinking]3. Uy lực Đối kháng bản thân -1",
+      "panicDescription": "Khi kết thúc mỗi lượt, nhận [Sinking]5. Số lượt [Sinking] tăng thêm 3, Uy lực Đối kháng bản thân -2"
     },
     {
       "id": 9994,
@@ -117,14 +117,14 @@
     {
       "id": 1065,
       "panicName": "Vết nghiền nát",
-      "lowMoraleDescription": "Uy lực Va chạm bản thân -1, Cấp Phòng ngự -2",
-      "panicDescription": "Uy lực Va chạm bản thân -2, Cấp Phòng ngự -3"
+      "lowMoraleDescription": "Uy lực Đối kháng bản thân -1, Cấp Phòng ngự -2",
+      "panicDescription": "Uy lực Đối kháng bản thân -2, Cấp Phòng ngự -3"
     },
     {
       "id": 1085,
       "panicName": "Cát xanh",
-      "lowMoraleDescription": "Uy lực Va chạm bản thân -1\nGiá trị Tốc độ tối đa/tối thiểu -1",
-      "panicDescription": "Uy lực Va chạm bản thân -2\nGiá trị Tốc độ tối đa/tối thiểu -1"
+      "lowMoraleDescription": "Uy lực Đối kháng bản thân -1\nGiá trị Tốc độ tối đa/tối thiểu -1",
+      "panicDescription": "Uy lực Đối kháng bản thân -2\nGiá trị Tốc độ tối đa/tối thiểu -1"
     },
     {
       "id": 1086,

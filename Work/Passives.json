@@ -298,7 +298,7 @@
     {
       "id": 1080121,
       "name": "Ý chí sinh tồn",
-      "desc": "Nếu HP hiện tại của 1 đồng minh thấp nhất dưới 50%, khi đang giao tranh nhận +1 Sức mạnh Giao tranh"
+      "desc": "Nếu HP hiện tại của 1 đồng minh thấp nhất dưới 50%, khi đang đối kháng nhận +1 Sức mạnh Đối kháng"
     },
     {
       "id": 1080221,
@@ -378,7 +378,7 @@
     {
       "id": 1120321,
       "name": "Mã Nhân tố G-3",
-      "desc": "Khi 1 đồng minh có HP hiện tại thấp nhất thắng Đối đầu, hồi 5 HP"
+      "desc": "Khi 1 đồng minh có HP hiện tại thấp nhất thắng Đối kháng, hồi 5 HP"
     },
     {
       "id": 1000101,
@@ -433,12 +433,12 @@
     {
       "id": 1000601,
       "name": "Ngạo mạn",
-      "desc": "Khi thắng Đối đầu, Sát thương gây ra của bản thân +2"
+      "desc": "Khi thắng Đối kháng, Sát thương gây ra của bản thân +2"
     },
     {
       "id": 1000621,
       "name": "Ngạo mạn",
-      "desc": "Khi 1 đồng minh ngẫu nhiên thắng Đối đầu, Sát thương gây ra +2"
+      "desc": "Khi 1 đồng minh ngẫu nhiên thắng Đối kháng, Sát thương gây ra +2"
     },
     {
       "id": 1000701,
@@ -820,17 +820,17 @@
     {
       "id": 1020701,
       "name": "Sự hối hận bị cuốn trôi",
-      "desc": "- Khi đang Đối đầu, nếu đối phương có từ 3 loại hiệu ứng bất lợi trở lên, Sức mạnh Đối đầu của đối phương -1\n- Khi bản thân còn sống, kẻ địch bị [VibrationExplosion] sẽ nhận 2 [DefenseDown]. (Tối đa 1 lần trên 1 kẻ địch mỗi lượt)\n- Nhiễm độc tâm trí: Nếu Tinh thần thấp hơn -25 khi kết thúc lượt, nhận 2 [Binding] và 1 [HitResultUp] vào lượt kế tiếp"
+      "desc": "- Khi đang Đối kháng, nếu đối phương có từ 3 loại hiệu ứng bất lợi trở lên, Sức mạnh Đối kháng của đối phương -1\n- Khi bản thân còn sống, kẻ địch bị [VibrationExplosion] sẽ nhận 2 [DefenseDown]. (Tối đa 1 lần trên 1 kẻ địch mỗi lượt)\n- Nhiễm độc tâm trí: Nếu Tinh thần thấp hơn -25 khi kết thúc lượt, nhận 2 [Binding] và 1 [HitResultUp] vào lượt kế tiếp"
     },
     {
       "id": 1020711,
       "name": "Sự hối hận bị cuốn trôi",
-      "desc": "- Khi đang Đối đầu, cứ mỗi 3 loại hiệu ứng bất lợi trên đối phương, Sức mạnh Đối đầu của đối phương -1 (Tối đa 2)\n- Khi bản thân còn sống, kẻ địch bị [VibrationExplosion] sẽ nhận 2 [DefenseDown]. (Tối đa 3 lần trên 1 kẻ địch mỗi lượt)\n- Nhiễm độc tâm trí: Nếu Tinh thần thấp hơn -25 khi kết thúc lượt, nhận 2 [Binding] và 1 [HitResultUp] vào lượt kế tiếp"
+      "desc": "- Khi đang Đối kháng, cứ mỗi 3 loại hiệu ứng bất lợi trên đối phương, Sức mạnh Đối kháng của đối phương -1 (Tối đa 2)\n- Khi bản thân còn sống, kẻ địch bị [VibrationExplosion] sẽ nhận 2 [DefenseDown]. (Tối đa 3 lần trên 1 kẻ địch mỗi lượt)\n- Nhiễm độc tâm trí: Nếu Tinh thần thấp hơn -25 khi kết thúc lượt, nhận 2 [Binding] và 1 [HitResultUp] vào lượt kế tiếp"
     },
     {
       "id": 1020721,
       "name": "Công việc ức chế",
-      "desc": "Khi 1 đồng minh có Tốc độ thấp nhất đang Đối đầu, nếu đối phương có từ 3 loại hiệu ứng bất lợi trở lên, Sức mạnh Đối đầu của đối phương -1"
+      "desc": "Khi 1 đồng minh có Tốc độ thấp nhất đang Đối kháng, nếu đối phương có từ 3 loại hiệu ứng bất lợi trở lên, Sức mạnh Đối kháng của đối phương -1"
     },
     {
       "id": 1010601,
@@ -1236,44 +1236,44 @@
     {
       "id": 1110801,
       "name": "Tiếng của phu nhân...!",
-      "desc": "- Khi đối đầu với mục tiêu có Tinh thần dưới -25, Sức mạnh Đối đầu +1, Lượng sát thương +10%\n- Lượng sát thương gây ra cho mục tiêu có [EchoOfMansion] +15%\n- Khi thắng đối đầu với tất cả các đồng xu còn lại, hồi phục 10 Tinh thần. Nếu Tinh thần đã ở mức tối đa, nhận 2 [AttackUp] vào lượt tiếp theo (2 lần mỗi lượt)",
-      "summary": "Khi đối đầu với mục tiêu có Tinh thần thấp, Sức mạnh Đối đầu +1, Lượng sát thương +10%\nNếu mục tiêu có [EchoOfMansion], Lượng sát thương gây ra +15%\nHồi phục Tinh thần khi thắng đối đầu"
+      "desc": "- Khi đối kháng với mục tiêu có Tinh thần dưới -25, Sức mạnh Đối kháng +1, Lượng sát thương +10%\n- Lượng sát thương gây ra cho mục tiêu có [EchoOfMansion] +15%\n- Khi thắng đối kháng với tất cả các đồng xu còn lại, hồi phục 10 Tinh thần. Nếu Tinh thần đã ở mức tối đa, nhận 2 [AttackUp] vào lượt tiếp theo (2 lần mỗi lượt)",
+      "summary": "Khi đối kháng với mục tiêu có Tinh thần thấp, Sức mạnh Đối kháng +1, Lượng sát thương +10%\nNếu mục tiêu có [EchoOfMansion], Lượng sát thương gây ra +15%\nHồi phục Tinh thần khi thắng đối kháng"
     },
     {
       "id": 1110811,
       "name": "Tiếng của phu nhân...!",
-      "desc": "- Khi đối đầu với mục tiêu có Tinh thần dưới 0, Sức mạnh Đối đầu +1, Lượng sát thương +20%\n- Lượng sát thương gây ra cho mục tiêu có [EchoOfMansion] +30%\n- Khi thắng đối đầu với tất cả các đồng xu còn lại, hồi phục 10 Tinh thần. Nếu Tinh thần đã ở mức tối đa, nhận 3 [AttackUp] vào lượt tiếp theo (2 lần mỗi lượt)",
-      "summary": "Khi đối đầu với mục tiêu có Tinh thần thấp, Sức mạnh Đối đầu +1, Lượng sát thương +20%\nNếu mục tiêu có [EchoOfMansion], Lượng sát thương gây ra +30%\nHồi phục Tinh thần khi thắng đối đầu"
+      "desc": "- Khi đối kháng với mục tiêu có Tinh thần dưới 0, Sức mạnh Đối kháng +1, Lượng sát thương +20%\n- Lượng sát thương gây ra cho mục tiêu có [EchoOfMansion] +30%\n- Khi thắng đối kháng với tất cả các đồng xu còn lại, hồi phục 10 Tinh thần. Nếu Tinh thần đã ở mức tối đa, nhận 3 [AttackUp] vào lượt tiếp theo (2 lần mỗi lượt)",
+      "summary": "Khi đối kháng với mục tiêu có Tinh thần thấp, Sức mạnh Đối kháng +1, Lượng sát thương +20%\nNếu mục tiêu có [EchoOfMansion], Lượng sát thương gây ra +30%\nHồi phục Tinh thần khi thắng đối kháng"
     },
     {
       "id": 1110821,
       "name": "Huấn luyện Quản gia",
-      "desc": "1 đồng minh có Tinh thần cao nhất được +1 Sức mạnh Đối đầu khi đối đầu với mục tiêu có Tinh thần dưới -25",
-      "summary": "+1 Sức mạnh Đối đầu khi đối đầu với mục tiêu có Tinh thần dưới -25"
+      "desc": "1 đồng minh có Tinh thần cao nhất được +1 Sức mạnh Đối kháng khi đối kháng với mục tiêu có Tinh thần dưới -25",
+      "summary": "+1 Sức mạnh Đối kháng khi đối kháng với mục tiêu có Tinh thần dưới -25"
     },
     {
       "id": 1110831,
       "name": "Huấn luyện Quản gia",
-      "desc": "1 đồng minh có Tinh thần cao nhất được +1 Sức mạnh Đối đầu khi đối đầu với mục tiêu có Tinh thần dưới -25",
-      "summary": "+1 Sức mạnh Đối đầu khi đối đầu với mục tiêu có Tinh thần dưới -25"
+      "desc": "1 đồng minh có Tinh thần cao nhất được +1 Sức mạnh Đối kháng khi đối kháng với mục tiêu có Tinh thần dưới -25",
+      "summary": "+1 Sức mạnh Đối kháng khi đối kháng với mục tiêu có Tinh thần dưới -25"
     },
     {
       "id": 1050911,
       "name": "Câu giờ",
-      "desc": "Khi đối đầu với mục tiêu có [Burst], Sức mạnh Đối đầu +1\nNếu số lần [Burst] của mục tiêu từ 5 trở lên, Sức mạnh Đối đầu +2",
+      "desc": "Khi đối kháng với mục tiêu có [Burst], Sức mạnh Đối kháng +1\nNếu số lần [Burst] của mục tiêu từ 5 trở lên, Sức mạnh Đối kháng +2",
       "summary": ""
     },
     {
       "id": 1020901,
       "name": "Đối phó kiểu Quản gia",
-      "desc": "- Khi thắng đối đầu, gây 1 [Sinking] cho mục tiêu (3 lần mỗi lượt)",
-      "summary": "Gây 1 [Sinking] khi thắng đối đầu"
+      "desc": "- Khi thắng đối kháng, gây 1 [Sinking] cho mục tiêu (3 lần mỗi lượt)",
+      "summary": "Gây 1 [Sinking] khi thắng đối kháng"
     },
     {
       "id": 1020911,
       "name": "Đối phó kiểu Quản gia",
-      "desc": "- Khi thắng đối đầu, gây 1 [Sinking] cho mục tiêu (3 lần mỗi lượt)\n- Nếu mục tiêu có [EchoOfMansion], gây 3 [Sinking] thay thế",
-      "summary": "Gây 1 [Sinking] khi thắng đối đầu"
+      "desc": "- Khi thắng đối kháng, gây 1 [Sinking] cho mục tiêu (3 lần mỗi lượt)\n- Nếu mục tiêu có [EchoOfMansion], gây 3 [Sinking] thay thế",
+      "summary": "Gây 1 [Sinking] khi thắng đối kháng"
     },
     {
       "id": 1020921,
@@ -1747,7 +1747,7 @@
     {
       "id": 1111111,
       "name": "Không Phải Bộ Đó!!!",
-      "desc": "Khi đối đầu với [LineCuttingPersonality], Uy lực đối đầu +1\nKhi trúng đích, mỗi 10 [BloodDinner_Accumulation] của bản thân, Sát thương +1.5% (Tối đa 30%)\nKhi trúng đích, mỗi 1 [Laceration] của mục tiêu, Sát thương +0.5% (Tối đa 10%)",
+      "desc": "Khi đối kháng với [LineCuttingPersonality], Uy lực đối kháng +1\nKhi trúng đích, mỗi 10 [BloodDinner_Accumulation] của bản thân, Sát thương +1.5% (Tối đa 30%)\nKhi trúng đích, mỗi 1 [Laceration] của mục tiêu, Sát thương +0.5% (Tối đa 10%)",
       "summary": "Khi khớp nối với đối tượng may vá, Sức mạnh khớp nối +1"
     },
     {
@@ -2033,12 +2033,12 @@
     {
       "id": 1031121,
       "name": "Khinh Thân Pháp",
-      "desc": "Khi đồng minh có Tốc độ cao nhất chiến thắng khi đối đầu với kẻ địch đang có [Combustion] hoặc Bỏng đặc biệt, nhận 1 [Agility] vào lượt kế tiếp (1 lần mỗi lượt)"
+      "desc": "Khi đồng minh có Tốc độ cao nhất chiến thắng khi đối kháng với kẻ địch đang có [Combustion] hoặc Bỏng đặc biệt, nhận 1 [Agility] vào lượt kế tiếp (1 lần mỗi lượt)"
     },
     {
       "id": 1031131,
       "name": "Khinh Thân Pháp",
-      "desc": "Khi đồng minh có Tốc độ cao nhất chiến thắng khi đối đầu với kẻ địch đang có [Combustion] hoặc Bỏng đặc biệt, nhận 1 [Agility] vào lượt kế tiếp (1 lần mỗi lượt)\n<style=\"highlight\">- Nếu cấp [Combustion] của đối tượng từ 20 trở lên, nhận thêm 1 [Agility]</style>"
+      "desc": "Khi đồng minh có Tốc độ cao nhất chiến thắng khi đối kháng với kẻ địch đang có [Combustion] hoặc Bỏng đặc biệt, nhận 1 [Agility] vào lượt kế tiếp (1 lần mỗi lượt)\n<style=\"highlight\">- Nếu cấp [Combustion] của đối tượng từ 20 trở lên, nhận thêm 1 [Agility]</style>"
     },
     {
       "id": 1041101,
@@ -2144,8 +2144,8 @@
     {
       "id": 1081201,
       "name": "Phá Hấp Tự Hoàn",
-      "desc": "Khi tiêu diệt mục tiêu bằng Kĩ năng tấn công của bản thân, nhận [Breath] tương ứng với [Burst] của mục tiêu (Tối đa 3 mỗi kẻ địch, 1 lần mỗi lượt)\n- Nếu nhận đến 3 [Breath] bằng hiệu ứng trên, số lượt [Breath] của bản thân tăng thêm tương ứng với số lượt [Burst] của mục tiêu (Tối đa 2 mỗi kẻ địch, 1 lần mỗi lượt)\n\nKhi đang Đối đầu, nếu Cấp độ Tấn công cao hơn kẻ địch đang đối đầu, Sức mạnh Đối đầu +1\n\nKhi đang Đối đầu, nếu Cấp độ Tấn công cao hơn kẻ địch đang đối đầu, tăng +1 Cường độ [Burst] hoặc Số lượt [Burst] gây ra bởi Kĩ năng cơ bản (Kích hoạt 2 lần mỗi lượt)",
-      "summary": "Khi Đối đầu, nếu Cấp độ Tấn công cao hơn mục tiêu tấn công, Sức mạnh Đối đầu +1\nTăng +1 Cường độ [Burst] và Số lượt [Burst] gây ra bởi Kĩ năng cơ bản"
+      "desc": "Khi tiêu diệt mục tiêu bằng Kĩ năng tấn công của bản thân, nhận [Breath] tương ứng với [Burst] của mục tiêu (Tối đa 3 mỗi kẻ địch, 1 lần mỗi lượt)\n- Nếu nhận đến 3 [Breath] bằng hiệu ứng trên, số lượt [Breath] của bản thân tăng thêm tương ứng với số lượt [Burst] của mục tiêu (Tối đa 2 mỗi kẻ địch, 1 lần mỗi lượt)\n\nKhi đang Đối kháng, nếu Cấp độ Tấn công cao hơn kẻ địch đang đối kháng, Sức mạnh Đối kháng +1\n\nKhi đang Đối kháng, nếu Cấp độ Tấn công cao hơn kẻ địch đang đối kháng, tăng +1 Cường độ [Burst] hoặc Số lượt [Burst] gây ra bởi Kĩ năng cơ bản (Kích hoạt 2 lần mỗi lượt)",
+      "summary": "Khi Đối kháng, nếu Cấp độ Tấn công cao hơn mục tiêu tấn công, Sức mạnh Đối kháng +1\nTăng +1 Cường độ [Burst] và Số lượt [Burst] gây ra bởi Kĩ năng cơ bản"
     },
     {
       "id": 1081202,
@@ -2843,7 +2843,7 @@
     {
       "id": 1061404,
       "name": "Tác phẩm để đời, Tibia",
-      "desc": "Khi lần đầu xuất hiện trong màn chơi, số lần [ChargeBodyArt] của bản thân tăng thêm (Số đồng minh thuộc Ngón Áp Út có mặt trên chiến trường × 2) (Tối đa 10)\n\nKhi kết thúc kĩ năng, nếu kĩ năng đó đã gây sát thương lên Máu hoặc Lá chắn, số lần [ChargeBodyArt] của bản thân tăng 5\n- Nếu mục tiêu chết, số lần [ChargeBodyArt] tăng thêm 3\n\nTrong trận đấu, mỗi khi tiêu tốn tổng cộng 10 số lần [ChargeBodyArt] của bản thân, nhận 1 [ChargeBodyArt]\n- Nếu Cường độ [ChargeBodyArt] từ 2 trở lên bởi hiệu ứng trên, nhận [TibiaPersonality]\n\nKĩ năng tấn công cơ bản và kĩ năng Phản đòn có thể Đối đầu được tính là kĩ năng nhận số lần [Charge]",
+      "desc": "Khi lần đầu xuất hiện trong màn chơi, số lần [ChargeBodyArt] của bản thân tăng thêm (Số đồng minh thuộc Ngón Áp Út có mặt trên chiến trường × 2) (Tối đa 10)\n\nKhi kết thúc kĩ năng, nếu kĩ năng đó đã gây sát thương lên Máu hoặc Lá chắn, số lần [ChargeBodyArt] của bản thân tăng 5\n- Nếu mục tiêu chết, số lần [ChargeBodyArt] tăng thêm 3\n\nTrong trận đấu, mỗi khi tiêu tốn tổng cộng 10 số lần [ChargeBodyArt] của bản thân, nhận 1 [ChargeBodyArt]\n- Nếu Cường độ [ChargeBodyArt] từ 2 trở lên bởi hiệu ứng trên, nhận [TibiaPersonality]\n\nKĩ năng tấn công cơ bản và kĩ năng Phản đòn có thể Đối kháng được tính là kĩ năng nhận số lần [Charge]",
       "summary": "Nhận [ChargeBodyArt]"
     },
     {
@@ -2872,7 +2872,7 @@
     {
       "id": 1021504,
       "name": "Tác phẩm trân quý, Fascia",
-      "desc": "Khi lần đầu xuất hiện trong màn chơi, số lần [ChargeBodyArt] của bản thân tăng thêm (Số đồng minh thuộc Ngón Áp Út có mặt trên chiến trường × 2) (Tối đa 10)\n\nKhi kết thúc kĩ năng, nếu kĩ năng đó đã gây sát thương lên Máu hoặc Lá chắn, số lần [ChargeBodyArt] của bản thân tăng 5\n- Nếu mục tiêu chết, số lần [ChargeBodyArt] tăng thêm 3\n\nTrong trận đấu, mỗi khi tiêu tốn tổng cộng 10 số lần [ChargeBodyArt] của bản thân, nhận 1 [ChargeBodyArt]\n- Nếu Cường độ [ChargeBodyArt] từ 2 trở lên bởi hiệu ứng trên, nhận [FasciaPersonality]\n\nKĩ năng tấn công cơ bản và kĩ năng Phản đòn có thể Đối đầu được tính là kĩ năng nhận số lần [Charge]",
+      "desc": "Khi lần đầu xuất hiện trong màn chơi, số lần [ChargeBodyArt] của bản thân tăng thêm (Số đồng minh thuộc Ngón Áp Út có mặt trên chiến trường × 2) (Tối đa 10)\n\nKhi kết thúc kĩ năng, nếu kĩ năng đó đã gây sát thương lên Máu hoặc Lá chắn, số lần [ChargeBodyArt] của bản thân tăng 5\n- Nếu mục tiêu chết, số lần [ChargeBodyArt] tăng thêm 3\n\nTrong trận đấu, mỗi khi tiêu tốn tổng cộng 10 số lần [ChargeBodyArt] của bản thân, nhận 1 [ChargeBodyArt]\n- Nếu Cường độ [ChargeBodyArt] từ 2 trở lên bởi hiệu ứng trên, nhận [FasciaPersonality]\n\nKĩ năng tấn công cơ bản và kĩ năng Phản đòn có thể Đối kháng được tính là kĩ năng nhận số lần [Charge]",
       "summary": "Nhận [ChargeBodyArt]"
     },
     {
