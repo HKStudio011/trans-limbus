@@ -114,6 +114,57 @@
     "SuccessRate.json"
    ],
    "note": "Batch4: base gameplay small files"
+  },
+  {
+   "ts": "2026-10-09T12:11:08.032Z",
+   "action": "claim",
+   "files": [
+    "UnitKeyword.json",
+    "AbnormalityGuides_exme.json",
+    "AbnormalityGuides_Mirror.json",
+    "AbnormalityGuides_Refraction2.json",
+    "AbnormalityGuides_Refraction3.json",
+    "AbnormalityGuides_Refraction4.json",
+    "AbnormalityGuides_Refraction5.json",
+    "AbnormalityGuides_Refraction6.json",
+    "AbnormalityGuides-a1c10p2.json",
+    "AbnormalityGuides-a1c10p3.json"
+   ],
+   "note": ""
+  },
+  {
+   "ts": "2026-10-09T12:11:08.107Z",
+   "action": "start",
+   "files": [
+    "AbnormalityGuides-a1c5p1.json",
+    "AbnormalityGuides-a1c5p2.json"
+   ],
+   "note": ""
+  },
+  {
+   "ts": "2026-10-09T12:11:08.185Z",
+   "action": "done",
+   "files": [
+    "AbnormalityGuides-a1c5p1.json",
+    "AbnormalityGuides-a1c5p2.json"
+   ],
+   "note": "placeholder {} rong, khong co noi dung"
+  },
+  {
+   "ts": "2026-10-09T14:38:52.457Z",
+   "action": "done",
+   "files": [
+    "UnitKeyword.json",
+    "AbnormalityGuides_exme.json",
+    "AbnormalityGuides-a1c10p2.json",
+    "AbnormalityGuides-a1c10p3.json",
+    "AbnormalityGuides_Mirror.json",
+    "AbnormalityGuides_Refraction3.json",
+    "AbnormalityGuides_Refraction4.json",
+    "AbnormalityGuides_Refraction5.json",
+    "AbnormalityGuides_Refraction6.json"
+   ],
+   "note": "Batch5: guide series, verify OK"
   }
  ],
  "files": {
@@ -568,30 +619,82 @@
   "AbnormalityGuides-a1c10p2.json": {
    "group": "gameplay",
    "size": 2780,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-09T12:11:08.031Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-10-09T14:38:52.456Z",
+     "action": "done",
+     "note": "Batch5: guide series, verify OK"
+    }
+   ],
+   "started": "2026-10-09T12:11:08.031Z",
+   "finished": "2026-10-09T14:38:52.456Z",
+   "note": "Batch5: guide series, verify OK"
   },
   "AbnormalityGuides-a1c10p3.json": {
    "group": "gameplay",
    "size": 6088,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-09T12:11:08.031Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-10-09T14:38:52.456Z",
+     "action": "done",
+     "note": "Batch5: guide series, verify OK"
+    }
+   ],
+   "started": "2026-10-09T12:11:08.031Z",
+   "finished": "2026-10-09T14:38:52.456Z",
+   "note": "Batch5: guide series, verify OK"
   },
   "AbnormalityGuides-a1c5p1.json": {
    "group": "gameplay",
    "size": 2,
-   "status": "pending",
+   "status": "done",
    "attempts": 0,
-   "history": []
+   "history": [
+    {
+     "ts": "2026-10-09T12:11:08.106Z",
+     "action": "start",
+     "note": ""
+    },
+    {
+     "ts": "2026-10-09T12:11:08.184Z",
+     "action": "done",
+     "note": "placeholder {} rong, khong co noi dung"
+    }
+   ],
+   "finished": "2026-10-09T12:11:08.184Z",
+   "note": "placeholder {} rong, khong co noi dung"
   },
   "AbnormalityGuides-a1c5p2.json": {
    "group": "gameplay",
    "size": 2,
-   "status": "pending",
+   "status": "done",
    "attempts": 0,
-   "history": []
+   "history": [
+    {
+     "ts": "2026-10-09T12:11:08.106Z",
+     "action": "start",
+     "note": ""
+    },
+    {
+     "ts": "2026-10-09T12:11:08.184Z",
+     "action": "done",
+     "note": "placeholder {} rong, khong co noi dung"
+    }
+   ],
+   "finished": "2026-10-09T12:11:08.184Z",
+   "note": "placeholder {} rong, khong co noi dung"
   },
   "AbnormalityGuides-a1c5p3.json": {
    "group": "gameplay",
@@ -721,51 +824,135 @@
   "AbnormalityGuides_Mirror.json": {
    "group": "gameplay",
    "size": 43622,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-09T12:11:08.031Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-10-09T14:38:52.456Z",
+     "action": "done",
+     "note": "Batch5: guide series, verify OK"
+    }
+   ],
+   "started": "2026-10-09T12:11:08.031Z",
+   "finished": "2026-10-09T14:38:52.456Z",
+   "note": "Batch5: guide series, verify OK"
   },
   "AbnormalityGuides_Refraction2.json": {
    "group": "gameplay",
    "size": 38413,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "in_progress",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-09T12:11:08.031Z",
+     "action": "claim"
+    }
+   ],
+   "started": "2026-10-09T12:11:08.031Z"
   },
   "AbnormalityGuides_Refraction3.json": {
    "group": "gameplay",
    "size": 14724,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-09T12:11:08.031Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-10-09T14:38:52.456Z",
+     "action": "done",
+     "note": "Batch5: guide series, verify OK"
+    }
+   ],
+   "started": "2026-10-09T12:11:08.031Z",
+   "finished": "2026-10-09T14:38:52.456Z",
+   "note": "Batch5: guide series, verify OK"
   },
   "AbnormalityGuides_Refraction4.json": {
    "group": "gameplay",
    "size": 20535,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-09T12:11:08.031Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-10-09T14:38:52.456Z",
+     "action": "done",
+     "note": "Batch5: guide series, verify OK"
+    }
+   ],
+   "started": "2026-10-09T12:11:08.031Z",
+   "finished": "2026-10-09T14:38:52.456Z",
+   "note": "Batch5: guide series, verify OK"
   },
   "AbnormalityGuides_Refraction5.json": {
    "group": "gameplay",
    "size": 19777,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-09T12:11:08.031Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-10-09T14:38:52.456Z",
+     "action": "done",
+     "note": "Batch5: guide series, verify OK"
+    }
+   ],
+   "started": "2026-10-09T12:11:08.031Z",
+   "finished": "2026-10-09T14:38:52.456Z",
+   "note": "Batch5: guide series, verify OK"
   },
   "AbnormalityGuides_Refraction6.json": {
    "group": "gameplay",
    "size": 19526,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-09T12:11:08.031Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-10-09T14:38:52.456Z",
+     "action": "done",
+     "note": "Batch5: guide series, verify OK"
+    }
+   ],
+   "started": "2026-10-09T12:11:08.031Z",
+   "finished": "2026-10-09T14:38:52.456Z",
+   "note": "Batch5: guide series, verify OK"
   },
   "AbnormalityGuides_exme.json": {
    "group": "gameplay",
    "size": 11165,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-09T12:11:08.031Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-10-09T14:38:52.456Z",
+     "action": "done",
+     "note": "Batch5: guide series, verify OK"
+    }
+   ],
+   "started": "2026-10-09T12:11:08.031Z",
+   "finished": "2026-10-09T14:38:52.456Z",
+   "note": "Batch5: guide series, verify OK"
   },
   "ActionEvents-a1c5p1.json": {
    "group": "story",
@@ -16992,9 +17179,22 @@
   "UnitKeyword.json": {
    "group": "gameplay",
    "size": 7887,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-09T12:11:08.031Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-10-09T14:38:52.456Z",
+     "action": "done",
+     "note": "Batch5: guide series, verify OK"
+    }
+   ],
+   "started": "2026-10-09T12:11:08.031Z",
+   "finished": "2026-10-09T14:38:52.456Z",
+   "note": "Batch5: guide series, verify OK"
   },
   "UnlockCode-1.json": {
    "group": "other",
@@ -17326,5 +17526,5 @@
    "history": []
   }
  },
- "updated": "2026-10-09T12:05:55.687Z"
+ "updated": "2026-10-09T14:38:52.457Z"
 }
