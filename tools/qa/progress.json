@@ -26,6 +26,38 @@
     "EGOgift.json"
    ],
    "note": "Batch1: EN-checked, verify OK"
+  },
+  {
+   "ts": "2026-10-09T01:44:30.916Z",
+   "action": "claim",
+   "files": [
+    "AttributeText.json",
+    "Characters.json",
+    "DanteAbility.json",
+    "DanteAbilityUIText.json",
+    "EgoGiftCategory.json",
+    "IntroduceCharacter.json",
+    "BuffAbilities.json",
+    "Enemies.json",
+    "BattleKeywords.json"
+   ],
+   "note": ""
+  },
+  {
+   "ts": "2026-10-09T05:57:06.824Z",
+   "action": "done",
+   "files": [
+    "AttributeText.json",
+    "Characters.json",
+    "DanteAbility.json",
+    "DanteAbilityUIText.json",
+    "EgoGiftCategory.json",
+    "Enemies.json",
+    "BattleKeywords.json",
+    "IntroduceCharacter.json",
+    "BuffAbilities.json"
+   ],
+   "note": "Batch2: gameplay, EN-checked + verify OK"
   }
  ],
  "files": {
@@ -1089,9 +1121,22 @@
   "AttributeText.json": {
    "group": "gameplay",
    "size": 623,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-09T01:44:30.915Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-10-09T05:57:06.823Z",
+     "action": "done",
+     "note": "Batch2: gameplay, EN-checked + verify OK"
+    }
+   ],
+   "started": "2026-10-09T01:44:30.915Z",
+   "finished": "2026-10-09T05:57:06.823Z",
+   "note": "Batch2: gameplay, EN-checked + verify OK"
   },
   "BattleAnnouncerDlg/Announcer_Aengdu_26.json": {
    "group": "voice",
@@ -1851,9 +1896,22 @@
   "BattleKeywords.json": {
    "group": "gameplay",
    "size": 262157,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-09T01:44:30.915Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-10-09T05:57:06.823Z",
+     "action": "done",
+     "note": "Batch2: gameplay, EN-checked + verify OK"
+    }
+   ],
+   "started": "2026-10-09T01:44:30.915Z",
+   "finished": "2026-10-09T05:57:06.823Z",
+   "note": "Batch2: gameplay, EN-checked + verify OK"
   },
   "BattleKeywords_Mirror3.json": {
    "group": "gameplay",
@@ -2292,9 +2350,22 @@
   "BuffAbilities.json": {
    "group": "gameplay",
    "size": 23411,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-09T01:44:30.915Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-10-09T05:57:06.823Z",
+     "action": "done",
+     "note": "Batch2: gameplay, EN-checked + verify OK"
+    }
+   ],
+   "started": "2026-10-09T01:44:30.915Z",
+   "finished": "2026-10-09T05:57:06.823Z",
+   "note": "Batch2: gameplay, EN-checked + verify OK"
   },
   "Bufs-BossRaid.json": {
    "group": "gameplay",
@@ -2677,9 +2748,22 @@
   "Characters.json": {
    "group": "gameplay",
    "size": 773,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-09T01:44:30.915Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-10-09T05:57:06.823Z",
+     "action": "done",
+     "note": "Batch2: gameplay, EN-checked + verify OK"
+    }
+   ],
+   "started": "2026-10-09T01:44:30.915Z",
+   "finished": "2026-10-09T05:57:06.823Z",
+   "note": "Batch2: gameplay, EN-checked + verify OK"
   },
   "ChoiceEventEffect-a1c5p1.json": {
    "group": "story",
@@ -2789,16 +2873,42 @@
   "DanteAbility.json": {
    "group": "gameplay",
    "size": 1623,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-09T01:44:30.915Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-10-09T05:57:06.823Z",
+     "action": "done",
+     "note": "Batch2: gameplay, EN-checked + verify OK"
+    }
+   ],
+   "started": "2026-10-09T01:44:30.915Z",
+   "finished": "2026-10-09T05:57:06.823Z",
+   "note": "Batch2: gameplay, EN-checked + verify OK"
   },
   "DanteAbilityUIText.json": {
    "group": "gameplay",
    "size": 1822,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-09T01:44:30.915Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-10-09T05:57:06.823Z",
+     "action": "done",
+     "note": "Batch2: gameplay, EN-checked + verify OK"
+    }
+   ],
+   "started": "2026-10-09T01:44:30.915Z",
+   "finished": "2026-10-09T05:57:06.823Z",
+   "note": "Batch2: gameplay, EN-checked + verify OK"
   },
   "DanteAbilityUIText_a1c9p3.json": {
    "group": "gameplay",
@@ -3362,9 +3472,22 @@
   "EgoGiftCategory.json": {
    "group": "gameplay",
    "size": 818,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-09T01:44:30.915Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-10-09T05:57:06.823Z",
+     "action": "done",
+     "note": "Batch2: gameplay, EN-checked + verify OK"
+    }
+   ],
+   "started": "2026-10-09T01:44:30.915Z",
+   "finished": "2026-10-09T05:57:06.823Z",
+   "note": "Batch2: gameplay, EN-checked + verify OK"
   },
   "Egos-a1c9p3.json": {
    "group": "gameplay",
@@ -3662,9 +3785,22 @@
   "Enemies.json": {
    "group": "gameplay",
    "size": 53970,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-09T01:44:30.915Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-10-09T05:57:06.823Z",
+     "action": "done",
+     "note": "Batch2: gameplay, EN-checked + verify OK"
+    }
+   ],
+   "started": "2026-10-09T01:44:30.915Z",
+   "finished": "2026-10-09T05:57:06.823Z",
+   "note": "Batch2: gameplay, EN-checked + verify OK"
   },
   "Enemies91-4.json": {
    "group": "gameplay",
@@ -3928,9 +4064,22 @@
   "IntroduceCharacter.json": {
    "group": "gameplay",
    "size": 9961,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-09T01:44:30.915Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-10-09T05:57:06.823Z",
+     "action": "done",
+     "note": "Batch2: gameplay, EN-checked + verify OK"
+    }
+   ],
+   "started": "2026-10-09T01:44:30.915Z",
+   "finished": "2026-10-09T05:57:06.823Z",
+   "note": "Batch2: gameplay, EN-checked + verify OK"
   },
   "IntroductionPreset.json": {
    "group": "other",
@@ -16939,5 +17088,5 @@
    "history": []
   }
  },
- "updated": "2026-10-08T17:44:15.232Z"
+ "updated": "2026-10-09T05:57:06.824Z"
 }

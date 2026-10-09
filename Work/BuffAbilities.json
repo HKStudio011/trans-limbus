@@ -3,12 +3,12 @@
     {
       "id": "AtkDamageMultiplier",
       "desc": "Sát thương gây ra {0}%",
-      "variation": "Sát thương {0} gây ra {1}%"
+      "variation": "Sát thương gây ra với thuộc tính {0} {1}%"
     },
     {
       "id": "AtkAndTakeAtkDamageMultiplier",
       "desc": "Sát thương gây ra và nhận vào {0}%",
-      "variation": "Sát thương gây ra và nhận vào của kỹ năng thuộc tính {0} {1}%"
+      "variation": "Sát thương gây ra và nhận vào với thuộc tính {0} {1}%"
     },
     {
       "id": "GiveBuffOnSucceedAttack",
@@ -20,19 +20,19 @@
     },
     {
       "id": "SlotWeightAdder",
-      "desc": "Trọng số ô kỹ năng {0}"
+      "desc": "Trọng số ô Kĩ năng {0}"
     },
     {
       "id": "AtkAdder",
-      "desc": "Cấp tấn công {0}"
+      "desc": "Cấp Tấn công {0}"
     },
     {
       "id": "DefAdder",
-      "desc": "Cấp phòng thủ {0}"
+      "desc": "Cấp Phòng thủ {0}"
     },
     {
       "id": "AtkAdderIfNotDamagedPrevTurn",
-      "desc": "Trong 1 lượt, nếu không nhận sát thương máu, lượt sau nhận Cấp tấn công {0}\n(Sát thương lên Khiên không tính)"
+      "desc": "Nếu không nhận sát thương Máu trong 1 lượt, vào lượt sau nhận Cấp Tấn công {0}\n(Sát thương lên Khiên không được tính)"
     },
     {
       "id": "MaxSpeedAdderAsStack",
@@ -48,7 +48,7 @@
     },
     {
       "id": "TakeHpHealMultiplier",
-      "desc": "Lượng hồi máu từ hiệu ứng kỹ năng và đồng xu {0}%"
+      "desc": "Lượng hồi máu từ hiệu ứng Kĩ năng và Đồng xu {0}%"
     },
     {
       "id": "RecoverSelfHpOnSucceedAttackByDmg",
@@ -56,11 +56,11 @@
     },
     {
       "id": "RecoverSelfHpOnSucceedAttackByDmgRR2",
-      "desc": "Hồi {0}% sát thương đã gây ra"
+      "desc": "Hồi máu bằng {0}% sát thương đã gây ra"
     },
     {
       "id": "RailEnemyBuffF",
-      "desc": "Số lượng tài nguyên E.G.O Tù nhân tiêu tốn khi sử dụng kỹ năng E.G.O {0}"
+      "desc": "Lượng tài nguyên E.G.O Tù nhân tiêu tốn khi sử dụng Kĩ năng E.G.O {0}"
     },
     {
       "id": "MaxHpMultiplier",
@@ -68,73 +68,73 @@
     },
     {
       "id": "AtkAndDefAdder",
-      "desc": "Cấp tấn công {0}, Cấp phòng thủ {0}"
+      "desc": "Cấp Tấn công {0}, Cấp Phòng thủ {0}"
     },
     {
       "id": "GiveBuffOnRoundStartToAllAlly",
-      "desc": "Đầu lượt, gây {1} {0} và {2} số lần {0} cho toàn bộ đồng minh",
+      "desc": "Đầu lượt, gây {1} {0} và +{2} Số lượng {0} cho toàn bộ đồng minh",
       "variation": "Đầu lượt, gây {1} {0} cho toàn bộ đồng minh",
-      "variation2": "Đầu lượt, gây {1} số lần {0} cho toàn bộ đồng minh"
+      "variation2": "Đầu lượt, gây +{1} Số lượng {0} cho toàn bộ đồng minh"
     },
     {
       "id": "GiveBuffOnRoundStartToAllAllyExtra",
-      "desc": "Đầu lượt, gây {1} {0} cho toàn bộ đồng minh, gây thêm {2} số lần {0} cho đồng minh đang có trạng thái {0}"
+      "desc": "Đầu lượt, gây {1} {0} cho toàn bộ đồng minh, và gây thêm +{2} Số lượng {0} cho đồng minh đang có {0}"
     },
     {
       "id": "GiveBuffOnRoundStartToAllEnemyExtra",
-      "desc": "Đầu lượt, gây {1} {0} cho toàn bộ kẻ địch, gây thêm {2} số lần {0} cho kẻ địch đang có trạng thái {0}"
+      "desc": "Đầu lượt, gây {1} {0} cho toàn bộ kẻ địch, và gây thêm +{2} Số lượng {0} cho kẻ địch đang có {0}"
     },
     {
       "id": "LoseTurnOnRoundEnd",
-      "desc": "Giảm {0} số lần khi kết thúc lượt"
+      "desc": "Khi kết thúc lượt, giảm {0} Số lượng"
     },
     {
       "id": "Vibration",
-      "desc": "Trong {1} lượt, thanh đo Choáng tiến thêm {0} khi nhận sát thương từ kỹ năng Bộc phát Chấn động"
+      "desc": "Trong {1} lượt, khi nhận sát thương từ Kĩ năng kích hoạt Bộc phát Chấn động, đẩy Ngưỡng Choáng lên thêm {0}"
     },
     {
       "id": "DefAdderByStackCeilToInt",
-      "desc": "Với mỗi 4 cường độ Chấn động, giảm 1 Cấp phòng thủ"
+      "desc": "Với mỗi 4 Cường độ Chấn động, giảm 1 Cấp Phòng thủ"
     },
     {
       "id": "Crack",
-      "desc": "- Khi bị Choáng, nếu tổng cường độ Chấn động và số lần đối đầu của bản thân từ 20 trở lên, tăng cấp độ Choáng thêm 1\n- Hiệu ứng này không thể vượt quá cấp độ Choáng tối đa"
+      "desc": "Khi bị Choáng, nếu tổng Cường độ và Số lượng Chấn động của bản thân từ 20 trở lên, tăng 1 cấp độ Choáng\nHiệu ứng này không thể vượt quá cấp độ Choáng tối đa"
     },
     {
       "id": "VibrationEcho",
-      "desc": "Khi nhận sát thương từ kỹ năng Bộc phát Chấn động, nhận {0} sát thương Lười biếng"
+      "desc": "Khi nhận sát thương từ Kĩ năng kích hoạt Bộc phát Chấn động, nhận {0} sát thương Lười biếng"
     },
     {
       "id": "VibrationDistribution",
-      "desc": "Khi kết thúc lượt, nhận Tăng cấp tấn công vào lượt kế tiếp dựa trên (Tổng số lần Chấn động - Phân bổ của toàn bộ đồng minh ÷ (Số lượng (Số đồng minh có Chấn động - Phân bổ)) (Tối đa 5)"
+      "desc": "Khi kết thúc lượt, nhận Tăng Cấp Tấn công vào lượt sau bằng ((Tổng Chấn động của toàn bộ đồng minh - Số lượng Phân bổ) ÷ (Số đồng minh có Chấn động - Phân bổ)) (Tối đa 5)"
     },
     {
       "id": "VibrationChain",
-      "desc": "Với mỗi 10 cường độ Chấn động của mục tiêu, giảm 1 Uy lực đối kháng (Tối đa 3)"
+      "desc": "Với mỗi 10 Cường độ Chấn động của mục tiêu, giảm 1 Uy lực Đối kháng (Tối đa 3)"
     },
     {
       "id": "VibrationContinue",
-      "desc": "Khi Bộc phát Chấn động bằng hiệu ứng kỹ năng hoặc đồng xu, có {0}% xác suất kích hoạt thêm 1 lần Bộc phát Chấn động của bản thân (Tối đa 50%)\n- Khi Bộc phát Chấn động bằng hiệu ứng kỹ năng hoặc đồng xu, có {1}% xác suất kích hoạt thêm 1 lần Bộc phát Chấn động của bản thân (Tối đa 50%)"
+      "desc": "- Khi kích hoạt Bộc phát Chấn động bằng hiệu ứng Kĩ năng hoặc Đồng xu, có {0}% xác suất kích hoạt thêm 1 lần Bộc phát Chấn động (Tối đa 50%)\n- Khi kích hoạt Bộc phát Chấn động bằng hiệu ứng Kĩ năng hoặc Đồng xu, có {1}% xác suất kích hoạt thêm 1 lần Bộc phát Chấn động (Tối đa 50%)"
     },
     {
       "id": "TimeSuspend",
-      "desc": "Khi kích hoạt hiệu ứng, gây {3} sát thương Lười biếng và kích hoạt Bộc phát Chấn động {0} lần"
+      "desc": "Khi kích hoạt, gây {3} sát thương Lười biếng và kích hoạt Bộc phát Chấn động {0} lần"
     },
     {
       "id": "TimeRentalTwoPersonality",
-      "name": "Cho vay thời gian",
-      "desc": "Khi kết thúc lượt, nhận Tăng tốc, Tăng uy lực đối kháng, Mong manh {1} ở lượt sau. Nếu số lần là 1, nhận Trói buộc {0} ở lượt sau thay vì hiệu ứng trên khi kết thúc lượt",
+      "name": "Vay mượn Thời gian",
+      "desc": "Khi kết thúc lượt, nhận {1} Nhanh nhẹn, Tăng Uy lực Đối kháng và Mong manh vào lượt sau\nNếu Số lượng là 1, thay vào đó nhận {0} Trói buộc vào lượt sau",
       "summary": ""
     },
     {
       "id": "VibrationChainPersonality",
-      "name": "Chấn động - Xiềng Xích",
-      "desc": "Với mỗi 10 cường độ Chấn động, giảm 1 Uy lực đối kháng (Tối đa 3)",
+      "name": "Chấn động - Xích",
+      "desc": "Với mỗi 10 Cường độ Chấn động, giảm 1 Uy lực Đối kháng (Tối đa 3)",
       "summary": ""
     },
     {
       "id": "DefSkillPowerResultAdder",
-      "desc": "Uy lực cuối kỹ năng Phòng ngự {0}"
+      "desc": "Sức mạnh Cuối cùng của Kĩ năng Phòng thủ {0}"
     },
     {
       "id": "TakeAtkDamageMultiplier",
@@ -142,23 +142,23 @@
     },
     {
       "id": "ParryingResultAdder",
-      "desc": "Uy lực đối kháng {0}"
+      "desc": "Uy lực Đối kháng {0}"
     },
     {
       "id": "SkillPowerResultAdder",
-      "desc": "Uy lực cuối {0}"
+      "desc": "Sức mạnh Cuối cùng {0}"
     },
     {
       "id": "SkillPowerAdder",
-      "desc": "Sức mạnh cơ bản {0}"
+      "desc": "Sức mạnh Cơ bản {0}"
     },
     {
       "id": "PlusCoinScaleAdder",
-      "desc": "Sức mạnh xu cộng {0}"
+      "desc": "Sức mạnh Đồng xu Cộng {0}"
     },
     {
       "id": "MinusCoinScaleAdder",
-      "desc": "Sức mạnh xu trừ {0}"
+      "desc": "Sức mạnh Đồng xu Trừ {0}"
     },
     {
       "id": "DefaultMaxHpMultiplier",
@@ -174,87 +174,87 @@
     },
     {
       "id": "HealSelfOnSucceedAttackByDmgRatio",
-      "desc": "Khi đòn tấn công trúng đích khiến Máu của kẻ địch giảm, hồi phục Máu bằng {0}% lượng sát thương đã gây ra."
+      "desc": "Khi đánh trúng, nếu đòn đánh làm giảm Máu của mục tiêu, hồi phục Máu bằng {0}% sát thương đã gây ra."
     },
     {
       "id": "MRR524P",
-      "desc": "Với mỗi 10 Số lượng {0} của bản thân, sát thương của tất cả kỹ năng +1% (Tối đa 30%)."
+      "desc": "Mỗi 10 Cường độ {0} trên bản thân, tất cả Kĩ năng gây +1% sát thương (Tối đa 30%)."
     },
     {
       "id": "MRR525",
-      "desc": "Khi kết thúc lượt, Số lượt {0} giảm {1}."
+      "desc": "Khi kết thúc lượt, giảm {1} Số lượng {0}."
     },
     {
       "id": "CoinScaleAdderByAtkType",
-      "desc": "Sức mạnh xu cộng của kỹ năng {0} +{1}, Sức mạnh xu trừ -{1}."
+      "desc": "Kĩ năng {0} nhận Sức mạnh Đồng xu Cộng +{1}, Sức mạnh Đồng xu Trừ -{1}."
     },
     {
       "id": "GiveBuffOnReleaseStandBy",
-      "desc": "Khi kết thúc trạng thái chờ, nhận {1} {0}."
+      "desc": "Khi được giải phóng khỏi trạng thái chờ, nhận {1} {0}."
     },
     {
       "id": "MRR532",
-      "desc": "Khi kết thúc kỹ năng E.G.O Thức tỉnh, tiêu hao tổng cộng 2 tài nguyên E.G.O ngẫu nhiên từ những loại tài nguyên hiện có (mỗi loại tiêu hao 1)."
+      "desc": "Khi kết thúc Kĩ năng E.G.O Thức tỉnh, tiêu hao thêm 1 tài nguyên E.G.O từ mỗi thuộc tính trong 2 thuộc tính Tội ngẫu nhiên đang có nhiều hơn 1 tài nguyên E.G.O (tổng cộng 2 tài nguyên)."
     },
     {
       "id": "LacerationStackAndTurnAdder",
-      "desc": "{0} Số lượng và Số lượt {1} gây ra bởi hiệu ứng Kỹ năng/Xu."
+      "desc": "+{0} Cường độ và Số lượng {1} gây ra bởi hiệu ứng Kĩ năng/Đồng xu."
     },
     {
       "id": "MRR536",
-      "desc": "Mỗi khi nhận sát thương từ kỹ năng, nhận ngẫu nhiên 1 {0} hoặc 1 {1} vào lượt tiếp theo (Tối đa 4 lần)."
+      "desc": "Mỗi khi nhận sát thương từ Kĩ năng, nhận ngẫu nhiên 1 {0} hoặc 1 {1} vào lượt sau (Tối đa 4 lần)."
     },
     {
       "id": "MRR540",
-      "desc": "Kỹ năng tiêu hao {0} có Sức mạnh cuối +1, sát thương gây ra tăng 10%."
+      "desc": "Kĩ năng tiêu hao {0} nhận hiệu ứng sau: Sức mạnh Cuối cùng +1, sát thương gây ra +10%."
     },
     {
       "id": "MRR541",
-      "desc": "Nếu mục tiêu chính là kẻ có {1} thấp nhất, Sức mạnh cuối của kỹ năng +{0}."
+      "desc": "Nếu mục tiêu chính là đơn vị có {1} thấp nhất, Sức mạnh Cuối cùng của Kĩ năng +{0}."
     },
     {
       "id": "MRR518P",
-      "desc": "Khi bắt đầu trận chiến, 3 đồng minh có thứ tự sắp xếp sớm nhất nhận 10 Số lượng Hơi thở."
+      "desc": "Khi bắt đầu trận chiến, 3 đồng minh được triển khai sớm nhất nhận 10 Cường độ Hơi thở."
     },
     {
       "id": "MRR520P",
-      "desc": "Khi tử trận, gây sát thương cố định bằng {0}% Máu tối đa của bản thân lên toàn bộ kẻ địch (Trong Trận chiến tập trung, hiệu ứng áp dụng lên các bộ phận)."
+      "desc": "Khi tử trận, gây sát thương cố định bằng {0}% Máu tối đa của bản thân lên toàn bộ kẻ địch (Trong Trận chiến tập trung, lên mọi bộ phận)."
     },
     {
       "id": "MRR517",
-      "desc": "Mỗi khi nhận sát thương từ kỹ năng, nhận 2 Tăng Cấp độ Tấn công vào lượt tiếp theo (Tối đa 6)."
+      "desc": "Mỗi khi nhận sát thương từ Kĩ năng, nhận 2 Tăng Cấp Tấn công vào lượt sau (Tối đa 6)."
     },
     {
       "id": "MRR5051",
-      "desc": "Khi kỹ năng tiêu hao từ 8 Số lượt {0} trở lên trúng đích, trong suốt trận chiến này, Kháng {1} của mục tiêu +0.1 \n- Mỗi kẻ địch chỉ có thể áp dụng 1 lần cho mỗi kỹ năng\n- Hiệu ứng này có thể tăng kháng của một kẻ địch lên tối đa 0.3."
+      "desc": "Khi trúng đích bằng Kĩ năng đã tiêu hao từ 8 Số lượng {0} trở lên: Kháng {1} của mục tiêu +0.1 trong suốt trận chiến này\n- Mỗi Kĩ năng chỉ áp dụng 1 lần với mỗi kẻ địch\n- Mức điều chỉnh Kháng tối đa từ hiệu ứng này: 0.3"
     },
     {
       "id": "MRR5052",
-      "desc": "Sát thương của kỹ năng có nhận hoặc tiêu hao Số lượt {0} +(10 + Giá trị tiêu hao × 2)% (Tối đa 50%)."
+      "desc": "Kĩ năng nhận hoặc tiêu hao Số lượng {0} gây sát thương +(10 + Giá trị tiêu hao × 2)% (Tối đa 50%)."
     },
     {
       "id": "MRR506",
-      "desc": "Khi kết thúc lượt, nếu số lượt của mỗi từ khóa từ 2 trở lên, gây sát thương {1} bằng Số lượng {0} lên tất cả bộ phận, và giảm 1 Số lượt {0}. Kích hoạt {2} 1 lần, và giảm 1 Số lượt {3}."
+      "desc": "Khi kết thúc lượt, với mỗi Từ khóa, gây {1} sát thương bằng Cường độ {0} lên từng bộ phận của toàn bộ kẻ địch có Số lượng từ 2 trở lên; sau đó, giảm 1 Số lượng {0} của chúng, kích hoạt {2} 1 lần, và giảm 1 Số lượng {3}."
     },
     {
       "id": "MRR507",
-      "desc": "Sức mạnh cuối của kỹ năng gây Số lượng hoặc Số lượt {0} +2."
+      "desc": "Kĩ năng gây Cường độ hoặc Số lượng {0}: Sức mạnh Cuối cùng +2."
     },
     {
       "id": "MRR508",
-      "desc": "Sát thương gây ra lên kẻ địch không có Tinh thần hoặc Tinh thần dưới 0 +(Số lượng {0} của mục tiêu)% (Tối đa 45%)."
+      "desc": "Sát thương gây ra lên kẻ địch có Tinh thần dưới 0 hoặc đơn vị không có Tinh thần +(Cường độ {0} của mục tiêu)% (Tối đa 45%)."
     },
     {
       "id": "MRR509P",
-      "desc": "Sát thương gây ra lên các bộ phận bị phá hủy hoặc trong trạng thái Hoảng loạn {0}%."
+      "desc": "Sát thương gây ra lên các bộ phận bị phá hủy hoặc bị Choáng +{0}%."
     },
     {
       "id": "GiveBuffOnFirstRoundStartPerWave",
-      "desc": "Khi bắt đầu lượt đầu tiên của đợt (wave), nhận {1} Số lượng {0} và tăng {2} Số lượt {0}."
+      "desc": "Khi bắt đầu lượt đầu tiên của một đợt: nhận {1} Cường độ {0} và +{2} Số lượng {0}."
     },
     {
       "id": "GiveBuffOnBattleStartAR",
-      "desc": "Nếu kích hoạt Cộng hưởng {0}, khi bắt đầu trận chiến, tất cả đồng minh nhận {2} Số lượng {1} và tăng {3} Số lượt {1}."
+      "desc": "Khi bắt đầu trận chiến, nếu Cộng hưởng {0} đã được kích hoạt, toàn bộ đồng minh nhận {2} Cường độ {1} và +{3} Số lượng {1}."
     },
     {
       "id": "MRR511PMaxSpeedAdder",
@@ -266,19 +266,19 @@
     },
     {
       "id": "MRR511PMinSpeedChangeSkill",
-      "desc": "Giảm 1 Kỹ năng 1 của đồng minh ở vị trí số 1. Tăng 1 Kỹ năng 3."
+      "desc": "Đồng minh ở vị trí số 1: Mất 1 Kĩ năng 1, nhưng nhận 1 Kĩ năng 3."
     },
     {
       "id": "MRR512",
-      "desc": "Trong các trận chiến liên tiếp, khi bắt đầu lượt mà các đồng minh từ vị trí thứ 7 trở đi kết thúc trạng thái chờ, hồi phục {0} Tinh thần, nhận {2} {1} trong suốt trận chiến này, và nhận {3} tài nguyên E.G.O tương ứng với hệ của Kỹ năng 1, 2, 3 của bản thân."
+      "desc": "Bắt đầu từ Tù nhân được triển khai thứ 7 trở đi: khi bắt đầu lượt mà đơn vị đó được giải phóng khỏi trạng thái chờ, hồi phục {0} Tinh thần, nhận {2} {1} trong suốt trận chiến này, và nhận {3} tài nguyên E.G.O thuộc tính của từng Kĩ năng 1, 2 và 3 của bản thân."
     },
     {
       "id": "AddSinStockOnKillTargetByUsedSkillAttribute",
-      "desc": "Khi kết thúc kỹ năng Tấn công/Phản đòn mà kẻ địch tử trận, nhận +{0} tài nguyên E.G.O thuộc hệ của kỹ năng đã sử dụng (Mỗi kỹ năng 1 lần, bao gồm cả kỹ năng E.G.O)."
+      "desc": "Sau khi sử dụng Kĩ năng Tấn công hoặc Kĩ năng Phản đòn, nếu kẻ địch bị đánh bại, nhận {0} tài nguyên E.G.O thuộc tính của Kĩ năng đã sử dụng (1 lần mỗi Kĩ năng, bao gồm cả Kĩ năng E.G.O)."
     },
     {
       "id": "MRR514",
-      "desc": "Nếu có kẻ địch mới xuất hiện thêm, khi bắt đầu trận chiến, gây 5 Xuất huyết và 3 Số lượt Xuất huyết lên kẻ địch đó. Nếu đồng minh có <Huyết Quỷ>, mỗi khi điều kiện trên được thỏa mãn, kích hoạt Xuất huyết trên tất cả kẻ địch 1 lần, và giảm 1 Số lượt Xuất huyết của tất cả kẻ địch."
+      "desc": "Khi kẻ địch dự bị tăng viện, vào lúc bắt đầu trận chiến, gây 5 Xuất huyết và 3 Số lượng Xuất huyết lên chúng. Nếu trong đồng minh có <Huyết Quỷ>: khi các điều kiện trên được thỏa mãn, kích hoạt Xuất huyết trên toàn bộ kẻ địch 1 lần, và giảm 1 Số lượng Xuất huyết của chúng."
     },
     {
       "id": "EnemyLevelTextOnly",
@@ -286,59 +286,59 @@
     },
     {
       "id": "MRR501",
-      "desc": "{0} Số lượng Bỏng, Xuất huyết, Chấn động, Vết rách, Trầm luân gây ra cho kẻ địch bởi hiệu ứng Kỹ năng/Xu."
+      "desc": "+{0} Cường độ Bỏng, Xuất huyết, Chấn động, Vết rách và Trầm luân gây ra lên kẻ địch bằng hiệu ứng Kĩ năng/Đồng xu."
     },
     {
       "id": "TakeBuffTurnAdder",
-      "desc": "{1} Số lượt {0} đồng minh nhận được từ hiệu ứng Kỹ năng/Xu."
+      "desc": "+{1} Số lượng {0} mà đồng minh nhận được từ hiệu ứng Kĩ năng/Đồng xu."
     },
     {
       "id": "MRR503",
-      "desc": "Khi kết thúc lượt, {0} đồng minh có Tinh thần thấp nhất hồi phục {1} Tinh thần (Ngoại trừ đồng minh trong trạng thái Hoảng loạn hoặc Bị xâm chiếm)."
+      "desc": "Khi kết thúc lượt, {0} đồng minh có Tinh thần thấp nhất hồi phục {1} Tinh thần (ngoại trừ đồng minh đang Hoảng loạn hoặc Xâm thực)."
     },
     {
       "id": "CriticalDamageBoostWithBuffUse",
-      "desc": "Khi kích hoạt Chí mạng, nếu Số lượng {0} hiện có vượt quá {1}, tiêu hao lượng {0} vượt mức (tối đa {1}) để tăng sát thương Chí mạng +(Lượng tiêu hao × {2}) (Tối đa {3}%)."
+      "desc": "Khi kích hoạt Chí mạng, nếu Cường độ {0} hiện có vượt quá {1}, tiêu hao tối đa {1} Cường độ {0} vượt mức để gây thêm +(Cường độ Hơi thở tiêu hao × {2})% sát thương Chí mạng (Tối đa {3}%)."
     },
     {
       "id": "GainSinStockOnDieByDefaultSkill",
-      "desc": "Khi tử trận, nhận số lượng tài nguyên E.G.O tương ứng với cấp bậc (rank) của kỹ năng, có cùng hệ với các kỹ năng tấn công cơ bản đang sở hữu."
+      "desc": "Khi bị đánh bại, nhận tài nguyên E.G.O dựa trên Thuộc tính & Cấp bậc (rank) của từng Kĩ năng Tấn công mà đơn vị này sở hữu."
     },
     {
       "id": "MRR547",
-      "desc": "Khi bắt đầu lượt, Sức mạnh cuối kỹ năng của kẻ địch +1~3"
+      "desc": "Khi bắt đầu lượt, toàn bộ Kĩ năng của kẻ địch nhận Sức mạnh Cuối cùng +1~3"
     },
     {
       "id": "MRR544",
-      "desc": "Khi bắt đầu lượt, Uy lực cuối cùng của tất cả đồng minh +1~3"
+      "desc": "Khi bắt đầu lượt, toàn bộ Kĩ năng của đồng minh nhận Sức mạnh Cuối cùng +1~3"
     },
     {
       "id": "MRR551",
-      "desc": "Khi bắt đầu lượt, nếu HP ở mức tối đa, nhận {1} Uy lực {0}, Số lần tăng {2} (Mỗi kẻ địch, mỗi bộ phận, kích hoạt 1 lần mỗi trận chiến)"
+      "desc": "Khi bắt đầu lượt, nếu Máu đạt tối đa, nhận {1} Cường độ {0} và +{2} Số lượng (1 lần mỗi kẻ địch, mỗi bộ phận, mỗi trận chiến)"
     },
     {
       "id": "MRR552",
-      "desc": "Khi tử trận, ở lượt tiếp theo, 1 đồng minh có HP hiện tại thấp nhất nhận {1} {0}"
+      "desc": "Khi tử trận, 1 đồng minh có Máu hiện tại thấp nhất nhận {1} {0} vào lượt sau"
     },
     {
       "id": "MRR553",
-      "desc": "Sát thương kỹ năng E.G.O {0}%"
+      "desc": "Kĩ năng E.G.O gây +{0}% sát thương"
     },
     {
       "id": "MRR521",
-      "desc": "Loại bỏ vạch Choáng đầu tiên"
+      "desc": "Loại bỏ Ngưỡng Choáng đầu tiên"
     },
     {
       "id": "MRR557",
-      "desc": "Sát thương Chí mạng +(10 + {0} Tổng Uy lực + {0} Số lần)% (Tối đa 50%)"
+      "desc": "Sát thương Chí mạng +(10 + Cường độ {0} + Số lượng {0})% (Tối đa 50%)"
     },
     {
       "id": "LacerationStackAndTurnAdderIfNotZero",
-      "desc": "Uy lực và Số lần {1} gây ra bởi hiệu ứng Kỹ năng/Đồng xu là {0}"
+      "desc": "+{0} Cường độ và Số lượng {1} gây ra bởi hiệu ứng Kĩ năng/Đồng xu"
     },
     {
       "id": "AttackDmgMultiplierSpecificType",
-      "desc": "Sát thương kỹ năng thuộc tính {0} +30%"
+      "desc": "Kĩ năng {0} gây +30% sát thương"
     },
     {
       "id": "MRR565MaxSpeedAdder",
@@ -350,47 +350,47 @@
     },
     {
       "id": "DefaultLevelAdder",
-      "desc": "Cấp độ Tấn công cơ bản {0}, Cấp độ Phòng thủ cơ bản {0}, Cấp độ Phòng thủ Đơn vị cơ bản {0}"
+      "desc": "Cấp Tấn công Cơ bản {0}, Cấp Phòng thủ Cơ bản {0}, Cấp Phòng thủ Đơn vị Cơ bản {0}"
     },
     {
       "id": "VibrationIgnition",
-      "desc": "Trong {1} lượt, khi Chấn động Bộc phát, nhận sát thương Phẫn nộ bằng ({0} + Uy lực Bỏng) ÷ 2 và Số lần Bỏng giảm 1"
+      "desc": "Trong {1} lượt, khi Bộc phát Chấn động, nhận sát thương Phẫn nộ bằng ({0} + Cường độ Bỏng) ÷ 2; sau đó, giảm 1 Số lượng Bỏng"
     },
     {
       "id": "Heishou10212",
-      "desc": "Hắc Thú - Mão Đội trưởng Faust: Sát thương nhận vào từ kỹ năng -5%"
+      "desc": "Hắc Thú - Mão Đội trưởng Faust: Sát thương nhận vào từ Kĩ năng -5%"
     },
     {
       "id": "Heishou10411",
-      "desc": "Hắc Thú - Mão Ryoshu: Nếu tốc độ bản thân cao hơn mục tiêu, lượng sát thương +5%"
+      "desc": "Hắc Thú - Mão Ryōshū: Nếu Tốc độ của đơn vị này cao hơn mục tiêu, sát thương gây ra +5%"
     },
     {
       "id": "Heishou11112",
-      "desc": "Hắc Thú - Mão Outis: Khi đánh trúng đòn một chiều, Số lần Vết rách tăng 1 (1 lần mỗi lượt)"
+      "desc": "Hắc Thú - Mão Outis: Khi trúng đích bằng Tấn công Không đối kháng, gây +1 Số lượng Vết rách (1 lần mỗi lượt)"
     },
     {
       "id": "Heishou10912",
-      "desc": "Hắc Thú - Tỵ Rodion: Khi đánh Chí mạng, gây 1 Vết rách (3 lần mỗi lượt)"
+      "desc": "Hắc Thú - Tỵ Rodion: Khi trúng Chí mạng, gây 1 Vết rách (3 lần mỗi lượt)"
     },
     {
       "id": "Heishou11212",
-      "desc": "Hắc Thú - Tỵ Gregor: Khi gây sát thương Vết rách, nhận 1 Số lần Hơi thở (1 lần mỗi lượt)"
+      "desc": "Hắc Thú - Tỵ Gregor: Khi gây sát thương Vết rách, nhận +1 Số lượng Hơi thở (1 lần mỗi lượt)"
     },
     {
       "id": "Heishou11014",
-      "desc": "Hắc Thú - Dậu Sinclair: Khi gây Vết rách bằng kỹ năng, gây 1 Bỏng (3 lần mỗi lượt)"
+      "desc": "Hắc Thú - Dậu Sinclair: Khi gây Vết rách bằng Kĩ năng, gây 1 Bỏng (3 lần mỗi lượt)"
     },
     {
       "id": "Heishou10114",
-      "desc": "Hắc Thú - Ngọ Đội trưởng Yi Sang: Khi đồng xu cuối cùng của kỹ năng cơ bản trúng đích, gây Chấn động Bộc phát 1 lần (3 lần mỗi lượt)"
+      "desc": "Hắc Thú - Ngọ Đội trưởng Yi Sang: Khi đồng xu cuối cùng của Kĩ năng Cơ bản trúng đích, kích hoạt Bộc phát Chấn động 1 lần (1 lần mỗi lượt)"
     },
     {
       "id": "GiveMpDmgAsValueOnRESelf",
-      "desc": "Khi kết thúc lượt, Tinh thần của đồng minh giảm {0} mỗi lượt"
+      "desc": "Mỗi khi kết thúc lượt, đồng minh mất {0} Tinh thần"
     },
     {
       "id": "GiveHpDmgAsValueAndIncreaseOnRESelf",
-      "desc": "Khi kết thúc lượt, đồng minh nhận {0} sát thương cố định vào HP. Lượng sát thương tăng thêm {1} mỗi lượt (Tối đa {2})"
+      "desc": "Khi kết thúc lượt, đồng minh nhận {0} sát thương Máu cố định. Lượng sát thương tăng thêm {1} mỗi lượt (Tối đa {2})"
     },
     {
       "id": "CantRecoverMpOverValue",
@@ -398,11 +398,11 @@
     },
     {
       "id": "MD6LimitTest105",
-      "desc": "Lượng tiêu hao tài nguyên E.G.O gấp {0} lần"
+      "desc": "Lượng tiêu hao tài nguyên E.G.O ×{0}"
     },
     {
       "id": "RemoveFirstBreakSection",
-      "desc": "Xóa bỏ vùng Choáng đầu tiên"
+      "desc": "Loại bỏ Ngưỡng Choáng đầu tiên"
     },
     {
       "id": "MinSpeedAdderIncludeFirstTurn",
@@ -414,35 +414,35 @@
     },
     {
       "id": "DefaultMaxHpMultiplierBossRoomOnly",
-      "desc": "HP tối đa trong trận đấu Boss {0}%"
+      "desc": "Máu tối đa của Boss {0}%"
     },
     {
       "id": "MaxHpReducerMirrorDungeonPersonality",
-      "desc": "HP tối đa {0}%"
+      "desc": "Máu tối đa {0}%"
     },
     {
       "id": "VibrationBleeding",
-      "desc": "Trong {1} lượt, khi Chấn động Bộc phát, nhận sát thương thuộc tính Sắc dục bằng ({0} + Uy lực Xuất huyết) ÷ 2 và Số lần Xuất huyết giảm 1"
+      "desc": "Trong {1} lượt, khi Bộc phát Chấn động, nhận sát thương Sắc dục bằng ({0} + Cường độ Xuất huyết) ÷ 2; sau đó, giảm 1 Số lượng Xuất huyết"
     },
     {
       "id": "Heishou10714",
-      "desc": "Hắc Thú - Dậu Đội trưởng Heathcliff: Gây sát thương Phẫn nộ bằng 5% sát thương Phàm ăn đã gây cho mục tiêu bằng kỹ năng cơ bản"
+      "desc": "Hắc Thú - Dậu Đội trưởng Heathcliff: Gây sát thương Phẫn nộ bằng 5% sát thương Phàm ăn gây ra lên kẻ địch bằng Kĩ năng Cơ bản"
     },
     {
       "id": "Heishou10313",
-      "desc": "Hắc Thú - Mùi Don Quixote: Khi gây Vết rách bằng kỹ năng, gây 1 Trầm luân (3 lần mỗi lượt)"
+      "desc": "Hắc Thú - Mùi Don Quixote: Khi gây Vết rách bằng Kĩ năng, gây 1 Trầm luân (3 lần mỗi lượt)"
     },
     {
       "id": "MD7LimitGiveBuffAllyDie",
-      "desc": "Khi đồng minh tử trận, ở lượt tiếp theo nhận {1} {0}, {2} Số lần {0} ({3} lần mỗi lượt)",
-      "variation": "Khi đồng minh tử trận, ở lượt tiếp theo nhận {1} {0} ({2} lần mỗi lượt)",
-      "variation2": "Khi đồng minh tử trận, ở lượt tiếp theo nhận {1} Số lần {0} ({2} lần mỗi lượt)"
+      "desc": "Khi đồng minh tử trận, nhận {1} {0} và +{2} Số lượng {0} vào lượt sau ({3} lần mỗi lượt)",
+      "variation": "Khi đồng minh tử trận, nhận {1} {0} vào lượt sau ({2} lần mỗi lượt)",
+      "variation2": "Khi đồng minh tử trận, nhận +{1} Số lượng {0} vào lượt sau ({2} lần mỗi lượt)"
     },
     {
       "id": "MD7LimitGiveBuffAllyDieAlt",
-      "desc": "Khi đồng minh tử trận, ở lượt tiếp theo nhận {1} {0}, {2} Số lần {0} ({3} lần mỗi lượt)",
-      "variation": "Khi đồng minh tử trận, ở lượt tiếp theo nhận {1} {0} ({2} lần mỗi lượt)",
-      "variation2": "Khi đồng minh tử trận, ở lượt tiếp theo nhận {1} Số lần {0} ({2} lần mỗi lượt)"
+      "desc": "Khi đồng minh tử trận, nhận {1} {0} và +{2} Số lượng {0} vào lượt sau ({3} lần mỗi lượt)",
+      "variation": "Khi đồng minh tử trận, nhận {1} {0} vào lượt sau ({2} lần mỗi lượt)",
+      "variation2": "Khi đồng minh tử trận, nhận +{1} Số lượng {0} vào lượt sau ({2} lần mỗi lượt)"
     },
     {
       "id": "RecoverSelfMpOnRoundStart",
@@ -450,69 +450,69 @@
     },
     {
       "id": "MD7LimitGiveShield",
-      "desc": "Nhận {0} Lá chắn"
+      "desc": "Nhận {0} Khiên"
     },
     {
       "id": "MD7LimitSinBuffGiveBooster",
-      "desc": "Lượng Bỏng, Xuất huyết, Chấn động, Vết rách, Trầm luân gây ra từ Kỹ năng/Đồng xu tăng gấp {0} lần"
+      "desc": "Lượng Bỏng, Xuất huyết, Chấn động, Vết rách và Trầm luân gây ra bởi Kĩ năng và Đồng xu tăng gấp {0} lần"
     },
     {
       "id": "GiveRandomNegativeSinbuffOnRoundStart",
-      "desc": "Khi bắt đầu lượt, nhận ngẫu nhiên {0} trong số Bỏng, Xuất huyết, Chấn động, Vết rách, Trầm luân"
+      "desc": "Khi bắt đầu lượt, nhận ngẫu nhiên {0} Cường độ từ một trong các hiệu ứng Bỏng, Xuất huyết, Chấn động, Vết rách, Trầm luân"
     },
     {
       "id": "MD7LimitMpAdjuster",
-      "desc": "Khi bắt đầu lượt, hồi phục {0} Tinh thần\n- Nếu tất cả các kỹ năng đều là Coin trừ, giảm {1} Tinh thần thay thế"
+      "desc": "Khi bắt đầu lượt, hồi phục {0} Tinh thần\n- Nếu tất cả Kĩ năng đều là Kĩ năng Đồng xu Trừ, thay vào đó mất {1} Tinh thần"
     },
     {
       "id": "SpiderHouse10115",
-      "desc": "Mạng Nhện Thủ Lĩnh Ngón Trỏ Yi Sang: Khi sử dụng kỹ năng tấn công cơ bản, Coin cuối cùng chuyển thành Coin không thể phá hủy. Sát thương của Coin không thể phá hủy từ kỹ năng tấn công cơ bản +10%"
+      "desc": "Mạng Nhện Thủ Lĩnh Ngón Trỏ Yi Sang:\n- Khi sử dụng Kĩ năng Tấn công Cơ bản, chuyển Đồng xu cuối cùng thành Đồng xu Không thể phá hủy. Đồng xu Không thể phá hủy của Kĩ năng Tấn công Cơ bản gây +10% sát thương"
     },
     {
       "id": "SpiderHouse10314",
-      "desc": "Chấp Pháp Viên Ngón Trỏ - E.G.O Khai Hoa::Ủy Thác Don Quixote: Khi sử dụng kỹ năng tấn công cơ bản, nhận 2 Nhịp Thở. Khi kỹ năng tấn công cơ bản trúng chí mạng, gây 1 Trầm luân"
+      "desc": "Đại diện Ngón Trỏ - E.G.O Khai Hoa::Đại diện Don Quixote:\n- Khi sử dụng Kĩ năng Tấn công Cơ bản, nhận 2 Hơi thở. Khi trúng Chí mạng bằng Kĩ năng Tấn công Cơ bản, gây 1 Trầm luân"
     },
     {
       "id": "SpiderHouse10814",
-      "desc": "Mạng Nhện Tiểu Đệ Ngón Giữa Ishmael: Cấp phòng thủ +2, Số tầng Bỏng gây ra từ kỹ năng tấn công cơ bản +1"
+      "desc": "Mạng Nhện Đệ tử Ngón Giữa Ishmael:\n- Cấp Phòng thủ +2, và gây thêm 1 Cường độ Bỏng khi dùng Kĩ năng Cơ bản"
     },
     {
       "id": "SpiderHouse10614",
-      "desc": "Mạng Nhện Thủ Lĩnh Ngón Nhẫn Hong Lu: Nhận Giai điệu cơ thể vang vọng"
+      "desc": "Mạng Nhện Thủ Lĩnh Ngón Nhẫn Hong Lu:\n- Nhận Giai điệu vang vọng từ cơ thể"
     },
     {
       "id": "SpiderHouse10215",
-      "desc": "Mạng Nhện Tiểu Đệ Ngón Nhẫn Faust: Khi bắt đầu mỗi lượt, nhận Lớp bảo vệ bằng 10% HP tối đa"
+      "desc": "Mạng Nhện Đệ tử Ngón Nhẫn Faust:\n- Khi bắt đầu lượt, nhận Khiên bằng 10% Máu"
     },
     {
       "id": "SpiderHouse11015",
-      "desc": "Mạng Nhện Tiểu Đệ Ngón Út Sinclair: Khi bắt đầu mỗi lượt, nhận 1 Số lượt Nhịp Thở và 1 Tăng sát thương chí mạng"
+      "desc": "Mạng Nhện Đệ tử Ngón Út Sinclair:\n- Khi bắt đầu lượt, nhận +1 Số lượng Hơi thở và 1 Tăng Sát thương Chí mạng"
     },
     {
       "id": "SojiRyoshuEntangle",
-      "desc": "- Giá trị tối đa: 4\n- Với mỗi đồng minh Identity Thủ Lĩnh Mạng Nhện tử trận, giá trị tăng thêm 1\n- Nhận hiệu ứng riêng biệt dựa trên Identity Mạng Nhện đồng minh đã tử trận\n- Với mỗi 1 giá trị, lượng sát thương nhận -7.5%"
+      "desc": "- Giá trị tối đa: 4\n- Nhận 1 Giá trị cho mỗi Bản sắc Thủ Lĩnh Mạng Nhện đồng minh đã tử trận\n- Nhận hiệu ứng riêng biệt dựa trên Bản sắc Mạng Nhện đồng minh đã tử trận\n- Với mỗi 1 Giá trị, sát thương nhận vào -7.5%"
     },
     {
       "id": "Railway6PowderBuff",
       "desc": "- Kháng {0} +{2}, Kháng {1} +{2}",
       "variation": "- Kháng {0} +{1}",
-      "variation2": "- Không có hiệu ứng được áp dụng"
+      "variation2": "- Không có hiệu ứng"
     },
     {
       "id": "SpiderHouse11115",
-      "desc": "Mạng Nhện Thủ Lĩnh Ngón Giữa Outis: Lượng sát thương nhận -20%, khi nhận sát thương, nhận 1 Tăng cấp tấn công (2 lần mỗi lượt)"
+      "desc": "Mạng Nhện Thủ Lĩnh Ngón Giữa Outis: Sát thương nhận vào -20%; khi nhận sát thương, nhận 1 Tăng Cấp Tấn công (2 lần mỗi lượt)"
     },
     {
       "id": "SpiderHouse10916",
-      "desc": "Nhà Nhện: Cha nuôi Ngón Áp Út Rodion: Sức mạnh Coin Kĩ năng Phòng thủ +1, Kĩ năng tấn công cơ bản gây +10% sát thương lên mục tiêu có Khiên"
+      "desc": "Mạng Nhện Thủ Lĩnh Ngón Cái Rodion: Sức mạnh Đồng xu của Kĩ năng Phòng thủ +1, Kĩ năng Tấn công Cơ bản gây +10% sát thương lên mục tiêu có Khiên"
     },
     {
       "id": "SpiderHouse10716",
-      "desc": "Nhà Nhện: Đệ tử Ngón Áp Út Heathcliff: Khi thắng Đối kháng bằng Kĩ năng cơ bản, gây 2 Chấn động và kích hoạt Bộc phát Chấn động; sau đó giảm 1 Số lượng Chấn động của mục tiêu (2 lần mỗi lượt)"
+      "desc": "Mạng Nhện Đệ tử Ngón Cái Heathcliff: Khi thắng Đối kháng bằng Kĩ năng Cơ bản, gây 2 Chấn động và kích hoạt Bộc phát Chấn động; sau đó, giảm 1 Số lượng Chấn động của mục tiêu (2 lần mỗi lượt)"
     },
     {
       "id": "VibrationFocusing",
-      "desc": "Trong {1} lượt, khi Bộc phát Chấn động, nhận sát thương Hệ Lười Biếng bằng (60 + Tổng Sức mạnh Sạc hoặc Sạc độc quyền trên kẻ tấn công x 8)% của {0} và giảm Số lượng Chấn động đi 1\n  · Khi Kĩ năng và Nội tại của các đơn vị \"Le Noir\" kích hoạt Bộc phát Chấn động, hiệu ứng trên không giảm Số lượng Chấn động"
+      "desc": "Trong {1} lượt, khi Bộc phát Chấn động, nhận sát thương Lười biếng bằng (60 + Tổng Cường độ Sạc hoặc Sạc độc quyền trên kẻ tấn công × 8)% của {0} và giảm 1 Số lượng Chấn động\n  · Khi Kĩ năng và Nội tại của các đơn vị \"Le Noir\" kích hoạt Bộc phát Chấn động, hiệu ứng trên không giảm Số lượng Chấn động"
     }
   ]
 }

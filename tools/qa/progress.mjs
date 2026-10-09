@@ -312,6 +312,34 @@ switch (cmd) {
     process.exitCode = errors ? 1 : 0;
     break;
   }
+  case 'dump': {
+    const file = args[0];
+    if (!file) { console.error('Dùng: dump <file> [start] [count]'); process.exit(1); }
+    const start = parseInt(args[1] || '0', 10) || 0;
+    const count = parseInt(args[2] || '50', 10) || 50;
+    const c = cfg();
+    const wp = path.join(WORK, file);
+    const vi = readInfo(wp);
+    if (!vi.json || !Array.isArray(vi.json.dataList)) { console.error('Không đọc được dataList VI'); process.exit(1); }
+    const dir = path.posix.dirname(file), base = path.posix.basename(file);
+    const enPath = path.join(c.enDir, dir === '.' ? 'EN_' + base : dir + '/EN_' + base);
+    const enIdx = fs.existsSync(enPath) ? indexByKey(readInfo(enPath).json.dataList) : null;
+    const viById = indexByKey(vi.json.dataList);
+    const total = vi.json.dataList.length;
+    const slice = vi.json.dataList.slice(start, start + count);
+    slice.forEach((r, j) => {
+      const i = start + j, k = keyOf(r);
+      const enRecs = enIdx ? (enIdx.get(k) || []) : [];
+      const ordinal = (viById.get(k) || []).indexOf(r);
+      const er = enRecs[ordinal] || null;
+      for (const field of Object.keys(r)) {
+        if (HARD_SKIP.has(field) || typeof r[field] !== 'string') continue;
+        console.log(JSON.stringify({ i, key: k, field, en: er && typeof er[field] === 'string' ? er[field] : null, vi: r[field] }));
+      }
+    });
+    console.error(`# dump ${file}: records ${start}..${Math.min(start + count, total) - 1} / ${total}`);
+    break;
+  }
   case 'order': {
     if (!args.length) { console.error('Dùng: order <file...>'); process.exit(1); }
     printOrder(args);
@@ -345,6 +373,7 @@ Cách dùng: node tools/qa/progress.mjs <lệnh> [args]
   status                         Thống kê tiến độ
   info <file>                    Chi tiết 1 file
   verify <file...>               Kiểm tra cấu trúc/token so với EN/KR (exit code 1 nếu lỗi cấu trúc)
+  dump <file> [start] [count]    In các chuỗi record [start, start+count) dạng JSON line (id/field/EN/VI) — dùng cho file lớn
   order <file...>                In work order đầy đủ (quy tắc + glossary + template sửa)
 
 Nhóm ưu tiên: ${GROUP_ORDER.join(' > ')}`);
