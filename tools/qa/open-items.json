@@ -1,0 +1,14 @@
+{
+  "updated": "2026-10-08",
+  "note": "Các quyết định/thuật ngữ cần đồng bộ TOÀN REPO — xử lý bằng pass riêng, không sửa lẻ trong batch file.",
+  "items": [
+    { "id": "display-brackets-skills", "status": "open", "desc": "Skills.json bỏ ngoặc hiển thị VI ([Xuất huyết]...) để khớp EN; nhiều file khác vẫn giữ ngoặc VI. Cần chốt chính sách (giữ ngoặc VI toàn repo hay bỏ theo EN) rồi pass đồng bộ." },
+    { "id": "slash-term", "status": "open", "desc": "Slash: 'Trảm kích' (glossary, ~205 chỗ) vs 'Chém' (~354 chỗ). Cần chốt và pass đồng bộ." },
+    { "id": "count-term", "status": "open", "desc": "Count: 'Số lượng [' ~1769 vs 'Số lần [' ~1459. Đề xuất chuẩn 'Số lượng' cho Count của trạng thái; pass EN-aware." },
+    { "id": "corp-terms", "status": "open", "desc": "Corp: 'Tập đoàn R' 180 / 'Hội N' 194 / 'Công ty N' 56 / 'Công ty R' 6 — chốt quy ước (đề xuất 'Công ty <X>' đồng nhất trừ khi UI cần khác)." },
+    { "id": "spider-house", "status": "open", "desc": "Spider House: 'Mạng Nhện' 203 vs 'Nhà Nhện' 105 — chốt 'Mạng Nhện' và pass đồng bộ." },
+    { "id": "ability-name-variants", "status": "open", "desc": "Dị thường: 'Thực thể dị thường' / 'Vật Thể Huyền Ảo' / 'Dị thường' — chốt 'Dị thường' (glossary) và pass riêng." },
+    { "id": "sync-panic-names", "status": "open", "desc": "PanicInfo đã sửa tên trạng thái (Kích động, Úa tàn, Vẩn đục, Vết Nứt vỡ, Hoảng loạn trắng) — cần đồng bộ trong Bufs.json/BattleKeywords-* cùng cơ chế." },
+    { "id": "breath-variants", "status": "open", "desc": "Poise: 'Hơi thở' (chuẩn) vs 'Hô hấp'/'Nhịp thở' còn sót rải rác — pass đồng bộ khi rảnh." }
+  ]
+}

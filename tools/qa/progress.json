@@ -58,6 +58,48 @@
     "BuffAbilities.json"
    ],
    "note": "Batch2: gameplay, EN-checked + verify OK"
+  },
+  {
+   "ts": "2026-10-09T07:09:12.831Z",
+   "action": "claim",
+   "files": [
+    "Bufs.json",
+    "AbnormalityGuides.json",
+    "BattleSpeechBubbleDlg.json",
+    "Skills.json",
+    "PanicInfo.json",
+    "Passives.json",
+    "Personalities.json"
+   ],
+   "note": ""
+  },
+  {
+   "ts": "2026-10-09T10:30:07.192Z",
+   "action": "claim",
+   "files": [
+    "Items.json",
+    "KeywordDictionary.json",
+    "MentalCondition.json",
+    "MirrorDungeonAbName.json",
+    "ResistText.json",
+    "SkillTag.json",
+    "SuccessRate.json"
+   ],
+   "note": ""
+  },
+  {
+   "ts": "2026-10-09T10:32:43.251Z",
+   "action": "done",
+   "files": [
+    "Bufs.json",
+    "AbnormalityGuides.json",
+    "BattleSpeechBubbleDlg.json",
+    "Skills.json",
+    "Passives.json",
+    "Personalities.json",
+    "PanicInfo.json"
+   ],
+   "note": "Batch3: base gameplay, EN-checked + verify OK"
   }
  ],
  "files": {
@@ -645,9 +687,22 @@
   "AbnormalityGuides.json": {
    "group": "gameplay",
    "size": 317116,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-09T07:09:12.831Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-10-09T10:32:43.250Z",
+     "action": "done",
+     "note": "Batch3: base gameplay, EN-checked + verify OK"
+    }
+   ],
+   "started": "2026-10-09T07:09:12.831Z",
+   "finished": "2026-10-09T10:32:43.250Z",
+   "note": "Batch3: base gameplay, EN-checked + verify OK"
   },
   "AbnormalityGuides_Mirror.json": {
    "group": "gameplay",
@@ -2175,9 +2230,22 @@
   "BattleSpeechBubbleDlg.json": {
    "group": "gameplay",
    "size": 114205,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-09T07:09:12.831Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-10-09T10:32:43.250Z",
+     "action": "done",
+     "note": "Batch3: base gameplay, EN-checked + verify OK"
+    }
+   ],
+   "started": "2026-10-09T07:09:12.831Z",
+   "finished": "2026-10-09T10:32:43.250Z",
+   "note": "Batch3: base gameplay, EN-checked + verify OK"
   },
   "BattleSpeechBubbleDlg_Cultivation.json": {
    "group": "gameplay",
@@ -2650,9 +2718,22 @@
   "Bufs.json": {
    "group": "gameplay",
    "size": 291123,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-09T07:09:12.831Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-10-09T10:32:43.250Z",
+     "action": "done",
+     "note": "Batch3: base gameplay, EN-checked + verify OK"
+    }
+   ],
+   "started": "2026-10-09T07:09:12.831Z",
+   "finished": "2026-10-09T10:32:43.250Z",
+   "note": "Batch3: base gameplay, EN-checked + verify OK"
   },
   "Bufs_Mirror3.json": {
    "group": "gameplay",
@@ -4154,16 +4235,28 @@
   "Items.json": {
    "group": "gameplay",
    "size": 63505,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "in_progress",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-09T10:30:07.191Z",
+     "action": "claim"
+    }
+   ],
+   "started": "2026-10-09T10:30:07.191Z"
   },
   "KeywordDictionary.json": {
    "group": "gameplay",
    "size": 360,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "in_progress",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-09T10:30:07.191Z",
+     "action": "claim"
+    }
+   ],
+   "started": "2026-10-09T10:30:07.191Z"
   },
   "Limbus3rdAnniversary.json": {
    "group": "other",
@@ -4245,16 +4338,28 @@
   "MentalCondition.json": {
    "group": "gameplay",
    "size": 10078,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "in_progress",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-09T10:30:07.191Z",
+     "action": "claim"
+    }
+   ],
+   "started": "2026-10-09T10:30:07.191Z"
   },
   "MirrorDungeonAbName.json": {
    "group": "gameplay",
    "size": 4597,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "in_progress",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-09T10:30:07.191Z",
+     "action": "claim"
+    }
+   ],
+   "started": "2026-10-09T10:30:07.191Z"
   },
   "MirrorDungeonBattleRewardCase.json": {
    "group": "ui",
@@ -4588,9 +4693,22 @@
   "PanicInfo.json": {
    "group": "gameplay",
    "size": 10083,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-09T07:09:12.831Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-10-09T10:32:43.250Z",
+     "action": "done",
+     "note": "Batch3: base gameplay, EN-checked + verify OK"
+    }
+   ],
+   "started": "2026-10-09T07:09:12.831Z",
+   "finished": "2026-10-09T10:32:43.250Z",
+   "note": "Batch3: base gameplay, EN-checked + verify OK"
   },
   "Passive-a1c971.json": {
    "group": "ui",
@@ -4686,9 +4804,22 @@
   "Passives.json": {
    "group": "gameplay",
    "size": 327810,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-09T07:09:12.831Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-10-09T10:32:43.250Z",
+     "action": "done",
+     "note": "Batch3: base gameplay, EN-checked + verify OK"
+    }
+   ],
+   "started": "2026-10-09T07:09:12.831Z",
+   "finished": "2026-10-09T10:32:43.250Z",
+   "note": "Batch3: base gameplay, EN-checked + verify OK"
   },
   "Passives_Abnormality-a1c10p1.json": {
    "group": "gameplay",
@@ -5281,9 +5412,22 @@
   "Personalities.json": {
    "group": "gameplay",
    "size": 38885,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-09T07:09:12.831Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-10-09T10:32:43.250Z",
+     "action": "done",
+     "note": "Batch3: base gameplay, EN-checked + verify OK"
+    }
+   ],
+   "started": "2026-10-09T07:09:12.831Z",
+   "finished": "2026-10-09T10:32:43.250Z",
+   "note": "Batch3: base gameplay, EN-checked + verify OK"
   },
   "PersonalityVoiceDlg/Voice_DonQuixote_Bloodfiend_10310.json": {
    "group": "voice",
@@ -7962,9 +8106,15 @@
   "ResistText.json": {
    "group": "gameplay",
    "size": 471,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "in_progress",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-09T10:30:07.191Z",
+     "action": "claim"
+    }
+   ],
+   "started": "2026-10-09T10:30:07.191Z"
   },
   "ReturnPolicy.json": {
    "group": "ui",
@@ -8039,16 +8189,35 @@
   "SkillTag.json": {
    "group": "gameplay",
    "size": 7104,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "in_progress",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-09T10:30:07.191Z",
+     "action": "claim"
+    }
+   ],
+   "started": "2026-10-09T10:30:07.191Z"
   },
   "Skills.json": {
    "group": "gameplay",
    "size": 310988,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-09T07:09:12.831Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-10-09T10:32:43.250Z",
+     "action": "done",
+     "note": "Batch3: base gameplay, EN-checked + verify OK"
+    }
+   ],
+   "started": "2026-10-09T07:09:12.831Z",
+   "finished": "2026-10-09T10:32:43.250Z",
+   "note": "Batch3: base gameplay, EN-checked + verify OK"
   },
   "Skills_Abnormality-BossRaid.json": {
    "group": "gameplay",
@@ -16509,9 +16678,15 @@
   "SuccessRate.json": {
    "group": "gameplay",
    "size": 923,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "in_progress",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-09T10:30:07.191Z",
+     "action": "claim"
+    }
+   ],
+   "started": "2026-10-09T10:30:07.191Z"
   },
   "ThreadDungeon-a1c9p2.json": {
    "group": "story",
@@ -17088,5 +17263,5 @@
    "history": []
   }
  },
- "updated": "2026-10-09T05:57:06.824Z"
+ "updated": "2026-10-09T10:32:43.251Z"
 }
