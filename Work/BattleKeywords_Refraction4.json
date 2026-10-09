@@ -3,55 +3,55 @@
     {
       "id": "UninvitedGuest",
       "name": "Khách không mời",
-      "desc": "Khi một Bản sắc sở hữu [Khách không mời] chết, hiệu ứng này sẽ chuyển sang một Bản sắc khác chưa sở hữu nó.",
+      "desc": "Khi một Bản sắc sở hữu [Khách không mời] bị đánh bại, hiệu ứng này sẽ chuyển sang một Bản sắc khác không sở hữu nó.",
       "summary": ""
     },
     {
       "id": "ConnectedPlug",
       "name": "Phích cắm đã kết nối",
-      "desc": "Khi kết thúc lượt\n- Tối đa 3\n- Khi đạt 3, rơi vào trạng thái [Choáng váng] trong lượt tiếp theo.\n- Khi đạt 3, tiêu hao toàn bộ [Sạc] của bản thân.",
+      "desc": "Khi kết thúc lượt\n- Tối đa 3\n- Khi đạt 3, rơi vào trạng thái [Choáng] trong lượt tiếp theo.\n- Khi đạt 3, tiêu hao toàn bộ [Sạc] của bản thân.",
       "summary": ""
     },
     {
       "id": "AntiSheepGround",
       "name": "Phích cắm tiếp địa chống cừu điện",
-      "desc": "- Tối đa 1\n- Khi thắng [Đối kháng] bằng kỹ năng Từ chối tiếp địa trong khi đang sở hữu buff này, nạp 1 [Phích cắm đã kết nối] cho mục tiêu\n- Số lượng [Sạc] của mục tiêu giảm đi một nửa\n- Biến mất vào lượt tiếp theo",
+      "desc": "- Tối đa 1\n- Khi đơn vị đang có hiệu ứng này thắng [Đối kháng] trước kĩ năng 'Từ chối tiếp địa', áp đặt 1 [Phích cắm đã kết nối] lên mục tiêu\n- Số lượng [Sạc] của mục tiêu giảm một nửa\n- Hết hiệu lực vào lượt tiếp theo",
       "summary": ""
     },
     {
       "id": "ThundercloudFormation",
       "name": "Tích tụ vân điện",
-      "desc": "- Tối đa 5\n- Khi giá trị là 1, sử dụng kỹ năng mạnh mẽ.\n- Giảm 1 khi kết thúc lượt. Tăng 1 khi rơi vào trạng thái [Choáng váng]",
+      "desc": "- Tối đa 5\n- Khi giá trị đạt 1, sử dụng kĩ năng mạnh mẽ.\n- Khi kết thúc lượt, giảm 1. Khi rơi vào trạng thái [Choáng], tăng 1",
       "summary": ""
     },
     {
       "id": "BandageOfTheBoundKing",
       "name": "Băng quấn của Vị vua bị xiềng xích",
-      "desc": "Khi chết, nạp cho tất cả kẻ địch 2 Cường độ [Trầm luân], 1 Số lượng [Trầm luân]\nNạp [Băng quấn của Vị vua bị xiềng xích] cho mục tiêu đã tiêu diệt bản thân. Nếu mục tiêu đã có hiệu ứng này hoặc không có mục tiêu tiêu diệt bản thân, nạp cho một kẻ địch ngẫu nhiên chưa có hiệu ứng này",
+      "desc": "Khi bị đánh bại, gây 2 Cường độ [Trầm luân] và 1 Số lượng [Trầm luân] lên tất cả kẻ địch.\nÁp đặt [Băng quấn của Vị vua bị xiềng xích] lên mục tiêu đã tiêu diệt bản thân. Nếu mục tiêu đó đã có hiệu ứng này, hoặc không tồn tại mục tiêu đã tiêu diệt bản thân, áp đặt lên một kẻ địch ngẫu nhiên không có hiệu ứng này",
       "summary": ""
     },
     {
       "id": "ComeForwardToTheKing",
       "name": "Thời gian yết kiến",
-      "desc": "Chỉ số Trọng yếu tấn công của tất cả kỹ năng tấn công của bản thân tăng theo giá trị này. (Tối đa 2)\nKhi thua [Đối kháng], nhận 1 [Mong manh] vào lượt tiếp theo",
+      "desc": "Tất cả kĩ năng Tấn công của bản thân nhận Trọng lượng Tấn công bằng giá trị này. (Tối đa 2)\nKhi thua [Đối kháng], nhận 1 [Mong manh] vào lượt tiếp theo",
       "summary": ""
     },
     {
       "id": "RefractedWill",
       "name": "Ý chí bị khúc xạ",
-      "desc": "Khi đồng minh chết, lượng [Tinh thần (SP)] bị giảm theo điều kiện giảm [Tinh thần (SP)] cơ bản sẽ chỉ áp dụng một nửa. (Làm tròn xuống)",
+      "desc": "Khi đồng minh bị đánh bại, lượng [Tinh thần (SP)] mất đi do 'yếu tố giảm [Tinh thần (SP)] cơ bản' của Bản sắc giảm một nửa. (Làm tròn xuống)",
       "summary": ""
     },
     {
       "id": "VioletPeccatulumTwo",
       "name": "Đại tội Đố kỵ Loại 2",
-      "desc": "- Sát thương gây ra +15%\n- Sát thương nhận vào -15%\n- Hiển thị hiệu ứng hào quang [Đại tội Đố kỵ Loại 2] cho nhân vật sở hữu buff này",
+      "desc": "- Sát thương gây ra +15%\n- Sát thương nhận vào -15%\n- Đơn vị sở hữu hiệu ứng này được đánh dấu bằng hào quang [Đại tội Đố kỵ Loại 2]",
       "summary": ""
     },
     {
       "id": "BigWelcome",
       "name": "Tiếp đãi nồng hậu",
-      "desc": "Khi kết thúc đòn tấn công, nếu mục tiêu rơi vào trạng thái [Choáng váng] hoặc chết, nhận +1 Tài nguyên E.G.O hệ Ngạo mạn, và +1 một loại Tài nguyên E.G.O ngẫu nhiên trong các hệ còn lại (Kích hoạt tối đa 3 lần mỗi lượt)",
+      "desc": "Khi kết thúc đòn tấn công, nếu mục tiêu rơi vào trạng thái [Choáng] hoặc bị đánh bại, nhận +1 Tài nguyên E.G.O thuộc tính Ngạo mạn và +1 Tài nguyên E.G.O của 1 thuộc tính ngẫu nhiên khác (Kích hoạt tối đa 3 lần mỗi lượt)",
       "summary": ""
     },
     {
@@ -87,7 +87,7 @@
     {
       "id": "Refraction4F",
       "name": "Hiệu ứng đội hình số 6",
-      "desc": "Máu tối đa +5%",
+      "desc": "HP tối đa +5%",
       "summary": ""
     },
     {
@@ -117,25 +117,25 @@
     {
       "id": "Refraction4K",
       "name": "Hiệu ứng đội hình số 11",
-      "desc": "Uy lực cuối cùng +1\n[Tinh thần (SP)] khởi đầu +30",
+      "desc": "Sức mạnh Cuối cùng +1\n[Tinh thần (SP)] khởi đầu +30",
       "summary": ""
     },
     {
       "id": "Refraction4L",
       "name": "Hiệu ứng đội hình số 12",
-      "desc": "Cấp Bản sắc +1\n[Tinh thần (SP)] khởi đầu +30",
+      "desc": "Cấp Bản sắc +3\n[Tinh thần (SP)] khởi đầu +30",
       "summary": ""
     },
     {
       "id": "BreathSupport",
-      "name": "Hô hấp quyết chiến",
-      "desc": "Khi bắt đầu đợt, nhận 4 Cường độ [Hô hấp], 4 Số lượng [Hô hấp].",
+      "name": "Hơi thở quyết chiến",
+      "desc": "Khi bắt đầu đợt, nhận 4 Cường độ [Hơi thở] và 4 Số lượng [Hơi thở].",
       "summary": ""
     },
     {
       "id": "FirmWill",
       "name": "Ý chí kiên định",
-      "desc": "[Tinh thần (SP)] không bị giảm khi đồng minh chết.",
+      "desc": "[Tinh thần (SP)] không bị giảm khi đồng minh bị đánh bại.",
       "summary": ""
     }
   ]

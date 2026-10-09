@@ -2,7 +2,7 @@
   "dataList": [
     {
       "id": "NoirNoComply",
-      "name": "Vi phạm Quy định Vận hành",
+      "name": "Không Tuân thủ Chỉ dẫn",
       "desc": "- Giá trị tối đa: 3\n- Nhận thêm 5% sát thương cho mỗi giá trị",
       "summary": "",
       "undefined": "-",
@@ -19,7 +19,7 @@
     {
       "id": "ChargeNoir",
       "name": "Bảo tồn",
-      "desc": "- Sạc độc quyền\n- Số lần tối đa: 20\n- Tương tác giống hệt với Sạc thông thường đối với các hiệu ứng tăng hoặc giảm giá trị và số lần Sạc\n- Khi kết thúc lượt: Mất 1 số lần",
+      "desc": "- Sạc đặc biệt\n- Số lượng tối đa: 20\n- Tương tác giống hệt với Sạc thông thường đối với các hiệu ứng tăng hoặc giảm Cường độ và Số lượng Sạc\n- Khi kết thúc lượt: Giảm 1 Số lượng",
       "summary": "",
       "undefined": "-",
       "flavor": "Lực lượng bị nén lại, tập hợp và cố định tại chỗ. Đôi khi, cần nhiều lực hơn để ngăn chặn sự thay đổi so với việc gây ra nó."
@@ -27,7 +27,7 @@
     {
       "id": "ChargeRouge",
       "name": "Nhịp đập",
-      "desc": "- Sạc độc quyền\n- Số lần tối đa: 20\n- Tương tác giống hệt với Sạc thông thường đối với các hiệu ứng tăng hoặc giảm giá trị và số lần Sạc\n- Khi kết thúc lượt: Mất 1 số lần",
+      "desc": "- Sạc đặc biệt\n- Số lượng tối đa: 20\n- Tương tác giống hệt với Sạc thông thường đối với các hiệu ứng tăng hoặc giảm Cường độ và Số lượng Sạc\n- Khi kết thúc lượt: Giảm 1 Số lượng",
       "summary": "",
       "undefined": "-",
       "flavor": "Sự co giãn của thịt. Dòng chảy của máu. Sức mạnh bùng nổ được thúc đẩy bởi tất cả những điều đó."
@@ -35,7 +35,7 @@
     {
       "id": "RisingMadnessRouge",
       "name": "Nắng",
-      "desc": "- Giá trị tối đa: 2\n- Khi kết thúc lượt: Mất 1 giá trị\n- Khi bắt đầu lượt: Ở 0 giá trị, áp dụng các hiệu ứng sau:\n· Nhận 1 Tăng Sát thương và 1 Mong manh\n· Chuyển đổi Đồng xu trên tất cả Kĩ năng thành Đồng xu Bất khả phá, bắt đầu từ Đồng xu cuối cùng (số lượng Đồng xu được chuyển đổi trên mỗi Kĩ năng bằng với Sức mạnh Nhịp đập của bản thân)\n· Khi kết thúc lượt: Khôi phục hiệu ứng này lên Giá trị tối đa ở lượt tiếp theo",
+      "desc": "- Giá trị tối đa: 2\n- Khi kết thúc lượt: Mất 1 Giá trị\n- Khi bắt đầu lượt: Khi đạt 0 Giá trị, áp dụng các hiệu ứng sau:\n· Nhận 1 Tăng lượng sát thương và 1 Mong manh\n· Chuyển đổi Đồng xu trên tất cả Kĩ năng thành Đồng xu không thể phá hủy, bắt đầu từ Đồng xu cuối cùng (số lượng Đồng xu được chuyển đổi trên mỗi Kĩ năng bằng với Cường độ Nhịp đập của bản thân)\n· Khi kết thúc lượt: Khôi phục hiệu ứng này về Giá trị tối đa vào lượt tiếp theo",
       "summary": "",
       "undefined": "-",
       "flavor": "Bạn có thể là..."
@@ -43,7 +43,7 @@
     {
       "id": "RisingMadnessRouge2nd",
       "name": "Nắng Chích",
-      "desc": "- Giá trị tối đa: 1\n- Khi kết thúc lượt: Mất 1 giá trị\n- Khi bắt đầu lượt: Ở 0 giá trị, áp dụng các hiệu ứng sau:\n· Nhận 2 Tăng Uy Lực, 2 Tăng Sát thương và 3 Mong manh\n· Chuyển đổi Đồng xu trên tất cả Kĩ năng thành Đồng xu Bất khả phá, bắt đầu từ Đồng xu cuối cùng (số lượng Đồng xu được chuyển đổi trên mỗi Kĩ năng bằng với Sức mạnh Nhịp đập của bản thân)\n· Khi kết thúc lượt: Khôi phục hiệu ứng này lên Giá trị tối đa ở lượt tiếp theo",
+      "desc": "- Giá trị tối đa: 1\n- Khi kết thúc lượt: Mất 1 Giá trị\n- Khi bắt đầu lượt: Khi đạt 0 Giá trị, áp dụng các hiệu ứng sau:\n· Nhận 2 Tăng Uy lực, 2 Tăng lượng sát thương và 3 Mong manh\n· Chuyển đổi Đồng xu trên tất cả Kĩ năng thành Đồng xu không thể phá hủy, bắt đầu từ Đồng xu cuối cùng (số lượng Đồng xu được chuyển đổi trên mỗi Kĩ năng bằng với Cường độ Nhịp đập của bản thân)\n· Khi kết thúc lượt: Khôi phục hiệu ứng này về Giá trị tối đa vào lượt tiếp theo",
       "summary": "",
       "undefined": "-",
       "flavor": "Ánh nắng thì thầm vào mọi thứ nó chạm tới, đè bẹp tất cả như nhau ngay khi sức nóng của nó tăng từ cảm giác châm chích trên da thành nỗi đau bỏng rát không thể chịu đựng và con mồi bị nướng chín sống."
@@ -51,7 +51,7 @@
     {
       "id": "RisingMadnessNoir",
       "name": "Nắng",
-      "desc": "- Giá trị tối đa: 2\n- Khi kết thúc lượt: Mất 1 giá trị\n- Khi bắt đầu lượt: Ở 0 giá trị, áp dụng các hiệu ứng sau:\n· Nhận 1 Tăng Sát thương và 1 Mong manh\n· Chuyển đổi Đồng xu trên tất cả Kĩ năng thành Đồng xu Bất khả phá, bắt đầu từ Đồng xu cuối cùng (số lượng Đồng xu được chuyển đổi trên mỗi Kĩ năng bằng với Sức mạnh Bảo tồn của bản thân)\n· Khi kết thúc lượt: Khôi phục hiệu ứng này lên Giá trị tối đa ở lượt tiếp theo",
+      "desc": "- Giá trị tối đa: 2\n- Khi kết thúc lượt: Mất 1 Giá trị\n- Khi bắt đầu lượt: Khi đạt 0 Giá trị, áp dụng các hiệu ứng sau:\n· Nhận 1 Tăng lượng sát thương và 1 Mong manh\n· Chuyển đổi Đồng xu trên tất cả Kĩ năng thành Đồng xu không thể phá hủy, bắt đầu từ Đồng xu cuối cùng (số lượng Đồng xu được chuyển đổi trên mỗi Kĩ năng bằng với Cường độ Bảo tồn của bản thân)\n· Khi kết thúc lượt: Khôi phục hiệu ứng này về Giá trị tối đa vào lượt tiếp theo",
       "summary": "",
       "undefined": "-",
       "flavor": "Bạn có thể là..."
@@ -59,7 +59,7 @@
     {
       "id": "RisingMadnessNoir2nd",
       "name": "Nắng Chích",
-      "desc": "- Giá trị tối đa: 1\n- Khi kết thúc lượt: Mất 1 giá trị\n- Khi bắt đầu lượt: Ở 0 giá trị, áp dụng các hiệu ứng sau:\n· Nhận 2 Tăng Uy Lực, 2 Tăng Sát thương và 3 Mong manh\n· Chuyển đổi Đồng xu trên tất cả Kĩ năng thành Đồng xu Bất khả phá, bắt đầu từ Đồng xu cuối cùng (số lượng Đồng xu được chuyển đổi trên mỗi Kĩ năng bằng với Sức mạnh Bảo tồn của bản thân)\n· Khi kết thúc lượt: Khôi phục hiệu ứng này lên Giá trị tối đa ở lượt tiếp theo",
+      "desc": "- Giá trị tối đa: 1\n- Khi kết thúc lượt: Mất 1 Giá trị\n- Khi bắt đầu lượt: Khi đạt 0 Giá trị, áp dụng các hiệu ứng sau:\n· Nhận 2 Tăng Uy lực, 2 Tăng lượng sát thương và 3 Mong manh\n· Chuyển đổi Đồng xu trên tất cả Kĩ năng thành Đồng xu không thể phá hủy, bắt đầu từ Đồng xu cuối cùng (số lượng Đồng xu được chuyển đổi trên mỗi Kĩ năng bằng với Cường độ Bảo tồn của bản thân)\n· Khi kết thúc lượt: Khôi phục hiệu ứng này về Giá trị tối đa vào lượt tiếp theo",
       "summary": "",
       "undefined": "-",
       "flavor": "Ánh nắng thì thầm vào mọi thứ nó chạm tới, đè bẹp tất cả như nhau ngay khi sức nóng của nó tăng từ cảm giác châm chích trên da thành nỗi đau bỏng rát không thể chịu đựng và con mồi bị nướng chín sống."
@@ -75,7 +75,7 @@
     {
       "id": "RougeThreeCocoon",
       "name": "Phòng thay đồ",
-      "desc": "- Giá trị tối đa: 3\n- Không chịu sát thương HP\n- Bị đánh trúng, áp dụng các hiệu ứng sau: (20 lần mỗi lượt):\n· Tăng +1 số lần Nhịp tim\n· Tăng 1 Tăng Sát thương\n· Giảm 1 Cấp độ Phòng thủ ở lượt tiếp theo",
+      "desc": "- Giá trị tối đa: 3\n- Không chịu sát thương HP\n- Khi bị đánh trúng, áp dụng các hiệu ứng sau: (20 lần mỗi lượt):\n· Nhận +1 Số lượng Nhịp đập\n· Nhận 1 Tăng lượng sát thương\n· Nhận 1 Giảm Cấp độ Phòng thủ vào lượt tiếp theo",
       "summary": "",
       "undefined": "-",
       "flavor": "Cảnh báo: Đang sửa chiếc váy bị biến dạng. Chúng ta đều biết phép tắc trong phòng thay đồ, đúng không?"
@@ -91,13 +91,13 @@
     {
       "id": "SapsareeShield",
       "name": "Xin hãy, ăn tôi đi...",
-      "desc": "- Khi Sous Chef sắp phải chịu một đòn Tấn công Không đối kháng từ kẻ địch, tiêu hao 1 Giá trị để chuyển hướng tấn công của kẻ địch sang bản thân; sau đó sử dụng Kĩ năng độc quyền Phòng thủ Hỗ trợ\n- Khi có nhiều đồng minh có Giá trị Phòng thủ Hỗ trợ, đồng minh có Giá trị cao nhất sẽ có ưu tiên kích hoạt cao nhất\n- Hiệu ứng này được tính là Phòng thủ Hỗ trợ và được tính vào việc xác định số Giá trị Phòng thủ Hỗ trợ\n- Hết hiệu lực khi kết thúc lượt",
+      "desc": "- Khi Sous Chef sắp bị kẻ địch Tấn công một chiều, tiêu hao 1 Giá trị để chuyển hướng mục tiêu của kẻ địch sang bản thân; sau đó, sử dụng Kĩ năng độc quyền Phòng thủ Hỗ trợ\n- Khi có nhiều đồng minh sở hữu Giá trị Phòng thủ Hỗ trợ, đồng minh có Giá trị cao nhất sẽ có ưu tiên kích hoạt cao nhất\n- Hiệu ứng này được tính là Phòng thủ Hỗ trợ và được tính vào việc xác định số Giá trị Phòng thủ Hỗ trợ\n- Hết hiệu lực khi kết thúc lượt",
       "summary": ""
     },
     {
       "id": "SapsareeYammi",
       "name": "Ăn đồ ngon và phấn chấn lên, nghe chưa?",
-      "desc": "- Giá trị tối đa: 5\n- Cấp độ Tấn công +1 cho mỗi Giá trị\n- Khi bắt đầu lượt: Mất 1 Giá trị cho mỗi \"Got an appetite, you hear?\" trên bản thân",
+      "desc": "- Giá trị tối đa: 5\n- Cấp độ Tấn công +1 cho mỗi Giá trị\n- Khi bắt đầu lượt: Mất 1 Giá trị cho mỗi \"Đang đói bụng, nghe chưa?\" trên bản thân",
       "summary": "",
       "flavor": "Không phải sự no nê từ hương vị, mà là từ sự đầy bụng thô thiển."
     },
@@ -110,8 +110,8 @@
     },
     {
       "id": "SapsareeHungry",
-      "name": "Nghe này, cậu có đói không?",
-      "desc": "- Giá trị tối đa: 3\n- Cấp độ Tấn công +1 cho mỗi Giá trị\n- Ở 3 Giá trị, gây +50% sát thương\n- Hết hiệu lực khi Sous Chef dùng Kĩ năng \"Aah! I'm on lunch break, you hear?\"",
+      "name": "Đang đói bụng, nghe chưa?",
+      "desc": "- Giá trị tối đa: 3\n- Cấp độ Tấn công +1 cho mỗi Giá trị\n- Khi đạt 3 Giá trị, gây +50% sát thương\n- Hết hiệu lực khi Sous Chef dùng Kĩ năng \"Aah! Tôi đang nghỉ trưa, nghe chưa?\"",
       "summary": "",
       "flavor": "Một cơn đói chấp nhận bất cứ thứ gì được nhét vào bụng. Đó là bản chất của những kẻ sinh tồn ở đây."
     },
@@ -125,35 +125,35 @@
     {
       "id": "Sapsaree_LowMorale",
       "name": "Khao khát ẩm thực",
-      "desc": "- Suy giảm nhuệ khí\n- Cấp độ Tấn công +1 và chịu thêm 3% sát thương cho mỗi giá trị \"Got an appetite, you hear?\" trên bản thân",
+      "desc": "- Suy giảm nhuệ khí\n- Cấp độ Tấn công +1 và chịu thêm 3% sát thương cho mỗi Giá trị \"Đang đói bụng, nghe chưa?\" trên bản thân",
       "summary": "",
       "flavor": "Đừng tự lừa dối mình; cậu không khao khát \"nghệ thuật ẩm thực\". Cậu chỉ muốn cảm thấy như đang nấu ăn và giả vờ thưởng thức bữa tiệc."
     },
     {
       "id": "Sapsaree_Panic",
       "name": "Khao khát ẩm thực",
-      "desc": "- Hoảng loạn (Panic)\n- Cấp độ Tấn công +2 và nhận thêm 5% sát thương cho mỗi giá trị của \"Nghe này, cậu có đói không?\" trên bản thân",
+      "desc": "- Hoảng loạn\n- Cấp độ Tấn công +2 và chịu thêm 5% sát thương cho mỗi Giá trị \"Đang đói bụng, nghe chưa?\" trên bản thân",
       "summary": "",
       "flavor": "Đừng tự lừa dối mình; cậu không khao khát \"nghệ thuật ẩm thực\". Cậu chỉ muốn cảm thấy như đang nấu ăn và giả vờ thưởng thức bữa tiệc."
     },
     {
       "id": "HungryPeople_LowMorale",
-      "name": "Sợ Bỏ lỡ",
+      "name": "Sợ Bỏ Lỡ",
       "desc": "- Suy giảm nhuệ khí\n- Cấp độ Tấn công +1 cho mỗi 20% HP còn thiếu trên bản thân (tối đa 2)\n- Nhận 1 Mong manh",
       "summary": "",
       "flavor": "Lại nữa rồi—tôi sẽ không bỏ lỡ xu hướng của mùa này đâu!"
     },
     {
       "id": "HungryPeople_Panic",
-      "name": "Sợ Bỏ lỡ",
-      "desc": "- Hoảng loạn (Panic)\n- Cấp độ Tấn công +1 cho mỗi 20% HP còn thiếu trên bản thân (tối đa 2)\n- Nhận 1 Mong manh",
+      "name": "Sợ Bỏ Lỡ",
+      "desc": "- Hoảng loạn\n- Cấp độ Tấn công +1 cho mỗi 20% HP còn thiếu trên bản thân (tối đa 2)\n- Nhận 1 Mong manh",
       "summary": "",
       "flavor": "Lại nữa rồi—tôi sẽ không bỏ lỡ xu hướng của mùa này đâu!"
     },
     {
       "id": "UnresolvedFeelings",
       "name": "Vải Vá Chồng Lớp",
-      "desc": "- Giá trị tối đa: 30\n- Nhận Cấp độ Phòng thủ bằng với giá trị\n- Bị đánh trúng bởi mục tiêu có \"Lòng biết ơn vì đã lắng nghe\", mất giá trị bằng với \"Lòng biết ơn vì đã lắng nghe\" (2 lần mỗi lượt mỗi Bản sắc)\n- Khi Thua Đối kháng bằng Kĩ năng \"Cảm ơn... vì đã lắng nghe...\", mất 5 giá trị",
+      "desc": "- Giá trị tối đa: 30\n- Nhận Cấp độ Phòng thủ bằng với Giá trị\n- Khi bị đánh trúng bởi mục tiêu có \"Lòng biết ơn vì đã lắng nghe\", mất Giá trị bằng với \"Lòng biết ơn vì đã lắng nghe\" (2 lần mỗi lượt mỗi Bản sắc)\n- Khi thua Đối kháng bằng Kĩ năng \"Cảm ơn... vì đã lắng nghe...\", mất 5 Giá trị",
       "summary": "",
       "flavor": "Trớ trêu thay, nó đã làm điếc mình trước mọi giọng nói bằng cách nấp dưới lớp chăn dày chồng chất."
     },
@@ -166,15 +166,15 @@
     },
     {
       "id": "ReliefSense",
-      "name": "Lời cảm ơn vì đã lắng nghe",
-      "desc": "- Giá trị tối đa: 3\n- Khi bắt đầu lượt: Nhận 1 giá trị và hồi phục 10 Tinh thần\n- Kĩ năng chống lại trùm của màn chơi này gây thêm +(giá trị x 50)% sát thương; sau đó, hiệu ứng này hết hiệu lực khi Kĩ năng được sử dụng kết thúc Tấn công\n- Khi đạt 3 giá trị, sát thương gây ra bởi đơn vị này bỏ qua hiệu ứng Cấp độ Phòng thủ của Lớp Vá Ghép Nhiều Lớp",
+      "name": "Lòng biết ơn vì đã lắng nghe",
+      "desc": "- Giá trị tối đa: 3\n- Khi bắt đầu lượt: Nhận 1 Giá trị và hồi phục 10 Tinh thần\n- Kĩ năng nhắm vào trùm của màn chơi này gây thêm +(Giá trị x 50)% sát thương; sau đó, hiệu ứng này hết hiệu lực khi Kĩ năng đó kết thúc Tấn công\n- Khi đạt 3 Giá trị, sát thương gây ra bởi đơn vị này bỏ qua hiệu ứng Cấp độ Phòng thủ của Vải Vá Chồng Lớp",
       "summary": "",
       "flavor": "Cảm ơn... vì đã lắng nghe..."
     },
     {
       "id": "HorribleTerror",
       "name": "Phát Lại Vô Tận Đáng Sợ",
-      "desc": "- Giá trị tối đa: 1\n- Khi bắt đầu lượt: Nếu đơn vị này đang ở trạng thái Ăn Mòn E.G.O, gây -50% sát thương lên tất cả mục tiêu trong lượt này\n- Khi kết thúc lượt: Đơn vị này chịu sát thương bằng 50% HP; sau đó, hiệu ứng này kết thúc (làm tròn xuống, hiệu ứng này không thể gây Chấn động đơn vị này)",
+      "desc": "- Giá trị tối đa: 1\n- Khi bắt đầu lượt: Nếu đơn vị này đang ở trạng thái Xâm thực E.G.O, gây -50% sát thương lên tất cả mục tiêu trong lượt này\n- Khi kết thúc lượt: Đơn vị này chịu sát thương bằng 50% HP; sau đó, hiệu ứng này kết thúc (làm tròn xuống, hiệu ứng này không thể gây Choáng cho đơn vị này)",
       "summary": "",
       "flavor": "Cho đến khi bạn lắng nghe... cho đến khi bạn thực sự nghe thấy thông báo của Grand Magasin... lần nữa... và lần nữa... hãy lắng nghe..."
     },
@@ -188,20 +188,20 @@
     {
       "id": "NoirSuit",
       "name": "Le Noir: Áo Khoác Gabardine",
-      "desc": "- Giá trị tối đa: 100\n- Khi bắt đầu lượt: Nhận 1 Tăng Cấp độ Phòng thủ cho mỗi 20 giá trị (tối đa 4)\n- Nhận giá trị bằng với số lần Bảo tồn mà đơn vị này tiêu thụ hoặc nhận được do hiệu ứng Kĩ năng hoặc Nội tại của nó (tối đa 30 mỗi lượt; giá trị của hiệu ứng này được nhận bất kể số lần Bảo tồn tối đa)\n- Bị đánh trúng khi đơn vị này có Lá chắn, nhận 2 giá trị (20 mỗi lượt)\n- Khi kết thúc lượt: Nếu đơn vị này có Lá chắn, nhận 10 giá trị\n- Ở 100 giá trị, chuyển đổi hiệu ứng này thành \"Armure Éveillée\" vào lượt tiếp theo",
+      "desc": "- Giá trị tối đa: 100\n- Khi bắt đầu lượt: Nhận 1 Tăng Cấp độ Phòng thủ cho mỗi 20 Giá trị (tối đa 4)\n- Nhận Giá trị bằng với Số lượng Bảo tồn mà đơn vị này tiêu thụ hoặc nhận được do hiệu ứng Kĩ năng hoặc Nội tại của nó (tối đa 30 mỗi lượt; Giá trị của hiệu ứng này vẫn được nhận kể cả khi vượt quá Số lượng tối đa của Bảo tồn)\n- Khi bị đánh trúng trong lúc có Lá chắn, nhận 2 Giá trị (20 lần mỗi lượt)\n- Khi kết thúc lượt: Nếu đơn vị này có Lá chắn, nhận 10 Giá trị\n- Khi đạt 100 Giá trị, chuyển đổi hiệu ứng này thành \"Armure Éveillée\" vào lượt tiếp theo",
       "flavor": "Một chiếc áo khoác làm từ vải chéo, một loại dệt được tạo ra bằng cách luồn nhiều sợi ngang qua ít sợi dọc hơn.\nĐặc điểm dệt mật độ cao của nó bảo vệ người mặc khỏi chấn thương bên ngoài.",
       "summary": ""
     },
     {
       "id": "Realisation",
       "name": "Armure Éveillée",
-      "desc": "- Giá trị tối đa: 100\n- Khi bắt đầu lượt: Hồi 5 Tinh thần cho mỗi 10 giá trị\n- Khi bắt đầu lượt: Nhận 1 Tăng Cấp độ Tấn công và 1 Tăng Cấp độ Phòng thủ cho mỗi 20 giá trị (tối đa 4 mỗi loại)\n- Chuyển đổi tất cả Đồng xu Kĩ năng Tấn công Cơ bản thành Đồng xu Bất khả phá\n- Sau khi hiệu ứng này được chuyển đổi, bắt đầu từ cuối lượt tiếp theo, mất 10 giá trị\n- Ở 0 giá trị, chuyển đổi hiệu ứng này thành \"Le Noir: Áo Khoác Gabardine\"",
+      "desc": "- Giá trị tối đa: 100\n- Khi bắt đầu lượt: Hồi 5 Tinh thần cho mỗi 10 Giá trị\n- Khi bắt đầu lượt: Nhận 1 Tăng Cấp độ Tấn công và 1 Tăng Cấp độ Phòng thủ cho mỗi 20 Giá trị (tối đa 4 mỗi loại)\n- Chuyển đổi toàn bộ Đồng xu của (các) Kĩ năng Tấn công Cơ bản thành Đồng xu không thể phá hủy\n- Sau khi hiệu ứng này được chuyển đổi, bắt đầu từ khi kết thúc lượt tiếp theo, mất 10 Giá trị\n- Khi đạt 0 Giá trị, chuyển đổi hiệu ứng này thành \"Le Noir: Áo Khoác Gabardine\"",
       "flavor": "Cách dệt vải của Le Noir ngăn chặn lực từ bên ngoài tiếp cận người mặc. Mục đích của sự thức tỉnh là loại bỏ sự thay đổi áp đặt từ bên ngoài.\nVải lưu trữ năng lượng từ các đòn tấn công mà nó hấp thụ, sau đó giải phóng toàn bộ lực đó trong một lần bùng nổ để loại bỏ nguồn thay đổi bên ngoài.",
       "summary": ""
     },
     {
       "id": "LaRouge_LowMorale",
-      "name": "Bỏ lại da thịt phía sau!",
+      "name": "Bỏ lại tấm da phía sau!",
       "desc": "- Suy giảm nhuệ khí\n- Cấp độ Phòng thủ -3\n- Cấp độ Tấn công +1",
       "summary": "",
       "undefined": "-",
@@ -209,8 +209,8 @@
     },
     {
       "id": "LaRouge_Panic",
-      "name": "Bỏ lại da thịt phía sau!",
-      "desc": "- Hoảng loạn (Panic)\n- Cấp độ Phòng thủ -5\n- Cấp độ Tấn công +2",
+      "name": "Bỏ lại tấm da phía sau!",
+      "desc": "- Hoảng loạn\n- Cấp độ Phòng thủ -5\n- Cấp độ Tấn công +2",
       "summary": "",
       "undefined": "-",
       "flavor": "Những nội tạng lẽ ra phải nằm gọn bên trong đang quằn quại trong sự háo hức không kiên nhẫn, cố phá vỡ lớp da để chui sang phía bên kia."
@@ -226,23 +226,23 @@
     {
       "id": "LaNoir_Panic",
       "name": "Thu mình trở lại...",
-      "desc": "- Hoảng loạn (Panic)\n- Tốc độ tối đa -5\n- Cấp độ Phòng thủ +3",
+      "desc": "- Hoảng loạn\n- Tốc độ tối đa -5\n- Cấp độ Phòng thủ +3",
       "summary": "",
       "undefined": "-",
       "flavor": "Cuộn vào trong. Sâu hơn. Chặt chẽ hơn. Để lớp vỏ cứng lại bao quanh những gì còn sót lại."
     },
     {
       "id": "NiddlePinned",
-      "name": "Đóng đinh xác ướp",
-      "desc": "- Giá trị tối đa: 2\n\n- Bị đánh trúng, nhận +1 Xuất huyết (3 lần mỗi lượt)\n- Không thể hành động trong khi đơn vị này có hiệu ứng này\n\n- Khi kết thúc lượt: Mất 15 HP và 5 Đinh trên chính mình\n- Khi kết thúc lượt: Mất 1 Giá trị",
+      "name": "Nhồi Xác",
+      "desc": "- Giá trị tối đa: 2\n\n- Khi bị đánh trúng, nhận +1 Số lượng Xuất huyết (3 lần mỗi lượt)\n- Trở thành trạng thái Không thể hành động trong khi đơn vị này có hiệu ứng này\n\n- Khi kết thúc lượt: Mất 15 HP và giảm 5 Kim Chỉ trên bản thân\n- Khi kết thúc lượt: Mất 1 Giá trị",
       "summary": "",
       "undefined": "-",
       "flavor": "Theo ý ngài... Làm thủ công! Theo yêu cầu! Khâu tay!"
     },
     {
       "id": "NiddleExpected",
-      "name": "Cái kim ghim lưỡi",
-      "desc": "- Nếu đơn vị này trang bị Kĩ năng Phòng thủ:\n· Mất 1 Đinh trên chính mình\n· Hiệu ứng này hết hạn\n\n- Khi kết thúc lượt: Nhận 3 Đinh; sau đó, hiệu ứng này hết hạn",
+      "name": "Kim Ghim Lưỡi",
+      "desc": "- Nếu đơn vị này trang bị Kĩ năng Phòng thủ:\n· Giảm 1 Kim Chỉ trên bản thân\n· Hiệu ứng này hết hiệu lực\n\n- Khi kết thúc lượt: Nhận 3 Kim Chỉ; sau đó, hiệu ứng này hết hiệu lực",
       "summary": "",
       "undefined": "-",
       "flavor": "Để tháo một cái đinh đóng cố định, trước tiên phải dừng lại một lát."
@@ -266,69 +266,69 @@
     {
       "id": "MeursaultBuffet",
       "name": "Kẻ Đóng Đinh",
-      "desc": "- Trong màn chơi này, nếu đơn vị này dùng Kĩ năng, nhận 2 Tài nguyên E.G.O của Hệ tương ứng (2 lần mỗi lượt)\n- Khi bắt đầu lượt: Nếu đồng minh khác đang trên chiến trường, sát thương nhận bởi đơn vị này không thể giết chết đơn vị này trong lượt này\n- Không thể Thoái lui",
+      "desc": "- Trong trận chiến này, nếu đơn vị này sử dụng Kĩ năng, nhận 2 Tài nguyên E.G.O của Hệ tương ứng (2 lần mỗi lượt)\n- Khi bắt đầu lượt: Nếu có đồng minh khác trên chiến trường, đơn vị này không chết vì sát thương trong lượt này\n- Không thể rút lui",
       "summary": "",
-      "flavor": "Nắm chặt cái Đinh Vàng, hắn đã xé toạc Cái nôi và giờ đóng đinh một vị thần lên đầu mũi."
+      "flavor": "Nắm chặt cái Đinh Vàng, hắn đã xé toạc Cái nôi và giờ đóng đinh một vị thần lên một mũi nhọn."
     },
     {
       "id": "Nutrition",
       "name": "Một thứ gì đó đã bị chiếm đoạt.",
-      "desc": "- Giá trị tối đa: 5\n- Khi kết thúc lượt: Nhận +(Giá trị x 2) Số lần Nhịp đập cho lượt tới; sau đó, hiệu ứng này hết hạn\n- Nếu hiệu ứng này ở mức Giá trị tối đa khi hết hạn, tất cả các Phần sẽ nhận Lá chắn bằng 3% HP của Lõi vào lượt tới (Lá chắn nhận được do hiệu ứng này không hết hạn khi kết thúc lượt)",
+      "desc": "- Giá trị tối đa: 5\n- Khi kết thúc lượt: Nhận +(Giá trị x 2) Số lượng Nhịp đập vào lượt tới; sau đó, hiệu ứng này hết hiệu lực\n- Nếu hiệu ứng này đạt Giá trị tối đa khi hết hiệu lực, tất cả các Phần sẽ nhận Lá chắn bằng 3% HP của Lõi vào lượt tới (Lá chắn nhận được do hiệu ứng này không hết hiệu lực khi kết thúc lượt)",
       "summary": "",
       "flavor": "Mọi thứ đáng khao khát trong tay kẻ khác lẽ ra phải thuộc về tôi ngay từ đầu. Đây không phải trộm cắp, mà là việc lấy lại thứ vốn dĩ là của mình."
     },
     {
       "id": "Gourmandise",
       "name": "Cuồng nộ mất kiểm soát",
-      "desc": "- Giá trị cơ bản: 3\n- Gây thêm +5% sát thương cho mỗi 3 Xuất huyết trên bản thân (tối đa 30%)\n- Tất cả các Phần không thể bị Chấn động; nhận -75% sát thương từ Xuất huyết\n- Khi kết thúc lượt: Mất 1 Giá trị\n- Tiêu hao toàn bộ Số lần Nhịp đập khi hiệu ứng này hết hạn",
+      "desc": "- Giá trị cơ bản: 3\n- Gây thêm +5% sát thương cho mỗi 3 Xuất huyết trên bản thân (tối đa 30%)\n- Tất cả các Phần không thể bị Choáng; nhận -75% sát thương từ Xuất huyết\n- Khi kết thúc lượt: Mất 1 Giá trị\n- Tiêu hao toàn bộ Số lượng Nhịp đập khi hiệu ứng này hết hiệu lực",
       "summary": "",
       "flavor": "Mọi mảnh ghép rời rạc của giải phẫu học đều co giật và quằn quại, cố gắng xé mình ra. Sự cuồng nộ mất kiểm soát ấy lại vô tình gắn kết cơ thể với nhau."
     },
     {
       "id": "BuffetSick",
       "name": "Túi đựng đau khổ",
-      "desc": "- Giá trị tối đa: 30\n- Khi kết thúc lượt: Hiệu ứng này hết hạn khi hiệu ứng Cuồng nộ mất kiểm soát hết hạn. Sau đó, đơn vị này nhận 1 Mong manh vào lượt tới cho mỗi 5 Giá trị",
+      "desc": "- Giá trị tối đa: 30\n- Khi kết thúc lượt: Hiệu ứng này hết hiệu lực khi hiệu ứng Cuồng nộ mất kiểm soát hết hiệu lực. Sau đó, đơn vị này nhận 1 Mong manh vào lượt tới cho mỗi 5 Giá trị",
       "summary": "",
       "flavor": "Cơ quan này là điểm cuối cùng của mọi đầu vào cảm giác đau đớn.\nKhi nó vỡ ra, nó sẽ nhấn chìm mọi lý trí và phơi bày nỗi đau ở dạng thuần khiết nhất."
     },
     {
       "id": "SavePlacenta",
       "name": "Tự bảo tồn",
-      "desc": "- Khi Dây rốn chuẩn bị nhận một Cú đánh Không đối kháng từ kẻ địch, tiêu hao 1 Giá trị để chuyển hướng nhắm mục tiêu của kẻ địch sang Cơ thể; sau đó, sử dụng Kĩ năng Phòng thủ Hỗ trợ độc quyền\n- Khi kết thúc lượt: Hiệu ứng này hết hạn",
+      "desc": "- Khi Dây rốn sắp bị kẻ địch Tấn công một chiều, tiêu hao 1 Giá trị để chuyển hướng mục tiêu của kẻ địch sang Cơ thể; sau đó, sử dụng Kĩ năng độc quyền Phòng thủ Hỗ trợ\n- Khi kết thúc lượt: Hiệu ứng này hết hiệu lực",
       "summary": ""
     },
     {
       "id": "BloodyMucus",
       "name": "Phép rửa [Crimson]",
-      "desc": "- Hiệu ứng tối đa: 5\n- Cấp độ Tấn công +1 cho mỗi 3 Độ mạnh Xuất huyết trên bản thân (tối đa 3)\n- Ở mức Giá trị tối đa, gấp đôi lượng sát thương nhận từ Xuất huyết; đơn vị này không thể bị đánh bại do sát thương Xuất huyết\n- Khi dùng Kĩ năng Tấn công Cơ bản, nhận +(Giá trị x 2) Số lần Xuất huyết\n- Khi dùng Kĩ năng E.G.O hoặc Kĩ năng Phòng thủ, mất 3 Giá trị",
+      "desc": "- Giá trị tối đa: 5\n- Cấp độ Tấn công +1 cho mỗi 3 Cường độ Xuất huyết trên bản thân (tối đa 3)\n- Khi đạt Giá trị tối đa, gấp đôi lượng sát thương nhận từ Xuất huyết; đơn vị này không thể bị đánh bại do sát thương Xuất huyết\n- Khi dùng Kĩ năng Tấn công Cơ bản, nhận +(Giá trị x 2) Số lượng Xuất huyết\n- Khi dùng Kĩ năng E.G.O hoặc Kĩ năng Phòng thủ, mất 3 Giá trị",
       "summary": "",
       "flavor": "\"Hãy để máu rửa sạch xác thịt\""
     },
     {
       "id": "DeterioratingBody",
       "name": "Bám víu bản năng vào sự sống",
-      "desc": "- Giá trị tối đa: 5\n- HP không giảm xuống dưới 1\n- Bị đánh trúng, mất 1 Giá trị (2 lần mỗi Kĩ năng)\n- Khi kết thúc lượt: Mất 1 Giá trị; đơn vị này bị đánh bại khi hiệu ứng này hết hạn",
+      "desc": "- Giá trị tối đa: 5\n- HP không giảm xuống dưới 1\n- Khi bị đánh trúng, mất 1 Giá trị (2 lần mỗi Kĩ năng)\n- Khi kết thúc lượt: Mất 1 Giá trị; đơn vị này bị đánh bại khi hiệu ứng này hết hiệu lực",
       "summary": "",
       "flavor": "Bản năng bám víu vào sự sống của nó quả thực dai dẳng, nhưng rốt cuộc, sẽ có lúc phải buông tay."
     },
     {
       "id": "BuffetFailed",
       "name": "Kiệt sức",
-      "desc": "- Giá trị tối đa: 3\n- Tốc độ tối thiểu & tối đa -1 cho mỗi Giá trị\n- Khi bắt đầu lượt: Nhận 1 Mong manh\n- Khi kết thúc lượt: Mất 1 Giá trị\n(Áp dụng cho tất cả các Phần)",
+      "desc": "- Giá trị tối đa: 3\n- Tốc độ tối thiểu và tối đa -1 cho mỗi Giá trị\n- Khi bắt đầu lượt: Nhận 1 Mong manh\n- Khi kết thúc lượt: Mất 1 Giá trị\n(Áp dụng cho tất cả các Phần)",
       "summary": "",
       "flavor": "Mỗi lần bùng nổ đều đi kèm với giới hạn. Thế giới thu phí theo hình thức tương xứng với sức mạnh và tốc độ của sự bùng nổ đó."
     },
     {
       "id": "EarlyBuffet_LowMorale",
       "name": "Xung đột nội tâm",
-      "desc": "- Suy giảm nhuệ khí\n- Cấp độ Phòng thủ -3\n- Cấp độ Tấn công +3\n- Trong một cuộc Đối kháng với mục tiêu có 5 Phép rửa [Crimson], Sức mạnh Đối kháng +2",
+      "desc": "- Suy giảm nhuệ khí\n- Cấp độ Phòng thủ -3\n- Cấp độ Tấn công +3\n- Khi Đối kháng với mục tiêu sở hữu 5 Phép rửa [Crimson], Uy lực Đối kháng +2",
       "summary": "",
       "flavor": "Tại sao... ? Làm thế nào mà ta... lại tồn tại? Ta... là ai?"
     },
     {
       "id": "EarlyBuffet_Panic",
       "name": "Xung đột nội tâm",
-      "desc": "- Hoảng loạn\n- Cấp độ Phòng thủ -5\n- Cấp độ Tấn công +3\n- Gây thêm 10% sát thương\n- Trong Đối kháng với mục tiêu có 3+ Thánh tẩy [Crimson], Sức mạnh Đối kháng +3",
+      "desc": "- Hoảng loạn\n- Cấp độ Phòng thủ -5\n- Cấp độ Tấn công +3\n- Gây thêm 10% sát thương\n- Khi Đối kháng với mục tiêu sở hữu 3+ Phép rửa [Crimson], Uy lực Đối kháng +3",
       "summary": "",
       "flavor": "Tại sao... ? Làm thế nào mà ta... lại tồn tại? Ta... là ai?"
     },
@@ -341,31 +341,31 @@
     {
       "id": "SisyphusAmethyst",
       "name": "Amethyst",
-      "desc": "- Kĩ năng gây thêm 1 Độ mạnh Lửa, Xuất huyết, Rung chuyển, Vỡ nát và Lún chìm lên kẻ địch",
+      "desc": "- Kĩ năng gây thêm 1 Cường độ Bỏng, Xuất huyết, Chấn động, Vết rách và Trầm luân lên kẻ địch",
       "summary": ""
     },
     {
       "id": "SisyphusAmber",
       "name": "Amber",
-      "desc": "- Kĩ năng gây thêm 1 giá trị Lửa, Xuất huyết, Rung chuyển, Vỡ nát và Lún chìm cho kẻ địch\n- Nhận +1 số lần Sạc và +1 số lần Cân bằng khi nhận các hiệu ứng này",
+      "desc": "- Kĩ năng gây thêm 1 Cường độ Bỏng, Xuất huyết, Chấn động, Vết rách và Trầm luân lên kẻ địch\n- Khi nhận Số lượng Sạc và Số lượng Hơi thở, nhận thêm +1 Số lượng",
       "summary": ""
     },
     {
       "id": "SisyphusEmerald",
       "name": "Emerald",
-      "desc": "- Kĩ năng gây thêm 1 giá trị Lửa, Xuất huyết, Rung chuyển, Vỡ nát và Lún chìm cho kẻ địch\n- Nhận +1 số lần Sạc và +1 số lần Cân bằng khi nhận các hiệu ứng này\n- Nhận +10 số lần Sạc khi nhận hiệu ứng này (một lần mỗi màn chơi)",
+      "desc": "- Kĩ năng gây thêm 1 Cường độ Bỏng, Xuất huyết, Chấn động, Vết rách và Trầm luân lên kẻ địch\n- Khi nhận Số lượng Sạc và Số lượng Hơi thở, nhận thêm +1 Số lượng\n- Nhận +10 Số lượng Sạc khi nhận hiệu ứng này (1 lần mỗi trận chiến)",
       "summary": ""
     },
     {
       "id": "SisyphusGold",
       "name": "Gold",
-      "desc": "- Kĩ năng gây thêm 1 giá trị Lửa, Xuất huyết, Rung chuyển, Vỡ nát và Lún chìm cho kẻ địch\n- Nhận +1 số lần Sạc và +1 số lần Cân bằng khi nhận các hiệu ứng này\n- Nhận +10 số lần Sạc khi nhận hiệu ứng này (một lần mỗi màn chơi)\n- Sức mạnh Đối kháng +1",
+      "desc": "- Kĩ năng gây thêm 1 Cường độ Bỏng, Xuất huyết, Chấn động, Vết rách và Trầm luân lên kẻ địch\n- Khi nhận Số lượng Sạc và Số lượng Hơi thở, nhận thêm +1 Số lượng\n- Nhận +10 Số lượng Sạc khi nhận hiệu ứng này (1 lần mỗi trận chiến)\n- Uy lực Đối kháng +1",
       "summary": ""
     },
     {
       "id": "SisyphusRuby",
       "name": "Ruby",
-      "desc": "- Kĩ năng gây thêm 1 giá trị Lửa, Xuất huyết, Rung chuyển, Vỡ nát và Lún chìm cho kẻ địch\n- Nhận +1 số lần Sạc và +1 số lần Cân bằng khi nhận các hiệu ứng này\n- Nhận +10 số lần Sạc khi nhận hiệu ứng này (một lần mỗi màn chơi)\n- Sức mạnh Đối kháng +1\n- Sức mạnh Cuối cùng +1",
+      "desc": "- Kĩ năng gây thêm 1 Cường độ Bỏng, Xuất huyết, Chấn động, Vết rách và Trầm luân lên kẻ địch\n- Khi nhận Số lượng Sạc và Số lượng Hơi thở, nhận thêm +1 Số lượng\n- Nhận +10 Số lượng Sạc khi nhận hiệu ứng này (1 lần mỗi trận chiến)\n- Uy lực Đối kháng +1\n- Sức mạnh Cuối cùng +1",
       "summary": ""
     },
     {
@@ -378,7 +378,7 @@
     {
       "id": "RisingMadnessSisyphe",
       "name": "Nắng",
-      "desc": "- Giá trị tối đa: 2\n- Khi kết thúc lượt: Mất 1 Giá trị\n- Khi bắt đầu lượt: Ở mức 0 Giá trị, áp dụng các hiệu ứng sau:\n· Nhận 1 Tăng Sát thương và 1 Mong manh\n· Chuyển đổi Đồng xu trên tất cả Kĩ năng thành Đồng xu Bất khả phá\n· Khi kết thúc lượt: Khôi phục hiệu ứng này về Giá trị tối đa ở lượt tiếp theo",
+      "desc": "- Giá trị tối đa: 2\n- Khi kết thúc lượt: Mất 1 Giá trị\n- Khi bắt đầu lượt: Khi đạt 0 Giá trị, áp dụng các hiệu ứng sau:\n· Nhận 1 Tăng lượng sát thương và 1 Mong manh\n· Chuyển đổi Đồng xu trên tất cả Kĩ năng thành Đồng xu không thể phá hủy\n· Khi kết thúc lượt: Khôi phục hiệu ứng này về Giá trị tối đa vào lượt tiếp theo",
       "summary": "",
       "undefined": "-",
       "flavor": "Bạn có thể là..."
@@ -386,7 +386,7 @@
     {
       "id": "RisingMadnessSisyphe2nd",
       "name": "Nắng Chích",
-      "desc": "- Giá trị tối đa: 1\n- Khi kết thúc lượt: Mất 1 Giá trị\n- Khi bắt đầu lượt: Ở mức 0 Giá trị, áp dụng các hiệu ứng sau:\n· Nhận 2 Tăng Uy Lực, 2 Tăng Sát thương và 3 Mong manh\n· Chuyển đổi Đồng xu trên tất cả Kĩ năng thành Đồng xu Bất khả phá\n· Khi kết thúc lượt: Khôi phục hiệu ứng này về Giá trị tối đa ở lượt tiếp theo",
+      "desc": "- Giá trị tối đa: 1\n- Khi kết thúc lượt: Mất 1 Giá trị\n- Khi bắt đầu lượt: Khi đạt 0 Giá trị, áp dụng các hiệu ứng sau:\n· Nhận 2 Tăng Uy lực, 2 Tăng lượng sát thương và 3 Mong manh\n· Chuyển đổi Đồng xu trên tất cả Kĩ năng thành Đồng xu không thể phá hủy\n· Khi kết thúc lượt: Khôi phục hiệu ứng này về Giá trị tối đa vào lượt tiếp theo",
       "summary": "",
       "undefined": "-",
       "flavor": "Ánh nắng thì thầm vào mọi thứ nó chạm tới, đè bẹp tất cả như nhau ngay khi sức nóng của nó tăng từ cảm giác châm chích trên da thành nỗi đau bỏng rát không thể chịu đựng và con mồi bị nướng chín sống."
@@ -394,19 +394,19 @@
     {
       "id": "WeakWithering_LowMorale",
       "name": "May vá bừa bãi",
-      "desc": "- Suy giảm nhuệ khí\n- Khi bắt đầu lượt: Giảm 1 Cấp độ Tấn công",
+      "desc": "- Suy giảm nhuệ khí\n- Khi bắt đầu lượt: Nhận 1 Giảm Cấp độ Tấn công",
       "summary": ""
     },
     {
       "id": "WeakWithering_Panic",
       "name": "May vá bừa bãi",
-      "desc": "- Suy giảm nhuệ khí\n- Khi bắt đầu lượt: Giảm 1 Cấp độ Tấn công và 1 Tăng Sát thương",
+      "desc": "- Suy giảm nhuệ khí\n- Khi bắt đầu lượt: Nhận 1 Giảm Cấp độ Tấn công và 1 Giảm lượng sát thương",
       "summary": ""
     },
     {
       "id": "NiddlePin",
-      "name": "Kim chỉ",
-      "desc": "- Xuất huyết duy nhất\n- Khi chịu sát thương Xuyên thủng, tăng +1 Giá trị Xuất huyết và giảm 1 Giá trị của hiệu ứng này\n- Khi kết thúc lượt: Gây 1 Xuất huyết và giảm 1 Giá trị của hiệu ứng này",
+      "name": "Kim Chỉ",
+      "desc": "- Xuất huyết đặc biệt\n- Khi chịu sát thương Đâm, nhận +1 Số lượng Xuất huyết và giảm 1 Giá trị của hiệu ứng này\n- Khi kết thúc lượt: Nhận 1 Xuất huyết và giảm 1 Giá trị của hiệu ứng này",
       "summary": ""
     }
   ]
