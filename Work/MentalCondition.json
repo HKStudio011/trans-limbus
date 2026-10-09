@@ -2,13 +2,13 @@
   "dataList": [
     {
       "id": "OnWinDuelAsParryingCountMultiplyAndPlusPercent",
-      "add": "Khi thắng màn đấu, tăng tỉ lệ thuận với số màn đấu\n<size=95%>(Lượng tăng: Giá trị cơ bản {0}, từ màn đấu thứ 2 tăng thêm {1}% mỗi màn đấu)</size>",
-      "min": "Khi thắng màn đấu, giảm tỉ lệ thuận với số màn đấu\n<size=95%>(Lượng giảm: Giá trị cơ bản {0}, từ màn đấu thứ 2 tăng thêm {1}% mỗi màn đấu)</size>"
+      "add": "Khi thắng Đối kháng, tăng tỉ lệ thuận với số lần Đối kháng\n<size=95%>(Lượng tăng: Giá trị cơ bản {0}, từ lần Đối kháng thứ 2 tăng thêm {1}% mỗi lần Đối kháng)</size>",
+      "min": "Khi thắng Đối kháng, giảm tỉ lệ thuận với số lần Đối kháng\n<size=95%>(Lượng giảm: Giá trị cơ bản {0}, từ lần Đối kháng thứ 2 tăng thêm {1}% mỗi lần Đối kháng)</size>"
     },
     {
       "id": "OnWinDuelAsParryingCountMultiplyAndPlusPercentWithMax",
-      "add": "Khi thắng màn đấu, tăng tỉ lệ thuận với số màn đấu\n<size=95%>(Lượng tăng: Giá trị cơ bản {0}, từ màn đấu thứ 2 tăng thêm {1}% mỗi màn đấu, tối đa {2}%)</size>",
-      "min": "Khi thắng màn đấu, giảm tỉ lệ thuận với số màn đấu\n<size=95%>(Lượng tăng: Giá trị cơ bản {0}, từ màn đấu thứ 2 giảm {1}% mỗi màn đấu, tối đa {2}%)</size>"
+      "add": "Khi thắng Đối kháng, tăng tỉ lệ thuận với số lần Đối kháng\n<size=95%>(Lượng tăng: Giá trị cơ bản {0}, từ lần Đối kháng thứ 2 tăng thêm {1}% mỗi lần Đối kháng, tối đa {2}%)</size>",
+      "min": "Khi thắng Đối kháng, giảm tỉ lệ thuận với số lần Đối kháng\n<size=95%>(Lượng giảm: Giá trị cơ bản {0}, từ lần Đối kháng thứ 2 tăng thêm {1}% mỗi lần Đối kháng, tối đa {2}%)</size>"
     },
     {
       "id": "OnKillEnemyAsLevelRatioMultiply",
@@ -18,12 +18,12 @@
     {
       "id": "OnKillEnemyByOtherAllyAsLevelRatioMultiply",
       "add": "Khi đồng minh tiêu diệt kẻ địch có cấp độ bằng hoặc cao hơn cấp độ bản thân, tăng {0}",
-      "min": "Khi đồng minh tiêu diệt kẻ địch có cấp độ bằng hoặc cao hơn cấp độ bản thân, tăng {0}"
+      "min": "Khi đồng minh tiêu diệt kẻ địch có cấp độ bằng hoặc cao hơn cấp độ bản thân, giảm {0}"
     },
     {
       "id": "OnLoseDuelAsParryingCountMultiplyAndPlusPercent",
-      "add": "Khi thua màn đấu, tăng tỉ lệ thuận với số màn đấu\n<size=95%>(Lượng tăng: Giá trị cơ bản {0}, từ màn đấu thứ 2 tăng thêm {1}% mỗi màn đấu)</size>",
-      "min": "Khi thua màn đấu, giảm tỉ lệ thuận với số màn đấu\n<size=95%>(Lượng giảm: Giá trị cơ bản {0}, từ màn đấu thứ 2 tăng thêm {1}% mỗi màn đấu)</size>"
+      "add": "Khi thua Đối kháng, tăng tỉ lệ thuận với số lần Đối kháng\n<size=95%>(Lượng tăng: Giá trị cơ bản {0}, từ lần Đối kháng thứ 2 tăng thêm {1}% mỗi lần Đối kháng)</size>",
+      "min": "Khi thua Đối kháng, giảm tỉ lệ thuận với số lần Đối kháng\n<size=95%>(Lượng giảm: Giá trị cơ bản {0}, từ lần Đối kháng thứ 2 tăng thêm {1}% mỗi lần Đối kháng)</size>"
     },
     {
       "id": "OnDieAllyAsLevelRatio",
@@ -48,7 +48,7 @@
     {
       "id": "OnKillEnemyByOtherAllyExceptSupportiveAction",
       "add": "Khi đồng minh tiêu diệt kẻ địch có cấp độ bằng hoặc cao hơn cấp độ bản thân, tăng {0}",
-      "min": "Khi đồng minh tiêu diệt kẻ địch có cấp độ bằng hoặc cao hơn cấp độ bản thân, giảm {0}. Không giảm nếu đồng minh được ban Tiền trợ công kích tiêu diệt."
+      "min": "Khi đồng minh tiêu diệt kẻ địch có cấp độ bằng hoặc cao hơn cấp độ bản thân, giảm {0}. Không giảm nếu kẻ địch bị tiêu diệt bằng Chi viện Tấn công."
     },
     {
       "id": "OnDieBladeLineageAlly",
@@ -57,13 +57,13 @@
     },
     {
       "id": "OnWinDuelLessMpTarget",
-      "add": "Khi thắng màn đấu với đối tượng có Tinh thần thấp hơn bản thân, tăng {0}",
-      "min": "Khi thắng màn đấu với đối tượng có Tinh thần thấp hơn bản thân, giảm {0}"
+      "add": "Khi thắng Đối kháng với kẻ địch có Tinh thần thấp hơn bản thân, tăng {0}",
+      "min": "Khi thắng Đối kháng với kẻ địch có Tinh thần thấp hơn bản thân, giảm {0}"
     },
     {
       "id": "OnLoseDuelLessMpTarget",
-      "add": "Khi thua màn đấu với đối tượng có Tinh thần thấp hơn bản thân, tăng {0}",
-      "min": "Khi thua màn đấu với đối tượng có Tinh thần thấp hơn bản thân, giảm {0}"
+      "add": "Khi thua Đối kháng với kẻ địch có Tinh thần thấp hơn bản thân, tăng {0}",
+      "min": "Khi thua Đối kháng với kẻ địch có Tinh thần thấp hơn bản thân, giảm {0}"
     },
     {
       "id": "OnKillEnemyByOtherAlly",
@@ -72,38 +72,38 @@
     },
     {
       "id": "OnWinDuelAnyTarget",
-      "add": "Khi thắng màn đấu, tăng {0}",
-      "min": "Khi thắng màn đấu, giảm {0}"
+      "add": "Khi thắng Đối kháng, tăng {0}",
+      "min": "Khi thắng Đối kháng, giảm {0}"
     },
     {
       "id": "OnLoseDuelAnyTarget",
-      "add": "Khi thua màn đấu, tăng {0}",
-      "min": "Khi thua màn đấu, giảm {0}"
+      "add": "Khi thua Đối kháng, tăng {0}",
+      "min": "Khi thua Đối kháng, giảm {0}"
     },
     {
       "id": "OnWinDuelAsParryingCountMultiplyAndPlusPercentWithEmphasis",
-      "add": "Khi thắng màn đấu, tăng tỉ lệ thuận với số màn đấu\n<size=95%>(Lượng tăng: Giá trị cơ bản {0}, từ màn đấu thứ 2 tăng thêm <color=red>{1}%</color> mỗi màn đấu)</size>",
-      "min": "Khi thắng màn đấu, giảm tỉ lệ thuận với số màn đấu\n<size=95%>(Lượng giảm: Giá trị cơ bản {0}, từ màn đấu thứ 2 giảm <color=red>{1}%</color> mỗi màn đấu)</size>"
+      "add": "Khi thắng Đối kháng, tăng tỉ lệ thuận với số lần Đối kháng\n<size=95%>(Lượng tăng: Giá trị cơ bản {0}, từ lần Đối kháng thứ 2 tăng thêm <color=red>{1}%</color> mỗi lần Đối kháng)</size>",
+      "min": "Khi thắng Đối kháng, giảm tỉ lệ thuận với số lần Đối kháng\n<size=95%>(Lượng giảm: Giá trị cơ bản {0}, từ lần Đối kháng thứ 2 tăng thêm <color=red>{1}%</color> mỗi lần Đối kháng)</size>"
     },
     {
       "id": "OnLoseDuelAsParryingCountMultiplyAndPlusPercentWithEmphasis",
-      "add": "Khi thua màn đấu, tăng tỉ lệ thuận với số màn đấu\n<size=95%>(Lượng tăng: Giá trị cơ bản {0}, từ màn đấu thứ 2 tăng thêm <color=red>{1}%</color> mỗi màn đấu)</size>",
-      "min": "Khi thua màn đấu, giảm tỉ lệ thuận với số màn đấu\n<size=95%>(Lượng giảm: Giá trị cơ bản {0}, từ màn đấu thứ 2 tăng thêm <color=red>{1}%</color> mỗi màn đấu)</size>"
+      "add": "Khi thua Đối kháng, tăng tỉ lệ thuận với số lần Đối kháng\n<size=95%>(Lượng tăng: Giá trị cơ bản {0}, từ lần Đối kháng thứ 2 tăng thêm <color=red>{1}%</color> mỗi lần Đối kháng)</size>",
+      "min": "Khi thua Đối kháng, giảm tỉ lệ thuận với số lần Đối kháng\n<size=95%>(Lượng giảm: Giá trị cơ bản {0}, từ lần Đối kháng thứ 2 tăng thêm <color=red>{1}%</color> mỗi lần Đối kháng)</size>"
     },
     {
       "id": "OnTakeAttackDamagePerWithMax",
-      "add": "<color=red>Khi nhận sát thương từ kẻ địch, tăng\n<size=95%>(Lượng tăng: Giá trị cơ bản {0}, tối đa tăng {1} mỗi lượt)</size></color>",
-      "min": "<color=red>Khi nhận sát thương từ kẻ địch, giảm\n<size=95%>(Lượng giảm: Giá trị cơ bản {0}, tối đa giảm {1} mỗi lượt)</size></color>"
+      "add": "<color=red>Khi bị kẻ địch đánh trúng, tăng\n<size=95%>(Lượng tăng: Giá trị cơ bản {0}, tối đa tăng {1} mỗi lượt)</size></color>",
+      "min": "<color=red>Khi bị kẻ địch đánh trúng, giảm\n<size=95%>(Lượng giảm: Giá trị cơ bản {0}, tối đa giảm {1} mỗi lượt)</size></color>"
     },
     {
       "id": "OnWinDuelAsParryingCountMultiplyAndPlusPercentIfMpNotLessThan",
-      "add": "Nếu Tinh thần từ {2} trở lên, khi thắng màn đấu, tăng tỉ lệ thuận với số màn đấu\n<size=95%>(Lượng tăng: Giá trị cơ bản {0}, từ màn đấu thứ 2 tăng thêm {1}% mỗi màn đấu)</size>",
-      "min": "Nếu Tinh thần từ {2} trở lên, khi thắng màn đấu, giảm tỉ lệ thuận với số màn đấu\n<size=95%>(Lượng giảm: Giá trị cơ bản {0}, từ màn đấu thứ 2 tăng thêm {1}% mỗi màn đấu)</size>"
+      "add": "Nếu Tinh thần từ {2} trở lên, khi thắng Đối kháng, tăng tỉ lệ thuận với số lần Đối kháng\n<size=95%>(Lượng tăng: Giá trị cơ bản {0}, từ lần Đối kháng thứ 2 tăng thêm {1}% mỗi lần Đối kháng)</size>",
+      "min": "Nếu Tinh thần từ {2} trở lên, khi thắng Đối kháng, giảm tỉ lệ thuận với số lần Đối kháng\n<size=95%>(Lượng giảm: Giá trị cơ bản {0}, từ lần Đối kháng thứ 2 tăng thêm {1}% mỗi lần Đối kháng)</size>"
     },
     {
       "id": "OnWinDuelAsParryingCountMultiplyAndPlusPercentIfMpNotLessThanWithEmphasis",
-      "add": "<color=red>Nếu Tinh thần từ {2} trở lên</color>, khi thắng màn đấu, tăng tỉ lệ thuận với số màn đấu\n<size=95%>(Lượng tăng: Giá trị cơ bản {0}, từ màn đấu thứ 2 tăng thêm <color=red>{1}%</color> mỗi màn đấu)</size>",
-      "min": "<color=red>Nếu Tinh thần từ {2} trở lên</color>, khi thắng màn đấu, giảm tỉ lệ thuận với số màn đấu\n<size=95%>(Lượng giảm: Giá trị cơ bản {0}, từ màn đấu thứ 2 tăng thêm <color=red>{1}%</color> mỗi màn đấu)</size>"
+      "add": "<color=red>Nếu Tinh thần từ {2} trở lên</color>, khi thắng Đối kháng, tăng tỉ lệ thuận với số lần Đối kháng\n<size=95%>(Lượng tăng: Giá trị cơ bản {0}, từ lần Đối kháng thứ 2 tăng thêm <color=red>{1}%</color> mỗi lần Đối kháng)</size>",
+      "min": "<color=red>Nếu Tinh thần từ {2} trở lên</color>, khi thắng Đối kháng, giảm tỉ lệ thuận với số lần Đối kháng\n<size=95%>(Lượng giảm: Giá trị cơ bản {0}, từ lần Đối kháng thứ 2 tăng thêm <color=red>{1}%</color> mỗi lần Đối kháng)</size>"
     },
     {
       "id": "OnOneSideAttackEnd",
@@ -112,8 +112,8 @@
     },
     {
       "id": "OnSucceedAttackAsTargetHasIndexPrescriptTargetToPersonality",
-      "add": "Nếu tấn công trúng mục tiêu Chỉ thị của Ngón Trỏ, tăng {0} Tinh thần khi kết thúc lượt",
-      "min": "Nếu tấn công trúng mục tiêu Chỉ thị của Ngón Trỏ, giảm {0} Tinh thần khi kết thúc lượt"
+      "add": "Khi kết thúc lượt, nếu đòn tấn công trúng mục tiêu Chỉ thị của Ngón Trỏ, tăng {0} Tinh thần",
+      "min": "Khi kết thúc lượt, nếu đòn tấn công trúng mục tiêu Chỉ thị của Ngón Trỏ, giảm {0} Tinh thần"
     },
     {
       "id": "OnUseSkillMp",
@@ -127,13 +127,13 @@
     },
     {
       "id": "OnGiveNegativeBuffStackToEnemy",
-      "add": "Tăng {1} sau khi đơn vị này gây {0} Sức mạnh của một hiệu ứng tiêu cực lên kẻ địch",
-      "min": "Giảm {1} sau khi đơn vị này gây {0} Sức mạnh của một hiệu ứng tiêu cực lên kẻ địch"
+      "add": "Tăng {1} sau khi đơn vị này gây hiệu ứng tiêu cực với {0} Uy lực lên kẻ địch",
+      "min": "Giảm {1} sau khi đơn vị này gây hiệu ứng tiêu cực với {0} Uy lực lên kẻ địch"
     },
     {
       "id": "OnLoseDuelToSlowerEnemyAsParryingCountMultiplyAndPlusPercent",
-      "add": "Tăng sau khi thua Đối kháng, với kẻ địch chậm hơn, dựa trên số lần Đối kháng\n<size=95%>(Giá trị Cơ bản là {0}, tăng thêm {1}% mỗi lần Đối kháng kể từ lần 2)</size>",
-      "min": "Giảm sau khi thua Đối kháng, với kẻ địch chậm hơn, dựa trên số lần Đối kháng\n<size=95%>(Giá trị Cơ bản là {0}, tăng thêm {1}% mỗi lần Đối kháng kể từ lần 2)</size>"
+      "add": "Tăng khi thua Đối kháng với kẻ địch chậm hơn bản thân, dựa trên số lần Đối kháng\n<size=95%>(Lượng tăng: Giá trị cơ bản {0}, từ lần Đối kháng thứ 2 tăng thêm {1}% mỗi lần Đối kháng)</size>",
+      "min": "Giảm khi thua Đối kháng với kẻ địch chậm hơn bản thân, dựa trên số lần Đối kháng\n<size=95%>(Lượng giảm: Giá trị cơ bản {0}, từ lần Đối kháng thứ 2 tăng thêm {1}% mỗi lần Đối kháng)</size>"
     }
   ]
 }
