@@ -165,6 +165,14 @@
     "AbnormalityGuides_Refraction6.json"
    ],
    "note": "Batch5: guide series, verify OK"
+  },
+  {
+   "ts": "2026-10-09T16:15:59.657Z",
+   "action": "done",
+   "files": [
+    "AbnormalityGuides_Refraction2.json"
+   ],
+   "note": "retry OK, 33 chuoi"
   }
  ],
  "files": {
@@ -844,15 +852,22 @@
   "AbnormalityGuides_Refraction2.json": {
    "group": "gameplay",
    "size": 38413,
-   "status": "in_progress",
+   "status": "done",
    "attempts": 1,
    "history": [
     {
      "ts": "2026-10-09T12:11:08.031Z",
      "action": "claim"
+    },
+    {
+     "ts": "2026-10-09T16:15:59.656Z",
+     "action": "done",
+     "note": "retry OK, 33 chuoi"
     }
    ],
-   "started": "2026-10-09T12:11:08.031Z"
+   "started": "2026-10-09T12:11:08.031Z",
+   "finished": "2026-10-09T16:15:59.656Z",
+   "note": "retry OK, 33 chuoi"
   },
   "AbnormalityGuides_Refraction3.json": {
    "group": "gameplay",
@@ -17526,5 +17541,5 @@
    "history": []
   }
  },
- "updated": "2026-10-09T14:38:52.457Z"
+ "updated": "2026-10-09T16:15:59.657Z"
 }
