@@ -2,36 +2,36 @@
     "dataList": [
         {
             "id": "AaCePcBa",
-            "name": "Biểu hiệu",
-            "desc": "Trở thành mục tiêu bị ưu tiên tấn công.\nKhi nhận sát thương, tất cả Số lượng Bỏng và Số lần Bỏng nhận được tăng gấp đôi.",
+            "name": "Dấu ấn",
+            "desc": "Trở thành mục tiêu bị ưu tiên tấn công.\nKhi nhận sát thương, nhận thêm Cường độ Bỏng và Số lượng Bỏng gấp đôi lượng nhận được.",
             "summary": "",
             "undefined": "-"
         },
         {
             "id": "AaCePcBb",
             "name": "Mảnh vỡ đèn huỳnh quang",
-            "desc": "Khi bắt đầu lượt, tăng 3 Hơi thở, 2 Số lần Hơi thở.",
+            "desc": "Khi bắt đầu lượt, nhận 3 Hơi thở và +2 Số lần Hơi thở.",
             "summary": "",
             "undefined": "-"
         },
         {
             "id": "AaCePcBc",
-            "name": "Mù lòa",
-            "desc": "Khi giá trị đạt 3, rơi vào trạng thái Hoảng loạn.",
+            "name": "Ám ảnh mù quáng",
+            "desc": "Khi Giá trị đạt từ 3 trở lên, rơi vào trạng thái Choáng.",
             "summary": "",
             "undefined": "-"
         },
         {
             "id": "AaCePcBg",
             "name": "Ấu trùng",
-            "desc": "Khi kết thúc lượt, Ấu trùng sẽ chuyển sang đồng minh có Máu hiện tại cao nhất.\nKhi bắt đầu lượt, nhận sát thương Tinh thần bằng với giá trị.",
+            "desc": "Khi kết thúc lượt, Ấu trùng sẽ chuyển sang đồng minh có Máu hiện tại cao nhất.\nKhi bắt đầu lượt, mất Tinh thần (SP) bằng với Giá trị Ấu trùng trên bản thân.",
             "summary": "",
             "undefined": "-"
         },
         {
             "id": "AaCePcBh",
             "name": "Dịch nhầy màu xanh lục",
-            "desc": "Mỗi khi giảm xuống, tạo ra Dịch nhầy màu xanh lục ở lượt kế tiếp.",
+            "desc": "Mỗi khi Giá trị này giảm, tạo ra Dịch nhầy màu xanh lục vào lượt kế tiếp.",
             "summary": "",
             "undefined": "-"
         },
@@ -52,77 +52,77 @@
         {
             "id": "AaCePcBk",
             "name": "Kết buộc",
-            "desc": "Nếu được ban cho cùng một mục tiêu với Bắt giữ, mục tiêu sẽ bị Hoảng loạn. Hiệu ứng này không áp dụng cho mục tiêu đã ở trạng thái Hoảng loạn.",
+            "desc": "Nếu được gây lên mục tiêu đang mang Bắt giữ, mục tiêu sẽ bị Choáng. Không có hiệu lực lên mục tiêu đã bị Choáng.",
             "summary": "",
             "undefined": "-"
         },
         {
             "id": "AaCePcBl",
             "name": "Bắt giữ",
-            "desc": "Nếu được ban cho cùng một mục tiêu với Kết buộc, mục tiêu sẽ bị Hoảng loạn. Hiệu ứng này không áp dụng cho mục tiêu đã ở trạng thái Hoảng loạn.",
+            "desc": "Nếu được gây lên mục tiêu đang mang Kết buộc, mục tiêu sẽ bị Choáng. Không có hiệu lực lên mục tiêu đã bị Choáng.",
             "summary": "",
             "undefined": "-"
         },
         {
             "id": "AaCePcBn",
             "name": "Mệnh lệnh không thể cưỡng lại",
-            "desc": "Khi sử dụng kỹ năng, Máu giảm 10% Máu hiện tại. Uy lực cuối cùng của kỹ năng +1.\nKhi đánh trúng, Ahab hồi 8 Tinh thần, bản thân và Ahab nhận 2 Hơi thở.",
-            "summary": "Máu giảm khi sử dụng kỹ năng, Uy lực cuối cùng +1.",
+            "desc": "Khi sử dụng kĩ năng, Máu giảm 10% Máu hiện tại. Sức mạnh Cuối cùng của kĩ năng +1.\nKhi đánh trúng, Ahab hồi 8 Tinh thần (SP), bản thân và Ahab nhận 2 Hơi thở.",
+            "summary": "Máu giảm khi sử dụng kĩ năng; Sức mạnh Cuối cùng +1.",
             "undefined": "-"
         },
         {
             "id": "AaCePcBo",
             "name": "E.G.O của Pip",
-            "desc": "Khi bắt đầu lượt, mỗi 1 giá trị hồi 3 Tinh thần.\nGiảm khi né tránh thất bại hoặc khi sử dụng kỹ năng: Gánh nặng tội lỗi.\nKhi kết thúc lượt, nếu giá trị về 0 sẽ rơi vào trạng thái Hoảng loạn.",
-            "summary": "Hồi Tinh thần tỉ lệ thuận với giá trị, giảm khi né tránh thất bại hoặc khi sử dụng kỹ năng nhất định.",
+            "desc": "Khi bắt đầu lượt, mỗi 1 Giá trị hồi 3 Tinh thần (SP).\nGiảm khi sử dụng kĩ năng Sức nặng của tội lỗi sau khi né tránh thất bại.\nKhi kết thúc lượt, nếu Giá trị về 0 sẽ rơi vào trạng thái Choáng.",
+            "summary": "Hồi Tinh thần (SP) theo Giá trị. Giảm khi sử dụng kĩ năng nhất định sau khi né tránh thất bại.",
             "undefined": "-"
         },
         {
             "id": "AaCePcBp",
             "name": "E.G.O của Starbuck",
-            "desc": "Khi bắt đầu lượt, mỗi 5 giá trị nhận 1 Bảo vệ.\nKhi thua Kháng cự với mục tiêu có Dấu ấn con mồi, giảm một lượng bằng số Xu bị phá hủy trong lượt Kháng cự đó.\nKhi kết thúc lượt, nếu giá trị về 0 sẽ rơi vào trạng thái Hoảng loạn.",
-            "summary": "Nhận Bảo vệ tỉ lệ thuận với giá trị. Giảm khi thua Kháng cự với mục tiêu nhất định.",
+            "desc": "Khi bắt đầu lượt, mỗi 5 Giá trị nhận 1 Bảo hộ.\nKhi thua Đối kháng với mục tiêu mang Dấu ấn con mồi, giảm một lượng bằng số Đồng xu bị phá hủy trong Đối kháng đó.\nKhi kết thúc lượt, nếu Giá trị về 0 sẽ rơi vào trạng thái Choáng.",
+            "summary": "Nhận Bảo hộ theo Giá trị. Giảm khi thua Đối kháng với mục tiêu nhất định.",
             "undefined": "-"
         },
         {
             "id": "AaCePcBq",
             "name": "E.G.O của Queequeg",
-            "desc": "Kết thúc lượt, nếu lá chắn vẫn còn, giá trị sẽ tăng\nKết thúc lượt, nếu không có lá chắn hoặc khi sử dụng kỹ năng: Lời Sám Hối Bạc Màu, giá trị sẽ giảm\nKết thúc lượt, nếu giá trị bằng 0, sẽ rơi vào trạng thái Hoảng loạn",
-            "summary": "Kết thúc lượt, giá trị tăng hoặc giảm tùy vào việc có lá chắn hay không",
+            "desc": "Khi kết thúc lượt, nếu đang có Lá chắn, Giá trị sẽ tăng.\nKhi kết thúc lượt, nếu không có Lá chắn hoặc khi sử dụng kĩ năng Sự Sám hối Bị tẩy màu, Giá trị sẽ giảm.\nKhi kết thúc lượt, nếu Giá trị bằng 0, sẽ rơi vào trạng thái Choáng.",
+            "summary": "Khi kết thúc lượt, Giá trị tăng hoặc giảm tùy vào việc đang có Lá chắn hay không.",
             "undefined": "-"
         },
         {
             "id": "AaCePcBe",
-            "name": "Khủng Hoảng Trắng",
-            "desc": "Hiệu suất giảm Tinh thần +2",
+            "name": "Hoảng loạn Nhợt nhạt",
+            "desc": "Hiệu suất giảm Tinh thần (SP) +2",
             "summary": "",
             "undefined": "-"
         },
         {
             "id": "AaCePcBf",
-            "name": "Khủng Hoảng Trắng",
-            "desc": "Kết thúc lượt, nhận 2 Trói buộc.\nTất cả đồng xu bản thân sử dụng đều tung ra mặt sấp.",
+            "name": "Hoảng loạn Nhợt nhạt",
+            "desc": "Khi kết thúc lượt, nhận 2 Trói buộc.\nTất cả Đồng xu bản thân sử dụng đều ra mặt sấp.",
             "summary": "",
             "undefined": "-"
         },
         {
             "id": "AaCePcBr",
             "name": "Lá chắn Phòng vệ Yểm trợ",
-            "desc": "Khi nhận sát thương, giá trị sẽ giảm một lượng bằng sát thương nhận vào.\nKhông biến mất khi kết thúc lượt.\nKết thúc lượt, nếu giá trị bằng 0, sẽ rơi vào trạng thái Hoảng loạn vào lượt tiếp theo.",
+            "desc": "Khi nhận sát thương, Giá trị sẽ giảm một lượng bằng sát thương nhận vào.\nKhông biến mất khi kết thúc lượt.\nKhi kết thúc lượt, nếu Giá trị bằng 0, sẽ bị Choáng vào lượt tiếp theo.",
             "summary": "",
             "undefined": "-"
         },
         {
             "id": "AaCePcBs",
             "name": "Phòng vệ Yểm trợ",
-            "desc": "Mục tiêu tấn công Ahab sẽ chuyển sang các ô kỹ năng của bản thân.\nTrọng số ô kỹ năng của nhân vật mang hiệu ứng này tăng lên vô hạn.",
+            "desc": "Kĩ năng nhắm vào Ahab sẽ được kéo sang ô của bản thân.\nĐơn vị mang hiệu ứng này có Trọng lượng Ô không giới hạn.",
             "summary": "",
             "undefined": "-"
         },
         {
             "id": "AaCePcBt",
             "name": "Tấn công Yểm trợ",
-            "desc": "Sau khi kỹ năng tấn công của Ahab kết thúc, thực hiện 1 đòn tấn công một chiều vào mục tiêu Ahab đã tấn công.\nKỹ năng sử dụng lúc này có giá trị đồng xu, hiệu ứng đồng xu và cấp độ tấn công giống với kỹ năng 「Tuân lệnh...」.",
+            "desc": "Sau khi kĩ năng tấn công của Ahab kết thúc, thực hiện 1 đòn Tấn công một chiều vào mục tiêu mà Ahab đã tấn công.\nKĩ năng sử dụng lúc này có Cấp độ Tấn công, giá trị Đồng xu và hiệu ứng Đồng xu giống với kĩ năng 「Tuân theo mệnh lệnh...」 của bản thân.",
             "summary": "",
             "undefined": "-"
         }
