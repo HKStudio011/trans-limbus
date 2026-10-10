@@ -3,13 +3,13 @@
     {
       "id": "ColdBlackTear",
       "name": "Nước mắt đen lạnh lẽo",
-      "desc": "- Giá trị tối đa: 5\n- Khi bắt đầu lượt, nhận 1 Giảm Uy lực Đối kháng\n- Khi nhận sát thương trong trạng thái có hiệu ứng này, Tinh thần giảm đi (Số cộng dồn × 2) (1 lần mỗi lượt, không kích hoạt nếu đồng xu trúng đích đã bị phá hủy)\n- Nếu hiệu ứng này bị giảm bởi Nữ hoàng Phẫn nộ, hồi 5 Tinh thần\n- Hiệu ứng này không làm Tinh thần giảm xuống dưới -40 kể cả khi Tinh thần bị giảm",
+      "desc": "- Giá trị tối đa: 5\n- Khi bắt đầu lượt, nhận 1 Giảm Sức mạnh Đối kháng\n- Khi nhận sát thương trong trạng thái có hiệu ứng này, Tinh thần giảm đi (Số cộng dồn × 2) (1 lần mỗi lượt, không kích hoạt nếu đồng xu trúng đích đã bị phá hủy)\n- Nếu hiệu ứng này bị giảm bởi Nữ hoàng Phẫn nộ, hồi 5 Tinh thần\n- Hiệu ứng này không thể làm Tinh thần giảm xuống dưới -40",
       "summary": ""
     },
     {
       "id": "HelplessTear",
       "name": "Nước mắt vô lực",
-      "desc": "- Giá trị tối đa: 1\n- Tăng 3 Cấp độ Tấn công\n- Giảm 6 Cấp độ Phòng thủ\n- Tăng 1 Chỉ số Mục tiêu cho tất cả kỹ năng\n- Tất cả kỹ năng trở thành đồng xu không thể bị phá hủy\n- Tăng 1 lượng Trầm luân và Số lượt áp dụng",
+      "desc": "- Giá trị tối đa: 1\n- Tăng 3 Cấp độ Tấn công\n- Giảm 6 Cấp độ Phòng thủ\n- Tất cả kĩ năng nhận +1 Trọng lượng Tấn công\n- Tất cả kĩ năng trở thành Đồng xu Không thể phá hủy\n- Lượng Trầm luân gây ra +1 Cường độ và +1 Số lượng",
       "summary": ""
     },
     {
@@ -22,7 +22,7 @@
     {
       "id": "SignOfDespair",
       "name": "Sự bảo hộ của Tuyệt vọng",
-      "desc": "Khi kết thúc tấn công, nếu có đối tượng không có Nước mắt đen lạnh lẽo, hiệu ứng sẽ bị giải trừ vào lượt kế tiếp\n\nNhận 1 Tăng Uy lực Đối kháng, 1 Tăng Sát thương\nTăng 1 lượng Nước mắt đen lạnh lẽo gây ra",
+      "desc": "Khi kết thúc tấn công, nếu có đối tượng không có Nước mắt đen lạnh lẽo, hiệu ứng sẽ bị giải trừ vào lượt kế tiếp\n\nNhận 1 Tăng Sức mạnh Đối kháng, 1 Tăng Lượng Sát thương\nLượng Nước mắt đen lạnh lẽo gây ra +1",
       "summary": ""
     },
     {
@@ -47,122 +47,122 @@
     },
     {
       "id": "ChasingArcana",
-      "name": "Trình chú - Arcana Slave",
+      "name": "Niệm chú - Arcana Slave",
       "desc": "- Giá trị tối đa: 3\n- Tăng 1 khi bắt đầu lượt\n- Khi cộng dồn đạt 3, nhận 20 Tốc độ vào lượt kế tiếp và sử dụng Arcana Slave",
       "summary": ""
     },
     {
       "id": "PowerOfLoveAndJustice",
       "name": "Tình yêu/Chính nghĩa",
-      "desc": "- Với mỗi 1 điểm uy lực, tăng 1 lượng [Vết rách] gây ra",
+      "desc": "- Với mỗi 1 Cường độ, gây thêm +1 Cường độ [Vết rách]",
       "summary": ""
     },
     {
       "id": "CentralCommandTeamCaptain",
       "name": "Đội trưởng Bộ chỉ huy Trung tâm",
-      "desc": "- Ô kỹ năng của nhân vật tương ứng +1, số lượng Kỹ năng 1 -1, số lượng Kỹ năng 3 +1\n- Khi bản thân gây [Bỏng], [Xuất huyết], [Vết rách], Trầm luân, [Chấn động] bằng kỹ năng, tăng 1 lượng gây ra (Bao gồm cả trạng thái bất thường đặc biệt)\n- Khi bản thân nhận uy lực [Hơi thở], Số lượt Sạc (bao gồm Sạc đặc biệt) bằng kỹ năng, tăng 1 lượng nhận được\n- Bỏ qua trạng thái Hoảng loạn và Xâm thực, Tinh thần trở về 0 vào lượt kế tiếp (1 lần mỗi trận chiến)\n- +30% Sát thương của các kỹ năng cơ bản có Chỉ số Mục tiêu từ 2 trở lên\n- Khi tiêu diệt kẻ địch, nhận 2 Tài nguyên E.G.O hệ đã kết liễu, 1 Tài nguyên E.G.O tất cả các hệ",
+      "desc": "- Ô kĩ năng của nhân vật tương ứng +1\n- Số lượng Kĩ năng 1 -1, số lượng Kĩ năng 3 +1\n- Khi bản thân gây [Bỏng], [Xuất huyết], [Vết rách], Trầm luân, [Chấn động] bằng kĩ năng, tăng 1 Cường độ gây ra (bao gồm cả trạng thái bất thường đặc biệt)\n- Khi bản thân nhận Cường độ [Hơi thở] hoặc Số lượng Sạc (bao gồm Sạc đặc biệt) bằng kĩ năng, tăng 1 lượng nhận được\n- Bỏ qua trạng thái Hoảng loạn và Xâm thực, Tinh thần trở về 0 vào lượt kế tiếp (1 lần mỗi trận chiến)\n- Các kĩ năng tấn công cơ bản có Trọng lượng Tấn công từ 2 trở lên gây +30% Sát thương\n- Khi tiêu diệt kẻ địch, nhận +2 Tài nguyên E.G.O của hệ thuộc kĩ năng đã kết liễu kẻ địch, +1 Tài nguyên E.G.O của các hệ còn lại",
       "summary": ""
     },
     {
       "id": "BestWelfareTeamMember",
       "name": "Nhân viên ưu tú Đội Phúc lợi",
-      "desc": "- Khi bản thân gây [Bỏng], [Xuất huyết], [Vết rách], Trầm luân, [Chấn động] bằng kỹ năng, tăng 1 lượng gây ra (Bao gồm cả trạng thái bất thường đặc biệt)\n- Bỏ qua trạng thái Hoảng loạn và Xâm thực, Tinh thần trở về 0 vào lượt kế tiếp (1 lần mỗi trận chiến)\n- Nếu đối tượng nhận hiệu ứng này là Rodion :: Lobotomy E.G.O Thanh kiếm mài bằng Nước mắt, nhận 1 Tăng Sát thương Đâm khi bắt đầu mỗi lượt",
+      "desc": "- Khi bản thân gây [Bỏng], [Xuất huyết], [Vết rách], Trầm luân, [Chấn động] bằng kĩ năng, tăng 1 Cường độ gây ra (bao gồm cả trạng thái bất thường đặc biệt)\n- Bỏ qua trạng thái Hoảng loạn và Xâm thực, Tinh thần trở về 0 vào lượt kế tiếp (1 lần mỗi trận chiến)\n- Nếu đối tượng nhận hiệu ứng này là Lobotomy E.G.O::Thanh Kiếm Mài Bằng Nước Mắt Rodion, nhận 1 Tăng sát thương Đâm vào đầu mỗi lượt",
       "summary": ""
     },
     {
       "id": "ChasingArcanahard",
-      "name": "Trình chú - Arcana Slave",
+      "name": "Niệm chú - Arcana Slave",
       "desc": "- Giá trị tối đa: 3\n- Tăng 1 khi bắt đầu lượt\n- Khi cộng dồn đạt 3, nhận 20 Trói buộc vào lượt kế tiếp và sử dụng Arcana Slave",
       "summary": ""
     },
     {
       "id": "HystericGauge",
       "name": "Cuồng Loạn",
-      "desc": "- Giá trị Cơ bản: 0\n- Giá trị Tối đa: 3\n- Khi kết thúc lượt\n・Nếu Tinh thần từ 0 trở lên, giảm 1\n・Nếu Tinh thần dưới 0, tăng 1",
+      "desc": "- Giá trị cơ bản: 0\n- Giá trị tối đa: 3\n- Khi kết thúc lượt\n· Nếu Tinh thần từ 0 trở lên, giảm 1\n· Nếu Tinh thần dưới 0, tăng 1",
       "summary": ""
     },
     {
       "id": "MagicalGirlAppear",
       "name": "Thiếu nữ Phép thuật, xuất hiện!",
-      "desc": "- Các kỹ năng tấn công cơ bản sử dụng trong lượt này sẽ chuyển thành kỹ năng cộng đồng xu\n\n- Với mỗi 1 Tình yêu/Thù hận, +3% sát thương kỹ năng tấn công cơ bản (Tối đa 15%)",
+      "desc": "- Các kĩ năng tấn công cơ bản sử dụng trong lượt này sẽ chuyển thành kĩ năng Đồng xu Cộng\n\n- Với mỗi 1 Tình yêu/Thù hận, +3% sát thương kĩ năng tấn công cơ bản (Tối đa 15%)",
       "summary": ""
     },
     {
       "id": "NoVillain",
       "name": "Nghịch chuyển - Reversed",
-      "desc": "- Các kỹ năng tấn công cơ bản sử dụng trong lượt này sẽ chuyển thành kỹ năng trừ đồng xu",
+      "desc": "- Các kĩ năng tấn công cơ bản sử dụng trong lượt này sẽ chuyển thành kĩ năng Đồng xu Trừ",
       "summary": ""
     },
     {
       "id": "VillainMark",
       "name": "Dấu ấn Kẻ ác",
-      "desc": "- +10% sát thương nhận vào từ các đòn tấn công của Don Quixote\n\n- Mỗi lượt, chỉ đối tượng bị áp dụng đầu tiên mới sở hữu hiệu ứng này",
+      "desc": "- +10% sát thương nhận vào từ các đòn tấn công của Don Quixote\n\n- Mỗi lượt, hiệu ứng chỉ áp dụng cho mục tiêu nhận nó đầu tiên",
       "summary": ""
     },
     {
       "id": "ArcanaQueenOfHate",
       "name": "Arcana Phép thuật",
-      "desc": "- Giá trị tối đa: 3\n- + (Giá trị × 5)% sát thương kỹ năng tấn công cơ bản\n- Khi kết thúc lượt, nếu giá trị là 3 và Tinh thần từ -25 trở lên, Tinh thần trở thành -25",
+      "desc": "- Giá trị tối đa: 3\n- + (Giá trị × 5)% sát thương kĩ năng tấn công cơ bản\n- Khi kết thúc lượt, nếu giá trị là 3 và Tinh thần từ -25 trở lên, Tinh thần trở thành -25",
       "summary": ""
     },
     {
       "id": "ThePowerOfLoveAndHate",
       "name": "Tình yêu/Thù hận",
-      "desc": "- Số lượt tối đa: 20\n- Sạc đặc biệt\n- Khi tiêu thụ, tăng năng lực của một số kỹ năng nhất định. Có thể tích lũy tối đa 20 Số lượt. Giảm 1 Số lượt khi kết thúc lượt\n(Chịu các hiệu ứng tăng giảm Uy lực và Số lượt Sạc tương ứng)",
+      "desc": "- Số lượng tối đa: 20\n- Sạc đặc biệt\n- Khi tiêu thụ, năng lực của một số kĩ năng nhất định tăng lên. Có thể tích lũy tối đa 20 Số lượng. Giảm 1 Số lượng khi kết thúc lượt\n(Tương tác giống như Sạc thường với các hiệu ứng tăng giảm Cường độ hoặc Số lượng Sạc)",
       "summary": ""
     },
     {
       "id": "MagicalGirlResponse",
-      "name": "Trình chú của Thiếu nữ Phép thuật",
-      "desc": "- Giá trị tối đa: 2\n- Nếu nhận hiệu ứng này, nhận Tăng Uy lực Tấn công 1, Tăng Sát thương 1\n- Kỹ năng tấn công tăng số Sạc của bản thân hoặc tiêu thụ số Sạc nhận Uy lực Cuối +1, Sát thương +10%\n- Giảm 1 khi kết thúc lượt",
+      "name": "Niệm chú của Thiếu nữ Phép thuật",
+      "desc": "- Giá trị tối đa: 2\n- Nếu nhận hiệu ứng này, nhận 1 Tăng Uy lực Tấn công, 1 Tăng Lượng Sát thương\n- Kĩ năng tấn công làm tăng hoặc tiêu thụ Số lượng Sạc của bản thân nhận +1 Sức mạnh Cuối cùng, +10% Sát thương\n- Giảm 1 khi kết thúc lượt",
       "summary": ""
     },
     {
       "id": "BlessingAlly",
       "name": "Gia Hộ",
-      "desc": "- Khi bắt đầu lượt, với mỗi 8 Điểm Tinh thần nhận 1 Kiếm Bảo Vệ (Tối đa 5)\n- Khi kết thúc trận đấu, gây 2 Trầm luân cho mục tiêu (1 lần mỗi lượt)\n- Khi nhận sát thương, gây 2 Trầm luân cho mục tiêu tấn công (1 lần mỗi lượt)\n- Với mỗi 20 Điểm Tinh thần, giá trị số lượng Trầm luân gây ra bởi hiệu ứng buff này +1 (Tối đa 2)\n- Kỹ năng cơ bản sử dụng được đổi thành kỹ năng Cộng Coin",
+      "desc": "- Khi bắt đầu lượt, với mỗi 8 Tinh thần (SP) nhận 1 Kiếm Bảo Vệ (Tối đa 5)\n- Khi Đối kháng kết thúc, gây 2 Trầm luân lên mục tiêu (1 lần mỗi lượt)\n- Khi nhận sát thương, gây 2 Trầm luân lên kẻ tấn công (1 lần mỗi lượt)\n- Với mỗi 20 Tinh thần (SP), Cường độ Trầm luân gây ra bởi hiệu ứng này +1 (Tối đa 2)\n- Kĩ năng cơ bản sử dụng được đổi thành kĩ năng Đồng xu Cộng",
       "summary": ""
     },
     {
       "id": "ProtectiveSword",
       "name": "Kiếm Bảo Vệ",
-      "desc": "- Khi bắt đầu lượt, với mỗi 1 giá trị nhận Tăng Cấp Phòng thủ 1 (Tối đa 5)\n- Khi bắt đầu lượt, Chỉ số Khiêu khích của ô kỹ năng nằm ngoài cùng bên trái trên bảng điều khiển tăng (Giá trị × 3) (Tối đa 15)\n- Giá trị tối đa: 5\n- Biến mất khi kết thúc lượt",
+      "desc": "- Khi bắt đầu lượt, với mỗi 1 giá trị nhận 1 Tăng Cấp độ Phòng thủ (Tối đa 5)\n- Khi bắt đầu lượt, Chỉ số Khiêu khích của ô kĩ năng nằm ngoài cùng bên trái trên bảng điều khiển tăng (Giá trị × 3) (Tối đa 15)\n- Giá trị tối đa: 5\n- Biến mất khi kết thúc lượt",
       "summary": ""
     },
     {
       "id": "DespairAlly",
       "name": "Tuyệt Vọng",
-      "desc": "- Khi bắt đầu lượt, với mỗi -8 Điểm Tinh thần nhận 1 Kiếm Xuyên Thấu (Tối đa 5)\n- Khi kết thúc trận đấu, tăng số lần Trầm luân của mục tiêu thêm 1 (1 lần mỗi lượt)\n- Khi đồng xu đầu tiên của kỹ năng tấn công cơ bản trúng đích, tăng số lần Trầm luân của mục tiêu thêm 1 (1 lần mỗi lượt)\n- Với mỗi -20 Điểm Tinh thần, giá trị số lần Trầm luân gây ra bởi hiệu ứng buff này +1 (Tối đa 2)\n- Kỹ năng cơ bản sử dụng được đổi thành kỹ năng Trừ Coin",
+      "desc": "- Khi bắt đầu lượt, với mỗi -8 Tinh thần (SP) nhận 1 Kiếm Xuyên Thấu (Tối đa 5)\n- Khi Đối kháng kết thúc, tăng 1 Số lượng Trầm luân của mục tiêu (1 lần mỗi lượt)\n- Khi Đồng xu đầu tiên của kĩ năng tấn công cơ bản trúng đích, tăng 1 Số lượng Trầm luân của mục tiêu (1 lần mỗi lượt)\n- Với mỗi -20 Tinh thần (SP), Số lượng Trầm luân gây ra bởi hiệu ứng này +1 (Tối đa 2)\n- Kĩ năng cơ bản sử dụng được đổi thành kĩ năng Đồng xu Trừ",
       "summary": ""
     },
     {
       "id": "PenetratingSword",
       "name": "Kiếm Xuyên Thấu",
-      "desc": "- Khi bắt đầu lượt, với mỗi 1 giá trị nhận Tăng Cấp Tấn công 1 (Tối đa 5)\n- Khi bắt đầu lượt, Chỉ số Khiêu khích của tất cả ô kỹ năng tăng (Giá trị × 0.15) (Tối đa 0.75)\n- Giá trị tối đa: 5\n- Biến mất khi kết thúc lượt",
+      "desc": "- Khi bắt đầu lượt, với mỗi 1 giá trị nhận 1 Tăng Cấp độ Tấn công (Tối đa 5)\n- Khi bắt đầu lượt, Chỉ số Khiêu khích của tất cả ô kĩ năng giảm (Giá trị × 0.15) (Tối đa 0.75)\n- Giá trị tối đa: 5\n- Biến mất khi kết thúc lượt",
       "summary": ""
     },
     {
       "id": "SwordCutwithTear",
       "name": "Mài Sắc Bằng Nước Mắt",
-      "desc": "- Khi bắt đầu lượt, nhận 5 Nước Mắt Sâu Thẳm\n· Nếu giá trị là 3, nhận thêm 5 Nước Mắt Sâu Thẳm\n- Khi kết thúc lượt, giảm Điểm Tinh thần đi (Giá trị × 15)\n- Sát thương của kỹ năng tấn công cơ bản tăng (Giá trị × 10)% (Tối đa 30%)\n- Nếu ở trạng thái Gia Hộ, nhận Tăng Uy lực Đối kháng theo giá trị khi bắt đầu lượt\n- Nếu ở trạng thái Tuyệt Vọng, nhận Tăng Uy lực Đâm theo giá trị khi bắt đầu lượt\n- Giá trị tối đa: 3",
+      "desc": "- Khi bắt đầu lượt, nhận 5 Nước Mắt Sâu Thẳm\n· Nếu giá trị là 3, nhận thêm 5 Nước Mắt Sâu Thẳm\n- Khi kết thúc lượt, giảm (Giá trị × 15) Tinh thần (SP)\n- Sát thương của kĩ năng tấn công cơ bản tăng (Giá trị × 10)% (Tối đa 30%)\n- Nếu ở trạng thái Gia Hộ, nhận Tăng Sức mạnh Đối kháng bằng Giá trị khi bắt đầu lượt\n- Nếu ở trạng thái Tuyệt Vọng, nhận Tăng Uy lực Đâm bằng Giá trị khi bắt đầu lượt\n- Giá trị tối đa: 3",
       "summary": ""
     },
     {
       "id": "BlackTearsAlly",
       "name": "Nước Mắt Sâu Thẳm",
-      "desc": "- Sạc đặc biệt (Cố định uy lực)\n- Khi tiêu thụ, năng lực của kỹ năng nhất định sẽ tăng lên\n- Giá trị tối đa: 20",
+      "desc": "- Sạc đặc biệt (Cường độ cố định)\n- Khi tiêu thụ, năng lực của kĩ năng nhất định sẽ tăng lên\n- Giá trị tối đa: 20",
       "summary": ""
     },
     {
       "id": "KnightBless",
       "name": "Gia Hộ",
-      "desc": "- Khi bắt đầu lượt nhận 2 Bảo Hộ\n- Kháng vật lý vượt quá 1 sẽ được điều chỉnh về 1 (Ngoại trừ trạng thái Choáng)",
+      "desc": "- Khi bắt đầu lượt nhận 2 Bảo hộ\n- Kháng vật lý vượt quá 1 sẽ được điều chỉnh về 1 (Ngoại trừ trạng thái Choáng)",
       "summary": ""
     },
     {
       "id": "TraumaShield",
       "name": "Trường Ngăn Ngừa Sang Chấn",
-      "desc": "- Giảm 80% sát thương Điểm Tinh thần từ kẻ thù\n- Giảm 80% sát thương Trầm luân\n- Giảm 1 giá trị khi kết thúc lượt",
+      "desc": "- Giảm 80% sát thương Tinh thần (SP) từ kẻ thù\n- Giảm 80% sát thương Trầm luân\n- Giảm 1 giá trị khi kết thúc lượt",
       "summary": ""
     }
   ]

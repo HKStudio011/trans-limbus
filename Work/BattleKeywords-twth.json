@@ -3,7 +3,7 @@
     {
       "id": "BearClawWound",
       "name": "Màu Sắc Bị Xé Toạc [Rouge]",
-      "desc": "- Giá trị tối đa: 9\n- Khi Nhận sát thương, nhận 1 Số lượng Xuất huyết với mỗi 3 giá trị (1 lần mỗi lượt)\n- Kết thúc lượt, nhận 1 Giảm Cấp Phòng Ngự vào lượt tiếp theo với mỗi 4 giá trị (Tối đa 2)\n- Giảm 1 khi kết thúc lượt",
+      "desc": "- Giá trị tối đa: 9\n- Khi nhận sát thương, nhận 1 Cường độ Xuất huyết với mỗi 3 giá trị (1 lần mỗi lượt)\n- Khi kết thúc lượt, nhận 1 Giảm Cấp độ Phòng thủ vào lượt tiếp theo với mỗi 4 giá trị (tối đa 2)\n- Khi kết thúc lượt, giảm 1 giá trị",
       "summary": "",
       "undefined": "-",
       "flavor": "「Có lời đồn rằng màu vẽ của Ngón Áp Út có cùng thành phần với hình xăm cường hóa. Vì một khi đã khắc lên thì màu sắc sẽ không dễ phai đi, và cũng chẳng thể xóa nhòa.」"
@@ -11,7 +11,7 @@
     {
       "id": "EagleClawWound",
       "name": "Màu Sắc Bị Xé Toạc [Bleu]",
-      "desc": "- Giá trị tối đa: 9\n- Khi Nhận sát thương, nhận 1 Số lượng Trầm luân với mỗi 3 giá trị (1 lần mỗi lượt)\n- Kết thúc lượt, nếu giá trị từ 5 trở lên thì Tinh thần giảm 5\n- Giảm 1 khi kết thúc lượt",
+      "desc": "- Giá trị tối đa: 9\n- Khi nhận sát thương, nhận 1 Cường độ Trầm luân với mỗi 3 giá trị (1 lần mỗi lượt)\n- Khi kết thúc lượt, nếu có từ 5 giá trị trở lên thì giảm 5 Tinh thần (SP)\n- Khi kết thúc lượt, giảm 1 giá trị",
       "summary": "",
       "undefined": "-",
       "flavor": "「Nếu hình xăm của Ngón Giữa là thứ tự mình khắc lên để cường hóa bản thân, thì phải chăng hình xăm của Ngón Áp Út là thứ cưỡng ép khắc lên đối phương để làm suy yếu họ?」"
@@ -19,7 +19,7 @@
     {
       "id": "BoldBrushstrokes",
       "name": "Nét Vẽ Táo Bạo",
-      "desc": "- Trong khi hiệu ứng này còn hiệu lực, sát thương HP và Tinh thần gây ra bởi Xuất huyết và Trầm luân tăng gấp đôi\n- Giảm 1 khi kết thúc lượt\n- Giá trị tối đa: 1",
+      "desc": "- Trong khi hiệu ứng này còn hiệu lực, sát thương Máu và Tinh thần (SP) mà bản thân nhận từ Xuất huyết và Trầm luân tăng gấp đôi\n- Khi kết thúc lượt, giảm 1 giá trị\n- Giá trị tối đa: 1",
       "summary": "",
       "undefined": "-",
       "flavor": "「Dùng móng vuốt của sói, móng vuốt của linh miêu, và vô số móng chân rùa khó thấy để hoàn thiện chi tiết... quả là táo bạo.」"
@@ -27,7 +27,7 @@
     {
       "id": "IntenseColors",
       "name": "Màu Sắc Mãnh Liệt",
-      "desc": " - Sát thương Nhận từ thành viên Ngón Áp Út +(Giá trị × 5)% ・Nếu mục tiêu thuộc Trường phái Dã thú Ngón Áp Út, hiệu ứng được tăng cường, thay vào đó Sát thương Nhận +(Giá trị × 10)% - Khi bắt đầu trận chiến, Nhận (Giá trị + 1) Số lượng Xuất huyết và Trầm luân, đồng thời tăng Số lượt Xuất huyết và Số lượt Trầm luân - Khi kết thúc trận chiến, hiệu ứng này biến mất và giá trị của Màu Sắc Bị Xé Toạc [Rouge] và Màu Sắc Bị Xé Toạc [Bleu] bị giảm một nửa (Làm tròn xuống) - Giá trị tối đa: 4",
+      "desc": "- Nhận +(Giá trị × 5)% sát thương từ các đơn vị thuộc Ngón Áp Út\n· Nếu kẻ tấn công thuộc Trường phái Dã thú của Ngón Áp Út, thay vào đó nhận +(Giá trị × 10)% sát thương\n- Khi bắt đầu trận chiến, nhận (Giá trị + 1) Cường độ Xuất huyết, Cường độ Trầm luân, Số lượng Xuất huyết và Số lượng Trầm luân\n- Khi kết thúc trận chiến, hiệu ứng này biến mất. Giảm một nửa giá trị Màu Sắc Bị Xé Toạc [Rouge] và Màu Sắc Bị Xé Toạc [Bleu] trên bản thân (làm tròn xuống)\n- Giá trị tối đa: 4",
       "summary": "",
       "undefined": "-",
       "flavor": ""
@@ -35,7 +35,7 @@
     {
       "id": "FaubismWolfMask",
       "name": "Trường phái Dã thú - Masque du Loup",
-      "desc": "- Tốc độ tối thiểu/tối đa +1\n- Lượng Xuất huyết và Trầm luân Gây ra bởi kỹ năng +1\n- Trước khi trúng đòn, nếu đối tượng không có Trầm luân, tăng Số lượt Trầm luân của đối tượng thêm 2 (1 lần cho mỗi Tù nhân mỗi lượt)\n- Ngay trước khi Nhận sát thương, nếu đối tượng không có Xuất huyết, tăng Số lượt Xuất huyết của đối tượng thêm 2 (1 lần cho mỗi Tù nhân mỗi lượt)",
+      "desc": "- Tốc độ tối thiểu/tối đa +1\n- Cường độ Xuất huyết và Trầm luân gây ra bởi Kĩ năng +1\n- Trước khi ra đòn, nếu mục tiêu không có Trầm luân, gây thêm 2 Số lượng Trầm luân (1 lần mỗi Tù nhân mỗi lượt)\n- Trước khi bị đánh trúng, nếu mục tiêu không có Xuất huyết, gây thêm 2 Số lượng Xuất huyết (1 lần mỗi Tù nhân mỗi lượt)",
       "summary": "",
       "undefined": "-",
       "flavor": "「Có lẽ ngươi sẽ thắc mắc Trường phái Dã thú khác gì với Hắc Thú, Tập đoàn R hay những thứ khác lợi dụng loài thú.」\n\n「Nếu Hắc Thú là thứ nhồi nhét loài thú vào cơ thể, thì Trường phái Dã thú là tác phẩm được thể hiện bằng cách khoác lên người.」"
@@ -43,7 +43,7 @@
     {
       "id": "FaubismWolfMaskBlooded",
       "name": "Trường phái Dã thú - Masque du Loup Ensanglanté",
-      "desc": " - Sát thương Gây ra +20%, tất cả đồng xu được chuyển thành đồng xu không thể phá hủy - Tốc độ tối thiểu/tối đa +1 - Lượng hiệu ứng bất lợi dưới đây Gây ra bởi kỹ năng +1 ・Số lượng và Số lượt Xuất huyết ・Số lượng và Số lượt Trầm luân - Trước khi trúng đòn, nếu đối tượng không có Trầm luân, tăng Số lượt Trầm luân của đối tượng thêm 2 (3 lần cho mỗi Tù nhân mỗi lượt) - Ngay trước khi Nhận sát thương, nếu đối tượng không có Xuất huyết, tăng Số lượt Xuất huyết của đối tượng thêm 2 (3 lần cho mỗi Tù nhân mỗi lượt)",
+      "desc": "- Sát thương gây ra +20%; chuyển toàn bộ Đồng xu thành Đồng xu không thể phá hủy\n- Tốc độ tối thiểu/tối đa +1\n- Gây thêm +1 lượng của các hiệu ứng bất lợi sau bằng Kĩ năng\n· Cường độ và Số lượng Xuất huyết\n· Cường độ và Số lượng Trầm luân\n- Trước khi ra đòn, nếu mục tiêu không có Trầm luân, gây thêm 2 Số lượng Trầm luân (3 lần mỗi Tù nhân mỗi lượt)\n- Trước khi bị đánh trúng, nếu mục tiêu không có Xuất huyết, gây thêm 2 Số lượng Xuất huyết (3 lần mỗi Tù nhân mỗi lượt)",
       "summary": "",
       "undefined": "-",
       "flavor": "Không phải cứ đeo mặt nạ thú lên đầu là sẽ thức tỉnh bản năng dã tính và tăng sức chiến đấu.\nBên trong mặt nạ có vô số cây kim được tẩm màu vẽ của Trường phái Dã thú, chỉ cần đeo mặt nạ vào, những cây kim đó sẽ tiêm màu vẽ vào cơ thể.\n\nMàu vẽ của Ngón Áp Út. Rốt cuộc thì, tất cả thành viên Ngón Áp Út đều không còn lựa chọn nào khác ngoài việc sử dụng màu vẽ."
@@ -51,7 +51,7 @@
     {
       "id": "PanicChangeLock",
       "name": "Không thể thay đổi Hoảng loạn",
-      "desc": "- Khi nhận buff thay đổi loại Hoảng loạn, thay vì thay đổi loại Hoảng loạn, mục tiêu sẽ nhận hiệu ứng áp dụng cho đối tượng không có Tinh thần",
+      "desc": "- Khi nhận hiệu ứng thay đổi loại Hoảng loạn, loại Hoảng loạn không bị thay đổi; thay vào đó, bản thân nhận hiệu ứng dành cho đối tượng không có Tinh thần (SP)",
       "summary": "",
       "undefined": "-",
       "flavor": ""
@@ -59,59 +59,59 @@
     {
       "id": "Fauvism_Lowmorale",
       "name": "Ý Tưởng Lụi Tàn",
-      "desc": "- Giảm sút ý chí\n- Nếu đối tượng bản thân tấn công có Màu Sắc Bị Xé Toạc, sát thương Gây ra tăng 10%\n- Nhận 1 Mong manh",
+      "desc": "- Tinh thần thấp\n- Nếu mục tiêu mà bản thân tấn công có Màu Sắc Bị Xé Toạc, sát thương gây ra +10%\n- Nhận 1 Mong manh",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "Fauvism_Panic",
       "name": "Ý Tưởng Lụi Tàn",
-      "desc": "- Hoảng loạn\n- Nếu đối tượng bản thân tấn công có Màu Sắc Bị Xé Toạc, sát thương Gây ra tăng 20%\n- Nhận 2 Mong manh",
+      "desc": "- Hoảng loạn\n- Nếu mục tiêu mà bản thân tấn công có Màu Sắc Bị Xé Toạc, sát thương gây ra +20%\n- Nhận 2 Mong manh",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "FauvismDocent_Lowmorale",
       "name": "Sắc Màu Bốc Đồng",
-      "desc": "- Giảm sút ý chí\n- Sát thương Gây ra +2.5% với mỗi loại hiệu ứng bất lợi đối tượng đang sở hữu (Tối đa 15%)\n- Nhận 1 Mong manh",
+      "desc": "- Tinh thần thấp\n- Sát thương gây ra +2.5% cho mỗi loại hiệu ứng bất lợi trên mục tiêu mà bản thân tấn công (tối đa 15%)\n- Nhận 1 Mong manh",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "FauvismDocent_Panic",
       "name": "Sắc Màu Bốc Đồng",
-      "desc": "- Hoảng loạn\n- Sát thương Gây ra +5% với mỗi loại hiệu ứng bất lợi đối tượng đang sở hữu (Tối đa 30%)\n- Nhận 2 Mong manh",
+      "desc": "- Hoảng loạn\n- Sát thương gây ra +5% cho mỗi loại hiệu ứng bất lợi trên mục tiêu mà bản thân tấn công (tối đa 30%)\n- Nhận 2 Mong manh",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "IndexPrescriptEnemy_0",
-      "name": "Chỉ Thị [Tờ giấy] I",
-      "desc": "Tấn công Tù nhân và trúng đòn.\n\n- Nhận khi Phước Lành của Chỉ Thị ở mức 0~2 vào đầu lượt\n- Giá trị Phước Lành của Chỉ Thị tối đa có thể đạt được với chỉ thị này: 3",
+      "name": "Chỉ thị: [Tờ giấy] I",
+      "desc": "Tấn công và đánh trúng một Tù nhân.\n\n- Khi bắt đầu lượt, nhận nếu Sự Bảo Hộ của Chỉ thị ở mức 0~2\n- Giá trị Sự Bảo Hộ của Chỉ thị tối đa có thể đạt được bằng Chỉ thị này là 3",
       "summary": "",
       "undefined": "-",
       "flavor": "Chỉ thị được truyền đạt dưới nhiều hình thức khác nhau. Việc Chỉ thị được truyền đạt dưới hình thức nào được lựa chọn và quyết định một chiều, tựa như lời sấm truyền."
     },
     {
       "id": "IndexPrescriptEnemy_1",
-      "name": "Chỉ thị [Tờ giấy]II",
-      "desc": "Tấn công trúng đích mục tiêu của Chỉ thị.\n\n- Khi bắt đầu lượt, nhận được khi Sự Bảo Hộ của Chỉ Thị từ 3–5\n- Giá trị Sự Bảo Hộ của Chỉ Thị tối đa có thể đạt được qua Chỉ thị này: 6",
+      "name": "Chỉ thị: [Tờ giấy] II",
+      "desc": "Tấn công và đánh trúng mục tiêu của Chỉ thị.\n\n- Khi bắt đầu lượt, nhận nếu Sự Bảo Hộ của Chỉ thị ở mức 3~5\n- Giá trị Sự Bảo Hộ của Chỉ thị tối đa có thể đạt được bằng Chỉ thị này là 6",
       "summary": "",
       "undefined": "-",
       "flavor": "Chỉ thị được truyền đạt dưới nhiều hình thức khác nhau. Việc Chỉ thị được truyền đạt dưới hình thức nào được lựa chọn và quyết định một chiều, tựa như lời sấm truyền."
     },
     {
       "id": "IndexPrescriptEnemy_2",
-      "name": "Chỉ thị [Tờ giấy]III",
-      "desc": "Đồng minh (bao gồm cả bản thân) khiến một Tù nhân ngẫu nhiên bị Hoảng loạn hoặc bị tiêu diệt.\n\n- Khi bắt đầu lượt, nhận được khi Sự Bảo Hộ của Chỉ Thị từ 6–8\n- Giá trị Sự Bảo Hộ của Chỉ Thị tối đa có thể đạt được qua Chỉ thị này: 9",
+      "name": "Chỉ thị: [Tờ giấy] III",
+      "desc": "Đồng minh (bao gồm cả bản thân) khiến một Tù nhân ngẫu nhiên bị Choáng hoặc bị tiêu diệt.\n\n- Khi bắt đầu lượt, nhận nếu Sự Bảo Hộ của Chỉ thị ở mức 6~8\n- Giá trị Sự Bảo Hộ của Chỉ thị tối đa có thể đạt được bằng Chỉ thị này là 9",
       "summary": "",
       "undefined": "-",
       "flavor": "Chỉ thị được truyền đạt dưới nhiều hình thức khác nhau. Việc Chỉ thị được truyền đạt dưới hình thức nào được lựa chọn và quyết định một chiều, tựa như lời sấm truyền."
     },
     {
       "id": "IndexPrescriptEnemy_3",
-      "name": "Chỉ thị [Tờ giấy]IV",
-      "desc": "Tiêu diệt toàn bộ kẻ thù. Thời hạn là cho đến khi Chỉ thị tiếp theo được ban xuống.\n\n- Khi bắt đầu lượt, nhận được khi Sự Bảo Hộ của Chỉ Thị là 9",
+      "name": "Chỉ thị: [Tờ giấy] IV",
+      "desc": "Tiêu diệt toàn bộ kẻ địch trước khi Chỉ thị tiếp theo giáng xuống.\n\n- Khi bắt đầu lượt, nhận nếu Sự Bảo Hộ của Chỉ thị là 9",
       "summary": "",
       "undefined": "-",
       "flavor": "Chỉ thị được truyền đạt dưới nhiều hình thức khác nhau. Việc Chỉ thị được truyền đạt dưới hình thức nào được lựa chọn và quyết định một chiều, tựa như lời sấm truyền."
@@ -119,29 +119,29 @@
     {
       "id": "KarmaOfIndexEnemy",
       "name": "Karma",
-      "desc": " - Khi bắt đầu lượt, ・Mỗi 10 giá trị, Nhận 1 Giảm Cấp Phòng Thủ ・Mỗi 20 giá trị, Nhận 1 Mong manh - Tối đa 100",
+      "desc": "- Khi bắt đầu lượt:\n· Với mỗi 10 giá trị, nhận 1 Giảm Cấp độ Phòng thủ\n· Với mỗi 20 giá trị, nhận 1 Mong manh\n- Tối đa: 100",
       "summary": "",
       "undefined": "-",
-      "flavor": "Tiếp nhận Chỉ thị và thực thi. Điều đó sẽ trở thành nghiệp quả, xoay vần và tích tụ lại."
+      "flavor": "Tiếp nhận Chỉ thị và thực thi. Điều đó được khắc ghi thành nghiệp quả, xoay vần không ngớt rồi quay về tay kẻ thực thi."
     },
     {
       "id": "ResentmentSpiderDaughterTwo",
       "name": "<s>Ngón Giữa</s> - Oán Hận",
-      "desc": "- Giá trị tối đa: 10\n- Giảm khi sử dụng kỹ năng nhất định\n- Với mỗi 1 giá trị, Cấp Tấn Công +1, Cấp Phòng Thủ -2, Sát thương kỹ năng Phản đòn +5%\n- Khi ở giá trị tối đa, Sát thương nhận vào +20%",
+      "desc": "- Giá trị tối đa: 10\n- Giảm khi sử dụng Kĩ năng nhất định\n- Với mỗi 1 giá trị, Cấp độ Tấn công +1, Cấp độ Phòng thủ -2, sát thương Kĩ năng Phản đòn +5%\n- Khi ở giá trị tối đa, sát thương nhận vào +20%",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "ReinforcedTattooSpiderDaughterTwo",
-      "name": "Hình xăm Cường hóa <s>Kiểu Ngón Giữa</s>",
-      "desc": " - Giá trị tối đa: 3 - Sát thương thuộc tính Va chạm・Ghen tị +10%",
+      "name": "<s>Kiểu Ngón Giữa</s> Hình xăm Cường hóa",
+      "desc": "- Giá trị tối đa: 3\n- Sát thương thuộc tính Đập và Ghen tị +10%",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "HeatingWireOnSpiderTwo",
-      "name": "Tia Nhiệt ON",
-      "desc": "Khi đồng xu của kỹ năng Tia Nhiệt trúng đích, Gây thêm số lượng và Cấp độ Bỏng tương ứng với số lượng và Cấp độ Xuất huyết đã gây.",
+      "name": "Bật Dây Nhiệt",
+      "desc": "Khi đồng xu của Kĩ năng Dây Nhiệt đánh trúng, gây thêm Cường độ và Số lượng Bỏng đúng bằng Cường độ và Số lượng Xuất huyết đã gây.",
       "summary": "",
       "undefined": "-"
     }
