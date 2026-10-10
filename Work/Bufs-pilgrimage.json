@@ -2,147 +2,147 @@
   "dataList": [
     {
       "id": "NetherseaBrand",
-      "name": "Minh Ngân",
-      "desc": "Mỗi khi lượt trôi qua, phạm vi ảnh hưởng của Minh Ngân khuếch tán sang phe Tù nhân\n- Giai đoạn 1: Phe Khủng Ngư\n- Giai đoạn 2: 2 Tù nhân hàng trước\n- Giai đoạn 3: 5 Tù nhân hàng trước\n- Giai đoạn 4: Toàn bộ Tù nhân",
-      "summary": "Minh Ngân khuếch tán mỗi khi lượt trôi qua"
+      "name": "Vết tích Biển sâu",
+      "desc": "Mỗi khi lượt trôi qua, phạm vi ảnh hưởng của Vết tích Biển sâu lan rộng sang phe Tù nhân\n- Giai đoạn 1: Lãnh thổ Khủng ngư\n- Giai đoạn 2: 2 Tù nhân hàng trước\n- Giai đoạn 3: 5 Tù nhân hàng trước\n- Giai đoạn 4: Toàn bộ Tù nhân",
+      "summary": "Vết tích Biển sâu lan rộng sau mỗi lượt"
     },
     {
       "id": "NetherseaBrandUnit",
-      "name": "Minh Ngân",
-      "desc": "- Khi kết thúc lượt, Tù nhân đứng trên Minh Ngân sẽ nhận sát thương cố định bằng 5% Máu tối đa và nhận 3 Tổn thương Thần kinh\n- Khủng Ngư đứng trên Minh Ngân tăng mạnh Tổn thương Thần kinh gây ra cho Tù nhân\n- Mỗi khi lượt trôi qua, phạm vi ảnh hưởng của Minh Ngân khuếch tán sang phe Tù nhân\n- Giai đoạn 1: Phe Khủng Ngư\n- Giai đoạn 2: Áp dụng lên tối đa 2 Tù nhân hàng trước\n- Giai đoạn 3: Áp dụng lên tối đa 5 Tù nhân hàng trước\n- Giai đoạn 4: Áp dụng cho toàn bộ Tù nhân",
-      "summary": "Đồng minh đứng trên Minh Ngân nhận sát thương cố định và Tổn thương Thần kinh\nKẻ địch đứng trên Minh Ngân tăng mạnh Tổn thương Thần kinh gây ra cho đồng minh"
+      "name": "Vết tích Biển sâu",
+      "desc": "- Tù nhân đứng trên Vết tích Biển sâu: khi kết thúc lượt, nhận sát thương cố định bằng 5% Máu tối đa và nhận 3 Tổn thương Thần kinh\n- Tăng đáng kể lượng Tổn thương Thần kinh mà Khủng ngư đứng trên Vết tích Biển sâu gây lên Tù nhân\n- Mỗi khi lượt trôi qua, phạm vi ảnh hưởng của Vết tích Biển sâu lan rộng sang phe Tù nhân\n· Giai đoạn 1: Lãnh thổ Khủng ngư\n· Giai đoạn 2: Áp dụng cho tối đa 2 Tù nhân hàng trước\n· Giai đoạn 3: Áp dụng cho tối đa 5 Tù nhân hàng trước\n· Giai đoạn 4: Áp dụng cho toàn bộ Tù nhân",
+      "summary": "Đồng minh trên Vết tích Biển sâu nhận sát thương cố định và nhận Tổn thương Thần kinh\nTăng đáng kể lượng Tổn thương Thần kinh mà kẻ địch trên Vết tích Biển sâu gây lên đồng minh"
     },
     {
       "id": "SeaTerrorCell",
-      "name": "Đồng Hóa Khủng Ngư",
-      "desc": "- Giá trị tối đa: 5\n- Tăng 1 giá trị khi bắt đầu lượt\n- Với mỗi 1 giá trị, nhận 1 Giảm Cấp độ Tấn công, 1 Giảm Cấp độ Phòng thủ\n- Khi kết thúc lượt, nếu số cộng dồn là 5 thì rời khỏi chiến trường\n- Khi Tù nhân sở hữu cộng dồn, nếu bắt đầu trận đấu khi đang trang bị kỹ năng Phòng thủ thì sẽ rời khỏi chiến trường khi kết thúc lượt",
+      "name": "Đồng hóa Khủng ngư",
+      "desc": "- Giá trị tối đa: 5\n- Khi bắt đầu lượt, nhận 1 giá trị\n- Với mỗi 1 giá trị, nhận 1 Giảm Cấp độ Tấn công và 1 Giảm Cấp độ Phòng thủ\n- Khi kết thúc lượt, nếu một Tù nhân đồng minh có 5 giá trị của hiệu ứng này, Tù nhân đó rời khỏi chiến trường.\n- Khi Tù nhân đồng minh đang có hiệu ứng này mà trang bị Kĩ năng Phòng thủ, họ rời khỏi chiến trường ngay khi bắt đầu trận chiến",
       "summary": "Nhận Giảm Cấp độ Tấn công và Giảm Cấp độ Phòng thủ tỉ lệ thuận với giá trị"
     },
     {
       "id": "NervousImpairment",
       "name": "Tổn thương Thần kinh",
-      "desc": "- Giá trị tối đa: 30\n- Nếu giá trị là 30, bị Hoảng loạn rồi nhận sát thương cố định bằng 25% Máu tối đa và xóa bỏ hiệu ứng này",
-      "summary": "Hoảng loạn và nhận sát thương lớn"
+      "desc": "- Giá trị tối đa: 30\n- Nếu giá trị là 30, bị Choáng rồi nhận sát thương cố định bằng 25% Máu tối đa và xóa bỏ hiệu ứng này",
+      "summary": "Bị Choáng và nhận sát thương lớn"
     },
     {
       "id": "WaitingforCommandMod",
       "name": "Trạng thái Chờ",
-      "desc": "- Nếu đang ở Trạng thái Chờ, sẽ không sử dụng kỹ năng tấn công cho đến khi nhận sát thương",
-      "summary": "Nếu đang ở Trạng thái Chờ, sẽ không sử dụng kỹ năng tấn công cho đến khi nhận sát thương"
+      "desc": "- Nếu ở Trạng thái Chờ, sẽ không sử dụng kĩ năng tấn công cho đến khi nhận sát thương",
+      "summary": "Nếu ở Trạng thái Chờ, sẽ không sử dụng kĩ năng tấn công cho đến khi nhận sát thương"
     },
     {
       "id": "ParticipationMod",
       "name": "Tư thế Sẵn sàng Chiến đấu",
-      "desc": "- Tiến vào trạng thái sử dụng kỹ năng tấn công khi nhận sát thương\n- Khi bắt đầu lượt ở Tư thế Sẵn sàng Chiến đấu:\n・Gây 3 Sát thương Thần kinh cho toàn bộ kẻ địch\n・Tăng 3 giá trị Tốc độ tối thiểu/tối đa\n・Với mỗi 10% Máu đã mất, nhận 1 Tăng Cấp Tấn công (Tối đa 8)\n- Khi kết thúc lượt ở Tư thế Sẵn sàng Chiến đấu, nhận sát thương cố định bằng 10% Máu tối đa",
-      "summary": "Nhận sát thương và tiến vào trạng thái sử dụng kỹ năng tấn công"
+      "desc": "- Sau khi nhận sát thương, đơn vị bắt đầu sử dụng Kĩ năng Tấn công\n- Khi bắt đầu lượt ở Tư thế Sẵn sàng Chiến đấu:\n・Gây 3 Tổn thương Thần kinh lên tất cả kẻ địch\n・Tốc độ tối thiểu/tối đa +3\n・Với mỗi 10% Máu đã mất, nhận 1 Tăng Cấp độ Tấn công (tối đa 8)\n- Khi kết thúc lượt ở Tư thế Sẵn sàng Chiến đấu, nhận sát thương cố định bằng 10% Máu tối đa",
+      "summary": "Tiến vào trạng thái sử dụng kĩ năng tấn công khi nhận sát thương"
     },
     {
       "id": "AbyssalVitality",
-      "name": "Sinh Lực Biển Sâu",
-      "desc": "- Giá trị tối đa: 100\n- Tiêu hao khi sử dụng kỹ năng nhất định\n- Mỗi khi tiêu hao, hồi phục Tinh thần bằng chính giá trị đó",
-      "summary": "Tiêu hao khi sử dụng kỹ năng nhất định\n- Hồi phục Tinh thần mỗi khi tiêu hao"
+      "name": "Sinh lực Biển sâu",
+      "desc": "- Giá trị tối đa: 100\n- Tiêu hao khi sử dụng kĩ năng nhất định\n- Mỗi khi tiêu hao, hồi phục Tinh thần (SP) của bản thân bằng với giá trị đó",
+      "summary": "Tiêu hao khi sử dụng kĩ năng nhất định\n- Hồi phục Tinh thần (SP) mỗi khi tiêu hao"
     },
     {
       "id": "IndelibleGoodwill",
-      "name": "Thiện Ý Không Thể Dập Tắt",
-      "desc": "- Lớp Bảo hộ không biến mất khi kết thúc lượt (Trừ trường hợp biến mất do sát thương hoặc hiệu ứng)\n- Nếu Lớp Bảo hộ bị phá hủy do nhận sát thương, bị Hoảng loạn và nhận 5 [Mong manh] (Mong manh) cho đến lượt tiếp theo\n- Nếu bị Hoảng loạn do tổn thương Thanh Hoảng loạn, nhận 5 [Mong manh] (Mong manh) cho đến lượt tiếp theo\n- [Mong manh] (Mong manh) nhận được từ hiệu ứng tăng có lợi này không cộng dồn\n- Giá trị Lớp Bảo hộ có thể cộng dồn, khi hiệu ứng này đang áp dụng thì giá trị Lớp Bảo hộ không vượt quá 50% Máu tối đa của đối tượng được áp dụng\n- Hiệu ứng này được xử lý như một hiệu ứng quản lý Lớp Bảo hộ (Sẽ bị thay thế khi áp dụng hiệu ứng quản lý Lớp Bảo hộ khác)",
-      "summary": "Lớp Bảo hộ không biến mất khi kết thúc lượt\nSẽ bị suy yếu mạnh khi Lớp Bảo hộ bị phá hủy"
+      "name": "Thiện ý không thể xóa nhòa",
+      "desc": "- Khiên không biến mất khi kết thúc lượt (trừ khi bị phá hủy bởi sát thương hoặc hiệu ứng)\n- Nếu Khiên vỡ do bị đánh trúng, bị Choáng và nhận 5 Mong manh cho đến lượt sau\n- Nếu bị Choáng do Ngưỡng choáng bị đẩy lên, nhận 5 Mong manh cho đến lượt sau\n- Mong manh nhận từ hiệu ứng này không cộng dồn\n- Giá trị Khiên có thể cộng dồn; khi hiệu ứng này đang áp dụng, giá trị Khiên không vượt quá 50% Máu tối đa của đối tượng được áp dụng Khiên\n- Hiệu ứng này được tính là hiệu ứng Quản lý Khiên (sẽ bị thay thế khi nhận hiệu ứng Quản lý Khiên khác)",
+      "summary": "Khiên không biến mất khi kết thúc lượt\nTrở nên rất Mong manh khi Khiên vỡ"
     },
     {
       "id": "ColdAirDOQ",
       "name": "Giá Lạnh",
-      "desc": "- Giá trị tối đa: 3\n- Với mỗi 1 Giá Lạnh, Tốc độ giảm 1\n- Khi kết thúc kỹ năng, nếu giá trị là 3, nhận 20 sát thương Trầm mặc và 20 sát thương Tinh thần, đồng thời nhận 1 Đóng Băng trong lượt này và lượt tiếp theo. Sau khi kích hoạt toàn bộ hiệu ứng, Giá Lạnh sẽ biến mất\n- Khi kết thúc lượt, nếu không tấn công Hiệp Sĩ Cuối Cùng trong lượt này thì hiệu ứng sẽ biến mất",
+      "desc": "- Giá trị tối đa: 3\n- Với mỗi 1 Giá Lạnh, giảm 1 Tốc độ\n- Khi kết thúc Kĩ năng, nếu số giá trị là 3: nhận 20 sát thương Trầm mặc và 20 sát thương Tinh thần (SP); sau đó nhận 1 Đóng Băng trong lượt này và lượt sau.\n- Giá Lạnh biến mất sau khi tất cả hiệu ứng kích hoạt\n- Khi kết thúc lượt, nếu không tấn công Hiệp Sĩ Cuối Cùng, hiệu ứng biến mất",
       "summary": ""
     },
     {
       "id": "FreezingDOQ",
       "name": "Đóng Băng",
-      "desc": "- Giá Lạnh đặc biệt\n- Không thể hành động trong lượt này\n- Khi Máu trở thành 1, vô hiệu hóa việc kích hoạt một số kỹ năng",
+      "desc": "- Giá Lạnh đặc biệt\n- Không thể hành động trong lượt này\n- Khi Máu chạm mức 1, một số kích hoạt Kĩ năng bị vô hiệu hóa",
       "summary": ""
     },
     {
       "id": "BloodborneDOQ",
-      "name": "Xác Thịt Hiệp Sĩ",
+      "name": "Huyết nhục của Hiệp sĩ",
       "desc": "Sát thương nhận vào +80%",
       "summary": ""
     },
     {
       "id": "WeakenDOQ",
-      "name": "Gian Nan Khốn Khổ",
+      "name": "Khốn khổ và Tai ương",
       "desc": "- Giảm ?? Cấp độ Tấn công\n- Giảm ?? Cấp độ Phòng thủ",
       "summary": ""
     },
     {
       "id": "DOQ_LowMorale",
-      "name": "Ý Thức Tập Thể",
-      "desc": "Tất cả Kháng trở thành Bình thường",
-      "summary": "Tất cả Kháng trở thành Bình thường"
+      "name": "Ý thức Bầy đàn",
+      "desc": "Tất cả Kháng tính trở thành Bình thường",
+      "summary": "Tất cả Kháng tính trở thành Bình thường"
     },
     {
       "id": "DOQ_Panic",
-      "name": "Ý Thức Tập Thể",
-      "desc": "Tất cả Kháng trở thành Bình thường\nSố lượng [Bỏng] (Hỏa thiêu), [Xuất huyết] (Xuất huyết), [Chấn động] (Chấn động), [Vết rách] (Vết rách) nhận vào từ kỹ năng sẽ tăng gấp đôi",
-      "summary": "Tất cả Kháng trở thành Bình thường\nSố lượng [Bỏng] (Hỏa thiêu), [Xuất huyết] (Xuất huyết), [Chấn động] (Chấn động), [Vết rách] (Vết rách) nhận vào từ kỹ năng sẽ tăng gấp đôi"
+      "name": "Ý thức Bầy đàn",
+      "desc": "Tất cả Kháng tính trở thành Bình thường\nLượng Cường độ Bỏng, Xuất huyết, Chấn động và Vết rách nhận được từ hiệu ứng Kĩ năng tăng gấp đôi",
+      "summary": "Tất cả Kháng tính trở thành Bình thường\nLượng Cường độ Bỏng, Xuất huyết, Chấn động và Vết rách nhận được từ hiệu ứng Kĩ năng tăng gấp đôi"
     },
     {
       "id": "CallOfSea_LowMorale",
-      "name": "Tiếng Gọi Đồng Loại",
-      "desc": "Khi kết thúc lượt, tiêu hao 3% Máu tối đa của bản thân để gây cho bản thân và toàn bộ đồng minh 1 Tăng Uy lực Tấn công, 1 [Mong manh] (Mong manh) vào lượt tiếp theo",
-      "summary": "Tiêu hao HP để ban cho đồng minh Tăng Uy lực Tấn công và Mong manh"
+      "name": "Tiếng gọi Đồng loại",
+      "desc": "Khi kết thúc lượt, tiêu hao 3% Máu tối đa của bản thân để ban 1 Tăng Uy lực Tấn công và 1 Mong manh cho tất cả đồng minh bao gồm cả bản thân ở lượt sau",
+      "summary": "Tiêu hao HP để ban Tăng Uy lực Tấn công và Mong manh cho đồng minh"
     },
     {
       "id": "CallOfSea_Panic",
       "name": "Tiếng gọi Đồng loại",
-      "desc": "Khi kết thúc lượt, tiêu hao 5% HP tối đa của bản thân, nhận 1 Mong manh. Ở lượt kế tiếp, ban 1 Tăng Uy lực Tấn công và 1 Mong manh cho toàn bộ đồng minh bao gồm cả bản thân.",
-      "summary": "Tiêu hao HP để ban cho đồng minh Tăng Uy lực Tấn công và Mong manh"
+      "desc": "Khi kết thúc lượt, tiêu hao 5% Máu tối đa của bản thân, nhận 1 Mong manh, đồng thời ban 1 Tăng Uy lực Tấn công và 1 Mong manh cho tất cả đồng minh bao gồm cả bản thân ở lượt sau",
+      "summary": "Tiêu hao HP để ban Tăng Uy lực Tấn công và Mong manh cho đồng minh"
     },
     {
       "id": "BitOfEmotion",
-      "name": "Chia sẻ",
-      "desc": "- Khi tấn công trúng đích, có (50 ÷ Số lượng đồng xu của kỹ năng)% xác suất nhận được 1 tài nguyên E.G.O thuộc hệ của kỹ năng đã sử dụng.\n- Khi kết thúc kỹ năng tấn công của đồng minh, nếu kẻ địch chết, nhận ngẫu nhiên 2 tài nguyên E.G.O có số lượng sở hữu ít nhất.\n- Trong trận chiến lần này, nhận lại mỗi loại 1 tài nguyên đã tiêu hao khi sử dụng các kỹ năng E.G.O dưới đây (Nhận mỗi loại 2 nếu là Overclock):\n・Ca Ngợi Tự Thân - Hong Lu\n・Chỉ thị: Meltdown - Faust\n・Vinh Quang Không Tỏa Sáng - Gregor\n・Khúc Bi Ca Sóng Thần - Ishmael",
-      "summary": "Nhận tài nguyên E.G.O khi tấn công trúng đích hoặc kẻ địch chết.\nNhận tài nguyên E.G.O khi sử dụng một số kỹ năng E.G.O nhất định."
+      "name": "Chia sẻ Cảm xúc",
+      "desc": "- Khi tấn công trúng kẻ địch: có (50 ÷ Số lượng Đồng xu của Kĩ năng)% xác suất nhận 1 Tài nguyên E.G.O cùng hệ với Kĩ năng đã sử dụng\n- Khi một kẻ địch chết sau khi đòn Kĩ năng của đồng minh kết thúc, nhận 2 Tài nguyên E.G.O ngẫu nhiên trong số các loại có số lượng sở hữu ít nhất\n- Trong trận đánh, khi sử dụng các Kĩ năng E.G.O dưới đây, nhận lại mỗi hệ 1 Tài nguyên E.G.O đã tiêu hao (nhận 2 tài nguyên mỗi hệ khi dùng Kĩ năng Overclock)\n・Thà Rằng Tự Ta Làm Lấy Hong Lu\n・Chỉ Thị: Tan Chảy Faust\n・Vinh Quang Không Tỏa Sáng Gregor\n・Khúc Bi Ca Sóng Thần Ishmael",
+      "summary": "Nhận Tài nguyên E.G.O khi tấn công trúng hoặc khi kẻ địch chết\nNhận Tài nguyên E.G.O khi sử dụng Kĩ năng E.G.O nhất định"
     },
     {
       "id": "WildernessSurvivalModule",
       "name": "Little Handy - Đơn vị Sinh tồn Dã ngoại",
-      "desc": "- HP tối đa tăng 20%, lượng hồi phục HP từ kỹ năng, bị động, hiệu ứng buff tăng thêm 40%.",
+      "desc": "- HP tối đa tăng 20%, lượng hồi phục HP từ Kĩ năng, Nội tại và hiệu ứng tăng thêm 40%",
       "summary": "Tăng HP tối đa và lượng hồi phục HP"
     },
     {
       "id": "HousekeepingAssistantModule",
       "name": "Little Handy - Mô-đun Người giúp việc Gia đình",
-      "desc": "- Khi sử dụng Bàn tay Thánh nhân, kích hoạt thêm 1 lần vào lượt tiếp theo.\n- Khi bắt đầu lượt, nhận Tăng Cấp độ Tấn công và Tăng Cấp độ Phòng thủ tương ứng với số lần đã dọn sạch Vết Minh bằng Bàn tay Thánh nhân trong lượt này (Tối đa 4 mỗi loại).",
-      "summary": "- Khi sử dụng Bàn tay Thánh nhân, kích hoạt thêm 1 lần vào lượt tiếp theo.\nNhận Tăng Cấp độ Tấn công, Tăng Cấp độ Phòng thủ dựa trên số lần đã dọn sạch Vết Minh."
+      "desc": "- Khi sử dụng Bàn tay Thánh nhân, kích hoạt thêm 1 lần vào lượt sau\n- Khi bắt đầu lượt, nhận Tăng Cấp độ Tấn công và Tăng Cấp độ Phòng thủ bằng với số lần đã xóa Vết tích Biển sâu bằng Bàn tay Thánh nhân trong trận đánh này (mỗi loại tối đa 4)",
+      "summary": "Khi sử dụng Bàn tay Thánh nhân, kích hoạt thêm 1 lần vào lượt sau\nNhận Tăng Cấp độ Tấn công và Tăng Cấp độ Phòng thủ bằng với số lần xóa Vết tích Biển sâu"
     },
     {
       "id": "IncrementalMotionFirmware",
       "name": "Little Handy - Chương trình Tăng cường Động lượng",
-      "desc": "- Loại bỏ 1 Ngưỡng Choáng gần nhất của toàn bộ đồng minh.\n- Nếu bị Choáng, chỉ 1 lần duy nhất, hồi phục ngay lập tức khỏi trạng thái Choáng khi bắt đầu lượt tiếp theo.",
-      "summary": "Loại bỏ 1 Ngưỡng Choáng.\nNếu bị Choáng, hồi phục ngay lập tức khỏi trạng thái Choáng vào lượt tiếp theo."
+      "desc": "- Xóa 1 Ngưỡng choáng cao nhất của mỗi đơn vị đồng minh\n- Khi bị Choáng, lập tức hồi phục khỏi trạng thái Choáng vào đầu lượt sau (1 lần)",
+      "summary": "Xóa 1 Ngưỡng choáng\nKhi bị Choáng, lập tức hồi phục vào lượt sau"
     },
     {
       "id": "MiniDecontaminationKit",
-      "name": "Little Handy - Bộ Dọn dẹp Nhỏ gọn",
-      "desc": "- Vết Minh không còn gây sát thương cho đồng minh và không gây Tổn thương Thần kinh.",
-      "summary": "Vết Minh không còn gây sát thương cho đồng minh và không gây Tổn thương Thần kinh."
+      "name": "Little Handy - Bộ Khử nhiễm Nhỏ gọn",
+      "desc": "- Vết tích Biển sâu không còn gây Tổn thương Thần kinh hay gây sát thương lên đồng minh",
+      "summary": "Vết tích Biển sâu không còn gây Tổn thương Thần kinh hay gây sát thương lên đồng minh"
     },
     {
       "id": "ExternalUpgradeModule",
       "name": "Little Handy - Linh kiện Cường hóa Gắn ngoài",
-      "desc": "- Sau khi nhận hiệu ứng, trong 3 lượt, nhận 2 Tăng Uy lực và 2 Tăng Sát thương (Đối với Bản sắc được đưa ra khỏi hàng chờ, áp dụng từ lượt được đưa ra).",
-      "summary": "Sau khi nhận hiệu ứng, nhận Tăng Uy lực Tấn công và Tăng Sát thương trong 3 lượt."
+      "desc": "- Trong 3 lượt sau khi nhận hiệu ứng: vào đầu mỗi lượt, nhận 2 Tăng Uy lực và 2 Tăng Sát thương (đối với Bản sắc vừa kết thúc trạng thái chờ, áp dụng từ chính lượt kết thúc trạng thái chờ đó)",
+      "summary": "Trong 3 lượt sau khi nhận hiệu ứng, nhận Tăng Uy lực và Tăng Sát thương vào đầu mỗi lượt"
     },
     {
       "id": "DesireToSave_LowMorale",
-      "name": "Lòng Hảo tâm",
-      "desc": "- Sát thương gây ra tăng thêm (Tổn thương Thần kinh của đối tượng ÷ 2)% (Tối đa 15%).\nKhi bắt đầu lượt, nhận 1 Tăng Sát thương và 2 Mong manh.",
-      "summary": "Tăng Sát thương tỷ lệ thuận với Tổn thương Thần kinh của đối tượng."
+      "name": "Trái tim Thiện ý",
+      "desc": "- Sát thương gây ra +(Tổn thương Thần kinh trên mục tiêu ÷ 2)% (tối đa 15%)\n- Khi bắt đầu lượt, nhận 1 Tăng Sát thương và 2 Mong manh",
+      "summary": "Tăng sát thương tỉ lệ thuận với Tổn thương Thần kinh của đối tượng"
     },
     {
       "id": "DesireToSave_Panic",
-      "name": "Lòng Hảo tâm",
-      "desc": "- Sát thương gây ra tăng thêm (Tổn thương Thần kinh của đối tượng)% (Tối đa 30%).\nKhi bắt đầu lượt, nhận 2 Tăng Sát thương và 3 Mong manh.",
-      "summary": "Tăng Sát thương tỷ lệ thuận với Tổn thương Thần kinh của đối tượng."
+      "name": "Trái tim Thiện ý",
+      "desc": "- Sát thương gây ra +(Tổn thương Thần kinh trên mục tiêu)% (tối đa 30%)\n- Khi bắt đầu lượt, nhận 2 Tăng Sát thương và 3 Mong manh",
+      "summary": "Tăng sát thương tỉ lệ thuận với Tổn thương Thần kinh của đối tượng"
     }
   ]
 }

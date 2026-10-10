@@ -3,19 +3,19 @@
     {
       "id": "LegStrengthHorse",
       "name": "Cước Lực 【Ngọ】",
-      "desc": "- Giá trị tối đa: 3\n- Khi kết thúc lượt, nhận 2 Tốc độ, Tăng Cấp Phòng Thủ bằng (Giá trị × 2) vào lượt tiếp theo\n- Khi kỹ năng trúng đích, gây thêm Uy lực Chấn động bằng giá trị (Tối đa 6 mỗi lượt)",
+      "desc": "- Giá trị tối đa: 3\n- Khi kết thúc lượt, nhận 2 Nhanh nhẹn và Tăng Cấp độ Phòng thủ bằng (Giá trị × 2) vào lượt tiếp theo\n- Khi kĩ năng trúng đích, gây thêm Uy lực Chấn động bằng Giá trị (Tối đa 6 mỗi lượt)",
       "summary": ""
     },
     {
       "id": "ConcussionWei",
       "name": "Chấn Thương Não",
-      "desc": "- Giá trị tối đa: 3\n- Khi nhận sát thương, nhận thêm 30% lượng sát thương với mỗi 1 giá trị (Tối đa 90%)\n- Trong khi có hiệu ứng này, lượng tiến tới ngưỡng Choáng váng do sát thương Vết rách và Kích hoạt Chấn động tăng gấp 1.5 lần (Làm tròn xuống)\n- Nếu đạt giá trị tối đa, tiêu hao toàn bộ khi kết thúc lượt và bị Choáng váng cưỡng chế vào lượt tiếp theo",
+      "desc": "- Giá trị tối đa: 3\n- Khi bị đánh trúng, nhận thêm 30% sát thương cho mỗi 1 Giá trị (Tối đa 90%)\n- Lượng tăng Ngưỡng choáng trên đơn vị này từ sát thương Vết rách và Bộc phát Chấn động nhân 1.5 lần (Làm tròn xuống)\n- Nếu đạt Giá trị tối đa, tiêu hao toàn bộ khi kết thúc lượt và bị Choáng cưỡng chế vào lượt tiếp theo",
       "summary": ""
     },
     {
       "id": "SweptAwayWei",
-      "name": "Dư Chấn",
-      "desc": "- Giá trị tối đa: 10\n- Lượng tiến tới ngưỡng Choáng váng do Kích hoạt Chấn động tăng gấp 2 lần\n- Giảm 1 khi kết thúc lượt",
+      "name": "Cuốn Phăng",
+      "desc": "- Giá trị tối đa: 10\n- Nhân đôi lượng Ngưỡng choáng bị đẩy lên trên đơn vị này do Bộc phát Chấn động\n- Giảm 1 khi kết thúc lượt",
       "summary": ""
     },
     {
@@ -23,60 +23,60 @@
       "name": "Phản Lực",
       "desc": "- Giá trị tối đa: 5",
       "summary": "",
-      "flavor": "Phản lực phát sinh do Kích hoạt Chấn động lên sai đối tượng."
+      "flavor": "Phản lực sinh ra do đã Bộc phát Chấn động lên nhầm mục tiêu. Suy cho cùng, mọi hành động đều có phản lực cân bằng và ngược chiều."
     },
     {
       "id": "SipOfAlcoholJin",
       "name": "Một Miếng (Chân)",
-      "desc": "- Giá trị tối đa: 5\n- Khi kết thúc lượt, nhận số lượng Uy lực Hô hấp bằng (Giá trị × 2) vào lượt tiếp theo\n- Khi kết thúc lượt, nhận số lượng Tốc độ bằng (Giá trị ÷ 2) vào lượt tiếp theo (Làm tròn xuống)\n- Khi kết thúc lượt, nếu giá trị từ 3 trở lên, hồi phục 1.5% Máu tối đa (Bản thể/Bộ phận)",
+      "desc": "- Giá trị tối đa: 5\n- Khi kết thúc lượt, nhận Uy lực Hơi thở bằng (Giá trị × 2) vào lượt tiếp theo\n- Khi kết thúc lượt, nhận Nhanh nhẹn bằng (Giá trị ÷ 2) vào lượt tiếp theo (Làm tròn xuống)\n- Khi kết thúc lượt, nếu Giá trị từ 3 trở lên, hồi 1.5% Máu tối đa (Bản thể/Bộ phận)",
       "summary": ""
     },
     {
       "id": "DrunkBlood",
       "name": "Huyết Chú",
-      "desc": "- Giá trị tối đa: 5\n- Xuất huyết đặc biệt\n- Khi tung đồng xu kỹ năng tấn công, nhận sát thương cố định bằng giá trị",
+      "desc": "- Giá trị tối đa: 5\n- Xuất huyết đặc biệt\n- Khi tung Đồng xu của kĩ năng tấn công, nhận sát thương cố định bằng Giá trị của hiệu ứng",
       "summary": ""
     },
     {
       "id": "DrunkAwakening",
       "name": "Thức Tỉnh Tinh Thần",
-      "desc": "- Giá trị tối đa: 1\n- Trong khi có hiệu ứng này, Uy lực Cuối tăng 4, lượng sát thương nhận vào tăng 30%\n- Khi đồng xu có khả năng gây Uy lực Xuất huyết trúng đích, gây thêm 2 Xuất huyết (Tối đa 10 mỗi lượt)\n- Nếu bản thân có Hô hấp, Sát thương Chí mạng +50%",
+      "desc": "- Giá trị tối đa: 1\n- Trong khi có hiệu ứng này, nhận 4 Sức mạnh Cuối cùng và chịu thêm 30% sát thương\n- Khi đánh trúng bằng Đồng xu gây Uy lực Xuất huyết, gây thêm 2 Xuất huyết (Tối đa 10 mỗi lượt)\n- Nếu bản thân có Hơi thở, sát thương Chí mạng +50%",
       "summary": ""
     },
     {
       "id": "RunawayHorseWei_LowMorale",
       "name": "Ngọ Tháo Cương",
-      "desc": "- Suy giảm nhuệ khí\n- Khi bắt đầu lượt, nhận 2 Tăng Cấp Tấn Công, 1 Mong manh",
+      "desc": "- Suy giảm nhuệ khí\n- Khi bắt đầu lượt, nhận 2 Tăng Cấp độ Tấn công và 1 Mong manh",
       "summary": ""
     },
     {
       "id": "RunawayHorseWei_Panic",
       "name": "Ngọ Tháo Cương",
-      "desc": "- Hoảng loạn\n- Khi bắt đầu lượt, Tốc độ tối đa tăng 1, nhận 2 Tăng Cấp Tấn Công, 2 Mong manh",
+      "desc": "- Hoảng loạn\n- Khi bắt đầu lượt, Tốc độ tối đa tăng 1, nhận 2 Tăng Cấp độ Tấn công và 2 Mong manh",
       "summary": ""
     },
     {
       "id": "DrunkDrifter_LowMorale",
       "name": "Túy Thủ Dạ Khách",
-      "desc": "- Suy giảm nhuệ khí\n- Lượng sát thương nhận vào từ Jia Sichun +10%, lượng sát thương gây ra bằng Phản đòn +30%",
+      "desc": "- Suy giảm nhuệ khí\n- Lượng sát thương nhận vào từ Jia Xichun +10%, lượng sát thương gây ra bằng Phản đòn +30%",
       "summary": ""
     },
     {
       "id": "DrunkDrifter_Panic",
       "name": "Túy Thủ Dạ Khách",
-      "desc": "- Hoảng loạn\n- Uy lực Cuối tăng 1, lượng sát thương nhận vào từ Jia Sichun +20%, lượng sát thương gây ra bằng Phản đòn +50%",
+      "desc": "- Hoảng loạn\n- Sức mạnh Cuối cùng +1, lượng sát thương nhận vào từ Jia Xichun +20%, lượng sát thương gây ra bằng Phản đòn +50%",
       "summary": ""
     },
     {
       "id": "DarkBeastSnake_LowMorale",
       "name": "Ám Uyển",
-      "desc": "- Suy giảm nhuệ khí\n- Uy lực Đối kháng -1, lượng sát thương nhận vào -10%",
+      "desc": "- Suy giảm nhuệ khí\n- Sức mạnh Đối kháng -1, lượng sát thương nhận vào -10%",
       "summary": ""
     },
     {
       "id": "DarkBeastSnake_Panic",
       "name": "Ám Uyển",
-      "desc": "- Hoảng loạn\n- Uy lực Đối kháng -2, lượng sát thương nhận vào -20%",
+      "desc": "- Hoảng loạn\n- Sức mạnh Đối kháng -2, lượng sát thương nhận vào -20%",
       "summary": ""
     },
     {
@@ -88,7 +88,7 @@
     {
       "id": "StudyStatSinclair",
       "name": "Sự Quằn Quại Để Phá Vỏ Trứng",
-      "desc": "- Hiệu ứng được cường hóa tỉ lệ thuận với tổng số Nhân/Trí/Dũng nhận được từ buổi học",
+      "desc": "- Hiệu ứng được cường hóa tỉ lệ thuận với tổng số Nhân/Trí/Dũng nhận được từ tiết học",
       "summary": ""
     },
     {
@@ -100,25 +100,25 @@
     {
       "id": "StudyStatSinclair_B",
       "name": "Sự Quằn Quại Để Phá Vỏ Trứng II",
-      "desc": "- Hồi 5 Tinh thần (SP) mỗi lượt\n- Tốc độ tối thiểu/tối đa tăng 1\n- Mỗi lượt nhận 1 Tăng Uy Lực Tấn Công, 1 Bảo vệ\n- Cấp Tấn Công tăng 2\n- Cấp Phòng Thủ tăng 2",
+      "desc": "- Hồi 5 Tinh thần (SP) mỗi lượt\n- Tốc độ tối thiểu/tối đa tăng 1\n- Nhận 1 Tăng Uy lực Tấn công và 1 Bảo hộ mỗi lượt\n- Cấp Tấn Công tăng 2\n- Cấp Phòng Thủ tăng 2",
       "summary": ""
     },
     {
       "id": "StudyStatSinclair_C",
       "name": "Sự Quằn Quại Để Phá Vỏ Trứng III",
-      "desc": "- Hồi 5 Tinh thần (SP) mỗi lượt\n- Tốc độ tối thiểu/tối đa tăng 1, mỗi lượt nhận 1 Tăng Uy Lực Tấn Công, 1 Bảo vệ\n- Uy lực Đối kháng của kỹ năng cơ bản tăng 1\n- Cấp Tấn Công tăng 3\n- Cấp Phòng Thủ tăng 3",
+      "desc": "- Hồi 5 Tinh thần (SP) mỗi lượt\n- Tốc độ tối thiểu/tối đa tăng 1, nhận 1 Tăng Uy lực Tấn công và 1 Bảo hộ mỗi lượt\n- Sức mạnh Đối kháng của kĩ năng cơ bản +1\n- Cấp Tấn Công tăng 3\n- Cấp Phòng Thủ tăng 3",
       "summary": ""
     },
     {
       "id": "StudyStatSinclair_D",
       "name": "Sự Quằn Quại Để Phá Vỏ Trứng IV",
-      "desc": "- Hồi 10 Tinh thần (SP) mỗi lượt\n- Tốc độ tối thiểu/tối đa tăng 1, mỗi lượt nhận 1 Tăng Uy Lực Tấn Công, 1 Bảo vệ\n- Uy lực Đối kháng của kỹ năng cơ bản tăng 1\n- Cấp Tấn Công tăng 4\n- Cấp Phòng Thủ tăng 4",
+      "desc": "- Hồi 10 Tinh thần (SP) mỗi lượt\n- Tốc độ tối thiểu/tối đa tăng 1, nhận 1 Tăng Uy lực Tấn công và 1 Bảo hộ mỗi lượt\n- Sức mạnh Đối kháng của kĩ năng cơ bản +1\n- Cấp Tấn Công tăng 4\n- Cấp Phòng Thủ tăng 4",
       "summary": ""
     },
     {
       "id": "StudyStatSinclair_E",
       "name": "Sự Quằn Quại Để Phá Vỏ Trứng V",
-      "desc": "- Hồi 15 Tinh thần (SP) mỗi lượt\n- Tốc độ tối thiểu/tối đa tăng 2, mỗi lượt nhận 1 Tăng Uy Lực Tấn Công, 1 Bảo vệ\n- Uy lực Đối kháng của kỹ năng cơ bản tăng 1\n- Uy lực Đồng xu của kỹ năng cơ bản tăng 1\n- Cấp Tấn Công tăng 4\n- Cấp Phòng Thủ tăng 4",
+      "desc": "- Hồi 15 Tinh thần (SP) mỗi lượt\n- Tốc độ tối thiểu/tối đa tăng 2, nhận 1 Tăng Uy lực Tấn công và 1 Bảo hộ mỗi lượt\n- Sức mạnh Đối kháng của kĩ năng cơ bản +1\n- Sức mạnh Đồng xu của kĩ năng cơ bản +1\n- Cấp Tấn Công tăng 5\n- Cấp Phòng Thủ tăng 5",
       "summary": ""
     },
     {
@@ -131,9 +131,9 @@
     {
       "id": "CrazyWei",
       "name": "Hung Bạo Hóa",
-      "desc": "- Cấp Tấn Công giảm 15\n- Cấp Phòng Thủ giảm 15\n- Khi kết thúc lượt, không nhận Cấp Phòng Thủ từ buff Cước Lực 【Ngọ】, thay vào đó nhận Tăng Uy Lực Tấn Công bằng giá trị Cước Lực 【Ngọ】",
+      "desc": "- Cấp Tấn Công giảm 15\n- Cấp Phòng Thủ giảm 15\n\n- Khi kết thúc lượt, không nhận Cấp Phòng Thủ từ Cước Lực 【Ngọ】, thay vào đó nhận Tăng Cấp độ Tấn công bằng Giá trị Cước Lực 【Ngọ】",
       "summary": "",
-      "flavor": "\n「...Ta sẽ giẫm nát... và giết sạch tất cả những kẻ định làm hại tiểu thư.」"
+      "flavor": "「Kẻ nào dám làm hại tiểu thư... ta sẽ giẫm nát... giẫm nát đến chết...」"
     },
     {
       "id": "SnakePoisonJinWeak",
@@ -144,7 +144,7 @@
     {
       "id": "SnakePoisonJin",
       "name": "Tị Độc Lan Rộng",
-      "desc": "- Cấp Tấn Công giảm 7\n- Cấp Phòng Thủ giảm 7\n- Khi tiến hành Đối kháng, nhận sát thương bằng 1% Máu tối đa",
+      "desc": "- Cấp Tấn Công giảm 7\n- Cấp Phòng Thủ giảm 7\nMỗi khi Đối kháng, nhận sát thương bằng 1% Máu tối đa",
       "summary": ""
     }
   ]
