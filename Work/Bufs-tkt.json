@@ -3,125 +3,125 @@
     {
       "id": "FusionVibration",
       "name": "Chấn động - Liên kết",
-      "desc": "- Cộng dồn hiệu ứng Chấn động gây Liên kết và hiệu ứng hệ Chấn động của mục tiêu vào [Chấn động - Chồng chất].\n- Khi Liên kết, duy trì Cường độ và Số lượng Chấn động.\n- Khi kích hoạt Chuyển đổi Biên độ vào [Chấn động - Chồng chất], hiệu ứng Chấn động được chuyển đổi sẽ được áp dụng dưới dạng Liên kết.\n- Khi kết thúc lượt, chuyển đổi thành Chấn động",
+      "desc": "- Hợp nhất hiệu ứng của loại Chấn động được thêm bởi Liên kết Biên độ và loại Chấn động hiện có trên mục tiêu thành Chấn động - Chồng lấp.\n- Khi Liên kết, Cường độ và Số lượng không thay đổi.\n- Khi kích hoạt Chuyển đổi Biên độ trên Chấn động - Chồng lấp, nó kích hoạt dưới dạng Liên kết thay vào đó.\n- Khi kết thúc lượt, chuyển đổi về Chấn động cơ bản.",
       "summary": ""
     },
     {
       "id": "VibrationNesting",
-      "name": "Chấn động - Chồng chất",
-      "desc": "- Nhận được thông qua Chấn động - Liên kết\n- Khi Chuyển đổi Biên độ, Chấn động đặc biệt tương ứng sẽ được cộng vào [Chấn động - Chồng chất]",
+      "name": "Chấn động - Chồng lấp",
+      "desc": "- Nhận được thông qua Liên kết Biên độ.\n- Khi kích hoạt Chuyển đổi Biên độ, hiệu ứng của loại Chấn động kết quả được thêm vào danh sách hiệu ứng Chấn động đang hoạt động trong Chấn động - Chồng lấp.",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "VibrationDistribution",
-      "name": "Chấn động - Phân phối",
-      "desc": "- Khi kết thúc lượt, nhận Tăng Cấp độ Tấn công ở lượt tiếp theo bằng (Tổng Số lượng Chấn động của toàn phe ta ÷ Số đồng đội còn sống) (Tối đa 5)\n- Trong {1} lượt, khi nhận sát thương từ kỹ năng Chấn động Bộc phát, ngưỡng Choáng tiến thêm {0}\n- Khi kết thúc lượt, Số lượng giảm 1\n(Nhận các hiệu ứng tăng giảm Cường độ và Số lượng Chấn động tương tự)",
+      "name": "Chấn động - Phân bổ",
+      "desc": "- Khi kết thúc lượt, nhận Tăng Cấp độ Tấn công vào lượt sau bằng (Tổng Số lượng Chấn động của toàn bộ đồng minh ÷ Số đồng minh còn sống) (tối đa 5).\n- Trong {1} lượt, khi bị đánh trúng bởi Kĩ năng kích hoạt Bộc phát Chấn động, đẩy Ngưỡng Choáng lên thêm {0}.\n- Khi kết thúc lượt, giảm 1 Số lượng.\n- (Chịu ảnh hưởng của các hiệu ứng tăng hoặc giảm Cường độ và Số lượng Chấn động giống như Chấn động thông thường).",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "TcorpSpecialInvestigator",
-      "name": "Huy hiệu Đặc vụ Đặc biệt Công ty T",
-      "desc": "- Khi Máu chạm mức 0, Máu không giảm xuống dưới 1 mà ngay lập tức hồi phục 80% Máu tối đa. Giải trừ trạng thái Choáng (Kích hoạt 1 lần mỗi trận)\n- Khi hiệu ứng có lợi kích hoạt, bắt đầu từ lượt sau trong 5 lượt, nhận 2 Tăng Uy lực Tấn công khi bắt đầu lượt.",
+      "name": "Huy hiệu Điều tra viên Đặc biệt Công ty T",
+      "desc": "- Khi Máu chạm mức 0, Máu không giảm xuống dưới 1 mà lập tức hồi 80% Máu tối đa và giải trừ trạng thái Choáng (1 lần mỗi trận đánh).\n- Khi hiệu ứng này kích hoạt, bắt đầu từ lượt sau, trong 5 lượt, bản thân nhận 2 Tăng Uy lực Tấn công mỗi khi bắt đầu lượt.",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "VibrationChain",
       "name": "Chấn động - Xiềng xích",
-      "desc": "- Với mỗi 10 Cường độ Chấn động, Uy lực Đối kháng giảm 1 (Tối đa 3)\n- Trong {1} lượt, khi nhận sát thương từ kỹ năng Chấn động Bộc phát, ngưỡng Choáng tiến thêm {0}\n- Khi kết thúc lượt, Số lượng giảm 1\n- (Nhận các hiệu ứng tăng giảm Cường độ và Số lượng Chấn động tương tự)",
-      "summary": "Với mỗi 10 Cường độ Chấn động, Uy lực Đối kháng giảm 1\nNgưỡng Choáng tiến thêm {0}",
+      "desc": "- Với mỗi 10 Cường độ Chấn động trên bản thân, giảm 1 Uy lực Đối kháng (tối đa 3).\n- Trong {1} lượt, khi bị đánh trúng bởi Kĩ năng kích hoạt Bộc phát Chấn động, đẩy Ngưỡng Choáng lên thêm {0}.\n- Khi kết thúc lượt, giảm 1 Số lượng.\n- (Chịu ảnh hưởng của các hiệu ứng tăng hoặc giảm Cường độ và Số lượng Chấn động giống như Chấn động thông thường).",
+      "summary": "Với mỗi 10 Cường độ Chấn động trên bản thân, giảm 1 Uy lực Đối kháng\nĐẩy Ngưỡng Choáng lên thêm {0}",
       "undefined": "-"
     },
     {
       "id": "TimeRentalTwo",
       "name": "Vay mượn Thời gian của Công ty T",
-      "desc": "Khi kết thúc lượt\n- Ở lượt tiếp theo, nhận {1} Quickness, Tăng Uy lực Đối kháng, và Mong manh\n- Nếu Số lượng là 1, thay vì hiệu ứng kết thúc lượt, ở lượt tiếp theo nhận {0} Bind\n- Cường độ tăng 1, Số lượng giảm 1\n- Nếu Bind nhiều hơn Quickness đang có, giải trừ Vay mượn Thời gian và rơi vào trạng thái Choáng.",
+      "desc": "Khi kết thúc lượt:\n- Vào lượt sau, nhận {1} Nhanh nhẹn, Tăng Uy lực Đối kháng và Mong manh.\n- Nếu Số lượng là 1, thay vào đó nhận {0} Trói buộc vào lượt sau.\n- Cường độ +1, Số lượng -1.\n- Nếu có nhiều Trói buộc hơn Nhanh nhẹn, hiệu ứng Vay mượn Thời gian bị giải trừ và bản thân rơi vào trạng thái Choáng.",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "TimeAccumulation",
-      "name": "Thời Gian Cạn Kiệt",
-      "desc": "Trong khi có hiệu ứng này, không nhận sát thương mà tích lũy lại.\nKhi kết thúc lượt, giảm 1\nNếu giá trị khi kết thúc lượt là 1, gây sát thương Lười biếng bằng 2 lần sát thương đã tích lũy và xóa bỏ hiệu ứng\nKhi hiệu ứng này tồn tại, không thể nhận thêm hoặc làm mới",
+      "name": "Thời gian Trì hoãn",
+      "desc": "Trong khi hiệu ứng này tồn tại, sát thương lên bản thân được tích lũy thay vì nhận vào người.\nKhi kết thúc lượt, giảm 1 giá trị.\nKhi kết thúc lượt, nếu giá trị còn lại là 1, gây lên bản thân sát thương Lười biếng bằng 2 lần sát thương đã tích lũy rồi xóa bỏ hiệu ứng.\nKhi hiệu ứng này tồn tại, giá trị của nó không thể được nhận thêm hoặc làm mới.",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "ParryingResultDown",
       "name": "Giảm Uy lực Đối kháng",
-      "desc": "Khi bắt đầu Đối kháng, Uy lực Đối kháng giảm theo giá trị này",
+      "desc": "Khi Đối kháng, giảm Uy lực Đối kháng bằng giá trị.",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "ParryingResultUp",
       "name": "Tăng Uy lực Đối kháng",
-      "desc": "Khi bắt đầu Đối kháng, Uy lực Đối kháng tăng theo giá trị này",
-      "summary": "Khi bắt đầu Đối kháng, Uy lực Đối kháng tăng theo giá trị này",
+      "desc": "Khi Đối kháng, nhận thêm Uy lực Đối kháng bằng giá trị.",
+      "summary": "Khi Đối kháng, nhận thêm Uy lực Đối kháng bằng giá trị.",
       "undefined": "-"
     },
     {
       "id": "LimitedTime",
-      "name": "Thời gian đã chiếm",
-      "desc": "- Nếu giá trị khi bắt đầu lượt từ 200 trở lên, nhận ({0} - 200) ÷ 50 Tăng Cấp độ Tấn công và Tăng Cấp độ Phòng thủ.\n- Nếu giá trị khi bắt đầu lượt dưới 200, nhận (200 - {0}) ÷ 50 Giảm Cấp độ Tấn công và Giảm Cấp độ Phòng thủ.",
+      "name": "Thời gian Bị Cướp",
+      "desc": "- Khi bắt đầu lượt, nếu giá trị từ 200 trở lên, nhận Tăng Cấp độ Tấn công và Tăng Cấp độ Phòng thủ bằng ({0} - 200) ÷ 50.\n- Khi bắt đầu lượt, nếu giá trị dưới 200, nhận Giảm Cấp độ Tấn công và Giảm Cấp độ Phòng thủ bằng (200 - {0}) ÷ 50.",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "OwnTime",
-      "name": "Thời gian chia sẻ",
-      "desc": "- Nếu giá trị khi bắt đầu lượt từ 40 trở lên, nhận ({0} - 40) ÷ 10 Tăng Cấp độ Tấn công và Tăng Cấp độ Phòng thủ.\n- Nếu giá trị khi bắt đầu lượt dưới 40, nhận (40 - {0}) ÷ 10 Giảm Cấp độ Tấn công và Giảm Cấp độ Phòng thủ.",
+      "name": "Thời gian Chia sẻ",
+      "desc": "- Khi bắt đầu lượt, nếu giá trị từ 40 trở lên, nhận Tăng Cấp độ Tấn công và Tăng Cấp độ Phòng thủ bằng ({0} - 40) ÷ 10.\n- Khi bắt đầu lượt, nếu giá trị dưới 40, nhận Giảm Cấp độ Tấn công và Giảm Cấp độ Phòng thủ bằng (40 - {0}) ÷ 10.",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "EquitableDistribution",
-      "name": "Chi tiêu thời gian chung",
-      "desc": "Khi thời gian chia sẻ bị tiêu hao, tất cả các não bộ đều chi tiêu thời gian một cách công bằng.",
+      "name": "Chi tiêu Thời gian Chung",
+      "desc": "Khi tiêu tốn Thời gian Chia sẻ, tất cả các bộ não chi tiêu thời gian một cách công bằng.",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "UnfairDistribution",
-      "name": "Phân chia nội bộ",
-      "desc": "Khi thời gian chia sẻ bị tiêu hao, mỗi não bộ chi tiêu thời gian một cách tùy hứng\nKhi bắt đầu lượt, tất cả các bộ phận mất Bảo vệ bằng với số bộ phận có lượng thời gian còn lại không giống nhau",
+      "name": "Đấu đá Nội bộ",
+      "desc": "Khi tiêu tốn Thời gian Chia sẻ, các bộ não không còn chi tiêu thời gian đồng đều nữa mà mỗi bộ chi tiêu theo ý thích.\nKhi bắt đầu lượt, tất cả các bộ phận mất Bảo vệ bằng với số bộ phận có giá trị Thời gian còn lại khác nhau.",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "TimeAcceleration",
-      "name": "Gia Tốc Thời Gian",
-      "desc": "- Tốc độ của bản thân tăng 5\n- Kỹ năng của bản thân được cường hóa\n- Nhận 1 Mong manh, lượng tiến trình vạch Hoảng loạn nhận từ Bộc phát Chấn động, hiệu ứng kỹ năng và đồng xu tăng 50%",
+      "name": "Tăng tốc Thời gian",
+      "desc": "- Tốc độ của bản thân +5\n- Cường hóa Kĩ năng của bản thân\n- Nhận 1 Mong manh; khi Bộc phát Chấn động, hiệu ứng Kĩ năng hoặc Đồng xu đẩy Ngưỡng Choáng của bản thân lên, mức đẩy tăng thêm 50%.",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "Yurodivy_LowMorale",
       "name": "Đoàn Kết Tan Vỡ",
-      "desc": "- Giảm sút sĩ khí\nNhận 1 Mong manh. Khi nhận sát thương, số lần Chấn động của bản thân tăng 1. (Tối đa 3 lần)",
+      "desc": "- Tinh thần thấp\nNhận 1 Mong manh. Khi bị đánh trúng, Số lượng Chấn động của bản thân +1. (tối đa 3 lần)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "Yurodivy_Panic",
       "name": "Đoàn Kết Tan Vỡ",
-      "desc": "- Hoảng loạn\nNhận 2 Mong manh. Khi nhận sát thương, số lần Chấn động của bản thân tăng 2. (Tối đa 3 lần)",
+      "desc": "- Hoảng loạn\nNhận 2 Mong manh. Khi bị đánh trúng, Số lượng Chấn động của bản thân +2. (tối đa 3 lần)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "TimeKillerWatch",
-      "name": "Đối Tượng Được Thời Gian Cứu Rỗi",
-      "desc": "Trong trạng thái Gia Tốc Thời Gian, trở thành mục tiêu tấn công của Sát Nhân Thời Gian.",
+      "name": "Đối Tượng Cứu Rỗi Thời Gian",
+      "desc": "Trong trạng thái Tăng tốc Thời gian, trở thành mục tiêu tấn công của Kẻ Sát Nhân Thời Gian.",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "UltraPrecisionTimeAcceleration",
-      "name": "Gia Tốc Thời Gian Siêu Chính Xác",
-      "desc": "Tăng giá trị cơ bản tốc độ tối thiểu và tối đa của bản thân theo (Chỉ số)\nSức mạnh Cơ bản của kỹ năng có hiệu ứng gây Chấn động Lực/Số lần hoặc Bộc phát Chấn động +(Chỉ số), sát thương gây cho kẻ địch +(Chỉ số × 10)%, lượng tiến trình vạch Hoảng loạn gây cho kẻ địch bằng Bộc phát Chấn động tăng (Chỉ số × 10)% (Bao gồm kỹ năng E.G.O)\nGiảm 1 vào cuối lượt\nNếu (Chỉ số) là 1, giá trị sẽ không về 0 và được duy trì cho đến hết màn chơi",
+      "name": "Tăng Tốc Thời Gian Siêu Chính Xác",
+      "desc": "Tốc độ tối thiểu và tối đa cơ bản của bản thân tăng theo (Giá trị)\nKĩ năng gây Cường độ, Số lượng Chấn động hoặc kích hoạt Bộc phát Chấn động: nhận Sức mạnh Cơ bản +(Giá trị), sát thương gây lên kẻ địch +(Giá trị × 10)%, và khi đẩy Ngưỡng Choáng bằng Bộc phát Chấn động, mức đẩy tăng thêm (Giá trị × 10)% (bao gồm cả Kĩ năng E.G.O)\nKhi kết thúc lượt, giảm 1\nKhi ở 1 giá trị, giá trị không giảm xuống dưới 0 và được duy trì suốt trận đánh.",
       "summary": "",
       "undefined": "-"
     }
