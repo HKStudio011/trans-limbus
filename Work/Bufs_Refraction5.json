@@ -2,8 +2,8 @@
   "dataList": [
     {
       "id": "FellBulletMark",
-      "name": "Dấu ấn",
-      "desc": "- Trở thành mục tiêu của Tay Súng Hung Đạn\n- Bị xóa bỏ khi kết thúc lượt",
+      "name": "Dấu Ấn",
+      "desc": "- Trở thành mục tiêu của Xạ Thủ Ma Đạn\n- Hết hiệu lực khi kết thúc lượt",
       "summary": "",
       "undefined": "-"
     },
@@ -30,7 +30,7 @@
     },
     {
       "id": "MRR504",
-      "name": "Hô hấp bị khúc xạ",
+      "name": "Hơi thở bị khúc xạ",
       "desc": "",
       "summary": "",
       "undefined": "-"
@@ -44,7 +44,7 @@
     },
     {
       "id": "MRR506",
-      "name": "Vụ nổ bị khúc xạ",
+      "name": "Bộc phát bị khúc xạ",
       "desc": "",
       "summary": "",
       "undefined": "-"
@@ -72,7 +72,7 @@
     },
     {
       "id": "MRR510",
-      "name": "Máy phun sương",
+      "name": "Máy xông khí dung",
       "desc": "",
       "summary": "",
       "undefined": "-"
@@ -86,7 +86,7 @@
     },
     {
       "id": "MRR512",
-      "name": "Ý chí chiến đấu tiếp diễn",
+      "name": "Ý chí chiến đấu tiếp nối",
       "desc": "",
       "summary": "",
       "undefined": "-"
@@ -107,7 +107,7 @@
     },
     {
       "id": "MRR515",
-      "name": "Phòng ngự kiên cường",
+      "name": "Phòng thủ kiên cố",
       "desc": "",
       "summary": "",
       "undefined": "-"
@@ -121,7 +121,7 @@
     },
     {
       "id": "MRR517",
-      "name": "Phản kích phẫn nộ",
+      "name": "Phản đòn phẫn nộ",
       "desc": "",
       "summary": "",
       "undefined": "-"
@@ -142,14 +142,14 @@
     },
     {
       "id": "MRR520",
-      "name": "Hung đạn dồn dập",
+      "name": "Cơn mưa đạn dữ dội",
       "desc": "",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "MRR521",
-      "name": "Biến dạng Thể lực",
+      "name": "Thao túng HP",
       "desc": "",
       "summary": "",
       "undefined": "-"
@@ -163,7 +163,7 @@
     },
     {
       "id": "MRR523",
-      "name": "Yến tiệc đẫm máu",
+      "name": "Yến tiệc nhuốm máu",
       "desc": "",
       "summary": "",
       "undefined": "-"
@@ -177,7 +177,7 @@
     },
     {
       "id": "MRR526",
-      "name": "Chém bị khúc xạ",
+      "name": "Trảm kích bị khúc xạ",
       "desc": "",
       "summary": "",
       "undefined": "-"
@@ -219,7 +219,7 @@
     },
     {
       "id": "MRR532",
-      "name": "Bay hơi tài nguyên",
+      "name": "Bay hơi Tài nguyên",
       "desc": "",
       "summary": "",
       "undefined": "-"
@@ -233,7 +233,7 @@
     },
     {
       "id": "MRR534",
-      "name": "Phòng ngự kiên cường",
+      "name": "Phòng thủ kiên cố",
       "desc": "",
       "summary": "",
       "undefined": "-"
@@ -247,14 +247,14 @@
     },
     {
       "id": "MRR536",
-      "name": "Phẫn nộ bị khúc xạ",
+      "name": "Phẫn nộ Khúc xạ",
       "desc": "",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "MRR537",
-      "name": "Khúc xạ Thể lực II",
+      "name": "Khúc xạ HP II",
       "desc": "",
       "summary": "",
       "undefined": "-"
@@ -268,7 +268,7 @@
     },
     {
       "id": "MRR539",
-      "name": "Yến tiệc đẫm máu",
+      "name": "Yến Tiệc Đẫm Máu",
       "desc": "",
       "summary": "",
       "undefined": "-"
@@ -289,14 +289,14 @@
     },
     {
       "id": "MRR542",
-      "name": "Khúc xạ Thể lực I",
+      "name": "Khúc xạ HP I",
       "desc": "",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "MRR543",
-      "name": "Ý chí tiếp diễn",
+      "name": "Ý chí bền bỉ",
       "desc": "",
       "summary": "",
       "undefined": "-"
@@ -304,7 +304,7 @@
     {
       "id": "FellBulletGroggy",
       "name": "Thiết lập mục tiêu",
-      "desc": "- Không thể giải trừ\n- Khi kết thúc lượt nếu bằng 0, lượt tiếp theo sẽ rơi vào trạng thái Choáng váng\n- Khi sử dụng Bắn Chỉ Định Mục Tiêu, nếu mục tiêu không có Dấu ấn thì giảm 1\n- Khi kỹ năng Bắn Điều Chỉnh Mục Tiêu thua trong Đối kháng thì giảm 1\n- Trước khi sử dụng kỹ năng Bắn Điều Chỉnh Mục Tiêu, nếu đồng minh được chỉ định làm mục tiêu đã chết thì giảm 1",
+      "desc": "- Không thể giải trừ\n- Nếu về 0 vào cuối lượt, sẽ rơi vào trạng thái Choáng vào lượt kế tiếp\n- Khi sử dụng kĩ năng 'Bắn Chỉ Định Mục Tiêu', nếu mục tiêu không có Dấu Ấn, mất 1 Tầng\n- Nếu kĩ năng 'Bắn Chỉ Định Mục Tiêu' thua Đối kháng, mất 1 Tầng\n- Nếu đồng minh mà đơn vị này nhắm tới trước khi sử dụng kĩ năng 'Bắn Chỉ Định Mục Tiêu' bị giết, mất 1 Tầng",
       "summary": "",
       "undefined": "-"
     },
@@ -366,7 +366,7 @@
     },
     {
       "id": "MRR552",
-      "name": "Ý chí chiến đấu bị khúc xạ",
+      "name": "Ý chí bị khúc xạ",
       "desc": "",
       "summary": "",
       "undefined": "-"
@@ -387,7 +387,7 @@
     },
     {
       "id": "MRR555",
-      "name": "Khúc xạ Sức mạnh Đối kháng",
+      "name": "Khúc xạ Uy lực Đối kháng",
       "desc": "",
       "summary": "",
       "undefined": "-"
