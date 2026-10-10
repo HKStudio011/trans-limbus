@@ -3,14 +3,14 @@
     {
       "id": "MosesWhiteBreathMental",
       "name": "Hơi Thở Trắng - Bảo Vệ Tinh Thần",
-      "desc": "- Lượng hồi phục Tinh thần tăng thêm 5 dựa trên điều kiện tăng Tinh thần cơ bản của nhân vật\n- Lượng giảm Tinh thần giảm đi 5 dựa trên điều kiện giảm Tinh thần cơ bản của nhân vật\n- Giảm 1 khi kết thúc lượt",
+      "desc": "- Lượng Tinh thần hồi phục nhờ ‘điều kiện tăng Tinh thần (SP) cơ bản’ của bản thân +5\n- Lượng Tinh thần mất đi nhờ ‘điều kiện giảm Tinh thần (SP) cơ bản’ của bản thân -5\n- Khi kết thúc lượt, giảm 1 giá trị",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "MosesRedBreathBody",
       "name": "Hơi Thở Đỏ - Cường Hóa Thể Xác",
-      "desc": "- Cấp độ Tấn công và Cấp độ Phòng thủ tăng thêm bằng (Tinh thần của bản thân ÷ 10) (Làm tròn xuống)\n- Giảm 1 khi kết thúc lượt",
+      "desc": "- Cấp tấn công và Cấp phòng thủ tăng thêm bằng (Tinh thần của bản thân ÷ 10) (Làm tròn xuống)\n- Khi kết thúc lượt, giảm 1 giá trị",
       "summary": "",
       "undefined": "-"
     },
@@ -24,43 +24,43 @@
     {
       "id": "MosesPurpleBreathBind",
       "name": "Hơi Thở Tím - Cuồng Loạn",
-      "desc": "- Giá trị tối đa: 4\n- Giảm HP và Tinh thần tương ứng với chỉ số khi kết thúc lượt\n- Giảm HP và Tinh thần của Moses tương ứng với chỉ số khi kết thúc lượt\n- Lượt kế tiếp nhận 2 Mong manh, 3 Trói buộc, 3 Yếu hóa Đồng xu Cộng thêm\n- Giảm 1 khi hiệu ứng kích hoạt",
+      "desc": "- Giá trị tối đa: 4\n- Khi kết thúc lượt, mất HP và Tinh thần bằng giá trị\n- Khi kết thúc lượt, Moses mất HP và Tinh thần bằng giá trị\n- Lượt kế tiếp nhận 2 Mong manh, 3 Trói buộc và 3 Suy yếu Đồng xu Cộng\n- Khi hiệu ứng kích hoạt, giảm 1 giá trị",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "MosesRedBreathCharge",
       "name": "Hơi Thở Sâu - Đỏ",
-      "desc": "- Giá trị tối đa: 3\n- <color=#ff6000><mark color=#ff000040><b><u>Nếu đạt giá trị tối đa khi kết thúc lượt, sử dụng kỹ năng mạnh mẽ</color></mark></b></u>\n- Bị tiêu hao khi sử dụng một số kỹ năng nhất định\n- Nếu có buff này, sẽ không rơi vào trạng thái Hoảng loạn\n- Sát thương nhận vào +(Chỉ số × 20)%, Cấp độ Phòng thủ giảm tương ứng với chỉ số\n- Khi kết thúc lượt, nhận 10 sát thương HP và 20 sát thương Tinh thần",
+      "desc": "- Giá trị tối đa: 3\n- <color=#ff6000><mark color=#ff000040><b><u>Khi kết thúc lượt, nếu đạt giá trị tối đa, sử dụng Kĩ năng mạnh mẽ</color></mark></b></u>\n- Bị tiêu hao khi sử dụng Kĩ năng nhất định\n- Dưới hiệu ứng này, bản thân miễn nhiễm với Hoảng loạn\n- Sát thương nhận vào +(giá trị × 20)%, Cấp phòng thủ giảm bằng giá trị\n- Khi kết thúc lượt, nhận 10 sát thương HP và 20 sát thương Tinh thần",
       "summary": "",
       "undefined": "-",
-      "flavor": "Chìm sâu vào tâm trí, vừa hít thở vừa hình dung từng biểu tượng sắc đỏ hiện về."
+      "flavor": "Chìm sâu hơn nữa, để những hình ảnh đỏ thẫm hiện lên theo từng nhịp thở."
     },
     {
       "id": "MosesRedBreathAttack",
       "name": "Hơi Thở Đỏ - Cơ Thể Bộc Phát",
-      "desc": "- Cấp độ Tấn công tăng 5\n- Uy lực Hòa kích của kỹ năng tấn công cơ bản +5",
+      "desc": "- Cấp tấn công +5\n- Uy lực Đối kháng của Kĩ năng Cơ bản +5",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "MosesSin",
       "name": "Shin (Tâm) - Moses",
-      "desc": "- Cấp độ Phòng thủ +3, Uy lực Thủ thế +2\n- Nếu Tinh thần của bản thân giảm do hiệu ứng kỹ năng, lượt kế tiếp nhận Bảo vệ bằng (Lượng Tinh thần giảm ÷ 5)",
+      "desc": "- Cấp phòng thủ +3, Uy lực Phòng thủ +2\n- Nếu Tinh thần của bản thân giảm do hiệu ứng Kĩ năng, lượt kế tiếp nhận Bảo hộ bằng (lượng Tinh thần đã giảm ÷ 5)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "MosesWarPTSD",
       "name": "Ký ức ngày hôm ấy",
-      "desc": "- Cấp độ Tấn công cơ bản -??\n- Cấp độ Phòng thủ cơ bản -??\n- Khi bắt đầu lượt, nhận 5 Tốc độ",
+      "desc": "- Cấp tấn công cơ bản -??\n- Cấp phòng thủ cơ bản -??\n- Khi bắt đầu lượt, nhận 5 Nhanh nhẹn",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "MosesMiddle_LowMorale",
       "name": "Cơ thể tan nát không thể cứu vãn",
-      "desc": "- Suy giảm nhuệ khí\n- Khi bắt đầu lượt, tăng 2 Uy lực Thủ thế cho Ezra và Vespa, nhận 1 Mong manh",
+      "desc": "- Suy giảm nhuệ khí\n- Khi bắt đầu lượt, nhận 1 Mong manh và tăng 2 Uy lực Phòng thủ cho Ezra và Vespa",
       "summary": "",
       "undefined": "-"
     },
@@ -73,77 +73,77 @@
     },
     {
       "id": "EzraMiddle_LowMorale",
-      "name": "Tự vệ - Mặt nạ",
-      "desc": "- Suy giảm nhuệ khí\n- Nhận 1 Giảm Uy lực Tấn công\n- Nhận 2 Tăng Cấp độ Phòng thủ",
+      "name": "Bất an: Mặt nạ",
+      "desc": "- Suy giảm nhuệ khí\n- Nhận 1 Giảm Uy lực Tấn công\n- Nhận 2 Tăng Cấp phòng thủ",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "EzraMiddle_Panic",
-      "name": "Tự vệ - Mặt nạ",
-      "desc": "- Hoảng loạn\n- Nhận 1 Giảm Uy lực Tấn công\n- Nhận 3 Tăng Cấp độ Phòng thủ",
+      "name": "Bất an: Mặt nạ",
+      "desc": "- Hoảng loạn\n- Nhận 1 Giảm Uy lực Tấn công\n- Nhận 3 Tăng Cấp phòng thủ",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "DimensionalBagEzraA",
-      "name": "Túi Không Gian - Xưởng Alas",
-      "desc": "Lấy vũ khí của xưởng tiếp theo ra khỏi Túi Không Gian\n- Vũ khí hiện tại: Găng tay Xưởng Alas\n- Vũ khí tiếp theo: Búa Xưởng Nestor",
+      "name": "Túi Không Gian - Xưởng Allas",
+      "desc": "- Lấy vũ khí tiếp theo của xưởng ra khỏi Túi Không Gian\n- Vũ khí hiện tại: Găng tay Xưởng Allas\n- Vũ khí tiếp theo: Búa Xưởng Nester",
       "summary": "",
       "undefined": "-",
-      "flavor": "「Các sản phẩm ở đây, món nào gia tốc cũng bùng nổ cái bùm! nên sảng khoái cực kỳ luôn!」"
+      "flavor": "「Đồ của xưởng này món nào cũng khởi động gia tốc nổ một cái đùng! Đấm sướng lắm luôn!」"
     },
     {
       "id": "DimensionalBagEzraB",
-      "name": "Túi Chiều Không Gian - Xưởng Nestor",
-      "desc": "Lấy vũ khí của xưởng tiếp theo từ Túi Chiều Không Gian\n- Vũ khí xưởng hiện tại: Búa Xưởng Nestor\n- Vũ khí xưởng tiếp theo: Búa Khoan Xưởng Screw",
+      "name": "Túi Không Gian - Xưởng Nester",
+      "desc": "- Lấy vũ khí tiếp theo của xưởng ra khỏi Túi Không Gian\n- Vũ khí hiện tại: Búa Xưởng Nester\n- Vũ khí tiếp theo: Búa Khoan Xưởng Screw",
       "summary": "",
       "undefined": "-",
-      "flavor": "「Cái này ấy... nếu cậu nhấn nút vào <i>đúng</i> thời điểm đòn đánh chạm mục tiêu, diện tích va chạm của vũ khí sẽ được tối đa hóa cùng với rung chấn. Làm quen được rồi thì thú vị lắm!」"
+      "flavor": "「Cái này ấy... nhấn nút <i>đúng</i> lúc đòn đánh giáng xuống, rung chấn sẽ nổ tung và tối đa hóa diện tích va chạm. Quen tay rồi thì vui lắm!」"
     },
     {
       "id": "DimensionalBagEzraC",
-      "name": "Túi Chiều Không Gian - Xưởng Screw",
-      "desc": "Lấy vũ khí của xưởng tiếp theo từ Túi Chiều Không Gian\n- Vũ khí xưởng hiện tại: Búa Khoan Xưởng Screw\n- Vũ khí xưởng tiếp theo: Găng Tay Xưởng Namir",
+      "name": "Túi Không Gian - Xưởng Screw",
+      "desc": "- Lấy vũ khí tiếp theo của xưởng ra khỏi Túi Không Gian\n- Vũ khí hiện tại: Búa Khoan Xưởng Screw\n- Vũ khí tiếp theo: Găng tay Xưởng Namir",
       "summary": "",
       "undefined": "-",
-      "flavor": "「Khi sử dụng đồ của bên này phải cẩn thận nhé.\nSơ sẩy một chút là chính người vung nó cũng có thể bị điện giật đấy!」"
+      "flavor": "「Nghiêm túc đấy, phải cẩn thận với mấy đứa con cưng của xưởng này. Sơ sẩy một chút là chính người vung cũng bị điện giật ngay đấy!」"
     },
     {
       "id": "DimensionalBagEzraD",
-      "name": "Túi Chiều Không Gian - Xưởng Namir",
-      "desc": "Lấy vũ khí của xưởng tiếp theo từ Túi Chiều Không Gian\n- Vũ khí xưởng hiện tại: Găng Tay Xưởng Namir\n- Vũ khí xưởng tiếp theo: Bao Tay Xưởng Alas",
+      "name": "Túi Không Gian - Xưởng Namir",
+      "desc": "- Lấy vũ khí tiếp theo của xưởng ra khỏi Túi Không Gian\n- Vũ khí hiện tại: Găng tay Xưởng Namir\n- Vũ khí tiếp theo: Găng tay Xưởng Allas",
       "summary": "",
       "undefined": "-",
-      "flavor": "「Sản phẩm này chứa quả cầu Đặc dị điểm của Công ty G, để dùng cho hiệu quả thì cậu phải nhấn nút kích hoạt trên không trung, rồi dùng trọng lượng của nó mà nghiền nát mục tiêu.\nNếu trúng đích thì đau lắm đấy!」"
+      "flavor": "「Món này có gắn Điểm kỳ dị của Công ty G — quả cầu đấy! Cách dùng là bay lên, bật công tắc giữa không trung, rồi dùng sức nặng của trọng lực mà đè nát. Trúng một phát chắc nịch thì... tàn khốc lắm.」"
     },
     {
       "id": "DimensionalBagEzraE",
-      "name": "Túi Chiều Không Gian - Xưởng Yuria",
-      "desc": "- Vũ khí xưởng hiện tại: Rìu đặc chế thủ công dành riêng cho Golden Retriever",
+      "name": "Túi Không Gian - Xưởng YuRia",
+      "desc": "- Vũ khí hiện tại: Rìu đặc chế thủ công dành riêng cho Golden Retriever của Xưởng YuRia",
       "summary": "",
       "undefined": "-",
-      "flavor": "「Yuria? Giờ cô ấy tách ra mở xưởng riêng rồi. Nghe nói làm ăn thịnh vượng hơn trước nhiều.」\n「Cái vụ đưa cơ thể từ búp bê trở lại thành người ấy, đúng là một sự kiện chấn động luôn.」"
+      "flavor": "「YuRia hả? Giờ cô ấy tách ra làm riêng rồi, mà xưởng của cô ấy — ôi thôi, đang nổi như cồn đấy.」\n\n「Nhắc mới nhớ, tôi vẫn nhớ vụ cô ấy từ búp bê nhồi bông trở lại thành người... Haha, cú đó đúng là chấn động thật.」"
     },
     {
       "id": "MiddleFingerEzraSin",
-      "name": "Tâm (Lòng) - Ezra",
-      "desc": "- Cấp phòng thủ cơ bản +2\n- Uy lực tấn công cơ bản +1, Uy lực phòng thủ +2\n- Hơi Thở Sâu của Moses - Với mỗi 1 màu đỏ, lượng Tinh thần phục hồi Ezra Nhận được khi Ezra sử dụng Phòng Thủ Hỗ Trợ +4 (Tối đa 12)",
+      "name": "Shin (Tâm) - Ezra",
+      "desc": "- Cấp phòng thủ cơ bản +2\n- Uy lực Tấn công Cơ bản +1, Uy lực Phòng thủ +2\n- Với mỗi 1 giá trị ‘Hơi Thở Sâu - Đỏ’ trên Moses, Phòng thủ Hỗ trợ của Ezra và Vespa hồi thêm 4 Tinh thần cho Ezra (Tối đa 12)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "VengeanceBookSpider",
-      "name": "Sổ ghi nợ trả thù",
-      "desc": "Khi Đầu Mục Ngón Giữa - Matthias hay Thành Viên Ngón Giữa - Kira đánh trúng kỹ năng lên mục tiêu sở hữu hiệu ứng này, phục hồi 7 Tinh thần (1 lần mỗi kỹ năng)",
+      "name": "Sổ Báo Thù",
+      "desc": "Khi Cha nuôi Ngón Giữa - Matthias hoặc Đệ tử Ngón Giữa - Kira dùng Kĩ năng đánh trúng mục tiêu mang hiệu ứng này, họ hồi phục 7 Tinh thần (1 lần mỗi Kĩ năng)",
       "summary": "",
       "undefined": "-",
-      "flavor": "「Lũ tụi mày... hành quyết tức khắc.」"
+      "flavor": "「Lũ khốn... Chuẩn bị đón nhận sự tận diệt hoàn toàn đi.」"
     },
     {
       "id": "ResentmentSpider",
       "name": "Ngón Giữa - Oán Hận",
-      "desc": "- Giá trị tối đa: 10\n- Giảm khi sử dụng kỹ năng nhất định\n- Mỗi 1 điểm: Cấp tấn công +1, Cấp phòng thủ -2, Sát thương kỹ năng Phản đòn +5%\n- Khi ở giá trị tối đa: Sát thương Nhận vào +20%",
+      "desc": "- Giá trị tối đa: 10\n- Giảm khi sử dụng Kĩ năng nhất định\n- Với mỗi 1 giá trị: Cấp tấn công +1, Cấp phòng thủ -2, sát thương Kĩ năng Phản đòn +5%\n- Khi đạt giá trị tối đa, sát thương nhận vào +20%",
       "summary": "",
       "undefined": "-",
       "flavor": "Ngón Giữa không bao giờ quên."
@@ -151,51 +151,51 @@
     {
       "id": "ResentmentSpiderDaughter",
       "name": "Ngón Giữa - Oán Hận",
-      "desc": "- Giá trị tối đa: 10\n- Giảm khi sử dụng kỹ năng nhất định\n- Mỗi 1 điểm: Cấp tấn công +1, Cấp phòng thủ -2, Sát thương kỹ năng Phản đòn +5%\n- Khi ở giá trị tối đa: Sát thương Nhận vào +20%",
+      "desc": "- Giá trị tối đa: 10\n- Giảm khi sử dụng Kĩ năng nhất định\n- Với mỗi 1 giá trị: Cấp tấn công +1, Cấp phòng thủ -2, sát thương Kĩ năng Phản đòn +5%\n- Khi đạt giá trị tối đa, sát thương nhận vào +20%",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "GotACompliment",
       "name": "Được khen rồi!",
-      "desc": "- Giá trị tối đa: 10\n- Giảm 1 khi Nhận sát thương 2 lần bởi kỹ năng\n- Mỗi 2 điểm: Uy lực cơ bản +1\n- Mỗi 1 điểm: Sát thương kỹ năng Chém・Đập +8%",
+      "desc": "- Giá trị tối đa: 10\n- Giảm 1 khi bản thân bị 2 Kĩ năng đánh trúng\n- Với mỗi 2 giá trị: Sức mạnh Cơ bản +1\n- Với mỗi 1 giá trị: Sát thương Kĩ năng Trảm kích・Đập +8%",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "DaughterEducationSpider",
       "name": "Nhìn cho kỹ đây cô bé!",
-      "desc": "- Giá trị tối đa: 10\n- Giảm 1 khi Nhận sát thương 2 lần bởi kỹ năng\n- Mỗi 2 điểm: Uy lực cơ bản +1\n- Mỗi 1 điểm: Sát thương kỹ năng Chém・Đập +5%",
+      "desc": "- Giá trị tối đa: 10\n- Giảm 1 khi bản thân bị 2 Kĩ năng đánh trúng\n- Với mỗi 2 giá trị: Sức mạnh Cơ bản +1\n- Với mỗi 1 giá trị: Sát thương Kĩ năng Trảm kích・Đập +5%",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "ReinforcedTattooSpider",
       "name": "Ngón Giữa - Hình Xăm Oán Hận [<s>Đại ca</s>]",
-      "desc": "- Giá trị tối đa: 2\n- Biến mất khi kết thúc lượt\n- Sát thương hệ Đập・Đố Kỵ +10%",
+      "desc": "- Giá trị tối đa: 2\n- Biến mất khi kết thúc lượt\n- Sát thương hệ Đập・Đố kỵ +10%",
       "summary": "",
       "undefined": "-",
-      "flavor": "Một kẻ trung thành hơn bất cứ ai để trở thành Đại ca, nhưng lại vứt bỏ lòng trung thành ấy chỉ vì một thanh kiếm."
+      "flavor": "Một Đại ca có được uy tín nhờ lòng trung thành; một kẻ ngốc đã vứt bỏ chính điều đó chỉ vì một thanh kiếm."
     },
     {
       "id": "ReinforcedTattooSpiderDaughter",
-      "name": "Hình xăm cường hóa kiểu Trung Chỉ",
-      "desc": "- Giá trị tối đa: 3\n- Biến mất khi kết thúc lượt\n- Sát thương thuộc tính Va chạm/Đố kỵ +10%",
+      "name": "Hình xăm cường hóa kiểu Ngón Giữa",
+      "desc": "- Giá trị tối đa: 3\n- Biến mất khi kết thúc lượt\n- Sát thương hệ Đập・Đố kỵ +10%",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "HeatingWireOnSpider",
       "name": "Bật Dây Nhiệt",
-      "desc": "Khi đồng xu của kỹ năng Dây Nhiệt trúng đích, gây thêm lượng Sát thương và Số lần Bỏng bằng đúng lượng Sát thương và Số lần Xuất huyết đã gây.",
+      "desc": "Khi đồng xu của Kĩ năng Dây Nhiệt đánh trúng, gây thêm Cường độ và Số lượng Bỏng đúng bằng Cường độ và Số lượng Xuất huyết đã gây.",
       "summary": "",
       "undefined": "-",
-      "flavor": "「Không bằng của ba đâu, nhưng kiếm của con cũng vừa nung chảy vừa chém được đấy!\nNhưng mà bật liên tục như ba thì không được...」"
+      "flavor": "「Không bằng của ba đâu, nhưng kiếm của con cũng vừa nướng chín vừa chém được đấy!\nNhưng không như của ba, thỉnh thoảng con phải để nó nguội đi...」"
     },
     {
       "id": "HeatingWireOffSpider",
       "name": "Tắt Dây Nhiệt",
-      "desc": "Hiệu ứng bổ sung của kỹ năng Dây Nhiệt không kích hoạt",
+      "desc": "Hiệu ứng bổ sung của Kĩ năng Dây Nhiệt không kích hoạt",
       "summary": "",
       "undefined": "-",
       "flavor": "Dây nhiệt của kiếm đã tắt"
@@ -203,50 +203,50 @@
     {
       "id": "MiddleFatherGuts",
       "name": "Siêu Kiên Cường",
-      "desc": "- Sát thương nhận vào cố định là 1 (bao gồm cả sát thương từ từ khóa)\n- Khi thắng đối kháng, Tinh thần tăng thêm (Số lần đối kháng × 5) (Tối đa 15)\n- Khi kết thúc lượt, nếu Tinh thần bị giảm do hiệu ứng kỹ năng của bản thân trong lượt này, nhận Tăng lượng sát thương 3 vào lượt kế tiếp",
+      "desc": "- Sát thương nhận vào cố định là 1 (bao gồm cả sát thương Keyword)\n- Khi thắng Đối kháng, hồi thêm (Số lần Đối kháng × 5) Tinh thần (Tối đa 15)\n- Khi kết thúc lượt, nếu Tinh thần bị giảm do hiệu ứng Kĩ năng của bản thân trong lượt này, nhận 3 Tăng Sát thương vào lượt kế tiếp",
       "summary": "",
       "undefined": "-",
-      "flavor": "「Tâm với chả tiếc, mấy thứ đó không cần thiết. Chỉ cần nghiến răng dồn hết sức mạnh từ tất cả những hình xăm đã khắc lên, thì dù không có mấy kỹ thuật như 'Tâm' ta vẫn đủ mạnh.」"
+      "flavor": "「Tâm với chả Tiếc, mấy thứ đó ta không cần. Chỉ cần nghiến răng dồn hết sức mạnh từ tất cả những hình xăm đã khắc lên, thì dù không có mấy kĩ thuật như 'Tâm' ta vẫn đủ mạnh.」"
     },
     {
       "id": "MiddleFingerDaddy_LowMorale",
       "name": "Cuồng Bôn",
-      "desc": "- Giảm nhuệ khí\nKhi bắt đầu lượt, nhận Tăng uy lực tấn công 2, Giảm cấp phòng thủ 4,\nvới mỗi 30 sát thương HP nhận vào ở lượt trước, nhận Tăng lượng sát thương 1 (Tối đa 5)",
+      "desc": "- Suy giảm nhuệ khí\nKhi bắt đầu lượt, nhận 2 Tăng Uy lực Tấn công và 4 Giảm Cấp phòng thủ; với mỗi 30 sát thương HP nhận vào ở lượt trước, nhận 1 Tăng Sát thương (Tối đa 5)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "MiddleFingerDaddy_Panic",
       "name": "Cuồng Bôn",
-      "desc": "- Hoảng loạn\nKhi bắt đầu lượt, nhận Tăng uy lực tấn công 3, Giảm cấp phòng thủ 5,\nvới mỗi 25 sát thương HP nhận vào ở lượt trước, nhận Tăng lượng sát thương 1 (Tối đa 5)",
+      "desc": "- Hoảng loạn\nKhi bắt đầu lượt, nhận 3 Tăng Uy lực Tấn công và 5 Giảm Cấp phòng thủ; với mỗi 25 sát thương HP nhận vào ở lượt trước, nhận 1 Tăng Sát thương (Tối đa 5)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "MiddleFingerDaughter_LowMorale",
       "name": "Phấn Khích",
-      "desc": "- Giảm nhuệ khí\nKhi bắt đầu lượt, nhận Giảm cấp phòng thủ 2,\nvới mỗi 30 sát thương HP nhận vào ở lượt trước, nhận Tăng lượng sát thương 1 (Tối đa 5)",
+      "desc": "- Suy giảm nhuệ khí\nKhi bắt đầu lượt, nhận 2 Giảm Cấp phòng thủ; với mỗi 30 sát thương HP nhận vào ở lượt trước, nhận 1 Tăng Sát thương (Tối đa 5)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "MiddleFingerDaughter_Panic",
       "name": "Phấn Khích",
-      "desc": "- Hoảng loạn\nKhi bắt đầu lượt, nhận Tăng uy lực tấn công 1, Giảm cấp phòng thủ 3,\nvới mỗi 25 sát thương HP nhận vào ở lượt trước, nhận Tăng lượng sát thương 1 (Tối đa 5)",
+      "desc": "- Hoảng loạn\nKhi bắt đầu lượt, nhận 1 Tăng Uy lực Tấn công và 3 Giảm Cấp phòng thủ; với mỗi 25 sát thương HP nhận vào ở lượt trước, nhận 1 Tăng Sát thương (Tối đa 5)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "HumanBoneTheRings",
       "name": "Nguyên liệu sinh học (Xương)",
-      "desc": "- Giá trị tối đa: 206\n- Sạc đặc biệt (Uy lực cố định)",
+      "desc": "- Giá trị tối đa: 206\n- Sạc đặc biệt (Cường độ cố định)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "HumanBloodTheRings",
       "name": "Nguyên liệu sinh học (Máu)",
-      "desc": "- Giá trị tối đa: 5\n- Sạc đặc biệt (Uy lực cố định)",
+      "desc": "- Giá trị tối đa: 5\n- Sạc đặc biệt (Cường độ cố định)",
       "summary": "",
       "undefined": "-"
     },
@@ -260,14 +260,14 @@
     {
       "id": "MineTheRings",
       "name": "Tên tác phẩm: Tibia",
-      "desc": "- Khi bắt đầu lượt, nhận Tăng uy lực 4, Tăng uy lực Trảm kích 2\n- Khi gây Xuất huyết bằng kỹ năng tấn công, gây thêm 2 Sát thương Xuất huyết",
+      "desc": "- Khi bắt đầu lượt, nhận 4 Tăng Uy lực và 2 Tăng Uy lực Trảm kích\n- Khi gây Xuất huyết bằng Kĩ năng Tấn công, gây thêm 2 Cường độ Xuất huyết",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "ObservationTheRings",
       "name": "Tầm Nhìn",
-      "desc": "- Cấp độ tấn công cơ bản giảm 20\n- Cấp độ phòng thủ cơ bản giảm 20\n- Chức năng rút lui của Tù nhân và người trợ giúp không hoạt động\n- Nếu Phụ tá Ngón Áp Út còn khả năng chiến đấu, nhận 7 Bảo vệ khi bắt đầu lượt",
+      "desc": "- Cấp tấn công cơ bản giảm 20\n- Cấp phòng thủ cơ bản giảm 20\n- Chức năng rút lui của Tù nhân và đơn vị hỗ trợ không hoạt động\n- Nếu Đệ tử Ngón Áp Út còn khả năng chiến đấu, nhận 7 Bảo hộ khi bắt đầu lượt",
       "summary": "",
       "undefined": "-",
       "flavor": "「Khi thưởng lãm tác phẩm tại phòng triển lãm, hãy thong thả và chậm rãi. Việc không vội vã là điều rất quan trọng.」"
@@ -275,50 +275,50 @@
     {
       "id": "RedemptionTheRings",
       "name": "Vết thương rơi vãi nguyên liệu",
-      "desc": "Khi sử dụng kỹ năng, nhận 2 Giảm cấp độ tấn công (Tối đa 3 lần mỗi lượt)",
+      "desc": "Khi sử dụng Kĩ năng, nhận 2 Giảm Cấp tấn công (Tối đa 3 lần mỗi lượt)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "SpecimenTheRings",
       "name": "Hoàn tất buổi triển lãm",
-      "desc": "Thất bại trận chiến nếu toàn bộ Tù nhân và người trợ giúp trở thành Thân Thể Biểu Diễn",
+      "desc": "Thua trận nếu toàn bộ Tù nhân và đơn vị hỗ trợ rơi vào hiệu ứng Thân Thể Quan Kịch",
       "summary": "",
       "undefined": "-",
-      "flavor": "Tất cả thịt và cơ bắp về đúng nơi chúng thuộc về, vị trí nguyên bản của chúng."
+      "flavor": "Điểm chính xác và tinh tế ấy, nơi mọi thớ thịt và bắp cơ được sắp đặt hoàn hảo."
     },
     {
       "id": "KAmpouleA1C94TH",
-      "name": "Ống thuốc K Corp khẩn cấp",
-      "desc": "Khi đồng minh khác bản thân còn sống, nếu nhận sát thương khiến máu về 0, các hiệu ứng sau sẽ kích hoạt\n- Nếu đang trong trạng thái Choáng, giải trừ trạng thái Choáng\n- Hồi phục hoàn toàn máu\n- Giảm 1 cấp độ Ống thuốc K Corp khẩn cấp của tất cả đồng minh\n- Hiệu ứng này được ưu tiên kích hoạt trước các hiệu ứng không để máu giảm xuống dưới 1 của nội tại Bản thể/E.G.O",
+      "name": "Ống thuốc khẩn cấp Tập đoàn K",
+      "desc": "Khi còn ít nhất một đồng minh khác bản thân, nhận sát thương khiến HP về 0 sẽ kích hoạt các hiệu ứng sau:\n- Nếu đang bị Choáng, hồi phục khỏi Choáng\n- Hồi phục hoàn toàn HP\n- Tất cả đồng minh mất 1 Ống thuốc khẩn cấp Tập đoàn K\n- Hiệu ứng này kích hoạt trước các hiệu ứng ‘không để HP giảm xuống dưới 1’ từ Nội tại Bản sắc & E.G.O",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "LanternHohenheimBigBird",
       "name": "Đèn",
-      "desc": "- Giá trị tối đa: 20\n- Nhận 1 Ràng buộc cho mỗi 2 giá trị vào lượt tiếp theo (Tối đa 10)\n- Khi kết thúc lượt, tăng chỉ số khiêu khích cho mỗi ô kỹ năng của bản thân thêm (Giá trị ÷ Số ô kỹ năng của bản thân) vào lượt tiếp theo",
+      "desc": "- Giá trị tối đa: 20\n- Nhận 1 Trói buộc cho mỗi 2 giá trị vào lượt kế tiếp (Tối đa 10)\n- Khi kết thúc lượt, tăng thêm (Giá trị ÷ Số ô kĩ năng của bản thân) chỉ số khiêu khích cho mỗi ô kĩ năng của bản thân vào lượt kế tiếp",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "DelusionHohenheimBigBird",
       "name": "Huyễn Hoặc",
-      "desc": "- Nếu không trong trạng thái Choáng khi bắt đầu lượt, kỹ năng tấn công ở ô kỹ năng cuối cùng sẽ trở thành kỹ năng không thể đổi mục tiêu và ưu tiên tấn công Hohenheim\n- Hiệu ứng biến mất khi kết thúc lượt đã kích hoạt",
+      "desc": "- Nếu bản thân không ở trạng thái Choáng khi bắt đầu lượt, Kĩ năng Tấn công lắp ở ô kĩ năng cuối cùng sẽ ưu tiên Hohenheim và không thể đổi mục tiêu\n- Hiệu ứng biến mất vào cuối lượt kích hoạt",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "LvUpHohenheimBigBird",
       "name": "Tăng độ tương thích E.G.O",
-      "desc": "- Cấp độ tấn công cơ bản tăng 15\n- Cấp độ phòng thủ cơ bản tăng 15",
+      "desc": "- Cấp tấn công cơ bản +15\n- Cấp phòng thủ cơ bản +15",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "LvUpHohenheimBigBird_Over",
       "name": "Quá tải độ tương thích E.G.O",
-      "desc": "- Cấp độ tấn công cơ bản tăng 15\n- Cấp độ phòng thủ cơ bản tăng 15\n- Khi kết thúc lượt, nhận Đèn cho đến khi đạt 20, mỗi 1 giá trị nhận được sẽ tiêu tốn 2 Máu, 1 Tinh thần (Máu không giảm xuống dưới 1 bởi hiệu ứng này)",
+      "desc": "- Cấp tấn công cơ bản +15\n- Cấp phòng thủ cơ bản +15\n- Khi kết thúc lượt, tăng giá trị Đèn lên 20; mỗi 1 giá trị tăng thêm, mất 2 Máu và 1 Tinh thần (hiệu ứng này không làm HP giảm xuống dưới 1)",
       "summary": "",
       "undefined": "-",
       "flavor": "Đang cưỡng ép lôi kéo sức mạnh của E.G.O được chiết xuất."
@@ -326,64 +326,64 @@
     {
       "id": "HohenheimBigBird_LowMorale",
       "name": "Cơn buồn ngủ ập đến",
-      "desc": "- Giảm nhuệ khí\n- Lượng Đèn nhận được từ kỹ năng giảm 1",
+      "desc": "- Suy giảm nhuệ khí\n- Lượng Đèn nhận được từ Kĩ năng giảm 1",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "HohenheimBigBird_Panic",
       "name": "Cơn buồn ngủ ập đến",
-      "desc": "- Hoảng loạn\n- Không hành động trong 1 lượt",
+      "desc": "- Hoảng loạn\n- Không hành động trong lượt này",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "LvUpFireFly",
       "name": "Tăng độ tương thích E.G.O",
-      "desc": "- Cấp độ tấn công cơ bản tăng 10\n- Cấp độ phòng thủ cơ bản tăng 10",
+      "desc": "- Cấp tấn công cơ bản +10\n- Cấp phòng thủ cơ bản +10",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "LvUpFireFly_Over",
       "name": "Quá tải độ tương thích E.G.O",
-      "desc": "- Cấp độ tấn công cơ bản tăng 10\n- Cấp độ phòng thủ cơ bản tăng 10\n- Khi kết thúc lượt, nhận 4 Bỏng. Tiêu tốn 5 Tinh thần",
+      "desc": "- Cấp tấn công cơ bản +10\n- Cấp phòng thủ cơ bản +10\n- Khi kết thúc lượt, nhận 4 Bỏng và mất 5 Tinh thần",
       "summary": "",
       "undefined": "-",
       "flavor": "Đang cưỡng ép lôi kéo sức mạnh của E.G.O được chiết xuất."
     },
     {
       "id": "LCEFireFly_LowMorale",
-      "name": "Liệt Hỏa Xâm Thực",
-      "desc": "- Giảm nhuệ khí\n- Khi bắt đầu lượt, nhận 1 Mong manh",
+      "name": "Liệt Hóa Xâm Thực",
+      "desc": "- Suy giảm nhuệ khí\n- Khi bắt đầu lượt, nhận 1 Mong manh",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "LCEFireFly_Panic",
-      "name": "Liệt Hỏa Xâm Thực",
-      "desc": "- Hoảng loạn\n- Khi bắt đầu lượt, nhận 1 Mong manh, 5 Bỏng",
+      "name": "Liệt Hóa Xâm Thực",
+      "desc": "- Hoảng loạn\n- Khi bắt đầu lượt, nhận 1 Mong manh và 5 Bỏng",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "Cubism_LowMorale",
       "name": "Nghệ Thuật Lỗi Thời",
-      "desc": "- Giảm nhuệ khí\n- Khi bắt đầu lượt, nhận 1 Tăng Cấp Tấn Công",
+      "desc": "- Suy giảm nhuệ khí\n- Khi bắt đầu lượt, nhận 1 Tăng Cấp tấn công",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "Cubism_Panic",
       "name": "Nghệ Thuật Lỗi Thời",
-      "desc": "- Hoảng loạn\n- Khi bắt đầu lượt, nhận 2 Tăng Cấp Tấn Công",
+      "desc": "- Hoảng loạn\n- Khi bắt đầu lượt, nhận 2 Tăng Cấp tấn công",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "FutureEyeOn",
       "name": "Nhãn Dự Tri",
-      "desc": "- Giá trị tối đa: 30\n- Uy lực Hòa giải +2\n- Tăng 10 khi bắt đầu lượt\n- Khi bắt đầu lượt, hồi (Giá trị ÷ 4) Tinh thần",
+      "desc": "- Giá trị tối đa: 30\n- Uy lực Đối kháng +2\n- Khi bắt đầu lượt, nhận 10 giá trị\n- Khi bắt đầu lượt, hồi (Giá trị ÷ 4) Tinh thần",
       "summary": "",
       "undefined": "-",
       "flavor": "「Không phải nó cho thấy tương lai một cách thần kỳ đâu. Đôi mắt này phân tích mọi thứ trong tầm mắt và dự đoán những khoảnh khắc sắp tới, nó giống một cái máy tính hơn.」"
@@ -391,45 +391,45 @@
     {
       "id": "FutureEyeOff",
       "name": "Nhãn Dự Tri Quá Nhiệt",
-      "desc": "- Giá trị tối đa: 30\n- Sát thương gây ra bởi kỹ năng tấn công -20%\n- Toàn bộ đồng xu của kỹ năng tiêu tốn Đạn Gia Tốc được chuyển thành Đồng xu không thể phá hủy\n- Tăng 10 khi bắt đầu lượt\n- Nếu giá trị là 30, chuyển thành 「Nhãn Dự Tri」",
+      "desc": "- Giá trị tối đa: 30\n- Sát thương gây ra bởi Kĩ năng Tấn công -20%\n- Toàn bộ Đồng xu của Kĩ năng tiêu tốn Đạn Gia Tốc chuyển thành Đồng xu Không thể phá hủy\n- Khi bắt đầu lượt, nhận 10 giá trị\n- Khi đạt 30 giá trị, chuyển thành ‘Nhãn Dự Tri’",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "LookingFuture",
       "name": "Tương Lai Gia Tốc",
-      "desc": "- Giá trị tối đa : 10\n- Với mỗi 1 giá trị, Uy lực Hòa giải +1\n- Với mỗi 5 giá trị, Uy lực Đồng xu +1\n- Biến mất khi kết thúc kỹ năng",
+      "desc": "- Giá trị tối đa: 10\n- Với mỗi 1 giá trị, Uy lực Đối kháng +1\n- Với mỗi 5 giá trị, Sức mạnh Đồng xu +1\n- Biến mất khi kết thúc Kĩ năng",
       "summary": "",
       "undefined": "-",
-      "flavor": "Lưỡi kiếm chạm nhau càng lâu và càng nhiều, Palermo càng gia tốc nhanh hơn."
+      "flavor": "Phong cách Palermo nổi tiếng là càng gia tốc khi trận đấu kéo dài."
     },
     {
       "id": "ObsessionAndGreed",
-      "name": "Shin (Tâm) - Valentina",
-      "desc": "- Tăng +3 Cấp Phòng Thủ dựa trên số lần thua Hòa giải ở lượt trước (Tối đa 6)\nVới mỗi 1 Uy lực Hơi thở của bản thân, Sát thương gây ra +3% (Tối đa 15%)",
+      "name": "Shin (Tâm) - Valencina",
+      "desc": "- Cấp phòng thủ +3 cho mỗi lần thua Đối kháng ở lượt trước (Tối đa 6)\n- Với mỗi 1 Cường độ Hơi thở trên bản thân, sát thương gây ra +3% (Tối đa 15%)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "AccelBullet",
       "name": "Đạn Gia Tốc",
-      "desc": "- Giá trị tối đa: 10\n- Đạn đặc biệt\n- Tiêu tốn khi sử dụng kỹ năng nhất định",
+      "desc": "- Giá trị tối đa: 10\n- Đạn đặc biệt\n- Tiêu tốn khi sử dụng Kĩ năng nhất định",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "TeachersPrey",
       "name": "Mục Tiêu Săn Đuổi",
-      "desc": "Tốc độ bị cố định ở 1, và bị chỉ định làm mục tiêu cho tất cả các kỹ năng tấn công của 「Đại ca Ngón Cái - Valentina」.",
+      "desc": "Tốc độ bị cố định ở 1; toàn bộ Kĩ năng Tấn công của ‘Cha nuôi Ngón Cái - Valencina’ đều nhắm vào bản thân.",
       "summary": "",
       "undefined": "-",
-      "flavor": "Một khi đã trở thành mục tiêu của nhà Bonyatelli, cuộc săn đuổi là không thể tránh khỏi."
+      "flavor": "Một khi đã thành mục tiêu của Famiglia Bognatelli, cuộc săn đuổi không thể tránh khỏi."
     },
     {
       "id": "AaCfPcBiv2",
       "iconId": "AaCfPcBi (có thể hiểu là: Art always Comes from Pain, certainly Beautiful indeed - Nghệ thuật luôn đến từ nỗi đau, chắc chắn thực sự tươi đẹp)",
       "name": "Truyền Nhiệt Cao",
-      "desc": "Khi kết thúc lượt, nhận sát thương cố định bằng (Giá trị × 0.5)% Máu tối đa tỷ lệ với giá trị này và hiệu ứng biến mất",
+      "desc": "Khi kết thúc lượt, nhận sát thương cố định bằng (Giá trị × 0.5)% Máu tối đa, sau đó hiệu ứng biến mất",
       "summary": "",
       "undefined": "-"
     },
@@ -437,13 +437,13 @@
       "id": "VergiliusSin",
       "name": "Shin (Tâm) - Ánh Nhìn Đỏ",
       "desc": "Sát thương gây ra bởi hệ Phẫn nộ +50%",
-      "summary": "Tăng Sát Thương",
+      "summary": "Sát thương gây ra tăng",
       "undefined": "-"
     },
     {
       "id": "BloodBranch",
-      "name": "Mù Huyết",
-      "desc": "Với mỗi 1 giá trị, nhận 1 Trói buộc vào lượt tiếp theo.\nKhi kết thúc lượt, nhận sát thương máu bằng (Lực Xuất huyết(Bleed) × giá trị).\nKhi bắt đầu cuộc chiến, với mỗi 1 giá trị, nhận 3 Xuất huyết(Bleed) rồi biến mất.",
+      "name": "Mù Huyết [盲血]",
+      "desc": "Với mỗi 1 giá trị, nhận 1 Trói buộc vào lượt kế tiếp.\nKhi kết thúc lượt, nhận sát thương HP bằng (Cường độ Xuất huyết × giá trị).\nKhi bắt đầu cuộc chiến, với mỗi 1 giá trị, nhận 3 Xuất huyết rồi biến mất.",
       "summary": "",
       "undefined": "-",
       "flavor": "「Nếu có thể đưa máu vào trong ánh mắt, ta có thể thu thập, cô đặc và xuyên thấu nó. Tất nhiên, việc làm mù mắt cũng là điều hoàn toàn có thể.」"
@@ -451,83 +451,83 @@
     {
       "id": "Gebura_Reinforcement",
       "name": "Lưỡi Kiếm của Gebura",
-      "desc": "- Tất cả đồng xu kỹ năng chuyển thành đồng xu không thể bị phá hủy\n- Sát thương Gây ra +100%\n- Đối với kỹ năng Cộng đồng xu, Lực đồng xu +1; đối với kỹ năng Trừ đồng xu, Lực cuối cùng +1\n- Không bị rơi vào trạng thái Hoảng loạn bởi bất kỳ sát thương nào trong lượt này\n- Nếu máu bản thân từ 10 trở xuống, hồi phục về 10\n- Trong lượt này, máu không giảm xuống dưới 10 bởi sát thương\n- Trong lượt này, khi đồng xu của Kỹ năng Tấn công cơ bản và Phản đòn Trúng đích, hồi máu bằng 10% sát thương Gây ra (Hồi phục tối đa mỗi kỹ năng : 100)\n- Biến mất khi kết thúc lượt",
+      "desc": "- Toàn bộ Đồng xu Kĩ năng chuyển thành Đồng xu Không thể phá hủy\n- Sát thương gây ra +100%\n- Kĩ năng Đồng xu Cộng nhận +1 Sức mạnh Đồng xu; Kĩ năng Đồng xu Trừ nhận +1 Sức mạnh Cuối cùng\n- Trong lượt này, bản thân không thể bị Choáng bởi mọi nguồn sát thương\n- Khi HP dưới 10, hồi phục lên 10 HP\n- Trong lượt này, HP của bản thân không giảm xuống dưới 10\n- Trong lượt này, mỗi lần Đồng xu của Kĩ năng Tấn công Cơ bản và Kĩ năng Phản đòn đánh trúng, hồi phục 10% sát thương đã gây (hồi phục tối đa mỗi Kĩ năng: 100)\n- Biến mất khi kết thúc lượt",
       "summary": "Áp dụng hiệu ứng Lưỡi Kiếm của Gebura",
       "undefined": "-"
     },
     {
       "id": "ThreeMirrorpartYiSang",
       "name": "Thế giới rạn nứt",
-      "desc": "- Giá trị tối đa: 1\n- Biến mất khi kết thúc lượt\n- Sát thương Nhận từ Bỏng gấp 1.2 lần (Làm tròn xuống, ngoại trừ Bỏng đặc biệt)\n- Sát thương Nhận từ Kỹ năng Tấn công cơ bản hệ Phẫn nộ và U sầu của Yi Sang +10%",
+      "desc": "- Giá trị tối đa: 1\n- Biến mất khi kết thúc lượt\n- Sát thương nhận vào từ Bỏng gấp 1.2 lần (Làm tròn xuống, ngoại trừ Bỏng đặc biệt)\n- Sát thương nhận vào từ Kĩ năng Tấn công Cơ bản hệ Phẫn nộ và U sầu của Yi Sang +10%",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RyoshuEGOPF",
-      "name": "La Sinh",
-      "desc": "Giá trị tối đa : 999\n- Với mỗi 1 sát thương kỹ năng mà Ryoshu Gây ra, giá trị tăng thêm 1\n- Với mỗi 33 giá trị, sát thương Kỹ năng cơ bản tăng thêm 1% (Tối đa 10%)",
+      "name": "La Sinh [羅生]",
+      "desc": "Giá trị tối đa: 999\n- Nhận 1 giá trị cho mỗi 1 sát thương HP gây ra bởi Kĩ năng của Ryoshu\n- Với mỗi 33 giá trị, sát thương Kĩ năng Cơ bản +1% (Tối đa 10%)",
       "summary": " ",
       "undefined": "-",
       "flavor": "「Một cái kén rối rắm, đan xen và dệt vào nhau. Những sợi chỉ. Cuộc đời. Thế giới.」"
     },
     {
       "id": "OffenseBug",
-      "name": "Sâu bọ Tấn công [Phi Liêm]",
-      "desc": "- Giá trị tối đa: 50\n- Máu tối đa giảm 1% với mỗi 1 giá trị\n- Khi bắt đầu cuộc chiến, Nhận (giá trị × 12) sát thương cố định\n- Khi giá trị giảm đi, Nhận tài nguyên E.G.O ngẫu nhiên tương ứng với giá trị giảm (Tối đa 15)",
+      "name": "Sâu bọ Tấn công [Gián]",
+      "desc": "- Giá trị tối đa: 50\n- Máu tối đa giảm 1% cho mỗi 1 giá trị\n- Khi bắt đầu cuộc chiến, nhận (giá trị × 12) sát thương cố định\n- Khi giá trị giảm đi, nhận tài nguyên E.G.O ngẫu nhiên tương ứng với lượng giảm (Tối đa 15)",
       "summary": "",
       "undefined": "-",
-      "flavor": "「Trong số những thứ được gọi là sâu bọ, đây là kẻ đứng đầu.」"
+      "flavor": "「Trong đám được gọi là sâu hại, con này là số một.」"
     },
     {
       "id": "DefenseBug",
-      "name": "Sâu bọ Phòng ngự [Phi Liêm]",
-      "desc": "- Giá trị tối đa: 50\n- Khi bản thân bị Gây Lực hoặc Số lượng (Bỏng, Xuất huyết(Bleed), Chấn động(Tremor), Vết rách(Rupture), Trầm luân(Sinking)), giá trị này giảm đi bằng lượng hiệu ứng đó và không bị Gây hiệu ứng tương ứng nữa\n- Biến mất khi kết thúc lượt",
+      "name": "Sâu bọ Phòng ngự [Gián]",
+      "desc": "- Giá trị tối đa: 50\n- Khi bản thân bị gây Cường độ hoặc Số lượng (Bỏng, Xuất huyết, Chấn động, Vết rách, Trầm luân), thay vì nhận các hiệu ứng đó, giá trị của hiệu ứng này giảm đi đúng bằng lượng đó\n- Biến mất khi kết thúc lượt",
       "summary": "",
       "undefined": "-",
       "flavor": "「Mỗi con đều độc hại, ghê tởm và ngoan cố.」"
     },
     {
       "id": "LvDownLittleFingerBossTwo",
-      "name": "Thiên Sát Tinh Thương",
-      "desc": "- Cấp Tấn công cơ bản giảm 15\n- Cấp Phòng ngự cơ bản giảm 15",
-      "summary": "Giảm Cấp Tấn công/Phòng ngự cơ bản",
+      "name": "Thiên Sát Tinh Thương [天殺星傷]",
+      "desc": "- Cấp tấn công cơ bản giảm 15\n- Cấp phòng thủ cơ bản giảm 15",
+      "summary": "Giảm Cấp tấn công/phòng thủ cơ bản",
       "undefined": "-",
-      "flavor": "Thiên Sát Tinh Đao - Những kẻ bị chém bởi A-lại-da thức sẽ để lại những vết kiếm hằn sâu như đang rực cháy. Vết kiếm này không thể bị xóa bỏ bằng bất cứ phương pháp nào.\nBởi vì nó dùng chính sự tồn tại của kẻ vung đao làm cái giá để chém đứt cả sự tồn tại của đối phương."
+      "flavor": "Những vết chém của Thiên Sát Tinh Đao - Arayashiki để lại vết thương như đang rực cháy. Vết cháy này không thể phai mờ bằng bất cứ phương pháp nào.\nBởi kẻ vung đao đã lấy chính sự tồn tại của mình làm cái giá để chém đứt sự tồn tại của đối phương."
     },
     {
       "id": "SojiAbiAgePast",
       "name": "Nghịch hành - Hận thù",
-      "desc": "- Giá trị tối đa : 20\n- Với mỗi 1 giá trị, sát thương Nhận/Gây +2%",
+      "desc": "- Giá trị tối đa: 20\n- Với mỗi 1 giá trị, sát thương gây ra và nhận vào +2%",
       "summary": "Sát thương Gây/Nhận tăng",
       "undefined": "-",
-      "flavor": "「Những ký ức đã lãng quên tôi, chẳng thể nào cắt đứt được chúng như những nút thắt.」"
+      "flavor": "「Ký ức về việc bị ngươi bỏ rơi và lãng quên cứ bám riết không buông... như một nút chỉ cứng đầu không chịu đứt.」"
     },
     {
       "id": "SojiAbiAgeFuture",
-      "name": "Tuần hành - Thương hại",
-      "desc": "- Giá trị tối đa : 20\n- Với mỗi 1 giá trị, sát thương Nhận/Gây -2%",
+      "name": "Tuần hành - Từ bi",
+      "desc": "- Giá trị tối đa: 20\n- Với mỗi 1 giá trị, sát thương gây ra và nhận vào -2%",
       "summary": "Sát thương Gây/Nhận giảm",
       "undefined": "-",
       "flavor": "「Liệu có phải vì thời gian đã trôi qua và tôi đã già đi nên mới bắt đầu nghĩ rằng mình có thể thấu hiểu và ôm lấy bạn?」"
     },
     {
       "id": "TimeEntangleUnstable",
-      "name": "Bạo tẩu - Tàn ảnh rối rắm",
-      "desc": "- Giá trị tối đa: 10\n- Khi đòn tấn công của bản thân trúng đích, áp dụng các hiệu ứng sau dựa trên giá trị:\n・Sát thương Trảm bằng (Sát thương cuối của đồng xu tương ứng ÷ 10) (Kích hoạt theo số lượng giá trị)\n・Từ 2 trở lên: Gây 1 Bỏng\n・Từ 3 trở lên: Gây 1 Xuất huyết\n・Từ 4 trở lên: Gây 1 Trói buộc vào lượt kế tiếp\n・Từ 5 trở lên: Gây 1 Độc",
-      "summary": "Áp dụng hiệu ứng bổ sung vào đòn tấn công dựa trên giá trị hiệu ứng có lợi",
+      "name": "Phát tác - Tàn ảnh rối ren",
+      "desc": "- Giá trị tối đa: 10\n- Khi đòn tấn công của bản thân trúng đích, áp dụng các hiệu ứng sau dựa trên giá trị:\n・Gây sát thương Trảm kích bằng (sát thương cuối của Đồng xu ÷ 10) (kích hoạt số lần bằng giá trị)\n・Từ 2 trở lên: Gây 1 Bỏng\n・Từ 3 trở lên: Gây 1 Xuất huyết\n・Từ 4 trở lên: Gây 1 Trói buộc vào lượt kế tiếp\n・Từ 5 trở lên: Gây 1 Độc",
+      "summary": "Áp dụng hiệu ứng bổ sung lên đòn tấn công của bản thân dựa trên giá trị",
       "undefined": "-"
     },
     {
       "id": "WillAwakenSinclair",
-      "name": "Sin (Tâm) - Một Sinclair nào đó",
-      "desc": "- Tốc độ tối thiểu và tối đa tăng 3\n- Sát thương gây ra bởi Tấn công một chiều +20%\n- Cấp độ Hơi thở nhận được từ kỹ năng của bản thân +2, số lần Hơi thở +1\n- Nếu Tinh thần từ 20 trở lên, tỉ lệ tung mặt trước của đồng xu cộng +10%\n- Khi kết thúc lượt, với mỗi 10 Tinh thần, nhận 1 Cấp tốc vào lượt kế tiếp (Tối đa 4)\n- Khi kết thúc lượt, với mỗi 20 Tinh thần, nhận 1 Tăng Uy lực vào lượt kế tiếp (Tối đa 2)",
+      "name": "Shin (Tâm) - Một Sinclair nào đó",
+      "desc": "- Tốc độ tối thiểu và tối đa +3\n- Sát thương gây ra bởi Tấn công một chiều +20%\n- Cường độ Hơi thở nhận được từ Kĩ năng của bản thân +2 và Số lượng Hơi thở +1\n- Khi Tinh thần từ 20 trở lên, tỉ lệ lật Mặt Ngửa của Đồng xu Cộng +10%\n- Khi kết thúc lượt, với mỗi 10 Tinh thần, nhận 1 Nhanh nhẹn vào lượt kế tiếp (Tối đa 4)\n- Khi kết thúc lượt, với mỗi 20 Tinh thần, nhận 1 Tăng Uy lực vào lượt kế tiếp (Tối đa 2)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "SignAwakenSinclair",
       "name": "Ấn - Tương lai hiển hiện",
-      "desc": "- Khi tham gia Đấu với kẻ địch có cấp độ cao hơn bản thân, Uy lực Đấu +2\n- Khi kết thúc lượt, nếu đang trong trạng thái Choáng, giải trừ trạng thái Choáng vào lượt kế tiếp",
+      "desc": "- Khi Đối kháng với kẻ địch có cấp độ cao hơn bản thân, Uy lực Đối kháng +2\n- Khi kết thúc lượt, nếu đang bị Choáng, hồi phục khỏi Choáng vào lượt kế tiếp",
       "summary": "",
       "undefined": "-",
       "flavor": "Abraxas"
@@ -535,122 +535,122 @@
     {
       "id": "LimitedAwakenSinclair",
       "name": "Umbra: Giải trừ Cấm chế",
-      "desc": "- Sát thương gây ra bởi Kỹ năng tấn công cơ bản +10%\n- Khi bắt đầu lượt, nhận 1 Cường hóa Đồng xu cộng",
+      "desc": "- Sát thương gây ra bởi Kĩ năng Tấn công Cơ bản +10%\n- Khi bắt đầu lượt, nhận 1 Cường hóa Đồng xu Cộng",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "Veteran_LowMorale",
-      "name": "Của cuộc Chiến tranh Khói bụi lần thứ hai",
+      "name": "Của cuộc Chiến tranh Khói lần thứ hai",
       "desc": "- Suy giảm nhuệ khí\n- Khi bắt đầu lượt, nhận 1 Mong manh\n- Hiệu suất hồi phục Tinh thần +2",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "Veteran_Panic",
-      "name": "Của cuộc Chiến tranh Khói bụi lần thứ hai",
-      "desc": "- Hoảng loạn\n- Khi bắt đầu lượt, nhận 2 Mong manh, nhận 2 Tăng Uy lực Đấu",
+      "name": "Của cuộc Chiến tranh Khói lần thứ hai",
+      "desc": "- Hoảng loạn\n- Khi bắt đầu lượt, nhận 2 Mong manh và 2 Tăng Uy lực Đối kháng",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "MiddleFatherSwordOne",
       "name": "Thanh kiếm bị phong ấn",
-      "desc": "Có thể sử dụng kỹ năng nhất định tùy theo trạng thái của kiếm",
+      "desc": "Mở khóa Kĩ năng nhất định tùy theo trạng thái của thanh kiếm.",
       "summary": "",
       "undefined": "-",
       "flavor": "Ba anh em thân thiết đã cùng nhau đi sâu vào bên trong Di tích."
     },
     {
       "id": "MiddleFatherSwordTwo",
-      "name": "Giải ấn Giai đoạn 1",
-      "desc": "Có thể sử dụng kỹ năng nhất định tùy theo trạng thái của kiếm",
+      "name": "Gỡ Phong ấn thứ nhất",
+      "desc": "Mở khóa Kĩ năng nhất định tùy theo trạng thái của thanh kiếm.",
       "summary": "",
       "undefined": "-",
       "flavor": "Nơi họ đến là một hang động với các tòa nhà nổi trên dòng nham thạch đang bùng cháy dữ dội.\nTại nơi phát ra hơi nóng, một thanh kiếm... không, một khối sắt rực lửa khó có thể gọi là kiếm đang được đặt ở đó."
     },
     {
       "id": "MiddleFatherSwordThree",
-      "name": "Giải ấn Giai đoạn 2",
-      "desc": "Có thể sử dụng kỹ năng nhất định tùy theo trạng thái của kiếm",
+      "name": "Gỡ Phong ấn thứ hai",
+      "desc": "Mở khóa Kĩ năng nhất định tùy theo trạng thái của thanh kiếm.",
       "summary": "",
       "undefined": "-",
-      "flavor": "「Thanh kiếm này, người anh cả là ta sẽ nhận lấy.」\nNghe thấy lời đó, người em trai nọ đã không thể kìm nén được dục vọng và đố kỵ đang bùng cháy.\n\nHắn đã giết chết anh trai và chị gái để cướp lấy thanh kiếm. Đáng lẽ không được để lại bất kỳ dấu vết nào.\nThế nhưng hắn vẫn bị nghi ngờ, và rồi rơi xuống vực thẳm mà không hề kháng cự.\nDù vậy, hắn vẫn không đánh mất nụ cười.\nVì thanh kiếm huyền thoại này đã là của hắn."
+      "flavor": "「Thanh kiếm này, người anh cả là ta sẽ nhận lấy.」\nNghe thấy lời đó, người em út đã không thể kìm nén dục vọng và đố kỵ đang bùng cháy.\n\nVậy nên ta đã giết cả anh trai lẫn chị gái, và chiếm lấy thanh kiếm. Ta không để lại bất kỳ dấu vết nào.\nThế nhưng những ánh mắt vẫn nhìn ta đầy hoài nghi, và khi họ ném ta xuống địa ngục này, ta đã rơi xuống mà không hề kháng cự.\nDù vậy, ta vẫn không đánh mất nụ cười.\nVì thanh kiếm huyền thoại đã thuộc về ta."
     },
     {
       "id": "MiddleFatherSwordFour",
-      "name": "Laevateinn",
-      "desc": "Có thể sử dụng kỹ năng nhất định tùy theo trạng thái của kiếm.\nKhi bắt đầu lượt, gây 5 Bỏng cho toàn bộ nhân vật, số lần Bỏng tăng 2",
+      "name": "Lævateinn",
+      "desc": "Mở khóa Kĩ năng nhất định tùy theo trạng thái của thanh kiếm.\nKhi bắt đầu lượt, gây 5 Bỏng và +2 Số lượng Bỏng lên toàn bộ nhân vật",
       "summary": "",
       "undefined": "-",
-      "flavor": "Đáng tiếc thay, Matthias đã không thể sử dụng thanh kiếm này một cách tử tế.\nDĩ nhiên, đây là một di vật phức tạp đến mức người bình thường thậm chí còn chẳng thể cầm lấy.\nDẫu chỉ cầm và vung vẩy thì cũng đã là đủ rồi, nhưng để hoàn toàn làm chủ nó thì hắn chỉ đơn giản là thiếu đi sự tương thích.\nThế nhưng, đối với hắn điều đó chẳng hề quan trọng.\nBởi lẽ điều quan trọng nhất chính là việc bản thân được sở hữu và vung vẩy thanh kiếm huyền thoại mà mình đã hằng mơ ước từ thuở nhỏ."
+      "flavor": "Trớ trêu thay, Matthias đã không thể sử dụng thanh kiếm này một cách tử tế.\nDĩ nhiên, nếu không có năng khiếu, hắn thậm chí chẳng thể cầm nổi thanh kiếm này. Di vật này đơn giản là thất thường đến vậy.\nDẫu vậy, sự thật là năng khiếu của hắn còn xa mới đủ để phát huy hết tiềm năng của vũ khí này.\nThế nhưng, đối với hắn điều đó chẳng hề quan trọng.\nBởi lẽ điều quan trọng nhất chính là việc bản thân được sở hữu và vung vẩy thanh kiếm huyền thoại mà mình đã hằng mơ ước từ thuở nhỏ."
     },
     {
       "id": "SojiAbiBuffOne",
-      "name": "Keimei (Kê Minh)",
-      "desc": "Trạng thái đã có thể Đấu với ô kỹ năng nhất định của kẻ địch",
+      "name": "Kê Minh (雞鳴)",
+      "desc": "Trạng thái có thể Đối kháng với ô kĩ năng cụ thể của kẻ địch",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "SojiAbiBuffTwo",
-      "name": "Nichinyu (Nhật Nhập)",
-      "desc": "Trạng thái đã có thể Đấu với ô kỹ năng nhất định của kẻ địch",
+      "name": "Nhật Nhập (日入)",
+      "desc": "Trạng thái có thể Đối kháng với ô kĩ năng cụ thể của kẻ địch",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "SojiAbiBuffThree",
-      "name": "Hoàng Hôn",
-      "desc": "Trạng thái có thể đối kháng với ô kỹ năng cụ thể của kẻ địch",
+      "name": "Hoàng Hôn (黃昏)",
+      "desc": "Trạng thái có thể Đối kháng với ô kĩ năng cụ thể của kẻ địch",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RyoshuParrySojiTwo",
       "name": "Ký ức không thể cắt đứt",
-      "desc": "- Sát thương gây ra/nhận vào đối với Đại huynh Ngón Út +20%, khi thắng đối kháng làm Tinh thần của Đại huynh Ngón Út -5\n- Khi nhận sát thương lẽ ra sẽ gây Choáng, không rơi vào trạng thái Choáng mà loại bỏ vạch Choáng đó. Sau đó, nhận 1 Tăng Uy lực Tấn công vào lượt tiếp theo\n- Không thể rút lui",
+      "desc": "- Sát thương gây ra cho và nhận vào từ Cha nuôi Ngón Út +20%; khi thắng Đối kháng, gây 5 sát thương Tinh thần lên Cha nuôi Ngón Út\n- Khi nhận sát thương đáng lẽ khiến bản thân bị Choáng, không bị Choáng mà loại bỏ Ngưỡng Choáng tương ứng. Sau đó, nhận 1 Tăng Uy lực Tấn công vào lượt kế tiếp\n- Không thể rút lui",
       "summary": "Hiệu ứng đặc biệt của Ryoshu",
       "undefined": "-"
     },
     {
       "id": "RyoshuParrySojiThree",
       "name": "Thời gian không thể cắt đứt",
-      "desc": "- Sát thương gây ra/nhận vào đối với Đại huynh Ngón Út +20%, khi thắng đối kháng làm Tinh thần của Đại huynh Ngón Út -5\n- Khi nhận sát thương lẽ ra sẽ gây Choáng, không rơi vào trạng thái Choáng mà loại bỏ vạch Choáng đó. Sau đó, nhận 1 Tăng Uy lực Tấn công vào lượt tiếp theo\n- Khi sử dụng kỹ năng của bản thân trong trận chiến này, nhận +1 Tài nguyên E.G.O của thuộc tính đó, nhận thêm +1 Tài nguyên E.G.O ngẫu nhiên có số lượng ít nhất (2 lần mỗi lượt)\n- Không thể rút lui (bao gồm cả đồng minh)",
+      "desc": "- Sát thương gây ra cho và nhận vào từ Cha nuôi Ngón Út +20%; khi thắng Đối kháng, gây 5 sát thương Tinh thần lên Cha nuôi Ngón Út\n- Khi nhận sát thương đáng lẽ khiến bản thân bị Choáng, không bị Choáng mà loại bỏ Ngưỡng Choáng tương ứng. Sau đó, nhận 1 Tăng Uy lực Tấn công vào lượt kế tiếp\n- Trong trận chiến này: Sau khi sử dụng Kĩ năng, nhận +1 Tài nguyên E.G.O thuộc hệ của Kĩ năng đó và +1 Tài nguyên E.G.O ngẫu nhiên thuộc loại ít nhất (2 lần mỗi lượt)\n- Không thể rút lui (bao gồm cả đồng minh)",
       "summary": "Hiệu ứng đặc biệt của Ryoshu",
       "undefined": "-"
     },
     {
       "id": "HeavenlyKillerStar",
-      "name": "Thiên Sát Tinh Đao - A Lại Da Thức",
-      "desc": "- Giá trị Tốc độ tối thiểu/tối đa +6\n- Cấp độ tấn công +6\n- Uy lực Xuất huyết(Bleed) gây ra bằng kỹ năng +3\n- Khi bắt đầu lượt, với mỗi kẻ địch đã tiêu diệt trong trận chiến này, nhận 3 Tăng Cấp độ Tấn công (Tối đa 6)",
+      "name": "Thiên Sát Tinh Đao - Arayashiki [天殺星刀阿賴耶識]",
+      "desc": "- Tốc độ tối thiểu/tối đa +6\n- Cấp tấn công +6\n- Cường độ Xuất huyết gây ra bằng Kĩ năng +3\n- Khi bắt đầu lượt, với mỗi kẻ địch đã bị tiêu diệt trong trận này, nhận 3 Tăng Cấp tấn công (Tối đa 6)",
       "summary": "",
       "undefined": "-",
       "flavor": "「Giết cả trời. Trời, Đất, Người, và ta. Ngôi sao này là ngôi sao chỉ mọc lên cho những kẻ nhận thức mọi thực thể và thời gian là một, và có thể chém lìa chúng.」"
     },
     {
       "id": "CutoffRyoshu",
-      "name": "Thiết Ti",
-      "desc": "- Khi bắt đầu lượt,\n・Nhận 3 Xuất huyết, tăng 3 Số lượng Xuất huyết\n・Nhận sát thương Chém bằng (Giá trị ÷ 3)\n- Khi nhận sát thương, nhận sát thương Chém bằng (Giá trị ÷ 5)\n- Giá trị này càng tăng thì...\n- Tối đa 100",
+      "name": "Thiết Ty [切絲]",
+      "desc": "- Khi bắt đầu lượt:\n・Nhận 3 Xuất huyết, +3 Số lượng Xuất huyết\n・Nhận sát thương Trảm kích bằng (Giá trị ÷ 3)\n- Khi bị đánh trúng, nhận sát thương Trảm kích bằng (Giá trị ÷ 5)\n- Giá trị này càng tăng thì...\n- Giá trị tối đa: 100",
       "summary": "",
       "undefined": "-",
-      "flavor": "「Sẽ cắt đứt tất cả. Cả ngươi, cả ta, mọi sự từ trước đến nay và cả sau này.」\n\n「Sau đó sẽ mang Alaya trở về.」"
+      "flavor": "「Sẽ cắt đứt tất cả. Cả ngươi, cả ta, mọi sự từ trước đến nay và cả sau này.」\n\n「Sau đó sẽ mang Araya trở về.」"
     },
     {
       "id": "CutbondRyoshu",
-      "name": "Vô Ngã",
-      "desc": "- Khi bắt đầu lượt, với mỗi 10 giá trị, nhận 1 Tăng Cấp độ Tấn công và 1 Tăng Cấp độ Phòng thủ\n- Giá trị này càng tăng thì...\n- Tối đa 100",
+      "name": "Vô Ngã [無我]",
+      "desc": "- Khi bắt đầu lượt, với mỗi 10 giá trị, nhận 1 Tăng Cấp tấn công và 1 Tăng Cấp phòng thủ\n- Giá trị này càng tăng thì...\n- Giá trị tối đa: 100",
       "summary": "",
       "undefined": "-",
-      "flavor": "「Vì vậy ta rất trân quý lưỡi kiếm. Khi đã chuẩn bị xong, ta sẽ trở về với Mạng Nhện một lần nữa.」"
+      "flavor": "「Nên ta phải kiềm chế không dùng đến lưỡi kiếm. Khi đã sẵn sàng, ta sẽ trở về Ngôi nhà đó một lần nữa.」"
     },
     {
       "id": "EsteemNeeds",
       "name": "Khao khát được công nhận",
-      "desc": "- Với mỗi 1 giá trị, sát thương gây ra/nhận vào đối với Ryoshu +5% (Tối đa 100%)\n- Với mỗi 5 giá trị, khi tấn công chọn Ryoshu làm mục tiêu chính, Uy lực cuối cùng +1 (Tối đa 4)\n- Nếu giá trị từ 10 trở lên, nhận 5 sát thương Tinh thần khi thua đối kháng\n- Tối đa 20",
+      "desc": "- Với mỗi 1 giá trị, sát thương gây ra cho và nhận vào từ Ryoshu +5% (Tối đa 100%)\n- Với mỗi 5 giá trị, khi tấn công Ryoshu làm mục tiêu chính, Sức mạnh Cuối cùng +1 (Tối đa 4)\n- Khi đạt từ 10 giá trị trở lên, nhận 5 sát thương Tinh thần khi thua Đối kháng\n- Giá trị tối đa: 20",
       "summary": "",
       "undefined": "-",
-      "flavor": "「Về đến nơi, mình sẽ bảo cô R-Rian khen mình mới được...」"
+      "flavor": "「Về đến nhà, ô-ông Rien sẽ khen mình làm tốt...」"
     },
     {
       "id": "Fugacious",
@@ -663,14 +663,14 @@
     {
       "id": "ObsessedTeacher_LowMorale",
       "name": "Nỗi nhục của gia tộc",
-      "desc": "- Khi bắt đầu lượt, nhận 1 Tăng Sát thương Chém, 1 Tăng Uy lực Đối kháng và 1 Mong manh(Fragile)\n- Không thể nhận Vọng khi sử dụng kỹ năng",
+      "desc": "- Khi bắt đầu lượt, nhận 1 Tăng Sát thương Trảm kích, 1 Tăng Uy lực Đối kháng và 1 Mong manh (Fragile)\n- Không thể nhận Vọng khi sử dụng Kĩ năng",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "ObsessedTeacher_Panic",
       "name": "Nỗi nhục của gia tộc",
-      "desc": "- Khi bắt đầu lượt, nhận 2 Tăng Sát thương Chém, 2 Tăng Uy lực Đối kháng và 2 Mong manh(Fragile)\n- Không thể nhận Vọng khi sử dụng kỹ năng",
+      "desc": "- Khi bắt đầu lượt, nhận 2 Tăng Sát thương Trảm kích, 2 Tăng Uy lực Đối kháng và 2 Mong manh (Fragile)\n- Không thể nhận Vọng khi sử dụng Kĩ năng",
       "summary": "",
       "undefined": "-"
     },
@@ -684,45 +684,45 @@
     {
       "id": "AgainstMyWill_Panic",
       "name": "「G... giết tôi đi...」",
-      "desc": "Khi bắt đầu lượt, nhận Giảm Uy lực Đối kháng 10, Giảm Uy lực 5",
+      "desc": "Khi bắt đầu lượt, nhận 10 Giảm Uy lực Đối kháng và 5 Giảm Uy lực",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "IndexPrescriptRien_0",
-      "name": "Chỉ thị [Thiết bị đầu cuối] I",
-      "desc": "Tấn công và đánh trúng mục tiêu chỉ thị. Thời hạn đến hết lượt đầu tiên.\n\n- Khi bắt đầu lượt, nhận khi chưa có Giải ấn\n- Giá trị tối đa của Sự Bảo hộ của Chỉ thị có thể nhận được từ chỉ thị này: 3",
+      "name": "Chỉ thị [Thiết bị] I",
+      "desc": "Tấn công và đánh trúng mục tiêu của Chỉ thị. Thời hạn đến hết lượt đầu tiên.\n\n- Khi bắt đầu lượt, nhận khi chưa có Giải ấn\n- Giá trị Sự Bảo hộ của Chỉ thị tối đa có thể nhận được từ Chỉ thị này: 3",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "IndexPrescriptRien_1",
-      "name": "Chỉ thị [Thiết bị đầu cuối] II",
-      "desc": "Tấn công và đánh trúng mục tiêu chỉ thị. Hoặc đánh trúng đòn tấn công từ 4 lần trở lên trong lượt này. Thời hạn đến hết lượt thứ 4.\n\n- Khi bắt đầu lượt, nhận khi có Giải ấn - I\n- Giá trị tối đa của Sự Bảo hộ của Chỉ thị có thể nhận được từ chỉ thị này: 6",
+      "name": "Chỉ thị [Thiết bị] II",
+      "desc": "Tấn công và đánh trúng mục tiêu của Chỉ thị; hoặc đánh trúng từ 4 đòn trở lên trong lượt này. Hoàn thành trước lượt thứ 4.\n\n- Khi bắt đầu lượt, nhận khi có Giải ấn - I\n- Giá trị Sự Bảo hộ của Chỉ thị tối đa có thể nhận được từ Chỉ thị này: 6",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "IndexPrescriptRien_2",
-      "name": "Chỉ thị [Thiết bị đầu cuối] III",
-      "desc": "Sử dụng kỹ năng mạnh mẽ dùng 9 loại vũ khí\n\n- Khi bắt đầu lượt, nhận khi có Giải ấn - II\n- Giá trị tối đa của Sự Bảo hộ của Chỉ thị có thể nhận được từ chỉ thị này: 9",
+      "name": "Chỉ thị [Thiết bị] III",
+      "desc": "Sử dụng Kĩ năng mạnh mẽ dùng 9 loại vũ khí khác nhau.\n\n- Khi bắt đầu lượt, nhận khi có Giải ấn - II\n- Giá trị Sự Bảo hộ của Chỉ thị tối đa có thể nhận được từ Chỉ thị này: 9",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "IndexPrescriptRien_3",
-      "name": "Chỉ thị [Thiết bị đầu cuối] IV",
-      "desc": "Loại bỏ mọi chướng ngại vật. Thời hạn cho đến khi có chỉ thị tiếp theo.\n\n- Khi bắt đầu lượt, nhận khi có Giải ấn - III ",
+      "name": "Chỉ thị [Thiết bị] IV",
+      "desc": "Loại bỏ mọi chướng ngại vật. Thời hạn là trước khi Chỉ thị kế tiếp đến.\n\n- Khi bắt đầu lượt, nhận khi có Giải ấn - III ",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "IndexPrescript_RienSecondPhase",
-      "name": "Chỉ thị [Thiết bị đầu cuối] - Cảnh cáo",
-      "desc": "Ưu tiên tiêu diệt mục tiêu chỉ thị.\n\n- Nhận từ giai đoạn 2",
+      "name": "Chỉ thị [Thiết bị] - Cảnh cáo",
+      "desc": "Ưu tiên tiêu diệt mục tiêu của Chỉ thị.\n\n- Nhận từ giai đoạn 2",
       "summary": "",
       "undefined": "-",
-      "flavor": "「Mỗi khi chỉ thị không được thực hiện, tiếng bíp phát ra từ thiết bị đầu cuối lại nhanh dần lên.」\n\n「Âm thanh dồn dập đó khiến tôi không khỏi cảm thấy nhịp tim mình cũng đang tăng dần.」"
+      "flavor": "「Mỗi giây trôi qua mà Chỉ thị không được thi hành, tiếng bíp từ thiết bị lại nhanh dần.」\n\n「Và cùng với nó, nhịp tim của tôi cũng đập nhanh dần.」"
     },
     {
       "id": "UnlockBuff_Rien1",
@@ -748,22 +748,22 @@
     {
       "id": "KarmaOfIndexRien",
       "name": "Nghiệp chướng",
-      "desc": "- Khi bắt đầu lượt,\n・Mỗi 10 chỉ số, nhận Giảm Cấp phòng thủ 1\n・Mỗi 20 chỉ số, nhận Mong manh 1\n- Mỗi 40 chỉ số, nhận Giảm Uy lực Đối kháng 1\n- Tối đa 100",
+      "desc": "- Khi bắt đầu lượt:\n・Mỗi 10 giá trị, nhận 1 Giảm Cấp phòng thủ\n・Mỗi 20 giá trị, nhận 1 Mong manh\n・Mỗi 40 giá trị, nhận 1 Giảm Uy lực Đối kháng\n- Giá trị tối đa: 100",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "KarmaOfIndexRien_2Phase",
       "name": "Nghiệp chướng [Fortuna]",
-      "desc": "- Khi bắt đầu lượt,\n・Mỗi 10 chỉ số, nhận Giảm Cấp phòng thủ 1\n・Mỗi 20 chỉ số, nhận Mong manh 1\n- Mỗi 40 chỉ số, nhận Giảm Uy lực Đối kháng 1\n- Tối đa 200",
+      "desc": "- Khi bắt đầu lượt:\n・Mỗi 10 giá trị, nhận 1 Giảm Cấp phòng thủ\n・Mỗi 20 giá trị, nhận 1 Mong manh\n・Mỗi 40 giá trị, nhận 1 Giảm Uy lực Đối kháng\n- Giá trị tối đa: 200",
       "summary": "",
       "undefined": "-",
       "flavor": "O Fortúna velut luna statu variabilis"
     },
     {
       "id": "BurningWoundRien_Mask",
-      "name": "Mặt nạ của Lian",
-      "desc": "- Cấp tấn công -5, Cấp phòng thủ -5\n- Mỗi 1 chỉ số, lượng sát thương nhận vào từ kỹ năng gây Bỏng hoặc Xuất huyết (bao gồm Uy lực, Số lượng, Từ khóa đặc biệt) +5%\n・Khi gây cả Bỏng và Xuất huyết, thay vào đó là +7.5%\n- Tối đa 1",
+      "name": "Mặt nạ của Rien",
+      "desc": "- Cấp tấn công -5, Cấp phòng thủ -5\n- Với mỗi 1 giá trị, sát thương nhận vào từ Kĩ năng gây Bỏng hoặc Xuất huyết (bao gồm Cường độ, Số lượng và Biến thể Duy nhất) +5%\n・Nếu Kĩ năng gây cả Bỏng lẫn Xuất huyết, thay vào đó +7.5% cho mỗi giá trị\n- Giá trị tối đa: 1",
       "summary": "",
       "undefined": "-",
       "flavor": "「Bởi vì mỗi khi nhìn thấy nó lại đau đớn, nên tôi mới giấu nó đi.」"
@@ -771,37 +771,37 @@
     {
       "id": "BurningWoundRien",
       "name": "Vết thương bỏng rát",
-      "desc": "- Cấp độ tấn công -5, Cấp độ phòng thủ -5\n- Khi bắt đầu lượt, với mỗi 1 trị số, số lần [Bỏng] tăng 1, số lần [Xuất huyết] tăng 1\n- Với mỗi 1 trị số, tăng 10% sát thương nhận vào từ kỹ năng gây [Bỏng] hoặc [Xuất huyết] (bao gồm Uy lực · Số lần · Từ khóa đặc biệt)\n· Khi gây cả [Bỏng] và [Xuất huyết], thay vào đó tăng 15%\n- Tối đa 5",
+      "desc": "- Cấp tấn công -5, Cấp phòng thủ -5\n- Khi bắt đầu lượt, với mỗi 1 giá trị, +1 Số lượng [Bỏng] và +1 Số lượng [Xuất huyết]\n- Với mỗi 1 giá trị, sát thương nhận vào từ Kĩ năng gây [Bỏng] hoặc [Xuất huyết] +10% (bao gồm Cường độ · Số lượng · Biến thể Duy nhất)\n· Nếu Kĩ năng gây cả [Bỏng] lẫn [Xuất huyết], thay vào đó +15% cho mỗi giá trị\n- Giá trị tối đa: 5",
       "summary": "",
       "undefined": "-",
-      "flavor": "Khi thanh đao đó lại gần, vết thương chẳng thể khép miệng, phần thịt bị thiêu cháy bởi kiếm khí lại bắt đầu nóng lên lần nữa."
+      "flavor": "Khi thanh kiếm đến gần, vết thương liền hở miệng trở lại, phần thịt đã nguội lạnh nay lại bùng cháy."
     },
     {
       "id": "Shin_Rien",
-      "name": "Tâm (Shin) - Liên (Rian)",
-      "desc": "- Khi bắt đầu lượt, tỷ lệ thuận với lượng Máu đã mất:\n· Với mỗi 15%, nhận 1 Tăng lượng sát thương (Tối đa 5)\n· Với mỗi 40%, nhận 1 Tăng uy lực tấn công (Tối đa 2)\n- Uy lực [Hơi thở] nhận được từ kỹ năng bản thân +1, Số lần [Hơi thở] +1\n- Nếu Tinh thần của bản thân cao hơn mục tiêu, với mỗi 2 điểm Tinh thần chênh lệch, lượng sát thương +1% (Tối đa 30%)",
+      "name": "Shin (Tâm) - Rien",
+      "desc": "- Khi bắt đầu lượt, tỉ lệ thuận với lượng Máu đã mất:\n・Với mỗi 15%, nhận 1 Tăng Sát thương (Tối đa 5)\n・Với mỗi 40%, nhận 1 Tăng Uy lực Tấn công (Tối đa 2)\n- Cường độ [Hơi thở] nhận được từ Kĩ năng của bản thân +1 và Số lượng [Hơi thở] +1\n- Nếu Tinh thần của bản thân cao hơn mục tiêu, với mỗi 2 điểm Tinh thần chênh lệch, sát thương gây ra +1% (Tối đa 30%)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "StackRienSpecialSkill",
       "name": "Đại diện [Hermes]",
-      "desc": "- Khi sử dụng kỹ năng tấn công, nhận 1 (Mỗi kỹ năng nhận 1 lần, cùng một kỹ năng không thể nhận từ 2 trở lên)\n- Nếu trị số là 9 khi bắt đầu lượt, sử dụng kỹ năng mạnh mẽ\n- Tiêu hao bởi kỹ năng nhất định",
+      "desc": "- Khi sử dụng Kĩ năng Tấn công, nhận 1 giá trị (mỗi Kĩ năng 1 lần; cùng một Kĩ năng không thể nhận 2 lần)\n- Khi bắt đầu lượt, nếu giá trị là 9, sử dụng Kĩ năng mạnh mẽ\n- Tiêu hao khi sử dụng Kĩ năng nhất định",
       "summary": "",
       "undefined": "-",
-      "flavor": "「Tuân theo ý Chúa.」"
+      "flavor": "「Theo ý của thần.」"
     },
     {
       "id": "RienWeapon01Hatchet",
       "name": "Khi dùng rìu tay đập nát xương sườn...",
-      "desc": "- Gây sát thương Đả kích\n- Khi trúng đích mà không bị phá hủy, nhận 2 [Hơi thở]",
+      "desc": "- Gây sát thương Đập\n- Khi đánh trúng mà không bị phá hủy, nhận 2 [Hơi thở]",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RienWeapon01Hatchet2phase",
       "name": "Khi dùng rìu tay đập nát xương sườn...",
-      "desc": "- Gây sát thương Đả kích\n- Khi trúng đích mà không bị phá hủy, nhận 2 [Hơi thở], số lần [Hơi thở] tăng 2",
+      "desc": "- Gây sát thương Đập\n- Khi đánh trúng mà không bị phá hủy, nhận 2 [Hơi thở], +2 Số lượng [Hơi thở]",
       "summary": "",
       "undefined": "-",
       "flavor": "「Cái này gần như là rác, nhưng vẫn đỡ hơn cái dĩa.」"
@@ -809,165 +809,165 @@
     {
       "id": "RienWeapon02Stiletto",
       "name": "Khi dùng đoản kiếm (Stiletto) đâm xuyên phổi...",
-      "desc": "- Gây sát thương Đâm\n- Khi trúng đích mà không bị phá hủy, gây 2 Trầm luân",
+      "desc": "- Gây sát thương Đâm\n- Khi đánh trúng mà không bị phá hủy, gây 2 Trầm luân",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RienWeapon02Stiletto2phase",
       "name": "Khi dùng đoản kiếm (Stiletto) đâm xuyên phổi...",
-      "desc": "- Gây sát thương Đâm\n- Khi trúng đích mà không bị phá hủy, gây 2 Trầm luân, số lần Trầm luân tăng 2",
+      "desc": "- Gây sát thương Đâm\n- Khi đánh trúng mà không bị phá hủy, gây 2 Trầm luân và +2 Số lượng Trầm luân",
       "summary": "",
       "undefined": "-",
       "flavor": "「Khi phải vung kiếm sang ngang mà món này xuất hiện, tôi đã toát mồ hôi hột đấy. Nó không hợp với tôi.」"
     },
     {
       "id": "RienWeapon03Greatsword",
-      "name": "Khi dùng trường kiếm (Bastard Sword) đập nát vai và đầu...",
-      "desc": "- Gây sát thương Chém\n- Lượng sát thương của đồng xu này +5%\n- Khi trúng đích mà không bị phá hủy, nhận 1 Tăng cấp độ tấn công vào lượt sau (2 lần mỗi lượt)",
+      "name": "Khi dùng trường kiếm (Bastard Sword) chém xuyên vai và sọ...",
+      "desc": "- Gây sát thương Trảm kích\n- Sát thương của Đồng xu này +5%\n- Khi đánh trúng mà không bị phá hủy, nhận 1 Tăng Cấp tấn công vào lượt sau (2 lần mỗi lượt)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RienWeapon03Greatsword2phase",
-      "name": "Khi dùng trường kiếm (Bastard Sword) đập nát vai và đầu...",
-      "desc": "- Gây sát thương Chém\n- Lượng sát thương của đồng xu này +7.5%\n- Khi trúng đích mà không bị phá hủy, nhận 1 Tăng cấp độ tấn công cho đến lượt sau (2 lần mỗi lượt)",
+      "name": "Khi dùng trường kiếm (Bastard Sword) chém xuyên vai và sọ...",
+      "desc": "- Gây sát thương Trảm kích\n- Sát thương của Đồng xu này +7.5%\n- Khi đánh trúng mà không bị phá hủy, nhận 1 Tăng Cấp tấn công cho đến lượt sau (2 lần mỗi lượt)",
       "summary": "",
       "undefined": "-",
       "flavor": "「Thanh kiếm này tuy bình thường, nhưng đôi khi sự bình thường lại khiến nó chưa đủ thỏa mãn. Dù vậy, nếu đã nắm vững cơ bản thì nó vẫn rất hữu dụng.」"
     },
     {
       "id": "RienWeapon04Rapier",
-      "name": "Khi cần dùng liễu kiếm (Rapier) đâm hơn 10 lỗ trên cơ thể...",
-      "desc": "- Gây sát thương Đâm\n- Lượng sát thương của đồng xu này +5%\n- Khi trúng đích mà không bị phá hủy, gây 1 Giảm cấp độ phòng thủ vào lượt sau (2 lần mỗi lượt)",
+      "name": "Khi dùng liễu kiếm (Rapier) đâm hơn 10 lỗ trên thân thể...",
+      "desc": "- Gây sát thương Đâm\n- Sát thương của Đồng xu này +5%\n- Khi đánh trúng mà không bị phá hủy, gây 1 Giảm Cấp phòng thủ vào lượt sau (2 lần mỗi lượt)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RienWeapon04Rapier2phase",
-      "name": "Khi cần dùng liễu kiếm (Rapier) đâm hơn 10 lỗ trên cơ thể...",
-      "desc": "- Gây sát thương Đâm\n- Lượng sát thương của đồng xu này +7.5%\n- Khi trúng đích mà không bị phá hủy, gây 1 Giảm cấp độ phòng thủ cho đến lượt sau (2 lần mỗi lượt)",
+      "name": "Khi dùng liễu kiếm (Rapier) đâm hơn 10 lỗ trên thân thể...",
+      "desc": "- Gây sát thương Đâm\n- Sát thương của Đồng xu này +7.5%\n- Khi đánh trúng mà không bị phá hủy, gây 1 Giảm Cấp phòng thủ cho đến lượt sau (2 lần mỗi lượt)",
       "summary": "",
       "undefined": "-",
       "flavor": "「Một vũ khí sắc và dài hơn đoản kiếm. Vì tôi thích kỹ thuật nên tôi cũng thích liễu kiếm.」"
     },
     {
       "id": "RienWeapon05Sledgehammer",
-      "name": "Khi cần dùng búa đập nát gáy...",
-      "desc": "- Gây sát thương Đánh kích\n- Sát thương của xu này +5%\n- Khi trúng mà không bị phá hủy, tiến thêm ngưỡng choáng 3",
+      "name": "Khi dùng búa đập sập gáy...",
+      "desc": "- Gây sát thương Đập\n- Sát thương của Đồng xu này +5%\n- Khi đánh trúng mà không bị phá hủy, nâng Ngưỡng Choáng của mục tiêu lên 3",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RienWeapon05Sledgehammer2phase",
-      "name": "Khi cần dùng búa đập nát gáy...",
-      "desc": "- Gây sát thương Đánh kích\n- Sát thương của xu này +7.5%\n- Khi trúng mà không bị phá hủy, tiến thêm ngưỡng choáng 5",
+      "name": "Khi dùng búa đập sập gáy...",
+      "desc": "- Gây sát thương Đập\n- Sát thương của Đồng xu này +7.5%\n- Khi đánh trúng mà không bị phá hủy, nâng Ngưỡng Choáng của mục tiêu lên 5",
       "summary": "",
       "undefined": "-",
-      "flavor": "「Đơn giản nhưng chắc chắn. Không nửa vời như rìu tay. <i>Chắc chắn</i> có thể đập nát bấy.」"
+      "flavor": "「Đơn giản nhưng dứt khoát. Không nửa vời như rìu tay. <i>Sẽ</i> nghiền nát bất cứ thứ gì nó đập trúng.」"
     },
     {
       "id": "RienWeapon06Ultragreatsword",
-      "name": "Khi cần dùng đại kiếm xẻ đôi thân mình...",
-      "desc": "- Gây sát thương Chém\n- Sát thương của xu này +10%\n- Khi trúng mà không bị phá hủy, gây 1 Mong manh hệ Chém (2 lần mỗi lượt)",
+      "name": "Khi dùng đại kiếm xé toạc thân thể...",
+      "desc": "- Gây sát thương Trảm kích\n- Sát thương của Đồng xu này +10%\n- Khi đánh trúng mà không bị phá hủy, gây 1 Mong manh hệ Trảm kích (2 lần mỗi lượt)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RienWeapon06Ultragreatsword2phase",
-      "name": "Khi cần dùng đại kiếm xẻ đôi thân mình...",
-      "desc": "- Gây sát thương Chém\n- Sát thương của xu này +15%\n- Khi trúng mà không bị phá hủy, gây 1 Mong manh hệ Chém cho đến lượt sau (2 lần mỗi lượt)",
+      "name": "Khi dùng đại kiếm xé toạc thân thể...",
+      "desc": "- Gây sát thương Trảm kích\n- Sát thương của Đồng xu này +15%\n- Khi đánh trúng mà không bị phá hủy, gây 1 Mong manh hệ Trảm kích cho đến lượt sau (2 lần mỗi lượt)",
       "summary": "",
       "undefined": "-",
-      "flavor": "「Với một thanh kiếm to và nặng thế này, trọng tâm là quan trọng nhất.」\n「Và việc tận dụng sức nặng cũng tốt đấy.」\n「Nó làm tôi nhớ lại lúc dùng cái này ám sát một Fixer cấp 1 khi đang rơi xuống từ sân thượng tầng 5.」"
+      "flavor": "「Với những lưỡi kiếm to nặng cỡ này, điều quan trọng là tìm được trọng tâm của mình.」\n「Và tất nhiên, đừng quên tận dụng khối lượng khổng lồ của nó.」\n「Tôi từng nhảy từ sân thượng tòa nhà năm tầng với vũ khí này, rơi trúng đầu một Fixer Cấp 1 và giết hắn ngay lập tức.」"
     },
     {
       "id": "RienWeapon07Lance",
-      "name": "Khi cần dùng thương tạo ra một cái lỗ 20 inch...",
-      "desc": "- Gây sát thương Đâm\n- Sát thương của xu này +10%\n- Khi trúng mà không bị phá hủy, gây 1 Mong manh hệ Đâm (2 lần mỗi lượt)",
+      "name": "Khi dùng thương khoan một lỗ 20 inch...",
+      "desc": "- Gây sát thương Đâm\n- Sát thương của Đồng xu này +10%\n- Khi đánh trúng mà không bị phá hủy, gây 1 Mong manh hệ Đâm (2 lần mỗi lượt)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RienWeapon07Lance2phase",
-      "name": "Khi cần dùng thương tạo ra một cái lỗ 20 inch...",
-      "desc": "- Gây sát thương Đâm\n- Sát thương của xu này +15%\n- Khi trúng mà không bị phá hủy, gây 1 Mong manh hệ Đâm cho đến lượt sau (2 lần mỗi lượt)",
+      "name": "Khi dùng thương khoan một lỗ 20 inch...",
+      "desc": "- Gây sát thương Đâm\n- Sát thương của Đồng xu này +15%\n- Khi đánh trúng mà không bị phá hủy, gây 1 Mong manh hệ Đâm cho đến lượt sau (2 lần mỗi lượt)",
       "summary": "",
       "undefined": "-",
       "flavor": "「Đây là món hàng xịn đấy. Cây thương này có tính năng tăng tốc riêng, dù ở xa cũng có thể đâm xuyên qua mọi bức tường hay kẻ ngáng đường để đến tận mục tiêu.」"
     },
     {
       "id": "RienWeapon08Chain",
-      "name": "Khi cần dùng roi lột hàng vạn mảnh thịt...",
-      "desc": "- Gây sát thương Đánh kích\n- Sát thương của xu này +10%\n- Khi trúng mà không bị phá hủy, gây 1 Mong manh hệ Đánh kích (2 lần mỗi lượt)",
+      "name": "Khi dùng roi róc hàng vạn mảnh thịt...",
+      "desc": "- Gây sát thương Đập\n- Sát thương của Đồng xu này +10%\n- Khi đánh trúng mà không bị phá hủy, gây 1 Mong manh hệ Đập (2 lần mỗi lượt)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RienWeapon08Chain2phase",
-      "name": "Khi cần dùng roi lột hàng vạn mảnh thịt...",
-      "desc": "- Gây sát thương Đánh kích\n- Sát thương của xu này +15%\n- Khi trúng mà không bị phá hủy, gây 1 Mong manh hệ Đánh kích cho đến lượt sau (2 lần mỗi lượt)",
+      "name": "Khi dùng roi róc hàng vạn mảnh thịt...",
+      "desc": "- Gây sát thương Đập\n- Sát thương của Đồng xu này +15%\n- Khi đánh trúng mà không bị phá hủy, gây 1 Mong manh hệ Đập cho đến lượt sau (2 lần mỗi lượt)",
       "summary": "",
       "undefined": "-",
-      "flavor": "「Có thể với ai đó thì là hàng dỏm... nhưng tôi thích nó.」\n「Người bị quất bởi cây roi này sẽ bị róc thịt và chảy máu. Dần dần họ sẽ phải thở dốc vì đau đớn và kiệt sức.」\n「Nhìn thấy họ yếu đi từng chút một thật là tuyệt. Vả lại lúc vội vã, nó còn dùng để siết cổ được nữa.」"
+      "flavor": "「Có thể với ai đó thì là hàng dỏm... nhưng tôi thích nó.」\n「Khi cây roi này quất xuống, nạn nhân không chỉ chảy máu; nó còn róc một mảng thịt, cuốn theo cả ý chí và sinh lực của họ.」\n「Tôi thích việc được quan sát trọn vẹn quá trình một người bị tháo rời khi suy yếu dần. À, lúc cần thiết nó còn siết cổ được nữa.」"
     },
     {
       "id": "RienWeapon09Scythe",
-      "name": "Khi cần dùng lưỡi hái... như một ai đó, chém dọc theo không gian...",
-      "desc": "- Gây sát thương Chém\n- Sát thương của xu này +20%\n- Khi trúng mà không bị phá hủy, chắc chắn bạo kích",
+      "name": "Khi dùng lưỡi hái rạch xuyên không gian, giống như một người nào đó...",
+      "desc": "- Gây sát thương Trảm kích\n- Sát thương của Đồng xu này +20%\n- Khi đánh trúng mà không bị phá hủy, chắc chắn Chí mạng",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RienWeapon09Scythe2phase",
-      "name": "Khi cần dùng lưỡi hái... như một ai đó, chém dọc theo không gian...",
-      "desc": "- Gây sát thương Chém\n- Sát thương của xu này +30%\n- Khi trúng mà không bị phá hủy, chắc chắn bạo kích",
+      "name": "Khi dùng lưỡi hái rạch xuyên không gian, giống như một người nào đó...",
+      "desc": "- Gây sát thương Trảm kích\n- Sát thương của Đồng xu này +30%\n- Khi đánh trúng mà không bị phá hủy, chắc chắn Chí mạng",
       "summary": "",
       "undefined": "-",
-      "flavor": "「Lưỡi hái... dù hơi khó hiểu, nhưng nhìn cách Tàn hưởng lam chiến đấu tôi đã phần nào nắm bắt được.」\n「Sau đó một thời gian dài, Chỉ thị bắt tôi chỉ được dùng lưỡi hái, nên tôi sử dụng nó thành thạo hơn bất kỳ loại vũ khí nào khác, và tôi cũng thích nó.」\n「Và tôi cũng có thể chém tốt nhất. Có nhiều kỹ thuật chém không gian khác nhau... ừm, cái này chắc để sau hãy nói cho nghe.」"
+      "flavor": "「Lưỡi hái... vốn quá khó hiểu, nhưng nhìn Dư Âm Xanh chiến đấu thì tôi cũng phần nào hiểu ra.」\n「Sau đó một thời gian dài, Chỉ thị chỉ cho tôi dùng lưỡi hái, nên tôi sử dụng nó thành thạo và yêu thích hơn bất kỳ loại vũ khí nào khác.」\n「Và nó cũng cắt tốt nhất trong tất cả. Có nhiều kỹ thuật chém xuyên không gian... Hừm. Chuyện này để dịp khác kể cho ngươi thì hơn.」"
     },
     {
       "id": "Ryoshu_RienBattle_1Phase",
-      "name": "Huyết Viêm",
-      "desc": "- Khi có ít nhất 1 đồng đội khác còn sống trong trận chiến này, Máu của Ryoshu không giảm xuống dưới 1\n- Uy lực Kháng cự +1, khi tấn công trúng, Sát thương +10%\n- Khi thắng Kháng cự, nhận ngẫu nhiên mỗi loại 1 tài nguyên E.G.O thuộc loại tài nguyên có số lượng ít nhất, tổng cộng 3 tài nguyên\n- Khi nhận sát thương khiến bản thân bị Choáng, không bị Choáng mà loại bỏ ngưỡng choáng đó. Sau đó, nhận 1 Tăng Uy lực Tấn công vào lượt tiếp theo (Không giới hạn số lần mỗi trận)\n- Không thể rút lui",
+      "name": "Huyết Viêm [けつえん]",
+      "desc": "- Khi có ít nhất 1 đồng đội khác còn sống trong trận chiến này, Máu của Ryoshu không giảm xuống dưới 1\n- Uy lực Đối kháng +1; khi đánh trúng, sát thương gây ra +10%\n- Khi thắng Đối kháng, nhận ngẫu nhiên 1 tài nguyên E.G.O cho mỗi hệ trong 3 hệ có số lượng tài nguyên ít nhất (tổng 3 tài nguyên)\n- Khi nhận sát thương đáng lẽ khiến bản thân bị Choáng, không bị Choáng mà loại bỏ Ngưỡng Choáng tương ứng. Sau đó, nhận 1 Tăng Uy lực Tấn công vào lượt kế tiếp (không giới hạn số lần kích hoạt)\n- Không thể rút lui",
       "summary": "",
       "undefined": "-",
-      "flavor": "Vỏ kiếm dành riêng cho Ryoshu, được tạo ra để chế ngự Thiên Sát Tinh Đao A-lại-da-thức. E.G.O của Alaya, được rèn trong ngọn lửa vĩnh cửu."
+      "flavor": "Vỏ kiếm duy nhất của Ryoshu, được tạo ra để chế ngự Thiên Sát Tinh Đao - Arayashiki. Đây là E.G.O của Araya, được rèn trong ngọn lửa vĩnh cửu."
     },
     {
       "id": "Ryoshu_RienBattle_2Phase",
-      "name": "Liên Huyết Viêm",
-      "desc": "- Khi có ít nhất 1 đồng đội khác còn sống trong trận chiến này, Máu của Ryoshu không giảm xuống dưới 1\n- Uy lực Kháng cự +2, khi tấn công trúng, Sát thương +25%\n- Với mỗi 1 Vết bỏng âm ỉ trên đối tượng:\n・Cấp tấn công +1, Cấp phòng thủ +1\n・Khi tấn công trúng, Sát thương +5% (Tối đa 25%), nếu sử dụng kỹ năng E.G.O Cơ bản thì Sát thương +50% (Tối đa 250%) thay thế\n- Khi thắng Kháng cự, nhận ngẫu nhiên mỗi loại 1 tài nguyên E.G.O thuộc loại tài nguyên có số lượng ít nhất, tổng cộng 3 tài nguyên\n- Khi nhận sát thương khiến bản thân bị Choáng, không bị Choáng mà loại bỏ ngưỡng Choáng đó. Sau đó, nhận 1 Tăng Uy lực Tấn công vào lượt tiếp theo (Không giới hạn số lần mỗi trận)\n- Không thể rút lui",
+      "name": "Liên Huyết Viêm [れんけつえん]",
+      "desc": "- Khi có ít nhất 1 đồng đội khác còn sống trong trận chiến này, Máu của Ryoshu không giảm xuống dưới 1\n- Uy lực Đối kháng +2; khi đánh trúng, sát thương gây ra +25%\n- Với mỗi 1 giá trị Vết thương bỏng rát trên mục tiêu:\n・Cấp tấn công +1, Cấp phòng thủ +1\n・Khi đánh trúng, sát thương +5% (Tối đa 25%); nếu sử dụng Kĩ năng E.G.O Cơ bản, thay vào đó sát thương +50% cho mỗi giá trị (Tối đa 250%)\n- Khi thắng Đối kháng, nhận ngẫu nhiên 1 tài nguyên E.G.O cho mỗi hệ trong 3 hệ có số lượng tài nguyên ít nhất (tổng 3 tài nguyên)\n- Khi nhận sát thương đáng lẽ khiến bản thân bị Choáng, không bị Choáng mà loại bỏ Ngưỡng Choáng tương ứng. Sau đó, nhận 1 Tăng Uy lực Tấn công vào lượt kế tiếp (không giới hạn số lần kích hoạt)\n- Không thể rút lui",
       "summary": "",
       "undefined": "-",
-      "flavor": "Một E.G.O nghịch lý, nơi chỉ còn lại một chút bản ngã.\nDù trông như thể chỉ đang tận tụy vì người khác, nhưng đây không phải là lòng vị tha tuyệt đối.\nĐể ưu tiên ý nghĩa cuộc đời của người khác hơn cuộc đời của chính mình, cần phải có một sự ích kỷ tuyệt đối.\n\n「Con sẽ rất vui nếu mẹ không quên con, nhưng con còn ghét việc mất mẹ như thế này hơn nữa.」\n「Nên là trước hết hãy quên con đi, và hãy trân trọng bản thân mình hơn.」"
+      "flavor": "Một E.G.O tồn tại nghịch lý, bởi cái tôi của nó quá mờ nhạt.\nĐừng đánh đồng vẻ ngoài tận tụy tuyệt đối với người khác với lòng vị tha tuyệt đối.\nĐể đặt ý nghĩa cuộc đời của người khác lên trên chính mình, người ta phải có một sự ích kỷ tuyệt đối.\n\n「Con không muốn mẹ quên con, nhưng... hơn cả thế, con không muốn mất mẹ.」\n「Nên bây giờ hãy quên con đi, và chăm sóc bản thân mẹ nhé.」"
     },
     {
       "id": "PainfulScar_Panic",
-      "name": "Đại ca Mô phỏng",
-      "desc": "- Hoảng loạn\n- Khi bắt đầu lượt, nhận 5 Bỏng, 3 Số lượng Bỏng, 5 Xuất huyết(Bleed), 3 Số lượng Xuất huyết(Bleed)\n- Lượng sát thương nhận từ Tội đồ Ryoshu +20%",
+      "name": "Kẻ Mô Phỏng Người Cha",
+      "desc": "- Hoảng loạn\n- Khi bắt đầu lượt, nhận 5 Bỏng, +3 Số lượng Bỏng, 5 Xuất huyết và +3 Số lượng Xuất huyết\n- Sát thương nhận vào từ Tù nhân Ryoshu +20%",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "PainfulScar_LowMorale",
-      "name": "Đại ca Mô phỏng",
-      "desc": "- Suy giảm Sĩ khí\n- Khi bắt đầu lượt, nhận 5 Bỏng, 5 Xuất huyết(Bleed)\n- Lượng sát thương nhận từ Tội đồ Ryoshu +10%",
+      "name": "Kẻ Mô Phỏng Người Cha",
+      "desc": "- Suy giảm nhuệ khí\n- Khi bắt đầu lượt, nhận 5 Bỏng và 5 Xuất huyết\n- Sát thương nhận vào từ Tù nhân Ryoshu +10%",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BlackNightmare",
       "name": "Chìm đắm trong Chỉ thị",
-      "desc": "- Cường độ và Số lượng Trầm luân(Sinking) gây ra +2\n- Biến mất khi kết thúc lượt, nhận Karma bằng (Số kỹ năng thua Khớp lệnh trong lượt này × 5)",
+      "desc": "- Gây +2 Cường độ và Số lượng Trầm luân\n- Biến mất khi kết thúc lượt; sau đó nhận Nghiệp chướng bằng (số Kĩ năng thua Đối kháng trong lượt này × 5)",
       "summary": "",
       "undefined": "-",
-      "flavor": "Bên ngoài có vẻ như đang vui vẻ thực hiện Chỉ thị, nhưng bên trong cũng thấp thoáng sự oán hận đối với chúng.\nTuy nhiên, chính vì có thể thực hiện mọi nỗi đau và khoái lạc dưới lớp mặt nạ mang tên 「Chỉ thị」, nguyện vọng đó cuối cùng đã dẫn đến sự biết ơn đối với Chỉ thị."
+      "flavor": "Việc chấp nhận Chỉ thị thể hiện rõ qua cách hắn thi hành chúng; vậy mà sau lớp mặt nạ, người ta vẫn thoáng thấy chút oán hận dành cho chúng.\nTuy nhiên, chính vì có thể đắm mình trong mọi nỗi đau và khoái lạc của thế gian sau lớp mặt nạ mang tên 「Chỉ thị」, nên khao khát thầm kín thật sự của hắn cuối cùng lại hóa thành lòng biết ơn."
     },
     {
       "id": "RyoshuParrySojiWe",
       "name": "Sợi chỉ đỏ",
-      "desc": "- Số ô Kỹ năng +3\nLượng sát thương gây cho Đại ca Ngón Út +50%\n- Khi sử dụng kỹ năng của bản thân trong trận chiến này, nhận +1 Tài nguyên E.G.O hệ đó, +1 Tài nguyên E.G.O ngẫu nhiên có số lượng ít nhất (2 lần mỗi lượt)\n- Không thể rút lui",
+      "desc": "- Số ô kĩ năng +3\n- Sát thương gây ra cho Cha nuôi Ngón Út +50%\n- Trong trận chiến này: Sau khi sử dụng Kĩ năng, nhận +1 Tài nguyên E.G.O thuộc hệ của Kĩ năng đó và +1 Tài nguyên E.G.O ngẫu nhiên thuộc loại ít nhất (2 lần mỗi lượt)\n- Không thể rút lui",
       "summary": "",
       "undefined": "-",
       "flavor": "「Nếu sợi chỉ mỏng manh duy nhất này đang kết nối ngươi và ta, thì ta sẽ dốc hết sức bình sinh để không buông sợi chỉ này ra.」"
@@ -975,7 +975,7 @@
     {
       "id": "RyoshuParrySojiThey",
       "name": "Sợi chỉ đỏ",
-      "desc": "- Tất cả Đồng xu trở thành Đồng xu không thể bị phá hủy\n- Uy lực cuối cùng +4",
+      "desc": "- Toàn bộ Đồng xu Kĩ năng chuyển thành Đồng xu Không thể phá hủy\n- Sức mạnh Cuối cùng +4",
       "summary": "",
       "undefined": "-",
       "flavor": "「Vì sợi chỉ này mà cuối cùng ngươi và ta cũng sẽ gặp lại nhau. Dù có muốn tránh né, cũng sẽ phải đối mặt nhiều lần. Sợi chỉ này, tuyệt đối không thể bị cắt đứt.」"
@@ -983,14 +983,14 @@
     {
       "id": "CriticalDamageUp",
       "name": "Tăng Sát thương Chí mạng",
-      "desc": "Trong 1 lượt, sát thương chí mạng từ kỹ năng tăng 10% với mỗi 1 trị số",
+      "desc": "Trong lượt này: sát thương từ đòn Chí mạng +10% cho mỗi 1 giá trị",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "KAA1C9ActivateEffect",
-      "name": "Sử dụng Ống tiêm Tập đoàn K",
-      "desc": "Ống tiêm Tập đoàn K đã qua sử dụng",
+      "name": "Sử dụng Ống thuốc khẩn cấp Tập đoàn K",
+      "desc": "Đã sử dụng Ống thuốc khẩn cấp Tập đoàn K",
       "summary": "",
       "undefined": "-"
     },

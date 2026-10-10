@@ -2,15 +2,15 @@
   "dataList": [
     {
       "id": "ScratchesHurt",
-      "name": "Vết Thương Bị Xé Rách",
-      "desc": "- Giá trị tối đa: 3\n- Khi bắt đầu lượt, Nhận 2 [Xuất huyết] với mỗi 1 giá trị\n- Nếu giá trị đạt tối đa, số lượt [Xuất huyết] tăng thêm 1\n- Khi kết thúc lượt, Nhận [Trói buộc] vào lượt kế tiếp bằng với giá trị\n- Nếu giá trị đạt tối đa, Nhận thêm 1 Giảm Uy lực Tấn công vào lượt kế tiếp\n- Trong lượt này, nếu không Nhận sát thương chí mạng, giảm 1 khi kết thúc lượt",
+      "name": "Vết Thương Bị Xé Toạc",
+      "desc": "- Giá trị tối đa: 3\n- Khi bắt đầu lượt, nhận 2 [Xuất huyết] cho mỗi 1 giá trị\n• Nếu giá trị đạt tối đa, nhận thêm 1 Số lượng [Xuất huyết]\n- Khi kết thúc lượt, nhận [Trói buộc] bằng với giá trị vào lượt kế tiếp\n• Nếu giá trị đạt tối đa, nhận thêm 1 Giảm Uy lực Tấn công vào lượt kế tiếp\n- Khi kết thúc lượt: nếu đơn vị này không nhận sát thương chí mạng nào trong lượt này, giảm 1 giá trị",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "TiedRope",
       "name": "Bắt Giữ",
-      "desc": "- Giá trị cơ bản: 3\n- Tốc độ cố định là 1\n- Uy lực đồng xu của kỹ năng cơ bản cố định là 0\n- Giảm 1 khi kết thúc lượt\n- Khi hiệu ứng 「Áp Tống Sai Bị」 của đối tượng đã Gây hiệu ứng này cho bản thân biến mất, hiệu ứng này cũng biến mất theo",
+      "desc": "- Giá trị cơ bản: 3\n- Cố định Tốc độ của đơn vị này thành 1\n- Cố định Sức mạnh Đồng xu của Kĩ năng Cơ bản thành 0\n- Giảm 1 khi kết thúc lượt\n- Khi hiệu ứng 「Áp Tống Sai Bị」 của kẻ đã gây hiệu ứng này lên bản thân biến mất, hiệu ứng này cũng biến mất theo",
       "summary": "",
       "undefined": "-",
       "flavor": "Kẻ dưới bắt kẻ dưới, rồi dâng lên trên."
@@ -18,93 +18,93 @@
     {
       "id": "TiedWithRope",
       "name": "Áp Tống Sai Bị",
-      "desc": "- Giá trị cơ bản: 1\n- Tốc độ cố định là 1\n- Khi hiệu ứng [Bắt Giữ] mà bản thân đã Gây cho đối tượng biến mất, hoặc bản thân (Chunokkun) chết hoặc rơi vào trạng thái Hoảng Loạn, buff này sẽ biến mất\n- Nếu đối tượng mà bản thân đã Gây [Bắt Giữ] chết trong lượt này, 「Áp Tống Sai Bị」 sẽ biến mất",
+      "desc": "- Giá trị cơ bản: 1\n- Cố định Tốc độ của đơn vị này thành 1\n- Khi hiệu ứng [Bắt Giữ] mà bản thân đã gây lên mục tiêu biến mất, hoặc khi bản thân bị đánh bại hoặc Choáng, hiệu ứng này sẽ biến mất\n- Nếu mục tiêu mà bản thân đã gây [Bắt Giữ] bị đánh bại trong lượt này, 「Áp Tống Sai Bị」 sẽ biến mất",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RegretSCorp",
-      "name": "Ký Ức Đau Nhói",
-      "desc": "- Giá trị tối đa: 1\n- Khi kết thúc lượt, Nhận 1 [Trói buộc] vào lượt kế tiếp\n- Khi kết thúc lượt, Nhận Tăng Uy lực Đối kháng bằng (Số lượt hiện tại ÷ 4) vào lượt kế tiếp (Làm tròn xuống, tối đa 3)\n- Biến mất khi kết thúc lượt",
+      "name": "Ký Ức Nhức Nhối",
+      "desc": "- Giá trị tối đa: 1\n- Khi kết thúc lượt, nhận 1 [Trói buộc] vào lượt kế tiếp\n- Khi kết thúc lượt, nhận Tăng Sức mạnh Đối kháng bằng (Số lượt hiện tại ÷ 4) vào lượt kế tiếp (Làm tròn xuống, tối đa 3)\n- Biến mất khi kết thúc lượt",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "TakePicture",
       "name": "Thu Thập Thông Tin",
-      "desc": "- Khi sử dụng kỹ năng có cùng cấp độ với kỹ năng đã được chụp ảnh, Uy lực Đối kháng -5\n(※Kỹ năng Phòng thủ, kỹ năng E.G.O được phân loại riêng biệt)\n- Biến mất khi kết thúc lượt",
+      "desc": "- Khi sử dụng kĩ năng có cùng cấp độ với kĩ năng đã được chụp ảnh, Sức mạnh Đối kháng -5\n(※ Kĩ năng Phòng thủ, Kĩ năng E.G.O được phân loại riêng biệt)\n- Biến mất khi kết thúc lượt",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "LensmanNail",
       "name": "Đinh Cố Định",
-      "desc": "- Giá trị tối đa: 10\n- Khi bắt đầu lượt, với mỗi 2 giá trị [Trói buộc], Nhận 1 Giảm Cấp độ Tấn công (Tối đa 3)\n- Khi bắt đầu lượt, Nhận [Xuất huyết] bằng với giá trị\n- Khi Vết rách [Chấn động], số lượt [Xuất huyết] tăng thêm bằng với giá trị (1 lần mỗi lượt)\n- Khi kết thúc lượt, Nhận [Trói buộc] vào lượt kế tiếp bằng với giá trị (Tối đa 6), giảm 1 giá trị",
+      "desc": "- Giá trị tối đa: 10\n- Khi bắt đầu lượt, với mỗi 2 giá trị [Trói buộc], nhận 1 Giảm Cấp độ Tấn công (Tối đa 3)\n- Khi bắt đầu lượt, nhận [Xuất huyết] bằng với giá trị\n- Khi Bộc phát Chấn động, nhận thêm Số lượng [Xuất huyết] bằng với giá trị (1 lần mỗi lượt)\n- Khi kết thúc lượt, nhận [Trói buộc] bằng với giá trị vào lượt kế tiếp (Tối đa 6), sau đó giảm 1 giá trị",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "PhotoTransition",
       "name": "Chuyển Đổi Ký Ức",
-      "desc": "- Giá trị cơ bản: 3\n- Giảm 1 giá trị khi kết thúc lượt. Nếu giá trị là 0 khi bắt đầu lượt, đơn vị đặc thù và buff sẽ thay đổi\n(Nếu đang trong trạng thái Hoảng Loạn, giải trừ trạng thái Hoảng Loạn)\n\n- Sau khi hiệu ứng trên kích hoạt, giá trị [Chuyển Đổi Ký Ức] trở về giá trị cơ bản",
+      "desc": "- Giá trị cơ bản: 3\n- Giảm 1 giá trị khi kết thúc lượt. Nếu giá trị là 0 khi bắt đầu lượt, đơn vị và hiệu ứng đặc thù sẽ thay đổi\n(Nếu đang trong trạng thái Choáng, giải trừ Choáng)\n\n- Sau khi hiệu ứng trên kích hoạt, giá trị [Chuyển Đổi Ký Ức] trở về giá trị cơ bản",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "AengduNewArm",
       "name": "Cánh Tay Dokkaebi",
-      "desc": "- Cấp độ tấn công cơ bản tăng 4\n- Cấp độ phòng thủ cơ bản tăng 4\n- Lượng sát thương nhận vào -20%\n- Khi sử dụng kỹ năng, Nhận 1 [Nhanh nhẹn] vào lượt kế tiếp (2 lần mỗi lượt)\n- Khi kết thúc chiến đấu, số lượt [Hơi thở] tăng 2",
+      "desc": "- Cấp độ Tấn công cơ bản +4\n- Cấp độ Phòng thủ cơ bản +4\n- Lượng sát thương nhận vào -20%\n- Khi sử dụng kĩ năng, nhận 1 [Nhanh nhẹn] vào lượt kế tiếp (2 lần mỗi lượt)\n- Khi kết thúc chiến đấu, Số lượng [Hơi thở] +2",
       "summary": "",
       "undefined": "-",
-      "flavor": "「...Cánh tay Dokkaebi? Ngươi đang nói về Dokkaebi thường xuất hiện trong truyện cổ tích sao. Hừm...」\n「Dù khó tin, nhưng nghĩ lại những gì đã thấy khi ở Limbus Company, thì dù Dokkaebi trong dân gian có tồn tại cũng không có gì lạ.」\n「Nói mới nhớ, ta nhớ mình từng nghe qua về... đội quân Dokkaebi.」"
+      "flavor": "「...Cánh tay Dokkaebi? Ngươi đang nói về Dokkaebi thường xuất hiện trong truyện cổ tích sao? Hừm...」\n「Dù khó tin, nhưng nghĩ lại những gì đã thấy khi ở Limbus Company, thì dù Dokkaebi trong dân gian có tồn tại cũng không có gì lạ.」\n「Nói mới nhớ, ta nhớ mình từng nghe qua về... đơn vị Dokkaebi.」"
     },
     {
       "id": "WindBlade",
-      "name": "Xưởng Muku - Nhị Thức Bạt Đao Duệ [鋭] / Động Lực: Hỏa Dokkaebi",
-      "desc": "- Giá trị tối đa: 20\n- Với mỗi 1 giá trị, sát thương Chém +1% (Tối đa 10%)\n- Với mỗi 2 giá trị, Uy lực Đối kháng của kỹ năng Phòng thủ -1 (Tối đa 5)\n- Khi kết thúc lượt, với mỗi 5 giá trị Nhận 1 [Nhanh nhẹn] vào lượt kế tiếp (Tối đa 3)",
+      "name": "Xưởng Mook - Duệ [銳] Nhị Thức Bạt Đao / Lực đẩy: Hỏa Dokkaebi",
+      "desc": "- Giá trị tối đa: 20\n- Với mỗi 1 giá trị, sát thương Trảm kích +1% (Tối đa 10%)\n- Với mỗi 2 giá trị, Sức mạnh Đối kháng của Kĩ năng Phòng thủ -1 (Tối đa 5)\n- Khi kết thúc lượt, với mỗi 5 giá trị nhận 1 [Nhanh nhẹn] vào lượt kế tiếp (Tối đa 3)",
       "summary": "",
       "undefined": "-",
-      "flavor": "「Gì gì? Không lẽ em thích mẫu đó hả? Em út có mắt nhìn đấy chứ? Chủ quán ơi~, cho em thử mẫu này được không ạ? Ế~, tất nhiên là được chứ! Làm hỏng thì tụi em mua luôn, nên đừng lo! Hehe. Chị đã bảo rồi mà? Chị là khách quen nên mấy chuyện này vô tư đi~. Kiếm với bao là một bộ, nên cứ cầm thử cả hai đi. Sao? Nhìn vậy chứ nhẹ hơn vẻ ngoài đúng không?」\n「Ồ...」\n「Thứ giống như hạt? hay bột? mà Xưởng Muku giữ bản quyền nằm ở trong cái bao kiếm này nè. Thế nên mỗi khi tra kiếm vào rồi rút ra, lưỡi kiếm sẽ trở nên cực kỳ sắc bén, và thanh kiếm cũng nhẹ đi trong tích tắc. Trong số đó, mẫu mà em út đang cầm là mẫu được làm chú trọng vào <i>độ sắc bén</i> đấy. Nói chung là mỗi lần rút kiếm ra khỏi bao, cảm giác như được buff vèo vèo luôn!」\n「Em nhớ đây là một thanh trong dòng Duệ [銳], một trong những mẫu cổ điển của Xưởng Muku... Nhìn vào khâu hoàn thiện... Hả!? Đây chẳng phải là Nhị Thức Duệ [銳] đã ngừng sản xuất rồi sao!? Thứ này cực kỳ khó kiếm luôn, vậy mà ở đây vẫn còn một thanh á!?」\n「Nó quý giá đến vậy sao? Vậy thì, chẳng thà để tiểu nữ sử dụng...」\n「Ư... không! Nhìn kiểu gì thì nó cũng thuộc về em út mà! Có vẻ nó cũng rất hợp với chức năng booster của tay giả nữa. Có thể sẽ mất chút thời gian để làm quen, nhưng một khi đã sử dụng thành thạo thì đi đâu cũng chẳng ngán ai đâu? Tóm lại là, để kỷ niệm việc em chính thức trở thành em út chứ không phải tạm thời nữa, người tiền bối này sẽ mua cho em!」\n「Vậy thì... xin đa tạ và nhận lấy.」\n「À. Vì là mẫu cổ điển nên nó khá bền, nhưng <i>vẫn có</i> những bộ phận tinh xảo, nên hãy cẩn thận đừng làm hỏ... À không, hỏng thì thôi cũng được. Chỉ là...」\n「Đừng chết nhé.」\n「...Lời đó, ta sẽ khắc ghi sâu trong lòng.」"
+      "flavor": "「Gì gì? Không lẽ em thích mẫu đó hả? Em út có mắt nhìn đấy chứ? Chủ quán ơi~, cho em thử mẫu này được không ạ? Ế~, tất nhiên là được chứ! Làm hỏng thì tụi em mua luôn, nên đừng lo! Hehe. Chị đã bảo rồi mà? Chị là khách quen nên mấy chuyện này vô tư đi~. Kiếm với bao là một bộ, nên cứ cầm thử cả hai đi. Sao? Nhìn vậy chứ nhẹ hơn vẻ ngoài đúng không?」\n「Ồ...」\n「Thứ giống như hạt? hay bột? mà Xưởng Mook giữ bản quyền nằm ở trong cái bao kiếm này nè. Thế nên mỗi khi tra kiếm vào rồi rút ra, lưỡi kiếm sẽ trở nên cực kỳ sắc bén, và thanh kiếm cũng nhẹ đi trong tích tắc. Trong số đó, mẫu mà em út đang cầm là mẫu được làm chú trọng vào <i>độ sắc bén</i> đấy. Nói chung là mỗi lần rút kiếm ra khỏi bao, cảm giác như được buff vèo vèo luôn!」\n「Em nhớ đây là một thanh trong dòng Duệ [銳], một trong những mẫu cổ điển của Xưởng Mook... Nhìn vào khâu hoàn thiện... Hả!? Đây chẳng phải là Nhị Thức Duệ [銳] đã ngừng sản xuất rồi sao!? Thứ này cực kỳ khó kiếm luôn, vậy mà ở đây vẫn còn một thanh á!?」\n「Nó quý giá đến vậy sao? Vậy thì, chẳng thà để tiểu nữ sử dụng...」\n「Ư... không! Nhìn kiểu gì thì nó cũng thuộc về em út mà! Có vẻ nó cũng rất hợp với chức năng booster của tay giả nữa. Có thể sẽ mất chút thời gian để làm quen, nhưng một khi đã sử dụng thành thạo thì đi đâu cũng chẳng ngán ai đâu? Tóm lại là, để kỷ niệm việc em chính thức trở thành em út chứ không phải tạm thời nữa, người tiền bối này sẽ mua cho em!」\n「Vậy thì... xin đa tạ và nhận lấy.」\n「À. Vì là mẫu cổ điển nên nó khá bền, nhưng <i>vẫn có</i> những bộ phận tinh xảo, nên hãy cẩn thận đừng làm hỏ... À không, hỏng thì thôi cũng được. Chỉ là...」\n「Đừng chết nhé.」\n「...Lời đó, ta sẽ khắc ghi sâu trong lòng.」"
     },
     {
       "id": "Collage_LowMorale",
       "name": "Ký Ức Hỗn Loạn",
-      "desc": "- Khi bắt đầu lượt, Nhận Tăng Cấp độ Tấn công 1~3, Giảm Cấp độ Phòng thủ 1~3",
+      "desc": "- Khi bắt đầu lượt, nhận 1~3 Tăng Cấp độ Tấn công và 1~3 Giảm Cấp độ Phòng thủ",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "Collage_Panic",
       "name": "Ký Ức Hỗn Loạn",
-      "desc": "- Khi bắt đầu lượt, Nhận Tăng Cấp độ Tấn công 1~5, Giảm Cấp độ Phòng thủ 1~5",
+      "desc": "- Khi bắt đầu lượt, nhận 1~5 Tăng Cấp độ Tấn công và 1~5 Giảm Cấp độ Phòng thủ",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "Lensman_LowMorale",
       "name": "Ám Ảnh Thông Tin",
-      "desc": "- Khi Đối kháng với đối tượng đang sở hữu [Thu Thập Thông Tin], Uy lực cơ bản +1, Sát thương gây ra +10%\n- Khi bắt đầu lượt, Nhận 1 [Mong manh]",
+      "desc": "- Khi Đối kháng với đối tượng đang sở hữu Thu Thập Thông Tin, Sức mạnh Cơ bản +1, Sát thương gây ra +10%\n- Khi bắt đầu lượt, nhận 1 [Mong manh]",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "Lensman_Panic",
       "name": "Ám Ảnh Thông Tin",
-      "desc": "- Khi đối kháng với mục tiêu có Thu thập thông tin, Uy lực cơ bản +1, Sát thương gây ra +20%\n- Khi bắt đầu lượt, nhận 2 [Mong manh]",
+      "desc": "- Khi Đối kháng với mục tiêu có Thu Thập Thông Tin, Sức mạnh Cơ bản +1, sát thương gây ra +20%\n- Khi bắt đầu lượt, nhận 2 [Mong manh]",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "Aengdu_Lowmorale",
       "name": "Oán Hận",
-      "desc": "- Khi bắt đầu lượt, nhận 1 Tăng Uy lực Tấn công, 1 Giảm Uy lực Phòng thủ\n- Khi kết thúc lượt, nhận 2 Cấp tốc vào lượt tiếp theo",
+      "desc": "- Khi bắt đầu lượt, nhận 1 Tăng Uy lực Tấn công, 1 Giảm Uy lực Phòng thủ\n- Khi kết thúc lượt, nhận 2 [Nhanh nhẹn] vào lượt kế tiếp",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "Aengdu_Panic",
       "name": "Oán Hận",
-      "desc": "- Khi bắt đầu lượt, nhận 2 Tăng Uy lực Tấn công, 2 Giảm Uy lực Phòng thủ\n- Khi kết thúc lượt, nhận 2 Cấp tốc vào lượt tiếp theo",
+      "desc": "- Khi bắt đầu lượt, nhận 2 Tăng Uy lực Tấn công, 2 Giảm Uy lực Phòng thủ\n- Khi kết thúc lượt, nhận 2 [Nhanh nhẹn] vào lượt kế tiếp",
       "summary": "",
       "undefined": "-"
     },
@@ -117,90 +117,90 @@
     },
     {
       "id": "DimensionalBagEzraETwo",
-      "name": "Túi Chiều Không Gian - Công xưởng Yulia",
-      "desc": "Lấy vũ khí của công xưởng tiếp theo từ Túi Chiều Không Gian\n- Vũ khí công xưởng hiện tại: Rìu Công xưởng Yulia\n- Vũ khí công xưởng tiếp theo: Găng tay Công xưởng Alas",
+      "name": "Túi Chiều Không Gian - YuRia Atelier",
+      "desc": "Lấy vũ khí Xưởng tiếp theo từ Túi Chiều Không Gian\n- Vũ khí Xưởng hiện tại: Rìu YuRia Atelier\n- Vũ khí Xưởng tiếp theo: Găng tay Xưởng Allas",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RestingKimSatgat_LowMorale",
-      "name": "Hối Hận Trầm Luân",
-      "desc": "- Giảm sĩ khí\n- Khi bắt đầu lượt, nhận 2 Giảm Sát thương và hồi 40 Thể lực của bản thân",
+      "name": "Hối Hận Chìm Đắm",
+      "desc": "- Suy giảm nhuệ khí\n- Khi bắt đầu lượt, nhận 2 Giảm sát thương và hồi 40 HP cho bản thân",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RestingKimSatgat_Panic",
-      "name": "Hối Hận Trầm Luân",
-      "desc": "- Hoảng loạn\n- Khi bắt đầu lượt, nhận 3 Giảm Sát thương và hồi 60 Thể lực của bản thân",
+      "name": "Hối Hận Chìm Đắm",
+      "desc": "- Hoảng loạn\n- Khi bắt đầu lượt, nhận 3 Giảm sát thương và hồi 60 HP cho bản thân",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "ChoiSwordsmanship",
       "name": "Bản Quốc Kiếm Thuật [Sal]",
-      "desc": "- Giá trị tối thiểu: 1, Giá trị tối đa: 9\n- Khi sử dụng kỹ năng, nếu chỉ số đạt tối thiểu hoặc tối đa, tất cả các Coin đang sử dụng sẽ chuyển thành <color=#ff6000><mark color=#ff000040><b><u>Coin không thể phá hủy</color></mark></b></u>\n- <color=#ff6000><mark color=#ff000040><b><u>Tăng hoặc giảm Uy lực cơ bản và Uy lực Coin của kỹ năng tùy theo chỉ số</color></mark></b></u>\n· 1～2: Uy lực cơ bản -6, Uy lực Coin +4\n· 3～4: Uy lực cơ bản -3, Uy lực Coin +2\n· 5: Không có hiệu ứng\n· 6～7: Uy lực cơ bản +4, Uy lực Coin -2\n· 8～9: Uy lực cơ bản +8, Uy lực Coin -3",
+      "desc": "- Giá trị tối thiểu: 1, Giá trị tối đa: 9\n- Khi sử dụng kĩ năng, nếu giá trị ở mức tối thiểu hoặc tối đa, toàn bộ Đồng xu đơn vị này sử dụng sẽ chuyển thành <color=#ff6000><mark color=#ff000040><b><u>Đồng xu không thể phá hủy</color></mark></b></u>\n- <color=#ff6000><mark color=#ff000040><b><u>Sự tăng giảm áp dụng cho Sức mạnh Cơ bản và Sức mạnh Đồng xu của kĩ năng tùy theo giá trị</color></mark></b></u>\n· 1～2: Sức mạnh Cơ bản -6, Sức mạnh Đồng xu +4\n· 3～4: Sức mạnh Cơ bản -3, Sức mạnh Đồng xu +2\n· 5: Không có hiệu ứng\n· 6～7: Sức mạnh Cơ bản +4, Sức mạnh Đồng xu -2\n· 8～9: Sức mạnh Cơ bản +8, Sức mạnh Đồng xu -3",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "ChoiSwordsmanshipOne",
       "name": "Bản Quốc Thái Thế - Săn Gấu",
-      "desc": "Sử dụng các đòn đánh bao gồm các kỹ năng <color=#ff6000><mark color=#ff000040><b><u>Coin đơn</color></mark></b></u>\n\nChỉ số Bản Quốc Kiếm Thuật [Sal] càng <color=#ff6000><mark color=#ff000040><b><u>cao</color></mark></b></u> thì Im Gyeong-eop càng có lợi",
+      "desc": "Sử dụng chuỗi hành động gồm các kĩ năng <color=#ff6000><mark color=#ff000040><b><u>Đơn đồng xu</color></mark></b></u>\n\nGiá trị Bản Quốc Kiếm Thuật [Sal] càng <color=#ff6000><mark color=#ff000040><b><u>cao</color></mark></b></u> thì Im Gyeong-eop càng có lợi",
       "summary": "",
       "undefined": "-",
-      "flavor": "Trên những ngọn núi ở Khu 19 thuộc Công ty S, muôn vàn loài thú dữ đang ẩn náu.\nTrong số đó, loài gấu với thân hình đồ sộ và sức mạnh tựa như những tảng đá lăn xuống từ vách đá, kẻ đối đầu không được để bị áp đảo ngay từ nước đi đầu tiên mà phải hạ gục chúng bằng một nhát chém duy nhất."
+      "flavor": "Trên những ngọn núi ở Khu 19 thuộc Công ty S, muôn vàn loài thú dữ sinh sống.\nTrong số đó, loài gấu với thân hình đồ sộ và sức mạnh tựa như những tảng đá lăn xuống từ vách đá; không nên lùi bước trước cú lao tới của nó, mà phải chém hạ nó ngay bằng nhát kiếm đầu tiên."
     },
     {
       "id": "ChoiSwordsmanshipMany",
       "name": "Bản Quốc Thái Thế - Săn Hổ",
-      "desc": "Sử dụng các đòn đánh bao gồm các kỹ năng <color=#ff6000><mark color=#ff000040><b><u>Đa Coin</color></mark></b></u>\n\nChỉ số Bản Quốc Kiếm Thuật [Sal] càng <color=#ff6000><mark color=#ff000040><b><u>thấp</color></mark></b></u> thì Im Gyeong-eop càng có lợi",
+      "desc": "Sử dụng chuỗi hành động gồm các kĩ năng <color=#ff6000><mark color=#ff000040><b><u>Đa đồng xu</color></mark></b></u>\n\nGiá trị Bản Quốc Kiếm Thuật [Sal] càng <color=#ff6000><mark color=#ff000040><b><u>thấp</color></mark></b></u> thì Im Gyeong-eop càng có lợi",
       "summary": "",
       "undefined": "-",
-      "flavor": "Hổ là loài vật tinh khôn và hung dữ.\nChẳng có con hổ nào chịu dâng hiến máu thịt chỉ sau một đòn. Ta phải liên tục tung ra những chuỗi đòn tấn công dồn dập để bóp nghẹt hơi thở và tước đi mạng sống của nó.\nNhững con hổ sống sót sau cuộc săn lùng ấy, một ngày nào đó sẽ trở thành Sơn Quân (Vua của núi rừng).\nKhông biết rằng nó sẽ mang lại vận may linh thiêng cho con người, hay sẽ quay trở lại như một thảm họa tàn khốc."
+      "flavor": "Hổ là loài vật tinh khôn và hung dữ.\nKhông thể nào chém xuyên thịt hổ chỉ bằng một nhát. Chỉ những nhát chém liên tiếp không ngừng mới có thể áp đảo con thú cho đến khi hạ gục nó.\nNếu không làm được, con hổ sẽ thoát chết—hoặc đánh bại đối thủ của mình, để một ngày nào đó trưởng thành thành Sangun, một Sơn Quân—Vua của núi rừng.\nChẳng thể biết được liệu những sinh linh ấy sẽ ban vận may cho con người, hay quay trở lại như một tai ương hung ác."
     },
     {
       "id": "ChoiSwordsmanshipShield",
       "name": "Đầu Đinh Giáp [Sal]",
-      "desc": "- Giá trị tối đa: 5\n- Khi nhận hiệu ứng này, nhận Lớp bảo vệ tương đương 10% Thể lực tối đa của bản thân cho mỗi 1 chỉ số (Tối thiểu 1, làm tròn xuống, Lớp bảo vệ nhận được từ hiệu ứng này sẽ không biến mất khi kết thúc lượt)\n- Khi bắt đầu trận chiến, nhận 1 Giảm Cấp độ Phòng thủ cho mỗi 2 chỉ số (Làm tròn lên)\n- Sát thương Trảm +(Chỉ số × 2.5)%\n- <color=#ff6000><mark color=#ff000040><b><u>Khi nhận sát thương lên Lớp bảo vệ tương đương 10% Thể lực tối đa, chỉ số giảm đi 1</color></mark></b></u>",
+      "desc": "- Giá trị tối đa: 5\n- Khi nhận hiệu ứng này, nhận Khiên tương đương 10% HP tối đa của bản thân cho mỗi 1 giá trị (Tối thiểu 1, làm tròn xuống; Khiên nhận được từ hiệu ứng này sẽ không biến mất khi kết thúc lượt)\n- Khi bắt đầu trận chiến, nhận 1 Giảm Cấp độ Phòng thủ cho mỗi 2 giá trị (Làm tròn lên)\n- Sát thương Trảm kích +(Giá trị × 2.5)%\n- <color=#ff6000><mark color=#ff000040><b><u>Khi nhận sát thương lên Khiên tương đương 10% HP tối đa, giảm 1 giá trị</color></mark></b></u>",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "PhotoTransitionChoi",
       "name": "Chuyển Đổi Ký Ức",
-      "desc": "- Giá trị cơ bản: 3\n- Khi kết thúc lượt, chỉ số giảm đi 1\n- <color=#ff6000><mark color=#ff000040><b><u>Nếu chỉ số là 1, rút lui vào cuối lượt và bản đồ thay đổi</color></mark></b></u>\n- Khi quay lại, tùy theo số lượt đã rút lui và Bản Quốc Thái Thế mà nhận thêm hoặc mất đi Bản Quốc Kiếm Thuật [Sal]\n· Bản Quốc Thái Thế - Săn Gấu: Nhận thêm\n· Bản Quốc Thái Thế - Săn Hổ: Mất đi",
+      "desc": "- Giá trị cơ bản: 3\n- Khi kết thúc lượt, giá trị giảm đi 1\n- <color=#ff6000><mark color=#ff000040><b><u>Khi bắt đầu lượt, nếu giá trị là 0, rút lui và chuyển sang địa điểm khác</color></mark></b></u>\n- Khi quay lại chiến trường, dựa trên Bản Quốc Thái Thế hiện tại, nhận hoặc mất (Số lượt đã Rút lui) giá trị Bản Quốc Kiếm Thuật [Sal]\n· Bản Quốc Thái Thế - Săn Gấu: Nhận\n· Bản Quốc Thái Thế - Săn Hổ: Mất",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "PhotoTransitionChoiCamera",
       "name": "Chuyển Đổi Ký Ức",
-      "desc": "- Giá trị cơ bản: 3\n- Khi kết thúc lượt, chỉ số giảm đi 1\n- <color=#ff6000><mark color=#ff000040><b><u>Nếu chỉ số là 1, rút lui vào cuối lượt và bản đồ thay đổi</color></mark></b></u>\n- Tùy theo số lượt Im Gyeong-eop đã rút lui, khi quay lại, tùy vào Bản Quốc Thái Thế của Im Gyeong-eop mà ông ta nhận thêm hoặc mất đi Bản Quốc Kiếm Thuật [Sal]\n· Bản Quốc Thái Thế - Săn Gấu: Nhận thêm\n· Bản Quốc Thái Thế - Săn Hổ: Mất đi",
+      "desc": "- Giá trị cơ bản: 3\n- Khi kết thúc lượt, giá trị giảm đi 1\n- <color=#ff6000><mark color=#ff000040><b><u>Khi bắt đầu lượt, nếu giá trị là 0, đơn vị này biến mất và chuyển sang địa điểm khác</color></mark></b></u>\n- Khi quay lại chiến trường, Im Gyeong-eop nhận hoặc mất (Số lượt đã Rút lui) giá trị Bản Quốc Kiếm Thuật [Sal] dựa trên Bản Quốc Thái Thế hiện tại của mình\n· Bản Quốc Thái Thế - Săn Gấu: Nhận\n· Bản Quốc Thái Thế - Săn Hổ: Mất",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "ChoiSword_LowMorale",
-      "name": "Ký ức được rửa ảnh",
-      "desc": "- Suy giảm nhuệ khí\n- Nhận 1 Mong manh, Lượng sát thương +10%, Sát thương chí mạng +15%",
+      "name": "Ký Ức Được Hiện Hình",
+      "desc": "- Suy giảm nhuệ khí\n- nhận 1 [Mong manh], gây +10% sát thương và +15% sát thương chí mạng",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "ChoiSword_Panic",
-      "name": "Ký ức được rửa ảnh",
-      "desc": "- Hoảng loạn\n- Nhận 2 Mong manh, Lượng sát thương +10%, Sát thương chí mạng +30%, Nhân đôi hiệu ứng gây ra bởi mặt xu của Cung Bản Quốc [Sal] - Bắn tên",
+      "name": "Ký Ức Được Hiện Hình",
+      "desc": "- Hoảng loạn\n- nhận 2 [Mong manh], gây +10% sát thương, +30% sát thương chí mạng, và nhân đôi hiệu ứng do Đồng xu của \"Bản Quốc Cung [Sal] - Phóng Tiễn\" gây ra",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "DimensionalBagEzraDTwo",
-      "name": "Túi chiều không gian - Xưởng Namir",
-      "desc": "Lấy vũ khí của xưởng tiếp theo từ Túi chiều không gian\n- Vũ khí xưởng hiện tại: Găng tay Xưởng Namir\n- Vũ khí xưởng tiếp theo: Rìu Xưởng Yulia",
+      "name": "Túi Chiều Không Gian - Xưởng Namir",
+      "desc": "Lấy vũ khí Xưởng tiếp theo từ Túi Chiều Không Gian\n- Vũ khí Xưởng hiện tại: Găng tay Xưởng Namir\n- Vũ khí Xưởng tiếp theo: Rìu YuRia Atelier",
       "summary": "",
       "undefined": "-",
-      "flavor": "「Đây là sản phẩm có chứa khối cầu Đặc dị điểm của Tập đoàn G, để sử dụng hiệu quả thì phải nhấn công tắc khởi động khi đang ở trên không rồi dùng chính trọng lượng đó để đập nát.\nNếu đánh trúng thì thực sự rất đau đấy!」"
+      "flavor": "「Đây là sản phẩm có Điểm kỳ dị của Công ty G nung sẵn bên trong—quả Cầu! Cách dùng thế này: bay lên không, bật công tắc giữa không trung, rồi giáng xuống bằng trọng lượng của nó. Đánh trúng một phát thì... sẽ rất đau đấy!」"
     },
     {
       "id": "SlaveHunersPower",
