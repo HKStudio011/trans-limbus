@@ -2,92 +2,92 @@
   "dataList": [
     {
       "id": "BurstAgility",
-      "name": "Chú Sát 【Tấn Tốc】",
-      "desc": "- Giá trị cơ bản: 3\n- Khi nhận sát thương từ kỹ năng tấn công lên đối tượng có Tốc độ từ 10 trở lên và [Vết rách] kích hoạt, giảm 1, tăng 1 số lượng [Vết rách] của bản thân\n- Khi giá trị bằng 0, nhận sát thương thuộc tính Phàm Ăn bằng với (Cường độ [Vết rách]) và biến mất\n※ Hiệu ứng này không được làm mới",
-      "summary": "Khi thỏa mãn điều kiện, gây thêm sát thương Phàm Ăn",
+      "name": "Chú Sát 【Nhanh nhẹn】",
+      "desc": "- Giá trị cơ bản: 3\n- Khi bị mục tiêu có Tốc độ từ 10 trở lên đánh trúng bằng kĩ năng tấn công và Vết rách kích hoạt, giảm 1 giá trị và Số lượng Vết rách của bản thân tăng 1\n- Khi giá trị về 0, nhận sát thương hệ Phàm ăn bằng (Cường độ Vết rách) và biến mất\n※ Không thể nhận thêm cộng dồn của hiệu ứng này khi nó đang có hiệu lực",
+      "summary": "Gây thêm sát thương hệ Phàm ăn khi thỏa mãn điều kiện",
       "undefined": "-"
     },
     {
       "id": "LegStrength",
       "name": "Cước Lực 【Mão】",
-      "desc": "Giá trị tối đa: 3\nKhi kết thúc lượt, nhận 5 [Nhanh nhẹn] vào lượt tiếp theo\nGiảm 1 khi kết thúc lượt",
-      "summary": "Khi thỏa mãn điều kiện, gây thêm sát thương Phàm Ăn",
+      "desc": "Giá trị tối đa: 3\nKhi kết thúc lượt, nhận 5 Nhanh nhẹn vào lượt kế tiếp\nGiảm 1 khi kết thúc lượt",
+      "summary": "Gây thêm sát thương hệ Phàm ăn khi thỏa mãn điều kiện",
       "undefined": "-"
     },
     {
       "id": "DarkBeast_LowMorale",
       "name": "Ám Thủ",
-      "desc": "- Suy giảm nhuệ khí\n- Khi Tốc độ của bản thân cao hơn đối tượng hoặc khi thực hiện tấn công một chiều, sát thương gây ra cho đối tượng +10%",
+      "desc": "- Suy giảm nhuệ khí\n- Khi Tốc độ của bản thân cao hơn mục tiêu hoặc thực hiện tấn công một chiều, sát thương gây ra cho mục tiêu +10%",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "DarkBeast_Panic",
       "name": "Ám Thủ",
-      "desc": "- Hoảng loạn\n- Khi Tốc độ của bản thân cao hơn đối tượng hoặc khi thực hiện tấn công một chiều, sát thương gây ra cho đối tượng +20%, nếu Tốc độ của bản thân cao hơn đối tượng, sát thương nhận vào -20%",
+      "desc": "- Hoảng loạn\n- Khi Tốc độ của bản thân cao hơn mục tiêu hoặc thực hiện tấn công một chiều, sát thương gây ra cho mục tiêu +20%, nếu Tốc độ của bản thân cao hơn mục tiêu, sát thương nhận vào -20%",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RepressedMurderousIntend",
       "name": "Sát Khí Bị Kìm Nén",
-      "desc": "Cấp độ tấn công cơ bản -10, Cấp độ phòng thủ cơ bản -10",
+      "desc": "Cấp độ Tấn công cơ bản -10\nCấp độ Phòng thủ cơ bản -10",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "WeighedMurderousIntend",
       "name": "Sát Khí Bị Đè Bẹp",
-      "desc": "Cấp độ tấn công cơ bản -25, Cấp độ phòng thủ cơ bản -25",
+      "desc": "Cấp độ Tấn công cơ bản -25\nCấp độ Phòng thủ cơ bản -25",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "MiddleFingerBook",
-      "name": "Đối Tượng Trả Thù Của Ngón Giữa",
-      "desc": "Giá trị tối đa: 10\nKhi bị tấn công bởi thành viên thuộc Ngón Giữa, sát thương nhận vào +3% (Tối đa 30%)",
+      "name": "Đối Tượng Trả Thù Của Trung Chỉ",
+      "desc": "Giá trị tối đa: 10\nKhi bị tấn công bởi thành viên thuộc Trung Chỉ, sát thương nhận vào +3% mỗi 1 giá trị (Tối đa 30%)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "Persistent",
-      "name": "Sự Ngoan Cố",
-      "desc": "Giá trị tối đa: 4\nKhi nhận sát thương khiến HP trở về 0, có 80% xác suất không nhận sát thương đó và hồi 60 HP, giải trừ trạng thái [Choáng váng] và buff này biến mất\n\nTrong các trạng thái dưới đây, hiệu ứng ngăn chặn cái chết và hồi phục sẽ không kích hoạt\n- Khi nhận sát thương, sát thương từ đồng xu vượt quá HP tối đa của bản thân\n- Đang sở hữu hiệu ứng giảm hiệu quả hồi phục HP\nGiảm 1 khi kết thúc lượt",
+      "name": "Ngoan Cố",
+      "desc": "Giá trị tối đa: 4\nKhi nhận sát thương khiến HP về 0, có 80% xác suất không nhận sát thương đó, hồi 60 HP, giải trừ trạng thái Choáng và hiệu ứng này biến mất\n\nHiệu ứng ngăn chặn cái chết và hồi phục không kích hoạt trong các trường hợp sau:\n- Khi sát thương nhận vào từ đồng xu vượt quá HP tối đa của bản thân\n- Khi bản thân đang có hiệu ứng giảm hồi phục HP\nGiảm 1 khi kết thúc lượt",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BackstreetsNight_LowMorale",
       "name": "Đêm Nơi Ngõ Hẻm",
-      "desc": "- Suy giảm nhuệ khí\n- Khi bắt đầu lượt, nhận 1 Tăng uy lực tấn công, 1 Tăng hồi phục HP, 1 [Mong manh]",
+      "desc": "- Suy giảm nhuệ khí\n- Khi bắt đầu lượt, nhận 1 Tăng Uy lực Tấn công, 1 Tăng hồi phục HP và 1 Mong manh",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BackstreetsNight_Panic",
       "name": "Đêm Nơi Ngõ Hẻm",
-      "desc": "- Hoảng loạn\n- Khi bắt đầu lượt, nhận 2 Tăng uy lực tấn công, 2 Tăng hồi phục HP, 1 [Mong manh]",
+      "desc": "- Hoảng loạn\n- Khi bắt đầu lượt, nhận 2 Tăng Uy lực Tấn công, 2 Tăng hồi phục HP và 1 Mong manh",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "SweeperA",
       "name": "Đợt 1",
-      "desc": "Kết thúc Đợt 1 sau {0} lượt",
+      "desc": "Đợt 1 kết thúc sau {0} lượt",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "SweeperB",
       "name": "Đợt 2",
-      "desc": "Kết thúc Đợt 2 sau {0} lượt",
+      "desc": "Đợt 2 kết thúc sau {0} lượt",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "SweeperC",
       "name": "Đợt 3",
-      "desc": "Kết thúc Đợt 3 sau {0} lượt",
+      "desc": "Đợt 3 kết thúc sau {0} lượt",
       "summary": "",
       "undefined": "-"
     }

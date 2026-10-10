@@ -10,70 +10,70 @@
     {
       "id": "BloodScissorTwo",
       "name": "Lưỡi Kéo Nhuốm Máu II",
-      "desc": "- Giá trị tối đa: 20\n- Lưỡi Kéo Nhuốm Máu giai đoạn 2\n- Khi bắt đầu lượt, mỗi 5 giá trị nhận 1 Tăng Cấp Tấn Công, 1 Giảm Cấp Phòng Thủ\n- Sử dụng cho kỹ năng đặc biệt",
+      "desc": "- Giá trị tối đa: 20\n- Lưỡi Kéo Nhuốm Máu giai đoạn 2\n- Khi bắt đầu lượt, mỗi 5 cộng dồn nhận 1 Tăng Cấp độ Tấn công và 1 Giảm Cấp độ Phòng thủ\n- Sử dụng cho kỹ năng đặc biệt",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BloodScissorThree",
       "name": "Lưỡi Kéo Nhuốm Máu III",
-      "desc": "- Giá trị tối đa: 30\n- Lưỡi Kéo Nhuốm Máu giai đoạn 3\n- Khi bắt đầu lượt, mỗi 5 giá trị nhận 2 Tăng Cấp Tấn Công, 1 Giảm Cấp Phòng Thủ\n- Sử dụng cho kỹ năng đặc biệt",
+      "desc": "- Giá trị tối đa: 30\n- Lưỡi Kéo Nhuốm Máu giai đoạn 3\n- Khi bắt đầu lượt, mỗi 5 cộng dồn nhận 2 Tăng Cấp độ Tấn công và 1 Giảm Cấp độ Phòng thủ\n- Sử dụng cho kỹ năng đặc biệt",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BloodDinner",
       "name": "Huyết Thực",
-      "desc": "- Giá trị tối đa: 999\n- Tích trữ sát thương Xuất huyết đã kích hoạt tại vị trí đó\n- Khởi tạo lại khi thay đổi địa điểm chiến đấu\n- Chỉ số này được chia sẻ cho tất cả nhân vật\n- Nếu trong đồng minh có Quyến thuộc cấp cao tiêu hao Huyết Thực trong cùng một lượt, nhân vật này không thể tiêu hao Huyết Thực cho đến khi nhân vật đó tiêu hao xong",
+      "desc": "- Giá trị tối đa: 999\n- Tích trữ toàn bộ sát thương [Xuất huyết] phát sinh tại địa điểm đó\n- Đặt lại khi thay đổi địa điểm chiến đấu\n- Chỉ số này được chia sẻ cho tất cả nhân vật\n- Nếu trong đồng minh có Quyến thuộc cấp cao cũng tiêu hao Huyết Thực trong cùng một lượt, bản thân không thể tiêu hao Huyết Thực cho đến khi nhân vật đó tiêu hao trước",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BloodDinner_Accumulation",
       "name": "Huyết Thực Tiêu Hao Tích Lũy",
-      "desc": "- Giá trị tối đa: 999\n- Tổng Huyết Thực đã tiêu hao trong trận chiến này: {0}",
+      "desc": "- Giá trị tối đa: 999\n- Tổng lượng Huyết Thực đã tiêu hao trong trận chiến này: {0}",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "FamineBlood_LowMorale",
       "name": "Đói Khát",
-      "desc": "- Suy giảm nhuệ khí\nKhi bắt đầu lượt, nhận 1 [Trói buộc], 2 Tăng Uy Lực Tấn Công. Khi kết thúc lượt, mất 5 [Tinh thần (SP)]",
+      "desc": "- Suy giảm nhuệ khí\nKhi bắt đầu lượt, nhận 1 [Trói buộc] và 2 Tăng Uy lực Tấn công. Khi kết thúc lượt, mất 5 Tinh thần (SP)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "FamineBlood_Panic",
       "name": "Đói Khát",
-      "desc": "- Hoảng loạn\nKhi bắt đầu lượt, nhận 2 [Trói buộc], 4 Tăng Uy Lực Tấn Công.",
+      "desc": "- Hoảng loạn\nKhi bắt đầu lượt, nhận 2 [Trói buộc] và 4 Tăng Uy lực Tấn công.",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "DuelDeclaration_Camille",
       "name": "Tuyên Bố Quyết Đấu - Camille",
-      "desc": "Khi nhân vật chỉ định Tuyên Bố Quyết Đấu tiến hành Đối kháng với mục tiêu bị chỉ định, Uy lực Đối kháng +1\nKhi tấn công trúng đích, nhận 1 Tốc độ vào lượt tiếp theo. (Tối đa 4 lần mỗi lượt)\nHiệu ứng biến mất nếu nhân vật chỉ định áp dụng hiệu ứng này lên đối tượng khác.\nNếu Tuyên Bố Quyết Đấu của nhân vật khác được áp dụng, hiệu ứng sẽ bị thay thế.",
+      "desc": "- Trong một lần Đối kháng giữa nhân vật gán Tuyên Bố Quyết Đấu và nhân vật mang hiệu ứng, người tuyên bố nhận +1 Sức mạnh Đối kháng. Khi đánh trúng, người tuyên bố nhận 1 Nhanh nhẹn vào lượt tiếp theo. (4 lần mỗi lượt)\n- Hết hiệu lực khi nhân vật gán hiệu ứng này lên mục tiêu khác.\n- Bị thay thế khi một nhân vật khác gán Tuyên Bố Quyết Đấu lên cùng mục tiêu.",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RecklessDuel",
       "name": "Quyết Đấu Liều Lĩnh",
-      "desc": "Khi kết thúc lượt, mỗi 10% tổng máu đã mất trong trận chiến, nhận Tăng Uy lực Đối kháng vào lượt tiếp theo (Tối đa 5)\nKhi kết thúc lượt, mỗi 10% tổng máu đã mất trong trận chiến, nhận [Trói buộc] vào lượt tiếp theo (Tối đa 5)",
+      "desc": "Khi kết thúc lượt, mỗi 10% tổng máu đã mất trong trận chiến sẽ nhận 1 Tăng Sức mạnh Đối kháng vào lượt tiếp theo (Tối đa 5)\nKhi kết thúc lượt, mỗi 10% tổng máu đã mất trong trận chiến sẽ nhận 1 [Trói buộc] vào lượt tiếp theo (Tối đa 5)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "ConcentratedAttack",
-      "name": "Tập Trung Tấn Công",
-      "desc": "Sử dụng cho ô kỹ năng chỉ định",
+      "name": "Tấn Công Tập Trung",
+      "desc": "Được sử dụng cho các ô kỹ năng nhất định",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "TrulyWeak",
       "name": "Kẻ Yếu",
-      "desc": "- Sát thương gây ra -10%\nGiảm 1 giá trị khi kết thúc lượt",
+      "desc": "- Sát thương gây ra -10%\n- Khi kết thúc lượt, giảm 1 giá trị",
       "summary": "",
       "undefined": "-"
     },
@@ -87,98 +87,98 @@
     {
       "id": "BloodScissorScars",
       "name": "Vết Chém Sâu",
-      "desc": "Khi thua Đối kháng, số lượng Xuất huyết tăng thêm 3 và tự kích hoạt Xuất huyết của bản thân. Sau đó, số lượng Xuất huyết giảm 1.\n- Xóa bỏ khi kết thúc lượt",
+      "desc": "Khi thua Đối kháng, Số lượng [Xuất huyết] tăng thêm 3 và kích hoạt [Xuất huyết] của bản thân. Sau đó, Số lượng [Xuất huyết] giảm đi 1.\n- Xóa bỏ khi kết thúc lượt",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "LineCutting",
-      "name": "Đối Tượng Khâu Vá",
+      "name": "Mục Tiêu Khâu Vá",
       "desc": "- Trở thành mục tiêu tấn công ưu tiên của ???\n- Xóa bỏ khi kết thúc lượt",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "StarvingBarberOne",
-      "name": "Lão Hóa",
-      "desc": "- Đã lâu không được uống máu\n- Cấp Tấn công và Phòng thủ cơ bản giảm 15",
+      "name": "Lão Suy",
+      "desc": "- Đã lâu không được uống máu.\n- Cấp độ Tấn công cơ bản giảm 15\n- Cấp độ Phòng thủ cơ bản giảm 15",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "StarvingBarberTwo",
-      "name": "Lão Hóa",
-      "desc": "- Đã lâu không được uống máu\n- Cấp Tấn công và Phòng thủ cơ bản giảm 25",
+      "name": "Lão Suy",
+      "desc": "- Đã lâu không được uống máu.\n- Cấp độ Tấn công cơ bản giảm 25\n- Cấp độ Phòng thủ cơ bản giảm 25",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BloodShooting",
-      "name": "Blood Shooting!!",
-      "desc": "Khi tử trận\n -Huyết Thực tăng 30\n- Tài nguyên E.G.O có số lượng ít nhất tăng 2\n- Vào lượt tiếp theo, tất cả kháng vật lý của các nhân vật cùng phe tăng 0.1. Hiệu ứng này có thể cộng dồn (Tối đa 5)",
+      "name": "Bắn Máu!!",
+      "desc": "Khi chết\n- Huyết Thực tăng 30\n- Tài nguyên E.G.O có số lượng ít nhất tăng 2\n- Vào lượt tiếp theo, tất cả kháng vật lý của các nhân vật cùng đội tăng 0.1. Hiệu ứng này có thể cộng dồn (Tối đa 5)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RighteousFeeling",
       "name": "Cảm Giác Tràn Đầy Chính Nghĩa!!",
-      "desc": "- Mỗi khi kết thúc lượt, nhận 1 Tốc độ, 3 Tăng Cấp Tấn Công, 3 Giảm Cấp Phòng Thủ vào lượt tiếp theo\n- Mỗi 3 lượt tích lũy, nhận thêm 2 Tăng Cấp Tấn Công (Tối đa 6)\n- Khi thắng Đối kháng, hồi 3 [Tinh thần (SP)]\n- Khi tiêu diệt kẻ địch, nhận 1 Tăng Uy lực Đối kháng vào lượt tiếp theo (1 lần mỗi lượt)",
+      "desc": "- Mỗi khi kết thúc lượt, nhận 1 Nhanh nhẹn, 3 Tăng Cấp độ Tấn công và 3 Giảm Cấp độ Phòng thủ vào lượt tiếp theo\n- Mỗi 3 lượt tích lũy, nhận thêm 2 Tăng Cấp độ Tấn công (Tối đa 6)\n- Khi thắng Đối kháng, hồi phục 3 Tinh thần (SP)\n- Khi tiêu diệt kẻ địch, nhận 1 Tăng Sức mạnh Đối kháng vào lượt tiếp theo (1 lần mỗi lượt)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "DuelDeclarationMeursault",
       "name": "Tuyên Bố Quyết Đấu - Meursault",
-      "desc": "Khi nhân vật chỉ định Tuyên Bố Quyết Đấu tiến hành Đối kháng với mục tiêu bị chỉ định, Uy lực Đối kháng +1\nKhi tấn công trúng đích, nhận 1 Tốc độ vào lượt tiếp theo. (Tối đa 4 lần mỗi lượt)\nHiệu ứng biến mất nếu nhân vật chỉ định áp dụng hiệu ứng này lên đối tượng khác.\nNếu Tuyên Bố Quyết Đấu của nhân vật khác được áp dụng, hiệu ứng sẽ bị thay thế.",
+      "desc": "- Trong một lần Đối kháng giữa nhân vật gán Tuyên Bố Quyết Đấu và nhân vật mang hiệu ứng, người tuyên bố nhận +1 Sức mạnh Đối kháng. Khi đánh trúng, người tuyên bố nhận 1 Nhanh nhẹn vào lượt tiếp theo. (4 lần mỗi lượt)\n- Hết hiệu lực khi nhân vật gán hiệu ứng này lên mục tiêu khác.\n- Bị thay thế khi một nhân vật khác gán Tuyên Bố Quyết Đấu lên cùng mục tiêu.",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "ConcentratedAttackMeursault",
-      "name": "Tập Trung Tấn Công - Meursault",
-      "desc": "<Dành riêng cho Chiến đấu Tập trung>\nNhân vật được chỉ định Tấn công Tập trung nhận các hiệu ứng sau dựa trên số cộng dồn Tấn công Tập trung trên ô mục tiêu\n1 cộng dồn: Uy lực Đối kháng +1\n2 cộng dồn: Uy lực Cơ bản +1\n3 cộng dồn: Uy lực Cơ bản +1, Uy lực Đồng xu +1\n- Hiệu ứng biến mất nếu nhân vật được chỉ định không thể tấn công trúng ô có Tấn công Tập trung trong vòng 1 lượt",
+      "name": "Tấn Công Tập Trung - Meursault",
+      "desc": "<Dành riêng cho Tiếp chiến Tập trung>\nNhân vật đã gán Tấn Công Tập Trung nhận các hiệu ứng sau dựa trên số cộng dồn Tấn Công Tập Trung của ô mục tiêu:\n  · 1x cộng dồn: Sức mạnh Đối kháng +1\n  · 2x cộng dồn: Sức mạnh Cơ bản +1\n  · 3x cộng dồn: Sức mạnh Cơ bản +1 và Sức mạnh Đồng xu +1\n- Hết hiệu lực nếu trong một lượt, nhân vật đã gán không đánh trúng ô kỹ năng mang Tấn Công Tập Trung.",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "Duello_LowMorale",
-      "name": "Năng Lực 1 Chọi 1",
-      "desc": "- Suy giảm nhuệ khí\n- Khi bắt đầu lượt, nhận 2 Tăng Cấp Tấn Công. Khi thua Đối kháng, nhận 1 Giảm Cấp Phòng Thủ (Tối đa 3 mỗi lượt). Tốc độ tối thiểu -1",
+      "name": "Thực Lực 1 Đối 1",
+      "desc": "- Suy giảm nhuệ khí\n- Khi bắt đầu lượt, nhận 2 Tăng Cấp độ Tấn công. Khi thua Đối kháng, nhận 1 Giảm Cấp độ Phòng thủ (Tối đa 3 mỗi lượt). Tốc độ tối thiểu -1",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "Duello_Panic",
-      "name": "Năng Lực 1 Chọi 1",
-      "desc": "- Hoảng loạn\n- Khi bắt đầu lượt, nhận 4 Tăng Cấp Tấn Công. Khi thua Đối kháng, nhận 2 Giảm Cấp Phòng Thủ (Tối đa 6 mỗi lượt). Tốc độ tối thiểu -1",
+      "name": "Thực Lực 1 Đối 1",
+      "desc": "- Hoảng loạn\n- Khi bắt đầu lượt, nhận 4 Tăng Cấp độ Tấn công. Khi thua Đối kháng, nhận 2 Giảm Cấp độ Phòng thủ (Tối đa 6 mỗi lượt). Tốc độ tối thiểu -1",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RighteousFeelingSancho",
-      "name": "Nuốt lệ máu, ta sẽ gánh vác trọng trách.",
-      "desc": "- Mỗi khi nhận Ngạnh Huyết, nhận thêm 1 Ngạnh Huyết. (Tối đa 5 lần mỗi lượt)\n- Mỗi khi kết thúc lượt, nhận 2 Tốc độ, 3 Tăng Cấp Tấn Công vào lượt tiếp theo\n- Mỗi 3 lượt tích lũy, nhận thêm 2 Tăng Cấp Tấn Công (Tối đa 6)\n- Khi thắng Đối kháng, hồi 3 [Tinh thần (SP)]\n- Khi tiêu diệt kẻ địch, nhận 1 Tăng Uy lực Đối kháng vào lượt tiếp theo (1 lần mỗi lượt)",
+      "name": "Nuốt Lệ Máu, Ta Sẽ Gánh Vác Trọng Trách.",
+      "desc": "- Mỗi khi nhận Huyết Cương, nhận thêm 1 Huyết Cương. (Tối đa 5 lần mỗi lượt)\n- Mỗi khi kết thúc lượt, nhận 2 Nhanh nhẹn và 3 Tăng Cấp độ Tấn công vào lượt tiếp theo\n- Mỗi 3 lượt tích lũy, nhận thêm 2 Tăng Cấp độ Tấn công (Tối đa 6)\n- Khi thắng Đối kháng, hồi phục 3 Tinh thần (SP)\n- Khi tiêu diệt kẻ địch, nhận 1 Tăng Sức mạnh Đối kháng vào lượt tiếp theo (1 lần mỗi lượt)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "UnfinishedDreamSancho",
-      "name": "Không thể thoát khỏi dòng máu đặc hơn nước,",
-      "desc": "- Mỗi khi nhận Ngạnh Huyết, nhận thêm 2 Ngạnh Huyết. (Tối đa 5 lần mỗi lượt)\n- Mỗi khi kết thúc lượt, nhận 2 Tốc độ, 3 Tăng Cấp Tấn Công vào lượt tiếp theo\n- Mỗi 3 lượt tích lũy, nhận thêm 2 Tăng Cấp Tấn Công (Tối đa 6)\n- Khi thắng Đối kháng, hồi 3 [Tinh thần (SP)]\n- Khi tiêu diệt kẻ địch, nhận 1 Tăng Uy lực Đối kháng vào lượt tiếp theo (1 lần mỗi lượt)",
+      "name": "Không Thể Thoát Khỏi Dòng Máu Đặc Hơn Nước,",
+      "desc": "- Mỗi khi nhận Huyết Cương, nhận thêm 2 Huyết Cương. (Tối đa 5 lần mỗi lượt)\n- Mỗi khi kết thúc lượt, nhận 2 Nhanh nhẹn và 3 Tăng Cấp độ Tấn công vào lượt tiếp theo\n- Mỗi 3 lượt tích lũy, nhận thêm 2 Tăng Cấp độ Tấn công (Tối đa 6)\n- Khi thắng Đối kháng, hồi phục 3 Tinh thần (SP)\n- Khi tiêu diệt kẻ địch, nhận 1 Tăng Sức mạnh Đối kháng vào lượt tiếp theo (1 lần mỗi lượt)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "FragmentOfHopeSancho",
-      "name": "Mở tiệc tối cho những người thân trong gia đình đã chịu đau khổ,",
-      "desc": "Tăng Uy lực Đối kháng theo giá trị\nSát thương gây ra +10%",
+      "name": "Mở Tiệc Cho Những Gia Đình Đã Chịu Khổ Đau,",
+      "desc": "Tăng Sức mạnh Đối kháng bằng số cộng dồn\nSát thương gây ra +10%",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "FragmentOfHopeTwoSancho",
-      "name": "Về một Huyết Quỷ đã xử phạt người cha quay lưng với con cái và gánh vác mọi tội lỗi",
-      "desc": "- Mỗi 1 giá trị, Uy lực Đối kháng +4\n- Khi bắt đầu trận chiến, nhận Lá chắn cho bản thân và đồng minh\n- Sát thương gây ra +20%\n- Gây 1 sát thương cố định mỗi khi tấn công trúng đích",
+      "name": "Về Một Huyết Quỷ Đã Đoạt Mạng Người Cha Quay Lưng Với Con Cái Và Một Mình Gánh Vác Mọi Tội Lỗi",
+      "desc": "- Mỗi 1 giá trị, Sức mạnh Đối kháng +4\n- Khi bắt đầu trận chiến, ban Lá chắn cho bản thân và đồng minh\n- Sát thương gây ra +20%\n- Mỗi khi đánh trúng, gây thêm 1 sát thương cố định",
       "summary": "",
       "undefined": "-"
     }
