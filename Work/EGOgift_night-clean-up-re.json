@@ -3,11 +3,11 @@
     {
       "id": 9269,
       "name": "Boombox Chuyên Dụng Cho Màn Xuất Hiện",
-      "desc": "Khi tấn công trúng bằng kỹ năng thuộc tính Va đập, hồi phục HP bằng 5% lượng sát thương đồng minh đó đã gây ra\n\nKhi kỹ năng Phản kích trúng, hồi phục 5 Tinh thần (SP) (2 lần mỗi lượt cho mỗi Bản sắc)",
+      "desc": "Khi đánh trúng bằng Kĩ năng Đập, hồi phục HP bằng 5% lượng sát thương mà đồng minh đã dùng Kĩ năng gây ra\n\nKhi đánh trúng bằng Kĩ năng Phản kích, hồi phục 5 Tinh thần (SP) (2 lần mỗi lượt cho mỗi Bản sắc)",
       "simpleDesc": [
         {
           "abilityID": 9269,
-          "simpleDesc": "Hồi phục HP tỷ lệ với sát thương gây ra"
+          "simpleDesc": "Hồi phục HP theo lượng sát thương gây ra"
         },
         {
           "abilityID": 92691,
@@ -18,19 +18,19 @@
     {
       "id": 9270,
       "name": "Tiểu Huynh Xuất Hiện",
-      "desc": "Khi đồng minh nhận sát thương, số lần [Laceration] của kẻ tấn công tăng thêm 4, và đồng minh nhận sát thương nhận [AttackUp] 3 (1 lần mỗi kỹ năng)\n\nKỹ năng cơ bản được sử dụng bởi Bản sắc thuộc Ngón Giữa có Uy lực cơ bản +1, Lượng sát thương +(30÷Số đồng xu)%\n- Khi bắt đầu lượt, nếu có từ 3 Bản sắc thuộc Ngón Giữa trở lên, thay vào đó Uy lực cơ bản +1, Lượng sát thương +(60÷Số đồng xu)%\n- Nếu từ 5 người trở lên, thay vào đó Uy lực cơ bản +2, Lượng sát thương +(90÷Số đồng xu)%\n\nKhi tấn công trúng bằng kỹ năng thuộc tính Va đập, hồi phục HP bằng 10% lượng sát thương đồng minh đó đã gây ra\n\nKhi kỹ năng Phản kích trúng, hồi phục 5 Tinh thần (SP) (2 lần mỗi lượt cho mỗi Bản sắc)\n\nKhi bắt đầu trận chiến, nếu đồng minh trang bị kỹ năng Phản kích không thể sử dụng kỹ năng Phản kích trong lượt này, vào cuối lượt nhận [PlusCoinValueUp] 1, [MinusCoinValueDown] 1 ở lượt tiếp theo",
+      "desc": "Khi đồng minh bị đánh trúng, Số lượng [Laceration] của kẻ tấn công tăng 4 và đồng minh bị đánh trúng nhận [AttackUp] 3 (1 lần mỗi Kĩ năng)\n\nKĩ năng Cơ bản do Bản sắc thuộc Ngón Giữa sử dụng nhận Sức mạnh Cơ bản +1 và Lượng sát thương +(30÷Số đồng xu)%\n- Khi bắt đầu lượt, nếu có từ 3 Bản sắc thuộc Ngón Giữa trở lên trên sân, thay vào đó nhận Sức mạnh Cơ bản +1 và Lượng sát thương +(60÷Số đồng xu)%\n- Nếu có từ 5 Bản sắc thuộc Ngón Giữa trở lên trên sân, thay vào đó nhận Sức mạnh Cơ bản +2 và Lượng sát thương +(90÷Số đồng xu)%\n\nKhi đánh trúng bằng Kĩ năng Đập, hồi phục HP bằng 10% lượng sát thương mà đồng minh đã dùng Kĩ năng gây ra\n\nKhi đánh trúng bằng Kĩ năng Phản kích, hồi phục 5 Tinh thần (SP) (2 lần mỗi lượt cho mỗi Bản sắc)\n\nKhi kết thúc lượt, nếu đồng minh trang bị Kĩ năng Phản kích lúc Bắt đầu Trận chiến đã không thể sử dụng Kĩ năng Phản kích trong lượt này, đồng minh đó nhận [PlusCoinValueUp] 1 và [MinusCoinValueDown] 1 vào lượt tiếp theo",
       "simpleDesc": [
         {
           "abilityID": 9270,
-          "simpleDesc": "Số lần [Laceration] của kẻ tấn công tăng, đồng minh nhận sát thương nhận [AttackUp]"
+          "simpleDesc": "Số lượng [Laceration] của kẻ tấn công tăng, đồng minh bị đánh trúng nhận [AttackUp]"
         },
         {
           "abilityID": 92701,
-          "simpleDesc": "Uy lực cơ bản tăng, lượng sát thương tăng"
+          "simpleDesc": "Sức mạnh Cơ bản tăng, lượng sát thương tăng"
         },
         {
           "abilityID": 92702,
-          "simpleDesc": "Hồi phục HP tỷ lệ với sát thương gây ra"
+          "simpleDesc": "Hồi phục HP theo lượng sát thương gây ra"
         },
         {
           "abilityID": 92703,
@@ -45,30 +45,30 @@
     {
       "id": 9271,
       "name": "Hắc Thú Hoàn - Mão",
-      "desc": "Khi Bản sắc thuộc Hắc Thú - Mão lần đầu xuất hiện trên sân, duy trì tốc độ tối thiểu là 10 trong 1 lượt (Nếu tốc độ tối thiểu đã từ 10 trở lên, hiệu ứng này không kích hoạt)\n\nNếu bản thân có [LegStrength], Uy lực Đối kháng của kỹ năng cơ bản +1, Lượng sát thương +10%",
+      "desc": "Khi Bản sắc thuộc Hắc Thú - Mão lần đầu xuất hiện trên sân, duy trì Tốc độ tối thiểu ở mức 10 trong 1 lượt (nếu Tốc độ tối thiểu đã từ 10 trở lên, hiệu ứng này không kích hoạt)\n\nNếu bản thân có [LegStrength], Kĩ năng Cơ bản nhận Sức mạnh Đối kháng +1 và Lượng sát thương +10%",
       "simpleDesc": [
         {
           "abilityID": 9271,
-          "simpleDesc": "Duy trì tốc độ tối thiểu"
+          "simpleDesc": "Duy trì Tốc độ tối thiểu"
         },
         {
           "abilityID": 92711,
-          "simpleDesc": "Uy lực Va chạm tăng, lượng sát thương tăng"
+          "simpleDesc": "Sức mạnh Đối kháng tăng, lượng sát thương tăng"
         }
       ]
     },
     {
       "id": 9272,
-      "name": "Ám Dược",
-      "desc": "Khi Bản sắc thuộc Hắc Thú - Mão lần đầu xuất hiện trên sân, duy trì tốc độ tối thiểu là 10 trong 3 lượt (Nếu tốc độ tối thiểu đã từ 10 trở lên, hiệu ứng này không kích hoạt)\n\nVới mỗi 1 chỉ số [LegStrength] của bản thân, Uy lực Đối kháng của kỹ năng cơ bản +1, Lượng sát thương +10%\n\nKhi gây [BurstAgility], gây thêm cho 2 kẻ địch không có [BurstAgility] (1 lần mỗi lượt, trong trường hợp chiến đấu tập trung sẽ phán đoán theo bộ phận)\n\nKhi tốc độ bản thân cao hơn mục tiêu, gây thêm cho mục tiêu số lượng [Burst] hoặc số lần [Burst] bằng (Chênh lệch tốc độ ÷ 3) (Tối đa 3)\n\nKhi kết thúc lượt, nếu thuộc Hắc Thú - Mão, nhận [Agility] 2 vào lượt tiếp theo\nNếu tốc độ bản thân cao hơn mục tiêu hoặc thực hiện tấn công một chiều, lượng sát thương Trảm kích +10% ứng với (Chênh lệch tốc độ ÷ 3) (Tối đa 30%)\nNếu tốc độ bản thân cao hơn mục tiêu, lượng sát thương nhận vào -10% ứng với (Chênh lệch tốc độ ÷ 3) (Tối đa 30%)",
+      "name": "Hoạt Động Ngầm",
+      "desc": "Khi Bản sắc thuộc Hắc Thú - Mão lần đầu xuất hiện trên sân, duy trì Tốc độ tối thiểu ở mức 10 trong 3 lượt (nếu Tốc độ tối thiểu đã từ 10 trở lên, hiệu ứng này không kích hoạt)\n\nVới mỗi 1 [LegStrength] của bản thân, Kĩ năng Cơ bản nhận Sức mạnh Đối kháng +1 và Lượng sát thương +10%\n\nKhi gây [BurstAgility], gây thêm lên 2 kẻ địch chưa có [BurstAgility] (1 lần mỗi lượt; trong chiến đấu tập trung, phán định theo bộ phận)\n\nKhi Tốc độ của bản thân cao hơn mục tiêu, Kĩ năng gây thêm (Chênh lệch Tốc độ ÷ 3) Cường độ [Burst] hoặc Số lượng [Burst] lên mục tiêu (tối đa 3)\n\nKhi kết thúc lượt, nếu thuộc Hắc Thú - Mão, nhận [Agility] 2 vào lượt tiếp theo\nNếu Tốc độ của bản thân cao hơn mục tiêu hoặc khi thực hiện Tấn công một chiều, sát thương Trảm kích gây ra +10% cho mỗi (Chênh lệch Tốc độ ÷ 3) (tối đa 30%)\nNếu Tốc độ của bản thân cao hơn mục tiêu, sát thương nhận vào -10% cho mỗi (Chênh lệch Tốc độ ÷ 3) (tối đa 30%)",
       "simpleDesc": [
         {
           "abilityID": 9272,
-          "simpleDesc": "Duy trì tốc độ tối thiểu"
+          "simpleDesc": "Duy trì Tốc độ tối thiểu"
         },
         {
           "abilityID": 92721,
-          "simpleDesc": "Uy lực Va chạm tăng, lượng sát thương tăng"
+          "simpleDesc": "Sức mạnh Đối kháng tăng, lượng sát thương tăng"
         },
         {
           "abilityID": 92722,
@@ -76,7 +76,7 @@
         },
         {
           "abilityID": 92723,
-          "simpleDesc": "Gây thêm số lượng [Burst] hoặc số lần [Burst] bằng kỹ năng"
+          "simpleDesc": "Kĩ năng gây thêm +1 Cường độ [Burst] hoặc Số lượng [Burst]"
         },
         {
           "abilityID": 92724,

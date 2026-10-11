@@ -3,7 +3,7 @@
         {
             "id": 2027,
             "name": "Sổ Cái Đen",
-            "desc": "Khi bắt đầu lượt 1 của màn chơi, nhận tài nguyên E.G.O ngẫu nhiên bằng số lượng kẻ địch xuất hiện.\n\nTrong số các Bản sắc tham gia chiến đấu, nếu có từ 4 người trở lên thuộc Kiếm Khế hoặc Hắc Vân Hội (tính theo nhân sự xuất kích) thì hiệu ứng được cường hóa, nhận tài nguyên E.G.O có số lượng ít nhất thay vì ngẫu nhiên.",
+            "desc": "Khi bắt đầu lượt đầu tiên của màn chơi, nhận tài nguyên E.G.O ngẫu nhiên bằng số lượng kẻ địch xuất hiện.\n\nNếu trong số Bản sắc tham gia trận chiến này có từ 4 Bản sắc trở lên thuộc Kiếm Khế hoặc Hắc Vân Hội (tính theo nhân sự xuất kích), hiệu ứng được cường hóa: nhận tài nguyên E.G.O thuộc loại sở hữu ít nhất thay vì ngẫu nhiên.",
             "simpleDesc": [
                 {
                     "abilityID": 2027,
@@ -11,108 +11,108 @@
                 },
                 {
                     "abilityID": 20271,
-                    "simpleDesc": "Nhận tài nguyên E.G.O có số lượng ít nhất"
+                    "simpleDesc": "Nhận tài nguyên E.G.O thuộc loại sở hữu ít nhất"
                 }
             ]
         },
         {
             "id": 2028,
             "name": "Chuôi Kiếm Rỉ Sét",
-            "desc": "Khi đồng minh bắt đầu lượt, nhận 1 Tăng Sát Thương Trảm Kích.\n\nTrường hợp thuộc Kiếm Khế hoặc Hắc Vân Hội, hiệu ứng được cường hóa và nhận 2 Tăng Sát Thương Trảm Kích.",
+            "desc": "Khi bắt đầu lượt, toàn bộ đồng minh nhận 1 Tăng Uy lực Trảm kích.\n\nBản sắc thuộc Kiếm Khế hoặc Hắc Vân Hội thay vào đó nhận 2 Tăng Uy lực Trảm kích.",
             "simpleDesc": [
                 {
                     "abilityID": 2028,
-                    "simpleDesc": "Nhận 1 Tăng Sát Thương Trảm Kích"
+                    "simpleDesc": "Nhận 1 Tăng Uy lực Trảm kích"
                 },
                 {
                     "abilityID": 20281,
-                    "simpleDesc": "Nhận 2 Tăng Sát Thương Trảm Kích"
+                    "simpleDesc": "Nhận 2 Tăng Uy lực Trảm kích"
                 }
             ]
         },
         {
             "id": 2029,
             "name": "Lưỡi Kiếm Vỡ",
-            "desc": "Trong suốt trận chiến này, khi lần đầu gây số lượng [Laceration] hoặc Xuất huyết đặc biệt lên kẻ địch bằng hiệu ứng kỹ năng tấn công, gây thêm 2 số lần [Laceration] (1 lần mỗi trận chiến)\n\nTrường hợp thuộc Hắc Vân Hội, hiệu ứng được cường hóa, khi gây sát thương lần đầu lên kẻ địch sẽ gây thêm 4 số lượng [Laceration], 4 số lần [Laceration]",
+            "desc": "Trong trận chiến này, khi lần đầu gây Cường độ [Laceration] hoặc Xuất huyết đặc biệt lên kẻ địch bằng hiệu ứng kĩ năng tấn công, gây thêm +2 Số lượng [Laceration] (1 lần mỗi trận chiến).\n\nBản sắc thuộc Hắc Vân Hội, khi lần đầu gây sát thương lên kẻ địch, thay vào đó gây thêm 4 Cường độ [Laceration] và +4 Số lượng [Laceration].",
             "simpleDesc": [
                 {
                     "abilityID": 2029,
-                    "simpleDesc": "Gây thêm 2 số lần [Laceration]"
+                    "simpleDesc": "Gây thêm +2 Số lượng [Laceration]"
                 },
                 {
                     "abilityID": 20291,
-                    "simpleDesc": "Gây thêm 4 số lượng [Laceration], 4 số lần [Laceration]"
+                    "simpleDesc": "Gây thêm 4 Cường độ [Laceration] và +4 Số lượng [Laceration]"
                 }
             ]
         },
         {
             "id": 2030,
             "name": "Lưỡi Kiếm Hỏng",
-            "desc": "Khi đồng minh gây sát thương chí mạng lên kẻ địch, gây thêm sát thương Ngạo Mạn bằng (số lượng [Breath] đang có ÷ 3).\n\nTrường hợp thuộc Kiếm Khế, hiệu ứng được cường hóa, gây thêm sát thương Ngạo Mạn bằng (số lượng [Breath] đang có ÷ 2).",
+            "desc": "Khi đồng minh gây sát thương chí mạng lên kẻ địch, gây thêm sát thương Ngạo mạn bằng (Cường độ [Breath] của bản thân ÷ 3).\n\nBản sắc thuộc Kiếm Khế, khi gây sát thương chí mạng, thay vào đó gây thêm sát thương Ngạo mạn bằng (Cường độ [Breath] của bản thân ÷ 2).",
             "simpleDesc": [
                 {
                     "abilityID": 2030,
-                    "simpleDesc": "Thêm sát thương Ngạo Mạn bằng (số lượng [Breath] ÷ 3)"
+                    "simpleDesc": "Gây thêm sát thương Ngạo mạn bằng (Cường độ [Breath] của bản thân ÷ 3)"
                 },
                 {
                     "abilityID": 20301,
-                    "simpleDesc": "Thêm sát thương Ngạo Mạn bằng (số lượng [Breath] ÷ 2)"
+                    "simpleDesc": "Gây thêm sát thương Ngạo mạn bằng (Cường độ [Breath] của bản thân ÷ 2)"
                 }
             ]
         },
         {
             "id": 2031,
             "name": "Tua Rua Đỏ",
-            "desc": "Nếu kháng Trảm Kích của kẻ địch từ 1.5 trở xuống, kháng Trảm Kích +0.3",
+            "desc": "Nếu Kháng Trảm kích của kẻ địch từ 1.5 trở xuống, Kháng Trảm kích +0.3.",
             "simpleDesc": [
                 {
                     "abilityID": 2031,
-                    "simpleDesc": "Kháng Trảm Kích +0.3"
+                    "simpleDesc": "Kháng Trảm kích +0.3"
                 }
             ]
         },
         {
             "id": 2032,
             "name": "Tráng Lệ",
-            "desc": "Kích hoạt khi bắt đầu lượt nếu có từ 3 Bản sắc thuộc Hắc Vân Hội trở lên (tính theo nhân sự xuất kích).\n\nĐồng minh nhận 2 Tăng Sát Thương Trảm Kích khi bắt đầu lượt, sát thương Trảm Kích gây ra +35%.\n\nKhi Bản sắc thuộc Hắc Vân Hội gây sát thương lần đầu lên mục tiêu vào lúc bắt đầu lượt, gây thêm 4 số lượng [Laceration], 4 số lần [Laceration] (1 lần mỗi lượt)",
+            "desc": "Khi bắt đầu lượt, kích hoạt nếu có từ 3 Bản sắc thuộc Hắc Vân Hội trở lên (tính theo nhân sự xuất kích).\n\nKhi bắt đầu lượt, toàn bộ đồng minh nhận 2 Tăng Uy lực Trảm kích, sát thương Trảm kích gây ra +35%.\n\nKhi bắt đầu lượt, nếu Bản sắc thuộc Hắc Vân Hội lần đầu gây sát thương lên mục tiêu, gây thêm 4 Cường độ [Laceration] và +4 Số lượng [Laceration] (1 lần mỗi lượt).",
             "simpleDesc": [
                 {
                     "abilityID": 2032,
-                    "simpleDesc": "Nhận 2 Tăng Sát Thương Trảm Kích, sát thương Trảm Kích gây ra +35%"
+                    "simpleDesc": "Nhận 2 Tăng Uy lực Trảm kích, sát thương Trảm kích gây ra +35%"
                 },
                 {
                     "abilityID": 20321,
-                    "simpleDesc": "Gây thêm 4 số lượng Xuất huyết, 4 số lần Xuất huyết"
+                    "simpleDesc": "Gây thêm 4 Cường độ Xuất huyết và +4 Số lượng Xuất huyết"
                 }
             ]
         },
         {
             "id": 2033,
             "name": "Bất Động",
-            "desc": "Kích hoạt khi bắt đầu lượt nếu có từ 3 Bản sắc thuộc Kiếm Khế trở lên (tính theo nhân sự xuất kích).\n\nĐồng minh nhận 2 Tăng Sát Thương Trảm Kích khi bắt đầu lượt, sát thương Trảm Kích gây ra +35%.\n\nKhi Bản sắc thuộc Kiếm Khế gây sát thương chí mạng lên kẻ địch, gây thêm sát thương Ngạo Mạn bằng số lượng [Breath] đang có.",
+            "desc": "Khi bắt đầu lượt, kích hoạt nếu có từ 3 Bản sắc thuộc Kiếm Khế trở lên (tính theo nhân sự xuất kích).\n\nKhi bắt đầu lượt, toàn bộ đồng minh nhận 2 Tăng Uy lực Trảm kích, sát thương Trảm kích gây ra +35%.\n\nKhi Bản sắc thuộc Kiếm Khế gây sát thương chí mạng lên kẻ địch, gây thêm sát thương Ngạo mạn bằng Cường độ [Breath] của bản thân.",
             "simpleDesc": [
                 {
                     "abilityID": 2033,
-                    "simpleDesc": "Nhận 2 Tăng Sát Thương Trảm Kích, sát thương Trảm Kích gây ra +35%"
+                    "simpleDesc": "Nhận 2 Tăng Uy lực Trảm kích, sát thương Trảm kích gây ra +35%"
                 },
                 {
                     "abilityID": 20331,
-                    "simpleDesc": "Thêm sát thương Ngạo Mạn bằng số lượng Hô hấp"
+                    "simpleDesc": "Gây thêm sát thương Ngạo mạn bằng Cường độ [Breath] của bản thân"
                 }
             ]
         },
         {
             "id": 2034,
             "name": "Nón Lá Rách",
-            "desc": "Kích hoạt khi bắt đầu lượt nếu có từ 3 Bản sắc thuộc Kiếm Khế trở lên (tính theo nhân sự xuất kích).\n\nSát thương Trảm Kích đồng minh gây ra +50%\n\nTrường hợp thuộc Kiếm Khế, khi ở trạng thái [Breath], tỷ lệ kích hoạt chí mạng cố định ở mức 100%.\n\nTrường hợp thuộc Kiếm Khế, hiệu ứng được cường hóa và sát thương chí mạng gây ra tăng gấp 1.5 lần",
+            "desc": "Khi bắt đầu lượt, kích hoạt nếu có từ 3 Bản sắc thuộc Kiếm Khế trở lên (tính theo nhân sự xuất kích).\n\nToàn bộ đồng minh gây +50% sát thương Trảm kích\n\nBản sắc thuộc Kiếm Khế: nếu đồng minh có [Breath], tỉ lệ chí mạng cố định ở 100%.\n\nBản sắc thuộc Kiếm Khế: sát thương chí mạng gây ra tăng 1.5 lần",
             "simpleDesc": [
                 {
                     "abilityID": 2034,
-                    "simpleDesc": "Sát thương Trảm Kích gây ra +50%"
+                    "simpleDesc": "Sát thương Trảm kích gây ra +50%"
                 },
                 {
                     "abilityID": 20341,
-                    "simpleDesc": "Tỷ lệ kích hoạt chí mạng cố định ở mức 100%"
+                    "simpleDesc": "Tỉ lệ chí mạng cố định ở mức 100%"
                 },
                 {
                     "abilityID": 20342,
@@ -123,19 +123,19 @@
         {
             "id": 2035,
             "name": "Đạo Bào Cũ Kỹ",
-            "desc": "Kích hoạt khi bắt đầu lượt nếu có từ 3 Bản sắc thuộc Kiếm Khế trở lên (tính theo nhân sự xuất kích).\n\nSát thương Trảm Kích đồng minh gây ra +50%\n\nTrường hợp thuộc Kiếm Khế, uy lực Đồng xu của kỹ năng 1 +1, nếu kỹ năng đó chỉ có một Đồng xu thì uy lực Đồng xu +3.\n\n[Hiệu ứng dành riêng cho Meursault Thủ lĩnh Kiếm Khế] Uy lực Đối kháng cuối cùng của kỹ năng 「Thịt Nát」 -12, sát thương gây ra của kỹ năng 「Xương Tan」 +50%.",
+            "desc": "Khi bắt đầu lượt, kích hoạt nếu có từ 3 Bản sắc thuộc Kiếm Khế trở lên (tính theo nhân sự xuất kích).\n\nToàn bộ đồng minh gây +50% sát thương Trảm kích\n\nBản sắc thuộc Kiếm Khế: Kĩ năng 1 nhận Sức mạnh Đồng xu +1; nếu Kĩ năng đó chỉ có một Đồng xu, nhận Sức mạnh Đồng xu +3.\n\n[Hiệu ứng dành riêng cho Meursault Thủ lĩnh Kiếm Khế] Sức mạnh Đối kháng Cuối cùng của Kĩ năng 「Nhục Trảm」 -12; sát thương gây ra của Kĩ năng 「Cốt Đoạn」 +50%.",
             "simpleDesc": [
                 {
                     "abilityID": 2035,
-                    "simpleDesc": "Sát thương Trảm Kích gây ra +50%"
+                    "simpleDesc": "Sát thương Trảm kích gây ra +50%"
                 },
                 {
                     "abilityID": 20351,
-                    "simpleDesc": "Tăng uy lực Đồng xu của kỹ năng 1"
+                    "simpleDesc": "Tăng Sức mạnh Đồng xu của Kĩ năng 1"
                 },
                 {
                     "abilityID": 20352,
-                    "simpleDesc": "Uy lực Va chạm cuối cùng của kỹ năng 「Thịt Nát」 -12, sát thương gây ra của kỹ năng 「Xương Tan」 +50%"
+                    "simpleDesc": "Sức mạnh Đối kháng Cuối cùng của Kĩ năng 「Nhục Trảm」 -12; sát thương gây ra của Kĩ năng 「Cốt Đoạn」 +50%"
                 }
             ]
         }

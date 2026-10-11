@@ -3,11 +3,11 @@
     {
       "id": 9403,
       "name": "Trâm Cài Gỗ Mun",
-      "desc": "Khi bắt đầu lượt đầu tiên của màn chơi, gây Vết rách 2 Lực, [Burst] 2 Số lượng lên toàn bộ kẻ địch.\n\nTrong 3 lượt, khi kết thúc lượt, gây [Binding] 2 lên toàn bộ kẻ địch vào lượt kế tiếp.",
+      "desc": "Khi bắt đầu lượt đầu tiên của màn chơi, gây Cường độ [Burst] 2, Số lượng [Burst] 2 lên toàn bộ kẻ địch.\n\nTrong 3 lượt, khi kết thúc lượt, gây [Binding] 2 lên toàn bộ kẻ địch vào lượt kế tiếp.",
       "simpleDesc": [
         {
           "abilityID": 9403,
-          "simpleDesc": "Gây [Burst] 2 Lực, [Burst] 2 Số lượng lên toàn bộ kẻ địch"
+          "simpleDesc": "Gây Cường độ [Burst] 2, Số lượng [Burst] 2 lên toàn bộ kẻ địch"
         },
         {
           "abilityID": 94031,
@@ -18,7 +18,7 @@
     {
       "id": 9404,
       "name": "Con Giòi Bị Nhốt",
-      "desc": "Khi kỹ năng tấn công hệ Sắc dục hoặc Phàm ăn trúng đích kẻ địch, gây [Muckworm] 2 lên mục tiêu (Ngoại trừ kỹ năng E.G.O)\n\nNếu là kỹ năng gây Xuất huyết Lực, [Laceration] Số lượng hoặc Xuất huyết đặc biệt, hiệu ứng được tăng cường, gây [Muckworm] 3",
+      "desc": "Khi kĩ năng tấn công hệ Sắc dục hoặc Phàm ăn trúng đích kẻ địch, gây [Muckworm] 2 lên mục tiêu (ngoại trừ kĩ năng E.G.O).\n\nNếu là kĩ năng gây Cường độ [Laceration], Số lượng [Laceration] hoặc Xuất huyết đặc biệt, hiệu ứng được tăng cường, gây [Muckworm] 3.",
       "simpleDesc": [
         {
           "abilityID": 9404,
@@ -33,11 +33,11 @@
     {
       "id": 9407,
       "name": "Hàng May Đo",
-      "desc": "[Hiệu ứng riêng cho Bản ngã ở vị trí số 3]\n\nKhi bắt đầu màn chơi, nhận [Vibration] 3 Số lượng\n\nKhi bắt đầu lượt, nhận [Protection] 1, [AttackDmgUp] 1, [ResultEnhancement] 1",
+      "desc": "[Hiệu ứng dành riêng cho Bản sắc ở vị trí 3 trong đội hình]\n\nKhi bắt đầu màn chơi, nhận +3 Số lượng [Vibration]\n\nKhi bắt đầu lượt, nhận [Protection] 1, [AttackDmgUp] 1, [ResultEnhancement] 1.",
       "simpleDesc": [
         {
           "abilityID": 9407,
-          "simpleDesc": "Nhận [Vibration] 3 Số lượng"
+          "simpleDesc": "Nhận +3 Số lượng [Vibration]"
         },
         {
           "abilityID": 94071,
@@ -48,11 +48,11 @@
     {
       "id": 9408,
       "name": "Đôi Giày Bị Ám",
-      "desc": "[Hiệu ứng riêng cho Bản ngã ở vị trí số 2]\n\nKhi bắt đầu màn chơi, nhận [Sinking] 3 Số lượng\n\nKhi bắt đầu lượt, nhận [Protection] 1, [AttackDmgUp] 1, [ResultEnhancement] 1",
+      "desc": "[Hiệu ứng dành riêng cho Bản sắc ở vị trí 2 trong đội hình]\n\nKhi bắt đầu màn chơi, nhận +3 Số lượng [Sinking]\n\nKhi bắt đầu lượt, nhận [Protection] 1, [AttackDmgUp] 1, [ResultEnhancement] 1.",
       "simpleDesc": [
         {
           "abilityID": 9408,
-          "simpleDesc": "Nhận [Sinking] 3 Số lượng"
+          "simpleDesc": "Nhận +3 Số lượng [Sinking]"
         },
         {
           "abilityID": 94081,
@@ -63,33 +63,33 @@
     {
       "id": 9409,
       "name": "Tiếng Gào Thét Đóng Băng",
-      "desc": "Khi bắt đầu lượt, áp dụng hiệu ứng cho 1 Bản ngã có Tốc độ thấp nhất.\n\nNếu đồng minh tương ứng thắng Đối kháng hoặc bị trúng đòn từ kẻ địch, gây [Sinking] 3 Lực lên kẻ địch.",
+      "desc": "Khi bắt đầu lượt, áp dụng hiệu ứng cho 1 Bản sắc có Tốc độ thấp nhất.\n\nNếu đồng minh đó thắng Đối kháng hoặc bị kẻ địch đánh trúng, gây Cường độ [Sinking] 3 lên kẻ địch.",
       "simpleDesc": [
         {
           "abilityID": 9409,
-          "simpleDesc": "Gây [Sinking] 3 Lực lên kẻ địch"
+          "simpleDesc": "Gây Cường độ [Sinking] 3 lên kẻ địch"
         }
       ]
     },
     {
       "id": 9410,
       "name": "Dấu Chân Sương Giá",
-      "desc": "Khi lượt đầu tiên của Wave bắt đầu, toàn bộ đồng minh nhận [Sinking] 3 Số lượng, gây [Sinking] 4 Lực, [Sinking] 8 Số lượng lên toàn bộ kẻ địch (Tất cả bộ phận nếu là Dị thường).\n\nKẻ địch ở trạng thái [Sinking] bị giảm 2 Lực Đối kháng; khi mục tiêu bị ảnh hưởng thua Đối kháng trước Bản ngã đồng minh sẽ bị gây [Sinking] 2 Lực, nếu gây sát thương lên Bản ngã đồng minh sẽ bị gây [Sinking] 3 Lực",
+      "desc": "Khi lượt đầu tiên của Wave bắt đầu, toàn bộ đồng minh nhận +3 Số lượng [Sinking], gây Cường độ [Sinking] 4 và Số lượng [Sinking] 8 lên toàn bộ kẻ địch (tất cả bộ phận nếu là Dị thường).\n\nKẻ địch có [Sinking] mất 2 Sức mạnh Đối kháng; khi kẻ địch bị ảnh hưởng thua Đối kháng trước Bản sắc đồng minh, gây Cường độ [Sinking] 2; khi kẻ địch bị ảnh hưởng gây sát thương lên Bản sắc đồng minh, gây Cường độ [Sinking] 3.",
       "simpleDesc": [
         {
           "abilityID": 9410,
-          "simpleDesc": "Gây [Sinking] 4 Lực, [Sinking] 8 Số lượng lên toàn bộ kẻ địch"
+          "simpleDesc": "Gây Cường độ [Sinking] 4 và +8 Số lượng [Sinking] lên toàn bộ kẻ địch"
         },
         {
           "abilityID": 94101,
-          "simpleDesc": "Kẻ địch ở trạng thái [Sinking] bị giảm 2 Lực Đối đầu"
+          "simpleDesc": "Kẻ địch có [Sinking] mất 2 Sức mạnh Đối kháng"
         }
       ]
     },
     {
       "id": 9413,
       "name": "Sách Đinh và Búa",
-      "desc": "Khi đồng minh thắng Đối kháng bằng kỹ năng gây Xuất huyết Lực, [Laceration] Số lượng hoặc Xuất huyết đặc biệt, gây [NailPersonality] 1~2.\n\nNếu thuộc phe Cuồng tín tập đoàn N, nhận 1 Cuồng tín khi bắt đầu lượt",
+      "desc": "Khi đồng minh thắng Đối kháng bằng kĩ năng gây Cường độ [Laceration], Số lượng [Laceration] hoặc Xuất huyết đặc biệt, gây [NailPersonality] 1~2.\n\nNếu đồng minh đó là 'Cuồng tín viên N Corp.', nhận 1 Cuồng tín khi bắt đầu lượt.",
       "simpleDesc": [
         {
           "abilityID": 9413,
@@ -97,29 +97,29 @@
         },
         {
           "abilityID": 94131,
-          "simpleDesc": "Nếu thuộc phe Cuồng tín tập đoàn N, nhận 1 Cuồng tín khi bắt đầu lượt."
+          "simpleDesc": "Nếu đồng minh đó là 'Cuồng tín viên N Corp.', nhận 1 Cuồng tín khi bắt đầu lượt."
         }
       ]
     },
     {
       "id": 9414,
       "name": "Bờm Đỏ Như Máu",
-      "desc": "Áp dụng hiệu ứng cho toàn bộ Bản ngã sở hữu kỹ năng tấn công hệ Phẫn nộ hoặc Sắc dục.\n\nKhi kết thúc lượt, nếu không nhận sát thương từ kỹ năng tấn công của kẻ địch trong lượt này, nhận [Agility] 2, [Endurance] 2 vào lượt kế tiếp.\n\nKhi kết thúc lượt, nếu nhận sát thương từ kỹ năng tấn công của kẻ địch trong lượt này, nhận [Binding] 2 và +2 Lực Đối kháng vào lượt kế tiếp",
+      "desc": "Áp dụng hiệu ứng cho toàn bộ Bản sắc sở hữu kĩ năng tấn công hệ Phẫn nộ hoặc Sắc dục.\n\nKhi kết thúc lượt, nếu đơn vị này không nhận sát thương từ kĩ năng tấn công của kẻ địch trong lượt này, nhận [Agility] 2 và [Endurance] 2 vào lượt kế tiếp.\n\nKhi kết thúc lượt, nếu đơn vị này nhận sát thương từ kĩ năng tấn công của kẻ địch trong lượt này, nhận [Binding] 2 và +2 Sức mạnh Đối kháng vào lượt kế tiếp.",
       "simpleDesc": [
         {
           "abilityID": 9414,
-          "simpleDesc": "Nhận [Agility] 2, [Endurance] 2 vào lượt kế tiếp"
+          "simpleDesc": "Nhận [Agility] 2 và [Endurance] 2 vào lượt kế tiếp"
         },
         {
           "abilityID": 94141,
-          "simpleDesc": "Nhận [Binding] 2 và +2 Lực Đối đầu vào lượt kế tiếp"
+          "simpleDesc": "Nhận [Binding] 2 và +2 Sức mạnh Đối kháng vào lượt kế tiếp"
         }
       ]
     },
     {
       "id": 9415,
       "name": "Sự Ô Uế",
-      "desc": "Khi đồng minh tấn công kẻ địch ở trạng thái Xuất huyết bằng kỹ năng gây [Laceration] Lực, [Laceration] Số lượng hoặc Xuất huyết đặc biệt, tăng +15% sát thương gây ra.\n\nNếu Máu của kẻ địch từ 33% trở xuống so với Máu tối đa, hiệu ứng được tăng cường, tăng +25% sát thương gây ra",
+      "desc": "Khi đồng minh tấn công kẻ địch đang có [Laceration] bằng kĩ năng gây Cường độ [Laceration], Số lượng [Laceration] hoặc Xuất huyết đặc biệt, gây +15% sát thương lên mục tiêu.\n\nNếu Máu của kẻ địch từ 33% trở xuống so với Máu tối đa, hiệu ứng được tăng cường, thay vào đó gây +25% sát thương lên mục tiêu.",
       "simpleDesc": [
         {
           "abilityID": 9415,
@@ -134,30 +134,30 @@
     {
       "id": 9416,
       "name": "Sự Hoàn Hảo",
-      "desc": "Khi đồng minh thắng Đối kháng bằng kỹ năng gây Xuất huyết Lực, [Laceration] Số lượng hoặc Xuất huyết đặc biệt, gây [NailPersonality] 2~3.\n\nBản ngã thuộc phe Cuồng tín tập đoàn N khi tấn công kẻ địch được tăng +25% sát thương, nhận 1 Cuồng tín khi bắt đầu lượt. Nếu Tinh thần của Bản ngã tương ứng đạt tối đa, hoặc đã tạo ra ít nhất 3 Cộng hưởng Sắc dục vào lượt trước, Bản ngã đó nhận thêm [AttackDmgUp] 3.\n\nBản ngã thuộc phe Cuồng tín tập đoàn N nhận +2 Lực cuối cùng, +1 Lực Đồng xu cộng, -1 Lực Đồng xu trừ, và tăng +1 lượng gây [NailPersonality] của kỹ năng tấn công.\n\nBản ngã thuộc phe Cuồng tín tập đoàn N tăng +50% sát thương kỹ năng cơ bản lên kẻ địch là <Sinh vật dung hợp máy móc>.",
+      "desc": "Khi đồng minh thắng Đối kháng bằng kĩ năng gây Cường độ [Laceration], Số lượng [Laceration] hoặc Xuất huyết đặc biệt, gây [NailPersonality] 2~3.\n\nBản sắc 'Cuồng tín viên N Corp.' gây +25% sát thương lên kẻ địch và nhận 1 Cuồng tín khi bắt đầu lượt. Nếu Tinh thần của Bản sắc đó đạt tối đa, hoặc đã tạo ra ít nhất 3 Cộng hưởng Sắc dục vào lượt trước, Bản sắc đó nhận thêm [AttackDmgUp] 3.\n\nBản sắc 'Cuồng tín viên N Corp.' nhận Sức mạnh Cuối cùng +2, Sức mạnh Đồng xu Cộng +1, Sức mạnh Đồng xu Trừ -1, và Kĩ năng Tấn công gây thêm +1 [NailPersonality].\n\nBản sắc 'Cuồng tín viên N Corp.' gây +50% sát thương bằng Kĩ năng Cơ bản lên kẻ địch <Sinh vật dung hợp máy móc>.",
       "simpleDesc": [
         {
           "abilityID": 9416,
-          "simpleDesc": "Khi thắng Đối đầu, gây [NailPersonality] 2~3"
+          "simpleDesc": "Khi thắng Đối kháng, gây [NailPersonality] 2~3"
         },
         {
           "abilityID": 94161,
-          "simpleDesc": "Sát thương +25%, nhận 1 Cuồng tín. Nhận [AttackDmgUp] 3 nếu thỏa mãn điều kiện"
+          "simpleDesc": "Gây +25% sát thương, nhận 1 Cuồng tín. Nhận [AttackDmgUp] 3 nếu thỏa mãn điều kiện"
         },
         {
           "abilityID": 94162,
-          "simpleDesc": "Lực cuối cùng +2, Lực Đồng xu cộng +1, Lực Đồng xu trừ -1, Lượng gây [NailPersonality] của kỹ năng tấn công +1"
+          "simpleDesc": "Sức mạnh Cuối cùng +2, Sức mạnh Đồng xu Cộng +1, Sức mạnh Đồng xu Trừ -1, Kĩ năng Tấn công gây thêm +1 [NailPersonality]"
         },
         {
           "abilityID": 94163,
-          "simpleDesc": "Sát thương kỹ năng cơ bản +50%"
+          "simpleDesc": "Sát thương Kĩ năng Cơ bản +50%"
         }
       ]
     },
     {
       "id": 9419,
-      "name": "Cành mai Đàn Hương",
-      "desc": "Trong suốt trận chiến này, mỗi khi sử dụng hết kỹ năng 1, kỹ năng 2 và kỹ năng 3 một lần, hiệu ứng sẽ kích hoạt vào lượt tiếp theo.\n\nKhi bắt đầu lượt, nhận [Agility] 1, [SkillPowerUp] 1 (Tối đa 3 cộng dồn)",
+      "name": "Cành Spicebush",
+      "desc": "Trong trận chiến này, mỗi khi Kĩ năng 1, Kĩ năng 2 và Kĩ năng 3 đều được sử dụng ít nhất một lần, hiệu ứng sau sẽ kích hoạt vào lượt tiếp theo.\n\nKhi bắt đầu lượt, nhận [Agility] 1 và [SkillPowerUp] 1 (có thể cộng dồn tối đa 3 lần)",
       "simpleDesc": [
         {
           "abilityID": 9419,
@@ -168,7 +168,7 @@
     {
       "id": 9420,
       "name": "Vạn Hoa Kính",
-      "desc": "Khi bắt đầu lượt, nếu có Danh tính cùng hội nhóm với bản thân, nhận [AttackUp] dựa trên số lượng Danh tính cùng hội nhóm ngoại trừ bản thân (Tối đa 4)\n\nUy lực Thắng thua của Danh tính thuộc Liên minh Giải phóng Công nghệ +1",
+      "desc": "Khi bắt đầu lượt, nếu có Bản sắc cùng phe với bản thân, nhận [AttackUp] bằng số Bản sắc cùng phe khác ngoài bản thân (tối đa 4)\n\nBản sắc thuộc Liên minh Giải phóng Công nghệ nhận Sức mạnh Đối kháng +1",
       "simpleDesc": [
         {
           "abilityID": 9420,
@@ -176,18 +176,18 @@
         },
         {
           "abilityID": 94201,
-          "simpleDesc": "Uy lực Thắng thua +1"
+          "simpleDesc": "Sức mạnh Đối kháng +1"
         }
       ]
     },
     {
       "id": 9423,
       "name": "Kính vỡ",
-      "desc": "Khi đồng minh thực hiện Thắng thua với kẻ địch có Tốc độ cao hơn bản thân, Uy lực Thắng thua +1.\n\nNếu đồng minh chiến thắng Thắng thua trước kẻ địch có Tốc độ cao hơn bản thân, nhận [AttackUp] 2 vào lượt tiếp theo (Tối đa 4).",
+      "desc": "Khi đồng minh Đối kháng với kẻ địch có Tốc độ cao hơn bản thân, Sức mạnh Đối kháng +1.\n\nKhi đồng minh thắng Đối kháng trước kẻ địch có Tốc độ cao hơn bản thân, nhận [AttackUp] 2 vào lượt tiếp theo (tối đa 4).",
       "simpleDesc": [
         {
           "abilityID": 9423,
-          "simpleDesc": "Uy lực Thắng thua +1"
+          "simpleDesc": "Sức mạnh Đối kháng +1"
         },
         {
           "abilityID": 94231,
@@ -198,87 +198,87 @@
     {
       "id": 9424,
       "name": "Bức thư không thể gửi",
-      "desc": "[Hiệu ứng dành riêng cho Danh tính vị trí 1 và 2]\n\nKhi thắng Thắng thua bằng kỹ năng tấn công có gây số lượng hoặc số lần [Burst], gây cho kẻ địch mục tiêu 5 [Burst] và 3 số lần [Burst] (1 lần mỗi lượt cho mỗi Danh tính)\n\nKhi thực hiện Thắng thua với kẻ địch có Tốc độ thấp hơn bản thân, Uy lực Cuối cùng +1, Sát thương +25%.\n\nNếu chiến thắng Thắng thua trước kẻ địch đang có buff [AttackUp], bản thân nhận [AttackUp] 3 vào lượt tiếp theo, và gây [AttackDown] 3 cho kẻ địch đã thua Thắng thua (Tối đa 3 lần mỗi lượt cho mỗi Danh tính)",
+      "desc": "[Hiệu ứng dành riêng cho Bản sắc ở vị trí 1 và 2 trong đội hình]\n\nKhi thắng Đối kháng bằng kĩ năng tấn công gây Cường độ hoặc Số lượng [Burst], gây Cường độ [Burst] 5 và +3 Số lượng [Burst] lên kẻ địch mục tiêu (1 lần mỗi lượt cho mỗi Bản sắc)\n\nKhi Đối kháng với kẻ địch có Tốc độ thấp hơn bản thân, Sức mạnh Cuối cùng +1, Sát thương +25%.\n\nKhi thắng Đối kháng trước kẻ địch đang có buff [AttackUp], bản thân nhận [AttackUp] 3 vào lượt tiếp theo, và gây [AttackDown] 3 lên kẻ địch đã thua Đối kháng (tối đa 3 lần mỗi lượt cho mỗi Bản sắc)",
       "simpleDesc": [
         {
           "abilityID": 9424,
-          "simpleDesc": "Khi thắng Thắng thua, gây cho kẻ địch mục tiêu 5 [Burst] và 3 số lần [Burst]"
+          "simpleDesc": "Khi thắng Đối kháng, gây Cường độ [Burst] 5 và +3 Số lượng [Burst] lên kẻ địch mục tiêu"
         },
         {
           "abilityID": 94241,
-          "simpleDesc": "Uy lực Cuối cùng +1, Sát thương +25%"
+          "simpleDesc": "Sức mạnh Cuối cùng +1, Sát thương +25%"
         },
         {
           "abilityID": 94242,
-          "simpleDesc": "Gây [AttackDown] 3 cho kẻ địch đã thua Thắng thua"
+          "simpleDesc": "Gây [AttackDown] 3 lên kẻ địch đã thua Đối kháng"
         }
       ]
     },
     {
       "id": 9429,
       "name": "Chân giả lao",
-      "desc": "Khi kết thúc lượt, gây [Agility] 2, [AttackUp] 2, [AttackDmgUp] 2 vào lượt tiếp theo cho 1 đồng minh có tổng số lượng và số lần [Breath] cao nhất.\n\nTốc độ tối đa của Danh tính thuộc tàu Pequod +1",
+      "desc": "Khi kết thúc lượt, áp dụng [Agility] 2, [AttackUp] 2 và [AttackDmgUp] 2 vào lượt tiếp theo cho đồng minh có tổng Cường độ và Số lượng [Breath] cao nhất.\n\nBản sắc thuộc tàu Pequod nhận Tốc độ tối đa +1.",
       "simpleDesc": [
         {
           "abilityID": 9429,
-          "simpleDesc": "Gây [Agility] 2, [AttackUp] 2, [AttackDmgUp] 2 vào lượt tiếp theo"
+          "simpleDesc": "Áp dụng [Agility] 2, [AttackUp] 2 và [AttackDmgUp] 2 vào lượt tiếp theo"
         },
         {
           "abilityID": 94291,
-          "simpleDesc": "Tốc độ tối đa của Danh tính thuộc tàu Pequod +1"
+          "simpleDesc": "Bản sắc thuộc tàu Pequod nhận Tốc độ tối đa +1"
         }
       ]
     },
     {
       "id": 9430,
       "name": "Đèn gas soi đường",
-      "desc": "Khi bắt đầu lượt đầu tiên của Wave, tất cả đồng minh nhận 5 [Breath] và tăng 5 số lần [Breath].\n\nKhi kết thúc lượt, gây [Agility] 2, [AttackUp] 3, [AttackDmgUp] 3 vào lượt tiếp theo cho 1 đồng minh có tổng số lượng và số lần [Breath] cao nhất.\n\nUy lực kỹ năng của Danh tính thuộc tàu Pequod +2, Tốc độ tối đa +2",
+      "desc": "Khi bắt đầu lượt đầu tiên của Wave, tất cả đồng minh nhận 5 [Breath] và +5 Số lượng [Breath].\n\nKhi kết thúc lượt, áp dụng [Agility] 2, [AttackUp] 3 và [AttackDmgUp] 3 vào lượt tiếp theo cho đồng minh có tổng Cường độ và Số lượng [Breath] cao nhất.\n\nBản sắc thuộc tàu Pequod nhận Sức mạnh Kĩ năng +2 và Tốc độ tối đa +2.",
       "simpleDesc": [
         {
           "abilityID": 9430,
-          "simpleDesc": "Tất cả đồng minh nhận 5 [Breath] và tăng 5 số lần [Breath]"
+          "simpleDesc": "Tất cả đồng minh nhận 5 [Breath] và +5 Số lượng [Breath]"
         },
         {
           "abilityID": 94301,
-          "simpleDesc": "Gây [Agility] 2, [AttackUp] 3, [AttackDmgUp] 3 vào lượt tiếp theo."
+          "simpleDesc": "Áp dụng [Agility] 2, [AttackUp] 3 và [AttackDmgUp] 3 vào lượt tiếp theo."
         },
         {
           "abilityID": 94302,
-          "simpleDesc": "Uy lực kỹ năng +2, Tốc độ tối đa +2"
+          "simpleDesc": "Sức mạnh Kĩ năng +2, Tốc độ tối đa +2"
         }
       ]
     },
     {
       "id": 9433,
       "name": "Mật tịch của Quản gia Trưởng",
-      "desc": "Khi bắt đầu lượt đầu tiên của Wave, chọn 1 kẻ địch có Tốc độ thấp nhất (1 bộ phận ngẫu nhiên nếu là Thực thể ảo ảnh), gây [Binding] 5 trong vòng 5 lượt bắt đầu từ lượt tiếp theo.\n\nKhi thắng Thắng thua, nếu có Tốc độ cao hơn mục tiêu, hồi Tinh thần bằng với chênh lệch Tốc độ, đồng thời tăng Cấp độ Tấn công bằng một nửa giá trị đó (Chỉ áp dụng cho kỹ năng tương ứng, mức tăng Cấp độ Tấn công tối đa: 3).",
+      "desc": "Khi bắt đầu lượt đầu tiên của Wave, chọn 1 kẻ địch có Tốc độ thấp nhất (hoặc 1 bộ phận ngẫu nhiên nếu là Dị thường), gây [Binding] 5 trong 5 lượt bắt đầu từ lượt tiếp theo.\n\nKhi thắng Đối kháng, nếu Tốc độ của đơn vị này cao hơn mục tiêu, hồi Tinh thần bằng chênh lệch Tốc độ và nhận Cấp độ Tấn công bằng một nửa giá trị đó (chỉ áp dụng cho Kĩ năng dùng để thắng Đối kháng; Cấp độ Tấn công tăng tối đa: 3).",
       "simpleDesc": [
         {
           "abilityID": 9433,
-          "simpleDesc": "Gây [Binding] 5 trong vòng 5 lượt bắt đầu từ lượt tiếp theo"
+          "simpleDesc": "Gây [Binding] 5 trong 5 lượt bắt đầu từ lượt tiếp theo"
         },
         {
           "abilityID": 94331,
-          "simpleDesc": "Hồi Tinh thần và tăng Cấp độ Tấn công bằng một nửa giá trị đó"
+          "simpleDesc": "Hồi Tinh thần và nhận Cấp độ Tấn công bằng một nửa giá trị đó"
         }
       ]
     },
     {
       "id": 9434,
       "name": "Gương cầm tay",
-      "desc": "Khi bắt đầu lượt đầu tiên của Wave, chọn 2 kẻ địch có Tốc độ thấp nhất (2 bộ phận ngẫu nhiên nếu là Thực thể ảo ảnh, không cộng dồn hiệu ứng nếu chỉ có 1 kẻ địch), gây [Binding] 5, [DefenseDown] 3 khi bắt đầu lượt bắt đầu từ lượt tiếp theo.\n\nKhi kẻ địch thoát khỏi trạng thái Choáng, nếu không còn vạch Choáng nào, thêm một vạch Choáng mới dựa trên 66% Máu hiện tại của mục tiêu (3 lần mỗi trận). Nếu đồng minh dùng kỹ năng tấn công (Ngoại trừ kỹ năng E.G.O) gây [Vibration] số lượng hoặc [Vibration] số lần (bao gồm cả trường hợp đối tượng là bản thân hoặc đồng minh) làm kẻ địch Choáng, vào lượt tiếp theo, gây [Vibration] số lượng bằng một nửa số lượng [Vibration] mà mục tiêu đang có lên một kẻ địch ngẫu nhiên khác (bộ phận nếu là Thực thể ảo ảnh), và số lượng [Vibration] của mục tiêu đang bị Choáng sẽ tăng gấp đôi.",
+      "desc": "Khi bắt đầu lượt đầu tiên của Wave, chọn 2 kẻ địch có Tốc độ thấp nhất (hoặc 2 bộ phận ngẫu nhiên nếu là Dị thường; hiệu ứng không cộng dồn nếu kẻ địch chỉ có một), gây [Binding] 5 và [DefenseDown] 3 khi bắt đầu lượt, kể từ lượt tiếp theo.\n\nKhi kẻ địch thoát khỏi trạng thái Choáng và không còn Ngưỡng Choáng nào, tạo thêm một Ngưỡng Choáng mới tại mốc 66% Máu hiện tại của mục tiêu (3 lần mỗi trận). Nếu đồng minh dùng kĩ năng tấn công (ngoại trừ Kĩ năng E.G.O) gây Cường độ [Vibration] hoặc Số lượng [Vibration] (bao gồm cả trường hợp nhắm vào bản thân hoặc đồng minh) làm kẻ địch Choáng, vào lượt tiếp theo, chia đều Cường độ [Vibration] bằng một nửa Cường độ [Vibration] trên mục tiêu lên những kẻ địch khác ngẫu nhiên (hoặc bộ phận nếu là Dị thường), và tăng gấp đôi Cường độ [Vibration] của mục tiêu đang bị Choáng.",
       "simpleDesc": [
         {
           "abilityID": 9433,
-          "simpleDesc": "Gây Trói buộc 5, Giảm Cấp độ Phòng thủ 3 khi bắt đầu lượt"
+          "simpleDesc": "Gây Trói buộc 5 và Giảm Cấp độ Phòng thủ 3 khi bắt đầu lượt"
         },
         {
           "abilityID": 94331,
-          "simpleDesc": "Thêm một vạch Choáng mới tại mốc 66% dựa trên lượng Máu hiện tại."
+          "simpleDesc": "Tạo một Ngưỡng Choáng mới tại mốc 66% Máu hiện tại của mục tiêu."
         },
         {
           "abilityID": 94332,
-          "simpleDesc": "Mục tiêu bị Choáng sẽ được tăng gấp đôi số lượng [Vibration] đang có"
+          "simpleDesc": "Tăng gấp đôi Cường độ [Vibration] của mục tiêu bị Choáng"
         }
       ]
     }

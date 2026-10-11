@@ -7,14 +7,14 @@
       "simpleDesc": [
         {
           "abilityID": 9732,
-          "simpleDesc": "Tăng +1 Tốc độ vào lượt tiếp theo"
+          "simpleDesc": "Nhận 1 Nhanh nhẹn vào lượt tiếp theo"
         }
       ]
     },
     {
       "id": 9733,
       "name": "Kem đóng hộp",
-      "desc": "Nếu đồng minh mất máu do hiệu ứng kỹ năng tấn công của chính mình, hồi phục một nửa lượng máu đã mất do hiệu ứng kỹ năng đó vào đầu lượt tiếp theo (làm tròn xuống)\n\nKhi đồng minh hồi máu bằng hiệu ứng kỹ năng E.G.O, hiệu ứng hồi máu tăng thêm 12.5% (làm tròn xuống)",
+      "desc": "Nếu đồng minh mất máu do hiệu ứng Kĩ năng Tấn công của chính mình, hồi phục một nửa lượng máu đã mất do hiệu ứng Kĩ năng đó vào đầu lượt tiếp theo (làm tròn xuống)\n\nKhi đồng minh hồi máu bằng hiệu ứng Kĩ năng E.G.O, hiệu ứng hồi máu tăng thêm 12.5% (làm tròn xuống)",
       "simpleDesc": [
         {
           "abilityID": 9733,
@@ -28,65 +28,65 @@
     },
     {
       "id": 9734,
-      "name": "Đoản kiếm Không gian kiểu E",
-      "desc": "Uy lực Đối kháng +1, Sát thương +5% cho Kỹ năng 1 tăng số tầng [Charge] hoặc Sạc đặc biệt\n\nNếu kỹ năng đó chỉ có một đồng xu, hiệu ứng sẽ được cường hóa: Uy lực Đối kháng +1, Sát thương +12.5%\n\nNếu Bản sắc thuộc Tập đoàn W gây sát thương lên kẻ địch bằng kỹ năng hệ Đố kỵ (bao gồm cả kỹ năng E.G.O), gây 2 Giảm hồi máu (không cộng dồn)",
+      "name": "Đoản kiếm Không gian loại E",
+      "desc": "Kĩ năng 1 nhận Số lượng [Charge] hoặc Sạc đặc biệt: Uy lực Đối kháng +1, Sát thương +5%\n\nNếu Kĩ năng 1 đó chỉ có một Đồng xu, hiệu ứng được cường hóa: Uy lực Đối kháng +1, Sát thương +12.5%\n\nNếu Bản sắc Công ty W gây sát thương lên kẻ địch bằng Kĩ năng hệ Đố kỵ (bao gồm Kĩ năng E.G.O), gây 2 Giảm hồi phục Máu (không cộng dồn)",
       "simpleDesc": [
         {
           "abilityID": 9734,
-          "simpleDesc": "Tăng Uy lực Va chạm và Sát thương của Kỹ năng 1"
+          "simpleDesc": "Tăng Uy lực Đối kháng và Sát thương của Kĩ năng 1"
         },
         {
           "abilityID": 97341,
-          "simpleDesc": "Uy lực Va chạm và Sát thương của Kỹ năng 1 tăng"
+          "simpleDesc": "Uy lực Đối kháng và Sát thương của Kĩ năng 1 tăng"
         },
         {
           "abilityID": 97342,
-          "simpleDesc": "Gây 2 Giảm hồi máu"
+          "simpleDesc": "Gây 2 Giảm hồi phục Máu"
         }
       ]
     },
     {
       "id": 9735,
       "name": "Pin trường lực cầm tay",
-      "desc": "Uy lực Đối kháng của Kỹ năng 1 tăng số tầng [Charge] hoặc [Charge] đặc biệt +2\n\nKhi sử dụng kỹ năng đó, nhận 2 số tầng [Charge], 1 [ChargeForceField] (1 lần mỗi lượt)\n\nTrong trận chiến, nếu Bản sắc thuộc Tập đoàn W nhận sát thương từ các hiệu ứng khác ngoài sát thương trực tiếp của kỹ năng, nhận 5 [ChargeForceField] (1 lần mỗi lượt)",
+      "desc": "Kĩ năng 1 nhận Số lượng [Charge] hoặc Sạc đặc biệt: Uy lực Đối kháng +2\n\nKhi sử dụng Kĩ năng 1 nhận Số lượng [Charge], nhận +2 Số lượng [Charge] và 1 [ChargeForceField] (1 lần mỗi lượt)\n\nTrong trận chiến, nếu Bản sắc Công ty W nhận sát thương HP từ nguồn khác ngoài sát thương trực tiếp của Kĩ năng, nhận 5 [ChargeForceField] (1 lần mỗi lượt)",
       "simpleDesc": [
         {
           "abilityID": 9735,
-          "simpleDesc": "Tăng Uy lực Va chạm và số tầng Sạc của Kỹ năng 1, nhận Trường lực Sạc"
+          "simpleDesc": "Tăng Uy lực Đối kháng và Số lượng Sạc của Kĩ năng 1, nhận Trường Lực Sạc"
         },
         {
           "abilityID": 97351,
-          "simpleDesc": "Nhận Trường lực Sạc"
+          "simpleDesc": "Nhận Trường Lực Sạc"
         }
       ]
     },
     {
       "id": 9736,
       "name": "Pin phát điện sinh học",
-      "desc": "Cấp độ tấn công tăng dựa trên số lần Đối kháng mà đồng minh sở hữu số tầng [Charge] hoặc Sạc đặc biệt đã thực hiện (Tối đa 6, đặt lại khi kết thúc tấn công)\n\nKhi kết thúc lượt, Bản sắc có tổng số tầng [Charge] và Sạc đặc biệt (uy lực cố định) từ 10 trở lên nhận 1 [Agility] vào lượt tiếp theo. Nếu tổng số tầng [Charge] và Sạc đặc biệt (uy lực cố định) từ 18 trở lên, nhận thêm 3 [AttackUp].\n\n※Đối với Sạc đặc biệt có cả uy lực và số tầng, sẽ được tính theo số tầng sạc",
+      "desc": "Đồng minh sở hữu Số lượng [Charge] hoặc Sạc đặc biệt nhận 1 Cấp độ Tấn công mỗi lần Đối kháng (Tối đa 6; đặt lại khi kết thúc tấn công)\n\nKhi kết thúc lượt, Bản sắc có tổng Số lượng [Charge] và Sạc đặc biệt (Cường độ cố định) từ 10 trở lên nhận 1 [Agility] vào lượt tiếp theo. Nếu tổng Số lượng [Charge] và Sạc đặc biệt (Cường độ cố định) từ 18 trở lên, nhận thêm 3 [AttackUp].\n\n※ Với Sạc đặc biệt có cả Cường độ và Số lượng, Số lượng sẽ được dùng để tính toán ở trên",
       "simpleDesc": [
         {
           "abilityID": 9736,
-          "simpleDesc": "Tăng Cấp độ tấn công"
+          "simpleDesc": "Nhận Cấp độ Tấn công"
         },
         {
           "abilityID": 97361,
-          "simpleDesc": "Nhận Tốc độ"
+          "simpleDesc": "Nhận Nhanh nhẹn"
         },
         {
           "abilityID": 97362,
-          "simpleDesc": "Nhận Tăng Cấp độ tấn công"
+          "simpleDesc": "Nhận Tăng Cấp độ Tấn công"
         }
       ]
     },
     {
       "id": 9737,
       "name": "Mô-đun phản ứng tim",
-      "desc": "Khi đồng minh sở hữu số tầng [Charge] hoặc Sạc đặc biệt thua Đối kháng, nhận Khiên bằng tổng số tầng [Charge] và Sạc đặc biệt (1 lần mỗi lượt)\n\nNếu máu từ một nửa trở xuống, hiệu ứng sẽ được cường hóa, nhận Khiên bằng (Tổng số tầng [Charge] và Sạc đặc biệt × 2) (1 lần mỗi lượt)\n\nNếu Bản sắc thuộc Văn phòng Multi-crack nhận sát thương trong trận chiến này, hồi phục 33% lượng máu đã mất ở lượt trước vào lượt tiếp theo (làm tròn xuống)",
+      "desc": "Khi đồng minh sở hữu Số lượng [Charge] hoặc Sạc đặc biệt thua Đối kháng, nhận Lá chắn bằng tổng Số lượng [Charge] và Sạc đặc biệt (1 lần mỗi lượt)\n\nNếu HP từ 50% trở xuống, hiệu ứng được cường hóa: nhận Lá chắn bằng (Tổng Số lượng [Charge] và Sạc đặc biệt × 2) (1 lần mỗi lượt)\n\nNếu Bản sắc thuộc Văn phòng Multi-crack nhận sát thương HP trong trận chiến này, chúng hồi phục 33% lượng máu đã mất ở lượt trước vào lượt tiếp theo (làm tròn xuống)",
       "simpleDesc": [
         {
           "abilityID": 9737,
-          "simpleDesc": "Nhận Khiên"
+          "simpleDesc": "Nhận Lá chắn"
         },
         {
           "abilityID": 97371,
@@ -97,102 +97,102 @@
     {
       "id": 9738,
       "name": "Động cơ servo khớp chi giả",
-      "desc": "Dựa trên số lần đồng minh sử dụng kỹ năng tấn công cơ bản nhận số tầng [Charge] hoặc Sạc đặc biệt, nhận [Agility] và số tầng [Charge] vào lượt tiếp theo (Tối đa 2)\n\nMỗi khi Bản sắc thuộc Văn phòng Multi-crack nhận hoặc tiêu hao số tầng [Charge] bằng kỹ năng tấn công cơ bản, nhận thêm 1 số tầng [Charge] (Tối đa 2)",
+      "desc": "Vào lượt tiếp theo, đồng minh nhận [Agility] và Số lượng [Charge] bằng số lần sử dụng Kĩ năng Tấn công Cơ bản nhận Số lượng [Charge] hoặc Sạc đặc biệt trong lượt này (Tối đa 2)\n\nMỗi khi Bản sắc thuộc Văn phòng Multi-crack nhận hoặc tiêu hao Số lượng [Charge] bằng Kĩ năng Tấn công Cơ bản, nhận thêm 1 Số lượng [Charge] (Tối đa 2)",
       "simpleDesc": [
         {
           "abilityID": 9738,
-          "simpleDesc": "Nhận Tốc độ và số tầng Sạc"
+          "simpleDesc": "Nhận Nhanh nhẹn và Số lượng Sạc"
         },
         {
           "abilityID": 97381,
-          "simpleDesc": "Nhận thêm số tầng Sạc"
+          "simpleDesc": "Nhận thêm Số lượng Sạc"
         }
       ]
     },
     {
       "id": 9739,
       "name": "Máu kết tinh",
-      "desc": "Khi kết thúc lượt, nếu bản thân đang trong trạng thái [Laceration], Uy lực [Laceration] của bản thân bị giảm một nửa và hồi phục máu bằng (Uy lực [Laceration] đã giảm × số tầng [Laceration] đang sở hữu) (làm tròn xuống, hiệu ứng Quà lưu niệm này hồi tối đa 10% máu tối đa mỗi lần)",
+      "desc": "Khi kết thúc lượt, nếu bản thân đang có [Laceration], Cường độ [Laceration] của bản thân giảm một nửa và hồi phục máu bằng (Cường độ [Laceration] đã giảm × Số lượng [Laceration] của bản thân) (làm tròn xuống; hiệu ứng Quà tặng E.G.O này hồi tối đa 10% máu tối đa mỗi lần)",
       "simpleDesc": [
         {
           "abilityID": 9739,
-          "simpleDesc": "Giảm một nửa Uy lực Xuất huyết của bản thân, hồi phục máu"
+          "simpleDesc": "Giảm một nửa Cường độ Xuất huyết của bản thân, hồi phục máu"
         }
       ]
     },
     {
       "id": 9740,
       "name": "Khớp tự vận hành",
-      "desc": "Đầu lượt, nếu có từ 5 Bản sắc trở lên sở hữu kỹ năng tấn công nhận số tầng [Charge] hoặc Sạc đặc biệt, kích hoạt trong suốt trận chiến này. (Ngoại trừ kỹ năng E.G.O và nhân viên dự bị)\n\nUy lực Đồng xu +1, Sát thương +(tổng số tầng [Charge] và Sạc đặc biệt đã tiêu hao trong kỹ năng đó × 4)% (Tối đa 40%) cho kỹ năng tấn công cơ bản có đồng xu cộng tiêu hao số tầng [Charge] hoặc Sạc đặc biệt\n- Đối với kỹ năng tấn công cơ bản có đồng xu trừ, thay vì Uy lực Đồng xu, Uy lực Cơ bản +(4 ÷ số lượng đồng xu) (Tối thiểu 1, làm tròn xuống)\n\nKhi kết thúc lượt, dựa trên số lần đồng minh sở hữu số tầng [Charge] hoặc Sạc đặc biệt đã sử dụng kỹ năng tấn công cơ bản tiêu hao số tầng [Charge] và Sạc đặc biệt trong trận chiến này, nhận 1 [Agility] (Tối đa 2), 1 [AttackDmgUp] (Tối đa 3) vào lượt tiếp theo.\n\nNếu Bản sắc thuộc Văn phòng Multi-crack sở hữu từ 5 [Charge] trở lên, Uy lực Đồng xu của kỹ năng tấn công cơ bản +1",
+      "desc": "Đầu lượt: nếu có từ 5 Bản sắc trở lên sở hữu Kĩ năng Tấn công nhận Số lượng [Charge] hoặc Sạc đặc biệt, Quà tặng này kích hoạt trong suốt trận chiến. (Ngoại trừ Kĩ năng E.G.O và nhân viên dự bị)\n\nKĩ năng Tấn công Cơ bản dùng Đồng xu Cộng tiêu hao Số lượng [Charge] hoặc Sạc đặc biệt: Sức mạnh Đồng xu +1, Sát thương +(tổng Số lượng [Charge] và Sạc đặc biệt Kĩ năng đó tiêu hao × 4)% (Tối đa 40%)\n- Kĩ năng Tấn công Cơ bản dùng Đồng xu Trừ: thay vì Sức mạnh Đồng xu, nhận Sức mạnh Cơ bản +(4 ÷ số Đồng xu) (Tối thiểu 1; làm tròn xuống)\n\nKhi kết thúc lượt, đồng minh sở hữu Số lượng [Charge] hoặc Sạc đặc biệt nhận 1 [Agility] (Tối đa 2) và 1 [AttackDmgUp] (Tối đa 3) vào lượt tiếp theo cho mỗi lần họ sử dụng Kĩ năng Tấn công Cơ bản tiêu hao Số lượng [Charge] hoặc Sạc đặc biệt trong trận chiến này.\n\nNếu Bản sắc thuộc Văn phòng Multi-crack sở hữu từ 5 [Charge] trở lên, Sức mạnh Đồng xu của Kĩ năng Tấn công Cơ bản +1",
       "simpleDesc": [
         {
           "abilityID": 9740,
-          "simpleDesc": "Tăng Uy lực Đồng xu/Cơ bản và Sát thương"
+          "simpleDesc": "Tăng Sức mạnh Đồng xu/Cơ bản và Sát thương"
         },
         {
           "abilityID": 97401,
-          "simpleDesc": "Nhận Tốc độ và Tăng Sát thương vào lượt tiếp theo"
+          "simpleDesc": "Nhận Nhanh nhẹn và Tăng Sát thương vào lượt tiếp theo"
         },
         {
           "abilityID": 97402,
-          "simpleDesc": "Tăng Uy lực Đồng xu"
+          "simpleDesc": "Tăng Sức mạnh Đồng xu"
         }
       ]
     },
     {
       "id": 9741,
       "name": "Pin quá tải",
-      "desc": "Đầu lượt, nếu có từ 5 Bản sắc trở lên sở hữu kỹ năng tấn công nhận số tầng [Charge] hoặc Sạc đặc biệt, kích hoạt trong suốt trận chiến này. (Ngoại trừ kỹ năng E.G.O và nhân viên dự bị)\n\nUy lực Đồng xu +1, Sát thương +(tổng số tầng [Charge] và Sạc đặc biệt đã tiêu hao trong kỹ năng đó × 4)% (Tối đa 40%) cho kỹ năng tấn công cơ bản có đồng xu cộng tiêu hao số tầng [Charge] hoặc Sạc đặc biệt\n- Đối với kỹ năng tấn công cơ bản có đồng xu trừ, thay vì Uy lực Đồng xu, Uy lực Cơ bản +(4 ÷ số lượng đồng xu) (Tối thiểu 1, làm tròn xuống)\n\nKhi đồng minh sở hữu số tầng [Charge] hoặc Sạc đặc biệt thực hiện Đối kháng bằng kỹ năng tấn công cơ bản, Uy lực Đối kháng +2. Khi thắng Đối kháng, số tầng [Charge] tăng 3, khi thua Đối kháng, số tầng [Charge] giảm 6.\n\nKhi thắng Đối kháng bằng kỹ năng tấn công cơ bản hệ Đố kỵ, gây 1 [VioletTakeDamageUp] (Tối đa cộng dồn 3 lần)",
+      "desc": "Đầu lượt: nếu có từ 5 Bản sắc trở lên sở hữu Kĩ năng Tấn công nhận Số lượng [Charge] hoặc Sạc đặc biệt, Quà tặng này kích hoạt trong suốt trận chiến. (Ngoại trừ Kĩ năng E.G.O và nhân viên dự bị)\n\nKĩ năng Tấn công Cơ bản dùng Đồng xu Cộng tiêu hao Số lượng [Charge] hoặc Sạc đặc biệt: Sức mạnh Đồng xu +1, Sát thương +(tổng Số lượng [Charge] và Sạc đặc biệt Kĩ năng đó tiêu hao × 4)% (Tối đa 40%)\n- Kĩ năng Tấn công Cơ bản dùng Đồng xu Trừ: thay vì Sức mạnh Đồng xu, nhận Sức mạnh Cơ bản +(4 ÷ số Đồng xu) (Tối thiểu 1; làm tròn xuống)\n\nKhi đồng minh sở hữu Số lượng [Charge] hoặc Sạc đặc biệt thực hiện Đối kháng bằng Kĩ năng Tấn công Cơ bản: Uy lực Đối kháng +2; khi thắng Đối kháng nhận +3 Số lượng [Charge], khi thua Đối kháng mất 6 Số lượng [Charge].\n\nKhi thắng Đối kháng bằng Kĩ năng Tấn công Cơ bản hệ Đố kỵ, gây 1 [VioletTakeDamageUp] (Cộng dồn tối đa 3 lần)",
       "simpleDesc": [
         {
           "abilityID": 9741,
-          "simpleDesc": "Tăng Uy lực Đồng xu/Cơ bản và Sát thương"
+          "simpleDesc": "Tăng Sức mạnh Đồng xu/Cơ bản và Sát thương"
         },
         {
           "abilityID": 97411,
-          "simpleDesc": "Tăng Uy lực Va chạm. Tăng số tầng Sạc khi thắng Va chạm, giảm số tầng Sạc khi thua Va chạm"
+          "simpleDesc": "Tăng Uy lực Đối kháng. Tăng Số lượng Sạc khi thắng Đối kháng, giảm Số lượng Sạc khi thua Đối kháng"
         },
         {
           "abilityID": 97412,
-          "simpleDesc": "Gây Yếu hệ Đố kỵ"
+          "simpleDesc": "Gây Mong manh Đố kỵ"
         }
       ]
     },
     {
       "id": 9742,
-      "name": "Động cơ servo động cơ vĩnh cửu",
-      "desc": "Đầu lượt, nếu có từ 5 Bản sắc trở lên sở hữu kỹ năng tấn công nhận số tầng [Charge] hoặc Sạc đặc biệt, kích hoạt trong suốt trận chiến này. (Ngoại trừ kỹ năng E.G.O và nhân viên dự bị)\n\nUy lực Đồng xu +1, Sát thương +(tổng số tầng [Charge] và Sạc đặc biệt (uy lực cố định) đã tiêu hao trong kỹ năng đó × 4)% (Tối đa 40%) cho kỹ năng tấn công cơ bản có đồng xu cộng tiêu hao số tầng [Charge] hoặc Sạc đặc biệt (uy lực cố định)\n- Đối với kỹ năng tấn công cơ bản có đồng xu trừ, thay vì Uy lực Đồng xu, Uy lực Cơ bản +(4 ÷ số lượng đồng xu) (Tối thiểu 1, làm tròn xuống)\n\nKhi đồng minh sở hữu số tầng [Charge] hoặc Sạc đặc biệt thực hiện Đối kháng bằng kỹ năng tấn công cơ bản, Uy lực Đối kháng +1. Đầu lượt, nhận 2 [AttackUp] dựa trên số lần thắng Đối kháng đó trong trận chiến này (Tối đa 6).\n\nTrong trận chiến, khi nhận sát thương chí mạng, tiêu hao toàn bộ số tầng [Charge] và Sạc đặc biệt (uy lực cố định) đang sở hữu, lập tức hồi phục (10 + tổng số tầng [Charge] và Sạc đặc biệt (uy lực cố định) đã tiêu hao)% máu tối đa (1 lần mỗi trận). Nhận 3 [Protection] cho đến khi chết.\n\n※Đối với Sạc đặc biệt có cả uy lực và số tầng, sẽ được tính theo số tầng sạc",
+      "name": "Động cơ servo vĩnh cửu",
+      "desc": "Đầu lượt: nếu có từ 5 Bản sắc trở lên sở hữu Kĩ năng Tấn công nhận Số lượng [Charge] hoặc Sạc đặc biệt, Quà tặng này kích hoạt trong suốt trận chiến. (Ngoại trừ Kĩ năng E.G.O và nhân viên dự bị)\n\nKĩ năng Tấn công Cơ bản dùng Đồng xu Cộng tiêu hao Số lượng [Charge] hoặc Sạc đặc biệt (Cường độ cố định): Sức mạnh Đồng xu +1, Sát thương +(tổng Số lượng [Charge] và Sạc đặc biệt (Cường độ cố định) Kĩ năng đó tiêu hao × 4)% (Tối đa 40%)\n- Kĩ năng Tấn công Cơ bản dùng Đồng xu Trừ: thay vì Sức mạnh Đồng xu, nhận Sức mạnh Cơ bản +(4 ÷ số Đồng xu) (Tối thiểu 1; làm tròn xuống)\n\nKhi đồng minh sở hữu Số lượng [Charge] hoặc Sạc đặc biệt thực hiện Đối kháng bằng Kĩ năng Tấn công Cơ bản: Uy lực Đối kháng +1; đầu lượt, nhận 2 [AttackUp] cho mỗi lần thắng Đối kháng trong trận chiến này (Tối đa 6).\n\nTrong trận chiến này, khi đồng minh nhận sát thương khiến bản thân tử vong, tiêu hao toàn bộ Số lượng [Charge] và Sạc đặc biệt (Cường độ cố định) đang sở hữu, lập tức hồi phục (10 + tổng Số lượng [Charge] và Sạc đặc biệt (Cường độ cố định) đã tiêu hao)% máu tối đa (1 lần mỗi trận chiến); sau đó nhận 3 [Protection] cho đến khi bị đánh bại.\n\n※ Với Sạc đặc biệt có cả Cường độ và Số lượng, Số lượng sẽ được dùng để tính toán ở trên",
       "simpleDesc": [
         {
           "abilityID": 9742,
-          "simpleDesc": "Tăng Uy lực Đồng xu/Cơ bản và Sát thương"
+          "simpleDesc": "Tăng Sức mạnh Đồng xu/Cơ bản và Sát thương"
         },
         {
           "abilityID": 97421,
-          "simpleDesc": "Nhận Tăng Uy lực Va chạm và Tăng Cấp độ tấn công"
+          "simpleDesc": "Nhận Tăng Uy lực Đối kháng và Tăng Cấp độ Tấn công"
         },
         {
           "abilityID": 97422,
-          "simpleDesc": "Tiêu hao số tầng Sạc để lập tức hồi phục ngay trước khi chết, nhận Bảo vệ"
+          "simpleDesc": "Tiêu hao Số lượng Sạc để lập tức hồi phục ngay trước khi tử vong, nhận Bảo hộ"
         }
       ]
     },
     {
       "id": 9743,
       "name": "Bảo ngọc Năng lượng Trái tim",
-      "desc": "Đầu lượt, nếu có từ 5 Bản sắc trở lên sở hữu kỹ năng tấn công nhận số tầng [Charge] hoặc [Charge] đặc biệt, kích hoạt trong suốt trận chiến này. (Ngoại trừ kỹ năng E.G.O và nhân viên dự bị)\n\nUy lực Đồng xu +1, Sát thương +(tổng số tầng [Charge] và Sạc đặc biệt đã tiêu hao trong kỹ năng đó × 4)% (Tối đa 40%) cho kỹ năng tấn công cơ bản có đồng xu cộng tiêu hao số tầng [Charge] hoặc Sạc đặc biệt\n- Đối với kỹ năng tấn công cơ bản có đồng xu trừ, thay vì Uy lực Đồng xu, Uy lực Cơ bản +(4 ÷ số lượng đồng xu) (Tối thiểu 1, làm tròn xuống)\n\nKhi sử dụng Kỹ năng 3 tiêu hao số tầng [Charge] trong trạng thái tổng số tầng [Charge] và Sạc đặc biệt đang sở hữu từ 15 trở lên, nếu vẫn còn số tầng [Charge] hoặc Sạc đặc biệt khi kết thúc tấn công, tiêu hao toàn bộ chúng và gây thêm sát thương cố định bằng (tổng số tầng [Charge] và Sạc đặc biệt đã tiêu hao × 7.5)% sát thương gây ra (Tối đa 75%).\n\nGiới hạn số tầng [Charge] +5",
+      "desc": "Đầu lượt: nếu có từ 5 Bản sắc trở lên sở hữu Kĩ năng Tấn công nhận Số lượng [Charge] hoặc Sạc đặc biệt, Quà tặng này kích hoạt trong suốt trận chiến. (Ngoại trừ Kĩ năng E.G.O và nhân viên dự bị)\n\nKĩ năng Tấn công Cơ bản dùng Đồng xu Cộng tiêu hao Số lượng [Charge] hoặc Sạc đặc biệt: Sức mạnh Đồng xu +1, Sát thương +(tổng Số lượng [Charge] và Sạc đặc biệt Kĩ năng đó tiêu hao × 4)% (Tối đa 40%)\n- Kĩ năng Tấn công Cơ bản dùng Đồng xu Trừ: thay vì Sức mạnh Đồng xu, nhận Sức mạnh Cơ bản +(4 ÷ số Đồng xu) (Tối thiểu 1; làm tròn xuống)\n\nKhi đồng minh có tổng Số lượng [Charge] và Sạc đặc biệt từ 15 trở lên, nếu họ sử dụng Kĩ năng 3 tiêu hao Số lượng [Charge] hoặc Sạc đặc biệt và vẫn còn [Charge] hoặc Sạc đặc biệt khi kết thúc tấn công, tiêu hao toàn bộ Số lượng [Charge] và Sạc đặc biệt còn lại để gây thêm (tổng Số lượng [Charge] và Sạc đặc biệt đã tiêu hao × 7.5)% sát thương cố định (Tối đa 75%).\n\nGiới hạn Số lượng [Charge] +5",
       "simpleDesc": [
         {
           "abilityID": 9743,
-          "simpleDesc": "Tăng Uy lực Đồng xu/Cơ bản và Sát thương"
+          "simpleDesc": "Tăng Sức mạnh Đồng xu/Cơ bản và Sát thương"
         },
         {
           "abilityID": 97431,
-          "simpleDesc": "Tiêu hao thêm số tầng Sạc để gây thêm sát thương"
+          "simpleDesc": "Tiêu hao thêm Số lượng Sạc để gây thêm sát thương"
         },
         {
           "abilityID": 97432,
-          "simpleDesc": "Giới hạn số tầng Sạc +5"
+          "simpleDesc": "Giới hạn Số lượng Sạc +5"
         }
       ]
     }
