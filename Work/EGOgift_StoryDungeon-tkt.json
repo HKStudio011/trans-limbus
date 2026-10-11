@@ -3,7 +3,7 @@
     {
       "id": 2036,
       "name": "Vỏ đồng hồ bạc",
-      "desc": "Khi gây sát thương lên kẻ địch bằng kĩ năng tấn công (ngoại trừ kĩ năng E.G.O) có khả năng gây Chấn động số lượng, [Vibration] số lần hoặc Chấn động đặc biệt, Sát thương gây ra +10%\n\nNếu kĩ năng đó áp dụng [VibrationExplosion] lần đầu tiên lên kẻ địch trong lượt này, gây 2 [Vibration] số lần vào lượt tiếp theo (1 lần mỗi lượt)",
+      "desc": "Khi gây sát thương lên kẻ địch bằng kĩ năng tấn công (ngoại trừ kĩ năng E.G.O) có khả năng gây Cường độ hoặc Số lượng [Vibration], hoặc Chấn động đặc biệt, sát thương gây ra +10%\n\nNếu kĩ năng đó kích hoạt [VibrationExplosion] lên kẻ địch lần đầu tiên trong lượt này, gây 2 Số lượng [Vibration] vào lượt tiếp theo (1 lần mỗi lượt)",
       "simpleDesc": [
         {
           "abilityID": 2036,
@@ -11,29 +11,29 @@
         },
         {
           "abilityID": 20361,
-          "simpleDesc": "Gây 2 [Vibration] số lần vào lượt tiếp theo"
+          "simpleDesc": "Gây 2 Số lượng [Vibration] vào lượt tiếp theo"
         }
       ]
     },
     {
       "id": 2037,
       "name": "Vỏ đồng hồ phai màu",
-      "desc": "Khi bắt đầu khớp với kẻ địch có Tốc độ cao hơn bản thân, Sức mạnh khớp +1\n\nKhi gây sát thương lên kẻ địch có Tốc độ cao hơn bản thân, lượt tiếp theo gây cho mục tiêu 3 [Vibration] số lượng, 2 [Vibration] số lần (1 lần mỗi lượt)",
+      "desc": "Khi Đối kháng với kẻ địch có Tốc độ cao hơn bản thân, Sức mạnh Đối kháng +1\n\nKhi gây sát thương lên kẻ địch có Tốc độ cao hơn bản thân, gây cho mục tiêu 3 Cường độ [Vibration] và +2 Số lượng [Vibration] vào lượt tiếp theo (1 lần mỗi lượt)",
       "simpleDesc": [
         {
           "abilityID": 2037,
-          "simpleDesc": "Sức mạnh khớp +1"
+          "simpleDesc": "Sức mạnh Đối kháng +1"
         },
         {
           "abilityID": 20371,
-          "simpleDesc": "Lượt tiếp theo gây 3 [Vibration] số lượng, 2 [Vibration] số lần"
+          "simpleDesc": "Gây 3 Cường độ [Vibration] và 2 Số lượng [Vibration] vào lượt tiếp theo"
         }
       ]
     },
     {
       "id": 2038,
       "name": "Thư cảnh cáo",
-      "desc": "Khi kết thúc lượt, gây cho 1 kẻ địch có Tốc độ cao nhất 1 [Binding] vào lượt tiếp theo (Nếu là Bất thường thì là 1 bộ phận)\n\nNếu mục tiêu đang sở hữu [Vibration] hoặc Chấn động đặc biệt, hiệu ứng được tăng cường và gây 2 [Binding]\n\nKhi đồng minh tấn công mục tiêu đang sở hữu [Binding], Sát thương gây ra +(5 + Giá trị [Binding] × 2.5])% (Tối đa 15%)",
+      "desc": "Khi kết thúc lượt, gây 1 [Binding] cho kẻ địch có Tốc độ cao nhất vào lượt tiếp theo (Nếu là Dị thường thì tính cho 1 bộ phận)\n\nNếu mục tiêu đang sở hữu [Vibration] hoặc Chấn động đặc biệt, hiệu ứng được tăng cường và gây 2 [Binding]\n\nKhi đồng minh tấn công mục tiêu đang sở hữu [Binding], sát thương gây ra +(5 + Giá trị [Binding] × 2.5)% (Tối đa 15%)",
       "simpleDesc": [
         {
           "abilityID": 2038,
@@ -41,18 +41,18 @@
         },
         {
           "abilityID": 20381,
-          "simpleDesc": "Sát thương gây ra +(5 + Giá trị [Binding] × 2.5])%"
+          "simpleDesc": "Sát thương gây ra +(5 + Giá trị [Binding] × 2.5)%"
         }
       ]
     },
     {
       "id": 2039,
       "name": "Kim đồng hồ chạm khắc",
-      "desc": "Khi lượt đầu tiên của Wave bắt đầu, gây cho 3 kẻ địch có Tốc độ thấp nhất (9 - Tốc độ hiện tại) [Vibration] số lượng (Tối thiểu 3)\n\nKhi bắt đầu lượt, Sát thương gây ra lên kẻ địch đang sở hữu từ 12 [Vibration] hoặc Chấn động đặc biệt trở lên +10%",
+      "desc": "Khi bắt đầu lượt đầu tiên của Wave, gây cho 3 kẻ địch có Tốc độ thấp nhất (9 - Tốc độ hiện tại) Cường độ [Vibration] (Tối thiểu 3)\n\nKhi bắt đầu lượt, sát thương gây ra lên kẻ địch có [Vibration] từ 12 trở lên hoặc Chấn động đặc biệt +10%",
       "simpleDesc": [
         {
           "abilityID": 2039,
-          "simpleDesc": "Gây (9 - Tốc độ hiện tại) [Vibration] số lượng"
+          "simpleDesc": "Gây (9 - Tốc độ hiện tại) Cường độ [Vibration]"
         },
         {
           "abilityID": 20391,
@@ -63,11 +63,11 @@
     {
       "id": 2040,
       "name": "Kim đồng hồ gỉ sét",
-      "desc": "Khi lượt đầu tiên của Wave bắt đầu, gây cho 1 kẻ địch có Tốc độ cao nhất (9 - Tốc độ hiện tại) [Vibration] số lượng (Tối thiểu 3) và gây [Vibration] số lần bằng một nửa giá trị đó (Làm tròn lên, nếu là Bất thường thì là 1 bộ phận)\n\nKhi bắt đầu lượt, Sát thương nhận vào từ kẻ địch đang sở hữu từ 12 [Vibration] hoặc Chấn động đặc biệt trở lên -10%",
+      "desc": "Khi bắt đầu lượt đầu tiên của Wave, gây cho 1 kẻ địch có Tốc độ cao nhất (9 - Tốc độ hiện tại) Cường độ [Vibration] (Tối thiểu 3) và Số lượng [Vibration] bằng một nửa giá trị đó (Làm tròn lên, nếu là Dị thường thì tính cho 1 bộ phận)\n\nKhi bắt đầu lượt, sát thương nhận vào từ kẻ địch có [Vibration] từ 12 trở lên hoặc Chấn động đặc biệt -10%",
       "simpleDesc": [
         {
           "abilityID": 2040,
-          "simpleDesc": "Gây (9 - Tốc độ hiện tại) [Vibration] số lượng và [Vibration] số lần bằng một nửa giá trị đó"
+          "simpleDesc": "Gây (9 - Tốc độ hiện tại) Cường độ [Vibration] và Số lượng [Vibration] bằng một nửa giá trị đó"
         },
         {
           "abilityID": 20401,
@@ -78,106 +78,106 @@
     {
       "id": 2041,
       "name": "Chén nước rơi",
-      "desc": "Khi đồng minh sở hữu kĩ năng tấn công (ngoại trừ kĩ năng E.G.O) có khả năng gây Chấn động số lượng, [Vibration] số lần, hoặc Chấn động đặc biệt thắng khớp với kẻ địch, gây 2 [Vibration] số lượng, 2 [Vibration] số lần (2 lần mỗi lượt)\n\nNếu là Bản thể thuộc Yurodiviye, hiệu ứng được tăng cường, gây 3 [Vibration] số lượng, 3 [Vibration] số lần (3 lần mỗi lượt)\n\nKhi Bản thể đó bắt đầu khớp với kẻ địch có Cấp độ tấn công cao hơn bản thân, Sức mạnh khớp +2, Sát thương gây ra khi thắng khớp +20%",
+      "desc": "Khi đồng minh sở hữu kĩ năng tấn công (ngoại trừ kĩ năng E.G.O) có khả năng gây Cường độ hoặc Số lượng [Vibration], hoặc Chấn động đặc biệt thắng Đối kháng với kẻ địch, gây 2 Cường độ [Vibration], 2 Số lượng [Vibration] (2 lần mỗi lượt)\n\nBản sắc thuộc Yurodivy: hiệu ứng được tăng cường, gây 3 Cường độ [Vibration], 3 Số lượng [Vibration] (3 lần mỗi lượt)\n\nKhi Bản sắc đó Đối kháng với kẻ địch có Cấp độ Tấn công cao hơn bản thân, Sức mạnh Đối kháng +2, sát thương gây ra khi thắng Đối kháng +20%",
       "simpleDesc": [
         {
           "abilityID": 2041,
-          "simpleDesc": "Gây 2 [Vibration] số lượng, 2 [Vibration] số lần"
+          "simpleDesc": "Gây 2 Cường độ [Vibration], 2 Số lượng [Vibration]"
         },
         {
           "abilityID": 20411,
-          "simpleDesc": "Gây 3 [Vibration] số lượng, 3 [Vibration] số lần"
+          "simpleDesc": "Gây 3 Cường độ [Vibration], 3 Số lượng [Vibration]"
         },
         {
           "abilityID": 20412,
-          "simpleDesc": "Sức mạnh khớp +2, Sát thương gây ra +20%"
+          "simpleDesc": "Sức mạnh Đối kháng +2, sát thương gây ra +20%"
         }
       ]
     },
     {
       "id": 2042,
       "name": "Biên lai thời gian trả trước",
-      "desc": "Sát thương gây ra lên kẻ địch có Tốc độ cao hơn bản thân từ 2 trở lên +(5 + Chênh lệch tốc độ × 2.5) % (Tối đa 15%)\n\nKhi kết thúc lượt, nếu trong lượt này đã từng gây sát thương ít nhất một lần lên kẻ địch có Tốc độ cao hơn bản thân từ 2 trở lên bằng kĩ năng tấn công (ngoại trừ kĩ năng E.G.O), lượt tiếp theo gây cho mục tiêu 2 [Binding], 1 [ResultReduction] (1 lần mỗi lượt)",
+      "desc": "Sát thương gây ra lên kẻ địch có Tốc độ cao hơn bản thân từ 2 trở lên +(5 + Chênh lệch Tốc độ × 2.5)% (Tối đa 15%)\n\nKhi kết thúc lượt, nếu trong lượt này đã từng gây sát thương ít nhất một lần lên kẻ địch có Tốc độ cao hơn bản thân từ 2 trở lên bằng kĩ năng tấn công (ngoại trừ kĩ năng E.G.O), gây cho mục tiêu 2 [Binding] và 1 [ResultReduction] vào lượt tiếp theo (1 lần mỗi lượt)",
       "simpleDesc": [
         {
           "abilityID": 2042,
-          "simpleDesc": "Sát thương gây ra +(5 + Chênh lệch tốc độ × 2.5)%"
+          "simpleDesc": "Sát thương gây ra +(5 + Chênh lệch Tốc độ × 2.5)%"
         },
         {
           "abilityID": 20421,
-          "simpleDesc": "Lượt tiếp theo gây 2 [Binding], 1 [ResultReduction]"
+          "simpleDesc": "Gây 2 [Binding] và 1 [ResultReduction] vào lượt tiếp theo"
         }
       ]
     },
     {
       "id": 2043,
       "name": "Đồng hồ bỏ túi: Loại L",
-      "desc": "Khi bắt đầu lượt, nếu có từ 5 Bản thể trở lên sở hữu kĩ năng tấn công có khả năng gây Chấn động số lượng, Chấn động số lần hoặc Chấn động đặc biệt, kích hoạt trong suốt trận chiến này (Ngoại trừ kĩ năng E.G.O và nhân viên dự bị)\n\nĐồng minh có khả năng gây Chấn động số lượng, Chấn động số lần hoặc Chấn động đặc biệt khi sử dụng Kĩ năng 3 được +2 Sức mạnh đồng xu, Sát lượng +25%\n\nKhi đồng minh có khả năng gây [Vibration] số lượng, [Vibration] số lần hoặc Chấn động đặc biệt sử dụng kĩ năng tấn công (bao gồm cả kĩ năng E.G.O) để [Switch_Vibration] kẻ địch, giá trị [Vibration] số lượng và [Vibration] số lần được chuyển đổi được áp dụng gấp 1.5 lần (Chỉ áp dụng khi chuyển sang loại khác) và gây 5 [DefenseDown] vào lượt tiếp theo (1 lần mỗi lượt)\n\nKhi bắt đầu lượt đầu tiên, gây cho 3 kẻ địch có Tốc độ thấp nhất (12 - Tốc độ hiện tại) [Vibration] số lượng (Tối thiểu 6, tối đa 1 lần mỗi Wave)",
+      "desc": "Khi bắt đầu lượt, nếu có từ 5 Bản sắc trở lên sở hữu kĩ năng tấn công có khả năng gây Cường độ hoặc Số lượng [Vibration], hoặc Chấn động đặc biệt, kích hoạt trong suốt trận chiến này (ngoại trừ kĩ năng E.G.O và nhân viên dự bị)\n\nKĩ năng 3 của đồng minh có khả năng gây Cường độ hoặc Số lượng [Vibration], hoặc Chấn động đặc biệt: +2 Sức mạnh Đồng xu và sát thương gây ra +25%\n\nKhi đồng minh có khả năng gây Cường độ hoặc Số lượng [Vibration], hoặc Chấn động đặc biệt dùng kĩ năng tấn công (bao gồm cả kĩ năng E.G.O) kích hoạt [Switch_Vibration] lên kẻ địch, Cường độ và Số lượng [Vibration] được chuyển đổi sẽ nhân với 1.5 (chỉ khi thực sự chuyển đổi chúng sang loại Chấn động khác) và gây 5 [DefenseDown] vào lượt tiếp theo (1 lần mỗi lượt)\n\nKhi bắt đầu lượt, gây (12 - Tốc độ hiện tại) Cường độ [Vibration] cho 3 kẻ địch có Tốc độ thấp nhất (Tối thiểu 6) (1 lần mỗi Wave)",
       "simpleDesc": [
         {
           "abilityID": 2043,
-          "simpleDesc": "Sức mạnh đồng xu Kĩ năng 3 +2, Sát lượng +25%"
+          "simpleDesc": "Sức mạnh Đồng xu Kĩ năng 3 +2, sát thương +25%"
         },
         {
           "abilityID": 20431,
-          "simpleDesc": "Giá trị Chấn động số lượng và [Vibration] số lần được chuyển đổi được áp dụng gấp 1.5 lần"
+          "simpleDesc": "Cường độ và Số lượng [Vibration] được chuyển đổi nhân với 1.5"
         },
         {
           "abilityID": 20432,
-          "simpleDesc": "Gây (12 - Tốc độ hiện tại) [Vibration] số lượng"
+          "simpleDesc": "Gây (12 - Tốc độ hiện tại) Cường độ [Vibration]"
         }
       ]
     },
     {
       "id": 2044,
       "name": "Đồng hồ bỏ túi: Loại E",
-      "desc": "Khi bắt đầu lượt, nếu có từ 5 Bản thể trở lên sở hữu kĩ năng tấn công có khả năng gây Chấn động số lượng, Chấn động số lần hoặc Chấn động đặc biệt, kích hoạt trong suốt trận chiến này (Ngoại trừ kĩ năng E.G.O và nhân viên dự bị)\n\nĐồng minh có khả năng gây Chấn động số lượng, [Vibration] số lần hoặc Chấn động đặc biệt khi sử dụng Kĩ năng 3 được +2 Sức mạnh đồng xu, Sát lượng +25%\n\nKhi đồng minh có khả năng gây [Vibration] số lượng, [Vibration] số lần hoặc Chấn động đặc biệt gây sát thương lên kẻ địch có Tốc độ thấp hơn bản thân từ 2 trở lên, Sát thương gây ra +(Số lượng [Vibration] mục tiêu đang sở hữu, tối đa 25)%, mỗi khi gây sát thương sẽ gây 2 [DefenseDown] (Tối đa 6)\n\nKhi bắt đầu lượt đầu tiên, gây cho 1 kẻ địch có Tốc độ cao nhất (12 - Tốc độ hiện tại) [Vibration] số lượng (Tối thiểu 6) và gây [Vibration] số lần bằng một nửa giá trị đó (Làm tròn lên, nếu là Bất thường thì là 1 bộ phận, tối đa 1 lần mỗi Wave)",
+      "desc": "Khi bắt đầu lượt, nếu có từ 5 Bản sắc trở lên sở hữu kĩ năng tấn công có khả năng gây Cường độ hoặc Số lượng [Vibration], hoặc Chấn động đặc biệt, kích hoạt trong suốt trận chiến này (ngoại trừ kĩ năng E.G.O và nhân viên dự bị)\n\nKĩ năng 3 của đồng minh có khả năng gây Cường độ hoặc Số lượng [Vibration], hoặc Chấn động đặc biệt: +2 Sức mạnh Đồng xu và sát thương gây ra +25%\n\nKhi đồng minh có khả năng gây Cường độ hoặc Số lượng [Vibration], hoặc Chấn động đặc biệt gây sát thương lên kẻ địch có Tốc độ thấp hơn bản thân từ 2 trở lên, sát thương gây ra +(Cường độ [Vibration] của mục tiêu, tối đa 25)%, mỗi khi gây sát thương gây 2 [DefenseDown] (Tối đa 6)\n\nKhi bắt đầu lượt, gây cho 1 kẻ địch có Tốc độ cao nhất (12 - Tốc độ hiện tại) Cường độ [Vibration] (Tối thiểu 6) và Số lượng [Vibration] bằng một nửa giá trị đó (Làm tròn lên, nếu là Dị thường thì tính cho 1 bộ phận, 1 lần mỗi Wave)",
       "simpleDesc": [
         {
           "abilityID": 2044,
-          "simpleDesc": "Sức mạnh đồng xu Kĩ năng 3 +2, Sát lượng +25%"
+          "simpleDesc": "Sức mạnh Đồng xu Kĩ năng 3 +2, sát thương +25%"
         },
         {
           "abilityID": 20441,
-          "simpleDesc": "Sát thương gây ra +(Số lượng [Vibration] mục tiêu đang sở hữu)%, mỗi khi gây sát thương sẽ gây 2 [DefenseDown]"
+          "simpleDesc": "Sát thương gây ra +(Cường độ [Vibration] của mục tiêu)%, mỗi khi gây sát thương gây 2 [DefenseDown]"
         },
         {
           "abilityID": 20442,
-          "simpleDesc": "Gây (12 - Tốc độ hiện tại) [Vibration] số lượng và [Vibration] số lần bằng một nửa giá trị đó"
+          "simpleDesc": "Gây (12 - Tốc độ hiện tại) Cường độ [Vibration] và Số lượng [Vibration] bằng một nửa giá trị đó"
         }
       ]
     },
     {
       "id": 2045,
       "name": "Đồng hồ bỏ túi: Loại Y",
-      "desc": "Khi bắt đầu lượt, nếu có từ 5 Bản thể trở lên sở hữu kĩ năng tấn công có khả năng gây Chấn động số lượng, Chấn động số lần hoặc Chấn động đặc biệt, kích hoạt trong suốt trận chiến này (Ngoại trừ kĩ năng E.G.O và nhân viên dự bị)\n\nĐồng minh có khả năng gây Chấn động số lượng, [Vibration] số lần, hoặc Chấn động đặc biệt khi sử dụng Kĩ năng 3 được +2 Sức mạnh đồng xu, Sát lượng +25%\n\nNếu là Bản thể thuộc Yurodiviye, hiệu ứng được tăng cường, Kĩ năng 3 được +2 Sức mạnh đồng xu, Sát lượng +(25 + Tổng [Vibration] số lượng và [Vibration] số lần của mục tiêu, tối đa 100)%\n\nKhi bắt đầu lượt, Bản thể thuộc Yurodiviye được tăng 3 [Vibration] số lần của bản thân",
+      "desc": "Khi bắt đầu lượt, nếu có từ 5 Bản sắc trở lên sở hữu kĩ năng tấn công có khả năng gây Cường độ hoặc Số lượng [Vibration], hoặc Chấn động đặc biệt, kích hoạt trong suốt trận chiến này (ngoại trừ kĩ năng E.G.O và nhân viên dự bị)\n\nKĩ năng 3 của đồng minh có khả năng gây Cường độ hoặc Số lượng [Vibration], hoặc Chấn động đặc biệt: +2 Sức mạnh Đồng xu và sát thương gây ra +25%\n\nBản sắc thuộc Yurodivy: Kĩ năng 3 nhận +2 Sức mạnh Đồng xu và sát thương gây ra +(25 + Tổng Cường độ và Số lượng [Vibration] của mục tiêu, tối đa 100)%\n\nBản sắc thuộc Yurodivy: nhận +3 Số lượng [Vibration] khi bắt đầu lượt.",
       "simpleDesc": [
         {
           "abilityID": 2045,
-          "simpleDesc": "Sức mạnh đồng xu Kĩ năng 3 +2, Sát lượng +25%"
+          "simpleDesc": "Sức mạnh Đồng xu Kĩ năng 3 +2, sát thương +25%"
         },
         {
           "abilityID": 20451,
-          "simpleDesc": "Sức mạnh đồng xu Kĩ năng 3 +2, Sát lượng +(25 + Tổng Chấn động số lượng và [Vibration] số lần của mục tiêu)%"
+          "simpleDesc": "Kĩ năng 3 nhận +2 Sức mạnh Đồng xu, sát thương +(25 + Tổng Cường độ và Số lượng [Vibration] của mục tiêu)%"
         },
         {
           "abilityID": 20452,
-          "simpleDesc": "[Vibration] số lần tăng 3"
+          "simpleDesc": "Nhận +3 Số lượng [Vibration]"
         }
       ]
     },
     {
       "id": 2046,
       "name": "Đồng hồ bỏ túi: Loại P",
-      "desc": "Khi bắt đầu lượt, nếu có từ 5 Bản thể trở lên sở hữu kĩ năng tấn công có khả năng gây Chấn động số lượng, Chấn động số lần hoặc Chấn động đặc biệt, kích hoạt trong suốt trận chiến này (Ngoại trừ kĩ năng E.G.O và nhân viên dự bị)\n\nĐồng minh có khả năng gây Chấn động số lượng, [Vibration] số lần hoặc Chấn động đặc biệt khi sử dụng Kĩ năng 3 được +2 Sức mạnh đồng xu, Sát lượng +25%\n\nKhi đồng minh có khả năng gây [Vibration] số lượng, [Vibration] số lần hoặc Chấn động đặc biệt bắt đầu khớp, nếu Tốc độ của kẻ địch cao hơn bản thân từ 2 trở lên thì Sức mạnh khớp +2, Sát thương gây ra +(Số lượng [Vibration] mục tiêu đang sở hữu, tối đa 50)%\n\nKhi bắt đầu lượt, 3 đồng minh có Tốc độ thấp nhất nhận [AttackUp] 5, [AttackUp] 3, [AttackUp] 2 theo thứ tự Tốc độ từ thấp đến cao",
+      "desc": "Khi bắt đầu lượt, nếu có từ 5 Bản sắc trở lên sở hữu kĩ năng tấn công có khả năng gây Cường độ hoặc Số lượng [Vibration], hoặc Chấn động đặc biệt, kích hoạt trong suốt trận chiến này (ngoại trừ kĩ năng E.G.O và nhân viên dự bị)\n\nKĩ năng 3 của đồng minh có khả năng gây Cường độ hoặc Số lượng [Vibration], hoặc Chấn động đặc biệt: +2 Sức mạnh Đồng xu và sát thương gây ra +25%\n\nKhi đồng minh có khả năng gây Cường độ hoặc Số lượng [Vibration], hoặc Chấn động đặc biệt Đối kháng với kẻ địch có Tốc độ cao hơn bản thân từ 2 trở lên: Sức mạnh Đối kháng +2, sát thương gây ra +(Cường độ [Vibration] của mục tiêu, tối đa 50)%\n\nKhi bắt đầu lượt: theo thứ tự từ chậm nhất đến nhanh nhất, 3 đồng minh có Tốc độ thấp nhất lần lượt nhận 5 [AttackUp], 3 [AttackUp] và 2 [AttackUp].",
       "simpleDesc": [
         {
           "abilityID": 2046,
-          "simpleDesc": "Sức mạnh đồng xu Kĩ năng 3 +2, Sát lượng +25%"
+          "simpleDesc": "Sức mạnh Đồng xu Kĩ năng 3 +2, sát thương +25%"
         },
         {
           "abilityID": 20461,
-          "simpleDesc": "Sức mạnh khớp +2, Sát thương gây ra + (Số lượng [Vibration] mục tiêu đang sở hữu)%"
+          "simpleDesc": "Sức mạnh Đối kháng +2, sát thương gây ra +(Cường độ [Vibration] của mục tiêu)%"
         },
         {
           "abilityID": 20462,

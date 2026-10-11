@@ -3,11 +3,11 @@
     {
       "id": 1001,
       "name": "Mặt Nạ Tín Đồ",
-      "desc": "Cấp Phòng Thủ của tất cả đồng minh +5",
+      "desc": "Cấp độ Phòng thủ của tất cả đồng minh +5",
       "simpleDesc": [
         {
           "abilityID": 1001,
-          "simpleDesc": "Cấp Phòng Thủ +5"
+          "simpleDesc": "Cấp độ Phòng thủ +5"
         }
       ]
     },
@@ -25,44 +25,44 @@
     {
       "id": 1003,
       "name": "Mảnh Vụn Thối Rữa",
-      "desc": "Khi bắt đầu lượt, hồi 5 HP cho đồng minh có HP dưới 50%",
+      "desc": "Khi bắt đầu lượt, hồi 5 HP cho đồng minh có HP từ 50% trở xuống",
       "simpleDesc": [
         {
           "abilityID": 1003,
-          "simpleDesc": "Hồi 5 HP cho đồng minh có HP dưới 50%"
+          "simpleDesc": "Hồi 5 HP cho đồng minh có HP từ 50% trở xuống"
         }
       ]
     },
     {
       "id": 1004,
       "name": "Mặt Nạ Tín Đồ Dính Máu",
-      "desc": "Cấp Tấn Công của tất cả đồng minh +5, Cấp Phòng Thủ +5",
+      "desc": "Cấp độ Tấn công và Cấp độ Phòng thủ của tất cả đồng minh +5",
       "simpleDesc": [
         {
           "abilityID": 1004,
-          "simpleDesc": "Cấp Tấn Công +5, Cấp Phòng Thủ +5"
+          "simpleDesc": "Cấp độ Tấn công và Cấp độ Phòng thủ +5"
         }
       ]
     },
     {
       "id": 1005,
       "name": "Trâm Cài Gỗ Mun",
-      "desc": "Mỗi khi bắt đầu trận chiến, gây Trói buộc 2 cho toàn bộ kẻ địch trong 3 lượt",
+      "desc": "Trong 3 lượt đầu của mỗi trận chiến, gây 2 Trói buộc lên toàn bộ kẻ địch",
       "simpleDesc": [
         {
           "abilityID": 1005,
-          "simpleDesc": "Gây Trói buộc 2"
+          "simpleDesc": "Gây 2 Trói buộc"
         }
       ]
     },
     {
       "id": 1006,
       "name": "Phù Điêu Tận Thế",
-      "desc": "Mỗi khi bắt đầu trận chiến, gây Bỏng 1 cho toàn bộ kẻ địch ở lượt đầu tiên (Kích hoạt 5 lần)",
+      "desc": "Ở lượt đầu của mỗi trận chiến, gây 1 Bỏng cho toàn bộ kẻ địch (Kích hoạt 5 lần)",
       "simpleDesc": [
         {
           "abilityID": 1006,
-          "simpleDesc": "Gây Bỏng 1"
+          "simpleDesc": "Gây 1 Bỏng"
         }
       ]
     },
@@ -103,29 +103,29 @@
     {
       "id": 1014,
       "name": "Dây Cót Cầu Vồng",
-      "desc": "Mỗi khi bắt đầu lượt, 1 đồng minh có HP hiện tại thấp nhất nhận Bảo vệ 2",
+      "desc": "Mỗi khi bắt đầu lượt, 1 đồng minh có HP hiện tại thấp nhất nhận 2 Bảo hộ",
       "simpleDesc": [
         {
           "abilityID": 1014,
-          "simpleDesc": "Nhận Bảo vệ 2"
+          "simpleDesc": "Nhận 2 Bảo hộ"
         }
       ]
     },
     {
       "id": 1015,
       "name": "Dây Cót Gỉ Sét",
-      "desc": "Mỗi khi bắt đầu lượt, 1 đồng minh có HP hiện tại thấp nhất nhận Bảo vệ 1",
+      "desc": "Mỗi khi bắt đầu lượt, 1 đồng minh có HP hiện tại thấp nhất nhận 1 Bảo hộ",
       "simpleDesc": [
         {
           "abilityID": 1015,
-          "simpleDesc": "Nhận Bảo vệ 1"
+          "simpleDesc": "Nhận 1 Bảo hộ"
         }
       ]
     },
     {
       "id": 1016,
       "name": "Thiết Bị Phẫu Thuật Khẩn Cấp",
-      "desc": "Trong trận chiến, khi nhận sát thương khiến HP trở về 0, HP sẽ không giảm xuống dưới 1.\nỞ lượt kế tiếp, hồi đầy HP và nhận Phẫu Thuật 3.\nSau khi kết thúc trận chiến, đối tượng sẽ chết dù vẫn còn HP.\n(Chỉ kích hoạt 1 lần trong Dungeon)",
+      "desc": "Trong trận chiến, khi nhận sát thương khiến HP trở về 0, HP sẽ không giảm xuống dưới 1.\nỞ lượt kế tiếp, hồi đầy HP và nhận Phẫu Thuật 3.\nSau khi kết thúc trận chiến, đối tượng sẽ chết dù vẫn còn HP.\n(Kích hoạt 1 lần trong phụ bản, sau đó biến mất)",
       "simpleDesc": [
         {
           "abilityID": 1016,
@@ -139,23 +139,23 @@
     },
     {
       "id": 1018,
-      "name": "Ruy Băng Ngọ Ngậy",
-      "desc": "Khi thắng khiếu chiến bằng kĩ năng hệ Sắc Dục, gây Trói buộc, Mong manh 1 ở lượt kế tiếp",
+      "name": "Ruy Băng Ngọ Nguậy",
+      "desc": "Khi thắng Đối kháng bằng kĩ năng hệ Sắc dục, gây 1 Trói buộc và 1 Mong manh vào lượt kế tiếp",
       "simpleDesc": [
         {
           "abilityID": 1018,
-          "simpleDesc": "Gây Trói buộc 1"
+          "simpleDesc": "Gây 1 Trói buộc"
         },
         {
           "abilityID": 10181,
-          "simpleDesc": "Gây Mong manh 1"
+          "simpleDesc": "Gây 1 Mong manh"
         }
       ]
     },
     {
       "id": 1021,
       "name": "Một Ấn Ký",
-      "desc": "Ý chí của Sinclair khi chuẩn bị đối đầu với Kromer. Khi vẽ đủ 3 vạch thì...",
+      "desc": "Quyết tâm đối đầu với Kromer của Sinclair. Khi vẽ đủ 3 vạch thì...",
       "simpleDesc": [
         {
           "abilityID": 1021,
@@ -166,7 +166,7 @@
     {
       "id": 1022,
       "name": "Một Ấn Ký",
-      "desc": "Ý chí của Sinclair khi chuẩn bị đối đầu với Kromer. Khi vẽ đủ 3 vạch thì...",
+      "desc": "Quyết tâm đối đầu với Kromer của Sinclair. Khi vẽ đủ 3 vạch thì...",
       "simpleDesc": [
         {
           "abilityID": 1022,
@@ -177,33 +177,33 @@
     {
       "id": 1023,
       "name": "Một Ấn Ký",
-      "desc": "Ý chí của Sinclair khi chuẩn bị đối đầu với Kromer. Khi vẽ đủ 3 vạch thì...",
+      "desc": "Quyết tâm đối đầu với Kromer của Sinclair. Khi vẽ đủ 3 vạch thì...",
       "simpleDesc": [
         {
           "abilityID": 1023,
-          "simpleDesc": "Trái tim của Sinclair"
+          "simpleDesc": "Ý chí của Sinclair"
         }
       ]
     },
     {
       "id": 1024,
-      "name": "Một dấu ấn nào đó",
-      "desc": "Trái tim của Sinclair đang nỗ lực đối đầu với Kromer. Khi 3 vạch được kẻ lên...",
+      "name": "Một Ấn Ký",
+      "desc": "Quyết tâm đối đầu với Kromer của Sinclair. Khi vẽ đủ 3 vạch thì...",
       "simpleDesc": [
         {
           "abilityID": 1024,
-          "simpleDesc": "Trái tim của Sinclair"
+          "simpleDesc": "Ý chí của Sinclair"
         }
       ]
     },
     {
       "id": 1032,
       "name": "Đống đuốc",
-      "desc": "Mỗi khi vào trận đấu, nhận Nhanh nhẹn 3.\nSau tổng cộng 3 lần chiến đấu sẽ biến mất",
+      "desc": "Bắt đầu 3 trận đấu kế tiếp với 3 Nhanh nhẹn.\nBiến mất sau đó",
       "simpleDesc": [
         {
           "abilityID": 1032,
-          "simpleDesc": "Nhận Nhanh nhẹn 3"
+          "simpleDesc": "Nhận 3 Nhanh nhẹn"
         }
       ]
     },
@@ -220,16 +220,16 @@
     },
     {
       "id": 1034,
-      "name": "Bờm màu huyết đỏ",
-      "desc": "Chỉ áp dụng cho Sinner có kĩ năng hệ Sắc dục\nNếu không bị đánh trúng trong lượt này, nhận Nhanh nhẹn 2, Tăng Sức mạnh thủ 2 vào lượt sau\nNếu bị đánh trúng, nhận Trói buộc 2, Tăng Sức mạnh công 2 vào lượt sau",
+      "name": "Bờm đỏ máu",
+      "desc": "Chỉ áp dụng cho Tù nhân có kĩ năng hệ Sắc dục\nNếu không nhận sát thương từ đòn tấn công trong lượt này, nhận 2 Nhanh nhẹn và 2 Tăng Uy lực Phòng thủ vào lượt sau\nNếu nhận sát thương từ đòn tấn công trong lượt này, nhận 2 Trói buộc và 2 Tăng Uy lực Tấn công vào lượt sau",
       "simpleDesc": [
         {
           "abilityID": 1034,
-          "simpleDesc": "Nhận Nhanh nhẹn 2, Tăng Sức mạnh thủ 2"
+          "simpleDesc": "Nhận 2 Nhanh nhẹn, 2 Tăng Uy lực Phòng thủ"
         },
         {
           "abilityID": 10341,
-          "simpleDesc": "Nhận Trói buộc 2, Tăng Sức mạnh công 2"
+          "simpleDesc": "Nhận 2 Trói buộc, 2 Tăng Uy lực Tấn công"
         }
       ]
     },
@@ -247,7 +247,7 @@
     {
       "id": 1038,
       "name": "Minh chứng của sự Thuần khiết",
-      "desc": "Tăng Sức mạnh kĩ năng hệ Phẫn nộ của Identity đã thực hiện nghi lễ tương ứng +2",
+      "desc": "Sức mạnh kĩ năng hệ Phẫn nộ của Bản sắc đã thực hiện nghi lễ +2",
       "simpleDesc": [
         {
           "abilityID": 1038,
@@ -258,7 +258,7 @@
     {
       "id": 1039,
       "name": "Minh chứng của Nước mắt",
-      "desc": "Tăng Sức mạnh kĩ năng hệ U sầu của Identity đã thực hiện nghi lễ tương ứng +2",
+      "desc": "Sức mạnh kĩ năng hệ U sầu của Bản sắc đã thực hiện nghi lễ +2",
       "simpleDesc": [
         {
           "abilityID": 1039,
@@ -269,22 +269,22 @@
     {
       "id": 1040,
       "name": "Xương sọ phát sáng",
-      "desc": "Nếu đã nhận từ 10 sát thương trở lên ở lượt trước, hồi 5-15 Máu khi bắt đầu lượt",
+      "desc": "Nếu đã nhận từ 10 sát thương trở lên ở lượt trước, hồi 5-15 HP khi bắt đầu lượt",
       "simpleDesc": [
         {
           "abilityID": 1040,
-          "simpleDesc": "Hồi 5-15 Máu"
+          "simpleDesc": "Hồi 5-15 HP"
         }
       ]
     },
     {
       "id": 1041,
       "name": "Bàn tay rỉ máu",
-      "desc": "Khi bắt đầu lượt, nếu Máu dưới 25% thì nhận Tăng Sức mạnh công 2",
+      "desc": "Khi bắt đầu lượt, đồng minh có HP từ 25% trở xuống nhận 2 Tăng Uy lực Tấn công",
       "simpleDesc": [
         {
           "abilityID": 1041,
-          "simpleDesc": "Nhận Tăng Sức mạnh công 2"
+          "simpleDesc": "Nhận 2 Tăng Uy lực Tấn công"
         }
       ]
     },
@@ -302,7 +302,7 @@
     {
       "id": 1043,
       "name": "Minh chứng của sự Chuộc tội",
-      "desc": "Tăng Sức mạnh kĩ năng hệ Sắc dục của Identity đã thực hiện nghi lễ tương ứng +2",
+      "desc": "Sức mạnh kĩ năng hệ Sắc dục của Bản sắc đã thực hiện nghi lễ +2",
       "simpleDesc": [
         {
           "abilityID": 1043,
@@ -324,44 +324,44 @@
     {
       "id": 1046,
       "name": "Xác ve xanh",
-      "desc": "Nếu đồng minh bị đánh trúng và Máu giảm xuống dưới 1, nhân vật đó sẽ hồi 50% Máu tối đa\n(Chỉ kích hoạt 1 lần duy nhất trong phụ bản/biến mất sau khi kích hoạt)",
+      "desc": "Nếu đồng minh bị đánh trúng và HP giảm xuống dưới 1, nhân vật đó hồi 50% HP tối đa\n(Kích hoạt 1 lần trong phụ bản, sau đó biến mất)",
       "simpleDesc": [
         {
           "abilityID": 1046,
-          "simpleDesc": "Hồi 50% Máu tối đa"
+          "simpleDesc": "Hồi 50% HP tối đa"
         }
       ]
     },
     {
       "id": 1048,
       "name": "Mũ giáp",
-      "desc": "Sức mạnh kĩ năng thủ +1",
+      "desc": "Sức mạnh Kĩ năng Phòng thủ +1",
       "simpleDesc": [
         {
           "abilityID": 1048,
-          "simpleDesc": "Sức mạnh kĩ năng thủ +1"
+          "simpleDesc": "Sức mạnh Kĩ năng Phòng thủ +1"
         }
       ]
     },
     {
       "id": 1049,
-      "name": "Búa vàng",
-      "desc": "Khi gây Chấn động bằng kĩ năng, có 50% xác suất gây thêm +1",
+      "name": "Búa",
+      "desc": "Khi gây Chấn động bằng hiệu ứng Kĩ năng, có 50% xác suất gây thêm 1",
       "simpleDesc": [
         {
           "abilityID": 1049,
-          "simpleDesc": "Gây thêm Chấn động 1"
+          "simpleDesc": "Gây thêm 1 Chấn động"
         }
       ]
     },
     {
       "id": 1050,
       "name": "Đinh",
-      "desc": "Khi gây Xuất huyết bằng kĩ năng, có 50% xác suất gây thêm +1",
+      "desc": "Khi gây Xuất huyết bằng hiệu ứng Kĩ năng, có 50% xác suất gây thêm 1",
       "simpleDesc": [
         {
           "abilityID": 1050,
-          "simpleDesc": "Gây thêm Xuất huyết 1"
+          "simpleDesc": "Gây thêm 1 Xuất huyết"
         }
       ]
     },
@@ -383,22 +383,22 @@
     {
       "id": 1052,
       "name": "Đùi gà mọng nước nóng hổi",
-      "desc": "Khi Kĩ năng gây [Combustion] cho kẻ địch, số lượt [Combustion] tăng thêm 5",
+      "desc": "Khi Kĩ năng gây [Combustion] cho kẻ địch, Số lượng [Combustion] tăng thêm 5",
       "simpleDesc": [
         {
           "abilityID": 1052,
-          "simpleDesc": "Khi Kĩ năng gây Bỏng, số lượt Bỏng tăng thêm 5"
+          "simpleDesc": "Khi Kĩ năng gây Bỏng, Số lượng Bỏng tăng thêm 5"
         }
       ]
     },
     {
       "id": 1053,
       "name": "Ức gà khô khốc",
-      "desc": "Khi Kĩ năng gây [Burst] cho kẻ địch, số lượt [Burst] tăng thêm 5.",
+      "desc": "Khi Kĩ năng gây [Burst] cho kẻ địch, Số lượng [Burst] tăng thêm 5.",
       "simpleDesc": [
         {
           "abilityID": 1053,
-          "simpleDesc": "Khi Kĩ năng gây Vết rách, số lượt Vết rách tăng thêm 5"
+          "simpleDesc": "Khi Kĩ năng gây Vết rách, Số lượng Vết rách tăng thêm 5"
         }
       ]
     },
@@ -416,18 +416,18 @@
     {
       "id": 1055,
       "name": "Kim và Chỉ Ô nhiễm",
-      "desc": "Mỗi lượt, áp dụng cho Kĩ năng đầu tiên gây sát thương lên kẻ địch\n\nGây thêm (Sát thương ÷ 3) số tầng Xuất huyết",
+      "desc": "Mỗi lượt, áp dụng cho Kĩ năng đầu tiên gây sát thương lên kẻ địch\n\nGây (Sát thương ÷ 3) Cường độ Xuất huyết",
       "simpleDesc": [
         {
           "abilityID": 1055,
-          "simpleDesc": "Gây thêm (Sát thương ÷ 3) số tầng Xuất huyết"
+          "simpleDesc": "Gây (Sát thương ÷ 3) Cường độ Xuất huyết"
         }
       ]
     },
     {
       "id": 1056,
       "name": "Kim và Chỉ Sắc bén",
-      "desc": "Mỗi lượt, gây thêm sát thương cố định tương đương (Sát thương ÷ 2) của Kĩ năng đầu tiên gây sát thương lên kẻ địch",
+      "desc": "Mỗi lượt, Kĩ năng đầu tiên gây sát thương lên kẻ địch gây thêm sát thương cố định bằng (Sát thương ÷ 2)",
       "simpleDesc": [
         {
           "abilityID": 1056,
@@ -438,22 +438,22 @@
     {
       "id": 2001,
       "name": "Ống thuốc nhỏ",
-      "desc": "Vào đầu lượt, nếu có đồng minh có Máu dưới 40%, hồi 100% Máu tối đa (Kích hoạt 1 lần mỗi Tầng)",
+      "desc": "Khi bắt đầu lượt, nếu có đồng minh có HP dưới 40%, hồi 100% HP tối đa (Kích hoạt 1 lần mỗi tầng)",
       "simpleDesc": [
         {
           "abilityID": 2001,
-          "simpleDesc": "Khi thỏa mãn điều kiện, hồi 100% Máu"
+          "simpleDesc": "Khi thỏa mãn điều kiện, hồi 100% HP"
         }
       ]
     },
     {
       "id": 2002,
       "name": "Mảnh vỏ trứng vỡ",
-      "desc": "Khi bắt đầu lượt 1 của trận chiến, nhận thêm +2 tài nguyên E.G.O ngẫu nhiên của 1 hệ hiện đang sở hữu",
+      "desc": "Khi bắt đầu lượt 1 của mỗi trận chiến, nhận 2 tài nguyên E.G.O của một hệ ngẫu nhiên trong số các hệ đang sở hữu",
       "simpleDesc": [
         {
           "abilityID": 2002,
-          "simpleDesc": "Nhận thêm +2 tài nguyên E.G.O ngẫu nhiên trong số các hệ đang sở hữu"
+          "simpleDesc": "Nhận 2 tài nguyên E.G.O của một hệ ngẫu nhiên trong số các hệ đang sở hữu"
         }
       ]
     },
@@ -503,19 +503,19 @@
     },
     {
       "id": 2007,
-      "name": "Nụ hoa Cay đắng",
-      "desc": "Khi Kĩ năng gây Trầm luân, có 50% xác suất gây thêm 1 số tầng Trầm luân",
+      "name": "Nụ hoa Cay nồng",
+      "desc": "Khi gây Trầm luân bằng hiệu ứng Kĩ năng, có 50% xác suất gây thêm 1 Cường độ Trầm luân",
       "simpleDesc": [
         {
           "abilityID": 2007,
-          "simpleDesc": "Khi Kĩ năng gây Trầm luân, có 50% xác suất gây thêm 1 số tầng Trầm luân"
+          "simpleDesc": "Khi gây Trầm luân bằng hiệu ứng Kĩ năng, có 50% xác suất gây thêm 1 Cường độ Trầm luân"
         }
       ]
     },
     {
       "id": 2008,
       "name": "Nước mắt Nóng hổi",
-      "desc": "Sát thương nhận vào từ hệ Phẫn nộ -10%\nKhi nhận sát thương, nhận 1 Tăng Sức mạnh Tấn công vào lượt tiếp theo (Kích hoạt 1 lần mỗi lượt trên mỗi Người tù)",
+      "desc": "Sát thương nhận vào từ hệ Phẫn nộ -10%\nKhi nhận sát thương, nhận 1 Tăng Uy lực Tấn công vào lượt tiếp theo (Kích hoạt 1 lần mỗi lượt cho mỗi Tù nhân)",
       "simpleDesc": [
         {
           "abilityID": 2009,
@@ -523,29 +523,29 @@
         },
         {
           "abilityID": 200901,
-          "simpleDesc": "Khi nhận sát thương, nhận 1 Tăng Sức mạnh Tấn công vào lượt tiếp theo"
+          "simpleDesc": "Khi nhận sát thương, nhận 1 Tăng Uy lực Tấn công vào lượt tiếp theo"
         }
       ]
     },
     {
       "id": 2009,
       "name": "Nước mắt Lạnh lẽo",
-      "desc": "Khi nhận sát thương, nhận 1 Bảo vệ vào lượt tiếp theo (Kích hoạt 1 lần mỗi lượt trên mỗi Người tù)",
+      "desc": "Khi nhận sát thương, nhận 1 Bảo hộ vào lượt tiếp theo (Kích hoạt 1 lần mỗi lượt cho mỗi Tù nhân)",
       "simpleDesc": [
         {
           "abilityID": 2009,
-          "simpleDesc": "Khi nhận sát thương, nhận 1 Bảo vệ vào lượt tiếp theo"
+          "simpleDesc": "Khi nhận sát thương, nhận 1 Bảo hộ vào lượt tiếp theo"
         }
       ]
     },
     {
       "id": 2010,
       "name": "Kí ức về Mảnh vỡ",
-      "desc": "Khi tiến hành Đối kháng bằng Kĩ năng hệ Ngạo mạn, Đố kị, Sức mạnh Đối kháng +1",
+      "desc": "Khi tiến hành Đối kháng bằng Kĩ năng hệ Ngạo mạn, Đố kỵ, Sức mạnh Đối kháng +1",
       "simpleDesc": [
         {
           "abilityID": 2010,
-          "simpleDesc": "Khi tiến hành Đối kháng bằng Kĩ năng hệ Ngạo mạn, Đố kị, Sức mạnh Đối kháng +1"
+          "simpleDesc": "Khi tiến hành Đối kháng bằng Kĩ năng hệ Ngạo mạn, Đố kỵ, Sức mạnh Đối kháng +1"
         }
       ]
     },
@@ -563,29 +563,29 @@
     {
       "id": 2012,
       "name": "Mảnh Hạ Tan Tác",
-      "desc": "Sát thương nhận vào thuộc tính Phàm ăn -10%\n\n<i>「Sẽ thật vô ích nếu cố gắng đoán định sự thất thường của thời tiết. Chỉ đành đợi một ngày bình yên rồi ló mặt ra mà thôi.」</i>",
+      "desc": "Sát thương nhận vào thuộc tính Phàm ăn -10%\n\n<i>「Ta đã thấy vô nghĩa khi cố đoán định sự thất thường của thời tiết. Ta chỉ chờ đến khi mọi thứ lắng lại, ngóng chờ ngày ấy đến mà thôi.」</i>",
       "simpleDesc": [
         {
           "abilityID": 2012,
-          "simpleDesc": "Sát thương nhận vào thuộc tính Phàm ăn -10%\n\n<i>「Cuối cùng cũng bắt đầu có ý nghĩ rằng... thật thảnh thơi khi chỉ cần nhìn nghiêng và để nó thấm sâu vào.」</i>"
+          "simpleDesc": "Sát thương nhận vào thuộc tính Phàm ăn -10%\n\n<i>「Than ôi, ta đã chủ quan khi nghĩ rằng chỉ cần nhìn nghiêng cho đến khi nó thấm vào là đủ... Đến giờ mới nhận ra điều đó.」</i>"
         }
       ]
     },
     {
       "id": 2013,
       "name": "Mảnh Thu Tan Tác",
-      "desc": "Sát thương nhận vào thuộc tính Trầm luân (Sinking) -10%\n\n<i>「Cuối cùng cũng bắt đầu có ý nghĩ rằng... thật thảnh thơi khi chỉ cần nhìn nghiêng và để nó thấm sâu vào.」</i>",
+      "desc": "Sát thương nhận vào thuộc tính Trầm luân -10%\n\n<i>「Than ôi, ta đã chủ quan khi nghĩ rằng chỉ cần nhìn nghiêng cho đến khi nó thấm vào là đủ... Đến giờ mới nhận ra điều đó.」</i>",
       "simpleDesc": [
         {
           "abilityID": 2013,
-          "simpleDesc": "Lượng sát thương nhận vào từ thuộc tính Trầm luân (Sinking) -10%"
+          "simpleDesc": "Lượng sát thương nhận vào từ thuộc tính Trầm luân -10%"
         }
       ]
     },
     {
       "id": 2014,
       "name": "Mảnh Đông Tan Tác",
-      "desc": "Sát thương nhận vào thuộc tính Lười biếng -10%\n\n<i>「Sự bùng nổ của Cửu Nhân Hội đã nghiền nát mọi thứ thành từng mảnh, và cũng đã ngăn chặn mọi thứ của ta.」</i>",
+      "desc": "Sát thương nhận vào thuộc tính Lười biếng -10%\n\n<i>「Vụ nổ của Cửu Nhân Hội đã làm tan tành mọi thứ, và mọi thứ của ta cũng dừng lại.」</i>",
       "simpleDesc": [
         {
           "abilityID": 2014,
@@ -596,22 +596,22 @@
     {
       "id": 2015,
       "name": "Mảnh Duyên Tan Vỡ",
-      "desc": "Sức mạnh Cuối cùng toàn bộ kĩ năng của Yi Sang +2\nNếu đồng minh tử trận, vào cuối lượt, các đồng minh còn sống nhận Nhanh nhẹn (Haste), Tăng Sức mạnh Tấn công 1 ở lượt kế tiếp (1 lần mỗi lượt)\n\n<i>「Nhìn lại hành trình đã qua... tất cả chúng ta đều đã đánh mất rất nhiều thứ.」</i>",
+      "desc": "Sức mạnh Cuối cùng của toàn bộ kĩ năng của Yi Sang +2\nNếu có đồng minh tử trận, vào cuối lượt, các đồng minh còn sống nhận 1 Nhanh nhẹn và 1 Tăng Uy lực Tấn công vào lượt kế tiếp (1 lần mỗi lượt)\n\n<i>「Nhìn lại hành trình đã qua... tất cả chúng ta đều đã đánh mất rất nhiều thứ.」</i>",
       "simpleDesc": [
         {
           "abilityID": 2015,
-          "simpleDesc": "Sức mạnh Cuối cùng toàn bộ kĩ năng của Yi Sang +2"
+          "simpleDesc": "Sức mạnh Cuối cùng của toàn bộ kĩ năng của Yi Sang +2"
         },
         {
           "abilityID": 201501,
-          "simpleDesc": "Nếu đồng minh tử trận, vào cuối lượt, các đồng minh còn sống nhận Nhanh nhẹn (Haste), Tăng Sức mạnh Tấn công 1 ở lượt kế tiếp (1 lần mỗi lượt)"
+          "simpleDesc": "Nếu có đồng minh tử trận, vào cuối lượt, các đồng minh còn sống nhận 1 Nhanh nhẹn và 1 Tăng Uy lực Tấn công vào lượt kế tiếp (1 lần mỗi lượt)"
         }
       ]
     },
     {
       "id": 2016,
       "name": "Mảnh Kí Ức Hồi Tưởng",
-      "desc": "Cấp độ của Yi Sang tăng lên 35.\nBậc Đồng bộ hóa Bản sắc, bậc Phân tích Tưởng tượng E.G.O của Yi Sang tăng lên 3\n\n<i>「Chúng ta không phải là những kẻ đầy tham vọng hay tham lam, chúng ta chỉ là những đứa trẻ sơ sinh yêu công nghệ mà thôi.」</i>",
+      "desc": "Cấp độ của Yi Sang tăng lên 35.\nBậc Đồng bộ Bản sắc, bậc Giải mã Huyền ảo E.G.O của Yi Sang tăng lên 3\n\n<i>「Chúng ta chẳng phải những kẻ đầy tham vọng, cũng chẳng phải những kẻ tham lam; chúng ta chỉ là những đứa trẻ yêu công nghệ mà thôi.」</i>",
       "simpleDesc": [
         {
           "abilityID": 2016,
@@ -619,7 +619,7 @@
         },
         {
           "abilityID": 201601,
-          "simpleDesc": "Bậc Đồng bộ hóa Bản sắc, bậc Phân tích Tưởng tượng E.G.O của Yi Sang tăng lên 3"
+          "simpleDesc": "Bậc Đồng bộ Bản sắc, bậc Giải mã Huyền ảo E.G.O của Yi Sang tăng lên 3"
         }
       ]
     }
