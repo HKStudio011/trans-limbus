@@ -2,32 +2,32 @@
   "dataList": [
     {
       "id": 1029,
-      "panicName": "Cảm giác tội lỗi",
-      "lowMoraleDescription": "Khi kết thúc lượt, nhận [Vulnerable], [MentalIncreaseDown] 1 vào lượt tiếp theo",
-      "panicDescription": "Khi kết thúc lượt, nhận [Vulnerable], [MentalIncreaseDown] 2 vào lượt tiếp theo"
+      "panicName": "Cảm Giác Tội Lỗi",
+      "lowMoraleDescription": "Khi kết thúc lượt, lượt tiếp theo nhận [Vulnerable], [MentalIncreaseDown] 1",
+      "panicDescription": "Khi kết thúc lượt, lượt tiếp theo nhận [Vulnerable], [MentalIncreaseDown] 2"
     },
     {
       "id": 1031,
-      "panicName": "Máu chiên",
-      "lowMoraleDescription": "Nếu mục tiêu không có [Laceration], Uy lực Đối kháng -1, khi trúng hồi phục HP dựa trên mức Uy lực [Laceration] của đối phương",
-      "panicDescription": "Nếu mục tiêu có [Laceration], Uy lực Đối kháng +2; nếu mục tiêu không có [Laceration], Uy lực Đối kháng -2; khi trúng hồi phục HP dựa trên mức Uy lực [Laceration] của đối phương"
+      "panicName": "Huyết Dương",
+      "lowMoraleDescription": "Nếu mục tiêu không có [Laceration], Uy lực Đối kháng -1; khi đánh trúng, hồi phục HP bằng Cường độ [Laceration] của mục tiêu",
+      "panicDescription": "Nếu mục tiêu có [Laceration], Uy lực Đối kháng +2; nếu mục tiêu không có [Laceration], Uy lực Đối kháng -2; khi đánh trúng, hồi phục HP bằng Cường độ [Laceration] của mục tiêu"
     },
     {
       "id": 1032,
-      "panicName": "Cảm giác tội lỗi",
-      "lowMoraleDescription": "Khi kết thúc lượt, nhận [Vulnerable], [MentalIncreaseDown] 1 vào lượt tiếp theo",
-      "panicDescription": "Khi kết thúc lượt, nhận [Vulnerable], [MentalIncreaseDown] 2 vào lượt tiếp theo"
+      "panicName": "Cảm Giác Tội Lỗi",
+      "lowMoraleDescription": "Khi kết thúc lượt, lượt tiếp theo nhận [Vulnerable], [MentalIncreaseDown] 1",
+      "panicDescription": "Khi kết thúc lượt, lượt tiếp theo nhận [Vulnerable], [MentalIncreaseDown] 2"
     },
     {
       "id": 1034,
       "panicName": "Sức nặng của trách nhiệm",
-      "lowMoraleDescription": "- Nhận [Enhancement] 2, [Vulnerable] 1, Tốc độ tối đa tăng thêm 2\n- Lượng hồi phục HP tăng 30%\n- Khi kết thúc lượt, nếu chỉ số [RegainedStrength] thấp hơn lúc bắt đầu lượt thì nhận [AttackUp] 2, [DefenseDown] 2 vào lượt tiếp theo",
-      "panicDescription": "- Nhận [Enhancement] 2, Tốc độ tối đa tăng thêm 2\n- Lượng hồi phục HP tăng 50%\n- Khi kết thúc lượt, nếu chỉ số [RegainedStrength] thấp hơn lúc bắt đầu lượt thì nhận [AttackUp] 3, [DefenseDown] 5 vào lượt tiếp theo"
+      "lowMoraleDescription": "- Nhận [Enhancement] 2, [Vulnerable] 1, Tốc độ tối đa tăng thêm 2\n- Lượng hồi phục HP tăng 30%\n- Khi kết thúc lượt, nếu giá trị [RegainedStrength] thấp hơn lúc bắt đầu lượt thì nhận [AttackUp] 2, [DefenseDown] 2 vào lượt tiếp theo",
+      "panicDescription": "- Nhận [Enhancement] 2, Tốc độ tối đa tăng thêm 2\n- Lượng hồi phục HP tăng 50%\n- Khi kết thúc lượt, nếu giá trị [RegainedStrength] thấp hơn lúc bắt đầu lượt thì nhận [AttackUp] 3, [DefenseDown] 5 vào lượt tiếp theo"
     },
     {
       "id": 1033,
-      "panicName": "Sự hưng phấn sát lục thức tỉnh",
-      "lowMoraleDescription": "Mỗi khi bắt đầu lượt, nhận [AttackUp] 2. Hiệu suất Tinh thần +2",
+      "panicName": "Sự Phấn Khích Sát Lục Thức Tỉnh",
+      "lowMoraleDescription": "Khi bắt đầu mỗi lượt, nhận [AttackUp] 2. Hiệu suất hồi phục Tinh thần (SP) +2",
       "panicDescription": "Khi bắt đầu lượt, nhận [DefenseUp] 6. Nhận [AttackUp] 3 vào lượt tiếp theo"
     }
   ]

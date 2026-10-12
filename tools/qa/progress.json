@@ -975,6 +975,58 @@
     "PanicInfo-a1c7p2.json"
    ],
    "note": "Batch25: Items nho + PanicInfo variants"
+  },
+  {
+   "ts": "2026-10-12T17:21:33.837Z",
+   "action": "start",
+   "files": [
+    "PanicInfo-a1c9p1.json",
+    "PanicInfo-a1c9p2.json",
+    "PanicInfo-a1c9p3.json",
+    "PanicInfo-cultivation.json",
+    "PanicInfo-exme.json",
+    "PanicInfo-fools.json"
+   ],
+   "note": ""
+  },
+  {
+   "ts": "2026-10-12T17:21:33.907Z",
+   "action": "done",
+   "files": [
+    "PanicInfo-a1c9p1.json",
+    "PanicInfo-a1c9p2.json",
+    "PanicInfo-a1c9p3.json",
+    "PanicInfo-cultivation.json",
+    "PanicInfo-exme.json",
+    "PanicInfo-fools.json"
+   ],
+   "note": "Batch26 (recovered): 65 chuoi, verify OK"
+  },
+  {
+   "ts": "2026-10-12T17:21:33.967Z",
+   "action": "claim",
+   "files": [
+    "PanicInfo-a1c7p3.json",
+    "PanicInfo-a1c8p1.json",
+    "PanicInfo-a1c8p2.json",
+    "PanicInfo-a1c8p3.json",
+    "PanicInfo-a1c9116.json",
+    "PanicInfo-a1c971.json"
+   ],
+   "note": ""
+  },
+  {
+   "ts": "2026-10-12T17:45:49.172Z",
+   "action": "done",
+   "files": [
+    "PanicInfo-a1c7p3.json",
+    "PanicInfo-a1c8p1.json",
+    "PanicInfo-a1c8p2.json",
+    "PanicInfo-a1c8p3.json",
+    "PanicInfo-a1c9116.json",
+    "PanicInfo-a1c971.json"
+   ],
+   "note": "Batch26: PanicInfo variants (retry OK)"
   }
  ],
  "files": {
@@ -8720,86 +8772,242 @@
   "PanicInfo-a1c7p3.json": {
    "group": "gameplay",
    "size": 2248,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-12T17:21:33.966Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-10-12T17:45:49.171Z",
+     "action": "done",
+     "note": "Batch26: PanicInfo variants (retry OK)"
+    }
+   ],
+   "started": "2026-10-12T17:21:33.966Z",
+   "finished": "2026-10-12T17:45:49.171Z",
+   "note": "Batch26: PanicInfo variants (retry OK)"
   },
   "PanicInfo-a1c8p1.json": {
    "group": "gameplay",
    "size": 384,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-12T17:21:33.966Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-10-12T17:45:49.171Z",
+     "action": "done",
+     "note": "Batch26: PanicInfo variants (retry OK)"
+    }
+   ],
+   "started": "2026-10-12T17:21:33.966Z",
+   "finished": "2026-10-12T17:45:49.171Z",
+   "note": "Batch26: PanicInfo variants (retry OK)"
   },
   "PanicInfo-a1c8p2.json": {
    "group": "gameplay",
    "size": 3294,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-12T17:21:33.966Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-10-12T17:45:49.171Z",
+     "action": "done",
+     "note": "Batch26: PanicInfo variants (retry OK)"
+    }
+   ],
+   "started": "2026-10-12T17:21:33.966Z",
+   "finished": "2026-10-12T17:45:49.171Z",
+   "note": "Batch26: PanicInfo variants (retry OK)"
   },
   "PanicInfo-a1c8p3.json": {
    "group": "gameplay",
    "size": 3325,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-12T17:21:33.966Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-10-12T17:45:49.171Z",
+     "action": "done",
+     "note": "Batch26: PanicInfo variants (retry OK)"
+    }
+   ],
+   "started": "2026-10-12T17:21:33.966Z",
+   "finished": "2026-10-12T17:45:49.171Z",
+   "note": "Batch26: PanicInfo variants (retry OK)"
   },
   "PanicInfo-a1c9116.json": {
    "group": "gameplay",
    "size": 799,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-12T17:21:33.966Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-10-12T17:45:49.171Z",
+     "action": "done",
+     "note": "Batch26: PanicInfo variants (retry OK)"
+    }
+   ],
+   "started": "2026-10-12T17:21:33.966Z",
+   "finished": "2026-10-12T17:45:49.171Z",
+   "note": "Batch26: PanicInfo variants (retry OK)"
   },
   "PanicInfo-a1c971.json": {
    "group": "gameplay",
    "size": 300,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-12T17:21:33.966Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-10-12T17:45:49.171Z",
+     "action": "done",
+     "note": "Batch26: PanicInfo variants (retry OK)"
+    }
+   ],
+   "started": "2026-10-12T17:21:33.966Z",
+   "finished": "2026-10-12T17:45:49.171Z",
+   "note": "Batch26: PanicInfo variants (retry OK)"
   },
   "PanicInfo-a1c9p1.json": {
    "group": "gameplay",
    "size": 1127,
-   "status": "pending",
+   "status": "done",
    "attempts": 0,
-   "history": []
+   "history": [
+    {
+     "ts": "2026-10-12T17:21:33.836Z",
+     "action": "start",
+     "note": ""
+    },
+    {
+     "ts": "2026-10-12T17:21:33.906Z",
+     "action": "done",
+     "note": "Batch26 (recovered): 65 chuoi, verify OK"
+    }
+   ],
+   "finished": "2026-10-12T17:21:33.906Z",
+   "note": "Batch26 (recovered): 65 chuoi, verify OK"
   },
   "PanicInfo-a1c9p2.json": {
    "group": "gameplay",
    "size": 1025,
-   "status": "pending",
+   "status": "done",
    "attempts": 0,
-   "history": []
+   "history": [
+    {
+     "ts": "2026-10-12T17:21:33.836Z",
+     "action": "start",
+     "note": ""
+    },
+    {
+     "ts": "2026-10-12T17:21:33.906Z",
+     "action": "done",
+     "note": "Batch26 (recovered): 65 chuoi, verify OK"
+    }
+   ],
+   "finished": "2026-10-12T17:21:33.906Z",
+   "note": "Batch26 (recovered): 65 chuoi, verify OK"
   },
   "PanicInfo-a1c9p3.json": {
    "group": "gameplay",
    "size": 3898,
-   "status": "pending",
+   "status": "done",
    "attempts": 0,
-   "history": []
+   "history": [
+    {
+     "ts": "2026-10-12T17:21:33.836Z",
+     "action": "start",
+     "note": ""
+    },
+    {
+     "ts": "2026-10-12T17:21:33.906Z",
+     "action": "done",
+     "note": "Batch26 (recovered): 65 chuoi, verify OK"
+    }
+   ],
+   "finished": "2026-10-12T17:21:33.906Z",
+   "note": "Batch26 (recovered): 65 chuoi, verify OK"
   },
   "PanicInfo-cultivation.json": {
    "group": "gameplay",
    "size": 955,
-   "status": "pending",
+   "status": "done",
    "attempts": 0,
-   "history": []
+   "history": [
+    {
+     "ts": "2026-10-12T17:21:33.836Z",
+     "action": "start",
+     "note": ""
+    },
+    {
+     "ts": "2026-10-12T17:21:33.906Z",
+     "action": "done",
+     "note": "Batch26 (recovered): 65 chuoi, verify OK"
+    }
+   ],
+   "finished": "2026-10-12T17:21:33.906Z",
+   "note": "Batch26 (recovered): 65 chuoi, verify OK"
   },
   "PanicInfo-exme.json": {
    "group": "gameplay",
    "size": 1939,
-   "status": "pending",
+   "status": "done",
    "attempts": 0,
-   "history": []
+   "history": [
+    {
+     "ts": "2026-10-12T17:21:33.836Z",
+     "action": "start",
+     "note": ""
+    },
+    {
+     "ts": "2026-10-12T17:21:33.906Z",
+     "action": "done",
+     "note": "Batch26 (recovered): 65 chuoi, verify OK"
+    }
+   ],
+   "finished": "2026-10-12T17:21:33.906Z",
+   "note": "Batch26 (recovered): 65 chuoi, verify OK"
   },
   "PanicInfo-fools.json": {
    "group": "gameplay",
    "size": 473,
-   "status": "pending",
+   "status": "done",
    "attempts": 0,
-   "history": []
+   "history": [
+    {
+     "ts": "2026-10-12T17:21:33.836Z",
+     "action": "start",
+     "note": ""
+    },
+    {
+     "ts": "2026-10-12T17:21:33.906Z",
+     "action": "done",
+     "note": "Batch26 (recovered): 65 chuoi, verify OK"
+    }
+   ],
+   "finished": "2026-10-12T17:21:33.906Z",
+   "note": "Batch26 (recovered): 65 chuoi, verify OK"
   },
   "PanicInfo-hidden.json": {
    "group": "gameplay",
@@ -21457,5 +21665,5 @@
    "history": []
   }
  },
- "updated": "2026-10-12T16:10:47.567Z"
+ "updated": "2026-10-12T17:45:49.172Z"
 }
