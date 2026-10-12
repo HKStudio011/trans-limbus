@@ -1065,6 +1065,60 @@
     "Passives_Abnormality_Refraction3.json"
    ],
    "note": "Batch27: PanicInfo nho + Passives_Abn Refraction"
+  },
+  {
+   "ts": "2026-10-12T19:57:59.082Z",
+   "action": "claim",
+   "files": [
+    "Passives_Abnormality_Refraction4.json",
+    "Passives_Abnormality_Refraction5.json",
+    "Passives_Abnormality_Refraction6.json",
+    "Passives_Abnormality-a1c10p1.json",
+    "Passives_Abnormality-a1c10p2.json",
+    "Passives_Abnormality-a1c10p3.json",
+    "Passives_Abnormality-a1c5p1.json",
+    "Passives_Abnormality-a1c5p2.json",
+    "Passives_Abnormality-a1c5p3.json",
+    "Passives_Abnormality-a1c6p2.json",
+    "Passives_Abnormality-a1c6p3.json",
+    "Passives_Abnormality-a1c7p1.json"
+   ],
+   "note": ""
+  },
+  {
+   "ts": "2026-10-12T19:58:16.072Z",
+   "action": "start",
+   "files": [
+    "Passives_Abnormality-a1c5p1.json",
+    "Passives_Abnormality-a1c5p2.json"
+   ],
+   "note": ""
+  },
+  {
+   "ts": "2026-10-12T19:58:16.135Z",
+   "action": "done",
+   "files": [
+    "Passives_Abnormality-a1c5p1.json",
+    "Passives_Abnormality-a1c5p2.json"
+   ],
+   "note": "placeholder {} rong"
+  },
+  {
+   "ts": "2026-10-12T21:29:23.701Z",
+   "action": "done",
+   "files": [
+    "Passives_Abnormality_Refraction4.json",
+    "Passives_Abnormality_Refraction5.json",
+    "Passives_Abnormality_Refraction6.json",
+    "Passives_Abnormality-a1c10p1.json",
+    "Passives_Abnormality-a1c10p2.json",
+    "Passives_Abnormality-a1c10p3.json",
+    "Passives_Abnormality-a1c5p3.json",
+    "Passives_Abnormality-a1c6p2.json",
+    "Passives_Abnormality-a1c6p3.json",
+    "Passives_Abnormality-a1c7p1.json"
+   ],
+   "note": "Batch28: Passives_Abn Refraction4-6 + a1c10/a1c5-a1c7"
   }
  ],
  "files": {
@@ -9321,65 +9375,192 @@
   "Passives_Abnormality-a1c10p1.json": {
    "group": "gameplay",
    "size": 26770,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-12T19:57:59.081Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-10-12T21:29:23.700Z",
+     "action": "done",
+     "note": "Batch28: Passives_Abn Refraction4-6 + a1c10/a1c5-a1c7"
+    }
+   ],
+   "started": "2026-10-12T19:57:59.081Z",
+   "finished": "2026-10-12T21:29:23.700Z",
+   "note": "Batch28: Passives_Abn Refraction4-6 + a1c10/a1c5-a1c7"
   },
   "Passives_Abnormality-a1c10p2.json": {
    "group": "gameplay",
    "size": 27156,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-12T19:57:59.081Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-10-12T21:29:23.700Z",
+     "action": "done",
+     "note": "Batch28: Passives_Abn Refraction4-6 + a1c10/a1c5-a1c7"
+    }
+   ],
+   "started": "2026-10-12T19:57:59.081Z",
+   "finished": "2026-10-12T21:29:23.700Z",
+   "note": "Batch28: Passives_Abn Refraction4-6 + a1c10/a1c5-a1c7"
   },
   "Passives_Abnormality-a1c10p3.json": {
    "group": "gameplay",
    "size": 44704,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-12T19:57:59.081Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-10-12T21:29:23.700Z",
+     "action": "done",
+     "note": "Batch28: Passives_Abn Refraction4-6 + a1c10/a1c5-a1c7"
+    }
+   ],
+   "started": "2026-10-12T19:57:59.081Z",
+   "finished": "2026-10-12T21:29:23.700Z",
+   "note": "Batch28: Passives_Abn Refraction4-6 + a1c10/a1c5-a1c7"
   },
   "Passives_Abnormality-a1c5p1.json": {
    "group": "gameplay",
    "size": 2,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-12T19:57:59.081Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-10-12T19:58:16.071Z",
+     "action": "start",
+     "note": ""
+    },
+    {
+     "ts": "2026-10-12T19:58:16.134Z",
+     "action": "done",
+     "note": "placeholder {} rong"
+    }
+   ],
+   "started": "2026-10-12T19:57:59.081Z",
+   "finished": "2026-10-12T19:58:16.134Z",
+   "note": "placeholder {} rong"
   },
   "Passives_Abnormality-a1c5p2.json": {
    "group": "gameplay",
    "size": 2,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-12T19:57:59.081Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-10-12T19:58:16.071Z",
+     "action": "start",
+     "note": ""
+    },
+    {
+     "ts": "2026-10-12T19:58:16.134Z",
+     "action": "done",
+     "note": "placeholder {} rong"
+    }
+   ],
+   "started": "2026-10-12T19:57:59.081Z",
+   "finished": "2026-10-12T19:58:16.134Z",
+   "note": "placeholder {} rong"
   },
   "Passives_Abnormality-a1c5p3.json": {
    "group": "gameplay",
    "size": 14001,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-12T19:57:59.081Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-10-12T21:29:23.700Z",
+     "action": "done",
+     "note": "Batch28: Passives_Abn Refraction4-6 + a1c10/a1c5-a1c7"
+    }
+   ],
+   "started": "2026-10-12T19:57:59.081Z",
+   "finished": "2026-10-12T21:29:23.700Z",
+   "note": "Batch28: Passives_Abn Refraction4-6 + a1c10/a1c5-a1c7"
   },
   "Passives_Abnormality-a1c6p2.json": {
    "group": "gameplay",
    "size": 4602,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-12T19:57:59.081Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-10-12T21:29:23.700Z",
+     "action": "done",
+     "note": "Batch28: Passives_Abn Refraction4-6 + a1c10/a1c5-a1c7"
+    }
+   ],
+   "started": "2026-10-12T19:57:59.081Z",
+   "finished": "2026-10-12T21:29:23.700Z",
+   "note": "Batch28: Passives_Abn Refraction4-6 + a1c10/a1c5-a1c7"
   },
   "Passives_Abnormality-a1c6p3.json": {
    "group": "gameplay",
    "size": 8084,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-12T19:57:59.081Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-10-12T21:29:23.700Z",
+     "action": "done",
+     "note": "Batch28: Passives_Abn Refraction4-6 + a1c10/a1c5-a1c7"
+    }
+   ],
+   "started": "2026-10-12T19:57:59.081Z",
+   "finished": "2026-10-12T21:29:23.700Z",
+   "note": "Batch28: Passives_Abn Refraction4-6 + a1c10/a1c5-a1c7"
   },
   "Passives_Abnormality-a1c7p1.json": {
    "group": "gameplay",
    "size": 5459,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-12T19:57:59.081Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-10-12T21:29:23.700Z",
+     "action": "done",
+     "note": "Batch28: Passives_Abn Refraction4-6 + a1c10/a1c5-a1c7"
+    }
+   ],
+   "started": "2026-10-12T19:57:59.081Z",
+   "finished": "2026-10-12T21:29:23.700Z",
+   "note": "Batch28: Passives_Abn Refraction4-6 + a1c10/a1c5-a1c7"
   },
   "Passives_Abnormality-a1c7p2.json": {
    "group": "gameplay",
@@ -9680,23 +9861,62 @@
   "Passives_Abnormality_Refraction4.json": {
    "group": "gameplay",
    "size": 7130,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-12T19:57:59.081Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-10-12T21:29:23.700Z",
+     "action": "done",
+     "note": "Batch28: Passives_Abn Refraction4-6 + a1c10/a1c5-a1c7"
+    }
+   ],
+   "started": "2026-10-12T19:57:59.081Z",
+   "finished": "2026-10-12T21:29:23.700Z",
+   "note": "Batch28: Passives_Abn Refraction4-6 + a1c10/a1c5-a1c7"
   },
   "Passives_Abnormality_Refraction5.json": {
    "group": "gameplay",
    "size": 7986,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-12T19:57:59.081Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-10-12T21:29:23.700Z",
+     "action": "done",
+     "note": "Batch28: Passives_Abn Refraction4-6 + a1c10/a1c5-a1c7"
+    }
+   ],
+   "started": "2026-10-12T19:57:59.081Z",
+   "finished": "2026-10-12T21:29:23.700Z",
+   "note": "Batch28: Passives_Abn Refraction4-6 + a1c10/a1c5-a1c7"
   },
   "Passives_Abnormality_Refraction6.json": {
    "group": "gameplay",
    "size": 49443,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-12T19:57:59.081Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-10-12T21:29:23.700Z",
+     "action": "done",
+     "note": "Batch28: Passives_Abn Refraction4-6 + a1c10/a1c5-a1c7"
+    }
+   ],
+   "started": "2026-10-12T19:57:59.081Z",
+   "finished": "2026-10-12T21:29:23.700Z",
+   "note": "Batch28: Passives_Abn Refraction4-6 + a1c10/a1c5-a1c7"
   },
   "Passives_Assist-Cultivation.json": {
    "group": "gameplay",
@@ -21859,5 +22079,5 @@
    "history": []
   }
  },
- "updated": "2026-10-12T19:57:56.116Z"
+ "updated": "2026-10-12T21:29:23.701Z"
 }

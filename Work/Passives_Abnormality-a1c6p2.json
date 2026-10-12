@@ -2,29 +2,29 @@
   "dataList": [
     {
       "id": 815901,
-      "name": "Kháng Tội lỗi",
-      "desc": "Nếu không ở trạng thái Hoảng loạn hoặc trạng thái Phá hủy bộ phận, khi Kĩ năng (Skill) tấn công trúng đích, đẩy lùi Thanh Hoảng loạn thêm 5 điểm"
+      "name": "Kháng Tội Lỗi",
+      "desc": "Nếu không ở trạng thái Choáng hoặc Bộ phận bị phá hủy, khi đánh trúng bằng Kĩ năng Tấn công, giảm Ngưỡng choáng của bản thân đi 5"
     },
     {
       "id": 816001,
-      "name": "Kháng Tội lỗi",
-      "desc": "Nếu không ở trạng thái Hoảng loạn hoặc trạng thái Phá hủy bộ phận, sát thương [Burst] (Rupture) bản thân nhận giảm 50%"
+      "name": "Kháng Tội Lỗi",
+      "desc": "Nếu không ở trạng thái Choáng hoặc Bộ phận bị phá hủy, sát thương [Burst] mà bản thân phải nhận giảm 50%"
     },
     {
       "id": 816501,
       "name": "Sự tự ti khôn nguôi",
-      "desc": "Khi HP của bản thân dưới 65%, nhận [AttackUp] 1, [TakeHpHealIncrease] 1 khi Thắng Match.\nKhi HP của bản thân dưới 40%, nhận [AttackUp] 1, [TakeHpHealIncrease] 1 khi sử dụng.\nChỉ cần điều kiện được thỏa mãn một lần, hiệu ứng sẽ duy trì kích hoạt cho điều kiện đó.",
-      "summary": "Nhận hiệu ứng tăng cường bản thân có lợi tùy theo điều kiện."
+      "desc": "Khi HP của bản thân dưới 65%: nhận 1 [AttackUp] và 1 [TakeHpHealIncrease] khi thắng Đối kháng.\nKhi HP của bản thân dưới 40%: nhận 1 [AttackUp] và 1 [TakeHpHealIncrease] khi sử dụng.\nHiệu ứng vẫn duy trì kể cả khi điều kiện không còn được thỏa mãn, miễn là chúng đã từng được kích hoạt ít nhất một lần.",
+      "summary": "Nhận các hiệu ứng tích cực tăng cường bản thân tùy theo điều kiện."
     },
     {
       "id": 816502,
       "name": "Cơn phẫn nộ hướng tới",
-      "desc": "Sau khi hồi phục khỏi trạng thái Hoảng loạn lần đầu, khi Thắng Match, gây thêm sát thương hệ Phẫn nộ bằng 10% lượng sát thương khi Kĩ năng (Skill) tấn công trúng đích."
+      "desc": "Sau lần đầu hồi phục khỏi trạng thái Choáng, khi thắng Đối kháng, gây thêm sát thương hệ Phẫn nộ bằng 10% sát thương gây ra khi đánh trúng."
     },
     {
       "id": 816503,
       "name": "Săn mồi",
-      "desc": "Khi tiêu diệt kẻ địch, hồi 200 HP cho bản thể và bộ phận.\nLượt tiếp theo nhận [Agility] 1, [DefenseUp] 3, [AttackUp] 2."
+      "desc": "Khi tiêu diệt kẻ địch, hồi 200 HP cho Bản thể và Bộ phận.\nNhận 1 [Agility], 3 [DefenseUp] và 2 [AttackUp] vào lượt kế tiếp."
     },
     {
       "id": 816504,
@@ -33,18 +33,18 @@
     },
     {
       "id": 816401,
-      "name": "Tự ghét bỏ bản thân",
-      "desc": "Heathcliff trở thành mục tiêu của tất cả Kĩ năng (Skill).\nNếu Heathcliff chết, bản thân sẽ giành chiến thắng trong trận chiến."
+      "name": "Căm ghét bản thân",
+      "desc": "Mọi Kĩ năng đều nhắm vào Heathcliff.\nNếu Heathcliff tử vong, bản thân giành chiến thắng."
     },
     {
       "id": 816402,
       "name": "Cảm xúc bùng nổ",
-      "desc": "Trong khi có hiệu ứng thuộc hệ Cảm xúc bùng nổ, bản thân trở nên Mong manh (Fragile) đối với thuộc tính tương ứng. Trở nên kháng tốt hơn với các thuộc tính khác, và nhận hiệu ứng đặc biệt khi Nhận sát thương."
+      "desc": "Khi bản thân có hiệu ứng Cảm xúc bùng nổ: trở nên yếu hơn trước thuộc tính tương ứng và kháng cự tốt hơn trước mọi thuộc tính khác; nhận hiệu ứng đặc biệt khi nhận sát thương."
     },
     {
       "id": 816403,
-      "name": "Sự mất mát sâu sắc",
-      "desc": "Nếu hiệu ứng thuộc hệ Cảm xúc bùng nổ bị xóa trước khi kết thúc 2 lượt kể từ lượt nhận hiệu ứng đó, nhận [AaCfPbBd] và thay đổi kiểu hình Kĩ năng (Skill) trong 2 lượt tiếp theo.\nNếu không bị xóa cho đến lúc đó, hiệu ứng sẽ bị xóa và nhận [AttackUp] 6, [Agility] 3 vào lượt tiếp theo."
+      "name": "Mất mát sâu sắc",
+      "desc": "Nếu hiệu ứng Cảm xúc bùng nổ bị gỡ bỏ trước khi lượt thứ 2 kể từ lượt nhận hiệu ứng đó kết thúc, bản thân nhận [AaCfPbBd] trong 2 lượt kế tiếp và nhận mô thức Kĩ năng mới.\nNếu hiệu ứng không bị gỡ bỏ trong thời hạn đó, nó sẽ bị gỡ bỏ và bản thân nhận 6 [AttackUp] cùng 3 [Agility] vào lượt kế tiếp."
     },
     {
       "id": 816404,
@@ -53,23 +53,23 @@
     },
     {
       "id": 816405,
-      "name": "Nổi điên",
-      "desc": "Khi kết thúc Kĩ năng (Skill), nếu không tấn công trúng đích Heathcliff, Cảm xúc bùng nổ giảm 1.\nTại thời điểm kết thúc lượt, nếu ở trạng thái Hoảng loạn, Cảm xúc bùng nổ giảm 3.\nCảm xúc bùng nổ giảm tối đa 3 mỗi lượt, và nếu giá trị vào cuối lượt là 1, buff tương ứng sẽ bị xóa."
+      "name": "Thù hằn thôi thúc",
+      "desc": "Khi Kĩ năng kết thúc, nếu không đánh trúng Heathcliff, Cảm xúc bùng nổ giảm 1.\nKhi kết thúc lượt, nếu ở trạng thái Choáng, Cảm xúc bùng nổ giảm 3.\nCảm xúc bùng nổ giảm tối đa 3 mỗi lượt; nếu giá trị Cảm xúc bùng nổ là 1 khi kết thúc lượt, hiệu ứng đó sẽ bị gỡ bỏ."
     },
     {
       "id": 816406,
       "name": "Lòng báo thù",
-      "desc": "Vào đầu lượt, nếu Tinh thần không phải là -45, hồi 15 Tinh thần.\nTại thời điểm kết thúc lượt, nếu ở trạng thái Hoảng loạn (Panic), lượt tiếp theo giải trừ trạng thái Hoảng loạn (Panic) và đưa Tinh thần về 0.\nNếu trạng thái Hoảng loạn (Panic) được giải trừ vào cuối lượt, nhận [Enhancement] 2 vào đầu lượt tiếp theo."
+      "desc": "Khi bắt đầu lượt, nếu Tinh thần không ở mức -45, hồi 15 Tinh thần.\nKhi kết thúc lượt, nếu đang Hoảng loạn, giải trừ Hoảng loạn vào đầu lượt kế tiếp và đặt Tinh thần về 0.\nKhi kết thúc lượt, nếu giải trừ được Hoảng loạn, nhận 2 [Enhancement] vào đầu lượt kế tiếp."
     },
     {
       "id": 816505,
       "name": "Nơi ta nên đứng",
-      "desc": "HP không giảm xuống dưới 40% trong vòng 1 lượt.\nThay đổi kiểu hình."
+      "desc": "HP không giảm xuống dưới 40% trong 1 lượt.\nNhận mô thức mới."
     },
     {
       "id": 816407,
-      "name": "Cơn phẫn nộ vô cớ",
-      "desc": "Khi kết thúc Kĩ năng (Skill), nếu không tấn công trúng đích, Cảm xúc bùng nổ giảm 1.\nTại thời điểm kết thúc lượt, nếu ở trạng thái Hoảng loạn, Cảm xúc bùng nổ giảm 3.\nCảm xúc bùng nổ giảm tối đa 3 mỗi lượt, và nếu giá trị vào cuối lượt là 1, buff tương ứng sẽ bị xóa."
+      "name": "Cơn phẫn nộ không đáy",
+      "desc": "Khi Kĩ năng kết thúc, nếu không đánh trúng, Cảm xúc bùng nổ giảm 1.\nKhi kết thúc lượt, nếu ở trạng thái Choáng, Cảm xúc bùng nổ giảm 3.\nCảm xúc bùng nổ giảm tối đa 3 mỗi lượt; nếu giá trị Cảm xúc bùng nổ là 1 khi kết thúc lượt, hiệu ứng đó sẽ bị gỡ bỏ."
     }
   ]
 }
