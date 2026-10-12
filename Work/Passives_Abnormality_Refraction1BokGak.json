@@ -2,13 +2,13 @@
   "dataList": [
     {
       "id": 950101,
-      "name": "Cơ Thể Cường Hóa Ghi Nhớ",
+      "name": "Cơ Thể Cường Hóa Được Ghi Nhớ",
       "desc": "Đầu lượt, nếu Máu của bản thân dưới 50%, hồi 20% Máu tối đa"
     },
     {
       "id": 950901,
       "name": "Giờ Tiệc Tùng",
-      "desc": "Đầu lượt, nếu Máu của bản thân dưới 50, nhận [Enhancement] 1, [Endurance] 1"
+      "desc": "Đầu lượt, nếu Máu của bản thân dưới 50%, nhận [Enhancement] 1 và [Endurance] 1"
     },
     {
       "id": 951001,
@@ -27,13 +27,13 @@
     },
     {
       "id": 951703,
-      "name": "Hãy Tiêu Diệt",
+      "name": "Ngươi Phải Giáng Búa",
       "desc": "Đầu lượt, nếu bản thân có [Assemble], nhận [AttackDmgUp] 5"
     },
     {
       "id": 951801,
       "name": "Cột Thu Lôi",
-      "desc": "Khi Cột Điện nhận sát thương, gây [ElectricShock] 2 trong lượt này.\nNếu [DogThunder] của bản thân từ 5 trở lên, từ lượt tiếp theo, khi mỗi bộ phận nhận sát thương, gây [ElectricShock] 3 trong lượt này. (Duy trì cho đến khi [DogThunder] trở về 0)\nKhi nhận sát thương từ đòn tấn công hệ Lười Biếng, lượng [ElectricShock] gây ra giảm một nửa (Làm tròn lên)"
+      "desc": "Khi Cột Điện bị đánh trúng, gây [ElectricShock] 2 trong lượt này.\nNếu [DogThunder] của bản thân từ 5 trở lên, từ lượt tiếp theo, mỗi bộ phận khi bị đánh trúng sẽ gây [ElectricShock] 3 trong lượt này.\n(Duy trì cho đến khi [DogThunder] trở về 0)\nKhi bị đánh trúng bởi đòn tấn công thuộc tính Lười biếng, lượng [ElectricShock] gây ra giảm một nửa (làm tròn lên)"
     },
     {
       "id": 951802,
@@ -43,27 +43,27 @@
     {
       "id": 951803,
       "name": "Mảnh Vỡ Tan Tành",
-      "desc": "Nếu Cột Điện bị Hoảng loạn hoặc bị phá hủy bộ phận, [DogThunder] trở về 0, và toàn bộ Kĩ năng tấn công của Chó Canh Ngõ Cụt trong lượt này bị hủy"
+      "desc": "Khi Cột Điện bị Choáng hoặc bị phá hủy bộ phận, mất toàn bộ [DogThunder];\ntoàn bộ Kĩ năng Tấn công của Chó Canh Hẻm Nhỏ sẽ bị hủy trong lượt này"
     },
     {
       "id": 951901,
       "name": "Bắt Đầu Chiến Dịch Tham Quan Thị Trấn",
-      "desc": "Đầu lượt, nếu số [Charge] từ 10 trở lên, thay đổi hình thái"
+      "desc": "Đầu lượt, nếu Số lượng [Charge] từ 10 trở lên, nhận mô thức mới"
     },
     {
       "id": 952001,
       "name": "Phát Hiện Hư Hỏng!",
-      "desc": "Khi tử trận, kqe-1j-23 nhận 100 sát thương, lượt kế tiếp rơi vào trạng thái Hoảng loạn, và trong suốt trận chiến này không thể sử dụng Kĩ năng gây [Duress] khi đang sử dụng"
+      "desc": "Khi tử trận, Kqe-1j-23 nhận 100 sát thương, rơi vào trạng thái Choáng ở lượt kế tiếp, và bị cấm sử dụng mọi Kĩ năng gây [Duress] trong suốt trận chiến này"
     },
     {
       "id": 952101,
       "name": "Túi Máu",
-      "desc": "Nếu có [BloodPocket], Kháng Phẫn nộ của phần Thân -50%, Kháng U sầu +50%"
+      "desc": "Nếu có [BloodPocket]:\n- Kháng Phẫn nộ của phần Thân -50%\n- Kháng U sầu của phần Thân +50%"
     },
     {
       "id": 952102,
       "name": "Túi Nước",
-      "desc": "Nếu có [WaterPocket], hồi Máu cho bản thân một lượng bằng (Giá trị × 20)"
+      "desc": "Nếu có [WaterPocket], hồi Máu cho bản thể một lượng bằng (Giá trị × 20)"
     },
     {
       "id": 952201,
@@ -78,12 +78,12 @@
     {
       "id": 952203,
       "name": "Hồi Phục Vỏ",
-      "desc": "Trong vòng 1 lượt, nếu không nhận sát thương từ đòn tấn công, hồi 5% Máu khi kết thúc lượt và nhận 1 [AggressiveBokgak]"
+      "desc": "Nếu trong lượt không nhận sát thương từ đòn tấn công, khi kết thúc lượt hồi 5% Máu và nhận 1 [AggressiveBokgak]"
     },
     {
       "id": 952204,
       "name": "Đôi Mắt Đầy Cuồng Loạn",
-      "desc": "Hành vi phụ thuộc vào [AggressiveBokgak].\nNếu [AggressiveBokgak] từ 4 trở lên, hình thái kĩ năng chuyển sang tấn công; nếu dưới 4, chuyển sang phòng thủ"
+      "desc": "Hành vi phụ thuộc vào [AggressiveBokgak].\nNếu [AggressiveBokgak] từ 4 trở lên, chuyển sang mô thức Kĩ năng tấn công; nếu dưới 4, chuyển sang mô thức phòng thủ"
     },
     {
       "id": 952401,
@@ -97,8 +97,8 @@
     },
     {
       "id": 952702,
-      "name": "Tiêm Ampoule HP",
-      "desc": "Đầu lượt, nếu Máu bị giảm, hồi 25% Máu tối đa (Tối đa 3 lần, giải trừ trạng thái Hoảng loạn nếu đang bị)"
+      "name": "Tiêm Ống HP",
+      "desc": "Đầu lượt, nếu Máu chưa đầy, hồi 25% Máu tối đa (tối đa 3 lần; nếu đang Choáng thì giải trừ Choáng)"
     },
     {
       "id": 952801,
@@ -108,12 +108,12 @@
     {
       "id": 952802,
       "name": "Cuồng Loạn",
-      "desc": "Khi rơi vào trạng thái [Enrage], nhận [Enhancement] 3, [Vulnerable] 3 và thay đổi hình thái kĩ năng, không nhận [AggressiveBokgak] khi nhận sát thương"
+      "desc": "Khi rơi vào trạng thái [Enrage], nhận [Enhancement] 3, [Vulnerable] 3, nhận mô thức Kĩ năng mới và không nhận [AggressiveBokgak] khi bị đánh trúng"
     },
     {
       "id": 952803,
       "name": "Cơn Phẫn Nộ Lay Động",
-      "desc": "Nếu Máu từ 50% trở xuống, rơi vào trạng thái [Enrage] mỗi lượt"
+      "desc": "Nếu Máu dưới 50%, rơi vào trạng thái [Enrage] mỗi lượt"
     },
     {
       "id": 952901,
@@ -123,12 +123,12 @@
     {
       "id": 952902,
       "name": "Lột Xác",
-      "desc": "Một lượt sau khi bị phá hủy, nếu cánh tay còn lại không bị phá hủy, cánh tay đó sẽ tái sinh với lượng Máu tương đương, và hồi Máu cho bản thân bằng với lượng Máu đã tái sinh.\n\nKhi cả hai cánh tay đều bị phá hủy, hình thái kĩ năng sẽ thay đổi"
+      "desc": "Sau khi bộ phận này bị phá hủy, nếu đến cuối lượt kế tiếp cánh tay còn lại vẫn không bị phá hủy, bộ phận này sẽ tái sinh với lượng Máu bằng với cánh tay còn lại; sau đó, hồi Máu cho bản thể bằng lượng Máu của cánh tay vừa tái sinh.\n\nKhi cả hai cánh tay đều bị phá hủy, nhận mô thức Kĩ năng mới"
     },
     {
       "id": 952903,
       "name": "Quằn Quại Trong Đau Đớn",
-      "desc": "Mỗi lượt nhận [Vulnerable] 5, gây [Poison] 10 cho toàn bộ đồng minh"
+      "desc": "Mỗi lượt nhận [Vulnerable] 5 và gây [Poison] 10 lên toàn bộ kẻ địch"
     },
     {
       "id": 952904,
@@ -143,7 +143,7 @@
     {
       "id": 953302,
       "name": "Sự Thuần Khiết Nở Rộ",
-      "desc": "Khi kết thúc lượt, nếu Máu cơ thể chính của Cromer dưới 50%, sẽ rơi vào trạng thái [Cromer_Madness] trong các lượt còn lại"
+      "desc": "Khi kết thúc lượt, nếu Máu cơ thể chính của Kromer dưới 50%, Kromer sẽ rơi vào trạng thái [Cromer_Madness] trong các lượt còn lại"
     },
     {
       "id": 953303,
@@ -158,12 +158,12 @@
     {
       "id": 953402,
       "name": "Nghiệp Báo Luân Hồi",
-      "desc": "Mỗi khi bất kì nhân vật nào tấn công trúng, chuyển 10 [Cycle] sang mục tiêu bị tấn công\nSố [Cycle] được chuyển tăng thêm 5 sau mỗi lần đấu kĩ năng\nTrong khi đồng minh còn sống, [Cycle] sẽ không chuyển sang Ta, Kẻ Chạm Đến Hư Không"
+      "desc": "Mọi đơn vị chuyển 10 [Cycle] của mình sang mục tiêu sau khi tấn công thành công\n(Lượng [Cycle] được chuyển tăng thêm 5 theo số lần Đối kháng)\n[Cycle] không được chuyển sang Hình Hài Ta Trống Rỗng khi đồng minh của nó còn sống"
     },
     {
       "id": 953403,
       "name": "Vô Ngã",
-      "desc": "Khi bắt đầu lượt nếu Tượng Phật đang bị phá hủy, gây [Cycle] 30, [Vulnerable] 3 cho 1 đồng minh ngoại trừ bản thân, thay đổi kĩ năng và rơi vào trạng thái Vô Ngã TabExplain không phân biệt địch ta"
+      "desc": "Khi bắt đầu lượt, nếu Tượng Phật bị phá hủy, gây [Cycle] 30 và [Vulnerable] 3 lên 1 đồng minh ngẫu nhiên khác, nhận mô thức Kĩ năng mới và rơi vào trạng thái Vô Ngã không phân biệt địch ta"
     },
     {
       "id": 953404,
@@ -172,7 +172,7 @@
     },
     {
       "id": 953501,
-      "name": "Tu Sửa",
+      "name": "Khôi Phục",
       "desc": "Khi bắt đầu lượt, hồi phục hoàn toàn Máu"
     }
   ]
