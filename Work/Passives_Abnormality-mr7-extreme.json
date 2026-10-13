@@ -23,7 +23,7 @@
     {
       "id": 139101,
       "name": "Thờ phụng Ngẫu tượng",
-      "desc": "Khi HP bằng 0 sẽ không chết mà rơi vào trạng thái không thể hành động/không thể chỉ định mục tiêu\nBị áp chế cùng lúc khi áp chế Lịch Tận thế"
+      "desc": "Khi HP bằng 0 sẽ không chết mà rơi vào trạng thái không thể hành động và không thể bị chỉ định làm mục tiêu\nBị áp chế cùng lúc khi áp chế Lịch Tận thế"
     },
     {
       "id": 139301,
@@ -33,7 +33,7 @@
     {
       "id": 139302,
       "name": "Quá khứ tan biến",
-      "desc": "Khi phá hủy bộ phận Thân, tiêu hao toàn bộ [AccumulatedPastMirror]\nKhi phá hủy bộ phận Thân, từ lượt tiếp theo cho đến hết trận chiến này, bộ phận Thân trở nên Kháng (0.5) với tất cả thuộc tính và loại tấn công"
+      "desc": "Khi bộ phận Thân bị phá hủy, tiêu hao toàn bộ [AccumulatedPastMirror]\nKhi bộ phận Thân bị phá hủy, từ lượt tiếp theo cho đến hết trận chiến này, bộ phận Thân trở nên Kháng (0.5) với tất cả thuộc tính và loại tấn công"
     },
     {
       "id": 139303,
@@ -98,7 +98,7 @@
     {
       "id": 141004,
       "name": "Nghịch nước",
-      "desc": "Trao 1 [PlayingWithWaterTogetherMirror] lên mục tiêu đã Đối kháng với Kĩ năng của bản thân bằng Kĩ năng có cùng thuộc tính vật lý (1 lần mỗi Kĩ năng, 3 lần mỗi lượt)\n- Nếu Kĩ năng đó thuộc loại Đập, trao 2 [PlayingWithWaterTogetherMirror] thay thế"
+      "desc": "Trao 1 [PlayingWithWaterTogetherMirror] lên mục tiêu đã Đối kháng với Kĩ năng của bản thân bằng Kĩ năng có cùng thuộc tính vật lý với Kĩ năng của bản thân (1 lần mỗi Kĩ năng, 3 lần mỗi lượt)\n- Nếu Kĩ năng đó thuộc loại Đập, thay vào đó trao 2 [PlayingWithWaterTogetherMirror]"
     },
     {
       "id": 141101,
@@ -128,7 +128,7 @@
     {
       "id": 141204,
       "name": "Bì bõm bì bõm bì bõm",
-      "desc": "Nếu mục tiêu không có [PlayingWithWaterTogetherMirror], áp dụng các hiệu quả sau\n- Sát thương gây ra +80%\n- Trong các Kĩ năng của bản thân, khi đồng xu cuối trúng đích, kích hoạt [VibrationExplosion] 1 lần. Số lượng [Vibration] giảm 1\n\nNếu mục tiêu có [PlayingWithWaterTogetherMirror], áp dụng các hiệu quả sau\n- Sát thương gây ra -50%\n- Với mỗi 1 [PlayingWithWaterTogetherMirror] của mục tiêu, sát thương nhận vào +10% (Tối đa 100%)\n\nNếu không có mục tiêu nào sở hữu [PlayingWithWaterTogetherMirror], áp dụng các hiệu quả sau\n- Khi Kĩ năng của bản thân trúng đích, gây 5 [Laceration]\n- Trong các Kĩ năng của bản thân, khi đồng xu cuối trúng đích, kích hoạt [Laceration] của mục tiêu 1 lần. Số lượng [Laceration] giảm 1"
+      "desc": "Nếu mục tiêu không có [PlayingWithWaterTogetherMirror], áp dụng các hiệu quả sau\n- Sát thương gây ra +80%\n- Khi đồng xu cuối của Kĩ năng đánh trúng đích, kích hoạt [VibrationExplosion] 1 lần và giảm Số lượng [Vibration] của mục tiêu đi 1\n\nNếu mục tiêu có [PlayingWithWaterTogetherMirror], áp dụng các hiệu quả sau\n- Sát thương gây ra -50%\n- Với mỗi 1 [PlayingWithWaterTogetherMirror] của mục tiêu, sát thương nhận vào +10% (Tối đa 100%)\n\nNếu không có mục tiêu nào sở hữu [PlayingWithWaterTogetherMirror], áp dụng các hiệu quả sau\n- Khi Kĩ năng của bản thân trúng đích, gây 5 [Laceration]\n- Khi đồng xu cuối của Kĩ năng đánh trúng đích, kích hoạt [Laceration] của mục tiêu 1 lần và giảm Số lượng [Laceration] của mục tiêu đi 1"
     }
   ]
 }

@@ -8,77 +8,77 @@
     {
       "id": 835002,
       "name": "Máu Không Được Cạn Kiệt",
-      "desc": "Nhận mô thức mới khi [KeptBlood] lần đầu tiên đạt 0\nKhi sử dụng Kĩ năng \"Ta là... hoàng tử... của buổi diễu hành này...!\", Tốc độ được cố định là 10"
+      "desc": "Nhận mô thức mới khi [KeptBlood] lần đầu tiên đạt 0\nKhi sử dụng Kĩ năng \"Ta là... hoàng tử... của buổi diễu hành này...!\", Tốc độ của đơn vị này được cố định là 10"
     },
     {
       "id": 835003,
-      "name": "Cơn Cuồng Nộ Của Hoàng Tử",
-      "desc": "Khi HP hiện tại bằng 30% HP tối đa, nhận [BloodyCrave]"
+      "name": "Cơn Điên Cuồng Của Hoàng Tử",
+      "desc": "Khi Máu của đơn vị này đạt 30% Máu tối đa, nhận [BloodyCrave]"
     },
     {
       "id": 835004,
-      "name": "Đại Đao Huyết Ngạnh",
-      "desc": "Ưu tiên tấn công mục tiêu có tổng Cường độ và Số lượng [Laceration] cao nhất\nKhi tấn công trúng đích, nếu mục tiêu có [Laceration], hồi 2% HP tối đa"
+      "name": "Đại Đao Ngạnh Huyết",
+      "desc": "Ưu tiên tấn công mục tiêu có tổng Cường độ và Số lượng [Laceration] cao nhất\nKhi tấn công trúng đích, nếu mục tiêu có [Laceration], hồi phục Máu bằng 2% Máu tối đa"
     },
     {
       "id": 835005,
       "name": "Huyết Thực - Ngạnh Hóa",
-      "desc": "Nếu bản thân có [Laceration],\n- Mỗi 5 [Laceration], nhận 1 Tăng Cấp độ Tấn công, 1 Tăng Cấp độ Phòng thủ (Tối đa 10)\n- Mỗi 10 [Laceration], nhận 1 Tăng Uy lực Đối kháng (Tối đa 5)\n- Giảm 50% sát thương [Laceration] bản thân nhận phải (Làm tròn xuống)"
+      "desc": "Khi bản thân có [Laceration]:\n- Mỗi 5 [Laceration], nhận 1 Tăng Cấp độ Tấn công, 1 Tăng Cấp độ Phòng thủ (Tối đa 10)\n- Mỗi 10 [Laceration], nhận 1 Tăng Uy lực Đối kháng (Tối đa 5)\n- Giảm 50% sát thương [Laceration] bản thân nhận phải (Làm tròn xuống)"
     },
     {
       "id": 9014501,
       "name": "Huyết Dịch Ngạnh Hóa",
-      "desc": "Mỗi khi bản thân bị đánh trúng, nhận 1 Số lượng [Laceration]\nKhi kết thúc lượt, tiêu thụ 3 Số lượng [Laceration] của bản thân để nhận 1 [HardenedBlood]"
+      "desc": "Mỗi khi bản thân bị đánh trúng, nhận +1 Số lượng [Laceration]\nKhi kết thúc lượt, tiêu hao 3 Số lượng [Laceration] của bản thân để nhận 1 [HardenedBlood]"
     },
     {
       "id": 9014502,
       "name": "Khát Máu",
-      "desc": "Ưu tiên tấn công mục tiêu bị áp dụng [Laceration]\nKhi kết thúc lượt, nếu lượt này không gây được sát thương thì lượt kế tiếp nhận 2 [Vulnerable], 2 [AttackUp]"
+      "desc": "Ưu tiên tấn công mục tiêu bị áp dụng [Laceration]\nKhi kết thúc lượt, nếu lượt này bản thân không gây ra sát thương nào thì vào lượt kế tiếp nhận 2 [Vulnerable], 2 [AttackUp]"
     },
     {
       "id": 9014503,
       "name": "Hút Máu",
-      "desc": "Giảm 10% sát thương [Laceration] bản thân nhận phải (Làm tròn xuống)\nKhi tấn công trúng đích, nếu mục tiêu có [Laceration], hồi máu bằng 10% lượng sát thương gây ra"
+      "desc": "Giảm 10% sát thương [Laceration] bản thân nhận phải (Làm tròn xuống)\nKhi tấn công trúng đích, nếu mục tiêu có [Laceration], hồi phục Máu bằng 10% lượng sát thương gây ra"
     },
     {
       "id": 9014801,
       "name": "Hút Máu Mạnh Bạo",
-      "desc": "Giảm 20% sát thương [Laceration] bản thân nhận phải (Làm tròn xuống)\nKhi tấn công trúng đích, nếu mục tiêu có [Laceration], hồi máu bằng 15% lượng sát thương gây ra"
+      "desc": "Giảm 20% sát thương [Laceration] bản thân nhận phải (Làm tròn xuống)\nKhi tấn công trúng đích, nếu mục tiêu có [Laceration], hồi phục Máu bằng 15% lượng sát thương gây ra"
     },
     {
       "id": 9014802,
       "name": "Rò Điện",
-      "desc": "Mỗi khi bản thân bị đánh trúng, nếu kẻ tấn công sử dụng Kĩ năng nhận [Charge], kẻ tấn công cướp 1 Số lượng [Charge] của bản thân\n(Mỗi Kĩ năng một lần, không kích hoạt nếu bản thân không có [Charge])"
+      "desc": "Mỗi khi bản thân bị đánh trúng, nếu kẻ tấn công sử dụng Kĩ năng có nhận [Charge], kẻ tấn công cướp 1 Số lượng [Charge] của bản thân\n(Mỗi Kĩ năng một lần, không kích hoạt nếu bản thân không có [Charge])"
     },
     {
       "id": 9015101,
       "name": "Đưa Máu Lên Não",
-      "desc": "Giảm 30% sát thương [Laceration] bản thân nhận phải (Làm tròn xuống)\nKhi tấn công trúng đích, nếu mục tiêu có [Laceration], hồi máu bằng 15% lượng sát thương gây ra"
+      "desc": "Giảm 30% sát thương [Laceration] bản thân nhận phải (Làm tròn xuống)\nKhi tấn công trúng đích, nếu mục tiêu có [Laceration], hồi phục Máu bằng 15% lượng sát thương gây ra"
     },
     {
       "id": 9015102,
       "name": "Mẫu Cơ Thể Nhân Tạo - L37",
-      "desc": "Khi bắt đầu lượt, nếu Số lượng [Charge] ít hơn 5, áp dụng 1 [Reduction] cho bản thân\nKhi bắt đầu lượt, nếu Số lượng [Charge] từ 5 trở lên, áp dụng 2 [ParryingResultUp]"
+      "desc": "Khi bắt đầu lượt, nếu Số lượng [Charge] ít hơn 5, áp dụng 1 [Reduction] cho bản thân\nKhi bắt đầu lượt, nếu Số lượng [Charge] từ 5 trở lên, nhận 2 [ParryingResultUp]"
     },
     {
       "id": 9015201,
       "name": "Quyến Thuộc Non Trẻ",
-      "desc": "Giảm 30% sát thương [Laceration] bản thân nhận phải (Làm tròn xuống)\nKhi tấn công trúng đích, nếu mục tiêu có [Laceration], hồi máu bằng 25% lượng sát thương gây ra"
+      "desc": "Giảm 30% sát thương [Laceration] bản thân nhận phải (Làm tròn xuống)\nKhi tấn công trúng đích, nếu mục tiêu có [Laceration], hồi phục Máu bằng 25% lượng sát thương gây ra"
     },
     {
       "id": 9014803,
       "name": "Sự Kiên Trì",
-      "desc": "HP không giảm xuống dưới 1 do sát thương nhận phải từ kĩ năng của chính mình"
+      "desc": "Sát thương do Kĩ năng của chính bản thân gây ra không thể khiến Máu giảm xuống dưới 1"
     },
     {
       "id": 834801,
       "name": "Túi Máu Phát Nổ",
-      "desc": "Khi bắt đầu trận chiến, chiến đấu trong trạng thái HP bị giảm một nửa"
+      "desc": "Khi bắt đầu trận chiến, bước vào trận với lượng Máu bằng một nửa Máu tối đa"
     },
     {
       "id": 834802,
       "name": "Quyến Thuộc Thứ 7",
-      "desc": "Với mỗi đồng minh có HP bằng 1, Số lượng ô kĩ năng +1 (Tối đa 2 lần)"
+      "desc": "Với mỗi đồng minh có Máu bằng 1, Số ô kĩ năng +1 (Tối đa 2 lần)"
     }
   ]
 }
