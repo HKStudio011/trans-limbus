@@ -2,27 +2,27 @@
     "dataList": [
         {
             "id": 837804,
-            "name": "Đói khát và Già yếu",
-            "desc": "Khi bắt đầu trận đấu, nhận [StarvingPriestTwo]"
+            "name": "Đói khát và Lão suy",
+            "desc": "Khi bắt đầu trận chiến, nhận [StarvingPriestTwo]"
         },
         {
             "id": 837801,
             "name": "Bí tích Xức dầu",
-            "desc": "Khi kết thúc lượt, kích hoạt [Laceration] của bản thân (Tối đa 50. Tiêu hao 1 số lượng [Laceration] của bản thân). Hồi phục 50 Máu cho (Thân thể và bộ phận) của đồng minh Huyết Quỷ có Máu thấp nhất (Không kích hoạt nếu không có đồng minh bị sát thương)"
+            "desc": "Khi kết thúc lượt, kích hoạt [Laceration] của bản thân (Tối đa 50. Tiêu hao 1 Số lượng [Laceration] của bản thân). Hồi phục 50 HP cho Thân thể và bộ phận của đồng minh Huyết Quỷ có HP thấp nhất (Không kích hoạt nếu không có đồng minh nào bị sát thương)"
         },
         {
             "id": 837802,
             "name": "Bí tích Giải tội",
-            "desc": "Khi kết thúc lượt, Tinh thần của bản thân giảm 5, hồi phục 10 Tinh thần cho đồng minh Huyết Quỷ có Tinh thần thấp nhất (Không kích hoạt nếu không có đối tượng có chỉ số Tinh thần)"
+            "desc": "Khi kết thúc lượt, bản thân mất 5 Tinh thần và hồi phục 10 Tinh thần cho đồng minh Huyết Quỷ có Tinh thần thấp nhất (Không kích hoạt nếu không có đồng minh nào có Tinh thần)"
         },
         {
             "id": 837803,
-            "name": "Trái tim mòn mỏi",
+            "name": "Trái Tim Hao Mòn",
             "desc": "Thay đổi hình thái tùy theo giá trị [WornHeart] của bản thân\nKhi kết thúc lượt, nhận 1 [WornHeart]"
         },
         {
             "id": 837805,
-            "name": "Bàn tay vấy máu",
+            "name": "Bàn Tay Nhuốm Máu",
             "desc": "- Nếu [BloodyHand] từ 10 trở lên, chuyển thành [BloodyHand_2nd]\n- Nếu [BloodyHand_2nd] từ 20 trở lên, chuyển thành [BloodyHand_3rd]"
         },
         {
@@ -33,42 +33,42 @@
         {
             "id": 837902,
             "name": "Chiếc cọc bám chặt",
-            "desc": "Khi sử dụng Kĩ năng 1 Coin và đánh trúng kẻ địch, gây cho mục tiêu 3 Cường độ [Laceration] và gây 2 [DefenseDown] cho đến lượt tiếp theo.\nNếu mục tiêu đang trong trạng thái [Laceration], hiệu ứng được cường hóa và gây 5 Cường độ [Laceration]."
+            "desc": "Khi sử dụng Kĩ năng 1 Đồng xu và đánh trúng kẻ địch, gây 3 Cường độ [Laceration] lên mục tiêu và gây 2 [DefenseDown] cho đến hết lượt tiếp theo.\nNếu mục tiêu đang trong trạng thái [Laceration], hiệu ứng được cường hóa, thay vào đó gây 5 Cường độ [Laceration]."
         },
         {
             "id": 837903,
             "name": "Nhớ lại",
-            "desc": "Trong lượt này, nếu bị Hoảng loạn do hiệu ứng kết thúc lượt của Cái ôm Sầu bi, nhận 10 [FaintMemory] vào đầu lượt tiếp theo"
+            "desc": "Trong lượt này, nếu bị Choáng do hiệu ứng kết thúc lượt của Cái ôm sầu muộn, nhận 10 [FaintMemory] vào đầu lượt tiếp theo"
         },
         {
             "id": 837904,
             "name": "Trao đi yêu thương",
-            "desc": "Khi kết thúc lượt, nếu Máu dưới 30%, thay vì gây 3 [AffectionTeddy] cho tất cả kẻ địch, nhận 15 [AttackDown] vào lượt tiếp theo (1 lần mỗi trận)"
+            "desc": "Khi kết thúc lượt, nếu HP từ 30% trở xuống, thay vì gây 3 [AffectionTeddy] cho tất cả kẻ địch, nhận 15 [AttackDown] vào lượt tiếp theo (1 lần mỗi trận chiến)"
         },
         {
             "id": 837905,
             "name": "Cầu cho không đau đớn",
-            "desc": "Mỗi 3 loại hiệu ứng bất lợi mục tiêu đang sở hữu, Sức mạnh cơ bản giảm 1 (Tối đa 3)"
+            "desc": "Mỗi 3 loại hiệu ứng bất lợi trên mục tiêu, Sức mạnh Cơ bản giảm 1 (Tối đa 3)"
         },
         {
             "id": 837301,
-            "name": "Kháng Cự Tội Lỗi",
-            "desc": "Nếu không ở trạng thái Hoảng loạn hoặc Phá hủy bộ phận, sát thương [Laceration] nhận vào giảm 50%."
+            "name": "Kháng Tội Lỗi",
+            "desc": "Nếu không ở trạng thái Choáng hoặc Bộ phận bị phá hủy, sát thương [Laceration] nhận vào giảm 50%."
         },
         {
             "id": 837401,
-            "name": "Kháng Cự Tội Lỗi",
-            "desc": "Nếu không ở trạng thái Hoảng loạn hoặc Phá hủy bộ phận, khi có sát thương Chí mạng, giảm một nửa phần sát thương cộng thêm từ Chí mạng."
+            "name": "Kháng Tội Lỗi",
+            "desc": "Nếu không ở trạng thái Choáng hoặc Bộ phận bị phá hủy, khi nhận sát thương Chí mạng, chỉ nhận một nửa lượng sát thương Chí mạng."
         },
         {
             "id": 837501,
             "name": "Carmilla",
-            "desc": "Khi bắt đầu lượt, gây sát thương cố định bằng 5% Máu tối đa cho 1 kẻ địch ngẫu nhiên."
+            "desc": "Khi bắt đầu lượt, gây sát thương cố định bằng 5% HP tối đa lên 1 kẻ địch ngẫu nhiên."
         },
         {
             "id": 837502,
             "name": "Một giọt dưỡng chất",
-            "desc": "Khi kết thúc đòn tấn công, hồi phục Máu cho Thân thể và bộ phận bằng một nửa lượng sát thương đã gây ra bằng Kĩ năng tấn công của bản thân\n- Nếu Máu của bản thân là 100%, nhận 2 [AttackUp] vào lượt tiếp theo. (Tối đa 2 lần)\nNhận cộng dồn các hiệu ứng sau tùy theo tỉ lệ Máu đã hồi phục\n- Giá trị từ 1 trở lên: Vào đầu mỗi lượt, nhận 3 Tăng cấp phòng ngự\n- Giá trị từ 2 trở lên: Vào đầu mỗi lượt, nhận 3 [AttackUp]\n- Giá trị từ 3 trở lên: Vào đầu mỗi lượt, Tốc độ tối thiểu/tối đa +2\n- Giá trị từ 5 trở lên: Vào đầu mỗi lượt, nhận 3 [Enhancement]"
+            "desc": "Khi kết thúc đòn tấn công, hồi phục HP cho Thân thể và bộ phận bằng một nửa lượng sát thương mà Kĩ năng tấn công của bản thân đã gây ra\n- Nếu HP của bản thân là 100%, nhận 2 [AttackUp] vào lượt tiếp theo. (Tối đa 2 lần)\nTùy theo tỉ lệ HP đã hồi phục, nhận cộng dồn các hiệu ứng sau\n- Giá trị từ 1 trở lên: Vào đầu mỗi lượt, nhận 3 Tăng Cấp độ Phòng thủ\n- Giá trị từ 2 trở lên: Vào đầu mỗi lượt, nhận 3 [AttackUp]\n- Giá trị từ 3 trở lên: Vào đầu mỗi lượt, Tốc độ tối thiểu/tối đa +2\n- Giá trị từ 5 trở lên: Vào đầu mỗi lượt, nhận 3 [Enhancement]"
         },
         {
             "id": 837503,
@@ -78,34 +78,34 @@
         {
             "id": 837601,
             "name": "Roi gai",
-            "desc": "Ngay trước khi tấn công, nếu mục tiêu có [Burst], có 20% xác suất tăng số lượng [Burst] thêm 1\nKhi gây [ThornNoose] cho mục tiêu, tạo ra Thòng lọng gai.",
-            "summary": "Ngay trước khi tấn công, nếu mục tiêu có [Burst], có 20% xác suất tăng số lượng [Burst] thêm 1"
+            "desc": "Ngay trước khi tấn công, nếu mục tiêu có [Burst], có 20% xác suất tăng 1 Số lượng [Burst]\nKhi gây [ThornNoose] lên mục tiêu, tạo ra Thòng Lọng Gai.",
+            "summary": "Ngay trước khi tấn công, nếu mục tiêu có [Burst], có 20% xác suất tăng 1 Số lượng [Burst]"
         },
         {
             "id": 837602,
             "name": "Con ngựa quấn dây leo",
-            "desc": "Chỉ tăng Tốc độ cho Thòng lọng gai đã tạo"
+            "desc": "Tốc độ tăng bằng số Thòng Lọng Gai đã được tạo trên chiến trường"
         },
         {
             "id": 837603,
             "name": "Dây leo gai chằng chịt",
-            "desc": "Khi Máu tối đa dưới 40%, thay đổi hình thái\nMỗi lượt, gây [Burst] cho tất cả kẻ địch dựa theo Tốc độ của kẻ địch\nSố lượng [ThornNoose] gây ra trở thành 2\nSau mỗi lượt trôi qua, nhận 2 [AttackUp] và 2 [DefenseDown] (Tối đa 12)"
+            "desc": "Khi HP từ 40% mức tối đa trở xuống, thay đổi hình thái\nMỗi lượt, gây [Burst] cho tất cả kẻ địch bằng Tốc độ của từng kẻ địch\nSố lượng [ThornNoose] gây ra trở thành 2\nMỗi lượt trôi qua, nhận 2 [AttackUp] và 2 [DefenseDown] (Tối đa 12)"
         },
         {
             "id": 838006,
             "name": "Cảm giác mơ màng",
-            "desc": "Khi bắt đầu trận đấu, nhận [Dreamy].\nKhi bắt đầu trận đấu, máu tiềm ẩn rải rác trên chiến trường hiển hiện và nhận 400 [BloodDinner]."
+            "desc": "Khi bắt đầu trận chiến, nhận [Dreamy].\nKhi bắt đầu trận chiến, máu ẩn giấu rải rác khắp chiến trường hiện ra, nhận 400 [BloodDinner]."
         },
         {
             "id": 838001,
             "name": "Câu chuyện lỡ nghe thấy và nhịp tim đập nhanh",
-            "desc": "Khi đạt mốc 80%, 60%, 40%, Máu không giảm xuống thêm nữa và thay đổi hình thái\nKhi thay đổi hình thái, giải trừ trạng thái Hoảng loạn và Tốc độ trở thành 10 vào lượt tiếp theo"
+            "desc": "Khi đạt mốc 80%, 60%, 40%, HP không giảm xuống thêm nữa và thay đổi hình thái\nKhi thay đổi hình thái, giải trừ trạng thái Choáng và Tốc độ trở thành 10 vào lượt tiếp theo"
         },
         {
             "id": 838002,
             "name": "Nếu có thể thoát khỏi căn bệnh quái ác này",
-            "desc": "Khi đánh trúng, nếu mục tiêu có [Laceration], hồi phục Máu cho bộ phận và Thân thể bằng 40% lượng sát thương đã gây ra.\n- Mỗi 1 Cường độ [Laceration] của bản thân, lượng hồi phục của nội tại này tăng thêm 1% (Tối đa 20%)\n- Trường hợp Đồng xu không thể phá hủy, nếu đánh trúng sau khi thua Kháng cự, hiệu ứng này sẽ không kích hoạt.\nVào đầu mỗi lượt, hồi phục Máu cho bản thân bằng ([BloodDinner] ÷ 10) (Tối đa 50)\nVào đầu mỗi lượt, nếu Tinh thần từ -15 trở xuống, tiêu hao (20 - Tinh thần của bản thân) để hồi phục Tinh thần. Nhận 2 Tăng [BloodDinner] Kháng cự\nKhi tiêu diệt kẻ địch, nhận 5 [BloodArmor]",
-            "summary": "Khi đánh trúng, nếu mục tiêu có [Laceration] thì hồi phục Máu"
+            "desc": "Khi đánh trúng, nếu mục tiêu có [Laceration], hồi phục HP cho bộ phận và Thân thể bằng 40% lượng sát thương đã gây ra.\n- Mỗi 1 Cường độ [Laceration] của bản thân, lượng hồi phục của Nội tại này tăng thêm 1% (Tối đa 20%)\n- Với Đồng xu không thể phá hủy, hiệu ứng này không kích hoạt khi đánh trúng sau khi thua Đối kháng.\nVào đầu mỗi lượt, hồi phục HP cho bản thân bằng ([BloodDinner] ÷ 10) (Tối đa 50)\nVào đầu mỗi lượt, nếu Tinh thần từ -15 trở xuống, tiêu hao (20 - Tinh thần của bản thân) [BloodDinner] để hồi phục Tinh thần. Nhận 2 Tăng Sức mạnh Đối kháng\nKhi tiêu diệt kẻ địch, nhận 5 [BloodArmor]",
+            "summary": "Khi đánh trúng, nếu mục tiêu có [Laceration] thì hồi phục HP"
         },
         {
             "id": 838003,
@@ -115,57 +115,57 @@
         {
             "id": 838004,
             "name": "Huyết Thực",
-            "desc": "Nếu nhân vật này xuất hiện trong trận đấu hoặc nằm trong danh sách kẻ địch xuất hiện, lượng [BloodDinner] sẽ tăng bằng lượng sát thương [Laceration] mà tất cả nhân vật nhận vào kể từ lượt 1. Mỗi khi nhân vật này xuất hiện trong trận đấu, máu tiềm ẩn rải rác trên chiến trường hiển hiện ở mức tối đa."
+            "desc": "Nếu nhân vật này có mặt trên chiến trường hoặc nằm trong danh sách kẻ địch có thể xuất hiện, kể từ lượt 1, lượng [BloodDinner] tăng bằng tổng sát thương [Laceration] mà mọi nhân vật đã nhận.\nKhi nhân vật này xuất hiện trên chiến trường, máu ẩn giấu rải rác khắp chiến trường sẽ hiện ra tối đa."
         },
         {
             "id": 838005,
-            "name": "Ngạnh Huyết",
-            "desc": "Khi bắt đầu trận đấu, nhận 1 [BloodArmor]\n- [BloodArmor] không giảm xuống dưới 1\n- Nếu [BloodArmor] từ 10 trở lên, chuyển đổi thành [BloodArmor_2nd]\n- Nếu [BloodArmor] từ 20 trở lên, chuyển đổi thành [BloodArmor_3rd]\nTốc độ tối thiểu/tối đa tăng 1 tùy theo giai đoạn (Tối đa 2)\nNếu [BloodArmor] bị tiêu hao dẫn đến không đủ điều kiện, sẽ quay về giai đoạn trước"
+            "name": "Huyết Cương",
+            "desc": "Khi bắt đầu trận chiến, nhận 1 [BloodArmor]\n- [BloodArmor] không giảm xuống dưới 1\n- Nếu [BloodArmor] từ 10 trở lên, chuyển thành [BloodArmor_2nd]\n- Nếu [BloodArmor] từ 20 trở lên, chuyển thành [BloodArmor_3rd]\nTốc độ tối thiểu/tối đa tăng 1 tùy theo giai đoạn (Tối đa 2)\nNếu [BloodArmor] bị tiêu hao xuống dưới các ngưỡng trên, sẽ quay về giai đoạn trước"
         },
         {
             "id": 838007,
             "name": "Nhưng vì có phụ mẫu, có gia đình, nên không thể ngoảnh mặt làm ngơ",
-            "desc": "Khi kết thúc lượt, nếu đang Hoảng loạn thì giải trừ Hoảng loạn, tiêu hao 100 [BloodDinner] để nhận 3 [Enhancement]\n- Nếu không thể tiêu hao [BloodDinner], nhận 30 [Laceration], 3 [Enhancement] và 2 Tăng Sát thương"
+            "desc": "Khi kết thúc lượt, nếu đang Hoảng loạn thì giải trừ Hoảng loạn, tiêu hao 100 [BloodDinner] để nhận 3 [Enhancement]\n- Nếu không thể tiêu hao [BloodDinner], nhận 30 [Laceration], 3 [Enhancement] và 2 Tăng lượng sát thương"
         },
         {
             "id": 837701,
-            "name": "Thòng lọng Gai",
+            "name": "Thòng Lọng Gai",
             "desc": "Khi chết, xóa bỏ [ThornNoose] của kẻ địch đang bị bản thân bắt giữ"
         },
         {
             "id": 839401,
             "name": "Bảo vệ Chỉ định",
-            "desc": "Khi bắt đầu lượt, ban 2 Tăng Cấp Phòng thủ cho đồng minh có lượng HP giảm và có chênh lệch tỷ lệ giảm HP lớn nhất so với lượt trước"
+            "desc": "Khi bắt đầu lượt, ban 2 Tăng Cấp độ Phòng thủ cho đồng minh mất nhiều phần trăm HP nhất so với lượt trước"
         },
         {
             "id": 840301,
-            "name": "Huyết Tinh Tan Vỡ",
-            "desc": "Khi chết do đòn tấn công của kẻ địch hoặc sát thương hiệu ứng bất lợi, nhận thêm 30 [BloodDinner]. Nhận thêm 2 Tài nguyên E.G.O ngẫu nhiên. Không kích hoạt nếu tự bị xóa bỏ."
+            "name": "Huyết Cương Vỡ Tan, Phân Tán",
+            "desc": "Khi tử vong do đòn tấn công của kẻ địch hoặc sát thương từ hiệu ứng bất lợi, [BloodDinner] tăng thêm 30 và tăng 2 Tài nguyên E.G.O của một Hệ ngẫu nhiên. Không kích hoạt nếu đơn vị tự hủy."
         },
         {
             "id": 840302,
             "name": "Tôi muốn nổ tung đến phát điên đi được!",
-            "desc": "Nếu còn sống khi kết thúc lượt, sử dụng Kĩ năng Tự sát vào lượt kế tiếp. Nếu không chết vào cuối lượt đã sử dụng Kĩ năng Tự sát thì sẽ chết."
+            "desc": "Nếu còn sống khi kết thúc lượt, sử dụng Kĩ năng Tự nổ vào lượt kế tiếp. Nếu vẫn còn sống vào cuối lượt sử dụng Kĩ năng Tự nổ, đơn vị sẽ chết."
         },
         {
             "id": 839001,
-            "name": "HP của bản thể được duy trì ở mức 1",
-            "desc": "HP của bản thể không giảm xuống dưới 1."
+            "name": "Cố định HP Thân thể ở mức 1",
+            "desc": "HP của Thân thể không giảm xuống dưới 1."
         },
         {
             "id": 839002,
             "name": "La Mancha Land Bị Bỏ Rơi và Mưng Mủ",
-            "desc": "Tạo ra Thuyền treo chứa Huyết Quỷ và Túi Máu theo chu kỳ nhất định. Khi Thuyền treo được tạo ra, một số lượng nhất định Huyết Quỷ và Túi Máu có thể cùng xuất hiện."
+            "desc": "Tạo ra Gondola chứa Huyết Quỷ và Túi Máu theo chu kỳ nhất định. Khi Gondola được tạo ra, một số lượng nhất định Huyết Quỷ và Túi Máu có thể cùng xuất hiện."
         },
         {
             "id": 839003,
             "name": "Cối Xay Gió Xoay Mãi, Vòng Quay Khổng Lồ, và Chúng Ta",
-            "desc": "Không thể tấn công khi Thuyền treo đang được tạo ra.\nHP không giảm bởi sát thương Kĩ năng. Không nhận sát thương HP từ các hiệu ứng [Combustion], [Laceration], [Vibration], [Burst], [Sinking]."
+            "desc": "Không thể bị tấn công khi có Gondola trên chiến trường.\nHP không giảm bởi sát thương Kĩ năng. Không nhận sát thương HP từ các hiệu ứng [Combustion], [Laceration], [Vibration], [Burst], [Sinking]."
         },
         {
             "id": 839004,
             "name": "Lại nữa... lại xoay nữa rồi...",
-            "desc": "Khi kết thúc lượt, hoặc trong khi đang chiến đấu, nếu [FerrisWheel] bằng 0 và không có kẻ địch nào xuất hiện ở lượt kế tiếp thì chuyển sang giai đoạn tiếp theo."
+            "desc": "Khi kết thúc lượt hoặc trong giai đoạn chiến đấu, nếu [FerrisWheel] bằng 0 và không có đơn vị nào sẽ xuất hiện ở lượt kế tiếp thì chuyển sang giai đoạn tiếp theo."
         },
         {
             "id": 839005,
@@ -174,58 +174,58 @@
         },
         {
             "id": 841001,
-            "name": "Xung động Máu lại Tuần hoàn",
-            "desc": "- Nếu [RegainedStrength] từ 10 trở lên, chuyển thành [RegainedStrength_2nd]\n- Nếu [RegainedStrength] từ 20 trở lên, chuyển thành [RegainedStrength_3rd]\n- Nếu [RegainedStrength] bị tiêu hao và không còn đủ, quay lại giai đoạn trước đó"
+            "name": "Xung Năng Máu Tuần Hoàn",
+            "desc": "- Nếu [RegainedStrength] từ 10 trở lên, chuyển thành [RegainedStrength_2nd]\n- Nếu [RegainedStrength] từ 20 trở lên, chuyển thành [RegainedStrength_3rd]\n- Nếu [RegainedStrength] bị tiêu hao xuống dưới các ngưỡng trên, quay lại giai đoạn trước"
         },
         {
             "id": 841002,
-            "name": "Huyết Tinh kiểu Don Quixote",
-            "desc": "Khi tấn công trúng đích, nếu mục tiêu có [Laceration], hồi phục HP cho bộ phận và bản thể bằng 30% lượng sát thương gây ra\nTrong trường hợp là Đồng xu không thể phá hủy, nếu trúng đích sau khi thua khớp đấu, hiệu ứng này sẽ không kích hoạt."
+            "name": "Huyết Cương kiểu Don Quixote",
+            "desc": "Khi đánh trúng, nếu mục tiêu có [Laceration], hồi phục HP cho bộ phận và Thân thể bằng 30% lượng sát thương gây ra\nVới Đồng xu không thể phá hủy, hiệu ứng này không kích hoạt khi đánh trúng sau khi thua Đối kháng."
         },
         {
             "id": 841003,
             "name": "Bữa tối Xa lạ",
-            "desc": "Trong 1 lượt, nếu hồi phục HP từ 15% HP tối đa trở lên hoặc hấp thụ [Laceration] của kẻ địch, nhận 3 [Binding] vào lượt kế tiếp (1 lần mỗi lượt)\nNếu tiêu diệt mục tiêu bằng Kĩ năng của bản thân, nhận 2 [AttackDown] và 1 [DefenseDown] vào lượt kế tiếp (kích hoạt tối đa 3 lần)"
+            "desc": "Trong 1 lượt, nếu hồi phục HP từ 15% HP tối đa trở lên hoặc hấp thụ [Laceration] của kẻ địch, nhận 3 [Binding] vào lượt kế tiếp (1 lần mỗi lượt)\nNếu tiêu diệt mục tiêu bằng Kĩ năng của bản thân, nhận 2 [AttackDown] và 1 [DefenseDown] vào lượt kế tiếp (kích hoạt tối đa 3 lần mỗi lượt)"
         },
         {
             "id": 841004,
             "name": "Vì gia đình...",
-            "desc": "Khi kết thúc lượt nếu đang trong trạng thái Hoảng loạn, giải trừ trạng thái Hoảng loạn vào đầu lượt kế tiếp và đưa Tinh thần về 0.\nKhi giải trừ trạng thái Hoảng loạn\n- Tiêu hao 30 [BloodDinner], nhận 2 [Enhancement], 1 [Agility] và hồi 30 Tinh thần vào lượt kế tiếp.\n- Nếu không thể tiêu hao [BloodDinner], nhận 40 [Laceration], kích hoạt sát thương từ [Laceration] ngay lập tức, sau đó giảm 5 số lượt [Laceration].\n- Sau đó, nhận 2 [Enhancement] và hồi 30 Tinh thần vào lượt kế tiếp."
+            "desc": "Khi kết thúc lượt nếu đang trong trạng thái Hoảng loạn, giải trừ trạng thái Hoảng loạn vào đầu lượt kế tiếp và đưa Tinh thần về 0.\nKhi giải trừ trạng thái Hoảng loạn\n- Tiêu hao 30 [BloodDinner], nhận 2 [Enhancement], 1 [Agility] và hồi 30 Tinh thần vào lượt kế tiếp.\n- Nếu không thể tiêu hao [BloodDinner], nhận 40 [Laceration], kích hoạt sát thương từ [Laceration] ngay lập tức, sau đó giảm 5 Số lượng [Laceration].\n- Sau đó, nhận 2 [Enhancement] và hồi 30 Tinh thần vào lượt kế tiếp."
         },
         {
             "id": 841101,
-            "name": "Mảnh vỡ của giấc mơ vô vọng và an nhàn",
+            "name": "Mảnh vỡ của giấc mơ vô vọng và ngây thơ",
             "desc": "Khi đơn vị này bị xóa bỏ, [BloodDinner] tăng 30\nKhi bị các Tù nhân tiêu diệt, tạo ra Ký ức về Chuyến phiêu lưu trong Mơ"
         },
         {
             "id": 841102,
             "name": "Nguyện ước ích kỷ ngoảnh mặt lại với gia đình",
-            "desc": "Khi bị Don Quixote thật tiêu diệt\n- Don Quixote thật nhận 5 [RegainedStrength].\n- Tất cả Tù nhân nhận 30 sát thương hệ Sắc dục, nhận 8 Cường độ Xuất huyết và 8 Số lượt [Laceration]."
+            "desc": "Khi bị Don Quixote tiêu diệt\n- Don Quixote nhận 5 [RegainedStrength].\n- Tất cả Tù nhân nhận 30 sát thương hệ Sắc dục, 8 Cường độ và 8 Số lượng [Laceration]."
         },
         {
             "id": 841301,
             "name": "Những Ký ức về Chuyến phiêu lưu đã qua",
-            "desc": "Bắt đầu mỗi lượt, hồi 5 Tinh thần cho tất cả Tù nhân\nBan hiệu ứng đặc biệt cho Tù nhân Don Quixote"
+            "desc": "Bắt đầu mỗi lượt, hồi 5 Tinh thần cho tất cả Tù nhân\nTù nhân Don Quixote nhận hiệu ứng đặc biệt"
         },
         {
             "id": 841302,
             "name": "Ý chí Nghiền nát",
-            "desc": "Nếu bị Don Quixote tiêu diệt, ban cho Don Quixote 3 [Reduction] trong lượt này và lượt kế tiếp"
+            "desc": "Khi bị Don Quixote tiêu diệt, Don Quixote nhận 3 [Reduction] trong lượt này và lượt kế tiếp"
         },
         {
             "id": 841201,
-            "name": "Giam cầm bằng Cọc Huyết Tinh",
+            "name": "Giam Cầm bằng Cọc Huyết Cương",
             "desc": "Khi đơn vị này bị xóa bỏ, trạng thái [Penetration] của đồng minh bị đơn vị này đâm xuyên sẽ được giải trừ vào lượt kế tiếp."
         },
         {
             "id": 841202,
-            "name": "Huyết Tinh Tan Vỡ",
+            "name": "Huyết Cương Vỡ Tan, Phân Tán",
             "desc": "Khi đơn vị này bị xóa bỏ, nhận 3 Tài nguyên E.G.O có số lượng ít nhất và 3 Tài nguyên E.G.O ngẫu nhiên."
         },
         {
             "id": 841203,
             "name": "Máu Kết Tinh từ Bên Trong",
-            "desc": "Nếu không bị tiêu diệt cho đến lượt kế tiếp sau khi được tạo ra, đơn vị này sẽ bị xóa bỏ vào cuối lượt đó, và hiệu ứng sẽ kích hoạt khi xóa bỏ.\nSau đó, đồng minh bị đơn vị này đâm xuyên nhận sát thương cố định bằng 30% HP tối đa, nhận 10 Cường độ [Laceration] và 5 Số lượt [Laceration]."
+            "desc": "Nếu không bị tiêu diệt cho đến lượt kế tiếp sau khi được tạo ra, đơn vị này sẽ bị xóa bỏ vào cuối lượt đó, và hiệu ứng sẽ kích hoạt khi xóa bỏ.\nSau đó, đồng minh bị đơn vị này đâm xuyên nhận sát thương cố định bằng 30% HP tối đa, nhận 10 Cường độ [Laceration] và 5 Số lượng [Laceration]."
         },
         {
             "id": 841204,
@@ -239,7 +239,7 @@
         },
         {
             "id": 839006,
-            "name": "Điều luật Cưỡng ép của Nhánh Cây Hoàng Kim",
+            "name": "Điều Phối Cưỡng Chế của Cành Vàng",
             "desc": "Khi bắt đầu trận chiến, nhận [ConfinementOfGoldenBranch]."
         },
         {
