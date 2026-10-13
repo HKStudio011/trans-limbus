@@ -2,132 +2,132 @@
   "dataList": [
     {
       "id": 142201,
-      "name": "Docent phái Dã thú Ngón Nhẫn",
-      "desc": "Khi bắt đầu lượt, nhận <color=#ff6000><mark=#ff000040><b><u>2 [Protection]</u></b></mark></color> với mỗi Student phái Dã thú Ngón Nhẫn của đồng minh\n- Nếu đã sử dụng 「Critique」 trong trận chiến này, hiệu ứng sẽ được cường hóa từ các lượt tiếp theo; thay vào đó nhận 2 [Protection] và hồi 5 Tinh thần\n(Nếu Tinh thần thấp hơn -15, hiệu ứng hồi Tinh thần được áp dụng gấp đôi)\n- Nếu không có Student phái Dã thú Ngón Nhẫn đồng minh, thay vào đó nhận 2 [Vulnerable] và Tinh thần giảm xuống 0\n\nNgay trước khi nhận sát thương từ kỹ năng có Chỉ số Mục tiêu là 1, nếu có Student đồng minh khác\nKhiến đối tượng <color=#ff6000><mark=#ff000040><b><u>chịu đòn thay (2 lần mỗi lượt, ngoại trừ Người hỗ trợ)</u></b></mark></color>\n\nKhi kết thúc lượt đã sử dụng 「Critique」, nếu có Student phái Dã thú Ngón Nhẫn của đồng minh đã tử trận trong trận chiến này, <color=#ff6000><mark=#ff000040><b><u>gọi cùng một loại Student đó để bổ sung</u></b></mark></color>\n- Student xuất hiện bằng hiệu ứng này sẽ nhận [Vulnerable] và [AttackDown] tương ứng với số đồng minh đã tử trận trong suốt trận chiến này vào mỗi khi bắt đầu lượt (Tối đa 10 mỗi loại)",
-      "summary": "Ngay trước khi nhận sát thương, khiến Student đồng minh khác chịu đòn thay",
+      "name": "Giảng viên Trường phái Dã thú Ngón Áp Út",
+      "desc": "Khi bắt đầu lượt, nhận <color=#ff6000><mark=#ff000040><b><u>2 [Protection]</u></b></mark></color> cho mỗi Học sinh Trường phái Dã thú Ngón Áp Út đồng minh\n- Nếu đơn vị này đã sử dụng 「Critique」 trong trận chiến này, thay vào đó sẽ nhận 2 [Protection] và hồi 5 Tinh thần, bắt đầu từ lượt tiếp theo\n(Nếu Tinh thần dưới -15, hiệu ứng hồi Tinh thần được áp dụng gấp đôi)\n- Nếu không có Học sinh Trường phái Dã thú Ngón Áp Út đồng minh, thay vào đó nhận 2 [Vulnerable] và giảm Tinh thần xuống 0\n\nNgay trước khi bị đánh trúng bởi kĩ năng có Trọng lượng Tấn công là 1, nếu có Học sinh Ngón Áp Út đồng minh khác, <color=#ff6000><mark=#ff000040><b><u>khiến đối tượng chịu đòn thay (2 lần mỗi lượt, ngoại trừ Đơn vị Hỗ trợ)</u></b></mark></color>\n\nKhi kết thúc lượt mà đơn vị này đã sử dụng 「Critique」, nếu có Học sinh Trường phái Dã thú Ngón Áp Út đồng minh đã tử trận trong trận chiến này, <color=#ff6000><mark=#ff000040><b><u>gọi đúng loại Học sinh đó để lấp chỗ trống</u></b></mark></color>\n- Vào mỗi khi bắt đầu lượt, Học sinh được lấp chỗ trống bởi hiệu ứng này sẽ nhận [Vulnerable] và [AttackDown] tương ứng với số đồng minh đã tử trận trong trận chiến này (Tối đa 10 mỗi loại)",
+      "summary": "Ngay trước khi bị đánh trúng, buộc Học sinh đồng minh khác chịu đòn thay",
       "flavor": ""
     },
     {
       "id": 142202,
-      "name": "Lời chỉ dạy và roi vọt",
-      "desc": "Khi bắt đầu lượt, áp dụng ngẫu nhiên hỗn hợp [AttackUp] và [DefenseUp] lên Student phái Dã thú Ngón Nhẫn của đồng minh\ndựa theo số lượt mà mỗi đối tượng đã sống sót (tính cả lượt hiện tại) (Tối đa 5)\n\nNếu có Student đồng minh bị Choáng, <color=#ff6000><mark=#ff000040><b><u>giải trừ Choáng cho đối tượng khi kết thúc lượt</u></b></mark></color>\n- Student được giải trừ Choáng bởi hiệu ứng này sẽ bị thay đổi tất cả mục tiêu tấn công và kháng thuộc tính thành Yếu chỉ trong lượt tiếp theo\n\nNếu có Student trong trạng thái Hoảng loạn, hồi Tinh thần của đối tượng lên 45 khi kết thúc lượt",
+      "name": "Kèm cặp chỉ dạy",
+      "desc": "Khi bắt đầu lượt, áp dụng ngẫu nhiên [AttackUp] và [DefenseUp] lên Học sinh Trường phái Dã thú Ngón Áp Út đồng minh, mỗi loại một lượng bằng số lượt (tính cả lượt hiện tại) mà mỗi đơn vị đã sống sót (Tối đa 5)\n\nKhi kết thúc lượt, nếu có Học sinh đồng minh bị Choáng, <color=#ff6000><mark=#ff000040><b><u>giải trừ Choáng cho đối tượng</u></b></mark></color>\n- Tất cả Kháng Loại Tấn công và Kháng Thuộc tính của Học sinh được giải trừ Choáng bởi hiệu ứng này trở thành \"Khắc chế\" trong lượt tiếp theo\n\nKhi kết thúc lượt, nếu có Học sinh trong trạng thái Hoảng loạn, hồi Tinh thần của đối tượng lên 45",
       "summary": "",
       "flavor": ""
     },
     {
       "id": 142203,
-      "name": "Phái Dã thú - Sắc màu Hoang dã",
-      "desc": "Khi kết thúc trận chiến, áp dụng <color=#ff6000><mark=#ff000040><b><u>1 [IntenseColors] vào lượt tiếp theo</u></b></mark></color> cho Tội nhân sở hữu tất cả các hiệu ứng [BearClawWound], [EagleClawWound] và [BoldBrushstrokes]\n- Nếu [BearClawWound] và [EagleClawWound] mà đối tượng sở hữu lần lượt từ 3/6/9 trở lên, thay vào đó áp dụng 2/3/4 [IntenseColors]",
+      "name": "Trường phái Dã thú - Sắc màu Hoang dã",
+      "desc": "Khi kết thúc trận chiến, áp dụng <color=#ff6000><mark=#ff000040><b><u>1 [IntenseColors] vào lượt tiếp theo</u></b></mark></color> cho Tù nhân sở hữu đồng thời [BearClawWound], [EagleClawWound] và [BoldBrushstrokes]\n- Nếu đối tượng sở hữu [BearClawWound] và [EagleClawWound] lần lượt từ 3/6/9 trở lên, thay vào đó áp dụng 2/3/4 [IntenseColors] (số lượng áp dụng dựa trên hiệu ứng có Số lượng ít nhất)",
       "summary": "Áp dụng Sắc màu Mãnh liệt",
-      "flavor": "「Ngoại hình của động vật đều có mục đích riêng. Trong số đó, thứ đánh thức và biểu hiện sự hoang dã của những kẻ mà chúng ta gọi là dã thú chính là phái Dã thú.」"
+      "flavor": "「Ngoài hình của mỗi loài động vật đều mang một mục đích riêng. Trong số đó, thứ đánh thức và biểu lộ dã tính của những kẻ mà chúng ta gọi là dã thú chính là Trường phái Dã thú.」"
     },
     {
       "id": 142204,
       "name": "Mặt nạ Dã thú mang linh hồn",
-      "desc": "Áp dụng hiệu ứng [PanicChangeLock],\nkhi kết thúc lượt nếu ở trạng thái Hoảng loạn thì Tinh thần đổi thành 20\n\n<color=#ff6000><mark=#ff000040><b><u>Nếu Máu dưới 70%, chuyển giai đoạn</u></b></mark></color>\n- Tất cả các hiệu ứng không phải hiệu ứng cố định của bản thân sẽ biến mất\n- Khi bắt đầu lượt tương ứng, nhận [FaubismWolfMask] và hồi Tinh thần lên 45",
+      "desc": "Áp dụng hiệu ứng [PanicChangeLock]\nKhi kết thúc lượt, nếu ở trạng thái Hoảng loạn, Tinh thần đổi thành 20\n\n<color=#ff6000><mark=#ff000040><b><u>Khi Máu từ 70% trở xuống, nhận mô thức mới</u></b></mark></color>\n- Loại bỏ mọi hiệu ứng ngoài các hiệu ứng riêng của đơn vị này\n- Khi bắt đầu lượt đầu tiên của mô thức mới, nhận [FaubismWolfMask] và hồi Tinh thần lên 45",
       "summary": "",
       "flavor": ""
     },
     {
       "id": 142301,
-      "name": "Docent phái Dã thú Ngón Nhẫn Loup",
-      "desc": "Trong lượt sử dụng đòn tấn công mạnh, giá trị Tốc độ tối thiểu/tối đa +15\n\nLượng sát thương nhận vào từ Tấn công một chiều -30%\nLượng sát thương gây ra từ Tấn công một chiều +30%\n- Nếu [Aggro] của ô kỹ năng tương ứng từ 2 trở lên, mỗi 1 [Aggro] sẽ làm giảm 5% lượng sát thương tăng thêm từ hiệu ứng này (Tối thiểu 0%)\n\nKhi thua Khiêu chiến, nhận 1 [AttackDmgUp] (Tối đa 5 mỗi lượt)\n- Khi kết thúc lượt hoặc khi tấn công trúng Tội nhân bằng kỹ năng, [AttackDmgUp] nhận được từ hiệu ứng này sẽ biến mất khi kết thúc đòn tấn công của kỹ năng đó",
-      "summary": "Giảm lượng sát thương nhận vào từ Tấn công một chiều, tăng lượng sát thương gây ra từ Tấn công một chiều\nKhi thua Khiêu chiến, nhận tăng lượng sát thương",
+      "name": "Rufo, Giảng viên Trường phái Dã thú Ngón Áp Út",
+      "desc": "Trong lượt sử dụng đòn tấn công mạnh, giá trị Tốc độ tối thiểu/tối đa +15\n\nLượng sát thương nhận vào từ Tấn công một chiều -30%\nLượng sát thương gây ra từ Tấn công một chiều +30%\n- Nếu ô kĩ năng mà đòn Tấn công một chiều của đơn vị này nhắm tới có từ 2 [Aggro] trở lên, mỗi 1 [Aggro] sẽ làm giảm 5% lượng sát thương tăng thêm từ hiệu ứng này (Tối thiểu 0%)\n\nKhi thua Đối kháng, nhận 1 [AttackDmgUp] (Tối đa 5 mỗi lượt)\n- Khi kết thúc lượt, hoặc khi kết thúc đòn tấn công của kĩ năng đã đánh trúng Tù nhân, hiệu ứng [AttackDmgUp] nhận được từ hiệu ứng này sẽ hết hiệu lực",
+      "summary": "Nhận ít hơn và gây nhiều hơn sát thương bằng Tấn công một chiều\nKhi thua Đối kháng, nhận Tăng Sát thương",
       "flavor": ""
     },
     {
       "id": 142302,
-      "name": "Phái Dã thú - Masque du Loup : Đánh thức Bản năng",
-      "desc": "Khi bắt đầu lượt, nhận <color=#ff6000><mark=#ff000040><b><u>8 [Protection]</u></b></mark></color>\n- Với mỗi <color=#ff6000><mark=#ff000040><b><u>loại hiệu ứng bất lợi</u></b></mark></color> đang sở hữu, giá trị [Protection] nhận được khi bắt đầu lượt giảm 2\n- <color=#ff6000><mark=#ff000040><b><u>Khi thua Khiêu chiến trước 「Thô bạo thay, những vệt màu đỏ đang mạch động dưới lớp da của ngươi.」, hiệu ứng này sẽ đổi thành nhận 2 [Vulnerable]</u></b></mark></color> chỉ trong lượt tiếp theo\n\nMỗi khi <color=#ff6000><mark=#ff000040><b><u>nhận sát thương từ xu kỹ năng, Cấp Phòng thủ tăng thêm 1</u></b></mark></color> (Tối đa 20 mỗi lượt)\n- Khi kết thúc lượt, Cấp Phòng thủ nhận được từ hiệu ứng này sẽ biến mất\n- <color=#ff6000><mark=#ff000040><b><u>Khi thua Khiêu chiến trước 「Thô bạo thay, những vệt màu đỏ đang mạch động dưới lớp da của ngươi.」, hiệu ứng này sẽ đổi thành Cấp Phòng thủ giảm đi 1 mỗi khi nhận sát thương từ xu kỹ năng</u></b></mark></color> chỉ trong lượt tiếp theo (Tối đa 20, hiệu ứng biến mất khi kết thúc lượt đó)",
-      "summary": "Khi nhận sát thương, Cấp Phòng thủ tăng\nNếu đã thua Khiêu chiến bằng kỹ năng nhất định ở lượt trước, Cấp Phòng thủ sẽ giảm thay thế",
+      "name": "Trường phái Dã thú - Masque de Loup : Đánh thức Dã tính",
+      "desc": "Khi bắt đầu lượt, nhận <color=#ff6000><mark=#ff000040><b><u>8 [Protection]</u></b></mark></color>\n- Với mỗi <color=#ff6000><mark=#ff000040><b><u>loại hiệu ứng bất lợi</u></b></mark></color> trên đơn vị này, giá trị [Protection] nhận được khi bắt đầu lượt giảm 2\n- <color=#ff6000><mark=#ff000040><b><u>Khi thua Đối kháng bằng kĩ năng 「Màu vẽ đỏ mạch đập dưới lớp da của ngươi thật thô bạo」, thay vào đó hiệu ứng này cho nhận 2 [Vulnerable]</u></b></mark></color> trong lượt tiếp theo\n\nMỗi khi <color=#ff6000><mark=#ff000040><b><u>bị đánh trúng bởi Đồng xu kĩ năng, nhận 1 Cấp độ Phòng thủ</u></b></mark></color> (Tối đa 20 mỗi lượt)\n- Khi kết thúc lượt, Cấp độ Phòng thủ nhận được từ hiệu ứng này sẽ biến mất\n- <color=#ff6000><mark=#ff000040><b><u>Khi thua Đối kháng bằng kĩ năng 「Màu vẽ đỏ mạch đập dưới lớp da của ngươi thật thô bạo」, thay vào đó hiệu ứng này sẽ mất 1 Cấp độ Phòng thủ mỗi khi bị đánh trúng bởi Đồng xu kĩ năng</u></b></mark></color> trong lượt tiếp theo (Tối đa 20, hiệu ứng biến mất khi kết thúc lượt đó)",
+      "summary": "Khi bị đánh trúng, nhận Cấp độ Phòng thủ\nNếu thua Đối kháng bằng kĩ năng nhất định ở lượt trước, thay vào đó mất Cấp độ Phòng thủ",
       "flavor": ""
     },
     {
       "id": 142303,
-      "name": "Phái Dã thú - Sắc màu Hoang dã",
-      "desc": "Khi kết thúc trận chiến, áp dụng <color=#ff6000><mark=#ff000040><b><u>1 [IntenseColors] vào lượt tiếp theo</u></b></mark></color> cho Tội nhân sở hữu tất cả các hiệu ứng [BearClawWound], [EagleClawWound] và [BoldBrushstrokes]\n- Nếu [BearClawWound] và [EagleClawWound] mà đối tượng sở hữu lần lượt từ 3/6/9 trở lên, thay vào đó áp dụng 2/3/4 [IntenseColors]",
+      "name": "Trường phái Dã thú - Sắc màu Hoang dã",
+      "desc": "Khi kết thúc trận chiến, áp dụng <color=#ff6000><mark=#ff000040><b><u>1 [IntenseColors] vào lượt tiếp theo</u></b></mark></color> cho Tù nhân sở hữu đồng thời [BearClawWound], [EagleClawWound] và [BoldBrushstrokes]\n- Nếu đối tượng sở hữu [BearClawWound] và [EagleClawWound] lần lượt từ 3/6/9 trở lên, thay vào đó áp dụng 2/3/4 [IntenseColors] (số lượng áp dụng dựa trên hiệu ứng có Số lượng ít nhất)",
       "summary": "Áp dụng Sắc màu Mãnh liệt",
-      "flavor": "「Ngoại hình của động vật đều có mục đích riêng. Trong số đó, thứ đánh thức và biểu hiện sự hoang dã của những kẻ mà chúng ta gọi là dã thú chính là phái Dã thú.」"
+      "flavor": "「Ngoài hình của mỗi loài động vật đều mang một mục đích riêng. Trong số đó, thứ đánh thức và biểu lộ dã tính của những kẻ mà chúng ta gọi là dã thú chính là Trường phái Dã thú.」"
     },
     {
       "id": 142304,
-      "name": "Phái Dã thú - Giới hạn bơm màu",
-      "desc": "Áp dụng hiệu ứng [PanicChangeLock], khi kết thúc lượt nếu ở trạng thái Hoảng loạn thì Tinh thần đổi thành 30\n\nNếu Máu dưới 35%, <color=#ff6000><mark=#ff000040><b><u>[FaubismWolfMask] đổi thành [FaubismWolfMaskBlooded] và hồi Tinh thần lên 45</u></b></mark></color>",
+      "name": "Trường phái Dã thú - Liều Chịu đựng Màu vẽ Tối đa",
+      "desc": "Áp dụng hiệu ứng [PanicChangeLock]\nKhi kết thúc lượt, nếu ở trạng thái Hoảng loạn, Tinh thần đổi thành 30\n\nKhi Máu từ 35% trở xuống, <color=#ff6000><mark=#ff000040><b><u>[FaubismWolfMask] chuyển thành [FaubismWolfMaskBlooded] và hồi Tinh thần lên 45</u></b></mark></color>",
       "summary": "",
       "flavor": ""
     },
     {
       "id": 142401,
       "name": "Dấu vết Nghệ thuật",
-      "desc": "Khi tử trận, nhận thêm tài nguyên E.G.O có số lượng ít nhất +2",
-      "summary": "Khi tử trận, nhận tài nguyên E.G.O",
+      "desc": "Khi tử trận, trao thêm +2 tài nguyên E.G.O thuộc hệ có số lượng ít nhất",
+      "summary": "Khi tử trận, trao tài nguyên E.G.O",
       "flavor": ""
     },
     {
       "id": 500601,
       "name": "Chiến đấu Ảnh chiếu",
-      "desc": "Khi số lần Khiêu chiến với cùng một đối tượng từ 10 lần trở lên, Sức mạnh Khiêu chiến tăng hoặc giảm một lượng bằng (Số lần Khiêu chiến ÷ 10) hiện tại (Lấy phần nguyên)\n\nChỉ số tối đa của [Combustion], [Laceration], [Vibration], [Burst], [Sinking] là 30\nSố lượt cộng dồn tối đa của [Combustion], [Laceration], [Vibration], [Burst], [Sinking] là 10",
+      "desc": "Khi đã Đối kháng với cùng một kẻ địch từ 10 lần trở lên, trong mỗi lần Đối kháng, Sức mạnh Đối kháng ngẫu nhiên tăng hoặc giảm một lượng bằng (Số lần Đối kháng ÷ 10) (làm tròn xuống)\n\nGiới hạn Cường độ tối đa của [Combustion], [Laceration], [Vibration], [Burst], và [Sinking]: 30\nGiới hạn Số lượng tối đa của [Combustion], [Laceration], [Vibration], [Burst], và [Sinking]: 10",
       "flavor": ""
     },
     {
       "id": 500602,
-      "name": "Docent phái Dã thú Ngón Nhẫn",
-      "desc": "Khi bắt đầu lượt, nhận <color=#ff6000><mark=#ff000040><b><u>2 [Protection]</u></b></mark></color> với mỗi Student phái Dã thú Ngón Nhẫn của đồng minh\n- Nếu đã sử dụng 「Critique」 trong trận chiến này, hiệu ứng sẽ được cường hóa từ các lượt tiếp theo; thay vào đó nhận 2 [Protection] và hồi 5 Tinh thần\n(Nếu Tinh thần thấp hơn -15, hiệu ứng hồi Tinh thần được áp dụng gấp đôi)\n- Nếu không có Student phái Dã thú Ngón Nhẫn đồng minh, thay vào đó nhận 2 [Vulnerable] và Tinh thần giảm xuống 0\n\nNgay trước khi nhận sát thương từ kỹ năng có Chỉ số Mục tiêu là 1, nếu có Student đồng minh khác\náp dụng <color=#ff6000><mark=#ff000040><b><u>2 [Protection] cho đối tượng và khiến đối tượng chịu đòn thay (2 lần mỗi lượt)</u></b></mark></color>\n\nKhi kết thúc lượt đã sử dụng 「Critique」, nếu có Student phái Dã thú Ngón Nhẫn của đồng minh đã tử trận trong trận chiến này, <color=#ff6000><mark=#ff000040><b><u>gọi cùng một loại Student đó để bổ sung</u></b></mark></color>\n- Student xuất hiện bằng hiệu ứng này sẽ nhận [Vulnerable] và [AttackDown] tương ứng với số đồng minh đã tử trận trong suốt trận chiến này vào mỗi khi bắt đầu lượt (Tối đa 10 mỗi loại)",
-      "summary": "Ngay trước khi nhận sát thương, khiến Student đồng minh khác chịu đòn thay",
+      "name": "Giảng viên Trường phái Dã thú Ngón Áp Út",
+      "desc": "Khi bắt đầu lượt, nhận <color=#ff6000><mark=#ff000040><b><u>2 [Protection]</u></b></mark></color> cho mỗi Học sinh Trường phái Dã thú Ngón Áp Út đồng minh\n- Nếu đơn vị này đã sử dụng 「Critique」 trong trận chiến này, thay vào đó sẽ nhận 2 [Protection] và hồi 5 Tinh thần, bắt đầu từ lượt tiếp theo\n(Nếu Tinh thần dưới -15, hiệu ứng hồi Tinh thần được áp dụng gấp đôi)\n- Nếu không có Học sinh Trường phái Dã thú Ngón Áp Út đồng minh, thay vào đó nhận 2 [Vulnerable] và giảm Tinh thần xuống 0\n\nNgay trước khi bị đánh trúng bởi kĩ năng có Trọng lượng Tấn công là 1, nếu có Học sinh Ngón Áp Út đồng minh khác, <color=#ff6000><mark=#ff000040><b><u>áp dụng 2 [Protection] lên đối tượng đó; sau đó, khiến đối tượng chịu đòn thay (2 lần mỗi lượt)</u></b></mark></color>\n\nKhi kết thúc lượt mà đơn vị này đã sử dụng 「Critique」, nếu có Học sinh Trường phái Dã thú Ngón Áp Út đồng minh đã tử trận trong trận chiến này, <color=#ff6000><mark=#ff000040><b><u>gọi đúng loại Học sinh đó để lấp chỗ trống</u></b></mark></color>\n- Vào mỗi khi bắt đầu lượt, Học sinh được lấp chỗ trống bởi hiệu ứng này sẽ nhận [Vulnerable] và [AttackDown] tương ứng với số đồng minh đã tử trận trong trận chiến này (Tối đa 10 mỗi loại)",
+      "summary": "Ngay trước khi bị đánh trúng, buộc Học sinh đồng minh khác chịu đòn thay",
       "flavor": ""
     },
     {
       "id": 500603,
-      "name": "Lời chỉ dạy và roi vọt",
-      "desc": "Khi bắt đầu lượt, áp dụng ngẫu nhiên hỗn hợp [AttackUp] và [DefenseUp] lên Student phái Dã thú Ngón Nhẫn của đồng minh\ndựa theo số lượt mà mỗi đối tượng đã sống sót (tính cả lượt hiện tại) (Tối đa 5)\n\nNếu có Student đồng minh bị Choáng, <color=#ff6000><mark=#ff000040><b><u>giải trừ Choáng cho đối tượng khi kết thúc lượt</u></b></mark></color>\n- Student được giải trừ Choáng bởi hiệu ứng này sẽ bị thay đổi tất cả mục tiêu tấn công và kháng thuộc tính thành Yếu chỉ trong lượt tiếp theo\n\nNếu có Student trong trạng thái Hoảng loạn, hồi Tinh thần của đối tượng lên 45 khi kết thúc lượt",
+      "name": "Kèm cặp chỉ dạy",
+      "desc": "Khi bắt đầu lượt, áp dụng ngẫu nhiên [AttackUp] và [DefenseUp] lên Học sinh Trường phái Dã thú Ngón Áp Út đồng minh, mỗi loại một lượng bằng số lượt (tính cả lượt hiện tại) mà mỗi đơn vị đã sống sót (Tối đa 5)\n\nKhi kết thúc lượt, nếu có Học sinh đồng minh bị Choáng, <color=#ff6000><mark=#ff000040><b><u>giải trừ Choáng cho đối tượng</u></b></mark></color>\n- Tất cả Kháng Loại Tấn công và Kháng Thuộc tính của Học sinh được giải trừ Choáng bởi hiệu ứng này trở thành \"Khắc chế\" trong lượt tiếp theo\n\nKhi kết thúc lượt, nếu có Học sinh trong trạng thái Hoảng loạn, hồi Tinh thần của đối tượng lên 45",
       "summary": "",
       "flavor": ""
     },
     {
       "id": 500604,
-      "name": "Phái Dã thú - Sắc màu Hoang dã",
-      "desc": "Khi kết thúc trận chiến, áp dụng <color=#ff6000><mark=#ff000040><b><u>1 [IntenseColors] vào lượt tiếp theo</u></b></mark></color> cho Tội nhân sở hữu tất cả các hiệu ứng [BearClawWound], [EagleClawWound] và [BoldBrushstrokes]\n- Nếu [BearClawWound] và [EagleClawWound] mà đối tượng sở hữu lần lượt từ 3/6/9 trở lên, thay vào đó áp dụng 2/3/4 [IntenseColors]",
+      "name": "Trường phái Dã thú - Sắc màu Hoang dã",
+      "desc": "Khi kết thúc trận chiến, áp dụng <color=#ff6000><mark=#ff000040><b><u>1 [IntenseColors] vào lượt tiếp theo</u></b></mark></color> cho Tù nhân sở hữu đồng thời [BearClawWound], [EagleClawWound] và [BoldBrushstrokes]\n- Nếu đối tượng sở hữu [BearClawWound] và [EagleClawWound] lần lượt từ 3/6/9 trở lên, thay vào đó áp dụng 2/3/4 [IntenseColors] (số lượng áp dụng dựa trên hiệu ứng có Số lượng ít nhất)",
       "summary": "Áp dụng Sắc màu Mãnh liệt",
-      "flavor": "「Ngoại hình của động vật đều có mục đích riêng. Trong số đó, thứ đánh thức và biểu hiện sự hoang dã của những kẻ mà chúng ta gọi là dã thú chính là phái Dã thú.」"
+      "flavor": "「Ngoài hình của mỗi loài động vật đều mang một mục đích riêng. Trong số đó, thứ đánh thức và biểu lộ dã tính của những kẻ mà chúng ta gọi là dã thú chính là Trường phái Dã thú.」"
     },
     {
       "id": 500605,
       "name": "Mặt nạ Dã thú mang linh hồn",
-      "desc": "Áp dụng hiệu ứng [PanicChangeLock],\nkhi kết thúc lượt nếu ở trạng thái Hoảng loạn thì Tinh thần đổi thành 45\n\n<color=#ff6000><mark=#ff000040><b><u>Nếu Máu dưới 70%, chuyển giai đoạn</u></b></mark></color>\n- Tất cả các hiệu ứng không phải hiệu ứng cố định của bản thân sẽ biến mất\n- Áp dụng <color=#ff6000><mark=#ff000040><b><u>8 [Laceration], 8 Số lần [Laceration], 8 [Sinking], 8 Số lần [Sinking]</u></b></mark></color> cho tất cả Tội nhân trên chiến trường\n- Khi bắt đầu lượt tương ứng, nhận [FaubismWolfMask] và hồi Tinh thần lên 45",
+      "desc": "Áp dụng hiệu ứng [PanicChangeLock]\nKhi kết thúc lượt, nếu ở trạng thái Hoảng loạn, Tinh thần đổi thành 45\n\n<color=#ff6000><mark=#ff000040><b><u>Khi Máu từ 70% trở xuống, nhận mô thức mới</u></b></mark></color>\n- Loại bỏ mọi hiệu ứng ngoài các hiệu ứng riêng của đơn vị này\n- Áp dụng <color=#ff6000><mark=#ff000040><b><u>8 [Laceration], +8 Số lượng [Laceration], 8 [Sinking], +8 Số lượng [Sinking]</u></b></mark></color> lên toàn bộ Tù nhân trên chiến trường\n- Khi bắt đầu lượt đầu tiên của mô thức mới, nhận [FaubismWolfMask] và hồi Tinh thần lên 45",
       "summary": "",
       "flavor": ""
     },
     {
       "id": 500701,
       "name": "Chiến đấu Ảnh chiếu",
-      "desc": "Khi số lần Khiêu chiến với cùng một đối tượng từ 10 lần trở lên, Sức mạnh Khiêu chiến tăng hoặc giảm một lượng bằng (Số lần Khiêu chiến ÷ 10) hiện tại (Lấy phần nguyên)\n\nChỉ số tối đa của [Combustion], [Laceration], [Vibration], [Burst], [Sinking] là 30\nSố lượt cộng dồn tối đa của [Combustion], [Laceration], [Vibration], [Burst], [Sinking] là 10",
+      "desc": "Khi đã Đối kháng với cùng một kẻ địch từ 10 lần trở lên, trong mỗi lần Đối kháng, Sức mạnh Đối kháng ngẫu nhiên tăng hoặc giảm một lượng bằng (Số lần Đối kháng ÷ 10) (làm tròn xuống)\n\nGiới hạn Cường độ tối đa của [Combustion], [Laceration], [Vibration], [Burst], và [Sinking]: 30\nGiới hạn Số lượng tối đa của [Combustion], [Laceration], [Vibration], [Burst], và [Sinking]: 10",
       "flavor": ""
     },
     {
       "id": 500702,
-      "name": "Docent phái Dã thú Ngón Nhẫn Loup",
-      "desc": "Trong lượt sử dụng đòn tấn công mạnh, giá trị Tốc độ tối thiểu/tối đa +15\n\nLượng sát thương nhận vào từ Tấn công một chiều -50%\nLượng sát thương gây ra từ Tấn công một chiều +50%\n- Nếu [Aggro] của ô kỹ năng tương ứng từ 2 trở lên, mỗi 1 [Aggro] sẽ làm giảm 5% lượng sát thương tăng thêm từ hiệu ứng này (Tối thiểu 0%)\n\nKhi thua Khiêu chiến, nhận 1 [AttackDmgUp] (Tối đa 5 mỗi lượt)\n- Khi kết thúc lượt hoặc khi tấn công trúng Tội nhân bằng kỹ năng, [AttackDmgUp] nhận được từ hiệu ứng này sẽ biến mất khi kết thúc đòn tấn công của kỹ năng đó",
-      "summary": "Giảm lượng sát thương nhận vào từ Tấn công một chiều, tăng lượng sát thương gây ra từ Tấn công một chiều\nKhi thua Khiêu chiến, nhận tăng lượng sát thương",
+      "name": "Rufo, Giảng viên Trường phái Dã thú Ngón Áp Út",
+      "desc": "Trong lượt sử dụng đòn tấn công mạnh, giá trị Tốc độ tối thiểu/tối đa +15\n\nLượng sát thương nhận vào từ Tấn công một chiều -50%\nLượng sát thương gây ra từ Tấn công một chiều +50%\n- Nếu ô kĩ năng mà đòn Tấn công một chiều của đơn vị này nhắm tới có từ 2 [Aggro] trở lên, mỗi 1 [Aggro] sẽ làm giảm 5% lượng sát thương tăng thêm từ hiệu ứng này (Tối thiểu 0%)\n\nKhi thua Đối kháng, nhận 1 [AttackDmgUp] (Tối đa 5 mỗi lượt)\n- Khi kết thúc lượt, hoặc khi kết thúc đòn tấn công của kĩ năng đã đánh trúng Tù nhân, hiệu ứng [AttackDmgUp] nhận được từ hiệu ứng này sẽ hết hiệu lực",
+      "summary": "Nhận ít hơn và gây nhiều hơn sát thương bằng Tấn công một chiều\nKhi thua Đối kháng, nhận Tăng Sát thương",
       "flavor": ""
     },
     {
       "id": 500703,
-      "name": "Phái Dã thú - Masque du Loup : Đánh thức Bản năng",
-      "desc": "Khi bắt đầu lượt, nhận <color=#ff6000><mark=#ff000040><b><u>10 [Protection]</u></b></mark></color>\n- Với mỗi <color=#ff6000><mark=#ff000040><b><u>loại hiệu ứng bất lợi</u></b></mark></color> đang sở hữu, giá trị [Protection] nhận được khi bắt đầu lượt giảm 1\n- <color=#ff6000><mark=#ff000040><b><u>Khi thua Khiêu chiến trước 「Thô bạo thay, những vệt màu đỏ đang mạch động dưới lớp da của ngươi.」, hiệu ứng này sẽ đổi thành nhận 2 [Vulnerable]</u></b></mark></color> chỉ trong lượt tiếp theo\n\nMỗi khi <color=#ff6000><mark=#ff000040><b><u>nhận sát thương từ xu kỹ năng, Cấp Phòng thủ tăng thêm 1</u></b></mark></color> (Tối đa 20 mỗi lượt)\n- Khi kết thúc lượt, Cấp Phòng thủ nhận được từ hiệu ứng này sẽ biến mất\n- <color=#ff6000><mark=#ff000040><b><u>Khi thua Khiêu chiến trước 「Thô bạo thay, những vệt màu đỏ đang mạch động dưới lớp da của ngươi.」, hiệu ứng này sẽ đổi thành Cấp Phòng thủ giảm đi 1 mỗi khi nhận sát thương từ xu kỹ năng</u></b></mark></color> chỉ trong lượt tiếp theo (Tối đa 20, hiệu ứng biến mất khi kết thúc lượt đó)",
-      "summary": "Khi nhận sát thương, Cấp Phòng thủ tăng\nNếu đã thua Khiêu chiến bằng kỹ năng nhất định ở lượt trước, Cấp Phòng thủ sẽ giảm thay thế",
+      "name": "Trường phái Dã thú - Masque de Loup : Đánh thức Dã tính",
+      "desc": "Khi bắt đầu lượt, nhận <color=#ff6000><mark=#ff000040><b><u>10 [Protection]</u></b></mark></color>\n- Với mỗi <color=#ff6000><mark=#ff000040><b><u>loại hiệu ứng bất lợi</u></b></mark></color> trên đơn vị này, giá trị [Protection] nhận được khi bắt đầu lượt giảm 1\n- <color=#ff6000><mark=#ff000040><b><u>Khi thua Đối kháng bằng kĩ năng 「Màu vẽ đỏ mạch đập dưới lớp da của ngươi thật thô bạo」, thay vào đó hiệu ứng này cho nhận 2 [Vulnerable]</u></b></mark></color> trong lượt tiếp theo\n\nMỗi khi <color=#ff6000><mark=#ff000040><b><u>bị đánh trúng bởi Đồng xu kĩ năng, nhận 1 Cấp độ Phòng thủ</u></b></mark></color> (Tối đa 20 mỗi lượt)\n- Khi kết thúc lượt, Cấp độ Phòng thủ nhận được từ hiệu ứng này sẽ biến mất\n- <color=#ff6000><mark=#ff000040><b><u>Khi thua Đối kháng bằng kĩ năng 「Màu vẽ đỏ mạch đập dưới lớp da của ngươi thật thô bạo」, thay vào đó hiệu ứng này sẽ mất 1 Cấp độ Phòng thủ mỗi khi bị đánh trúng bởi Đồng xu kĩ năng</u></b></mark></color> trong lượt tiếp theo (Tối đa 20, hiệu ứng biến mất khi kết thúc lượt đó)",
+      "summary": "Khi bị đánh trúng, nhận Cấp độ Phòng thủ\nNếu thua Đối kháng bằng kĩ năng nhất định ở lượt trước, thay vào đó mất Cấp độ Phòng thủ",
       "flavor": ""
     },
     {
       "id": 500704,
-      "name": "Phái Dã thú - Sắc màu Hoang dã",
-      "desc": "Khi kết thúc trận chiến, áp dụng <color=#ff6000><mark=#ff000040><b><u>1 [IntenseColors] vào lượt tiếp theo</u></b></mark></color> cho Tội nhân sở hữu tất cả các hiệu ứng [BearClawWound], [EagleClawWound] và [BoldBrushstrokes]\n- Nếu [BearClawWound] và [EagleClawWound] mà đối tượng sở hữu lần lượt từ 3/6/9 trở lên, thay vào đó áp dụng 2/3/4 [IntenseColors]",
+      "name": "Trường phái Dã thú - Sắc màu Hoang dã",
+      "desc": "Khi kết thúc trận chiến, áp dụng <color=#ff6000><mark=#ff000040><b><u>1 [IntenseColors] vào lượt tiếp theo</u></b></mark></color> cho Tù nhân sở hữu đồng thời [BearClawWound], [EagleClawWound] và [BoldBrushstrokes]\n- Nếu đối tượng sở hữu [BearClawWound] và [EagleClawWound] lần lượt từ 3/6/9 trở lên, thay vào đó áp dụng 2/3/4 [IntenseColors] (số lượng áp dụng dựa trên hiệu ứng có Số lượng ít nhất)",
       "summary": "Áp dụng Sắc màu Mãnh liệt",
-      "flavor": "「Ngoại hình của các loài động vật đều có mục đích riêng của chúng. Trong số đó, thứ đánh thức bản năng dã tính của những kẻ mà chúng ta gọi là dã thú và khiến nó bộc lộ ra bên ngoài chính là Dã Thú Phái.」"
+      "flavor": "「Ngoài hình của mỗi loài động vật đều mang một mục đích riêng. Trong số đó, thứ đánh thức và biểu lộ dã tính của những kẻ mà chúng ta gọi là dã thú chính là Trường phái Dã thú.」"
     },
     {
       "id": 500705,
-      "name": "Dã Thú Phái - Giới Hạn Truyền Màu Vẽ",
-      "desc": "Áp dụng hiệu ứng [PanicChangeLock], vào cuối lượt nếu ở trạng thái Hoảng loạn, Tinh thần chuyển thành 45\n\nNếu Máu từ 35% trở xuống, <color=#ff6000><mark=#ff000040><b><u>[FaubismWolfMask] chuyển thành [FaubismWolfMaskBlooded] và hồi Tinh thần đến 45</u></b></mark></color>",
+      "name": "Trường phái Dã thú - Liều Chịu đựng Màu vẽ Tối đa",
+      "desc": "Áp dụng hiệu ứng [PanicChangeLock]\nKhi kết thúc lượt, nếu ở trạng thái Hoảng loạn, Tinh thần chuyển thành 45\n\nKhi Máu từ 35% trở xuống, <color=#ff6000><mark=#ff000040><b><u>[FaubismWolfMask] chuyển thành [FaubismWolfMaskBlooded] và hồi Tinh thần lên 45</u></b></mark></color>",
       "summary": "",
       "flavor": ""
     }

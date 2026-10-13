@@ -2,18 +2,18 @@
   "dataList": [
     {
       "id": 827701,
-      "name": "Thời gian đã cứu rỗi",
-      "desc": "Khi bắt đầu trận đấu, sở hữu 1000 [LimitedTime]"
+      "name": "Thời gian cứu rỗi",
+      "desc": "Khi bắt đầu trận chiến, sở hữu 1000 [LimitedTime]"
     },
     {
       "id": 827702,
-      "name": "Tu sửa tái tạo gia tốc",
-      "desc": "Khi kết thúc lượt, nếu đang trong trạng thái bị phá hủy bộ phận, tiêu tốn 100 thời gian mà bộ phận tương ứng sở hữu để giải trừ trạng thái bị phá hủy bộ phận ở lượt tiếp theo."
+      "name": "Tái tạo tăng tốc",
+      "desc": "Khi kết thúc lượt, nếu có bộ phận đang bị phá hủy, tiêu tốn 100 thời gian mà bộ phận đó sở hữu để giải trừ trạng thái bộ phận bị phá hủy vào lượt tiếp theo."
     },
     {
       "id": 827801,
       "name": "Thời gian của mọi người",
-      "desc": "Khi HP chạm mức 75%, chuyển sang Giai đoạn 2. Khi chuyển giai đoạn, hồi Tinh thần đến 30, chuyển đổi [LimitedTime] thành [OwnTime] và phân bổ đều cho tất cả bộ phận."
+      "desc": "Khi HP đạt 75%, chuyển sang Giai đoạn 2. Khi chuyển giai đoạn, hồi Tinh thần (SP) đến 30 và chia [LimitedTime] cho tất cả bộ phận dưới dạng [OwnTime]."
     },
     {
       "id": 827802,
@@ -27,8 +27,8 @@
     },
     {
       "id": 827804,
-      "name": "Hãy lấy từ thời gian của tên đó đi!",
-      "desc": "Khi HP thấp hơn 60%, [EquitableDistribution] bị thay đổi thành [UnfairDistribution]."
+      "name": "Lấy Thời gian của tên đó trước!",
+      "desc": "Khi HP từ 60% trở xuống, [EquitableDistribution] chuyển thành [UnfairDistribution]."
     }
   ]
 }
