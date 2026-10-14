@@ -6,7 +6,7 @@
         {
           "level": 1,
           "name": "Bắn Phía Sau",
-          "desc": "Lượng sát thương chí mạng của kĩ năng này +10%\n[WhenUse] Nếu [Breath] của bản thân từ 10 trở lên, Sức mạnh cơ bản +1\n[WhenUse] Nhận 2 [Breath]",
+          "desc": "Sát thương Chí mạng của Kĩ năng này +10%\n[WhenUse] Nếu [Breath] của bản thân từ 10 trở lên, Sức mạnh Cơ bản +1\n[WhenUse] Nhận 2 [Breath]",
           "coinlist": [
             {
               "coindescs": [
@@ -28,15 +28,15 @@
         {
           "level": 1,
           "name": "Bắn Phía Trước",
-          "desc": "Lượng sát thương chí mạng của kĩ năng này +10%\n[WhenUse] Nếu [Breath] của bản thân từ 10 trở lên, Sức mạnh cơ bản +1\n[WhenUse] Số lượt [Breath] tăng thêm 3",
+          "desc": "Sát thương Chí mạng của Kĩ năng này +10%\n[WhenUse] Nếu [Breath] của bản thân từ 10 trở lên, Sức mạnh Cơ bản +1\n[WhenUse] Số lượng [Breath] tăng thêm 3",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lượt [Sinking] tăng thêm 3"
+                  "desc": "[OnSucceedAttack] Số lượng [Sinking] tăng thêm 3"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Số lượt [Laceration] tăng thêm 3"
+                  "desc": "[CriticalOnSucceedAttack] Số lượng [Laceration] tăng thêm 3"
                 }
               ]
             }
@@ -50,7 +50,7 @@
         {
           "level": 1,
           "name": "Đâm Thấu",
-          "desc": "[WhenUse] Nhận 2 [Breath]\n[WhenUse] Nếu [Breath] của bản thân từ 10 trở lên, Sức mạnh cơ bản +1\n[WhenUse] Với mỗi 5 Số lượt [Breath] của bản thân, Sức mạnh mặt đồng xu +1 (Tối đa 2)\n[WinDuel] Lượng sát thương chí mạng của kĩ năng tấn công này +50%",
+          "desc": "[WhenUse] Nhận 2 [Breath]\n[WhenUse] Nếu [Breath] của bản thân từ 10 trở lên, Sức mạnh Cơ bản +1\n[WhenUse] Với mỗi 5 Số lượng [Breath] của bản thân, Sức mạnh Đồng xu +1 (Tối đa 2)\n[WinDuel] Sát thương Chí mạng của Kĩ năng tấn công này +50%",
           "coinlist": [
             {
               "coindescs": [
@@ -58,7 +58,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Số lượt [Breath] tăng thêm 2"
+                  "desc": "[OnSucceedAttack] Số lượng [Breath] tăng thêm 2"
                 },
                 {
                   "desc": "Đồng xu này chỉ gây sát thương lên mục tiêu chính."
@@ -71,7 +71,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "Đồng xu này chỉ gây sát thương lên mục tiêu phụ.\n- Nếu đồng xu đầu tiên không làm đồng minh rơi vào trạng thái Hoảng loạn hoặc không tiêu diệt được, 1 mục tiêu phụ ngẫu nhiên sẽ nhận sát thương"
+                  "desc": "Đồng xu này chỉ gây sát thương lên mục tiêu phụ.\n- Nếu đồng xu đầu tiên không tiêu diệt được mục tiêu hoặc không khiến mục tiêu bị Choáng, 1 mục tiêu phụ ngẫu nhiên sẽ nhận sát thương"
                 },
                 {
                   "desc": "[OnSucceedAttack] Gây 4 [Sinking]"
@@ -91,7 +91,7 @@
         {
           "level": 1,
           "name": "Bắn Nạp Đạn",
-          "desc": "Lượng sát thương chí mạng của kĩ năng tấn công này +50%\n[WhenUse] Với mỗi 5 Số lượt [Breath] của bản thân, Sức mạnh mặt đồng xu +1 (Tối đa 3)\n[WhenUse] Nhận 3 [Breath]",
+          "desc": "Sát thương Chí mạng của Kĩ năng tấn công này +50%\n[WhenUse] Với mỗi 5 Số lượng [Breath] của bản thân, Sức mạnh Đồng xu +1 (Tối đa 3)\n[WhenUse] Nhận 3 [Breath]",
           "coinlist": [
             {
               "coindescs": [
@@ -110,7 +110,7 @@
         {
           "level": 1,
           "name": "Nắm Bắt Sơ Hở",
-          "desc": "[DefeatDuel] Mất một nửa [Breath] của bản thân\n- Trong lượt này, Số lượt [Breath] cũng bị giảm một nửa\n- Lượt tiếp theo nhận 4 [Paralysis]",
+          "desc": "[DefeatDuel] Mất một nửa [Breath] của bản thân\n- [Breath] nhận được trong lượt này cũng bị giảm một nửa\n- Lượt tiếp theo nhận 4 [Paralysis]",
           "coinlist": [
             {
               "coindescs": [
@@ -132,7 +132,7 @@
         {
           "level": 1,
           "name": "Bắn Chỉ Định Mục Tiêu",
-          "desc": "Tấn công mục tiêu có [FellBulletMark]\nVới mỗi 5 [Breath] của bản thân, Sức mạnh mặt đồng xu +1 (Tối đa 2)\nVới mỗi 3 Số lượt [Breath] của bản thân, Sức mạnh cơ bản +1 (Tối đa 3)\n[WhenUse] Nếu mục tiêu chính không có [FellBulletMark], nhận 1 [Paralysis], 3 [Vulnerable]\n[EndSkill] Nếu mục tiêu tử vong, nhận 10 [Breath], giảm 15 Tinh thần của tất cả kẻ địch",
+          "desc": "Tấn công mục tiêu có [FellBulletMark]\nVới mỗi 5 [Breath] của bản thân, Sức mạnh Đồng xu +1 (Tối đa 2)\nVới mỗi 3 Số lượng [Breath] của bản thân, Sức mạnh Cơ bản +1 (Tối đa 3)\n[WhenUse] Nếu mục tiêu chính không có [FellBulletMark], nhận 1 [Paralysis], 3 [Vulnerable]\n[EndSkill] Nếu mục tiêu tử vong, nhận 10 [Breath], giảm 15 Tinh thần của tất cả kẻ địch",
           "coinlist": [
             {
               "coindescs": [
@@ -156,7 +156,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "Đồng xu này chỉ gây sát thương lên mục tiêu phụ.\n- Nếu đồng xu đầu tiên không tiêu diệt được đối tượng, 2 mục tiêu phụ ngẫu nhiên sẽ nhận sát thương"
+                  "desc": "Đồng xu này chỉ gây sát thương lên mục tiêu phụ.\n- Nếu đồng xu đầu tiên không tiêu diệt được mục tiêu, 2 mục tiêu phụ ngẫu nhiên sẽ nhận sát thương"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] Gây 5 [Sinking], 5 [Laceration]"
@@ -173,7 +173,7 @@
         {
           "level": 1,
           "name": "Bắn Hiệu Chỉnh Mục Tiêu",
-          "desc": "[CantIdentify]\n[CantChangeTarget]\nƯu tiên tấn công [FellBulletMark]\nNếu không thể tấn công mục tiêu có dấu, kĩ năng bị hủy.\nVới mỗi 5 [Breath] của bản thân, Sức mạnh mặt đồng xu +1 (Tối đa 2)\nVới mỗi 3 Số lượt [Breath] của bản thân, Sức mạnh cơ bản +1 (Tối đa 3)\n[EndSkill] Nếu mục tiêu tử vong, nhận 10 [Breath], giảm 15 Tinh thần của tất cả kẻ địch",
+          "desc": "[CantIdentify]\n[CantChangeTarget]\nƯu tiên tấn công mục tiêu có [FellBulletMark]\nNếu không thể tấn công mục tiêu mang Dấu Ấn, Kĩ năng bị hủy.\nVới mỗi 5 [Breath] của bản thân, Sức mạnh Đồng xu +1 (Tối đa 2)\nVới mỗi 3 Số lượng [Breath] của bản thân, Sức mạnh Cơ bản +1 (Tối đa 3)\n[EndSkill] Nếu mục tiêu tử vong, nhận 10 [Breath], giảm 15 Tinh thần của tất cả kẻ địch",
           "coinlist": [
             {
               "coindescs": [
@@ -184,7 +184,7 @@
                   "desc": "Đồng xu này chỉ gây sát thương lên mục tiêu chính."
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Nếu mục tiêu có [FellBulletMark], mục tiêu tử vong"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Nếu mục tiêu có [FellBulletMark], tiêu diệt mục tiêu"
                 },
                 {
                   "desc": "[OnSucceedAttack] Lượt tiếp theo nhận 10 [Breath]"
@@ -197,7 +197,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "Đồng xu này chỉ gây sát thương lên mục tiêu phụ.\n- Nếu đồng xu đầu tiên không tiêu diệt được đối tượng, 1 mục tiêu phụ ngẫu nhiên sẽ nhận sát thương"
+                  "desc": "Đồng xu này chỉ gây sát thương lên mục tiêu phụ.\n- Nếu đồng xu đầu tiên không tiêu diệt được mục tiêu, 1 mục tiêu phụ ngẫu nhiên sẽ nhận sát thương"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] Gây 5 [Sinking], 5 [Laceration]"
@@ -214,15 +214,15 @@
         {
           "level": 1,
           "name": "Cắn",
-          "desc": "[WhenUse] Với mỗi 4 Sức mạnh [Breath] của bản thân, Sức mạnh cuối cùng +1 (Tối đa 5)",
+          "desc": "[WhenUse] Với mỗi 4 Cường độ [Breath] của bản thân, Sức mạnh Cuối cùng +1 (Tối đa 5)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Nhận 3 Sức mạnh [Breath]"
+                  "desc": "[OnSucceedAttack] Nhận 3 Cường độ [Breath]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Số lượt [Breath] tăng thêm 3"
+                  "desc": "[CriticalOnSucceedAttack] Số lượng [Breath] tăng thêm 3"
                 }
               ]
             }
@@ -236,25 +236,25 @@
         {
           "level": 1,
           "name": "Cắn Nát",
-          "desc": "[WhenUse] Với mỗi 4 Sức mạnh [Breath] của bản thân, Sức mạnh cuối cùng +1 (Tối đa 5)",
+          "desc": "[WhenUse] Với mỗi 4 Cường độ [Breath] của bản thân, Sức mạnh Cuối cùng +1 (Tối đa 5)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Nhận 2 Sức mạnh [Breath]"
+                  "desc": "[OnSucceedAttack] Nhận 2 Cường độ [Breath]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Số lượt [Breath] tăng thêm 2"
+                  "desc": "[CriticalOnSucceedAttack] Số lượng [Breath] tăng thêm 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Nhận 2 Sức mạnh [Breath]"
+                  "desc": "[OnSucceedAttack] Nhận 2 Cường độ [Breath]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Số lượt [Breath] tăng thêm 2"
+                  "desc": "[CriticalOnSucceedAttack] Số lượng [Breath] tăng thêm 2"
                 }
               ]
             }
@@ -268,7 +268,7 @@
         {
           "level": 1,
           "name": "Tiếng Thở Đầy Đau Đớn",
-          "desc": "[WhenUse] Với mỗi 8 Sức mạnh Nhịp thở của bản thân, Sức mạnh cuối cùng +1 (Tối đa 5)\n[WhenUse] Với mỗi 8 Số lượt [Breath] của bản thân, Sức mạnh mặt đồng xu +1 (Tối đa 5)\n[DefeatDuel] Sức mạnh [Breath] của bản thân giảm một nửa\n[EndSkill] Sức mạnh [Breath] và Số lượt [Breath] của bản thân giảm một nửa",
+          "desc": "[WhenUse] Với mỗi 8 Cường độ [Breath] của bản thân, Sức mạnh Cuối cùng +1 (Tối đa 5)\n[WhenUse] Với mỗi 8 Số lượng [Breath] của bản thân, Sức mạnh Đồng xu +1 (Tối đa 5)\n[DefeatDuel] Cường độ [Breath] của bản thân giảm một nửa\n[EndSkill] Cường độ và Số lượng [Breath] của bản thân giảm một nửa",
           "coinlist": [
             {},
             {},
@@ -278,7 +278,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "Lượng sát thương chí mạng +([Breath] Sức mạnh)%"
+                  "desc": "Sát thương Chí mạng +([Breath] Cường độ)%"
                 }
               ]
             }
@@ -292,7 +292,7 @@
         {
           "level": 1,
           "name": "Thu Mình",
-          "desc": "[WhenUse] Mỗi 4 Cấp độ [Breath] của bản thân, Sức mạnh cuối cùng +1 (Tối đa 5)\n[WhenUse] Nhận 4 Cấp độ [Breath]\n- Nếu Máu dưới 50%, Số lượng [Breath] tăng thêm 4",
+          "desc": "[WhenUse] Mỗi 4 Cường độ [Breath] của bản thân, Sức mạnh Cuối cùng +1 (Tối đa 5)\n[WhenUse] Nhận 4 Cường độ [Breath]\n- Nếu HP từ 50% trở xuống, Số lượng [Breath] tăng thêm 4",
           "coinlist": [
             {
               "coindescs": [
@@ -311,7 +311,7 @@
         {
           "level": 1,
           "name": "Đó là... của ta!",
-          "desc": "[CantChangeTarget]\n[WhenUse] Mỗi 4 Cấp độ [Breath] của bản thân, Sức mạnh Hợp kích +1 (Tối đa 3)\n[WhenUse] Mỗi 4 Số lượng [Breath] của bản thân, Sức mạnh Hợp kích +1 (Tối đa 3)",
+          "desc": "[CantChangeTarget]\n[WhenUse] Mỗi 4 Cường độ [Breath] của bản thân, Sức mạnh Đối kháng +1 (Tối đa 3)\n[WhenUse] Mỗi 4 Số lượng [Breath] của bản thân, Sức mạnh Đối kháng +1 (Tối đa 3)",
           "coinlist": [
             {
               "coindescs": [
@@ -319,10 +319,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Cướp Cấp độ [Breath] và Số lượng [Breath] mà mục tiêu đang sở hữu (Mỗi loại tối đa 6)"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Cướp Cường độ [Breath] và Số lượng [Breath] của mục tiêu (Mỗi loại tối đa 6)"
                 },
                 {
-                  "desc": "[DefeatDuelAttack] Cướp 1/3 Cấp độ [Breath] và Số lượng [Breath] mà mục tiêu đang sở hữu (Mỗi loại tối đa 2)"
+                  "desc": "[DefeatDuelAttack] Cướp 1/3 Cường độ [Breath] và Số lượng [Breath] của mục tiêu (Mỗi loại tối đa 2)"
                 }
               ]
             }
@@ -336,7 +336,7 @@
         {
           "level": 1,
           "name": "Cùng chịu đau khổ",
-          "desc": "[WhenUse] Mỗi 8 Cấp độ [Breath] của bản thân, Sức mạnh cuối cùng +1 (Tối đa 5)\n[WhenUse] Mỗi 8 Số lượng [Breath] của bản thân, Sức mạnh Coin +1 (Tối đa 5)\n[DefeatDuel] Lượng sát thương giảm 75%, mục tiêu không bị Hoảng loạn bởi sát thương từ kĩ năng này\n[EndSkill] Cấp độ và Số lượng [Breath] của bản thân giảm một nửa",
+          "desc": "[WhenUse] Mỗi 8 Cường độ [Breath] của bản thân, Sức mạnh Cuối cùng +1 (Tối đa 5)\n[WhenUse] Mỗi 8 Số lượng [Breath] của bản thân, Sức mạnh Đồng xu +1 (Tối đa 5)\n[DefeatDuel] Sát thương giảm 75%, sát thương từ Kĩ năng này không khiến mục tiêu bị Choáng\n[EndSkill] Cường độ và Số lượng [Breath] của bản thân giảm một nửa",
           "coinlist": [
             {
               "coindescs": [
@@ -364,7 +364,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "Lượng sát thương Chí mạng +([Breath] Cấp độ + [Breath] Số lượng)%"
+                  "desc": "Sát thương Chí mạng +([Breath] Cường độ + [Breath] Số lượng)%"
                 }
               ]
             }
@@ -397,7 +397,7 @@
         {
           "level": 1,
           "name": "Gây thương tích ngoan cố",
-          "desc": "Nếu Cấp độ [Laceration] của mục tiêu từ 6 trở lên, tăng giá trị Cấp độ và Số lượng [Laceration] gây ra từ kĩ năng này thêm 1",
+          "desc": "Nếu Cường độ [Laceration] của mục tiêu từ 6 trở lên, tăng giá trị Cường độ và Số lượng [Laceration] gây ra bởi Kĩ năng này thêm 1",
           "coinlist": [
             {
               "coindescs": [
@@ -429,7 +429,7 @@
         {
           "level": 1,
           "name": "Gây thương tích",
-          "desc": "Nếu Cấp độ [Laceration] của mục tiêu từ 6 trở lên, tăng giá trị Cấp độ và Số lượng [Laceration] gây ra từ kĩ năng này thêm 1",
+          "desc": "Nếu Cường độ [Laceration] của mục tiêu từ 6 trở lên, tăng giá trị Cường độ và Số lượng [Laceration] gây ra bởi Kĩ năng này thêm 1",
           "coinlist": [
             {
               "coindescs": [
@@ -455,7 +455,7 @@
         {
           "level": 1,
           "name": "Dây gai siết chặt",
-          "desc": "Nếu Cấp độ [Laceration] của mục tiêu từ 6 trở lên, tăng giá trị Cấp độ [Laceration] gây ra từ kĩ năng này thêm 1",
+          "desc": "Nếu Cường độ [Laceration] của mục tiêu từ 6 trở lên, tăng giá trị Cường độ [Laceration] gây ra bởi Kĩ năng này thêm 1",
           "coinlist": [
             {
               "coindescs": [
@@ -480,7 +480,7 @@
         {
           "level": 1,
           "name": "Cánh hoa khát khao",
-          "desc": "Sử dụng lên mục tiêu có tổng Cấp độ và Số lượng [Laceration] cao nhất\n[WhenUse] Nếu Cấp độ [Laceration] của mục tiêu từ 6 trở lên, Sức mạnh cuối cùng +2",
+          "desc": "Tấn công mục tiêu có tổng Cường độ và Số lượng [Laceration] cao nhất\n[WhenUse] Nếu Cường độ [Laceration] của mục tiêu từ 6 trở lên, Sức mạnh Cuối cùng +2",
           "coinlist": [
             {
               "coindescs": [
@@ -506,7 +506,7 @@
         {
           "level": 1,
           "name": "Cánh hoa bùng nổ",
-          "desc": "Sử dụng lên mục tiêu có tổng Cấp độ và Số lượng [Laceration] cao nhất\n[WhenUse] Nếu Cấp độ [Laceration] của mục tiêu từ 6 trở lên, Sức mạnh cuối cùng +2",
+          "desc": "Tấn công mục tiêu có tổng Cường độ và Số lượng [Laceration] cao nhất\n[WhenUse] Nếu Cường độ [Laceration] của mục tiêu từ 6 trở lên, Sức mạnh Cuối cùng +2",
           "coinlist": [
             {
               "coindescs": [
@@ -532,7 +532,7 @@
         {
           "level": 1,
           "name": "Bão gai",
-          "desc": "[WhenUse] Nếu Cấp độ [Laceration] của mục tiêu từ 6 trở lên, Sức mạnh cuối cùng +2",
+          "desc": "[WhenUse] Nếu Cường độ [Laceration] của mục tiêu từ 6 trở lên, Sức mạnh Cuối cùng +2",
           "coinlist": [
             {
               "coindescs": [
@@ -602,7 +602,7 @@
         {
           "level": 1,
           "name": "Máu không ngừng chảy",
-          "desc": "[DuelCounter]\n[WhenUse] Mục tiêu đối đầu với kĩ năng này không bị giảm Số lượng [Laceration] trong khi đang Hợp kích",
+          "desc": "[DuelCounter]\n[WhenUse] Mục tiêu Đối kháng với Kĩ năng này không bị giảm Số lượng [Laceration] trong khi Đối kháng",
           "coinlist": [
             {
               "coindescs": [
@@ -644,7 +644,7 @@
         {
           "level": 1,
           "name": "Đắm chìm trong dinh dưỡng",
-          "desc": "Sử dụng nếu [BloodDinner] từ 100 trở lên\n[EndBattle] Tiêu hao tối đa 100 [BloodDinner] và áp dụng các hiệu ứng sau:\n- Hồi Máu cho bản thân và các bộ phận cơ thể tương ứng với lượng [BloodDinner] đã tiêu hao\n- Mỗi 20 [BloodDinner] tiêu hao, nhận 1 [AttackUp] vào lượt sau",
+          "desc": "Sử dụng nếu [BloodDinner] từ 100 trở lên\n[EndBattle] Tiêu hao tối đa 100 [BloodDinner] và áp dụng các hiệu ứng sau:\n- Hồi phục HP cho Bản thể và bộ phận Thân bằng lượng [BloodDinner] đã tiêu hao\n- Mỗi 20 [BloodDinner] tiêu hao, nhận 1 [AttackUp] vào lượt sau",
           "coinlist": [
             {
               "coindescs": [
@@ -662,8 +662,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Dây leo Gai Khao khát",
-          "desc": "[WhenUse] Tiêu tốn tối đa 100 [BloodDinner] và áp dụng các hiệu ứng sau\n- Hồi phục máu cho bản thể và bộ phận thân bằng lượng [BloodDinner] đã tiêu tốn\n- Với mỗi 20 [BloodDinner] đã tiêu tốn, Sức mạnh Cuối cùng của kĩ năng này +1\n[DefeatDuel] Sức mạnh Cuối cùng -5\n[EndSkill] Nếu lượng [BloodDinner] đã tiêu tốn bởi kĩ năng này ít hơn 30, nhận 2 [Vulnerable] vào lượt tiếp theo",
+          "name": "Dây gai khao khát",
+          "desc": "[WhenUse] Tiêu hao tối đa 100 [BloodDinner], áp dụng các hiệu ứng sau\n- Hồi phục HP cho Bản thể và bộ phận Thân bằng lượng [BloodDinner] đã tiêu hao\n- Với mỗi 20 [BloodDinner] đã tiêu hao, Sức mạnh Cuối cùng của Kĩ năng này +1\n[DefeatDuel] Sức mạnh Cuối cùng -5\n[EndSkill] Nếu Kĩ năng này tiêu hao ít hơn 30 [BloodDinner], nhận 2 [Vulnerable] vào lượt tiếp theo",
           "coinlist": [
             {
               "coindescs": [
