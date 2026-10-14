@@ -6,7 +6,7 @@
         {
           "level": 1,
           "name": "Đầu ngọ nguậy",
-          "desc": "Ưu tiên tấn công kẻ địch có Máu thấp nhất\nNếu mục tiêu có [Paralysis], Sát thương +50%\n<color=#ff6000><mark color=#ff000040><b><u>Nếu mục tiêu sử dụng Kĩ năng phòng thủ, Sát thương -200%</color></mark></b></u>\nMỗi 1 [SelfCharge], Uy lực cơ bản +1\n[WhenUse] Tiêu hao 1 [SelfCharge]\n[DefeatDuel] Tiêu hao 1 [SelfCharge]\n[EndSkill] Nếu là Tấn công một chiều, tiêu hao 1 [SelfCharge]\n- Nếu mục tiêu bị tấn công sử dụng Kĩ năng phòng thủ, tiêu hao thêm 1 [SelfCharge]",
+          "desc": "Ưu tiên tấn công kẻ địch có Máu thấp nhất\nNếu mục tiêu có [Paralysis], Sát thương +50%\n<color=#ff6000><mark color=#ff000040><b><u>Nếu mục tiêu đã sử dụng Kĩ năng phòng thủ, Sát thương -200%</color></mark></b></u>\nMỗi 1 [SelfCharge], Sức mạnh Cơ bản +1\n[WhenUse] Tiêu hao 1 [SelfCharge]\n[DefeatDuel] Tiêu hao 1 [SelfCharge]\n[EndSkill] Nếu là Tấn công một chiều, tiêu hao 1 [SelfCharge]\n- Nếu mục tiêu bị Kĩ năng này tấn công đã sử dụng Kĩ năng phòng thủ, tiêu hao thêm 1 [SelfCharge]",
           "coinlist": [
             {
               "coindescs": [
@@ -32,7 +32,7 @@
         {
           "level": 1,
           "name": "Đuôi ngọ nguậy",
-          "desc": "Ưu tiên tấn công kẻ địch có Máu thấp nhất\nNếu mục tiêu có [Paralysis], Sát thương +50%\n<color=#ff6000><mark color=#ff000040><b><u>Nếu mục tiêu sử dụng Kĩ năng phòng thủ, Sát thương -200%</color></mark></b></u>\nMỗi 1 [SelfCharge], Uy lực cơ bản +1\n[WhenUse] Tiêu hao 1 [SelfCharge]\n[DefeatDuel] Tiêu hao 1 [SelfCharge]\n[EndSkill] Nếu là Tấn công một chiều, tiêu hao 1 [SelfCharge]\n- Nếu mục tiêu bị tấn công sử dụng Kĩ năng phòng thủ, tiêu hao thêm 1 [SelfCharge]",
+          "desc": "Ưu tiên tấn công kẻ địch có Máu thấp nhất\nNếu mục tiêu có [Paralysis], Sát thương +50%\n<color=#ff6000><mark color=#ff000040><b><u>Nếu mục tiêu đã sử dụng Kĩ năng phòng thủ, Sát thương -200%</color></mark></b></u>\nMỗi 1 [SelfCharge], Sức mạnh Cơ bản +1\n[WhenUse] Tiêu hao 1 [SelfCharge]\n[DefeatDuel] Tiêu hao 1 [SelfCharge]\n[EndSkill] Nếu là Tấn công một chiều, tiêu hao 1 [SelfCharge]\n- Nếu mục tiêu bị Kĩ năng này tấn công đã sử dụng Kĩ năng phòng thủ, tiêu hao thêm 1 [SelfCharge]",
           "coinlist": [
             {
               "coindescs": [
@@ -65,7 +65,7 @@
         {
           "level": 1,
           "name": "Chấp hành: Tiêu diệt - Bản nguyện",
-          "desc": "[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Nếu Tinh thần từ 0 trở lên, tạo 1 Nguyện</u></b></mark></color>\n- <color=#ff6000><mark=#ff000040><b><u>Sát thương +20%, Uy lực cuối cùng +3</u></b></mark></color>\n[EndSkill] Tinh thần giảm 15\n[EndSkill] Nếu đã tạo Nguyện, tiêu hao 20 Tinh thần\n[EndSkill] Tiêu hao toàn bộ [PressureOfPrescript], kết thúc lượt này",
+          "desc": "[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Nếu Tinh thần từ 0 trở lên, tạo 1 Man (Vọng)</u></b></mark></color>\n- <color=#ff6000><mark=#ff000040><b><u>Sát thương +20%, Sức mạnh Cuối cùng +3</u></b></mark></color>\n[EndSkill] Tinh thần giảm 15\n[EndSkill] Nếu đã tạo Man (Vọng), tiêu hao 20 Tinh thần\n[EndSkill] Tiêu hao toàn bộ [PressureOfPrescript], kết thúc lượt này",
           "coinlist": [
             {
               "coindescs": [
@@ -127,7 +127,7 @@
         {
           "level": 1,
           "name": "Giẫm nát",
-          "desc": "Nếu [Laceration] của mục tiêu từ 4 trở lên, Uy lực Đồng xu +1\n[DefeatDuel] Sát thương từ Kĩ năng này không làm mục tiêu Hoảng loạn",
+          "desc": "Nếu [Laceration] của mục tiêu từ 4 trở lên, Sức mạnh Đồng xu +1\n[DefeatDuel] Sát thương của Kĩ năng này không khiến mục tiêu bị Choáng",
           "coinlist": [
             {
               "coindescs": [
@@ -159,7 +159,7 @@
         {
           "level": 1,
           "name": "Giậm chân oán hận",
-          "desc": "Mỗi 3 [Laceration] của mục tiêu, Uy lực cơ bản +1 (Tối đa 3)\n[DefeatDuel] Sát thương từ Kĩ năng này không làm mục tiêu Hoảng loạn\n[EndSkill] Tiêu hao toàn bộ [ResentmentSpider] của bản thân, nhận 1 [DaughterEducationSpider]",
+          "desc": "Mỗi 3 [Laceration] của mục tiêu, Sức mạnh Cơ bản +1 (Tối đa 3)\n[DefeatDuel] Sát thương của Kĩ năng này không khiến mục tiêu bị Choáng\n[EndSkill] Tiêu hao toàn bộ [ResentmentSpider] của bản thân, nhận 1 [DaughterEducationSpider]",
           "coinlist": [
             {
               "coindescs": [
@@ -214,7 +214,7 @@
         {
           "level": 1,
           "name": "Mới thế này mà đã hỏng rồi à!",
-          "desc": "[WhenUse] Nếu bản thân có [ReinforcedTattooSpider], không bị phá hủy và gây thêm 5 sát thương Đả kích khi trúng Đồng xu\n[DefeatDuel] Sát thương từ Kĩ năng này không làm mục tiêu Hoảng loạn",
+          "desc": "[WhenUse] Nếu bản thân có [ReinforcedTattooSpider], gây thêm 5 sát thương Đập khi Đồng xu không bị phá hủy trúng đích\n[DefeatDuel] Sát thương của Kĩ năng này không khiến mục tiêu bị Choáng",
           "coinlist": [
             {
               "coindescs": [
@@ -232,7 +232,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây thêm 10 sát thương Đả kích"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây thêm 10 sát thương Đập"
                 }
               ]
             },
@@ -256,7 +256,7 @@
         {
           "level": 1,
           "name": "Xé toạc một lớp vỏ bọc nào!",
-          "desc": "[WhenUse]\nNếu bản thân có [ReinforcedTattooSpider], không bị phá hủy và gây thêm 10 sát thương Đả kích khi trúng Đồng xu\n[DefeatDuel] Sát thương từ Kĩ năng này không làm mục tiêu Hoảng loạn\n[EndSkill] [MiddleFatherSwordOne] chuyển sang trạng thái [MiddleFatherSwordTwo]",
+          "desc": "[WhenUse] Nếu bản thân có [ReinforcedTattooSpider], gây thêm 10 sát thương Đập khi Đồng xu không bị phá hủy trúng đích\n[DefeatDuel] Sát thương của Kĩ năng này không khiến mục tiêu bị Choáng\n[EndSkill] [MiddleFatherSwordOne] chuyển sang trạng thái [MiddleFatherSwordTwo]",
           "coinlist": [
             {
               "coindescs": [
@@ -264,7 +264,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây thêm 10 sát thương Đả kích"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây thêm 10 sát thương Đập"
                 }
               ]
             },
@@ -274,7 +274,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây thêm 10 sát thương Đả kích"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây thêm 10 sát thương Đập"
                 }
               ]
             },
@@ -284,7 +284,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây thêm 10 sát thương Đả kích"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây thêm 10 sát thương Đập"
                 }
               ]
             }
@@ -298,7 +298,7 @@
         {
           "level": 1,
           "name": "Giẫm nát",
-          "desc": "Nếu [Laceration] của mục tiêu từ 4 trở lên, Uy lực Đồng xu +1\n[WhenUse] Nếu bản thân có [ReinforcedTattooSpider], gây thêm 1 [Laceration] khi trúng Đồng xu\n[DefeatDuel] Sát thương từ Kĩ năng này không làm mục tiêu Hoảng loạn\n[DefeatDuel] Nhận 1 [ParryingResultUp] vào lượt tiếp theo (2 lần mỗi lượt)",
+          "desc": "Nếu [Laceration] của mục tiêu từ 4 trở lên, Sức mạnh Đồng xu +1\n[WhenUse] Nếu bản thân có [ReinforcedTattooSpider], gây thêm 1 [Laceration] khi Đồng xu trúng đích\n[DefeatDuel] Sát thương của Kĩ năng này không khiến mục tiêu bị Choáng\n[DefeatDuel] Nhận 1 [ParryingResultUp] vào lượt tiếp theo (2 lần mỗi lượt)",
           "coinlist": [
             {
               "coindescs": [
@@ -330,7 +330,7 @@
         {
           "level": 1,
           "name": "Giậm chân oán hận",
-          "desc": "Mỗi 3 [Laceration] của mục tiêu, Uy lực cơ bản +1 (Tối đa 3)\n[WhenUse] Nếu bản thân có [ReinforcedTattooSpider], gây thêm 1 [Laceration] khi trúng Đồng xu\n[DefeatDuel] Sát thương từ Kĩ năng này không làm mục tiêu Hoảng loạn\n[EndSkill] Tiêu hao toàn bộ [ResentmentSpider] của bản thân, nhận 1 [DaughterEducationSpider]",
+          "desc": "Mỗi 3 [Laceration] của mục tiêu, Sức mạnh Cơ bản +1 (Tối đa 3)\n[WhenUse] Nếu bản thân có [ReinforcedTattooSpider], gây thêm 1 [Laceration] khi Đồng xu trúng đích\n[DefeatDuel] Sát thương của Kĩ năng này không khiến mục tiêu bị Choáng\n[EndSkill] Tiêu hao toàn bộ [ResentmentSpider] của bản thân, nhận 1 [DaughterEducationSpider]",
           "coinlist": [
             {
               "coindescs": [
@@ -385,7 +385,7 @@
         {
           "level": 1,
           "name": "Nóng nực nhỉ!?",
-          "desc": "[WhenUse]\nNếu bản thân có [ReinforcedTattooSpider], không bị phá hủy và khi Tung xu trúng đích gây thêm 10 sát thương Đánh\n[DefeatDuel] Sát thương từ kĩ năng này không làm mục tiêu Hoảng loạn\n[BeforeAttack] Khi Máu của bản thân từ 50% trở xuống, lượng sát thương +40%",
+          "desc": "[WhenUse] Nếu bản thân có [ReinforcedTattooSpider], gây thêm 10 sát thương Đập khi Đồng xu không bị phá hủy trúng đích\n[DefeatDuel] Sát thương của Kĩ năng này không khiến mục tiêu bị Choáng\n[BeforeAttack] Khi Máu của bản thân từ 50% trở xuống, lượng sát thương +40%",
           "coinlist": [
             {
               "coindescs": [
@@ -409,7 +409,7 @@
                   "desc": "[OnSucceedAttack] Gây 2 [Combustion]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây thêm 15 sát thương Đánh"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây thêm 15 sát thương Đập"
                 }
               ]
             },
@@ -436,7 +436,7 @@
         {
           "level": 1,
           "name": "Phải bóc đến tận lớp bọc thứ hai rồi à.",
-          "desc": "[WhenUse] Nếu bản thân có [ReinforcedTattooSpider], không bị phá hủy và khi Tung xu trúng đích gây thêm 10 sát thương Đánh\n[EndSkill] Trạng thái [MiddleFatherSwordTwo] chuyển thành trạng thái [MiddleFatherSwordThree]",
+          "desc": "[WhenUse] Nếu bản thân có [ReinforcedTattooSpider], gây thêm 10 sát thương Đập khi Đồng xu không bị phá hủy trúng đích\n[EndSkill] Trạng thái [MiddleFatherSwordTwo] chuyển thành trạng thái [MiddleFatherSwordThree]",
           "coinlist": [
             {
               "coindescs": [
@@ -444,7 +444,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây thêm 10 sát thương Đánh"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây thêm 10 sát thương Đập"
                 }
               ]
             },
@@ -454,7 +454,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây thêm 10 sát thương Đánh"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây thêm 10 sát thương Đập"
                 }
               ]
             },
@@ -464,7 +464,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây thêm 10 sát thương Đánh"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây thêm 10 sát thương Đập"
                 }
               ]
             },
@@ -488,7 +488,7 @@
         {
           "level": 1,
           "name": "Dẫm nát!",
-          "desc": "Nếu [Laceration] của mục tiêu từ 4 trở lên, Sức mạnh Xu +1\n[WhenUse] Nếu bản thân có [ReinforcedTattooSpider], khi Tung xu trúng đích gây thêm 1 [Laceration]\n[DefeatDuel] Sát thương từ kĩ năng này không làm mục tiêu Hoảng loạn\n[DefeatDuel] Nhận 1 [SkillPowerUp] vào lượt tiếp theo (2 lần mỗi lượt)",
+          "desc": "Nếu [Laceration] của mục tiêu từ 4 trở lên, Sức mạnh Đồng xu +1\n[WhenUse] Nếu bản thân có [ReinforcedTattooSpider], khi Đồng xu trúng đích gây thêm 1 [Laceration]\n[DefeatDuel] Sát thương của Kĩ năng này không khiến mục tiêu bị Choáng\n[DefeatDuel] Nhận 1 [SkillPowerUp] vào lượt tiếp theo (2 lần mỗi lượt)",
           "coinlist": [
             {
               "coindescs": [
@@ -520,7 +520,7 @@
         {
           "level": 1,
           "name": "Giẫm đạp xử tử tức thì!",
-          "desc": "Mỗi 3 [Laceration] của mục tiêu, Sức mạnh Cơ bản +1 (Tối đa 3)\n[WhenUse] Nếu bản thân có [ReinforcedTattooSpider], khi Tung xu trúng đích gây thêm 1 [Laceration]\n[DefeatDuel] Sát thương từ kĩ năng này không làm mục tiêu Hoảng loạn\n[EndSkill] Tiêu thụ tất cả [ResentmentSpider] của bản thân, nhận 1 [DaughterEducationSpider]",
+          "desc": "Mỗi 3 [Laceration] của mục tiêu, Sức mạnh Cơ bản +1 (Tối đa 3)\n[WhenUse] Nếu bản thân có [ReinforcedTattooSpider], khi Đồng xu trúng đích gây thêm 1 [Laceration]\n[DefeatDuel] Sát thương của Kĩ năng này không khiến mục tiêu bị Choáng\n[EndSkill] Tiêu hao toàn bộ [ResentmentSpider] của bản thân, nhận 1 [DaughterEducationSpider]",
           "coinlist": [
             {
               "coindescs": [
@@ -575,7 +575,7 @@
         {
           "level": 1,
           "name": "Đã đến lúc tan chảy rồi chết đi",
-          "desc": "[WhenUse]\nNếu bản thân có [ReinforcedTattooSpider], không bị phá hủy và khi Tung xu trúng đích gây thêm 10 sát thương Chém\n[DefeatDuel] Sát thương từ kĩ năng này không làm mục tiêu Hoảng loạn\n[BeforeAttack] Khi Máu của bản thân từ 50% trở xuống, lượng sát thương +40%",
+          "desc": "[WhenUse] Nếu bản thân có [ReinforcedTattooSpider], gây thêm 10 sát thương Trảm kích khi Đồng xu không bị phá hủy trúng đích\n[DefeatDuel] Sát thương của Kĩ năng này không khiến mục tiêu bị Choáng\n[BeforeAttack] Khi Máu của bản thân từ 50% trở xuống, lượng sát thương +40%",
           "coinlist": [
             {
               "coindescs": [
@@ -599,7 +599,7 @@
                   "desc": "[OnSucceedAttack] Gây 4 [Combustion]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây thêm 15 sát thương Chém"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây thêm 15 sát thương Trảm kích"
                 }
               ]
             },
@@ -625,8 +625,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Laevateinn - Lâu rồi mới phá giải đến mức này đấy!",
-          "desc": "[WhenUse] Nếu bản thân có [ReinforcedTattooSpider], không bị phá hủy và khi Tung xu trúng đích gây thêm 10 sát thương Chém\n[EndSkill] Trạng thái [MiddleFatherSwordThree] chuyển thành [MiddleFatherSwordFour]",
+          "name": "Laevateinn - Lâu rồi mới phải bóc hết cả cái này đấy!",
+          "desc": "[WhenUse] Nếu bản thân có [ReinforcedTattooSpider], gây thêm 10 sát thương Trảm kích khi Đồng xu không bị phá hủy trúng đích\n[EndSkill] Trạng thái [MiddleFatherSwordThree] chuyển thành [MiddleFatherSwordFour]",
           "coinlist": [
             {
               "coindescs": [
@@ -634,7 +634,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây thêm 10 sát thương Chém"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây thêm 10 sát thương Trảm kích"
                 }
               ]
             },
@@ -644,7 +644,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây thêm 10 sát thương Chém"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây thêm 10 sát thương Trảm kích"
                 }
               ]
             },
@@ -654,7 +654,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây thêm 10 sát thương Chém"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây thêm 10 sát thương Trảm kích"
                 }
               ]
             },
@@ -677,8 +677,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Knife Kill [Laevateinn]",
-          "desc": "[BeforeUse] Tinh thần của bản thân giảm 10\n[DefeatDuel] Sát thương từ kĩ năng này không làm mục tiêu Hoảng loạn\n[BeforeAttack] Khi Máu của bản thân từ 50% trở xuống, lượng sát thương +40%\n[BeforeAttack] Nhận (Số lượng xu của kĩ năng này × 2) [Combustion]",
+          "name": "Đâm Ruột [Laevateinn]",
+          "desc": "[BeforeUse] Tinh thần của bản thân giảm 10\n[DefeatDuel] Sát thương của Kĩ năng này không khiến mục tiêu bị Choáng\n[BeforeAttack] Khi Máu của bản thân từ 50% trở xuống, lượng sát thương +40%\n[BeforeAttack] Nhận (Số lượng Đồng xu của Kĩ năng này × 2) [Combustion]",
           "coinlist": [
             {
               "coindescs": [
@@ -686,7 +686,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây thêm 10 sát thương Đánh"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây thêm 10 sát thương Đập"
                 }
               ]
             },
@@ -696,7 +696,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây thêm 10 sát thương Đánh"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây thêm 10 sát thương Đập"
                 }
               ]
             },
@@ -740,19 +740,19 @@
         {
           "level": 1,
           "name": "Chắc là phải khởi động cơ thể chút nhỉ?",
-          "desc": "Nếu [Laceration] của mục tiêu từ 5 trở lên, Sức mạnh Cơ bản +2\n[DefeatDuel] Sát thương từ kĩ năng này không làm mục tiêu Hoảng loạn",
+          "desc": "Nếu [Laceration] của mục tiêu từ 5 trở lên, Sức mạnh Cơ bản +2\n[DefeatDuel] Sát thương của Kĩ năng này không khiến mục tiêu bị Choáng",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây thêm 3 sát thương Đánh"
+                  "desc": "[OnSucceedAttack] Gây thêm 3 sát thương Đập"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây thêm 3 sát thương Va chạm"
+                  "desc": "[OnSucceedAttack] Gây thêm 3 sát thương Đập"
                 }
               ]
             },
@@ -762,7 +762,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây thêm 3 sát thương Va chạm"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây thêm 3 sát thương Đập"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] Nếu bản thân có [ReinforcedTattooSpiderDaughter], gây 2 [Binding] vào lượt tiếp theo"
@@ -779,7 +779,7 @@
         {
           "level": 1,
           "name": "Thập Tự Loạn Vũ!",
-          "desc": "Kĩ năng này áp dụng hiệu ứng Dây Nhiệt khi ở trạng thái [HeatingWireOnSpider]\nNếu [Laceration] của mục tiêu từ 4 trở lên, Uy lực Đồng xu +1\n[WhenUse] Nếu bản thân có [ReinforcedTattooSpiderDaughter], khi đồng xu trúng đích, tăng số lượng [Laceration] của mục tiêu thêm 1\n[DefeatDuel] Mục tiêu không bị Chấn lồng bởi sát thương kĩ năng này",
+          "desc": "Kĩ năng này áp dụng hiệu ứng Dây Nhiệt khi ở trạng thái [HeatingWireOnSpider]\nNếu [Laceration] của mục tiêu từ 4 trở lên, Sức mạnh Đồng xu +1\n[WhenUse] Nếu bản thân có [ReinforcedTattooSpiderDaughter], khi đồng xu trúng đích, tăng số lượng [Laceration] của mục tiêu thêm 1\n[DefeatDuel] Sát thương của Kĩ năng này không khiến mục tiêu bị Choáng",
           "coinlist": [
             {
               "coindescs": [
@@ -817,7 +817,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây thêm 5 sát thương Va chạm"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây thêm 5 sát thương Đập"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] Nếu bản thân có [ReinforcedTattooSpiderDaughter], gây 2 [Binding] vào lượt tiếp theo"
@@ -834,7 +834,7 @@
         {
           "level": 1,
           "name": "Nghiền nát âm thanh, giẫm bẹp những suy nghĩ",
-          "desc": "Có thể Đấu với kĩ năng này bất kể Tốc độ\nNếu có [BlackNightmare],\n- Tất cả Đồng xu chuyển thành [SuperCoin]\n- <color=#ff6000><mark=#ff000040><b><u>Nếu mục tiêu chỉ định đấu không phải kĩ năng Va chạm</u></b></mark></color> Uy lực Đồng xu +2, Sát thương +50%\n- Khi thua Đấu trước kĩ năng Va chạm, Uy lực Đồng xu -2, Sát thương -50%, sát thương của kĩ năng này không khiến mục tiêu Chấn lồng, và không kích hoạt hiệu ứng [Sinking] của mục tiêu\n\nVũ khí Va chạm xuất hiện thường xuyên hơn\n- Nếu [KarmaOfIndexRien_2Phase] từ 75 trở lên, tỉ lệ xuất hiện giảm\n- Nếu [KarmaOfIndexRien_2Phase] từ 150 trở lên, tỉ lệ xuất hiện giảm thêm\nÁp dụng các hiệu ứng sau tùy theo loại tấn công của vũ khí đang sử dụng\n- Nếu là vũ khí Va chạm, Sát thương +60%\n- Nếu không phải vũ khí Va chạm, Sát thương -30%\n[WhenUse] Nhận 3 [Breath], tăng số lượng [Breath] thêm 2\n[WinDuel] Đẩy mốc Chấn lồng lên thêm 25\n- Không kích hoạt nếu [KarmaOfIndexRien_2Phase] từ 150 trở lên",
+          "desc": "Có thể Đối kháng với Kĩ năng này bất kể Tốc độ\nNếu có [BlackNightmare],\n- Tất cả Đồng xu chuyển thành [SuperCoin]\n- <color=#ff6000><mark=#ff000040><b><u>Nếu mục tiêu được chỉ định Đối kháng không phải Kĩ năng Đập</u></b></mark></color> Sức mạnh Đồng xu +2, Sát thương +50%\n- Khi thua Đối kháng trước Kĩ năng Đập, Sức mạnh Đồng xu -2, Sát thương -50%, sát thương của Kĩ năng này không khiến mục tiêu bị Choáng, và không kích hoạt hiệu ứng [Sinking] của mục tiêu khi trúng đòn\n\nVũ khí Đập xuất hiện thường xuyên hơn\n- Nếu [KarmaOfIndexRien_2Phase] từ 75 trở lên, tỉ lệ xuất hiện giảm\n- Nếu [KarmaOfIndexRien_2Phase] từ 150 trở lên, tỉ lệ xuất hiện giảm thêm\nÁp dụng các hiệu ứng sau tùy theo loại tấn công của vũ khí đang sử dụng\n- Nếu là vũ khí Đập, Sát thương +60%\n- Nếu không phải vũ khí Đập, Sát thương -30%\n[WhenUse] Nhận 3 [Breath], tăng số lượng [Breath] thêm 2\n[WinDuel] Tăng Ngưỡng Choáng của mục tiêu thêm 25\n- Không kích hoạt nếu [KarmaOfIndexRien_2Phase] từ 150 trở lên",
           "coinlist": [
             {
               "coindescs": [
@@ -880,7 +880,7 @@
         {
           "level": 1,
           "name": "Đâm xuyên tâm điểm tĩnh lặng, xuyên qua kí ức",
-          "desc": "Có thể Đấu với kĩ năng này bất kể Tốc độ\nNếu có [BlackNightmare],\n- Tất cả Đồng xu chuyển thành [SuperCoin]\n- <color=#ff6000><mark=#ff000040><b><u>Nếu mục tiêu chỉ định đấu không phải kĩ năng Đâm</u></b></mark></color> Uy lực Đồng xu +2, Sát thương +50%\n- Khi thua Đấu trước kĩ năng Đâm, Uy lực Đồng xu -2, Sát thương -50%, sát thương của kĩ năng này không khiến mục tiêu Chấn lồng, và không kích hoạt hiệu ứng [Sinking] của mục tiêu\n\nVũ khí Đâm xuất hiện thường xuyên hơn\n- Nếu [KarmaOfIndexRien_2Phase] từ 75 trở lên, tỉ lệ xuất hiện giảm\n- Nếu [KarmaOfIndexRien_2Phase] từ 150 trở lên, tỉ lệ xuất hiện giảm thêm\nÁp dụng các hiệu ứng sau tùy theo loại tấn công của vũ khí đang sử dụng\n- Nếu là vũ khí Đâm, Sát thương +60%\n- Nếu không phải vũ khí Đâm, Sát thương -30%\n[WhenUse] Nhận 3 [Breath], tăng số lượng [Breath] thêm 2\n[WinDuel] Nhận 2 [AttackDmgUp] vào lượt tiếp theo\n- Không kích hoạt nếu [KarmaOfIndexRien_2Phase] từ 150 trở lên",
+          "desc": "Có thể Đối kháng với Kĩ năng này bất kể Tốc độ\nNếu có [BlackNightmare],\n- Tất cả Đồng xu chuyển thành [SuperCoin]\n- <color=#ff6000><mark=#ff000040><b><u>Nếu mục tiêu được chỉ định Đối kháng không phải Kĩ năng Đâm</u></b></mark></color> Sức mạnh Đồng xu +2, Sát thương +50%\n- Khi thua Đối kháng trước Kĩ năng Đâm, Sức mạnh Đồng xu -2, Sát thương -50%, sát thương của Kĩ năng này không khiến mục tiêu bị Choáng, và không kích hoạt hiệu ứng [Sinking] của mục tiêu khi trúng đòn\n\nVũ khí Đâm xuất hiện thường xuyên hơn\n- Nếu [KarmaOfIndexRien_2Phase] từ 75 trở lên, tỉ lệ xuất hiện giảm\n- Nếu [KarmaOfIndexRien_2Phase] từ 150 trở lên, tỉ lệ xuất hiện giảm thêm\nÁp dụng các hiệu ứng sau tùy theo loại tấn công của vũ khí đang sử dụng\n- Nếu là vũ khí Đâm, Sát thương +60%\n- Nếu không phải vũ khí Đâm, Sát thương -30%\n[WhenUse] Nhận 3 [Breath], tăng số lượng [Breath] thêm 2\n[WinDuel] Nhận 2 [AttackDmgUp] vào lượt tiếp theo\n- Không kích hoạt nếu [KarmaOfIndexRien_2Phase] từ 150 trở lên",
           "coinlist": [
             {
               "coindescs": [
@@ -926,7 +926,7 @@
         {
           "level": 1,
           "name": "Chém lìa hình hài bằng bí mật được mài giũa sắc bén",
-          "desc": "Có thể Đấu với kĩ năng này bất kể Tốc độ\nNếu có [BlackNightmare],\n- Tất cả Đồng xu chuyển thành [SuperCoin]\n- <color=#ff6000><mark=#ff000040><b><u>Nếu mục tiêu chỉ định đấu không phải kĩ năng Chém</u></b></mark></color> Uy lực Đồng xu +2, Sát thương +50%\n- Khi thua Đấu trước kĩ năng Chém, Uy lực Đồng xu -2, Sát thương -50%, sát thương của kĩ năng này không khiến mục tiêu Chấn lồng, và không kích hoạt hiệu ứng [Sinking] của mục tiêu\n\nVũ khí Chém xuất hiện thường xuyên hơn\n- Nếu [KarmaOfIndexRien_2Phase] từ 75 trở lên, tỉ lệ xuất hiện giảm\n- Nếu [KarmaOfIndexRien_2Phase] từ 150 trở lên, tỉ lệ xuất hiện giảm thêm\nÁp dụng các hiệu ứng sau tùy theo loại tấn công của vũ khí đang sử dụng\n- Nếu là vũ khí Chém, Sát thương +60%\n- Nếu không phải vũ khí Chém, Sát thương -30%\n[WhenUse] Nhận 3 [Breath], tăng số lượng [Breath] thêm 2\n[WinDuel] Uy lực cuối +3\n- Không kích hoạt nếu [KarmaOfIndexRien_2Phase] từ 150 trở lên",
+          "desc": "Có thể Đối kháng với Kĩ năng này bất kể Tốc độ\nNếu có [BlackNightmare],\n- Tất cả Đồng xu chuyển thành [SuperCoin]\n- <color=#ff6000><mark=#ff000040><b><u>Nếu mục tiêu được chỉ định Đối kháng không phải Kĩ năng Trảm kích</u></b></mark></color> Sức mạnh Đồng xu +2, Sát thương +50%\n- Khi thua Đối kháng trước Kĩ năng Trảm kích, Sức mạnh Đồng xu -2, Sát thương -50%, sát thương của Kĩ năng này không khiến mục tiêu bị Choáng, và không kích hoạt hiệu ứng [Sinking] của mục tiêu khi trúng đòn\n\nVũ khí Trảm kích xuất hiện thường xuyên hơn\n- Nếu [KarmaOfIndexRien_2Phase] từ 75 trở lên, tỉ lệ xuất hiện giảm\n- Nếu [KarmaOfIndexRien_2Phase] từ 150 trở lên, tỉ lệ xuất hiện giảm thêm\nÁp dụng các hiệu ứng sau tùy theo loại tấn công của vũ khí đang sử dụng\n- Nếu là vũ khí Trảm kích, Sát thương +60%\n- Nếu không phải vũ khí Trảm kích, Sát thương -30%\n[WhenUse] Nhận 3 [Breath], tăng số lượng [Breath] thêm 2\n[WinDuel] Sức mạnh Cuối cùng +3\n- Không kích hoạt nếu [KarmaOfIndexRien_2Phase] từ 150 trở lên",
           "coinlist": [
             {
               "coindescs": [
@@ -972,7 +972,7 @@
         {
           "level": 1,
           "name": "Furioso-Replica",
-          "desc": "[WideAreaRampage]\n<color=#ff6000><mark=#ff000040><b><u>Kĩ năng này không cho phép mục tiêu kích hoạt kĩ năng Phòng thủ</u></b></mark></color>\nCó thể Đấu với kĩ năng này bất kể Tốc độ\n[WhenUse]\n- Nhận 3 [Breath], tăng số lượng [Breath] của bản thân thêm 3\n- Uy lực Đấu +5 (<color=#ff6000><mark=#ff000040><b><u>Giảm 1 với mỗi 5 [KarmaOfIndexRien] của bản thân, tối thiểu 0</u></b></mark></color>)\n[WhenUse] Nếu Tinh thần từ 0 trở lên, tạo 1 Man (Vọng)\n- Sát thương tăng 20%, Uy lực cuối +3\n[WinDuel]\n- Nhận 3 [Breath], tăng số lượng [Breath] của bản thân thêm 3\n- Khi kết thúc đòn tấn công, gây 3 [Laceration], 1 [Binding], 1 [Vulnerable] vào lượt tiếp theo lên tất cả mục tiêu bị trúng đòn\n[DefeatDuel] \n- Sát thương cuối giảm 80%\n- Mục tiêu không bị Chấn lồng bởi sát thương của kĩ năng này, và không kích hoạt hiệu ứng [Sinking] của mục tiêu khi trúng đòn\n[EndSkill] Nếu đã tạo Man (Vọng), Tinh thần giảm 20\n[EndSkill] Kết thúc lượt này",
+          "desc": "[WideAreaRampage]\n<color=#ff6000><mark=#ff000040><b><u>Kĩ năng này không cho phép mục tiêu kích hoạt kĩ năng Phòng thủ</u></b></mark></color>\nCó thể Đối kháng với Kĩ năng này bất kể Tốc độ\n[WhenUse]\n- Nhận 3 [Breath], tăng số lượng [Breath] của bản thân thêm 3\n- Uy lực Đối kháng +5 (<color=#ff6000><mark=#ff000040><b><u>Giảm 1 với mỗi 5 [KarmaOfIndexRien] của bản thân, tối thiểu 0</u></b></mark></color>)\n[WhenUse] Nếu Tinh thần từ 0 trở lên, tạo 1 Man (Vọng)\n- Sát thương tăng 20%, Sức mạnh Cuối cùng +3\n[WinDuel]\n- Nhận 3 [Breath], tăng số lượng [Breath] của bản thân thêm 3\n- Khi kết thúc đòn tấn công, gây 3 [Laceration], 1 [Binding], 1 [Vulnerable] vào lượt tiếp theo lên tất cả mục tiêu bị trúng đòn\n[DefeatDuel] \n- Sát thương cuối cùng giảm 80%\n- Sát thương của Kĩ năng này không khiến mục tiêu bị Choáng, và không kích hoạt hiệu ứng [Sinking] của mục tiêu khi trúng đòn\n[EndSkill] Nếu đã tạo Man (Vọng), Tinh thần giảm 20\n[EndSkill] Kết thúc lượt này",
           "coinlist": [
             {
               "coindescs": [
@@ -1004,7 +1004,7 @@
         {
           "level": 1,
           "name": "Furioso [Crescendo]",
-          "desc": "[WideAreaRampage]\n<color=#ff6000><mark=#ff000040><b><u>Kĩ năng này không cho phép mục tiêu kích hoạt kĩ năng Phòng thủ</u></b></mark></color>\nCó thể Đấu với kĩ năng này bất kể Tốc độ\n[WhenUse]\n- Nhận 6 [Breath], tăng số lượng [Breath] của bản thân thêm 6\n- Uy lực Đấu +10 (<color=#ff6000><mark=#ff000040><b><u>Giảm 1 với mỗi 5 [KarmaOfIndexRien_2Phase] của bản thân</u></b></mark></color>)\n[WhenUse] Nếu Tinh thần từ 0 trở lên, tạo 2 Man (Vọng)\n- Sát thương tăng 40%, Uy lực cuối +5\n[WinDuel]\n- Khi kết thúc đòn tấn công, gây 4 [Laceration], 2 [Binding], 2 [Vulnerable] vào lượt tiếp theo lên tất cả mục tiêu bị trúng đòn\n[DefeatDuel] \n- Sát thương cuối giảm 80%\n- Mục tiêu không bị Chấn lồng bởi sát thương của kĩ năng này, và không kích hoạt hiệu ứng [Sinking] của mục tiêu khi trúng đòn\n[EndSkill] Nếu đã tạo Man (Vọng), Tinh thần giảm 25\n[EndSkill] Kết thúc lượt này",
+          "desc": "[WideAreaRampage]\n<color=#ff6000><mark=#ff000040><b><u>Kĩ năng này không cho phép mục tiêu kích hoạt kĩ năng Phòng thủ</u></b></mark></color>\nCó thể Đối kháng với Kĩ năng này bất kể Tốc độ\n[WhenUse]\n- Nhận 6 [Breath], tăng số lượng [Breath] của bản thân thêm 6\n- Uy lực Đối kháng +10 (<color=#ff6000><mark=#ff000040><b><u>Giảm 1 với mỗi 5 [KarmaOfIndexRien_2Phase] của bản thân</u></b></mark></color>)\n[WhenUse] Nếu Tinh thần từ 0 trở lên, tạo 2 Man (Vọng)\n- Sát thương tăng 40%, Sức mạnh Cuối cùng +5\n[WinDuel]\n- Khi kết thúc đòn tấn công, gây 4 [Laceration], 2 [Binding], 2 [Vulnerable] vào lượt tiếp theo lên tất cả mục tiêu bị trúng đòn\n[DefeatDuel] \n- Sát thương cuối cùng giảm 80%\n- Sát thương của Kĩ năng này không khiến mục tiêu bị Choáng, và không kích hoạt hiệu ứng [Sinking] của mục tiêu khi trúng đòn\n[EndSkill] Nếu đã tạo Man (Vọng), Tinh thần giảm 25\n[EndSkill] Kết thúc lượt này",
           "coinlist": [
             {
               "coindescs": [
@@ -1036,7 +1036,7 @@
         {
           "level": 1,
           "name": "Furioso [Lacrimosa-Crescendo]",
-          "desc": "[WideAreaRampage]\nKĩ năng này không cho phép mục tiêu kích hoạt kĩ năng Phòng thủ\nCó thể Đấu với kĩ năng này bất kể Tốc độ\n[WhenUse]\n- Nhận 9 [Breath], tăng số lượng [Breath] của bản thân thêm 9\n- Uy lực Đấu +15 (<color=#ff6000><mark=#ff000040><b><u>Giảm 1 với mỗi 5 [KarmaOfIndexRien_2Phase] của bản thân</u></b></mark></color>)\n[WhenUse] Nếu Tinh thần từ 0 trở lên, tạo 3 Man (Vọng)\n- Sát thương tăng 60%, Uy lực cuối +8\n[WinDuel]\n- Khi kết thúc đòn tấn công, gây 5 [Laceration], 3 [Binding], 3 [Vulnerable] vào lượt tiếp theo lên tất cả mục tiêu bị trúng đòn\n[DefeatDuel] \n- Sát thương cuối giảm 80%\n- Mục tiêu không bị Chấn lồng bởi sát thương của kĩ năng này, và không kích hoạt hiệu ứng [Sinking] của mục tiêu khi trúng đòn\n[EndSkill] Nếu đã tạo Man (Vọng), Tinh thần giảm 30\n[EndSkill] Kết thúc lượt này",
+          "desc": "[WideAreaRampage]\nKĩ năng này không cho phép mục tiêu kích hoạt kĩ năng Phòng thủ\nCó thể Đối kháng với Kĩ năng này bất kể Tốc độ\n[WhenUse]\n- Nhận 9 [Breath], tăng số lượng [Breath] của bản thân thêm 9\n- Uy lực Đối kháng +15 (<color=#ff6000><mark=#ff000040><b><u>Giảm 1 với mỗi 5 [KarmaOfIndexRien_2Phase] của bản thân</u></b></mark></color>)\n[WhenUse] Nếu Tinh thần từ 0 trở lên, tạo 3 Man (Vọng)\n- Sát thương tăng 60%, Sức mạnh Cuối cùng +8\n[WinDuel]\n- Khi kết thúc đòn tấn công, gây 5 [Laceration], 3 [Binding], 3 [Vulnerable] vào lượt tiếp theo lên tất cả mục tiêu bị trúng đòn\n[DefeatDuel] \n- Sát thương cuối cùng giảm 80%\n- Sát thương của Kĩ năng này không khiến mục tiêu bị Choáng, và không kích hoạt hiệu ứng [Sinking] của mục tiêu khi trúng đòn\n[EndSkill] Nếu đã tạo Man (Vọng), Tinh thần giảm 30\n[EndSkill] Kết thúc lượt này",
           "coinlist": [
             {
               "coindescs": [
@@ -1068,18 +1068,18 @@
         {
           "level": 1,
           "name": "Tác phẩm nghệ thuật sắp đặt số 3 \"Xương sườn giản đơn\"",
-          "desc": "[CantDuel] [CantChangeTarget]\nƯu tiên chỉ định kẻ địch có cấp độ cao\nKĩ năng này không cho phép kích hoạt kĩ năng Phòng thủ\n[WhenUse] Với mỗi 8 [Laceration] của mục tiêu, Uy lực Đồng xu +1 (Tối đa 2)",
+          "desc": "[CantDuel] [CantChangeTarget]\nƯu tiên chỉ định kẻ địch có cấp độ cao\nKĩ năng này không cho phép kích hoạt kĩ năng Phòng thủ\n[WhenUse] Với mỗi 8 [Laceration] của mục tiêu, Sức mạnh Đồng xu +1 (Tối đa 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "Đồng xu này không gây sát thương máu"
+                  "desc": "Đồng xu này không gây sát thương Máu"
                 },
                 {
                   "desc": "[OnSucceedAttack] Hồi 15 Tinh thần cho bản thân"
                 },
                 {
-                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Gây Chấn lồng, và biến thành [LivingSpecimenTheRings] vào lượt tiếp theo</u></b></mark></color>"
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Khiến mục tiêu bị Choáng và biến mục tiêu thành [LivingSpecimenTheRings] vào lượt tiếp theo</u></b></mark></color>"
                 }
               ]
             }
@@ -1093,7 +1093,7 @@
         {
           "level": 1,
           "name": "Giải phẫu",
-          "desc": "[WhenUse] Nếu [Laceration] của mục tiêu từ 6 trở lên, Uy lực Đồng xu +1\n[DefeatDuel] Sát thương cuối giảm 80%, mục tiêu không bị Chấn lồng bởi sát thương kĩ năng này",
+          "desc": "[WhenUse] Nếu [Laceration] của mục tiêu từ 6 trở lên, Sức mạnh Đồng xu +1\n[DefeatDuel] Sát thương cuối cùng giảm 80%, và Sát thương của Kĩ năng này không khiến mục tiêu bị Choáng",
           "coinlist": [
             {
               "coindescs": [
@@ -1131,7 +1131,7 @@
         {
           "level": 1,
           "name": "Thu thập vật liệu - Vật phẩm tắm máu",
-          "desc": "Ưu tiên chỉ định Thân Thể Quan Kịch làm mục tiêu\n[WhenUse] Nếu [Laceration] của mục tiêu từ 6 trở lên, Uy lực Đồng xu +1\n[DefeatDuel] Sát thương cuối giảm 80%, mục tiêu không bị Chấn lồng bởi sát thương kĩ năng này",
+          "desc": "Ưu tiên chỉ định Thân Thể Quan Kịch làm mục tiêu\n[WhenUse] Nếu [Laceration] của mục tiêu từ 6 trở lên, Sức mạnh Đồng xu +1\n[DefeatDuel] Sát thương cuối cùng giảm 80%, và Sát thương của Kĩ năng này không khiến mục tiêu bị Choáng",
           "coinlist": [
             {
               "coindescs": [
@@ -1230,7 +1230,7 @@
         {
           "level": 1,
           "name": "Chúng ta yêu máu và thịt",
-          "desc": "Môn hạ Ngón Áp Út - Ưu tiên chỉ định Albina làm mục tiêu\n[DefeatDuel] <color=#ff6000><mark=#ff000040><b><u>Nhận [AttackDmgDown] 8</u></b></mark></color>",
+          "desc": "Đệ tử Ngón Áp Út - Ưu tiên chỉ định Albina làm mục tiêu\n[DefeatDuel] <color=#ff6000><mark=#ff000040><b><u>Nhận [AttackDmgDown] 8</u></b></mark></color>",
           "coinlist": [
             {
               "coindescs": [
@@ -1424,7 +1424,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Mổ xẻ Thỏ (Sezionatura del Coniglio)",
+          "name": "Mổ xẻ Thỏ (Sezionatura di Coniglio)",
           "desc": "Nếu [Breath] của bản thân từ 6 trở lên, Sức mạnh Đồng xu +1\n[WhenUse] Mỗi 4 tổng số [Combustion] và [Vibration] của mục tiêu, Sức mạnh Cơ bản +1 (Tối đa 2)",
           "coinlist": [
             {
@@ -1457,7 +1457,7 @@
         {
           "level": 1,
           "name": "Tiên Tri",
-          "desc": "Khi Né tránh thành công toàn bộ Đồng xu của Kĩ năng, thực hiện Tấn công một chiều lên mục tiêu đã tấn công bằng 「Sezionatura del Coniglio」\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Cứ mỗi 3 trị số [FutureEyeOn], Sức mạnh Cơ bản +1</u></b></mark></color>\n[WhenUse] [FullReload] (1 lần mỗi lượt)\n[OnSucceedEvade] Nhận 3 [Breath] (2 lần mỗi lượt)\n[OnDefeatEvade] Giảm 5 Tinh thần",
+          "desc": "Khi Né tránh thành công toàn bộ Đồng xu của Kĩ năng, thực hiện Tấn công một chiều lên mục tiêu đã tấn công bằng 「Sezionatura di Coniglio」\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Cứ mỗi 3 trị số [FutureEyeOn], Sức mạnh Cơ bản +1</u></b></mark></color>\n[WhenUse] [FullReload] (1 lần mỗi lượt)\n[OnSucceedEvade] Nhận 3 [Breath] (2 lần mỗi lượt)\n[OnDefeatEvade] Giảm 5 Tinh thần",
           "coinlist": [
             {
               "coindescs": [

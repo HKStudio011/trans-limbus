@@ -56,14 +56,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Tăng 3 Số lượng [Vết rách]"
+                  "desc": "[OnSucceedAttack] Tăng 3 Số lượng Vết rách"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây 2 [Vết rách]"
+                  "desc": "[OnSucceedAttack] Gây 2 Vết rách"
                 }
               ]
             }
@@ -82,17 +82,17 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Tăng 2 Số lượng [Vết rách]"
+                  "desc": "[OnSucceedAttack] Tăng 2 Số lượng Vết rách"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây 3 [Vết rách]"
+                  "desc": "[OnSucceedAttack] Gây 3 Vết rách"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Gây 2 [Vết rách]"
+                  "desc": "[OnSucceedAttackHead] Gây 2 Vết rách"
                 }
               ]
             }
@@ -106,7 +106,7 @@
         {
           "level": 1,
           "name": "Tiếng kêu tìm kiếm thứ gì đó",
-          "desc": "Với mỗi Cây dù cũ còn tồn tại khi bắt đầu đấu sức, Sức mạnh Đấu sức +2\nVới mỗi Cây dù cũ, Lượng sát thương +25%\nToàn bộ Cây dù cũ biến mất khi kết thúc lượt\nKhi kết thúc lượt, nhận <sprite name=\"WaveFoxUmbrella\"><color=#f8c200><u><link=\"WaveFoxUmbrella\">Dù bảo vệ</color></link></u> tương ứng với lượng <sprite name=\"WaveFoxUmbrella\"><color=#f8c200><u><link=\"WaveFoxUmbrella\">Dù bảo vệ</color></link></u> đã nhận được trong 1 lượt",
+          "desc": "Sức mạnh Đối kháng +2 cho mỗi Ô Cũ còn sống sót\nSát thương +25% cho mỗi Ô Cũ\nToàn bộ Ô Cũ biến mất khi kết thúc lượt\nKhi kết thúc lượt, nhận <sprite name=\"WaveFoxUmbrella\"><color=#f8c200><u><link=\"WaveFoxUmbrella\">Ô Bảo hộ</color></link></u> tương ứng với số lượng <sprite name=\"WaveFoxUmbrella\"><color=#f8c200><u><link=\"WaveFoxUmbrella\">Ô Bảo hộ</color></link></u> đã nhận trong lượt đầu tiên",
           "coinlist": [
             {
               "coindescs": [
@@ -124,7 +124,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Chờ đợi mòn mỏi",
+          "name": "Đợi Chờ",
           "desc": "[StartBattle] Giảm 20 Tinh thần của mọi kẻ địch",
           "coinlist": [
             {
@@ -182,7 +182,7 @@
         {
           "level": 1,
           "name": "Tiếng kêu cầu khẩn",
-          "desc": "Với mỗi Cây dù cũ còn tồn tại khi thực hiện đấu sức, Sức mạnh Đấu sức +2\nVới mỗi Cây dù cũ, Lượng sát thương +25%",
+          "desc": "Sức mạnh Đối kháng +2 cho mỗi Ô Cũ còn sống sót\nSát thương +25% cho mỗi Ô Cũ",
           "coinlist": [
             {
               "coindescs": [
@@ -201,7 +201,7 @@
         {
           "level": 1,
           "name": "Nỗi sầu lan tỏa",
-          "desc": "[EndSkill] Tăng 3 Số lượng [Vết rách] và 3 Số lượng Trầm luân của mọi kẻ địch",
+          "desc": "[EndSkill] Tăng 3 Số lượng Vết rách và 3 Số lượng Trầm luân của mọi kẻ địch",
           "coinlist": [
             {
               "coindescs": [
@@ -220,7 +220,7 @@
         {
           "level": 1,
           "name": "Tiêm dòng điện",
-          "desc": "[StartBattle] Nhận 2 [Tự phát điện]\n[DefeatDuel] Tiêu hao 2 [Tự phát điện]\nNếu mục tiêu có <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Tê liệt</color></link></u>, Lượng sát thương +10%",
+          "desc": "[StartBattle] Nhận 2 Tự phát điện\n[DefeatDuel] Tiêu hao 2 Tự phát điện\nNếu mục tiêu có <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Tê liệt</color></link></u>, Sát thương +10%",
           "coinlist": [
             {},
             {
@@ -240,7 +240,7 @@
         {
           "level": 1,
           "name": "Xả điện",
-          "desc": "[StartBattle] Nhận 2 [Tự phát điện]\n[DefeatDuel] Tiêu hao 2 [Tự phát điện]\nNếu mục tiêu có <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Tê liệt</color></link></u>, Lượng sát thương +10%",
+          "desc": "[StartBattle] Nhận 2 Tự phát điện\n[DefeatDuel] Tiêu hao 2 Tự phát điện\nNếu mục tiêu có <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Tê liệt</color></link></u>, Sát thương +10%",
           "coinlist": [
             {},
             {},
@@ -261,15 +261,15 @@
         {
           "level": 1,
           "name": "Phát điện",
-          "desc": "[StartBattle] Nhận 2 [Tự phát điện]\n[DefeatDuel] Tiêu hao 2 [Tự phát điện]\nNếu mục tiêu có <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Tê liệt</color></link></u>, Lượng sát thương +10%",
+          "desc": "[StartBattle] Nhận 2 Tự phát điện\n[DefeatDuel] Tiêu hao 2 Tự phát điện\nNếu mục tiêu có <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Tê liệt</color></link></u>, Sát thương +10%",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây 2 [Mong manh] vào lượt sau"
+                  "desc": "[OnSucceedAttack] Gây 2 Mong manh vào lượt sau"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Gây 2 [Trói buộc] vào lượt sau"
+                  "desc": "[OnSucceedAttackHead] Gây 2 Trói buộc vào lượt sau"
                 }
               ]
             },
@@ -290,12 +290,12 @@
         {
           "level": 1,
           "name": "Phát điện siêu cao áp",
-          "desc": "[WhenUse] Nếu <sprite name=\"SelfCharge\"><color=#a16a3b><u><link=\"SelfCharge\">Tự phát điện</color></link></u> từ 5 trở lên, với mỗi <sprite name=\"SelfCharge\"><color=#a16a3b><u><link=\"SelfCharge\">Tự phát điện</color></link></u> vượt quá, Lượng sát thương +20%\n[WhenUse] Với mỗi <sprite name=\"SelfCharge\"><color=#a16a3b><u><link=\"SelfCharge\">Tự phát điện</color></link></u>, Sức mạnh Đấu sức +1\n[WhenUse] Tiêu hao toàn bộ Tự phát điện",
+          "desc": "[WhenUse] Nếu có hơn 5 <sprite name=\"SelfCharge\"><color=#a16a3b><u><link=\"SelfCharge\">Tự phát điện</color></link></u>, cứ mỗi <sprite name=\"SelfCharge\"><color=#a16a3b><u><link=\"SelfCharge\">Tự phát điện</color></link></u> vượt quá 5 thì Sát thương +20%\n[WhenUse] Sức mạnh Đối kháng +1 cho mỗi <sprite name=\"SelfCharge\"><color=#a16a3b><u><link=\"SelfCharge\">Tự phát điện</color></link></u>\n[WhenUse] Tiêu hao toàn bộ Tự phát điện",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây 3 [Mong manh] vào lượt sau"
+                  "desc": "[OnSucceedAttack] Gây 3 Mong manh vào lượt sau"
                 }
               ]
             },
@@ -316,7 +316,7 @@
         {
           "level": 1,
           "name": "Cuộn mình",
-          "desc": "Khi Kỹ năng này có ô (Slot), bộ phận Đầu nhận 50 Khiên với mỗi <sprite name=\"SelfCharge\"><color=#a16a3b><u><link=\"SelfCharge\">Tự phát điện</color></link></u>.\nNếu bộ phận Đầu đang bị phá hủy, nhận 25 Khiên với mỗi <sprite name=\"SelfCharge\"><color=#a16a3b><u><link=\"SelfCharge\">Tự phát điện</color></link></u>.\nKhi mất lượng Khiên tương ứng với 1 Tự phát điện, tiêu hao 1 Tự phát điện.",
+          "desc": "Khi Kĩ năng này nằm trong Ô Kĩ năng, bộ phận Đầu nhận 50 Lá chắn với mỗi <sprite name=\"SelfCharge\"><color=#a16a3b><u><link=\"SelfCharge\">Tự phát điện</color></link></u>.\nNếu bộ phận Đầu đang bị phá hủy, nhận 25 Lá chắn với mỗi <sprite name=\"SelfCharge\"><color=#a16a3b><u><link=\"SelfCharge\">Tự phát điện</color></link></u>.\nKhi mất lượng Lá chắn bằng lượng nhận được từ 1 Tự phát điện, tiêu hao 1 Tự phát điện.",
           "coinlist": [
             {}
           ]
@@ -329,7 +329,7 @@
         {
           "level": 1,
           "name": "Đầu ngọ nguậy",
-          "desc": "Ưu tiên tấn công kẻ địch có Máu thấp nhất\n[WhenUse] Tiêu hao 1 Tự phát điện\n[DefeatDuel] Tiêu hao 1 Tự phát điện",
+          "desc": "Ưu tiên tấn công kẻ địch có HP thấp nhất\n[WhenUse] Tiêu hao 1 Tự phát điện\n[DefeatDuel] Tiêu hao 1 Tự phát điện",
           "coinlist": [
             {},
             {
@@ -349,7 +349,7 @@
         {
           "level": 1,
           "name": "Đuôi ngọ nguậy",
-          "desc": "Ưu tiên tấn công kẻ địch có Máu thấp nhất\n[WhenUse] Tiêu hao 1 Tự phát điện\n[DefeatDuel] Tiêu hao 2 Tự phát điện",
+          "desc": "Ưu tiên tấn công kẻ địch có HP thấp nhất\n[WhenUse] Tiêu hao 1 Tự phát điện\n[DefeatDuel] Tiêu hao 2 Tự phát điện",
           "coinlist": [
             {},
             {},
@@ -369,13 +369,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Muốn say không?",
+          "name": "Muốn say một bữa không?",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây 5 Chấn động, số lần Chấn động tăng 2"
+                  "desc": "[OnSucceedAttack] Gây 5 Chấn động và +2 Số lượng Chấn động"
                 }
               ]
             }
@@ -410,7 +410,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Chỉ còn lại cái này thôi à!",
+          "name": "Còn lại mỗi cái này thôi!",
           "desc": "Ưu tiên tấn công mục tiêu đang có <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Chấn động</color></link></u>",
           "coinlist": [
             {
@@ -423,10 +423,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion] số lần tương ứng với số lần Chấn động của mục tiêu"
+                  "desc": "[OnSucceedAttack] Kích hoạt [VibrationExplosion] tương ứng với Số lượng Chấn động của mục tiêu"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Tiêu hao toàn bộ số lần Chấn động của mục tiêu"
+                  "desc": "[OnSucceedAttack] Tiêu hao toàn bộ Số lượng Chấn động của mục tiêu"
                 }
               ]
             }
@@ -439,16 +439,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Sẽ ăn cái này đấy!",
-          "desc": "Nếu mục tiêu không có <sprite name=\"Tipsiness\"><color=#a16a3b><u><link=\"TipsinessRail\">Say</color></link></u>, Sức mạnh Đối đầu +8\n[WhenUse] Nếu mục tiêu không có <sprite name=\"Tipsiness\"><color=#a16a3b><u><link=\"TipsinessRail\">Say</color></link></u>, Sát thương +150%",
+          "name": "Cái này để ta!",
+          "desc": "Nếu mục tiêu không có <sprite name=\"Tipsiness\"><color=#a16a3b><u><link=\"TipsinessRail\">Say Rượu</color></link></u>, Sức mạnh Đối kháng +8\n[WhenUse] Nếu mục tiêu không có <sprite name=\"Tipsiness\"><color=#a16a3b><u><link=\"TipsinessRail\">Say Rượu</color></link></u>, Sát thương +150%",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Nếu <sprite name=\"Tipsiness\"><color=#a16a3b><u><link=\"TipsinessRail\">Say</color></link></u> của mục tiêu từ 5 trở lên, sát thương gây ra bằng 0.\nYêu Tinh Quý Tộc sẽ rơi vào trạng thái Hoảng loạn vào lượt tiếp theo."
+                  "desc": "[OnSucceedAttack] Nếu <sprite name=\"Tipsiness\"><color=#a16a3b><u><link=\"TipsinessRail\">Say Rượu</color></link></u> của mục tiêu từ 5 trở lên, sát thương gây ra bằng 0.\nYêu Tinh Quý Tộc sẽ bị Choáng vào lượt tiếp theo."
                 },
                 {
-                  "desc": "[OnSucceedAttack] Tiêu hao toàn bộ <sprite name=\"Tipsiness\"><color=#a16a3b><u><link=\"TipsinessRail\">Say</color></link></u>."
+                  "desc": "[OnSucceedAttack] Loại bỏ toàn bộ <sprite name=\"Tipsiness\"><color=#a16a3b><u><link=\"TipsinessRail\">Say Rượu</color></link></u>."
                 }
               ]
             }
@@ -480,7 +480,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Làm một ly không?",
+          "name": "Làm một ngụm chứ?",
           "desc": "[StartBattle] Triệu hồi Rượu Yêu Tinh vào lượt tiếp theo\n[DefeatDuel] Triệu hồi Rượu Yêu Tinh với 70% HP",
           "coinlist": [
             {
@@ -489,7 +489,7 @@
                   "desc": "[OnSucceedAttack] Gây 5 Chấn động"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Chấn động Bộc phát"
+                  "desc": "[OnSucceedAttack] Kích hoạt Bộc phát Chấn động"
                 }
               ]
             }
@@ -503,7 +503,7 @@
         {
           "level": 1,
           "name": "Rượu Yêu Tinh ngọt ngào",
-          "desc": "Khi bị tiêu diệt bởi Bản sắc, gây 5 Say cho toàn bộ Bản sắc vào lượt tiếp theo",
+          "desc": "Khi bị tiêu diệt bởi Bản sắc, gây 5 Say Rượu cho toàn bộ Bản sắc vào lượt tiếp theo",
           "coinlist": [
             {}
           ]
@@ -521,7 +521,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây 2 Vết rách vào lượt tiếp theo. Số lần Vết rách tăng 2"
+                  "desc": "[OnSucceedAttack] Gây 2 Vết rách và +2 Số lượng Vết rách vào lượt tiếp theo"
                 }
               ]
             }
@@ -541,14 +541,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây 5 Vết rách vào lượt tiếp theo. Số lần Vết rách tăng 2"
+                  "desc": "[OnSucceedAttack] Gây 5 Vết rách và +2 Số lượng Vết rách vào lượt tiếp theo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây 2 Vết rách vào lượt tiếp theo. Số lần Vết rách tăng 2"
+                  "desc": "[OnSucceedAttack] Gây 2 Vết rách và +2 Số lượng Vết rách vào lượt tiếp theo"
                 }
               ]
             }
@@ -561,8 +561,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Để không một ai phải khóc",
-          "desc": "[EndBattle] Tiêu biến toàn bộ Lá Bùa Nguyền Rủa Dán Lại\n[WhenUse] Nếu đang sở hữu từ 10 <sprite name=\"ReattachedCurseTag\"><color=#a16a3b><u><link=\"ReattachedCurseTag\">Lá Bùa Nguyền Rủa Dán Lại</color></link></u> trở lên, Sức mạnh Đồng xu -1",
+          "name": "Để Không Ai Phải Khóc",
+          "desc": "[EndBattle] Loại bỏ toàn bộ Lá Bùa Nguyền Rủa Dán Lại\n[WhenUse] Nếu có từ 10 <sprite name=\"ReattachedCurseTag\"><color=#a16a3b><u><link=\"ReattachedCurseTag\">Lá Bùa Nguyền Rủa Dán Lại</color></link></u> trở lên, Sức mạnh Đồng xu -1",
           "coinlist": [
             {
               "coindescs": [
@@ -612,7 +612,7 @@
         {
           "level": 1,
           "name": "Lá Bùa Dịch Chuyển",
-          "desc": "[WhenUse] Tiêu biến toàn bộ <sprite name=\"WrappedCurseTag\"><color=#a16a3b><u><link=\"WrappedCurseTag\">Lá Bùa Nguyền Rủa Quấn Quýt</color></link></u> của mục tiêu. Nhận số Lá Bùa Nguyền Rủa Dán Lại tương ứng với số lượng tiêu biến\n[StartBattle] Tất cả bộ phận nhận 3 Bảo vệ",
+          "desc": "[WhenUse] Loại bỏ toàn bộ <sprite name=\"WrappedCurseTag\"><color=#a16a3b><u><link=\"WrappedCurseTag\">Lá Bùa Nguyền Rủa Quấn Quýt</color></link></u> khỏi mục tiêu.\nNhận Lá Bùa Nguyền Rủa Dán Lại bằng Số lượng đã loại bỏ\n[StartBattle] Tất cả bộ phận nhận 3 Bảo vệ",
           "coinlist": [
             {
               "coindescs": [
@@ -649,19 +649,19 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Liếm Lấy Vết Thương",
+          "name": "Lướt Vết Thương",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Khi số lần Xuất huyết của mục tiêu từ 2 trở lên, gây 5 Xuất huyết"
+                  "desc": "[OnSucceedAttack] Khi Số lượng Xuất huyết của mục tiêu từ 2 trở lên, gây 5 Xuất huyết"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Khi số lần Xuất huyết của mục tiêu từ 2 trở lên, gây 1 Tê liệt"
+                  "desc": "[OnSucceedAttack] Khi Số lượng Xuất huyết của mục tiêu từ 2 trở lên, gây 1 Tê liệt"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Số lần Xuất huyết tăng 4"
+                  "desc": "[OnSucceedAttack] Số lượng Xuất huyết tăng thêm 4"
                 }
               ]
             }
@@ -709,7 +709,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Khi số lần Xuất huyết của mục tiêu từ 2 trở lên, gây 5 Xuất huyết"
+                  "desc": "[OnSucceedAttack] Khi Số lượng Xuất huyết của mục tiêu từ 2 trở lên, gây 5 Xuất huyết"
                 },
                 {
                   "desc": "[OnSucceedAttack] Nếu mục tiêu có <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Xuất huyết</color></link></u>, hồi 25 HP"
@@ -725,8 +725,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Cái bóng xuyên thấu",
-          "desc": "[StartBattle] Vào lượt tiếp theo, tạo ra Cỏ bốn lá Khúc xạ.\n[DefeatDuel] Cỏ bốn lá Khúc xạ được tạo ra với 50% HP.",
+          "name": "Đổ Bóng",
+          "desc": "[StartBattle] Triệu hồi Cỏ Bốn Lá Khúc Xạ vào lượt tiếp theo.\n[DefeatDuel] Cỏ Bốn Lá Khúc Xạ được triệu hồi với 50% HP.",
           "coinlist": [
             {
               "coindescs": [
@@ -734,7 +734,7 @@
                   "desc": "[OnSucceedAttack] Với mỗi <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Xuất huyết</color></link></u> của mục tiêu, Sát thương +5%"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Tiêu thụ toàn bộ Xuất huyết của mục tiêu"
+                  "desc": "[OnSucceedAttack] Tiêu hao toàn bộ Xuất huyết của mục tiêu"
                 }
               ]
             }
@@ -756,7 +756,7 @@
                   "desc": "[OnSucceedAttack] Với mỗi <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Xuất huyết</color></link></u> của mục tiêu, hồi 1% HP tối đa"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Tiêu thụ 1 số lượt Xuất huyết của mục tiêu"
+                  "desc": "[OnSucceedAttack] Tiêu hao 1 Số lượng Xuất huyết của mục tiêu"
                 }
               ]
             }
@@ -769,13 +769,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Muốn say không?",
+          "name": "Muốn say một bữa không?",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây 5 Chấn động, tăng số lượt Chấn động thêm 2"
+                  "desc": "[OnSucceedAttack] Gây 5 Chấn động và +2 Số lượng Chấn động"
                 }
               ]
             }
@@ -788,7 +788,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Chia ra uống nào!",
+          "name": "Cùng chia nhau uống nào!",
           "desc": "",
           "coinlist": [
             {
@@ -810,7 +810,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Còn lại mỗi cái này thôi nhỉ!",
+          "name": "Còn lại mỗi cái này thôi!",
           "desc": "Ưu tiên tấn công mục tiêu đang có <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Chấn động</color></link></u>",
           "coinlist": [
             {
@@ -823,10 +823,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion] số lần tương ứng với số lượt Chấn động của mục tiêu"
+                  "desc": "[OnSucceedAttack] Kích hoạt [VibrationExplosion] tương ứng với Số lượng Chấn động của mục tiêu"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Tiêu thụ toàn bộ số lượt Chấn động của mục tiêu"
+                  "desc": "[OnSucceedAttack] Tiêu hao toàn bộ Số lượng Chấn động của mục tiêu"
                 }
               ]
             }
@@ -839,16 +839,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Ăn cái này đi!",
-          "desc": "Nếu mục tiêu không có <sprite name=\"Tipsiness\"><color=#a16a3b><u><link=\"TipsinessRail\">Say</color></link></u>, Sức mạnh Đối đầu +8\n[WhenUse] Nếu mục tiêu không có <sprite name=\"Tipsiness\"><color=#a16a3b><u><link=\"TipsinessRail\">Say</color></link></u>, Sát thương +150%",
+          "name": "Cái này để ta!",
+          "desc": "Nếu mục tiêu không có <sprite name=\"Tipsiness\"><color=#a16a3b><u><link=\"TipsinessRail\">Say Rượu</color></link></u>, Sức mạnh Đối kháng +8\n[WhenUse] Nếu mục tiêu không có <sprite name=\"Tipsiness\"><color=#a16a3b><u><link=\"TipsinessRail\">Say Rượu</color></link></u>, Sát thương +150%",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Nếu <sprite name=\"Tipsiness\"><color=#a16a3b><u><link=\"TipsinessRail\">Say</color></link></u> của mục tiêu từ 5 trở lên, sát thương gây ra bằng 0.\nYêu tinh Lịch thiệp bị Hoảng loạn vào lượt tiếp theo."
+                  "desc": "[OnSucceedAttack] Nếu <sprite name=\"Tipsiness\"><color=#a16a3b><u><link=\"TipsinessRail\">Say Rượu</color></link></u> của mục tiêu từ 5 trở lên, sát thương gây ra bằng 0.\nYêu Tinh Quý Tộc sẽ bị Choáng vào lượt tiếp theo."
                 },
                 {
-                  "desc": "[OnSucceedAttack] Tiêu thụ toàn bộ <sprite name=\"Tipsiness\"><color=#a16a3b><u><link=\"TipsinessRail\">Say</color></link></u>."
+                  "desc": "[OnSucceedAttack] Loại bỏ toàn bộ <sprite name=\"Tipsiness\"><color=#a16a3b><u><link=\"TipsinessRail\">Say Rượu</color></link></u>."
                 }
               ]
             }
@@ -861,7 +861,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Rượu yêu tinh này ngon chứ?",
+          "name": "Rượu Yêu Tinh này ngon chứ?",
           "desc": "[WhenUse] Nhận 3 Trói buộc vào lượt tiếp theo",
           "coinlist": [
             {
@@ -880,8 +880,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Làm một ly không?",
-          "desc": "[StartBattle] Triệu hồi Rượu yêu tinh vào lượt tiếp theo\n[DefeatDuel] Rượu yêu tinh được triệu hồi với 50% HP",
+          "name": "Làm một ngụm chứ?",
+          "desc": "[StartBattle] Triệu hồi Rượu Yêu Tinh vào lượt tiếp theo\n[DefeatDuel] Rượu Yêu Tinh được triệu hồi với 50% HP",
           "coinlist": [
             {
               "coindescs": [
@@ -889,7 +889,7 @@
                   "desc": "[OnSucceedAttack] Gây 5 Chấn động"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Bộc phát Chấn động"
+                  "desc": "[OnSucceedAttack] Kích hoạt Bộc phát Chấn động"
                 }
               ]
             }
@@ -902,8 +902,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Rượu yêu tinh ngọt ngào",
-          "desc": "Khi bị Bản sắc tiêu diệt, gây 5 Say cho tất cả Bản sắc vào lượt tiếp theo",
+          "name": "Rượu Yêu Tinh ngọt ngào",
+          "desc": "Khi bị Bản sắc tiêu diệt, gây 5 Say Rượu cho tất cả Bản sắc vào lượt tiếp theo",
           "coinlist": [
             {}
           ]
@@ -915,19 +915,19 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Con mồi sập bẫy",
-          "desc": "[CantDuel] Chỉ số Cộng dồn Tấn công tăng theo số lượt mà Yêu tinh còn sống.\nƯu tiên tấn công Bản sắc bị <sprite name=\"FairyCharm\"><color=#a16a3b><u><link=\"FairyCharm\">Mê hoặc</color></link></u>.",
+          "name": "Mồi mắc bẫy",
+          "desc": "[CantDuel] +1 Trọng lượng Tấn công cho mỗi lượt Yêu tinh còn sống.\nƯu tiên tấn công Bản sắc bị <sprite name=\"FairyCharm\"><color=#a16a3b><u><link=\"FairyCharm\">Mê hoặc</color></link></u>.",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Tăng số lượt Vết rách thêm 2"
+                  "desc": "[OnSucceedAttack] Tăng 2 Số lượng Vết rách"
                 },
                 {
                   "desc": "[OnSucceedAttack] Gây 3 Xuất huyết"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Hồi 15 HP cho Thân chính và Thân"
+                  "desc": "[OnSucceedAttack] Bản thể và Thân hồi 15 HP"
                 }
               ]
             }
@@ -946,10 +946,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Tăng số lượt Vết rách thêm 3"
+                  "desc": "[OnSucceedAttack] Tăng 3 Số lượng Vết rách"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Tăng số lượt Xuất huyết thêm 3"
+                  "desc": "[OnSucceedAttack] Tăng 3 Số lượng Xuất huyết"
                 }
               ]
             }
@@ -990,7 +990,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Với mỗi 1 Trị số Vết rách của mục tiêu, Sát thương +5%"
+                  "desc": "[OnSucceedAttack] Với mỗi 1 Cường độ Vết rách của mục tiêu, Sát thương +5%"
                 }
               ]
             }
@@ -1023,7 +1023,7 @@
         {
           "level": 1,
           "name": "Cái tôi bị mê hoặc",
-          "desc": "Tấn công Đèn lồng Yêu tinh sẽ khiến sát thương bằng 0.",
+          "desc": "Tấn công Lồng Đèn Yêu Tinh gây 0 sát thương.",
           "coinlist": [
             {
               "coindescs": [
@@ -1041,13 +1041,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Trảm Không gian",
-          "desc": "[WhenUse] Tăng 3 số lượt Sạc của bản thân\n[DefeatDuel] Tiêu thụ 2 số lượt Sạc của bản thân",
+          "name": "Trảm Không Gian",
+          "desc": "[WhenUse] Tăng 3 Số lượng Sạc của bản thân\n[DefeatDuel] Tiêu hao 2 Số lượng Sạc của bản thân",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây 3 [Vết rách]"
+                  "desc": "[OnSucceedAttack] Gây 3 Vết rách"
                 }
               ]
             }
@@ -1060,8 +1060,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Trảm Không Liên Hoàn",
-          "desc": "[WhenUse] Tăng 3 số lượng [Sạc] của bản thân\n[DefeatDuel] Tiêu hao 2 số lượng [Sạc] của bản thân",
+          "name": "Trảm Không Gian Liên Hoàn",
+          "desc": "[WhenUse] Tăng 3 Số lượng Sạc của bản thân\n[DefeatDuel] Tiêu hao 2 Số lượng Sạc của bản thân",
           "coinlist": [
             {
               "coindescs": [
@@ -1086,13 +1086,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Nôn Ra Phụ Phẩm",
-          "desc": "[DefeatDuel] Tiêu hao 2 số lượng [Sạc] của bản thân",
+          "name": "Xả Phụ Phẩm",
+          "desc": "[DefeatDuel] Tiêu hao 2 Số lượng Sạc của bản thân",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây 5 [Vết rách]"
+                  "desc": "[OnSucceedAttack] Gây 5 Vết rách"
                 }
               ]
             }
@@ -1106,12 +1106,12 @@
         {
           "level": 1,
           "name": "Cắt Không Gian",
-          "desc": "Nếu số lượng [Sạc] từ 10 trở lên, tiêu hao 10 số lượng [Sạc] để nhận +5 Sức mạnh Đối kháng, +100% Sát thương\nNếu số lượng [Sạc] dưới 10, tiêu hao 100 HP bản thân. +80% Sát thương\nKĩ năng này không thể làm HP giảm xuống 0.",
+          "desc": "Nếu Số lượng Sạc từ 10 trở lên, tiêu hao 10 Số lượng Sạc để nhận +5 Sức mạnh Đối kháng và +100% Sát thương\nNếu Số lượng Sạc dưới 10, tiêu hao 100 HP Bản thể và +80% Sát thương\nKĩ năng này không thể khiến HP giảm xuống 0.",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Tăng 2 số lượng [Sạc] của bản thân"
+                  "desc": "[OnSucceedAttackHead] Tăng 2 Số lượng Sạc của bản thân"
                 },
                 {
                   "desc": "[OnSucceedAttack] Gây 3 Vết Nứt Chiều Không Gian"
@@ -1121,7 +1121,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Tăng 2 số lượng [Sạc] của bản thân"
+                  "desc": "[OnSucceedAttackHead] Tăng 2 Số lượng Sạc của bản thân"
                 },
                 {
                   "desc": "[OnSucceedAttack] Gây 3 Vết Nứt Chiều Không Gian"
@@ -1138,19 +1138,19 @@
         {
           "level": 1,
           "name": "Phản Công Chuẩn Bị",
-          "desc": "[WhenUse] Tăng 1 số lượng [Sạc] của bản thân",
+          "desc": "[WhenUse] Tăng 1 Số lượng Sạc của bản thân",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Tăng 2 số lượng [Vết rách]"
+                  "desc": "[OnSucceedAttack] Tăng 2 Số lượng Vết rách"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây 2 [Vết rách]"
+                  "desc": "[OnSucceedAttack] Gây 2 Vết rách"
                 }
               ]
             }
@@ -1163,8 +1163,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Nôn Mửa Phụ Phẩm",
-          "desc": "[WhenUse] Nếu mục tiêu có Vết Nứt Chiều Không Gian, +10% Sát thương\n[DefeatDuel] Tiêu hao 2 số lượng [Sạc] của bản thân",
+          "name": "Nôn Ra Phụ Phẩm",
+          "desc": "[WhenUse] Nếu mục tiêu có Vết Nứt Chiều Không Gian, +10% Sát thương\n[DefeatDuel] Tiêu hao 2 Số lượng Sạc của bản thân",
           "coinlist": [
             {
               "coindescs": [
@@ -1188,7 +1188,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây 3 [Vết rách]"
+                  "desc": "[OnSucceedAttack] Gây 3 Vết rách"
                 }
               ]
             }
@@ -1239,16 +1239,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Khoảnh Khắc Trùng Khớp",
-          "desc": "[DefeatDuel] Tiêu hao 2 số lượng [Sạc] của bản thân",
+          "name": "Khoảnh Khắc Khớp Nhau",
+          "desc": "[DefeatDuel] Tiêu hao 2 Số lượng Sạc của bản thân",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây 1 Thời Gian Trùng Khớp"
+                  "desc": "[OnSucceedAttack] Gây 1 Thời Gian Khớp Nhau"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Gây 3 [Tê liệt]"
+                  "desc": "[OnSucceedAttackHead] Gây 3 Tê liệt"
                 }
               ]
             }
@@ -1262,7 +1262,7 @@
         {
           "level": 1,
           "name": "Hấp Thụ Thời Gian",
-          "desc": "Mỗi 3 số lượng [Sạc], +1 Sức mạnh [Kĩ năng]\n[WhenUse] Tăng 4 số lượng [Sạc] của bản thân",
+          "desc": "Mỗi 3 Số lượng Sạc, +1 Sức mạnh Kĩ năng\n[WhenUse] Tăng 4 Số lượng Sạc của bản thân",
           "coinlist": [
             {
               "coindescs": [
@@ -1270,7 +1270,7 @@
                   "desc": "[OnSucceedAttack] Nhận 3 Cho Vay Thời Gian vào lượt tiếp theo"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gây 3 [Trói buộc] vào lượt tiếp theo"
+                  "desc": "[OnSucceedAttack] Gây 3 Trói buộc vào lượt tiếp theo"
                 }
               ]
             }
@@ -1284,15 +1284,15 @@
         {
           "level": 1,
           "name": "Khoảnh Khắc Tăng Tốc",
-          "desc": "Mỗi 1 <sprite name=\"TimeRental\"><color=#f8c200><u><link=\"TimeRental\">Cho Vay Thời Gian</color></link></u>, +1 Sức mạnh [Kĩ năng]\n[DefeatDuel] Tiêu hao 3 số lượng [Sạc] của bản thân",
+          "desc": "Mỗi 1 <sprite name=\"TimeRental\"><color=#f8c200><u><link=\"TimeRental\">Cho Vay Thời Gian</color></link></u>, +1 Sức mạnh Kĩ năng\n[DefeatDuel] Tiêu hao 3 Số lượng Sạc của bản thân",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây 2 Thời Gian Trùng Khớp"
+                  "desc": "[OnSucceedAttack] Gây 2 Thời Gian Khớp Nhau"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gây 2 [Trói buộc] vào lượt tiếp theo"
+                  "desc": "[OnSucceedAttack] Gây 2 Trói buộc vào lượt tiếp theo"
                 }
               ]
             },
@@ -1302,7 +1302,7 @@
                   "desc": "[OnSucceedAttack] Mỗi 1 <sprite name=\"TimeRental\"><color=#f8c200><u><link=\"TimeRental\">Cho Vay Thời Gian</color></link></u>, +20% Sát thương"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Tăng 4 số lượng [Sạc] của bản thân"
+                  "desc": "[OnSucceedAttack] Tăng 4 Số lượng Sạc của bản thân"
                 }
               ]
             }
@@ -1316,7 +1316,7 @@
         {
           "level": 1,
           "name": "Phòng Ngự Sạc",
-          "desc": "[StartBattle] Tăng 1 số lượng [Sạc]",
+          "desc": "[StartBattle] Tăng 1 Số lượng Sạc",
           "coinlist": [
             {
               "coindescs": [
@@ -1335,12 +1335,12 @@
         {
           "level": 1,
           "name": "6463",
-          "desc": "Mỗi 50 <sprite name=\"AccumulatedPast\"><color=#a16a3b><u><link=\"AccumulatedPast\">Quá Khứ Tích Lũy</color></link></u>, +10% Sát thương",
+          "desc": "Mỗi 50 <sprite name=\"AccumulatedPast\"><color=#a16a3b><u><link=\"AccumulatedPast\">Quá Khứ Tích Tụ</color></link></u>, +10% Sát thương",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây 3 [Trói buộc] vào lượt tiếp theo"
+                  "desc": "[OnSucceedAttack] Gây 3 Trói buộc vào lượt tiếp theo"
                 }
               ]
             }
@@ -1354,7 +1354,7 @@
         {
           "level": 1,
           "name": "6753",
-          "desc": "Mỗi 50 <sprite name=\"AccumulatedPast\"><color=#a16a3b><u><link=\"AccumulatedPast\">Quá Khứ Tích Lũy</color></link></u>, +10% Sát thương",
+          "desc": "Mỗi 50 <sprite name=\"AccumulatedPast\"><color=#a16a3b><u><link=\"AccumulatedPast\">Quá Khứ Tích Tụ</color></link></u>, +10% Sát thương",
           "coinlist": [
             {
               "coindescs": [
@@ -1373,22 +1373,22 @@
         {
           "level": 1,
           "name": "853",
-          "desc": "[Breath] từ 5 trở lên, Sức mạnh Đối đầu +1",
+          "desc": "[Breath] từ 5 trở lên, Sức mạnh Đối kháng +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây [Paralysis] 3 vào lượt sau"
+                  "desc": "[OnSucceedAttack] Gây 3 [Paralysis] vào lượt tiếp theo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Đẩy mốc Hoảng loạn về phía trước 50% sát thương gây ra"
+                  "desc": "[OnSucceedAttack] Đẩy Ngưỡng choáng lên bằng 50% sát thương gây ra"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Với mỗi 1 <sprite name=\"AccumulatedPast\"><color=#a16a3b><u><link=\"AccumulatedPast\">Quá khứ được Tích lũy</color></link></u>, sát thương gây ra +1% (Tối đa 50%)"
+                  "desc": "[OnSucceedAttack] Với mỗi 1 <sprite name=\"AccumulatedPast\"><color=#a16a3b><u><link=\"AccumulatedPast\">Quá Khứ Tích Tụ</color></link></u>, sát thương gây ra +1% (Tối đa 50%)"
                 }
               ]
             }
@@ -1402,12 +1402,12 @@
         {
           "level": 1,
           "name": "5384",
-          "desc": "[WhenUse] Tất cả bộ phận nhận [Breath] 3, Số lượng [Breath] 3",
+          "desc": "[WhenUse] Tất cả bộ phận nhận 3 [Breath] và +3 Số lượng [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Đẩy mốc Hoảng loạn về phía trước dựa trên [Breath]"
+                  "desc": "[OnSucceedAttack] Đẩy Ngưỡng choáng lên bằng [Breath]"
                 }
               ]
             },
@@ -1417,7 +1417,7 @@
                   "desc": "[OnSucceedAttack] Với mỗi 3 [Breath], sát thương gây ra +20% (Tối đa 100%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Tất cả bộ phận nhận [Breath] 4"
+                  "desc": "[OnSucceedAttack] Tất cả bộ phận nhận 4 [Breath]"
                 }
               ]
             }
@@ -1436,10 +1436,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Nếu [Breath] từ 5 trở lên, đẩy mốc Hoảng loạn về phía trước 50% sát thương gây ra"
+                  "desc": "[OnSucceedAttack] Nếu [Breath] từ 5 trở lên, đẩy Ngưỡng choáng lên bằng 50% sát thương gây ra"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Tất cả bộ phận nhận [Breath] 8, Số lượng [Breath] 4"
+                  "desc": "[OnSucceedAttack] Tất cả bộ phận nhận 8 [Breath] và +4 Số lượng [Breath]"
                 }
               ]
             }
@@ -1458,7 +1458,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Với mỗi 1 <sprite name=\"AccumulatedPast\"><color=#a16a3b><u><link=\"AccumulatedPast\">Quá khứ được Tích lũy</color></link></u>, sát thương gây ra +1% (Tối đa 200%)"
+                  "desc": "[OnSucceedAttack] Với mỗi 1 <sprite name=\"AccumulatedPast\"><color=#a16a3b><u><link=\"AccumulatedPast\">Quá Khứ Tích Tụ</color></link></u>, sát thương gây ra +1% (Tối đa 200%)"
                 }
               ]
             }
@@ -1471,8 +1471,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Đến Khu vườn Vĩnh cửu",
-          "desc": "[CantDuel]\n[WhenUse] Ban Vương miện. Xóa bỏ toàn bộ hiệu ứng có trên bản thân\nNếu HP bản thể thấp hơn 40%, các đơn vị Hoa hồng sẽ được tạo ra ở trạng thái cường hóa vào lượt sau",
+          "name": "Đến Khu Vườn Vĩnh Cửu",
+          "desc": "[CantDuel]\n[WhenUse] Áp dụng Vương Miện. Xóa bỏ toàn bộ hiệu ứng trên bản thân\nNếu HP bản thể thấp hơn 40%, các Hoa hồng sẽ xuất hiện trong Trạng Thái Cường Hóa vào lượt sau",
           "coinlist": [
             {}
           ]
@@ -1484,26 +1484,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Tĩnh lặng",
+          "name": "Dừng Lại",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây Bỏng 2, Chấn động 2"
+                  "desc": "[OnSucceedAttack] Gây 2 Bỏng và 2 Chấn động"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gây Tê liệt 1 vào lượt sau"
+                  "desc": "[OnSucceedAttack] Gây 1 Tê liệt vào lượt tiếp theo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây Bỏng 2, Chấn động 2"
+                  "desc": "[OnSucceedAttack] Gây 2 Bỏng và 2 Chấn động"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gây Tê liệt 1 vào lượt sau"
+                  "desc": "[OnSucceedAttack] Gây 1 Tê liệt vào lượt tiếp theo"
                 }
               ]
             }
@@ -1522,14 +1522,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây Trói buộc 2 vào lượt sau"
+                  "desc": "[OnSucceedAttack] Gây 2 Trói buộc vào lượt tiếp theo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây Xuất huyết 3, Vết rách 3"
+                  "desc": "[OnSucceedAttack] Gây 3 Xuất huyết và 3 Vết rách"
                 },
                 {
                   "desc": "[OnSucceedAttack] Hồi 10 HP cho đơn vị Hoa hồng có HP thấp nhất"
@@ -1546,26 +1546,26 @@
         {
           "level": 1,
           "name": "Khai hoa Vô tận",
-          "desc": "Ưu tiên tấn công đối tượng không có Vương miện",
+          "desc": "Ưu tiên tấn công đối tượng không có Vương Miện",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây Tê liệt 1, Trói buộc 1 vào lượt sau"
+                  "desc": "[OnSucceedAttack] Gây 1 Tê liệt và 1 Trói buộc vào lượt tiếp theo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Ban Vương miện"
+                  "desc": "[OnSucceedAttack] Áp dụng Vương Miện"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Hồi 30 HP cho bản thể"
+                  "desc": "[OnSucceedAttack] Hồi 30 HP cho Bản thể"
                 }
               ]
             }
@@ -1579,12 +1579,12 @@
         {
           "level": 1,
           "name": "Bức tường Đoạn tuyệt",
-          "desc": "Với mỗi đơn vị Hoa hồng còn sống, Sức mạnh +2\nNếu không còn Hoa hồng nào sống sót, nhận Mong manh 2 vào lượt sau",
+          "desc": "Uy lực +2 cho mỗi Hoa hồng còn sống\nNếu không còn Hoa hồng nào sống sót, nhận 2 Mong manh vào lượt sau",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Hồi 30 HP cho bản thể"
+                  "desc": "[OnSucceedAttack] Hồi 30 HP cho Bản thể"
                 }
               ]
             }
@@ -1598,7 +1598,7 @@
         {
           "level": 1,
           "name": "Cầu chúc Vĩnh cửu",
-          "desc": "[StartBattle] Gây Tăng Sức mạnh Tấn công 1 cho một Hoa hồng ngẫu nhiên vào lượt sau\nTrong khi có Hộ giáp, gây Trầm luân 1 cho kẻ tấn công khi bị trúng đòn",
+          "desc": "[StartBattle] Gây 1 Tăng Uy lực Tấn công cho một Hoa hồng ngẫu nhiên vào lượt sau\nTrong khi có Lá chắn, gây 1 Trầm luân lên kẻ tấn công khi bị đánh trúng",
           "coinlist": [
             {
               "coindescs": [
@@ -1617,7 +1617,7 @@
         {
           "level": 1,
           "name": "Cùng ở nơi này",
-          "desc": "[StartBattle] Gây Tăng Sức mạnh Phòng thủ 1 cho một Hoa hồng ngẫu nhiên vào lượt sau\nTrong khi có Hộ giáp, gây Trầm luân 1 cho kẻ tấn công khi bị trúng đòn",
+          "desc": "[StartBattle] Gây 1 Tăng Uy lực Phòng thủ cho một Hoa hồng ngẫu nhiên vào lượt sau\nTrong khi có Lá chắn, gây 1 Trầm luân lên kẻ tấn công khi bị đánh trúng",
           "coinlist": [
             {
               "coindescs": [
@@ -1668,7 +1668,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Phẫn nộ Tan biến",
+          "name": "Phẫn nộ Lan tỏa",
           "desc": "",
           "coinlist": [
             {
@@ -1703,7 +1703,7 @@
                   "desc": "[OnSucceedAttack] Gây Xuất huyết 2"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Đẩy lùi mốc Hoảng loạn 50% sát thương gây ra"
+                  "desc": "[OnSucceedAttack] Giảm Ngưỡng choáng của bản thân bằng 50% sát thương gây ra"
                 }
               ]
             },
@@ -1713,7 +1713,7 @@
                   "desc": "[OnSucceedAttack] Gây Xuất huyết 2"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Đẩy lùi mốc Hoảng loạn 50% sát thương gây ra"
+                  "desc": "[OnSucceedAttack] Giảm Ngưỡng choáng của bản thân bằng 50% sát thương gây ra"
                 }
               ]
             },
@@ -1723,7 +1723,7 @@
                   "desc": "[OnSucceedAttack] Gây Xuất huyết 2"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Đẩy lùi mốc Hoảng loạn 50% sát thương gây ra"
+                  "desc": "[OnSucceedAttack] Giảm Ngưỡng choáng của bản thân bằng 50% sát thương gây ra"
                 }
               ]
             }
@@ -1742,21 +1742,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Xuất huyết] tăng thêm 2"
+                  "desc": "[OnSucceedAttack] Số lượng Xuất huyết tăng thêm 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Xuất huyết] tăng thêm 2"
+                  "desc": "[OnSucceedAttack] Số lượng Xuất huyết tăng thêm 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Xuất huyết] tăng thêm 2"
+                  "desc": "[OnSucceedAttack] Số lượng Xuất huyết tăng thêm 2"
                 }
               ]
             }
@@ -1769,13 +1769,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Lười biếng Cô đặc",
+          "name": "Lười biếng Hóa đá",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây 8 [Chấn động]"
+                  "desc": "[OnSucceedAttack] Gây 8 Chấn động"
                 }
               ]
             }
@@ -1794,10 +1794,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Chấn động] tăng thêm 2"
+                  "desc": "[OnSucceedAttack] Gây 8 Chấn động"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Bộc phát [Chấn động]"
+                  "desc": "[OnSucceedAttackHead] Kích hoạt Bộc phát Chấn động"
                 }
               ]
             }
@@ -1811,7 +1811,7 @@
         {
           "level": 1,
           "name": "Lười biếng Ngủ say",
-          "desc": "Trong khi có Lá chắn, khi nhận sát thương, Bộc phát [Chấn động] bản thân và mục tiêu",
+          "desc": "Trong khi có Lá chắn, khi bị đánh trúng, kích hoạt Bộc phát Chấn động lên bản thân và mục tiêu",
           "coinlist": [
             {
               "coindescs": [
@@ -1835,7 +1835,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây 5 [Vết rách]"
+                  "desc": "[OnSucceedAttack] Gây 5 Vết rách"
                 }
               ]
             }
@@ -1848,13 +1848,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Phàm ăn Mãnh liệt",
+          "name": "Phàm ăn Lan tràn",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Vết rách] tăng thêm 4"
+                  "desc": "[OnSucceedAttack] Số lượng Vết rách tăng thêm 4"
                 }
               ]
             }
@@ -1868,7 +1868,7 @@
         {
           "level": 1,
           "name": "Phàm ăn Không nghỉ",
-          "desc": "WhenUse Nếu mục tiêu có [Vết rách], lượng hồi phục +50%",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
@@ -1913,7 +1913,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây 6 [Trầm luân]"
+                  "desc": "[OnSucceedAttack] Gây 6 Trầm luân"
                 }
               ]
             }
@@ -1932,14 +1932,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Trầm luân] tăng thêm 3"
+                  "desc": "[OnSucceedAttack] Số lượng Trầm luân tăng thêm 3"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Trầm luân] tăng thêm 3"
+                  "desc": "[OnSucceedAttack] Số lượng Trầm luân tăng thêm 3"
                 }
               ]
             }
@@ -1953,7 +1953,7 @@
         {
           "level": 1,
           "name": "U sầu Bao bọc",
-          "desc": "Trong khi có Lá chắn, khi nhận sát thương, tăng số lần [Trầm luân] của bản thân và mục tiêu thêm 1",
+          "desc": "Trong khi có Lá chắn, khi nhận sát thương, tăng 1 Số lượng Trầm luân cho bản thân và mục tiêu",
           "coinlist": [
             {
               "coindescs": [
@@ -1971,8 +1971,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Kiêu ngạo Nhổ bỏ",
-          "desc": "[WhenUse] Gây 3 [Hô hấp] cho tất cả đồng minh",
+          "name": "Kiêu ngạo Phun trào",
+          "desc": "[WhenUse] Gây 3 Hơi thở cho tất cả đồng minh",
           "coinlist": [
             {
               "coindescs": [
@@ -1991,19 +1991,19 @@
         {
           "level": 1,
           "name": "Kiêu ngạo Ngẩng đầu",
-          "desc": "[WhenUse] Số lần [Hô hấp] của toàn bộ đồng minh tăng thêm 2",
+          "desc": "[WhenUse] Số lượng Hơi thở của toàn bộ đồng minh tăng thêm 2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Hô hấp] của bản thân tăng thêm 1"
+                  "desc": "[OnSucceedAttack] Số lượng Hơi thở của bản thân tăng thêm 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Hô hấp] của bản thân tăng thêm 1"
+                  "desc": "[OnSucceedAttack] Số lượng Hơi thở của bản thân tăng thêm 1"
                 }
               ]
             }
@@ -2017,7 +2017,7 @@
         {
           "level": 1,
           "name": "Kiêu ngạo Nhọn hoắt",
-          "desc": "Khi [Hô hấp] của bản thân từ 5 trở lên, Sức mạnh Đồng xu +3",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
@@ -2036,19 +2036,19 @@
         {
           "level": 1,
           "name": "Đố kỵ Tích tụ",
-          "desc": "[WhenUse] Tăng 3 số lần [Sạc] của bản thân\n[DefeatDuel] Tiêu hao 3 số lần [Sạc] của bản thân",
+          "desc": "[WhenUse] Tăng 3 Số lượng Sạc của bản thân\n[DefeatDuel] Tiêu hao 3 Số lượng Sạc của bản thân",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Sạc] của bản thân tăng thêm 1"
+                  "desc": "[OnSucceedAttack] Số lượng Sạc của bản thân tăng thêm 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Sạc] của bản thân tăng thêm 1"
+                  "desc": "[OnSucceedAttack] Số lượng Sạc của bản thân tăng thêm 1"
                 }
               ]
             }
@@ -2062,7 +2062,7 @@
         {
           "level": 1,
           "name": "Đố kỵ Vươn dài",
-          "desc": "[WhenUse] Tiêu hao 10 số lần [Sạc], Sức mạnh Đồng xu +4",
+          "desc": "[WhenUse] Tiêu hao 10 Số lượng Sạc, Sức mạnh Đồng xu +4",
           "coinlist": [
             {
               "coindescs": [
@@ -2080,8 +2080,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Di chuyển Chiều không gian",
-          "desc": "Nếu chiều không gian này vẫn còn, lượng sát thương tăng 10%",
+          "name": "Bước Nhảy Không Gian",
+          "desc": "Nếu 'Vết nứt Chiều không gian' này vẫn còn, Sát thương +10%",
           "coinlist": [
             {}
           ]
@@ -2093,8 +2093,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Di chuyển Chiều không gian",
-          "desc": "Nếu chiều không gian này vẫn còn, HP tối đa tăng 20%",
+          "name": "Bước Nhảy Không Gian",
+          "desc": "Nếu 'Vết nứt Chiều không gian' này vẫn còn, HP tối đa tăng 20%",
           "coinlist": [
             {}
           ]
@@ -2106,8 +2106,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Di chuyển Chiều không gian",
-          "desc": "Nếu chiều không gian này vẫn còn, Tốc độ tăng 1",
+          "name": "Bước Nhảy Không Gian",
+          "desc": "Nếu 'Vết nứt Chiều không gian' này vẫn còn, Tốc độ tăng 1",
           "coinlist": [
             {}
           ]
@@ -2119,8 +2119,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Di chuyển Chiều không gian",
-          "desc": "Nếu chiều không gian này vẫn còn, Sức mạnh Đồng xu +1",
+          "name": "Bước Nhảy Không Gian",
+          "desc": "Nếu 'Vết nứt Chiều không gian' này vẫn còn, Sức mạnh Đồng xu +1",
           "coinlist": [
             {}
           ]
@@ -2132,44 +2132,44 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Để không ai phải khóc",
-          "desc": "[EndBattle] Tiêu biến toàn bộ Lá Bùa Nguyền Rủa Dán Lại\n[WhenUse] Nếu đang sở hữu từ 10 <sprite name=\"ReattachedCurseTag\"><color=#a16a3b><u><link=\"ReattachedCurseTag\">Lá Bùa Nguyền Rủa Dán Lại</color></link></u> trở lên, Sức mạnh Đồng xu -1",
+          "name": "Để Không Ai Phải Khóc",
+          "desc": "[EndBattle] Loại bỏ toàn bộ Lá Bùa Nguyền Rủa Dán Lại\n[WhenUse] Nếu có từ 10 <sprite name=\"ReattachedCurseTag\"><color=#a16a3b><u><link=\"ReattachedCurseTag\">Lá Bùa Nguyền Rủa Dán Lại</color></link></u> trở lên, Sức mạnh Đồng xu -1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây 2 Vết rách (Rupture) vào lượt tiếp theo"
+                  "desc": "[OnSucceedAttack] Gây 2 Vết rách vào lượt tiếp theo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây 2 Vết rách (Rupture) vào lượt tiếp theo"
+                  "desc": "[OnSucceedAttack] Gây 2 Vết rách vào lượt tiếp theo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây 2 Vết rách (Rupture) vào lượt tiếp theo"
+                  "desc": "[OnSucceedAttack] Gây 2 Vết rách vào lượt tiếp theo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây 2 Vết rách (Rupture) vào lượt tiếp theo"
+                  "desc": "[OnSucceedAttack] Gây 2 Vết rách vào lượt tiếp theo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây 5 Tê liệt (Paralysis) vào lượt tiếp theo"
+                  "desc": "[OnSucceedAttack] Gây 5 Tê liệt vào lượt tiếp theo"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gây 5 Trói buộc (Bind) vào lượt tiếp theo"
+                  "desc": "[OnSucceedAttack] Gây 5 Trói buộc vào lượt tiếp theo"
                 }
               ]
             }
