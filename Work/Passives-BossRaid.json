@@ -8,134 +8,134 @@
     {
       "id": 500102,
       "name": "Ghi vào sổ sách",
-      "desc": "Khi bắt đầu lượt, gây 1 [RicardoBookRaid] cho tất cả kẻ địch\n\nKhi nhận sát thương, gây 2 [RicardoBookRaid] cho kẻ tấn công\nKhi đòn đánh trúng đích, [RicardoBookRaid] của mục tiêu giảm 1\n\nTrong suốt trận chiến này, nhận [RicardoTattooRaid] tương ứng với lượng [RicardoBookRaid] bản thân đã làm giảm"
+      "desc": "Khi bắt đầu lượt, gây 1 [RicardoBookRaid] lên tất cả kẻ địch\n\nKhi nhận sát thương, gây 2 [RicardoBookRaid] lên kẻ tấn công\nKhi đánh trúng, giảm 1 [RicardoBookRaid] trên mục tiêu\n\nTrong trận chiến này, nhận [RicardoTattooRaid] bằng tổng số Tầng [RicardoBookRaid] mà bản thân đã làm giảm"
     },
     {
       "id": 500103,
       "name": "Tội lỗi đó quá lớn đấy",
-      "desc": "Khi sử dụng kĩ năng, nếu [RicardoBookRaid] của mục tiêu từ 20 trở lên,\ntất cả đồng xu của kĩ năng đó được đổi thành [SuperCoin]\n\nNếu Ricardo <color=#ff6000><mark=#ff000040><b><u>chỉ định mục tiêu có [RicardoBookRaid] cao nhất bằng kĩ năng,</u></b></mark></color> sẽ trở thành trạng thái <color=#ff6000><mark=#ff000040><b><u>Không thể thay đổi mục tiêu</u></b></mark></color>"
+      "desc": "Khi sử dụng Kĩ năng, nếu mục tiêu có <color=#ff6000><mark=#ff000040><b><u>từ 20 [RicardoBookRaid] trở lên</u></b></mark></color>, tất cả Đồng xu của Kĩ năng đó chuyển thành [SuperCoin]\n\n<color=#ff6000><mark=#ff000040><b><u>Nếu Kĩ năng của Ricardo nhắm vào đơn vị có Tầng [RicardoBookRaid] tối đa, Kĩ năng đó nhận thuộc tính 'Không thể thay đổi mục tiêu'</u></b></mark></color>"
     },
     {
       "id": 500104,
       "name": "Ngoan ngoãn chịu sự hành hình đi",
-      "desc": "Khi bắt đầu trận chiến, nếu mục tiêu <color=#ff6000><mark=#ff000040><b><u>sử dụng kĩ năng phòng thủ,</u></b></mark></color>\nsát thương gây ra cho mục tiêu đó -30%"
+      "desc": "Khi bắt đầu trận chiến, <color=#ff6000><mark=#ff000040><b><u>nếu mục tiêu đã trang bị Kĩ năng Phòng thủ</u></b></mark></color>, sát thương gây ra lên những mục tiêu đó -30%"
     },
     {
       "id": 500105,
       "name": "Tình cảm gia đình",
-      "desc": "<color=#ff6000><mark=#ff000040><b><u>Nếu HP từ 60% trở xuống, chuyển giai đoạn</u></b></mark></color>\n- Tất cả các hiệu ứng không phải hiệu ứng đặc trưng của bản thân biến mất"
+      "desc": "<color=#ff6000><mark=#ff000040><b><u>Khi HP từ 60% trở xuống, chuyển sang giai đoạn mới</u></b></mark></color>\n- Xóa mọi hiệu ứng ngoại trừ hiệu ứng riêng của bản thân"
     },
     {
       "id": 500106,
       "name": "Vết thương do tên Hắc Thú để lại đau nhức quá",
-      "desc": "Nội tại dành riêng cho giai đoạn 2\nKhi bắt đầu giai đoạn 2, gây [BurstAgility], [BurstZilu] cho Ricardo\nLượng sát thương hệ Bạo thực Ricardo nhận vào +50%"
+      "desc": "Nội tại dành riêng cho Giai đoạn 2\nKhi bắt đầu Giai đoạn 2, gây [BurstAgility] và [BurstZilu] lên Ricardo\nRicardo nhận +50% sát thương hệ Phàm ăn"
     },
     {
       "id": 500107,
       "name": "Đối tượng phục thù ưu tiên của Ngón Giữa",
-      "desc": "Khi bắt đầu lượt, nếu có <color=#ff6000><mark=#ff000040><b><u>mục tiêu có [RicardoBookRaid] là 30,</u></b></mark></color>\ntạo thêm một ô kĩ năng và sử dụng 「Xử tử tức khắc!」"
+      "desc": "Khi bắt đầu lượt, <color=#ff6000><mark=#ff000040><b><u>nếu có đơn vị sở hữu 30 [RicardoBookRaid]</u></b></mark></color>, tạo thêm một ô kĩ năng và dùng ô đó để sử dụng Kĩ năng \"Hành hình tức khắc!\""
     },
     {
       "id": 500108,
-      "name": "Mạt Huynh",
-      "desc": "Từ lượt thứ 2, mỗi khi bắt đầu lượt <color=#ff6000><mark=#ff000040><b><u>hồi 10 Tinh thần cho toàn bộ đồng minh</u></b></mark></color> bao gồm bản thân\nLượng sát thương nhận vào từ [Combustion]・[Laceration]・[Vibration]・[Burst]・[Sinking] -20%"
+      "name": "Đại Ca",
+      "desc": "Từ lượt thứ 2, <color=#ff6000><mark=#ff000040><b><u>tất cả đồng minh, kể cả bản thân, hồi 10 Tinh thần khi bắt đầu lượt</u></b></mark></color>\nSát thương nhận vào từ [Combustion], [Laceration], [Vibration], [Burst], và [Sinking] -20%"
     },
     {
       "id": 500109,
       "name": "Hất tóc",
-      "desc": "Áp dụng hiệu ứng Không thể thay đổi Hoảng loạn,\nkhi kết thúc lượt nếu đang ở trạng thái Hoảng loạn, Tinh thần đổi thành 0\n\n<color=#ff6000><mark=#ff000040><b><u>Nếu HP từ 50% trở xuống, chuyển giai đoạn</u></b></mark></color>\n- Tất cả các hiệu ứng không phải hiệu ứng đặc trưng của bản thân biến mất"
+      "desc": "Áp dụng hiệu ứng Không thể thay đổi Hoảng loạn\nKhi kết thúc lượt, nếu đang ở trạng thái Hoảng loạn, đặt lại Tinh thần về 0\n\n<color=#ff6000><mark=#ff000040><b><u>Khi HP từ 50% trở xuống, chuyển sang giai đoạn mới</u></b></mark></color>\n- Xóa mọi hiệu ứng ngoại trừ hiệu ứng riêng của bản thân"
     },
     {
       "id": 500110,
       "name": "Hất tóc",
-      "desc": "Áp dụng hiệu ứng Không thể thay đổi Hoảng loạn,\nkhi kết thúc lượt nếu đang ở trạng thái Hoảng loạn, Tinh thần đổi thành 0"
+      "desc": "Áp dụng hiệu ứng Không thể thay đổi Hoảng loạn\nKhi kết thúc lượt, nếu đang ở trạng thái Hoảng loạn, đặt lại Tinh thần về 0"
     },
     {
       "id": 501401,
       "name": "Méo mó dạng Địa điểm: Phòng tráng phim",
-      "desc": "Đơn vị này không thể bị tiêu diệt, và không nhận bất kỳ sát thương nào từ nguồn khác ngoài sát thương Kĩ năng của các Kĩ năng chọn đơn vị này làm mục tiêu chính\n\nTốc độ của đơn vị này cố định ở mức 1\n\nSau khi vào màn chơi, khi bắt đầu lượt: Nhận 3 [PhotoTransitionChoiCamera]\n\n<color=#ff6000><mark color=#ff000040><b><u>Nếu Máu của đơn vị này về 1, hoặc nếu [PhotoTransitionChoiCamera] về 0 Tầng khi bắt đầu lượt</color></mark></b></u>, kích hoạt các hiệu ứng sau:\n- Xóa bỏ bản thân và nhân viên cấp 2 Công ty N khỏi màn chơi\n- Cho Im Gyeong-eop quay trở lại màn chơi\n- Di chuyển trận chiến đến một địa điểm khác"
+      "desc": "Đơn vị này không thể bị tiêu diệt, và không nhận bất kỳ sát thương nào từ nguồn khác ngoài sát thương Kĩ năng của các Kĩ năng chọn đơn vị này làm mục tiêu chính\n\nTốc độ của đơn vị này cố định ở mức 1\n\nKhi bắt đầu lượt sau khi xuất hiện trong trận chiến, nhận 3 [PhotoTransitionChoiCamera]\n\n<color=#ff6000><mark color=#ff000040><b><u>Nếu HP của đơn vị này chạm 1, hoặc nếu [PhotoTransitionChoiCamera] về 0 Tầng khi bắt đầu lượt</color></mark></b></u>, kích hoạt các hiệu ứng sau:\n- Loại bỏ bản thân và Nhân viên Cấp 2 Công ty N khỏi trận chiến\n- Đưa Im Gyeong-eop trở lại trận chiến\n- Di chuyển trận chiến đến một địa điểm khác"
     },
     {
       "id": 501201,
-      "name": "Bổn quốc Kiếm thuật [Sal] - Đại Hoàn Đao",
-      "desc": "Khi bắt đầu màn chơi: Nhận 5 [ChoiSwordsmanship]\n\n<color=#ff6000><mark color=#ff000040><b><u>Cứ mỗi 3 lượt, thay đổi Thế trận Bổn quốc</color></mark></b></u>\n\nKhi kết thúc lượt: Nếu đơn vị này có Lá chắn, nhận 5 [Breath] và +2 Số lần [Breath] vào lượt sau\n\nKhi Im Gyeong-eop thỏa mãn các điều kiện sau, cô ấy sử dụng mô thức có chứa Kĩ năng \"Bổn quốc Cung - Phóng tiễn\"\n- Khi đơn vị này thua tất cả Đối kháng trong 2 lượt liên tiếp (không tính Đòn tấn công một chiều)\n- Vào lượt sau lượt đơn vị này bị Chấn động\n- Khi Suy giảm Tinh thần hoặc Hoảng loạn",
-      "flavor": "Bổn quốc Kiếm được truyền thừa ở Công ty S cũng được chia thành ba hệ: Sal (Nhục - Thịt), Pi (Huyết - Máu), Ppyeo (Cốt - Xương).\nTrong đó có cả những kiếm thuật dùng để chém gục những tồn tại khổng lồ như Sangun (Sơn Quân).\nĐể thi triển trọn vẹn những kiếm thuật như vậy, cần một thanh Đại Hoàn Đao đủ lớn để chịu đựng sức ép của kỹ thuật."
+      "name": "Bản Quốc Kiếm Thuật [Sal] - Đại Hoàn Đao",
+      "desc": "Khi bắt đầu trận chiến, nhận 5 [ChoiSwordsmanship]\n\n<color=#ff6000><mark color=#ff000040><b><u>Mỗi 3 lượt, thay đổi Bản Quốc Thái Thế của bản thân</color></mark></b></u>\n\nKhi kết thúc lượt, nếu bản thân có Khiên, vào lượt kế tiếp nhận 5 [Breath] và +2 Số lượng [Breath]\n\nKhi thỏa mãn các điều kiện sau, sử dụng mô thức có chứa Kĩ năng \"Bản Quốc Cung [Sal] - Khai Tiễn\":\n- Khi thua toàn bộ Đối kháng trong 2 lượt liên tiếp (không tính Tấn công một chiều)\n- Vào lượt sau lượt bị Choáng\n- Khi Suy giảm nhuệ khí hoặc Hoảng loạn",
+      "flavor": "Bản Quốc Kiếm được truyền thừa ở Công ty S cũng chia thành ba hệ: Sal (Nhục - Thịt), Pi (Huyết - Máu), Ppyeo (Cốt - Xương).\nTrong đó có cả kiếm thuật dùng để chém gục những tồn tại khổng lồ như Sangun (Sơn Quân).\nĐể thi triển trọn vẹn những kiếm thuật ấy, cần có một thanh Đại Hoàn Đao đủ lớn để chịu đựng sức ép của kĩ thuật."
     },
     {
       "id": 501202,
       "name": "Đầu Đinh Giáp [Sal] - Thiết Bích",
-      "desc": "Nhận -30% sát thương từ [Laceration], [Burst], và [Sinking] (làm tròn xuống)\n\nNhận hiệu ứng [PanicChangeLock]; nếu đơn vị này đang Hoảng loạn khi kết thúc lượt, đặt lại Tinh thần thành 45\n\nKhi lần đầu vào màn chơi, nhận 5 [ChoiSwordsmanshipShield]\n\n<color=#ff6000><mark color=#ff000040><b><u>Khi [ChoiSwordsmanshipShield] hết hạn, bị Chấn động vào lượt sau\nKhi kết thúc lượt mà đơn vị này bị Chấn động, chuyển sang giai đoạn mới</color></mark></b></u>\n- Giai đoạn 1: Máu của đơn vị này không thể giảm <color=#ff6000><mark color=#ff000040><b><u>xuống dưới 70%</color></mark></b></u>\n- Khi Máu dưới 70%, kết thúc lượt <color=#ff6000><mark color=#ff000040><b><u>ngay lập tức</color></mark></b></u> và chuyển sang giai đoạn mới\n- Khi bắt đầu lượt mà giai đoạn thay đổi, hồi tối đa 45 Tinh thần\n",
-      "flavor": "Kị Thừa Giáp ở miền Đông mang khái niệm \"điều khiển\" nhiều hơn là \"mặc vào\", và Đầu Đinh Giáp của Công ty S cũng là một loại Kị Thừa Giáp như thế.\nGiống như Bộ giáp cường hóa của Công ty R hay Giáp toàn thân của các Hiệp sĩ phương Tây, Đầu Đinh Giáp giúp nâng cao vượt bậc khả năng công thủ của người sử dụng.\nTuy nhiên, những bộ Kị Thừa Giáp với hiệu năng xuất sắc như vậy không được cấp phát dễ dàng cho nhân sự chiến đấu. Mỗi máy có cách vận hành riêng và đi kèm hạn chế là cần nhiên liệu riêng.\nDù vậy, có một điều chắc chắn: cũng như những bộ giáp đã nhắc trên, khoảnh khắc người điều khiển quen với tầm với mở rộng và công suất tăng cường mà Đầu Đinh Giáp mang lại, hắn trở thành một cỗ máy chiến tranh sải bước khắp chiến trường với lời hứa về sự tàn sát."
+      "desc": "Sát thương nhận vào từ [Laceration], [Burst], và [Sinking] -30% (làm tròn xuống)\n\nNhận hiệu ứng [PanicChangeLock]; nếu đơn vị này đang Hoảng loạn khi kết thúc lượt, đặt lại Tinh thần thành 45\n\nKhi xuất hiện lần đầu trong trận chiến, nhận 5 [ChoiSwordsmanshipShield]\n\n<color=#ff6000><mark color=#ff000040><b><u>Khi [ChoiSwordsmanshipShield] hết hiệu lực, rơi vào trạng thái Choáng vào lượt sau\nKhi kết thúc lượt mà đơn vị này rơi vào trạng thái Choáng, chuyển sang giai đoạn mới</color></mark></b></u>\n- Giai đoạn 1: Máu của đơn vị này không thể giảm <color=#ff6000><mark color=#ff000040><b><u>xuống dưới 70%</color></mark></b></u>\n- Khi Máu dưới 70%, kết thúc lượt <color=#ff6000><mark color=#ff000040><b><u>ngay lập tức</color></mark></b></u> và chuyển sang giai đoạn mới\n- Khi bắt đầu lượt mà giai đoạn thay đổi, hồi tối đa 45 Tinh thần\n",
+      "flavor": "Kị Thừa Giáp ở miền Đông là một loại võ bị mang khái niệm \"điều khiển\" hơn là \"mặc vào\", và Đầu Đinh Giáp của Công ty S cũng là một loại Kị Thừa Giáp như thế.\nGiống như Bộ giáp cường hóa của Công ty R hay Giáp phiến toàn thân của các Hiệp sĩ phương Tây, Đầu Đinh Giáp giúp nâng cao vượt bậc khả năng công thủ của người sử dụng.\nTuy nhiên, lợi thế ấy không có nghĩa là những bộ giáp mạnh mẽ như vậy được cấp phát dễ dàng cho nhân sự chiến đấu. Mỗi cỗ máy có cách điều khiển riêng và đi kèm hạn chế là cần nhiên liệu riêng để hoạt động.\nDù vậy, có một điều chắc chắn: cũng như những bộ giáp đã nhắc trên, khoảnh khắc người điều khiển quen với tầm với mở rộng và công suất tăng cường mà Đầu Đinh Giáp mang lại, hắn trở thành một cỗ máy chiến tranh sải bước khắp chiến trường với lời hứa về sự tàn sát."
     },
     {
       "id": 501203,
-      "name": "Võ nghệ rèn luyện",
-      "desc": "Khi thắng Đối kháng, nhận +2 Số lần [Breath] (2 lần mỗi lượt)\n\nNếu mục tiêu mà Kĩ năng của đơn vị này đánh trúng có dưới 5 Cường độ [Laceration], khi kết thúc đòn tấn công, gây 1 [Laceration] và +2 Số lần [Laceration] (1 lần mỗi Kĩ năng, 2 lần mỗi lượt, ưu tiên mục tiêu chính)",
-      "flavor": "'Có kẻ không có tài năng nên phải khổ luyện. Lại có kẻ được ban tài năng, rồi để nó han gỉ.'\n'Thiên hạ đều nói danh hiệu Đệ Nhất Kiếm chỉ có thể thuộc về kẻ có thiên phú.'\n'Không sao cả. Cho đến ngày thanh kiếm này vươn cao chạm tới mây trời, ta sẽ vẫn kiên trì rèn giũa võ nghệ của mình.'"
+      "name": "Võ Nghệ Rèn Luyện",
+      "desc": "Khi thắng Đối kháng, nhận +2 Số lượng [Breath] (2 lần mỗi lượt)\n\nNếu mục tiêu bị Kĩ năng của bản thân đánh trúng có Cường độ [Laceration] dưới 5, khi kết thúc tấn công, gây 1 [Laceration] và +2 Số lượng [Laceration] lên mục tiêu (1 lần mỗi Kĩ năng, 2 lần mỗi lượt, ưu tiên mục tiêu chính)",
+      "flavor": "「Có kẻ không có tài năng nhưng nỗ lực. Lại có kẻ có tài năng nhưng không nỗ lực.」\n「Rốt cuộc, mọi người đều nói rằng kẻ nhận được danh hiệu Đệ nhất kiếm chính là kẻ có thiên phú.」\n「Nhưng điều đó chẳng quan trọng. Cho đến khi thanh kiếm này chạm tới chín trời, ta chỉ cần rèn luyện thôi.」"
     },
     {
       "id": 501204,
-      "name": "Kí ức đau nhức nhối",
+      "name": "Ký Ức Nhức Nhối",
       "desc": "Khi thua Đối kháng, nhận 1 [RegretSCorp] (1 lần mỗi lượt)"
     },
     {
       "id": 501205,
-      "name": "Kí ức được tráng phim",
-      "desc": "Khi vào màn chơi, nhận 3 [PhotoTransitionChoi]\n\n<color=#ff6000><mark color=#ff000040><b><u>Khi bắt đầu lượt: Khi [PhotoTransitionChoi] đạt 0 Tầng, rút lui và chuyển đến một địa điểm khác</color></mark></b></u>\n\nKhi quay trở lại sân, dựa trên Thế trận Bổn quốc hiện tại, nhận hoặc mất [ChoiSwordsmanship]\n- Khi ở [ChoiSwordsmanshipOne]: Nhận Tầng\n- Khi ở [ChoiSwordsmanshipMany]: Mất Tầng\n\nNếu [ChoiSwordsmanshipShield] hết hạn, [PhotoTransitionChoi] hết hạn"
+      "name": "Ký Ức Được Tráng Phim",
+      "desc": "Khi xuất hiện trong trận chiến, nhận 3 [PhotoTransitionChoi]\n\n<color=#ff6000><mark color=#ff000040><b><u>Khi bắt đầu lượt, nếu [PhotoTransitionChoi] có giá trị là 0, rút lui và chuyển sang địa điểm khác</color></mark></b></u>\n\nKhi quay trở lại chiến trường, dựa trên Bản Quốc Thái Thế hiện tại, nhận hoặc mất [ChoiSwordsmanship]\n- [ChoiSwordsmanshipOne]: Nhận\n- [ChoiSwordsmanshipMany]: Mất\n\nNếu [ChoiSwordsmanshipShield] hết hiệu lực, [PhotoTransitionChoi] hết hiệu lực"
     },
     {
       "id": 501206,
       "name": "Reflectrial",
-      "desc": "Khi Đối kháng 10+ lần với cùng một kẻ địch, trong một lần Đối kháng, ngẫu nhiên nhận hoặc mất Sức mạnh Đối kháng bằng (Số lần Đối kháng/10) (làm tròn xuống)\n\nGiới hạn Cường độ tối đa của [Laceration], [Burst], và [Sinking]: 30\nGiới hạn Số lần tối đa của [Laceration], [Burst], và [Sinking]: 10\n\n<color=#ff6000><mark color=#ff000040><b><u>Giới hạn Cường độ tối đa của [Combustion] và [Vibration]: 50\nGiới hạn Số lần tối đa của [Combustion] và [Vibration]: 30</color></mark></b></u>",
+      "desc": "Khi Đối kháng từ 10 lần trở lên với cùng một kẻ địch, trong một lần Đối kháng, ngẫu nhiên nhận hoặc mất Sức mạnh Đối kháng bằng (Số lần Đối kháng / 10) (làm tròn xuống)\n\nGiới hạn Cường độ tối đa của [Laceration], [Burst], và [Sinking]: 30\nGiới hạn Số lượng tối đa của [Laceration], [Burst], và [Sinking]: 10\n\n<color=#ff6000><mark color=#ff000040><b><u>Giới hạn Cường độ tối đa của [Combustion] và [Vibration]: 50\nGiới hạn Số lượng tối đa của [Combustion] và [Vibration]: 30</color></mark></b></u>",
       "flavor": ""
     },
     {
       "id": 501207,
-      "name": "Kí ức mâu thuẫn",
-      "desc": "Khi bắt đầu lượt: Nhận các hiệu ứng sau:\n- Khi ở [ChoiSwordsmanshipOne]: Khi Tầng [ChoiSwordsmanship] dưới 5, nhận (5 - Tầng [ChoiSwordsmanship]) <color=#ff6000><mark color=#ff000040><b><u>[Vulnerable]</color></mark></b></u>\n- Khi ở [ChoiSwordsmanshipMany]: Khi Tầng [ChoiSwordsmanship] trên 5, nhận <color=#ff6000><mark color=#ff000040><b><u>[Vulnerable]</color></mark></b></u> bằng Tầng [ChoiSwordsmanship] vượt quá 5"
+      "name": "Ký Ức Mâu Thuẫn",
+      "desc": "Khi bắt đầu lượt, nhận các hiệu ứng sau:\n- Khi ở [ChoiSwordsmanshipOne]: nếu giá trị [ChoiSwordsmanship] dưới 5, nhận (5 - giá trị [ChoiSwordsmanship]) <color=#ff6000><mark color=#ff000040><b><u>[Vulnerable]</color></mark></b></u>\n- Khi ở [ChoiSwordsmanshipMany]: nếu giá trị [ChoiSwordsmanship] trên 5, nhận <color=#ff6000><mark color=#ff000040><b><u>[Vulnerable]</color></mark></b></u> bằng phần giá trị [ChoiSwordsmanship] vượt quá 5"
     },
     {
       "id": 501301,
-      "name": "Bổn quốc Kiếm thuật [Sal] - Xé thịt khỏi thịt",
-      "desc": "Khi bắt đầu màn chơi: Nhận 5 [ChoiSwordsmanship]\n\nCứ mỗi 3 lượt, thay đổi Thế trận Bổn quốc\n\nKhi đánh trúng bằng Kĩ năng Trảm kích, nhận 1 Cường độ [Breath] (1 lần mỗi Kĩ năng)\n\nKhi thỏa mãn các điều kiện sau, sử dụng mô thức có chứa Kĩ năng \"Bổn quốc Cung - Phóng tiễn\"\n- Khi đơn vị này thua tất cả Đối kháng trong 2 lượt liên tiếp (không tính Đòn tấn công một chiều)\n- Lượt sau khi bị Chấn động\n- Khi Suy giảm Tinh thần hoặc Hoảng loạn\n\nKhi bắt đầu lượt: Khi Tầng [ChoiSwordsmanship] đạt mức tối thiểu hoặc tối đa, sử dụng Kĩ năng mạnh mẽ\nNếu đơn vị này đã sử dụng Kĩ năng \"Bổn quốc Cung - Phóng tiễn\" trong lượt trước, sử dụng Kĩ năng mạnh mẽ bất kể Tầng [ChoiSwordsmanship] trên bản thân\nKhi Máu từ 60% trở xuống, sử dụng Kĩ năng mạnh mẽ bất kể Tầng [ChoiSwordsmanship] trên bản thân",
-      "flavor": "Bổn quốc Kiếm được truyền thừa trong phái Sal, tự bản chất, không phải là một môn nghệ thuật giết chóc.\nChém rồi lại chém cho đến khi máu cạn khô và xương lộ ra—đó chính là tinh túy của môn nghệ thuật xé thịt đối phương thành từng dải.\nĐó là Bổn quốc Kiếm mà \"Sal\" tu luyện."
+      "name": "Bản Quốc Kiếm Thuật [Sal] - Xé Thịt Khỏi Thịt",
+      "desc": "Khi bắt đầu trận chiến, nhận 5 [ChoiSwordsmanship]\n\nMỗi 3 lượt, thay đổi Bản Quốc Thái Thế của bản thân\n\nKhi đánh trúng bằng Kĩ năng Trảm kích, nhận 1 Cường độ [Breath] (1 lần mỗi Kĩ năng)\n\nKhi thỏa mãn các điều kiện sau, sử dụng mô thức có chứa Kĩ năng \"Bản Quốc Cung [Sal] - Khai Tiễn\"\n- Khi thua toàn bộ Đối kháng trong 2 lượt liên tiếp (không tính Tấn công một chiều)\n- Vào lượt sau lượt bị Choáng\n- Khi Suy giảm nhuệ khí hoặc Hoảng loạn\n\nKhi bắt đầu lượt: Nếu giá trị [ChoiSwordsmanship] của bản thân đạt mức tối thiểu hoặc tối đa, sử dụng Kĩ năng mạnh mẽ\nNếu đã sử dụng Kĩ năng \"Bản Quốc Cung [Sal] - Khai Tiễn\" trong lượt trước, sử dụng Kĩ năng mạnh mẽ bất kể giá trị [ChoiSwordsmanship] của bản thân\nKhi Máu của bản thân từ 60% trở xuống, sử dụng Kĩ năng mạnh mẽ bất kể giá trị [ChoiSwordsmanship] của bản thân",
+      "flavor": "Bản Quốc Kiếm được truyền thừa trong phái Sal, tự bản chất, không phải là một môn nghệ thuật giết chóc.\nChém rồi lại chém cho đến khi máu cạn khô và xương lộ ra — đó chính là tinh túy của môn nghệ thuật xé thịt đối phương thành từng dải.\nĐó là Bản Quốc Kiếm mà \"Sal\" tu luyện."
     },
     {
       "id": 501304,
-      "name": "Bổn quốc Kiếm thuật [Sal] - Thay đổi Thế trận",
-      "desc": "<color=#ff6000><mark color=#ff000040><b><u>Khi bắt đầu lượt: Nhận hoặc mất 2 Tầng [ChoiSwordsmanship] dựa trên Thế trận Bổn quốc trên bản thân (không kích hoạt ở lượt đầu tiên của màn chơi)</color></mark></b></u>\n- [ChoiSwordsmanshipOne]: Nhận Tầng\n- [ChoiSwordsmanshipMany]: Mất Tầng\n\nTrong lượt đơn vị này trang bị Kĩ năng hệ Đố kị, đơn vị này sẽ không chịu ảnh hưởng từ hiệu ứng điều chỉnh Tầng [ChoiSwordsmanship], và <color=#ff6000><mark color=#ff000040><b><u>đặt lại Tầng [ChoiSwordsmanship] về 5 vào lượt sau</color></mark></b></u>"
+      "name": "Bản Quốc Kiếm Thuật [Sal] - Thay Đổi Thái Thế",
+      "desc": "<color=#ff6000><mark color=#ff000040><b><u>Khi bắt đầu lượt, nhận hoặc mất 2 [ChoiSwordsmanship] dựa trên Bản Quốc Thái Thế của bản thân (không kích hoạt ở lượt đầu tiên của trận chiến)</color></mark></b></u>\n- [ChoiSwordsmanshipOne]: Nhận\n- [ChoiSwordsmanshipMany]: Mất\n\nTrong lượt đơn vị này trang bị Kĩ năng hệ Đố kị, đơn vị này sẽ không chịu ảnh hưởng từ hiệu ứng điều chỉnh giá trị [ChoiSwordsmanship], và <color=#ff6000><mark color=#ff000040><b><u>đặt lại giá trị [ChoiSwordsmanship] về 5 vào lượt kế tiếp</color></mark></b></u>"
     },
     {
       "id": 501305,
       "name": "Đầu Đinh Giáp [Sal] - Thái Sơn",
-      "desc": "Nhận -30% sát thương từ [Combustion], [Laceration], [Vibration], [Burst], [Sinking] (làm tròn xuống, không bao gồm Ngưỡng Chấn động tăng bởi [VibrationExplosion])\n\nNhận hiệu ứng [PanicChangeLock]; nếu đơn vị này đang Hoảng loạn khi kết thúc lượt, đặt lại Tinh thần thành 45\n\nKhi bắt đầu lượt: Nhận các hiệu ứng sau:\n- Khi ở [ChoiSwordsmanshipOne]: Khi Tầng [ChoiSwordsmanship] dưới 5, nhận (5 - Tầng [ChoiSwordsmanship]) <color=#ff6000><mark color=#ff000040><b><u>[Vulnerable]</color></mark></b></u>\n- Khi ở [ChoiSwordsmanshipMany]: Khi Tầng [ChoiSwordsmanship] trên 5, nhận <color=#ff6000><mark color=#ff000040><b><u>[Vulnerable]</color></mark></b></u> bằng Tầng [ChoiSwordsmanship] vượt quá 5",
-      "flavor": "Ba phái Sal, Pi, và Ppyeo đều tái tạo Đầu Đinh Giáp tiêu chuẩn của Công ty S thành những hình dạng phù hợp với tư tưởng của riêng mình.\nTheo chuyện xưa kể lại, \"Sal\" luôn là kẻ mở màn cho cuộc sát sinh, háo hức xẻ thịt kẻ thù trước bất kỳ ai.\n\"Pi\" hứng lấy dòng máu tuôn ra từ mỗi vết thịt bị xé toạc và biến nó thành sự bền bỉ trên chiến trường.\n\"Ppyeo\" đảm nhận phần kết của cuộc sát sinh. Chúng chặt lìa từng khớp xương khiến kẻ thù quỳ gối. Rồi một lưỡi kiếm xuyên qua xương cổ kết thúc hành động tàn sát tập thể."
+      "desc": "Sát thương nhận vào từ [Combustion], [Laceration], [Vibration], [Burst], [Sinking] -30% (làm tròn xuống, không bao gồm Ngưỡng Choáng tăng bởi [VibrationExplosion])\n\nNhận hiệu ứng [PanicChangeLock]; nếu đơn vị này đang Hoảng loạn khi kết thúc lượt, đặt lại Tinh thần thành 45\n\nKhi bắt đầu lượt, nhận các hiệu ứng sau:\n- Khi ở [ChoiSwordsmanshipOne]: nếu giá trị [ChoiSwordsmanship] dưới 5, nhận (5 - giá trị [ChoiSwordsmanship]) <color=#ff6000><mark color=#ff000040><b><u>[Vulnerable]</color></mark></b></u>\n- Khi ở [ChoiSwordsmanshipMany]: nếu giá trị [ChoiSwordsmanship] trên 5, nhận <color=#ff6000><mark color=#ff000040><b><u>[Vulnerable]</color></mark></b></u> bằng phần giá trị [ChoiSwordsmanship] vượt quá 5",
+      "flavor": "Dựa trên Đầu Đinh Giáp cơ bản của Công ty S, ba phái Sal (Nhục - Thịt), Pi (Huyết - Máu), Ppyeo (Cốt - Xương) đã tạo ra những bộ Đầu Đinh Giáp phù hợp với tư tưởng của riêng mình.\nTheo chuyện xưa kể lại, \"Sal\" luôn là kẻ mở màn cho việc sát sinh. Họ xẻ thịt kẻ thù trước bất kì ai.\n\"Pi\" hứng lấy dòng máu tuôn ra mỗi khi thịt bị xẻ, sử dụng dòng máu đó để bổ trợ cho tính bền bỉ của trận chiến.\n\"Ppyeo\" đảm nhận việc kết thúc sự sát sinh. Chặt đứt từng đốt xương khiến kẻ thù quỳ gối, và cuối cùng là chém lìa xương cổ của đối phương để kết thúc sinh mạng."
     },
     {
       "id": 501501,
-      "name": "Kí ức tan biến",
-      "desc": "Khi chết, cung cấp +1 tài nguyên E.G.O thuộc Hệ sở hữu ít nhất",
+      "name": "Ký Ức Tan Biến",
+      "desc": "Khi chết, cho +1 Tài nguyên E.G.O thuộc Hệ đang sở hữu ít nhất",
       "summary": "Cung cấp tài nguyên E.G.O khi chết"
     },
     {
       "id": 501911,
       "name": "Reflectrial",
-      "desc": "Khi Đối kháng 10+ lần với cùng một kẻ địch, trong một lần Đối kháng, ngẫu nhiên nhận hoặc mất Sức mạnh Đối kháng bằng (Số lần Đối kháng/10) (tối đa 10)\n\nGiới hạn Cường độ tối đa của [Combustion], [Laceration], [Vibration], [Burst], và [Sinking]: 30\nGiới hạn Số lần tối đa của các hiệu ứng trên: 10\n\nKhi bắt đầu màn chơi Đội 1:\n- Đơn vị này và tất cả Tội đồ trên sân: Đổi Tinh thần thành 30 (đối với Bản sắc dùng Đồng xu trừ, -30)\n- Nhận +3 Tài nguyên E.G.O cho tất cả các Hệ\n\nKhi kích hoạt hiệu ứng Nội tại của \"Thiên Thoái Tinh\",\nKết thúc lượt và chuyển sang Giai đoạn 2 vào lượt sau\n- Việc bước vào giai đoạn mới không đặt lại các hiệu ứng trên đơn vị này\n\nKhi bắt đầu màn chơi Đội 2 & 3:\nDựa trên phần trăm Máu hiện tại của đơn vị này, các hiệu ứng Nội tại bên dưới được xem là đã kích hoạt theo thứ tự liệt kê\n- Trên 85% Máu: Hổ Tiêu Đạn[TabExplain] Tái Nạp[TabExplain]\n- Từ 85% trở xuống: Hổ Tiêu Đạn[TabExplain] Tái Nạp[TabExplain]; Lôi Hoành\n- Từ 66% trở xuống: Hổ Tiêu Đạn[TabExplain] Tái Nạp[TabExplain]; Lôi Hoành; Thiên Thoái Tinh\n- Từ 50% trở xuống: Hổ Tiêu Đạn[TabExplain] Tái Nạp[TabExplain]; Lôi Hoành; Thiên Thoái Tinh; Lôi Hoành, Thiên Thoái Tinh của Ngón Út"
+      "desc": "Khi Đối kháng từ 10 lần trở lên với cùng một kẻ địch, trong một lần Đối kháng, ngẫu nhiên nhận hoặc mất Sức mạnh Đối kháng bằng (Số lần Đối kháng / 10) (tối đa 10)\n\nGiới hạn Cường độ tối đa của [Combustion], [Laceration], [Vibration], [Burst], và [Sinking]: 30\nGiới hạn Số lượng tối đa của các hiệu ứng trên: 10\n\nKhi Đội 1 bắt đầu trận chiến:\n- Đơn vị này và tất cả Tù nhân trên sân: đổi Tinh thần thành 30 (đối với Bản sắc Đồng xu trừ, -30)\n- Nhận +3 Tài nguyên E.G.O cho tất cả các Hệ\n\nKhi kích hoạt hiệu ứng Nội tại của \"Thiên Thoái Tinh\",\nKết thúc lượt và chuyển sang Giai đoạn 2 vào lượt sau\n- Việc bước vào giai đoạn mới không đặt lại các hiệu ứng trên đơn vị này\n\nKhi Đội 2 & Đội 3 bắt đầu trận chiến:\nDựa trên phần trăm Máu hiện tại của đơn vị này, các hiệu ứng Nội tại bên dưới được coi là đã kích hoạt theo thứ tự liệt kê\n- Trên 85% Máu: Hổ Tiêu Đạn[TabExplain] Nạp đạn[TabExplain]\n- Từ 85% trở xuống: Hổ Tiêu Đạn[TabExplain] Nạp đạn[TabExplain]; Lôi Hoành\n- Từ 66% trở xuống: Hổ Tiêu Đạn[TabExplain] Nạp đạn[TabExplain]; Lôi Hoành; Thiên Thoái Tinh\n- Từ 50% trở xuống: Hổ Tiêu Đạn[TabExplain] Nạp đạn[TabExplain]; Lôi Hoành; Thiên Thoái Tinh; Lôi Hoành, Thiên Thoái Tinh của Ngón Út"
     },
     {
       "id": 501901,
       "name": "Cán bộ Ngón Cái, Capo IIII",
-      "desc": "Nhận -30% sát thương từ [Combustion], [Laceration], [Vibration], [Burst], và [Sinking]\n\nKhi tung Đồng xu tiêu thụ [BulletPropellant]: Dù việc không có [BulletPropellant] không hủy đòn tấn công của đơn vị này, các hiệu ứng \"gây [Combustion]\" và \"gây Số lần [Combustion]\" của Đồng xu sẽ không kích hoạt\n\nTrong một lần Đối kháng, gây +(1 + (Số lần Đối kháng / 3)) Số lần [Vibration]\n(tối đa 3; 3 lần mỗi lượt đối với cùng một mục tiêu)"
+      "desc": "Sát thương nhận vào từ [Combustion], [Laceration], [Vibration], [Burst], và [Sinking] -30%\n\nKhi tung Đồng xu tiêu thụ [BulletPropellant]: dù việc không có [BulletPropellant] không hủy đòn tấn công của đơn vị này, các hiệu ứng \"gây [Combustion]\" và \"gây Số lượng [Combustion]\" của Đồng xu sẽ không kích hoạt\n\nTrong một lần Đối kháng, gây +(1 + (Số lần Đối kháng / 3)) Số lượng [Vibration]\n(tối đa 3; 3 lần mỗi lượt đối với cùng một mục tiêu)"
     },
     {
       "id": 501902,
-      "name": "Thập Kiếm Đông Bộ",
-      "desc": "Khi bắt đầu màn chơi, và khi bắt đầu lượt khi nhận một mô thức mới:\n- Nhận 1 [Bothersome]\n- Hồi 5 Tinh thần cho mỗi 10% Máu đã mất của bản thân (tối đa 40)\n\nNhận hiệu ứng [PanicChangeLock]\nKhi kết thúc lượt: Nếu đơn vị này đang Hoảng loạn, đặt lại Tinh thần thành 45"
+      "name": "Đông Bộ Thập Kiếm",
+      "desc": "Khi bắt đầu trận chiến, và khi bắt đầu lượt khi nhận một mô thức mới:\n- Nhận 1 [Bothersome]\n- Hồi 5 Tinh thần cho mỗi 10% Máu đã mất của bản thân (tối đa 40)\n\nNhận hiệu ứng [PanicChangeLock]\nKhi kết thúc lượt: Nếu đơn vị này đang Hoảng loạn, đặt lại Tinh thần thành 45"
     },
     {
       "id": 501903,
       "name": "Lựa chọn con mồi",
-      "desc": "Khi bắt đầu lượt: <color=#ff6000><mark=#ff000040><b><u>Gây 1 [Prey_leiheng] lên Tội đồ đã gây nhiều sát thương nhất cho đơn vị này</u></b></mark></color> trong lượt trước\n\nSau khi Lôi Hoành tấn công Tội đồ có [Prey_leiheng]:\n- Nếu mục tiêu bị Chấn động, tất cả Tội đồ mất 10 Tinh thần và nhận 1 [ParryingResultDown] trong lượt này và lượt sau (1 lần mỗi lượt)\n- Nếu mục tiêu bị đánh bại, kích hoạt lại hiệu ứng trên một lần nữa"
+      "desc": "Khi bắt đầu lượt: <color=#ff6000><mark=#ff000040><b><u>gây 1 [Prey_leiheng] lên Tù nhân đã gây nhiều sát thương nhất cho đơn vị này</u></b></mark></color> trong lượt trước\n\nSau khi Lôi Hoành tấn công Tù nhân có [Prey_leiheng]:\n- Nếu mục tiêu rơi vào trạng thái Choáng, tất cả Tù nhân mất 10 Tinh thần và nhận 1 [ParryingResultDown] trong lượt này và lượt sau (1 lần mỗi lượt)\n- Nếu mục tiêu bị đánh bại, kích hoạt lại hiệu ứng trên một lần nữa"
     },
     {
       "id": 501904,
@@ -145,32 +145,32 @@
     {
       "id": 501912,
       "name": "Thiên Thoái Tinh Đao - Quá nhiệt",
-      "desc": "Nếu đơn vị này đã sử dụng đòn tấn công mạnh mẽ (\"Tanglecleaver\" hoặc \"Savage Tigerslayer's Perfected Flurry of Blades\"), nhận [Complacency] vào lượt sau bằng số lần các kĩ năng đó được sử dụng (tối đa 5)"
+      "desc": "Nếu đơn vị này đã sử dụng đòn tấn công mạnh mẽ (\"Khoái Đao Loạn Ma\" hoặc \"Siêu Tuyệt Mãnh Hổ Sát Kích Loạn Trảm\"), nhận [Complacency] vào lượt sau bằng số lần các kĩ năng đó được sử dụng (tối đa 5)"
     },
     {
       "id": 501910,
       "name": "Chachihu [揷翅虎]",
-      "desc": "Khi bắt đầu trận chiến: <color=#ff6000><mark=#ff000040><b><u>Dựa trên giá trị Tốc độ của đơn vị này</u></b></mark></color>,\n- Hồi Tinh thần bằng giá trị Tốc độ. Khi dưới 0 Tinh thần, gấp đôi lượng hồi phục\n- Nhận (Giá trị Tốc độ / 3) [SlashDamageUp] (tối đa 5)\n\nKhi bắt đầu trận chiến: <color=#ff6000><mark=#ff000040><b><u>Nếu đơn vị này có 3+ [Binding], hiệu ứng trên không kích hoạt;</u></b></mark></color> nhận [DefenseDown] bằng [Binding] trên bản thân (tối đa 9)"
+      "desc": "Khi bắt đầu trận chiến: <color=#ff6000><mark=#ff000040><b><u>Dựa trên giá trị Tốc độ của đơn vị này</u></b></mark></color>,\n- Hồi Tinh thần bằng giá trị Tốc độ. Khi dưới 0 Tinh thần, gấp đôi lượng hồi phục\n- Nhận (Giá trị Tốc độ / 3) [SlashDamageUp] (tối đa 5)\n\nKhi bắt đầu trận chiến: <color=#ff6000><mark=#ff000040><b><u>Nếu đơn vị này có từ 3 [Binding] trở lên, hiệu ứng trên không kích hoạt;</u></b></mark></color> nhận [DefenseDown] bằng [Binding] trên bản thân (tối đa 9)"
     },
     {
       "id": 501905,
       "name": "Nạp đạn Hổ Tiêu",
-      "desc": "Khi kết thúc Lượt 1, nạp lại [BulletPropellant] và nhận một mô thức mới vào lượt sau\n- Nếu đơn vị này bị Chấn động, hồi phục khỏi Chấn động"
+      "desc": "Khi kết thúc Lượt 1, nạp lại [BulletPropellant] và nhận một mô thức mới vào lượt sau\n- Nếu bị Choáng, hồi phục khỏi Choáng"
     },
     {
       "id": 501906,
       "name": "Lôi Hoành [雷橫]",
-      "desc": "Khi kết thúc lượt: Khi Máu từ 85% trở xuống, hoặc khi kết thúc Lượt 2, nhận một mô thức mới vào lượt sau\n- Sử dụng đòn tấn công mạnh mẽ (\"Tanglecleaver\"), lặp lại mỗi 3 lượt. Tốc độ tối thiểu & tối đa +10 trong những lượt đơn vị này sử dụng Kĩ năng này\n- Khi bắt đầu lượt đó, nhận 25 [BattleSense]\n- Nếu đơn vị này bị Chấn động, hồi phục khỏi Chấn động"
+      "desc": "Khi kết thúc lượt: Khi Máu từ 85% trở xuống, hoặc khi kết thúc Lượt 2, nhận một mô thức mới vào lượt sau\n- Sử dụng đòn tấn công mạnh mẽ (\"Khoái Đao Loạn Ma\"), lặp lại mỗi 3 lượt. Tốc độ tối thiểu & tối đa +10 trong những lượt đơn vị này sử dụng Kĩ năng này\n- Khi bắt đầu lượt đó, nhận 25 [BattleSense]\n- Nếu bị Choáng, hồi phục khỏi Choáng"
     },
     {
       "id": 501907,
       "name": "Thiên Thoái Tinh [天退星]",
-      "desc": "Nếu Máu của đơn vị này giảm xuống 66% hoặc thấp hơn trong trận chiến, chuyển sang Giai đoạn mới và nhận một mô thức mới vào lượt sau\n- Khi lượt đó bắt đầu, nhận 1 [Irritation]\n- Khi lượt đó bắt đầu, nhận 18 [BulletPropellantSpecial] và nạp lại ngay lập tức\n· Nếu đơn vị này tiêu hao toàn bộ [BulletPropellantSpecial], chuyển đổi hiệu ứng thành [BulletPropellant] và triệu hồi 2 đơn vị \"Soldato Ngón Cái Nghiêm Khắc\" vào lượt sau, đồng thời khiến chúng cung cấp [BulletPropellantSpecial] cho đơn vị này\n- Khi bị Chấn động, hồi phục khỏi Chấn động"
+      "desc": "Nếu Máu của đơn vị này giảm xuống 66% hoặc thấp hơn trong trận chiến, chuyển sang Giai đoạn mới và nhận một mô thức mới vào lượt sau\n- Khi lượt đó bắt đầu, nhận 1 [Irritation]\n- Khi lượt đó bắt đầu, nhận 18 [BulletPropellantSpecial] và nạp lại ngay lập tức\n· Nếu đơn vị này tiêu hao toàn bộ [BulletPropellantSpecial], chuyển đổi hiệu ứng thành [BulletPropellant] và triệu hồi 2 đơn vị \"Soldato Ngón Cái Nghiêm Khắc\" vào lượt sau, đồng thời khiến chúng cung cấp [BulletPropellantSpecial] cho đơn vị này\n- Nếu bị Choáng, hồi phục khỏi Choáng"
     },
     {
       "id": 501908,
       "name": "Lôi Hoành, Thiên Thoái Tinh của Ngón Út",
-      "desc": "Khi kết thúc lượt: Khi Máu từ 50% trở xuống, nhận một mô thức mới vào lượt sau\n- Thay thế đòn tấn công mạnh mẽ \"Tanglecleaver\" bằng \"Savage Tigerslayer's Perfected Flurry of Blades\"; Tốc độ tối thiểu & tối đa +15 trong những lượt đơn vị này sử dụng Kĩ năng này\n- Chuyển đổi [BattleSense] thành [RestoredBattleSense]\n- Chuyển đổi [Irritation] thành [HugeIrritation]\n- Nếu đơn vị này bị Chấn động, hồi phục khỏi Chấn động"
+      "desc": "Khi kết thúc lượt: Khi Máu từ 50% trở xuống, nhận một mô thức mới vào lượt sau\n- Thay thế đòn tấn công mạnh mẽ \"Khoái Đao Loạn Ma\" bằng \"Siêu Tuyệt Mãnh Hổ Sát Kích Loạn Trảm\"; Tốc độ tối thiểu & tối đa +15 trong những lượt đơn vị này sử dụng Kĩ năng này\n- Chuyển đổi [BattleSense] thành [RestoredBattleSense]\n- Chuyển đổi [Irritation] thành [HugeIrritation]\n- Nếu bị Choáng, hồi phục khỏi Choáng"
     },
     {
       "id": 502001,

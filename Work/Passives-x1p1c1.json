@@ -3,12 +3,12 @@
     {
       "id": 40002501,
       "name": "Truyền tin",
-      "desc": "Tại bảng điều khiển, gây Tăng Sát thương 1 cho 2 đồng minh phía sau bản thân"
+      "desc": "Áp dụng 1 Tăng lượng sát thương lên 2 đồng minh được đặt phía sau đơn vị này trên bảng điều khiển."
     },
     {
       "id": 40002502,
       "name": "Trung hòa thông tin",
-      "desc": "Nếu 1 đồng minh có Cấp Tinh thần thấp nhất bị giảm Cấp Tinh thần trong lượt này, hồi 10 Cấp Tinh thần khi kết thúc lượt"
+      "desc": "Khi kết thúc lượt, hồi 10 Tinh thần cho 1 đồng minh có Tinh thần thấp nhất nếu đồng minh đó bị giảm Tinh thần trong lượt này."
     },
     {
       "id": 40002601,
@@ -18,17 +18,17 @@
     {
       "id": 40002602,
       "name": "Quan sát",
-      "desc": "Khi 1 đồng minh có HP Tối đa cao nhất tấn công trúng, có 25% xác suất gây Giảm Cấp Tấn công 2"
+      "desc": "Đòn tấn công của 1 đồng minh có HP Tối đa cao nhất có 25% xác suất gây 2 Giảm Cấp độ Tấn công."
     },
     {
       "id": 40002701,
       "name": "Sự trừng phạt của công lý",
-      "desc": "Khi thắng Hòa kích, sát thương gây ra của Kĩ năng đó +10%"
+      "desc": "Khi thắng Đối kháng, Kĩ năng đó gây +10% sát thương"
     },
     {
       "id": 40002702,
       "name": "Cổ vũ",
-      "desc": "Sát thương Kĩ năng Đâm của 1 đồng minh có Cấp Tinh thần cao nhất +10%"
+      "desc": "Sát thương Kĩ năng Đâm của 1 đồng minh có Tinh thần cao nhất +10%"
     },
     {
       "id": 40002801,
@@ -43,7 +43,7 @@
     {
       "id": 40002901,
       "name": "Quyết tâm",
-      "desc": "Khi bắt đầu trận chiến, nếu HP của bản thân dưới 50%, nhận Bảo vệ 1"
+      "desc": "Nếu HP của bản thân dưới 50%, nhận 1 Bảo hộ khi bắt đầu giai đoạn chiến đấu."
     },
     {
       "id": 40002902,
@@ -53,12 +53,12 @@
     {
       "id": 40003001,
       "name": "Giải trí",
-      "desc": "Khi bắt đầu lượt tiếp theo, hồi 6 Cấp Tinh thần"
+      "desc": "Khi bắt đầu lượt tiếp theo, hồi 6 Tinh thần"
     },
     {
       "id": 40003002,
-      "name": "Trò đùa nực cười",
-      "desc": "Khi bắt đầu trận chiến, hồi 6 Cấp Tinh thần cho 1 đồng minh có Cấp Tinh thần thấp nhất"
+      "name": "Trò đùa nhảm nhí",
+      "desc": "Khi bắt đầu giai đoạn chiến đấu, hồi 6 Tinh thần cho 1 đồng minh có Tinh thần thấp nhất."
     },
     {
       "id": 40003101,
@@ -67,58 +67,58 @@
     },
     {
       "id": 40003102,
-      "name": "Tức giận",
-      "desc": "Sát thương Kĩ năng Va chạm của 1 đồng minh có HP Tối đa thấp nhất +10%"
+      "name": "Hằn học",
+      "desc": "Sát thương Kĩ năng Đập của 1 đồng minh có HP Tối đa thấp nhất +10%"
     },
     {
       "id": 40003201,
       "name": "Vùng vẫy",
-      "desc": "Khi đang Hòa kích, nếu HP của bản thân dưới 25%, Sức mạnh Hòa kích +1"
+      "desc": "Khi đang Đối kháng, nếu HP của bản thân dưới 25%, Sức mạnh Đối kháng +1"
     },
     {
       "id": 40003202,
       "name": "Ý chí sinh tồn",
-      "desc": "Nếu HP của 1 đồng minh có HP hiện tại thấp nhất dưới 50%, Sức mạnh Hòa kích +1 khi đang Hòa kích"
+      "desc": "1 đồng minh có HP hiện tại thấp nhất và có HP dưới 50% HP Tối đa nhận +1 Sức mạnh Đối kháng trong Đối kháng"
     },
     {
       "id": 40003301,
-      "name": "Đàn áp",
-      "desc": "Khi tấn công trúng, có 50% xác suất gây Xuất huyết 1"
+      "name": "Phân ly Tà ác",
+      "desc": "Khi đánh trúng, có 50% xác suất gây 1 Xuất huyết."
     },
     {
       "id": 40003302,
       "name": "Kẻ đánh bạc",
-      "desc": "Sát thương khi tung mặt Ngửa xu của 1 đồng minh có HP hiện tại cao nhất +20%"
+      "desc": "1 đồng minh có HP hiện tại cao nhất gây +20% sát thương bằng Đồng xu mặt Ngửa."
     },
     {
       "id": 40003401,
-      "name": "Quyết tâm",
-      "desc": "Nếu có đồng minh tử trận trong lượt này, nhận Tăng Sức mạnh Tấn công 1 vào lượt tiếp theo"
+      "name": "Dũng cảm",
+      "desc": "Khi có đồng minh tử trận, nhận 1 Tăng Uy lực Tấn công vào lượt tiếp theo"
     },
     {
       "id": 40003402,
-      "name": "Lòng phục tùng",
-      "desc": "Nếu có đồng minh khác tử trận, 1 đồng minh có Cấp Tinh thần thấp nhất nhận Tăng Sức mạnh Tấn công 1 vào lượt tiếp theo"
+      "name": "Oán hận",
+      "desc": "1 đồng minh có Tinh thần thấp nhất nhận 1 Tăng Uy lực Tấn công vào lượt sau khi có đồng minh khác tử trận."
     },
     {
       "id": 40003501,
-      "name": "Xử tử",
-      "desc": "Khi Cấp Tinh thần của mục tiêu dưới 0, sát thương gây ra +10%"
+      "name": "Đao phủ",
+      "desc": "Nếu Tinh thần của mục tiêu dưới 0, gây +10% sát thương"
     },
     {
       "id": 40003502,
       "name": "Tinh thần binh sĩ",
-      "desc": "Khi 1 đồng minh có HP hiện tại cao nhất tấn công kẻ địch có Cấp Tinh thần dưới 0, sát thương gây ra +30%"
+      "desc": "1 đồng minh có HP hiện tại cao nhất gây +30% sát thương lên kẻ địch có Tinh thần dưới 0"
     },
     {
       "id": 40003601,
-      "name": "Thanh tẩy cưỡng chế",
-      "desc": "Khi bắt đầu trận chiến, hồi 5 HP cho bản thân"
+      "name": "Sinh tồn cưỡng chế",
+      "desc": "Hồi 5 HP khi bắt đầu giai đoạn chiến đấu."
     },
     {
       "id": 40003602,
-      "name": "Mã gian lận G-0",
-      "desc": "Khi bắt đầu trận chiến, hồi 5 HP cho 1 đồng minh có HP hiện tại thấp nhất"
+      "name": "Mã gen G-0",
+      "desc": "Khi bắt đầu giai đoạn chiến đấu, hồi 5 HP cho 1 đồng minh có HP hiện tại thấp nhất."
     }
   ]
 }
