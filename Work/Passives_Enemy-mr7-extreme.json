@@ -8,12 +8,12 @@
     {
       "id": 7105001,
       "name": "Đạn HP Quá Tải",
-      "desc": "Khi bắt đầu lượt, nhận 2 [AttackDmgUp], 2 [Vulnerable]"
+      "desc": "Khi bắt đầu lượt, nhận 2 [AttackDmgUp] và 2 [Vulnerable]"
     },
     {
       "id": 7105002,
       "name": "Tiêm Ampoule HP",
-      "desc": "Khi bắt đầu lượt, nếu HP bị giảm, hồi 25% HP tối đa (Tối đa 3 lần)"
+      "desc": "Khi bắt đầu lượt, nếu HP chưa đầy, hồi 25% HP tối đa (Tối đa 3 lần)"
     },
     {
       "id": 7105101,
@@ -23,7 +23,7 @@
     {
       "id": 7105102,
       "name": "Nước sốt Tango",
-      "desc": "Nếu HP cao hơn mục tiêu, cộng thêm Sức mạnh khớp lệnh (Chênh lệch HP với mục tiêu ÷ 50) (Tối đa 3)\nNếu nhận hiệu ứng tăng Sức mạnh khớp lệnh TabExplain, nhận 1 [Vulnerable] sau khi kết thúc tấn công"
+      "desc": "Nếu HP cao hơn mục tiêu, nhận Sức mạnh Đối kháng +(Chênh lệch HP với mục tiêu ÷ 50) (Tối đa 3)\nNếu nhận Sức mạnh Đối kháng từ hiệu ứng trên, nhận 1 [Vulnerable] sau khi kết thúc đòn tấn công"
     },
     {
       "id": 7105501,
@@ -33,7 +33,7 @@
     {
       "id": 7105502,
       "name": "Nỗi u sầu tuôn trào",
-      "desc": "Khi mặt sau trúng đích, gây 3 [Sinking]"
+      "desc": "Khi đánh trúng bằng Mặt Sấp, gây 3 [Sinking]"
     },
     {
       "id": 7105503,
@@ -48,12 +48,12 @@
     {
       "id": 7105801,
       "name": "Đạn HP Quá Tải",
-      "desc": "Khi bắt đầu lượt, nhận 2 [AttackDmgUp], 2 [Vulnerable]"
+      "desc": "Khi bắt đầu lượt, nhận 2 [AttackDmgUp] và 2 [Vulnerable]"
     },
     {
       "id": 7105802,
       "name": "Tiêm Ampoule Khẩn Cấp",
-      "desc": "Nếu HP dưới 25%, hồi đến 40% HP tối đa (Tối đa 1 lần)"
+      "desc": "Nếu HP dưới 25%, hồi lên đến 40% HP tối đa (Tối đa 1 lần)"
     }
   ]
 }
