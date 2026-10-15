@@ -5,20 +5,20 @@
       "levelList": [
         {
           "level": 4,
-          "name": "Ô Khảm Đao",
+          "name": "Ô Khám Đao",
           "abName": "Yi Sang",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây [Reduction] 2 trong lượt này và lượt sau"
+                  "desc": "[OnSucceedAttack] Gây 2 [Reduction] trong lượt này và lượt tiếp theo"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Tiếp thêm [Agility] 3 cho toàn bộ đồng minh ở lượt sau"
+                  "desc": "[OnSucceedAttack] Ban 3 [Agility] cho toàn bộ đồng minh vào lượt tiếp theo"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gây [Binding] 2 ở lượt sau"
+                  "desc": "[OnSucceedAttack] Gây 2 [Binding] vào lượt tiếp theo"
                 }
               ]
             }
@@ -38,7 +38,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây [Laceration] 8"
+                  "desc": "[OnSucceedAttack] Gây 8 [Laceration]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Hồi phục HP bằng 50% lượng sát thương gây ra"
@@ -61,19 +61,19 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây [Binding] 5 ở lượt sau"
+                  "desc": "[OnSucceedAttack] Gây 5 [Binding] vào lượt tiếp theo"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Nhận [Binding] 3 ở lượt sau"
+                  "desc": "[OnSucceedAttack] Nhận 3 [Binding] vào lượt tiếp theo"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gây [Reduction] 4 ở lượt sau"
+                  "desc": "[OnSucceedAttack] Gây 4 [Reduction] vào lượt tiếp theo"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Nhận [Reduction] 3 ở lượt sau"
+                  "desc": "[OnSucceedAttack] Nhận 3 [Reduction] vào lượt tiếp theo"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Nhận [Protection] 2 ở lượt sau"
+                  "desc": "[OnSucceedAttack] Nhận 2 [Protection] vào lượt tiếp theo"
                 }
               ]
             }
@@ -88,12 +88,12 @@
           "level": 4,
           "name": "Hư Huyễn Cảnh",
           "abName": "Hong Lu",
-          "desc": "[EndSkill] Hồi phục 15 Tinh thần cho bản thân và đồng minh\n[EndSkill] Loại bỏ [Bỏng] cho bản thân và đồng minh",
+          "desc": "[EndSkill] Hồi phục 15 Tinh thần cho bản thân và toàn bộ đồng minh\n[EndSkill] Loại bỏ Bỏng trên bản thân và toàn bộ đồng minh",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây [Sinking] 5"
+                  "desc": "[OnSucceedAttack] Gây 5 [Sinking]"
                 }
               ]
             }
@@ -108,15 +108,15 @@
           "level": 4,
           "name": "To Pathos Mathos",
           "abName": "Outis",
-          "desc": "Khi HP của mục tiêu dưới 50%, sát thương +30%",
+          "desc": "Khi HP của mục tiêu dưới 50%, gây +30% sát thương",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây [Burst] 4"
+                  "desc": "[OnSucceedAttack] Gây 4 [Burst]"
                 },
                 {
-                  "desc": "[EnemyKill] Tiếp thêm [AttackDmgUp] 1 cho 1 đồng minh ngẫu nhiên"
+                  "desc": "[EnemyKill] Ban 1 [AttackDmgUp] cho 1 đồng minh ngẫu nhiên"
                 }
               ]
             }

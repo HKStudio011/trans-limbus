@@ -11,7 +11,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây [Vibration] 5, Số lần [Vibration] tăng thêm 2"
+                                    "desc": "[OnSucceedAttack] Gây 5 [Vibration], Số lượng [Vibration] tăng thêm 2"
                                 }
                             ]
                         }
@@ -30,14 +30,14 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây [Vibration] 5, Số lần [Vibration] tăng thêm 1"
+                                    "desc": "[OnSucceedAttack] Gây 5 [Vibration], Số lượng [Vibration] tăng thêm 1"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây [Paralysis] 1 vào lượt tiếp theo"
+                                    "desc": "[OnSucceedAttack] Gây 1 [Paralysis] vào lượt tiếp theo"
                                 }
                             ]
                         }
@@ -56,10 +56,10 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] [VibrationExplosion]"
+                                    "desc": "[OnSucceedAttack] Kích hoạt [VibrationExplosion]"
                                 },
                                 {
-                                    "desc": "Nếu gây Hoảng loạn cho mục tiêu bằng [VibrationExplosion], Tái sử dụng Đồng xu"
+                                    "desc": "Nếu mục tiêu bị Choáng bởi [VibrationExplosion], tái sử dụng Đồng xu"
                                 }
                             ]
                         }
@@ -78,7 +78,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây [Vibration] 2, Số lần [Vibration] tăng thêm 4"
+                                    "desc": "[OnSucceedAttack] Gây 2 [Vibration], Số lượng [Vibration] tăng thêm 4"
                                 }
                             ]
                         }
@@ -97,14 +97,14 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây [Vibration] 2, Số lần [Vibration] tăng thêm 3"
+                                    "desc": "[OnSucceedAttack] Gây 2 [Vibration], Số lượng [Vibration] tăng thêm 3"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây [Paralysis] 2 vào lượt tiếp theo"
+                                    "desc": "[OnSucceedAttack] Gây 2 [Paralysis] vào lượt tiếp theo"
                                 }
                             ]
                         }
@@ -123,10 +123,10 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] [VibrationExplosion]"
+                                    "desc": "[OnSucceedAttack] Kích hoạt [VibrationExplosion]"
                                 },
                                 {
-                                    "desc": "Nếu gây Hoảng loạn cho mục tiêu bằng [VibrationExplosion], Tái sử dụng Đồng xu"
+                                    "desc": "Nếu mục tiêu bị Choáng bởi [VibrationExplosion], tái sử dụng Đồng xu"
                                 }
                             ]
                         }
@@ -145,7 +145,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây [Burst] 3"
+                                    "desc": "[OnSucceedAttack] Gây 3 [Burst]"
                                 }
                             ]
                         }
@@ -158,26 +158,26 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "...Sợ quá...",
-                    "desc": "[WhenUse] Nếu Sức mạnh [Burst] của mục tiêu từ 3 trở lên, Sức mạnh Cơ bản +1",
+                    "name": "...Đập...",
+                    "desc": "[WhenUse] Nếu Cường độ [Burst] của mục tiêu từ 3 trở lên, Sức mạnh Cơ bản +1",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây [DefenseDown] 1"
+                                    "desc": "[OnSucceedAttack] Gây 1 [DefenseDown]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Số lần [Burst] tăng thêm 2"
+                                    "desc": "[OnSucceedAttack] Số lượng [Burst] tăng thêm 2"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây [DefenseDown] 1"
+                                    "desc": "[OnSucceedAttack] Gây 1 [DefenseDown]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Gây [Burst] 3"
+                                    "desc": "[OnSucceedAttack] Gây 3 [Burst]"
                                 }
                             ]
                         }
@@ -191,25 +191,25 @@
                 {
                     "level": 1,
                     "name": "Điểm yếu...",
-                    "desc": "[WhenUse] Nếu mục tiêu có [Burst], mỗi 3 Sức mạnh [Burst] tăng +1 Sức mạnh Cơ bản (Tối đa 3)",
+                    "desc": "[WhenUse] Nếu mục tiêu có [Burst], mỗi 3 Cường độ [Burst] của mục tiêu, Sức mạnh Cơ bản +1 (Tối đa 3)",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây [Burst] 6"
+                                    "desc": "[OnSucceedAttack] Gây 6 [Burst]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Gây [Laceration] 4"
+                                    "desc": "[OnSucceedAttack] Gây 4 [Laceration]"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây [DefenseDown] 4"
+                                    "desc": "[OnSucceedAttack] Gây 4 [DefenseDown]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttackHead] Gây [Paralysis] 2 vào lượt tiếp theo"
+                                    "desc": "[OnSucceedAttackHead] Gây 2 [Paralysis] vào lượt tiếp theo"
                                 }
                             ]
                         }
@@ -223,7 +223,7 @@
                 {
                     "level": 1,
                     "name": "Ặc...",
-                    "desc": "Khi kết thúc lượt, nếu còn Lá chắn, nhận [AttackUp] 1 vào lượt tiếp theo",
+                    "desc": "Khi kết thúc lượt, nếu còn Lá chắn, nhận 1 [AttackUp] vào lượt tiếp theo",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -241,13 +241,13 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Noba...",
+                    "name": "Duỗi...",
                     "desc": "",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Số lần [Burst] tăng thêm 3"
+                                    "desc": "[OnSucceedAttack] Số lượng [Burst] tăng thêm 3"
                                 }
                             ]
                         }
@@ -261,25 +261,25 @@
                 {
                     "level": 1,
                     "name": "V... vũ trang sao?",
-                    "desc": "[WhenUse] Nếu Số lần [Burst] của mục tiêu từ 3 trở lên, Sức mạnh Cơ bản +1",
+                    "desc": "[WhenUse] Nếu Số lượng [Burst] của mục tiêu từ 3 trở lên, Sức mạnh Cơ bản +1",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây [AttackDown] 1"
+                                    "desc": "[OnSucceedAttack] Gây 1 [AttackDown]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Số lần [Burst] tăng thêm 2"
+                                    "desc": "[OnSucceedAttack] Số lượng [Burst] tăng thêm 2"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây [AttackDown] 1"
+                                    "desc": "[OnSucceedAttack] Gây 1 [AttackDown]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Gây [Burst] 3"
+                                    "desc": "[OnSucceedAttack] Gây 3 [Burst]"
                                 }
                             ]
                         }
@@ -292,26 +292,26 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Mỏng...",
-                    "desc": "[WhenUse] Nếu mục tiêu có [Burst], mỗi 2 Số lần [Burst] tăng +1 Sức mạnh Cơ bản (Tối đa 3)",
+                    "name": "Rạch...",
+                    "desc": "[WhenUse] Nếu mục tiêu có [Burst], mỗi 2 Số lượng [Burst] của mục tiêu, Sức mạnh Cơ bản +1 (Tối đa 3)",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Số lần [Burst] tăng thêm 4"
+                                    "desc": "[OnSucceedAttack] Số lượng [Burst] tăng thêm 4"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Gây [Laceration] 4"
+                                    "desc": "[OnSucceedAttack] Gây 4 [Laceration]"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây [AttackDown] 4"
+                                    "desc": "[OnSucceedAttack] Gây 4 [AttackDown]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttackHead] Gây [Paralysis] 2 vào lượt tiếp theo"
+                                    "desc": "[OnSucceedAttackHead] Gây 2 [Paralysis] vào lượt tiếp theo"
                                 }
                             ]
                         }
@@ -324,13 +324,13 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Đồ...",
+                    "name": "...mạnh...",
                     "desc": "",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "Khi kết thúc lượt, nếu còn Lá chắn, nhận [AttackUp] 1 vào lượt tiếp theo"
+                                    "desc": "Khi kết thúc lượt, nếu còn Lá chắn, nhận 1 [AttackUp] vào lượt tiếp theo"
                                 }
                             ]
                         }
@@ -349,7 +349,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây [Burst] 4"
+                                    "desc": "[OnSucceedAttack] Gây 4 [Burst]"
                                 }
                             ]
                         }
@@ -363,25 +363,25 @@
                 {
                     "level": 1,
                     "name": "Dọn... dẹp...",
-                    "desc": "[WhenUse] Nếu Sức mạnh [Burst] của mục tiêu từ 3 trở lên, Sức mạnh Cơ bản +1",
+                    "desc": "[WhenUse] Nếu Cường độ [Burst] của mục tiêu từ 3 trở lên, Sức mạnh Cơ bản +1",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây [DefenseDown] 2"
+                                    "desc": "[OnSucceedAttack] Gây 2 [DefenseDown]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Số lần [Burst] tăng thêm 2"
+                                    "desc": "[OnSucceedAttack] Số lượng [Burst] tăng thêm 2"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây [DefenseDown] 2"
+                                    "desc": "[OnSucceedAttack] Gây 2 [DefenseDown]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Gây [Burst] 6"
+                                    "desc": "[OnSucceedAttack] Gây 6 [Burst]"
                                 }
                             ]
                         }
@@ -395,25 +395,25 @@
                 {
                     "level": 1,
                     "name": "Ngăn... chặn...",
-                    "desc": "[WhenUse] Gây 3 sát thương Tinh thần lên mục tiêu\n[WhenUse] Nếu mục tiêu có [Burst], mỗi 4 Sức mạnh [Burst] tăng +1 Sức mạnh Cơ bản (Tối đa 3)",
+                    "desc": "[WhenUse] Gây 3 sát thương Tinh thần lên mục tiêu\n[WhenUse] Nếu mục tiêu có [Burst], mỗi 4 Cường độ [Burst] của mục tiêu, Sức mạnh Cơ bản +1 (Tối đa 3)",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây [Burst] 6"
+                                    "desc": "[OnSucceedAttack] Gây 6 [Burst]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Gây [Laceration] 6"
+                                    "desc": "[OnSucceedAttack] Gây 6 [Laceration]"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây [DefenseDown] 3"
+                                    "desc": "[OnSucceedAttack] Gây 3 [DefenseDown]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Gây [Paralysis] 1 vào lượt tiếp theo"
+                                    "desc": "[OnSucceedAttack] Gây 1 [Paralysis] vào lượt tiếp theo"
                                 }
                             ]
                         }
@@ -432,7 +432,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây [Laceration] 2"
+                                    "desc": "[OnSucceedAttack] Gây 2 [Laceration]"
                                 }
                             ]
                         }
@@ -451,7 +451,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Số lần [Burst] tăng thêm 3"
+                                    "desc": "[OnSucceedAttack] Số lượng [Burst] tăng thêm 3"
                                 }
                             ]
                         }
@@ -465,25 +465,25 @@
                 {
                     "level": 1,
                     "name": "Đừng... cản đường",
-                    "desc": "[WhenUse] Nếu số lần [Burst] của mục tiêu từ 3 trở lên, Sức mạnh Cơ bản +1",
+                    "desc": "[WhenUse] Nếu Số lượng [Burst] của mục tiêu từ 3 trở lên, Sức mạnh Cơ bản +1",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây [AttackDown] 2"
+                                    "desc": "[OnSucceedAttack] Gây 2 [AttackDown]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Số lần [Burst] tăng thêm 3"
+                                    "desc": "[OnSucceedAttack] Số lượng [Burst] tăng thêm 3"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây [AttackDown] 2"
+                                    "desc": "[OnSucceedAttack] Gây 2 [AttackDown]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Gây [Burst] 6"
+                                    "desc": "[OnSucceedAttack] Gây 6 [Burst]"
                                 }
                             ]
                         }
@@ -497,25 +497,25 @@
                 {
                     "level": 1,
                     "name": "Đột... phá",
-                    "desc": "[WhenUse] Gây 3 sát thương Tinh thần lên mục tiêu\n[WhenUse] Nếu mục tiêu có [Burst], mỗi 3 số lần [Burst] tăng +1 Sức mạnh Cơ bản (Tối đa 3)",
+                    "desc": "[WhenUse] Gây 3 sát thương Tinh thần lên mục tiêu\n[WhenUse] Nếu mục tiêu có [Burst], mỗi 3 Số lượng [Burst] của mục tiêu, Sức mạnh Cơ bản +1 (Tối đa 3)",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Số lần [Burst] tăng thêm 4"
+                                    "desc": "[OnSucceedAttack] Số lượng [Burst] tăng thêm 4"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Gây [Laceration] 8"
+                                    "desc": "[OnSucceedAttack] Gây 8 [Laceration]"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây [AttackDown] 3"
+                                    "desc": "[OnSucceedAttack] Gây 3 [AttackDown]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Gây [Paralysis] 1 vào lượt tiếp theo"
+                                    "desc": "[OnSucceedAttack] Gây 1 [Paralysis] vào lượt tiếp theo"
                                 }
                             ]
                         }
@@ -534,7 +534,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây [Laceration] 2"
+                                    "desc": "[OnSucceedAttack] Gây 2 [Laceration]"
                                 }
                             ]
                         }
@@ -547,16 +547,16 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Kỹ thuật Phá Thủ",
+                    "name": "Kĩ thuật Phá Thủ",
                     "desc": "",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây [DefenseDown] 2 vào lượt tiếp theo"
+                                    "desc": "[OnSucceedAttack] Gây 2 [DefenseDown] vào lượt tiếp theo"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttackHead] Gây [DefenseDown] 1 vào lượt tiếp theo"
+                                    "desc": "[OnSucceedAttackHead] Gây 1 [DefenseDown] vào lượt tiếp theo"
                                 }
                             ]
                         }
@@ -570,25 +570,25 @@
                 {
                     "level": 1,
                     "name": "Nắm bắt Điểm yếu",
-                    "desc": "[WhenUse] Nếu Tốc độ cao hơn mục tiêu, hồi 3 Tinh thần cho bản thân",
+                    "desc": "[WhenUse] Nếu Tốc độ của bản thân cao hơn mục tiêu, hồi 3 Tinh thần cho bản thân",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây [Binding] 2 vào lượt tiếp theo"
+                                    "desc": "[OnSucceedAttack] Gây 2 [Binding] vào lượt tiếp theo"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttackHead] Gây [Vulnerable] 1"
+                                    "desc": "[OnSucceedAttackHead] Gây 1 [Vulnerable]"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây [DefenseDown] 2 vào lượt tiếp theo"
+                                    "desc": "[OnSucceedAttack] Gây 2 [DefenseDown] vào lượt tiếp theo"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttackHead] Gây [Vulnerable] 1 vào lượt tiếp theo"
+                                    "desc": "[OnSucceedAttackHead] Gây 1 [Vulnerable] vào lượt tiếp theo"
                                 }
                             ]
                         }
@@ -602,29 +602,29 @@
                 {
                     "level": 1,
                     "name": "Nghiền nát Giáp trụ",
-                    "desc": "[WhenUse] Nếu Tốc độ cao hơn mục tiêu, gây [SlashResistDown] 1",
+                    "desc": "[WhenUse] Nếu Tốc độ của bản thân cao hơn mục tiêu, gây 1 [SlashResistDown]",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây [Vulnerable] 1"
+                                    "desc": "[OnSucceedAttack] Gây 1 [Vulnerable]"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây [DefenseDown] 2 vào lượt tiếp theo"
+                                    "desc": "[OnSucceedAttack] Gây 2 [DefenseDown] vào lượt tiếp theo"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây [DefenseDown] 2 vào lượt tiếp theo"
+                                    "desc": "[OnSucceedAttack] Gây 2 [DefenseDown] vào lượt tiếp theo"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttackHead] Gây [Vulnerable] 1 vào lượt tiếp theo"
+                                    "desc": "[OnSucceedAttackHead] Gây 1 [Vulnerable] vào lượt tiếp theo"
                                 }
                             ]
                         }
@@ -638,7 +638,7 @@
                 {
                     "level": 1,
                     "name": "Né tránh",
-                    "desc": "[OnSucceedEvade] Hồi 3 điểm Tinh thần cho bản thân",
+                    "desc": "[OnSucceedEvade] Hồi 3 Tinh thần cho bản thân",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -662,10 +662,10 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây 2 [AttackDown] ở lượt kế tiếp"
+                                    "desc": "[OnSucceedAttack] Gây 2 [AttackDown] vào lượt tiếp theo"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttackHead] Gây 1 [AttackDown] ở lượt kế tiếp"
+                                    "desc": "[OnSucceedAttackHead] Gây 1 [AttackDown] vào lượt tiếp theo"
                                 }
                             ]
                         }
@@ -679,12 +679,12 @@
                 {
                     "level": 1,
                     "name": "Thuật Trấn Áp",
-                    "desc": "[WhenUse] Nếu Tốc độ cao hơn mục tiêu, hồi 3 điểm Tinh thần cho bản thân",
+                    "desc": "[WhenUse] Nếu Tốc độ của bản thân cao hơn mục tiêu, hồi 3 Tinh thần cho bản thân",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây 2 [Binding] ở lượt kế tiếp"
+                                    "desc": "[OnSucceedAttack] Gây 2 [Binding] vào lượt tiếp theo"
                                 },
                                 {
                                     "desc": "[OnSucceedAttackHead] Gây 2 [Paralysis]"
@@ -694,10 +694,10 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây 2 [AttackDown] ở lượt kế tiếp"
+                                    "desc": "[OnSucceedAttack] Gây 2 [AttackDown] vào lượt tiếp theo"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttackHead] Gây 2 [Paralysis] ở lượt kế tiếp"
+                                    "desc": "[OnSucceedAttackHead] Gây 2 [Paralysis] vào lượt tiếp theo"
                                 }
                             ]
                         }
@@ -711,7 +711,7 @@
                 {
                     "level": 1,
                     "name": "Khống Chế Hành Động",
-                    "desc": "[WhenUse] Nếu Tốc độ cao hơn mục tiêu, gây 1 [SlashResistDown]",
+                    "desc": "[WhenUse] Nếu Tốc độ của bản thân cao hơn mục tiêu, gây 1 [SlashResistDown]",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -723,17 +723,17 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây 2 [AttackDown] ở lượt kế tiếp"
+                                    "desc": "[OnSucceedAttack] Gây 2 [AttackDown] vào lượt tiếp theo"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây 2 [AttackDown] ở lượt kế tiếp"
+                                    "desc": "[OnSucceedAttack] Gây 2 [AttackDown] vào lượt tiếp theo"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttackHead] Gây 2 [Paralysis] ở lượt kế tiếp"
+                                    "desc": "[OnSucceedAttackHead] Gây 2 [Paralysis] vào lượt tiếp theo"
                                 }
                             ]
                         }
@@ -746,8 +746,8 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Né Tránh",
-                    "desc": "[OnSucceedEvade] Hồi 3 điểm Tinh thần cho bản thân",
+                    "name": "Né tránh",
+                    "desc": "[OnSucceedEvade] Hồi 3 Tinh thần cho bản thân",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -771,10 +771,10 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây 2 [AttackDown] ở lượt kế tiếp"
+                                    "desc": "[OnSucceedAttack] Gây 2 [AttackDown] vào lượt tiếp theo"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttackHead] Gây 2 [DefenseDown] ở lượt kế tiếp"
+                                    "desc": "[OnSucceedAttackHead] Gây 2 [DefenseDown] vào lượt tiếp theo"
                                 }
                             ]
                         }
@@ -788,12 +788,12 @@
                 {
                     "level": 1,
                     "name": "Thuật Ngăn Chặn",
-                    "desc": "[WhenUse] Nếu Tốc độ cao hơn mục tiêu, hồi 5 điểm Tinh thần cho bản thân",
+                    "desc": "[WhenUse] Nếu Tốc độ của bản thân cao hơn mục tiêu, hồi 5 Tinh thần cho bản thân",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Nhận 2 [Agility] ở lượt kế tiếp"
+                                    "desc": "[OnSucceedAttack] Nhận 2 [Agility] vào lượt tiếp theo"
                                 },
                                 {
                                     "desc": "[OnSucceedAttack] Gây 2 [Paralysis]"
@@ -803,10 +803,10 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây 2 [DefenseDown] ở lượt kế tiếp"
+                                    "desc": "[OnSucceedAttack] Gây 2 [DefenseDown] vào lượt tiếp theo"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Gây 2 [Paralysis] ở lượt kế tiếp"
+                                    "desc": "[OnSucceedAttack] Gây 2 [Paralysis] vào lượt tiếp theo"
                                 }
                             ]
                         }
@@ -820,7 +820,7 @@
                 {
                     "level": 1,
                     "name": "Thuật Trói Thân",
-                    "desc": "[WhenUse] Nếu Tốc độ cao hơn mục tiêu, gây 2 [SlashResistDown]",
+                    "desc": "[WhenUse] Nếu Tốc độ của bản thân cao hơn mục tiêu, gây 2 [SlashResistDown]",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -835,23 +835,23 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây 2 [AttackDown] ở lượt kế tiếp"
+                                    "desc": "[OnSucceedAttack] Gây 2 [AttackDown] vào lượt tiếp theo"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Gây 2 [DefenseDown] ở lượt kế tiếp"
+                                    "desc": "[OnSucceedAttack] Gây 2 [DefenseDown] vào lượt tiếp theo"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Nhận 3 [Agility] ở lượt kế tiếp"
+                                    "desc": "[OnSucceedAttack] Nhận 3 [Agility] vào lượt tiếp theo"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Gây 2 [SlashResistDown] ở lượt kế tiếp"
+                                    "desc": "[OnSucceedAttack] Gây 2 [SlashResistDown] vào lượt tiếp theo"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Gây 2 [Paralysis] ở lượt kế tiếp"
+                                    "desc": "[OnSucceedAttack] Gây 2 [Paralysis] vào lượt tiếp theo"
                                 }
                             ]
                         }
@@ -865,18 +865,18 @@
                 {
                     "level": 1,
                     "name": "Sắp Xếp Gọn Gàng",
-                    "desc": "[WhenUse] Nếu Tốc độ cao hơn mục tiêu, Sức mạnh Đối kháng +3",
+                    "desc": "[WhenUse] Nếu Tốc độ của bản thân cao hơn mục tiêu, Sức mạnh Đối kháng +3",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây 15 [Laceration], số lượt [Laceration] tăng thêm 3"
+                                    "desc": "[OnSucceedAttack] Gây 15 [Laceration], Số lượng [Laceration] tăng thêm 3"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Gây 2 [Paralysis] ở lượt kế tiếp"
+                                    "desc": "[OnSucceedAttack] Gây 2 [Paralysis] vào lượt tiếp theo"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Nếu Tốc độ cao hơn mục tiêu từ 3 trở lên, dùng lại Kĩ năng này (Tối đa 1 lần)"
+                                    "desc": "[OnSucceedAttack] Nếu Tốc độ của bản thân cao hơn mục tiêu từ 3 trở lên, tái sử dụng Kĩ năng này (1 lần)"
                                 }
                             ]
                         }
@@ -889,8 +889,8 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Né Tránh",
-                    "desc": "[OnSucceedEvade] Hồi 5 điểm Tinh thần cho bản thân",
+                    "name": "Né tránh",
+                    "desc": "[OnSucceedEvade] Hồi 5 Tinh thần cho bản thân",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -921,10 +921,10 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Số lượt [Laceration] tăng thêm 2"
+                                    "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng thêm 2"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttackHead] Gây 1 [Binding] ở lượt kế tiếp"
+                                    "desc": "[OnSucceedAttackHead] Gây 1 [Binding] vào lượt tiếp theo"
                                 }
                             ]
                         }
@@ -938,7 +938,7 @@
                 {
                     "level": 1,
                     "name": "Vặn Xoắn",
-                    "desc": "[WinDuel] Nếu Máu của mục tiêu là 100%, lượng Sát thương +30%\n[DefeatDuel] Nhận 3 [DefenseDown]",
+                    "desc": "[WinDuel] Nếu Máu của mục tiêu đạt 100%, Sát thương +30%\n[DefeatDuel] Nhận 3 [DefenseDown]",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -946,14 +946,14 @@
                                     "desc": "[OnSucceedAttack] Gây 4 [Laceration]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttackHead] Số lần [Laceration] tăng thêm 2"
+                                    "desc": "[OnSucceedAttackHead] Số lượng [Laceration] tăng thêm 2"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Nếu Sức mạnh [Laceration] của mục tiêu từ 5 trở lên, gây [Paralysis] 1 ở lượt tiếp theo"
+                                    "desc": "[OnSucceedAttack] Nếu Cường độ [Laceration] của mục tiêu từ 5 trở lên, gây 1 [Paralysis] vào lượt tiếp theo"
                                 }
                             ]
                         }
@@ -967,36 +967,36 @@
                 {
                     "level": 1,
                     "name": "Xẻ Vết Thương",
-                    "desc": "[WinDuel] Nhận [SlashResultUp] 1",
+                    "desc": "[WinDuel] Nhận 1 [SlashResultUp]",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây [Laceration] 6"
+                                    "desc": "[OnSucceedAttack] Gây 6 [Laceration]"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Số lần [Laceration] tăng thêm 2"
+                                    "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng thêm 2"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttackHead] Gây [Binding] 2 ở lượt tiếp theo"
+                                    "desc": "[OnSucceedAttackHead] Gây 2 [Binding] vào lượt tiếp theo"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Nếu Sức mạnh [Laceration] của mục tiêu từ 7 trở lên, gây thêm sát thương bằng 20% lượng sát thương"
+                                    "desc": "[OnSucceedAttack] Nếu Cường độ [Laceration] của mục tiêu từ 7 trở lên, gây thêm sát thương bằng 20% sát thương đã gây"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Nếu Sức mạnh [Laceration] của mục tiêu từ 7 trở lên, gây thêm sát thương bằng 20% lượng sát thương"
+                                    "desc": "[OnSucceedAttack] Nếu Cường độ [Laceration] của mục tiêu từ 7 trở lên, gây thêm sát thương bằng 20% sát thương đã gây"
                                 }
                             ]
                         }
@@ -1029,36 +1029,36 @@
                 {
                     "level": 1,
                     "name": "Cắt Dây Thần Kinh",
-                    "desc": "[WinDuel] Nhận [SlashResultUp] 1",
+                    "desc": "[WinDuel] Nhận 1 [SlashResultUp]",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây [Laceration] 6"
+                                    "desc": "[OnSucceedAttack] Gây 6 [Laceration]"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Số lần [Laceration] tăng thêm 2"
+                                    "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng thêm 2"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttackHead] Gây [Paralysis] 2 ở lượt tiếp theo"
+                                    "desc": "[OnSucceedAttackHead] Gây 2 [Paralysis] vào lượt tiếp theo"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Nếu Sức mạnh [Laceration] của mục tiêu từ 7 trở lên, gây thêm sát thương bằng 20% lượng sát thương"
+                                    "desc": "[OnSucceedAttack] Nếu Cường độ [Laceration] của mục tiêu từ 7 trở lên, gây thêm sát thương bằng 20% sát thương đã gây"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Nếu Sức mạnh [Laceration] của mục tiêu từ 7 trở lên, gây thêm sát thương bằng 20% lượng sát thương"
+                                    "desc": "[OnSucceedAttack] Nếu Cường độ [Laceration] của mục tiêu từ 7 trở lên, gây thêm sát thương bằng 20% sát thương đã gây"
                                 }
                             ]
                         }
@@ -1077,17 +1077,17 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây [Laceration] 5"
+                                    "desc": "[OnSucceedAttack] Gây 5 [Laceration]"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Số lần [Laceration] tăng thêm 3"
+                                    "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng thêm 3"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Gây [Binding] 2 ở lượt tiếp theo"
+                                    "desc": "[OnSucceedAttack] Gây 2 [Binding] vào lượt tiếp theo"
                                 }
                             ]
                         }
@@ -1101,22 +1101,22 @@
                 {
                     "level": 1,
                     "name": "Đuổi Chuột",
-                    "desc": "[WinDuel] Nếu Máu của mục tiêu từ 80% trở lên, lượng sát thương +50%\n[DefeatDuel] Nhận [DefenseDown] 2",
+                    "desc": "[WinDuel] Nếu Máu của mục tiêu từ 80% trở lên, Sát thương +50%\n[DefeatDuel] Nhận 2 [DefenseDown]",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây [Laceration] 4"
+                                    "desc": "[OnSucceedAttack] Gây 4 [Laceration]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttackHead] Số lần [Laceration] tăng thêm 2"
+                                    "desc": "[OnSucceedAttackHead] Số lượng [Laceration] tăng thêm 2"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Nếu Sức mạnh [Laceration] của mục tiêu từ 5 trở lên, gây thêm sát thương bằng 20% lượng sát thương"
+                                    "desc": "[OnSucceedAttack] Nếu Cường độ [Laceration] của mục tiêu từ 5 trở lên, gây thêm sát thương bằng 20% sát thương đã gây"
                                 }
                             ]
                         }
@@ -1130,39 +1130,39 @@
                 {
                     "level": 1,
                     "name": "Thuật Xử Lý Khách Phiền Phức",
-                    "desc": "[WhenUse] Nếu Tốc độ cao hơn mục tiêu từ 3 trở lên, sử dụng lại kĩ năng này (Tối đa 1 lần)",
+                    "desc": "[WhenUse] Nếu Tốc độ của bản thân cao hơn mục tiêu từ 3 trở lên, tái sử dụng Kĩ năng này (Tối đa 1 lần)",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây [Laceration] 10"
+                                    "desc": "[OnSucceedAttack] Gây 10 [Laceration]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttackHead] Gây [Vulnerable] 1"
+                                    "desc": "[OnSucceedAttackHead] Gây 1 [Vulnerable]"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Đẩy mốc Choáng lên phía trước dựa theo Sức mạnh [Laceration] của mục tiêu"
+                                    "desc": "[OnSucceedAttack] Đẩy Ngưỡng choáng của mục tiêu lên một khoảng bằng Cường độ [Laceration] trên mục tiêu"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttackHead] Gây [Paralysis] 2 ở lượt tiếp theo"
+                                    "desc": "[OnSucceedAttackHead] Gây 2 [Paralysis] vào lượt tiếp theo"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Nếu Sức mạnh [Laceration] của mục tiêu từ 12 trở lên, gây [AttackDown] 3"
+                                    "desc": "[OnSucceedAttack] Nếu Cường độ [Laceration] của mục tiêu từ 12 trở lên, gây 3 [AttackDown]"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Nếu Sức mạnh [Laceration] của mục tiêu từ 15 trở lên, gây [Vulnerable] 2 ở lượt tiếp theo"
+                                    "desc": "[OnSucceedAttack] Nếu Cường độ [Laceration] của mục tiêu từ 15 trở lên, gây 2 [Vulnerable] vào lượt tiếp theo"
                                 }
                             ]
                         }
@@ -1176,22 +1176,22 @@
                 {
                     "level": 1,
                     "name": "Trao Tặng Hộp",
-                    "desc": "[WhenUse] Nếu Tốc độ cao hơn mục tiêu từ 3 trở lên, Sức mạnh Đối đầu +2\n[WinDuel] Hồi 10 Tinh thần cho bản thân",
+                    "desc": "[WhenUse] Nếu Tốc độ của bản thân cao hơn mục tiêu từ 3 trở lên, Sức mạnh Đối kháng +2\n[WinDuel] Hồi 10 Tinh thần cho bản thân",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây [DefenseDown] 3"
+                                    "desc": "[OnSucceedAttack] Gây 3 [DefenseDown]"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây [Laceration] 10"
+                                    "desc": "[OnSucceedAttack] Gây 10 [Laceration]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Gây [Combustion] 10"
+                                    "desc": "[OnSucceedAttack] Gây 10 [Combustion]"
                                 }
                             ]
                         }
@@ -1229,17 +1229,17 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây [Sinking] 4"
+                                    "desc": "[OnSucceedAttack] Gây 4 [Sinking]"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây [Sinking] 4"
+                                    "desc": "[OnSucceedAttack] Gây 4 [Sinking]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttackHead] Gây [Binding] 1 ở lượt tiếp theo"
+                                    "desc": "[OnSucceedAttackHead] Gây 1 [Binding] vào lượt tiếp theo"
                                 }
                             ]
                         }
@@ -1253,19 +1253,19 @@
                 {
                     "level": 1,
                     "name": "Tiếp Đón Khách Không Mời",
-                    "desc": "[WinDuel] Nhận [PlusCoinValueUp] 1\n[DefeatDuel] Nhận [Sinking] 3",
+                    "desc": "[WinDuel] Nhận 1 [PlusCoinValueUp]\n[DefeatDuel] Nhận 3 [Sinking]",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây [Sinking] 8"
+                                    "desc": "[OnSucceedAttack] Gây 8 [Sinking]"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Số lần [Sinking] tăng thêm 3"
+                                    "desc": "[OnSucceedAttack] Số lượng [Sinking] tăng thêm 3"
                                 }
                             ]
                         }
@@ -1279,7 +1279,7 @@
                 {
                     "level": 1,
                     "name": "Tiếp Khách Đạo Nhị Thức: Trói Buộc",
-                    "desc": "[WhenUse] Với mỗi 5 Sức mạnh [Sinking] của mục tiêu, Sức mạnh Cơ bản +1 (Tối đa 2)",
+                    "desc": "[WhenUse] Với mỗi 5 Cường độ [Sinking] của mục tiêu, Sức mạnh Cơ bản +1 (Tối đa 2)",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -1304,7 +1304,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Nếu Sức mạnh [Sinking] của mục tiêu từ 8 trở lên, dùng lại mặt xu này (Tối đa 1 lần)"
+                                    "desc": "[OnSucceedAttack] Nếu Cường độ [Sinking] của mục tiêu từ 8 trở lên, tái sử dụng Đồng xu này (Tối đa 1 lần)"
                                 },
                                 {
                                     "desc": "[OnSucceedAttackHead] Gây 4 [DefenseDown], 1 [Vulnerable]"
@@ -1320,8 +1320,8 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Thủ",
-                    "desc": "Khi kết thúc lượt, nếu Hộ giáp vẫn còn, đẩy lùi ngưỡng Hỗn loạn đi 10\nNếu Hộ giáp bị tiêu hao hết, hồi 10 Tinh thần cho kẻ tấn công cuối cùng",
+                    "name": "Phòng thủ",
+                    "desc": "Khi kết thúc lượt, nếu còn Lá chắn, giảm Ngưỡng choáng đi 10\nNếu Lá chắn bị tiêu hao hết, hồi 10 Tinh thần cho kẻ tấn công cuối cùng",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -1368,20 +1368,20 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Tiếp đón Khách không mời",
+                    "name": "Tiếp Đón Khách Không Mời",
                     "desc": "[WinDuel] Nhận 1 [PlusCoinValueUp]\n[DefeatDuel] Nhận 3 [Sinking]",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Số lần [Sinking] tăng thêm 3"
+                                    "desc": "[OnSucceedAttack] Số lượng [Sinking] tăng thêm 3"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Số lần [Sinking] tăng thêm 3"
+                                    "desc": "[OnSucceedAttack] Số lượng [Sinking] tăng thêm 3"
                                 }
                             ]
                         }
@@ -1394,8 +1394,8 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Tiếp Khách Đạo Nhị Thức: Giải Lực",
-                    "desc": "Với mỗi 5 Sức mạnh [Sinking] của mục tiêu, Sức mạnh Cơ bản +1 (Tối đa 2)",
+                    "name": "Tiếp Khách Đạo Nhị Thức: Mất Sức",
+                    "desc": "Với mỗi 5 Cường độ [Sinking] của mục tiêu, Sức mạnh Cơ bản +1 (Tối đa 2)",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -1420,7 +1420,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Nếu Số lần [Sinking] của mục tiêu từ 4 trở lên, dùng lại mặt xu này (Tối đa 1 lần)"
+                                    "desc": "[OnSucceedAttack] Nếu Số lượng [Sinking] của mục tiêu từ 4 trở lên, tái sử dụng Đồng xu này (Tối đa 1 lần)"
                                 },
                                 {
                                     "desc": "[OnSucceedAttackHead] Gây 4 [AttackDown], 1 [Paralysis] vào lượt tiếp theo"
@@ -1436,8 +1436,8 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Thủ",
-                    "desc": "Khi kết thúc lượt, nếu Hộ giáp vẫn còn, đẩy lùi ngưỡng Hỗn loạn đi 10\nNếu Hộ giáp bị tiêu hao hết, hồi 10 Tinh thần cho kẻ tấn công cuối cùng",
+                    "name": "Phòng thủ",
+                    "desc": "Khi kết thúc lượt, nếu còn Lá chắn, giảm Ngưỡng choáng đi 10\nNếu Lá chắn bị tiêu hao hết, hồi 10 Tinh thần cho kẻ tấn công cuối cùng",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -1456,7 +1456,7 @@
                 {
                     "level": 1,
                     "name": "Gõ cửa",
-                    "desc": "[WhenUse] Nếu Sức mạnh [Sinking] của mục tiêu từ 5 trở lên, gây 1 [AttackDown]",
+                    "desc": "[WhenUse] Nếu Cường độ [Sinking] của mục tiêu từ 5 trở lên, gây 1 [AttackDown]",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -1493,14 +1493,14 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây 1 Suy yếu Mặt cộng vào lượt tiếp theo"
+                                    "desc": "[OnSucceedAttack] Gây 1 Suy yếu đồng xu cộng vào lượt tiếp theo"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Số lần [Sinking] tăng thêm 3"
+                                    "desc": "[OnSucceedAttack] Số lượng [Sinking] tăng thêm 3"
                                 },
                                 {
                                     "desc": "[OnSucceedAttack] Gây 2 [Vulnerable] vào lượt tiếp theo"
@@ -1516,8 +1516,8 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Tuân lệnh phu nhân...!",
-                    "desc": "[WhenUse] Với mỗi 3 Sức mạnh [Sinking] của mục tiêu, Sức mạnh Cơ bản +1 (Tối đa 3)\n[WinDuel] Hồi 5 Tinh thần cho tất cả đồng minh",
+                    "name": "Tuân lệnh Phu nhân...!",
+                    "desc": "[WhenUse] Với mỗi 3 Cường độ [Sinking] của mục tiêu, Sức mạnh Cơ bản +1 (Tối đa 3)\n[WinDuel] Hồi 5 Tinh thần cho tất cả đồng minh",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -1525,7 +1525,7 @@
                                     "desc": "[OnSucceedAttack] Gây 8 [Sinking]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttackHead] Số lần [Sinking] tăng thêm 2"
+                                    "desc": "[OnSucceedAttackHead] Số lượng [Sinking] tăng thêm 2"
                                 }
                             ]
                         },
@@ -1535,7 +1535,7 @@
                                     "desc": "[OnSucceedAttack] Gây 8 [Sinking]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttackHead] Số lần [Sinking] tăng thêm 2"
+                                    "desc": "[OnSucceedAttackHead] Số lượng [Sinking] tăng thêm 2"
                                 }
                             ]
                         },
@@ -1548,7 +1548,7 @@
                                     "desc": "[OnSucceedAttack] Gây 8 [Sinking]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttackHead] Số lần [Sinking] tăng thêm 2"
+                                    "desc": "[OnSucceedAttackHead] Số lượng [Sinking] tăng thêm 2"
                                 }
                             ]
                         }
@@ -1567,27 +1567,27 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây thêm sát thương thuộc tính Trầm mặc bằng với số lượng Sức mạnh [Sinking] của mục tiêu. Giảm số lần [Sinking] đi 1"
+                                    "desc": "[OnSucceedAttack] Gây thêm sát thương hệ U sầu bằng Cường độ [Sinking] của mục tiêu. Giảm 1 Số lượng [Sinking] của mục tiêu"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây thêm sát thương thuộc tính Trầm mặc bằng với số lượng Sức mạnh [Sinking] của mục tiêu. Giảm số lần [Sinking] đi 1"
+                                    "desc": "[OnSucceedAttack] Gây thêm sát thương hệ U sầu bằng Cường độ [Sinking] của mục tiêu. Giảm 1 Số lượng [Sinking] của mục tiêu"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây thêm sát thương thuộc tính Trầm mặc bằng với số lượng Sức mạnh [Sinking] của mục tiêu. Giảm số lần [Sinking] đi 1"
+                                    "desc": "[OnSucceedAttack] Gây thêm sát thương hệ U sầu bằng Cường độ [Sinking] của mục tiêu. Giảm 1 Số lượng [Sinking] của mục tiêu"
                                 },
                                 {
                                     "desc": "[OnSucceedAttack] Gây 4 [Sinking]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Nếu số lần [Sinking] của mục tiêu từ 3 trở lên, tái sử dụng đồng xu này (Tối đa 2 lần)"
+                                    "desc": "[OnSucceedAttack] Nếu Số lượng [Sinking] của mục tiêu từ 3 trở lên, tái sử dụng Đồng xu này (Tối đa 2 lần)"
                                 }
                             ]
                         }
@@ -1601,7 +1601,7 @@
                 {
                     "level": 1,
                     "name": "Lũ chuột nhắt kia!",
-                    "desc": "Khi kết thúc lượt, nếu Lá chắn vẫn còn, đẩy lùi Ngưỡng Hoảng Loạn đi 50\nNếu tiêu hao hết Lá chắn, hồi phục 10 Tinh thần cho toàn bộ kẻ địch",
+                    "desc": "Khi kết thúc lượt, nếu còn Lá chắn, giảm Ngưỡng choáng đi 50\nNếu tiêu hao hết Lá chắn, hồi 10 Tinh thần cho tất cả kẻ địch",
                     "coinlist": [
                         {
                             "coindescs": [

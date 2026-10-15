@@ -32,12 +32,12 @@
                 {
                     "level": 1,
                     "name": "Khắc ghi Nỗi sợ",
-                    "desc": "[WinDuel] Gây 5 sát thương Tinh thần cho mục tiêu, hồi 10 Máu cho bản thân",
+                    "desc": "[WinDuel] Gây 10 sát thương Tinh thần cho mục tiêu, hồi 10 Máu cho bản thân",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây 1 Trói buộc (Bind) vào lượt sau"
+                                    "desc": "[OnSucceedAttack] Gây 1 Trói buộc vào lượt tiếp theo"
                                 }
                             ]
                         }
@@ -83,19 +83,19 @@
                 {
                     "level": 1,
                     "name": "Tê liệt Tinh thần",
-                    "desc": "Nếu Tinh thần của mục tiêu dưới -15, Sát thương gây ra +10%",
+                    "desc": "Nếu Tinh thần của mục tiêu dưới -15, Sát thương gây ra +50%",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây 2 Tê liệt (Paralysis) vào lượt sau"
+                                    "desc": "[OnSucceedAttack] Gây 2 Tê liệt vào lượt tiếp theo"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây 2 Tê liệt (Paralysis) vào lượt sau"
+                                    "desc": "[OnSucceedAttack] Gây 2 Tê liệt vào lượt tiếp theo"
                                 }
                             ]
                         }
@@ -114,14 +114,14 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây 3 Trầm luân (Sinking)"
+                                    "desc": "[OnSucceedAttack] Gây 3 Trầm luân"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây 3 Trầm luân (Sinking)"
+                                    "desc": "[OnSucceedAttack] Gây 3 Trầm luân"
                                 }
                             ]
                         }
@@ -140,10 +140,10 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây 3 Trầm luân (Sinking)"
+                                    "desc": "[OnSucceedAttack] Gây 3 Trầm luân"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttackHead] Số lần Trầm luân (Sinking) tăng 3"
+                                    "desc": "[OnSucceedAttackHead] Tăng 3 Số lượng Trầm luân"
                                 }
                             ]
                         }
@@ -157,7 +157,7 @@
                 {
                     "level": 1,
                     "name": "...- .",
-                    "desc": "Nếu có đồng đội ở trạng thái Trắng hóa đang còn sống ngoại trừ bản thân, Sức mạnh Cuối cùng +1 với mỗi đồng đội",
+                    "desc": "Nếu có đồng minh trong trạng thái Bạch hóa còn sống ngoại trừ bản thân, Sức mạnh Cuối cùng +1 cho mỗi đồng minh",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -165,7 +165,7 @@
                                     "desc": "[OnSucceedAttack] Hồi Máu bằng 40% lượng sát thương gây ra"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Bản thân nhận được 1 buff của mục tiêu vào lượt tiếp theo.\n(Chỉ giới hạn ở Tăng Sức mạnh Tấn công, Nhanh nhẹn (Haste), Tăng Sát thương, <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Bảo vệ</link></u></color>)"
+                                    "desc": "[OnSucceedAttack] Sao chép 1 buff hiện có của mục tiêu và nhận buff đó vào lượt tiếp theo.\n(Chỉ giới hạn ở Tăng Uy lực Tấn công, Nhanh nhẹn, Tăng sát thương và <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Bảo hộ</link></u></color>)"
                                 }
                             ]
                         },
@@ -191,14 +191,14 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Số lần Trầm luân (Sinking) tăng 2"
+                                    "desc": "[OnSucceedAttack] Tăng 2 Số lượng Trầm luân"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Số lần Trầm luân (Sinking) tăng 2"
+                                    "desc": "[OnSucceedAttack] Tăng 2 Số lượng Trầm luân"
                                 }
                             ]
                         }
@@ -217,10 +217,10 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Số lần Trầm luân (Sinking) tăng 2"
+                                    "desc": "[OnSucceedAttack] Tăng 2 Số lượng Trầm luân"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttackHead] Gây 2 Trầm luân (Sinking)"
+                                    "desc": "[OnSucceedAttackHead] Gây 2 Trầm luân"
                                 }
                             ]
                         }
@@ -234,7 +234,7 @@
                 {
                     "level": 1,
                     "name": ".-.. -",
-                    "desc": "[WinDuel] Gây 1 sát thương Tinh thần cho mục tiêu dựa trên số lượng đồng đội ở trạng thái Trắng hóa đang còn sống ngoại trừ bản thân",
+                    "desc": "[WinDuel] Gây 1 sát thương Tinh thần cho mục tiêu với mỗi đồng minh trong trạng thái Bạch hóa còn sống ngoại trừ bản thân",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -242,7 +242,7 @@
                                     "desc": "[OnSucceedAttack] Hồi Máu bằng 40% lượng sát thương gây ra"
                                 },
                                 {
-                                    "desc": "Bản thân nhận được 1 buff của mục tiêu vào lượt tiếp theo.\n(Chỉ giới hạn ở Tăng Sức mạnh Tấn công, Nhanh nhẹn (Haste), Tăng Sát thương, <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Bảo vệ</link></u></color>)"
+                                    "desc": "Sao chép 1 buff hiện có của mục tiêu và nhận buff đó vào lượt tiếp theo.\n(Chỉ giới hạn ở Tăng Uy lực Tấn công, Nhanh nhẹn, Tăng sát thương và <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Bảo hộ</link></u></color>)"
                                 }
                             ]
                         },
@@ -263,7 +263,7 @@
                 {
                     "level": 1,
                     "name": "-... .…",
-                    "desc": "Nếu mục tiêu có <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Trầm luân (Sinking)</link></u></color>, áp dụng tương tự cho 1 đồng đội ở trạng thái Trắng hóa có hiệu quả hồi Máu thấp nhất",
+                    "desc": "Nếu mục tiêu có <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Trầm luân</link></u></color>, hiệu ứng hồi Máu cũng áp dụng cho 1 đồng minh Bạch hóa khác có Tinh thần thấp nhất",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -271,7 +271,7 @@
                                     "desc": "[OnSucceedAttack] Hồi Máu bằng 30% lượng sát thương gây ra"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttackHead] Gây 1 Trầm luân (Sinking)"
+                                    "desc": "[OnSucceedAttackHead] Gây 1 Trầm luân"
                                 }
                             ]
                         },
@@ -281,7 +281,7 @@
                                     "desc": "[OnSucceedAttack] Hồi Máu bằng 30% lượng sát thương gây ra"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttackHead] Gây 1 Trầm luân (Sinking)"
+                                    "desc": "[OnSucceedAttackHead] Gây 1 Trầm luân"
                                 }
                             ]
                         }
@@ -295,7 +295,7 @@
                 {
                     "level": 1,
                     "name": ".--- .",
-                    "desc": "Nếu mục tiêu có <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Trầm luân (Sinking)</link></u></color>, áp dụng tương tự cho 1 đồng đội ở trạng thái Trắng hóa có hiệu quả hồi Máu thấp nhất",
+                    "desc": "Nếu mục tiêu có <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Trầm luân</link></u></color>, hiệu ứng hồi Máu cũng áp dụng cho 1 đồng minh Bạch hóa khác có Tinh thần thấp nhất",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -317,12 +317,12 @@
                 {
                     "level": 1,
                     "name": "-. .…",
-                    "desc": "[WhenUse] Khi mục tiêu có <sprite name=\"AaCePbBa\"><color=#e30000><u><link=\"AaCePbBa\">Tiếng ồn Nhợt nhạt</link></u></color>, hồi 30 Máu cho đồng đội ở trạng thái Trắng hóa có Máu thấp nhất ngoại trừ bản thân",
+                    "desc": "[WhenUse] Khi mục tiêu có <sprite name=\"AaCePbBa\"><color=#e30000><u><link=\"AaCePbBa\">Tiếng ồn Nhợt nhạt</link></u></color>, tất cả đồng minh Bạch hóa khác hồi 30 Máu",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "Bản thân nhận được 1 buff của mục tiêu vào lượt tiếp theo.\n(Chỉ giới hạn ở Tăng Sức mạnh Tấn công, Nhanh nhẹn (Haste), Tăng Sát thương, <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Bảo vệ</link></u></color>)"
+                                    "desc": "Sao chép 1 buff hiện có của mục tiêu và nhận buff đó vào lượt tiếp theo.\n(Chỉ giới hạn ở Tăng Uy lực Tấn công, Nhanh nhẹn, Tăng sát thương và <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Bảo hộ</link></u></color>)"
                                 }
                             ]
                         },
@@ -348,14 +348,14 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây 3 Chấn động (Tremor)"
+                                    "desc": "[OnSucceedAttack] Gây 3 Chấn động"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây 3 Chấn động (Tremor)"
+                                    "desc": "[OnSucceedAttack] Gây 3 Chấn động"
                                 }
                             ]
                         }
@@ -369,12 +369,12 @@
                 {
                     "level": 1,
                     "name": "-... .-",
-                    "desc": "[WhenUse] Vào lượt tiếp theo, nhận 1 Bảo vệ cho 1 đồng đội ngẫu nhiên ngoại trừ bản thân. Nếu mục tiêu ở trạng thái Trắng hóa, nhận thêm 1",
+                    "desc": "[WhenUse] Vào lượt tiếp theo, trao 1 Bảo hộ cho 1 đồng minh ngẫu nhiên khác. Nếu đồng minh đó ở trạng thái Bạch hóa, trao thêm 1",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Số lần Chấn động (Tremor) tăng 4"
+                                    "desc": "[OnSucceedAttack] Tăng 4 Số lượng Chấn động"
                                 }
                             ]
                         }
@@ -393,20 +393,20 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Bộc phát (Burst) Chấn động"
+                                    "desc": "[OnSucceedAttack] Kích hoạt Chấn động Bộc phát"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Số tầng [Chấn động] giảm 2"
+                                    "desc": "[OnSucceedAttack] Giảm 2 Số lượng Chấn động"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Gây 1 Tiếng ồn Trắng bệch"
+                                    "desc": "[OnSucceedAttack] Gây 1 Tiếng ồn Nhợt nhạt"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây 10 [Vết rách], tăng 4 số tầng [Vết rách]"
+                                    "desc": "[OnSucceedAttack] Gây 10 Vết rách, tăng 4 Số lượng Vết rách"
                                 }
                             ]
                         }
@@ -420,7 +420,7 @@
                 {
                     "level": 1,
                     "name": ".--. .",
-                    "desc": "[StartBattle] Vào lượt tiếp theo, nhận 1 Bảo hộ với mỗi 2 đồng minh ở trạng thái Trắng hóa (ngoại trừ bản thân)\nKhi có rào chắn, gây 1 [Chấn động] cho kẻ tấn công khi nhận sát thương",
+                    "desc": "[StartBattle] Vào lượt tiếp theo, nhận 1 Bảo hộ cho mỗi 2 đồng minh trong trạng thái Bạch hóa (ngoại trừ bản thân)\nKhi bị tấn công trong lúc có Lá chắn, gây 1 Chấn động cho kẻ tấn công",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -444,7 +444,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây 2 Giảm Cấp Phòng ngự"
+                                    "desc": "[OnSucceedAttack] Gây 2 Giảm Cấp độ Phòng thủ"
                                 }
                             ]
                         }
@@ -458,15 +458,15 @@
                 {
                     "level": 1,
                     "name": ".-.. .",
-                    "desc": "[WhenUse] Vào lượt tiếp theo, gây 1 Tăng Sát thương cho 1 đồng minh ngẫu nhiên (ngoại trừ bản thân) đang ở trạng thái Trắng hóa",
+                    "desc": "[WhenUse] Vào lượt tiếp theo, trao 1 Tăng sát thương cho 1 đồng minh Bạch hóa ngẫu nhiên khác",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây 2 [Tê liệt]"
+                                    "desc": "[OnSucceedAttack] Gây 2 Tê liệt"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttackHead] Gây 1 Tiếng ồn Trắng bệch"
+                                    "desc": "[OnSucceedAttackHead] Gây 1 Tiếng ồn Nhợt nhạt"
                                 }
                             ]
                         }
@@ -480,22 +480,22 @@
                 {
                     "level": 1,
                     "name": ".-.. .-",
-                    "desc": "[WhenUse] Vào lượt tiếp theo, gây 1 Tăng Sức mạnh Tấn công cho 1 đồng minh ngẫu nhiên (bao gồm cả bản thân) đang ở trạng thái Trắng hóa",
+                    "desc": "[WhenUse] Vào lượt tiếp theo, trao 1 Tăng sát thương cho 1 đồng minh Bạch hóa ngẫu nhiên",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây 2 Giảm Cấp Phòng ngự"
+                                    "desc": "[OnSucceedAttack] Gây 2 Giảm Cấp độ Phòng thủ"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Gây 1 Tiếng ồn Trắng bệch"
+                                    "desc": "[OnSucceedAttack] Gây 1 Tiếng ồn Nhợt nhạt"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây 2 Giảm Cấp Phòng ngự"
+                                    "desc": "[OnSucceedAttack] Gây 2 Giảm Cấp độ Phòng thủ"
                                 }
                             ]
                         }
@@ -509,15 +509,15 @@
                 {
                     "level": 1,
                     "name": "--. . ...-",
-                    "desc": "Khi mục tiêu có <sprite name=\"AaCePbBa\"><color=#e30000><u><link=\"AaCePbBa\">Tiếng ồn Trắng bệch</link></u></color>, với mỗi đồng minh còn sống (ngoại trừ bản thân), gây 1 sát thương Tinh thần cho mục tiêu",
+                    "desc": "Khi mục tiêu có <sprite name=\"AaCePbBa\"><color=#e30000><u><link=\"AaCePbBa\">Tiếng ồn Nhợt nhạt</link></u></color>, gây 1 sát thương Tinh thần cho mục tiêu với mỗi đồng minh còn sống ngoại trừ bản thân",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Tăng 2 số tầng [Xuất huyết]"
+                                    "desc": "[OnSucceedAttack] Tăng 2 Số lượng Xuất huyết"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttackHead] Gây 3 [Xuất huyết]"
+                                    "desc": "[OnSucceedAttackHead] Gây 3 Xuất huyết"
                                 }
                             ]
                         }
@@ -536,17 +536,17 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây 1 Tiếng ồn Trắng bệch"
+                                    "desc": "[OnSucceedAttack] Gây 1 Tiếng ồn Nhợt nhạt"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Tăng 3 số tầng [Xuất huyết]"
+                                    "desc": "[OnSucceedAttack] Tăng 3 Số lượng Xuất huyết"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Gây 3 [Xuất huyết]"
+                                    "desc": "[OnSucceedAttack] Gây 3 Xuất huyết"
                                 }
                             ]
                         }
@@ -560,19 +560,19 @@
                 {
                     "level": 1,
                     "name": ".--. .... -",
-                    "desc": "[WinDuel] Gây 1 Tiếng ồn Trắng bệch",
+                    "desc": "[WinDuel] Gây 1 Tiếng ồn Nhợt nhạt",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Vào lượt tiếp theo, gây 4 [Xuất huyết]"
+                                    "desc": "[OnSucceedAttack] Gây 4 Xuất huyết vào lượt tiếp theo"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Vào lượt tiếp theo, gây 2 [Mong manh]"
+                                    "desc": "[OnSucceedAttack] Gây 2 Mong manh vào lượt tiếp theo"
                                 }
                             ]
                         }
@@ -586,7 +586,7 @@
                 {
                     "level": 1,
                     "name": "-.- -",
-                    "desc": "Khi rào chắn vẫn còn, gây 1 Tiếng ồn Trắng bệch cho đối tượng khi nhận sát thương\n[EndBattle] Khi rào chắn vẫn còn, nhận 3 [Hơi thở] vào lượt tiếp theo.",
+                    "desc": "Khi bị tấn công trong lúc có Lá chắn, gây 1 Tiếng ồn Nhợt nhạt cho mục tiêu\n[EndBattle] Nếu còn Lá chắn, nhận 3 Hơi thở vào lượt tiếp theo.",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -610,10 +610,10 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Vào lượt tiếp theo, gây 2 [Trói buộc]"
+                                    "desc": "[OnSucceedAttack] Gây 2 Trói buộc vào lượt tiếp theo"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Gây 2 [Xuất huyết]"
+                                    "desc": "[OnSucceedAttack] Gây 2 Xuất huyết"
                                 }
                             ]
                         }
@@ -632,20 +632,20 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Vào lượt tiếp theo, gây 1 [Tê liệt]"
+                                    "desc": "[OnSucceedAttack] Gây 1 Tê liệt vào lượt tiếp theo"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Gây 2 [Xuất huyết]"
+                                    "desc": "[OnSucceedAttack] Gây 2 Xuất huyết"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Vào lượt tiếp theo, gây 2 Giảm Sát thương"
+                                    "desc": "[OnSucceedAttack] Gây 2 Giảm sát thương vào lượt tiếp theo"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Gây 2 [Xuất huyết]"
+                                    "desc": "[OnSucceedAttack] Gây 2 Xuất huyết"
                                 }
                             ]
                         }
@@ -659,7 +659,7 @@
                 {
                     "level": 1,
                     "name": "-- .... -",
-                    "desc": "[WhenUse] Nhận 1 Bảo hộ với mỗi đồng minh còn sống. (Tối đa 3)",
+                    "desc": "[WhenUse] Nhận 1 Bảo hộ cho mỗi đồng minh còn sống. (Tối đa 3)",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -667,17 +667,17 @@
                                     "desc": "[OnSucceedAttack] Nhận 2 Bảo hộ"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttackHead] Gây 1 Tiếng ồn Trắng bệch"
+                                    "desc": "[OnSucceedAttackHead] Gây 1 Tiếng ồn Nhợt nhạt"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Vào lượt tiếp theo, nhận 2 Bảo hộ"
+                                    "desc": "[OnSucceedAttack] Nhận 2 Bảo hộ vào lượt tiếp theo"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttackHead] Vào lượt tiếp theo, gây 4 [Xuất huyết]"
+                                    "desc": "[OnSucceedAttackHead] Gây 4 Xuất huyết vào lượt tiếp theo"
                                 }
                             ]
                         }
@@ -691,7 +691,7 @@
                 {
                     "level": 1,
                     "name": "-.- ..",
-                    "desc": "[WhenUse] Nhận 2 Bảo hộ\nKhi rào chắn vẫn còn, gây 1 Tiếng ồn Trắng bệch cho đối tượng khi nhận sát thương\n[EndBattle] Hồi phục Máu của bản thân bằng 2 lần lượng rào chắn còn lại.",
+                    "desc": "[WhenUse] Nhận 2 Bảo hộ\nKhi bị tấn công trong lúc có Lá chắn, gây 1 Tiếng ồn Nhợt nhạt cho mục tiêu\n[EndBattle] Hồi Máu bằng 2 lần lượng Lá chắn còn lại.",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -709,13 +709,13 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Đấm vào chấn thủy",
+                    "name": "Đấm trúng thượng vị",
                     "desc": "",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttackHead] Vào lượt tiếp theo, gây 1 [Tê liệt]"
+                                    "desc": "[OnSucceedAttackHead] Gây 1 Tê liệt vào lượt tiếp theo"
                                 }
                             ]
                         }
@@ -729,19 +729,19 @@
                 {
                     "level": 1,
                     "name": "Nhớ lấy!",
-                    "desc": "[DefeatDuel] Vào lượt tiếp theo, nhận 1 Tăng Sát thương",
+                    "desc": "[DefeatDuel] Nhận 1 Tăng sát thương vào lượt tiếp theo",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Vào lượt tiếp theo, gây 2 [Trói buộc]"
+                                    "desc": "[OnSucceedAttack] Gây 2 Trói buộc vào lượt tiếp theo"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Trong Wave này, gây thêm sát thương cố định tương ứng với số đồng minh thuộc Ngón Giữa đã chết"
+                                    "desc": "[OnSucceedAttack] Gây thêm sát thương cố định bằng số đồng minh thuộc Ngón Giữa đã tử trận trong đợt này"
                                 }
                             ]
                         }
@@ -760,14 +760,14 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttackHead] Vào lượt tiếp theo, gây 1 Giảm Sức mạnh Tấn công"
+                                    "desc": "[OnSucceedAttackHead] Gây 1 Giảm Uy lực Tấn công vào lượt tiếp theo"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Vào lượt tiếp theo, gây 2 [Tê liệt]"
+                                    "desc": "[OnSucceedAttack] Gây 2 Tê liệt vào lượt tiếp theo"
                                 }
                             ]
                         }
@@ -781,7 +781,7 @@
                 {
                     "level": 1,
                     "name": "Chuẩn bị khắc ghi",
-                    "desc": "[EndBattle] Nếu rào chắn vẫn còn, nhận 1 Tăng Sức mạnh Tấn công vào lượt tiếp theo",
+                    "desc": "[EndBattle] Nếu còn Lá chắn, nhận 1 Tăng Uy lực Tấn công vào lượt tiếp theo",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -800,16 +800,16 @@
                 {
                     "level": 1,
                     "name": "Báo thù",
-                    "desc": "[DefeatDuel] Vào lượt tiếp theo, nhận 1 Tăng Sát thương",
+                    "desc": "[DefeatDuel] Nhận 1 Tăng sát thương vào lượt tiếp theo",
                     "coinlist": [
                         {},
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Vào lượt tiếp theo, gây 2 [Tê liệt]"
+                                    "desc": "[OnSucceedAttack] Gây 2 Tê liệt vào lượt tiếp theo"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttackTail] Đẩy thanh choáng lên 8"
+                                    "desc": "[OnSucceedAttackTail] Nâng Ngưỡng Choáng lên 8"
                                 }
                             ]
                         }
@@ -828,13 +828,13 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Đẩy ngưỡng loạng choạng tới 30"
+                                    "desc": "[OnSucceedAttack] Nâng Ngưỡng Choáng lên 30"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] 20 sát thương cố định"
+                                    "desc": "[OnSucceedAttack] Gây 20 sát thương cố định"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttackHead] Lượt tiếp theo gây 3 Tê liệt"
+                                    "desc": "[OnSucceedAttackHead] Gây 3 Tê liệt vào lượt tiếp theo"
                                 }
                             ]
                         }
@@ -847,13 +847,13 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Đấm vào chấn thủy",
+                    "name": "Đấm trúng thượng vị",
                     "desc": "",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttackHead] Lượt tiếp theo gây 1 Tê liệt"
+                                    "desc": "[OnSucceedAttackHead] Gây 1 Tê liệt vào lượt tiếp theo"
                                 }
                             ]
                         }
@@ -866,20 +866,20 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Khắc ghi!",
-                    "desc": "[DefeatDuel] Lượt tiếp theo nhận 1 Tăng lượng sát thương",
+                    "name": "Khắc ghi tội lỗi!",
+                    "desc": "[DefeatDuel] Nhận 1 Tăng sát thương vào lượt tiếp theo",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Lượt tiếp theo gây 2 Giảm lượng sát thương"
+                                    "desc": "[OnSucceedAttack] Gây 2 Giảm sát thương vào lượt tiếp theo"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Trong suốt đợt, gây thêm sát thương cố định bằng số lượng đồng minh thuộc Ngón Giữa đã tử trận"
+                                    "desc": "[OnSucceedAttack] Gây thêm sát thương cố định bằng số đồng minh thuộc Ngón Giữa đã tử trận trong đợt này"
                                 }
                             ]
                         }
@@ -898,14 +898,14 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttackHead] Lượt tiếp theo gây 1 Yếu hóa đồng xu cộng"
+                                    "desc": "[OnSucceedAttackHead] Gây 1 Suy yếu đồng xu cộng vào lượt tiếp theo"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Lượt tiếp theo gây 1 Yếu hóa đồng xu cộng"
+                                    "desc": "[OnSucceedAttack] Gây 1 Suy yếu đồng xu cộng vào lượt tiếp theo"
                                 }
                             ]
                         }
@@ -919,7 +919,7 @@
                 {
                     "level": 1,
                     "name": "Chuẩn bị khắc ghi",
-                    "desc": "Khi tất cả Lớp giáp bị tiêu hao, lượt tiếp theo nhận 1 Tăng sức mạnh tấn công",
+                    "desc": "Khi Lá chắn bị tiêu hao hoàn toàn, nhận 1 Tăng Uy lực Tấn công vào lượt tiếp theo",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -938,16 +938,16 @@
                 {
                     "level": 1,
                     "name": "Báo thù",
-                    "desc": "[DefeatDuel] Lượt tiếp theo nhận 1 Tăng lượng sát thương",
+                    "desc": "[DefeatDuel] Nhận 1 Tăng sát thương vào lượt tiếp theo",
                     "coinlist": [
                         {},
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Lượt tiếp theo gây 2 Tê liệt"
+                                    "desc": "[OnSucceedAttack] Gây 2 Tê liệt vào lượt tiếp theo"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttackTail] Đẩy ngưỡng loạng choạng tới 8"
+                                    "desc": "[OnSucceedAttackTail] Nâng Ngưỡng Choáng lên 8"
                                 }
                             ]
                         }
@@ -966,13 +966,13 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Đẩy ngưỡng loạng choạng tới 30"
+                                    "desc": "[OnSucceedAttack] Nâng Ngưỡng Choáng lên 30"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] 20 sát thương cố định"
+                                    "desc": "[OnSucceedAttack] Gây 20 sát thương cố định"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Lượt tiếp theo gây 3 Tê liệt"
+                                    "desc": "[OnSucceedAttack] Gây 3 Tê liệt vào lượt tiếp theo"
                                 }
                             ]
                         }

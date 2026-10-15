@@ -52,7 +52,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion]. Giảm số lần [Vibration] của mục tiêu đi 1"
+                  "desc": "[OnSucceedAttack] Kích hoạt [VibrationExplosion]. Số lượng [Vibration] của mục tiêu giảm 1"
                 }
               ]
             }
@@ -65,7 +65,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Kích hoạt đạn HP",
+          "name": "Kích hoạt Đạn HP",
           "desc": "[WhenUse] Hồi 20 HP",
           "coinlist": [
             {}
@@ -84,7 +84,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Tăng số lần [Vibration] thêm 2"
+                  "desc": "[OnSucceedAttack] Tăng thêm 2 Số lượng [Vibration]"
                 }
               ]
             }
@@ -97,7 +97,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Kích hoạt đạn HP",
+          "name": "Kích hoạt Đạn HP",
           "desc": "[WhenUse] Hồi 20 HP",
           "coinlist": [
             {}
@@ -111,7 +111,7 @@
         {
           "level": 1,
           "name": "Phòng hộ",
-          "desc": "[WinDuel] Gây 1 [ResultEnhancement] cho 2 đồng minh ngẫu nhiên vào lượt sau",
+          "desc": "[WinDuel] Áp dụng 1 [ResultEnhancement] cho 2 đồng minh ngẫu nhiên vào lượt tiếp theo",
           "coinlist": [
             {}
           ]
@@ -123,8 +123,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Viện trợ",
-          "desc": "[WhenUse] Vào lượt sau, gây 2 [Protection] cho 2 đồng minh ngẫu nhiên ngoại trừ bản thân",
+          "name": "Yểm trợ",
+          "desc": "[WhenUse] Áp dụng 2 [Protection] cho 2 đồng minh ngẫu nhiên khác vào lượt tiếp theo",
           "coinlist": [
             {
               "coindescs": [
@@ -174,7 +174,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Tăng số lần [Burst] thêm 3"
+                  "desc": "[OnSucceedAttack] Tăng thêm 3 Số lượng [Burst]"
                 }
               ]
             }
@@ -187,20 +187,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Ngăn chặn ra vào",
+          "name": "Chặn lối ra vào",
           "desc": "[WhenUse] Mỗi 3 [Burst] của mục tiêu, Sức mạnh Đồng xu +1 (Tối đa 2)\n[DefeatDuel] Hồi 10 HP",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Tăng số lần [Burst] thêm 2"
+                  "desc": "[OnSucceedAttack] Tăng thêm 2 Số lượng [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây sát thương HP bằng Sức mạnh [Burst] × Số lần [Burst]. Tiêu hao toàn bộ [Burst] của mục tiêu"
+                  "desc": "[OnSucceedAttack] Gây sát thương HP bằng (Cường độ [Burst] × Số lượng [Burst]). Tiêu hao toàn bộ [Burst] của mục tiêu"
                 }
               ]
             }
@@ -232,7 +232,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Chế áp",
+          "name": "Kiềm chế",
           "desc": "[WhenUse] Nếu [Burst] của mục tiêu từ 3 trở lên, Sức mạnh Cơ bản +2",
           "coinlist": [
             {
@@ -245,7 +245,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Tăng số lần [Burst] thêm 3"
+                  "desc": "[OnSucceedAttack] Tăng thêm 3 Số lượng [Burst]"
                 }
               ]
             }
@@ -271,7 +271,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Nếu Đồng xu 1 mặt Ngửa, lượng sát thương +10%"
+                  "desc": "Nếu đồng xu 1 mặt Ngửa, lượng sát thương +10%"
                 },
                 {
                   "desc": "[OnSucceedAttack] Gây 2 [Burst]"
@@ -281,7 +281,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Nếu Đồng xu 2 mặt Ngửa, lượng sát thương +10%"
+                  "desc": "Nếu đồng xu 2 mặt Ngửa, lượng sát thương +10%"
                 },
                 {
                   "desc": "[OnSucceedAttack] Gây 2 [Burst]"
@@ -291,10 +291,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "Nếu Đồng xu 2, 3 mặt Ngửa, lượng sát thương +30%"
+                  "desc": "Nếu đồng xu 2, 3 mặt Ngửa, lượng sát thương +30%"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gây sát thương HP bằng Sức mạnh [Burst] × Số lần [Burst]. Tiêu hao toàn bộ [Burst] của mục tiêu"
+                  "desc": "[OnSucceedAttack] Gây sát thương HP bằng (Cường độ [Burst] × Số lượng [Burst]). Tiêu hao toàn bộ [Burst] của mục tiêu"
                 }
               ]
             }
@@ -307,13 +307,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Gii",
-          "desc": "[WhenUse] Mỗi loại hiệu ứng bất lợi trên mục tiêu, Sức mạnh Đối kháng +2 (Tối đa 6)",
+          "name": "Kii",
+          "desc": "[WhenUse] Với mỗi loại hiệu ứng bất lợi trên mục tiêu, Uy lực Đối kháng +2 (Tối đa 6)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số [Burst] tăng thêm 5"
+                  "desc": "[OnSucceedAttack] Tăng thêm 5 Số lượng [Burst]"
                 }
               ]
             }
@@ -326,20 +326,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Giii",
-          "desc": "[WhenUse] Với mỗi loại hiệu ứng bất lợi trên mục tiêu, Sức mạnh Trận đấu +2 (Tối đa 6)",
+          "name": "Kiih",
+          "desc": "[WhenUse] Với mỗi loại hiệu ứng bất lợi trên mục tiêu, Uy lực Đối kháng +2 (Tối đa 6)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số [Burst] tăng thêm 3"
+                  "desc": "[OnSucceedAttack] Tăng thêm 3 Số lượng [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số [Burst] tăng thêm 3"
+                  "desc": "[OnSucceedAttack] Tăng thêm 3 Số lượng [Burst]"
                 }
               ]
             }
@@ -353,7 +353,7 @@
         {
           "level": 1,
           "name": "Phòng thủ",
-          "desc": "[StartBattle] Trong lượt này, nhận lượng Khiên tương ứng với (HP đã mất của bản thân ÷ 10)",
+          "desc": "[StartBattle] Trong lượt này, nhận Khiên bằng (HP đã mất của bản thân ÷ 10)",
           "coinlist": [
             {}
           ]
@@ -365,8 +365,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Giii",
-          "desc": "[WhenUse] Với mỗi loại hiệu ứng bất lợi trên mục tiêu, Sức mạnh Trận đấu +2 (Tối đa 6)",
+          "name": "Kiih",
+          "desc": "[WhenUse] Với mỗi loại hiệu ứng bất lợi trên mục tiêu, Uy lực Đối kháng +2 (Tối đa 6)",
           "coinlist": [
             {
               "coindescs": [
@@ -384,8 +384,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Giiiii",
-          "desc": "[WhenUse] Với mỗi loại hiệu ứng bất lợi trên mục tiêu, Sức mạnh Trận đấu +2 (Tối đa 6)",
+          "name": "Kiieeh",
+          "desc": "[WhenUse] Với mỗi loại hiệu ứng bất lợi trên mục tiêu, Uy lực Đối kháng +2 (Tối đa 6)",
           "coinlist": [
             {
               "coindescs": [
@@ -411,7 +411,7 @@
         {
           "level": 1,
           "name": "Phòng thủ",
-          "desc": "[StartBattle] Trong lượt này, nhận lượng Khiên tương ứng với (HP đã mất của bản thân ÷ 10)",
+          "desc": "[StartBattle] Trong lượt này, nhận Khiên bằng (HP đã mất của bản thân ÷ 10)",
           "coinlist": [
             {}
           ]
@@ -423,8 +423,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Gigi!",
-          "desc": "[WhenUse] Với mỗi loại hiệu ứng bất lợi trên mục tiêu, Sức mạnh Trận đấu +2 (Tối đa 6)",
+          "name": "Kigik!",
+          "desc": "[WhenUse] Với mỗi loại hiệu ứng bất lợi trên mục tiêu, Uy lực Đối kháng +2 (Tối đa 6)",
           "coinlist": [
             {
               "coindescs": [
@@ -442,8 +442,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Gii!",
-          "desc": "[WhenUse] Với mỗi loại hiệu ứng bất lợi trên mục tiêu, Sức mạnh Trận đấu +2 (Tối đa 6)",
+          "name": "Kieek!",
+          "desc": "[WhenUse] Với mỗi loại hiệu ứng bất lợi trên mục tiêu, Uy lực Đối kháng +2 (Tối đa 6)",
           "coinlist": [
             {
               "coindescs": [
@@ -455,7 +455,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây 2 [DefenseDown], số [Laceration] tăng thêm 5"
+                  "desc": "[OnSucceedAttack] Gây 2 [DefenseDown], tăng thêm 5 Số lượng [Laceration]"
                 }
               ]
             }
@@ -469,7 +469,7 @@
         {
           "level": 1,
           "name": "Phòng thủ",
-          "desc": "[StartBattle] Trong lượt này, nhận lượng Khiên tương ứng với (HP đã mất của bản thân ÷ 10)",
+          "desc": "[StartBattle] Trong lượt này, nhận Khiên bằng (HP đã mất của bản thân ÷ 10)",
           "coinlist": [
             {}
           ]
@@ -481,8 +481,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Gigigigi",
-          "desc": "Nếu không nhận sát thương ở lượt trước, Sức mạnh Đồng xu +1\n[WhenUse] Với mỗi loại hiệu ứng bất lợi trên mục tiêu, Sức mạnh Trận đấu +2 (Tối đa 6)",
+          "name": "Kigigiik",
+          "desc": "Nếu không nhận sát thương ở lượt trước, Sức mạnh Đồng xu +1\n[WhenUse] Với mỗi loại hiệu ứng bất lợi trên mục tiêu, Uy lực Đối kháng +2 (Tối đa 6)",
           "coinlist": [
             {
               "coindescs": [
@@ -490,7 +490,7 @@
                   "desc": "[OnSucceedAttack] Gây 5 [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Số [Vibration] tăng thêm 3"
+                  "desc": "[OnSucceedAttack] Tăng thêm 3 Số lượng [Vibration]"
                 }
               ]
             }
@@ -503,8 +503,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Gigigigi",
-          "desc": "[WhenUse] Với mỗi loại hiệu ứng bất lợi trên mục tiêu, Sức mạnh Trận đấu +2 (Tối đa 6)",
+          "name": "Kigigiik",
+          "desc": "[WhenUse] Với mỗi loại hiệu ứng bất lợi trên mục tiêu, Uy lực Đối kháng +2 (Tối đa 6)",
           "coinlist": [
             {
               "coindescs": [
@@ -512,7 +512,7 @@
                   "desc": "[OnSucceedAttack] Gây 5 [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Lượt sau gây 1 [Binding], 2 [DefenseDown]"
+                  "desc": "[OnSucceedAttack] Gây 1 [Binding] và 2 [DefenseDown] vào lượt tiếp theo"
                 }
               ]
             }
@@ -525,16 +525,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Giigiggi",
-          "desc": "[WhenUse] Với mỗi loại hiệu ứng bất lợi trên mục tiêu, Sức mạnh Trận đấu +2 (Tối đa 6)\n[WhenUse] Nhận 2 [Protection]\n[WinDuel] Gây 5 [Vibration]",
+          "name": "Kieegikhik",
+          "desc": "[WhenUse] Với mỗi loại hiệu ứng bất lợi trên mục tiêu, Uy lực Đối kháng +2 (Tối đa 6)\n[WhenUse] Nhận 2 [Protection]\n[WinDuel] Gây 5 [Vibration]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion]. Số [Vibration] giảm đi 1"
+                  "desc": "[OnSucceedAttack] Kích hoạt [VibrationExplosion]. Số lượng [Vibration] của mục tiêu giảm 1"
                 },
                 {
-                  "desc": "- Nếu gây [VibrationExplosion], gây ngẫu nhiên 1 trong [Laceration], [Vibration], [Burst] với cường độ 10"
+                  "desc": "- Nếu kích hoạt [VibrationExplosion], gây 1 hiệu ứng ngẫu nhiên trong số [Laceration], [Vibration], [Burst] với Cường độ 10"
                 }
               ]
             }
@@ -548,7 +548,7 @@
         {
           "level": 1,
           "name": "Phòng thủ",
-          "desc": "[StartBattle] Trong lượt này, nhận lượng Khiên tương ứng với (HP đã mất của bản thân ÷ 10)",
+          "desc": "[StartBattle] Trong lượt này, nhận Khiên bằng (HP đã mất của bản thân ÷ 10)",
           "coinlist": [
             {}
           ]
@@ -561,7 +561,7 @@
         {
           "level": 1,
           "name": "Đột kích",
-          "desc": "[WhenUse] Với mỗi loại hiệu ứng bất lợi trên mục tiêu, Sức mạnh Trận đấu +2 (Tối đa 6)",
+          "desc": "[WhenUse] Với mỗi loại hiệu ứng bất lợi trên mục tiêu, Uy lực Đối kháng +2 (Tối đa 6)",
           "coinlist": [
             {
               "coindescs": [
@@ -573,7 +573,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số [Sinking] tăng thêm 3"
+                  "desc": "[OnSucceedAttack] Tăng thêm 3 Số lượng [Sinking]"
                 }
               ]
             },
@@ -594,7 +594,7 @@
         {
           "level": 1,
           "name": "Vô hiệu hóa mục tiêu",
-          "desc": "[WhenUse] Với mỗi loại hiệu ứng bất lợi trên mục tiêu, Sức mạnh Trận đấu +2 (Tối đa 6)",
+          "desc": "[WhenUse] Với mỗi loại hiệu ứng bất lợi trên mục tiêu, Uy lực Đối kháng +2 (Tối đa 6)",
           "coinlist": [
             {
               "coindescs": [
@@ -606,14 +606,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số [Sinking] tăng thêm 3"
+                  "desc": "[OnSucceedAttack] Tăng thêm 3 Số lượng [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Nếu [Sinking] trên mục tiêu từ 10 trở lên, gây 5 [Sinking]"
+                  "desc": "[OnSucceedAttack] Nếu [Sinking] của mục tiêu từ 10 trở lên, gây 5 [Sinking] vào lượt tiếp theo"
                 }
               ]
             }
@@ -627,7 +627,7 @@
         {
           "level": 1,
           "name": "Kích hoạt Đạn HP",
-          "desc": "[KhiSửDụng] Hồi phục Thể lực bằng 5% Thể lực đã mất (Tối đa 150, 1 lần mỗi lượt)",
+          "desc": "[WhenUse] Hồi HP bằng 5% lượng HP đã mất (Tối đa 150, 1 lần mỗi lượt)",
           "coinlist": [
             {}
           ]
@@ -639,13 +639,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Phòng Hộ",
-          "desc": "[KhiSửDụng] Với mỗi loại hiệu ứng bất lợi trên mục tiêu, Sức mạnh Đối đầu +2 (Tối đa 6)\n[KhiSửDụng] Cấp 2 [Protection] cho 2 đồng minh ngẫu nhiên ở lượt kế tiếp",
+          "name": "Phòng hộ",
+          "desc": "[WhenUse] Với mỗi loại hiệu ứng bất lợi trên mục tiêu, Uy lực Đối kháng +2 (Tối đa 6)\n[WhenUse] Áp dụng 2 [Protection] cho 2 đồng minh ngẫu nhiên vào lượt tiếp theo",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[TấnCôngTrúng] Số lần [Sinking] tăng thêm 5"
+                  "desc": "[OnSucceedAttack] Tăng thêm 5 Số lượng [Sinking]"
                 }
               ]
             }
@@ -658,20 +658,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Ngăn Chặn",
-          "desc": "[KhiSửDụng] Với mỗi loại hiệu ứng bất lợi trên mục tiêu, Sức mạnh Đối đầu +2 (Tối đa 6)",
+          "name": "Ngăn chặn",
+          "desc": "[WhenUse] Với mỗi loại hiệu ứng bất lợi trên mục tiêu, Uy lực Đối kháng +2 (Tối đa 6)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[TấnCôngTrúng] Cấp 3 [Sinking]"
+                  "desc": "[OnSucceedAttack] Gây 3 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[TấnCôngTrúng] Cấp 3 [Sinking]"
+                  "desc": "[OnSucceedAttack] Gây 3 [Sinking]"
                 }
               ]
             }
@@ -684,13 +684,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Chi Viện",
-          "desc": "[KhiSửDụng] Với mỗi loại hiệu ứng bất lợi trên mục tiêu, Sức mạnh Đối đầu +2 (Tối đa 6)\n[ThắngĐốiĐầu] Cấp 1 [AmberDamageUp] và 1 [ShamrockDamageUp] cho 1 đồng minh ngẫu nhiên khác bản thân ở lượt kế tiếp",
+          "name": "Yểm trợ",
+          "desc": "[WhenUse] Với mỗi loại hiệu ứng bất lợi trên mục tiêu, Uy lực Đối kháng +2 (Tối đa 6)\n[WinDuel] Áp dụng 1 [AmberDamageUp] và 1 [ShamrockDamageUp] cho 1 đồng minh ngẫu nhiên khác vào lượt tiếp theo",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[TấnCôngTrúng] Cấp 5 [Sinking]"
+                  "desc": "[OnSucceedAttack] Gây 5 [Sinking]"
                 }
               ]
             }
@@ -703,13 +703,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Cấm Vào",
-          "desc": "[KhiSửDụng] Với mỗi loại hiệu ứng bất lợi trên mục tiêu, Sức mạnh Đối đầu +2 (Tối đa 6)",
+          "name": "Cấm vào",
+          "desc": "[WhenUse] Với mỗi loại hiệu ứng bất lợi trên mục tiêu, Uy lực Đối kháng +2 (Tối đa 6)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[TấnCôngTrúng] Cấp 5 [Sinking]"
+                  "desc": "[OnSucceedAttack] Gây 5 [Sinking]"
                 }
               ]
             }
@@ -722,20 +722,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Trấn Áp",
-          "desc": "[KhiSửDụng] Với mỗi loại hiệu ứng bất lợi trên mục tiêu, Sức mạnh Đối đầu +2 (Tối đa 6)",
+          "name": "Trấn áp",
+          "desc": "[WhenUse] Với mỗi loại hiệu ứng bất lợi trên mục tiêu, Uy lực Đối kháng +2 (Tối đa 6)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[TấnCôngTrúng] Cấp 5 [Sinking]"
+                  "desc": "[OnSucceedAttack] Gây 5 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[TấnCôngTrúng] Số lần [Sinking] tăng thêm 5"
+                  "desc": "[OnSucceedAttack] Tăng thêm 5 Số lượng [Sinking]"
                 }
               ]
             }
@@ -748,20 +748,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Ngăn Chặn Ra Vào",
-          "desc": "[KhiSửDụng] Với mỗi loại hiệu ứng bất lợi trên mục tiêu, Sức mạnh Đối đầu +2 (Tối đa 6)\n[ThuaĐốiĐầu] Hồi phục Thể lực bằng 5% lượng sát thương Thể lực đã mất (Tối đa 100, 1 lần mỗi lượt)",
+          "name": "Chặn lối ra vào",
+          "desc": "[WhenUse] Với mỗi loại hiệu ứng bất lợi trên mục tiêu, Uy lực Đối kháng +2 (Tối đa 6)\n[DefeatDuel] Hồi HP bằng 5% lượng HP đã mất (Tối đa 100, 1 lần mỗi lượt)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[TấnCôngTrúng] Số lần [Sinking] tăng thêm 5"
+                  "desc": "[OnSucceedAttack] Tăng thêm 5 Số lượng [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[TấnCôngTrúng] Gây sát thương Trầm mặc bằng Sức mạnh [Sinking] của mục tiêu. Số lần [Sinking] của mục tiêu giảm 1"
+                  "desc": "[OnSucceedAttack] Gây sát thương U sầu bằng Cường độ [Sinking] của mục tiêu. Số lượng [Sinking] của mục tiêu giảm 1"
                 }
               ]
             }
@@ -774,13 +774,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Phát Hiện Kẻ Khả Nghi",
-          "desc": "[KhiSửDụng] Với mỗi loại hiệu ứng bất lợi trên mục tiêu, Sức mạnh Đối đầu +2 (Tối đa 6)",
+          "name": "Phát hiện kẻ khả nghi",
+          "desc": "[WhenUse] Với mỗi loại hiệu ứng bất lợi trên mục tiêu, Uy lực Đối kháng +2 (Tối đa 6)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[TấnCôngTrúng] Số lần [Sinking] tăng thêm 5"
+                  "desc": "[OnSucceedAttack] Tăng thêm 5 Số lượng [Sinking]"
                 }
               ]
             }
@@ -793,20 +793,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Chế Phục",
-          "desc": "[KhiSửDụng] Với mỗi loại hiệu ứng bất lợi trên mục tiêu, Sức mạnh Đối đầu +2 (Tối đa 6)",
+          "name": "Kiềm chế",
+          "desc": "[WhenUse] Với mỗi loại hiệu ứng bất lợi trên mục tiêu, Uy lực Đối kháng +2 (Tối đa 6)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[TấnCôngTrúng] Số lần [Sinking] tăng thêm 5"
+                  "desc": "[OnSucceedAttack] Tăng thêm 5 Số lượng [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[TấnCôngTrúng] Cấp 5 [Sinking]"
+                  "desc": "[OnSucceedAttack] Gây 5 [Sinking]"
                 }
               ]
             }
@@ -819,43 +819,43 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Xử Phạt Kẻ Khả Nghi",
-          "desc": "Ưu tiên tấn công mục tiêu có nhiều [Sinking] nhất\n[KhiSửDụng] Nếu mục tiêu có [Sinking], Sức mạnh Cơ bản +2\n[KhiSửDụng] Với mỗi loại hiệu ứng bất lợi trên mục tiêu, Sức mạnh Đối đầu +2 (Tối đa 6)\n[ThuaĐốiĐầu] Hồi phục Thể lực bằng 5% Thể lực đã mất (Tối đa 100, 1 lần mỗi lượt)",
+          "name": "Ngăn chặn kẻ khả nghi",
+          "desc": "Ưu tiên tấn công mục tiêu có nhiều [Sinking] nhất\n[WhenUse] Nếu mục tiêu có [Sinking], Sức mạnh Cơ bản +2\n[WhenUse] Với mỗi loại hiệu ứng bất lợi trên mục tiêu, Uy lực Đối kháng +2 (Tối đa 6)\n[DefeatDuel] Hồi HP bằng 5% lượng HP đã mất (Tối đa 100, 1 lần mỗi lượt)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[TấnCôngTrúng] Cấp 5 [Sinking]"
+                  "desc": "[OnSucceedAttack] Gây 5 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Nếu đồng xu 1 mặt ngửa, Lượng sát thương +10%"
+                  "desc": "Nếu đồng xu 1 mặt Ngửa, lượng sát thương +10%"
                 },
                 {
-                  "desc": "[TấnCôngTrúng] Cấp 5 [Sinking]"
+                  "desc": "[OnSucceedAttack] Gây 5 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Nếu đồng xu 2 mặt ngửa, Lượng sát thương +10%"
+                  "desc": "Nếu đồng xu 2 mặt Ngửa, lượng sát thương +10%"
                 },
                 {
-                  "desc": "[TấnCôngTrúng] Cấp 5 [Sinking]"
+                  "desc": "[OnSucceedAttack] Gây 5 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Nếu đồng xu 2, 3 mặt ngửa, Lượng sát thương +30%"
+                  "desc": "Nếu đồng xu 2, 3 mặt Ngửa, lượng sát thương +30%"
                 },
                 {
-                  "desc": "[TấnCôngTrúng] Gây sát thương Trầm mặc bằng Sức mạnh [Sinking] × Số lần [Sinking] của mục tiêu. Số lần [Sinking] của mục tiêu giảm 1"
+                  "desc": "[OnSucceedAttack] Gây sát thương U sầu bằng (Cường độ [Sinking] × Số lượng [Sinking]) của mục tiêu. Số lượng [Sinking] của mục tiêu giảm 1"
                 }
               ]
             }

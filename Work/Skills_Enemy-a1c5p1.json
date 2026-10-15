@@ -37,14 +37,14 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Hồi HP bằng 30% Sát thương gây ra"
+                                    "desc": "[OnSucceedAttack] Hồi Máu bằng 30% lượng sát thương gây ra"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Hồi HP bằng 30% Sát thương gây ra"
+                                    "desc": "[OnSucceedAttack] Hồi Máu bằng 30% lượng sát thương gây ra"
                                 }
                             ]
                         }
@@ -63,7 +63,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Số lần Trầm luân tăng thêm 5"
+                                    "desc": "[OnSucceedAttack] Gây +5 Số lượng Trầm luân"
                                 }
                             ]
                         }
@@ -77,7 +77,7 @@
                 {
                     "level": 1,
                     "name": "Da trơn tuột",
-                    "desc": "Trong khi có Khiên, khi nhận sát thương gây 1 Trầm luân cho mục tiêu",
+                    "desc": "Khi có Lá chắn, khi bị đánh trúng, gây 1 Trầm luân lên kẻ tấn công",
                     "coinlist": [
                         {}
                     ]
@@ -89,7 +89,7 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Móc rách",
+                    "name": "Móc rạch",
                     "desc": "",
                     "coinlist": [
                         {
@@ -108,13 +108,13 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Móc rách liên hoàn",
+                    "name": "Móc rạch liên hoàn",
                     "desc": "",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Số lần Xuất huyết tăng thêm 2"
+                                    "desc": "[OnSucceedAttack] Gây +2 Số lượng Xuất huyết"
                                 }
                             ]
                         },
@@ -135,7 +135,7 @@
                 {
                     "level": 1,
                     "name": "Tiếng thét xung trận",
-                    "desc": "[WhenUse] Nhận 2 Hơi thở vào lượt kế tiếp.\nKhi kết thúc lượt, hồi HP bằng lượng Khiên.",
+                    "desc": "[WhenUse] Nhận 2 Hơi thở vào lượt tiếp theo.\nKhi kết thúc lượt, hồi Máu bằng lượng Lá chắn.",
                     "coinlist": [
                         {}
                     ]
@@ -148,7 +148,7 @@
                 {
                     "level": 1,
                     "name": "Quét sơ hở",
-                    "desc": "Nếu có <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Hơi thở</link></u></color>, kích hoạt hiệu ứng mặt đồng xu.",
+                    "desc": "Nếu có <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Hơi thở</link></u></color>, kích hoạt hiệu ứng Đồng xu.",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -173,13 +173,13 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Móc câu",
+                    "name": "Móc vướng",
                     "desc": "",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttackHead] Số lần Xuất huyết tăng thêm 2"
+                                    "desc": "[OnSucceedAttackHead] Gây +2 Số lượng Xuất huyết"
                                 }
                             ]
                         }
@@ -192,7 +192,7 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Móc sắt",
+                    "name": "Đấm móc",
                     "desc": "",
                     "coinlist": [
                         {
@@ -205,7 +205,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Số lần Xuất huyết tăng thêm 3"
+                                    "desc": "[OnSucceedAttack] Gây +3 Số lượng Xuất huyết"
                                 }
                             ]
                         }
@@ -219,7 +219,7 @@
                 {
                     "level": 1,
                     "name": "Tiếng thét xung trận",
-                    "desc": "[WhenUse] Nhận 2 Hơi thở vào lượt kế tiếp.\nKhi kết thúc lượt, hồi HP bằng lượng Khiên.",
+                    "desc": "[WhenUse] Nhận 2 Hơi thở vào lượt tiếp theo.\nKhi kết thúc lượt, hồi Máu bằng lượng Lá chắn.",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -238,7 +238,7 @@
                 {
                     "level": 1,
                     "name": "Quét sơ hở",
-                    "desc": "Nếu có <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Hơi thở</link></u></color>, kích hoạt hiệu ứng mặt đồng xu.",
+                    "desc": "Nếu có <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Hơi thở</link></u></color>, kích hoạt hiệu ứng Đồng xu.",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -269,7 +269,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Số lần Xuất huyết tăng thêm 2"
+                                    "desc": "[OnSucceedAttack] Gây +2 Số lượng Xuất huyết"
                                 },
                                 {
                                     "desc": "[OnSucceedAttackHead] Gây 3 Xuất huyết"
@@ -292,7 +292,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây 4 Xuất huyết, số lần Xuất huyết tăng thêm 3"
+                                    "desc": "[OnSucceedAttack] Gây 4 Xuất huyết và +3 Số lượng Xuất huyết"
                                 }
                             ]
                         }
@@ -306,19 +306,19 @@
                 {
                     "level": 1,
                     "name": "Nhanh hơn nữa",
-                    "desc": "[EndSkill] Nhận 1 Tăng Sát thương vào lượt kế tiếp",
+                    "desc": "[EndSkill] Nhận 1 Tăng lượng sát thương vào lượt tiếp theo",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Nhận 4 Hơi thở vào lượt kế tiếp"
+                                    "desc": "[OnSucceedAttack] Nhận 4 Hơi thở vào lượt tiếp theo"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây 2 Mong manh vào lượt kế tiếp"
+                                    "desc": "[OnSucceedAttack] Gây 2 Mong manh vào lượt tiếp theo"
                                 }
                             ]
                         }
@@ -332,7 +332,7 @@
                 {
                     "level": 1,
                     "name": "Tiếng thét xung trận",
-                    "desc": "[WhenUse] Nhận 2 Hơi thở vào lượt kế tiếp.\nKhi kết thúc lượt, hồi HP bằng lượng Khiên.",
+                    "desc": "[WhenUse] Nhận 2 Hơi thở vào lượt tiếp theo.\nKhi kết thúc lượt, hồi Máu bằng lượng Lá chắn.",
                     "coinlist": [
                         {}
                     ]
@@ -344,8 +344,8 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Bắt giữ",
-                    "desc": "[WinDuel] Sao chép và sử dụng Uy lực đồng xu cùng Số lượng đồng xu của kĩ năng bậc 1~3 của mục tiêu",
+                    "name": "Cướp bóc",
+                    "desc": "[WinDuel] Sao chép Sức mạnh Đồng xu và Số lượng Đồng xu của Kĩ năng bậc 1~3 của mục tiêu để sử dụng",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -364,12 +364,12 @@
                 {
                     "level": 1,
                     "name": "Đấm mạnh nữa",
-                    "desc": "[WhenUse] Nếu mục tiêu có <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Xuất huyết</color></link></u>, nhận 1 Bảo vệ",
+                    "desc": "[WhenUse] Nếu mục tiêu có <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Xuất huyết</color></link></u>, nhận 1 Bảo hộ",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây 2 Trói buộc vào lượt kế tiếp"
+                                    "desc": "[OnSucceedAttack] Gây 2 Trói buộc vào lượt tiếp theo"
                                 },
                                 {
                                     "desc": "[OnSucceedAttack] Gây 2 Xuất huyết"
@@ -386,7 +386,7 @@
                 {
                     "level": 1,
                     "name": "Đánh vào đây này",
-                    "desc": "[WhenUse] Nếu mục tiêu có <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Xuất huyết</color></link></u>, nhận 1 Bảo vệ",
+                    "desc": "[WhenUse] Nếu mục tiêu có <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Xuất huyết</color></link></u>, nhận 1 Bảo hộ",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -401,7 +401,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây 2 Giảm sát thương vào lượt tiếp theo"
+                                    "desc": "[OnSucceedAttack] Gây 2 Giảm lượng sát thương vào lượt tiếp theo"
                                 },
                                 {
                                     "desc": "[OnSucceedAttack] Gây 2 Xuất huyết"
@@ -418,19 +418,19 @@
                 {
                     "level": 1,
                     "name": "Mạnh hơn nữa",
-                    "desc": "[EndSkill] Nhận 1 Tăng sát thương vào lượt tiếp theo",
+                    "desc": "[EndSkill] Nhận 1 Tăng lượng sát thương vào lượt tiếp theo",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Nhận 2 Bảo vệ"
+                                    "desc": "[OnSucceedAttack] Nhận 2 Bảo hộ"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Nhận 2 Bảo vệ vào lượt tiếp theo"
+                                    "desc": "[OnSucceedAttack] Nhận 2 Bảo hộ vào lượt tiếp theo"
                                 },
                                 {
                                     "desc": "[OnSucceedAttack] Nhận 4 Hơi thở vào lượt tiếp theo"
@@ -446,8 +446,8 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Phòng ngự",
-                    "desc": "[WhenUse] Nhận 2 Hơi thở vào lượt tiếp theo.\nKhi kết thúc lượt, hồi phục Máu tương ứng lượng Lá chắn.",
+                    "name": "Phòng thủ",
+                    "desc": "[WhenUse] Nhận 2 Hơi thở vào lượt tiếp theo.\nKhi kết thúc lượt, hồi Máu bằng lượng Lá chắn.",
                     "coinlist": [
                         {}
                     ]
@@ -459,8 +459,8 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Bắt giữ",
-                    "desc": "[WinDuel] Sao chép và sử dụng Sức mạnh Đồng xu, Số lượng Đồng xu của Kĩ năng cấp 1~3 của mục tiêu",
+                    "name": "Cướp bóc",
+                    "desc": "[WinDuel] Sao chép Sức mạnh Đồng xu và Số lượng Đồng xu của Kĩ năng bậc 1~3 của mục tiêu để sử dụng",
                     "coinlist": [
                         {}
                     ]
@@ -507,10 +507,10 @@
                                     "desc": "[OnSucceedAttack] Gây 2 Mong manh Trầm luân"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Số lần Xuất huyết tăng thêm 3"
+                                    "desc": "[OnSucceedAttack] Gây +3 Số lượng Xuất huyết"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Hồi phục Máu bằng 50% lượng sát thương gây ra"
+                                    "desc": "[OnSucceedAttack] Hồi Máu bằng 50% lượng sát thương gây ra"
                                 }
                             ]
                         }
@@ -523,13 +523,13 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Trong lòng bàn tay sóng",
+                    "name": "Gọng kìm của sóng",
                     "desc": "",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Số lần Trầm luân tăng thêm 2"
+                                    "desc": "[OnSucceedAttack] Gây +2 Số lượng Trầm luân"
                                 },
                                 {
                                     "desc": "[OnSucceedAttackHead] Gây 2 Xuất huyết"
@@ -539,7 +539,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Số lần Trầm luân tăng thêm 2"
+                                    "desc": "[OnSucceedAttack] Gây +2 Số lượng Trầm luân"
                                 },
                                 {
                                     "desc": "[OnSucceedAttackHead] Gây 2 Xuất huyết"
@@ -556,12 +556,12 @@
                 {
                     "level": 1,
                     "name": "Sóng gào thét",
-                    "desc": "Mỗi 5 Sức mạnh Trầm luân của mục tiêu, sát thương gây ra +20%\nNếu Tinh thần của mục tiêu dưới 0, sát thương gây ra +10%",
+                    "desc": "Sát thương +20% cho mỗi 5 Cường độ Trầm luân trên mục tiêu\nNếu Tinh thần của mục tiêu dưới 0, sát thương gây ra +10%",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Trầm luân tập kích"
+                                    "desc": "[OnSucceedAttack] Trầm luân Xối xả"
                                 }
                             ]
                         }
@@ -574,8 +574,8 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Lớp da trơn tuột",
-                    "desc": "Khi có Lá chắn, gây 1 Trầm luân cho mục tiêu khi nhận sát thương",
+                    "name": "Da trơn tuột",
+                    "desc": "Khi có Lá chắn, khi bị đánh trúng, gây 1 Trầm luân lên kẻ tấn công",
                     "coinlist": [
                         {}
                     ]
@@ -612,7 +612,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Số lần Xuất huyết tăng thêm 2"
+                                    "desc": "[OnSucceedAttack] Gây +2 Số lượng Xuất huyết"
                                 },
                                 {
                                     "desc": "[OnSucceedAttackHead] Gây 2 Xuất huyết"
@@ -622,7 +622,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Số lần Xuất huyết tăng thêm 1"
+                                    "desc": "[OnSucceedAttack] Gây +1 Số lượng Xuất huyết"
                                 },
                                 {
                                     "desc": "[OnSucceedAttackHead] Gây 4 Xuất huyết"
@@ -645,7 +645,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây 2 Bảo vệ, 1 Tăng Sức mạnh Tấn công vào lượt tiếp theo cho tất cả đồng minh ngoại trừ bản thân"
+                                    "desc": "[OnSucceedAttack] Gây 2 Bảo hộ và 1 Tăng Uy lực Tấn công cho tất cả đồng minh khác vào lượt tiếp theo"
                                 }
                             ]
                         }
@@ -674,7 +674,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây 3 Số lần Xuất huyết\nSát thương bổ sung bằng với lượng <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Xuất huyết</color></link></u> của mục tiêu"
+                                    "desc": "[OnSucceedAttack] Gây +3 Số lượng Xuất huyết\nSát thương bổ sung bằng với lượng <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Xuất huyết</color></link></u> của mục tiêu"
                                 },
                                 {
                                     "desc": "Tiêu hao 1 Đạn"
@@ -709,8 +709,8 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Bắt giữ",
-                    "desc": "[WinDuel] Sao chép Sức mạnh Coin và Số lượng Coin của Kĩ năng bậc 3 của mục tiêu để sử dụng",
+                    "name": "Cướp bóc",
+                    "desc": "[WinDuel] Sao chép Sức mạnh Đồng xu và Số lượng Đồng xu của Kĩ năng bậc 3 của mục tiêu để sử dụng",
                     "coinlist": [
                         {
                             "coindescs": [
