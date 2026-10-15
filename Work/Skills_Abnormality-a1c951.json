@@ -6,7 +6,7 @@
                 {
                     "level": 1,
                     "name": "Hãy trở thành niềm vui",
-                    "desc": "[WhenUse] Bản thân nhận 2 số lượng [Charge]",
+                    "desc": "[WhenUse] Bản thân nhận +2 Số lượng [Charge]",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -28,12 +28,12 @@
                 {
                     "level": 1,
                     "name": "Hãy trở thành sự an lành",
-                    "desc": "[WhenUse] Bản thân nhận 2 số lượng [Charge]",
+                    "desc": "[WhenUse] Bản thân nhận +2 Số lượng [Charge]",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Bản thân nhận 3 số lượng [Breath]"
+                                    "desc": "[OnSucceedAttack] Bản thân nhận +3 Số lượng [Breath]"
                                 },
                                 {
                                     "desc": "[OnSucceedAttack] Nhận 3 [Breath]"
@@ -43,10 +43,10 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[CriticalOnSucceedAttack] Nhận thêm lượng [Breath] tương ứng với số [Breath] đang sở hữu"
+                                    "desc": "[CriticalOnSucceedAttack] Nhận lượng [Breath] bằng với [Breath] của bản thân"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Bản thân nhận 3 số lượng [Breath]"
+                                    "desc": "[OnSucceedAttack] Bản thân nhận +3 Số lượng [Breath]"
                                 }
                             ]
                         }
@@ -60,15 +60,15 @@
                 {
                     "level": 1,
                     "name": "Là quà đấy",
-                    "desc": "Nếu mục tiêu có [Binding], nếu tốc độ của bản thân cao hơn đối phương, Sức mạnh Hòa đấu tăng thêm dựa trên chênh lệch tốc độ giữa bản thân và đối phương.",
+                    "desc": "Nếu mục tiêu có [Binding] và tốc độ của bản thân nhanh hơn mục tiêu, Sức mạnh Đối kháng tăng thêm một lượng bằng chênh lệch Tốc độ",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Giảm 5 Điểm tinh thần"
+                                    "desc": "[OnSucceedAttack] Bản thân mất 5 Tinh thần"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Nhận 2 [Breath], bản thân nhận 3 số lượng [Breath]"
+                                    "desc": "[OnSucceedAttack] Nhận 2 [Breath] và nhận +3 Số lượng [Breath]"
                                 },
                                 {
                                     "desc": "[CriticalOnSucceedAttack] Gây 3 [Paralysis] vào lượt tiếp theo"
@@ -85,7 +85,7 @@
                 {
                     "level": 1,
                     "name": "Gói quà đây",
-                    "desc": "Nếu mục tiêu có [AaCeSeBa], thêm hiệu ứng \"Gây 1 [Paralysis] vào lượt tiếp theo\" vào hiệu ứng mặt đồng xu\nƯu tiên tấn công mục tiêu chậm nhất\n[EndBattle] Tiêu thụ mọi số lượng [Charge]",
+                    "desc": "Nếu bản thân có [AaCeSeBa], thêm hiệu ứng \"Gây 1 [Paralysis] vào lượt tiếp theo\" vào hiệu ứng Đồng xu\nƯu tiên tấn công mục tiêu có Tốc độ chậm nhất\n[EndBattle] Tiêu hao toàn bộ Số lượng [Charge]",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -97,23 +97,23 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây thêm sát thương dựa trên số [Breath] của bản thân"
+                                    "desc": "[OnSucceedAttack] Gây thêm sát thương bằng lượng [Breath] của bản thân"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Nhận 1 [Breath], bản thân nhận 3 số lượng [Breath]"
+                                    "desc": "[OnSucceedAttack] Nhận 1 [Breath] và nhận +3 Số lượng [Breath]"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây ngẫu nhiên 1 hiệu ứng với giá trị là 3 trong số [Protection], [Enhancement], [Vulnerable], [Paralysis]"
+                                    "desc": "[OnSucceedAttack] Chọn ngẫu nhiên 1 trong 4 hiệu ứng ([Protection], [Enhancement], [Vulnerable], [Paralysis]) và gán 3 hiệu ứng đó"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Giảm Điểm tinh thần của mục tiêu dựa trên số lượng [Charge] của bản thân"
+                                    "desc": "[OnSucceedAttack] Mục tiêu mất Tinh thần bằng Số lượng [Charge] của bản thân"
                                 },
                                 {
-                                    "desc": "[EnemyKill] Giảm 10 Điểm tinh thần của tất cả kẻ địch."
+                                    "desc": "[EnemyKill] Tất cả kẻ địch mất 10 Tinh thần."
                                 },
                                 {
                                     "desc": "[EnemyKillFail] Nhận 2 [Paralysis] vào lượt tiếp theo"
@@ -130,7 +130,7 @@
                 {
                     "level": 1,
                     "name": "Đến lúc chuẩn bị quà rồi",
-                    "desc": "Nếu lá chắn bị tiêu thụ hết, bị Choáng vào lượt tiếp theo.\nNếu lá chắn còn lại, nhận 2 [Enhancement] vào lượt tiếp theo.",
+                    "desc": "Nếu HP Lá chắn bị tiêu hao hết, bản thân bị Choáng vào lượt tiếp theo.\nNếu HP Lá chắn vẫn còn, nhận 2 [Enhancement] vào lượt tiếp theo",
                     "coinlist": [
                         {}
                     ]

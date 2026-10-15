@@ -6,7 +6,7 @@
         {
           "level": 1,
           "name": "Tội lỗi không thể rửa sạch...",
-          "desc": "[WhenUse] Bản thân nhận 20 [Laceration], số lần [Laceration] của bản thân tăng 1",
+          "desc": "[WhenUse] Bản thân nhận 20 [Laceration], Số lượng [Laceration] của bản thân tăng 1",
           "coinlist": [
             {
               "coindescs": [
@@ -25,7 +25,7 @@
         {
           "level": 1,
           "name": "Hình phạt thích đáng...",
-          "desc": "[WhenUse] Bản thân nhận 20 [Laceration], số lần [Laceration] của bản thân tăng 1",
+          "desc": "[WhenUse] Bản thân nhận 20 [Laceration], Số lượng [Laceration] của bản thân tăng 1",
           "coinlist": [
             {
               "coindescs": [
@@ -37,7 +37,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Laceration] tăng 2"
+                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng 2"
                 }
               ]
             }
@@ -51,7 +51,7 @@
         {
           "level": 1,
           "name": "Hôm nay đã nghĩ về máu chưa?",
-          "desc": "[WhenUse] Bản thân nhận 10 [Laceration]\n[WhenUse] Tiêu hao tối đa 30 [BloodDinner], hồi phục (lượng [BloodDinner] đã tiêu hao × 2) máu cho đồng minh (bao gồm cả thực thể và bộ phận) có HP thấp nhất (Ngoại trừ bản thân. Làm tròn xuống)",
+          "desc": "[WhenUse] Bản thân nhận 10 [Laceration]\n[WhenUse] Tiêu hao tối đa 30 [BloodDinner], hồi phục (lượng [BloodDinner] đã tiêu hao × 2) máu cho Thân thể và bộ phận của đồng minh có HP thấp nhất (Ngoại trừ bản thân. Làm tròn xuống)",
           "coinlist": [
             {
               "coindescs": [
@@ -77,7 +77,7 @@
         {
           "level": 1,
           "name": "Giờ vẫn còn nghĩ đến máu sao?",
-          "desc": "[WhenUse] Bản thân nhận 10 [Laceration]\n[WhenUse] Tiêu hao tối đa 20 [BloodDinner], hồi phục (lượng [BloodDinner] đã tiêu hao × 2) máu cho bản thân và đồng minh (bao gồm cả thực thể và bộ phận) có HP thấp nhất\n- Nếu không có đồng minh, hồi phục thêm cho bản thân một lượng tương ứng",
+          "desc": "[WhenUse] Bản thân nhận 10 [Laceration]\n[WhenUse] Tiêu hao tối đa 20 [BloodDinner], hồi phục (lượng [BloodDinner] đã tiêu hao × 2) máu cho bản thân và đồng minh (Thân thể và bộ phận) có HP thấp nhất\n- Nếu không có đồng minh, hồi phục thêm cho bản thân một lượng tương ứng",
           "coinlist": [
             {
               "coindescs": [
@@ -85,10 +85,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Laceration] tăng 2"
+                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng 2"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Nếu máu hiện tại của bản thân trên 50% mức tối đa, kích hoạt [Laceration] của bản thân. Tiêu hao 1 số lần [Laceration] của bản thân"
+                  "desc": "[OnSucceedAttack] Nếu máu hiện tại của bản thân từ 50% trở lên, kích hoạt [Laceration] của bản thân. Tiêu hao 1 Số lượng [Laceration] của bản thân"
                 }
               ]
             },
@@ -98,7 +98,7 @@
                   "desc": "[OnSucceedAttack] Nhận [WornHeart] và 3 [BloodyHand]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Nếu [WornHeart] là 10, nhận thêm 3 [BloodyHand] và nhận 1 [AttackUp] ở lượt tiếp theo"
+                  "desc": "[OnSucceedAttack] Nếu [WornHeart] là 10, nhận thêm 3 [BloodyHand] và nhận 1 [AttackUp] vào lượt sau"
                 }
               ]
             }
@@ -131,7 +131,7 @@
         {
           "level": 1,
           "name": "Thật dồi dào làm sao...",
-          "desc": "[WhenUse] Nếu [Laceration] trên mục tiêu từ 6 trở lên, Sức mạnh Coin +1\n[WhenUse] Tiêu hao tối đa 30 [BloodDinner], mỗi 10 [BloodDinner] tiêu hao nhận Sức mạnh Coin +1 (Hiệu ứng biến mất sau khi Coin đầu tiên kết thúc tấn công)\n[DefeatDuel] Nhận 1 [Vulnerable] ở lượt tiếp theo",
+          "desc": "[WhenUse] Nếu [Laceration] trên mục tiêu từ 6 trở lên, Sức mạnh Đồng xu +1\n[WhenUse] Tiêu hao tối đa 30 [BloodDinner], mỗi 10 [BloodDinner] tiêu hao nhận Sức mạnh Đồng xu +1 (Hiệu ứng biến mất sau đòn tấn công của Đồng xu đầu tiên)\n[DefeatDuel] Nhận 1 [Vulnerable] vào lượt sau",
           "coinlist": [
             {
               "coindescs": [
@@ -146,7 +146,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Laceration] tăng 2"
+                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng 2"
                 }
               ]
             },
@@ -156,7 +156,7 @@
                   "desc": "[OnSucceedAttack] Hồi phục máu bằng sát thương gây ra (Tối đa 30)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Nếu Kĩ năng này tiêu hao 30 [BloodDinner] và [BloodyHand_3rd] là 30, sử dụng lại Coin này 1 lần"
+                  "desc": "[OnSucceedAttack] Nếu Kĩ năng này tiêu hao 30 [BloodDinner] và [BloodyHand_3rd] từ 30 trở lên, sử dụng lại Đồng xu này 1 lần"
                 },
                 {
                   "desc": "- Nếu không thể tiêu hao [BloodDinner] bằng Kĩ năng này, bản thân nhận 20 [Laceration]"
@@ -173,7 +173,7 @@
         {
           "level": 1,
           "name": "Sự hiến dâng vì gia đình",
-          "desc": "[StartBattle] Nếu máu hiện tại của bản thân trên 50% mức tối đa, kích hoạt [Laceration] của bản thân (Tối đa 3 lần. Số lần Xuất huyết giảm tương ứng số lần kích hoạt. Không bị Choáng bởi sát thương này)\n[StartBattle] Hồi phục 5 Tinh thần cho toàn bộ đồng minh (Bao gồm cả bản thân)",
+          "desc": "[StartBattle] Nếu máu hiện tại của bản thân từ 50% trở lên, kích hoạt [Laceration] của bản thân (Tối đa 3 lần. Số lượng Xuất huyết giảm bằng số lần kích hoạt. Sát thương này không khiến bản thân bị Choáng)\n[StartBattle] Hồi phục 5 Tinh thần cho toàn bộ đồng minh (Bao gồm cả bản thân)",
           "coinlist": [
             {
               "coindescs": [
@@ -204,7 +204,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Laceration] tăng 2"
+                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng 2"
                 }
               ]
             }
@@ -218,7 +218,7 @@
         {
           "level": 1,
           "name": "Biểu lộ tình cảm",
-          "desc": "Ưu tiên chỉ định mục tiêu có ít hiệu ứng bất lợi\n[WhenUse] Nếu mục tiêu không có hiệu ứng bất lợi, sử dụng 'Biểu lộ tình cảm dữ dội' ở lượt tiếp theo\n\n[WhenUse] Nếu số loại hiệu ứng bất lợi của mục tiêu nhiều hơn [FaintMemory] của bản thân, sử dụng 'Cái ôm u sầu' ở lượt tiếp theo",
+          "desc": "Ưu tiên chỉ định mục tiêu có ít hiệu ứng bất lợi\n[WhenUse] Nếu mục tiêu không có hiệu ứng bất lợi, sử dụng 'Biểu lộ tình cảm dữ dội' vào lượt sau\n\n[WhenUse] Nếu số loại hiệu ứng bất lợi của mục tiêu nhiều hơn [FaintMemory] của bản thân, sử dụng 'Cái ôm sầu muộn' vào lượt sau",
           "coinlist": [
             {
               "coindescs": [
@@ -229,7 +229,7 @@
                   "desc": "[OnSucceedAttack] Gây 4 [AffectionTeddy]"
                 },
                 {
-                  "desc": "[WinDuelAttack] Gây 2 [Vulnerable] ở lượt tiếp theo"
+                  "desc": "[WinDuelAttack] Gây 2 [Vulnerable] vào lượt sau"
                 }
               ]
             }
@@ -243,7 +243,7 @@
         {
           "level": 1,
           "name": "Cào",
-          "desc": "Ưu tiên chỉ định mục tiêu có ít hiệu ứng bất lợi\n[WinDuel] Gây 3 [AffectionTeddy] ở lượt tiếp theo\n[DefeatDuel] Gây 1 [AffectionTeddy] ở lượt tiếp theo",
+          "desc": "Ưu tiên chỉ định mục tiêu có ít hiệu ứng bất lợi\n[WinDuel] Gây 3 [AffectionTeddy] vào lượt sau\n[DefeatDuel] Gây 1 [AffectionTeddy] vào lượt sau",
           "coinlist": [
             {
               "coindescs": [
@@ -265,12 +265,12 @@
         {
           "level": 1,
           "name": "Cào loạn xạ",
-          "desc": "Ưu tiên chỉ định mục tiêu có ít hiệu ứng bất lợi\n[WinDuel] Gây 3 [AffectionTeddy] ở lượt tiếp theo\n[DefeatDuel] Gây 1 [AffectionTeddy] ở lượt tiếp theo",
+          "desc": "Ưu tiên chỉ định mục tiêu có ít hiệu ứng bất lợi\n[WinDuel] Gây 3 [AffectionTeddy] vào lượt sau\n[DefeatDuel] Gây 1 [AffectionTeddy] vào lượt sau",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Laceration] tăng 2"
+                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng 2"
                 }
               ]
             },
@@ -291,7 +291,7 @@
         {
           "level": 1,
           "name": "Biểu lộ tình cảm yếu ớt",
-          "desc": "[DuelCounter]\n[WhenUse] Gây 2 [Disarming] ở lượt tiếp theo\n[WhenUse] Gây 1 [Curse]",
+          "desc": "[DuelCounter]\n[WhenUse] Gây 2 [Disarming] vào lượt sau\n[WhenUse] Gây 1 [Curse]",
           "coinlist": [
             {
               "coindescs": [
@@ -316,7 +316,7 @@
         {
           "level": 1,
           "name": "Biểu lộ tình cảm dữ dội",
-          "desc": "[CantChangeTarget]\nChỉ định mục tiêu đã khớp đấu bằng 'Biểu hiện tình cảm' ở lượt trước",
+          "desc": "[CantChangeTarget]\nNhắm mục tiêu mà bản thân đã Đối kháng bằng 'Biểu lộ tình cảm' vào lượt trước",
           "coinlist": [
             {
               "coindescs": [
@@ -327,10 +327,10 @@
                   "desc": "Nếu mục tiêu không có hiệu ứng bất lợi, Sát thương +100%"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gây [Curse] 3"
+                  "desc": "[OnSucceedAttack] Gây 3 [Curse]"
                 },
                 {
-                  "desc": "[WinDuelAttack] Gây [NailPersonality] 6"
+                  "desc": "[WinDuelAttack] Gây 6 [NailPersonality]"
                 }
               ]
             }
@@ -344,7 +344,7 @@
         {
           "level": 1,
           "name": "Cái ôm sầu muộn",
-          "desc": "[CantChangeTarget]\nChỉ định mục tiêu đã khớp đấu bằng 'Biểu hiện tình cảm' ở lượt trước\nSát thương gây ra cho mục tiêu cố định ở mức 0\n[StartBattle] Nhận [Vulnerable] 2 cho đến lượt sau\n[EndBattle] Hoảng loạn",
+          "desc": "[CantChangeTarget]\nNhắm mục tiêu mà bản thân đã Đối kháng bằng 'Biểu lộ tình cảm' vào lượt trước\nSát thương gây ra cho mục tiêu cố định ở mức 0\n[StartBattle] Nhận 2 [Vulnerable] cho đến lượt sau\n[EndBattle] Rơi vào trạng thái Choáng",
           "coinlist": [
             {
               "coindescs": [
@@ -365,13 +365,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Cái ôm của ngày xưa hoài niệm",
-          "desc": "[DefeatDuel] Sát thương kĩ năng này gây ra cho kẻ địch giảm đi một nửa",
+          "name": "Cái ôm hoài niệm ngày xưa",
+          "desc": "[DefeatDuel] Sát thương Kĩ năng này gây ra cho kẻ địch giảm đi một nửa",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây [Curse] 4"
+                  "desc": "[OnSucceedAttack] Gây 4 [Curse]"
                 }
               ]
             },
@@ -381,10 +381,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gây [NailPersonality] 4"
+                  "desc": "[OnSucceedAttack] Gây 4 [NailPersonality]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Tiêu hao tất cả [AffectionTeddy] của mục tiêu\n- Nếu thắng khớp đấu, gây (Số [AffectionTeddy] đã tiêu hao × 10) sát thương Hoảng loạn"
+                  "desc": "[OnSucceedAttack] Tiêu hao tất cả [AffectionTeddy] của mục tiêu\n- Nếu thắng Đối kháng, tăng Ngưỡng choáng của mục tiêu bằng (Số lượng [AffectionTeddy] đã tiêu hao × 10)"
                 }
               ]
             }
@@ -403,7 +403,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây [Laceration] 4, số lượt [Laceration] tăng 2"
+                  "desc": "[OnSucceedAttack] Gây 4 [Laceration], Số lượng [Laceration] tăng 2"
                 }
               ]
             }
@@ -417,19 +417,19 @@
         {
           "level": 1,
           "name": "Dục vọng xuyên thấu",
-          "desc": "[WhenUse] Nếu [Laceration] của mục tiêu từ 4 trở lên, Uy lực Đồng xu +1",
+          "desc": "[WhenUse] Nếu [Laceration] của mục tiêu từ 4 trở lên, Sức mạnh Đồng xu +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lượt [Laceration] tăng 3"
+                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng 3"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây [Laceration] 6"
+                  "desc": "[OnSucceedAttack] Gây 6 [Laceration]"
                 }
               ]
             }
@@ -442,13 +442,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Dục vọng nghiền nát",
-          "desc": "[WhenUse] Nếu [Laceration] của mục tiêu từ 4 trở lên, Uy lực Cơ bản +2",
+          "name": "Dục vọng bị kìm nén",
+          "desc": "[WhenUse] Nếu [Laceration] của mục tiêu từ 4 trở lên, Sức mạnh Cơ bản +2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[WinDuelAttack] Số lượt [Laceration] tăng bằng số lượt [Laceration] mục tiêu đã mất trong khi khớp đấu"
+                  "desc": "[WinDuelAttack] Số lượng [Laceration] tăng bằng Số lượng [Laceration] mà mục tiêu đã mất trong khi Đối kháng"
                 }
               ]
             },
@@ -456,10 +456,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây [Laceration] 10"
+                  "desc": "[OnSucceedAttack] Gây 10 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gây [ScarletTakeDamageUp] 2 vào lượt sau"
+                  "desc": "[OnSucceedAttack] Gây 2 [ScarletTakeDamageUp] vào lượt sau"
                 }
               ]
             }
@@ -473,7 +473,7 @@
         {
           "level": 1,
           "name": "Phòng thủ",
-          "desc": "[WhenUse] Với mỗi 4 [Laceration] của mục tiêu, máu Khiên +10 (Tối đa 30)",
+          "desc": "[WhenUse] Với mỗi 4 [Laceration] của mục tiêu, HP Lá chắn +10 (Tối đa 30)",
           "coinlist": [
             {
               "coindescs": [
@@ -492,22 +492,22 @@
         {
           "level": 1,
           "name": "Gọt bỏ",
-          "desc": "[WhenUse] Số lượt [Breath] của bản thân tăng 2",
+          "desc": "[WhenUse] Số lượng [Breath] của bản thân tăng 2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Nhận [Breath] 3"
+                  "desc": "[OnSucceedAttack] Nhận 3 [Breath]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Nhận [Breath] 3"
+                  "desc": "[OnSucceedAttack] Nhận 3 [Breath]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Gây [Vulnerable] 1 vào lượt sau"
+                  "desc": "[CriticalOnSucceedAttack] Gây 1 [Vulnerable] vào lượt sau"
                 }
               ]
             }
@@ -521,23 +521,23 @@
         {
           "level": 1,
           "name": "Nghiền nát",
-          "desc": "[WhenUse] Nhận [Breath] 5",
+          "desc": "[WhenUse] Nhận 5 [Breath]",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lượt [Breath] của bản thân tăng 2"
+                  "desc": "[OnSucceedAttack] Số lượng [Breath] của bản thân tăng 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây [IndigoTakeDamageUp] 2 vào lượt sau"
+                  "desc": "[OnSucceedAttack] Gây 2 [IndigoTakeDamageUp] vào lượt sau"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Gây [Vulnerable] 1 vào lượt sau"
+                  "desc": "[CriticalOnSucceedAttack] Gây 1 [Vulnerable] vào lượt sau"
                 }
               ]
             }
@@ -551,12 +551,12 @@
         {
           "level": 1,
           "name": "Nghiền nát ngạo mạn",
-          "desc": "[WhenUse] Nếu [Breath] từ 5 trở lên, Uy lực Đồng xu +2",
+          "desc": "[WhenUse] Nếu [Breath] từ 5 trở lên, Sức mạnh Đồng xu +2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Nhận [Breath] 4, số lượt [Breath] tăng 3"
+                  "desc": "[OnSucceedAttack] Nhận 4 [Breath], Số lượng [Breath] tăng 3"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Sát thương +100%"
@@ -573,12 +573,12 @@
         {
           "level": 1,
           "name": "Phản kích",
-          "desc": "[WhenUse] Nếu [Breath] của bản thân từ 6 trở lên, Uy lực Đồng xu +2",
+          "desc": "[WhenUse] Nếu [Breath] của bản thân từ 6 trở lên, Sức mạnh Đồng xu +2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lượt [Breath] tăng 2 vào lượt sau"
+                  "desc": "[OnSucceedAttack] Số lượng [Breath] của bản thân tăng 2 vào lượt sau"
                 }
               ]
             }
@@ -592,19 +592,19 @@
         {
           "level": 1,
           "name": "Phá hủy",
-          "desc": "[WhenUse] Tiêu hao 10 [BloodDinner] để nhận 1 [BloodArmor]\n[WhenUse] Với mỗi 10 [BloodArmor], Uy lực Đồng xu +1 (Tối đa 2)\n[WhenUse] Với mỗi 15 [Laceration] của bản thân, Uy lực Đồng xu +1 (Tối đa 3)",
+          "desc": "[WhenUse] Tiêu hao 10 [BloodDinner] để nhận 1 [BloodArmor]\n[WhenUse] Với mỗi 10 [BloodArmor], Sức mạnh Đồng xu +1 (Tối đa 2)\n[WhenUse] Với mỗi 15 [Laceration] của bản thân, Sức mạnh Đồng xu +1 (Tối đa 3)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây [Laceration] 3"
+                  "desc": "[OnSucceedAttack] Gây 3 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây [Laceration] 3"
+                  "desc": "[OnSucceedAttack] Gây 3 [Laceration]"
                 }
               ]
             }
@@ -618,19 +618,19 @@
         {
           "level": 1,
           "name": "Gây vết thương",
-          "desc": "[WhenUse] Tiêu hao tối đa 20 [BloodDinner], với mỗi 10 [BloodDinner] đã tiêu hao, nhận 1 [BloodArmor]\n[WhenUse] Với mỗi 10 [BloodArmor], Uy lực Đồng xu +1 (Tối đa 2)\n[WhenUse] Với mỗi 15 [Laceration] của bản thân, Uy lực Đồng xu +1 (Tối đa 3)",
+          "desc": "[WhenUse] Tiêu hao tối đa 20 [BloodDinner], với mỗi 10 [BloodDinner] đã tiêu hao, nhận 1 [BloodArmor]\n[WhenUse] Với mỗi 10 [BloodArmor], Sức mạnh Đồng xu +1 (Tối đa 2)\n[WhenUse] Với mỗi 15 [Laceration] của bản thân, Sức mạnh Đồng xu +1 (Tối đa 3)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lượt [Laceration] tăng 2"
+                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lượt [Laceration] tăng 2"
+                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng 2"
                 }
               ]
             }
@@ -644,7 +644,7 @@
         {
           "level": 1,
           "name": "Huyết Hỉ",
-          "desc": "[WhenUse] Tiêu hao 4 [BloodArmor], hồi 10 Tỉnh táo\n[WhenUse] Tiêu hao 10 [BloodDinner], nhận 1 [BloodArmor] và hồi 10 Tỉnh táo\n- Nếu không thể tiêu hao [BloodDinner], nhận 3 [Laceration]",
+          "desc": "[WhenUse] Tiêu hao 4 [BloodArmor], hồi phục 10 Tinh thần\n[WhenUse] Tiêu hao 10 [BloodDinner], nhận 1 [BloodArmor] và hồi phục 10 Tinh thần\n- Nếu không thể tiêu hao [BloodDinner], nhận 3 [Laceration]",
           "coinlist": [
             {
               "coindescs": [
@@ -666,7 +666,7 @@
         {
           "level": 1,
           "name": "Hoan Hỉ Huyết",
-          "desc": "Có thể Kháng cự với Kĩ năng này bất kể tốc độ\n[StartBattle] Nếu có kẻ địch đang bị [Laceration], kích hoạt [Laceration] của tất cả kẻ địch. Số lượng [Laceration] giảm 2\n[WhenUse] Nếu hiệu ứng khi bắt đầu trận đấu không được kích hoạt, nhận 30 [Laceration].\n[WinDuel] Tiêu hao tối đa 40 [BloodDinner], mỗi 10 [BloodDinner] tiêu hao, nhận 1 [BloodArmor] và Sát thương +25% (Tối đa 100%)\n- Nếu không thể tiêu hao [BloodDinner], nhận 5 [Laceration] và kích hoạt [Laceration] ngay lập tức. Số lượng [Laceration] giảm 2\n[EndSkill] Kết thúc lượt này",
+          "desc": "Có thể Đối kháng với Kĩ năng này bất kể Tốc độ\n[StartBattle] Nếu có kẻ địch đang bị [Laceration], kích hoạt [Laceration] của tất cả kẻ địch. Số lượng [Laceration] giảm 2\n[WhenUse] Nếu hiệu ứng khi bắt đầu trận chiến không được kích hoạt, nhận 30 [Laceration].\n[WinDuel] Tiêu hao tối đa 40 [BloodDinner], mỗi 10 [BloodDinner] tiêu hao, nhận 1 [BloodArmor] và Sát thương +25% (Tối đa 100%)\n- Nếu không thể tiêu hao [BloodDinner], nhận 5 [Laceration] và kích hoạt [Laceration] ngay lập tức. Số lượng [Laceration] giảm 2\n[EndSkill] Kết thúc lượt này",
           "coinlist": [
             {
               "coindescs": [
@@ -674,7 +674,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gây 5 [Laceration], Số lượng [Laceration] tăng thêm 2"
+                  "desc": "[OnSucceedAttack] Gây 5 [Laceration], Số lượng [Laceration] tăng 2"
                 }
               ]
             },
@@ -684,7 +684,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gây 5 [Laceration], Số lượng [Laceration] tăng thêm 2"
+                  "desc": "[OnSucceedAttack] Gây 5 [Laceration], Số lượng [Laceration] tăng 2"
                 }
               ]
             },
@@ -704,8 +704,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Don Quixote Lưu Ngạnh Huyết Thức 4 - Khoét Sâu",
-          "desc": "[WhenUse] Nếu [Laceration] trên mục tiêu từ 6 trở lên, Sức mạnh Đồng xu +1\n[WinDuel] Tùy theo cấp độ [BloodArmor], Sát thương kĩ năng này +20% (Tối đa 60%)\n[DefeatDuel] Tiêu hao 4 [BloodArmor], nhận 20 HP Lá chắn",
+          "name": "Don Quixote Lưu Huyết Cương Thức 4 - Khoét Sâu",
+          "desc": "[WhenUse] Nếu [Laceration] trên mục tiêu từ 6 trở lên, Sức mạnh Đồng xu +1\n[WinDuel] Sát thương Kĩ năng này +20% cho mỗi giai đoạn của [BloodArmor] (Tối đa 60%)\n[DefeatDuel] Tiêu hao 4 [BloodArmor], nhận 20 HP Lá chắn",
           "coinlist": [
             {
               "coindescs": [
@@ -730,20 +730,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Don Quixote Lưu Ngạnh Huyết Thức 11 - Đục Thủng",
-          "desc": "[WhenUse] Mỗi 3 [Laceration] trên mục tiêu, Sức mạnh Cơ bản +1 (Tối đa 3)\n[WinDuel] Tùy theo cấp độ [BloodArmor], Sát thương kĩ năng này +20% (Tối đa 60%)\n[DefeatDuel] Tiêu hao 4 [BloodArmor], nhận 20 HP Lá chắn",
+          "name": "Don Quixote Lưu Huyết Cương Thức 11 - Đục Thủng",
+          "desc": "[WhenUse] Mỗi 3 [Laceration] trên mục tiêu, Sức mạnh Cơ bản +1 (Tối đa 3)\n[WinDuel] Sát thương Kĩ năng này +20% cho mỗi giai đoạn của [BloodArmor] (Tối đa 60%)\n[DefeatDuel] Tiêu hao 4 [BloodArmor], nhận 20 HP Lá chắn",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng thêm 2"
+                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng thêm 2"
+                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng 2"
                 }
               ]
             },
@@ -763,8 +763,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Don Quixote Lưu Ngạnh Huyết Thức 2 - Ngạnh Huyết",
-          "desc": "Có thể Kháng cự với Kĩ năng này bất kể tốc độ\n[StartBattle] Tiêu hao 200 [BloodDinner], nhận 500 HP Lá chắn, 5 [BloodArmor] và 1 [SwirlingBlood]\n- Nếu không đủ [BloodDinner], nhận 50 [Laceration] và kích hoạt [Laceration] ngay lập tức. Số lượng [Laceration] giảm 2. Nhận 500 HP Lá chắn và 1 [SwirlingBlood] (Sát thương này không thể làm HP thấp hơn 1)\n[WinDuel] Nhận 200 HP Lá chắn\n[DefeatDuel] Khi đang có Lá chắn nhận từ kĩ năng này, nhận 3 [Vulnerable]\n[DefeatDuel] Sát thương giảm 50%, và mục tiêu không bị Choáng bởi sát thương của kĩ năng này\n[EndSkill] Kết thúc lượt này",
+          "name": "Don Quixote Lưu Huyết Cương Thức 2 - Huyết Cương",
+          "desc": "Có thể Đối kháng với Kĩ năng này bất kể Tốc độ\n[StartBattle] Tiêu hao 200 [BloodDinner], nhận 500 HP Lá chắn, 5 [BloodArmor] và 1 [SwirlingBlood]\n- Nếu không đủ [BloodDinner], nhận 50 [Laceration] và kích hoạt [Laceration] ngay lập tức. Số lượng [Laceration] giảm 2. Nhận 500 HP Lá chắn, 5 [BloodArmor] và 1 [SwirlingBlood] (Sát thương này không thể làm HP thấp hơn 1)\n[WinDuel] Nhận 200 HP Lá chắn\n[DefeatDuel] Khi đang có Lá chắn nhận từ Kĩ năng này, nhận 3 [Vulnerable]\n[DefeatDuel] Sát thương giảm 50%, sát thương của Kĩ năng này không khiến mục tiêu bị Choáng\n[EndSkill] Kết thúc lượt này",
           "coinlist": [
             {
               "coindescs": [
@@ -793,7 +793,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gây 5 [Laceration], Số lượng [Laceration] tăng thêm 3"
+                  "desc": "[OnSucceedAttack] Gây 5 [Laceration], Số lượng [Laceration] tăng 3"
                 }
               ]
             }
@@ -807,7 +807,7 @@
         {
           "level": 1,
           "name": "Don Quixote Á Lưu Sancho Thức 4 - Truy Kích",
-          "desc": "Ưu tiên tấn công mục tiêu có nhiều [Laceration] nhất\n[BeforeAttack] Nếu là mục tiêu có nhiều [Laceration] nhất, Chỉ số Mục tiêu +2, Sức mạnh Kháng cự +3\n[WhenUse] Tiêu hao tối đa 30 [BloodDinner], mỗi 15 [BloodDinner] tiêu hao nhận 1 [BloodArmor]. Sức mạnh Đồng xu +1 (Tối đa 2)\n- Nếu không thể tiêu hao [BloodDinner], nhận 10 [Laceration] và kích hoạt [Laceration] ngay lập tức. Số lượng [Laceration] giảm 2\n[EndSkill] Nhận [BloodDinner] tương ứng với sát thương kĩ năng này gây ra",
+          "desc": "Ưu tiên tấn công mục tiêu có nhiều [Laceration] nhất\n[BeforeAttack] Nếu là mục tiêu có nhiều [Laceration] nhất, Trọng lượng Tấn công +2, Sức mạnh Đối kháng +3\n[WhenUse] Tiêu hao tối đa 30 [BloodDinner], mỗi 15 [BloodDinner] tiêu hao nhận 1 [BloodArmor]. Sức mạnh Đồng xu +1 (Tối đa 2)\n- Nếu không thể tiêu hao [BloodDinner], nhận 10 [Laceration] và kích hoạt [Laceration] ngay lập tức. Số lượng [Laceration] giảm 2\n[EndSkill] Tăng [BloodDinner] bằng lượng sát thương Kĩ năng này gây ra",
           "coinlist": [
             {
               "coindescs": [
@@ -819,7 +819,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây 1 [Binding] vào lượt sau\n- Nếu đã tiêu hao 30 [BloodDinner] bằng kĩ năng này, gây thêm 2 [Binding]"
+                  "desc": "[OnSucceedAttack] Gây 1 [Binding] vào lượt sau\n- Nếu đã tiêu hao 30 [BloodDinner] bằng Kĩ năng này, gây thêm 2 [Binding]"
                 }
               ]
             }
@@ -833,26 +833,26 @@
         {
           "level": 1,
           "name": "Don Quixote Á Lưu Sancho Thức 3 - Kỳ Kích",
-          "desc": "Ưu tiên tấn công mục tiêu có nhiều [Laceration] nhất\n[BeforeAttack] Nếu là mục tiêu có nhiều [Laceration] nhất, Chỉ số Mục tiêu +2, Sức mạnh Kháng cự +3\n[WhenUse] Tiêu hao tối đa 50 [BloodDinner], mỗi 10 [BloodDinner] tiêu hao nhận 1 [BloodArmor]. Sức mạnh Cơ bản +1 (Tối đa 5)\n- Nếu không thể tiêu hao [BloodDinner], nhận 10 [Laceration] và kích hoạt [Laceration] ngay lập tức. Số lượng [Laceration] giảm 1\n[EndSkill] Nhận [BloodDinner] tương ứng với sát thương kĩ năng này gây ra",
+          "desc": "Ưu tiên tấn công mục tiêu có nhiều [Laceration] nhất\n[BeforeAttack] Nếu là mục tiêu có nhiều [Laceration] nhất, Trọng lượng Tấn công +2, Sức mạnh Đối kháng +3\n[WhenUse] Tiêu hao tối đa 50 [BloodDinner], mỗi 10 [BloodDinner] tiêu hao nhận 1 [BloodArmor]. Sức mạnh Cơ bản +1 (Tối đa 5)\n- Nếu không thể tiêu hao [BloodDinner], nhận 10 [Laceration] và kích hoạt [Laceration] ngay lập tức. Số lượng [Laceration] giảm 1\n[EndSkill] Tăng [BloodDinner] bằng lượng sát thương Kĩ năng này gây ra",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng thêm 2"
+                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng thêm 2"
+                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây 1 [Paralysis] vào lượt sau\n- Nếu đã tiêu hao 50 [BloodDinner] bằng kĩ năng này, gây thêm 2 [Paralysis]"
+                  "desc": "[OnSucceedAttack] Gây 1 [Paralysis] vào lượt sau\n- Nếu đã tiêu hao 50 [BloodDinner] bằng Kĩ năng này, gây thêm 2 [Paralysis]"
                 }
               ]
             }
@@ -866,7 +866,7 @@
         {
           "level": 1,
           "name": "Don Quixote Á Lưu Sancho Thức 2 - La Sangre",
-          "desc": "Có thể Kháng cự với Kĩ năng này bất kể tốc độ\n[WhenUse] Tiêu hao 50 [BloodDinner], gây 1 [Paralysis] cho bản thân và mục tiêu\n[WhenUse] Tiêu hao 100 [BloodDinner], Sức mạnh Kháng cự +5\n- Nếu không đủ [BloodDinner], tiêu hao 100 HP của bản thân để Sức mạnh Kháng cự +5\n[EndSkill] Kết thúc lượt này",
+          "desc": "Có thể Đối kháng với Kĩ năng này bất kể Tốc độ\n[WhenUse] Tiêu hao 50 [BloodDinner], gây 1 [Paralysis] cho bản thân và mục tiêu\n[WhenUse] Tiêu hao 100 [BloodDinner], Sức mạnh Đối kháng +5\n- Nếu không đủ [BloodDinner], tiêu hao 100 HP của bản thân để Sức mạnh Đối kháng +5\n[EndSkill] Kết thúc lượt này",
           "coinlist": [
             {
               "coindescs": [
@@ -890,8 +890,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "La Aventura a Terminado",
-          "desc": "[WhenUse] Tiêu hao [BloodDinner] một lượng bằng (45 - Tỉnh táo hiện tại) để hồi Tỉnh táo lên 45\n- Nếu không đủ [BloodDinner], tiêu hao một lượng HP bằng (45 - Tỉnh táo hiện tại) để hồi Tỉnh táo lên 45 (Sát thương này không thể làm HP thấp hơn 1)\n- Nhận HP Lá chắn tương ứng với lượng [BloodDinner] còn lại (Tối đa 100)\n[WinDuel] Gây 10 [Laceration] cho mục tiêu\n[DefeatDuel] Tiêu hao 100 [BloodDinner]\n[EndSkill] Nhận [BloodDinner] tương ứng với sát thương kĩ năng này gây ra",
+          "name": "La Aventura Ha Terminado",
+          "desc": "[WhenUse] Tiêu hao một lượng [BloodDinner] bằng (45 - Tinh thần hiện tại) để hồi phục Tinh thần lên 45\n- Nếu không đủ [BloodDinner], tiêu hao một lượng HP bằng (45 - Tinh thần hiện tại) để hồi phục Tinh thần lên 45 (Sát thương này không thể làm HP thấp hơn 1)\n- Nhận HP Lá chắn bằng lượng [BloodDinner] còn lại (Tối đa 100)\n[WinDuel] Gây 10 [Laceration] cho mục tiêu\n[DefeatDuel] Tiêu hao 100 [BloodDinner]\n[EndSkill] Tăng [BloodDinner] bằng lượng sát thương Kĩ năng này gây ra",
           "coinlist": [
             {
               "coindescs": [
@@ -905,7 +905,7 @@
                   "desc": "[OnSucceedAttack] Mỗi 1 [BloodDinner], Sát thương +10% (Tối đa 100%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gây 3 [Laceration], Số lượng [Laceration] tăng thêm 2"
+                  "desc": "[OnSucceedAttack] Gây 3 [Laceration], Số lượng [Laceration] tăng 2"
                 }
               ]
             }
@@ -978,14 +978,14 @@
         {
           "level": 1,
           "name": "Kiiik",
-          "desc": "[StartBattle] Tặng 3 [DefenseUp] cho 1 đồng minh (bao gồm bản thân) có tỉ lệ HP hiện tại thấp nhất\n[WhenUse] Mỗi 5 [DefenseUp] của bản thân, Sức mạnh Cơ bản +1 (Tối đa 4)",
+          "desc": "[StartBattle] Áp dụng 3 [DefenseUp] lên 1 đồng minh (bao gồm bản thân) có tỉ lệ HP hiện tại thấp nhất\n[WhenUse] Mỗi 5 [DefenseUp] của bản thân, Sức mạnh Cơ bản +1 (Tối đa 4)",
           "coinlist": [
             {},
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Vào lượt sau, nhận Tăng Cấp độ Tấn công tương ứng với [DefenseUp]"
+                  "desc": "[OnSucceedAttack] Vào lượt sau, nhận Tăng Cấp độ Tấn công bằng [DefenseUp]"
                 }
               ]
             }
@@ -999,7 +999,7 @@
         {
           "level": 1,
           "name": "Kiki",
-          "desc": "[StartBattle] Nhận Lá chắn bằng ([DefenseUp] của bản thân × 2) (Tối đa 20, 2 lần mỗi lượt)",
+          "desc": "[StartBattle] Nhận HP Lá chắn bằng ([DefenseUp] của bản thân × 2) (Tối đa 20, 2 lần mỗi lượt)",
           "coinlist": [
             {
               "coindescs": [
@@ -1018,12 +1018,12 @@
         {
           "level": 1,
           "name": "Roi Gai",
-          "desc": "[WhenUse] Nếu [Burst] của mục tiêu từ 6 trở lên, Sức mạnh Đối đầu +1",
+          "desc": "[WhenUse] Nếu [Burst] của mục tiêu từ 6 trở lên, Sức mạnh Đối kháng +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây [Burst] 4"
+                  "desc": "[OnSucceedAttack] Gây 4 [Burst]"
                 }
               ]
             }
@@ -1037,19 +1037,19 @@
         {
           "level": 1,
           "name": "Vung Roi",
-          "desc": "[WhenUse] Nếu [Burst] của mục tiêu từ 6 trở lên, Sức mạnh Coin +1\n[WinDuel] Số lần [Burst] tăng thêm 2",
+          "desc": "[WhenUse] Nếu [Burst] của mục tiêu từ 6 trở lên, Sức mạnh Đồng xu +1\n[WinDuel] Số lượng [Burst] tăng 2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Nếu số lần [Burst] của mục tiêu dưới 5, số lần [Burst] tăng thêm 2\n- Nếu số lần [Burst] từ 5 trở lên, thay vào đó gây 2 [Burst]"
+                  "desc": "[OnSucceedAttack] Nếu Số lượng [Burst] của mục tiêu dưới 5, Số lượng [Burst] tăng 2\n- Nếu Số lượng [Burst] từ 5 trở lên, thay vào đó gây 2 [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Nếu số lần [Burst] của mục tiêu dưới 5, số lần [Burst] tăng thêm 2\n- Nếu số lần [Burst] từ 5 trở lên, thay vào đó gây 2 [Burst]"
+                  "desc": "[OnSucceedAttack] Nếu Số lượng [Burst] của mục tiêu dưới 5, Số lượng [Burst] tăng 2\n- Nếu Số lượng [Burst] từ 5 trở lên, thay vào đó gây 2 [Burst]"
                 }
               ]
             }
@@ -1063,7 +1063,7 @@
         {
           "level": 1,
           "name": "Vương Miện Gai Siết Chặt",
-          "desc": "Ưu tiên tấn công mục tiêu có Tinh thần thấp nhất\n[WhenUse] Nếu Tinh thần của mục tiêu từ 0 trở xuống, Sức mạnh Đối đầu +3\n[WhenUse] Với mỗi 4 [Burst] trên mục tiêu, Sức mạnh Coin +1 (Tối đa 3)",
+          "desc": "Ưu tiên tấn công mục tiêu có Tinh thần thấp nhất\n[WhenUse] Nếu Tinh thần của mục tiêu từ 0 trở xuống, Sức mạnh Đối kháng +3\n[WhenUse] Với mỗi 4 [Burst] trên mục tiêu, Sức mạnh Đồng xu +1 (Tối đa 3)",
           "coinlist": [
             {
               "coindescs": [
@@ -1087,21 +1087,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Nếu có [ThornNoose], gây [Burst] 2\n- Nếu [Burst] của mục tiêu từ 10 trở lên, số lần [Burst] tăng thêm 2 thay thế"
+                  "desc": "[OnSucceedAttack] Nếu có [ThornNoose], gây 2 [Burst]\n- Nếu [Burst] của mục tiêu từ 10 trở lên, thay vào đó tăng 2 Số lượng [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Nếu có [ThornNoose], gây [Burst] 2\n- Nếu [Burst] của mục tiêu từ 10 trở lên, số lần [Burst] tăng thêm 2 thay thế"
+                  "desc": "[OnSucceedAttack] Nếu có [ThornNoose], gây 2 [Burst]\n- Nếu [Burst] của mục tiêu từ 10 trở lên, thay vào đó tăng 2 Số lượng [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Nếu có [ThornNoose], gây [Burst] 2\n- Nếu [Burst] của mục tiêu từ 10 trở lên, số lần [Burst] tăng thêm 2 thay thế"
+                  "desc": "[OnSucceedAttack] Nếu có [ThornNoose], gây 2 [Burst]\n- Nếu [Burst] của mục tiêu từ 10 trở lên, thay vào đó tăng 2 Số lượng [Burst]"
                 }
               ]
             },
@@ -1125,7 +1125,7 @@
         {
           "level": 1,
           "name": "Thòng Lọng Gai",
-          "desc": "[WhenUse] Nếu Tốc độ của bản thân cao hơn Tốc độ của mục tiêu, Sức mạnh Đối đầu +5\n[WhenUse] Với mỗi 4 [Burst] trên mục tiêu, Sức mạnh Coin +1 (Tối đa 2)\n[WhenUse] Sức mạnh Cơ bản chỉ tăng đối với mục tiêu có [ThornNoose]",
+          "desc": "[WhenUse] Nếu Tốc độ của bản thân cao hơn Tốc độ của mục tiêu, Sức mạnh Đối kháng +5\n[WhenUse] Với mỗi 4 [Burst] trên mục tiêu, Sức mạnh Đồng xu +1 (Tối đa 2)\n[WhenUse] Sức mạnh Cơ bản tăng theo số mục tiêu có [ThornNoose]",
           "coinlist": [
             {},
             {},
@@ -1136,13 +1136,13 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gây [Burst] 4, số lần [Burst] tăng thêm 2"
+                  "desc": "[OnSucceedAttack] Gây 4 [Burst], Số lượng [Burst] tăng 2"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Nếu mục tiêu đang trong trạng thái Choáng và có [ThornNoose], lượng sát thương +30%"
+                  "desc": "[OnSucceedAttack] Nếu mục tiêu đang trong trạng thái Choáng hoặc có [ThornNoose], lượng sát thương +30%"
                 },
                 {
-                  "desc": "[EnemyKill] Gây [Burst] cho toàn bộ kẻ địch bằng (Số lần [Burst] của mục tiêu × 2) (Tối đa 10)"
+                  "desc": "[EnemyKill] Gây [Burst] cho toàn bộ kẻ địch bằng (Số lượng [Burst] của mục tiêu × 2) (Tối đa 10)"
                 }
               ]
             }
@@ -1156,7 +1156,7 @@
         {
           "level": 1,
           "name": "Bao Phủ Roi",
-          "desc": "[StartBattle] Nhận Lá chắn bằng (số kẻ địch có [ThornNoose])% Máu hiện tại",
+          "desc": "[StartBattle] Nhận HP Lá chắn bằng (số kẻ địch có [ThornNoose])% Máu hiện tại",
           "coinlist": [
             {
               "coindescs": [
@@ -1183,7 +1183,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Burst] tăng thêm 2"
+                  "desc": "[OnSucceedAttack] Số lượng [Burst] tăng 2"
                 }
               ]
             }
@@ -1202,7 +1202,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây [Burst] 4, số lần [Burst] tăng thêm 2"
+                  "desc": "[OnSucceedAttack] Gây 4 [Burst], Số lượng [Burst] tăng 2"
                 }
               ]
             }
@@ -1216,19 +1216,19 @@
         {
           "level": 1,
           "name": "Thật cao quý...",
-          "desc": "[WhenUse] Nếu [Laceration] của mục tiêu từ 6 trở lên, Sức mạnh Coin +1",
+          "desc": "[WhenUse] Nếu [Laceration] của mục tiêu từ 6 trở lên, Sức mạnh Đồng xu +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây [Burst] 4"
+                  "desc": "[OnSucceedAttack] Gây 4 [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây [Laceration] 4"
+                  "desc": "[OnSucceedAttack] Gây 4 [Laceration]"
                 }
               ]
             }
@@ -1242,7 +1242,7 @@
         {
           "level": 1,
           "name": "Lễ Hội Không Hồi Kết",
-          "desc": "[CantDuel]\nNếu mục tiêu sử dụng Kĩ năng Phòng ngự, lượng sát thương -100%\n[WhenUse] Tạo 1 Gondola vào lượt kế tiếp",
+          "desc": "[CantDuel]\nNếu mục tiêu sử dụng Kĩ năng Phòng ngự, lượng sát thương -100%\n[WhenUse] Tạo 1 Gondola vào lượt sau",
           "coinlist": [
             {
               "coindescs": [
@@ -1259,7 +1259,7 @@
         {
           "level": 1,
           "name": "Lễ Hội Vĩnh Cửu",
-          "desc": "[CantDuel]\nNếu mục tiêu sử dụng Kĩ năng Phòng ngự, lượng sát thương -100%\n[WhenUse] Tạo 4 Gondola vào lượt kế tiếp",
+          "desc": "[CantDuel]\nNếu mục tiêu sử dụng Kĩ năng Phòng ngự, lượng sát thương -100%\n[WhenUse] Tạo 4 Gondola vào lượt sau",
           "coinlist": [
             {
               "coindescs": [
@@ -1291,7 +1291,7 @@
         {
           "level": 1,
           "name": "Cho tôi ra ngoài!!! Cho tôi ra ngoài!!!",
-          "desc": "Sử dụng kĩ năng bùng nổ vào lượt kế tiếp.",
+          "desc": "Sử dụng Kĩ năng bùng nổ vào lượt sau.",
           "coinlist": [
             {
               "coindescs": [
@@ -1345,20 +1345,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Cơn Khát Như Thiêu Đốt",
+          "name": "Cơn Khát Cháy Bỏng",
           "desc": "[WhenUse] Với mỗi 5 [Laceration] trên mục tiêu, Sức mạnh Cơ bản +1 (Tối đa 3)\n[WhenUse] Tiêu hao tối đa 30 [BloodDinner], với mỗi 10 [BloodDinner] tiêu hao, nhận 1 [RegainedStrength]\n[DefeatDuel] Tinh thần giảm 3",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây [Laceration] 3"
+                  "desc": "[OnSucceedAttack] Gây 3 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây [Laceration] 3"
+                  "desc": "[OnSucceedAttack] Gây 3 [Laceration]"
                 }
               ]
             }
@@ -1372,7 +1372,7 @@
         {
           "level": 1,
           "name": "Hãy bị đâm xuyên đi",
-          "desc": "[WhenUse] Tiêu hao tối đa 40 [BloodDinner], mỗi 10 [BloodDinner] đã tiêu hao nhận 1 [RegainedStrength] và hồi 3 Tinh thần\n\n[DefeatDuel] Tinh thần giảm 3\n[DefeatDuel] Tiêu hao 3 [RegainedStrength]. Lượt kế tiếp nhận 3 [DefenseDown]",
+          "desc": "[WhenUse] Tiêu hao tối đa 40 [BloodDinner], mỗi 10 [BloodDinner] đã tiêu hao nhận 1 [RegainedStrength] và hồi phục 3 Tinh thần\n\n[DefeatDuel] Tinh thần giảm 3\n[DefeatDuel] Tiêu hao 3 [RegainedStrength]. Vào lượt sau, nhận 3 [DefenseDown]",
           "coinlist": [
             {
               "coindescs": [
@@ -1397,33 +1397,33 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Nhị thức Ngạnh Huyết phái Don Quixote - Cọc nhọn",
-          "desc": "Tấn công mục tiêu bị gán nhiều [Laceration] nhất\n[WhenUse] Mỗi 5 [Laceration] của mục tiêu, Uy lực Đồng xu +1 (Tối đa 2)",
+          "name": "Don Quixote Lưu Huyết Cương Thức 2 - Cọc Nhọn",
+          "desc": "Tấn công mục tiêu có nhiều [Laceration] nhất\n[WhenUse] Mỗi 5 [Laceration] của mục tiêu, Sức mạnh Đồng xu +1 (Tối đa 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gán 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Gây 2 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gán 2 [Burst]"
+                  "desc": "[OnSucceedAttack] Gây 2 [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gán 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Gây 2 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gán 2 [Burst]"
+                  "desc": "[OnSucceedAttack] Gây 2 [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây sát thương hệ Sắc dục bằng (Số tầng Xuất huyết × Số lần [Laceration] của mục tiêu)"
+                  "desc": "[OnSucceedAttack] Gây sát thương hệ Sắc dục bằng (Cường độ × Số lượng [Laceration] của mục tiêu)"
                 }
               ]
             }
@@ -1436,8 +1436,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Nêm Ngạnh Huyết",
-          "desc": "[StartBattle] Mỗi 3 [RegainedStrength] của bản thân, Trọng số Tấn công +1 (Tối đa 2)\n[EndSkill] Tiêu hao 3 [RegainedStrength]",
+          "name": "Nêm Huyết Cương",
+          "desc": "[StartBattle] Mỗi 3 [RegainedStrength] của bản thân, Trọng lượng Tấn công +1 (Tối đa 2)\n[EndSkill] Tiêu hao 3 [RegainedStrength]",
           "coinlist": [
             {
               "coindescs": [
@@ -1445,10 +1445,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gán 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Gây 3 [Laceration]"
                 },
                 {
-                  "desc": "[WinDuelAttack] Gán 3 [Burst]"
+                  "desc": "[WinDuelAttack] Gây 3 [Burst]"
                 },
                 {
                   "desc": "[DefeatDuelAttack] Tiêu hao 1 [RegainedStrength]"
@@ -1461,10 +1461,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Laceration] tăng 2"
+                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng 2"
                 },
                 {
-                  "desc": "[WinDuelAttack] Gán 3 [Burst]"
+                  "desc": "[WinDuelAttack] Gây 3 [Burst]"
                 },
                 {
                   "desc": "[DefeatDuelAttack] Tiêu hao 1 [RegainedStrength]"
@@ -1474,7 +1474,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gán 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Gây 3 [Laceration]"
                 }
               ]
             }
@@ -1488,7 +1488,7 @@
         {
           "level": 1,
           "name": "Khát máu",
-          "desc": "[WhenUse] Tiêu hao tối đa 40 [BloodDinner], mỗi 10 [BloodDinner] đã tiêu hao nhận 1 [RegainedStrength] và hồi 5 Tinh thần",
+          "desc": "[WhenUse] Tiêu hao tối đa 40 [BloodDinner], mỗi 10 [BloodDinner] đã tiêu hao nhận 1 [RegainedStrength] và hồi phục 5 Tinh thần",
           "coinlist": [
             {
               "coindescs": [
@@ -1496,7 +1496,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Laceration] tăng 1"
+                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng 1"
                 }
               ]
             },
@@ -1506,7 +1506,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Laceration] tăng 1"
+                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng 1"
                 }
               ]
             },
@@ -1516,7 +1516,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Laceration] tăng 1"
+                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng 1"
                 }
               ]
             },
@@ -1526,7 +1526,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gán 4 [Laceration]"
+                  "desc": "[OnSucceedAttack] Gây 4 [Laceration]"
                 }
               ]
             }
@@ -1539,8 +1539,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Giờ Huyết Thực",
-          "desc": "[CantIdentify]\n[WhenUse] Tiêu hao tối đa 300 [BloodDinner], mỗi 10 [BloodDinner] đã tiêu hao nhận 1 [RegainedStrength] và hồi 3 Tinh thần\n[WhenUse] Nếu đã tiêu hao [BloodDinner], hồi 30 Tinh thần",
+          "name": "Thời Khắc Huyết Thực",
+          "desc": "[CantIdentify]\n[WhenUse] Tiêu hao tối đa 300 [BloodDinner], mỗi 10 [BloodDinner] đã tiêu hao nhận 1 [RegainedStrength] và hồi phục 3 Tinh thần\n[WhenUse] Nếu đã tiêu hao [BloodDinner], hồi phục 30 Tinh thần",
           "coinlist": [
             {
               "coindescs": [
@@ -1558,8 +1558,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Tứ thức Ngạnh Huyết phái Don Quixote - Khoét sâu",
-          "desc": "Không rơi vào trạng thái Hoảng loạn cho đến khi sử dụng Kĩ năng này.\n[WhenUse] Tiêu hao tối đa 100 [BloodDinner], mỗi 10 [BloodDinner] đã tiêu hao nhận 1 [RegainedStrength] và hồi 15 Tinh thần\n[WhenUse] Mỗi 30 chỉ số [BloodDinner_Accumulation] của bản thân, Uy lực Đối kháng +1 (Tối đa 15)\n[DefeatDuel] Sát thương giảm một nửa, mục tiêu không bị Hoảng loạn bởi sát thương từ Kĩ năng này\n[EndSkill] Nhận [AttackDown], [DefenseDown] trong lượt này và lượt kế tiếp bằng với số Uy lực Đối kháng đã tăng. (Tối đa 15)",
+          "name": "Don Quixote Lưu Huyết Cương Thức 4 - Khoét Sâu",
+          "desc": "Không thể bị Choáng cho đến khi sử dụng Kĩ năng này.\n[WhenUse] Tiêu hao tối đa 100 [BloodDinner], mỗi 10 [BloodDinner] đã tiêu hao nhận 1 [RegainedStrength] và hồi phục 15 Tinh thần\n[WhenUse] Mỗi 30 [BloodDinner_Accumulation] của bản thân, Sức mạnh Đối kháng +1 (Tối đa 15)\n[DefeatDuel] Sát thương giảm 50%, sát thương từ Kĩ năng này không khiến mục tiêu bị Choáng\n[EndSkill] Trong lượt này và lượt sau, nhận [AttackDown], [DefenseDown] bằng với Sức mạnh Đối kháng đã tăng. (Tối đa 15)",
           "coinlist": [
             {
               "coindescs": [
@@ -1567,7 +1567,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gán 8 [Laceration]"
+                  "desc": "[OnSucceedAttack] Gây 8 [Laceration]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Tiêu hao 2 [RegainedStrength]"
@@ -1583,8 +1583,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Thập tứ thức Ngạnh Huyết phái Don Quixote - Áo choàng",
-          "desc": "[DuelGuard]\n[WinDuel] Gán 4 [Laceration], 4 [Burst] cho mục tiêu\n[DefeatDuel] Tiêu hao 2 [RegainedStrength]",
+          "name": "Don Quixote Lưu Huyết Cương Thức 14 - Áo Choàng",
+          "desc": "[DuelGuard]\n[WinDuel] Gây 4 [Laceration], 4 [Burst] cho mục tiêu\n[DefeatDuel] Tiêu hao 2 [RegainedStrength]",
           "coinlist": [
             {
               "coindescs": [
@@ -1603,19 +1603,19 @@
         {
           "level": 1,
           "name": "Mong manh, thật mong manh làm sao",
-          "desc": "[DuelCounter]\nMỗi 10 [RegainedStrength], Uy lực Cơ bản +1\nMỗi 5 [Laceration] của mục tiêu, Uy lực Đồng xu +1 (Tối đa 2)\n[DefeatDuel] Tinh thần giảm 3",
+          "desc": "[DuelCounter]\nMỗi 10 [RegainedStrength], Sức mạnh Cơ bản +1\nMỗi 5 [Laceration] của mục tiêu, Sức mạnh Đồng xu +1 (Tối đa 2)\n[DefeatDuel] Tinh thần giảm 3",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gán 2 [Laceration], số lần [Laceration] tăng 2"
+                  "desc": "[OnSucceedAttack] Gây 2 [Laceration], Số lượng [Laceration] tăng 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gán 2 [Laceration], số lần [Laceration] tăng 2"
+                  "desc": "[OnSucceedAttack] Gây 2 [Laceration], Số lượng [Laceration] tăng 2"
                 }
               ]
             }
@@ -1629,33 +1629,33 @@
         {
           "level": 1,
           "name": "Vòng quay Bloody Mary",
-          "desc": "[CantDuel]\n[WhenUse] Tạo ra Giấc mơ ngưng kết ở lượt kế tiếp",
+          "desc": "[CantDuel]\n[WhenUse] Tạo Giấc Mơ Ngưng Kết vào lượt sau",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Laceration] tăng 1"
+                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Laceration] tăng 1"
+                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gán 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Gây 2 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gán 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Gây 2 [Laceration]"
                 }
               ]
             }
@@ -1682,10 +1682,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Rơi vào trạng thái Hoảng loạn, lượt kế tiếp nhận trạng thái [Penetration]"
+                  "desc": "[OnSucceedAttack] Mục tiêu rơi vào trạng thái Choáng, sau đó nhận trạng thái [Penetration] vào lượt sau"
                 },
                 {
-                  "desc": "[EndCoin] Số tầng [Laceration] của mục tiêu giảm 25. Nhận [Laceration] bằng với chỉ số tương ứng, đồng thời [BloodDinner] tăng lên"
+                  "desc": "[EndCoin] Cường độ [Laceration] của mục tiêu giảm 25. Nhận [Laceration] bằng giá trị đó, đồng thời tăng [BloodDinner] tương ứng"
                 }
               ]
             }
@@ -1698,8 +1698,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Tuyệt kĩ Ngạnh Huyết phái Don Quixote - Cầu",
-          "desc": "Không rơi vào trạng thái Hoảng loạn cho đến khi sử dụng Kĩ năng này.\nSát thương tăng thêm bằng với [BloodDinner_Common_Accumulation] (Tối đa 300%)\n[WhenUse] Hồi 30 Tinh thần\n[WhenUse] Mỗi 10 [RegainedStrength], Uy lực Đối kháng +1\n[EndSkill] Tiêu hao tất cả [RegainedStrength]. Nhận 5 [Vulnerable] trong lượt này và lượt kế tiếp. Lượt kế tiếp nhận 2 [Binding].",
+          "name": "Tuyệt Kĩ Don Quixote Lưu Huyết Cương - Quả Cầu",
+          "desc": "Không thể bị Choáng cho đến khi sử dụng Kĩ năng này.\nSát thương tăng thêm bằng với [BloodDinner_Common_Accumulation] (Tối đa 300%)\n[WhenUse] Hồi phục 30 Tinh thần\n[WhenUse] Mỗi 10 [RegainedStrength], Sức mạnh Đối kháng +1\n[EndSkill] Tiêu hao tất cả [RegainedStrength]. Nhận 5 [Vulnerable] trong lượt này và lượt sau. Vào lượt sau, nhận 2 [Binding].",
           "coinlist": [
             {
               "coindescs": [
@@ -1725,7 +1725,7 @@
         {
           "level": 1,
           "name": "Kiii!",
-          "desc": "[WhenUse] Gây [DuelDeclaration_Camille]\n[WhenUse] Nhận 5 [Breath]\n[WinDuel] Số lượt [Breath] của bản thân tăng 2",
+          "desc": "[WhenUse] Gây [DuelDeclaration_Camille]\n[WhenUse] Nhận 5 [Breath]\n[WinDuel] Số lượng [Breath] của bản thân tăng 2",
           "coinlist": [
             {
               "coindescs": [
@@ -1749,10 +1749,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lượt [Breath] của bản thân tăng 2"
+                  "desc": "[OnSucceedAttack] Số lượng [Breath] của bản thân tăng 2"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Nếu tốc độ của bản thân từ 7 trở lên, gây 3 [Burst]"
+                  "desc": "[OnSucceedAttack] Nếu Tốc độ của bản thân từ 7 trở lên, gây 3 [Burst]"
                 }
               ]
             },
@@ -1762,7 +1762,7 @@
                   "desc": "[OnSucceedAttack] Nhận 3 [Breath]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Nếu tốc độ của bản thân từ 7 trở lên, gây 3 [Burst]"
+                  "desc": "[OnSucceedAttack] Nếu Tốc độ của bản thân từ 7 trở lên, gây 3 [Burst]"
                 }
               ]
             }
@@ -1776,7 +1776,7 @@
         {
           "level": 1,
           "name": "Kii",
-          "desc": "[WhenUse] Nếu [Breath] của bản thân từ 7 trở lên, Sức mạnh Coin +2\n[WinDuel] Số lượt [Breath] của bản thân tăng 2 ",
+          "desc": "[WhenUse] Nếu [Breath] của bản thân từ 7 trở lên, Sức mạnh Đồng xu +2\n[WinDuel] Số lượng [Breath] của bản thân tăng 2 ",
           "coinlist": [
             {
               "coindescs": [
@@ -1784,7 +1784,7 @@
                   "desc": "[OnSucceedAttack] Nhận 3 [Breath]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Nếu tốc độ của bản thân từ 7 trở lên, số lượt [Burst] tăng 3"
+                  "desc": "[OnSucceedAttack] Nếu Tốc độ của bản thân từ 7 trở lên, Số lượng [Burst] tăng 3"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Sát thương chí mạng +50%"
@@ -1801,15 +1801,15 @@
         {
           "level": 1,
           "name": "Kiii!",
-          "desc": "[WhenUse] Tốc độ của bản thân càng cao hơn kẻ tấn công, Sức mạnh Coin +1 (Mỗi 2 chênh lệch tốc độ tăng +1 Sức mạnh Coin. Tối đa 3)",
+          "desc": "[WhenUse] Tốc độ của bản thân càng cao hơn kẻ tấn công, Sức mạnh Đồng xu +1 (Mỗi 2 chênh lệch Tốc độ tăng +1 Sức mạnh Đồng xu. Tối đa 3)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lượt [Breath] của bản thân tăng 4"
+                  "desc": "[OnSucceedAttack] Số lượng [Breath] của bản thân tăng 4"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Nếu tốc độ của bản thân từ 7 trở lên, gây 3 [Burst], số lượt [Burst] tăng 1"
+                  "desc": "[OnSucceedAttack] Nếu Tốc độ của bản thân từ 7 trở lên, gây 3 [Burst], Số lượng [Burst] tăng 1"
                 }
               ]
             },
@@ -1819,7 +1819,7 @@
                   "desc": "[OnSucceedAttack] Nhận 5 [Breath]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Nếu tốc độ của bản thân từ 7 trở lên, gây 3 [Burst], số lượt [Burst] tăng 1"
+                  "desc": "[OnSucceedAttack] Nếu Tốc độ của bản thân từ 7 trở lên, gây 3 [Burst], Số lượng [Burst] tăng 1"
                 }
               ]
             },
@@ -1829,7 +1829,7 @@
                   "desc": "[OnSucceedAttack] Nhận 5 [Breath]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Nếu tốc độ của bản thân từ 7 trở lên, gây 3 [Burst], số lượt [Burst] tăng 1"
+                  "desc": "[OnSucceedAttack] Nếu Tốc độ của bản thân từ 7 trở lên, gây 3 [Burst], Số lượng [Burst] tăng 1"
                 }
               ]
             },
@@ -1853,12 +1853,12 @@
         {
           "level": 1,
           "name": "Kiki!",
-          "desc": "[WinDuel] Sát thương tăng theo số lần đấu khẩu (Mỗi lần đấu khẩu +10%. Tối đa 50%)\n[WinDuel] Nhận 2 [Agility] vào lượt tiếp theo\n[DefeatDuel] Nhận 2 [Binding] vào lượt tiếp theo",
+          "desc": "[WinDuel] Sát thương tăng tỉ lệ thuận với số lần Đối kháng (Mỗi lần Đối kháng +10%. Tối đa 50%)\n[WinDuel] Nhận 2 [Agility] vào lượt sau\n[DefeatDuel] Nhận 2 [Binding] vào lượt sau",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây 1 [Vulnerable] vào lượt tiếp theo"
+                  "desc": "[OnSucceedAttack] Gây 1 [Vulnerable] vào lượt sau"
                 }
               ]
             }
@@ -1872,7 +1872,7 @@
         {
           "level": 1,
           "name": "Kigigigii!",
-          "desc": "[OnSucceedEvade] Nhận 1 [Agility] vào lượt tiếp theo",
+          "desc": "[OnSucceedEvade] Nhận 1 [Agility] vào lượt sau",
           "coinlist": [
             {
               "coindescs": [
@@ -1890,7 +1890,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Don Quixote Lưu Ngạnh Huyết Áo Nghĩa - La Sangre",
+          "name": "Tuyệt Kĩ Don Quixote Lưu Huyết Cương - La Sangre",
           "desc": "",
           "coinlist": [
             {
@@ -1908,7 +1908,7 @@
         {
           "level": 1,
           "name": "Ký ức phiêu lưu rực rỡ",
-          "desc": "[StartBattle] Gây cho 1 tù nhân ngẫu nhiên 1 [ParryingResultUp], 1 [AttackDmgUp]\n[StartBattle] Gây cho Don Quixote và Giấc Mơ Ngưng Kết 1 [Vulnerable]",
+          "desc": "[StartBattle] Áp dụng 1 [ParryingResultUp] và 1 [AttackDmgUp] lên 1 Tù nhân ngẫu nhiên\n[StartBattle] Gây 1 [Vulnerable] cho cả Don Quixote và Giấc Mơ Ngưng Kết",
           "coinlist": [
             {
               "coindescs": [

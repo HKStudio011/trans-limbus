@@ -6,13 +6,13 @@
                 {
                     "level": 1,
                     "name": "Bài kiểm tra kết thúc.",
-                    "desc": "[WhenUse] Nhận [HitDamageUp] 3 vào lượt tới\n[WhenUse] Nếu trị số [MiddleFingerBook] của mục tiêu chính từ 3 trở lên, tất cả Coin của kỹ năng này chuyển thành [SuperCoin]",
+                    "desc": "[WhenUse] Nhận 3 [HitDamageUp] vào lượt tiếp theo\n[WhenUse] Nếu trị số [MiddleFingerBook] của mục tiêu chính từ 3 trở lên, toàn bộ Đồng xu của kĩ năng này chuyển thành [SuperCoin]",
                     "coinlist": [
                         {},
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây [Binding] 1 vào lượt tới"
+                                    "desc": "[OnSucceedAttack] Gây 1 [Binding] vào lượt tiếp theo"
                                 }
                             ]
                         }
@@ -26,19 +26,19 @@
                 {
                     "level": 1,
                     "name": "Khắc sâu đau đớn",
-                    "desc": "Ưu tiên chỉ định mục tiêu có trị số [MiddleFingerBook] cao nhất\n[WhenUse] Nếu trị số [MiddleFingerBook] của mục tiêu từ 3 trở lên, tất cả Coin của kỹ năng này chuyển thành [SuperCoin]",
+                    "desc": "Ưu tiên chỉ định mục tiêu có trị số [MiddleFingerBook] cao nhất\n[WhenUse] Nếu trị số [MiddleFingerBook] của mục tiêu từ 3 trở lên, toàn bộ Đồng xu của kĩ năng này chuyển thành [SuperCoin]",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây [Vulnerable] 1 trong lượt này và lượt tới"
+                                    "desc": "[OnSucceedAttack] Gây 1 [Vulnerable] trong lượt này và lượt tiếp theo"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây [Vulnerable] 1 trong lượt này và lượt tới"
+                                    "desc": "[OnSucceedAttack] Gây 1 [Vulnerable] trong lượt này và lượt tiếp theo"
                                 }
                             ]
                         },
@@ -62,7 +62,7 @@
                 {
                     "level": 1,
                     "name": "Cuộc vui kết thúc tại đây",
-                    "desc": "[StartBattle] Hồi 10 Tinh thần cho mọi đồng minh\n[EndBattle] Nếu có đồng minh ở trạng thái Hoảng loạn, giải trừ trạng thái Hoảng loạn và thiết lập lại Tinh thần về 0 vào đầu lượt tới\n[EndBattle] Gây [HitResultUp] 1 cho mọi đồng minh bao gồm bản thân vào lượt tới",
+                    "desc": "[StartBattle] Hồi 10 Tinh thần cho mọi đồng minh\n[EndBattle] Nếu có đồng minh ở trạng thái Hoảng loạn, giải trừ trạng thái Hoảng loạn và thiết lập lại Tinh thần về 0 vào đầu lượt tiếp theo\n[EndBattle] trao 1 [HitResultUp] cho mọi đồng minh, bao gồm bản thân, vào lượt tiếp theo",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -81,7 +81,7 @@
                 {
                     "level": 1,
                     "name": "Tất cả, xử tử!!!",
-                    "desc": "Có thể Đối đầu với kỹ năng này bất kể Tốc độ\nNếu trị số [MiddleFingerBook] của mục tiêu chính từ 5 trở lên, Sức mạnh Cuối cùng +5\n[DefeatDuel] Lượng sát thương cuối cùng giảm 80%, sát thương từ kỹ năng này không khiến mục tiêu bị Hỗn loạn\n[EndSkill] Xóa bỏ [MiddleFingerBook] của mọi mục tiêu bị tấn công",
+                    "desc": "Có thể Đối kháng với kĩ năng này bất kể Tốc độ\nNếu trị số [MiddleFingerBook] của mục tiêu chính từ 5 trở lên, Sức mạnh Cuối cùng +5\n[DefeatDuel] Lượng sát thương cuối cùng giảm 80%, sát thương từ kĩ năng này không khiến mục tiêu bị Choáng\n[EndSkill] Xóa bỏ [MiddleFingerBook] của mọi mục tiêu bị tấn công",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -103,12 +103,12 @@
                 {
                     "level": 1,
                     "name": "Đòn đầu",
-                    "desc": "[WhenUse] Nếu [Burst] của mục tiêu từ 5 trở lên, Sức mạnh Đối đầu +1",
+                    "desc": "[WhenUse] Nếu [Burst] của mục tiêu từ 5 trở lên, Sức mạnh Đối kháng +1",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây [Burst] 2"
+                                    "desc": "[OnSucceedAttack] Gây 2 [Burst]"
                                 }
                             ]
                         }
@@ -122,15 +122,15 @@
                 {
                     "level": 1,
                     "name": "Thích sát",
-                    "desc": "[WhenUse] Nếu [Burst] của mục tiêu từ 5 trở lên, Sức mạnh Đối đầu +1\n[WhenUse] Nhận [LegStrength] 3",
+                    "desc": "[WhenUse] Nếu [Burst] của mục tiêu từ 5 trở lên, Sức mạnh Đối kháng +1\n[WhenUse] Nhận 3 [LegStrength]",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Số lần [Burst] tăng thêm 2"
+                                    "desc": "[OnSucceedAttack] Số lượng [Burst] tăng thêm 2"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Nếu mục tiêu có [BurstAgility], nhận [Agility] 1 vào lượt tới"
+                                    "desc": "[OnSucceedAttack] Nếu mục tiêu có [BurstAgility], nhận 1 [Agility] vào lượt tiếp theo"
                                 }
                             ]
                         }
@@ -144,19 +144,19 @@
                 {
                     "level": 1,
                     "name": "Tiêu khắc",
-                    "desc": "[WhenUse] Nếu [Burst] của mục tiêu từ 5 trở lên, Sức mạnh Coin +1",
+                    "desc": "[WhenUse] Nếu [Burst] của mục tiêu từ 5 trở lên, Sức mạnh Đồng xu +1",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây [Burst] 2"
+                                    "desc": "[OnSucceedAttack] Gây 2 [Burst]"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây [Burst] 2"
+                                    "desc": "[OnSucceedAttack] Gây 2 [Burst]"
                                 },
                                 {
                                     "desc": "[OnSucceedAttack] Gây [BurstAgility]"
@@ -173,7 +173,7 @@
                 {
                     "level": 1,
                     "name": "Khắc Chú Sát Kiếm - Thuấn Bộ",
-                    "desc": "Ưu tiên tấn công mục tiêu có [BurstAgility]\nMỗi 2 chênh lệch Tốc độ giữa bản thân và mục tiêu, lượng sát thương +15% (Tối đa 60%)\n[WhenUse] Mỗi 5 [Burst] của mục tiêu, Sức mạnh Coin +1 (Tối đa 2)\n[WhenUse] Mỗi 2 số lần [Burst] của mục tiêu, Sức mạnh Cơ bản +1 (Tối đa 3)\n[EndSkill] Nếu Tốc độ của bản thân từ 10 trở lên và mục tiêu tử vong, sử dụng lại kỹ năng này lên 1 mục tiêu ngẫu nhiên (1 lần mỗi lượt)",
+                    "desc": "Ưu tiên tấn công mục tiêu có [BurstAgility]\nMỗi 2 chênh lệch Tốc độ giữa bản thân và mục tiêu, lượng sát thương +15% (Tối đa 60%)\n[WhenUse] Mỗi 5 [Burst] của mục tiêu, Sức mạnh Đồng xu +1 (Tối đa 2)\n[WhenUse] Mỗi 2 Số lượng [Burst] của mục tiêu, Sức mạnh Cơ bản +1 (Tối đa 3)\n[EndSkill] Nếu Tốc độ của bản thân từ 10 trở lên và mục tiêu tử vong, sử dụng lại kĩ năng này lên 1 kẻ địch ngẫu nhiên (1 lần mỗi lượt)",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -181,7 +181,7 @@
                                     "desc": "[SuperCoin]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Số lần [Burst] tăng thêm 3"
+                                    "desc": "[OnSucceedAttack] Số lượng [Burst] tăng thêm 3"
                                 }
                             ]
                         },
@@ -191,7 +191,7 @@
                                     "desc": "[SuperCoin]"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Gây [Burst] 5"
+                                    "desc": "[OnSucceedAttack] Gây 5 [Burst]"
                                 }
                             ]
                         },
@@ -204,7 +204,7 @@
                                     "desc": "Nếu mục tiêu có [BurstAgility], lượng sát thương +50%"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Gây [Burst] 5"
+                                    "desc": "[OnSucceedAttack] Gây 5 [Burst]"
                                 }
                             ]
                         }
@@ -218,26 +218,26 @@
                 {
                     "level": 1,
                     "name": "Khắc Chú",
-                    "desc": "[DuelCounter]\n[WhenUse] Nếu mục tiêu có [BurstAgility], số lần [Burst] gây ra bởi kỹ năng này tăng thêm 1",
+                    "desc": "[DuelCounter]\n[WhenUse] Nếu mục tiêu có [BurstAgility], Số lượng [Burst] gây ra bởi kĩ năng này tăng thêm 1",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Số lần [Burst] tăng thêm 2"
+                                    "desc": "[OnSucceedAttack] Số lượng [Burst] tăng thêm 2"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Số lần [Burst] tăng thêm 1"
+                                    "desc": "[OnSucceedAttack] Số lượng [Burst] tăng thêm 1"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Số lần [Burst] tăng thêm 1"
+                                    "desc": "[OnSucceedAttack] Số lượng [Burst] tăng thêm 1"
                                 }
                             ]
                         }
