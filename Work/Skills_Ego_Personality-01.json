@@ -6,8 +6,8 @@
         {
           "level": 1,
           "name": "Ngày Đã Qua",
-          "abName": "Chân Dung Những Ngày Đã Qua",
-          "desc": "[EndSkill] Gây [Sinking]6 + (Số cộng hưởng Gloom), chia ngẫu nhiên cho các mục tiêu bị tấn công",
+          "abName": "Bức Chân Dung Của Một Ngày Nào Đó",
+          "desc": "[EndSkill] Gây [Sinking]6 + (Số Cộng hưởng U sầu), chia ngẫu nhiên cho các mục tiêu bị tấn công",
           "coinlist": [
             {
               "coindescs": [
@@ -21,8 +21,8 @@
         {
           "level": 3,
           "name": "Ngày Đã Qua",
-          "abName": "Chân Dung Những Ngày Đã Qua",
-          "desc": "[EndSkill] Gây [Sinking]6 + (Số cộng hưởng Gloom), chia ngẫu nhiên cho các mục tiêu bị tấn công",
+          "abName": "Bức Chân Dung Của Một Ngày Nào Đó",
+          "desc": "[EndSkill] Gây [Sinking]6 + (Số Cộng hưởng U sầu), chia ngẫu nhiên cho các mục tiêu bị tấn công",
           "coinlist": [
             {
               "coindescs": [
@@ -36,8 +36,8 @@
         {
           "level": 4,
           "name": "Ngày Đã Qua",
-          "abName": "Chân Dung Những Ngày Đã Qua",
-          "desc": "[EndSkill] Gây [Sinking]6 + (Số cộng hưởng Gloom × <style=\"highlight\">1.5</style>), chia ngẫu nhiên cho các mục tiêu bị tấn công",
+          "abName": "Bức Chân Dung Của Một Ngày Nào Đó",
+          "desc": "[EndSkill] Gây [Sinking]6 + (Số Cộng hưởng U sầu × <style=\"highlight\">1.5</style>), chia ngẫu nhiên cho các mục tiêu bị tấn công",
           "coinlist": [
             {
               "coindescs": [
@@ -56,7 +56,7 @@
         {
           "level": 1,
           "name": "Ngày Đã Qua",
-          "abName": "Chân Dung Những Ngày Đã Qua",
+          "abName": "Bức Chân Dung Của Một Ngày Nào Đó",
           "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên",
           "coinlist": [
             {
@@ -74,8 +74,8 @@
         {
           "level": 3,
           "name": "Ngày Đã Qua",
-          "abName": "Chân Dung Những Ngày Đã Qua",
-          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\n[BeforeAttack] Nếu số cộng hưởng Gloom từ 3 trở lên, Attack Weight +1",
+          "abName": "Bức Chân Dung Của Một Ngày Nào Đó",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\n[BeforeAttack] Nếu Số Cộng hưởng U sầu từ 3 trở lên, Trọng lượng Tấn công +1",
           "coinlist": [
             {
               "coindescs": [
@@ -92,8 +92,8 @@
         {
           "level": 4,
           "name": "Ngày Đã Qua",
-          "abName": "Chân Dung Những Ngày Đã Qua",
-          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\n[BeforeAttack] Nếu số cộng hưởng Gloom từ 3 trở lên, Attack Weight +1\n[BeforeAttack] Nếu số cộng hưởng Gloom từ 5 trở lên, Attack Weight +1",
+          "abName": "Bức Chân Dung Của Một Ngày Nào Đó",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\n[BeforeAttack] Nếu Số Cộng hưởng U sầu từ 3 trở lên, Trọng lượng Tấn công +1\n[BeforeAttack] Nếu Số Cộng hưởng U sầu từ 5 trở lên, cộng thêm 1 Trọng lượng Tấn công",
           "coinlist": [
             {
               "coindescs": [
@@ -116,18 +116,18 @@
           "level": 1,
           "name": "Hung Đạn",
           "abName": "Xạ Thủ Hung Đạn",
-          "desc": "Ưu tiên tấn công mục tiêu có HP thấp nhất (Ưu tiên chỉ định đồng minh)\n[BeforeAttack] Nhận [BoseProjektil] bằng (Số cộng hưởng tối đa +1) (Tối đa 7)\n[BeforeAttack] Với mỗi 1 [BoseProjektil], nhận 1 [Breath] (Tối đa 7)\n[EndSkill] Tiêu hao tất cả [BoseProjektil]",
+          "desc": "Ưu tiên tấn công mục tiêu có HP thấp nhất (ưu tiên đồng minh)\n[BeforeAttack] Nhận [BoseProjektil] bằng (Số Cộng hưởng tối đa + 1) (Tối đa 7)\n[BeforeAttack] Với mỗi 1 [BoseProjektil], nhận 1 [Breath] (Tối đa 7)\n[EndSkill] Tiêu hao toàn bộ [BoseProjektil]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "Coin này chỉ gây sát thương lên mục tiêu chính."
+                  "desc": "Đồng xu này chỉ gây sát thương lên mục tiêu chính."
                 },
                 {
                   "desc": "Nếu mục tiêu chính là đồng minh, với mỗi 1 [BoseProjektil], lượng sát thương +8% (Tối đa 56%)"
                 },
                 {
-                  "desc": "[AllyKill] Nhận [Breath]2 cho bản thân và 2 đồng minh ngẫu nhiên"
+                  "desc": "[AllyKill] Cấp 2 [Breath] cho bản thân và 2 đồng minh ngẫu nhiên"
                 },
                 {
                   "desc": "[AllyKillFail] Nhận [Breath]1"
@@ -137,7 +137,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Coin này chỉ gây sát thương lên mục tiêu phụ.\n- Nếu không thể tiêu diệt đồng minh ở Coin đầu tiên, một mục tiêu phụ ngẫu nhiên sẽ nhận sát thương"
+                  "desc": "Đồng xu này chỉ gây sát thương lên mục tiêu phụ.\n- Nếu Đồng xu đầu tiên không tiêu diệt được đồng minh, một mục tiêu phụ ngẫu nhiên sẽ nhận sát thương"
                 },
                 {
                   "desc": "Với mỗi 1 [BoseProjektil], sát thương chí mạng +2% (Tối đa 14%)"
@@ -153,12 +153,12 @@
           "level": 3,
           "name": "Hung Đạn",
           "abName": "Xạ Thủ Hung Đạn",
-          "desc": "Ưu tiên tấn công mục tiêu có HP thấp nhất (Ưu tiên chỉ định đồng minh)\n[BeforeAttack] Nhận [BoseProjektil] bằng (Số cộng hưởng tối đa +1) (Tối đa 7)\n[BeforeAttack] Với mỗi 1 [BoseProjektil], nhận 1 [Breath] (Tối đa 7)\n[EndSkill] Tiêu hao tất cả [BoseProjektil]<style=\"highlight\"></style>",
+          "desc": "Ưu tiên tấn công mục tiêu có HP thấp nhất (ưu tiên đồng minh)\n[BeforeAttack] Nhận [BoseProjektil] bằng (Số Cộng hưởng tối đa + 1) (Tối đa 7)\n[BeforeAttack] Với mỗi 1 [BoseProjektil], nhận 1 [Breath] (Tối đa 7)\n[EndSkill] Tiêu hao toàn bộ [BoseProjektil]<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "Coin này chỉ gây sát thương lên mục tiêu chính.<style=\"highlight\"></style>"
+                  "desc": "Đồng xu này chỉ gây sát thương lên mục tiêu chính.<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "Nếu mục tiêu chính là đồng minh, với mỗi 1 [BoseProjektil], lượng sát thương <style=\"highlight\">+10%</style> (Tối đa <style=\"highlight\">70%</style>)"
@@ -177,7 +177,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Coin này chỉ gây sát thương lên mục tiêu phụ.\n- Nếu không thể tiêu diệt đồng minh ở Coin đầu tiên, một mục tiêu phụ ngẫu nhiên sẽ nhận sát thương<style=\"highlight\"></style>"
+                  "desc": "Đồng xu này chỉ gây sát thương lên mục tiêu phụ.\n- Nếu Đồng xu đầu tiên không tiêu diệt được đồng minh, một mục tiêu phụ ngẫu nhiên sẽ nhận sát thương<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "Với mỗi 1 [BoseProjektil], sát thương chí mạng <style=\"highlight\">+5%</style> (Tối đa <style=\"highlight\">35%</style>)"
@@ -193,12 +193,12 @@
           "level": 4,
           "name": "Hung Đạn",
           "abName": "Xạ Thủ Hung Đạn",
-          "desc": "Ưu tiên tấn công mục tiêu có HP thấp nhất (Ưu tiên chỉ định đồng minh)\n[BeforeAttack] Nhận (Số Cộng hưởng tối đa +1) [BoseProjektil] (Tối đa 7)\n<style=\"highlight\">- Nếu Cộng hưởng tương ứng là Cộng hưởng Ngạo mạn, thay vì hiệu ứng này, nhận (Số Cộng hưởng tối đa × 2) [BoseProjektil] (Tối đa 7)</style>\n[BeforeAttack] Nhận 1 [Breath] ứng với mỗi 1 [BoseProjektil] (Tối đa 7)\n[EndSkill] Tiêu hao mọi [BoseProjektil]",
+          "desc": "Ưu tiên tấn công mục tiêu có HP thấp nhất (ưu tiên đồng minh)\n[BeforeAttack] Nhận [BoseProjektil] bằng (Số Cộng hưởng tối đa + 1) (Tối đa 7)\n<style=\"highlight\">- Nếu Cộng hưởng tương ứng là Cộng hưởng Ngạo mạn, thay vì hiệu ứng này, nhận (Số Cộng hưởng tối đa × 2) [BoseProjektil] (Tối đa 7)</style>\n[BeforeAttack] Với mỗi 1 [BoseProjektil], nhận 1 [Breath] (Tối đa 7)\n[EndSkill] Tiêu hao toàn bộ [BoseProjektil]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "Coin này chỉ gây sát thương lên mục tiêu chính.<style=\"highlight\"></style>"
+                  "desc": "Đồng xu này chỉ gây sát thương lên mục tiêu chính.<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "Nếu mục tiêu chính là đồng minh, tăng lượng sát thương <style=\"highlight\">+15%</style> ứng với mỗi 1 [BoseProjektil] (Tối đa <style=\"highlight\">105%</style>)"
@@ -217,7 +217,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Coin này chỉ gây sát thương lên mục tiêu phụ.\n- Nếu không hạ gục được đồng minh bằng Coin đầu tiên, 1 mục tiêu phụ ngẫu nhiên sẽ nhận sát thương<style=\"highlight\"></style>"
+                  "desc": "Đồng xu này chỉ gây sát thương lên mục tiêu phụ.\n- Nếu Đồng xu đầu tiên không tiêu diệt được đồng minh, 1 mục tiêu phụ ngẫu nhiên sẽ nhận sát thương<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "Tăng lượng sát thương chí mạng <style=\"highlight\">+9%</style> ứng với mỗi 1 [BoseProjektil] (Tối đa <style=\"highlight\">63%</style>)"
@@ -238,12 +238,12 @@
           "level": 1,
           "name": "Hung đạn",
           "abName": "Xạ thủ Hung đạn",
-          "desc": "[CantIdentify]\nƯu tiên tấn công mục tiêu có HP thấp nhất (Ưu tiên chỉ định đồng minh)\n[BeforeAttack] Nhận (Số Cộng hưởng tối đa +1) [BoseProjektil] (Tối đa 7)\n[BeforeAttack] Tăng lượng sát thương +2% (Tối đa 14%) ứng với mỗi 1 [BoseProjektil]\n[BeforeAttack] Nhận 1 [Breath] ứng với mỗi 1 [BoseProjektil] (Tối đa 7)\n[EndSkill] Tiêu hao mọi [BoseProjektil]",
+          "desc": "[CantIdentify]\nƯu tiên tấn công mục tiêu có HP thấp nhất (ưu tiên đồng minh)\n[BeforeAttack] Nhận [BoseProjektil] bằng (Số Cộng hưởng tối đa + 1) (Tối đa 7)\n[BeforeAttack] Với mỗi 1 [BoseProjektil], tăng lượng sát thương +2% (Tối đa 14%)\n[BeforeAttack] Với mỗi 1 [BoseProjektil], nhận 1 [Breath] (Tối đa 7)\n[EndSkill] Tiêu hao toàn bộ [BoseProjektil]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "Coin này chỉ gây sát thương lên mục tiêu chính."
+                  "desc": "Đồng xu này chỉ gây sát thương lên mục tiêu chính."
                 },
                 {
                   "desc": "Nếu mục tiêu chính là đồng minh, tăng lượng sát thương +10% (Tối đa 70%) ứng với mỗi 1 [BoseProjektil]"
@@ -255,7 +255,7 @@
                   "desc": "[AllyKill] Cấp 2 [Breath] cho bản thân và 3 đồng minh ngẫu nhiên"
                 },
                 {
-                  "desc": "[AllyKill] Tăng lượng sát thương cho Coin tiếp theo +2% (Tối đa 14%) ứng với mỗi 1 [BoseProjektil]"
+                  "desc": "[AllyKill] Tăng lượng sát thương cho Đồng xu tiếp theo +2% (Tối đa 14%) ứng với mỗi 1 [BoseProjektil]"
                 },
                 {
                   "desc": "[AllyKill] Nhận +1 tài nguyên E.G.O thuộc tính Kĩ năng (Skill) 1, 2 của đồng minh bị hạ gục"
@@ -268,7 +268,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Coin này chỉ gây sát thương lên mục tiêu phụ.\n- Nếu không hạ gục được đồng minh bằng Coin đầu tiên, 1 mục tiêu phụ ngẫu nhiên sẽ nhận sát thương"
+                  "desc": "Đồng xu này chỉ gây sát thương lên mục tiêu phụ.\n- Nếu Đồng xu đầu tiên không tiêu diệt được đồng minh, 1 mục tiêu phụ ngẫu nhiên sẽ nhận sát thương"
                 },
                 {
                   "desc": "Tăng lượng sát thương chí mạng +2% (Tối đa 14%) ứng với mỗi 1 [BoseProjektil]"
@@ -284,12 +284,12 @@
           "level": 3,
           "name": "Hung đạn",
           "abName": "Xạ thủ Hung đạn",
-          "desc": "[CantIdentify]\nƯu tiên tấn công mục tiêu có HP thấp nhất (Ưu tiên chỉ định đồng minh)\n[BeforeAttack] Nhận (Số Cộng hưởng tối đa +1) [BoseProjektil] (Tối đa 7)\n[BeforeAttack] Tăng lượng sát thương <style=\"highlight\">+3%</style> ứng với mỗi 1 [BoseProjektil] (Tối đa <style=\"highlight\">21%</style>)\n[BeforeAttack] Nhận 1 [Breath] ứng với mỗi 1 [BoseProjektil] (Tối đa 7)\n[EndSkill] Tiêu hao mọi [BoseProjektil]",
+          "desc": "[CantIdentify]\nƯu tiên tấn công mục tiêu có HP thấp nhất (ưu tiên đồng minh)\n[BeforeAttack] Nhận [BoseProjektil] bằng (Số Cộng hưởng tối đa + 1) (Tối đa 7)\n[BeforeAttack] Với mỗi 1 [BoseProjektil], tăng lượng sát thương <style=\"highlight\">+3%</style> (Tối đa <style=\"highlight\">21%</style>)\n[BeforeAttack] Với mỗi 1 [BoseProjektil], nhận 1 [Breath] (Tối đa 7)\n[EndSkill] Tiêu hao toàn bộ [BoseProjektil]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "Coin này chỉ gây sát thương lên mục tiêu chính.<style=\"highlight\"></style>"
+                  "desc": "Đồng xu này chỉ gây sát thương lên mục tiêu chính.<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "Nếu mục tiêu chính là đồng minh, tăng lượng sát thương <style=\"highlight\">+12%</style> ứng với mỗi 1 [BoseProjektil] (Tối đa <style=\"highlight\">84%</style>)"
@@ -301,7 +301,7 @@
                   "desc": "[AllyKill] Cấp <style=\"highlight\">3</style> [Breath] cho bản thân và 3 đồng minh ngẫu nhiên"
                 },
                 {
-                  "desc": "[AllyKill] Tăng lượng sát thương cho Coin tiếp theo <style=\"highlight\">+5%</style> ứng với mỗi 1 [BoseProjektil] (Tối đa <style=\"highlight\">35%</style>)"
+                  "desc": "[AllyKill] Tăng lượng sát thương cho Đồng xu tiếp theo <style=\"highlight\">+5%</style> ứng với mỗi 1 [BoseProjektil] (Tối đa <style=\"highlight\">35%</style>)"
                 },
                 {
                   "desc": "<style=\"highlight\">[AllyKill] Nhận +1 tài nguyên E.G.O thuộc tính Kĩ năng (Skill) 1, 2, 3 của đồng minh bị hạ gục</style>"
@@ -314,7 +314,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Coin này chỉ gây sát thương lên mục tiêu phụ.\n- Nếu không hạ gục được đồng minh bằng Coin đầu tiên, 1 mục tiêu phụ ngẫu nhiên sẽ nhận sát thương<style=\"highlight\"></style>"
+                  "desc": "Đồng xu này chỉ gây sát thương lên mục tiêu phụ.\n- Nếu Đồng xu đầu tiên không tiêu diệt được đồng minh, 1 mục tiêu phụ ngẫu nhiên sẽ nhận sát thương<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "Tăng lượng sát thương chí mạng <style=\"highlight\">+3%</style> ứng với mỗi 1 [BoseProjektil] (Tối đa <style=\"highlight\">21%</style>)"
@@ -330,12 +330,12 @@
           "level": 4,
           "name": "Hung đạn",
           "abName": "Xạ thủ Hung đạn",
-          "desc": "[CantIdentify]\nƯu tiên tấn công mục tiêu có HP thấp nhất (Ưu tiên chỉ định đồng minh)\n[BeforeAttack] Nhận (Số Cộng hưởng tối đa +1) [BoseProjektil] (Tối đa 7)\n<style=\"highlight\">- Nếu Cộng hưởng tương ứng là Cộng hưởng Ngạo mạn, thay vì hiệu ứng này, nhận (Số Cộng hưởng tối đa × 2) [BoseProjektil] (Tối đa 7)</style>\n[BeforeAttack] Tăng lượng sát thương <style=\"highlight\">+4% (Tối đa 28%)</style> ứng với mỗi 1 [BoseProjektil]\n[BeforeAttack] Nhận 1 [Breath] ứng với mỗi 1 [BoseProjektil] (Tối đa 7)\n[EndSkill] Tiêu hao mọi [BoseProjektil]",
+          "desc": "[CantIdentify]\nƯu tiên tấn công mục tiêu có HP thấp nhất (ưu tiên đồng minh)\n[BeforeAttack] Nhận [BoseProjektil] bằng (Số Cộng hưởng tối đa + 1) (Tối đa 7)\n<style=\"highlight\">- Nếu Cộng hưởng tương ứng là Cộng hưởng Ngạo mạn, thay vì hiệu ứng này, nhận (Số Cộng hưởng tối đa × 2) [BoseProjektil] (Tối đa 7)</style>\n[BeforeAttack] Với mỗi 1 [BoseProjektil], tăng lượng sát thương <style=\"highlight\">+4% (Tối đa 28%)</style>\n[BeforeAttack] Với mỗi 1 [BoseProjektil], nhận 1 [Breath] (Tối đa 7)\n[EndSkill] Tiêu hao toàn bộ [BoseProjektil]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "Coin này chỉ gây sát thương lên mục tiêu chính.<style=\"highlight\"></style>"
+                  "desc": "Đồng xu này chỉ gây sát thương lên mục tiêu chính.<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "Nếu mục tiêu chính là đồng minh, tăng lượng sát thương +15% (Tối đa 105%) ứng với mỗi 1 [BoseProjektil]<style=\"highlight\"></style>"
@@ -350,7 +350,7 @@
                   "desc": "[AllyKill] Cấp <style=\"highlight\">4</style> [Breath] cho bản thân và 3 đồng minh ngẫu nhiên"
                 },
                 {
-                  "desc": "[AllyKill] Tăng lượng sát thương cho Coin tiếp theo <style=\"highlight\">+7%</style> ứng với mỗi 1 [BoseProjektil] (Tối đa <style=\"highlight\">49%</style>)"
+                  "desc": "[AllyKill] Tăng lượng sát thương cho Đồng xu tiếp theo <style=\"highlight\">+7%</style> ứng với mỗi 1 [BoseProjektil] (Tối đa <style=\"highlight\">49%</style>)"
                 },
                 {
                   "desc": "[AllyKill] Nhận +1 tài nguyên E.G.O thuộc tính Kĩ năng (Skill) 1, 2, 3 của đồng minh bị hạ gục<style=\"highlight\"></style>"
@@ -363,7 +363,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Coin này chỉ gây sát thương lên mục tiêu phụ.\n- Nếu không hạ gục được đồng minh bằng Coin đầu tiên, 1 mục tiêu phụ ngẫu nhiên sẽ nhận sát thương<style=\"highlight\"></style>"
+                  "desc": "Đồng xu này chỉ gây sát thương lên mục tiêu phụ.\n- Nếu Đồng xu đầu tiên không tiêu diệt được đồng minh, 1 mục tiêu phụ ngẫu nhiên sẽ nhận sát thương<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "<style=\"highlight\">Tăng lượng sát thương chí mạng +4% (Tối đa 28%) ứng với mỗi 1 [BoseProjektil]</style>"
@@ -384,7 +384,7 @@
           "level": 1,
           "name": "Tam Thiên Đại Thế Giới",
           "abName": "La Sinh Điệp",
-          "desc": "[BeforeAttack] Nhận [Breath] bằng (Số Cộng hưởng tối đa) (Tối đa 7)\n- Nếu Cộng hưởng tương ứng là Cộng hưởng Hoàn toàn, tăng thêm số lượt [Breath] bằng (Số Cộng hưởng tối đa) ÷ 3 (Tối đa 2, làm tròn xuống)",
+          "desc": "[BeforeAttack] Nhận [Breath] bằng (Số Cộng hưởng tối đa) (Tối đa 7)\n- Nếu Cộng hưởng tương ứng là Cộng hưởng Hoàn toàn, tăng thêm Số lượng [Breath] bằng (Số Cộng hưởng tối đa) ÷ 3 (Tối đa 2, làm tròn xuống)",
           "coinlist": [
             {
               "coindescs": [
@@ -395,7 +395,7 @@
                   "desc": "[OnSucceedAttack] Gây 1 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Tăng số lượt [Sinking] thêm 1"
+                  "desc": "[OnSucceedAttack] Tăng Số lượng [Sinking] thêm 1"
                 }
               ]
             },
@@ -418,7 +418,7 @@
                   "desc": "[OnSucceedAttack] Gây [Combustion] bằng (Số [Sinking] của mục tiêu ÷ 3) (Tối đa 5, làm tròn xuống)"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Tăng số lượt [Combustion] thêm 1"
+                  "desc": "[CriticalOnSucceedAttack] Tăng Số lượng [Combustion] thêm 1"
                 }
               ]
             },
@@ -428,7 +428,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] [Combustion] kích hoạt 1 lần. Giảm số lượt [Combustion] đi 1"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] [Combustion] kích hoạt 1 lần. Giảm Số lượng [Combustion] đi 1"
                 }
               ]
             }
@@ -438,7 +438,7 @@
           "level": 3,
           "name": "Tam Thiên Đại Thế Giới",
           "abName": "La Sinh Điệp",
-          "desc": "<style=\"highlight\">[BeforeAttack] Nếu tổng [Combustion] và [Sinking] của mục tiêu chính từ 15 trở lên, Sức mạnh Đồng xu +1</style>\n[BeforeAttack] Nhận [Breath] bằng (Số Cộng hưởng tối đa) (Tối đa 7)\n- Nếu Cộng hưởng tương ứng là Cộng hưởng Hoàn toàn, tăng thêm số lượt [Breath] bằng (Số Cộng hưởng tối đa) ÷ 3 (Tối đa 2, làm tròn xuống)",
+          "desc": "<style=\"highlight\">[BeforeAttack] Nếu tổng [Combustion] và [Sinking] của mục tiêu chính từ 15 trở lên, Sức mạnh Đồng xu +1</style>\n[BeforeAttack] Nhận [Breath] bằng (Số Cộng hưởng tối đa) (Tối đa 7)\n- Nếu Cộng hưởng tương ứng là Cộng hưởng Hoàn toàn, tăng thêm Số lượng [Breath] bằng (Số Cộng hưởng tối đa) ÷ 3 (Tối đa 2, làm tròn xuống)",
           "coinlist": [
             {
               "coindescs": [
@@ -449,7 +449,7 @@
                   "desc": "[OnSucceedAttack] Gây <style=\"highlight\">2</style> [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Tăng số lượt [Sinking] thêm <style=\"highlight\">2</style>"
+                  "desc": "[OnSucceedAttack] Tăng Số lượng [Sinking] thêm <style=\"highlight\">2</style>"
                 }
               ]
             },
@@ -472,7 +472,7 @@
                   "desc": "[OnSucceedAttack] Gây [Combustion] bằng (Số [Sinking] của mục tiêu ÷ 3) (Tối đa 5, làm tròn xuống)"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Tăng số lượt [Combustion] thêm 1"
+                  "desc": "[CriticalOnSucceedAttack] Tăng Số lượng [Combustion] thêm 1"
                 }
               ]
             },
@@ -482,7 +482,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] [Combustion] kích hoạt 1 lần. Giảm số lượt [Combustion] đi 1"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] [Combustion] kích hoạt 1 lần. Giảm Số lượng [Combustion] đi 1"
                 }
               ]
             }
@@ -492,7 +492,7 @@
           "level": 4,
           "name": "Tam Thiên Đại Thế Giới",
           "abName": "La Sinh Điệp",
-          "desc": "[BeforeAttack] Nếu tổng [Combustion] và [Sinking] của mục tiêu chính từ <style=\"highlight\">10</style> trở lên, Sức mạnh Đồng xu +1\n[BeforeAttack] Nhận [Breath] bằng (Số Cộng hưởng tối đa) (Tối đa 7)\n- Nếu Cộng hưởng tương ứng là Cộng hưởng Hoàn toàn, tăng thêm số lượt [Breath] bằng (Số Cộng hưởng tối đa) ÷ 3 (Tối đa 2, làm tròn xuống)",
+          "desc": "[BeforeAttack] Nếu tổng [Combustion] và [Sinking] của mục tiêu chính từ <style=\"highlight\">10</style> trở lên, Sức mạnh Đồng xu +1\n[BeforeAttack] Nhận [Breath] bằng (Số Cộng hưởng tối đa) (Tối đa 7)\n- Nếu Cộng hưởng tương ứng là Cộng hưởng Hoàn toàn, tăng thêm Số lượng [Breath] bằng (Số Cộng hưởng tối đa) ÷ 3 (Tối đa 2, làm tròn xuống)",
           "coinlist": [
             {
               "coindescs": [
@@ -503,7 +503,7 @@
                   "desc": "[OnSucceedAttack] Gây 2 [Combustion]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Tăng số lượt [Sinking] thêm <style=\"highlight\">3</style>"
+                  "desc": "[OnSucceedAttack] Tăng Số lượng [Sinking] thêm <style=\"highlight\">3</style>"
                 }
               ]
             },
@@ -526,7 +526,7 @@
                   "desc": "[OnSucceedAttack] Gây [Combustion] bằng (Số [Sinking] của mục tiêu ÷ 3) (Tối đa 5, làm tròn xuống)"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Tăng số lượt [Combustion] thêm 1"
+                  "desc": "[CriticalOnSucceedAttack] Tăng Số lượng [Combustion] thêm 1"
                 }
               ]
             },
@@ -536,7 +536,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] [Combustion] kích hoạt 1 lần. Giảm số lượt [Combustion] đi 1"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] [Combustion] kích hoạt 1 lần. Giảm Số lượng [Combustion] đi 1"
                 }
               ]
             }
@@ -551,7 +551,7 @@
           "level": 1,
           "name": "Tam Thiên Đại Thế Giới",
           "abName": "La Sinh Điệp",
-          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\nMỗi khi Đồng xu trúng đích, nhận 5 [Combustion], và khi sử dụng Đồng xu cuối cùng, Sức mạnh Cuối cùng +1 (Tối đa 3, mỗi Đồng xu một lần)\n[BeforeAttack] Nhận [Breath] bằng (Số Cộng hưởng tối đa) (Tối đa 7)\n- Nếu Cộng hưởng tương ứng là Cộng hưởng Hoàn toàn, tăng thêm số lượt [Breath] bằng (Số Cộng hưởng tối đa) ÷ 3 (Tối đa 2, làm tròn xuống)\n[BeforeAttack] Với mỗi Đồng xu bị phá hủy, Sức mạnh Cơ bản -1 (Tối đa -4)",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\nMỗi khi Đồng xu trúng đích, nhận 5 [Combustion], và khi sử dụng Đồng xu cuối cùng, Sức mạnh Cuối cùng +1 (Tối đa 3, mỗi Đồng xu một lần)\n[BeforeAttack] Nhận [Breath] bằng (Số Cộng hưởng tối đa) (Tối đa 7)\n- Nếu Cộng hưởng tương ứng là Cộng hưởng Hoàn toàn, tăng thêm Số lượng [Breath] bằng (Số Cộng hưởng tối đa) ÷ 3 (Tối đa 2, làm tròn xuống)\n[BeforeAttack] Với mỗi Đồng xu bị phá hủy, Sức mạnh Cơ bản -1 (Tối đa -4)",
           "coinlist": [
             {
               "coindescs": [
@@ -562,7 +562,7 @@
                   "desc": "[OnSucceedAttack] Gây 1 [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Tăng số lượt [Sinking] thêm 1"
+                  "desc": "[OnSucceedAttack] Tăng Số lượng [Sinking] thêm 1"
                 }
               ]
             },
@@ -585,7 +585,7 @@
                   "desc": "[OnSucceedAttack] Gây 2 [Combustion]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Tăng số lượt [Combustion] thêm 1"
+                  "desc": "[CriticalOnSucceedAttack] Tăng Số lượng [Combustion] thêm 1"
                 }
               ]
             },
@@ -595,11 +595,11 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnStartCoin] Với mỗi 10 (Tổng Sức mạnh [Combustion] và [Sinking] của toàn bộ mục tiêu), Sát thương +10% (Tối đa 40%)",
-                  "summary": "[OnStartCoin] Với mỗi 10 (Tổng [Combustion] và [Sinking] của toàn bộ mục tiêu), Tăng lượng sát thương"
+                  "desc": "[OnStartCoin] Với mỗi 10 (tổng Cường độ [Combustion] và [Sinking] của tất cả mục tiêu), Sát thương +10% (Tối đa 40%)",
+                  "summary": "[OnStartCoin] Với mỗi 10 (tổng [Combustion] và [Sinking] của tất cả mục tiêu), tăng lượng sát thương"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] [Combustion] kích hoạt 1 lần. Giảm số lượt [Combustion] đi 1"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] [Combustion] kích hoạt 1 lần. Giảm Số lượng [Combustion] đi 1"
                 }
               ]
             }
@@ -609,7 +609,7 @@
           "level": 3,
           "name": "Tam Thiên Đại Thế Giới",
           "abName": "La Sinh Điệp",
-          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\nMỗi khi Đồng xu trúng đích, nhận <style=\"highlight\">4</style> [Combustion], và khi sử dụng Đồng xu cuối cùng, Sức mạnh Cuối cùng +1 (Tối đa 3, mỗi Đồng xu một lần)\n[BeforeAttack] Nhận [Breath] bằng (Số Cộng hưởng tối đa) (Tối đa 7)\n- Nếu Cộng hưởng tương ứng là Cộng hưởng Hoàn toàn, tăng thêm số lượt [Breath] bằng (Số Cộng hưởng tối đa) ÷ 3 (Tối đa 2, làm tròn xuống)\n[BeforeAttack] Với mỗi Đồng xu bị phá hủy, Sức mạnh Cơ bản -1 (Tối đa -4)",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\nMỗi khi Đồng xu trúng đích, nhận <style=\"highlight\">4</style> [Combustion], và khi sử dụng Đồng xu cuối cùng, Sức mạnh Cuối cùng +1 (Tối đa 3, mỗi Đồng xu một lần)\n[BeforeAttack] Nhận [Breath] bằng (Số Cộng hưởng tối đa) (Tối đa 7)\n- Nếu Cộng hưởng tương ứng là Cộng hưởng Hoàn toàn, tăng thêm Số lượng [Breath] bằng (Số Cộng hưởng tối đa) ÷ 3 (Tối đa 2, làm tròn xuống)\n[BeforeAttack] Với mỗi Đồng xu bị phá hủy, Sức mạnh Cơ bản -1 (Tối đa -4)",
           "coinlist": [
             {
               "coindescs": [
@@ -620,7 +620,7 @@
                   "desc": "[OnSucceedAttack] Gây <style=\"highlight\">2</style> [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Tăng số lượt [Sinking] thêm <style=\"highlight\">2</style>"
+                  "desc": "[OnSucceedAttack] Tăng Số lượng [Sinking] thêm <style=\"highlight\">2</style>"
                 }
               ]
             },
@@ -643,7 +643,7 @@
                   "desc": "[OnSucceedAttack] Gây <style=\"highlight\">3</style> [Combustion]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Tăng số lượt [Combustion] thêm 1"
+                  "desc": "[CriticalOnSucceedAttack] Tăng Số lượng [Combustion] thêm 1"
                 }
               ]
             },
@@ -653,11 +653,11 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnStartCoin] Với mỗi 10 (Tổng Sức mạnh [Combustion] và [Sinking] của toàn bộ mục tiêu), Sát thương +10% (Tối đa <style=\"highlight\">50%</style>)",
-                  "summary": "[OnStartCoin] Với mỗi 10 (Tổng [Combustion] và [Sinking] của toàn bộ mục tiêu), Tăng lượng sát thương"
+                  "desc": "[OnStartCoin] Với mỗi 10 (tổng Cường độ [Combustion] và [Sinking] của tất cả mục tiêu), Sát thương +10% (Tối đa <style=\"highlight\">50%</style>)",
+                  "summary": "[OnStartCoin] Với mỗi 10 (tổng [Combustion] và [Sinking] của tất cả mục tiêu), tăng lượng sát thương"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] [Combustion] kích hoạt 1 lần. Giảm số lượt [Combustion] đi 1"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] [Combustion] kích hoạt 1 lần. Giảm Số lượng [Combustion] đi 1"
                 }
               ]
             }
@@ -667,7 +667,7 @@
           "level": 4,
           "name": "Tam Thiên Đại Thế Giới",
           "abName": "La Sinh Điệp",
-          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\nMỗi khi Coin trúng, nhận [Combustion] <style=\"highlight\">3</style>, khi sử dụng Coin cuối cùng Sức mạnh Cuối +1 (Tối đa 3, mỗi Coin 1 lần)\n[BeforeAttack] Nhận [Breath] dựa theo (Số Cộng hưởng tối đa) (Tối đa 7)\n- Nếu Cộng hưởng đó là Cộng hưởng Hoàn toàn, số tầng [Breath] tăng thêm (Số Cộng hưởng tối đa) ÷ 3 (Tối đa 2, làm tròn xuống)\n[BeforeAttack] Với mỗi 1 Coin bị phá hủy, Sức mạnh Cơ bản -1 (Tối đa -4)",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\nMỗi khi Đồng xu trúng đích, nhận [Combustion] <style=\"highlight\">3</style>, khi sử dụng Đồng xu cuối cùng, Sức mạnh Cuối cùng +1 (Tối đa 3, mỗi Đồng xu một lần)\n[BeforeAttack] Nhận [Breath] bằng (Số Cộng hưởng tối đa) (Tối đa 7)\n- Nếu Cộng hưởng đó là Cộng hưởng Hoàn toàn, Số lượng [Breath] tăng thêm (Số Cộng hưởng tối đa) ÷ 3 (Tối đa 2, làm tròn xuống)\n[BeforeAttack] Với mỗi 1 Đồng xu bị phá hủy, Sức mạnh Cơ bản -1 (Tối đa -4)",
           "coinlist": [
             {
               "coindescs": [
@@ -678,7 +678,7 @@
                   "desc": "[OnSucceedAttack] Gây 2 [Combustion] <style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Số tầng [Sinking] tăng <style=\"highlight\">3</style>"
+                  "desc": "[OnSucceedAttack] Số lượng [Sinking] tăng thêm <style=\"highlight\">3</style>"
                 }
               ]
             },
@@ -701,7 +701,7 @@
                   "desc": "[OnSucceedAttack] Gây [Combustion] <style=\"highlight\">4</style>"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Số tầng [Combustion] tăng 1"
+                  "desc": "[CriticalOnSucceedAttack] Số lượng [Combustion] tăng thêm 1"
                 }
               ]
             },
@@ -711,11 +711,11 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnStartCoin] Với mỗi 10 (Tổng Sức mạnh [Combustion] và Sức mạnh [Sinking] của tất cả mục tiêu), Lượng sát thương +10% (Tối đa <style=\"highlight\">60%</style>)",
-                  "summary": "[OnStartCoin] Với mỗi 10 (Tổng [Combustion] và [Sinking] của tất cả mục tiêu), Tăng lượng sát thương"
+                  "desc": "[OnStartCoin] Với mỗi 10 (tổng Cường độ [Combustion] và [Sinking] của tất cả mục tiêu), Lượng sát thương +10% (Tối đa <style=\"highlight\">60%</style>)",
+                  "summary": "[OnStartCoin] Với mỗi 10 (Tổng [Combustion] và [Sinking] của tất cả mục tiêu), tăng lượng sát thương"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] [Combustion] kích hoạt 1 lần. Số tầng [Combustion] giảm 1"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] [Combustion] kích hoạt 1 lần. Số lượng [Combustion] giảm 1"
                 }
               ]
             }
@@ -728,9 +728,9 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Lời Chia Buồn Trang Trọng",
+          "name": "Lời Chia Buồn Nghiêm Trang",
           "abName": "Đám Tang Những Chú Bướm Đã Chết",
-          "desc": "[WideAreaRampage]\nKhi gây [SinkingWhite] bằng hiệu ứng của Kỹ năng này: gây Bướm Chết theo xác suất tung mặt Ngửa. Nếu đơn vị này không gây Bướm Chết, thay vào đó gây Bướm Sống. (tính riêng biệt cho từng Tầng [SinkingWhite])\n\nNếu Lobotomy E.G.O::Lời Chia Buồn Trang Trọng Yi Sang sử dụng Kỹ năng này:\n- [BeforeAttack] Nhận ngẫu nhiên (Cộng hưởng Trầm mặc + 1) [BulletLament] (Tối đa 7)\n- [EndSkill] [ReloadLament]",
+          "desc": "[WideAreaRampage]\nKhi gây [SinkingWhite] bằng hiệu ứng của Kĩ năng này: gây Bướm Chết theo xác suất tung mặt Ngửa. Nếu đơn vị này không gây Bướm Chết, thay vào đó gây Bướm Sống. (tính riêng biệt cho từng Tầng [SinkingWhite])\n\nNếu Lobotomy E.G.O::Lời Chia Buồn Nghiêm Trang Yi Sang sử dụng Kĩ năng này:\n- [BeforeAttack] Nhận ngẫu nhiên (Cộng hưởng U sầu + 1) [BulletLament] (Tối đa 7)\n- [EndSkill] [ReloadLament]",
           "coinlist": [
             {
               "coindescs": [
@@ -801,9 +801,9 @@
         },
         {
           "level": 3,
-          "name": "Lời Chia Buồn Trang Trọng",
+          "name": "Lời Chia Buồn Nghiêm Trang",
           "abName": "Đám Tang Những Chú Bướm Đã Chết",
-          "desc": "[WideAreaRampage]\nKhi gây [SinkingWhite] bằng hiệu ứng của Kỹ năng này: gây Bướm Chết theo xác suất tung mặt Ngửa. Nếu đơn vị này không gây Bướm Chết, thay vào đó gây Bướm Sống. (tính riêng biệt cho từng Tầng [SinkingWhite])\n\nNếu Lobotomy E.G.O::Lời Chia Buồn Trang Trọng Yi Sang sử dụng Kỹ năng này:\n- [BeforeAttack] Nhận ngẫu nhiên (Cộng hưởng Trầm mặc + 1) [BulletLament] (Tối đa 7)\n- [EndSkill] [ReloadLament]",
+          "desc": "[WideAreaRampage]\nKhi gây [SinkingWhite] bằng hiệu ứng của Kĩ năng này: gây Bướm Chết theo xác suất tung mặt Ngửa. Nếu đơn vị này không gây Bướm Chết, thay vào đó gây Bướm Sống. (tính riêng biệt cho từng Tầng [SinkingWhite])\n\nNếu Lobotomy E.G.O::Lời Chia Buồn Nghiêm Trang Yi Sang sử dụng Kĩ năng này:\n- [BeforeAttack] Nhận ngẫu nhiên (Cộng hưởng U sầu + 1) [BulletLament] (Tối đa 7)\n- [EndSkill] [ReloadLament]",
           "coinlist": [
             {
               "coindescs": [
@@ -869,10 +869,10 @@
                   "desc": "[OnSucceedAttack] Kích hoạt [VibrationExplosion]; sau đó, giảm 1 Số lượng [Vibration] của mục tiêu<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Gây sát thương Trầm mặc bằng tổng của cả hai [SinkingWhite] trên mục tiêu</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Gây sát thương hệ U sầu bằng tổng của cả hai [SinkingWhite] trên mục tiêu</style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Gây sát thương Trầm mặc bằng ([BulletLament] tiêu hao bởi Đồng xu này x 2)% sát thương cuối cùng của Đồng xu này</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Gây sát thương hệ U sầu bằng ([BulletLament] tiêu hao bởi Đồng xu này x 2)% sát thương cuối cùng của Đồng xu này</style>"
                 }
               ]
             }
@@ -880,9 +880,9 @@
         },
         {
           "level": 4,
-          "name": "Lời Chia Buồn Trang Trọng",
+          "name": "Lời Chia Buồn Nghiêm Trang",
           "abName": "Đám Tang Những Chú Bướm Đã Chết",
-          "desc": "[WideAreaRampage]\nKhi gây [SinkingWhite] bằng hiệu ứng của Kỹ năng này: gây Bướm Chết theo xác suất tung mặt Ngửa. Nếu đơn vị này không gây Bướm Chết, thay vào đó gây Bướm Sống. (tính riêng biệt cho từng Tầng [SinkingWhite])\n<style=\"highlight\">Sức mạnh Đối kháng +1 với mỗi 4 ([Sinking] + cả hai [SinkingWhite]) trên mục tiêu chính (Tối đa 4)</style>\n\nNếu Lobotomy E.G.O::Lời Chia Buồn Trang Trọng Yi Sang sử dụng Kỹ năng này:\n- [BeforeAttack] Nhận ngẫu nhiên (Cộng hưởng Trầm mặc + 1) [BulletLament] (Tối đa 7)\n- [EndSkill] [ReloadLament]",
+          "desc": "[WideAreaRampage]\nKhi gây [SinkingWhite] bằng hiệu ứng của Kĩ năng này: gây Bướm Chết theo xác suất tung mặt Ngửa. Nếu đơn vị này không gây Bướm Chết, thay vào đó gây Bướm Sống. (tính riêng biệt cho từng Tầng [SinkingWhite])\n<style=\"highlight\">Sức mạnh Đối kháng +1 với mỗi 4 ([Sinking] + cả hai [SinkingWhite]) trên mục tiêu chính (Tối đa 4)</style>\n\nNếu Lobotomy E.G.O::Lời Chia Buồn Nghiêm Trang Yi Sang sử dụng Kĩ năng này:\n- [BeforeAttack] Nhận ngẫu nhiên (Cộng hưởng U sầu + 1) [BulletLament] (Tối đa 7)\n- [EndSkill] [ReloadLament]",
           "coinlist": [
             {
               "coindescs": [
@@ -893,7 +893,7 @@
                   "desc": "[OnSucceedAttack] Gây ngẫu nhiên 1 [SinkingWhite]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Gây +1 Số lượng [Sinking]</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Tăng Số lượng [Sinking] thêm 1</style>"
                 }
               ]
             },
@@ -906,7 +906,7 @@
                   "desc": "[OnSucceedAttack] Gây ngẫu nhiên 2 [SinkingWhite]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Gây +1 Số lượng [Sinking]</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Tăng Số lượng [Sinking] thêm 1</style>"
                 }
               ]
             },
@@ -919,7 +919,7 @@
                   "desc": "[OnSucceedAttack] Gây ngẫu nhiên 2 [SinkingWhite]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Gây +1 Số lượng [Sinking]</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Tăng Số lượng [Sinking] thêm 1</style>"
                 }
               ]
             },
@@ -932,7 +932,7 @@
                   "desc": "[OnSucceedAttack] Gây ngẫu nhiên 3 [SinkingWhite]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Gây +1 Số lượng [Sinking]</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Tăng Số lượng [Sinking] thêm 1</style>"
                 },
                 {
                   "desc": "<style=\"highlight\">[OnSucceedAttack] Gây 1 [AzureTakeDamageUp] và 1 [AzureResistDown] trong lượt này và lượt sau</style>"
@@ -963,10 +963,10 @@
                   "desc": "[OnSucceedAttack] Kích hoạt [VibrationExplosion]; sau đó, giảm 1 Số lượng [Vibration] của mục tiêu<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gây sát thương Trầm mặc bằng tổng của cả hai [SinkingWhite] trên mục tiêu<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Gây sát thương hệ U sầu bằng tổng của cả hai [SinkingWhite] trên mục tiêu<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gây sát thương Trầm mặc bằng ([BulletLament] tiêu hao bởi Đồng xu này x 2)% sát thương cuối cùng của Đồng xu này<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Gây sát thương hệ U sầu bằng ([BulletLament] tiêu hao bởi Đồng xu này x 2)% sát thương cuối cùng của Đồng xu này<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -979,9 +979,9 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Lời Chia Buồn Trang Trọng",
+          "name": "Lời Chia Buồn Nghiêm Trang",
           "abName": "Đám Tang Những Chú Bướm Đã Chết",
-          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\n[BeforeAttack] Nhận +(Số Cộng hưởng tối đa / 2) Trọng số tấn công (Tối đa 2, làm tròn xuống)\n[BeforeAttack] Với mỗi Đồng xu bị phá hủy, Sức mạnh Cơ bản -2 (Tối đa -6)",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\n[BeforeAttack] Nhận +(Số Cộng hưởng tối đa ÷ 2) Trọng lượng Tấn công (Tối đa 2, làm tròn xuống)\n[BeforeAttack] Với mỗi Đồng xu bị phá hủy, Sức mạnh Cơ bản -2 (Tối đa -6)",
           "coinlist": [
             {
               "coindescs": [
@@ -1023,9 +1023,9 @@
         },
         {
           "level": 3,
-          "name": "Lời Chia Buồn Trang Trọng",
+          "name": "Lời Chia Buồn Nghiêm Trang",
           "abName": "Đám Tang Những Chú Bướm Đã Chết",
-          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\n[BeforeAttack] Nhận +(Số Cộng hưởng tối đa / 2) Trọng số tấn công (Tối đa 2, làm tròn xuống)\n[BeforeAttack] Với mỗi Đồng xu bị phá hủy, Sức mạnh Cơ bản -2 (Tối đa -6)",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\n[BeforeAttack] Nhận +(Số Cộng hưởng tối đa ÷ 2) Trọng lượng Tấn công (Tối đa 2, làm tròn xuống)\n[BeforeAttack] Với mỗi Đồng xu bị phá hủy, Sức mạnh Cơ bản -2 (Tối đa -6)",
           "coinlist": [
             {
               "coindescs": [
@@ -1062,7 +1062,7 @@
                   "desc": "[OnSucceedAttack] Kích hoạt [VibrationExplosion]; sau đó, giảm 1 Số lượng [Vibration] của mục tiêu<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Gây sát thương Trầm mặc bằng tổng của cả hai [SinkingWhite] trên mục tiêu</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Gây sát thương hệ U sầu bằng tổng của cả hai [SinkingWhite] trên mục tiêu</style>"
                 }
               ]
             }
@@ -1070,9 +1070,9 @@
         },
         {
           "level": 4,
-          "name": "Lời Chia Buồn Trang Trọng",
+          "name": "Lời Chia Buồn Nghiêm Trang",
           "abName": "Đám Tang Những Chú Bướm Đã Chết",
-          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\n<style=\"highlight\">Sức mạnh Đối kháng +1 với mỗi 4 ([Sinking] + cả hai [SinkingWhite]) trên mục tiêu chính (Tối đa 4)</style>\n[BeforeAttack] Nhận +(Số Cộng hưởng tối đa / 2) Trọng số tấn công (Tối đa 2, làm tròn xuống)\n[BeforeAttack] Với mỗi Đồng xu bị phá hủy, Sức mạnh Cơ bản -2 (Tối đa -6)",
+          "desc": "[CantIdentify]\nTấn công mục tiêu ngẫu nhiên\n<style=\"highlight\">Sức mạnh Đối kháng +1 với mỗi 4 ([Sinking] + cả hai [SinkingWhite]) trên mục tiêu chính (Tối đa 4)</style>\n[BeforeAttack] Nhận +(Số Cộng hưởng tối đa ÷ 2) Trọng lượng Tấn công (Tối đa 2, làm tròn xuống)\n[BeforeAttack] Với mỗi Đồng xu bị phá hủy, Sức mạnh Cơ bản -2 (Tối đa -6)",
           "coinlist": [
             {
               "coindescs": [
@@ -1112,10 +1112,10 @@
                   "desc": "[OnSucceedAttack] Kích hoạt [VibrationExplosion]; sau đó, giảm 1 Số lượng [Vibration] của mục tiêu<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gây sát thương Trầm mặc bằng tổng của cả hai [SinkingWhite] trên mục tiêu<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Gây sát thương hệ U sầu bằng tổng của cả hai [SinkingWhite] trên mục tiêu<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Gây sát thương Trầm mặc bằng [Sinking] trên mục tiêu</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Gây sát thương hệ U sầu bằng [Sinking] trên mục tiêu</style>"
                 }
               ]
             }
