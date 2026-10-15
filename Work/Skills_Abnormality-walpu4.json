@@ -6,7 +6,7 @@
         {
           "level": 1,
           "name": "Thấu hiểu",
-          "desc": "Nếu Tinh thần của mục tiêu từ 10 trở xuống, Sức mạnh Đối đầu +1\n[WhenUse] Nhận 1 [VioletUnderstand]",
+          "desc": "Nếu Tinh thần của mục tiêu từ 10 trở xuống, Sức mạnh Đối kháng +1\n[WhenUse] Nhận 1 [VioletUnderstand]",
           "coinlist": [
             {
               "coindescs": [
@@ -25,7 +25,7 @@
         {
           "level": 1,
           "name": "Nhận thức",
-          "desc": "Nếu Tinh thần của mục tiêu từ 10 trở xuống, Sức mạnh Đối đầu +1\n[WhenUse] Nhận 2 [VioletUnderstand]",
+          "desc": "Nếu Tinh thần của mục tiêu từ 10 trở xuống, Sức mạnh Đối kháng +1\n[WhenUse] Nhận 2 [VioletUnderstand]",
           "coinlist": [
             {
               "coindescs": [
@@ -51,7 +51,7 @@
         {
           "level": 1,
           "name": "Sự cứu rỗi",
-          "desc": "Nếu Tinh thần của mục tiêu từ 10 trở xuống, Sức mạnh Đối đầu +1\n[WhenUse] Nhận 1 [VioletUnderstand]",
+          "desc": "Nếu Tinh thần của mục tiêu từ 10 trở xuống, Sức mạnh Đối kháng +1\n[WhenUse] Nhận 1 [VioletUnderstand]",
           "coinlist": [
             {
               "coindescs": [
@@ -96,7 +96,7 @@
         {
           "level": 1,
           "name": "Sụp đổ",
-          "desc": "[CantDuel]\n[EndSkill] Chết",
+          "desc": "[CantDuel]\n[EndSkill] Tử vong",
           "coinlist": [
             {
               "coindescs": [
@@ -104,7 +104,7 @@
                   "desc": "[OnSucceedAttack] Gây 2 [VioletTakeDamageUp] vào lượt tiếp theo"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gây 10-14 sát thương Tinh thần"
+                  "desc": "[OnSucceedAttack] Gây 10~14 sát thương Tinh thần (SP)"
                 }
               ]
             }
@@ -118,7 +118,7 @@
         {
           "level": 1,
           "name": "Nhân từ",
-          "desc": "Nếu Tinh thần của mục tiêu từ 20 trở xuống, Sức mạnh Đối đầu +1",
+          "desc": "Nếu Tinh thần của mục tiêu từ 20 trở xuống, Sức mạnh Đối kháng +1",
           "coinlist": [
             {
               "coindescs": [
@@ -144,7 +144,7 @@
         {
           "level": 1,
           "name": "Tình yêu",
-          "desc": "Nếu Tinh thần của mục tiêu từ 20 trở xuống, Sức mạnh Đối đầu +1",
+          "desc": "Nếu Tinh thần của mục tiêu từ 20 trở xuống, Sức mạnh Đối kháng +1",
           "coinlist": [
             {
               "coindescs": [
@@ -169,7 +169,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Dòng chữ thấu hiểu nhấp nháy",
+          "name": "Những ký tự thấu hiểu nhấp nháy",
           "desc": "[CantDuel]",
           "coinlist": [
             {
@@ -195,8 +195,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Dòng chữ thấu hiểu nhấp nháy",
-          "desc": "Nếu Tinh thần của mục tiêu từ 20 trở xuống, Sức mạnh Đối đầu +1",
+          "name": "Những ký tự thấu hiểu nhấp nháy",
+          "desc": "Nếu Tinh thần của mục tiêu từ 20 trở xuống, Sức mạnh Đối kháng +1",
           "coinlist": [
             {
               "coindescs": [
@@ -246,7 +246,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 100 sát thương"
+                  "desc": "[OnSucceedAttack] Gây 100 sát thương HP"
                 }
               ]
             }

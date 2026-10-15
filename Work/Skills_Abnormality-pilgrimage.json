@@ -6,12 +6,12 @@
         {
           "level": 1,
           "name": "Ngọn thương Xuyên Đại sóng",
-          "desc": "[WhenUse] Với mỗi 2 kẻ địch đang có [ColdAirDOQ], Sức mạnh Kháng cự +1 (Tối đa 2)\n[WhenUse] Với mỗi 1 [ColdAirDOQ] của mục tiêu, Sức mạnh Cuối cùng +1 (Tối đa 2)",
+          "desc": "[WhenUse] Với mỗi 2 kẻ địch đang có [ColdAirDOQ], Sức mạnh Đối kháng +1 (Tối đa 2)\n[WhenUse] Với mỗi 1 [ColdAirDOQ] của mục tiêu, Sức mạnh Cuối cùng +1 (Tối đa 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Sinking] tăng thêm 2"
+                  "desc": "[OnSucceedAttack] Số lượng [Sinking] tăng thêm 2"
                 }
               ]
             }
@@ -25,12 +25,12 @@
         {
           "level": 1,
           "name": "Ngọn thương Đập tan Đại sóng",
-          "desc": "[WhenUse] Với mỗi 2 kẻ địch đang có [ColdAirDOQ], Sức mạnh Cơ bản +1 (Tối đa 2)\n[WhenUse] Nếu mục tiêu chính có [ColdAirDOQ], Trọng số Tấn công + 1\n[WhenUse] Với mỗi 1 [ColdAirDOQ] của mục tiêu chính, Sức mạnh Cuối cùng +1 (Tối đa 2)\n[DefeatDuel] Lượng sát thương giảm 50%, và sát thương của kĩ năng này không khiến mục tiêu bị Choáng",
+          "desc": "[WhenUse] Với mỗi 2 kẻ địch đang có [ColdAirDOQ], Sức mạnh Cơ bản +1 (Tối đa 2)\n[WhenUse] Nếu mục tiêu chính có [ColdAirDOQ], Trọng lượng Tấn công +1\n[WhenUse] Với mỗi 1 [ColdAirDOQ] của mục tiêu chính, Sức mạnh Cuối cùng +1 (Tối đa 2)\n[DefeatDuel] Lượng sát thương giảm 50%, và sát thương của kĩ năng này không khiến mục tiêu bị Choáng",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Sinking] tăng thêm 2\n- Nếu mục tiêu đang có [ColdAirDOQ], gây 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Số lượng [Sinking] tăng thêm 2\n- Nếu mục tiêu đang có [ColdAirDOQ], gây 1 [Sinking]"
                 }
               ]
             },
@@ -54,7 +54,7 @@
         {
           "level": 1,
           "name": "Săn Đại sóng",
-          "desc": "Ưu tiên chỉ định mục tiêu đang có [FreezingDOQ]\nCó thể Kháng cự với kĩ năng này bất kể tốc độ\n[WhenUse] Khi tấn công mục tiêu đang có [FreezingDOQ], Trọng số Tấn công + 2\n[WhenUse] Với mỗi 2 kẻ địch đang có [ColdAirDOQ], Sức mạnh Đồng xu +1 (Tối đa 2)\n[DefeatDuel] Lượng sát thương giảm 50%, và sát thương của kĩ năng này không khiến mục tiêu bị Choáng",
+          "desc": "Ưu tiên chỉ định mục tiêu đang có [FreezingDOQ]\nCó thể Đối kháng với kĩ năng này bất kể Tốc độ\n[WhenUse] Khi tấn công mục tiêu đang có [FreezingDOQ], Trọng lượng Tấn công +2\n[WhenUse] Với mỗi 2 kẻ địch đang có [ColdAirDOQ], Sức mạnh Đồng xu +1 (Tối đa 2)\n[DefeatDuel] Lượng sát thương giảm 50%, và sát thương của kĩ năng này không khiến mục tiêu bị Choáng",
           "coinlist": [
             {
               "coindescs": [
@@ -90,7 +90,7 @@
         {
           "level": 1,
           "name": "GIẾT BIỂN ĐI, GIẾT BIỂN ĐI!!",
-          "desc": "[CantDuel] \n[WhenUse] Với mỗi kẻ địch đang có [ColdAirDOQ], lượng sát thương +5% (Tối đa 30%)",
+          "desc": "[CantDuel]\n[WhenUse] Với mỗi kẻ địch đang có [ColdAirDOQ], lượng sát thương +5% (Tối đa 30%)",
           "coinlist": [
             {
               "coindescs": [
@@ -102,7 +102,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Sinking] tăng thêm 1"
+                  "desc": "[OnSucceedAttack] Số lượng [Sinking] tăng thêm 1"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Nhận 3 [AttackUp] (1 lần mỗi lượt)"
@@ -129,7 +129,7 @@
         {
           "level": 1,
           "name": "GIẾT BIỂN ĐI, GIẾT BIỂN ĐI!!",
-          "desc": "Ưu tiên chỉ định mục tiêu đang có [FreezingDOQ]\nCó thể Kháng cự với kĩ năng này bất kể tốc độ\n[WhenUse] Với mỗi kẻ địch đang có [ColdAirDOQ], lượng sát thương +5% (Tối đa 30%)\n[WhenUse] Với mỗi 2 kẻ địch đang có [ColdAirDOQ], Sức mạnh Đồng xu +1 (Tối đa 3)\n[DefeatDuel] Lượng sát thương giảm 80%, và sát thương của kĩ năng này không khiến mục tiêu bị Choáng",
+          "desc": "Ưu tiên chỉ định mục tiêu đang có [FreezingDOQ]\nCó thể Đối kháng với kĩ năng này bất kể Tốc độ\n[WhenUse] Với mỗi kẻ địch đang có [ColdAirDOQ], lượng sát thương +5% (Tối đa 30%)\n[WhenUse] Với mỗi 2 kẻ địch đang có [ColdAirDOQ], Sức mạnh Đồng xu +1 (Tối đa 3)\n[DefeatDuel] Lượng sát thương giảm 80%, và sát thương của kĩ năng này không khiến mục tiêu bị Choáng",
           "coinlist": [
             {
               "coindescs": [
@@ -147,7 +147,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Số lần [Sinking] tăng thêm 1"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Số lượng [Sinking] tăng thêm 1"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Nhận 3 [AttackUp] (1 lần mỗi lượt)"
@@ -226,7 +226,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Sinking] tăng thêm 1"
+                  "desc": "[OnSucceedAttack] Số lượng [Sinking] tăng thêm 1"
                 }
               ]
             },
@@ -252,7 +252,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Sinking] tăng thêm 2"
+                  "desc": "[OnSucceedAttack] Số lượng [Sinking] tăng thêm 2"
                 }
               ]
             },
@@ -306,7 +306,7 @@
         {
           "level": 1,
           "name": "Ý chí hợp nhất",
-          "desc": "Với mỗi 6 [Sinking] của mục tiêu, Sức mạnh Đồng xu +1 (Tối đa 2)\n[StartBattle] Ban 2 [Agility] vào lượt kế tiếp cho đồng minh Giáo đồ Biển sâu có tốc độ thấp nhất",
+          "desc": "Với mỗi 6 [Sinking] của mục tiêu, Sức mạnh Đồng xu +1 (Tối đa 2)\n[StartBattle] ban 2 [Agility] vào lượt kế tiếp cho đồng minh Giáo đồ Biển sâu có Tốc độ thấp nhất",
           "coinlist": [
             {
               "coindescs": [
@@ -335,12 +335,12 @@
         {
           "level": 1,
           "name": "Hoan Hỉ Lan Tỏa",
-          "desc": "Mỗi 6 [Sinking] trên mục tiêu, Sức mạnh Đồng xu +1 (Tối đa 2)\n[StartBattle] Trao 2 [Enhancement] cho đồng minh Giáo đồ Thâm hải có Tốc độ cao nhất",
+          "desc": "Mỗi 6 [Sinking] trên mục tiêu, Sức mạnh Đồng xu +1 (Tối đa 2)\n[StartBattle] ban 2 [Enhancement] vào lượt kế tiếp cho đồng minh Giáo đồ Biển sâu có Tốc độ cao nhất",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Tăng số lần [Sinking] thêm 2"
+                  "desc": "[OnSucceedAttack] Số lượng [Sinking] tăng thêm 2"
                 }
               ]
             },
@@ -360,7 +360,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Ý Thức Giải Phóng",
+          "name": "Nghi Thức Giải Phóng",
           "desc": "Mỗi 6 [Sinking] trên mục tiêu, Sức mạnh Đồng xu +1 (Tối đa 2)\n[WhenUse] Nếu mục tiêu có [Binding], Sức mạnh Cuối cùng +2\n[WinDuel] Gây 6 [Sinking]",
           "coinlist": [
             {
@@ -399,7 +399,7 @@
         {
           "level": 1,
           "name": "Thích Nghi Môi Trường",
-          "desc": "Mỗi 6 [Sinking] trên mục tiêu, Sức mạnh Cuối cùng +1 (Tối đa 2)\n[StartBattle] Nhận 50 Lá chắn\n[EndBattle] Nếu bản thân còn Lá chắn, nhận 2 [Enhancement] vào lượt tiếp theo",
+          "desc": "Mỗi 6 [Sinking] trên mục tiêu, Sức mạnh Cuối cùng +1 (Tối đa 2)\n[StartBattle] Nhận 50 Khiên\n[EndBattle] Nếu bản thân còn Khiên, nhận 2 [Enhancement] vào lượt tiếp theo",
           "coinlist": [
             {
               "coindescs": [
@@ -425,7 +425,7 @@
         {
           "level": 1,
           "name": "Vì Đồng Bào Trên Cạn",
-          "desc": "[WhenUse] Nếu trên bản đồ hiện tại xuất hiện [NetherseaBrandUnit], Sức mạnh Cuối cùng +3\n- Với mỗi cấp [NetherseaBrandUnit], tăng thêm 1 Sức mạnh Cuối cùng\n\n[WhenUse] Mỗi 6 [Sinking] trên mục tiêu chính, Sức mạnh Đồng xu +1 (Tối đa 2)\nNếu [NetherseaBrandUnit] từ cấp 2 trở lên, số lượng [NervousImpairment] gây ra bởi kĩ năng này +1",
+          "desc": "[WhenUse] Nếu [NetherseaBrandUnit] đang được kích hoạt tại đây, Sức mạnh Cuối cùng +3\n- Nhận thêm 1 Sức mạnh Cuối cùng cho mỗi 1 Giai đoạn của [NetherseaBrandUnit]\n\n[WhenUse] Mỗi 6 [Sinking] trên mục tiêu chính, Sức mạnh Đồng xu +1 (Tối đa 2)\nNếu [NetherseaBrandUnit] từ Giai đoạn 2 trở lên, lượng [NervousImpairment] gây ra bởi kĩ năng này +1",
           "coinlist": [
             {
               "coindescs": [
@@ -475,8 +475,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Lối Rẽ Của Cái Tôi Sốt Sắng",
-          "desc": "[CantDuel]\nKĩ năng này không gây sát thương lên kẻ địch\n[EndSkill] Nhận 100 [AbyssalVitality]",
+          "name": "Lối Mòn Của Cái Tôi Nôn Nóng",
+          "desc": "[CantDuel]\nKĩ năng này không gây sát thương lên mục tiêu\n[EndSkill] Nhận 100 [AbyssalVitality]",
           "coinlist": [
             {}
           ]
@@ -489,12 +489,12 @@
         {
           "level": 1,
           "name": "Dư Âm An Nghỉ",
-          "desc": "[CantIdentify]\nƯu tiên chỉ định đồng minh, chọn đồng minh có HP hiện tại thấp nhất làm mục tiêu chính\nNếu mục tiêu là đồng minh, lượng sát thương cố định là 0\nMỗi 3 [Sinking] trên mục tiêu, Sức mạnh Giao tranh +1 (Tối đa 4)\n[StartBattle] Nếu mục tiêu là đồng minh, hồi HP cho mục tiêu bằng 20% HP tối đa",
+          "desc": "[CantIdentify]\nƯu tiên chỉ định đồng minh, chọn đồng minh có HP hiện tại thấp nhất làm mục tiêu chính\nNếu mục tiêu là đồng minh, sát thương gây ra cố định là 0\nVới mỗi 3 [Sinking] trên mục tiêu, Sức mạnh Đối kháng +1 (Tối đa 4)\n[StartBattle] Nếu mục tiêu là đồng minh, hồi HP cho mục tiêu bằng 20% HP tối đa",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Nếu mục tiêu là đồng minh, với mỗi 4 [AbyssalVitality] đã tiêu tốn khi triệu hồi mục tiêu, trao 1 [DefenseUp] trong lượt này và lượt tiếp theo (Tối đa 5)"
+                  "desc": "[OnSucceedAttack] Nếu mục tiêu là đồng minh, với mỗi 4 [AbyssalVitality] đã tiêu hao khi triệu hồi mục tiêu, ban 1 [DefenseUp] trong lượt này và lượt tiếp theo (Tối đa 5)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Nếu mục tiêu là kẻ địch, gây 3 [Sinking], 2 [NervousImpairment]"
@@ -511,12 +511,12 @@
         {
           "level": 1,
           "name": "Dư Âm Thăng Thiên",
-          "desc": "[CantIdentify]\nƯu tiên chỉ định đồng minh có HP hiện tại cao nhất\nNếu mục tiêu là đồng minh, lượng sát thương cố định là 0\nMỗi 3 [Sinking] trên mục tiêu, Sức mạnh Giao tranh +1 (Tối đa 4)",
+          "desc": "[CantIdentify]\nƯu tiên chỉ định đồng minh có HP hiện tại cao nhất\nNếu mục tiêu là đồng minh, sát thương gây ra cố định là 0\nVới mỗi 3 [Sinking] trên mục tiêu, Sức mạnh Đối kháng +1 (Tối đa 4)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Nếu mục tiêu là đồng minh, với mỗi 4 [AbyssalVitality] đã tiêu tốn khi triệu hồi mục tiêu, trao 1 [AttackUp] trong lượt này và lượt tiếp theo (Tối đa 5)"
+                  "desc": "[OnSucceedAttack] Nếu mục tiêu là đồng minh, với mỗi 4 [AbyssalVitality] đã tiêu hao khi triệu hồi mục tiêu, ban 1 [AttackUp] trong lượt này và lượt tiếp theo (Tối đa 5)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Nếu mục tiêu là kẻ địch, gây 3 [Sinking], 2 [NervousImpairment]"
@@ -533,7 +533,7 @@
         {
           "level": 1,
           "name": "Hệ Sinh Thái Tuần Hoàn",
-          "desc": "[CanDuelGuard]\n[EndBattle] Thay vì tiêu tốn [AbyssalVitality] tương ứng với số lượng đồng minh còn sống, trao [AttackDmgUp] cho tất cả đồng minh vào lượt tiếp theo dựa trên số lượt mục tiêu đã sống sót (Tối đa 3)\n- [DefeatDuel] Không trao [AttackDmgUp] vào lượt tiếp theo",
+          "desc": "[CanDuelGuard]\n[EndBattle] Thay vì tiêu hao [AbyssalVitality] tương ứng với số lượng đồng minh còn sống, ban [AttackDmgUp] cho tất cả đồng minh vào lượt tiếp theo dựa trên số lượt mục tiêu đã sống sót (Tối đa 3)\n- [DefeatDuel] Không ban [AttackDmgUp] vào lượt tiếp theo",
           "coinlist": [
             {
               "coindescs": [
@@ -552,7 +552,7 @@
         {
           "level": 1,
           "name": "Với Lòng Nhân Từ Xanh Thẳm.",
-          "desc": "[CantIdentify]\nMỗi 3 [NervousImpairment] trên mục tiêu chính, Sức mạnh Cơ bản +1 (Tối đa 9)\nNếu mục tiêu là đồng minh, lượng sát thương cố định là 0\nCó thể giao tranh với kĩ năng này bất kể Tốc độ\n[DefeatDuel]\n- Nhận 3 [ResultReduction], 3 [Paralysis]\n- Lượng sát thương giảm 80%, sát thương từ kĩ năng này không làm mục tiêu bị Hoảng loạn\n- Lượng [NervousImpairment] gây ra từ kĩ năng này bị giảm một nửa và không gây [Sinking], số lần [Sinking]\n- Lượng [AbyssalVitality] nhận được từ kĩ năng này bị giảm một nửa\n[EndSkill] Nhận 100 [AbyssalVitality]\n[EndBattle] Vào đầu lượt tiếp theo, tạo [NetherseaBrandUnit] trên chiến trường phe đồng minh",
+          "desc": "[CantIdentify]\nVới mỗi 3 [NervousImpairment] trên mục tiêu chính, Sức mạnh Cơ bản +1 (Tối đa 9)\nNếu mục tiêu là đồng minh, sát thương gây ra cố định là 0\nCó thể Đối kháng với kĩ năng này bất kể Tốc độ\n\n[DefeatDuel]\n- Nhận 3 [ResultReduction], 3 [Paralysis]\n- Sát thương gây ra giảm 80%, và sát thương từ Kĩ năng này không khiến mục tiêu bị Choáng\n- Lượng [NervousImpairment] gây ra từ Kĩ năng này bị giảm một nửa và không gây [Sinking] hoặc Số lượng [Sinking]\n- Lượng [AbyssalVitality] nhận được từ Kĩ năng này bị giảm một nửa\n[EndSkill] Nhận 100 [AbyssalVitality]\n[EndBattle] Khi bắt đầu lượt tiếp theo, tạo [NetherseaBrandUnit] trên chiến trường phe đồng minh",
           "coinlist": [
             {
               "coindescs": [
@@ -560,7 +560,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Nếu mục tiêu là đồng minh, hồi HP cho mục tiêu bằng 10% giá trị tối đa"
+                  "desc": "[OnSucceedAttack] Nếu mục tiêu là đồng minh, hồi HP cho mục tiêu bằng 10% HP tối đa"
                 },
                 {
                   "desc": "[OnSucceedAttack] Nếu mục tiêu là kẻ địch, gây 2 [NervousImpairment]"
@@ -573,7 +573,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Nếu mục tiêu là đồng minh, hồi HP cho mục tiêu bằng 10% giá trị tối đa"
+                  "desc": "[OnSucceedAttack] Nếu mục tiêu là đồng minh, hồi HP cho mục tiêu bằng 10% HP tối đa"
                 },
                 {
                   "desc": "[OnSucceedAttack] Nếu mục tiêu là kẻ địch, gây 2 [NervousImpairment]"
@@ -586,10 +586,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Nếu mục tiêu là đồng minh, hồi HP cho mục tiêu bằng 10% giá trị tối đa"
+                  "desc": "[OnSucceedAttack] Nếu mục tiêu là đồng minh, hồi HP cho mục tiêu bằng 10% HP tối đa"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Nếu mục tiêu là kẻ địch, gây 4 [Sinking], 4 số lần [Sinking], 4 [NervousImpairment]"
+                  "desc": "[OnSucceedAttack] Nếu mục tiêu là kẻ địch, gây 4 [Sinking], +4 Số lượng [Sinking] và 4 [NervousImpairment]"
                 }
               ]
             }
@@ -603,7 +603,7 @@
         {
           "level": 1,
           "name": "Quỹ Đạo Sóng",
-          "desc": "[WhenUse] Nếu [AbyssalVitality] từ 50 trở lên, tiêu tốn 5 [AbyssalVitality] để tăng giá trị [NervousImpairment] gây ra từ kĩ năng này thêm 2\n[WhenUse] Mỗi 5 [NervousImpairment] trên mục tiêu, tiêu tốn 1 [AbyssalVitality] để tăng Sức mạnh Giao tranh +1 (Tối đa 5)",
+          "desc": "[WhenUse] Nếu [AbyssalVitality] từ 50 trở lên, tiêu hao 5 [AbyssalVitality] để tăng lượng [NervousImpairment] gây ra từ kĩ năng này thêm +2\n[WhenUse] Với mỗi 5 [NervousImpairment] trên mục tiêu, tiêu hao 1 [AbyssalVitality] để nhận Sức mạnh Đối kháng +1 (Tối đa 5)",
           "coinlist": [
             {
               "coindescs": [
@@ -637,8 +637,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Dòng Lưu Dữ Dội",
-          "desc": "[WhenUse] Nếu [AbyssalVitality] từ 50 trở lên, tiêu tốn 4 [AbyssalVitality] để tăng Sức mạnh Đồng xu +1\n[WhenUse] Mỗi 10 [NervousImpairment] trên mục tiêu, tiêu tốn 3 [AbyssalVitality] để tăng Sức mạnh Đồng xu +1 (Tối đa 2)",
+          "name": "Dòng Chảy Dữ Dội",
+          "desc": "[WhenUse] Nếu [AbyssalVitality] từ 50 trở lên, tiêu hao 4 [AbyssalVitality] để nhận Sức mạnh Đồng xu +1\n[WhenUse] Với mỗi 10 [NervousImpairment] trên mục tiêu, tiêu hao 3 [AbyssalVitality] để nhận Sức mạnh Đồng xu +1 (Tối đa 2)",
           "coinlist": [
             {
               "coindescs": [
@@ -656,7 +656,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Tăng 3 số lần [Sinking]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Số lượng [Sinking] tăng thêm 3"
                 },
                 {
                   "desc": "[OnSucceedAttack] Gây 4 [NervousImpairment]"
@@ -681,7 +681,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây 3 [Sinking], 2 số lần [Sinking]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây 3 [Sinking] và +2 Số lượng [Sinking]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Gây 6 [NervousImpairment]"
@@ -698,7 +698,7 @@
         {
           "level": 1,
           "name": "Trước Khi Lòng Tốt Mà Họ Tin Tưởng Mất Đi Giá Trị",
-          "desc": "Ưu tiên chỉ định đối tượng có [NervousImpairment] cao nhất\nVới mỗi 3 [NervousImpairment] trên mục tiêu chính, Sức mạnh Cơ bản +1 (Tối đa 9)\nCó thể Match với Kĩ năng này bất kể tốc độ\n[DefeatDuel]\n- Nhận 3 [ResultReduction], 3 [Paralysis]\n- Sát thương gây ra giảm 80%, và sát thương từ Kĩ năng này không khiến đối tượng bị Hoảng loạn\n- Lượng [NervousImpairment] gây ra từ Kĩ năng này bị giảm một nửa và không gây [Sinking] / số lần [Sinking]\n- [AbyssalVitality] nhận được từ Kĩ năng này và lá chắn bị giảm một nửa\n[EndSkill] Nhận 100 [AbyssalVitality]\n- Nhận lá chắn bằng 20% Máu tối đa\n- Kết thúc lượt này\n[EndBattle] Khi bắt đầu lượt tiếp theo, tạo [NetherseaBrandUnit] trên toàn bộ chiến trường",
+          "desc": "Ưu tiên chỉ định mục tiêu có [NervousImpairment] cao nhất\nVới mỗi 3 [NervousImpairment] trên mục tiêu chính, Sức mạnh Cơ bản +1 (Tối đa 9)\nCó thể Đối kháng với kĩ năng này bất kể Tốc độ\n\n[DefeatDuel]\n- Nhận 3 [ResultReduction], 3 [Paralysis]\n- Sát thương gây ra giảm 80%, và sát thương từ Kĩ năng này không khiến mục tiêu bị Choáng\n- Lượng [NervousImpairment] gây ra từ Kĩ năng này bị giảm một nửa và không gây [Sinking] hoặc Số lượng [Sinking]\n- Lượng [AbyssalVitality] nhận được từ Kĩ năng này và Khiên bị giảm một nửa\n[EndSkill]\n- Nhận 100 [AbyssalVitality]\n- Nhận Khiên bằng 20% HP tối đa của bản thân\n- Kết thúc lượt này\n[EndBattle] Khi bắt đầu lượt tiếp theo, tạo [NetherseaBrandUnit] trên toàn bộ chiến trường",
           "coinlist": [
             {
               "coindescs": [
@@ -719,7 +719,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Tăng 4 số lần [Sinking]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Số lượng [Sinking] tăng thêm 4"
                 },
                 {
                   "desc": "[OnSucceedAttack] Gây 4 [NervousImpairment]"
@@ -732,7 +732,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây 4 [Sinking], 4 số lần [Sinking]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây 4 [Sinking] và +4 Số lượng [Sinking]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Gây 6 [NervousImpairment]"
@@ -749,7 +749,7 @@
         {
           "level": 1,
           "name": "Lối Mòn Của Cái Tôi Nôn Nóng",
-          "desc": "[CantDuel]\nKĩ năng này không gây sát thương lên kẻ thù\n[EndSkill] Nhận 100 [AbyssalVitality]",
+          "desc": "[CantDuel]\nKĩ năng này không gây sát thương lên mục tiêu\n[EndSkill] Nhận 100 [AbyssalVitality]",
           "coinlist": [
             {}
           ]
@@ -761,16 +761,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Tiếng Vọng An Nghỉ",
-          "desc": "[CantIdentify]\nƯu tiên chỉ định đồng minh, trong đó chỉ định đồng minh có Máu hiện tại thấp nhất làm mục tiêu chính\nNếu mục tiêu là đồng minh, sát thương gây ra cố định là 0\nVới mỗi 3 [Sinking] trên mục tiêu, Sức mạnh Match +1 (Tối đa 4)\n[StartBattle] Nếu mục tiêu là đồng minh, hồi Máu cho mục tiêu bằng 20% Máu tối đa",
+          "name": "Dư Âm An Nghỉ",
+          "desc": "[CantIdentify]\nƯu tiên chỉ định đồng minh, chọn đồng minh có HP hiện tại thấp nhất làm mục tiêu chính\nNếu mục tiêu là đồng minh, sát thương gây ra cố định là 0\nVới mỗi 3 [Sinking] trên mục tiêu, Sức mạnh Đối kháng +1 (Tối đa 4)\n[StartBattle] Nếu mục tiêu là đồng minh, hồi HP cho mục tiêu bằng 20% HP tối đa",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Nếu mục tiêu là đồng minh, với mỗi 4 [AbyssalVitality] đã tiêu hao khi triệu hồi mục tiêu, gây 1 [DefenseUp] vào lượt này và lượt tiếp theo (Tối đa 5)"
+                  "desc": "[OnSucceedAttack] Nếu mục tiêu là đồng minh, với mỗi 4 [AbyssalVitality] đã tiêu hao khi triệu hồi mục tiêu, ban 1 [DefenseUp] trong lượt này và lượt tiếp theo (Tối đa 5)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Nếu mục tiêu là kẻ thù, gây 3 [Sinking], 2 [NervousImpairment]"
+                  "desc": "[OnSucceedAttack] Nếu mục tiêu là kẻ địch, gây 3 [Sinking], 2 [NervousImpairment]"
                 }
               ]
             }
@@ -783,16 +783,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Tiếng Vọng Thăng Hoa",
-          "desc": "[CantIdentify]\nƯu tiên chỉ định đồng minh có Máu hiện tại cao nhất\nNếu mục tiêu là đồng minh, sát thương gây ra cố định là 0\nVới mỗi 3 [Sinking] trên mục tiêu, Sức mạnh Match +1 (Tối đa 4)",
+          "name": "Dư Âm Thăng Thiên",
+          "desc": "[CantIdentify]\nƯu tiên chỉ định đồng minh có HP hiện tại cao nhất\nNếu mục tiêu là đồng minh, sát thương gây ra cố định là 0\nVới mỗi 3 [Sinking] trên mục tiêu, Sức mạnh Đối kháng +1 (Tối đa 4)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Nếu mục tiêu là đồng minh, với mỗi 4 [AbyssalVitality] đã tiêu hao khi triệu hồi mục tiêu, gây 1 [AttackUp] vào lượt này và lượt tiếp theo (Tối đa 5)"
+                  "desc": "[OnSucceedAttack] Nếu mục tiêu là đồng minh, với mỗi 4 [AbyssalVitality] đã tiêu hao khi triệu hồi mục tiêu, ban 1 [AttackUp] trong lượt này và lượt tiếp theo (Tối đa 5)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Nếu mục tiêu là kẻ thù, gây 3 [Sinking], 2 [NervousImpairment]"
+                  "desc": "[OnSucceedAttack] Nếu mục tiêu là kẻ địch, gây 3 [Sinking], 2 [NervousImpairment]"
                 }
               ]
             }
@@ -806,7 +806,7 @@
         {
           "level": 1,
           "name": "Hệ Sinh Thái Tuần Hoàn",
-          "desc": "[CanDuelGuard]\n[EndBattle] Thay vì tiêu hao [AbyssalVitality] theo số lượng đồng minh còn sống, gây [AttackDmgUp] vào lượt tiếp theo cho tất cả đồng minh dựa trên số lượt mà mục tiêu đã sống sót (Tối đa 3)\n- [DefeatDuel] Không gây [AttackDmgUp] vào lượt tiếp theo",
+          "desc": "[CanDuelGuard]\n[EndBattle] Thay vì tiêu hao [AbyssalVitality] tương ứng với số lượng đồng minh còn sống, ban [AttackDmgUp] cho tất cả đồng minh vào lượt tiếp theo dựa trên số lượt mục tiêu đã sống sót (Tối đa 3)\n- [DefeatDuel] Không ban [AttackDmgUp] vào lượt tiếp theo",
           "coinlist": [
             {
               "coindescs": [
@@ -824,8 +824,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Bằng Sự Ôn Nhu Xanh Thẳm.",
-          "desc": "[CantIdentify]\nVới mỗi 3 [NervousImpairment] trên mục tiêu chính, Sức mạnh Cơ bản +1 (Tối đa 9)\nNếu mục tiêu là đồng minh, sát thương gây ra cố định là 0\nCó thể Match với Kĩ năng này bất kể tốc độ\n[DefeatDuel]\n- Nhận 3 [ResultReduction], 3 [Paralysis]\n- Sát thương gây ra giảm 80%, và sát thương từ Kĩ năng này không khiến đối tượng bị Hoảng loạn\n- Lượng [NervousImpairment] gây ra từ Kĩ năng này bị giảm một nửa và không gây [Sinking] / số lần [Sinking]\n- [AbyssalVitality] nhận được từ Kĩ năng này bị giảm một nửa\n[EndSkill] Nhận 100 [AbyssalVitality]\n[EndBattle] Khi bắt đầu lượt tiếp theo, tạo [NetherseaBrandUnit] trên chiến trường phe đồng minh",
+          "name": "Với Lòng Nhân Từ Xanh Thẳm.",
+          "desc": "[CantIdentify]\nVới mỗi 3 [NervousImpairment] trên mục tiêu chính, Sức mạnh Cơ bản +1 (Tối đa 9)\nNếu mục tiêu là đồng minh, sát thương gây ra cố định là 0\nCó thể Đối kháng với kĩ năng này bất kể Tốc độ\n\n[DefeatDuel]\n- Nhận 3 [ResultReduction], 3 [Paralysis]\n- Sát thương gây ra giảm 80%, và sát thương từ Kĩ năng này không khiến mục tiêu bị Choáng\n- Lượng [NervousImpairment] gây ra từ Kĩ năng này bị giảm một nửa và không gây [Sinking] hoặc Số lượng [Sinking]\n- Lượng [AbyssalVitality] nhận được từ Kĩ năng này bị giảm một nửa\n[EndSkill] Nhận 100 [AbyssalVitality]\n[EndBattle] Khi bắt đầu lượt tiếp theo, tạo [NetherseaBrandUnit] trên chiến trường phe đồng minh",
           "coinlist": [
             {
               "coindescs": [
@@ -833,10 +833,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Nếu mục tiêu là đồng minh, hồi Máu cho mục tiêu bằng 10% Máu tối đa"
+                  "desc": "[OnSucceedAttack] Nếu mục tiêu là đồng minh, hồi HP cho mục tiêu bằng 10% HP tối đa"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Nếu mục tiêu là kẻ thù, gây 2 [NervousImpairment]"
+                  "desc": "[OnSucceedAttack] Nếu mục tiêu là kẻ địch, gây 2 [NervousImpairment]"
                 }
               ]
             },
@@ -846,10 +846,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Nếu mục tiêu là đồng minh, hồi Máu cho mục tiêu bằng 10% Máu tối đa"
+                  "desc": "[OnSucceedAttack] Nếu mục tiêu là đồng minh, hồi HP cho mục tiêu bằng 10% HP tối đa"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Nếu mục tiêu là kẻ thù, gây 2 [NervousImpairment]"
+                  "desc": "[OnSucceedAttack] Nếu mục tiêu là kẻ địch, gây 2 [NervousImpairment]"
                 }
               ]
             },
@@ -859,10 +859,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Nếu mục tiêu là đồng minh, hồi Máu cho mục tiêu bằng 10% Máu tối đa"
+                  "desc": "[OnSucceedAttack] Nếu mục tiêu là đồng minh, hồi HP cho mục tiêu bằng 10% HP tối đa"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Nếu mục tiêu là kẻ thù, gây 4 [Sinking], 4 số lần [Sinking], 4 [NervousImpairment]"
+                  "desc": "[OnSucceedAttack] Nếu mục tiêu là kẻ địch, gây 4 [Sinking], +4 Số lượng [Sinking] và 4 [NervousImpairment]"
                 }
               ]
             }
@@ -876,7 +876,7 @@
         {
           "level": 1,
           "name": "Quỹ Đạo Sóng",
-          "desc": "[WhenUse] Nếu có từ 50 [AbyssalVitality] trở lên, tiêu hao 5 [AbyssalVitality] để tăng lượng [NervousImpairment] gây ra từ Kĩ năng này thêm +2\n[WhenUse] Với mỗi 10 [NervousImpairment] trên mục tiêu, tiêu hao 1 [AbyssalVitality] để nhận Sức mạnh Match +1 (Tối đa 2)",
+          "desc": "[WhenUse] Nếu có từ 50 [AbyssalVitality] trở lên, tiêu hao 5 [AbyssalVitality] để tăng lượng [NervousImpairment] gây ra từ Kĩ năng này thêm +2\n[WhenUse] Với mỗi 10 [NervousImpairment] trên mục tiêu, tiêu hao 1 [AbyssalVitality] để nhận Sức mạnh Đối kháng +1 (Tối đa 2)",
           "coinlist": [
             {
               "coindescs": [
@@ -926,7 +926,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Tăng 3 số lần [Sinking]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Số lượng [Sinking] tăng thêm 3"
                 },
                 {
                   "desc": "[OnSucceedAttack] Gây 2 [NervousImpairment]"
@@ -951,7 +951,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây 3 [Sinking], 2 số lần [Sinking]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây 3 [Sinking] và +2 Số lượng [Sinking]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Gây 4 [NervousImpairment]"

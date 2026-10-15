@@ -5,8 +5,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Hoạt Động Nghĩa Thể",
-          "desc": "[WhenUse] Nếu số [Charge] từ 10 trở lên, tiêu hao 3 [Charge] để nhận Sức mạnh Đồng xu +1\n[WhenUse] Nếu số [Charge] từ 15 trở lên, tiêu hao thêm 3 [Charge] để nhận Sát thương + 20%\n[WhenUse] Nếu số [Charge] ít hơn 5, Máu giảm đi 10% giá trị tối đa và số [Charge] tăng thêm 9",
+          "name": "Vận hành cơ thể máy",
+          "desc": "[WhenUse] Nếu Số lượng [Charge] từ 10 trở lên, tiêu hao 3 Số lượng [Charge] để nhận Sức mạnh Đồng xu +1\n[WhenUse] Nếu Số lượng [Charge] từ 15 trở lên, tiêu hao thêm 3 Số lượng [Charge] để nhận sát thương +20%\n[WhenUse] Nếu Số lượng [Charge] ít hơn 5, mất một lượng HP bằng 10% HP tối đa và nhận 9 Số lượng [Charge]",
           "coinlist": [
             {
               "coindescs": [
@@ -27,8 +27,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Huyết Ngược Dòng Thức Cương Huyết",
-          "desc": "[WhenUse] Nếu số [Charge] từ 10 trở lên, tiêu hao 3 [Charge] để nhận Sức mạnh Đồng xu +1\n[WhenUse] Nếu số [Charge] từ 15 trở lên, tiêu hao thêm 3 [Charge] để nhận Sát thương + 20%\n[WhenUse] Nếu số [Charge] ít hơn 5, Máu giảm đi 10% giá trị tối đa và số [Charge] tăng thêm 9",
+          "name": "Ngạnh huyết Nghịch lưu",
+          "desc": "[WhenUse] Nếu Số lượng [Charge] từ 10 trở lên, tiêu hao 3 Số lượng [Charge] để nhận Sức mạnh Đồng xu +1\n[WhenUse] Nếu Số lượng [Charge] từ 15 trở lên, tiêu hao thêm 3 Số lượng [Charge] để nhận sát thương +20%\n[WhenUse] Nếu Số lượng [Charge] ít hơn 5, mất một lượng HP bằng 10% HP tối đa và nhận 9 Số lượng [Charge]",
           "coinlist": [
             {
               "coindescs": [
@@ -46,7 +46,7 @@
                   "desc": "[OnSucceedAttack] Gây 2 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Tăng 1 số [Laceration]"
+                  "desc": "[OnSucceedAttack] Tăng thêm 1 Số lượng [Laceration]"
                 }
               ]
             },
@@ -56,7 +56,7 @@
                   "desc": "[OnSucceedAttack] Gây 2 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Tăng 1 số [Laceration]"
+                  "desc": "[OnSucceedAttack] Tăng thêm 1 Số lượng [Laceration]"
                 }
               ]
             }
@@ -69,8 +69,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Sạc Chuyển Đổi Năng Lượng Sinh Học",
-          "desc": "[WhenUse] Tiêu hao 10% Máu tối đa của bản thân, tăng 15 số [Charge]\n[DefeatDuel] Sát thương giảm 50%, mục tiêu không bị Hoảng loạn bởi sát thương từ kĩ năng này",
+          "name": "Nạp năng lượng chuyển hóa sinh học",
+          "desc": "[WhenUse] Tiêu hao một lượng HP của bản thân bằng 10% HP tối đa, nhận 15 Số lượng [Charge]\n[DefeatDuel] Sát thương giảm 50%, sát thương của kĩ năng này không làm mục tiêu bị Choáng",
           "coinlist": [
             {
               "coindescs": [
@@ -81,7 +81,7 @@
                   "desc": "[UnBrokenCoinOnSucceedAttack] Gây 4 [Laceration]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Tăng 1 số [Laceration]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Tăng thêm 1 Số lượng [Laceration]"
                 }
               ]
             },
@@ -94,7 +94,7 @@
                   "desc": "[UnBrokenCoinOnSucceedAttack] Gây 6 [Laceration]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Tăng 2 số [Laceration]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Tăng thêm 2 Số lượng [Laceration]"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] Gây 2 [AttackDown]"
@@ -110,8 +110,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Phòng Thủ",
-          "desc": "[WhenUse] Mỗi 3 số [Laceration] của bản thân, Sức mạnh Cơ bản +1 (Tối đa 2)",
+          "name": "Phòng thủ",
+          "desc": "[WhenUse] Với mỗi 3 Số lượng [Laceration] của bản thân, Sức mạnh Cơ bản +1 (Tối đa 2)",
           "coinlist": [
             {}
           ]
@@ -123,8 +123,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Chuyển Máu Thức Cương Huyết",
-          "desc": "[WhenUse] Nếu số [Charge] từ 10 trở lên, tiêu hao 3 [Charge] để nhận Sức mạnh Đồng xu +1\n[WhenUse] Nếu số [Charge] từ 15 trở lên, tiêu hao thêm 3 [Charge] để nhận Sát thương + 20%\n[WhenUse] Nếu số [Charge] ít hơn 5, Máu giảm đi 10% giá trị tối đa và số [Charge] tăng thêm 9",
+          "name": "Truyền máu Ngạnh huyết",
+          "desc": "[WhenUse] Nếu Số lượng [Charge] từ 10 trở lên, tiêu hao 3 Số lượng [Charge] để nhận Sức mạnh Đồng xu +1\n[WhenUse] Nếu Số lượng [Charge] từ 15 trở lên, tiêu hao thêm 3 Số lượng [Charge] để nhận sát thương +20%\n[WhenUse] Nếu Số lượng [Charge] ít hơn 5, mất một lượng HP bằng 10% HP tối đa và nhận 9 Số lượng [Charge]",
           "coinlist": [
             {
               "coindescs": [
@@ -139,7 +139,7 @@
                   "desc": "[OnSucceedAttack] Gây 4 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Tăng 1 số [Laceration]"
+                  "desc": "[OnSucceedAttack] Tăng thêm 1 Số lượng [Laceration]"
                 }
               ]
             }
@@ -152,8 +152,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Tái Sạc Chuyển Đổi Năng Lượng Sinh Học",
-          "desc": "[WhenUse] Tiêu hao 10% Máu tối đa của bản thân, tăng 15 số [Charge]\n[DefeatDuel] Sát thương giảm 50%, mục tiêu không bị Hoảng loạn bởi sát thương từ kĩ năng này",
+          "name": "Tái nạp năng lượng chuyển hóa sinh học",
+          "desc": "[WhenUse] Tiêu hao một lượng HP của bản thân bằng 10% HP tối đa, nhận 15 Số lượng [Charge]\n[DefeatDuel] Sát thương giảm 50%, sát thương của kĩ năng này không làm mục tiêu bị Choáng",
           "coinlist": [
             {
               "coindescs": [
@@ -177,7 +177,7 @@
                   "desc": "[UnBrokenCoinOnSucceedAttack] Gây 4 [Laceration]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Tăng 1 số [Laceration]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Tăng thêm 1 Số lượng [Laceration]"
                 }
               ]
             },
@@ -190,7 +190,7 @@
                   "desc": "[UnBrokenCoinOnSucceedAttack] Gây 6 [Laceration]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Tăng 2 số [Laceration]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Tăng thêm 2 Số lượng [Laceration]"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] Gây 2 [AttackDown]"
@@ -206,20 +206,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Hoàng Tử Diễu Hành",
-          "desc": "[StartBattle] Chỉ tăng Trọng số Tấn công đối với mục tiêu có [Laceration] (Tối đa 5)\n[WhenUse] Nếu [Laceration] của mục tiêu chính từ 4 trở lên, Sức mạnh Cơ bản +1\n[WhenUse] Nếu số [Laceration] của mục tiêu chính từ 3 trở lên, Sức mạnh Đồng xu +1\n[DefeatDuel] [KeptBlood] giảm 1",
+          "name": "Hoàng tử của cuộc diễu hành",
+          "desc": "[StartBattle] Tăng Trọng lượng Tấn công bằng với số mục tiêu đang có [Laceration] (Tối đa 5)\n[WhenUse] Nếu [Laceration] của mục tiêu chính từ 4 trở lên, Sức mạnh Cơ bản +1\n[WhenUse] Nếu Số lượng [Laceration] của mục tiêu chính từ 3 trở lên, Sức mạnh Đồng xu +1\n[DefeatDuel] Mất 1 [KeptBlood]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Tăng 2 số [Laceration]"
+                  "desc": "[OnSucceedAttack] Tăng thêm 2 Số lượng [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Tăng 2 số [Laceration]"
+                  "desc": "[OnSucceedAttack] Tăng thêm 2 Số lượng [Laceration]"
                 }
               ]
             },
@@ -249,34 +249,34 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Ta là... Hoàng tử... của cuộc diễu hành này...!",
-          "desc": "[CantDuel]\n[WhenUse] Nhận 4 [Paralysis]\n[WhenUse] Hiệu ứng hồi phục của Trường đao Thức Cương Huyết[TabExplain] tăng gấp đôi\n[WhenUse] Điểm Tinh thần trở thành 0\n[EndSkill] Nhận 10 [KeptBlood]\nTrong lượt này, không bị rơi vào trạng thái Hoảng loạn. Kết thúc lượt sau khi sử dụng kĩ năng này.",
+          "name": "Ta là... hoàng tử... của cuộc diễu hành này...!",
+          "desc": "[CantDuel]\n[WhenUse] Nhận 4 [Paralysis]\n[WhenUse] Hiệu quả hồi phục của Đại đao Ngạnh huyết[TabExplain] tăng gấp đôi\n[WhenUse] Tinh thần trở về 0\n[EndSkill] Nhận 10 [KeptBlood]\nKhông bị Choáng trong lượt này và kết thúc lượt ngay sau khi sử dụng Kĩ năng này.",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây 2 [Laceration], tăng 1 số [Laceration]"
+                  "desc": "[OnSucceedAttack] Gây 2 [Laceration] và tăng thêm 1 Số lượng [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây 2 [Laceration], tăng 1 số [Laceration]"
+                  "desc": "[OnSucceedAttack] Gây 2 [Laceration] và tăng thêm 1 Số lượng [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây 2 [Laceration], tăng 1 số [Laceration]"
+                  "desc": "[OnSucceedAttack] Gây 2 [Laceration] và tăng thêm 1 Số lượng [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây 2 [Laceration], tăng 1 số [Laceration]"
+                  "desc": "[OnSucceedAttack] Gây 2 [Laceration] và tăng thêm 1 Số lượng [Laceration]"
                 }
               ]
             }
@@ -290,26 +290,26 @@
         {
           "level": 1,
           "name": "Tuyệt đối... không quay lại đâu...!",
-          "desc": "[WhenUse] Mỗi 5 [Laceration] của mục tiêu chính, Sức mạnh Đối đầu +1 (Tối đa 3)\n[WhenUse] Nếu số [Laceration] của mục tiêu chính từ 4 trở lên, Sức mạnh Đồng xu +1\n[WhenUse] Mỗi 1 số [Laceration] của mục tiêu chính, Sát thương +5% (Tối đa 20%)\n[WinDuel] Hiệu ứng hồi phục của Trường đao Thức Cương Huyết[TabExplain] tăng gấp đôi\n[DefeatDuel] Hiệu ứng hồi phục của Trường đao Thức Cương Huyết[TabExplain] không kích hoạt\n[DefeatDuel] Sát thương giảm 80%, mục tiêu không bị Hoảng loạn bởi sát thương từ kĩ năng này\n[EndSkill] Nhận 10 [KeptBlood]",
+          "desc": "[WhenUse] Mỗi 5 [Laceration] của mục tiêu chính, Uy lực Đối kháng +1 (Tối đa 3)\n[WhenUse] Nếu Số lượng [Laceration] của mục tiêu chính từ 4 trở lên, Sức mạnh Đồng xu +1\n[WhenUse] Với mỗi 1 Số lượng [Laceration] của mục tiêu chính, sát thương +5% (Tối đa 20%)\n[WinDuel] Hiệu quả hồi phục của Đại đao Ngạnh huyết[TabExplain] tăng gấp đôi\n[DefeatDuel] Hiệu quả hồi phục của Đại đao Ngạnh huyết[TabExplain] không kích hoạt\n[DefeatDuel] Sát thương giảm 80%, sát thương của kĩ năng này không làm mục tiêu bị Choáng\n[EndSkill] Nhận 10 [KeptBlood]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây 3 [Laceration], số lượng [Laceration] tăng 1"
+                  "desc": "[OnSucceedAttack] Gây 3 [Laceration] và tăng thêm 1 Số lượng [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây 3 [Laceration], số lượng [Laceration] tăng 1"
+                  "desc": "[OnSucceedAttack] Gây 3 [Laceration] và tăng thêm 1 Số lượng [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây 3 [Laceration], số lượng [Laceration] tăng 1"
+                  "desc": "[OnSucceedAttack] Gây 3 [Laceration] và tăng thêm 1 Số lượng [Laceration]"
                 }
               ]
             },
@@ -319,7 +319,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây 3 [Laceration], số lượng [Laceration] tăng 1"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây 3 [Laceration] và tăng thêm 1 Số lượng [Laceration]"
                 }
               ]
             }

@@ -6,7 +6,7 @@
         {
           "level": 1,
           "name": "Ngươi sợ rồi sao?",
-          "desc": "Nếu ở trạng thái [TimeAcceleration], Sức mạnh Đối đầu +1\n[DefeatDuel] Nếu máu của bản thân dưới 75%, tiêu hao 40 [LimitedTime] và nhận 1 [Protection] (1 lần mỗi lượt)",
+          "desc": "Nếu ở trạng thái [TimeAcceleration], Sức mạnh Đối kháng +1\n[DefeatDuel] Nếu HP của bản thân dưới 75%, tiêu hao 40 [LimitedTime] và nhận 1 [Protection] (1 lần mỗi lượt)",
           "coinlist": [
             {
               "coindescs": [
@@ -32,7 +32,7 @@
         {
           "level": 1,
           "name": "Hình phạt cho kẻ sát hại thời gian",
-          "desc": "Nếu ở trạng thái [TimeAcceleration], Sức mạnh Đối đầu +2\n[WhenUse] Nếu [LimitedTime] từ 500 trở lên, số lượt [Laceration] của mục tiêu tăng thêm 3\n[WhenUse] Nếu [LimitedTime] từ 500 trở lên, số lượt [Laceration] của mục tiêu tăng thêm 1\n[WhenUse] Nếu [LimitedTime] từ 400 trở lên, tiêu hao 20 [LimitedTime], tăng +1 Sức mạnh và số lượt [Laceration] gây ra bởi kĩ năng này",
+          "desc": "Nếu ở trạng thái [TimeAcceleration], Sức mạnh Đối kháng +2\n[WhenUse] Nếu [LimitedTime] từ 700 trở lên, Số lượng [Laceration] của mục tiêu tăng thêm 3\n[WhenUse] Nếu [LimitedTime] từ 500 trở lên, Số lượng [Laceration] của mục tiêu tăng thêm 1\n[WhenUse] Nếu [LimitedTime] từ 400 trở lên, tiêu hao 20 [LimitedTime], tăng +1 Cường độ và Số lượng [Laceration] gây ra bởi Kĩ năng này",
           "coinlist": [
             {
               "coindescs": [
@@ -44,14 +44,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lượt [Laceration] tăng thêm 2"
+                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng thêm 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lượt [Laceration] tăng thêm 2"
+                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng thêm 2"
                 }
               ]
             }
@@ -65,7 +65,7 @@
         {
           "level": 1,
           "name": "Trích xuất",
-          "desc": "Nếu ở trạng thái [TimeAcceleration], Sức mạnh Coin +1\n[WhenUse] Nếu máu của bản thân dưới 75%, tiêu hao 40 [LimitedTime] để tăng +2 Sức mạnh Đối đầu\n[DefeatDuel] Lượng sát thương giảm 80%, sát thương của kĩ năng này không khiến mục tiêu bị Choáng",
+          "desc": "Nếu ở trạng thái [TimeAcceleration], Sức mạnh Đồng xu +1\n[WhenUse] Nếu HP của bản thân dưới 75%, tiêu hao 40 [LimitedTime] và nhận Sức mạnh Đối kháng +2\n[DefeatDuel] Lượng sát thương giảm 80%, sát thương của kĩ năng này không khiến mục tiêu bị Choáng",
           "coinlist": [
             {
               "coindescs": [
@@ -103,7 +103,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Số lượt [Laceration] tăng thêm 2"
+                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng thêm 2"
                 }
               ]
             }
@@ -117,7 +117,7 @@
         {
           "level": 1,
           "name": "Chém loạn xạ",
-          "desc": "[WhenUse] Nếu máu của bản thân dưới 75%, tiêu hao 60 [LimitedTime] để tăng +2 Sức mạnh Đối đầu\n[BeforeAttack] Nếu ở trạng thái [TimeAcceleration], Mục tiêu Chỉ định tăng thêm 1",
+          "desc": "[WhenUse] Nếu HP của bản thân dưới 75%, tiêu hao 60 [LimitedTime] và nhận Sức mạnh Đối kháng +2\n[BeforeAttack] Nếu ở trạng thái [TimeAcceleration], Trọng lượng Tấn công +1",
           "coinlist": [
             {
               "coindescs": [
@@ -125,7 +125,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Số lượt [Laceration] tăng thêm 1"
+                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng thêm 1"
                 }
               ]
             },
@@ -149,7 +149,7 @@
         {
           "level": 1,
           "name": "Thời gian cứu rỗi",
-          "desc": "[CantDuel]\nGây [TimeKillerWatch] cho mục tiêu đã sử dụng kĩ năng tấn công lên bản thân vào lượt tiếp theo\n[StartBattle] Tiêu hao 200 [LimitedTime]. Nhận [TimeAcceleration] vào lượt tiếp theo",
+          "desc": "[CantDuel]\nGây [TimeKillerWatch] lên mục tiêu đã dùng Kĩ năng Tấn công nhắm vào bản thân vào lượt tiếp theo\n[StartBattle] Tiêu hao 200 [LimitedTime] và nhận [TimeAcceleration] vào lượt tiếp theo",
           "coinlist": [
             {
               "coindescs": [
@@ -239,7 +239,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lượt [Laceration] tăng thêm 2"
+                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng thêm 2"
                 }
               ]
             }
@@ -253,7 +253,7 @@
         {
           "level": 1,
           "name": "Ngươi sợ rồi sao?",
-          "desc": "Nếu ở trạng thái [TimeAcceleration], Sức mạnh Đối đầu +1\n[DefeatDuel] Nếu máu của bản thân dưới 75%, tiêu hao 40 [OwnTime] và nhận 1 [Protection] (1 lần mỗi lượt)",
+          "desc": "Nếu ở trạng thái [TimeAcceleration], Sức mạnh Đối kháng +1\n[DefeatDuel] Nếu HP của bản thân dưới 75%, tiêu hao 40 [OwnTime] và nhận 1 [Protection] (1 lần mỗi lượt)",
           "coinlist": [
             {
               "coindescs": [
@@ -279,7 +279,7 @@
         {
           "level": 1,
           "name": "Hình phạt cho kẻ sát hại thời gian",
-          "desc": "Nếu ở trạng thái [TimeAcceleration], Sức mạnh Đối đầu +2\n[WhenUse] Nếu tổng [OwnTime] của tất cả bộ phận từ 600 trở lên, số lượt [Laceration] của mục tiêu tăng thêm 3\n[WhenUse] Nếu tổng [OwnTime] của tất cả bộ phận từ 500 trở lên, số lượt [Laceration] của mục tiêu tăng thêm 1\n[WhenUse] Nếu tổng [OwnTime] của tất cả bộ phận từ 400 trở lên, tiêu hao 20 [OwnTime], tăng +1 Sức mạnh và số lượt [Laceration] gây ra bởi kĩ năng này",
+          "desc": "Nếu ở trạng thái [TimeAcceleration], Sức mạnh Đối kháng +2\n[WhenUse] Nếu tổng [OwnTime] của tất cả bộ phận từ 600 trở lên, Số lượng [Laceration] của mục tiêu tăng thêm 3\n[WhenUse] Nếu tổng [OwnTime] của tất cả bộ phận từ 500 trở lên, Số lượng [Laceration] của mục tiêu tăng thêm 1\n[WhenUse] Nếu tổng [OwnTime] của tất cả bộ phận từ 400 trở lên, tiêu hao 20 [OwnTime], tăng +1 Cường độ và Số lượng [Laceration] gây ra bởi Kĩ năng này",
           "coinlist": [
             {
               "coindescs": [
@@ -291,14 +291,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lượt [Laceration] tăng thêm 2"
+                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng thêm 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lượt [Laceration] tăng thêm 2"
+                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng thêm 2"
                 }
               ]
             }
@@ -312,7 +312,7 @@
         {
           "level": 1,
           "name": "Trích xuất",
-          "desc": "Nếu ở trạng thái [TimeAcceleration], Sức mạnh Coin +1\n[WhenUse] Nếu máu của bản thân dưới 75%, tiêu hao 40 [OwnTime] để tăng +2 Sức mạnh Đối đầu\n[DefeatDuel] Lượng sát thương giảm 80%, sát thương của kĩ năng này không khiến mục tiêu bị Choáng",
+          "desc": "Nếu ở trạng thái [TimeAcceleration], Sức mạnh Đồng xu +1\n[WhenUse] Nếu HP của bản thân dưới 75%, tiêu hao 40 [OwnTime] và nhận Sức mạnh Đối kháng +2\n[DefeatDuel] Lượng sát thương giảm 80%, sát thương của kĩ năng này không khiến mục tiêu bị Choáng",
           "coinlist": [
             {
               "coindescs": [
@@ -350,7 +350,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Số lượt [Laceration] tăng thêm 2"
+                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng thêm 2"
                 }
               ]
             }
@@ -364,7 +364,7 @@
         {
           "level": 1,
           "name": "Chém loạn xạ",
-          "desc": "[WhenUse] Nếu máu của bản thân dưới 75%, tiêu hao 60 [OwnTime] để tăng +2 Sức mạnh Đối đầu\n[BeforeAttack] Nếu ở trạng thái [TimeAcceleration], Mục tiêu Chỉ định tăng thêm 3\n[BeforeAttack] Nếu máu của bản thân dưới 60%, tiêu hao 10 [OwnTime] và Mục tiêu Chỉ định tăng thêm 1",
+          "desc": "[WhenUse] Nếu HP của bản thân dưới 75%, tiêu hao 60 [OwnTime] và nhận Sức mạnh Đối kháng +2\n[BeforeAttack] Nếu ở trạng thái [TimeAcceleration], Trọng lượng Tấn công +3\n[BeforeAttack] Nếu HP của bản thân dưới 60%, tiêu hao 10 [OwnTime] và Trọng lượng Tấn công +1",
           "coinlist": [
             {
               "coindescs": [
@@ -396,7 +396,7 @@
         {
           "level": 1,
           "name": "Thời gian cứu rỗi",
-          "desc": "[CantDuel]\nĐến đối tượng đã sử dụng kĩ năng tấn công lên bản thân, gây [TimeKillerWatch] vào lượt kế tiếp\n[StartBattle] Tiêu hao 200 [OwnTime]. Nhận [TimeAcceleration] vào lượt kế tiếp)",
+          "desc": "[CantDuel]\nGây [TimeKillerWatch] lên mục tiêu đã dùng Kĩ năng Tấn công nhắm vào bản thân vào lượt kế tiếp\n[StartBattle] Tiêu hao 200 [OwnTime] và nhận [TimeAcceleration] vào lượt kế tiếp)",
           "coinlist": [
             {
               "coindescs": [
@@ -415,7 +415,7 @@
         {
           "level": 1,
           "name": "Né tránh",
-          "desc": "[WhenUse] Với mỗi 50 tổng [OwnTime] sở hữu bởi tất cả các bộ phận, Uy lực cơ bản +1 (Tối đa 3)",
+          "desc": "[WhenUse] Với mỗi tổng 50 [OwnTime] của tất cả các bộ phận, Sức mạnh Cơ bản +1 (Tối đa 3)",
           "coinlist": [
             {
               "coindescs": [
@@ -434,12 +434,12 @@
         {
           "level": 1,
           "name": "Thời gian Giết Thời gian",
-          "desc": "[CantDuel]\nCố định Tốc độ bản thân ở mức 24.\nTrong lượt này, không rơi vào trạng thái Hoảng loạn.\n[WhenUse] Tiêu hao sau khi nhận 400 [OwnTime] còn lại cuối cùng của tất cả mọi người.",
+          "desc": "[CantDuel]\nCố định Tốc độ bản thân ở mức 24.\nTrong lượt này, bản thân không thể bị Choáng.\n[WhenUse] Nhận tổng cộng 400 [OwnTime] từ tất cả mọi người, sau đó tiêu hao số đó.",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Xóa thời gian của mục tiêu. Nếu đã xóa thời gian của mục tiêu, tất cả các bộ phận hồi phục hoàn toàn [OwnTime] và nhận Nhanh nhẹn, Tăng Sức mạnh Tấn công 10 vào lượt kế tiếp."
+                  "desc": "[OnSucceedAttack] Xóa thời gian của mục tiêu. Nếu bản thân đã xóa thời gian của mục tiêu, tất cả các bộ phận hồi phục [OwnTime] lên mức tối đa và nhận 10 Nhanh nhẹn và 10 Tăng Uy lực Tấn công vào lượt tiếp theo."
                 }
               ]
             }
