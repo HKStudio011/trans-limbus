@@ -6,7 +6,7 @@
         {
           "level": 1,
           "name": "Kiềm chế",
-          "desc": "Mỗi loại hiệu ứng bất lợi trên mục tiêu, Sát thương +50% (Tối đa 100%)\n[WhenUse] Với mỗi 2 tổng số [Laceration] và [Vibration] trên mục tiêu, Sức mạnh cơ bản +1 (Tối đa 5)\n[WhenUse] Số lần [Breath] của bản thân tăng 3",
+          "desc": "Với mỗi loại hiệu ứng bất lợi trên mục tiêu, Sát thương +50% (Tối đa 100%)\n[WhenUse] Với mỗi 2 tổng số [Laceration] và [Vibration] trên mục tiêu, Sức mạnh Cơ bản +1 (Tối đa 5)\n[WhenUse] Nhận +3 Số lượng [Breath]",
           "coinlist": [
             {
               "coindescs": [
@@ -32,19 +32,19 @@
         {
           "level": 1,
           "name": "Chém Đôi",
-          "desc": "Mỗi loại hiệu ứng bất lợi trên mục tiêu, Sát thương +50% (Tối đa 100%)\n[WhenUse] Với mỗi 2 tổng số [Laceration] và [Vibration] trên mục tiêu, Sức mạnh cơ bản +1 (Tối đa 5)\n[WhenUse] Số lần [Breath] của bản thân tăng 3",
+          "desc": "Với mỗi loại hiệu ứng bất lợi trên mục tiêu, Sát thương +50% (Tối đa 100%)\n[WhenUse] Với mỗi 2 tổng số [Laceration] và [Vibration] trên mục tiêu, Sức mạnh Cơ bản +1 (Tối đa 5)\n[WhenUse] Nhận +3 Số lượng [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Laceration] tăng 3"
+                  "desc": "[OnSucceedAttack] Gây +3 Số lượng [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Vibration] tăng 3"
+                  "desc": "[OnSucceedAttack] Gây +3 Số lượng [Vibration]"
                 }
               ]
             }
@@ -58,7 +58,7 @@
         {
           "level": 1,
           "name": "Phóng Lao",
-          "desc": "Mỗi loại hiệu ứng bất lợi trên mục tiêu, Sát thương +50% (Tối đa 200%)\n[WhenUse] Nhận 2 [CriticalDmgUpVespa] ở lượt tiếp theo",
+          "desc": "Với mỗi loại hiệu ứng bất lợi trên mục tiêu, Sát thương +50% (Tối đa 200%)\n[WhenUse] Nhận 2 [CriticalDmgUpVespa] ở lượt tiếp theo",
           "coinlist": [
             {
               "coindescs": [
@@ -69,7 +69,7 @@
                   "desc": "[OnSucceedAttack] Gây [BeeSting]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Đẩy mốc Hoảng loạn lên một khoảng bằng 40% lượng sát thương"
+                  "desc": "[OnSucceedAttack] Nâng Ngưỡng choáng lên bằng 40% sát thương đã gây"
                 }
               ]
             }
@@ -83,7 +83,7 @@
         {
           "level": 1,
           "name": "Cắm Lao - Ở đó sao?",
-          "desc": "Mỗi loại hiệu ứng bất lợi trên mục tiêu, Sát thương +50% (Tối đa 300%)\n[WhenUse] Nhận 5 [CriticalDmgUpVespa] ở lượt tiếp theo",
+          "desc": "Với mỗi loại hiệu ứng bất lợi trên mục tiêu, Sát thương +50% (Tối đa 300%)\n[WhenUse] Nhận 5 [CriticalDmgUpVespa] ở lượt tiếp theo",
           "coinlist": [
             {
               "coindescs": [
@@ -94,7 +94,7 @@
                   "desc": "[OnSucceedAttack] Gây [ArtifactBeeSting]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Đẩy mốc Hoảng loạn lên một khoảng bằng 60% lượng sát thương"
+                  "desc": "[OnSucceedAttack] Nâng Ngưỡng choáng lên bằng 60% sát thương đã gây"
                 }
               ]
             }
@@ -108,12 +108,12 @@
         {
           "level": 1,
           "name": "Thu hồi Lao",
-          "desc": "[CantDuel]\nNhắm vào nhân vật đang bị cắm Lao (Hủy kĩ năng nếu không có mục tiêu)\nMỗi loại hiệu ứng bất lợi trên mục tiêu, Sát thương +50% (Tối đa 200%)",
+          "desc": "[CantDuel]\nNhắm vào đơn vị đang bị cắm Lao (hủy Kĩ năng nếu không có mục tiêu khả dụng)\nVới mỗi loại hiệu ứng bất lợi trên mục tiêu, Sát thương +50% (Tối đa 200%)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Xóa bỏ Lao đang cắm trên mục tiêu"
+                  "desc": "[OnSucceedAttack] Loại bỏ Lao đang cắm trên mục tiêu"
                 }
               ]
             }
@@ -127,7 +127,7 @@
         {
           "level": 1,
           "name": "Hãy đánh trả nào.",
-          "desc": "[DuelCounter]\nMỗi loại hiệu ứng bất lợi trên mục tiêu, Sát thương +50% (Tối đa 100%)\n[StartBattle] <color=#ff6000><mark color=#ff000040><b><u>Nhận 1 [SupportProtect]</color></mark></b></u>\n[WhenUse] Nhận 2 [ResultEnhancement] và 2 [AttackDmgUp] ở lượt tiếp theo",
+          "desc": "[DuelCounter]\nVới mỗi loại hiệu ứng bất lợi trên mục tiêu, Sát thương +50% (Tối đa 100%)\n[StartBattle] <color=#ff6000><mark color=#ff000040><b><u>Nhận 1 [SupportProtect]</color></mark></b></u>\n[WhenUse] Nhận 2 [ResultEnhancement] và 2 [AttackDmgUp] ở lượt tiếp theo",
           "coinlist": [
             {
               "coindescs": [
@@ -139,7 +139,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Vibration] tăng 3"
+                  "desc": "[OnSucceedAttack] Gây +3 Số lượng [Vibration]"
                 }
               ]
             }
@@ -152,8 +152,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Sẽ chi viện.",
-          "desc": "[CanDuelGuard]\nKĩ năng chuyên dụng [SupportProtect]\n[WinDuel] Hồi 4 Tinh thần cho đồng minh (Bao gồm bản thân)\n- Nếu thuộc LCD, hồi 8 Tinh thần thay thế",
+          "name": "Chi viện Phòng thủ.",
+          "desc": "[CanDuelGuard]\nKĩ năng chuyên dụng của [SupportProtect]\n[WinDuel] Hồi 4 Tinh thần cho toàn bộ đồng minh (bao gồm cả bản thân)\n- Nếu thuộc LCD, thay vào đó hồi 8 Tinh thần",
           "coinlist": [
             {
               "coindescs": [
@@ -171,7 +171,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Kim Ong Vàng",
+          "name": "Ngòi Đốt Ong Vàng [黄蜂針]",
           "desc": "Mỗi loại hiệu ứng bất lợi trên mục tiêu, Sát thương +50% (Tối đa 100%)\n[WhenUse] Nhận 3 [CriticalDmgUpVespa] ở lượt tiếp theo",
           "flavor": "<color=#fde55d>「Đừng có mà có ý định chống cự」</color>",
           "coinlist": [
@@ -211,7 +211,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Xóa bỏ [BeeSting] của mục tiêu"
+                  "desc": "[OnSucceedAttack] Loại bỏ [BeeSting] trên mục tiêu"
                 }
               ]
             }
@@ -225,7 +225,7 @@
         {
           "level": 1,
           "name": "Gungnir",
-          "desc": "Mỗi loại hiệu ứng bất lợi trên mục tiêu, Sát thương +50% (Tối đa 100%)\n[WhenUse] Với mỗi 10 sức mạnh [Vibration] của mục tiêu, Sát thương +20%\n[BeforeAttack] Nếu Máu của mục tiêu dưới 50%, số lần Chấn động không giảm khi trúng [VibrationExplosion] bởi kĩ năng này\n[WhenUse] Nếu Tinh thần từ 0 trở lên, tạo 1 Man (Vọng)\n- Sức mạnh Đồng xu +1, Sát thương +50%\n[WhenUse] Nhận 3 [CriticalDmgUpVespa] ở lượt tiếp theo\n[EndSkill] Nếu đã tạo Man (Vọng), tiêu hao 2 Tinh thần",
+          "desc": "Với mỗi loại hiệu ứng bất lợi trên mục tiêu, Sát thương +50% (Tối đa 100%)\n[WhenUse] Với mỗi 10 Cường độ [Vibration] trên mục tiêu, Sát thương +20%\n[BeforeAttack] Nếu HP của mục tiêu dưới 50%, [VibrationExplosion] kích hoạt bởi Kĩ năng này không tiêu hao Số lượng Chấn động của mục tiêu\n[WhenUse] Nếu Tinh thần của bản thân từ 0 trở lên, tạo 1 Vọng (望)\n- Sức mạnh Đồng xu +1, Sát thương +50%\n[WhenUse] Nhận 3 [CriticalDmgUpVespa] ở lượt tiếp theo\n[EndSkill] Nếu Kĩ năng này đã tạo Vọng (望), Tinh thần -2",
           "flavor": "<color=#fde55d>「Nhất định sẽ trúng, nhất định sẽ xuyên thấu.」</color>",
           "coinlist": [
             {
@@ -234,7 +234,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Laceration] tăng 2"
+                  "desc": "[OnSucceedAttack] Gây +2 Số lượng [Laceration]"
                 }
               ]
             },
@@ -244,7 +244,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Laceration] tăng 2"
+                  "desc": "[OnSucceedAttack] Gây +2 Số lượng [Laceration]"
                 }
               ]
             },
@@ -254,7 +254,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion]. Số lần [Vibration] của mục tiêu giảm 1"
+                  "desc": "[OnSucceedAttack] Kích hoạt [VibrationExplosion], sau đó giảm 1 Số lượng [Vibration] của mục tiêu"
                 }
               ]
             },
@@ -277,8 +277,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Không Gian Trảm - Thiểm Phong Quang Kiếm",
-          "desc": "Mỗi loại hiệu ứng bất lợi trên mục tiêu, Sát thương +50% (Tối đa 100%)\n[WhenUse] Với mỗi 10 sức mạnh [Laceration] của mục tiêu, Sát thương +20%\n[WhenUse] Nếu Tinh thần từ 0 trở lên, tạo 2 Man (Vọng)\n- Sức mạnh Đồng xu +2, Sát thương +100%\n[BeforeAttack] Nếu Máu của mục tiêu dưới 50%, số lần Xuất huyết không giảm khi kích hoạt [Laceration] bởi kĩ năng này\n[EndSkill] Nếu đã tạo Man (Vọng), tiêu hao 3 Tinh thần",
+          "name": "Không Gian Trảm - Thiểm Phong Quang Kiếm [空間斬 - 閃蜂光劍]",
+          "desc": "Với mỗi loại hiệu ứng bất lợi trên mục tiêu, Sát thương +50% (Tối đa 100%)\n[WhenUse] Với mỗi 10 Cường độ [Laceration] trên mục tiêu, Sát thương +20%\n[WhenUse] Nếu Tinh thần của bản thân từ 0 trở lên, tạo 2 Vọng (望)\n- Sức mạnh Đồng xu +2, Sát thương +100%\n[BeforeAttack] Nếu HP của mục tiêu dưới 50%, [Laceration] kích hoạt bởi Kĩ năng này không tiêu hao Số lượng Xuất huyết\n[EndSkill] Nếu Kĩ năng này đã tạo Vọng (望), Tinh thần -3",
           "coinlist": [
             {
               "coindescs": [
@@ -286,7 +286,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Kích hoạt [Laceration] của mục tiêu 1 lần. Số lần [Laceration] của mục tiêu giảm 1"
+                  "desc": "[OnSucceedAttack] Kích hoạt [Laceration] của mục tiêu 1 lần. Số lượng [Laceration] của mục tiêu giảm 1"
                 }
               ]
             },
@@ -296,7 +296,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Kích hoạt [Laceration] của mục tiêu 1 lần. Số lần [Laceration] của mục tiêu giảm 1"
+                  "desc": "[OnSucceedAttack] Kích hoạt [Laceration] của mục tiêu 1 lần. Số lượng [Laceration] của mục tiêu giảm 1"
                 }
               ]
             },
@@ -306,7 +306,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Kích hoạt [Laceration] của mục tiêu 1 lần. Số lần [Laceration] của mục tiêu giảm 1"
+                  "desc": "[OnSucceedAttack] Kích hoạt [Laceration] của mục tiêu 1 lần. Số lượng [Laceration] của mục tiêu giảm 1"
                 }
               ]
             },
@@ -316,7 +316,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Kích hoạt [Laceration] của mục tiêu 1 lần. Số lần [Laceration] của mục tiêu giảm 1"
+                  "desc": "[OnSucceedAttack] Kích hoạt [Laceration] của mục tiêu 1 lần. Số lượng [Laceration] của mục tiêu giảm 1"
                 }
               ]
             },
@@ -326,7 +326,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Khiến mục tiêu Hoảng loạn"
+                  "desc": "[OnSucceedAttack] Khiến mục tiêu bị Choáng"
                 }
               ]
             }
@@ -345,14 +345,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Sát thương bổ sung +5"
+                  "desc": "[OnSucceedAttack] Gây 5 sát thương bổ sung"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Sát thương bổ sung +5"
+                  "desc": "[OnSucceedAttack] Gây 5 sát thương bổ sung"
                 }
               ]
             }
@@ -365,16 +365,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Hơi Thở Trắng: Sương mù. Bình minh. Bí mật. - Bảo hộ Tinh thần",
-          "desc": "[CantDuel] \nKĩ năng này chỉ định đồng minh làm mục tiêu, không kích hoạt kĩ năng phòng thủ và không gây sát thương\n[WhenUse] Nhận 5 [Breath], số lần [Breath] của bản thân tăng thêm 3",
+          "name": "Hơi Thở Trắng: Sương mù. Bình minh. Che giấu - Bảo vệ Tinh thần",
+          "desc": "[CantDuel]\nKĩ năng này chỉ định đồng minh làm mục tiêu, không kích hoạt Kĩ năng phòng thủ và không gây sát thương\n[WhenUse] Nhận 5 [Breath] và +3 Số lượng [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Hồi phục 15 Tinh thần cho mục tiêu bị tấn công"
+                  "desc": "[OnSucceedAttack] Hồi phục 15 Tinh thần cho mục tiêu"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gán 2 [MosesWhiteBreathMental] cho bản thân và mục tiêu bị tấn công"
+                  "desc": "[OnSucceedAttack] Gây 2 [MosesWhiteBreathMental] lên bản thân và mục tiêu bị tấn công"
                 }
               ]
             }
@@ -388,12 +388,12 @@
         {
           "level": 1,
           "name": "Hơi Thở Đỏ: Thân thể. Máu. Gia tốc. Cứng hóa - Cường hóa Cơ thể",
-          "desc": "[CantDuel] \nKĩ năng này chỉ định đồng minh làm mục tiêu, không kích hoạt kĩ năng phòng thủ và không gây sát thương\n[WhenUse] Nhận 5 [Breath], số lần [Breath] của bản thân tăng thêm 3",
+          "desc": "[CantDuel]\nKĩ năng này chỉ định đồng minh làm mục tiêu, không kích hoạt Kĩ năng phòng thủ và không gây sát thương\n[WhenUse] Nhận 5 [Breath] và +3 Số lượng [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gán 2 [MosesRedBreathBody], 1 [AttackUp], 1 [DefenseUp] cho bản thân và mục tiêu bị tấn công"
+                  "desc": "[OnSucceedAttack] Gây 2 [MosesRedBreathBody], 1 [AttackUp], 1 [DefenseUp] lên bản thân và mục tiêu bị tấn công"
                 }
               ]
             }
@@ -406,8 +406,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Hơi Thở Tím: Vội vã. Nhức nhối. Thứ siết chặt - Áp chế",
-          "desc": "Kĩ năng này không cho mục tiêu kích hoạt kĩ năng phòng thủ\nNếu mục tiêu có hiệu ứng bất lợi, Lượng sát thương +50%\n[WhenUse] Tinh thần bản thân giảm 8\n[WhenUse] Nhận 5 [Breath], số lần [Breath] của bản thân tăng thêm 3",
+          "name": "Hơi Thở Tím: Nóng nảy. Nhức nhối. Siết chặt - Áp chế",
+          "desc": "Kĩ năng này không kích hoạt Kĩ năng phòng thủ của mục tiêu\nNếu mục tiêu có hiệu ứng bất lợi, Sát thương +50%\n[WhenUse] Tinh thần của bản thân giảm 8\n[WhenUse] Nhận 5 [Breath] và +3 Số lượng [Breath]",
           "coinlist": [
             {
               "coindescs": [
@@ -415,13 +415,13 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 8 Sát thương Tinh thần"
+                  "desc": "[OnSucceedAttack] Gây 8 sát thương Tinh thần"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gán 4 [MosesPurpleBreathBind], 2 [Vulnerable], 3 [PlusCoinValueDown]"
+                  "desc": "[OnSucceedAttack] Gây 4 [MosesPurpleBreathBind], 2 [Vulnerable], 3 [PlusCoinValueDown]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gán 5 [Binding] vào lượt tiếp theo"
+                  "desc": "[OnSucceedAttack] Gây 5 [Binding] vào lượt tiếp theo"
                 }
               ]
             }
@@ -435,7 +435,7 @@
         {
           "level": 1,
           "name": "Điều hòa Hơi thở",
-          "desc": "[CantDuel] \nKĩ năng này không đánh trúng kẻ địch, không kích hoạt kĩ năng phòng thủ\n[WhenUse] Nhận 5 [Breath], số lần [Breath] của bản thân tăng thêm 3",
+          "desc": "[CantDuel]\nKĩ năng này không đánh trúng kẻ địch và không kích hoạt Kĩ năng phòng thủ\n[WhenUse] Nhận 5 [Breath] và +3 Số lượng [Breath]",
           "coinlist": [
             {
               "coindescs": [
@@ -452,12 +452,12 @@
         {
           "level": 1,
           "name": "Hơi Thở Đỏ: Máu. Cơ bắp. Co thắt - Bảo hộ",
-          "desc": "[CantDuel] \nKĩ năng này chỉ định đồng minh làm mục tiêu, không kích hoạt kĩ năng phòng thủ và không gây sát thương\n[WhenUse] Nhận 5 [Breath], số lần [Breath] của bản thân tăng thêm 3",
+          "desc": "[CantDuel]\nKĩ năng này chỉ định đồng minh làm mục tiêu, không kích hoạt Kĩ năng phòng thủ và không gây sát thương\n[WhenUse] Nhận 5 [Breath] và +3 Số lượng [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gán 1 [MosesRedBreathShield], 5 [Protection] cho bản thân và mục tiêu bị tấn công"
+                  "desc": "[OnSucceedAttack] Gây 1 [MosesRedBreathShield] và 5 [Protection] lên bản thân và mục tiêu bị tấn công"
                 }
               ]
             }
@@ -471,7 +471,7 @@
         {
           "level": 1,
           "name": "「Hít sâu Hơi Thở Đỏ.」",
-          "desc": "[CantDuel] \nKĩ năng này không đánh trúng kẻ địch, không kích hoạt kĩ năng phòng thủ\n[StartBattle] Nhận 100 Khiên (1 lần mỗi trận đấu)\n[StartBattle] <color=#ff6000><mark=#ff000040><b><u>Nhận 1 [MosesRedBreathCharge]</u></b></mark></color>\n[EndBattle] Tinh thần giảm 15",
+          "desc": "[CantDuel]\nKĩ năng này không đánh trúng kẻ địch và không kích hoạt Kĩ năng phòng thủ\n[StartBattle] Nhận 100 Lá chắn (1 lần mỗi trận chiến)\n[StartBattle]<color=#ff6000><mark=#ff000040><b><u>Nhận 1 [MosesRedBreathCharge]</u></b></mark></color>\n[EndBattle] Tinh thần giảm 15",
           "coinlist": [
             {
               "coindescs": [
@@ -487,13 +487,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Hơi Thở Đỏ: Nhịp tim. Máu. Cứng hóa. Phẫn nộ - Cơ thể cuồng nộ",
-          "desc": "[CantDuel] \nKĩ năng này chỉ định đồng minh làm mục tiêu, không kích hoạt kĩ năng phòng thủ và không gây sát thương\n[WhenUse] Nhận 5 [Breath], số lần [Breath] của bản thân tăng thêm 3",
+          "name": "Hơi Thở Đỏ: Nhịp tim. Máu. Cứng hóa. Phẫn nộ. Thôi thúc - Đẩy Cơ thể tới Giới hạn",
+          "desc": "[CantDuel]\nKĩ năng này chỉ định đồng minh làm mục tiêu, không kích hoạt Kĩ năng phòng thủ và không gây sát thương\n[WhenUse] Nhận 5 [Breath] và +3 Số lượng [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gán 1 [MosesRedBreathAttack], 5 [AttackUp]"
+                  "desc": "[OnSucceedAttack] Gây 1 [MosesRedBreathAttack] và 5 [AttackUp]"
                 }
               ]
             }
@@ -506,20 +506,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Xưởng Alas - Cú đấm Gia tốc!",
-          "desc": "Nếu Tốc độ bản thân từ 6 trở lên, Lượng sát thương +50%\n[WhenUse] Nhận 3 [Agility] vào lượt tiếp theo",
+          "name": "Xưởng Allas - Cú đấm Gia tốc!",
+          "desc": "Nếu Tốc độ của bản thân từ 6 trở lên, Sát thương +50%\n[WhenUse] Nhận 3 [Agility] vào lượt tiếp theo",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây thêm 3 sát thương Đập"
+                  "desc": "[OnSucceedAttack] Gây 3 sát thương Đập bổ sung"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây thêm 3 sát thương Đập"
+                  "desc": "[OnSucceedAttack] Gây 3 sát thương Đập bổ sung"
                 }
               ]
             }
@@ -532,8 +532,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Xưởng Nestor - Một! Hai! Khuyếch tán!",
-          "desc": "Nếu mục tiêu có hiệu ứng bất lợi, Lượng sát thương +50%\n[WhenUse] Nếu [Vibration] của mục tiêu từ 5 trở lên, khi mặt đồng xu trúng, số lần [Vibration] của mục tiêu tăng thêm 1",
+          "name": "Xưởng Nester - Một! Hai! Khuếch tán!",
+          "desc": "Nếu mục tiêu có hiệu ứng bất lợi, Sát thương +50%\n[WhenUse] Nếu [Vibration] của mục tiêu từ 5 trở lên, khi Đồng xu đánh trúng, gây +1 Số lượng [Vibration] lên mục tiêu",
           "coinlist": [
             {
               "coindescs": [
@@ -541,10 +541,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gán 6 [Vibration]"
+                  "desc": "[OnSucceedAttack] Gây 6 [Vibration]"
                 },
                 {
-                  "desc": "- Nếu Tốc độ bản thân từ 6 trở lên, gán thêm 2 Sức mạnh [Vibration]"
+                  "desc": "- Nếu Tốc độ bản thân từ 6 trở lên, gây thêm 2 Cường độ [Vibration]"
                 }
               ]
             },
@@ -574,30 +574,30 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Xưởng Screw - Screw! Drill!",
-          "desc": "Nếu mục tiêu có hiệu ứng bất lợi, Lượng sát thương +50%\n[WhenUse] Số lần [Charge] tăng thêm 5\n[WhenUse] Nếu số lần [Charge] của bản thân từ 10 trở lên, toàn bộ đồng xu của kĩ năng này chuyển thành [SuperCoin]",
+          "name": "Xưởng Screw - Vít! Khoan!",
+          "desc": "Nếu mục tiêu có hiệu ứng bất lợi, Sát thương +50%\n[WhenUse] Nhận +5 Số lượng [Charge]\n[WhenUse] Nếu Số lượng [Charge] của bản thân từ 10 trở lên, chuyển toàn bộ Đồng xu của Kĩ năng này thành [SuperCoin]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Vibration] tăng thêm 2"
+                  "desc": "[OnSucceedAttack] Gây +2 Số lượng [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Nếu số lần [Charge] của bản thân từ 6 trở lên, gán thêm 3 [Vibration]"
+                  "desc": "[OnSucceedAttack] Nếu Số lượng [Charge] của bản thân từ 6 trở lên, gây thêm 3 [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Charge] của bản thân tăng thêm 3"
+                  "desc": "[OnSucceedAttack] Nhận +3 Số lượng [Charge]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Charge] của bản thân tăng thêm 3"
+                  "desc": "[OnSucceedAttack] Nhận +3 Số lượng [Charge]"
                 }
               ]
             }
@@ -611,7 +611,7 @@
         {
           "level": 1,
           "name": "Xưởng Namir - Trọng lượng gấp 5 lần!",
-          "desc": "Nếu mục tiêu có hiệu ứng bất lợi, Lượng sát thương +50%\n[WhenUse] Nếu bản thân không có số lần [Charge], khi kĩ năng đánh trúng, số lần [Vibration] của mục tiêu tăng thêm 1\n[WhenUse] Nếu số lần [Charge] của bản thân từ 15 trở lên, tiêu hao tất cả [Charge] và áp dụng hiệu ứng sau\n- Thêm 1 lần [VibrationExplosion]\n- [VibrationExplosion] sử dụng trong kĩ năng này không làm giảm số lần [Vibration]",
+          "desc": "Nếu mục tiêu có hiệu ứng bất lợi, Sát thương +50%\n[WhenUse] Nếu bản thân không có Số lượng [Charge], khi Kĩ năng đánh trúng, gây thêm +1 Số lượng [Vibration] lên mục tiêu\n[WhenUse] Nếu Số lượng [Charge] của bản thân từ 15 trở lên, tiêu hao toàn bộ Số lượng [Charge] và áp dụng các hiệu ứng sau\n- Kích hoạt thêm 1 lần [VibrationExplosion]\n- [VibrationExplosion] kích hoạt bởi Kĩ năng này không tiêu hao Số lượng [Vibration] của mục tiêu",
           "coinlist": [
             {
               "coindescs": [
@@ -619,10 +619,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 2 lần [VibrationExplosion]. Số lần [Vibration] của mục tiêu giảm 2"
+                  "desc": "[OnSucceedAttack] Kích hoạt [VibrationExplosion] 2 lần, sau đó giảm 2 Số lượng [Vibration] của mục tiêu"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Vibration] tăng thêm 1"
+                  "desc": "[OnSucceedAttack] Gây +1 Số lượng [Vibration]"
                 }
               ]
             }
@@ -635,8 +635,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Tôi sẽ phòng ngự và bảo vệ đến cùng",
-          "desc": "[CanDuelGuard]\n[StartBattle] <color=#ff6000><mark color=#ff000040><b><u>Nhận 1 [SupportProtect]</color></mark></b></u>\n[WinDuel] Gán 2 [Vibration] cho mục tiêu, số lần [Vibration] tăng thêm 2",
+          "name": "Tôi sẽ chặn chúng và bảo vệ mọi người!",
+          "desc": "[CanDuelGuard]\n[StartBattle] <color=#ff6000><mark color=#ff000040><b><u>Nhận 1 [SupportProtect]</color></mark></b></u>\n[WinDuel] Gây 2 [Vibration] lên mục tiêu và +2 Số lượng [Vibration]",
           "coinlist": [
             {
               "coindescs": [
@@ -655,7 +655,7 @@
         {
           "level": 1,
           "name": "Không thể để đứa út giành hết phần ngon được!",
-          "desc": "[CanDuelGuard]\nKĩ năng chuyên dụng [SupportProtect]\n[WinDuel] Hồi phục 4 Tinh thần cho đồng minh (bao gồm bản thân)\n- Nếu thuộc LCD, hồi phục 8 Tinh thần thay thế",
+          "desc": "[CanDuelGuard]\nKĩ năng chuyên dụng của [SupportProtect]\n[WinDuel] Hồi 4 Tinh thần cho toàn bộ đồng minh (bao gồm cả bản thân)\n- Nếu thuộc LCD, thay vào đó hồi 8 Tinh thần",
           "coinlist": [
             {
               "coindescs": [
@@ -673,8 +673,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Xưởng Yulia - Chế độ Tổng tấn công, Mark 17!",
-          "desc": "Với mỗi loại hiệu ứng bất lợi của mục tiêu, Lượng sát thương +50% (Tối đa 100%)\n[WhenUse] Nếu [Vibration] của mục tiêu từ 6 trở lên, Sức mạnh cơ bản +3\n[WhenUse] Nếu Tinh thần từ 0 trở lên, tạo ra 1 Mong (Vọng)\n- Sức mạnh cơ bản +2, Lượng sát thương +20%\n[EndSkill] Nếu đã tạo Mong (Vọng), tiêu hao 10 Tinh thần",
+          "name": "Xưởng YuRia - Chế độ Tổng tấn công, Mark 17!",
+          "desc": "Với mỗi loại hiệu ứng bất lợi trên mục tiêu, Sát thương +50% (Tối đa 100%)\n[WhenUse] Nếu [Vibration] của mục tiêu từ 6 trở lên, Sức mạnh Cơ bản +3\n[WhenUse] Nếu Tinh thần của bản thân từ 0 trở lên, tạo 1 Vọng (望)\n- Sức mạnh Cơ bản +2, Sát thương +20%\n[EndSkill] Nếu Kĩ năng này đã tạo Vọng (望), Tinh thần -10",
           "flavor": "Rìu chuyên dụng Golden Retriever được làm thủ công đặc biệt.",
           "coinlist": [
             {
@@ -683,7 +683,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Laceration] tăng thêm 2"
+                  "desc": "[OnSucceedAttack] Gây +2 Số lượng [Laceration]"
                 }
               ]
             },
@@ -693,7 +693,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Vibration] tăng thêm 2"
+                  "desc": "[OnSucceedAttack] Gây +2 Số lượng [Vibration]"
                 }
               ]
             },
@@ -719,7 +719,7 @@
                   "desc": "[OnSucceedAttack] Kích hoạt [Laceration] của mục tiêu 1 lần. Số lượng [Laceration] của mục tiêu giảm 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion]. Số lượng [Vibration] của mục tiêu giảm 1"
+                  "desc": "[OnSucceedAttack] Kích hoạt [VibrationExplosion], sau đó giảm 1 Số lượng [Vibration] của mục tiêu"
                 }
               ]
             }
@@ -733,12 +733,12 @@
         {
           "level": 1,
           "name": "Đánh lửa",
-          "desc": "[WhenUse] Nếu mục tiêu có từ 3 loại hiệu ứng bất lợi trở lên, Sức mạnh Cơ bản +1\n[WhenUse] Với mỗi 6 ([Combustion] bản thân + [Combustion] của mục tiêu), Sức mạnh Đồng xu +1 (Tối đa 2)\n[WhenUse] Số lượng [Combustion] bản thân tăng 1",
+          "desc": "[WhenUse] Nếu mục tiêu có từ 3 loại hiệu ứng bất lợi trở lên, Sức mạnh Cơ bản +1\n[WhenUse] Với mỗi 6 ([Combustion] của bản thân + [Combustion] của mục tiêu), Sức mạnh Đồng xu +1 (Tối đa 2)\n[WhenUse] Nhận +1 Số lượng [Combustion]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây 4 [Combustion], số lượng [Combustion] tăng 1"
+                  "desc": "[OnSucceedAttack] Gây 4 [Combustion] và +1 Số lượng [Combustion]"
                 }
               ]
             },
@@ -762,12 +762,12 @@
         {
           "level": 1,
           "name": "Triển khai E.G.O Hồng Viêm Sát",
-          "desc": "[WhenUse] Nếu mục tiêu có từ 3 loại hiệu ứng bất lợi trở lên, Sức mạnh Cơ bản +1\n[WhenUse] Với mỗi 6 ([Combustion] bản thân + [Combustion] của mục tiêu chính), Sức mạnh Đồng xu +1 (Tối đa 2)\n[WhenUse] Số lượng [Combustion] bản thân tăng 3\n[BeforeAttack] Nếu [Combustion] bản thân từ 5 trở lên, Cấp độ Ưu tiên Tấn công +1",
+          "desc": "[WhenUse] Nếu mục tiêu có từ 3 loại hiệu ứng bất lợi trở lên, Sức mạnh Cơ bản +1\n[WhenUse] Với mỗi 6 ([Combustion] của bản thân + [Combustion] của mục tiêu chính), Sức mạnh Đồng xu +1 (Tối đa 2)\n[WhenUse] Nhận +3 Số lượng [Combustion]\n[BeforeAttack] Nếu [Combustion] của bản thân từ 5 trở lên, Trọng lượng Tấn công +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lượng [Combustion] tăng 3"
+                  "desc": "[OnSucceedAttack] Gây +3 Số lượng [Combustion]"
                 }
               ]
             },
@@ -798,12 +798,12 @@
         {
           "level": 1,
           "name": "Khao khát trong ngọn lửa",
-          "desc": "[WhenUse] Nếu mục tiêu có từ 3 loại hiệu ứng bất lợi trở lên, Sức mạnh Cơ bản +1\n[WhenUse] Với mỗi 6 ([Combustion] bản thân + [Combustion] của mục tiêu chính), Sức mạnh Đồng xu +1 (Tối đa 2)\n[WhenUse] Với mỗi 1 ([Combustion] bản thân + [Combustion] của mục tiêu chính), Lượng sát thương +1% (Tối đa 50%)\n[WhenUse] Số lượng [Combustion] bản thân tăng 2\n[BeforeAttack] Với mỗi 5 [Combustion] bản thân, Cấp độ Ưu tiên Tấn công +1 (Tối đa 3)",
+          "desc": "[WhenUse] Nếu mục tiêu có từ 3 loại hiệu ứng bất lợi trở lên, Sức mạnh Cơ bản +1\n[WhenUse] Với mỗi 6 ([Combustion] của bản thân + [Combustion] của mục tiêu chính), Sức mạnh Đồng xu +1 (Tối đa 2)\n[WhenUse] Với mỗi 1 ([Combustion] của bản thân + [Combustion] của mục tiêu chính), Sát thương +1% (Tối đa 50%)\n[WhenUse] Nhận +2 Số lượng [Combustion]\n[BeforeAttack] Với mỗi 5 [Combustion] của bản thân, Trọng lượng Tấn công +1 (Tối đa 3)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lượng [Combustion] tăng 4"
+                  "desc": "[OnSucceedAttack] Gây +4 Số lượng [Combustion]"
                 }
               ]
             },
@@ -834,7 +834,7 @@
         {
           "level": 1,
           "name": "Tôi sẽ tăng mức độ tương thích của Hồng Viêm Sát nhé",
-          "desc": "[WhenUse] Nếu [Combustion] bản thân từ 10 trở lên, Sức mạnh Đồng xu +3\n[WhenUse] Giảm 10 [Combustion] bản thân\n[OnSucceedEvade] Giảm 5 [Combustion] bản thân (1 lần mỗi lượt)",
+          "desc": "[WhenUse] Nếu [Combustion] của bản thân từ 10 trở lên, Sức mạnh Đồng xu +3\n[WhenUse] Giảm 10 [Combustion] của bản thân\n[OnSucceedEvade] Giảm 5 [Combustion] của bản thân (1 lần mỗi lượt)",
           "flavor": "「Xin đừng lo lắng. Tôi cũng đã chuẩn bị sẵn đường lui khéo léo để sống sót rồi.」",
           "coinlist": [
             {
@@ -852,12 +852,12 @@
         {
           "level": 1,
           "name": "Hồng Viêm Sát Tương Thích Tối Đa 【Xói Mòn Suy Thoái】",
-          "desc": "[CantDuel]\nTrong khi sử dụng kĩ năng này, không chết\n[BeforeAttack] Cấp độ Ưu tiên Tấn công tăng theo tổng số ô kỹ năng của kẻ thù\n[WhenUse] Với mỗi 1 ([Combustion] bản thân + [Combustion] của tất cả mục tiêu), Lượng sát thương +1% (Tối đa 100%)\n[EndSkillAll] Rơi vào trạng thái không thể chiến đấu",
+          "desc": "[CantDuel]\nTrong khi sử dụng Kĩ năng này, đơn vị này không thể bị hạ gục\n[BeforeAttack] Trọng lượng Tấn công tăng thêm bằng tổng số ô của toàn bộ kẻ địch\n[WhenUse] Với mỗi 1 ([Combustion] của bản thân + [Combustion] của tất cả mục tiêu), Sát thương +1% (Tối đa 100%)\n[EndSkillAll] Đơn vị này bị hạ gục",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây 10 [Combustion], số lượng [Combustion] tăng 2"
+                  "desc": "[OnSucceedAttack] Gây 10 [Combustion] và +2 Số lượng [Combustion]"
                 }
               ]
             }
@@ -871,7 +871,7 @@
         {
           "level": 1,
           "name": "Đôi mắt tựa ánh đèn",
-          "desc": "[CanDuelGuard]\nNếu tốc độ của kẻ tấn công cao hơn bản thân, mỗi 2 chênh lệch tốc độ tăng +1 Sức mạnh Đồng xu (Tối đa 2)\n- Nếu tốc độ của bản thân là 1, tăng +2 Sức mạnh Đồng xu thay thế\n[StartBattle] Nhận 6 [LanternHohenheimBigBird]",
+          "desc": "[CanDuelGuard]\nNếu Tốc độ của mục tiêu cao hơn đơn vị này, Sức mạnh Đồng xu +1 cho mỗi 2 chênh lệch Tốc độ (Tối đa 2)\n- Nếu Tốc độ của đơn vị này là 1, thay vào đó Sức mạnh Đồng xu +2\n[StartBattle] Nhận 6 [LanternHohenheimBigBird]",
           "coinlist": [
             {}
           ]
@@ -884,19 +884,19 @@
         {
           "level": 1,
           "name": "Bắn nhanh",
-          "desc": "Nếu tốc độ của mục tiêu cao hơn bản thân, mỗi 2 chênh lệch tốc độ tăng +1 Sức mạnh Đồng xu (Tối đa 2)\n- Nếu tốc độ của bản thân là 1, tăng +2 Sức mạnh Đồng xu thay thế\n[WhenUse] Nhận 5 [LanternHohenheimBigBird]",
+          "desc": "Nếu Tốc độ của mục tiêu cao hơn đơn vị này, Sức mạnh Đồng xu +1 cho mỗi 2 chênh lệch Tốc độ (Tối đa 2)\n- Nếu Tốc độ của đơn vị này là 1, thay vào đó Sức mạnh Đồng xu +2\n[WhenUse] Nhận 5 [LanternHohenheimBigBird]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây 2 [Combustion], số lượng [Combustion] tăng 1"
+                  "desc": "[OnSucceedAttack] Gây 2 [Combustion] và +1 Số lượng [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây 3 [Sinking], số lượng [Sinking] tăng 1"
+                  "desc": "[OnSucceedAttack] Gây 3 [Sinking] và +1 Số lượng [Sinking]"
                 }
               ]
             }
@@ -910,7 +910,7 @@
         {
           "level": 1,
           "name": "Quan sát ở cự ly không",
-          "desc": "Nếu tốc độ của mục tiêu cao hơn bản thân, mỗi 2 chênh lệch tốc độ tăng +1 Sức mạnh Đồng xu (Tối đa 2)\n- Nếu tốc độ của bản thân là 1, tăng +2 Sức mạnh Đồng xu thay thế\n[WhenUse] Nhận 4 [LanternHohenheimBigBird]",
+          "desc": "Nếu Tốc độ của mục tiêu cao hơn đơn vị này, Sức mạnh Đồng xu +1 cho mỗi 2 chênh lệch Tốc độ (Tối đa 2)\n- Nếu Tốc độ của đơn vị này là 1, thay vào đó Sức mạnh Đồng xu +2\n[WhenUse] Nhận 4 [LanternHohenheimBigBird]",
           "coinlist": [
             {
               "coindescs": [
@@ -922,14 +922,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lượng [Combustion] tăng 1"
+                  "desc": "[OnSucceedAttack] Gây +1 Số lượng [Combustion]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây 5 [Sinking], số lượng [Sinking] tăng 1"
+                  "desc": "[OnSucceedAttack] Gây 5 [Sinking] và +1 Số lượng [Sinking]"
                 }
               ]
             }
@@ -942,8 +942,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Sự cứu rỗi cho những kẻ bị mê hoặc bởi ánh đèn",
-          "desc": "Cho đến khi kết thúc đòn đánh một chiều, bản thân không nhận sát thương máu và không bị gây hiệu ứng bất lợi\nNếu tốc độ của mục tiêu cao hơn bản thân, mỗi 1 chênh lệch tốc độ tăng +1 Sức mạnh Đồng xu (Tối đa 6)\n- Nếu tốc độ của bản thân là 1, tăng +6 Sức mạnh Đồng xu thay thế\nNếu kẻ thù có [DelusionHohenheimBigBird], Kháng Đâm của mục tiêu +0.5 cho đến khi kết thúc đòn tấn công\n[EndSkill] Xóa [DelusionHohenheimBigBird] của mục tiêu",
+          "name": "Cứu rỗi cho những kẻ bị ánh đèn mê hoặc",
+          "desc": "Cho đến khi kết thúc đòn tấn công một chiều, đơn vị này không nhận sát thương HP và không bị gây hiệu ứng bất lợi\nNếu Tốc độ của mục tiêu cao hơn đơn vị này, Sức mạnh Đồng xu +1 cho mỗi 1 chênh lệch Tốc độ (Tối đa 6)\n- Nếu Tốc độ của đơn vị này là 1, thay vào đó Sức mạnh Đồng xu +6\nNếu mục tiêu có [DelusionHohenheimBigBird], Kháng Đâm của mục tiêu +0.5 cho đến khi kết thúc đòn tấn công\n[EndSkill] Loại bỏ [DelusionHohenheimBigBird] khỏi mục tiêu",
           "coinlist": [
             {
               "coindescs": [
@@ -951,13 +951,13 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnStartCoin] Tiêu thụ tất cả [LanternHohenheimBigBird], với mỗi 1 chỉ số tiêu thụ, Lượng sát thương +15% (Tối đa 300%)"
+                  "desc": "[OnStartCoin] Tiêu hao toàn bộ Số lượng [LanternHohenheimBigBird] và gây +15% sát thương cho mỗi Số lượng đã tiêu hao (Tối đa 300%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gây 8 [Sinking], số lượng [Sinking] tăng 2"
+                  "desc": "[OnSucceedAttack] Gây 8 [Sinking] và +2 Số lượng [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gây 6 [Combustion], số lượng [Combustion] tăng 2"
+                  "desc": "[OnSucceedAttack] Gây 6 [Combustion] và +2 Số lượng [Combustion]"
                 }
               ]
             }
@@ -970,7 +970,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Thiêu đốt và Xuyên thấu",
+          "name": "Xuyên Thấu Nung Đỏ",
           "desc": "Với mỗi 6 tổng [Combustion] và [Laceration] của mục tiêu, Sức mạnh Đồng xu +1 (Tối đa 2)",
           "coinlist": [
             {
@@ -983,7 +983,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lượng [Combustion] tăng 2"
+                  "desc": "[OnSucceedAttack] Gây +2 Số lượng [Combustion]"
                 }
               ]
             },
@@ -1037,7 +1037,7 @@
         {
           "level": 1,
           "name": "Nương theo dòng chảy",
-          "desc": "Với mỗi tổng 6 [Combustion] và [Laceration] của mục tiêu, Sức mạnh Đồng xu +1 (Tối đa 2)",
+          "desc": "Với mỗi 6 tổng [Combustion] và [Laceration] của mục tiêu, Sức mạnh Đồng xu +1 (Tối đa 2)",
           "coinlist": [
             {
               "coindescs": [
@@ -1069,8 +1069,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Mở đường nào",
-          "desc": "Với mỗi tổng 6 [Combustion] và [Laceration] của mục tiêu, Sức mạnh Đồng xu +1 (Tối đa 3)\n[WhenUse] Nếu Tinh thần từ 0 trở lên, tạo 1 Man (Vọng)\n- Sức mạnh cơ bản +1, Sát thương +30%\n[EndSkill] Nếu đã tạo Man (Vọng), tiêu hao 1 Tinh thần",
+          "name": "Ta sẽ mở đường.",
+          "desc": "Với mỗi 6 tổng [Combustion] và [Laceration] của mục tiêu, Sức mạnh Đồng xu +1 (Tối đa 3)\n[WhenUse] Nếu Tinh thần của bản thân từ 0 trở lên, tạo 1 Vọng (望)\n- Sức mạnh Đồng xu +1, Sát thương +30%\n[EndSkill] Nếu Kĩ năng này đã tạo Vọng (望), tiêu hao 1 Tinh thần",
           "coinlist": [
             {
               "coindescs": [
@@ -1082,7 +1082,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Combustion] tăng 3"
+                  "desc": "[OnSucceedAttack] Gây +3 Số lượng [Combustion]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Gây 1 [SlashTakeDamageUp]"
@@ -1106,7 +1106,7 @@
         {
           "level": 1,
           "name": "Câm miệng đi",
-          "desc": "Với mỗi tổng 6 [Combustion] và [Laceration] của mục tiêu, Sức mạnh Đồng xu +1 (Tối đa 4)\n[WhenUse] Nếu Tinh thần từ 0 trở lên, tạo 2 Man (Vọng)\n- Sức mạnh cơ bản +2, Sát thương +60%\n[EndSkill] Nếu đã tạo Man (Vọng), tiêu hao 3 Tinh thần",
+          "desc": "Với mỗi 6 tổng [Combustion] và [Laceration] của mục tiêu, Sức mạnh Đồng xu +1 (Tối đa 4)\n[WhenUse] Nếu Tinh thần của bản thân từ 0 trở lên, tạo 2 Vọng (望)\n- Sức mạnh Đồng xu +2, Sát thương +60%\n[EndSkill] Nếu Kĩ năng này đã tạo Vọng (望), tiêu hao 3 Tinh thần",
           "coinlist": [
             {
               "coindescs": [
@@ -1146,7 +1146,7 @@
         {
           "level": 1,
           "name": "Xuất huyết nội",
-          "desc": "Với mỗi tổng 1 [Laceration] của bản thân và [Laceration] của mục tiêu, Sát thương +1% (Tối đa 20%)\n[WhenUse] Nhận 3 [Laceration], số lần [Laceration] của bản thân tăng 5",
+          "desc": "Với mỗi 1 ([Laceration] trên bản thân + [Laceration] trên mục tiêu), Sát thương +1% (Tối đa 20%)\n[WhenUse] Nhận 3 [Laceration] và +5 Số lượng [Laceration]",
           "coinlist": [
             {
               "coindescs": [
@@ -1161,10 +1161,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Combustion] tăng 1"
+                  "desc": "[OnSucceedAttack] Gây +1 Số lượng [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Laceration] tăng 3"
+                  "desc": "[OnSucceedAttack] Gây +3 Số lượng [Laceration]"
                 }
               ]
             },
@@ -1188,7 +1188,7 @@
         {
           "level": 1,
           "name": "Vọng Huyết Trảm",
-          "desc": "Với mỗi tổng 1 [Laceration] của bản thân và [Laceration] của mục tiêu, Sát thương +1% (Tối đa 20%)\n[WhenUse] Nhận 3 [Laceration], số lần [Laceration] của bản thân tăng 5",
+          "desc": "Với mỗi 1 ([Laceration] trên bản thân + [Laceration] trên mục tiêu), Sát thương +1% (Tối đa 20%)\n[WhenUse] Nhận 3 [Laceration] và +5 Số lượng [Laceration]",
           "coinlist": [
             {
               "coindescs": [
@@ -1226,8 +1226,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Như chìm trong máu mà chết đuối",
-          "desc": "Với mỗi tổng 1 [Laceration] của bản thân và [Laceration] của mục tiêu, Sát thương +1% (Tối đa 30%)\n[WhenUse] Nhận 6 [Laceration], số lần [Laceration] của bản thân tăng 5\n[WhenUse] Nếu Tinh thần từ 0 trở lên, tạo 2 Man (Vọng)\n- Sức mạnh cơ bản +2, Sát thương +60%\n[EndSkill] Nếu đã tạo Man (Vọng), tiêu hao 5 Tinh thần",
+          "name": "Chết Đuối Trong Máu",
+          "desc": "Với mỗi 1 ([Laceration] trên bản thân + [Laceration] trên mục tiêu), Sát thương +1% (Tối đa 30%)\n[WhenUse] Nhận 6 [Laceration] và +5 Số lượng [Laceration]\n[WhenUse] Nếu Tinh thần của bản thân từ 0 trở lên, tạo 2 Vọng (望)\n- Sức mạnh Đồng xu +2, Sát thương +60%\n[EndSkill] Nếu Kĩ năng này đã tạo Vọng (望), tiêu hao 5 Tinh thần",
           "coinlist": [
             {
               "coindescs": [
@@ -1242,13 +1242,13 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Combustion] tăng 1"
+                  "desc": "[OnSucceedAttack] Gây +1 Số lượng [Combustion]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Laceration] tăng 4"
+                  "desc": "[OnSucceedAttack] Gây +4 Số lượng [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Với mỗi tổng 5 [Laceration] của bản thân và [Laceration] của mục tiêu, gây 1 [BloodBranch] (Tối đa 3)"
+                  "desc": "[OnSucceedAttack] Với mỗi 5 ([Laceration] trên bản thân + [Laceration] trên mục tiêu), gây 1 [BloodBranch] (Tối đa 3)"
                 }
               ]
             },
@@ -1271,20 +1271,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Tang lễ cho những Huyết Quỷ đã khuất",
-          "desc": "Với mỗi tổng 1 [Laceration] của bản thân và [Laceration] của mục tiêu, Sát thương +1% (Tối đa 50%)\n[WhenUse] Nhận 10 [Laceration], số lần [Laceration] của bản thân tăng 5\n[WhenUse] Nếu Tinh thần từ 0 trở lên, tạo 3 Man (Vọng)\n- Sức mạnh cơ bản +3, Sát thương +90%\n[EndSkill] Nếu đã tạo Man (Vọng), tiêu hao 3 Tinh thần",
+          "name": "Tang lễ cho Huyết Quỷ đã khuất",
+          "desc": "Với mỗi 1 ([Laceration] trên bản thân + [Laceration] trên mục tiêu), Sát thương +1% (Tối đa 50%)\n[WhenUse] Nhận 10 [Laceration] và +5 Số lượng [Laceration]\n[WhenUse] Nếu Tinh thần của bản thân từ 0 trở lên, tạo 3 Vọng (望)\n- Sức mạnh Đồng xu +3, Sát thương +90%\n[EndSkill] Nếu Kĩ năng này đã tạo Vọng (望), tiêu hao 3 Tinh thần",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Laceration] tăng 3"
+                  "desc": "[OnSucceedAttack] Gây +3 Số lượng [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Laceration] tăng 3"
+                  "desc": "[OnSucceedAttack] Gây +3 Số lượng [Laceration]"
                 }
               ]
             },
@@ -1294,7 +1294,7 @@
                   "desc": "[OnSucceedAttack] Gây 5 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Với mỗi tổng 5 [Laceration] của bản thân và [Laceration] của mục tiêu, gây 1 [BloodBranch] (Tối đa 5)"
+                  "desc": "[OnSucceedAttack] Với mỗi 5 ([Laceration] trên bản thân + [Laceration] trên mục tiêu), gây 1 [BloodBranch] (Tối đa 5)"
                 }
               ]
             },
@@ -1322,12 +1322,12 @@
         {
           "level": 1,
           "name": "Trảm dọc",
-          "desc": "[WhenUse] Nếu tốc độ của bản thân từ 6 trở lên, Sát thương +20%\n[WhenUse] Nhận 4 [Breath], số lượt [Breath] tăng 2",
+          "desc": "[WhenUse] Nếu Tốc độ của bản thân từ 6 trở lên, Sát thương +20%\n[WhenUse] Nhận 4 [Breath] và +2 Số lượng [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lượt [Burst] tăng 1"
+                  "desc": "[OnSucceedAttack] Gây +1 Số lượng [Burst]"
                 }
               ]
             },
@@ -1351,12 +1351,12 @@
         {
           "level": 1,
           "name": "Trảm Liên Tiếp",
-          "desc": "[WhenUse] Nếu tốc độ của bản thân từ 6 trở lên, Sát thương +30%\n[WhenUse] Nhận 1 [Breath], số lượt [Breath] tăng 3\n[WinDuel] Sát thương +30%",
+          "desc": "[WhenUse] Nếu Tốc độ của bản thân từ 6 trở lên, Sát thương +30%\n[WhenUse] Nhận 1 [Breath] và +3 Số lượng [Breath]\n[WinDuel] Sát thương +30%",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lượt [Burst] tăng 2"
+                  "desc": "[OnSucceedAttack] Gây +2 Số lượng [Burst]"
                 }
               ]
             },
@@ -1380,7 +1380,7 @@
         {
           "level": 1,
           "name": "Thương Thuật Giao Chiến Đặc Hóa Chiến Hào",
-          "desc": "[WhenUse] Nếu tốc độ của bản thân từ 7 trở lên, Sát thương +40%\n[WhenUse] Số lượt [Breath] tăng 4\n[WinDuel] Nhận 1 [Enhancement]",
+          "desc": "[WhenUse] Nếu Tốc độ của bản thân từ 7 trở lên, Sát thương +40%\n[WhenUse] Nhận +4 Số lượng [Breath]\n[WinDuel] Nhận 1 [Enhancement]",
           "coinlist": [
             {
               "coindescs": [
@@ -1392,14 +1392,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lượt [Burst] tăng 2"
+                  "desc": "[OnSucceedAttack] Gây +2 Số lượng [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lượt [Laceration] tăng 2"
+                  "desc": "[OnSucceedAttack] Gây +2 Số lượng [Laceration]"
                 }
               ]
             }
@@ -1413,7 +1413,7 @@
         {
           "level": 1,
           "name": "Chân Trấn Chung Trảm",
-          "desc": "Nếu bản thân có [WillAwakenSinclair], Kháng Trảm của mục tiêu +1 cho đến trước khi kết thúc đòn tấn công\n[WhenUse] Mỗi 5 [Breath], Uy lực cơ bản +2 (Tối đa 8)\n[WhenUse] Nếu Tinh thần của bản thân từ 5 trở lên, tạo 1 Man (Vọng). Uy lực cơ bản +3\n[EndSkill] Nếu Kĩ năng này đã tạo Man (Vọng), Tinh thần -5",
+          "desc": "Nếu bản thân có [WillAwakenSinclair], Kháng Trảm của mục tiêu +1 cho đến khi kết thúc đòn tấn công\n[WhenUse] Với mỗi 5 [Breath], Sức mạnh Cơ bản +2 (Tối đa 8)\n[WhenUse] Nếu Tinh thần của bản thân từ 5 trở lên, tạo 1 Vọng (望). Sức mạnh Cơ bản +3\n[EndSkill] Nếu Kĩ năng này đã tạo Vọng (望), Tinh thần -5",
           "coinlist": [
             {
               "coindescs": [
@@ -1421,10 +1421,10 @@
                   "desc": "[ExtractCoin]"
                 },
                 {
-                  "desc": "Mỗi 1 ([Burst] + Số lượt [Burst]), Sát thương +1% (Tối đa 100%)"
+                  "desc": "Với mỗi 1 ([Burst] + Số lượng [Burst]) trên mục tiêu, Sát thương +1% (Tối đa 100%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gây sát thương thuộc tính Ngạo mạn bằng ([Breath] x 4) của bản thân (Tối đa 80)"
+                  "desc": "[OnSucceedAttack] Gây sát thương hệ Ngạo mạn bằng ([Breath] trên bản thân x 4) (Tối đa 80)"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Sát thương +150%"
@@ -1441,7 +1441,7 @@
         {
           "level": 1,
           "name": "Túy Thụy Lãng Lãng",
-          "desc": "Nếu bản thân có [WillAwakenSinclair], Kháng Trảm của mục tiêu +1 cho đến trước khi kết thúc đòn tấn công\nCó thể thay đổi mục tiêu tấn công thành bản thân bất kể tốc độ\n[WhenUse] Mỗi 3 [Breath], Uy lực cơ bản +1 (Tối đa 2)\n[WhenUse] Mỗi loại hiệu ứng bất lợi trên mục tiêu, Uy lực cơ bản +2 (Tối đa 4)\n[WhenUse] Nhận 5 [Agility] vào lượt tiếp theo\n[WhenUse] Nhận 10 [Breath], số lượt [Breath] tăng 2\n[WhenUse] Nếu Tinh thần của bản thân từ 10 trở lên, tạo 2 Man (Vọng). Uy lực cơ bản +6\n[EndSkill] Nếu Kĩ năng này đã tạo Man (Vọng), Tinh thần -10",
+          "desc": "Nếu bản thân có [WillAwakenSinclair], Kháng Trảm của mục tiêu +1 cho đến khi kết thúc đòn tấn công\nCó thể thay đổi mục tiêu tấn công thành bản thân bất kể Tốc độ\n[WhenUse] Với mỗi 3 [Breath], Sức mạnh Cơ bản +1 (Tối đa 2)\n[WhenUse] Với mỗi loại hiệu ứng bất lợi trên mục tiêu, Sức mạnh Cơ bản +2 (Tối đa 4)\n[WhenUse] Nhận 5 [Agility] vào lượt tiếp theo\n[WhenUse] Nhận 10 [Breath] và +2 Số lượng [Breath]\n[WhenUse] Nếu Tinh thần của bản thân từ 10 trở lên, tạo 2 Vọng (望). Sức mạnh Cơ bản +6\n[EndSkill] Nếu Kĩ năng này đã tạo Vọng (望), Tinh thần -10",
           "coinlist": [
             {
               "coindescs": [
@@ -1449,7 +1449,7 @@
                   "desc": "[ExtractCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gây 7 [Laceration], số lượt [Laceration] tăng 2"
+                  "desc": "[OnSucceedAttack] Gây 7 [Laceration] và +2 Số lượng [Laceration]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Gây 2 [Vulnerable] vào lượt tiếp theo"
@@ -1468,13 +1468,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Quét Khói",
-          "desc": "[CantDuel]\nƯu tiên chỉ định kẻ địch có HP tối đa thấp nhất\nKĩ năng này không cho phép kích hoạt kĩ năng phòng thủ\n[BeforeAttack] Trọng số tấn công tăng bằng tổng số ô của kẻ địch\n[WhenUse] Nếu tốc độ của bản thân từ 4 trở lên, Sát thương +50%",
+          "name": "Xua Tan Khói Bụi",
+          "desc": "[CantDuel]\nƯu tiên chỉ định kẻ địch có HP tối đa thấp nhất\nKĩ năng này không kích hoạt Kĩ năng phòng thủ của mục tiêu\n[BeforeAttack] Trọng lượng Tấn công tăng thêm bằng tổng số ô của toàn bộ kẻ địch\n[WhenUse] Nếu Tốc độ của bản thân từ 4 trở lên, Sát thương +50%",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Gây sát thương Trảm bằng 40% Sát thương cuối cùng của đồng xu này"
+                  "desc": "[OnSucceedAttackHead] Gây sát thương Trảm bằng 40% sát thương cuối cùng của Đồng xu này"
                 }
               ]
             }
@@ -1488,7 +1488,7 @@
         {
           "level": 1,
           "name": "Trảm",
-          "desc": "Không thể thay đổi mục tiêu\nMỗi 10 [CutbondRyoshu] của bản thân, Uy lực cuối cùng +1 (Tối đa 3)\nMỗi 6 [Laceration] của mục tiêu, Uy lực cuối cùng +1 (Tối đa 3)",
+          "desc": "Không thể thay đổi mục tiêu\nVới mỗi 10 [CutbondRyoshu] trên bản thân, Sức mạnh Cuối cùng +1 (Tối đa 3)\nVới mỗi 6 [Laceration] trên mục tiêu, Sức mạnh Cuối cùng +1 (Tối đa 3)",
           "flavor": "「Alaya phải sống ở một nơi khác với tôi.」",
           "coinlist": [
             {
@@ -1497,7 +1497,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây 1 [Laceration], số lượt [Laceration] tăng 2"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây 1 [Laceration] và +2 Số lượng [Laceration]"
                 }
               ]
             },
@@ -1507,7 +1507,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây 3 [Laceration], số lượt [Laceration] tăng 1"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây 3 [Laceration] và +1 Số lượng [Laceration]"
                 }
               ]
             }
@@ -1521,7 +1521,7 @@
         {
           "level": 1,
           "name": "Phết",
-          "desc": "Không thể thay đổi mục tiêu\nMỗi 10 [CutbondRyoshu] của bản thân, Uy lực cuối cùng +1 (Tối đa 3)\nMỗi 6 [Laceration] của mục tiêu, Uy lực cuối cùng +1 (Tối đa 3)",
+          "desc": "Không thể thay đổi mục tiêu\nVới mỗi 10 [CutbondRyoshu] trên bản thân, Sức mạnh Cuối cùng +1 (Tối đa 3)\nVới mỗi 6 [Laceration] trên mục tiêu, Sức mạnh Cuối cùng +1 (Tối đa 3)",
           "flavor": "「Thoát khỏi mạng nhện.」\n\n「Trước khi Alaya trở nên giống như loài khỉ.」",
           "coinlist": [
             {
@@ -1530,7 +1530,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây 2 [Laceration], số lượt [Laceration] tăng 1"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây 2 [Laceration] và +1 Số lượng [Laceration]"
                 }
               ]
             },
@@ -1540,7 +1540,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây 2 [Laceration], số lượt [Laceration] tăng 2"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây 2 [Laceration] và +2 Số lượng [Laceration]"
                 }
               ]
             }
@@ -1554,7 +1554,7 @@
         {
           "level": 1,
           "name": "Rải Rác",
-          "desc": "Không thể thay đổi mục tiêu\nĐồng xu đầu tiên của kĩ năng đối đầu với kĩ năng này có tỉ lệ nhất định bị biến mất\nMỗi 10 [CutbondRyoshu] của bản thân, Uy lực cuối cùng +1 (Tối đa 5)\nMỗi 6 [Laceration] của mục tiêu, Uy lực cuối cùng +1 (Tối đa 4)",
+          "desc": "Không thể thay đổi mục tiêu\nĐồng xu đầu tiên của Kĩ năng đối kháng với Kĩ năng này bị xóa với một xác suất nhất định\nVới mỗi 10 [CutbondRyoshu] trên bản thân, Sức mạnh Cuối cùng +1 (Tối đa 5)\nVới mỗi 6 [Laceration] trên mục tiêu, Sức mạnh Cuối cùng +1 (Tối đa 4)",
           "flavor": "「Không thể vừa trảm sạch lũ sư phụ vừa bảo vệ Alaya được.」",
           "coinlist": [
             {
@@ -1563,7 +1563,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây 1 [Laceration], số lượt [Laceration] tăng 1"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây 1 [Laceration] và +1 Số lượng [Laceration]"
                 }
               ]
             },
@@ -1573,7 +1573,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây 2 [Laceration], số lượt [Laceration] tăng 1"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây 2 [Laceration] và +1 Số lượng [Laceration]"
                 }
               ]
             },
@@ -1583,7 +1583,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây 2 [Laceration], số lượt [Laceration] tăng 3"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây 2 [Laceration] và +3 Số lượng [Laceration]"
                 }
               ]
             }
@@ -1597,7 +1597,7 @@
         {
           "level": 1,
           "name": "Vẽ Ra",
-          "desc": "Không thể thay đổi mục tiêu\nĐồng xu đầu tiên của kĩ năng đối đầu với kĩ năng này có tỉ lệ nhất định bị biến mất\nMỗi 10 [CutbondRyoshu] của bản thân, Uy lực cuối cùng +1 (Tối đa 5)\nMỗi 6 [Laceration] của mục tiêu, Uy lực cuối cùng +1 (Tối đa 4)",
+          "desc": "Không thể thay đổi mục tiêu\nĐồng xu đầu tiên của Kĩ năng đối kháng với Kĩ năng này bị xóa với một xác suất nhất định\nVới mỗi 10 [CutbondRyoshu] trên bản thân, Sức mạnh Cuối cùng +1 (Tối đa 5)\nVới mỗi 6 [Laceration] trên mục tiêu, Sức mạnh Cuối cùng +1 (Tối đa 4)",
           "flavor": "「Giấu Alaya đi. Có một căn phòng nơi lũ sư phụ thường xuyên ra vào, nơi chất đầy những két sắt thời gian.」\n\n「Sẽ cho Alaya lánh nạn trong cái két sắt ở căn phòng đó. Nếu là két sắt thời gian thì sẽ an toàn thôi.」",
           "coinlist": [
             {
@@ -1606,7 +1606,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây 2 [Laceration], số lượt [Laceration] tăng 1"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây 2 [Laceration] và +1 Số lượng [Laceration]"
                 }
               ]
             },
@@ -1616,7 +1616,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây 1 [Laceration], số lượt [Laceration] tăng 2"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây 1 [Laceration] và +2 Số lượng [Laceration]"
                 }
               ]
             },
@@ -1626,7 +1626,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây 2 [Laceration], số lượt [Laceration] tăng 2"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Gây 2 [Laceration] và +2 Số lượng [Laceration]"
                 }
               ]
             }
@@ -1639,8 +1639,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Thiên Sát",
-          "desc": "Không thể đổi mục tiêu\nĐồng xu đầu tiên của kĩ năng đối đầu với kĩ năng này biến mất với một xác suất nhất định\nVới mỗi 4 [CutbondRyoshu] của bản thân, Sức mạnh cuối cùng +1 (Tối đa 12)",
+          "name": "Sát Thiên - Thiên Sát [天殺]",
+          "desc": "Không thể thay đổi mục tiêu\nĐồng xu đầu tiên của Kĩ năng đối kháng với Kĩ năng này bị xóa với một xác suất nhất định\nVới mỗi 4 [CutbondRyoshu] trên bản thân, Sức mạnh Cuối cùng +1 (Tối đa 12)",
           "flavor": "「Và ta sẽ dùng thanh kiếm của mình khắc dấu kiếm lên két sắt.」\n\n「Khi ta quay trở lại, nếu có dấu kiếm đó, ta sẽ có thể tìm ra nó dù két sắt có bị lẫn lộn đi chăng nữa.」\n\n「Muốn giấu một cái cây, thì phải giấu nó vào trong rừng.」",
           "coinlist": [
             {
@@ -1649,7 +1649,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Laceration] tăng thêm 2"
+                  "desc": "[OnSucceedAttack] Gây +2 Số lượng [Laceration]"
                 }
               ]
             },
@@ -1659,17 +1659,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Laceration] tăng thêm 2"
-                }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[SuperCoin]"
-                },
-                {
-                  "desc": "[OnSucceedAttack] Gây 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Gây +2 Số lượng [Laceration]"
                 }
               ]
             },
@@ -1689,7 +1679,17 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gây 2 [Laceration], số lần [Laceration] tăng thêm 2"
+                  "desc": "[OnSucceedAttack] Gây 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Gây 2 [Laceration] và +2 Số lượng [Laceration]"
                 }
               ]
             }
@@ -1703,7 +1703,7 @@
         {
           "level": 1,
           "name": "「Xóa bỏ ta, và xóa bỏ ngươi.」",
-          "desc": "Không thể đổi mục tiêu\nĐồng xu đầu tiên của kĩ năng đối đầu với kĩ năng này biến mất với một xác suất nhất định",
+          "desc": "Không thể thay đổi mục tiêu\nĐồng xu đầu tiên của Kĩ năng đối kháng với Kĩ năng này bị xóa với một xác suất nhất định",
           "flavor": "「Ngay cả khi tốn một thời gian dài, mong rằng đối với Araya đó cũng chỉ là một khoảnh khắc.」",
           "coinlist": [
             {

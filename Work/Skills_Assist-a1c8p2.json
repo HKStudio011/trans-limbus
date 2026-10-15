@@ -6,12 +6,12 @@
         {
           "level": 1,
           "name": "Tận dụng Sơ hở",
-          "desc": "[WhenUse] Nếu mục tiêu có từ 3 loại hiệu ứng bất lợi trở lên, Sức mạnh Cơ bản +1\n[WhenUse] Số lượng [Breath] của mục tiêu tăng 1\n[OnDirectAttack] Số lượng [Burst] tăng 1",
+          "desc": "[WhenUse] Nếu mục tiêu có từ 3 loại hiệu ứng bất lợi trở lên, Sức mạnh Cơ bản +1\n[WhenUse] Số lượng [Breath] của bản thân tăng 1\n[OnDirectAttack] Số lượng [Burst] tăng 1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "Lượng Sát thương Chí mạng +30%"
+                  "desc": "Sát thương Chí mạng +30%"
                 },
                 {
                   "desc": "[OnSucceedAttack] Gây 2 [Burst]"
@@ -28,7 +28,7 @@
         {
           "level": 1,
           "name": "Phục Kiếm Trọng Xung",
-          "desc": "[StartBattle] Nhận 1 [Protection]\n[WhenUse] Nếu mục tiêu có từ 3 loại hiệu ứng bất lợi trở lên, Sức mạnh Đồng xu +1\n[WhenUse] Nhận 3 Sức mạnh [Breath]",
+          "desc": "[StartBattle] Nhận 1 [Protection]\n[WhenUse] Nếu mục tiêu có từ 3 loại hiệu ứng bất lợi trở lên, Sức mạnh Đồng xu +1\n[WhenUse] Nhận 3 Cường độ [Breath]",
           "coinlist": [
             {
               "coindescs": [
@@ -40,14 +40,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Nhận 1 Số lượng [Breath]"
+                  "desc": "[OnSucceedAttack] Nhận +1 Số lượng [Breath]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Lượng Sát thương Chí mạng +50%"
+                  "desc": "Sát thương Chí mạng +50%"
                 },
                 {
                   "desc": "[OnSucceedAttack] Gây 3 [Burst]"
@@ -64,7 +64,7 @@
         {
           "level": 1,
           "name": "Gia Xích Ngã Viện",
-          "desc": "[WhenUse] Nếu mục tiêu có từ 3 loại hiệu ứng bất lợi trở lên, Sức mạnh Đồng xu +1\n[WhenUse] Số lượng [Breath] của mục tiêu tăng 3\n[WhenUse] Nhận 6 Sức mạnh [Breath]",
+          "desc": "[WhenUse] Nếu mục tiêu có từ 3 loại hiệu ứng bất lợi trở lên, Sức mạnh Đồng xu +1\n[WhenUse] Số lượng [Breath] của bản thân tăng 3\n[WhenUse] Nhận 6 Cường độ [Breath]",
           "coinlist": [
             {
               "coindescs": [
@@ -76,7 +76,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Nhận 1 Số lượng [Breath]"
+                  "desc": "[OnSucceedAttack] Nhận +1 Số lượng [Breath]"
                 }
               ]
             },
@@ -90,7 +90,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Lượng Sát thương Chí mạng +100%"
+                  "desc": "Sát thương Chí mạng +100%"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Gây 5 [Burst]"

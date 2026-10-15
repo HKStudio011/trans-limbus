@@ -6,19 +6,19 @@
         {
           "level": 1,
           "name": "Làm nóng người chút nhỉ?",
-          "desc": "Nếu tổng [Combustion] và [Laceration] của mục tiêu từ 3 trở lên, Sức mạnh Cuối +2",
+          "desc": "Nếu tổng [Combustion] và [Laceration] của mục tiêu từ 3 trở lên, Sức mạnh Cuối cùng +2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây thêm 3 sát thương đánh"
+                  "desc": "[OnSucceedAttack] Gây thêm 3 sát thương Đập"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây thêm 3 sát thương đánh"
+                  "desc": "[OnSucceedAttack] Gây thêm 3 sát thương Đập"
                 }
               ]
             },
@@ -28,7 +28,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gây thêm 3 sát thương đánh"
+                  "desc": "[OnSucceedAttack] Gây thêm 3 sát thương Đập"
                 },
                 {
                   "desc": "[OnSucceedAttack] Nếu bản thân có [ReinforcedTattooSpiderDaughterTwo], nhận 2 [Binding] vào lượt tiếp theo"
@@ -45,28 +45,28 @@
         {
           "level": 1,
           "name": "Đấm Thẳng Tay",
-          "desc": "Nếu tổng [Combustion] và [Laceration] của mục tiêu từ 3 trở lên, Sức mạnh Cuối +2\n[WhenUse] Nếu bản thân có [ReinforcedTattooSpiderDaughterTwo], khi mặt xu Trúng đích gây 2 [Laceration]",
+          "desc": "Nếu tổng [Combustion] và [Laceration] của mục tiêu từ 3 trở lên, Sức mạnh Cuối cùng +2\n[WhenUse] Nếu bản thân có [ReinforcedTattooSpiderDaughterTwo], gây 2 [Laceration] khi đồng xu trúng đích",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây thêm 5 sát thương đánh"
+                  "desc": "[OnSucceedAttack] Gây thêm 5 sát thương Đập"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Tiến thêm 5 ngưỡng Đoạn mạch"
+                  "desc": "[OnSucceedAttack] Tăng Ngưỡng choáng thêm 5"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây thêm 5 sát thương đánh"
+                  "desc": "[OnSucceedAttack] Gây thêm 5 sát thương Đập"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Tiến thêm 5 ngưỡng Đoạn mạch"
+                  "desc": "[OnSucceedAttack] Tăng Ngưỡng choáng thêm 5"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Nếu [ResentmentSpiderDaughterTwo] của bản thân từ 3 trở lên, dùng lại mặt xu này 3 lần"
+                  "desc": "[OnSucceedAttack] Nếu [ResentmentSpiderDaughterTwo] của bản thân từ 3 trở lên, dùng lại đồng xu này 3 lần"
                 }
               ]
             }
@@ -80,7 +80,7 @@
         {
           "level": 1,
           "name": "Seppuku!",
-          "desc": "Kĩ năng này khi ở trạng thái [HeatingWireOnSpiderTwo] sẽ áp dụng hiệu ứng Dây Nhiệt TabExplain\nNếu tổng [Combustion] và [Laceration] của mục tiêu từ 3 trở lên, Sức mạnh Đồng xu +1\n[WhenUse] Nếu bản thân có [ReinforcedTattooSpiderDaughterTwo], khi mặt xu Trúng đích tăng số lần [Laceration] của mục tiêu thêm 1\n[EndSkill] Nếu [ResentmentSpiderDaughterTwo] của bản thân từ 3 trở lên, nhận 1 [VioletDamageUp] vào lượt tiếp theo",
+          "desc": "Kĩ năng Dây Nhiệt[TabExplain]. \nKhi ở trạng thái [HeatingWireOnSpiderTwo], kĩ năng này kích hoạt hiệu ứng Dây Nhiệt của nó\nNếu tổng [Combustion] và [Laceration] của mục tiêu từ 3 trở lên, Sức mạnh Đồng xu +1\n[WhenUse] Nếu bản thân có [ReinforcedTattooSpiderDaughterTwo], tăng 1 Số lượng [Laceration] của mục tiêu khi đồng xu trúng đích\n[EndSkill] Nếu [ResentmentSpiderDaughterTwo] của bản thân từ 3 trở lên, nhận 1 [VioletDamageUp] vào lượt tiếp theo",
           "coinlist": [
             {
               "coindescs": [
@@ -92,7 +92,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Tăng số lần [Laceration] thêm 2"
+                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng thêm 2"
                 }
               ]
             }
@@ -106,7 +106,7 @@
         {
           "level": 1,
           "name": "Vũ Điệu Chữ Thập!",
-          "desc": "Kĩ năng này khi ở trạng thái [HeatingWireOnSpiderTwo] sẽ áp dụng hiệu ứng Dây Nhiệt TabExplain\nNếu tổng [Combustion] và [Laceration] của mục tiêu từ 3 trở lên, Sức mạnh Đồng xu +1\n[WhenUse] Nếu bản thân có [ReinforcedTattooSpiderDaughterTwo], khi mặt xu Trúng đích tăng số lần [Laceration] của mục tiêu thêm 1",
+          "desc": "Kĩ năng Dây Nhiệt[TabExplain]. \nKhi ở trạng thái [HeatingWireOnSpiderTwo], kĩ năng này kích hoạt hiệu ứng Dây Nhiệt của nó\nNếu tổng [Combustion] và [Laceration] của mục tiêu từ 3 trở lên, Sức mạnh Đồng xu +1\n[WhenUse] Nếu bản thân có [ReinforcedTattooSpiderDaughterTwo], tăng 1 Số lượng [Laceration] của mục tiêu khi đồng xu trúng đích",
           "coinlist": [
             {
               "coindescs": [
@@ -124,7 +124,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Tăng số lần [Laceration] thêm 2"
+                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng thêm 2"
                 }
               ]
             },
@@ -134,7 +134,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Tăng số lần [Laceration] thêm 2"
+                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng thêm 2"
                 }
               ]
             },
@@ -144,7 +144,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gây thêm 5 sát thương đánh"
+                  "desc": "[OnSucceedAttack] Gây thêm 5 sát thương Đập"
                 },
                 {
                   "desc": "[OnSucceedAttack] Nếu bản thân có [ReinforcedTattooSpiderDaughterTwo], nhận 2 [Binding] vào lượt tiếp theo"
@@ -161,7 +161,7 @@
         {
           "level": 1,
           "name": "Violet Break Slam!",
-          "desc": "Kĩ năng này khi ở trạng thái [HeatingWireOnSpiderTwo] sẽ áp dụng hiệu ứng Dây Nhiệt TabExplain\nNếu tổng [Combustion] và [Laceration] của mục tiêu từ 3 trở lên, Sức mạnh Đồng xu +1\n[WhenUse] Nếu bản thân có [ReinforcedTattooSpiderDaughterTwo], khi mặt xu Trúng đích tăng số lần [Laceration] của mục tiêu thêm 1\n[WhenUse] Nếu HP bản thân từ 40% trở xuống hoặc [ReinforcedTattooSpiderDaughterTwo] từ 2 trở lên, Sát thương gây ra +60%\n[WhenUse] Nếu [ResentmentSpiderDaughterTwo] của bản thân từ 2 trở lên, khi mặt xu Trúng đích có 50% xác suất gây 1 [Paralysis]\n[EndSkill] Tiêu thụ toàn bộ [ResentmentSpiderDaughterTwo] của bản thân",
+          "desc": "Kĩ năng Dây Nhiệt[TabExplain]. \nKhi ở trạng thái [HeatingWireOnSpiderTwo], kĩ năng này kích hoạt hiệu ứng Dây Nhiệt của nó\nNếu tổng [Combustion] và [Laceration] của mục tiêu từ 3 trở lên, Sức mạnh Đồng xu +1\n[WhenUse] Nếu bản thân có [ReinforcedTattooSpiderDaughterTwo], tăng 1 Số lượng [Laceration] của mục tiêu khi đồng xu trúng đích\n[WhenUse] Nếu HP của bản thân từ 40% trở xuống hoặc [ReinforcedTattooSpiderDaughterTwo] từ 2 trở lên, lượng sát thương +60%\n[WhenUse] Nếu [ResentmentSpiderDaughterTwo] của bản thân từ 2 trở lên, 50% xác suất gây 1 [Paralysis] khi đồng xu trúng đích\n[EndSkill] Tiêu hao toàn bộ [ResentmentSpiderDaughterTwo] của bản thân",
           "coinlist": [
             {
               "coindescs": [
@@ -179,7 +179,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Tăng số lần [Laceration] thêm 2"
+                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng thêm 2"
                 }
               ]
             },
@@ -189,7 +189,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Tăng số lần [Laceration] thêm 2"
+                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng thêm 2"
                 }
               ]
             },
@@ -199,10 +199,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gây thêm 5 sát thương đánh"
+                  "desc": "[OnSucceedAttack] Gây thêm 5 sát thương Đập"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Tiến thêm 5 ngưỡng Đoạn mạch"
+                  "desc": "[OnSucceedAttack] Tăng Ngưỡng choáng thêm 5"
                 }
               ]
             },
@@ -226,12 +226,12 @@
         {
           "level": 1,
           "name": "Sẽ không để yên đâu.",
-          "desc": "Kĩ năng này khi ở trạng thái [HeatingWireOnSpiderTwo] sẽ áp dụng hiệu ứng Dây Nhiệt TabExplain\nKhi nhận sát thương, với mỗi 1 [ReinforcedTattooSpiderDaughterTwo] của bản thân, dùng lại kĩ năng này 1 lần (Tối đa 2 lần)\n[WhenUse] Nếu bản thân có [ReinforcedTattooSpiderDaughterTwo], khi mặt xu Trúng đích gây 1 [Laceration]\n[WhenUse] Nếu HP bản thân từ 40% trở xuống hoặc [ReinforcedTattooSpiderDaughterTwo] từ 2 trở lên, Sát thương gây ra +40%",
+          "desc": "Kĩ năng Dây Nhiệt[TabExplain]. \nKhi ở trạng thái [HeatingWireOnSpiderTwo], kĩ năng này kích hoạt hiệu ứng Dây Nhiệt của nó\nKhi nhận sát thương, với mỗi 1 [ReinforcedTattooSpiderDaughterTwo] của bản thân, sử dụng lại kĩ năng này 1 lần (Tối đa 2 lần)\n[WhenUse] Nếu bản thân có [ReinforcedTattooSpiderDaughterTwo], gây 1 [Laceration] khi đồng xu trúng đích\n[WhenUse] Nếu HP của bản thân từ 40% trở xuống hoặc [ReinforcedTattooSpiderDaughterTwo] từ 2 trở lên, lượng sát thương +40%",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Tăng số lần [Laceration] thêm 2"
+                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng thêm 2"
                 }
               ]
             },
@@ -241,7 +241,7 @@
                   "desc": "[OnSucceedAttack] Gây 1 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Lùi 10 ngưỡng Đoạn mạch"
+                  "desc": "[OnSucceedAttack] Giảm Ngưỡng choáng của bản thân đi 10"
                 }
               ]
             }
