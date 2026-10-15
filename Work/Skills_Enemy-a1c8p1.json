@@ -25,7 +25,7 @@
         {
           "level": 1,
           "name": "Nghiền Nát Yếu Huyệt",
-          "desc": "[WhenUse] Nếu [Laceration] của mục tiêu từ 3 trở lên, Sức mạnh Kháng cự +1\n[WhenUse] Nếu [Vibration] của mục tiêu từ 4 trở lên, Sức mạnh Đồng xu +1",
+          "desc": "[WhenUse] Nếu [Laceration] của mục tiêu từ 3 trở lên, Sức mạnh Đối kháng +1\n[WhenUse] Nếu [Vibration] của mục tiêu từ 4 trở lên, Sức mạnh Đồng xu +1",
           "coinlist": [
             {
               "coindescs": [
@@ -50,8 +50,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Nghiền Nát Thiên Môn",
-          "desc": "[WhenUse] Nếu [Laceration] của mục tiêu từ 3 trở lên, Sức mạnh Kháng cự +1\n[WhenUse] Nếu [Vibration] của mục tiêu từ 4 trở lên, Sức mạnh Đồng xu +1",
+          "name": "Nghiền Nát Kiệu",
+          "desc": "[WhenUse] Nếu [Laceration] của mục tiêu từ 3 trở lên, Sức mạnh Đối kháng +1\n[WhenUse] Nếu [Vibration] của mục tiêu từ 4 trở lên, Sức mạnh Đồng xu +1",
           "coinlist": [
             {
               "coindescs": [
@@ -59,7 +59,7 @@
                   "desc": "[OnSucceedAttack] Gây 2 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Laceration] tăng thêm 2"
+                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng 2"
                 }
               ]
             },
@@ -69,7 +69,7 @@
                   "desc": "[OnSucceedAttack] Gây 2 [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Vibration] tăng thêm 2"
+                  "desc": "[OnSucceedAttack] Số lượng [Vibration] tăng 2"
                 }
               ]
             },
@@ -92,8 +92,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Chống đỡ",
-          "desc": "[WhenUse] Nhận 3 Lá chắn cho mỗi loại hiệu ứng bất lợi đang sở hữu (Tối đa 10)"
+          "name": "Thủ",
+          "desc": "[WhenUse] Nhận 3 Lá chắn cho mỗi loại hiệu ứng bất lợi bản thân đang sở hữu (Tối đa 10)"
         }
       ]
     },
@@ -108,7 +108,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Laceration] tăng thêm 2"
+                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng 2"
                 }
               ]
             }
@@ -122,19 +122,19 @@
         {
           "level": 1,
           "name": "Đả Kích Yếu Huyệt",
-          "desc": "[WhenUse] Nếu [Laceration] của mục tiêu từ 3 trở lên, Sức mạnh Kháng cự +1\n[WhenUse] Nếu [Vibration] của mục tiêu từ 4 trở lên, Sức mạnh Đồng xu +1",
+          "desc": "[WhenUse] Nếu [Laceration] của mục tiêu từ 3 trở lên, Sức mạnh Đối kháng +1\n[WhenUse] Nếu [Vibration] của mục tiêu từ 4 trở lên, Sức mạnh Đồng xu +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Vibration] tăng thêm 2"
+                  "desc": "[OnSucceedAttack] Số lượng [Vibration] tăng 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Vibration] tăng thêm 2"
+                  "desc": "[OnSucceedAttack] Số lượng [Vibration] tăng 2"
                 }
               ]
             }
@@ -147,8 +147,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Chẻ Đôi Thiên Môn",
-          "desc": "[WhenUse] Nếu số lần [Laceration] của mục tiêu từ 3 trở lên, Sức mạnh Kháng cự +1\n[WhenUse] Nếu số lần [Vibration] của mục tiêu từ 4 trở lên, Sức mạnh Đồng xu +1",
+          "name": "Chẻ Đôi Kiệu",
+          "desc": "[WhenUse] Nếu Số lượng [Laceration] của mục tiêu từ 3 trở lên, Sức mạnh Đối kháng +1\n[WhenUse] Nếu Số lượng [Vibration] của mục tiêu từ 4 trở lên, Sức mạnh Đồng xu +1",
           "coinlist": [
             {
               "coindescs": [
@@ -156,7 +156,7 @@
                   "desc": "[OnSucceedAttack] Gây 2 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Laceration] tăng thêm 2"
+                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng 2"
                 }
               ]
             },
@@ -166,7 +166,7 @@
                   "desc": "[OnSucceedAttack] Gây 2 [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Vibration] tăng thêm 2"
+                  "desc": "[OnSucceedAttack] Số lượng [Vibration] tăng 2"
                 }
               ]
             },
@@ -189,8 +189,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Chống đỡ",
-          "desc": "[WhenUse] Nhận 3 Lá chắn cho mỗi loại hiệu ứng bất lợi đang sở hữu (Tối đa 10)"
+          "name": "Thủ",
+          "desc": "[WhenUse] Nhận 3 Lá chắn cho mỗi loại hiệu ứng bất lợi bản thân đang sở hữu (Tối đa 10)"
         }
       ]
     },
@@ -205,7 +205,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây 1 [AttackDown] vào lượt sau"
+                  "desc": "[OnSucceedAttack] Gây 1 [AttackDown] vào lượt kế tiếp"
                 }
               ]
             }
@@ -219,13 +219,13 @@
         {
           "level": 1,
           "name": "Viên Hồi Điểm Đả",
-          "desc": "Sức mạnh Kháng cự +1 cho mỗi loại hiệu ứng bất lợi đang sở hữu (Tối đa 3)",
+          "desc": "Với mỗi loại hiệu ứng bất lợi bản thân đang sở hữu, Sức mạnh Đối kháng +1 (Tối đa 3)",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây 2 [AttackDown] vào lượt sau"
+                  "desc": "[OnSucceedAttack] Gây 2 [AttackDown] vào lượt kế tiếp"
                 }
               ]
             }
@@ -239,26 +239,26 @@
         {
           "level": 1,
           "name": "Viên Hồi Đả",
-          "desc": "Sức mạnh Kháng cự +1 cho mỗi hiệu ứng bất lợi đang sở hữu (Tối đa 3)",
+          "desc": "Với mỗi loại hiệu ứng bất lợi bản thân đang sở hữu, Sức mạnh Đối kháng +1 (Tối đa 3)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây 2 [AttackDown] vào lượt sau"
+                  "desc": "[OnSucceedAttack] Gây 2 [AttackDown] vào lượt kế tiếp"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây 2 [AttackDown] vào lượt sau"
+                  "desc": "[OnSucceedAttack] Gây 2 [AttackDown] vào lượt kế tiếp"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây 2 [AttackDown] vào lượt sau"
+                  "desc": "[OnSucceedAttack] Gây 2 [AttackDown] vào lượt kế tiếp"
                 }
               ]
             }
@@ -272,7 +272,7 @@
         {
           "level": 1,
           "name": "Phản kích",
-          "desc": "Sức mạnh Đồng xu +1 cho mỗi loại hiệu ứng bất lợi đang sở hữu (Tối đa 3)",
+          "desc": "Với mỗi loại hiệu ứng bất lợi bản thân đang sở hữu, Sức mạnh Đồng xu +1 (Tối đa 3)",
           "coinlist": [
             {}
           ]
@@ -290,7 +290,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây 1 [DefenseDown] vào lượt sau"
+                  "desc": "[OnSucceedAttack] Gây 1 [DefenseDown] vào lượt kế tiếp"
                 }
               ]
             }
@@ -304,13 +304,13 @@
         {
           "level": 1,
           "name": "Phản Hồi Điểm Đả",
-          "desc": "Sức mạnh Kháng cự +1 cho mỗi loại hiệu ứng bất lợi đang sở hữu (Tối đa 3)",
+          "desc": "Với mỗi loại hiệu ứng bất lợi bản thân đang sở hữu, Sức mạnh Đối kháng +1 (Tối đa 3)",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây 2 [DefenseDown] vào lượt sau"
+                  "desc": "[OnSucceedAttack] Gây 2 [DefenseDown] vào lượt kế tiếp"
                 }
               ]
             }
@@ -324,26 +324,26 @@
         {
           "level": 1,
           "name": "Phản Hồi Đả",
-          "desc": "Sức mạnh Kháng cự +1 cho mỗi loại hiệu ứng bất lợi đang sở hữu (Tối đa 3)",
+          "desc": "Với mỗi loại hiệu ứng bất lợi bản thân đang sở hữu, Sức mạnh Đối kháng +1 (Tối đa 3)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây 2 [DefenseDown] vào lượt sau"
+                  "desc": "[OnSucceedAttack] Gây 2 [DefenseDown] vào lượt kế tiếp"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Ở lượt tiếp theo, gây 2 [DefenseDown]"
+                  "desc": "[OnSucceedAttack] Gây 2 [DefenseDown] vào lượt kế tiếp"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Ở lượt tiếp theo, gây 2 [DefenseDown]"
+                  "desc": "[OnSucceedAttack] Gây 2 [DefenseDown] vào lượt kế tiếp"
                 }
               ]
             }
@@ -356,7 +356,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Phản đòn",
+          "name": "Phản kích",
           "desc": "Với mỗi loại hiệu ứng bất lợi bản thân đang sở hữu, Sức mạnh Đồng xu +1 (Tối đa 3)",
           "coinlist": [
             {}
@@ -415,7 +415,7 @@
         {
           "level": 1,
           "name": "Xé Xác",
-          "desc": "[WhenUse] Với mỗi 20% Máu đã mất, Sức mạnh Cơ bản +1 (Tối đa 4)\n[WhenUse] Với mỗi 6 [Burst] của mục tiêu, Sức mạnh Đồng xu +1 (Tối đa 2)",
+          "desc": "[WhenUse] Với mỗi 20% HP đã mất của bản thân, Sức mạnh Cơ bản +1 (Tối đa 4)\n[WhenUse] Với mỗi 6 [Burst] của mục tiêu, Sức mạnh Đồng xu +1 (Tối đa 2)",
           "coinlist": [
             {},
             {
@@ -438,7 +438,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gây 3 [Burst], Số lượt [Burst] tăng thêm 3"
+                  "desc": "[OnSucceedAttack] Gây 3 [Burst], Số lượng [Burst] tăng 3"
                 }
               ]
             }
@@ -451,13 +451,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Phản đòn",
+          "name": "Phản kích",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lượt [Burst] tăng thêm 3"
+                  "desc": "[OnSucceedAttack] Số lượng [Burst] tăng 3"
                 }
               ]
             }
@@ -471,7 +471,7 @@
         {
           "level": 1,
           "name": "Bình Nứt Nhảy Bổ Vào",
-          "desc": "[EndSkill] Ở lượt tiếp theo, gây ngẫu nhiên 2 trong số các hiệu ứng sau. Gây 10 sát thương và chết\n- [AttackDown]3\n- [DefenseDown]3\n- [Paralysis]1\n- [Binding]2",
+          "desc": "[EndSkill] Ở lượt kế tiếp, gây ngẫu nhiên 2 trong số các hiệu ứng sau. Gây 10 sát thương rồi chết\n- 3 [AttackDown]\n- 3 [DefenseDown]\n- 1 [Paralysis]\n- 2 [Binding]",
           "coinlist": [
             {
               "coindescs": [
@@ -495,7 +495,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lượt [Burst] tăng thêm 2"
+                  "desc": "[OnSucceedAttack] Số lượng [Burst] tăng 2"
                 }
               ]
             }
@@ -535,7 +535,7 @@
         {
           "level": 1,
           "name": "Đeo Bám",
-          "desc": "[WhenUse] Với mỗi 20% Máu đã mất, Sức mạnh Cơ bản +1 (Tối đa 4)\n[WhenUse] Với mỗi 6 [Burst] của mục tiêu, Sức mạnh Đồng xu +1 (Tối đa 2)",
+          "desc": "[WhenUse] Với mỗi 20% HP đã mất của bản thân, Sức mạnh Cơ bản +1 (Tối đa 4)\n[WhenUse] Với mỗi 6 [Burst] của mục tiêu, Sức mạnh Đồng xu +1 (Tối đa 2)",
           "coinlist": [
             {},
             {
@@ -571,13 +571,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Phản đòn",
+          "name": "Phản kích",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây 2 [Burst], Số lượt [Burst] tăng thêm 1"
+                  "desc": "[OnSucceedAttack] Gây 2 [Burst], Số lượng [Burst] tăng 1"
                 }
               ]
             }
@@ -591,7 +591,7 @@
         {
           "level": 1,
           "name": "Bình Nứt Nhảy Bổ Vào",
-          "desc": "[EndSkill] Ở lượt tiếp theo, gây ngẫu nhiên 2 trong số các hiệu ứng sau. Gây 10 sát thương và chết\n- [AttackDown]3\n- [DefenseDown]3\n- [Paralysis]1\n- [Binding]2",
+          "desc": "[EndSkill] Ở lượt kế tiếp, gây ngẫu nhiên 2 trong số các hiệu ứng sau. Gây 10 sát thương rồi chết\n- 3 [AttackDown]\n- 3 [DefenseDown]\n- 1 [Paralysis]\n- 2 [Binding]",
           "coinlist": [
             {
               "coindescs": [
@@ -615,7 +615,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lượt [Burst] tăng thêm 2"
+                  "desc": "[OnSucceedAttack] Số lượng [Burst] tăng 2"
                 }
               ]
             }
@@ -655,20 +655,20 @@
         {
           "level": 1,
           "name": "Khoét Miếng Thịt",
-          "desc": "[WhenUse] Với mỗi 20% Máu đã mất, Sức mạnh Cơ bản +1 (Tối đa 4)\n[WhenUse] Với mỗi 6 [Burst] của mục tiêu, Sức mạnh Đồng xu +1 (Tối đa 2)",
+          "desc": "[WhenUse] Với mỗi 20% HP đã mất của bản thân, Sức mạnh Cơ bản +1 (Tối đa 4)\n[WhenUse] Với mỗi 6 [Burst] của mục tiêu, Sức mạnh Đồng xu +1 (Tối đa 2)",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lượt [Burst] tăng thêm 1"
+                  "desc": "[OnSucceedAttack] Số lượng [Burst] tăng 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lượt [Burst] tăng thêm 1"
+                  "desc": "[OnSucceedAttack] Số lượng [Burst] tăng 1"
                 }
               ]
             },
@@ -678,7 +678,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Số lượt [Burst] tăng thêm 4"
+                  "desc": "[OnSucceedAttack] Số lượng [Burst] tăng 4"
                 }
               ]
             }
@@ -691,7 +691,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Phản đòn",
+          "name": "Phản kích",
           "desc": "",
           "coinlist": [
             {
@@ -711,7 +711,7 @@
         {
           "level": 1,
           "name": "Bình Nứt Nhảy Bổ Vào",
-          "desc": "[EndSkill] Ở lượt tiếp theo, gây ngẫu nhiên 2 trong số các hiệu ứng sau. Gây 10 sát thương và chết\n- [AttackDown]3\n- [DefenseDown]3\n- [Paralysis]1\n- [Binding]2",
+          "desc": "[EndSkill] Ở lượt kế tiếp, gây ngẫu nhiên 2 trong số các hiệu ứng sau. Gây 10 sát thương rồi chết\n- 3 [AttackDown]\n- 3 [DefenseDown]\n- 1 [Paralysis]\n- 2 [Binding]",
           "coinlist": [
             {
               "coindescs": [
@@ -730,7 +730,7 @@
         {
           "level": 1,
           "name": "Cào Vết Thương",
-          "desc": "[WhenUse] Nếu [Burst] của mục tiêu từ 4 trở lên, Uy lực Đồng xu +1",
+          "desc": "[WhenUse] Nếu [Burst] của mục tiêu từ 4 trở lên, Sức mạnh Đồng xu +1",
           "coinlist": [
             {
               "coindescs": [
@@ -762,15 +762,15 @@
         {
           "level": 1,
           "name": "Xé Toạc Da Thịt",
-          "desc": "[WhenUse] Với mỗi 4 [Burst] của mục tiêu, Uy lực Đồng xu +1 (Tối đa 2)",
+          "desc": "[WhenUse] Với mỗi 4 [Burst] của mục tiêu, Sức mạnh Đồng xu +1 (Tối đa 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Burst] tăng thêm 3"
+                  "desc": "[OnSucceedAttack] Số lượng [Burst] tăng 3"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Laceration] tăng thêm 3"
+                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng 3"
                 }
               ]
             }
@@ -784,7 +784,7 @@
         {
           "level": 1,
           "name": "Quằn Quại Trong Cổ Độc",
-          "desc": "[WhenUse] Với mỗi 10% Máu đã mất, Uy lực Cơ bản +1 (Tối đa 5)\n[WhenUse] Với mỗi 4 [Burst] của mục tiêu, Uy lực Đồng xu +1 (Tối đa 3)\n\n[WhenUse] Nếu ([Burst] + Số lần [Burst]) của mục tiêu từ 10 trở lên, tăng Số lần [Burst] dựa theo Số lần [Burst] của mục tiêu",
+          "desc": "[WhenUse] Với mỗi 10% HP đã mất của bản thân, Sức mạnh Cơ bản +1 (Tối đa 5)\n[WhenUse] Với mỗi 4 [Burst] của mục tiêu, Sức mạnh Đồng xu +1 (Tối đa 3)\n\n[WhenUse] Nếu ([Burst] + Số lượng [Burst]) của mục tiêu từ 10 trở lên, gây Số lượng [Burst] bằng với Số lượng [Burst] của mục tiêu",
           "coinlist": [
             {
               "coindescs": [
@@ -831,10 +831,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Nếu ([Burst] + Số lần [Burst]) từ 15 trở lên, gây sát thương hệ Phàm Ăn bằng ([Burst] Uy lực × Số lần [Burst]). (Tối đa 40)"
+                  "desc": "[OnSucceedAttack] Nếu ([Burst] + Số lượng [Burst]) từ 15 trở lên, gây sát thương hệ Phàm ăn bằng (Cường độ [Burst] × Số lượng [Burst]) (Tối đa 40)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Laceration] tăng thêm 5"
+                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng 5"
                 }
               ]
             }
@@ -847,7 +847,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Phản đòn",
+          "name": "Phản kích",
           "desc": "",
           "coinlist": [
             {
@@ -859,7 +859,7 @@
                   "desc": "[OnSucceedAttack] Gây 2 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Nếu [Burst] của mục tiêu từ 5 trở lên, sử dụng lại Đồng xu này (Tối đa 2 lần)"
+                  "desc": "[OnSucceedAttack] Nếu [Burst] của mục tiêu từ 5 trở lên, sử dụng lại đồng xu này (Tối đa 2 lần)"
                 }
               ]
             }
@@ -872,8 +872,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Chiếc Bình Nứt Nhảy Xổ Vào",
-          "desc": "[EndSkill] Lượt kế tiếp, gây ngẫu nhiên 3 hiệu ứng dưới đây. Chịu 30 sát thương và tử vong\n- [AttackDown] 4\n- [DefenseDown] 4\n- [Paralysis] 2\n- [Binding] 2",
+          "name": "Bình Nứt Nhảy Bổ Vào",
+          "desc": "[EndSkill] Ở lượt kế tiếp, gây ngẫu nhiên 3 trong số các hiệu ứng sau. Gây 30 sát thương rồi tử vong\n- 4 [AttackDown]\n- 4 [DefenseDown]\n- 2 [Paralysis]\n- 2 [Binding]",
           "coinlist": [
             {
               "coindescs": [
@@ -910,20 +910,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Truy Đuổi",
-          "desc": "[WhenUse] Nếu [Laceration] của mục tiêu từ 5 trở lên, Uy lực Đối kháng +1",
+          "name": "Dồn Ép",
+          "desc": "[WhenUse] Nếu [Laceration] của mục tiêu từ 5 trở lên, Sức mạnh Đối kháng +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Laceration] tăng thêm 2"
+                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Laceration] tăng thêm 2"
+                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng 2"
                 }
               ]
             }
@@ -937,12 +937,12 @@
         {
           "level": 1,
           "name": "Phá Tượng Xử Đoán",
-          "desc": "[WhenUse] Với mỗi 5 [Laceration] của mục tiêu, Uy lực Đồng xu +1 (Tối đa 2)",
+          "desc": "[WhenUse] Với mỗi 5 [Laceration] của mục tiêu, Sức mạnh Đồng xu +1 (Tối đa 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Laceration] tăng thêm 2"
+                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng 2"
                 }
               ]
             },
@@ -956,7 +956,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Với mỗi 1 ([Laceration] + Số lần [Laceration]) của mục tiêu, lượng sát thương +1% (Tối đa 20%)"
+                  "desc": "Với mỗi 1 ([Laceration] + Số lượng [Laceration]) của mục tiêu, Sát thương +1% (Tối đa 20%)"
                 }
               ]
             }
@@ -969,8 +969,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Phản đòn",
-          "desc": "[WhenUse] Nếu [Laceration] của mục tiêu từ 6 trở lên, Uy lực Cơ bản +1",
+          "name": "Phản kích",
+          "desc": "[WhenUse] Nếu [Laceration] của mục tiêu từ 6 trở lên, Sức mạnh Cơ bản +1",
           "coinlist": [
             {
               "coindescs": [
@@ -978,7 +978,7 @@
                   "desc": "[OnSucceedAttack] Gây 4 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Lượt kế tiếp gây 3 [DefenseDown]"
+                  "desc": "[OnSucceedAttack] Gây 3 [DefenseDown] vào lượt kế tiếp"
                 }
               ]
             }
@@ -997,7 +997,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Laceration] tăng thêm 3"
+                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng 3"
                 }
               ]
             }
@@ -1010,8 +1010,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Đẩy Lui",
-          "desc": "[WhenUse] Nếu [Laceration] của mục tiêu từ 5 trở lên, Uy lực Đối kháng +1",
+          "name": "Dồn Ép",
+          "desc": "[WhenUse] Nếu [Laceration] của mục tiêu từ 5 trở lên, Sức mạnh Đối kháng +1",
           "coinlist": [
             {
               "coindescs": [
@@ -1037,7 +1037,7 @@
         {
           "level": 1,
           "name": "Xử Lý Phá Thương",
-          "desc": "[WhenUse] Với mỗi 5 [Laceration] của mục tiêu, Uy lực Đồng xu +1 (Tối đa 2)",
+          "desc": "[WhenUse] Với mỗi 5 [Laceration] của mục tiêu, Sức mạnh Đồng xu +1 (Tối đa 2)",
           "coinlist": [
             {
               "coindescs": [
@@ -1070,7 +1070,7 @@
         {
           "level": 1,
           "name": "Phản kích",
-          "desc": "[WhenUse] Nếu [Laceration] của mục tiêu từ 6 trở lên, Uy lực cơ bản +1",
+          "desc": "[WhenUse] Nếu [Laceration] của mục tiêu từ 6 trở lên, Sức mạnh Cơ bản +1",
           "coinlist": [
             {
               "coindescs": [
@@ -1078,7 +1078,7 @@
                   "desc": "[OnSucceedAttack] Gây 4 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gây 3 [AttackDown] vào lượt tiếp theo"
+                  "desc": "[OnSucceedAttack] Gây 3 [AttackDown] vào lượt kế tiếp"
                 }
               ]
             }
@@ -1092,7 +1092,7 @@
         {
           "level": 1,
           "name": "Đỡ và Chém",
-          "desc": "[WhenUse] Nếu [Laceration] của mục tiêu từ 8 trở lên, Uy lực khớp +1",
+          "desc": "[WhenUse] Nếu [Laceration] của mục tiêu từ 8 trở lên, Sức mạnh Đối kháng +1",
           "coinlist": [
             {
               "coindescs": [
@@ -1110,20 +1110,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Chém Nhấn",
-          "desc": "[WhenUse] Nếu [Laceration] của mục tiêu từ 5 trở lên, Uy lực khớp +1",
+          "name": "Chém Dồn Ép",
+          "desc": "[WhenUse] Nếu [Laceration] của mục tiêu từ 5 trở lên, Sức mạnh Đối kháng +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng thêm 2"
+                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng thêm 2"
+                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng 2"
                 }
               ]
             }
@@ -1137,12 +1137,12 @@
         {
           "level": 1,
           "name": "Sóng Trảm",
-          "desc": "[WhenUse] Với mỗi 5 [Laceration] của mục tiêu, Uy lực đồng xu +1 (Tối đa 2)",
+          "desc": "[WhenUse] Với mỗi 5 [Laceration] của mục tiêu, Sức mạnh Đồng xu +1 (Tối đa 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng thêm 2"
+                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng 2"
                 }
               ]
             },
@@ -1173,12 +1173,12 @@
         {
           "level": 1,
           "name": "Mã Xuất Kiếp Tẩy",
-          "desc": "[WhenUse] Với mỗi 5 [Laceration] của mục tiêu, Uy lực đồng xu +1 (Tối đa 3)",
+          "desc": "[WhenUse] Với mỗi 5 [Laceration] của mục tiêu, Sức mạnh Đồng xu +1 (Tối đa 3)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây 5 [Laceration], Số lượng [Laceration] tăng thêm 3"
+                  "desc": "[OnSucceedAttack] Gây 5 [Laceration], Số lượng [Laceration] tăng 3"
                 }
               ]
             },
@@ -1188,7 +1188,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "Với mỗi 2 ([Laceration] + Số lượng [Laceration]) của mục tiêu, Sát thương +1% (Tối đa 50%)"
+                  "desc": "Với mỗi 1 ([Laceration] + Số lượng [Laceration]) của mục tiêu, Sát thương +2% (Tối đa 50%)"
                 }
               ]
             }
@@ -1202,7 +1202,7 @@
         {
           "level": 1,
           "name": "Phản kích",
-          "desc": "[WhenUse] Nếu [Laceration] của mục tiêu từ 6 trở lên, Uy lực cơ bản +1",
+          "desc": "[WhenUse] Nếu [Laceration] của mục tiêu từ 6 trở lên, Sức mạnh Cơ bản +1",
           "coinlist": [
             {
               "coindescs": [
@@ -1210,14 +1210,14 @@
                   "desc": "[OnSucceedAttack] Gây 4 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gây 2 [Binding] vào lượt tiếp theo"
+                  "desc": "[OnSucceedAttack] Gây 2 [Binding] vào lượt kế tiếp"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây 3 [AttackDown] và [DefenseDown] vào lượt tiếp theo"
+                  "desc": "[OnSucceedAttack] Gây 3 [AttackDown] và 3 [DefenseDown] vào lượt kế tiếp"
                 }
               ]
             }
@@ -1231,7 +1231,7 @@
         {
           "level": 1,
           "name": "Tiền Toàn Trảm",
-          "desc": "[WhenUse] Nếu [Laceration] của mục tiêu từ 5 trở lên, Uy lực cơ bản +1\n[WhenUse] Nhận 1 [SipOfAlcohol]",
+          "desc": "[WhenUse] Nếu [Laceration] của mục tiêu từ 5 trở lên, Sức mạnh Cơ bản +1\n[WhenUse] Nhận 1 [SipOfAlcohol]",
           "coinlist": [
             {
               "coindescs": [
@@ -1250,19 +1250,19 @@
         {
           "level": 1,
           "name": "Yết Hầu Tửu",
-          "desc": "[WhenUse] Với mỗi 5 [Laceration] của mục tiêu, Uy lực cơ bản +1 (Tối đa 2)\n[WhenUse] Nhận 1 [SipOfAlcohol]",
+          "desc": "[WhenUse] Với mỗi 5 [Laceration] của mục tiêu, Sức mạnh Cơ bản +1 (Tối đa 2)\n[WhenUse] Nhận 1 [SipOfAlcohol]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng thêm 2"
+                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng thêm 2"
+                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng 2"
                 }
               ]
             }
@@ -1276,7 +1276,7 @@
         {
           "level": 1,
           "name": "Lạc Tửu",
-          "desc": "[WhenUse] Nếu [Laceration] của mục tiêu từ 5 trở lên, Uy lực đồng xu +1\n\n[DefeatDuel] Tiêu hao 3 [SipOfAlcohol]",
+          "desc": "[WhenUse] Nếu [Laceration] của mục tiêu từ 5 trở lên, Sức mạnh Đồng xu +1\n\n[DefeatDuel] Tiêu hao 3 [SipOfAlcohol]",
           "coinlist": [
             {
               "coindescs": [
@@ -1298,7 +1298,7 @@
                   "desc": "[OnSucceedAttack] Gây 5 [Laceration]"
                 },
                 {
-                  "desc": "[WinDuelAttack] Số lượng [Laceration] tăng thêm 3"
+                  "desc": "[WinDuelAttack] Số lượng [Laceration] tăng 3"
                 }
               ]
             }
@@ -1312,12 +1312,12 @@
         {
           "level": 1,
           "name": "Thủ",
-          "desc": "[WhenUse] Với mỗi 5 [Laceration] của mục tiêu, Uy lực đồng xu +1 (Tối đa 2)\n[WhenUse] Nếu [SipOfAlcohol] từ 3 trở lên, toàn bộ đồng xu của kĩ năng này đổi thành [SuperCoin]",
+          "desc": "[WhenUse] Với mỗi 5 [Laceration] của mục tiêu, Sức mạnh Đồng xu +1 (Tối đa 2)\n[WhenUse] Nếu [SipOfAlcohol] từ 3 trở lên, toàn bộ đồng xu của kĩ năng này đổi thành [SuperCoin]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng thêm 2"
+                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng 2"
                 }
               ]
             },
@@ -1348,7 +1348,7 @@
         {
           "level": 1,
           "name": "Túy Hồi Công",
-          "desc": "[WhenUse] Nếu [Laceration] của mục tiêu từ 5 trở lên, Uy lực cơ bản +1",
+          "desc": "[WhenUse] Nếu [Laceration] của mục tiêu từ 5 trở lên, Sức mạnh Cơ bản +1",
           "coinlist": [
             {
               "coindescs": [
@@ -1356,14 +1356,14 @@
                   "desc": "[OnSucceedAttack] Gây 4 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gây 4 [Paralysis] vào lượt tiếp theo"
+                  "desc": "[OnSucceedAttack] Gây 4 [Paralysis] vào lượt kế tiếp"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây 5 [AttackDown] và [DefenseDown] vào lượt tiếp theo"
+                  "desc": "[OnSucceedAttack] Gây 5 [AttackDown] và 5 [DefenseDown] vào lượt kế tiếp"
                 }
               ]
             }
@@ -1377,12 +1377,12 @@
         {
           "level": 1,
           "name": "Chân Trấn Chung Trảm",
-          "desc": "[StartBattle] Cho đến khi kĩ năng này kết thúc, Máu không thấp hơn 0\n[WhenUse] Nhận 10 [AttackUp]\n[WhenUse] Nhận 5 [Enhancement]\n[WhenUse] Nhận 10 [AttackDmgUp]",
+          "desc": "[StartBattle] Cho đến khi kĩ năng này kết thúc, HP không xuống dưới 1\n[WhenUse] Nhận 10 [AttackUp]\n[WhenUse] Nhận 5 [Enhancement]\n[WhenUse] Nhận 10 [AttackDmgUp]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "Với mỗi 1 ([Laceration] + Số lượng [Laceration]) của mục tiêu, +1% Sát thương (Tối đa 100%)"
+                  "desc": "Với mỗi 1 ([Laceration] + Số lượng [Laceration]) của mục tiêu, Sát thương +1% (Tối đa 100%)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Nhận 5 [SipOfAlcohol]"
