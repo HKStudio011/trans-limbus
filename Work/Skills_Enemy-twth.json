@@ -6,7 +6,7 @@
         {
           "level": 1,
           "name": "Đòn Đánh Man Rợ",
-          "desc": "[WhenUse] Nếu mục tiêu không có [BearClawWound], Cường độ Đối đầu +1\n[WhenUse] Nếu tổng [Laceration] và [Sinking] của mục tiêu từ 6 trở lên, Cường độ Coin +1",
+          "desc": "[WhenUse] Nếu mục tiêu không có [BearClawWound], Sức mạnh Đối kháng +1\n[WhenUse] Nếu tổng [Laceration] và [Sinking] của mục tiêu từ 6 trở lên, Sức mạnh Đồng xu +1",
           "coinlist": [
             {
               "coindescs": [
@@ -35,7 +35,7 @@
         {
           "level": 1,
           "name": "Phác Thảo Nhanh",
-          "desc": "[WhenUse] Nếu mục tiêu không có [BearClawWound], Cường độ Đối đầu +1\n[WhenUse] Nếu tổng [Laceration] và [Sinking] của mục tiêu từ 6 trở lên, Cường độ Coin +1\n[WhenUse] Nếu Sắc Màu Rách Nát của mục tiêu từ 5 trở lên, toàn bộ Coin của kỹ năng này chuyển thành [SuperCoin]\n[DefeatDuel]\n- Sát thương từ kỹ năng này không làm mục tiêu bị Choáng, và hiệu ứng [Sinking] của mục tiêu không kích hoạt khi trúng đòn",
+          "desc": "[WhenUse] Nếu mục tiêu không có [BearClawWound], Sức mạnh Đối kháng +1\n[WhenUse] Nếu tổng [Laceration] và [Sinking] của mục tiêu từ 6 trở lên, Sức mạnh Đồng xu +1\n[WhenUse] Nếu mục tiêu có Màu Sắc Bị Xé Toạc từ 5 trở lên, chuyển toàn bộ Đồng xu của kĩ năng này thành [SuperCoin]\n[DefeatDuel]\n- Sát thương từ kĩ năng này không làm mục tiêu bị Choáng, và hiệu ứng [Sinking] của mục tiêu không kích hoạt khi trúng đòn",
           "coinlist": [
             {
               "coindescs": [
@@ -57,7 +57,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Tăng 2 số lượng [Laceration]"
+                  "desc": "[OnSucceedAttack] Tăng 2 Số lượng [Laceration] của mục tiêu"
                 }
               ]
             }
@@ -71,7 +71,7 @@
         {
           "level": 1,
           "name": "Dã Thú Phái - Phết Màu",
-          "desc": "Mỗi 3 Sắc Màu Rách Nát trên mục tiêu, Sát thương +10% (Tối đa 30%)\n[WhenUse] Mỗi 6 tổng [Laceration] và [Sinking] của mục tiêu, Cường độ Coin +1\n[WhenUse] Nếu HP bản thân dưới 50% hoặc Sắc Màu Rách Nát của mục tiêu từ 5 trở lên, thêm 3 Coin và toàn bộ Coin của kỹ năng này chuyển thành [SuperCoin]\n[DefeatDuel]\n- Sát thương từ kỹ năng này không làm mục tiêu bị Choáng, và hiệu ứng [Sinking] của mục tiêu không kích hoạt khi trúng đòn",
+          "desc": "Với mỗi 3 Màu Sắc Bị Xé Toạc trên mục tiêu, sát thương +10% (Tối đa 30%)\n[WhenUse] Nếu tổng [Laceration] và [Sinking] của mục tiêu từ 6 trở lên, Sức mạnh Đồng xu +1\n[WhenUse] Nếu HP của bản thân dưới 50% hoặc mục tiêu có Màu Sắc Bị Xé Toạc từ 5 trở lên, dùng thêm Đồng xu 3 và chuyển toàn bộ Đồng xu của kĩ năng này thành [SuperCoin]\n[DefeatDuel]\n- Sát thương từ kĩ năng này không làm mục tiêu bị Choáng, và hiệu ứng [Sinking] của mục tiêu không kích hoạt khi trúng đòn",
           "coinlist": [
             {
               "coindescs": [
@@ -99,10 +99,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Cấp 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Gây 3 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Cấp 1 [BearClawWound]"
+                  "desc": "[OnSucceedAttack] Gây 1 [BearClawWound]"
                 }
               ]
             }
@@ -116,7 +116,7 @@
         {
           "level": 1,
           "name": "Vải Lót",
-          "desc": "[DuelCounter]\n[WhenUse] Nếu mục tiêu có [BearClawWound], Công lực Cuối +2",
+          "desc": "[DuelCounter]\n[WhenUse] Nếu mục tiêu có [BearClawWound], Sức mạnh Cuối cùng +2",
           "coinlist": [
             {
               "coindescs": [
@@ -128,7 +128,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Cấp 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Gây 3 [Laceration]"
                 }
               ]
             }
@@ -142,7 +142,7 @@
         {
           "level": 1,
           "name": "Đòn Đánh Man Rợ",
-          "desc": "[WhenUse] Nếu mục tiêu không có [BearClawWound], Công lực Đối kháng +1\n[WhenUse] Nếu tổng [Laceration] và [Sinking] trên mục tiêu từ 6 trở lên, Công lực Coin +1",
+          "desc": "[WhenUse] Nếu mục tiêu không có [BearClawWound], Sức mạnh Đối kháng +1\n[WhenUse] Nếu tổng [Laceration] và [Sinking] của mục tiêu từ 6 trở lên, Sức mạnh Đồng xu +1",
           "coinlist": [
             {
               "coindescs": [
@@ -154,10 +154,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Tăng 2 số lần [Laceration]"
+                  "desc": "[OnSucceedAttack] Tăng 2 Số lượng [Laceration] của mục tiêu"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Cấp 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Gây 1 [Sinking]"
                 }
               ]
             }
@@ -171,7 +171,7 @@
         {
           "level": 1,
           "name": "Phác Thảo Nhanh",
-          "desc": "[WhenUse] Nếu mục tiêu không có [BearClawWound], Công lực Đối kháng +1\n[WhenUse] Nếu tổng [Laceration] và [Sinking] trên mục tiêu từ 6 trở lên, Công lực Coin +1\n[WhenUse] Nếu số lớp Màu Sắc Bị Xé Toạc trên mục tiêu từ 5 trở lên, tất cả Coin của kỹ năng này đổi thành [SuperCoin]\n[DefeatDuel]\n- Sát thương từ kỹ năng này không làm mục tiêu Hoảng loạn, khi trúng đích hiệu ứng [Sinking] của mục tiêu không kích hoạt",
+          "desc": "[WhenUse] Nếu mục tiêu không có [BearClawWound], Sức mạnh Đối kháng +1\n[WhenUse] Nếu tổng [Laceration] và [Sinking] của mục tiêu từ 6 trở lên, Sức mạnh Đồng xu +1\n[WhenUse] Nếu mục tiêu có Màu Sắc Bị Xé Toạc từ 5 trở lên, chuyển toàn bộ Đồng xu của kĩ năng này thành [SuperCoin]\n[DefeatDuel]\n- Sát thương từ kĩ năng này không làm mục tiêu bị Choáng, và hiệu ứng [Sinking] của mục tiêu không kích hoạt khi trúng đòn",
           "coinlist": [
             {
               "coindescs": [
@@ -183,17 +183,17 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Cấp 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] Gây 1 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Cấp 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Gây 1 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Tăng 3 số lần [Laceration]"
+                  "desc": "[OnSucceedAttack] Tăng 3 Số lượng [Laceration] của mục tiêu"
                 }
               ]
             }
@@ -206,26 +206,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Trường phái Dã thú - Phết Màu",
-          "desc": "Với mỗi 3 Sắc Màu Bị Xé Toạc trên mục tiêu, sát thương +10% (Tối đa 30%)\n[WhenUse] Với mỗi 6 tổng số [Laceration] và [Sinking] trên mục tiêu, Công lực Đồng xu +1\n[WhenUse] Nếu Máu của bản thân dưới 50% hoặc mục tiêu có từ 5 Sắc Màu Bị Xé Toạc trở lên, thêm 3 Đồng xu và tất cả Đồng xu của kỹ năng này chuyển thành [SuperCoin]\n[DefeatDuel]\n- Sát thương của kỹ năng này không làm mục tiêu Hoảng loạn, và không kích hoạt hiệu ứng [Sinking] của mục tiêu khi trúng đòn",
+          "name": "Dã Thú Phái - Phết Màu",
+          "desc": "Với mỗi 3 Màu Sắc Bị Xé Toạc trên mục tiêu, sát thương +10% (Tối đa 30%)\n[WhenUse] Nếu tổng [Laceration] và [Sinking] của mục tiêu từ 6 trở lên, Sức mạnh Đồng xu +1\n[WhenUse] Nếu HP của bản thân dưới 50% hoặc mục tiêu có Màu Sắc Bị Xé Toạc từ 5 trở lên, dùng thêm Đồng xu 3 và chuyển toàn bộ Đồng xu của kĩ năng này thành [SuperCoin]\n[DefeatDuel]\n- Sát thương từ kĩ năng này không làm mục tiêu bị Choáng, và hiệu ứng [Sinking] của mục tiêu không kích hoạt khi trúng đòn",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Laceration] tăng thêm 2"
+                  "desc": "[OnSucceedAttack] Tăng 2 Số lượng [Laceration] của mục tiêu"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Thêm 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Gây 1 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Laceration] tăng thêm 2"
+                  "desc": "[OnSucceedAttack] Tăng 2 Số lượng [Laceration] của mục tiêu"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Thêm 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Gây 1 [Sinking]"
                 }
               ]
             },
@@ -235,10 +235,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Thêm 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Gây 3 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Thêm 1 [BearClawWound]"
+                  "desc": "[OnSucceedAttack] Gây 1 [BearClawWound]"
                 }
               ]
             }
@@ -251,8 +251,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Vải Vá",
-          "desc": "[DuelCounter]\n[WhenUse] Nếu mục tiêu có [BearClawWound], Công lực Cuối cùng +2",
+          "name": "Vải Lót",
+          "desc": "[DuelCounter]\n[WhenUse] Nếu mục tiêu có [BearClawWound], Sức mạnh Cuối cùng +2",
           "coinlist": [
             {
               "coindescs": [
@@ -264,7 +264,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Thêm 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Gây 3 [Laceration]"
                 }
               ]
             }
@@ -278,7 +278,7 @@
         {
           "level": 1,
           "name": "Chuẩn bị Tác phẩm",
-          "desc": "[WhenUse] Nếu mục tiêu không có [EagleClawWound], Công lực Đối đầu +1\n[WhenUse] Nếu tổng số [Laceration] và [Sinking] trên mục tiêu từ 6 trở lên, Công lực Đồng xu +1",
+          "desc": "[WhenUse] Nếu mục tiêu không có [EagleClawWound], Sức mạnh Đối kháng +1\n[WhenUse] Nếu tổng [Laceration] và [Sinking] của mục tiêu từ 6 trở lên, Sức mạnh Đồng xu +1",
           "coinlist": [
             {
               "coindescs": [
@@ -290,7 +290,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Thêm 3 [Sinking]"
+                  "desc": "[OnSucceedAttack] Gây 3 [Sinking]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Gây 1 [Laceration]"
@@ -307,7 +307,7 @@
         {
           "level": 1,
           "name": "Biểu Hiện Thần Tốc",
-          "desc": "[WhenUse] Nếu mục tiêu không có [EagleClawWound], Uy lực Khớp +1\n[WhenUse] Nếu tổng [Laceration] và [Sinking] trên mục tiêu từ 6 trở lên, Uy lực Coin +1\n[WhenUse] Nếu Sắc màu bị xé toạc trên mục tiêu từ 5 trở lên, tất cả Coin của kỹ năng này chuyển thành [SuperCoin]\n[DefeatDuel]\n- Mục tiêu không bị Hoảng loạn bởi sát thương của kỹ năng này, hiệu ứng [Sinking] của mục tiêu không kích hoạt khi trúng đòn",
+          "desc": "[WhenUse] Nếu mục tiêu không có [EagleClawWound], Sức mạnh Đối kháng +1\n[WhenUse] Nếu tổng [Laceration] và [Sinking] của mục tiêu từ 6 trở lên, Sức mạnh Đồng xu +1\n[WhenUse] Nếu mục tiêu có Màu Sắc Bị Xé Toạc từ 5 trở lên, chuyển toàn bộ Đồng xu của kĩ năng này thành [SuperCoin]\n[DefeatDuel]\n- Sát thương từ kĩ năng này không làm mục tiêu bị Choáng, và hiệu ứng [Sinking] của mục tiêu không kích hoạt khi trúng đòn",
           "coinlist": [
             {
               "coindescs": [
@@ -325,7 +325,7 @@
                   "desc": "[OnSucceedAttack] Gây 1 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Nếu bản thân có [Agility], dùng lại Coin này (1 lần mỗi kỹ năng)"
+                  "desc": "[OnSucceedAttack] Nếu bản thân có [Agility], tái sử dụng Đồng xu này (1 lần mỗi kĩ năng)"
                 }
               ]
             }
@@ -339,12 +339,12 @@
         {
           "level": 1,
           "name": "Hoàn Tất Công Việc",
-          "desc": "[WhenUse] Với mỗi 6 tổng [Laceration] và [Sinking] trên mục tiêu, Uy lực Coin +1 (Tối đa 2)\n[WhenUse] Nếu máu của bản thân dưới 50% hoặc Sắc màu bị xé toạc trên mục tiêu từ 5 trở lên, tất cả Coin của kỹ năng này chuyển thành [SuperCoin]\n[DefeatDuel]\n- Mục tiêu không bị Hoảng loạn bởi sát thương của kỹ năng này, hiệu ứng [Sinking] của mục tiêu không kích hoạt khi trúng đòn",
+          "desc": "[WhenUse] Với mỗi 6 tổng [Laceration] và [Sinking] của mục tiêu, Sức mạnh Đồng xu +1 (Tối đa 2)\n[WhenUse] Nếu HP của bản thân dưới 50% hoặc mục tiêu có Màu Sắc Bị Xé Toạc từ 5 trở lên, chuyển toàn bộ Đồng xu của kĩ năng này thành [SuperCoin]\n[DefeatDuel]\n- Sát thương từ kĩ năng này không làm mục tiêu bị Choáng, và hiệu ứng [Sinking] của mục tiêu không kích hoạt khi trúng đòn",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Tăng 3 số lượng [Sinking]"
+                  "desc": "[OnSucceedAttack] Tăng 3 Số lượng [Sinking] của mục tiêu"
                 }
               ]
             },
@@ -370,7 +370,7 @@
                   "desc": "[OnSucceedAttack] Gây 1 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Nếu bản thân có [Agility], dùng lại Coin này (1 lần mỗi kỹ năng)"
+                  "desc": "[OnSucceedAttack] Nếu bản thân có [Agility], tái sử dụng Đồng xu này (1 lần mỗi kĩ năng)"
                 }
               ]
             }
@@ -383,20 +383,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Chỉnh sửa một phần",
-          "desc": "[DuelCounter]\n[WhenUse] Nếu mục tiêu có [EagleClawWound], Uy lực đối đầu +2",
+          "name": "Chỉnh Sửa Một Phần",
+          "desc": "[DuelCounter]\n[WhenUse] Nếu mục tiêu có [EagleClawWound], Sức mạnh Đối kháng +2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Ban 2 [EagleClawWound]"
+                  "desc": "[OnSucceedAttack] Gây 2 [EagleClawWound]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Ban 2 [EagleClawWound]"
+                  "desc": "[OnSucceedAttack] Gây 2 [EagleClawWound]"
                 }
               ]
             }
@@ -409,8 +409,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Chuẩn bị tác phẩm",
-          "desc": "[WhenUse] Nếu mục tiêu không có [EagleClawWound], Uy lực đối đầu +1\n[WhenUse] Nếu tổng [Laceration] và [Sinking] của mục tiêu từ 6 trở lên, Uy lực đồng xu +1",
+          "name": "Chuẩn bị Tác phẩm",
+          "desc": "[WhenUse] Nếu mục tiêu không có [EagleClawWound], Sức mạnh Đối kháng +1\n[WhenUse] Nếu tổng [Laceration] và [Sinking] của mục tiêu từ 6 trở lên, Sức mạnh Đồng xu +1",
           "coinlist": [
             {
               "coindescs": [
@@ -422,10 +422,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Sinking] tăng 2"
+                  "desc": "[OnSucceedAttack] Tăng 2 Số lượng [Sinking] của mục tiêu"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Ban 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] Gây 1 [Laceration]"
                 }
               ]
             }
@@ -438,8 +438,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Biểu hiện nhanh chóng",
-          "desc": "[WhenUse] Nếu mục tiêu không có [EagleClawWound], Uy lực đối đầu +1\n[WhenUse] Nếu tổng [Laceration] và [Sinking] của mục tiêu từ 6 trở lên, Uy lực đồng xu +1\n[WhenUse] Nếu điểm Màu sắc bị xé toạc của mục tiêu từ 5 trở lên, tất cả đồng xu của kỹ năng này đổi thành [SuperCoin]\n[DefeatDuel]\n- Sát thương của kỹ năng này không khiến mục tiêu bị Hoảng loạn, hiệu ứng [Sinking] của mục tiêu không kích hoạt khi trúng đòn",
+          "name": "Biểu Hiện Thần Tốc",
+          "desc": "[WhenUse] Nếu mục tiêu không có [EagleClawWound], Sức mạnh Đối kháng +1\n[WhenUse] Nếu tổng [Laceration] và [Sinking] của mục tiêu từ 6 trở lên, Sức mạnh Đồng xu +1\n[WhenUse] Nếu mục tiêu có Màu Sắc Bị Xé Toạc từ 5 trở lên, chuyển toàn bộ Đồng xu của kĩ năng này thành [SuperCoin]\n[DefeatDuel]\n- Sát thương từ kĩ năng này không làm mục tiêu bị Choáng, và hiệu ứng [Sinking] của mục tiêu không kích hoạt khi trúng đòn",
           "coinlist": [
             {
               "coindescs": [
@@ -451,13 +451,13 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Sinking] tăng 2"
+                  "desc": "[OnSucceedAttack] Tăng 2 Số lượng [Sinking] của mục tiêu"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Ban 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] Gây 1 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Nếu bản thân có [Agility], sử dụng lại đồng xu này (1 lần mỗi kỹ năng)"
+                  "desc": "[OnSucceedAttack] Nếu bản thân có [Agility], tái sử dụng Đồng xu này (1 lần mỗi kĩ năng)"
                 }
               ]
             }
@@ -470,23 +470,23 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Hoàn tất công việc",
-          "desc": "[WhenUse] Với mỗi 6 tổng [Laceration] và [Sinking] của mục tiêu, Uy lực đồng xu +1 (Tối đa 2)\n[WhenUse] Nếu máu của bản thân dưới 50%, hoặc điểm Màu sắc bị xé toạc của mục tiêu từ 5 trở lên, tất cả đồng xu của kỹ năng này đổi thành [SuperCoin]\n[DefeatDuel]\n- Sát thương của kỹ năng này không khiến mục tiêu bị Hoảng loạn, hiệu ứng [Sinking] của mục tiêu không kích hoạt khi trúng đòn",
+          "name": "Hoàn Tất Công Việc",
+          "desc": "[WhenUse] Với mỗi 6 tổng [Laceration] và [Sinking] của mục tiêu, Sức mạnh Đồng xu +1 (Tối đa 2)\n[WhenUse] Nếu HP của bản thân dưới 50%, hoặc mục tiêu có Màu Sắc Bị Xé Toạc từ 5 trở lên, chuyển toàn bộ Đồng xu của kĩ năng này thành [SuperCoin]\n[DefeatDuel]\n- Sát thương từ kĩ năng này không làm mục tiêu bị Choáng, và hiệu ứng [Sinking] của mục tiêu không kích hoạt khi trúng đòn",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Sinking] tăng thêm 2"
+                  "desc": "[OnSucceedAttack] Tăng 2 Số lượng [Sinking] của mục tiêu"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Áp dụng 3 [Sinking]"
+                  "desc": "[OnSucceedAttack] Gây 3 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Áp dụng 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] Gây 1 [Laceration]"
                 }
               ]
             },
@@ -496,13 +496,13 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Sinking] tăng thêm 2"
+                  "desc": "[OnSucceedAttack] Tăng 2 Số lượng [Sinking] của mục tiêu"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Áp dụng 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] Gây 1 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Nếu bản thân có [Agility], sử dụng lại đồng xu này (1 lần mỗi kỹ năng)"
+                  "desc": "[OnSucceedAttack] Nếu bản thân có [Agility], tái sử dụng Đồng xu này (1 lần mỗi kĩ năng)"
                 }
               ]
             }
@@ -516,19 +516,19 @@
         {
           "level": 1,
           "name": "Chỉnh Sửa Một Phần",
-          "desc": "[DuelCounter]\n[WhenUse] Nếu mục tiêu có [EagleClawWound], Uy lực tỷ thí +2",
+          "desc": "[DuelCounter]\n[WhenUse] Nếu mục tiêu có [EagleClawWound], Sức mạnh Đối kháng +2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Áp dụng 2 [EagleClawWound]"
+                  "desc": "[OnSucceedAttack] Gây 2 [EagleClawWound]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Áp dụng 2 [EagleClawWound]"
+                  "desc": "[OnSucceedAttack] Gây 2 [EagleClawWound]"
                 }
               ]
             }
@@ -542,19 +542,19 @@
         {
           "level": 1,
           "name": "Khóa Mục Tiêu",
-          "desc": "Nếu mục tiêu có [IndexPrescriptTargetToPersonality], Uy lực tỷ thí +1, Sát thương +10%\nVới mỗi 6 tổng số [Breath] của bản thân và [Sinking] của mục tiêu, Uy lực cuối cùng +1 (Tối đa 2)\n[WhenUse] Nếu mục tiêu có [IndexPrescriptTargetToPersonality] hoặc [BlessingOfIndexPrescriptEnemy] từ 6 trở lên, đồng xu cuối cùng của kỹ năng này sẽ trở thành [SuperCoin]\n[WhenUse] Nhận 2 [Breath], số lần [Breath] tăng thêm 2\n[DefeatDuel]\n- Không bị Hoảng loạn bởi sát thương từ kỹ năng này, và hiệu ứng [Sinking] của mục tiêu không kích hoạt khi trúng đòn.",
+          "desc": "Nếu mục tiêu có [IndexPrescriptTargetToPersonality], Sức mạnh Đối kháng +1 và sát thương +10%\nVới mỗi 6 tổng [Breath] của bản thân và [Sinking] của mục tiêu, Sức mạnh Cuối cùng +1 (Tối đa 2)\n[WhenUse] Nếu mục tiêu có [IndexPrescriptTargetToPersonality] hoặc [BlessingOfIndexPrescriptEnemy] từ 6 trở lên, Đồng xu cuối cùng của kĩ năng này trở thành [SuperCoin]\n[WhenUse] Nhận 2 [Breath], Số lượng [Breath] tăng thêm 2\n[DefeatDuel]\n- Sát thương từ kĩ năng này không làm mục tiêu bị Choáng, và hiệu ứng [Sinking] của mục tiêu không kích hoạt khi trúng đòn",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Áp dụng 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Gây 1 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Áp dụng 2 [Sinking]"
+                  "desc": "[OnSucceedAttack] Gây 2 [Sinking]"
                 }
               ]
             }
@@ -567,8 +567,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Nơi Chỉ thị Hướng tới",
-          "desc": "Nếu mục tiêu có [IndexPrescriptTargetToPersonality], Uy lực Khớp chiến +1, Sát thương +20%\nMỗi 6 tổng [Breath] của bản thân và [Sinking] của mục tiêu, Uy lực Cuối cùng +1 (Tối đa 3)\n[WhenUse] Nếu mục tiêu có [IndexPrescriptTargetToPersonality] hoặc [BlessingOfIndexPrescriptEnemy] từ 6 trở lên, Đồng xu Cuối cùng của kỹ năng này trở thành [SuperCoin]\n[WhenUse] Nhận 3 [Breath], số lượng [Breath] tăng 3\n[DefeatDuel]\n- Không bị Choáng bởi sát thương của kỹ năng này, khi trúng đích hiệu ứng [Sinking] của mục tiêu không kích hoạt",
+          "name": "Nơi Chỉ Thị Hướng Tới",
+          "desc": "Nếu mục tiêu có [IndexPrescriptTargetToPersonality], Sức mạnh Đối kháng +1 và sát thương +20%\nVới mỗi 6 tổng [Breath] của bản thân và [Sinking] của mục tiêu, Sức mạnh Cuối cùng +1 (Tối đa 3)\n[WhenUse] Nếu mục tiêu có [IndexPrescriptTargetToPersonality] hoặc [BlessingOfIndexPrescriptEnemy] từ 6 trở lên, Đồng xu cuối cùng của kĩ năng này trở thành [SuperCoin]\n[WhenUse] Nhận 3 [Breath], Số lượng [Breath] tăng thêm 3\n[DefeatDuel]\n- Sát thương từ kĩ năng này không làm mục tiêu bị Choáng, và hiệu ứng [Sinking] của mục tiêu không kích hoạt khi trúng đòn",
           "coinlist": [
             {
               "coindescs": [
@@ -580,14 +580,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Cấp 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Gây 1 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Cấp 2 [Sinking]"
+                  "desc": "[OnSucceedAttack] Gây 2 [Sinking]"
                 }
               ]
             }
@@ -600,8 +600,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Thi hành Chỉ thị",
-          "desc": "Nếu mục tiêu có [IndexPrescriptTargetToPersonality], Uy lực Khớp chiến +2, Sát thương +25%\nMỗi 6 tổng [Breath] của bản thân và [Sinking] của mục tiêu, Uy lực Cuối cùng +1 (Tối đa 3)\n[WhenUse] Nếu [BlessingOfIndexPrescriptEnemy] từ 3 trở lên, Uy lực Đồng xu +1\n[WhenUse] Nếu mục tiêu có [IndexPrescriptTargetToPersonality] hoặc [BlessingOfIndexPrescriptEnemy] từ 6 trở lên, tất cả Đồng xu trở thành [SuperCoin]\n[WhenUse] Nhận 4 [Breath], số lượng [Breath] tăng 3\n[DefeatDuel]\n- Không bị Choáng bởi sát thương của kỹ năng này, khi trúng đích hiệu ứng [Sinking] của mục tiêu không kích hoạt",
+          "name": "Thi hành Chỉ Thị",
+          "desc": "Nếu mục tiêu có [IndexPrescriptTargetToPersonality], Sức mạnh Đối kháng +2 và sát thương +25%\nVới mỗi 6 tổng [Breath] của bản thân và [Sinking] của mục tiêu, Sức mạnh Cuối cùng +1 (Tối đa 3)\n[WhenUse] Nếu [BlessingOfIndexPrescriptEnemy] từ 3 trở lên, Sức mạnh Đồng xu +1\n[WhenUse] Nếu mục tiêu có [IndexPrescriptTargetToPersonality] hoặc [BlessingOfIndexPrescriptEnemy] từ 6 trở lên, chuyển toàn bộ Đồng xu của kĩ năng này thành [SuperCoin]\n[WhenUse] Nhận 4 [Breath], Số lượng [Breath] tăng thêm 3\n[DefeatDuel]\n- Sát thương từ kĩ năng này không làm mục tiêu bị Choáng, và hiệu ứng [Sinking] của mục tiêu không kích hoạt khi trúng đòn",
           "coinlist": [
             {
               "coindescs": [
@@ -613,17 +613,17 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Cấp 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Gây 1 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Mỗi 1 [BlessingOfIndexPrescriptEnemy] của bản thân, Sát thương +5% (Tối đa 45%)"
+                  "desc": "Mỗi 1 [BlessingOfIndexPrescriptEnemy] trên bản thân, sát thương +5% (Tối đa 45%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Cấp 3 [Sinking], số lượng [Sinking] tăng 2"
+                  "desc": "[OnSucceedAttack] Gây 3 [Sinking], tăng 2 Số lượng [Sinking] của mục tiêu"
                 }
               ]
             }
@@ -636,20 +636,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Bắt giữ Mục tiêu",
-          "desc": "Nếu mục tiêu có [IndexPrescriptTargetToPersonality], Uy lực Khớp chiến +1, Sát thương +10%\nMỗi 6 tổng [Breath] của bản thân và [Sinking] của mục tiêu, Uy lực Cuối cùng +1 (Tối đa 2)\n[WhenUse] Nếu mục tiêu có [IndexPrescriptTargetToPersonality] hoặc [BlessingOfIndexPrescriptEnemy] từ 6 trở lên, Đồng xu Cuối cùng của kỹ năng này trở thành [SuperCoin]\n[WhenUse] Nhận 1 [Breath], số lượng [Breath] tăng 3\n[DefeatDuel]\n- Không bị Choáng bởi sát thương của kỹ năng này, khi trúng đích hiệu ứng [Sinking] của mục tiêu không kích hoạt",
+          "name": "Khóa Mục Tiêu",
+          "desc": "Nếu mục tiêu có [IndexPrescriptTargetToPersonality], Sức mạnh Đối kháng +1 và sát thương +10%\nVới mỗi 6 tổng [Breath] của bản thân và [Sinking] của mục tiêu, Sức mạnh Cuối cùng +1 (Tối đa 2)\n[WhenUse] Nếu mục tiêu có [IndexPrescriptTargetToPersonality] hoặc [BlessingOfIndexPrescriptEnemy] từ 6 trở lên, Đồng xu cuối cùng của kĩ năng này trở thành [SuperCoin]\n[WhenUse] Nhận 1 [Breath], Số lượng [Breath] tăng thêm 3\n[DefeatDuel]\n- Sát thương từ kĩ năng này không làm mục tiêu bị Choáng, và hiệu ứng [Sinking] của mục tiêu không kích hoạt khi trúng đòn",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Cấp 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Gây 1 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Cấp 1 [Sinking], số lượng [Sinking] tăng 2"
+                  "desc": "[OnSucceedAttack] Gây 1 [Sinking], tăng 2 Số lượng [Sinking] của mục tiêu"
                 }
               ]
             }
@@ -662,8 +662,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Nơi Chỉ Thị hướng tới",
-          "desc": "Nếu mục tiêu có [IndexPrescriptTargetToPersonality], uy lực đối đầu +1, sát thương +20%\nMỗi 6 tổng [Breath] của bản thân và [Sinking] của mục tiêu, uy lực cuối cùng +1 (Tối đa 3)\n[WhenUse] Nếu mục tiêu có [IndexPrescriptTargetToPersonality] hoặc [BlessingOfIndexPrescriptEnemy] từ 6 trở lên, đồng xu cuối cùng của kỹ năng này trở thành [SuperCoin]\n[WhenUse] Nhận 4 [Breath], số lượng [Breath] tăng thêm 2\n[DefeatDuel]\n- Không bị Hoảng loạn bởi sát thương của kỹ năng này, khi trúng không kích hoạt hiệu ứng [Sinking] của mục tiêu.",
+          "name": "Nơi Chỉ Thị Hướng Tới",
+          "desc": "Nếu mục tiêu có [IndexPrescriptTargetToPersonality], Sức mạnh Đối kháng +1 và sát thương +20%\nVới mỗi 6 tổng [Breath] của bản thân và [Sinking] của mục tiêu, Sức mạnh Cuối cùng +1 (Tối đa 3)\n[WhenUse] Nếu mục tiêu có [IndexPrescriptTargetToPersonality] hoặc [BlessingOfIndexPrescriptEnemy] từ 6 trở lên, Đồng xu cuối cùng của kĩ năng này trở thành [SuperCoin]\n[WhenUse] Nhận 4 [Breath], Số lượng [Breath] tăng thêm 2\n[DefeatDuel]\n- Sát thương từ kĩ năng này không làm mục tiêu bị Choáng, và hiệu ứng [Sinking] của mục tiêu không kích hoạt khi trúng đòn",
           "coinlist": [
             {
               "coindescs": [
@@ -682,7 +682,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gây 1 [Sinking], số lượng [Sinking] tăng thêm 2"
+                  "desc": "[OnSucceedAttack] Gây 1 [Sinking], tăng 2 Số lượng [Sinking] của mục tiêu"
                 }
               ]
             }
@@ -695,8 +695,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Thực thi Chỉ Thị",
-          "desc": "Nếu mục tiêu có [IndexPrescriptTargetToPersonality], uy lực đối đầu +2, sát thương +25%\nMỗi 6 tổng [Breath] của bản thân và [Sinking] của mục tiêu, uy lực cuối cùng +1 (Tối đa 3)\n[WhenUse] Nếu [BlessingOfIndexPrescriptEnemy] từ 3 trở lên, uy lực đồng xu +1\n[WhenUse] Nếu mục tiêu có [IndexPrescriptTargetToPersonality] hoặc [BlessingOfIndexPrescriptEnemy] từ 6 trở lên, toàn bộ đồng xu trở thành [SuperCoin]\n[WhenUse] Nhận 3 [Breath], số lượng [Breath] tăng thêm 4\n[DefeatDuel]\n- Không bị Hoảng loạn bởi sát thương của kỹ năng này, khi trúng không kích hoạt hiệu ứng [Sinking] của mục tiêu.",
+          "name": "Thi hành Chỉ Thị",
+          "desc": "Nếu mục tiêu có [IndexPrescriptTargetToPersonality], Sức mạnh Đối kháng +2 và sát thương +25%\nVới mỗi 6 tổng [Breath] của bản thân và [Sinking] của mục tiêu, Sức mạnh Cuối cùng +1 (Tối đa 3)\n[WhenUse] Nếu [BlessingOfIndexPrescriptEnemy] từ 3 trở lên, Sức mạnh Đồng xu +1\n[WhenUse] Nếu mục tiêu có [IndexPrescriptTargetToPersonality] hoặc [BlessingOfIndexPrescriptEnemy] từ 6 trở lên, chuyển toàn bộ Đồng xu của kĩ năng này thành [SuperCoin]\n[WhenUse] Nhận 3 [Breath], Số lượng [Breath] tăng thêm 4\n[DefeatDuel]\n- Sát thương từ kĩ năng này không làm mục tiêu bị Choáng, và hiệu ứng [Sinking] của mục tiêu không kích hoạt khi trúng đòn",
           "coinlist": [
             {
               "coindescs": [
@@ -715,10 +715,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "Với mỗi 1 [BlessingOfIndexPrescriptEnemy] của bản thân, sát thương +5% (Tối đa 45%)"
+                  "desc": "Mỗi 1 [BlessingOfIndexPrescriptEnemy] trên bản thân, sát thương +5% (Tối đa 45%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gây 2 [Sinking], số lượng [Sinking] tăng thêm 3"
+                  "desc": "[OnSucceedAttack] Gây 2 [Sinking], tăng 3 Số lượng [Sinking] của mục tiêu"
                 }
               ]
             }

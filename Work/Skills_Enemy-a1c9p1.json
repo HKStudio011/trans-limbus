@@ -25,12 +25,12 @@
         {
           "level": 1,
           "name": "Xé Thịt",
-          "desc": "Nếu [Laceration] của mục tiêu từ 5 trở lên, Sức mạnh cơ bản +1",
+          "desc": "Nếu [Laceration] của mục tiêu từ 5 trở lên, Sức mạnh Cơ bản +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng thêm 2\nNếu mục tiêu có từ 3 loại hiệu ứng bất lợi trở lên, tăng thêm 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng thêm 2\nNếu mục tiêu có từ 3 loại hiệu ứng bất lợi trở lên, Số lượng [Laceration] tăng thêm 1"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Gây 2 [DefenseDown] vào lượt tiếp theo"
@@ -40,7 +40,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng thêm 2\nNếu mục tiêu có từ 3 loại hiệu ứng bất lợi trở lên, tăng thêm 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng thêm 2\nNếu mục tiêu có từ 3 loại hiệu ứng bất lợi trở lên, Số lượng [Laceration] tăng thêm 1"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Gây 2 [DefenseDown] vào lượt tiếp theo"
@@ -56,8 +56,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Tên tác phẩm: Giải Phóng Xương theo Chu Kỳ Tim",
-          "desc": "Với mỗi 20% HP bản thể đã mất, Sức mạnh cơ bản +1 (Tối đa 4)\nVới mỗi 3 [Laceration] của mục tiêu, Sức mạnh Coin +1 (Tối đa 2)\n[WinDuel] Số lượng [Vibration] của mục tiêu tăng thêm 2\n[DefeatDuel] Nhận 1 [Paralysis] vào lượt tiếp theo",
+          "name": "Tên tác phẩm: Giải Phóng Xương theo Nhịp Tim",
+          "desc": "Với mỗi 20% HP Bản thể đã mất, Sức mạnh Cơ bản +1 (Tối đa 4)\nVới mỗi 3 [Laceration] của mục tiêu, Sức mạnh Đồng xu +1 (Tối đa 2)\n[WinDuel] Số lượng [Vibration] của mục tiêu tăng thêm 2\n[DefeatDuel] Nhận 1 [Paralysis] vào lượt tiếp theo",
           "coinlist": [
             {
               "coindescs": [
@@ -82,7 +82,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnStartCoin] Giảm HP bằng 30% HP bản thể hiện tại (Hiệu ứng này không gây trạng thái Choáng, làm tròn xuống)"
+                  "desc": "[OnStartCoin] Giảm HP bằng 30% HP Bản thể hiện tại (Hiệu ứng này không gây Choáng cho bản thân, làm tròn xuống)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Nhận 5 [Laceration]"
@@ -146,7 +146,7 @@
         {
           "level": 1,
           "name": "Xé Toạc Mạch Máu",
-          "desc": "Nếu [Laceration] của mục tiêu từ 5 trở lên, Sức mạnh cơ bản +1\nNếu mục tiêu có từ 3 loại hiệu ứng bất lợi trở lên, lượng Sát thương +30%",
+          "desc": "Nếu [Laceration] của mục tiêu từ 5 trở lên, Sức mạnh Cơ bản +1\nNếu mục tiêu có từ 3 loại hiệu ứng bất lợi trở lên, sát thương gây ra +30%",
           "coinlist": [
             {
               "coindescs": [
@@ -171,8 +171,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Tên tác phẩm: Giải Phóng Xương theo Chu Kỳ Tim",
-          "desc": "Với mỗi 20% HP bản thể đã mất, Sức mạnh cơ bản +1 (Tối đa 4)\nVới mỗi 3 [Laceration] của mục tiêu, Sức mạnh Coin +1 (Tối đa 2)\n[WinDuel] Số lượng [Vibration] của mục tiêu tăng thêm 2\n[DefeatDuel] Nhận 1 [Paralysis] vào lượt tiếp theo",
+          "name": "Tên tác phẩm: Giải Phóng Xương theo Nhịp Tim",
+          "desc": "Với mỗi 20% HP Bản thể đã mất, Sức mạnh Cơ bản +1 (Tối đa 4)\nVới mỗi 3 [Laceration] của mục tiêu, Sức mạnh Đồng xu +1 (Tối đa 2)\n[WinDuel] Số lượng [Vibration] của mục tiêu tăng thêm 2\n[DefeatDuel] Nhận 1 [Paralysis] vào lượt tiếp theo",
           "coinlist": [
             {
               "coindescs": [
@@ -197,7 +197,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnStartCoin] Giảm HP bằng 30% HP bản thể hiện tại (Hiệu ứng này không gây trạng thái Choáng, làm tròn xuống)"
+                  "desc": "[OnStartCoin] Giảm HP bằng 30% HP Bản thể hiện tại (Hiệu ứng này không gây Choáng cho bản thân, làm tròn xuống)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Nhận 5 [Laceration]"
@@ -264,12 +264,12 @@
         {
           "level": 1,
           "name": "Xé Toạc",
-          "desc": "Nếu [Laceration] của mục tiêu từ 5 trở lên, Sức mạnh cơ bản +1",
+          "desc": "Nếu [Laceration] của mục tiêu từ 5 trở lên, Sức mạnh Cơ bản +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng thêm 2\nNếu mục tiêu có từ 3 loại hiệu ứng bất lợi trở lên, tăng thêm 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng thêm 2\nNếu mục tiêu có từ 3 loại hiệu ứng bất lợi trở lên, Số lượng [Laceration] tăng thêm 1"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Gây 1 [Desire] vào lượt tiếp theo"
@@ -279,7 +279,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng thêm 2\nNếu mục tiêu có từ 3 loại hiệu ứng bất lợi trở lên, tăng thêm 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] Số lượng [Laceration] tăng thêm 2\nNếu mục tiêu có từ 3 loại hiệu ứng bất lợi trở lên, Số lượng [Laceration] tăng thêm 1"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Gây 1 [Desire] vào lượt tiếp theo"
@@ -296,7 +296,7 @@
         {
           "level": 1,
           "name": "Tác Phẩm Nhuốm Màu Dục Vọng",
-          "desc": "Với mỗi 20% HP bản thể đã mất, Sức mạnh cơ bản +1 (Tối đa 4)\nVới mỗi 3 [Laceration] của mục tiêu, Sức mạnh Coin +1 (Tối đa 2)\n[WinDuel] Số lượng [Vibration] của mục tiêu tăng thêm 2\n[DefeatDuel] Nhận 1 [Paralysis] vào lượt tiếp theo",
+          "desc": "Với mỗi 20% HP Bản thể đã mất, Sức mạnh Cơ bản +1 (Tối đa 4)\nVới mỗi 3 [Laceration] của mục tiêu, Sức mạnh Đồng xu +1 (Tối đa 2)\n[WinDuel] Số lượng [Vibration] của mục tiêu tăng thêm 2\n[DefeatDuel] Nhận 1 [Paralysis] vào lượt tiếp theo",
           "coinlist": [
             {
               "coindescs": [
@@ -321,7 +321,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnStartCoin] Giảm HP một lượng bằng 30% HP hiện tại (Hiệu ứng này không gây trạng thái Choáng, làm tròn xuống)"
+                  "desc": "[OnStartCoin] Giảm HP bằng 30% HP Bản thể hiện tại (Hiệu ứng này không gây Choáng cho bản thân, làm tròn xuống)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Nhận 5 [Laceration]"
@@ -333,7 +333,7 @@
                   "desc": "[UnBrokenCoinOnSucceedAttack] [Switch_Vibration] sang [VibrationBleeding]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] [VibrationExplosion]. Số lần [Vibration] của mục tiêu giảm 1"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] [VibrationExplosion]. Số lượng [Vibration] của mục tiêu giảm 1"
                 }
               ]
             }
@@ -347,7 +347,7 @@
         {
           "level": 1,
           "name": "Ruy Băng Thắt Chặt",
-          "desc": "[CanDuelGuard]\nKhi nhận sát thương, gây 1 [PinkRibbon_Ishmael] cho mục tiêu (1 lần mỗi kĩ năng)\n[StartBattle] Nhận 1 [MuscleContraction] vào lượt tiếp theo. Khi nhận sát thương, nhận thêm 1 [MuscleContraction] (1 lần mỗi lượt)",
+          "desc": "[CanDuelGuard]\nKhi nhận sát thương, gây 1 [PinkRibbon_Ishmael] lên kẻ tấn công (1 lần mỗi Kĩ năng)\n[StartBattle] Nhận 1 [MuscleContraction] vào lượt tiếp theo. Khi nhận sát thương, nhận thêm 1 [MuscleContraction] (1 lần mỗi lượt)",
           "coinlist": [
             {
               "coindescs": [

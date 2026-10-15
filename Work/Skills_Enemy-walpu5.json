@@ -5,14 +5,14 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Theo sự dẫn dắt của bánh răng",
+          "name": "Theo sự dẫn dắt của Bánh răng",
           "desc": "[WhenUse] Nhận 2 [Smoke]",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Smoke] của bản thân tăng 1"
+                  "desc": "[OnSucceedAttack] Số lượng [Smoke] của bản thân tăng thêm 1"
                 }
               ]
             }
@@ -26,25 +26,25 @@
         {
           "level": 1,
           "name": "Bánh răng thịt: Dừng lại",
-          "desc": "[WhenUse] Nhận 4 [Smoke], số lần [Smoke] của bản thân tăng 2",
+          "desc": "[WhenUse] Nhận 4 [Smoke], Số lượng [Smoke] của bản thân tăng thêm 2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Cấp 2 [Smoke]"
+                  "desc": "[OnSucceedAttack] Gây 2 [Smoke]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Cấp 1 [Paralysis] vào lượt sau"
+                  "desc": "[OnSucceedAttackHead] Gây 1 [Paralysis] vào lượt tiếp theo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Cấp 2 [Smoke]"
+                  "desc": "[OnSucceedAttack] Gây 2 [Smoke]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Cấp 1 [Paralysis] vào lượt sau"
+                  "desc": "[OnSucceedAttackHead] Gây 1 [Paralysis] vào lượt tiếp theo"
                 }
               ]
             }
@@ -58,19 +58,19 @@
         {
           "level": 1,
           "name": "Hơi nước",
-          "desc": "Với mỗi 3 [Smoke] trên mục tiêu, Uy lực Đối kháng +1 (Tối đa 2)\nVới mỗi 3 [Smoke] của bản thân, Lượng sát thương +10% (Tối đa 20%)\n[WhenUse] Nếu [Smoke] của bản thân là 10, Uy lực Coin +2\n[EndSkill] Tiêu hao toàn bộ [Smoke] của bản thân",
+          "desc": "Với mỗi 3 [Smoke] trên mục tiêu, Sức mạnh Đối kháng +1 (Tối đa 2)\nVới mỗi 3 [Smoke] của bản thân, Sát thương +10% (Tối đa 20%)\n[WhenUse] Nếu [Smoke] của bản thân là 10, Sức mạnh Đồng xu +2\n[EndSkill] Tiêu hao toàn bộ [Smoke] của bản thân",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Cấp 3 [Smoke]"
+                  "desc": "[OnSucceedAttack] Gây 3 [Smoke]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Với mỗi 3 [Smoke] trên mục tiêu, sử dụng lại Coin (Kích hoạt tối đa 3 lần)"
+                  "desc": "[OnSucceedAttack] Với mỗi 3 [Smoke] trên mục tiêu, sử dụng lại đồng xu (Kích hoạt tối đa 3 lần)"
                 }
               ]
             }
@@ -83,8 +83,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Mệnh lệnh Né tránh",
-          "desc": "[OnSucceedEvade] Nhận 3 [Smoke], số lần [Smoke] tăng 1\n[OnSucceedEvade] Nếu [Smoke] của bản thân là 10, nhận 1 [ParryingResultUp] và 3 [Protection] vào lượt sau (1 lần mỗi lượt)",
+          "name": "Mệnh lệnh né tránh",
+          "desc": "[OnSucceedEvade] Nhận 3 [Smoke], Số lượng [Smoke] tăng thêm 1\n[OnSucceedEvade] Nếu [Smoke] của bản thân là 10, nhận 1 [ParryingResultUp] và 3 [Protection] vào lượt tiếp theo (1 lần mỗi lượt)",
           "coinlist": [
             {
               "coindescs": [
@@ -102,14 +102,14 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Theo Bước Bánh Răng",
+          "name": "Theo bước Bánh răng",
           "desc": "[WhenUse] Nhận 2 [Smoke]",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Smoke] của bản thân tăng thêm 1"
+                  "desc": "[OnSucceedAttack] Số lượng [Smoke] của bản thân tăng thêm 1"
                 }
               ]
             }
@@ -122,26 +122,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Bánh Răng Thịt: Siết Chặt",
-          "desc": "[WhenUse] Nhận 4 [Smoke], số lần [Smoke] của bản thân tăng thêm 2",
+          "name": "Bánh răng thịt: Siết chặt",
+          "desc": "[WhenUse] Nhận 4 [Smoke], Số lượng [Smoke] của bản thân tăng thêm 2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Smoke] tăng thêm 1"
+                  "desc": "[OnSucceedAttack] Số lượng [Smoke] tăng thêm 1"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Áp dụng 1 [Binding] vào lượt tiếp theo"
+                  "desc": "[OnSucceedAttackHead] Gây 1 [Binding] vào lượt tiếp theo"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Smoke] tăng thêm 1"
+                  "desc": "[OnSucceedAttack] Số lượng [Smoke] tăng thêm 1"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Áp dụng 1 [Binding] vào lượt tiếp theo"
+                  "desc": "[OnSucceedAttackHead] Gây 1 [Binding] vào lượt tiếp theo"
                 }
               ]
             }
@@ -154,20 +154,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Mệnh Lệnh Tập Kích",
-          "desc": "Với mỗi 3 [Smoke] trên mục tiêu, Uy lực Đọ sức +1 (Tối đa 2)\nVới mỗi 3 [Smoke] của bản thân, Sát thương +10% (Tối đa 20%)\n[WhenUse] Nếu [Smoke] của bản thân là 10, Uy lực Đồng xu +2\n[EndSkill] Tiêu thụ tất cả [Smoke] của bản thân",
+          "name": "Mệnh lệnh tập kích",
+          "desc": "Với mỗi 3 [Smoke] trên mục tiêu, Sức mạnh Đối kháng +1 (Tối đa 2)\nVới mỗi 3 [Smoke] của bản thân, Sát thương +10% (Tối đa 20%)\n[WhenUse] Nếu [Smoke] của bản thân là 10, Sức mạnh Đồng xu +2\n[EndSkill] Tiêu hao toàn bộ [Smoke] của bản thân",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Smoke] tăng thêm 2"
+                  "desc": "[OnSucceedAttack] Số lượng [Smoke] tăng thêm 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Với mỗi 3 [Smoke] của mục tiêu, sử dụng lại đồng xu (Kích hoạt tối đa 3 lần)"
+                  "desc": "[OnSucceedAttack] Với mỗi 3 [Smoke] trên mục tiêu, sử dụng lại đồng xu (Kích hoạt tối đa 3 lần)"
                 }
               ]
             }
@@ -180,8 +180,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Mệnh Lệnh Né Tránh",
-          "desc": "[OnSucceedEvade] Nhận 3 [Smoke], số lần [Smoke] tăng thêm 1\n[OnSucceedEvade] Nếu [Smoke] của bản thân là 10, nhận 1 [ParryingResultUp] và 3 [Protection] vào lượt tiếp theo (1 lần mỗi lượt)",
+          "name": "Mệnh lệnh né tránh",
+          "desc": "[OnSucceedEvade] Nhận 3 [Smoke], Số lượng [Smoke] tăng thêm 1\n[OnSucceedEvade] Nếu [Smoke] của bản thân là 10, nhận 1 [ParryingResultUp] và 3 [Protection] vào lượt tiếp theo (1 lần mỗi lượt)",
           "coinlist": [
             {
               "coindescs": [
@@ -199,13 +199,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Bánh Răng Xác Thịt: Mệnh Lệnh",
-          "desc": "[WhenUse] Nhận 3 [Smoke], số lượt [Smoke] của bản thân tăng thêm 2",
+          "name": "Bánh răng thịt: Mệnh lệnh",
+          "desc": "[WhenUse] Nhận 3 [Smoke], Số lượng [Smoke] của bản thân tăng thêm 2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Áp đặt 3 [Smoke], số lượt [Smoke] tăng thêm 2"
+                  "desc": "[OnSucceedAttack] Gây 3 [Smoke], Số lượng [Smoke] tăng thêm 2"
                 }
               ]
             }
@@ -218,16 +218,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Bánh Răng Tư Duy: Tiếp Tế",
-          "desc": "[WhenUse] Nhận 4 [Smoke], số lượt [Smoke] của bản thân tăng thêm 2",
+          "name": "Bánh răng tư duy: Tiếp tế",
+          "desc": "[WhenUse] Nhận 4 [Smoke], Số lượng [Smoke] của bản thân tăng thêm 2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Áp đặt 4 [Smoke], số lượt [Smoke] tăng thêm 2"
+                  "desc": "[OnSucceedAttack] Gây 4 [Smoke], Số lượng [Smoke] tăng thêm 2"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Áp đặt 1 [Paralysis] vào lượt tiếp theo"
+                  "desc": "[OnSucceedAttackHead] Gây 1 [Paralysis] vào lượt tiếp theo"
                 }
               ]
             }
@@ -240,20 +240,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Bánh Răng Xác Thịt: Hạn Chế",
-          "desc": "Mỗi 3 [Smoke] trên mục tiêu, Uy lực Đối đầu +1\nMỗi 3 [Smoke] của bản thân, Sát thương +10%\nKhi kỹ năng này tung lại đồng xu, tiêu hao 3 [Smoke] của bản thân\n[WhenUse] Nếu bản thân có 10 [Smoke], Uy lực Đồng xu +1",
+          "name": "Bánh răng thịt: Hạn chế",
+          "desc": "Với mỗi 3 [Smoke] trên mục tiêu, Sức mạnh Đồng xu +1\nVới mỗi 3 [Smoke] của bản thân, Sát thương +10%\nMỗi khi Kĩ năng này sử dụng lại đồng xu, tiêu hao 3 [Smoke] của bản thân\n[WhenUse] Nếu [Smoke] của bản thân là 10, Sức mạnh Đồng xu +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lượt [Smoke] tăng thêm 1"
+                  "desc": "[OnSucceedAttack] Số lượng [Smoke] tăng thêm 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Mỗi 5 [Smoke] trên mục tiêu, tung lại đồng xu (Kích hoạt tối đa 2 lần)"
+                  "desc": "[OnSucceedAttack] Với mỗi 5 [Smoke] trên mục tiêu, sử dụng lại đồng xu (Kích hoạt tối đa 2 lần)"
                 }
               ]
             }
@@ -266,27 +266,27 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Bánh Răng Tư Duy: Giải Trừ",
-          "desc": "Mỗi 3 [Smoke] trên mục tiêu, Uy lực Đối đầu +1\nMỗi 3 [Smoke] của bản thân, Sát thương +20%\n[WhenUse] Nếu bản thân có 10 [Smoke], Uy lực Đồng xu +2\n[EndSkill] Tiêu hao toàn bộ [Smoke] của bản thân",
+          "name": "Bánh răng tư duy: Giải trừ",
+          "desc": "Với mỗi 3 [Smoke] trên mục tiêu, Sức mạnh Đối kháng +1\nVới mỗi 3 [Smoke] của bản thân, Sát thương +20%\n[WhenUse] Nếu [Smoke] của bản thân là 10, Sức mạnh Đồng xu +2\n[EndSkill] Tiêu hao toàn bộ [Smoke] của bản thân",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Áp đặt 3 [Smoke]"
+                  "desc": "[OnSucceedAttack] Gây 3 [Smoke]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lượt [Smoke] tăng thêm 2"
+                  "desc": "[OnSucceedAttack] Số lượng [Smoke] tăng thêm 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Với mỗi 3 [Smoke] trên mục tiêu, tái sử dụng xu (Kích hoạt tối đa 3 lần)"
+                  "desc": "[OnSucceedAttack] Với mỗi 3 [Smoke] trên mục tiêu, sử dụng lại đồng xu (Kích hoạt tối đa 3 lần)"
                 }
               ]
             }
@@ -299,8 +299,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Bánh răng Tư duy: Hơi nước",
-          "desc": "[WhenUse] Nhận 5 [Smoke], số lần [Smoke] tăng thêm 2\n[WhenUse] Nếu [Smoke] của bản thân là 10, nhận [PlusCoinValueUp] 2 và [Protection] 3 ở lượt tiếp theo (1 lần mỗi lượt)",
+          "name": "Bánh răng tư duy: Hơi nước",
+          "desc": "[WhenUse] Nhận 5 [Smoke], Số lượng [Smoke] tăng thêm 2\n[WhenUse] Nếu [Smoke] của bản thân là 10, nhận 2 [PlusCoinValueUp] và 3 [Protection] vào lượt tiếp theo (1 lần mỗi lượt)",
           "coinlist": [
             {}
           ]

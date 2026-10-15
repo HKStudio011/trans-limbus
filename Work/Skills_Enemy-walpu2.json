@@ -11,7 +11,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Ban 2 Xuất huyết. Nếu mục tiêu có Xuất huyết, ban thêm 1 số lần Xuất huyết"
+                                    "desc": "[OnSucceedAttack] Gây 2 Xuất huyết. Nếu mục tiêu có Xuất huyết, gây thêm +1 Số lượng Xuất huyết"
                                 }
                             ]
                         }
@@ -30,14 +30,14 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Số lần Xuất huyết tăng thêm 2"
+                                    "desc": "[OnSucceedAttack] Số lượng Xuất huyết tăng thêm 2"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Ban 2 Xuất huyết"
+                                    "desc": "[OnSucceedAttack] Gây 2 Xuất huyết"
                                 }
                             ]
                         }
@@ -50,27 +50,27 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Khổ Hình",
-                    "desc": "Ưu tiên tấn công mục tiêu đang bị Xuất huyết",
+                    "name": "Khổ đau",
+                    "desc": "Ưu tiên tấn công mục tiêu có Xuất huyết",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Nếu mục tiêu có Xuất huyết, gây thêm sát thương bằng 10% lượng sát thương gây ra"
+                                    "desc": "[OnSucceedAttack] Nếu mục tiêu có Xuất huyết, gây thêm sát thương bằng 10% lượng sát thương đã gây ra"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Nếu mục tiêu có Xuất huyết, gây thêm sát thương bằng 10% lượng sát thương gây ra"
+                                    "desc": "[OnSucceedAttack] Nếu mục tiêu có Xuất huyết, gây thêm sát thương bằng 10% lượng sát thương đã gây ra"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Ban Xuất huyết tương ứng với trị số Xuất huyết của mục tiêu"
+                                    "desc": "[OnSucceedAttack] Gây Xuất huyết bằng với lượng Xuất huyết của mục tiêu"
                                 }
                             ]
                         }
@@ -84,7 +84,7 @@
                 {
                     "level": 1,
                     "name": "Phòng Thủ",
-                    "desc": "Trong khi có lá chắn, khi nhận sát thương, ban 2 Xuất huyết vào lượt kế tiếp",
+                    "desc": "Nếu có HP Lá chắn, khi bị đánh trúng, gây 2 Xuất huyết vào lượt tiếp theo",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -108,7 +108,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Ban 3 Xuất huyết. Nếu mục tiêu có Xuất huyết, ban thêm 2 số lần Xuất huyết"
+                                    "desc": "[OnSucceedAttack] Gây 3 Xuất huyết. Nếu mục tiêu có Xuất huyết, gây thêm +2 Số lượng Xuất huyết"
                                 }
                             ]
                         }
@@ -127,7 +127,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Số lượng Xuất huyết tăng 2"
+                                    "desc": "[OnSucceedAttack] Số lượng Xuất huyết tăng thêm 2"
                                 }
                             ]
                         },
@@ -147,33 +147,33 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Thống khổ",
-                    "desc": "Ưu tiên tấn công mục tiêu có Xuất huyết\nNếu tiêu diệt mục tiêu bằng đòn tấn công của bản thân, kẻ địch có Tinh thần thấp nhất bị giảm 10 Tinh thần.",
+                    "name": "Khổ đau",
+                    "desc": "Ưu tiên tấn công mục tiêu có Xuất huyết\nNếu tiêu diệt mục tiêu bằng đòn tấn công của bản thân, kẻ địch có Tinh thần thấp nhất mất 10 Tinh thần.",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Nếu mục tiêu có Xuất huyết, gây thêm sát thương bằng 10% lượng sát thương gây ra"
+                                    "desc": "[OnSucceedAttack] Nếu mục tiêu có Xuất huyết, gây thêm sát thương bằng 10% lượng sát thương đã gây ra"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttackHead] Gây sát thương Tinh thần bằng với số lượng Xuất huyết của mục tiêu"
+                                    "desc": "[OnSucceedAttackHead] Gây sát thương Tinh thần bằng với lượng Xuất huyết của mục tiêu"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Nếu mục tiêu có Xuất huyết, gây thêm sát thương bằng 10% lượng sát thương gây ra"
+                                    "desc": "[OnSucceedAttack] Nếu mục tiêu có Xuất huyết, gây thêm sát thương bằng 10% lượng sát thương đã gây ra"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttackHead] Gây sát thương Tinh thần bằng với số lượng Xuất huyết của mục tiêu"
+                                    "desc": "[OnSucceedAttackHead] Gây sát thương Tinh thần bằng với lượng Xuất huyết của mục tiêu"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây Xuất huyết bằng với số lượng Xuất huyết của mục tiêu"
+                                    "desc": "[OnSucceedAttack] Gây Xuất huyết bằng với lượng Xuất huyết của mục tiêu"
                                 }
                             ]
                         }
@@ -211,7 +211,7 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây 3 Xuất huyết. Nếu mục tiêu có Xuất huyết, gây thêm 2 số lượng Xuất huyết"
+                                    "desc": "[OnSucceedAttack] Gây 3 Xuất huyết. Nếu mục tiêu có Xuất huyết, gây thêm +2 Số lượng Xuất huyết"
                                 }
                             ]
                         }
@@ -224,13 +224,13 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Đâm nát",
+                    "name": "Đâm Nát",
                     "desc": "",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Số lượng Xuất huyết tăng 3"
+                                    "desc": "[OnSucceedAttack] Số lượng Xuất huyết tăng thêm 3"
                                 }
                             ]
                         },
@@ -250,8 +250,8 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Thống Khổ",
-                    "desc": "Ưu tiên tấn công mục tiêu có Xuất huyết.\nNếu tự tay tiêu diệt mục tiêu, Tinh thần của kẻ địch có Tinh thần thấp nhất giảm 10.\nNếu tự tay tiêu diệt mục tiêu, tái sử dụng kỹ năng lên mục tiêu khác.",
+                    "name": "Khổ đau",
+                    "desc": "Ưu tiên tấn công mục tiêu có Xuất huyết\nNếu tiêu diệt mục tiêu bằng đòn tấn công của bản thân, kẻ địch có Tinh thần thấp nhất mất 10 Tinh thần.\nNếu tiêu diệt mục tiêu bằng đòn tấn công của bản thân, sử dụng lại Kĩ năng lên mục tiêu khác.",
                     "coinlist": [
                         {
                             "coindescs": [
@@ -259,7 +259,7 @@
                                     "desc": "[OnSucceedAttack] Nếu mục tiêu có Xuất huyết, gây thêm sát thương bằng 20% lượng sát thương đã gây ra"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Gây sát thương Tinh thần tương ứng với số Xuất huyết của mục tiêu"
+                                    "desc": "[OnSucceedAttack] Gây sát thương Tinh thần bằng với lượng Xuất huyết của mục tiêu"
                                 }
                             ]
                         },
@@ -269,17 +269,17 @@
                                     "desc": "[OnSucceedAttack] Nếu mục tiêu có Xuất huyết, gây thêm sát thương bằng 20% lượng sát thương đã gây ra"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Gây sát thương Tinh thần tương ứng với số Xuất huyết của mục tiêu"
+                                    "desc": "[OnSucceedAttack] Gây sát thương Tinh thần bằng với lượng Xuất huyết của mục tiêu"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây Xuất huyết tương ứng với số Xuất huyết của mục tiêu"
+                                    "desc": "[OnSucceedAttack] Gây Xuất huyết bằng với lượng Xuất huyết của mục tiêu"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Nếu số Xuất huyết của mục tiêu từ 10 trở lên, tái sử dụng đồng xu này (Tối đa 1 lần)"
+                                    "desc": "[OnSucceedAttack] Nếu Xuất huyết của mục tiêu từ 10 trở lên, sử dụng lại đồng xu này (Tối đa 1 lần)"
                                 }
                             ]
                         }
@@ -292,7 +292,7 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Phản Đòn",
+                    "name": "Phản kích",
                     "desc": "",
                     "coinlist": [
                         {
@@ -317,10 +317,10 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Gây 4 Xuất huyết. Nếu mục tiêu có Xuất huyết, gây thêm 2 số lượng Xuất huyết"
+                                    "desc": "[OnSucceedAttack] Gây 4 Xuất huyết. Nếu mục tiêu có Xuất huyết, gây thêm +2 Số lượng Xuất huyết"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttackHead] Số lượng Xuất huyết tăng 2"
+                                    "desc": "[OnSucceedAttackHead] Số lượng Xuất huyết tăng thêm 2"
                                 }
                             ]
                         },
@@ -330,7 +330,7 @@
                                     "desc": "[OnSucceedAttack] Gây 3 Xuất huyết"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttackHead] Số lượng Xuất huyết tăng 2"
+                                    "desc": "[OnSucceedAttackHead] Số lượng Xuất huyết tăng thêm 2"
                                 }
                             ]
                         }
@@ -349,21 +349,21 @@
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Số lần Xuất huyết tăng 3"
+                                    "desc": "[OnSucceedAttack] Số lượng Xuất huyết tăng thêm 3"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Áp đặt 5 Xuất huyết"
+                                    "desc": "[OnSucceedAttack] Gây 5 Xuất huyết"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Áp đặt 5 Xuất huyết"
+                                    "desc": "[OnSucceedAttack] Gây 5 Xuất huyết"
                                 }
                             ]
                         }
@@ -376,43 +376,43 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Khổ hình",
-                    "desc": "Ưu tiên tấn công mục tiêu có Xuất huyết\nNếu tiêu diệt mục tiêu bằng đòn tấn công của bản thân, Tinh thần của kẻ địch có Tinh thần thấp nhất giảm 15.\nNếu tiêu diệt mục tiêu bằng đòn tấn công của bản thân, sử dụng lại kỹ năng lên mục tiêu khác.",
+                    "name": "Khổ đau",
+                    "desc": "Ưu tiên tấn công mục tiêu có Xuất huyết\nNếu tiêu diệt mục tiêu bằng đòn tấn công của bản thân, kẻ địch có Tinh thần thấp nhất mất 15 Tinh thần.\nNếu tiêu diệt mục tiêu bằng đòn tấn công của bản thân, sử dụng lại Kĩ năng lên mục tiêu khác.",
                     "coinlist": [
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Nếu mục tiêu có Xuất huyết, gây thêm sát thương bằng 20% lượng sát thương gây ra"
+                                    "desc": "[OnSucceedAttack] Nếu mục tiêu có Xuất huyết, gây thêm sát thương bằng 20% lượng sát thương đã gây ra"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Gây sát thương Tinh thần bằng (Xuất huyết của mục tiêu ÷ 2)"
+                                    "desc": "[OnSucceedAttack] Gây sát thương Tinh thần bằng (lượng Xuất huyết của mục tiêu ÷ 2)"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Nếu mục tiêu có Xuất huyết, gây thêm sát thương bằng 20% lượng sát thương gây ra"
+                                    "desc": "[OnSucceedAttack] Nếu mục tiêu có Xuất huyết, gây thêm sát thương bằng 20% lượng sát thương đã gây ra"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Gây sát thương Tinh thần bằng (Xuất huyết của mục tiêu ÷ 2)"
+                                    "desc": "[OnSucceedAttack] Gây sát thương Tinh thần bằng (lượng Xuất huyết của mục tiêu ÷ 2)"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Nếu mục tiêu có Xuất huyết, gây thêm sát thương bằng 20% lượng sát thương gây ra"
+                                    "desc": "[OnSucceedAttack] Nếu mục tiêu có Xuất huyết, gây thêm sát thương bằng 20% lượng sát thương đã gây ra"
                                 },
                                 {
-                                    "desc": "[OnSucceedAttack] Gây sát thương Tinh thần bằng (Xuất huyết của mục tiêu ÷ 2)"
+                                    "desc": "[OnSucceedAttack] Gây sát thương Tinh thần bằng (lượng Xuất huyết của mục tiêu ÷ 2)"
                                 }
                             ]
                         },
                         {
                             "coindescs": [
                                 {
-                                    "desc": "[OnSucceedAttack] Áp đặt lượng Xuất huyết bằng với số Xuất huyết hiện có của mục tiêu"
+                                    "desc": "[OnSucceedAttack] Gây Xuất huyết bằng với lượng Xuất huyết của mục tiêu"
                                 },
                                 {
                                     "desc": "[OnSucceedAttack] Nếu Xuất huyết của mục tiêu từ 7 trở lên, sử dụng lại đồng xu này (Tối đa 1 lần)"
@@ -428,7 +428,7 @@
             "levelList": [
                 {
                     "level": 1,
-                    "name": "Phản công",
+                    "name": "Phản kích",
                     "desc": "",
                     "coinlist": [
                         {}

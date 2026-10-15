@@ -6,7 +6,7 @@
         {
           "level": 1,
           "name": "Không có lương tâm à?",
-          "desc": "[WhenUse] Số lần [Vibration] của bản thân tăng 2\n[WhenUse] Nếu số lần [Vibration] của bản thân từ 5 trở lên, Sức mạnh Giao tranh +1",
+          "desc": "[WhenUse] Số lượng [Vibration] của bản thân tăng thêm 2\n[WhenUse] Nếu số lượng [Vibration] của bản thân từ 5 trở lên, Sức mạnh Đối kháng +1",
           "coinlist": [
             {
               "coindescs": [
@@ -32,7 +32,7 @@
         {
           "level": 1,
           "name": "Đúng là không có lương tâm mà.",
-          "desc": "[WhenUse] Số lần [Vibration] của bản thân tăng 2\n[WhenUse] Nếu số lần [Vibration] của bản thân từ 5 trở lên, Sức mạnh Giao tranh +1",
+          "desc": "[WhenUse] Số lượng [Vibration] của bản thân tăng thêm 2\n[WhenUse] Nếu số lượng [Vibration] của bản thân từ 5 trở lên, Sức mạnh Đối kháng +1",
           "coinlist": [
             {
               "coindescs": [
@@ -58,7 +58,7 @@
         {
           "level": 1,
           "name": "Bảo vệ được không?",
-          "desc": "[WhenUse] Số lần [Vibration] của bản thân tăng 2\n[WhenUse] Nếu số lần [Vibration] của bản thân từ 5 trở lên, Sức mạnh Giao tranh +1",
+          "desc": "[WhenUse] Số lượng [Vibration] của bản thân tăng thêm 2\n[WhenUse] Nếu số lượng [Vibration] của bản thân từ 5 trở lên, Sức mạnh Đối kháng +1",
           "coinlist": [
             {
               "coindescs": [
@@ -70,10 +70,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Nếu số lần [Vibration] của bản thân từ 10 trở lên, [VibrationExplosion]. Số lần [Vibration] của mục tiêu giảm 1"
+                  "desc": "[OnSucceedAttack] Nếu số lượng [Vibration] của bản thân từ 10 trở lên, [VibrationExplosion]. Số lượng [Vibration] của mục tiêu giảm 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Nếu cấp độ [Vibration] của mục tiêu từ 15 trở lên, [VibrationExplosion]. Số lần [Vibration] của mục tiêu giảm 1"
+                  "desc": "[OnSucceedAttack] Nếu Cường độ [Vibration] của mục tiêu từ 15 trở lên, [VibrationExplosion]. Số lượng [Vibration] của mục tiêu giảm 1"
                 }
               ]
             }
@@ -87,7 +87,7 @@
         {
           "level": 1,
           "name": "Vũ khí đó sẽ không dùng được nữa đâu đấy?",
-          "desc": "[WhenUse] Số lần [Vibration] của bản thân tăng 3\n[WhenUse] Nếu số lần [Vibration] của bản thân từ 5 trở lên, Sức mạnh Giao tranh +1",
+          "desc": "[WhenUse] Số lượng [Vibration] của bản thân tăng thêm 3\n[WhenUse] Nếu số lượng [Vibration] của bản thân từ 5 trở lên, Sức mạnh Đối kháng +1",
           "coinlist": [
             {
               "coindescs": [
@@ -120,7 +120,7 @@
         {
           "level": 1,
           "name": "Hẳn là đã chuẩn bị tâm lý rồi chứ?",
-          "desc": "Ưu tiên tấn công mục tiêu có [VibrationCollapse]\n[WhenUse] Gây số lần [Vibration] bằng số lần [Vibration] của bản thân cho toàn bộ đồng đội trừ bản thân\n[WhenUse] [Switch_Vibration] [Vibration] của tất cả đồng đội bao gồm bản thân sang [VibrationDistribution]\n[DefeatDuel] Sát thương gây ra giảm 80%, sát thương của kỹ năng này không khiến mục tiêu bị Choáng",
+          "desc": "Ưu tiên tấn công mục tiêu có [VibrationCollapse]\n[WhenUse] Gây số lượng [Vibration] bằng với số lượng [Vibration] của bản thân lên toàn bộ đồng đội trừ bản thân\n[WhenUse] Kích hoạt [Switch_Vibration] để chuyển [Vibration] của tất cả đồng đội, bao gồm bản thân, sang [VibrationDistribution]\n[DefeatDuel] Sát thương gây ra giảm 80%, sát thương của kĩ năng này không khiến mục tiêu bị Choáng",
           "coinlist": [
             {
               "coindescs": [
@@ -152,7 +152,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [FusionVibration] vào [VibrationEcho]"
+                  "desc": "[OnSucceedAttack] Kích hoạt [FusionVibration] thành [VibrationEcho]"
                 }
               ]
             }
@@ -166,7 +166,7 @@
         {
           "level": 1,
           "name": "Phòng thủ",
-          "desc": "[StartBattle] Nhận Lá chắn bằng 5 lần số lần [Vibration] của bản thân (Tối đa 60)",
+          "desc": "[StartBattle] Nhận Lá chắn bằng 5 lần số lượng [Vibration] của bản thân (Tối đa 60)",
           "coinlist": [
             {
               "coindescs": [
@@ -185,7 +185,7 @@
         {
           "level": 1,
           "name": "Thu hồi vì đại nghĩa",
-          "desc": "[CantDuel]\n[StartBattle] Bản thân nhận số lần [Vibration] từ toàn bộ đồng đội trừ bản thân, và xóa bỏ [Vibration] của toàn bộ đồng đội\n[StartBattle] Với mỗi 3 số lần [Vibration] của bản thân, nhận 1 [AttackUp]\n[WhenUse] Số lần [Vibration] của bản thân tăng 10",
+          "desc": "[CantDuel]\n[StartBattle] Bản thân nhận lấy số lượng [Vibration] của toàn bộ đồng đội trừ bản thân, và xóa bỏ [Vibration] của toàn bộ đồng đội\n[StartBattle] Với mỗi 3 số lượng [Vibration] của bản thân, nhận 1 [AttackUp]\n[WhenUse] Số lượng [Vibration] của bản thân tăng thêm 10",
           "coinlist": [
             {
               "coindescs": [
@@ -193,30 +193,30 @@
                   "desc": "[OnSucceedAttack] Gây 10 [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Với mỗi 1 số lần [Vibration] của bản thân, gây thêm 20% sát thương hệ Lười biếng"
+                  "desc": "[OnSucceedAttack] Với mỗi 1 số lượng [Vibration] của bản thân, gây thêm 20% sát thương hệ Lười biếng"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Số lần [Vibration] tăng 4"
+                  "desc": "[OnSucceedAttack] Số lượng [Vibration] tăng thêm 4"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Với mỗi 1 số lần [Vibration] của bản thân, gây thêm 20% sát thương hệ Lười biếng"
+                  "desc": "[OnSucceedAttack] Với mỗi 1 số lượng [Vibration] của bản thân, gây thêm 20% sát thương hệ Lười biếng"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Tiêu hao 1 số lần [Vibration] của bản thân, [VibrationExplosion]. Số lần [Vibration] của mục tiêu giảm 1"
+                  "desc": "[OnSucceedAttack] Tiêu hao 1 số lượng [Vibration] của bản thân, [VibrationExplosion]. Số lượng [Vibration] của mục tiêu giảm 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Tiêu hao 1 số lần [Vibration] của bản thân, [VibrationExplosion]. Số lần [Vibration] của mục tiêu giảm 1"
+                  "desc": "[OnSucceedAttack] Tiêu hao 1 số lượng [Vibration] của bản thân, [VibrationExplosion]. Số lượng [Vibration] của mục tiêu giảm 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Tiêu hao 1 số lần [Vibration] của bản thân, [VibrationExplosion]. Số lần [Vibration] của mục tiêu giảm 1"
+                  "desc": "[OnSucceedAttack] Tiêu hao 1 số lượng [Vibration] của bản thân, [VibrationExplosion]. Số lượng [Vibration] của mục tiêu giảm 1"
                 }
               ]
             }
