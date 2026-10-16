@@ -14,7 +14,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Nếu mục tiêu có [CandyForCharon], mục tiêu sẽ rơi vào trạng thái Hoảng loạn vào lượt kế tiếp."
+                  "desc": "[OnSucceedAttack] Nếu mục tiêu có [CandyForCharon], mục tiêu bị Choáng vào lượt tiếp theo."
                 }
               ]
             }
@@ -46,7 +46,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Lũ các người...",
+          "name": "Các người...",
           "desc": "",
           "coinlist": [
             {
@@ -72,8 +72,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "...Comi, giận rồi.",
-          "desc": "[BeforeAttack] Tăng Trọng số Tấn công dựa trên số lượng Bản thể có [CandyForCharon]\n[WhenUse] Tăng Uy lực Đối đầu dựa trên số lượng Bản thể có [CandyForCharon]",
+          "name": "...Kkomi, nổi giận rồi.",
+          "desc": "[BeforeAttack] Trọng lượng Tấn công +1 cho mỗi kẻ địch có [CandyForCharon]\n[WhenUse] Sức mạnh Đối kháng +1 cho mỗi kẻ địch có [CandyForCharon]",
           "coinlist": [
             {
               "coindescs": [
@@ -99,7 +99,7 @@
         {
           "level": 1,
           "name": "Vroom vroom",
-          "desc": "[WhenUse] Tăng Uy lực Đối đầu dựa trên số lượng Bản thể có [CandyForCharon]\nSát thương +10% dựa trên số lượng Bản thể có [CandyForCharon] (Tối đa 100%)",
+          "desc": "[WhenUse] Sức mạnh Đối kháng +1 cho mỗi Bản sắc có [CandyForCharon]\nSát thương gây ra +10% cho mỗi Bản sắc có [CandyForCharon] (Tối đa 100%)",
           "coinlist": [
             {},
             {}
@@ -112,8 +112,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Đã đánh. Comi.",
-          "desc": "[WhenUse] Nhận [ParryingResultUp]2, [Agility]2 vào lượt tiếp theo",
+          "name": "Đã đánh. Kkomi.",
+          "desc": "[WhenUse] Nhận 2 [ParryingResultUp] và 2 [Agility] vào lượt tiếp theo",
           "coinlist": [
             {
               "coindescs": [
