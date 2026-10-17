@@ -1853,6 +1853,15 @@
     "Skills_personality-05.json"
    ],
    "note": "Batch44 phan 1: 10 file (P06/P07 cho retry sau)"
+  },
+  {
+   "ts": "2026-10-17T06:17:38.237Z",
+   "action": "done",
+   "files": [
+    "Skills_personality-06.json",
+    "Skills_personality-07.json"
+   ],
+   "note": "Batch44 phan 2 (retry OK)"
   }
  ],
  "files": {
@@ -17156,28 +17165,42 @@
   "Skills_personality-06.json": {
    "group": "gameplay",
    "size": 143446,
-   "status": "in_progress",
+   "status": "done",
    "attempts": 1,
    "history": [
     {
      "ts": "2026-10-15T19:20:21.202Z",
      "action": "claim"
+    },
+    {
+     "ts": "2026-10-17T06:17:38.236Z",
+     "action": "done",
+     "note": "Batch44 phan 2 (retry OK)"
     }
    ],
-   "started": "2026-10-15T19:20:21.202Z"
+   "started": "2026-10-15T19:20:21.202Z",
+   "finished": "2026-10-17T06:17:38.236Z",
+   "note": "Batch44 phan 2 (retry OK)"
   },
   "Skills_personality-07.json": {
    "group": "gameplay",
    "size": 129701,
-   "status": "in_progress",
+   "status": "done",
    "attempts": 1,
    "history": [
     {
      "ts": "2026-10-15T19:20:21.202Z",
      "action": "claim"
+    },
+    {
+     "ts": "2026-10-17T06:17:38.236Z",
+     "action": "done",
+     "note": "Batch44 phan 2 (retry OK)"
     }
    ],
-   "started": "2026-10-15T19:20:21.202Z"
+   "started": "2026-10-15T19:20:21.202Z",
+   "finished": "2026-10-17T06:17:38.236Z",
+   "note": "Batch44 phan 2 (retry OK)"
   },
   "Skills_personality-08.json": {
    "group": "gameplay",
@@ -25410,5 +25433,5 @@
    "history": []
   }
  },
- "updated": "2026-10-16T04:10:28.983Z"
+ "updated": "2026-10-17T06:17:38.237Z"
 }
