@@ -14,7 +14,7 @@
     },
     {
       "id": "GetEgogift",
-      "content": "<color=#ebcaa2>Sự kiện nhận E.G.O Gift ngẫu nhiên xảy ra!</color>"
+      "content": "<color=#ebcaa2>Sự kiện nhận Quà lưu niệm E.G.O ngẫu nhiên xảy ra!</color>"
     },
     {
       "id": "GetCharacter",
@@ -26,7 +26,7 @@
     },
     {
       "id": "GetConfirmedEgogiftOnWinBattle",
-      "content": "<color=#ebcaa2>Khi chiến thắng trận kế tiếp, nhận E.G.O Gift {reward}!</color>"
+      "content": "<color=#ebcaa2>Khi chiến thắng trận kế tiếp, nhận Quà lưu niệm E.G.O {reward}!</color>"
     },
     {
       "id": "StartBattle",
@@ -66,11 +66,11 @@
     },
     {
       "id": "LoseHpOnly",
-      "content": "<color=#ebcaa2>{conditions}{targets}</color> <color=#e30000>nhận {amount} sát thương</color><color=#ebcaa2> Máu!</color>"
+      "content": "<color=#ebcaa2>{targets} {conditions}</color> <color=#ebcaa2>nhận</color> <color=#e30000>{amount} sát thương Máu!</color>"
     },
     {
       "id": "LoseMpOnly",
-      "content": "<color=#ebcaa2>{conditions}{targets}</color> <color=#fe4b48>nhận {amount} sát thương</color><color=#ebcaa2> Tinh thần!</color>"
+      "content": "<color=#ebcaa2>{targets} {conditions}</color> <color=#ebcaa2>nhận</color> <color=#fe4b48>{amount} sát thương Tinh thần!</color>"
     },
     {
       "id": "RecoverHpMpSameAmount",
@@ -78,31 +78,31 @@
     },
     {
       "id": "RecoverHpMpDifferentAmount",
-      "content": "<color=#ebcaa2>{conditions}{targets}</color> <color=#00ff9c>hồi {hpAmount} Máu</color><color=#ebcaa2>, </color><color=#80c9ff>hồi {mpAmount} Tinh thần</color>"
+      "content": "<color=#ebcaa2>{targets} {conditions}</color> <color=#ebcaa2>hồi</color> <color=#00ff9c>{hpAmount} Máu</color> và <color=#80c9ff>{mpAmount} Tinh thần</color>"
     },
     {
       "id": "LoseHpMpSameAmount",
-      "content": "<color=#ebcaa2>{conditions}{targets}</color> <color=#ebcaa2>nhận</color> <color=#e30000>{amount} sát thương Máu</color> và <color=#fe4b48>Tinh thần!</color>"
+      "content": "<color=#ebcaa2>{targets} {conditions}</color> <color=#ebcaa2>nhận</color> <color=#e30000>{amount} sát thương Máu</color> và <color=#fe4b48>sát thương Tinh thần!</color>"
     },
     {
       "id": "LoseHpMpDifferentAmount",
-      "content": "<color=#ebcaa2>{conditions}{targets}</color> <color=#e30000>nhận {hpAmount} sát thương Máu</color><color=#ebcaa2>, </color><color=#fe4b48>nhận {mpAmount} sát thương Tinh thần!</color>"
+      "content": "<color=#ebcaa2>{targets} {conditions}</color> <color=#ebcaa2>nhận</color> <color=#e30000>{hpAmount} sát thương Máu</color> và <color=#fe4b48>{mpAmount} sát thương Tinh thần!</color>"
     },
     {
       "id": "GetConfirmedEgogift",
-      "content": "<color=#ebcaa2>Nhận E.G.O Gift {reward}!</color>"
+      "content": "<color=#ebcaa2>Nhận Quà lưu niệm E.G.O {reward}!</color>"
     },
     {
       "id": "GetConfirmedStackableEgogift",
-      "content": "<color=#ebcaa2>Nhận {stack} E.G.O Gift {reward}!</color>"
+      "content": "<color=#ebcaa2>Nhận {stack} Quà lưu niệm E.G.O {reward}!</color>"
     },
     {
       "id": "LoseConfirmedStackableEgogift",
-      "content": "<color=#ebcaa2>Mất {stack} E.G.O Gift {reward}!</color>"
+      "content": "<color=#ebcaa2>Mất {stack} Quà lưu niệm E.G.O {reward}!</color>"
     },
     {
       "id": "GetBuff_OnStageStart",
-      "content": "<color=#ebcaa2>Khi bắt đầu màn chơi ở trận kế tiếp, {conditional}{target} nhận {stack} {buffName}</color>"
+      "content": "<color=#ebcaa2>{target} {conditional} sẽ bước vào trận chiến kế tiếp với {stack} {buffName}.</color>"
     },
     {
       "id": "UnlockHiddenRoute",
@@ -110,11 +110,11 @@
     },
     {
       "id": "ReduceEnemyWave",
-      "content": "<color=#ebcaa2>Trong trận kế tiếp, số lượng lượt(wave) kẻ địch giảm {waveNum}</color>"
+      "content": "<color=#ebcaa2>Trong trận kế tiếp, số làn sóng kẻ địch giảm {waveNum}</color>"
     },
     {
       "id": "DestroyEgogift",
-      "content": "<color=#ebcaa2>E.G.O Gift {reward}</color> <color=#e30000>biến mất!</color>"
+      "content": "<color=#ebcaa2>Quà lưu niệm E.G.O {reward}</color> <color=#e30000>bị phá hủy!</color>"
     },
     {
       "id": "Choice_90103301",
@@ -122,7 +122,7 @@
     },
     {
       "id": "Choice_901001",
-      "content": "<color=#ebcaa2>Khi bắt đầu trận chiến,</color><color=#a0392b> các Thân phận không sở hữu kỹ năng tấn công hệ Phẫn nộ</color> <color=#ebcaa2>sẽ nhận</color> <color=#e30000>5 sát thương Phẫn nộ</color>"
+      "content": "<color=#ebcaa2>Khi bắt đầu trận chiến,</color><color=#a0392b> các đồng minh không sở hữu Kĩ năng Tấn công thuộc tính Phẫn nộ</color> <color=#ebcaa2>sẽ nhận</color> <color=#e30000>5 sát thương Phẫn nộ</color>"
     },
     {
       "id": "Choice_901007",
@@ -130,11 +130,11 @@
     },
     {
       "id": "Choice_901009",
-      "content": "<color=#ebcaa2>Khi bắt đầu trận chiến,</color><color=#e30000> Uy lực Cuối của kỹ năng -1</color>"
+      "content": "<color=#ebcaa2>Khi bắt đầu trận chiến,</color><color=#e30000> Sức mạnh Cuối cùng của Kĩ năng -1</color>"
     },
     {
       "id": "Choice_901010",
-      "content": "<color=#ebcaa2>Khi bắt đầu trận chiến,</color> <color=#ebcaa2>các Thân phận không sở hữu</color> <color=#bb521f>kỹ năng tấn công hệ Sắc dục</color> <color=#ebcaa2>sẽ bắt đầu ở trạng thái Choáng</color>"
+      "content": "<color=#ebcaa2>Khi bắt đầu trận chiến,</color> <color=#ebcaa2>các đơn vị đồng minh không sở hữu</color> <color=#bb521f>Kĩ năng Tấn công thuộc tính Sắc dục</color> <color=#ebcaa2>sẽ bắt đầu ở trạng thái Choáng</color>"
     },
     {
       "id": "Choice_901019",
@@ -154,159 +154,159 @@
     },
     {
       "id": "Choice_1031001",
-      "content": "<color=#ebcaa2>Thân phận đã chọn</color> <color=#ebcaa2>sẽ nhận</color> <color=#e30000>Giảm Sát thương 3</color> <color=#ebcaa2>trong 2 trận chiến kế tiếp</color>"
+      "content": "<color=#ebcaa2>Tù nhân đã chọn</color> <color=#ebcaa2>sẽ nhận</color> <color=#e30000>Giảm Sát thương 3</color> <color=#ebcaa2>trong 2 trận chiến kế tiếp</color>"
     },
     {
       "id": "Choice_90100201",
-      "content": "<color=#ebcaa2>Tù nhân thất bại khi kiểm tra nhận</color> <color=#e30000>12 sát thương Máu</color> <color=#ebcaa2>và</color> <color=#fe4b48>8 sát thương Tinh thần</color> <color=#ebcaa2>!</color>"
+      "content": "<color=#ebcaa2>Tù nhân thất bại kiểm tra nhận</color> <color=#e30000>12 sát thương Máu</color> <color=#ebcaa2>và</color> <color=#fe4b48>8 sát thương Tinh thần</color> <color=#ebcaa2>!</color>"
     },
     {
       "id": "Choice_90100502",
-      "content": "<color=#ebcaa2>Tù nhân thất bại khi kiểm tra nhận</color> <color=#e30000>15 sát thương Máu</color> <color=#ebcaa2>và</color> <color=#fe4b48>12 sát thương Tinh thần</color> <color=#ebcaa2>!</color>"
+      "content": "<color=#ebcaa2>Tù nhân thất bại kiểm tra nhận</color> <color=#e30000>15 sát thương Máu</color> <color=#ebcaa2>và</color> <color=#fe4b48>12 sát thương Tinh thần</color> <color=#ebcaa2>!</color>"
     },
     {
       "id": "Choice_90101001",
-      "content": "<color=#ebcaa2>Các Bản sắc không sở hữu</color> <color=#bb521f>Skill tấn công hệ Sắc dục</color> <color=#ebcaa2>gây</color> <color=#fe4b48>10 sát thương Tinh thần</color> <color=#ebcaa2>!</color>"
+      "content": "<color=#ebcaa2>Các Bản sắc không sở hữu</color> <color=#bb521f>Kĩ năng Tấn công thuộc tính Sắc dục</color> <color=#ebcaa2>nhận</color> <color=#fe4b48>10 sát thương Tinh thần</color> <color=#ebcaa2>!</color>"
     },
     {
       "id": "Choice_90101101",
-      "content": "<color=#ebcaa2>Gây </color><color=#fe4b48>15 sát thương Tinh thần</color><color=#ebcaa2> cho Tù nhân thất bại trong việc kiểm tra!</color>"
+      "content": "<color=#ebcaa2>Gây </color><color=#fe4b48>15 sát thương Tinh thần</color><color=#ebcaa2> cho Tù nhân thất bại kiểm tra!</color>"
     },
     {
       "id": "Choice_90101701",
-      "content": "<color=#ebcaa2>Gây </color><color=#fe4b48>5 sát thương Tinh thần</color> <color=#ebcaa2>cho Tù nhân thành công trong việc kiểm tra!</color>"
+      "content": "<color=#ebcaa2>Gây </color><color=#fe4b48>5 sát thương Tinh thần</color> <color=#ebcaa2>cho Tù nhân vượt qua kiểm tra!</color>"
     },
     {
       "id": "Choice_90101702",
-      "content": "<color=#ebcaa2>Gây </color><color=#fe4b48>25 sát thương Tinh thần</color><color=#ebcaa2> cho Tù nhân thất bại trong việc kiểm tra!</color>"
+      "content": "<color=#ebcaa2>Gây </color><color=#fe4b48>25 sát thương Tinh thần</color><color=#ebcaa2> cho Tù nhân thất bại kiểm tra!</color>"
     },
     {
       "id": "Choice_90101801",
-      "content": "<color=#ebcaa2>Gây </color><color=#fe4b48>12 sát thương Tinh thần</color><color=#ebcaa2> cho Tù nhân thất bại trong việc kiểm tra!</color>"
+      "content": "<color=#ebcaa2>Gây </color><color=#fe4b48>12 sát thương Tinh thần</color><color=#ebcaa2> cho Tù nhân thất bại kiểm tra!</color>"
     },
     {
       "id": "Choice_90101901",
-      "content": "<color=#ebcaa2>Gây </color><color=#fe4b48>10 sát thương Tinh thần</color><color=#ebcaa2> cho Tù nhân thất bại trong việc kiểm tra!</color>"
+      "content": "<color=#ebcaa2>Gây </color><color=#fe4b48>10 sát thương Tinh thần</color><color=#ebcaa2> cho Tù nhân thất bại kiểm tra!</color>"
     },
     {
       "id": "Choice_90102001",
-      "content": "<color=#ebcaa2>Các Bản sắc không sở hữu</color> <color=#61822b>Skill tấn công hệ Phàm ăn</color> <color=#ebcaa2>gây</color> <color=#fe4b48>5 sát thương</color> <color=#ebcaa2>!</color>"
+      "content": "<color=#ebcaa2>Các Bản sắc không sở hữu</color> <color=#61822b>Kĩ năng Tấn công thuộc tính Phàm ăn</color> <color=#ebcaa2>nhận</color> <color=#fe4b48>5 sát thương</color> <color=#ebcaa2>!</color>"
     },
     {
       "id": "Choice_90102002",
-      "content": "<color=#ebcaa2>Các Bản sắc không sở hữu</color> <color=#61822b>Skill tấn công hệ Phàm ăn</color> <color=#ebcaa2>gây</color> <color=#fe4b48>10 sát thương</color> <color=#ebcaa2>!</color>"
+      "content": "<color=#ebcaa2>Các Bản sắc không sở hữu</color> <color=#61822b>Kĩ năng Tấn công thuộc tính Phàm ăn</color> <color=#ebcaa2>nhận</color> <color=#fe4b48>10 sát thương</color> <color=#ebcaa2>!</color>"
     },
     {
       "id": "Choice_90102201",
-      "content": "<color=#ebcaa2>Các Bản sắc không sở hữu</color> <color=#306471>Skill tấn công hệ U sầu</color> <color=#ebcaa2>gây</color> <color=#fe4b48>13 sát thương</color> <color=#ebcaa2>!</color>"
+      "content": "<color=#ebcaa2>Các Bản sắc không sở hữu</color> <color=#306471>Kĩ năng Tấn công thuộc tính U sầu</color> <color=#ebcaa2>nhận</color> <color=#fe4b48>13 sát thương</color> <color=#ebcaa2>!</color>"
     },
     {
       "id": "Choice_90103302",
-      "content": "<color=#ebcaa2>Các Bản sắc không sở hữu</color> <color=#7d4e94>Skill tấn công hệ Đố kỵ</color> <color=#fe4b48>gây</color> <color=#e30000>15 sát thương Máu</color> <color=#ebcaa2>và</color> <color=#fe4b48>15 sát thương Tinh thần</color> <color=#ebcaa2>!</color>"
+      "content": "<color=#ebcaa2>Các Bản sắc không sở hữu</color> <color=#7d4e94>Kĩ năng Tấn công thuộc tính Đố kỵ</color> <color=#fe4b48>gây</color> <color=#e30000>15 sát thương Máu</color> <color=#ebcaa2>và</color> <color=#fe4b48>15 sát thương Tinh thần</color> <color=#ebcaa2>!</color>"
     },
     {
       "id": "Choice_90100101",
-      "content": "<color=#ebcaa2>Các Bản sắc không sở hữu</color> <color=#a0392b>Skill tấn công hệ Phẫn nộ</color> <color=#ebcaa2>gây</color> <color=#fe4b48>16 sát thương</color> <color=#ebcaa2>!</color>"
+      "content": "<color=#ebcaa2>Các Bản sắc không sở hữu</color> <color=#a0392b>Kĩ năng Tấn công thuộc tính Phẫn nộ</color> <color=#ebcaa2>nhận</color> <color=#fe4b48>16 sát thương</color> <color=#ebcaa2>!</color>"
     },
     {
       "id": "Choice_901004",
-      "content": "<color=#a0392b>Skill tấn công hệ Phẫn nộ</color><color=#ebcaa2> hồi </color><color=#f8c200>15 Máu</color><color=#ebcaa2> cho Bản sắc sở hữu</color>"
+      "content": "<color=#ebcaa2>Các Bản sắc sở hữu</color> <color=#a0392b>Kĩ năng Tấn công thuộc tính Phẫn nộ</color> <color=#ebcaa2>hồi</color> <color=#f8c200>15 Máu.</color>"
     },
     {
       "id": "Choice_90100701",
-      "content": "<color=#bb521f>Skill tấn công hệ Sắc dục</color><color=#ebcaa2> của Bản sắc sở hữu được </color><color=#80c9ff>Tinh thần</color></color=#ebcaa2> hồi phục</color>"
+      "content": "<color=#ebcaa2>Các Bản sắc sở hữu</color> <color=#bb521f>Kĩ năng Tấn công thuộc tính Sắc dục</color> </color=#ebcaa2>hồi phục</color> <color=#80c9ff>Tinh thần.</color>"
     },
     {
       "id": "Choice_901008",
-      "content": "<color=#bb521f>Skill tấn công hệ Sắc dục</color><color=#ebcaa2> hồi </color><color=#f8c200>10 Máu</color><color=#ebcaa2> cho Bản sắc sở hữu</color>"
+      "content": "<color=#ebcaa2>Các Bản sắc sở hữu</color> <color=#bb521f>Kĩ năng Tấn công thuộc tính Sắc dục</color> <color=#ebcaa2>hồi</color> <color=#f8c200>10 Máu.</color>"
     },
     {
       "id": "Choice_90100901",
-      "content": "<color=#ebcaa2>Các Bản sắc không sở hữu</color> <color=#bb521f>Skill tấn công hệ Sắc dục</color> <color=#ebcaa2>gây</color> <color=#fe4b48>20 sát thương Tinh thần</color> <color=#ebcaa2>!</color>"
+      "content": "<color=#ebcaa2>Các Bản sắc không sở hữu</color> <color=#bb521f>Kĩ năng Tấn công thuộc tính Sắc dục</color> <color=#ebcaa2>nhận</color> <color=#fe4b48>20 sát thương Tinh thần</color> <color=#ebcaa2>!</color>"
     },
     {
       "id": "Choice_901014",
-      "content": "<color=#ebcaa2>Các Bản sắc không sở hữu</color> <color=#e48801>Skill tấn công hệ Lười biếng</color> <color=#ebcaa2>gây</color> <color=#fe4b48>20 sát thương</color> <color=#ebcaa2>!</color>"
+      "content": "<color=#ebcaa2>Các Bản sắc không sở hữu</color> <color=#e48801>Kĩ năng Tấn công thuộc tính Lười biếng</color> <color=#ebcaa2>nhận</color> <color=#fe4b48>20 sát thương</color> <color=#ebcaa2>!</color>"
     },
     {
       "id": "Choice_90101401",
-      "content": "<color=#ebcaa2>Các Bản sắc không sở hữu</color> <color=#e48801>Skill tấn công hệ Lười biếng</color> <color=#fe4b48>gây</color> <color=#fe4b48>12 sát thương Máu</color> <color=#ebcaa2>và</color> <color=#fe4b48>12 sát thương Tinh thần</color> <color=#ebcaa2>!</color>"
+      "content": "<color=#ebcaa2>Các Bản sắc không sở hữu</color> <color=#e48801>Kĩ năng Tấn công thuộc tính Lười biếng</color> <color=#fe4b48>gây</color> <color=#fe4b48>12 sát thương Máu</color> <color=#ebcaa2>và</color> <color=#fe4b48>12 sát thương Tinh thần</color> <color=#ebcaa2>!</color>"
     },
     {
       "id": "Choice_90101601",
-      "content": "<color=#61822b>Skill tấn công hệ Phàm ăn</color><color=#ebcaa2> của Bản sắc sở hữu được </color><color=#80c9ff>Tinh thần</color></color=#ebcaa2> hồi phục</color>"
+      "content": "<color=#ebcaa2>Các Bản sắc sở hữu</color> <color=#61822b>Kĩ năng Tấn công thuộc tính Phàm ăn</color> </color=#ebcaa2>hồi phục</color> <color=#80c9ff>Tinh thần.</color>"
     },
     {
       "id": "Choice_901018",
-      "content": "<color=#ebcaa2>1 Bản sắc ngẫu nhiên không sở hữu</color> <color=#a0392b>Skill tấn công hệ Phẫn nộ</color> <color=#ebcaa2>gây</color> <color=#fe4b48>10 sát thương</color> <color=#ebcaa2>!</color>"
+      "content": "<color=#ebcaa2>1 Bản sắc ngẫu nhiên không sở hữu</color> <color=#a0392b>Kĩ năng Tấn công thuộc tính Phẫn nộ</color> <color=#ebcaa2>nhận</color> <color=#fe4b48>10 sát thương</color> <color=#ebcaa2>!</color>"
     },
     {
       "id": "Choice_901021",
-      "content": "<color=#ebcaa2>Các Bản sắc không sở hữu</color> <color=#306471>Skill tấn công hệ U sầu</color> <color=#ebcaa2>gây</color> <color=#fe4b48>10 sát thương</color> <color=#ebcaa2>!</color>"
+      "content": "<color=#ebcaa2>Các Bản sắc không sở hữu</color> <color=#306471>Kĩ năng Tấn công thuộc tính U sầu</color> <color=#ebcaa2>nhận</color> <color=#fe4b48>10 sát thương</color> <color=#ebcaa2>!</color>"
     },
     {
       "id": "Choice_901023",
-      "content": "<color=#ebcaa2>Các Bản sắc không sở hữu</color> <color=#306471>Skill tấn công hệ U sầu</color> <color=#ebcaa2>gây</color> <color=#fe4b48>9 sát thương Tinh thần</color> <color=#ebcaa2>!</color>"
+      "content": "<color=#ebcaa2>Các Bản sắc không sở hữu</color> <color=#306471>Kĩ năng Tấn công thuộc tính U sầu</color> <color=#ebcaa2>nhận</color> <color=#fe4b48>9 sát thương Tinh thần</color> <color=#ebcaa2>!</color>"
     },
     {
       "id": "Choice_90102301",
-      "content": "<color=#ebcaa2>1 Bản sắc ngẫu nhiên không sở hữu</color> <color=#306471>Skill tấn công hệ U sầu</color> <color=#ebcaa2>gây</color> <color=#fe4b48>10 sát thương Tinh thần</color> <color=#ebcaa2>!</color>"
+      "content": "<color=#ebcaa2>1 Bản sắc ngẫu nhiên không sở hữu</color> <color=#306471>Kĩ năng Tấn công thuộc tính U sầu</color> <color=#ebcaa2>nhận</color> <color=#fe4b48>10 sát thương Tinh thần</color> <color=#ebcaa2>!</color>"
     },
     {
       "id": "Choice_901024",
-      "content": "<color=#306471>Skill tấn công hệ U sầu</color><color=#ebcaa2> của Bản sắc sở hữu có Tinh thần thấp nhất được </color><color=#f8c200>Máu</color></color=#ebcaa2> hồi đầy</color>"
+      "content": "<color=#ebcaa2>Bản sắc sở hữu</color> <color=#306471>Kĩ năng Tấn công thuộc tính U sầu</color> </color=#ebcaa2>có Tinh thần thấp nhất sẽ hồi đầy</color> <color=#f8c200>Máu.</color>"
     },
     {
       "id": "Choice_901025",
-      "content": "<color=#ebcaa2>Các Bản sắc không sở hữu</color> <color=#306471>Skill tấn công hệ U sầu</color> <color=#ebcaa2>gây</color> <color=#fe4b48>20 sát thương</color> <color=#ebcaa2>!</color>"
+      "content": "<color=#ebcaa2>Các Bản sắc không sở hữu</color> <color=#306471>Kĩ năng Tấn công thuộc tính U sầu</color> <color=#ebcaa2>nhận</color> <color=#fe4b48>20 sát thương</color> <color=#ebcaa2>!</color>"
     },
     {
       "id": "Choice_90102501",
-      "content": "<color=#306471>Skill tấn công hệ U sầu</color><color=#ebcaa2> hồi </color><color=#f8c200>20 Máu</color><color=#ebcaa2> cho Bản sắc sở hữu</color>"
+      "content": "<color=#ebcaa2>Các Bản sắc sở hữu</color> <color=#306471>Kĩ năng Tấn công thuộc tính U sầu</color> <color=#ebcaa2>hồi</color> <color=#f8c200>20 Máu.</color>"
     },
     {
       "id": "Choice_901026",
-      "content": "<color=#ebcaa2>Các Bản sắc không sở hữu</color> <color=#185188>Skill tấn công hệ Ngạo mạn</color> <color=#ebcaa2>gây</color> <color=#fe4b48>10 sát thương</color> <color=#ebcaa2>!</color>"
+      "content": "<color=#ebcaa2>Các Bản sắc không sở hữu</color> <color=#185188>Kĩ năng Tấn công thuộc tính Ngạo mạn</color> <color=#ebcaa2>nhận</color> <color=#fe4b48>10 sát thương</color> <color=#ebcaa2>!</color>"
     },
     {
       "id": "Choice_90102601",
-      "content": "<color=#185188>Skill tấn công hệ Ngạo mạn</color><color=#ebcaa2> hồi </color><color=#f8c200>10 Máu</color><color=#ebcaa2> cho Bản sắc sở hữu</color>"
+      "content": "<color=#ebcaa2>Các Bản sắc sở hữu</color> <color=#185188>Kĩ năng Tấn công thuộc tính Ngạo mạn</color> <color=#ebcaa2>hồi</color> <color=#f8c200>10 Máu.</color>"
     },
     {
       "id": "Choice_901027",
-      "content": "<color=#ebcaa2>Các Bản sắc không sở hữu</color> <color=#185188>Skill tấn công hệ Ngạo mạn</color> <color=#ebcaa2>gây</color> <color=#fe4b48>25 sát thương</color> <color=#ebcaa2>!</color>"
+      "content": "<color=#ebcaa2>Các Bản sắc không sở hữu</color> <color=#185188>Kĩ năng Tấn công thuộc tính Ngạo mạn</color> <color=#ebcaa2>nhận</color> <color=#fe4b48>25 sát thương</color> <color=#ebcaa2>!</color>"
     },
     {
       "id": "Choice_90102701",
-      "content": "<color=#ebcaa2>Các Bản sắc không sở hữu</color> <color=#185188>Skill tấn công hệ Ngạo mạn</color> <color=#ebcaa2>gây</color> <color=#fe4b48>25 sát thương</color> <color=#ebcaa2>!</color>"
+      "content": "<color=#ebcaa2>Các Bản sắc không sở hữu</color> <color=#185188>Kĩ năng Tấn công thuộc tính Ngạo mạn</color> <color=#ebcaa2>nhận</color> <color=#fe4b48>25 sát thương</color> <color=#ebcaa2>!</color>"
     },
     {
       "id": "Choice_901028",
-      "content": "<color=#ebcaa2>Các Bản sắc không sở hữu</color> <color=#185188>Skill tấn công hệ Ngạo mạn</color> <color=#ebcaa2>gây</color> <color=#fe4b48>5 sát thương</color> <color=#ebcaa2>!</color>"
+      "content": "<color=#ebcaa2>Các Bản sắc không sở hữu</color> <color=#185188>Kĩ năng Tấn công thuộc tính Ngạo mạn</color> <color=#ebcaa2>nhận</color> <color=#fe4b48>5 sát thương</color> <color=#ebcaa2>!</color>"
     },
     {
       "id": "Choice_90102801",
-      "content": "<color=#185188>Skill tấn công hệ Ngạo mạn</color><color=#ebcaa2> hồi </color><color=#f8c200>15 Máu</color><color=#ebcaa2> cho Bản sắc sở hữu</color>"
+      "content": "<color=#ebcaa2>Các Bản sắc sở hữu</color> <color=#185188>Kĩ năng Tấn công thuộc tính Ngạo mạn</color> <color=#ebcaa2>hồi</color> <color=#f8c200>15 Máu.</color>"
     },
     {
       "id": "Choice_901032",
-      "content": "<color=#ebcaa2>Các Bản sắc không sở hữu</color> <color=#7d4e94>Skill tấn công hệ Đố kỵ</color> <color=#ebcaa2>gây</color> <color=#fe4b48>20 sát thương Tinh thần</color> <color=#ebcaa2>!</color>"
+      "content": "<color=#ebcaa2>Các Bản sắc không sở hữu</color> <color=#7d4e94>Kĩ năng Tấn công thuộc tính Đố kỵ</color> <color=#ebcaa2>nhận</color> <color=#fe4b48>20 sát thương Tinh thần</color> <color=#ebcaa2>!</color>"
     },
     {
       "id": "Choice_901034",
-      "content": "<color=#ebcaa2>Các Bản sắc không sở hữu</color> <color=#7d4e94>Skill tấn công hệ Đố kỵ</color> <color=#fe4b48>gây</color> <color=#e30000>15 sát thương Máu</color> <color=#ebcaa2>và</color> <color=#fe4b48>15 sát thương Tinh thần</color> <color=#ebcaa2>!</color>"
+      "content": "<color=#ebcaa2>Các Bản sắc không sở hữu</color> <color=#7d4e94>Kĩ năng Tấn công thuộc tính Đố kỵ</color> <color=#fe4b48>gây</color> <color=#e30000>15 sát thương Máu</color> <color=#ebcaa2>và</color> <color=#fe4b48>15 sát thương Tinh thần</color> <color=#ebcaa2>!</color>"
     },
     {
       "id": "Choice_901035",
-      "content": "<color=#ebcaa2>Các Bản sắc không sở hữu</color> <color=#7d4e94>Skill tấn công hệ Đố kỵ</color> <color=#ebcaa2>gây</color> <color=#fe4b48>12 sát thương</color> <color=#ebcaa2>!</color>"
+      "content": "<color=#ebcaa2>Các Bản sắc không sở hữu</color> <color=#7d4e94>Kĩ năng Tấn công thuộc tính Đố kỵ</color> <color=#ebcaa2>nhận</color> <color=#fe4b48>12 sát thương</color> <color=#ebcaa2>!</color>"
     },
     {
       "id": "Choice_90103501",
-      "content": "<color=#7d4e94>Skill tấn công hệ Đố kỵ</color><color=#ebcaa2> hồi </color><color=#f8c200>15 Máu</color><color=#ebcaa2> cho Bản sắc sở hữu</color>"
+      "content": "<color=#ebcaa2>Các Bản sắc sở hữu</color> <color=#7d4e94>Kĩ năng Tấn công thuộc tính Đố kỵ</color> <color=#ebcaa2>hồi</color> <color=#f8c200>15 Máu.</color>"
     },
     {
       "id": "Choice_1040301",
-      "content": "<color=#ebcaa2>Bản sắc đã chọn</color> <color=#ebcaa2>nhận</color> <color=#e30000>10 Vết rách</color> <color=#ebcaa2>trong 1 lượt ở trận chiến tiếp theo</color>"
+      "content": "<color=#ebcaa2>Tù nhân đã chọn</color> <color=#ebcaa2>nhận</color> <color=#e30000>10 Vết rách</color> <color=#ebcaa2>trong 1 lượt ở trận chiến tiếp theo</color>"
     },
     {
       "id": "MirrorDungeonAcquireCost",
@@ -318,15 +318,15 @@
     },
     {
       "id": "Choice_90104001",
-      "content": "<color=#ebcaa2>Ở trận chiến tiếp theo, bắt đầu với </color><color=#f8c200>2 Tài nguyên E.G.O</color><color=#ebcaa2> của tất cả thuộc tính</color>"
+      "content": "<color=#ebcaa2>Ở trận chiến tiếp theo, bắt đầu với </color><color=#f8c200>+2 Tài nguyên E.G.O</color><color=#ebcaa2> của tất cả thuộc tính</color>"
     },
     {
       "id": "Choice_9010400101",
-      "content": "<color=#ebcaa2>Toàn bộ Bản sắc</color> <color=#f8c200>tăng 2 Uy lực Skill cuối</color> <color=#ebcaa2>trong trận chiến tiếp theo</color>"
+      "content": "<color=#ebcaa2>Toàn bộ đồng minh</color> <color=#f8c200>Sức mạnh Cuối cùng của Kĩ năng +2</color> <color=#ebcaa2>trong trận chiến tiếp theo</color>"
     },
     {
       "id": "Choice_90104002",
-      "content": "<color=#ebcaa2>Toàn bộ Bản sắc</color> <color=#f8c200>tăng 1 Uy lực Kỹ năng</color> <color=#ebcaa2>trong trận chiến tiếp theo</color>"
+      "content": "<color=#ebcaa2>Toàn bộ đồng minh</color> <color=#f8c200>Uy lực Kĩ năng +1</color> <color=#ebcaa2>trong trận chiến tiếp theo</color>"
     },
     {
       "id": "ChangeEventIllust",
@@ -350,7 +350,7 @@
     },
     {
       "id": "Choice_90200502",
-      "content": "<color=#ebcaa2>Sát nhân thất bại kiểm tra nhận</color> <color=#e30000>15 sát thương Máu</color> <color=#ebcaa2>và</color> <color=#fe4b48>12 sát thương Tinh thần</color> <color=#ebcaa2>!</color>"
+      "content": "<color=#ebcaa2>Tù nhân thất bại kiểm tra nhận</color> <color=#e30000>15 sát thương Máu</color> <color=#ebcaa2>và</color> <color=#fe4b48>12 sát thương Tinh thần</color> <color=#ebcaa2>!</color>"
     },
     {
       "id": "Choice_LoseBattle",
@@ -362,15 +362,15 @@
     },
     {
       "id": "Choice_EGO901002",
-      "content": "Khi chiến thắng trận chiến, nhận Quà lưu niệm E.G.O 「Tính Đảo Nghịch」 và 「Lòng Kính Sợ」"
+      "content": "Khi chiến thắng trận chiến, nhận Quà lưu niệm E.G.O 「Chứng Đảo Ngược」 và 「Sự Kính Sợ」"
     },
     {
       "id": "Choice_EGO901009",
-      "content": "Khi chiến thắng trận chiến, nhận Quà lưu niệm E.G.O 「Lông Vũ Rực Cháy」 và 「Paraffin Nóng Chảy」"
+      "content": "Khi chiến thắng trận chiến, nhận Quà lưu niệm E.G.O 「Lông vũ Nung đỏ」 và 「Paraffin Tan Chảy」"
     },
     {
       "id": "Choice_EGO901010",
-      "content": "Khi chiến thắng trận chiến, nhận Quà lưu niệm E.G.O 「Thiết Bị Đẫm Máu」 và 「Trang Nghiêm」"
+      "content": "Khi chiến thắng trận chiến, nhận Quà lưu niệm E.G.O 「Tiện ích Đẫm máu」 và 「Trang Nghiêm」"
     },
     {
       "id": "Choice_EGO901011",
@@ -378,23 +378,23 @@
     },
     {
       "id": "Choice_EGO901013",
-      "content": "Khi chiến thắng trận chiến, nhận Quà lưu niệm E.G.O 「Xấp Bùa」 và 「Búp Bê Gỗ Cũ Kỹ」"
+      "content": "Khi chiến thắng trận chiến, nhận Quà lưu niệm E.G.O 「Xấp Bùa」 và 「Búp Bê Gỗ Cũ」"
     },
     {
       "id": "Choice_EGO901014",
-      "content": "Khi chiến thắng trận chiến, nhận Quà lưu niệm E.G.O 「Đồng Xu Kỷ Niệm Rỉ Sét」 và 「Pháo Nổ」"
+      "content": "Khi chiến thắng trận chiến, nhận Quà lưu niệm E.G.O 「Đồng xu Kỷ niệm Rỉ sét」 và 「Pháo Té」"
     },
     {
       "id": "Choice_EGO901016",
-      "content": "Khi chiến thắng trận chiến, nhận Quà lưu niệm E.G.O 「Kết Quả Xanh」 và 「Hương Rượu Chua」"
+      "content": "Khi chiến thắng trận chiến, nhận Quà lưu niệm E.G.O 「Kết Quả Xanh」 và 「Hương Tửu Chua」"
     },
     {
       "id": "Choice_EGO901018",
-      "content": "Khi chiến thắng trận chiến, nhận Quà lưu niệm E.G.O 「Vương Miện Hoa Hồng」 và 「Nơi Yên Nghỉ」"
+      "content": "Khi chiến thắng trận chiến, nhận Quà lưu niệm E.G.O 「Vương Miện Hoa Hồng」 và 「Nơi An Nghỉ」"
     },
     {
       "id": "Choice_EGO901019",
-      "content": "Khi chiến thắng trận chiến, nhận Quà lưu niệm E.G.O 「Chiết Xuất Bết Dính」 và 「Ống Độc Dược Sinh Học」"
+      "content": "Khi chiến thắng trận chiến, nhận Quà lưu niệm E.G.O 「Dịch Chiết Bết Dính」 và 「Lọ Độc Sinh Học」"
     },
     {
       "id": "Choice_EGO901020",
@@ -402,27 +402,27 @@
     },
     {
       "id": "Choice_EGO901021",
-      "content": "Khi chiến thắng trận chiến, nhận Quà lưu niệm E.G.O 「Bật Lửa Zippo Chàm」 và 「Đèn Pin Tuần Tra」"
+      "content": "Khi chiến thắng trận chiến, nhận Quà lưu niệm E.G.O 「Bật Lửa Zippo Xanh Thẫm」 và 「Đèn pin tuần tra」"
     },
     {
       "id": "Choice_EGO901024",
-      "content": "Khi chiến thắng trận chiến, nhận Quà lưu niệm E.G.O 「Nhãn Cầu Tan Chảy」 và 「Lớp Vỏ Cực Độc」"
+      "content": "Khi chiến thắng trận chiến, nhận Quà lưu niệm E.G.O 「Con Mắt Tan Chảy」 và 「Lớp Da Cực Độc」"
     },
     {
       "id": "Choice_EGO901031",
-      "content": "Khi chiến thắng trận chiến, nhận Quà lưu niệm E.G.O 「Nixie Divergence」 và 「Dây Cót Bánh Răng」"
+      "content": "Khi chiến thắng trận chiến, nhận Quà lưu niệm E.G.O 「Sự phân kỳ Nixie」 và 「Dây Cót Bánh Răng」"
     },
     {
       "id": "Choice_EGO901033",
-      "content": "Khi chiến thắng trận chiến, nhận Quà lưu niệm E.G.O 「Pin Thường Dùng Cho Công Việc」 và 「Máy Khử Rung Tim Đã Mở Khóa Giới Hạn」"
+      "content": "Khi chiến thắng trận chiến, nhận Quà lưu niệm E.G.O 「Pin Thông Thường Dùng Cho Công Việc」 và 「Máy phá rung tim đã mở giới hạn」"
     },
     {
       "id": "Choice_EGO901034",
-      "content": "Khi chiến thắng trận chiến, nhận Quà lưu niệm E.G.O 「Mạch Logic Đòn Đánh Tập Trung」 và 「Bộ Lưu Điện UPS」"
+      "content": "Khi chiến thắng trận chiến, nhận Quà lưu niệm E.G.O 「Mạch Luận Lý Nhất Điểm Đả Kích」 và 「Bộ Lưu Điện」"
     },
     {
       "id": "Choice_EGO901056",
-      "content": "Khi chiến thắng trận chiến, nhận Quà lưu niệm E.G.O 「Cỏ Bốn Lá」 và 「Cánh Ngoài Màu Xanh」"
+      "content": "Khi chiến thắng trận chiến, nhận Quà lưu niệm E.G.O 「Cỏ Bốn Lá」 và 「Đôi Cánh Ngoài Màu Xanh」"
     },
     {
       "id": "Choice_EGO901059",
@@ -434,7 +434,7 @@
     },
     {
       "id": "Choice_EGO971029",
-      "content": "Khi chiến thắng trận chiến, nhận Quà lưu niệm E.G.O 「Đoản Kiếm Không Gian Kiểu E」 và 「Pin Trường Lực Di Động」"
+      "content": "Khi chiến thắng trận chiến, nhận Quà lưu niệm E.G.O 「Đoản kiếm Không gian loại E」 và 「Pin trường lực cầm tay」"
     },
     {
       "id": "GetImmediateConfirmedEgogifts",
@@ -450,7 +450,7 @@
     },
     {
       "id": "Choice_EGO971054",
-      "content": "Khi chiến thắng trận chiến, nhận Quà lưu niệm E.G.O 「Bình Nhiên Liệu Đầy Ắp」"
+      "content": "Khi chiến thắng trận chiến, nhận Quà lưu niệm E.G.O 「Bình Nhiên Liệu Sóng Sánh」"
     },
     {
       "id": "LoseMpOnlyUntilMin",
@@ -458,7 +458,7 @@
     },
     {
       "id": "ReviveOutOfBattleAndRecoverHpAll",
-      "content": "Hồi sinh các Sát nhân đã tử trận và <color=#00ff9c>hồi phục hoàn toàn Máu</color><color=#ebcaa2> cho toàn bộ Sát nhân</color>"
+      "content": "Hồi sinh các Tù nhân đã tử trận và <color=#ebcaa2>hồi phục</color> Máu của các Tù nhân còn sống <color=#00ff9c>đến mức tối đa</color>"
     },
     {
       "id": "RecoverRatioHpOnly",
