@@ -104,6 +104,24 @@ function tokensOf(s) {
 }
 const keyOf = (r) => r.id !== undefined ? 'i:' + r.id : (r.key !== undefined ? 'k:' + r.key : '?none');
 function indexByKey(dataList) { const m = new Map(); for (const r of dataList) { const k = keyOf(r); if (!m.has(k)) m.set(k, []); m.get(k).push(r); } return m; }
+function collectStrings(v, path = '') {
+  const out = [];
+  if (typeof v === 'string') { out.push([path, v]); return out; }
+  if (Array.isArray(v)) { v.forEach((x, idx) => { for (const row of collectStrings(x, `${path}[${idx}]`)) out.push(row); }); return out; }
+  if (v && typeof v === 'object') { for (const [k, val] of Object.entries(v)) { for (const row of collectStrings(val, path ? `${path}.${k}` : k)) out.push(row); } }
+  return out;
+}
+function getPath(obj, p) {
+  const segs = p.match(/[^.[\]]+|\[\d+\]/g);
+  if (!segs) return undefined;
+  let cur = obj;
+  for (const s of segs) {
+    if (cur == null) return undefined;
+    cur = s[0] === '[' ? cur[Number(s.slice(1, -1))] : cur[s];
+  }
+  return cur;
+}
+const lastSeg = (p) => p.split('.').pop();
 function verifyFile(rel) {
   const c = cfg();
   const res = { rel, errors: [], warnings: [], stats: {} };
@@ -150,18 +168,20 @@ function verifyFile(rel) {
       const n = Math.min(a.length, b.length);
       for (let i = 0; i < n; i++) {
         const ra = a[i], rb = b[i];
-        for (const field of Object.keys(ra)) {
-          if (HARD_SKIP.has(field) || typeof ra[field] !== 'string' || typeof rb[field] !== 'string') continue;
-          if (ra[field] === rb[field]) continue;
+        for (const [p, ev] of collectStrings(ra)) {
+          if (HARD_SKIP.has(lastSeg(p))) continue;
+          const vv = getPath(rb, p);
+          if (typeof vv !== 'string') continue;
+          if (ev === vv) continue;
           fieldDiffs++;
-          const ta = tokensOf(ra[field]), tb = tokensOf(rb[field]);
+          const ta = tokensOf(ev), tb = tokensOf(vv);
           const seen = new Set();
           for (const [t, cnt] of ta) {
             const vc = tb.get(t) || 0;
-            if (vc !== cnt) { tokMiss += (cnt > vc ? 1 : 0); tokExtra += (vc > cnt ? 1 : 0); if (samples.length < 6 && !seen.has(t)) { samples.push(`[id=${k} ${field}] token ${t} EN=${cnt} VI=${vc}`); seen.add(t); } }
+            if (vc !== cnt) { tokMiss += (cnt > vc ? 1 : 0); tokExtra += (vc > cnt ? 1 : 0); if (samples.length < 6 && !seen.has(t)) { samples.push(`[id=${k} ${p}] token ${t} EN=${cnt} VI=${vc}`); seen.add(t); } }
           }
-          for (const [t, cnt] of tb) if (!ta.has(t)) { tokExtra++; if (samples.length < 6 && !seen.has(t)) { samples.push(`[id=${k} ${field}] token thừa ${t} VI=${cnt}`); seen.add(t); } }
-          const na = (ra[field].match(/\n/g) || []).length, nb = (rb[field].match(/\n/g) || []).length;
+          for (const [t, cnt] of tb) if (!ta.has(t)) { tokExtra++; if (samples.length < 6 && !seen.has(t)) { samples.push(`[id=${k} ${p}] token thừa ${t} VI=${cnt}`); seen.add(t); } }
+          const na = (ev.match(/\n/g) || []).length, nb = (vv.match(/\n/g) || []).length;
           if (na !== nb) nlDiff++;
         }
       }
@@ -201,7 +221,8 @@ function printOrder(rels) {
     for (const [k, v] of Object.entries(g.terms)) console.log(`  ${k} → ${v}`);
     console.log(`\n-- TEMPLATE SỬA AN TOÀN (copy ra file tạm, sửa REL và mutate) --`);
     console.log(`import fs from 'node:fs';\nconst REL = '${rel}';\nconst p = 'D:/Workspace/Trans Limbus/Work/' + REL;\nconst buf = fs.readFileSync(p);\nconst bom = buf.length >= 3 && buf[0] === 0xef && buf[1] === 0xbb && buf[2] === 0xbf;\nconst text = (bom ? buf.subarray(3) : buf).toString('utf8');\nconst eol = text.includes('\\r\\n') ? '\\r\\n' : '\\n';\nconst m = text.match(/\\n(\\s+)"/);\nconst indent = m ? m[1] : (text.includes('\\n') ? 2 : null);\nconst trailing = text.endsWith('\\n');\nconst json = JSON.parse(text);\nconst ser = j => { let out = JSON.stringify(j, null, indent).split('\\n').join(eol); if (trailing) out += eol; return out; };\nif (ser(json) !== text) { console.error('ROUND-TRIP FAIL — không sửa, báo lại'); process.exit(1); }\nfunction mutate(j) {\n  // SỬA Ở ĐÂY: chỉ đổi giá trị chuỗi, giữ nguyên token/tag/placeholder\n}\nmutate(json);\nfs.writeFileSync(p, bom ? Buffer.concat([Buffer.from([0xef, 0xbb, 0xbf]), Buffer.from(ser(json), 'utf8')]) : Buffer.from(ser(json), 'utf8'));\nconsole.log('WROTE', REL);`);
-    console.log(`\n-- FILE LỚN (>100KB): xem theo khối bằng lệnh \`node tools/qa/progress.mjs dump ${rel} <start> <count>\` (JSON line i/key/field/en/vi), KHÔNG đọc toàn bộ file; sửa từng khối rồi lặp đến hết. --`);
+    console.log(`\n-- HOẶC áp dụng nhanh: tạo replacements.json [{"old":"...","new":"..."}] rồi chạy \`node tools/qa/apply.mjs ${rel} <duongdan-replacements.json>\` — khớp CHÍNH XÁC toàn bộ giá trị chuỗi, tự kiểm tra round-trip, in số lần áp dụng và các cặp không khớp. --`);
+    console.log(`\n-- FILE LỚN (>100KB): xem theo khối bằng lệnh \`node tools/qa/progress.mjs dump ${rel} <start> <count>\` (JSON line i/key/path/en/vi; path đệ quy vào levelList/coinlist...), KHÔNG đọc toàn bộ file; sửa từng khối rồi lặp đến hết. --`);
     console.log(`\n-- KHÔNG chạy bất kỳ lệnh git nào (checkout/restore/add/commit/stash) — chỉ ghi file Work được giao; tiến độ do người điều phối quản lý. --`);
     console.log(`\n-- BÁO CÁO LẠI --`);
     console.log(`- Số chuỗi đã sửa; 8-10 ví dụ trước → sau (kèm id/field); các điểm chưa chắc cần người duyệt.`);
@@ -334,9 +355,10 @@ switch (cmd) {
       const enRecs = enIdx ? (enIdx.get(k) || []) : [];
       const ordinal = (viById.get(k) || []).indexOf(r);
       const er = enRecs[ordinal] || null;
-      for (const field of Object.keys(r)) {
-        if (HARD_SKIP.has(field) || typeof r[field] !== 'string') continue;
-        console.log(JSON.stringify({ i, key: k, field, en: er && typeof er[field] === 'string' ? er[field] : null, vi: r[field] }));
+      for (const [p, viStr] of collectStrings(r)) {
+        if (HARD_SKIP.has(lastSeg(p))) continue;
+        const ev = er ? getPath(er, p) : undefined;
+        console.log(JSON.stringify({ i, key: k, path: p, en: typeof ev === 'string' ? ev : null, vi: viStr }));
       }
     });
     console.error(`# dump ${file}: records ${start}..${Math.min(start + count, total) - 1} / ${total}`);
@@ -375,7 +397,7 @@ Cách dùng: node tools/qa/progress.mjs <lệnh> [args]
   status                         Thống kê tiến độ
   info <file>                    Chi tiết 1 file
   verify <file...>               Kiểm tra cấu trúc/token so với EN/KR (exit code 1 nếu lỗi cấu trúc)
-  dump <file> [start] [count]    In các chuỗi record [start, start+count) dạng JSON line (id/field/EN/VI) — dùng cho file lớn
+  dump <file> [start] [count]    In các chuỗi record [start, start+count) dạng JSON line (id/path/EN/VI, đệ quy levelList/coinlist) — dùng cho file lớn
   order <file...>                In work order đầy đủ (quy tắc + glossary + template sửa)
 
 Nhóm ưu tiên: ${GROUP_ORDER.join(' > ')}`);

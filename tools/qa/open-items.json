@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08",
+  "updated": "2026-10-18",
   "note": "Các quyết định/thuật ngữ cần đồng bộ TOÀN REPO — xử lý bằng pass riêng, không sửa lẻ trong batch file.",
   "items": [
     { "id": "display-brackets-skills", "status": "open", "desc": "Skills.json bỏ ngoặc hiển thị VI ([Xuất huyết]...) để khớp EN; nhiều file khác vẫn giữ ngoặc VI. Cần chốt chính sách (giữ ngoặc VI toàn repo hay bỏ theo EN) rồi pass đồng bộ." },
@@ -11,6 +11,9 @@
     { "id": "sync-panic-names", "status": "open", "desc": "PanicInfo đã sửa tên trạng thái (Kích động, Úa tàn, Vẩn đục, Vết Nứt vỡ, Hoảng loạn trắng) — cần đồng bộ trong Bufs.json/BattleKeywords-* cùng cơ chế." },
     { "id": "breath-variants", "status": "open", "desc": "Poise: 'Hơi thở' (chuẩn) vs 'Hô hấp'/'Nhịp thở' còn sót rải rác — pass đồng bộ khi rảnh." },
     { "id": "canned-experience", "status": "open", "desc": "Canned Experience: 'Đồ hộp Kinh nghiệm' (StoryTheaterDanteNote) vs 'Trải Nghiệm Đóng Hộp' (S1031B/RPG floor-3-b) — chốt và pass đồng bộ (ảnh hưởng S1039I mới dịch)." },
-    { "id": "core-term", "status": "open", "desc": "Core: Enemies.json chuẩn hoá 'Bản thể' (phân loại bộ phận kẻ địch) nhưng AbnormalityGuides_Refraction6 dùng 'Lõi của Dị thường' — chốt theo ngữ cảnh rồi pass." }
+    { "id": "core-term", "status": "open", "desc": "Core: Enemies.json chuẩn hoá 'Bản thể' (phân loại bộ phận kẻ địch) nhưng AbnormalityGuides_Refraction6 dùng 'Lõi của Dị thường' — chốt theo ngữ cảnh rồi pass." },
+    { "id": "hp-vs-mau-mech", "status": "open", "desc": "Cơ chế HP: batch 45 (Skills_personality-09/11/12) đã dùng 'HP' ('HP đã mất', 'HP tối đa') trong câu cơ chế; vài file khác còn 'Máu/lượng máu' — chốt 'HP' cho câu cơ chế rồi pass đồng bộ." },
+    { "id": "tremor-burst-verb", "status": "open", "desc": "Tremor Burst: 'Kích hoạt Chấn động Bộc phát' (Skills_personality-11/12, batch 45) vs 'Kích nổ Chấn động' (Skills_personality-10 i:1100703) — đồng bộ." },
+    { "id": "x1p1c1-pun-names", "status": "open", "desc": "Skills_personality-x1p1c1: cụm tên chơi chữ 이상 (I Shell Trim / I Shell Do It! / Is Ideal... / Is Nuthin' Unideal) đang dịch 'Ta sẽ chỉnh đốn.' / 'Ta sẽ làm!' / 'Thật lý tưởng...' / 'Chẳng có gì không lý tưởng.' — người duyệt xem lại nếu muốn giữ pun." }
   ]
 }

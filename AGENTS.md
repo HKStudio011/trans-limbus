@@ -10,7 +10,7 @@ Vietnamese localization (dịch) project for the mobile game **Limbus Company**.
   - `Work/BattleAnnouncerDlg/`, `Work/BgmLyrics/`, `Work/EGOVoiceDig/`, `Work/PersonalityVoiceDlg/`
   - `Work/Font/Context/vi2.ttf`, `Work/Font/Title/vi.ttf`
 - `.codegraph/` — CodeGraph index. **Do not hand-edit `codegraph.db`.**
-- **No** `.git`, no `package.json`, no build/test/lint config — this is a data repo.
+- `.git/` — git repo, batch-based history. `tools/qa/` — QA/progress tooling (Node, no dependencies). No `package.json`, no build/test/lint config — this is a data repo.
 
 ## Source (game, read-only)
 `D:\Program Files\Steam\steamapps\common\Limbus Company\LimbusCompany_Data\Assets\Resources_moved\Localize`
@@ -20,8 +20,8 @@ Vietnamese localization (dịch) project for the mobile game **Limbus Company**.
 
 ## Output (game, publish here)
 `D:\Program Files\Steam\steamapps\common\Limbus Company\LimbusCompany_Data\Lang`
-- `config.json` — `{"lang": "HK_V270926_By_AI", ...}` points at the current output folder.
-- `HK_<date>_By_AI/` — one folder per release. File names match `Work/` (**no** language prefix). Existing: `HK_V270926_By_AI/`. The date is `ddmmyy` (day/month/year) of the release; the observed folder adds a `V` (version) prefix (`V270926` = 27/09/2026).
+- `config.json` — `{"lang": "HK_V081026_By_AI", ...}` points at the current output folder.
+- `HK_<date>_By_AI/` — one folder per release. File names match `Work/` (**no** language prefix). Existing: `HK_V081026_By_AI/` (current). The date is `ddmmyy` (day/month/year) of the release; the observed folder adds a `V` (version) prefix (`V081026` = 08/10/2026).
 
 ## Workflow (copy → translate → publish)
 1. Copy the needed files from `Localize/en/` into `Work/`, stripping the `EN_` prefix so the name matches the logical name.
@@ -44,10 +44,19 @@ CLI v1.6.0 is installed. The index is currently **empty (0 files)** — rebuild 
 - `codegraph status "D:\Workspace\Trans Limbus"` — verify node/file counts.
 - `codegraph query "AbEvents"` / `codegraph explore "dialogue"` / `codegraph files "D:\Workspace\Trans Limbus"` — search/query.
 
+## QA workflow (`tools/qa/`)
+The repo is being run through systematic translation QA in numbered batches (see `git log --oneline`; per-file state in `tools/qa/progress.json`).
+- `node tools/qa/progress.mjs status|next|claim|start|done|fail|skip|reset|info` — track per-file progress; `claim` moves pending files to `in_progress`.
+- `node tools/qa/progress.mjs order <file>` — full work brief: rules, glossary, safe-edit template, reporting requirements.
+- `node tools/qa/progress.mjs dump <file> <start> <count>` — EN↔VI string pairs as JSON lines (`i/key/path/en/vi`, recurses into `levelList`/`coinlist`); use for large files instead of reading them whole.
+- `node tools/qa/apply.mjs <file> <replacements.json>` — apply `[{"old","new"}]` exact-value replacements safely (round-trip check on BOM/CRLF/indent, prints hit counts).
+- `node tools/qa/progress.mjs verify <file...>` — structural check vs EN/KR: record/id alignment, field shape, mechanic tokens `[]<>{}` and `\n` counts (recursive). Fix all ERRORs and token WARNs before marking done.
+- Editing rules: only string values; keep every token/tag/placeholder and the record structure; natural Vietnamese matching EN (cross-check KR when ambiguous); repo normalizations (e.g. EN "Inflict" → "Gây", "Kỹ năng" → "Kĩ năng", Clash (cơ chế) → "Đối kháng") — full list in `order` output + `glossary.json`; pending repo-wide decisions in `open-items.json`.
+- Worker discipline: edit only the assigned `Work/` file (plus temp files outside the repo), never run git, never touch `progress.json`; the coordinator updates progress and commits per batch.
+
 ## Git (change history)
-No repo yet. Initialize once, then commit per logical batch:
-- `git init` (in `D:\Workspace\Trans Limbus`)
-- `git add -A && git commit -m "<verb> <what>, <scope>"` (e.g. `git commit -m "translate AbEvents a1c9p1"`)
+Repo exists; commit per logical batch:
+- `git add <files> && git commit -m "<verb> <what>, <scope>"` — QA passes use e.g. `QA improve batch 45: <files> (~N edits)`.
 - `git status` / `git log --oneline` / `git diff` to inspect.
 - Commit before publishing to `Lang/` so the published set is traceable.
 
