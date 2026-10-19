@@ -2188,6 +2188,40 @@
     "StoryData/3D103B.json"
    ],
    "note": "Batch53: StoryData 2D102-3D103; Fixer/Canh Vang family; Tham van vien; place Q11; WARN = ngoac hien thi <> (KR cung ban dia hoa); +sync 1D103A"
+  },
+  {
+   "ts": "2026-10-19T09:24:55.513Z",
+   "action": "claim",
+   "files": [
+    "StoryData/3D301B.json",
+    "StoryData/3D302B.json",
+    "StoryData/3D303B.json",
+    "StoryData/3D304B.json",
+    "StoryData/3D305B.json",
+    "StoryData/3D306B.json",
+    "StoryData/3D307B.json",
+    "StoryData/3D308B.json",
+    "StoryData/3D309A.json",
+    "StoryData/3D309B.json"
+   ],
+   "note": "Batch54: StoryData tiep (3D3xx+)"
+  },
+  {
+   "ts": "2026-10-19T11:53:02.784Z",
+   "action": "done",
+   "files": [
+    "StoryData/3D301B.json",
+    "StoryData/3D302B.json",
+    "StoryData/3D303B.json",
+    "StoryData/3D304B.json",
+    "StoryData/3D305B.json",
+    "StoryData/3D306B.json",
+    "StoryData/3D307B.json",
+    "StoryData/3D308B.json",
+    "StoryData/3D309A.json",
+    "StoryData/3D309B.json"
+   ],
+   "note": "Batch54: StoryData 3D301-3D309; Nest/Khu To Hop->To, Toi nhan->Toi do, grudge->moi han (Sinclair-Kromer), Hoc sinh cung lop->Ban hoc; WARN = ngoac hien thi <> (KR cung ban dia hoa); worker: 3D301B+3D309A"
   }
  ],
  "files": {
@@ -19177,72 +19211,202 @@
   "StoryData/3D301B.json": {
    "group": "story",
    "size": 18958,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-19T09:24:55.512Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-10-19T11:53:02.774Z",
+     "action": "done",
+     "note": "Batch54: StoryData 3D301-3D309; Nest/Khu To Hop->To, Toi nhan->Toi do, grudge->moi han (Sinclair-Kromer), Hoc sinh cung lop->Ban hoc; WARN = ngoac hien thi <> (KR cung ban dia hoa); worker: 3D301B+3D309A"
+    }
+   ],
+   "started": "2026-10-19T09:24:55.512Z",
+   "finished": "2026-10-19T11:53:02.774Z",
+   "note": "Batch54: StoryData 3D301-3D309; Nest/Khu To Hop->To, Toi nhan->Toi do, grudge->moi han (Sinclair-Kromer), Hoc sinh cung lop->Ban hoc; WARN = ngoac hien thi <> (KR cung ban dia hoa); worker: 3D301B+3D309A"
   },
   "StoryData/3D302B.json": {
    "group": "story",
    "size": 6061,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-19T09:24:55.512Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-10-19T11:53:02.774Z",
+     "action": "done",
+     "note": "Batch54: StoryData 3D301-3D309; Nest/Khu To Hop->To, Toi nhan->Toi do, grudge->moi han (Sinclair-Kromer), Hoc sinh cung lop->Ban hoc; WARN = ngoac hien thi <> (KR cung ban dia hoa); worker: 3D301B+3D309A"
+    }
+   ],
+   "started": "2026-10-19T09:24:55.512Z",
+   "finished": "2026-10-19T11:53:02.774Z",
+   "note": "Batch54: StoryData 3D301-3D309; Nest/Khu To Hop->To, Toi nhan->Toi do, grudge->moi han (Sinclair-Kromer), Hoc sinh cung lop->Ban hoc; WARN = ngoac hien thi <> (KR cung ban dia hoa); worker: 3D301B+3D309A"
   },
   "StoryData/3D303B.json": {
    "group": "story",
    "size": 10849,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-19T09:24:55.512Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-10-19T11:53:02.774Z",
+     "action": "done",
+     "note": "Batch54: StoryData 3D301-3D309; Nest/Khu To Hop->To, Toi nhan->Toi do, grudge->moi han (Sinclair-Kromer), Hoc sinh cung lop->Ban hoc; WARN = ngoac hien thi <> (KR cung ban dia hoa); worker: 3D301B+3D309A"
+    }
+   ],
+   "started": "2026-10-19T09:24:55.512Z",
+   "finished": "2026-10-19T11:53:02.774Z",
+   "note": "Batch54: StoryData 3D301-3D309; Nest/Khu To Hop->To, Toi nhan->Toi do, grudge->moi han (Sinclair-Kromer), Hoc sinh cung lop->Ban hoc; WARN = ngoac hien thi <> (KR cung ban dia hoa); worker: 3D301B+3D309A"
   },
   "StoryData/3D304B.json": {
    "group": "story",
    "size": 12190,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-19T09:24:55.512Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-10-19T11:53:02.774Z",
+     "action": "done",
+     "note": "Batch54: StoryData 3D301-3D309; Nest/Khu To Hop->To, Toi nhan->Toi do, grudge->moi han (Sinclair-Kromer), Hoc sinh cung lop->Ban hoc; WARN = ngoac hien thi <> (KR cung ban dia hoa); worker: 3D301B+3D309A"
+    }
+   ],
+   "started": "2026-10-19T09:24:55.512Z",
+   "finished": "2026-10-19T11:53:02.774Z",
+   "note": "Batch54: StoryData 3D301-3D309; Nest/Khu To Hop->To, Toi nhan->Toi do, grudge->moi han (Sinclair-Kromer), Hoc sinh cung lop->Ban hoc; WARN = ngoac hien thi <> (KR cung ban dia hoa); worker: 3D301B+3D309A"
   },
   "StoryData/3D305B.json": {
    "group": "story",
    "size": 3701,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-19T09:24:55.512Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-10-19T11:53:02.774Z",
+     "action": "done",
+     "note": "Batch54: StoryData 3D301-3D309; Nest/Khu To Hop->To, Toi nhan->Toi do, grudge->moi han (Sinclair-Kromer), Hoc sinh cung lop->Ban hoc; WARN = ngoac hien thi <> (KR cung ban dia hoa); worker: 3D301B+3D309A"
+    }
+   ],
+   "started": "2026-10-19T09:24:55.512Z",
+   "finished": "2026-10-19T11:53:02.774Z",
+   "note": "Batch54: StoryData 3D301-3D309; Nest/Khu To Hop->To, Toi nhan->Toi do, grudge->moi han (Sinclair-Kromer), Hoc sinh cung lop->Ban hoc; WARN = ngoac hien thi <> (KR cung ban dia hoa); worker: 3D301B+3D309A"
   },
   "StoryData/3D306B.json": {
    "group": "story",
    "size": 8500,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-19T09:24:55.512Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-10-19T11:53:02.774Z",
+     "action": "done",
+     "note": "Batch54: StoryData 3D301-3D309; Nest/Khu To Hop->To, Toi nhan->Toi do, grudge->moi han (Sinclair-Kromer), Hoc sinh cung lop->Ban hoc; WARN = ngoac hien thi <> (KR cung ban dia hoa); worker: 3D301B+3D309A"
+    }
+   ],
+   "started": "2026-10-19T09:24:55.512Z",
+   "finished": "2026-10-19T11:53:02.774Z",
+   "note": "Batch54: StoryData 3D301-3D309; Nest/Khu To Hop->To, Toi nhan->Toi do, grudge->moi han (Sinclair-Kromer), Hoc sinh cung lop->Ban hoc; WARN = ngoac hien thi <> (KR cung ban dia hoa); worker: 3D301B+3D309A"
   },
   "StoryData/3D307B.json": {
    "group": "story",
    "size": 3712,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-19T09:24:55.512Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-10-19T11:53:02.774Z",
+     "action": "done",
+     "note": "Batch54: StoryData 3D301-3D309; Nest/Khu To Hop->To, Toi nhan->Toi do, grudge->moi han (Sinclair-Kromer), Hoc sinh cung lop->Ban hoc; WARN = ngoac hien thi <> (KR cung ban dia hoa); worker: 3D301B+3D309A"
+    }
+   ],
+   "started": "2026-10-19T09:24:55.512Z",
+   "finished": "2026-10-19T11:53:02.774Z",
+   "note": "Batch54: StoryData 3D301-3D309; Nest/Khu To Hop->To, Toi nhan->Toi do, grudge->moi han (Sinclair-Kromer), Hoc sinh cung lop->Ban hoc; WARN = ngoac hien thi <> (KR cung ban dia hoa); worker: 3D301B+3D309A"
   },
   "StoryData/3D308B.json": {
    "group": "story",
    "size": 6217,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-19T09:24:55.512Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-10-19T11:53:02.774Z",
+     "action": "done",
+     "note": "Batch54: StoryData 3D301-3D309; Nest/Khu To Hop->To, Toi nhan->Toi do, grudge->moi han (Sinclair-Kromer), Hoc sinh cung lop->Ban hoc; WARN = ngoac hien thi <> (KR cung ban dia hoa); worker: 3D301B+3D309A"
+    }
+   ],
+   "started": "2026-10-19T09:24:55.512Z",
+   "finished": "2026-10-19T11:53:02.774Z",
+   "note": "Batch54: StoryData 3D301-3D309; Nest/Khu To Hop->To, Toi nhan->Toi do, grudge->moi han (Sinclair-Kromer), Hoc sinh cung lop->Ban hoc; WARN = ngoac hien thi <> (KR cung ban dia hoa); worker: 3D301B+3D309A"
   },
   "StoryData/3D309A.json": {
    "group": "story",
    "size": 18389,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-19T09:24:55.512Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-10-19T11:53:02.774Z",
+     "action": "done",
+     "note": "Batch54: StoryData 3D301-3D309; Nest/Khu To Hop->To, Toi nhan->Toi do, grudge->moi han (Sinclair-Kromer), Hoc sinh cung lop->Ban hoc; WARN = ngoac hien thi <> (KR cung ban dia hoa); worker: 3D301B+3D309A"
+    }
+   ],
+   "started": "2026-10-19T09:24:55.512Z",
+   "finished": "2026-10-19T11:53:02.774Z",
+   "note": "Batch54: StoryData 3D301-3D309; Nest/Khu To Hop->To, Toi nhan->Toi do, grudge->moi han (Sinclair-Kromer), Hoc sinh cung lop->Ban hoc; WARN = ngoac hien thi <> (KR cung ban dia hoa); worker: 3D301B+3D309A"
   },
   "StoryData/3D309B.json": {
    "group": "story",
    "size": 2732,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-19T09:24:55.512Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-10-19T11:53:02.774Z",
+     "action": "done",
+     "note": "Batch54: StoryData 3D301-3D309; Nest/Khu To Hop->To, Toi nhan->Toi do, grudge->moi han (Sinclair-Kromer), Hoc sinh cung lop->Ban hoc; WARN = ngoac hien thi <> (KR cung ban dia hoa); worker: 3D301B+3D309A"
+    }
+   ],
+   "started": "2026-10-19T09:24:55.512Z",
+   "finished": "2026-10-19T11:53:02.774Z",
+   "note": "Batch54: StoryData 3D301-3D309; Nest/Khu To Hop->To, Toi nhan->Toi do, grudge->moi han (Sinclair-Kromer), Hoc sinh cung lop->Ban hoc; WARN = ngoac hien thi <> (KR cung ban dia hoa); worker: 3D301B+3D309A"
   },
   "StoryData/3D309I.json": {
    "group": "story",
@@ -26965,5 +27129,5 @@
    "history": []
   }
  },
- "updated": "2026-10-19T09:16:53.159Z"
+ "updated": "2026-10-19T11:53:02.784Z"
 }
