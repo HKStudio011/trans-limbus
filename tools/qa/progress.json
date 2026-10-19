@@ -2018,6 +2018,40 @@
     "HellsChickenDungeonNode.json"
    ],
    "note": "Batch48: event text series; chuan hoa template bonusUI/reward/guide, Nguc Guong, Phong chieu, Doi phan thuong; WARN = ngoac hien thi vat pham (KR cung ban dia hoa)"
+  },
+  {
+   "ts": "2026-10-19T02:26:33.174Z",
+   "action": "claim",
+   "files": [
+    "NightCleanUpEvent.json",
+    "RailwayDungeon.json",
+    "RailwayDungeonBuff.json",
+    "RailwayDungeonNode1002.json",
+    "RailwayDungeonNode1BokGak.json",
+    "RailwayDungeonNode2.json",
+    "RailwayDungeonNode3.json",
+    "RailwayDungeonNode4.json",
+    "RailwayDungeonNode5.json",
+    "RailwayDungeonNode6.json"
+   ],
+   "note": "Batch49: story tiep (dungeon/stage nodes)"
+  },
+  {
+   "ts": "2026-10-19T02:53:56.222Z",
+   "action": "done",
+   "files": [
+    "NightCleanUpEvent.json",
+    "RailwayDungeon.json",
+    "RailwayDungeonBuff.json",
+    "RailwayDungeonNode1002.json",
+    "RailwayDungeonNode1BokGak.json",
+    "RailwayDungeonNode2.json",
+    "RailwayDungeonNode3.json",
+    "RailwayDungeonNode4.json",
+    "RailwayDungeonNode5.json",
+    "RailwayDungeonNode6.json"
+   ],
+   "note": "Batch49: Railway + NightCleanUp; KR-aligned Node1BokGak/4/5/6 titles; WARN = ngoac hien thi (Refraction Rate KR ban dia hoa) + 2 chuoi 207/210 theo KR"
   }
  ],
  "files": {
@@ -9856,9 +9890,22 @@
   "NightCleanUpEvent.json": {
    "group": "story",
    "size": 2635,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-19T02:26:33.166Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-10-19T02:53:56.195Z",
+     "action": "done",
+     "note": "Batch49: Railway + NightCleanUp; KR-aligned Node1BokGak/4/5/6 titles; WARN = ngoac hien thi (Refraction Rate KR ban dia hoa) + 2 chuoi 207/210 theo KR"
+    }
+   ],
+   "started": "2026-10-19T02:26:33.166Z",
+   "finished": "2026-10-19T02:53:56.195Z",
+   "note": "Batch49: Railway + NightCleanUp; KR-aligned Node1BokGak/4/5/6 titles; WARN = ngoac hien thi (Refraction Rate KR ban dia hoa) + 2 chuoi 207/210 theo KR"
   },
   "PanicInfo-a1c10p1.json": {
    "group": "gameplay",
@@ -14870,16 +14917,42 @@
   "RailwayDungeon.json": {
    "group": "story",
    "size": 607,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-19T02:26:33.166Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-10-19T02:53:56.195Z",
+     "action": "done",
+     "note": "Batch49: Railway + NightCleanUp; KR-aligned Node1BokGak/4/5/6 titles; WARN = ngoac hien thi (Refraction Rate KR ban dia hoa) + 2 chuoi 207/210 theo KR"
+    }
+   ],
+   "started": "2026-10-19T02:26:33.166Z",
+   "finished": "2026-10-19T02:53:56.195Z",
+   "note": "Batch49: Railway + NightCleanUp; KR-aligned Node1BokGak/4/5/6 titles; WARN = ngoac hien thi (Refraction Rate KR ban dia hoa) + 2 chuoi 207/210 theo KR"
   },
   "RailwayDungeonBuff.json": {
    "group": "story",
    "size": 431,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-19T02:26:33.166Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-10-19T02:53:56.195Z",
+     "action": "done",
+     "note": "Batch49: Railway + NightCleanUp; KR-aligned Node1BokGak/4/5/6 titles; WARN = ngoac hien thi (Refraction Rate KR ban dia hoa) + 2 chuoi 207/210 theo KR"
+    }
+   ],
+   "started": "2026-10-19T02:26:33.166Z",
+   "finished": "2026-10-19T02:53:56.195Z",
+   "note": "Batch49: Railway + NightCleanUp; KR-aligned Node1BokGak/4/5/6 titles; WARN = ngoac hien thi (Refraction Rate KR ban dia hoa) + 2 chuoi 207/210 theo KR"
   },
   "RailwayDungeonNode1-1.json": {
    "group": "story",
@@ -14891,51 +14964,142 @@
   "RailwayDungeonNode1002.json": {
    "group": "story",
    "size": 658,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-19T02:26:33.166Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-10-19T02:53:56.195Z",
+     "action": "done",
+     "note": "Batch49: Railway + NightCleanUp; KR-aligned Node1BokGak/4/5/6 titles; WARN = ngoac hien thi (Refraction Rate KR ban dia hoa) + 2 chuoi 207/210 theo KR"
+    }
+   ],
+   "started": "2026-10-19T02:26:33.166Z",
+   "finished": "2026-10-19T02:53:56.195Z",
+   "note": "Batch49: Railway + NightCleanUp; KR-aligned Node1BokGak/4/5/6 titles; WARN = ngoac hien thi (Refraction Rate KR ban dia hoa) + 2 chuoi 207/210 theo KR"
   },
   "RailwayDungeonNode1BokGak.json": {
    "group": "story",
    "size": 1251,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-19T02:26:33.166Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-10-19T02:53:56.195Z",
+     "action": "done",
+     "note": "Batch49: Railway + NightCleanUp; KR-aligned Node1BokGak/4/5/6 titles; WARN = ngoac hien thi (Refraction Rate KR ban dia hoa) + 2 chuoi 207/210 theo KR"
+    }
+   ],
+   "started": "2026-10-19T02:26:33.166Z",
+   "finished": "2026-10-19T02:53:56.195Z",
+   "note": "Batch49: Railway + NightCleanUp; KR-aligned Node1BokGak/4/5/6 titles; WARN = ngoac hien thi (Refraction Rate KR ban dia hoa) + 2 chuoi 207/210 theo KR"
   },
   "RailwayDungeonNode2.json": {
    "group": "story",
    "size": 5948,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-19T02:26:33.166Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-10-19T02:53:56.195Z",
+     "action": "done",
+     "note": "Batch49: Railway + NightCleanUp; KR-aligned Node1BokGak/4/5/6 titles; WARN = ngoac hien thi (Refraction Rate KR ban dia hoa) + 2 chuoi 207/210 theo KR"
+    }
+   ],
+   "started": "2026-10-19T02:26:33.166Z",
+   "finished": "2026-10-19T02:53:56.195Z",
+   "note": "Batch49: Railway + NightCleanUp; KR-aligned Node1BokGak/4/5/6 titles; WARN = ngoac hien thi (Refraction Rate KR ban dia hoa) + 2 chuoi 207/210 theo KR"
   },
   "RailwayDungeonNode3.json": {
    "group": "story",
    "size": 6775,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-19T02:26:33.166Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-10-19T02:53:56.195Z",
+     "action": "done",
+     "note": "Batch49: Railway + NightCleanUp; KR-aligned Node1BokGak/4/5/6 titles; WARN = ngoac hien thi (Refraction Rate KR ban dia hoa) + 2 chuoi 207/210 theo KR"
+    }
+   ],
+   "started": "2026-10-19T02:26:33.166Z",
+   "finished": "2026-10-19T02:53:56.195Z",
+   "note": "Batch49: Railway + NightCleanUp; KR-aligned Node1BokGak/4/5/6 titles; WARN = ngoac hien thi (Refraction Rate KR ban dia hoa) + 2 chuoi 207/210 theo KR"
   },
   "RailwayDungeonNode4.json": {
    "group": "story",
    "size": 704,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-19T02:26:33.166Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-10-19T02:53:56.195Z",
+     "action": "done",
+     "note": "Batch49: Railway + NightCleanUp; KR-aligned Node1BokGak/4/5/6 titles; WARN = ngoac hien thi (Refraction Rate KR ban dia hoa) + 2 chuoi 207/210 theo KR"
+    }
+   ],
+   "started": "2026-10-19T02:26:33.166Z",
+   "finished": "2026-10-19T02:53:56.195Z",
+   "note": "Batch49: Railway + NightCleanUp; KR-aligned Node1BokGak/4/5/6 titles; WARN = ngoac hien thi (Refraction Rate KR ban dia hoa) + 2 chuoi 207/210 theo KR"
   },
   "RailwayDungeonNode5.json": {
    "group": "story",
    "size": 372,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-19T02:26:33.166Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-10-19T02:53:56.195Z",
+     "action": "done",
+     "note": "Batch49: Railway + NightCleanUp; KR-aligned Node1BokGak/4/5/6 titles; WARN = ngoac hien thi (Refraction Rate KR ban dia hoa) + 2 chuoi 207/210 theo KR"
+    }
+   ],
+   "started": "2026-10-19T02:26:33.166Z",
+   "finished": "2026-10-19T02:53:56.195Z",
+   "note": "Batch49: Railway + NightCleanUp; KR-aligned Node1BokGak/4/5/6 titles; WARN = ngoac hien thi (Refraction Rate KR ban dia hoa) + 2 chuoi 207/210 theo KR"
   },
   "RailwayDungeonNode6.json": {
    "group": "story",
    "size": 455,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-19T02:26:33.166Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-10-19T02:53:56.195Z",
+     "action": "done",
+     "note": "Batch49: Railway + NightCleanUp; KR-aligned Node1BokGak/4/5/6 titles; WARN = ngoac hien thi (Refraction Rate KR ban dia hoa) + 2 chuoi 207/210 theo KR"
+    }
+   ],
+   "started": "2026-10-19T02:26:33.166Z",
+   "finished": "2026-10-19T02:53:56.195Z",
+   "note": "Batch49: Railway + NightCleanUp; KR-aligned Node1BokGak/4/5/6 titles; WARN = ngoac hien thi (Refraction Rate KR ban dia hoa) + 2 chuoi 207/210 theo KR"
   },
   "RailwayDungeonStationName1-1.json": {
    "group": "story",
@@ -26145,5 +26309,5 @@
    "history": []
   }
  },
- "updated": "2026-10-18T19:52:24.432Z"
+ "updated": "2026-10-19T02:53:56.222Z"
 }
