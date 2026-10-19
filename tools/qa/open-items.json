@@ -26,6 +26,8 @@
     { "id": "outskirts-term", "status": "open", "desc": "Outskirts: glossary 'Ngoại ô'; corpus 'Ngoại Ô' 37 + 'Ngoại ô' 18 vs 'Rìa Ngoài' 21 (gồm 3D303B batch 54 + E506A/E509B/P10302/PC03B/S525B/S534B). Chốt 'Ngoại Ô' rồi sync 'Rìa Ngoài' → 'Ngoại Ô'." },
     { "id": "city-casing", "status": "open", "desc": "City: 'Thành Phố' 274 vs 'Thành phố' 252 — chốt casing (đề xuất 'Thành Phố') rồi sync toàn repo." },
     { "id": "yeonsim-name", "status": "open", "desc": "Nhân vật Yeonsim (Canto 4): 'Luyến Tâm' 37 (chuẩn, hanja 戀心) vs 'Nghiên Tầm' 11 (4D105B batch 55 worker đã chọn 'Nghiên Tầm (硏尋)' — xem lại) vs 'Liên Tâm' 4 — chốt 'Luyến Tâm' rồi sync." },
-    { "id": "district-term", "status": "open", "desc": "Khu của Corp ('S Corp's district'…): 'Đường S' (lẫn 'Đường Sắt'=railway trong count) / 'Quận S' 40 (P10508 title) / 'Khu S' 11 — chốt cách dịch '<X> Corp's district' và sync (lưu ý place kiểu 'Quận 4/11 - Bên trong Chi nhánh LC' đã dùng 'Quận')." }
+    { "id": "district-term", "status": "open", "desc": "Khu của Corp ('S Corp's district'…): 'Đường S' (lẫn 'Đường Sắt'=railway trong count) / 'Quận S' 40 (P10508 title) / 'Khu S' 11 — chốt cách dịch '<X> Corp's district' và sync (lưu ý place kiểu 'Quận 4/11 - Bên trong Chi nhánh LC' đã dùng 'Quận')." },
+    { "id": "cubic-room-place", "status": "open", "desc": "Place 'N Corp. Cubic Room': batch 56 chốt 'Phòng Lập Phương của Công ty N' (đã sửa 4D301B, sync 4D302B) — 4D303B còn 'Căn phòng hình vuông của N Corp', cần sync khi QA/nhân dịp." },
+    { "id": "collector-rank", "status": "open", "desc": "teller 'Nhân viên Thu thuế Bậc N' (4D206A) vs corpus 'Cấp N' (78 vs 13; Enemies.json 'Nhân viên Thu thuế Cấp 3 Công ty T'); P10909 còn 'bậc 2' viết thường — chốt 'Cấp' rồi sync teller toàn repo (QA từng file không đụng teller)." }
   ]
 }
