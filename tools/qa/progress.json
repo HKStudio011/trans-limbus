@@ -2222,6 +2222,47 @@
     "StoryData/3D309B.json"
    ],
    "note": "Batch54: StoryData 3D301-3D309; Nest/Khu To Hop->To, Toi nhan->Toi do, grudge->moi han (Sinclair-Kromer), Hoc sinh cung lop->Ban hoc; WARN = ngoac hien thi <> (KR cung ban dia hoa); worker: 3D301B+3D309A"
+  },
+  {
+   "ts": "2026-10-19T12:17:46.895Z",
+   "action": "claim",
+   "files": [
+    "StoryData/3D309I.json",
+    "StoryData/3D309I1.json",
+    "StoryData/3D309I2.json",
+    "StoryData/4D102A.json",
+    "StoryData/4D103B.json",
+    "StoryData/4D104B.json",
+    "StoryData/4D105B.json",
+    "StoryData/4D106B.json",
+    "StoryData/4D107B.json",
+    "StoryData/4D201B.json"
+   ],
+   "note": "Batch55: StoryData tiep (3D309I + 3D4xx)"
+  },
+  {
+   "ts": "2026-10-19T17:27:50.615Z",
+   "action": "skip",
+   "files": [
+    "StoryData/3D309I.json"
+   ],
+   "note": "Legacy: khong co nguon EN/KR/JP hien hanh; noi dung trung 1:1 voi EN_3D309I2 (63 record) nhung dich cu/loi dai tu (Co ay...). Da ap minimal fix (place + Sinners). Cho quyet dinh xoa/giu (xem open-item legacy-work-files)"
+  },
+  {
+   "ts": "2026-10-19T17:27:50.809Z",
+   "action": "done",
+   "files": [
+    "StoryData/3D309I1.json",
+    "StoryData/3D309I2.json",
+    "StoryData/4D102A.json",
+    "StoryData/4D103B.json",
+    "StoryData/4D104B.json",
+    "StoryData/4D105B.json",
+    "StoryData/4D106B.json",
+    "StoryData/4D107B.json",
+    "StoryData/4D201B.json"
+   ],
+   "note": "Batch55: StoryData 3D309I1-4D201; ten rieng C4 (Dongbaek/Yi Sang/Young-ji/Dongrang), Cua Kinh, Cau Doi -> Cau Doi->Cai Dau; Canh Bac Kim->Canh Vang; Bo phan K Corp chuan hoa; worker 3D309I2+4D105B (99 sua); WARN = ngoac hien thi <> (KR cung ban dia hoa)"
   }
  ],
  "files": {
@@ -19411,72 +19452,202 @@
   "StoryData/3D309I.json": {
    "group": "story",
    "size": 9571,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "skipped",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-19T12:17:46.890Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-10-19T17:27:50.609Z",
+     "action": "skip",
+     "note": "Legacy: khong co nguon EN/KR/JP hien hanh; noi dung trung 1:1 voi EN_3D309I2 (63 record) nhung dich cu/loi dai tu (Co ay...). Da ap minimal fix (place + Sinners). Cho quyet dinh xoa/giu (xem open-item legacy-work-files)"
+    }
+   ],
+   "started": "2026-10-19T12:17:46.890Z",
+   "finished": "2026-10-19T17:27:50.609Z",
+   "note": "Legacy: khong co nguon EN/KR/JP hien hanh; noi dung trung 1:1 voi EN_3D309I2 (63 record) nhung dich cu/loi dai tu (Co ay...). Da ap minimal fix (place + Sinners). Cho quyet dinh xoa/giu (xem open-item legacy-work-files)"
   },
   "StoryData/3D309I1.json": {
    "group": "story",
    "size": 6121,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-19T12:17:46.890Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-10-19T17:27:50.805Z",
+     "action": "done",
+     "note": "Batch55: StoryData 3D309I1-4D201; ten rieng C4 (Dongbaek/Yi Sang/Young-ji/Dongrang), Cua Kinh, Cau Doi -> Cau Doi->Cai Dau; Canh Bac Kim->Canh Vang; Bo phan K Corp chuan hoa; worker 3D309I2+4D105B (99 sua); WARN = ngoac hien thi <> (KR cung ban dia hoa)"
+    }
+   ],
+   "started": "2026-10-19T12:17:46.890Z",
+   "finished": "2026-10-19T17:27:50.805Z",
+   "note": "Batch55: StoryData 3D309I1-4D201; ten rieng C4 (Dongbaek/Yi Sang/Young-ji/Dongrang), Cua Kinh, Cau Doi -> Cau Doi->Cai Dau; Canh Bac Kim->Canh Vang; Bo phan K Corp chuan hoa; worker 3D309I2+4D105B (99 sua); WARN = ngoac hien thi <> (KR cung ban dia hoa)"
   },
   "StoryData/3D309I2.json": {
    "group": "story",
    "size": 10871,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-19T12:17:46.890Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-10-19T17:27:50.805Z",
+     "action": "done",
+     "note": "Batch55: StoryData 3D309I1-4D201; ten rieng C4 (Dongbaek/Yi Sang/Young-ji/Dongrang), Cua Kinh, Cau Doi -> Cau Doi->Cai Dau; Canh Bac Kim->Canh Vang; Bo phan K Corp chuan hoa; worker 3D309I2+4D105B (99 sua); WARN = ngoac hien thi <> (KR cung ban dia hoa)"
+    }
+   ],
+   "started": "2026-10-19T12:17:46.890Z",
+   "finished": "2026-10-19T17:27:50.805Z",
+   "note": "Batch55: StoryData 3D309I1-4D201; ten rieng C4 (Dongbaek/Yi Sang/Young-ji/Dongrang), Cua Kinh, Cau Doi -> Cau Doi->Cai Dau; Canh Bac Kim->Canh Vang; Bo phan K Corp chuan hoa; worker 3D309I2+4D105B (99 sua); WARN = ngoac hien thi <> (KR cung ban dia hoa)"
   },
   "StoryData/4D102A.json": {
    "group": "story",
    "size": 3916,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-19T12:17:46.890Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-10-19T17:27:50.805Z",
+     "action": "done",
+     "note": "Batch55: StoryData 3D309I1-4D201; ten rieng C4 (Dongbaek/Yi Sang/Young-ji/Dongrang), Cua Kinh, Cau Doi -> Cau Doi->Cai Dau; Canh Bac Kim->Canh Vang; Bo phan K Corp chuan hoa; worker 3D309I2+4D105B (99 sua); WARN = ngoac hien thi <> (KR cung ban dia hoa)"
+    }
+   ],
+   "started": "2026-10-19T12:17:46.890Z",
+   "finished": "2026-10-19T17:27:50.805Z",
+   "note": "Batch55: StoryData 3D309I1-4D201; ten rieng C4 (Dongbaek/Yi Sang/Young-ji/Dongrang), Cua Kinh, Cau Doi -> Cau Doi->Cai Dau; Canh Bac Kim->Canh Vang; Bo phan K Corp chuan hoa; worker 3D309I2+4D105B (99 sua); WARN = ngoac hien thi <> (KR cung ban dia hoa)"
   },
   "StoryData/4D103B.json": {
    "group": "story",
    "size": 7089,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-19T12:17:46.890Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-10-19T17:27:50.805Z",
+     "action": "done",
+     "note": "Batch55: StoryData 3D309I1-4D201; ten rieng C4 (Dongbaek/Yi Sang/Young-ji/Dongrang), Cua Kinh, Cau Doi -> Cau Doi->Cai Dau; Canh Bac Kim->Canh Vang; Bo phan K Corp chuan hoa; worker 3D309I2+4D105B (99 sua); WARN = ngoac hien thi <> (KR cung ban dia hoa)"
+    }
+   ],
+   "started": "2026-10-19T12:17:46.890Z",
+   "finished": "2026-10-19T17:27:50.805Z",
+   "note": "Batch55: StoryData 3D309I1-4D201; ten rieng C4 (Dongbaek/Yi Sang/Young-ji/Dongrang), Cua Kinh, Cau Doi -> Cau Doi->Cai Dau; Canh Bac Kim->Canh Vang; Bo phan K Corp chuan hoa; worker 3D309I2+4D105B (99 sua); WARN = ngoac hien thi <> (KR cung ban dia hoa)"
   },
   "StoryData/4D104B.json": {
    "group": "story",
    "size": 6390,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-19T12:17:46.890Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-10-19T17:27:50.805Z",
+     "action": "done",
+     "note": "Batch55: StoryData 3D309I1-4D201; ten rieng C4 (Dongbaek/Yi Sang/Young-ji/Dongrang), Cua Kinh, Cau Doi -> Cau Doi->Cai Dau; Canh Bac Kim->Canh Vang; Bo phan K Corp chuan hoa; worker 3D309I2+4D105B (99 sua); WARN = ngoac hien thi <> (KR cung ban dia hoa)"
+    }
+   ],
+   "started": "2026-10-19T12:17:46.890Z",
+   "finished": "2026-10-19T17:27:50.805Z",
+   "note": "Batch55: StoryData 3D309I1-4D201; ten rieng C4 (Dongbaek/Yi Sang/Young-ji/Dongrang), Cua Kinh, Cau Doi -> Cau Doi->Cai Dau; Canh Bac Kim->Canh Vang; Bo phan K Corp chuan hoa; worker 3D309I2+4D105B (99 sua); WARN = ngoac hien thi <> (KR cung ban dia hoa)"
   },
   "StoryData/4D105B.json": {
    "group": "story",
    "size": 12290,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-19T12:17:46.890Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-10-19T17:27:50.805Z",
+     "action": "done",
+     "note": "Batch55: StoryData 3D309I1-4D201; ten rieng C4 (Dongbaek/Yi Sang/Young-ji/Dongrang), Cua Kinh, Cau Doi -> Cau Doi->Cai Dau; Canh Bac Kim->Canh Vang; Bo phan K Corp chuan hoa; worker 3D309I2+4D105B (99 sua); WARN = ngoac hien thi <> (KR cung ban dia hoa)"
+    }
+   ],
+   "started": "2026-10-19T12:17:46.890Z",
+   "finished": "2026-10-19T17:27:50.805Z",
+   "note": "Batch55: StoryData 3D309I1-4D201; ten rieng C4 (Dongbaek/Yi Sang/Young-ji/Dongrang), Cua Kinh, Cau Doi -> Cau Doi->Cai Dau; Canh Bac Kim->Canh Vang; Bo phan K Corp chuan hoa; worker 3D309I2+4D105B (99 sua); WARN = ngoac hien thi <> (KR cung ban dia hoa)"
   },
   "StoryData/4D106B.json": {
    "group": "story",
    "size": 5621,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-19T12:17:46.890Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-10-19T17:27:50.805Z",
+     "action": "done",
+     "note": "Batch55: StoryData 3D309I1-4D201; ten rieng C4 (Dongbaek/Yi Sang/Young-ji/Dongrang), Cua Kinh, Cau Doi -> Cau Doi->Cai Dau; Canh Bac Kim->Canh Vang; Bo phan K Corp chuan hoa; worker 3D309I2+4D105B (99 sua); WARN = ngoac hien thi <> (KR cung ban dia hoa)"
+    }
+   ],
+   "started": "2026-10-19T12:17:46.890Z",
+   "finished": "2026-10-19T17:27:50.805Z",
+   "note": "Batch55: StoryData 3D309I1-4D201; ten rieng C4 (Dongbaek/Yi Sang/Young-ji/Dongrang), Cua Kinh, Cau Doi -> Cau Doi->Cai Dau; Canh Bac Kim->Canh Vang; Bo phan K Corp chuan hoa; worker 3D309I2+4D105B (99 sua); WARN = ngoac hien thi <> (KR cung ban dia hoa)"
   },
   "StoryData/4D107B.json": {
    "group": "story",
    "size": 6361,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-19T12:17:46.890Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-10-19T17:27:50.805Z",
+     "action": "done",
+     "note": "Batch55: StoryData 3D309I1-4D201; ten rieng C4 (Dongbaek/Yi Sang/Young-ji/Dongrang), Cua Kinh, Cau Doi -> Cau Doi->Cai Dau; Canh Bac Kim->Canh Vang; Bo phan K Corp chuan hoa; worker 3D309I2+4D105B (99 sua); WARN = ngoac hien thi <> (KR cung ban dia hoa)"
+    }
+   ],
+   "started": "2026-10-19T12:17:46.890Z",
+   "finished": "2026-10-19T17:27:50.805Z",
+   "note": "Batch55: StoryData 3D309I1-4D201; ten rieng C4 (Dongbaek/Yi Sang/Young-ji/Dongrang), Cua Kinh, Cau Doi -> Cau Doi->Cai Dau; Canh Bac Kim->Canh Vang; Bo phan K Corp chuan hoa; worker 3D309I2+4D105B (99 sua); WARN = ngoac hien thi <> (KR cung ban dia hoa)"
   },
   "StoryData/4D201B.json": {
    "group": "story",
    "size": 2925,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-10-19T12:17:46.890Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-10-19T17:27:50.805Z",
+     "action": "done",
+     "note": "Batch55: StoryData 3D309I1-4D201; ten rieng C4 (Dongbaek/Yi Sang/Young-ji/Dongrang), Cua Kinh, Cau Doi -> Cau Doi->Cai Dau; Canh Bac Kim->Canh Vang; Bo phan K Corp chuan hoa; worker 3D309I2+4D105B (99 sua); WARN = ngoac hien thi <> (KR cung ban dia hoa)"
+    }
+   ],
+   "started": "2026-10-19T12:17:46.890Z",
+   "finished": "2026-10-19T17:27:50.805Z",
+   "note": "Batch55: StoryData 3D309I1-4D201; ten rieng C4 (Dongbaek/Yi Sang/Young-ji/Dongrang), Cua Kinh, Cau Doi -> Cau Doi->Cai Dau; Canh Bac Kim->Canh Vang; Bo phan K Corp chuan hoa; worker 3D309I2+4D105B (99 sua); WARN = ngoac hien thi <> (KR cung ban dia hoa)"
   },
   "StoryData/4D202B.json": {
    "group": "story",
@@ -27129,5 +27300,5 @@
    "history": []
   }
  },
- "updated": "2026-10-19T11:53:02.784Z"
+ "updated": "2026-10-19T17:27:50.809Z"
 }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-18",
+  "updated": "2026-10-20",
   "note": "Các quyết định/thuật ngữ cần đồng bộ TOÀN REPO — xử lý bằng pass riêng, không sửa lẻ trong batch file.",
   "items": [
     { "id": "display-brackets-skills", "status": "open", "desc": "Skills.json bỏ ngoặc hiển thị VI ([Xuất huyết]...) để khớp EN; nhiều file khác vẫn giữ ngoặc VI. Cần chốt chính sách (giữ ngoặc VI toàn repo hay bỏ theo EN) rồi pass đồng bộ." },
@@ -20,6 +20,12 @@
     { "id": "ability-variants-more", "status": "open", "desc": "Bổ sung cho ability-name-variants: story corpus còn 'Dị thể', 'Dị thường thể', 'Thực thể huyền ảo', 'Thực Thể Dị Thường' (viết hoa) cho Abnormality — chốt 'Dị thường' (glossary) rồi pass riêng toàn story." },
     { "id": "rodyaname", "status": "open", "desc": "Rodya vs Rodion: EN dùng 'Rodya' trong tự sự/thoại và 'Rodion' ở log; các batch 51/52 giữ 'Rodion' cho 'Rodya', batch 53 (2D306B) đã theo EN dùng 'Rodya' (9 chỗ) — cần chốt 1 quy ước rồi pass đồng bộ phần story còn lại (và cân nhắc '[Rodion]' đã chuẩn hoá ở AbEventsResultLog)." },
     { "id": "nest-term", "status": "open", "desc": "Nest: glossary 'Tổ', batch 54 đã chuẩn hoá các file 3D3xx ('Khu Tổ Hợp'/'khắp các Nest' → 'Tổ') nhưng story corpus còn ~78 chỗ giữ EN 'Nest' + ~12 'Khu Tổ' — pass đồng bộ toàn story theo glossary." },
-    { "id": "toi-nhan", "status": "open", "desc": "Sinners (story): chuẩn 'Tội đồ'; batch 54 sửa 3D308B nhưng còn ~60 file story khác dùng 'Tội nhân' — pass đồng bộ (không đụng 'Tội Chủng' = Peccatula)." }
+    { "id": "toi-nhan", "status": "open", "desc": "Sinners (story): chuẩn 'Tội đồ'; batch 54 sửa 3D308B nhưng còn ~60 file story khác dùng 'Tội nhân' — pass đồng bộ (không đụng 'Tội Chủng' = Peccatula)." },
+    { "id": "legacy-work-files", "status": "open", "desc": "File cũ còn sót trong Work không có nguồn E/K/J hiện hành: 3D309I (trùng 1:1 EN_3D309I2, bản dịch cũ lỗi đại từ; batch 55 đã skip + fix tối thiểu) và S908A (nguồn game nay là S908B). Game hiện dùng 3D309I1/I2 và S908B — cần quyết định xoá khỏi Work hay giữ để tương thích bản cũ." },
+    { "id": "missing-p11016", "status": "open", "desc": "EN/KR/JP đều có StoryData/P11016 (hồi tưởng 'In a memory as hazy as a dream…' — Grand Magasin) nhưng Work THIẾU hoàn toàn (chưa copy/dịch) — cần bổ sung khi dịch Canto mới." },
+    { "id": "outskirts-term", "status": "open", "desc": "Outskirts: glossary 'Ngoại ô'; corpus 'Ngoại Ô' 37 + 'Ngoại ô' 18 vs 'Rìa Ngoài' 21 (gồm 3D303B batch 54 + E506A/E509B/P10302/PC03B/S525B/S534B). Chốt 'Ngoại Ô' rồi sync 'Rìa Ngoài' → 'Ngoại Ô'." },
+    { "id": "city-casing", "status": "open", "desc": "City: 'Thành Phố' 274 vs 'Thành phố' 252 — chốt casing (đề xuất 'Thành Phố') rồi sync toàn repo." },
+    { "id": "yeonsim-name", "status": "open", "desc": "Nhân vật Yeonsim (Canto 4): 'Luyến Tâm' 37 (chuẩn, hanja 戀心) vs 'Nghiên Tầm' 11 (4D105B batch 55 worker đã chọn 'Nghiên Tầm (硏尋)' — xem lại) vs 'Liên Tâm' 4 — chốt 'Luyến Tâm' rồi sync." },
+    { "id": "district-term", "status": "open", "desc": "Khu của Corp ('S Corp's district'…): 'Đường S' (lẫn 'Đường Sắt'=railway trong count) / 'Quận S' 40 (P10508 title) / 'Khu S' 11 — chốt cách dịch '<X> Corp's district' và sync (lưu ý place kiểu 'Quận 4/11 - Bên trong Chi nhánh LC' đã dùng 'Quận')." }
   ]
 }
