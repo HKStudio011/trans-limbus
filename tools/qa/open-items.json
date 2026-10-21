@@ -38,6 +38,12 @@
     { "id": "father-term-c7", "status": "open", "desc": "Canto 7 'Father' (어버이): 'Đấng Sinh Thành' (7D104B/7D108B…) / 'Đấng Phụ mẫu' (7D106B) / 'Phụ thân' (7D108B/7D109B) / 'Đấng Sáng Thế' (7D108B) — chốt 1 thuật ngữ rồi sync toàn Canto 7." },
     { "id": "white-moon-knight", "status": "open", "desc": "Knight of the White Moon: 'Ánh Trăng Trắng' 8 (S717B…) / 'Trăng Trắng' 7 / 'Mặt Trăng Trắng' 6 (S725B/S726B, 7D104B/7D108B batch 61) — chốt 'Mặt Trăng Trắng' rồi sync." },
     { "id": "relic-term-c7", "status": "open", "desc": "Canto 7 'Relic': 'cổ vật' (7D108B) / 'di vật' (7D104B) / 'thánh vật' — chốt 1 dạng (đề xuất 'di vật') rồi sync." },
-    { "id": "cr-in-strings", "status": "open", "desc": "Ký tự `\\r` lẫn trong chuỗi VI còn ~432 chỗ rải rác (junk từ bản dịch cũ; batch 61-62 đã strip sạch ở 7D106B/7D112I3; verify chỉ đếm `\\n` nên không bắt được) — pass dọn `\\r` thừa khi QA/đồng bộ (nhưng GIỮ `\\r` khi nó là ngắt dòng có chủ đích khớp EN/KR — kiểm tra từng ca)." }
+    { "id": "cr-in-strings", "status": "open", "desc": "Ký tự `\\r` lẫn trong chuỗi VI còn ~432 chỗ rải rác (junk từ bản dịch cũ; batch 61-62 đã strip sạch ở 7D106B/7D112I3; verify chỉ đếm `\\n` nên không bắt được) — pass dọn `\\r` thừa khi QA/đồng bộ (nhưng GIỮ `\\r` khi nó là ngắt dòng có chủ đích khớp EN/KR — kiểm tra từng ca)." },
+    { "id": "heishou-term", "status": "open", "desc": "Heishou (黒獣): chốt 'Hắc Thú' (JP/KR + file cơ chế); batch 63 đã chuẩn hoá các file batch (kể cả 'Hắc Thủy' 8D103B). Story corpus còn 'Hắc Thủ' ~368 — pass đồng bộ." },
+    { "id": "xichun-name", "status": "open", "desc": "Jia Xichun: chuẩn 'Xichun' (EN; batch 63 chuẩn hoá, 7D101B dùng 'Jia Xichun'); corpus còn 'Shichun' 74 / 'Tích Xuân' 74 / 'Si-chun' 32 — sync." },
+    { "id": "wang-zhao-name", "status": "open", "desc": "Wang Zhao: chuẩn 'Wang Zhao' (EN; batch 63); corpus còn 'Wang Ziyu'/'Wang Zi-wu'/'Vương Chiếu'/'Vương Tử Vũ' — sync." },
+    { "id": "hongyuan-name", "status": "open", "desc": "'Hồng Nguyện' (8D101B/8D106A/8D107A) vs 'Hồng Viện' (8D103B/8D104A/8D105B) vs 'Hồng Nguyên' (8D107B) vs 'Hồng Uyển' (E801B) — chốt 1 dạng rồi sync toàn Canto 8." },
+    { "id": "evaluation-arena-place", "status": "open", "desc": "Place 'Evaluation Arena 1F': 'Sảnh Giám định'/'Hội trường Giám định'/'Khu vực Thẩm định'/'Địa điểm thi tầng 1' (và 'Chamber of the Condemned' = 'Phòng Tội nhân') — chốt thuật ngữ rồi sync place toàn Canto 8." },
+    { "id": "canto8-condemned", "status": "open", "desc": "Canto 8: 'condemned' (nhóm người bị kết án ở Hồng Nguyện — 8D106A 'Phòng Tội nhân', 8D106B 'những tội nhân…') dùng 'tội nhân' — PHẢI phân biệt với Sinners→'Tội đồ'; global 'Tội nhân→Tội đồ' phải loại trừ ngữ cảnh condemned (batch 63 đã tạm bỏ global này)." }
   ]
 }
