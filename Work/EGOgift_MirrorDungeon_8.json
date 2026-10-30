@@ -2,119 +2,119 @@
   "dataList": [
     {
       "id": 9284,
-      "name": "Out-of-style Rouge Clothing",
-      "desc": "When allies heal HP through Base Attack Skills' Skill or Coin effects, heal +50% HP (3 times per turn; rounded down)\n\n[Haute Couture::Boutique du Rouge Ishmael Exclusive Effect]\nIf Haute Couture::The Crimson God of Le Rouge Sinclair is with this unit on the field, gain 1 [RougeIshmaelCocoon] at Turn Start and enter [RougeIshmaelCocoon] state (once per Encounter)\n- If \"In this Encounter, when this unit takes damage that brings its HP down to 0, nullify that damage; then, immediately gain 2 [RougeIshmaelCocoon] and enter the [RougeIshmaelCocoon] state (once per Encounter)\" from the Passive \"Into the <noparse>Changing Room</noparse>…\" activated, the exclusive effect does not activate\n- When the exclusive effect activates, the effect \"In this Encounter, when this unit takes damage that brings its HP down to 0, nullify that damage; then, immediately gain 2 [RougeIshmaelCocoon] and enter the [RougeIshmaelCocoon] state (once per Encounter)\" from the Passive \"Into the <noparse>Changing Room</noparse>…\" does not activate",
+      "name": "Trang phục Le Rouge lỗi thời",
+      "desc": "Khi đồng minh hồi phục Máu bằng hiệu ứng Kĩ năng hoặc Đồng xu của Kĩ năng Tấn công Cơ bản, hồi thêm 50% Máu (3 lần mỗi lượt; làm tròn xuống)\n\n[Hiệu ứng dành riêng cho Haute Couture::Boutique du Rouge Ishmael]\nNếu Haute Couture::The Crimson God of Le Rouge Sinclair cùng có mặt trên chiến trường với đơn vị này, nhận 1 [RougeIshmaelCocoon] khi bắt đầu lượt và tiến vào trạng thái [RougeIshmaelCocoon] (1 lần mỗi trận chiến)\n- Nếu hiệu ứng \"Trong trận chiến này, khi đơn vị này nhận sát thương khiến Máu về 0, vô hiệu hóa sát thương đó; sau đó, lập tức nhận 2 [RougeIshmaelCocoon] và tiến vào trạng thái [RougeIshmaelCocoon] (1 lần mỗi trận chiến)\" trong Nội tại \"Bước vào <noparse>Phòng thay đồ</noparse>…\" đã kích hoạt, hiệu ứng dành riêng sẽ không kích hoạt\n- Khi hiệu ứng dành riêng kích hoạt, hiệu ứng \"Trong trận chiến này, khi đơn vị này nhận sát thương khiến Máu về 0, vô hiệu hóa sát thương đó; sau đó, lập tức nhận 2 [RougeIshmaelCocoon] và tiến vào trạng thái [RougeIshmaelCocoon] (1 lần mỗi trận chiến)\" trong Nội tại \"Bước vào <noparse>Phòng thay đồ</noparse>…\" sẽ không kích hoạt",
       "simpleDesc": [
         {
           "abilityID": 9284,
-          "simpleDesc": "Immediately enter [RougeIshmaelCocoon]"
+          "simpleDesc": "Lập tức tiến vào trạng thái [RougeIshmaelCocoon]"
         },
         {
           "abilityID": 92841,
-          "simpleDesc": "Heal more HP"
+          "simpleDesc": "Hồi phục nhiều Máu hơn"
         }
       ]
     },
     {
       "id": 9285,
-      "name": "Soda Pop",
-      "desc": "Sinners who attempt to heal HP on self this turn using Skill or Coin effects gain the following effects next turn:\n- Skills deal +10% damage\n- Gain [AttackUp] equal to (sum of HP healed during the turn (including excess healing) / 10) (max 6; rounded down)\n\nIf there are other Identities on the field that are in the same faction as the units that activated the above effect, they gain half of the [AttackUp] the above units gained (min 1, max 3 per turn; rounded down)",
+      "name": "Nước ngọt có ga",
+      "desc": "Tội đồ đã thử hồi phục Máu cho bản thân trong lượt này bằng hiệu ứng Kĩ năng hoặc Đồng xu sẽ nhận các hiệu ứng sau vào lượt kế tiếp:\n- Kĩ năng gây thêm +10% sát thương\n- Nhận [AttackUp] bằng (tổng Máu hồi phục trong lượt (bao gồm cả lượng hồi vượt mức) / 10) (tối đa 6; làm tròn xuống)\n\nNếu trên chiến trường có Bản sắc khác cùng phe với đơn vị đã kích hoạt hiệu ứng trên, chúng nhận một nửa lượng [AttackUp] mà đơn vị đó đã nhận (tối thiểu 1, tối đa 3 mỗi lượt; làm tròn xuống)",
       "simpleDesc": [
         {
           "abilityID": 9285,
-          "simpleDesc": "Deal more damage and gain [AttackUp]"
+          "simpleDesc": "Gây nhiều sát thương hơn và nhận [AttackUp]"
         }
       ]
     },
     {
       "id": 9286,
-      "name": "Maison du Noir Slacks",
-      "desc": "When allies that have 2+ [Charge] Potency trigger [VibrationExplosion], apply the following effects:\n- Deal ([Charge] Potency on self x [Charge] Count) Envy Damage (2 times per skill, max 100 damage per tick)\n- Every 2 times the above effect deals Envy Damage, inflict 3 [Binding] next turn on target\n\nEvery time an ally triggers [VibrationExplosion] using a Skill, gain ([Charge] Potency on self / 3) [AttackUp] next turn (max 5 per turn; rounded down)",
+      "name": "Quần âu Maison du Noir",
+      "desc": "Khi đồng minh có từ 2 Cường độ [Charge] trở lên kích hoạt [VibrationExplosion], áp dụng các hiệu ứng sau:\n- Gây sát thương Đố kị bằng (Cường độ [Charge] của bản thân x Số lượng [Charge]) (2 lần mỗi Kĩ năng, tối đa 100 sát thương mỗi lần)\n- Cứ 2 lần hiệu ứng trên gây sát thương Đố kị, gây 3 [Binding] lên mục tiêu vào lượt kế tiếp\n\nMỗi khi đồng minh kích hoạt [VibrationExplosion] bằng Kĩ năng, nhận [AttackUp] bằng (Cường độ [Charge] của bản thân / 3) vào lượt kế tiếp (tối đa 5 mỗi lượt; làm tròn xuống)",
       "simpleDesc": [
         {
           "abilityID": 9286,
-          "simpleDesc": "Deal Envy Damage and inflict [Binding]"
+          "simpleDesc": "Gây sát thương Đố kị và gây [Binding]"
         },
         {
           "abilityID": 92861,
-          "simpleDesc": "Gain [AttackUp]"
+          "simpleDesc": "Nhận [AttackUp]"
         }
       ]
     },
     {
       "id": 9287,
-      "name": "Le Noir Mary Janes",
-      "desc": "Combat Start: On Hit from an Identity that has the highest Shield, deal (current Shield / 2) Sloth Damage (2 times per Skill, max 100 damage per tick; rounded down)\n- If 2+ Identities have the same Shield HP, applies to the Identity with the earlier Deployment Order\n\nIf the affected Identity is a [PersonalityCharge], deal Sloth Damage equal to current Shield instead (3 times per skill, max 100 per tick; rounded down)",
+      "name": "Giày Mary Janes Le Noir",
+      "desc": "Khi bắt đầu trận chiến: Khi đòn đánh của Bản sắc sở hữu Lá chắn cao nhất trúng đích, gây sát thương Lười biếng bằng (Lá chắn hiện tại / 2) (2 lần mỗi Kĩ năng, tối đa 100 sát thương mỗi lần; làm tròn xuống)\n- Nếu có từ 2 Bản sắc trở lên có cùng giá trị Lá chắn, áp dụng cho Bản sắc có thứ tự triển khai sớm hơn\n\nNếu Bản sắc bị ảnh hưởng là [PersonalityCharge], thay vào đó gây sát thương Lười biếng bằng Lá chắn hiện tại (3 lần mỗi Kĩ năng, tối đa 100 mỗi lần; làm tròn xuống)",
       "simpleDesc": [
         {
           "abilityID": 9287,
-          "simpleDesc": "Deal Sloth Damage based on Shield"
+          "simpleDesc": "Gây sát thương Lười biếng dựa theo Lá chắn"
         }
       ]
     },
     {
       "id": 9288,
-      "name": "Straight Pin of the King of Needleworks",
-      "desc": "Turn Start: If no enemies have [SewingKingMark], inflict [SewingKingMark] on a random enemy (in Focused Encounters, a Part)",
+      "name": "Ghim thẳng của Vua Thêu Kim",
+      "desc": "Khi bắt đầu lượt: Nếu không có kẻ địch nào mang [SewingKingMark], gây [SewingKingMark] lên 1 kẻ địch ngẫu nhiên (với trận chiến tập trung, xét theo bộ phận)",
       "simpleDesc": [
         {
           "abilityID": 9288,
-          "simpleDesc": "Inflict [SewingKingMark]; deal fixed damage on death"
+          "simpleDesc": "Gây [SewingKingMark]; gây sát thương cố định khi tử vong"
         }
       ]
     },
     {
       "id": 9289,
-      "name": "Cartilage",
-      "desc": "Skills that consume [Charge] Count or Unique [Charge] deal +([Charge] Potency on self x 2)% damage (max 10%)\n\nTurn End: Units that consumed [Charge] Count or Unique [Charge] this turn gain 1 [Agility] next turn\n\nIf a unit's Speed is faster than the target's, Clash Power +1\n- If the said unit is a \"Sisyphe\" Identity, gain Final Power +1 instead",
+      "name": "Sụn",
+      "desc": "Kĩ năng tiêu tốn Số lượng [Charge] hoặc [Charge] đặc biệt gây thêm +(Cường độ [Charge] của bản thân x 2)% sát thương (tối đa 10%)\n\nKhi kết thúc lượt: Đơn vị đã tiêu tốn Số lượng [Charge] hoặc [Charge] đặc biệt trong lượt này nhận 1 [Agility] vào lượt kế tiếp\n\nNếu Tốc độ của đơn vị nhanh hơn mục tiêu, Sức mạnh Đối kháng +1\n- Nếu đơn vị đó là Bản sắc \"Sisyphe\", thay vào đó nhận Sức mạnh Cuối cùng +1",
       "simpleDesc": [
         {
           "abilityID": 9289,
-          "simpleDesc": "Deal more damage, gain [Agility], and gain Clash/Final Power"
+          "simpleDesc": "Gây nhiều sát thương hơn, nhận [Agility] và nhận Sức mạnh Đối kháng/Cuối cùng"
         }
       ]
     },
     {
       "id": 9290,
-      "name": "Blanket",
-      "desc": "Identities that equipped Defense Skills this turn take -20% damage from enemy attacks\n- Combat End: If the affected Identity is a [PersonalityCharge], gain 2 [AttackUp] next turn\n- Combat End: If the affected Identity is a \"Sisyphe\" Identity, gain 1 [ResultEnhancement] next turn",
+      "name": "Chăn",
+      "desc": "Bản sắc trang bị Kĩ năng Phòng thủ trong lượt này nhận -20% sát thương từ đòn tấn công của kẻ địch\n- Khi kết thúc trận chiến: Nếu Bản sắc bị ảnh hưởng là [PersonalityCharge], nhận 2 [AttackUp] vào lượt kế tiếp\n- Khi kết thúc trận chiến: Nếu Bản sắc bị ảnh hưởng là Bản sắc \"Sisyphe\", nhận 1 [ResultEnhancement] vào lượt kế tiếp",
       "simpleDesc": [
         {
           "abilityID": 9290,
-          "simpleDesc": "Take less damage and gain [AttackUp]/[ResultEnhancement]"
+          "simpleDesc": "Nhận ít sát thương hơn và nhận [AttackUp]/[ResultEnhancement]"
         }
       ]
     },
     {
       "id": 9291,
-      "name": "Blossom Scissors",
-      "desc": "[Effects apply only to #1 Deployed Identity]\n\n\"Sisyphe\" Identity or [PersonalityCharge]: On Base Skill final Coin Hit, deal Slash Damage equal to 5% of the said Coin's final damage on the main target (once per Skill)",
+      "name": "Kéo nở hoa",
+      "desc": "[Hiệu ứng dành riêng cho Bản sắc triển khai ở vị trí #1]\n\nBản sắc \"Sisyphe\" hoặc [PersonalityCharge]: Khi đánh trúng bằng Đồng xu cuối cùng của Kĩ năng Cơ bản, gây sát thương Trảm kích lên mục tiêu chính bằng 5% sát thương cuối cùng của Đồng xu đó (1 lần mỗi Kĩ năng)",
       "simpleDesc": [
         {
           "abilityID": 9291,
-          "simpleDesc": "Deal Slash Damage on the main target"
+          "simpleDesc": "Gây sát thương Trảm kích lên mục tiêu chính"
         }
       ]
     },
     {
       "id": 19291,
-      "name": "Blossom Scissors+",
-      "desc": "[Effects apply only to #1 Deployed Identity]\n\n\"Sisyphe\" Identity or [PersonalityCharge]: On Base Skill final Coin Hit, deal Slash Damage equal to <style=\"upgradeHighlight\">10%</style> of the said Coin's final damage on the main target (once per Skill)",
+      "name": "Kéo nở hoa+",
+      "desc": "[Hiệu ứng dành riêng cho Bản sắc triển khai ở vị trí #1]\n\nBản sắc \"Sisyphe\" hoặc [PersonalityCharge]: Khi đánh trúng bằng Đồng xu cuối cùng của Kĩ năng Cơ bản, gây sát thương Trảm kích lên mục tiêu chính bằng <style=\"upgradeHighlight\">10%</style> sát thương cuối cùng của Đồng xu đó (1 lần mỗi Kĩ năng)",
       "simpleDesc": [
         {
           "abilityID": 19291,
-          "simpleDesc": "Deal Slash Damage on the main target"
+          "simpleDesc": "Gây sát thương Trảm kích lên mục tiêu chính"
         }
       ]
     },
     {
       "id": 29291,
-      "name": "Blossom Scissors++",
-      "desc": "[Effects apply only to #1 Deployed Identity]\n\n\"Sisyphe\" Identity or [PersonalityCharge]: On Base Skill final Coin Hit, deal Slash Damage equal to <style=\"upgradeHighlight\">15%</style> of the said Coin's final damage on the main target (once per Skill)",
+      "name": "Kéo nở hoa++",
+      "desc": "[Hiệu ứng dành riêng cho Bản sắc triển khai ở vị trí #1]\n\nBản sắc \"Sisyphe\" hoặc [PersonalityCharge]: Khi đánh trúng bằng Đồng xu cuối cùng của Kĩ năng Cơ bản, gây sát thương Trảm kích lên mục tiêu chính bằng <style=\"upgradeHighlight\">15%</style> sát thương cuối cùng của Đồng xu đó (1 lần mỗi Kĩ năng)",
       "simpleDesc": [
         {
           "abilityID": 29291,
-          "simpleDesc": "Deal Slash Damage on the main target"
+          "simpleDesc": "Gây sát thương Trảm kích lên mục tiêu chính"
         }
       ]
     }
