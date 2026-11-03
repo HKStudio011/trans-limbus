@@ -6,7 +6,7 @@
     { "id": "slash-term", "status": "open", "desc": "Slash: 'Trảm kích' (glossary, ~205 chỗ) vs 'Chém' (~354 chỗ). Cần chốt và pass đồng bộ." },
     { "id": "count-term", "status": "open", "desc": "Count: 'Số lượng [' ~1769 vs 'Số lần [' ~1459. Đề xuất chuẩn 'Số lượng' cho Count của trạng thái; pass EN-aware." },
     { "id": "corp-terms", "status": "open", "desc": "Corp: 'Tập đoàn R' 180 / 'Hội N' 194 / 'Công ty N' 56 / 'Công ty R' 6 — chốt quy ước (đề xuất 'Công ty <X>' đồng nhất trừ khi UI cần khác)." },
-    { "id": "spider-house", "status": "open", "desc": "Spider House: 'Mạng Nhện' 203 vs 'Nhà Nhện' 105 — chốt 'Mạng Nhện' và pass đồng bộ." },
+    { "id": "spider-house", "status": "open", "desc": "Spider House: 'Mạng Nhện' 203 vs 'Nhà Nhện' 105 — chốt 'Mạng Nhện' và pass đồng bộ. Batch 82-83: arc E9xx (Canto 9) thống nhất 'Ổ Nhện' (KR 거미집; EN House of Spiders; đã sweep E901B-E910A: Tổ Nhện/Nhà Nhện/Nhện Nhãn/Mạng Nhện → Ổ Nhện); còn 'Sào Nhện' (S950B) + corpus cũ — cân nhắc lại chốt tổng thể ('Ổ Nhện' sát nghĩa 거미집 hơn)." },
     { "id": "ability-name-variants", "status": "open", "desc": "Dị thường: 'Thực thể dị thường' / 'Vật Thể Huyền Ảo' / 'Dị thường' — chốt 'Dị thường' (glossary) và pass riêng." },
     { "id": "sync-panic-names", "status": "open", "desc": "PanicInfo đã sửa tên trạng thái (Kích động, Úa tàn, Vẩn đục, Vết Nứt vỡ, Hoảng loạn trắng) — cần đồng bộ trong Bufs.json/BattleKeywords-* cùng cơ chế." },
     { "id": "breath-variants", "status": "open", "desc": "Poise: 'Hơi thở' (chuẩn) vs 'Hô hấp'/'Nhịp thở' còn sót rải rác — pass đồng bộ khi rảnh." },
@@ -65,6 +65,11 @@
     { "id": "soji-pinky", "status": "open", "desc": "The Pinky = 'Ngón Út' (EN; repo ~33 title 'Ngón Út'): batch 81 sửa 'Soji' (E801B ×16) + 'Sở Chỉ' (E803B ×11) → 'Ngón Út'; các file khác còn 'Soji'/'Sở Chỉ' sync khi gặp." },
     { "id": "dieu-cam-term", "status": "open", "desc": "Taboo = 'Điều Cấm' (repo đa số: 8D107A/8D108B/E922B/P10313/E725B/E726B); batch 81 sync E725B khỏi 'Điều Cấm Kỵ' — còn S001B 'Điều Cấm Kỵ' sync sau." },
     { "id": "zigong-name", "status": "open", "desc": "Zigong (nhân vật nữ Canto 8, học trò của Qiu): giữ Latin 'Zigong' (KHÔNG 'Tử Cống'); batch 81 chuẩn hoá E728B/E801B/E803B + sửa giống nữ (E728B id52 EN 'she'); cùng loạt 'Tử Lộ'→'Zilu'." },
-    { "id": "night-drifter-name", "status": "open", "desc": "The Night Drifter = 'Túy Thủ Dạ Khách' (repo 22); batch 82 sửa 'Thúy Tửu/Túy Tửu/Thúy Thụy Dạ Khách' ở E811I1; còn ES280A ('Thúy Thụy/Túy Tửu') sync khi QA." }
+    { "id": "night-drifter-name", "status": "open", "desc": "The Night Drifter = 'Túy Thủ Dạ Khách' (repo 22); batch 82 sửa 'Thúy Tửu/Túy Tửu/Thúy Thụy Dạ Khách' ở E811I1; còn ES280A ('Thúy Thụy/Túy Tửu') sync khi QA." },
+    { "id": "fingers-terms", "status": "open", "desc": "The Fingers (E9xx arc): 'Ngón Áp Út' (Ring), 'Ngón Giữa' (Middle), 'Ngón Út' (Pinky), 'Ngón Cái' (Thumb), 'Ngón Trỏ' (Index); batch 82-83 đã sweep các biến thể cũ 'Chỉ Ước/Ước Chỉ/Nhẫn Chỉ/Ngón Nhẫn/Trung Chỉ/Ngón Trung' → chuẩn; còn biến thể trong file chưa QA, sync khi gặp." },
+    { "id": "dihui-name", "status": "open", "desc": "Địa Tuệ Tinh (地慧星, Dihui Star): chuẩn 'Địa Tuệ Tinh' (E910A + teller JP/KR S918A/B); corpus còn 'Trí Tuệ Tinh' (S941B/S947B/S948A/S949B/P11015) và 'Dihui Star' Latin (P10716, Announcer_Ryoshu_42) — sync khi QA." },
+    { "id": "rien-name", "status": "open", "desc": "Rien (nhân vật E9xx): EN 'Rien'/'Mister Rien'; batch 83 sửa 'Luen'→'Rien' (E907B), 'Luyen'→'Rien' (E910A place); S926B còn 'chị Luyen' (sai giống) — sync khi QA." },
+    { "id": "tomah-teller", "status": "open", "desc": "Teller 'Tomah' (E908B i:199; EN 'Tomah', KR 토마) — Work đang 'Tomas' (HARD_SKIP teller) — sync trong pass teller." },
+    { "id": "nursefather-term", "status": "open", "desc": "Nursefather = 'Cha nuôi Ngón X' (chốt batch 83: E901B/E905B/E906A/B/E907B/E908B/E909B); biến thể cũ 'Phụ thân Ngón'/'Bố già Ngón'/'Cha Ring' đã sweep ở E9xx — giữ chuẩn khi gặp lại." }
   ]
 }
