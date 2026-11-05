@@ -71,6 +71,8 @@
     { "id": "rien-name", "status": "open", "desc": "Rien (nhân vật E9xx): EN 'Rien'/'Mister Rien'; batch 83 sửa 'Luen'→'Rien' (E907B), 'Luyen'→'Rien' (E910A place); S926B còn 'chị Luyen' (sai giống) — sync khi QA." },
     { "id": "tomah-teller", "status": "open", "desc": "Teller 'Tomah' (E908B i:199; EN 'Tomah', KR 토마) — Work đang 'Tomas' (HARD_SKIP teller) — sync trong pass teller." },
     { "id": "nursefather-term", "status": "open", "desc": "Nursefather = 'Cha nuôi Ngón X' (chốt batch 83: E901B/E905B/E906A/B/E907B/E908B/E909B); biến thể cũ 'Phụ thân Ngón'/'Bố già Ngón'/'Cha Ring' đã sweep ở E9xx — giữ chuẩn khi gặp lại." },
-    { "id": "kim-sakkat-name", "status": "open", "desc": "Kim Sakkat (nhân vật E9xx): chuẩn 'Kim Sát Cát' (repo 82; batch 84 sweep 'Kim Sakkat' ×11 ở E917B/E918A/E918B); corpus còn 'Kim Sakkat' 20 + 'Kim Sat-gat' 14 + 'Kim Sakkas' — sync khi QA." }
+    { "id": "kim-sakkat-name", "status": "open", "desc": "Kim Sakkat (nhân vật E9xx): chuẩn 'Kim Sát Cát' (repo 82; batch 84 sweep 'Kim Sakkat' ×11 ở E917B/E918A/E918B); corpus còn 'Kim Sakkat' 20 + 'Kim Sat-gat' 14 + 'Kim Sakkas' — sync khi QA." },
+    { "id": "nhac-phi-name", "status": "open", "desc": "Yue Fei / Nhạc Phi (Fixer E9xx, ES013A/B): EN 'Yue Fei'; batch 86 dùng Hán-Việt 'Nhạc Phi' (theo tiền lệ Kim Sát Cát) — nếu chốt Latin thì sync ES013A/B." },
+    { "id": "es-places", "status": "open", "desc": "Place series ES: 'Phòng Giảng đặc biệt tại Đại Quan Viên' (ES011A/B/ES012A) vs 'Đại Quan Viên - Phòng Giảng đặc biệt' (ES012B) — chốt 1 dạng; casing 'Đại Quán Viên'→'Đại Quan Viên' (batch 86 sync ES013B)." }
   ]
 }
