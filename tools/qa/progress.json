@@ -3357,6 +3357,40 @@
     "StoryData/ES070B.json"
    ],
    "note": "Batch87: StoryData ES030A-ES070B (10 file); ~298 sua (worker) + sweep 2 (Sword->Saude, Hong Vien); 0 ERROR; WARN = ngoac <>"
+  },
+  {
+   "ts": "2026-11-06T21:58:20.242Z",
+   "action": "claim",
+   "files": [
+    "StoryData/ES090B.json",
+    "StoryData/ES120A.json",
+    "StoryData/ES120B.json",
+    "StoryData/ES130A.json",
+    "StoryData/ES130B.json",
+    "StoryData/ES150B.json",
+    "StoryData/ES180A.json",
+    "StoryData/ES180B.json",
+    "StoryData/ES190B.json",
+    "StoryData/ES210B.json"
+   ],
+   "note": "Batch88: StoryData tiep (ES)"
+  },
+  {
+   "ts": "2026-11-07T18:23:03.622Z",
+   "action": "done",
+   "files": [
+    "StoryData/ES090B.json",
+    "StoryData/ES120A.json",
+    "StoryData/ES120B.json",
+    "StoryData/ES130A.json",
+    "StoryData/ES130B.json",
+    "StoryData/ES150B.json",
+    "StoryData/ES180A.json",
+    "StoryData/ES180B.json",
+    "StoryData/ES190B.json",
+    "StoryData/ES210B.json"
+   ],
+   "note": "Batch88: StoryData ES090B-ES210B (10 file); ~397 sua (worker) + sweep 4 + fix model ES120B (20) & ES190B (8, khoi phuc theo EN/KR); 0 ERROR; WARN = ngoac <>"
   }
  ],
  "files": {
@@ -27086,72 +27120,202 @@
   "StoryData/ES090B.json": {
    "group": "story",
    "size": 5034,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-11-06T21:58:20.241Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-11-07T18:23:03.616Z",
+     "action": "done",
+     "note": "Batch88: StoryData ES090B-ES210B (10 file); ~397 sua (worker) + sweep 4 + fix model ES120B (20) & ES190B (8, khoi phuc theo EN/KR); 0 ERROR; WARN = ngoac <>"
+    }
+   ],
+   "started": "2026-11-06T21:58:20.241Z",
+   "finished": "2026-11-07T18:23:03.616Z",
+   "note": "Batch88: StoryData ES090B-ES210B (10 file); ~397 sua (worker) + sweep 4 + fix model ES120B (20) & ES190B (8, khoi phuc theo EN/KR); 0 ERROR; WARN = ngoac <>"
   },
   "StoryData/ES120A.json": {
    "group": "story",
    "size": 5098,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-11-06T21:58:20.241Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-11-07T18:23:03.616Z",
+     "action": "done",
+     "note": "Batch88: StoryData ES090B-ES210B (10 file); ~397 sua (worker) + sweep 4 + fix model ES120B (20) & ES190B (8, khoi phuc theo EN/KR); 0 ERROR; WARN = ngoac <>"
+    }
+   ],
+   "started": "2026-11-06T21:58:20.241Z",
+   "finished": "2026-11-07T18:23:03.616Z",
+   "note": "Batch88: StoryData ES090B-ES210B (10 file); ~397 sua (worker) + sweep 4 + fix model ES120B (20) & ES190B (8, khoi phuc theo EN/KR); 0 ERROR; WARN = ngoac <>"
   },
   "StoryData/ES120B.json": {
    "group": "story",
    "size": 3889,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-11-06T21:58:20.241Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-11-07T18:23:03.616Z",
+     "action": "done",
+     "note": "Batch88: StoryData ES090B-ES210B (10 file); ~397 sua (worker) + sweep 4 + fix model ES120B (20) & ES190B (8, khoi phuc theo EN/KR); 0 ERROR; WARN = ngoac <>"
+    }
+   ],
+   "started": "2026-11-06T21:58:20.241Z",
+   "finished": "2026-11-07T18:23:03.616Z",
+   "note": "Batch88: StoryData ES090B-ES210B (10 file); ~397 sua (worker) + sweep 4 + fix model ES120B (20) & ES190B (8, khoi phuc theo EN/KR); 0 ERROR; WARN = ngoac <>"
   },
   "StoryData/ES130A.json": {
    "group": "story",
    "size": 6475,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-11-06T21:58:20.241Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-11-07T18:23:03.616Z",
+     "action": "done",
+     "note": "Batch88: StoryData ES090B-ES210B (10 file); ~397 sua (worker) + sweep 4 + fix model ES120B (20) & ES190B (8, khoi phuc theo EN/KR); 0 ERROR; WARN = ngoac <>"
+    }
+   ],
+   "started": "2026-11-06T21:58:20.241Z",
+   "finished": "2026-11-07T18:23:03.616Z",
+   "note": "Batch88: StoryData ES090B-ES210B (10 file); ~397 sua (worker) + sweep 4 + fix model ES120B (20) & ES190B (8, khoi phuc theo EN/KR); 0 ERROR; WARN = ngoac <>"
   },
   "StoryData/ES130B.json": {
    "group": "story",
    "size": 7102,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-11-06T21:58:20.241Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-11-07T18:23:03.616Z",
+     "action": "done",
+     "note": "Batch88: StoryData ES090B-ES210B (10 file); ~397 sua (worker) + sweep 4 + fix model ES120B (20) & ES190B (8, khoi phuc theo EN/KR); 0 ERROR; WARN = ngoac <>"
+    }
+   ],
+   "started": "2026-11-06T21:58:20.241Z",
+   "finished": "2026-11-07T18:23:03.616Z",
+   "note": "Batch88: StoryData ES090B-ES210B (10 file); ~397 sua (worker) + sweep 4 + fix model ES120B (20) & ES190B (8, khoi phuc theo EN/KR); 0 ERROR; WARN = ngoac <>"
   },
   "StoryData/ES150B.json": {
    "group": "story",
    "size": 11142,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-11-06T21:58:20.241Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-11-07T18:23:03.616Z",
+     "action": "done",
+     "note": "Batch88: StoryData ES090B-ES210B (10 file); ~397 sua (worker) + sweep 4 + fix model ES120B (20) & ES190B (8, khoi phuc theo EN/KR); 0 ERROR; WARN = ngoac <>"
+    }
+   ],
+   "started": "2026-11-06T21:58:20.241Z",
+   "finished": "2026-11-07T18:23:03.616Z",
+   "note": "Batch88: StoryData ES090B-ES210B (10 file); ~397 sua (worker) + sweep 4 + fix model ES120B (20) & ES190B (8, khoi phuc theo EN/KR); 0 ERROR; WARN = ngoac <>"
   },
   "StoryData/ES180A.json": {
    "group": "story",
    "size": 4241,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-11-06T21:58:20.241Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-11-07T18:23:03.616Z",
+     "action": "done",
+     "note": "Batch88: StoryData ES090B-ES210B (10 file); ~397 sua (worker) + sweep 4 + fix model ES120B (20) & ES190B (8, khoi phuc theo EN/KR); 0 ERROR; WARN = ngoac <>"
+    }
+   ],
+   "started": "2026-11-06T21:58:20.241Z",
+   "finished": "2026-11-07T18:23:03.616Z",
+   "note": "Batch88: StoryData ES090B-ES210B (10 file); ~397 sua (worker) + sweep 4 + fix model ES120B (20) & ES190B (8, khoi phuc theo EN/KR); 0 ERROR; WARN = ngoac <>"
   },
   "StoryData/ES180B.json": {
    "group": "story",
    "size": 5686,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-11-06T21:58:20.241Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-11-07T18:23:03.616Z",
+     "action": "done",
+     "note": "Batch88: StoryData ES090B-ES210B (10 file); ~397 sua (worker) + sweep 4 + fix model ES120B (20) & ES190B (8, khoi phuc theo EN/KR); 0 ERROR; WARN = ngoac <>"
+    }
+   ],
+   "started": "2026-11-06T21:58:20.241Z",
+   "finished": "2026-11-07T18:23:03.616Z",
+   "note": "Batch88: StoryData ES090B-ES210B (10 file); ~397 sua (worker) + sweep 4 + fix model ES120B (20) & ES190B (8, khoi phuc theo EN/KR); 0 ERROR; WARN = ngoac <>"
   },
   "StoryData/ES190B.json": {
    "group": "story",
    "size": 2837,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-11-06T21:58:20.241Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-11-07T18:23:03.616Z",
+     "action": "done",
+     "note": "Batch88: StoryData ES090B-ES210B (10 file); ~397 sua (worker) + sweep 4 + fix model ES120B (20) & ES190B (8, khoi phuc theo EN/KR); 0 ERROR; WARN = ngoac <>"
+    }
+   ],
+   "started": "2026-11-06T21:58:20.241Z",
+   "finished": "2026-11-07T18:23:03.616Z",
+   "note": "Batch88: StoryData ES090B-ES210B (10 file); ~397 sua (worker) + sweep 4 + fix model ES120B (20) & ES190B (8, khoi phuc theo EN/KR); 0 ERROR; WARN = ngoac <>"
   },
   "StoryData/ES210B.json": {
    "group": "story",
    "size": 21600,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-11-06T21:58:20.241Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-11-07T18:23:03.616Z",
+     "action": "done",
+     "note": "Batch88: StoryData ES090B-ES210B (10 file); ~397 sua (worker) + sweep 4 + fix model ES120B (20) & ES190B (8, khoi phuc theo EN/KR); 0 ERROR; WARN = ngoac <>"
+    }
+   ],
+   "started": "2026-11-06T21:58:20.241Z",
+   "finished": "2026-11-07T18:23:03.616Z",
+   "note": "Batch88: StoryData ES090B-ES210B (10 file); ~397 sua (worker) + sweep 4 + fix model ES120B (20) & ES190B (8, khoi phuc theo EN/KR); 0 ERROR; WARN = ngoac <>"
   },
   "StoryData/ES240A.json": {
    "group": "story",
@@ -32652,5 +32816,5 @@
    "history": []
   }
  },
- "updated": "2026-11-06T21:33:02.414Z"
+ "updated": "2026-11-07T18:23:03.622Z"
 }
