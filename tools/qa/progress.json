@@ -3391,6 +3391,40 @@
     "StoryData/ES210B.json"
    ],
    "note": "Batch88: StoryData ES090B-ES210B (10 file); ~397 sua (worker) + sweep 4 + fix model ES120B (20) & ES190B (8, khoi phuc theo EN/KR); 0 ERROR; WARN = ngoac <>"
+  },
+  {
+   "ts": "2026-11-07T18:36:10.528Z",
+   "action": "claim",
+   "files": [
+    "StoryData/ES240A.json",
+    "StoryData/ES240B.json",
+    "StoryData/ES250B.json",
+    "StoryData/ES260A.json",
+    "StoryData/ES260B.json",
+    "StoryData/ES280A.json",
+    "StoryData/ES290B.json",
+    "StoryData/ES300A.json",
+    "StoryData/P10102.json",
+    "StoryData/P10103.json"
+   ],
+   "note": "Batch89: StoryData tiep (ES)"
+  },
+  {
+   "ts": "2026-11-08T00:03:41.984Z",
+   "action": "done",
+   "files": [
+    "StoryData/ES240A.json",
+    "StoryData/ES240B.json",
+    "StoryData/ES250B.json",
+    "StoryData/ES260A.json",
+    "StoryData/ES260B.json",
+    "StoryData/ES280A.json",
+    "StoryData/ES290B.json",
+    "StoryData/ES300A.json",
+    "StoryData/P10102.json",
+    "StoryData/P10103.json"
+   ],
+   "note": "Batch89: StoryData ES240A-P10103 (10 file); ~377 sua (worker) + sweep 17 (Kiem He P10103 x14, Ngon Ut/Tieu Chi, Dai Quan Vien, Hong Vien); 0 ERROR; WARN = ngoac <>"
   }
  ],
  "files": {
@@ -27320,72 +27354,202 @@
   "StoryData/ES240A.json": {
    "group": "story",
    "size": 6461,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-11-07T18:36:10.527Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-11-08T00:03:41.980Z",
+     "action": "done",
+     "note": "Batch89: StoryData ES240A-P10103 (10 file); ~377 sua (worker) + sweep 17 (Kiem He P10103 x14, Ngon Ut/Tieu Chi, Dai Quan Vien, Hong Vien); 0 ERROR; WARN = ngoac <>"
+    }
+   ],
+   "started": "2026-11-07T18:36:10.527Z",
+   "finished": "2026-11-08T00:03:41.980Z",
+   "note": "Batch89: StoryData ES240A-P10103 (10 file); ~377 sua (worker) + sweep 17 (Kiem He P10103 x14, Ngon Ut/Tieu Chi, Dai Quan Vien, Hong Vien); 0 ERROR; WARN = ngoac <>"
   },
   "StoryData/ES240B.json": {
    "group": "story",
    "size": 2179,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-11-07T18:36:10.527Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-11-08T00:03:41.980Z",
+     "action": "done",
+     "note": "Batch89: StoryData ES240A-P10103 (10 file); ~377 sua (worker) + sweep 17 (Kiem He P10103 x14, Ngon Ut/Tieu Chi, Dai Quan Vien, Hong Vien); 0 ERROR; WARN = ngoac <>"
+    }
+   ],
+   "started": "2026-11-07T18:36:10.527Z",
+   "finished": "2026-11-08T00:03:41.980Z",
+   "note": "Batch89: StoryData ES240A-P10103 (10 file); ~377 sua (worker) + sweep 17 (Kiem He P10103 x14, Ngon Ut/Tieu Chi, Dai Quan Vien, Hong Vien); 0 ERROR; WARN = ngoac <>"
   },
   "StoryData/ES250B.json": {
    "group": "story",
    "size": 10058,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-11-07T18:36:10.527Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-11-08T00:03:41.980Z",
+     "action": "done",
+     "note": "Batch89: StoryData ES240A-P10103 (10 file); ~377 sua (worker) + sweep 17 (Kiem He P10103 x14, Ngon Ut/Tieu Chi, Dai Quan Vien, Hong Vien); 0 ERROR; WARN = ngoac <>"
+    }
+   ],
+   "started": "2026-11-07T18:36:10.527Z",
+   "finished": "2026-11-08T00:03:41.980Z",
+   "note": "Batch89: StoryData ES240A-P10103 (10 file); ~377 sua (worker) + sweep 17 (Kiem He P10103 x14, Ngon Ut/Tieu Chi, Dai Quan Vien, Hong Vien); 0 ERROR; WARN = ngoac <>"
   },
   "StoryData/ES260A.json": {
    "group": "story",
    "size": 6097,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-11-07T18:36:10.527Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-11-08T00:03:41.980Z",
+     "action": "done",
+     "note": "Batch89: StoryData ES240A-P10103 (10 file); ~377 sua (worker) + sweep 17 (Kiem He P10103 x14, Ngon Ut/Tieu Chi, Dai Quan Vien, Hong Vien); 0 ERROR; WARN = ngoac <>"
+    }
+   ],
+   "started": "2026-11-07T18:36:10.527Z",
+   "finished": "2026-11-08T00:03:41.980Z",
+   "note": "Batch89: StoryData ES240A-P10103 (10 file); ~377 sua (worker) + sweep 17 (Kiem He P10103 x14, Ngon Ut/Tieu Chi, Dai Quan Vien, Hong Vien); 0 ERROR; WARN = ngoac <>"
   },
   "StoryData/ES260B.json": {
    "group": "story",
    "size": 6017,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-11-07T18:36:10.527Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-11-08T00:03:41.980Z",
+     "action": "done",
+     "note": "Batch89: StoryData ES240A-P10103 (10 file); ~377 sua (worker) + sweep 17 (Kiem He P10103 x14, Ngon Ut/Tieu Chi, Dai Quan Vien, Hong Vien); 0 ERROR; WARN = ngoac <>"
+    }
+   ],
+   "started": "2026-11-07T18:36:10.527Z",
+   "finished": "2026-11-08T00:03:41.980Z",
+   "note": "Batch89: StoryData ES240A-P10103 (10 file); ~377 sua (worker) + sweep 17 (Kiem He P10103 x14, Ngon Ut/Tieu Chi, Dai Quan Vien, Hong Vien); 0 ERROR; WARN = ngoac <>"
   },
   "StoryData/ES280A.json": {
    "group": "story",
    "size": 8110,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-11-07T18:36:10.527Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-11-08T00:03:41.980Z",
+     "action": "done",
+     "note": "Batch89: StoryData ES240A-P10103 (10 file); ~377 sua (worker) + sweep 17 (Kiem He P10103 x14, Ngon Ut/Tieu Chi, Dai Quan Vien, Hong Vien); 0 ERROR; WARN = ngoac <>"
+    }
+   ],
+   "started": "2026-11-07T18:36:10.527Z",
+   "finished": "2026-11-08T00:03:41.980Z",
+   "note": "Batch89: StoryData ES240A-P10103 (10 file); ~377 sua (worker) + sweep 17 (Kiem He P10103 x14, Ngon Ut/Tieu Chi, Dai Quan Vien, Hong Vien); 0 ERROR; WARN = ngoac <>"
   },
   "StoryData/ES290B.json": {
    "group": "story",
    "size": 35389,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-11-07T18:36:10.527Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-11-08T00:03:41.980Z",
+     "action": "done",
+     "note": "Batch89: StoryData ES240A-P10103 (10 file); ~377 sua (worker) + sweep 17 (Kiem He P10103 x14, Ngon Ut/Tieu Chi, Dai Quan Vien, Hong Vien); 0 ERROR; WARN = ngoac <>"
+    }
+   ],
+   "started": "2026-11-07T18:36:10.527Z",
+   "finished": "2026-11-08T00:03:41.980Z",
+   "note": "Batch89: StoryData ES240A-P10103 (10 file); ~377 sua (worker) + sweep 17 (Kiem He P10103 x14, Ngon Ut/Tieu Chi, Dai Quan Vien, Hong Vien); 0 ERROR; WARN = ngoac <>"
   },
   "StoryData/ES300A.json": {
    "group": "story",
    "size": 9402,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-11-07T18:36:10.527Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-11-08T00:03:41.980Z",
+     "action": "done",
+     "note": "Batch89: StoryData ES240A-P10103 (10 file); ~377 sua (worker) + sweep 17 (Kiem He P10103 x14, Ngon Ut/Tieu Chi, Dai Quan Vien, Hong Vien); 0 ERROR; WARN = ngoac <>"
+    }
+   ],
+   "started": "2026-11-07T18:36:10.527Z",
+   "finished": "2026-11-08T00:03:41.980Z",
+   "note": "Batch89: StoryData ES240A-P10103 (10 file); ~377 sua (worker) + sweep 17 (Kiem He P10103 x14, Ngon Ut/Tieu Chi, Dai Quan Vien, Hong Vien); 0 ERROR; WARN = ngoac <>"
   },
   "StoryData/P10102.json": {
    "group": "story",
    "size": 4322,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-11-07T18:36:10.527Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-11-08T00:03:41.980Z",
+     "action": "done",
+     "note": "Batch89: StoryData ES240A-P10103 (10 file); ~377 sua (worker) + sweep 17 (Kiem He P10103 x14, Ngon Ut/Tieu Chi, Dai Quan Vien, Hong Vien); 0 ERROR; WARN = ngoac <>"
+    }
+   ],
+   "started": "2026-11-07T18:36:10.527Z",
+   "finished": "2026-11-08T00:03:41.980Z",
+   "note": "Batch89: StoryData ES240A-P10103 (10 file); ~377 sua (worker) + sweep 17 (Kiem He P10103 x14, Ngon Ut/Tieu Chi, Dai Quan Vien, Hong Vien); 0 ERROR; WARN = ngoac <>"
   },
   "StoryData/P10103.json": {
    "group": "story",
    "size": 4529,
-   "status": "pending",
-   "attempts": 0,
-   "history": []
+   "status": "done",
+   "attempts": 1,
+   "history": [
+    {
+     "ts": "2026-11-07T18:36:10.527Z",
+     "action": "claim"
+    },
+    {
+     "ts": "2026-11-08T00:03:41.980Z",
+     "action": "done",
+     "note": "Batch89: StoryData ES240A-P10103 (10 file); ~377 sua (worker) + sweep 17 (Kiem He P10103 x14, Ngon Ut/Tieu Chi, Dai Quan Vien, Hong Vien); 0 ERROR; WARN = ngoac <>"
+    }
+   ],
+   "started": "2026-11-07T18:36:10.527Z",
+   "finished": "2026-11-08T00:03:41.980Z",
+   "note": "Batch89: StoryData ES240A-P10103 (10 file); ~377 sua (worker) + sweep 17 (Kiem He P10103 x14, Ngon Ut/Tieu Chi, Dai Quan Vien, Hong Vien); 0 ERROR; WARN = ngoac <>"
   },
   "StoryData/P10104.json": {
    "group": "story",
@@ -32816,5 +32980,5 @@
    "history": []
   }
  },
- "updated": "2026-11-07T18:23:03.622Z"
+ "updated": "2026-11-08T00:03:41.984Z"
 }
